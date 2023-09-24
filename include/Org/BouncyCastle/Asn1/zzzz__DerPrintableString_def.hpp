@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -75,20 +75,17 @@ static Org::BouncyCastle::Asn1::DerPrintableString GetInstance(::bs_hook::Il2Cpp
 /// @brief Method GetInstance addr 0x11387c4 size 0xec virtual false final false
 static Org::BouncyCastle::Asn1::DerPrintableString GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerPrintableString(::ArrayW<uint8_t> str) ;
+static Org::BouncyCastle::Asn1::DerPrintableString New_ctor(::ArrayW<uint8_t> str) ;
 
 /// @brief Method .ctor addr 0x112c188 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DerPrintableString(::StringW str) ;
+static Org::BouncyCastle::Asn1::DerPrintableString New_ctor(::StringW str) ;
 
 /// @brief Method .ctor addr 0x1138988 size 0x8 virtual false final false
  void _ctor(::StringW str) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validate", ty: "bool", modifiers: "", def_value: None }]
-explicit DerPrintableString(::StringW str, bool validate) ;
+static Org::BouncyCastle::Asn1::DerPrintableString New_ctor(::StringW str, bool validate) ;
 
 /// @brief Method .ctor addr 0x11388b0 size 0xd8 virtual false final false
  void _ctor(::StringW str, bool validate) ;

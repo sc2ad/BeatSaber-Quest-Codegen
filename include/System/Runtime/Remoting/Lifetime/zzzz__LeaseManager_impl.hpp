@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseManager_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/Threading/zzzz__Timer_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Lifetime::LeaseManager.SetPollTime
 template<>
@@ -163,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Lifetime::LeaseManager::LeaseManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LeaseManager>())) {}
+ System::Runtime::Remoting::Lifetime::LeaseManager System::Runtime::Remoting::Lifetime::LeaseManager::New_ctor()  {
+System::Runtime::Remoting::Lifetime::LeaseManager o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Lifetime::LeaseManager>())};
+return o;
+}
  void System::Runtime::Remoting::Lifetime::LeaseManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Lifetime::LeaseManager>::get(),

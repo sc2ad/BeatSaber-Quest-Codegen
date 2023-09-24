@@ -59,8 +59,10 @@ constexpr void System::Runtime::Remoting::ActivatedServiceTypeEntry::__set_obj_t
 constexpr System::Type System::Runtime::Remoting::ActivatedServiceTypeEntry::__get_obj_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ActivatedServiceTypeEntry::ActivatedServiceTypeEntry(::StringW typeName, ::StringW assemblyName)  : System::Runtime::Remoting::TypeEntry(THROW_UNLESS(::il2cpp_utils::New<ActivatedServiceTypeEntry>(typeName, assemblyName))) {}
+ System::Runtime::Remoting::ActivatedServiceTypeEntry System::Runtime::Remoting::ActivatedServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName)  {
+System::Runtime::Remoting::ActivatedServiceTypeEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ActivatedServiceTypeEntry>(typeName, assemblyName))};
+return o;
+}
  void System::Runtime::Remoting::ActivatedServiceTypeEntry::_ctor(::StringW typeName, ::StringW assemblyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ActivatedServiceTypeEntry>::get(),

@@ -4,22 +4,23 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventTrace_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventTrace_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator._ctor
 template<>
 
@@ -152,8 +153,10 @@ constexpr void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__Low
 constexpr UnityEngine::InputSystem::LowLevel::InputEventPtr UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator::__get_m_Current() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::LowLevel::InputEventPtr, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "trace", ty: "UnityEngine::InputSystem::LowLevel::InputEventTrace", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator(UnityEngine::InputSystem::LowLevel::InputEventTrace trace)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator>(trace))) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator::New_ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace)  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator>(trace))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator::_ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__Enumerator>::get(),
@@ -264,8 +267,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::UnityEngine__InputSyst
  System::Comparison_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c::__get___9__38_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>, "<>9__38_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c>::get(),
@@ -324,8 +329,10 @@ constexpr void GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTr
 constexpr int32_t GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0::__get_originalDeviceId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0 GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController____c__DisplayClass43_0>::get(),
@@ -929,8 +936,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputDevice>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "trace", ty: "UnityEngine::InputSystem::LowLevel::InputEventTrace", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController(UnityEngine::InputSystem::LowLevel::InputEventTrace trace)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController>(trace))) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController::New_ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace)  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController>(trace))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController::_ctor(UnityEngine::InputSystem::LowLevel::InputEventTrace trace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventTrace__ReplayController>::get(),
@@ -2309,8 +2318,14 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "device", ty: "UnityEngine::InputSystem::InputDevice", modifiers: "", def_value: None }, CppParam { name: "bufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: Some("1048576") }, CppParam { name: "growBuffer", ty: "bool", modifiers: "", def_value: Some("false") }, CppParam { name: "maxBufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: Some("-1") }, CppParam { name: "growIncrementSizeInBytes", ty: "int64_t", modifiers: "", def_value: Some("-1") }]
- UnityEngine::InputSystem::LowLevel::InputEventTrace::InputEventTrace(UnityEngine::InputSystem::InputDevice device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputEventTrace>(device, bufferSizeInBytes, growBuffer, maxBufferSizeInBytes, growIncrementSizeInBytes))) {}
+/// @param bufferSizeInBytes: int64_t (default: 1048576)
+/// @param growBuffer: bool (default: false)
+/// @param maxBufferSizeInBytes: int64_t (default: -1)
+/// @param growIncrementSizeInBytes: int64_t (default: -1)
+ UnityEngine::InputSystem::LowLevel::InputEventTrace UnityEngine::InputSystem::LowLevel::InputEventTrace::New_ctor(UnityEngine::InputSystem::InputDevice device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes)  {
+UnityEngine::InputSystem::LowLevel::InputEventTrace o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputEventTrace>(device, bufferSizeInBytes, growBuffer, maxBufferSizeInBytes, growIncrementSizeInBytes))};
+return o;
+}
 /// @param bufferSizeInBytes: int64_t (default: 1048576)
 /// @param growBuffer: bool (default: false)
 /// @param maxBufferSizeInBytes: int64_t (default: -1)
@@ -2324,8 +2339,14 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, device, bufferSizeInBytes, growBuffer, maxBufferSizeInBytes, growIncrementSizeInBytes);
 }
-// Ctor Parameters [CppParam { name: "bufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: Some("1048576") }, CppParam { name: "growBuffer", ty: "bool", modifiers: "", def_value: Some("false") }, CppParam { name: "maxBufferSizeInBytes", ty: "int64_t", modifiers: "", def_value: Some("-1") }, CppParam { name: "growIncrementSizeInBytes", ty: "int64_t", modifiers: "", def_value: Some("-1") }]
- UnityEngine::InputSystem::LowLevel::InputEventTrace::InputEventTrace(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputEventTrace>(bufferSizeInBytes, growBuffer, maxBufferSizeInBytes, growIncrementSizeInBytes))) {}
+/// @param bufferSizeInBytes: int64_t (default: 1048576)
+/// @param growBuffer: bool (default: false)
+/// @param maxBufferSizeInBytes: int64_t (default: -1)
+/// @param growIncrementSizeInBytes: int64_t (default: -1)
+ UnityEngine::InputSystem::LowLevel::InputEventTrace UnityEngine::InputSystem::LowLevel::InputEventTrace::New_ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes)  {
+UnityEngine::InputSystem::LowLevel::InputEventTrace o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputEventTrace>(bufferSizeInBytes, growBuffer, maxBufferSizeInBytes, growIncrementSizeInBytes))};
+return o;
+}
 /// @param bufferSizeInBytes: int64_t (default: 1048576)
 /// @param growBuffer: bool (default: false)
 /// @param maxBufferSizeInBytes: int64_t (default: -1)

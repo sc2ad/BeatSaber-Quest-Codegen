@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockPlayerFiniteStateMachine_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockPlayerFiniteStateMachine._ctor
 template<>
 
@@ -267,8 +267,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 constexpr  GlobalNamespace::MockPlayerFiniteStateMachine::operator System::IDisposable() const noexcept {
 return System::IDisposable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "menuRpcManager", ty: "GlobalNamespace::IMenuRpcManager", modifiers: "", def_value: None }, CppParam { name: "beatmapDataProvider", ty: "GlobalNamespace::IMockBeatmapDataProvider", modifiers: "", def_value: None }, CppParam { name: "lobbyPoseGenerator", ty: "GlobalNamespace::MockPlayerLobbyPoseGenerator", modifiers: "", def_value: None }, CppParam { name: "gamePoseGenerator", ty: "GlobalNamespace::MockPlayerGamePoseGenerator", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerFiniteStateMachine::MockPlayerFiniteStateMachine(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMenuRpcManager menuRpcManager, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::MockPlayerLobbyPoseGenerator lobbyPoseGenerator, GlobalNamespace::MockPlayerGamePoseGenerator gamePoseGenerator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockPlayerFiniteStateMachine>(multiplayerSessionManager, gameplayRpcManager, menuRpcManager, beatmapDataProvider, lobbyPoseGenerator, gamePoseGenerator))) {}
+ GlobalNamespace::MockPlayerFiniteStateMachine GlobalNamespace::MockPlayerFiniteStateMachine::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMenuRpcManager menuRpcManager, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::MockPlayerLobbyPoseGenerator lobbyPoseGenerator, GlobalNamespace::MockPlayerGamePoseGenerator gamePoseGenerator)  {
+GlobalNamespace::MockPlayerFiniteStateMachine o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerFiniteStateMachine>(multiplayerSessionManager, gameplayRpcManager, menuRpcManager, beatmapDataProvider, lobbyPoseGenerator, gamePoseGenerator))};
+return o;
+}
  void GlobalNamespace::MockPlayerFiniteStateMachine::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMenuRpcManager menuRpcManager, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::MockPlayerLobbyPoseGenerator lobbyPoseGenerator, GlobalNamespace::MockPlayerGamePoseGenerator gamePoseGenerator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerFiniteStateMachine>::get(),

@@ -47,8 +47,7 @@ constexpr explicit ReflectionBlockedAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit ReflectionBlockedAttribute() ;
+static System::Runtime::CompilerServices::ReflectionBlockedAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236f0d8 size 0x8 virtual false final false
  void _ctor() ;

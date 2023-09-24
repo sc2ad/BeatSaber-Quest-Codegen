@@ -3,17 +3,17 @@
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 namespace GlobalNamespace {
 class FillIndicator;
 }
-namespace UnityEngine::UI {
-class Image;
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,7 @@ constexpr GlobalNamespace::FillIndicator __get__fillIndicator() const;
 /// @brief Method HighlightDidChange addr 0x2122ec0 size 0x40 virtual true final false
  void HighlightDidChange(HMUI::HMUI__SelectableCell__TransitionType transitionType) ;
 
-// Ctor Parameters []
-explicit DifficultyTableCell() ;
+static GlobalNamespace::DifficultyTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2122f00 size 0x8 virtual false final false
  void _ctor() ;

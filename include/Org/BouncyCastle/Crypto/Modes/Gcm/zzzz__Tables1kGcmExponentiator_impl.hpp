@@ -107,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bit);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Tables1kGcmExponentiator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tables1kGcmExponentiator>())) {}
+ Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::New_ctor()  {
+Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator>::get(),

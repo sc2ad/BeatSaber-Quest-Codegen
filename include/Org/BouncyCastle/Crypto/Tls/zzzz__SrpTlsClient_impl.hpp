@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsClient_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SrpTlsClient_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpGroupVerifier_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::SrpTlsClient._ctor
 template<>
@@ -194,8 +194,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::SrpTlsClient::__set_mPassword(::A
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::SrpTlsClient::__get_mPassword() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SrpTlsClient::SrpTlsClient(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsClient(THROW_UNLESS(::il2cpp_utils::New<SrpTlsClient>(identity, password))) {}
+ Org::BouncyCastle::Crypto::Tls::SrpTlsClient Org::BouncyCastle::Crypto::Tls::SrpTlsClient::New_ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  {
+Org::BouncyCastle::Crypto::Tls::SrpTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SrpTlsClient>(identity, password))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SrpTlsClient::_ctor(::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SrpTlsClient>::get(),
@@ -205,8 +207,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, identity, password);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SrpTlsClient::SrpTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsClient(THROW_UNLESS(::il2cpp_utils::New<SrpTlsClient>(cipherFactory, identity, password))) {}
+ Org::BouncyCastle::Crypto::Tls::SrpTlsClient Org::BouncyCastle::Crypto::Tls::SrpTlsClient::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  {
+Org::BouncyCastle::Crypto::Tls::SrpTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SrpTlsClient>(cipherFactory, identity, password))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SrpTlsClient::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SrpTlsClient>::get(),
@@ -216,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipherFactory, identity, password);
 }
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "groupVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SrpTlsClient::SrpTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  : Org::BouncyCastle::Crypto::Tls::AbstractTlsClient(THROW_UNLESS(::il2cpp_utils::New<SrpTlsClient>(cipherFactory, groupVerifier, identity, password))) {}
+ Org::BouncyCastle::Crypto::Tls::SrpTlsClient Org::BouncyCastle::Crypto::Tls::SrpTlsClient::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  {
+Org::BouncyCastle::Crypto::Tls::SrpTlsClient o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SrpTlsClient>(cipherFactory, groupVerifier, identity, password))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SrpTlsClient::_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier groupVerifier, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SrpTlsClient>::get(),

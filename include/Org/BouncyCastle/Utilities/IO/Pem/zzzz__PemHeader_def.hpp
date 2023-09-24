@@ -71,8 +71,7 @@ constexpr ::StringW __get_val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "val", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PemHeader(::StringW name, ::StringW val) ;
+static Org::BouncyCastle::Utilities::IO::Pem::PemHeader New_ctor(::StringW name, ::StringW val) ;
 
 /// @brief Method .ctor addr 0x10d3750 size 0x2c virtual false final false
  void _ctor(::StringW name, ::StringW val) ;

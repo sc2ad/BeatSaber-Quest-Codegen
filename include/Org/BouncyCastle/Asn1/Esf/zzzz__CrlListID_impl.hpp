@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlListID_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlValidatedID_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Esf::CrlListID.GetInstance
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Esf::CrlListID, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CrlListID::CrlListID(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CrlListID>(seq))) {}
+ Org::BouncyCastle::Asn1::Esf::CrlListID Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Esf::CrlListID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CrlListID>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CrlListID>::get(),
@@ -133,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "crls", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CrlListID::CrlListID(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID> crls)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CrlListID>(crls))) {}
+ Org::BouncyCastle::Asn1::Esf::CrlListID Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID> crls)  {
+Org::BouncyCastle::Asn1::Esf::CrlListID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CrlListID>(crls))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::CrlValidatedID> crls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CrlListID>::get(),
@@ -144,8 +148,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, crls);
 }
-// Ctor Parameters [CppParam { name: "crls", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Esf::CrlListID::CrlListID(System::Collections::IEnumerable crls)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CrlListID>(crls))) {}
+ Org::BouncyCastle::Asn1::Esf::CrlListID Org::BouncyCastle::Asn1::Esf::CrlListID::New_ctor(System::Collections::IEnumerable crls)  {
+Org::BouncyCastle::Asn1::Esf::CrlListID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Esf::CrlListID>(crls))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor(System::Collections::IEnumerable crls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Esf::CrlListID>::get(),

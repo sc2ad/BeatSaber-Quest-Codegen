@@ -52,8 +52,7 @@ constexpr explicit PercentSlider(void* ptr) noexcept : HMUI::RangeValuesTextSlid
 /// @brief Method TextForValue addr 0x1faf31c size 0x8c virtual true final false
  ::StringW TextForValue(float_t value) ;
 
-// Ctor Parameters []
-explicit PercentSlider() ;
+static HMUI::PercentSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faf3a8 size 0xc virtual false final false
  void _ctor() ;

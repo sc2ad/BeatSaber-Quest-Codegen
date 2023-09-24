@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ExcludeFromPresetAttribute::ExcludeFromPresetAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExcludeFromPresetAttribute>())) {}
+ UnityEngine::ExcludeFromPresetAttribute UnityEngine::ExcludeFromPresetAttribute::New_ctor()  {
+UnityEngine::ExcludeFromPresetAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ExcludeFromPresetAttribute>())};
+return o;
+}
  void UnityEngine::ExcludeFromPresetAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ExcludeFromPresetAttribute>::get(),

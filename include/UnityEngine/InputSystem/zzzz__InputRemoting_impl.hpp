@@ -2,17 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputRemoting_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -173,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber::UnityEngine__InputSystem__InputRemoting__Subscriber()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputRemoting__Subscriber>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputRemoting__Subscriber>::get(),
@@ -446,8 +449,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::UnityEngine__InputSyst
  System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW> GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c::__get___9__1_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputRemoting__NewDeviceMsg____c>::get(),
@@ -684,8 +689,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::UnityEngine__InputSyst
  System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW> GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c::__get___9__1_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::StringW>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__InputRemoting__ChangeUsageMsg____c>::get(),
@@ -1266,8 +1273,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "manager", ty: "UnityEngine::InputSystem::InputManager", modifiers: "", def_value: None }, CppParam { name: "startSendingOnConnect", ty: "bool", modifiers: "", def_value: Some("false") }]
- UnityEngine::InputSystem::InputRemoting::InputRemoting(UnityEngine::InputSystem::InputManager manager, bool startSendingOnConnect)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputRemoting>(manager, startSendingOnConnect))) {}
+/// @param startSendingOnConnect: bool (default: false)
+ UnityEngine::InputSystem::InputRemoting UnityEngine::InputSystem::InputRemoting::New_ctor(UnityEngine::InputSystem::InputManager manager, bool startSendingOnConnect)  {
+UnityEngine::InputSystem::InputRemoting o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::InputRemoting>(manager, startSendingOnConnect))};
+return o;
+}
 /// @param startSendingOnConnect: bool (default: false)
  void UnityEngine::InputSystem::InputRemoting::_ctor(UnityEngine::InputSystem::InputManager manager, bool startSendingOnConnect)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

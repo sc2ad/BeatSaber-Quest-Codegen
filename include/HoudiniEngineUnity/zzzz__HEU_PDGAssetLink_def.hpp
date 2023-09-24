@@ -9,53 +9,59 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
-}
-namespace HoudiniEngineUnity {
 class HEU_WorkItemTally;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemResultInfo;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PDG_WorkitemInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_ReloadEventData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
-class TOPNodeTags;
-}
-namespace HoudiniEngineUnity {
-class HEU_CookedEventData;
+class HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate;
 }
 namespace HoudiniEngineUnity {
 class HEU_TOPWorkResult;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNetworkData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
+class HEU_TOPNodeData;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_PDGAssetLink__LinkState;
+}
+namespace HoudiniEngineUnity {
+class TOPNodeTags;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemInfo;
+}
+namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace HoudiniEngineUnity {
+class HEU_ReloadEventData;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPNetworkData;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_WorkitemResultInfo;
+}
+namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_CookedEventData;
 }
 namespace System {
 class IAsyncResult;
@@ -125,6 +131,8 @@ constexpr operator __HoudiniEngineUnity__HEU_PDGAssetLink__LinkState_Unwrapped (
 return std::bit_cast<__HoudiniEngineUnity__HEU_PDGAssetLink__LinkState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -192,8 +200,7 @@ constexpr explicit HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__UpdateUIDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x202afb8 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -509,8 +516,7 @@ static void ParseHEngineData(HoudiniEngineUnity::HEU_SessionBase session, int32_
 /// @brief Method get_AssetLinkState addr 0x202aec8 size 0x8 virtual false final false
  HoudiniEngineUnity::HoudiniEngineUnity__HEU_PDGAssetLink__LinkState get_AssetLinkState() ;
 
-// Ctor Parameters []
-explicit HEU_PDGAssetLink() ;
+static HoudiniEngineUnity::HEU_PDGAssetLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x202aed0 size 0xe0 virtual false final false
  void _ctor() ;

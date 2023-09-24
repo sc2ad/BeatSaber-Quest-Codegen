@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
+#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Face.get_manualUV
 template<>
 
@@ -952,8 +952,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, i);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Face::Face()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Face>())) {}
+ UnityEngine::ProBuilder::Face UnityEngine::ProBuilder::Face::New_ctor()  {
+UnityEngine::ProBuilder::Face o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Face>())};
+return o;
+}
  void UnityEngine::ProBuilder::Face::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Face>::get(),
@@ -963,8 +965,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "indices", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Face::Face(System::Collections::Generic::IEnumerable_1<int32_t> indices)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Face>(indices))) {}
+ UnityEngine::ProBuilder::Face UnityEngine::ProBuilder::Face::New_ctor(System::Collections::Generic::IEnumerable_1<int32_t> indices)  {
+UnityEngine::ProBuilder::Face o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Face>(indices))};
+return o;
+}
  void UnityEngine::ProBuilder::Face::_ctor(System::Collections::Generic::IEnumerable_1<int32_t> indices)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Face>::get(),
@@ -974,8 +978,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, indices);
 }
-// Ctor Parameters [CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "u", ty: "UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Face::Face(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Face>(triangles, m, u, smoothing, texture, element, manualUVs))) {}
+ UnityEngine::ProBuilder::Face UnityEngine::ProBuilder::Face::New_ctor(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs)  {
+UnityEngine::ProBuilder::Face o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Face>(triangles, m, u, smoothing, texture, element, manualUVs))};
+return o;
+}
  void UnityEngine::ProBuilder::Face::_ctor(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Face>::get(),
@@ -985,8 +991,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, triangles, m, u, smoothing, texture, element, manualUVs);
 }
-// Ctor Parameters [CppParam { name: "triangles", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "u", ty: "UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Face::Face(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Face>(triangles, submeshIndex, u, smoothing, texture, element, manualUVs))) {}
+ UnityEngine::ProBuilder::Face UnityEngine::ProBuilder::Face::New_ctor(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs)  {
+UnityEngine::ProBuilder::Face o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Face>(triangles, submeshIndex, u, smoothing, texture, element, manualUVs))};
+return o;
+}
  void UnityEngine::ProBuilder::Face::_ctor(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Face>::get(),
@@ -996,8 +1004,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, triangles, submeshIndex, u, smoothing, texture, element, manualUVs);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::ProBuilder::Face", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Face::Face(UnityEngine::ProBuilder::Face other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Face>(other))) {}
+ UnityEngine::ProBuilder::Face UnityEngine::ProBuilder::Face::New_ctor(UnityEngine::ProBuilder::Face other)  {
+UnityEngine::ProBuilder::Face o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Face>(other))};
+return o;
+}
  void UnityEngine::ProBuilder::Face::_ctor(UnityEngine::ProBuilder::Face other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Face>::get(),

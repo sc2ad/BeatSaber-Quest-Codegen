@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyGenerationParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::__get_certainty() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "publicExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "strength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::RsaKeyGenerationParameters(Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<RsaKeyGenerationParameters>(publicExponent, random, strength, certainty))) {}
+ Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::New_ctor(Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty)  {
+Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters>(publicExponent, random, strength, certainty))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::_ctor(Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Security::SecureRandom random, int32_t strength, int32_t certainty)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters>::get(),

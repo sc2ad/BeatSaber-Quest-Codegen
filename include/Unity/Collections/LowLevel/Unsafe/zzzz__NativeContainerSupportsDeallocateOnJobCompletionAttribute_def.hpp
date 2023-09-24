@@ -47,8 +47,7 @@ constexpr explicit NativeContainerSupportsDeallocateOnJobCompletionAttribute(voi
 
 // Methods
 
-// Ctor Parameters []
-explicit NativeContainerSupportsDeallocateOnJobCompletionAttribute() ;
+static Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b28ad0 size 0x8 virtual false final false
  void _ctor() ;

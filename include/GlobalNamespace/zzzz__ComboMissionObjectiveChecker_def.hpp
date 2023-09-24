@@ -69,8 +69,7 @@ constexpr GlobalNamespace::ComboController __get__comboController() const;
 /// @brief Method HandleComboDidChange addr 0x20d605c size 0x50 virtual false final false
  void HandleComboDidChange(int32_t combo) ;
 
-// Ctor Parameters []
-explicit ComboMissionObjectiveChecker() ;
+static GlobalNamespace::ComboMissionObjectiveChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d60ac size 0x8 virtual false final false
  void _ctor() ;

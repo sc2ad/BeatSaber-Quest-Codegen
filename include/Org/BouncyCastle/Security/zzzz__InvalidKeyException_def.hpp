@@ -51,20 +51,17 @@ constexpr explicit InvalidKeyException(void* ptr) noexcept : Org::BouncyCastle::
 
 // Methods
 
-// Ctor Parameters []
-explicit InvalidKeyException() ;
+static Org::BouncyCastle::Security::InvalidKeyException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10a2cd8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::StringW message) ;
+static Org::BouncyCastle::Security::InvalidKeyException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10a2ce0 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit InvalidKeyException(::StringW message, System::Exception exception) ;
+static Org::BouncyCastle::Security::InvalidKeyException New_ctor(::StringW message, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x10a2ce8 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception exception) ;

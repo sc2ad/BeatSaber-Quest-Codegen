@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class SignatureSubpacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-class SignatureSubpacket;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -151,26 +151,22 @@ constexpr ::ArrayW<uint8_t> __get_signatureEncoding() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit SignaturePacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::SignaturePacket New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1143498 size 0xd7c virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "signatureType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "unhashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::ArrayW<Org::BouncyCastle::Bcpg::MPInteger>", modifiers: "", def_value: None }]
-explicit SignaturePacket(int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
+static Org::BouncyCastle::Bcpg::SignaturePacket New_ctor(int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
 
 /// @brief Method .ctor addr 0x1149d98 size 0x40 virtual false final false
  void _ctor(int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "signatureType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "creationTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::ArrayW<Org::BouncyCastle::Bcpg::MPInteger>", modifiers: "", def_value: None }]
-explicit SignaturePacket(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
+static Org::BouncyCastle::Bcpg::SignaturePacket New_ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
 
 /// @brief Method .ctor addr 0x1149e70 size 0x6c virtual false final false
  void _ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int64_t creationTime, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
 
-// Ctor Parameters [CppParam { name: "version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "signatureType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "hashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "unhashedData", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "::ArrayW<Org::BouncyCastle::Bcpg::MPInteger>", modifiers: "", def_value: None }]
-explicit SignaturePacket(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
+static Org::BouncyCastle::Bcpg::SignaturePacket New_ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;
 
 /// @brief Method .ctor addr 0x1149dd8 size 0x98 virtual false final false
  void _ctor(int32_t version, int32_t signatureType, int64_t keyId, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> hashedData, ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> unhashedData, ::ArrayW<uint8_t> fingerprint, ::ArrayW<Org::BouncyCastle::Bcpg::MPInteger> signature) ;

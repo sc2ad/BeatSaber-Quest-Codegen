@@ -7,11 +7,76 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass20_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass26_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass29_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass27_0;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass24_0;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass30_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass23_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass32_0;
+}
+namespace Zenject {
 class InjectContext;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass21_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass31_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass33_0;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass28_0;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase____c__DisplayClass34_0;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+template<typename TContract>
+class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+class Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17;
 }
 namespace UnityEngine {
 class Object;
@@ -20,36 +85,13 @@ namespace System {
 struct Guid;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class FactoryBindInfo;
-}
-namespace Zenject {
-template<typename TContract>
-class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -57,22 +99,22 @@ class InjectTypeInfo;
 namespace Zenject {
 class GameObjectCreationParameters;
 }
-namespace System::Collections::Generic {
-template<typename T>
-struct System__Collections__Generic__List_1__Enumerator;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
+namespace System::Collections::Generic {
+template<typename T>
+struct System__Collections__Generic__List_1__Enumerator;
+}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -217,8 +259,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17(int32_t __1__state) ;
+static Zenject::Zenject__FactoryFromBinderBase___get_AllParentTypes_d__17 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d52774 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -314,8 +355,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_instance() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass20_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass20_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5297c size 0x8 virtual false final false
  void _ctor() ;
@@ -390,8 +430,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_subIdentifier() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass21_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52984 size 0x8 virtual false final false
  void _ctor() ;
@@ -466,8 +505,7 @@ constexpr UnityEngine::GameObject __get_gameObject() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass23_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass23_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52a74 size 0x8 virtual false final false
  void _ctor() ;
@@ -542,8 +580,7 @@ constexpr System::Func_2<Zenject::InjectContext,UnityEngine::GameObject> __get_g
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass24_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass24_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52b58 size 0x8 virtual false final false
  void _ctor() ;
@@ -618,8 +655,7 @@ constexpr Zenject::FactoryFromBinderBase __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass26_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass26_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52cc8 size 0x8 virtual false final false
  void _ctor() ;
@@ -694,8 +730,7 @@ constexpr Zenject::FactoryFromBinderBase __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass27_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass27_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52dac size 0x8 virtual false final false
  void _ctor() ;
@@ -776,8 +811,7 @@ constexpr UnityEngine::Object __get_prefab() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass28_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass28_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52f0c size 0x8 virtual false final false
  void _ctor() ;
@@ -858,8 +892,7 @@ constexpr UnityEngine::Object __get_prefab() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass29_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass29_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d53088 size 0x8 virtual false final false
  void _ctor() ;
@@ -940,8 +973,7 @@ constexpr ::StringW __get_resourcePath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass30_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass30_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d531dc size 0x8 virtual false final false
  void _ctor() ;
@@ -1022,8 +1054,7 @@ constexpr ::StringW __get_resourcePath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass31_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass31_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5333c size 0x8 virtual false final false
  void _ctor() ;
@@ -1098,8 +1129,7 @@ constexpr Zenject::FactoryFromBinderBase __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass32_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass32_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d53420 size 0x8 virtual false final false
  void _ctor() ;
@@ -1174,8 +1204,7 @@ constexpr Zenject::FactoryFromBinderBase __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass33_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass33_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d53504 size 0x8 virtual false final false
  void _ctor() ;
@@ -1250,8 +1279,7 @@ constexpr Zenject::FactoryFromBinderBase __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__FactoryFromBinderBase____c__DisplayClass34_0() ;
+static Zenject::Zenject__FactoryFromBinderBase____c__DisplayClass34_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d535dc size 0x8 virtual false final false
  void _ctor() ;
@@ -1373,8 +1401,7 @@ constexpr System::Type __get__ContractType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindContainer", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "contractType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }]
-explicit FactoryFromBinderBase(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
+static Zenject::FactoryFromBinderBase New_ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d525dc size 0xb8 virtual false final false
  void _ctor(Zenject::DiContainer bindContainer, System::Type contractType, Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo) ;

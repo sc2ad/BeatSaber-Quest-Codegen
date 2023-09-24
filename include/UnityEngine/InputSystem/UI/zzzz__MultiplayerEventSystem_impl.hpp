@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UI::MultiplayerEventSystem::MultiplayerEventSystem()  : UnityEngine::EventSystems::EventSystem(THROW_UNLESS(::il2cpp_utils::New<MultiplayerEventSystem>())) {}
+ UnityEngine::InputSystem::UI::MultiplayerEventSystem UnityEngine::InputSystem::UI::MultiplayerEventSystem::New_ctor()  {
+UnityEngine::InputSystem::UI::MultiplayerEventSystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::MultiplayerEventSystem>())};
+return o;
+}
  void UnityEngine::InputSystem::UI::MultiplayerEventSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::MultiplayerEventSystem>::get(),

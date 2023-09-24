@@ -46,8 +46,10 @@ constexpr void HoudiniEngineUnity::Test_HAPI_ObjectInfo::__set_self(HoudiniEngin
 constexpr HoudiniEngineUnity::HAPI_ObjectInfo HoudiniEngineUnity::Test_HAPI_ObjectInfo::__get_self() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HAPI_ObjectInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_ObjectInfo", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_HAPI_ObjectInfo::Test_HAPI_ObjectInfo(HoudiniEngineUnity::HAPI_ObjectInfo self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_HAPI_ObjectInfo>(self))) {}
+ HoudiniEngineUnity::Test_HAPI_ObjectInfo HoudiniEngineUnity::Test_HAPI_ObjectInfo::New_ctor(HoudiniEngineUnity::HAPI_ObjectInfo self)  {
+HoudiniEngineUnity::Test_HAPI_ObjectInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_HAPI_ObjectInfo>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_HAPI_ObjectInfo::_ctor(HoudiniEngineUnity::HAPI_ObjectInfo self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_HAPI_ObjectInfo>::get(),

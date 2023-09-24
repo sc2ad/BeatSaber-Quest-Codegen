@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSRTPUtils_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__UseSrtpData_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils.AddUseSrtpExtension
 template<>
 
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Tls::UseSrtpData, false>(nullptr, ___internal_method, extensionData);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::TlsSRTPUtils()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsSRTPUtils>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils>::get(),

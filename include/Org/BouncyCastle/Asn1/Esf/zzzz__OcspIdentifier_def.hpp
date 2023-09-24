@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class ResponderID;
+}
 namespace System {
 struct DateTime;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class ResponderID;
+namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -88,14 +88,12 @@ constexpr Org::BouncyCastle::Asn1::DerGeneralizedTime __get_producedAt() const;
 /// @brief Method GetInstance addr 0xe0530c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::OcspIdentifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OcspIdentifier(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::OcspIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe05494 size 0x210 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "ocspResponderID", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponderID", modifiers: "", def_value: None }, CppParam { name: "producedAt", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit OcspIdentifier(Org::BouncyCastle::Asn1::Ocsp::ResponderID ocspResponderID, System::DateTime producedAt) ;
+static Org::BouncyCastle::Asn1::Esf::OcspIdentifier New_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID ocspResponderID, System::DateTime producedAt) ;
 
 /// @brief Method .ctor addr 0xe056a4 size 0xc4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::ResponderID ocspResponderID, System::DateTime producedAt) ;

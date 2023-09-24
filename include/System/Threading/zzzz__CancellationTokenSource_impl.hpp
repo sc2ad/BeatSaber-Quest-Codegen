@@ -1,19 +1,83 @@
 #pragma once
-#include "System/Threading/zzzz__CancellationTokenSource_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Threading/zzzz__Timer_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArray_1_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
-#include "System/Threading/zzzz__TimerCallback_def.hpp"
-#include "System/Threading/zzzz__SynchronizationContext_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__CancellationCallbackCoreWorkArguments_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
+#include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__TimerCallback_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_Linked2CancellationTokenSource_def.hpp"
+#include "System/Threading/zzzz__SynchronizationContext_def.hpp"
+#include "System/Threading/zzzz__Timer_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_LinkedNCancellationTokenSource_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_Linked1CancellationTokenSource_def.hpp"
+//  Writing Method size for method: GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::*)()>(&GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x24a6938;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c.__cctor_b__4_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::*)(::bs_hook::Il2CppWrapperType)>(&GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__cctor_b__4_0)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x24a6940;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
+                            "<.cctor>b__4_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+ void GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__set___9(GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c value)  {
+::cordl_internals::setStaticField<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get>(std::forward<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>(value));
+}
+ GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__get___9()  {
+return ::cordl_internals::getStaticField<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get>();
+}
+ GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::New_ctor()  {
+GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>())};
+return o;
+}
+ void GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ void GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__cctor_b__4_0(::bs_hook::Il2CppWrapperType s)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
+                            "<.cctor>b__4_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, s);
+}
 //  Writing Method size for method: System::Threading::CancellationTokenSource.get_IsCancellationRequested
 template<>
 
@@ -606,8 +670,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::CancellationCallbackInfo, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Threading::CancellationTokenSource::CancellationTokenSource()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CancellationTokenSource>())) {}
+ System::Threading::CancellationTokenSource System::Threading::CancellationTokenSource::New_ctor()  {
+System::Threading::CancellationTokenSource o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::CancellationTokenSource>())};
+return o;
+}
  void System::Threading::CancellationTokenSource::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::CancellationTokenSource>::get(),
@@ -617,8 +683,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "delay", ty: "System::TimeSpan", modifiers: "", def_value: None }]
- System::Threading::CancellationTokenSource::CancellationTokenSource(System::TimeSpan delay)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CancellationTokenSource>(delay))) {}
+ System::Threading::CancellationTokenSource System::Threading::CancellationTokenSource::New_ctor(System::TimeSpan delay)  {
+System::Threading::CancellationTokenSource o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::CancellationTokenSource>(delay))};
+return o;
+}
  void System::Threading::CancellationTokenSource::_ctor(System::TimeSpan delay)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::CancellationTokenSource>::get(),
@@ -789,196 +857,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationCallbackInfo>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callbackInfo);
-}
-//  Writing Method size for method: System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::*)(System::Threading::CancellationToken)>(&System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x24a638c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::*)(bool)>(&System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::Dispose)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24a67a0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource>::get(),
-                                  5
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::__set__reg1(System::Threading::CancellationTokenRegistration value)  {
-::cordl_internals::setInstanceField<System::Threading::CancellationTokenRegistration, 0x40>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::CancellationTokenRegistration>(value));
-}
-constexpr System::Threading::CancellationTokenRegistration System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::__get__reg1() const {
-return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenRegistration, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "token1", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource(System::Threading::CancellationToken token1)  : System::Threading::CancellationTokenSource(THROW_UNLESS(::il2cpp_utils::New<System__Threading__CancellationTokenSource__Linked1CancellationTokenSource>(token1))) {}
- void System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::_ctor(System::Threading::CancellationToken token1)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, token1);
-}
- void System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource::Dispose(bool disposing)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked1CancellationTokenSource>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
-}
-//  Writing Method size for method: System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::*)(System::Threading::CancellationToken, System::Threading::CancellationToken)>(&System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x24a6464;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::*)(bool)>(&System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::Dispose)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24a67d4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource>::get(),
-                                  5
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::__set__reg1(System::Threading::CancellationTokenRegistration value)  {
-::cordl_internals::setInstanceField<System::Threading::CancellationTokenRegistration, 0x40>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::CancellationTokenRegistration>(value));
-}
-constexpr System::Threading::CancellationTokenRegistration System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::__get__reg1() const {
-return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenRegistration, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::__set__reg2(System::Threading::CancellationTokenRegistration value)  {
-::cordl_internals::setInstanceField<System::Threading::CancellationTokenRegistration, 0x58>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::CancellationTokenRegistration>(value));
-}
-constexpr System::Threading::CancellationTokenRegistration System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::__get__reg2() const {
-return ::cordl_internals::getInstanceField<System::Threading::CancellationTokenRegistration, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "token1", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "token2", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource(System::Threading::CancellationToken token1, System::Threading::CancellationToken token2)  : System::Threading::CancellationTokenSource(THROW_UNLESS(::il2cpp_utils::New<System__Threading__CancellationTokenSource__Linked2CancellationTokenSource>(token1, token2))) {}
- void System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::_ctor(System::Threading::CancellationToken token1, System::Threading::CancellationToken token2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, token1, token2);
-}
- void System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource::Dispose(bool disposing)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__Linked2CancellationTokenSource>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
-}
-//  Writing Method size for method: GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::*)()>(&GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24a6938;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c.__cctor_b__4_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::*)(::bs_hook::Il2CppWrapperType)>(&GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__cctor_b__4_0)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x24a6940;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
-                            "<.cctor>b__4_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__set___9(GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c value)  {
-::cordl_internals::setStaticField<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get>(std::forward<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>(value));
-}
- GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__get___9()  {
-return ::cordl_internals::getStaticField<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get>();
-}
-// Ctor Parameters []
- GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>())) {}
- void GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- void GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c::__cctor_b__4_0(::bs_hook::Il2CppWrapperType s)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource____c>::get(),
-                            "<.cctor>b__4_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, s);
-}
- void System::Threading::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource::__set_s_linkedTokenCancelDelegate(System::Action_1<::bs_hook::Il2CppWrapperType> value)  {
-::cordl_internals::setStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "s_linkedTokenCancelDelegate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource>::get>(std::forward<System::Action_1<::bs_hook::Il2CppWrapperType>>(value));
-}
- System::Action_1<::bs_hook::Il2CppWrapperType> System::Threading::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource::__get_s_linkedTokenCancelDelegate()  {
-return ::cordl_internals::getStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "s_linkedTokenCancelDelegate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__CancellationTokenSource__LinkedNCancellationTokenSource>::get>();
 }

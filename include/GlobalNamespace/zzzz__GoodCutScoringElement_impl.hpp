@@ -1,11 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__GoodCutScoringElement_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
+#include "GlobalNamespace/zzzz__GoodCutScoringElement_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GoodCutScoringElement.get_cutScore
 template<>
 
@@ -253,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cutScoreBuffer);
 }
-// Ctor Parameters []
- GlobalNamespace::GoodCutScoringElement::GoodCutScoringElement()  : GlobalNamespace::ScoringElement(THROW_UNLESS(::il2cpp_utils::New<GoodCutScoringElement>())) {}
+ GlobalNamespace::GoodCutScoringElement GlobalNamespace::GoodCutScoringElement::New_ctor()  {
+GlobalNamespace::GoodCutScoringElement o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GoodCutScoringElement>())};
+return o;
+}
  void GlobalNamespace::GoodCutScoringElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GoodCutScoringElement>::get(),
@@ -281,8 +284,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool::GlobalNamespace__GoodCutScoringElement__Pool()  : GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1<GlobalNamespace::GoodCutScoringElement>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GoodCutScoringElement__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GoodCutScoringElement__Pool>::get(),

@@ -48,8 +48,7 @@ constexpr explicit DoubleControl(void* ptr) noexcept : UnityEngine::InputSystem:
 
 // Methods
 
-// Ctor Parameters []
-explicit DoubleControl() ;
+static UnityEngine::InputSystem::Controls::DoubleControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977e48 size 0x88 virtual false final false
  void _ctor() ;

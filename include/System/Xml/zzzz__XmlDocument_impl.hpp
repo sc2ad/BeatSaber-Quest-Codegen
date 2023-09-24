@@ -1,42 +1,42 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedEventHandler_def.hpp"
-#include "System/Xml/zzzz__XmlDocumentFragment_def.hpp"
-#include "System/Xml/zzzz__XmlDocumentType_def.hpp"
-#include "System/Xml/zzzz__XmlText_def.hpp"
-#include "System/Xml/zzzz__XmlElement_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
 #include "System/Xml/zzzz__XmlProcessingInstruction_def.hpp"
-#include "System/Xml/zzzz__XmlReader_def.hpp"
-#include "System/Xml/zzzz__XmlEntityReference_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlName_def.hpp"
-#include "System/Xml/zzzz__XmlSignificantWhitespace_def.hpp"
+#include "System/Xml/zzzz__XmlDeclaration_def.hpp"
+#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
+#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedEventHandler_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__DomNameTable_def.hpp"
+#include "System/Xml/zzzz__EmptyEnumerator_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
 #include "System/Xml/zzzz__XmlCDataSection_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Xml/zzzz__XmlNode_def.hpp"
-#include "System/Xml/zzzz__EmptyEnumerator_def.hpp"
-#include "System/Xml/zzzz__XmlImplementation_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
-#include "System/Xml/zzzz__XmlTextReader_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
-#include "System/Xml/zzzz__XmlComment_def.hpp"
-#include "System/Xml/zzzz__DomNameTable_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
-#include "System/Xml/zzzz__XmlEntity_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Xml/zzzz__XmlWhitespace_def.hpp"
-#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
-#include "System/Xml/zzzz__XmlDeclaration_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Xml/zzzz__XmlSignificantWhitespace_def.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
+#include "System/Xml/zzzz__XmlEntity_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__XmlDocumentFragment_def.hpp"
+#include "System/Xml/zzzz__XmlText_def.hpp"
+#include "System/Xml/zzzz__XmlName_def.hpp"
+#include "System/Xml/zzzz__XmlEntityReference_def.hpp"
+#include "System/Xml/zzzz__XmlDocumentType_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlWhitespace_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/zzzz__XmlElement_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
+#include "System/Xml/zzzz__XmlComment_def.hpp"
+#include "System/Xml/zzzz__XmlTextReader_def.hpp"
+#include "System/Xml/zzzz__XmlImplementation_def.hpp"
 //  Writing Method size for method: System::Xml::XmlDocument._ctor
 template<>
 
@@ -1678,8 +1678,10 @@ return ::cordl_internals::getStaticField<System::Xml::Schema::IXmlSchemaInfo, "V
  System::Xml::Schema::IXmlSchemaInfo System::Xml::XmlDocument::__get_InvalidSchemaInfo()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::IXmlSchemaInfo, "InvalidSchemaInfo", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDocument>::get>();
 }
-// Ctor Parameters []
- System::Xml::XmlDocument::XmlDocument()  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlDocument>())) {}
+ System::Xml::XmlDocument System::Xml::XmlDocument::New_ctor()  {
+System::Xml::XmlDocument o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlDocument>())};
+return o;
+}
  void System::Xml::XmlDocument::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDocument>::get(),
@@ -1689,8 +1691,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "imp", ty: "System::Xml::XmlImplementation", modifiers: "", def_value: None }]
- System::Xml::XmlDocument::XmlDocument(System::Xml::XmlImplementation imp)  : System::Xml::XmlNode(THROW_UNLESS(::il2cpp_utils::New<XmlDocument>(imp))) {}
+ System::Xml::XmlDocument System::Xml::XmlDocument::New_ctor(System::Xml::XmlImplementation imp)  {
+System::Xml::XmlDocument o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlDocument>(imp))};
+return o;
+}
  void System::Xml::XmlDocument::_ctor(System::Xml::XmlImplementation imp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlDocument>::get(),

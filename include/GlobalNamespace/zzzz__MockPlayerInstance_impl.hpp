@@ -2,23 +2,24 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerInstance_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
+#include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlayerInstance_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
+#include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlayerFiniteStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "GlobalNamespace/zzzz__MockPlayerFiniteStateMachine_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
@@ -622,8 +623,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }, CppParam { name: "beatmapDataProvider", ty: "GlobalNamespace::IMockBeatmapDataProvider", modifiers: "", def_value: None }, CppParam { name: "connectionManager", ty: "GlobalNamespace::IConnectionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockPlayerInstance::MockPlayerInstance(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::IConnectionManager connectionManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockPlayerInstance>(timeProvider, taskUtility, beatmapDataProvider, connectionManager))) {}
+ GlobalNamespace::MockPlayerInstance GlobalNamespace::MockPlayerInstance::New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::IConnectionManager connectionManager)  {
+GlobalNamespace::MockPlayerInstance o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPlayerInstance>(timeProvider, taskUtility, beatmapDataProvider, connectionManager))};
+return o;
+}
  void GlobalNamespace::MockPlayerInstance::_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::IConnectionManager connectionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPlayerInstance>::get(),
@@ -737,66 +740,34 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::*)()>(&GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1._ConnectToServer_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::*)()>(&GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::_ConnectToServer_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1>::get(),
-                            "<ConnectToServer>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::__set___4__this(GlobalNamespace::MockPlayerInstance value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::__set___4__this(GlobalNamespace::MockPlayerInstance value)  {
 ::cordl_internals::setInstanceField<GlobalNamespace::MockPlayerInstance, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<GlobalNamespace::MockPlayerInstance>(value));
 }
-constexpr GlobalNamespace::MockPlayerInstance GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::__get___4__this() const {
+constexpr GlobalNamespace::MockPlayerInstance GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MockPlayerInstance, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::__set_connectionInitParams(GlobalNamespace::IConnectionInitParams_1<T> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::__set_connectionInitParams(GlobalNamespace::IConnectionInitParams_1<T> value)  {
 ::cordl_internals::setInstanceField<GlobalNamespace::IConnectionInitParams_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<GlobalNamespace::IConnectionInitParams_1<T>>(value));
 }
-constexpr GlobalNamespace::IConnectionInitParams_1<T> GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::__get_connectionInitParams() const {
+constexpr GlobalNamespace::IConnectionInitParams_1<T> GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::__get_connectionInitParams() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IConnectionInitParams_1<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1>())) {}
- void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::_ctor()  {
+ GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T> GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1::_ConnectToServer_b__0()  {
+ void GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>::_ConnectToServer_b__0()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MockPlayerInstance____c__DisplayClass17_0_1<T>>::get(),
                             "<ConnectToServer>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

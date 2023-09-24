@@ -171,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::ServiceLocator(Org::BouncyCastle::Asn1::X509::X509Name issuer)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ServiceLocator>(issuer))) {}
+ Org::BouncyCastle::Asn1::Ocsp::ServiceLocator Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::New_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer)  {
+Org::BouncyCastle::Asn1::Ocsp::ServiceLocator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator>(issuer))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator>::get(),
@@ -182,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, issuer);
 }
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "locator", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::ServiceLocator(Org::BouncyCastle::Asn1::X509::X509Name issuer, Org::BouncyCastle::Asn1::Asn1Object locator)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ServiceLocator>(issuer, locator))) {}
+ Org::BouncyCastle::Asn1::Ocsp::ServiceLocator Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::New_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer, Org::BouncyCastle::Asn1::Asn1Object locator)  {
+Org::BouncyCastle::Asn1::Ocsp::ServiceLocator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator>(issuer, locator))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::_ctor(Org::BouncyCastle::Asn1::X509::X509Name issuer, Org::BouncyCastle::Asn1::Asn1Object locator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator>::get(),
@@ -193,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, issuer, locator);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::ServiceLocator(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ServiceLocator>(seq))) {}
+ Org::BouncyCastle::Asn1::Ocsp::ServiceLocator Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Ocsp::ServiceLocator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ocsp::ServiceLocator::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ocsp::ServiceLocator>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__RsaOaepWrapperProvider_def.hpp"
-#include "Org/BouncyCastle/Crypto/Operators/zzzz__WrapperProvider_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Operators/zzzz__WrapperProvider_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider._ctor
 template<>
 
@@ -47,8 +47,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::__s
 constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::__get_digestOid() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerObjectIdentifier, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::RsaOaepWrapperProvider(Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RsaOaepWrapperProvider>(digestOid))) {}
+ Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
+Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider>(digestOid))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider>::get(),

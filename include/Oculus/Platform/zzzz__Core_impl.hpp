@@ -1,9 +1,9 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Core_def.hpp"
-#include "Oculus/Platform/zzzz__InitConfigOptions_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__PlatformInitialize_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Oculus/Platform/zzzz__InitConfigOptions_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Core.IsInitialized
 template<>
 
@@ -225,8 +225,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Oculus::Platform::Core::Core()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Core>())) {}
+ Oculus::Platform::Core Oculus::Platform::Core::New_ctor()  {
+Oculus::Platform::Core o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Core>())};
+return o;
+}
  void Oculus::Platform::Core::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Core>::get(),

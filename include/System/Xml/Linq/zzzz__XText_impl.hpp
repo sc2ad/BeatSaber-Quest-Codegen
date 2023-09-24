@@ -2,9 +2,9 @@
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XText_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/Linq/zzzz__XNode_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XText._ctor
 template<>
 
@@ -147,8 +147,10 @@ constexpr void System::Xml::Linq::XText::__set_text(::StringW value)  {
 constexpr ::StringW System::Xml::Linq::XText::__get_text() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XText::XText(::StringW value)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XText>(value))) {}
+ System::Xml::Linq::XText System::Xml::Linq::XText::New_ctor(::StringW value)  {
+System::Xml::Linq::XText o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XText>(value))};
+return o;
+}
  void System::Xml::Linq::XText::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XText>::get(),
@@ -158,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XText", modifiers: "", def_value: None }]
- System::Xml::Linq::XText::XText(System::Xml::Linq::XText other)  : System::Xml::Linq::XNode(THROW_UNLESS(::il2cpp_utils::New<XText>(other))) {}
+ System::Xml::Linq::XText System::Xml::Linq::XText::New_ctor(System::Xml::Linq::XText other)  {
+System::Xml::Linq::XText o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XText>(other))};
+return o;
+}
  void System::Xml::Linq::XText::_ctor(System::Xml::Linq::XText other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XText>::get(),

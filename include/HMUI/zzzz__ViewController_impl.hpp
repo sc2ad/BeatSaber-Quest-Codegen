@@ -5,16 +5,17 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__ContainerViewController_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "HMUI/zzzz__Screen_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
+#include "HMUI/zzzz__ContainerViewController_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__ViewController__DidActivateDelegate._ctor
 template<>
 
@@ -83,8 +84,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewController__DidActivateDelegate::HMUI__ViewController__DidActivateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewController__DidActivateDelegate>(object, method))) {}
+ HMUI::HMUI__ViewController__DidActivateDelegate HMUI::HMUI__ViewController__DidActivateDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HMUI::HMUI__ViewController__DidActivateDelegate o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewController__DidActivateDelegate>(object, method))};
+return o;
+}
  void HMUI::HMUI__ViewController__DidActivateDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewController__DidActivateDelegate>::get(),
@@ -189,8 +192,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewController__DidDeactivateDelegate::HMUI__ViewController__DidDeactivateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewController__DidDeactivateDelegate>(object, method))) {}
+ HMUI::HMUI__ViewController__DidDeactivateDelegate HMUI::HMUI__ViewController__DidDeactivateDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HMUI::HMUI__ViewController__DidDeactivateDelegate o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewController__DidDeactivateDelegate>(object, method))};
+return o;
+}
  void HMUI::HMUI__ViewController__DidDeactivateDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewController__DidDeactivateDelegate>::get(),
@@ -406,8 +411,10 @@ constexpr void HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58
 constexpr System::Action HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58::__get_finishedCallback() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58::HMUI__ViewController___PresentViewControllerCoroutine_d__58(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewController___PresentViewControllerCoroutine_d__58>(__1__state))) {}
+ HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58 HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewController___PresentViewControllerCoroutine_d__58>::get(),
@@ -618,8 +625,10 @@ constexpr void HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60
 constexpr System::Action HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60::__get_finishedCallback() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewController___ReplaceViewControllerCoroutine_d__60>(__1__state))) {}
+ HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60 HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewController___ReplaceViewControllerCoroutine_d__60>::get(),
@@ -830,8 +839,10 @@ constexpr void HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62
 constexpr HMUI::ViewController HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62::__get__movingInViewController_5__2() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62::HMUI__ViewController___DismissViewControllerCoroutine_d__62(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ViewController___DismissViewControllerCoroutine_d__62>(__1__state))) {}
+ HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62 HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62>(__1__state))};
+return o;
+}
  void HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ViewController___DismissViewControllerCoroutine_d__62>::get(),
@@ -1922,8 +1933,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
-// Ctor Parameters []
- HMUI::ViewController::ViewController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ViewController>())) {}
+ HMUI::ViewController HMUI::ViewController::New_ctor()  {
+HMUI::ViewController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ViewController>())};
+return o;
+}
  void HMUI::ViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ViewController>::get(),

@@ -8,12 +8,24 @@
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct UnityEngine__InputSystem__Layouts__InputControlLayout__CacheRefInstance;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class IDisposable;
@@ -22,17 +34,8 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Text {
-class StringBuilder;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::Layouts {
-class InputControlLayout;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct UnityEngine__InputSystem__Layouts__InputControlLayout__CacheRefInstance;
+struct UnityEngine__InputSystem__Layouts__InputDeviceBuilder__RefInstance;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;

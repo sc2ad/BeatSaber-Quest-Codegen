@@ -2,17 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__UriIdnScope_def.hpp"
-#include "System/zzzz__UriHostNameType_def.hpp"
 #include "System/zzzz__UriParser_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__UriKind_def.hpp"
+#include "System/zzzz__UriIdnScope_def.hpp"
 #include "System/zzzz__UriFormat_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__UriFormatException_def.hpp"
-#include "System/zzzz__ParsingError_def.hpp"
-#include "System/zzzz__UriComponents_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__ParsingError_def.hpp"
+#include "System/zzzz__UriKind_def.hpp"
+#include "System/zzzz__UriHostNameType_def.hpp"
+#include "System/zzzz__UriComponents_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::System__Uri__Flags::System__Uri__Flags(uint64_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -130,8 +131,10 @@ constexpr void System::System__Uri__UriInfo::__set_MoreInfo(System::System__Uri_
 constexpr System::System__Uri__MoreInfo System::System__Uri__UriInfo::__get_MoreInfo() const {
 return ::cordl_internals::getInstanceField<System::System__Uri__MoreInfo, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::System__Uri__UriInfo::System__Uri__UriInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Uri__UriInfo>())) {}
+ System::System__Uri__UriInfo System::System__Uri__UriInfo::New_ctor()  {
+System::System__Uri__UriInfo o{THROW_UNLESS(::il2cpp_utils::New<System::System__Uri__UriInfo>())};
+return o;
+}
  void System::System__Uri__UriInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__Uri__UriInfo>::get(),
@@ -252,8 +255,10 @@ constexpr void System::System__Uri__MoreInfo::__set_RemoteUrl(::StringW value)  
 constexpr ::StringW System::System__Uri__MoreInfo::__get_RemoteUrl() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::System__Uri__MoreInfo::System__Uri__MoreInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Uri__MoreInfo>())) {}
+ System::System__Uri__MoreInfo System::System__Uri__MoreInfo::New_ctor()  {
+System::System__Uri__MoreInfo o{THROW_UNLESS(::il2cpp_utils::New<System::System__Uri__MoreInfo>())};
+return o;
+}
  void System::System__Uri__MoreInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__Uri__MoreInfo>::get(),
@@ -2775,8 +2780,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, allowDnsOptimization);
 }
-// Ctor Parameters [CppParam { name: "uriString", ty: "::StringW", modifiers: "", def_value: None }]
- System::Uri::Uri(::StringW uriString)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Uri>(uriString))) {}
+ System::Uri System::Uri::New_ctor(::StringW uriString)  {
+System::Uri o{THROW_UNLESS(::il2cpp_utils::New<System::Uri>(uriString))};
+return o;
+}
  void System::Uri::_ctor(::StringW uriString)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Uri>::get(),
@@ -2786,8 +2793,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uriString);
 }
-// Ctor Parameters [CppParam { name: "uriString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uriKind", ty: "System::UriKind", modifiers: "", def_value: None }]
- System::Uri::Uri(::StringW uriString, System::UriKind uriKind)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Uri>(uriString, uriKind))) {}
+ System::Uri System::Uri::New_ctor(::StringW uriString, System::UriKind uriKind)  {
+System::Uri o{THROW_UNLESS(::il2cpp_utils::New<System::Uri>(uriString, uriKind))};
+return o;
+}
  void System::Uri::_ctor(::StringW uriString, System::UriKind uriKind)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Uri>::get(),
@@ -2797,8 +2806,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uriString, uriKind);
 }
-// Ctor Parameters [CppParam { name: "baseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "::StringW", modifiers: "", def_value: None }]
- System::Uri::Uri(System::Uri baseUri, ::StringW relativeUri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Uri>(baseUri, relativeUri))) {}
+ System::Uri System::Uri::New_ctor(System::Uri baseUri, ::StringW relativeUri)  {
+System::Uri o{THROW_UNLESS(::il2cpp_utils::New<System::Uri>(baseUri, relativeUri))};
+return o;
+}
  void System::Uri::_ctor(System::Uri baseUri, ::StringW relativeUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Uri>::get(),
@@ -2817,8 +2828,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, baseUri, relativeUri, dontEscape);
 }
-// Ctor Parameters [CppParam { name: "baseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::Uri::Uri(System::Uri baseUri, System::Uri relativeUri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Uri>(baseUri, relativeUri))) {}
+ System::Uri System::Uri::New_ctor(System::Uri baseUri, System::Uri relativeUri)  {
+System::Uri o{THROW_UNLESS(::il2cpp_utils::New<System::Uri>(baseUri, relativeUri))};
+return o;
+}
  void System::Uri::_ctor(System::Uri baseUri, System::Uri relativeUri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Uri>::get(),
@@ -2846,8 +2859,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::UriFormatException, false>(nullptr, ___internal_method, err);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Uri::Uri(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Uri>(serializationInfo, streamingContext))) {}
+ System::Uri System::Uri::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Uri o{THROW_UNLESS(::il2cpp_utils::New<System::Uri>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Uri::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Uri>::get(),
@@ -3649,8 +3664,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, input, start, end, component);
 }
-// Ctor Parameters [CppParam { name: "flags", ty: "System::System__Uri__Flags", modifiers: "", def_value: None }, CppParam { name: "uriParser", ty: "System::UriParser", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
- System::Uri::Uri(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Uri>(flags, uriParser, uri))) {}
+ System::Uri System::Uri::New_ctor(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri)  {
+System::Uri o{THROW_UNLESS(::il2cpp_utils::New<System::Uri>(flags, uriParser, uri))};
+return o;
+}
  void System::Uri::_ctor(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Uri>::get(),

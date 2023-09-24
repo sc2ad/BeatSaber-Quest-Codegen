@@ -4,40 +4,64 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace LiteNetLib {
-class ConnectionRequest;
-}
-namespace LiteNetLib {
 class IDeliveryEventListener;
 }
 namespace LiteNetLib {
-struct DeliveryMethod;
+class ConnectionRequest;
 }
 namespace LiteNetLib {
-class INetEventListener;
+class LiteNetLib__EventBasedNetListener__OnNetworkError;
 }
 namespace LiteNetLib {
-struct UnconnectedMessageType;
-}
-namespace LiteNetLib {
-struct DisconnectInfo;
-}
-namespace System::Net::Sockets {
-struct SocketError;
-}
-namespace LiteNetLib {
-class NetPacketReader;
+class LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
+class LiteNetLib__EventBasedNetListener__OnNetworkReceive;
+}
+namespace LiteNetLib {
+class LiteNetLib__EventBasedNetListener__OnDeliveryEvent;
+}
+namespace LiteNetLib {
+class LiteNetLib__EventBasedNetListener__OnPeerConnected;
+}
+namespace LiteNetLib {
+struct DeliveryMethod;
+}
+namespace LiteNetLib {
+class NetPacketReader;
+}
+namespace LiteNetLib {
+class LiteNetLib__EventBasedNetListener__OnPeerDisconnected;
+}
+namespace LiteNetLib {
+struct DisconnectInfo;
+}
+namespace LiteNetLib {
+struct UnconnectedMessageType;
+}
+namespace LiteNetLib {
+class LiteNetLib__EventBasedNetListener__OnConnectionRequest;
+}
+namespace System::Net::Sockets {
+struct SocketError;
+}
+namespace LiteNetLib {
+class INetEventListener;
+}
+namespace LiteNetLib {
 class NetPeer;
 }
-namespace System {
-class IAsyncResult;
+namespace LiteNetLib {
+class LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -109,8 +133,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnPeerConnected(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnPeerConnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerConnected New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2085e38 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -170,8 +193,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnPeerDisconnected(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnPeerDisconnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnPeerDisconnected New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2085fa4 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -231,8 +253,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnNetworkError(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnNetworkError(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkError New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2086188 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -292,8 +313,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnNetworkReceive(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnNetworkReceive(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceive New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x208636c size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -353,8 +373,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnecte
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkReceiveUnconnected New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2086554 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -414,8 +433,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnNetworkLatencyUpdate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x208673c size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -475,8 +493,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnConnectionRequest(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnConnectionRequest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnConnectionRequest New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2086920 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -536,8 +553,7 @@ constexpr explicit LiteNetLib__EventBasedNetListener__OnDeliveryEvent(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LiteNetLib__EventBasedNetListener__OnDeliveryEvent(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2086a8c size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -766,8 +782,7 @@ constexpr LiteNetLib::LiteNetLib__EventBasedNetListener__OnDeliveryEvent __get_D
 /// @brief Method LiteNetLib.IDeliveryEventListener.OnMessageDelivered addr 0x2085e14 size 0x1c virtual true final true
  void LiteNetLib_IDeliveryEventListener_OnMessageDelivered(LiteNetLib::NetPeer peer, ::bs_hook::Il2CppWrapperType userData) ;
 
-// Ctor Parameters []
-explicit EventBasedNetListener() ;
+static LiteNetLib::EventBasedNetListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x2085e30 size 0x8 virtual false final false
  void _ctor() ;

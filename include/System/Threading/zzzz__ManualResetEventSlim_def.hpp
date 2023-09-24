@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Threading {
-struct CancellationToken;
+class WaitHandle;
+}
+namespace System::Threading {
+class ManualResetEvent;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System::Threading {
-class WaitHandle;
-}
-namespace System::Threading {
-class ManualResetEvent;
+struct CancellationToken;
 }
 namespace System {
 class IDisposable;
@@ -156,14 +156,12 @@ static System::Action_1<::bs_hook::Il2CppWrapperType> __get_s_cancellationTokenC
 /// @brief Method set_Waiters addr 0x24a3d48 size 0x94 virtual false final false
  void set_Waiters(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }]
-explicit ManualResetEventSlim(bool initialState) ;
+static System::Threading::ManualResetEventSlim New_ctor(bool initialState) ;
 
 /// @brief Method .ctor addr 0x24a3ddc size 0x7c virtual false final false
  void _ctor(bool initialState) ;
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "spinCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ManualResetEventSlim(bool initialState, int32_t spinCount) ;
+static System::Threading::ManualResetEventSlim New_ctor(bool initialState, int32_t spinCount) ;
 
 /// @brief Method .ctor addr 0x24a3f08 size 0x120 virtual false final false
  void _ctor(bool initialState, int32_t spinCount) ;

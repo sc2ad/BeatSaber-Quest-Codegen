@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__QNameFacetsChecker_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::QNameFacetsChecker.CheckValueFacets
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, enumeration);
 }
-// Ctor Parameters []
- System::Xml::Schema::QNameFacetsChecker::QNameFacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<QNameFacetsChecker>())) {}
+ System::Xml::Schema::QNameFacetsChecker System::Xml::Schema::QNameFacetsChecker::New_ctor()  {
+System::Xml::Schema::QNameFacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::QNameFacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::QNameFacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::QNameFacetsChecker>::get(),

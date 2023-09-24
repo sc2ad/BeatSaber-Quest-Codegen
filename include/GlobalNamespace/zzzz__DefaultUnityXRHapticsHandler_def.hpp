@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,8 +72,7 @@ constexpr UnityEngine::XR::XRNode __get__node() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "UnityEngine::XR::XRNode", modifiers: "", def_value: None }]
-explicit DefaultUnityXRHapticsHandler(UnityEngine::XR::XRNode node) ;
+static GlobalNamespace::DefaultUnityXRHapticsHandler New_ctor(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method .ctor addr 0x1f84ed4 size 0x28 virtual false final false
  void _ctor(UnityEngine::XR::XRNode node) ;

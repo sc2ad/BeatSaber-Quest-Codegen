@@ -3,17 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+struct GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType;
+}
+namespace GlobalNamespace {
 class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class GameServerLobbyFlowCoordinator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType;
-}
-namespace GlobalNamespace {
-class GameServerLobbyFlowCoordinator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,8 +100,7 @@ constexpr GlobalNamespace::IAnalyticsModel __get__analyticsModel() const;
 /// @brief Method GetEventTypeFromLobbyType addr 0x20b29e4 size 0x80 virtual false final false
  ::StringW GetEventTypeFromLobbyType(GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType lobbyType) ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyAnalytics() ;
+static GlobalNamespace::MultiplayerLobbyAnalytics New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b2e6c size 0x8 virtual false final false
  void _ctor() ;

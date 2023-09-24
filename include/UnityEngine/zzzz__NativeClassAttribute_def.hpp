@@ -76,14 +76,12 @@ constexpr ::StringW __get__Declaration_k__BackingField() const;
 /// @brief Method set_Declaration addr 0x2ba0ea8 size 0x8 virtual false final false
  void set_Declaration(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "qualifiedCppName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeClassAttribute(::StringW qualifiedCppName) ;
+static UnityEngine::NativeClassAttribute New_ctor(::StringW qualifiedCppName) ;
 
 /// @brief Method .ctor addr 0x2ba0eb0 size 0x70 virtual false final false
  void _ctor(::StringW qualifiedCppName) ;
 
-// Ctor Parameters [CppParam { name: "qualifiedCppName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "declaration", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeClassAttribute(::StringW qualifiedCppName, ::StringW declaration) ;
+static UnityEngine::NativeClassAttribute New_ctor(::StringW qualifiedCppName, ::StringW declaration) ;
 
 /// @brief Method .ctor addr 0x2ba0f20 size 0x2c virtual false final false
  void _ctor(::StringW qualifiedCppName, ::StringW declaration) ;

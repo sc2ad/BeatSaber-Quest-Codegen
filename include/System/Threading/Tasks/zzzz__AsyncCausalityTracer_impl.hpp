@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__AsyncCausalityTracer_def.hpp"
+#include "System/Threading/Tasks/zzzz__AsyncCausalityStatus_def.hpp"
 #include "System/Threading/Tasks/zzzz__CausalitySynchronousWork_def.hpp"
 #include "System/Threading/Tasks/zzzz__CausalityTraceLevel_def.hpp"
-#include "System/Threading/Tasks/zzzz__AsyncCausalityStatus_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::AsyncCausalityTracer.get_LoggingOn
 template<>
 

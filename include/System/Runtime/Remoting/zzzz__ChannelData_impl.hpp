@@ -165,8 +165,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::ChannelData::ChannelData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChannelData>())) {}
+ System::Runtime::Remoting::ChannelData System::Runtime::Remoting::ChannelData::New_ctor()  {
+System::Runtime::Remoting::ChannelData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ChannelData>())};
+return o;
+}
  void System::Runtime::Remoting::ChannelData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ChannelData>::get(),

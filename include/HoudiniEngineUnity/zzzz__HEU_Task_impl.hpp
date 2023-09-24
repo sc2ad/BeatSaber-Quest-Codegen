@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskStatus::HoudiniEngineUnity__HEU_Task__TaskStatus(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -102,8 +103,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback::HoudiniEngineUnity__HEU_Task__TaskCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_Task__TaskCallback>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_Task__TaskCallback>::get(),
@@ -275,8 +278,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Guid, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_Task::HEU_Task()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_Task>())) {}
+ HoudiniEngineUnity::HEU_Task HoudiniEngineUnity::HEU_Task::New_ctor()  {
+HoudiniEngineUnity::HEU_Task o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_Task>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_Task::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Task>::get(),

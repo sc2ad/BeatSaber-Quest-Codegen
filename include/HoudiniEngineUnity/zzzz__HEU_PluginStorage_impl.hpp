@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PluginStorage_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_PluginStorage_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__DataType::HoudiniEngineUnity__HEU_PluginStorage__DataType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -48,8 +49,10 @@ constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreD
 constexpr ::StringW HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData::__get__valueStr() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData::HoudiniEngineUnity__HEU_PluginStorage__StoreData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PluginStorage__StoreData>())) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData>())};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreData>::get(),
@@ -948,8 +951,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, inPath);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_PluginStorage::HEU_PluginStorage()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_PluginStorage>())) {}
+ HoudiniEngineUnity::HEU_PluginStorage HoudiniEngineUnity::HEU_PluginStorage::New_ctor()  {
+HoudiniEngineUnity::HEU_PluginStorage o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_PluginStorage>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_PluginStorage::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_PluginStorage>::get(),
@@ -959,34 +964,19 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-//  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1::*)()>(&HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1::__set__array(::ArrayW<T> value)  {
+constexpr void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T>::__set__array(::ArrayW<T> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<T>>(value));
 }
-constexpr ::ArrayW<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1::__get__array() const {
+constexpr ::ArrayW<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T>::__get__array() const {
 return ::cordl_internals::getInstanceField<::ArrayW<T>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1>())) {}
- void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1::_ctor()  {
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T> HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T>::New_ctor()  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T> o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T>>())};
+return o;
+}
+ void HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_PluginStorage__StoreDataArray_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

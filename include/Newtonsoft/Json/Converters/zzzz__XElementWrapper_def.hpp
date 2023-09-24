@@ -2,18 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XContainerWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+class IXmlElement;
 }
 namespace System::Xml::Linq {
 class XElement;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -94,8 +94,7 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXm
 /// @brief Method get_Element addr 0x2544cf4 size 0x78 virtual false final false
  System::Xml::Linq::XElement get_Element() ;
 
-// Ctor Parameters [CppParam { name: "element", ty: "System::Xml::Linq::XElement", modifiers: "", def_value: None }]
-explicit XElementWrapper(System::Xml::Linq::XElement element) ;
+static Newtonsoft::Json::Converters::XElementWrapper New_ctor(System::Xml::Linq::XElement element) ;
 
 /// @brief Method .ctor addr 0x2543c58 size 0x4 virtual false final false
  void _ctor(System::Xml::Linq::XElement element) ;

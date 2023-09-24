@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyle_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::TextStyleSheet.get_styles
 template<>
@@ -163,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextStyleSheet::TextStyleSheet()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TextStyleSheet>())) {}
+ UnityEngine::TextCore::Text::TextStyleSheet UnityEngine::TextCore::Text::TextStyleSheet::New_ctor()  {
+UnityEngine::TextCore::Text::TextStyleSheet o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextStyleSheet>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextStyleSheet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextStyleSheet>::get(),

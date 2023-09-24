@@ -7,20 +7,27 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace System::Threading {
-struct CancellationToken;
+class StandardLevelInfoSaveData;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
 namespace UnityEngine {
 class Sprite;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__CustomPreviewBeatmapLevel___GetCoverImageAsync_d__66;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
@@ -28,12 +35,8 @@ class PreviewDifficultyBeatmapSet;
 namespace GlobalNamespace {
 class ISpriteAsyncLoader;
 }
-namespace GlobalNamespace {
-class StandardLevelInfoSaveData;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;
@@ -42,15 +45,15 @@ namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -449,8 +452,7 @@ constexpr UnityEngine::Sprite __get__coverImage() const;
 /// @brief Method GetCoverImageAsync addr 0x21ea2f0 size 0xfc virtual true final true
  System::Threading::Tasks::Task_1<UnityEngine::Sprite> GetCoverImageAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters [CppParam { name: "defaultCoverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "standardLevelInfoSaveData", ty: "GlobalNamespace::StandardLevelInfoSaveData", modifiers: "", def_value: None }, CppParam { name: "customLevelPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "spriteAsyncLoader", ty: "GlobalNamespace::ISpriteAsyncLoader", modifiers: "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "allDirectionsEnvironmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "environmentInfos", ty: "::ArrayW<GlobalNamespace::EnvironmentInfoSO>", modifiers: "", def_value: None }, CppParam { name: "beatmapOverrideColorSchemes", ty: "::ArrayW<GlobalNamespace::ColorScheme>", modifiers: "", def_value: None }, CppParam { name: "previewDifficultyBeatmapSets", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet>", modifiers: "", def_value: None }]
-explicit CustomPreviewBeatmapLevel(UnityEngine::Sprite defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;
+static GlobalNamespace::CustomPreviewBeatmapLevel New_ctor(UnityEngine::Sprite defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;
 
 /// @brief Method .ctor addr 0x21ea118 size 0xe4 virtual false final false
  void _ctor(UnityEngine::Sprite defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData standardLevelInfoSaveData, ::StringW customLevelPath, GlobalNamespace::ISpriteAsyncLoader spriteAsyncLoader, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::EnvironmentInfoSO allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::EnvironmentInfoSO> environmentInfos, ::ArrayW<GlobalNamespace::ColorScheme> beatmapOverrideColorSchemes, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PreviewDifficultyBeatmapSet> previewDifficultyBeatmapSets) ;

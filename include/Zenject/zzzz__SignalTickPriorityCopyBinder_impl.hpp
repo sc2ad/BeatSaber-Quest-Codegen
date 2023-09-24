@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__SignalCopyBinder_impl.hpp"
 #include "Zenject/zzzz__SignalTickPriorityCopyBinder_def.hpp"
-#include "Zenject/zzzz__SignalCopyBinder_def.hpp"
 #include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
+#include "Zenject/zzzz__SignalCopyBinder_def.hpp"
 //  Writing Method size for method: Zenject::SignalTickPriorityCopyBinder._ctor
 template<>
 
@@ -77,8 +77,10 @@ constexpr void Zenject::SignalTickPriorityCopyBinder::__set__SignalBindInfo_k__B
 constexpr Zenject::SignalDeclarationBindInfo Zenject::SignalTickPriorityCopyBinder::__get__SignalBindInfo_k__BackingField() const {
 return ::cordl_internals::getInstanceField<Zenject::SignalDeclarationBindInfo, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }]
- Zenject::SignalTickPriorityCopyBinder::SignalTickPriorityCopyBinder(Zenject::SignalDeclarationBindInfo signalBindInfo)  : Zenject::SignalCopyBinder(THROW_UNLESS(::il2cpp_utils::New<SignalTickPriorityCopyBinder>(signalBindInfo))) {}
+ Zenject::SignalTickPriorityCopyBinder Zenject::SignalTickPriorityCopyBinder::New_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo)  {
+Zenject::SignalTickPriorityCopyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalTickPriorityCopyBinder>(signalBindInfo))};
+return o;
+}
  void Zenject::SignalTickPriorityCopyBinder::_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalTickPriorityCopyBinder>::get(),

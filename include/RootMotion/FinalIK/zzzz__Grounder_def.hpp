@@ -7,13 +7,16 @@
 #include <cmath>
 #include <cstdint>
 namespace RootMotion::FinalIK {
-class Grounding;
+class RootMotion__FinalIK__Grounder__GrounderDelegate;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__Grounding__Leg;
+}
+namespace RootMotion::FinalIK {
+class Grounding;
 }
 namespace System {
 class AsyncCallback;
@@ -70,8 +73,7 @@ constexpr explicit RootMotion__FinalIK__Grounder__GrounderDelegate(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__Grounder__GrounderDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x11ba524 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -198,8 +200,7 @@ constexpr bool __get__initiated_k__BackingField() const;
 /// @brief Method OpenScriptReference addr 0x0 size 0xffffffffffffffff virtual true final false
  void OpenScriptReference() ;
 
-// Ctor Parameters []
-explicit Grounder() ;
+static RootMotion::FinalIK::Grounder New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ba4b4 size 0x70 virtual false final false
  void _ctor() ;

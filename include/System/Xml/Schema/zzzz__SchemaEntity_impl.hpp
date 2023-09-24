@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SchemaEntity_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::SchemaEntity._ctor
 template<>
 
@@ -696,8 +696,10 @@ constexpr void System::Xml::Schema::SchemaEntity::__set_declaredURI(::StringW va
 constexpr ::StringW System::Xml::Schema::SchemaEntity::__get_declaredURI() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "qname", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "isParameter", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::SchemaEntity::SchemaEntity(System::Xml::XmlQualifiedName qname, bool isParameter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SchemaEntity>(qname, isParameter))) {}
+ System::Xml::Schema::SchemaEntity System::Xml::Schema::SchemaEntity::New_ctor(System::Xml::XmlQualifiedName qname, bool isParameter)  {
+System::Xml::Schema::SchemaEntity o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaEntity>(qname, isParameter))};
+return o;
+}
  void System::Xml::Schema::SchemaEntity::_ctor(System::Xml::XmlQualifiedName qname, bool isParameter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaEntity>::get(),

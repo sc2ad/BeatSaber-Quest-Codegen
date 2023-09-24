@@ -73,8 +73,7 @@ constexpr System::Resources::UltimateResourceFallbackLocation __get__Location_k_
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cultureName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NeutralResourcesLanguageAttribute(::StringW cultureName) ;
+static System::Resources::NeutralResourcesLanguageAttribute New_ctor(::StringW cultureName) ;
 
 /// @brief Method .ctor addr 0x2370d08 size 0x7c virtual false final false
  void _ctor(::StringW cultureName) ;

@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class Texture2D;
+namespace GlobalNamespace {
+class PlaybackRenderer;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
-namespace GlobalNamespace {
-class PlaybackRenderer;
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr int32_t __get__frameNumber() const;
 /// @brief Method ConvertRenderTexture addr 0x21a6348 size 0x11c virtual false final false
 static UnityEngine::Texture2D ConvertRenderTexture(UnityEngine::RenderTexture renderTexture) ;
 
-// Ctor Parameters []
-explicit PlaybackScreenshotRecorder() ;
+static GlobalNamespace::PlaybackScreenshotRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a6464 size 0x50 virtual false final false
  void _ctor() ;

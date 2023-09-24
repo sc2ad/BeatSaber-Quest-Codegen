@@ -4,33 +4,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System {
-struct TimeSpan;
-}
 namespace System::Net::Http {
-class IMonoHttpClientHandler;
-}
-namespace System::Net::Http {
-struct ClientCertificateOption;
+class System__Net__Http__HttpClientHandler____c;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System::Net::Http {
+struct ClientCertificateOption;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
+namespace System {
+struct TimeSpan;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
 namespace System::Net::Http {
 class HttpRequestMessage;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Net::Security {
 class LocalCertificateSelectionCallback;
@@ -99,8 +102,7 @@ static System::Net::Security::LocalCertificateSelectionCallback __get___9__23_1(
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__Http__HttpClientHandler____c() ;
+static System::Net::Http::System__Net__Http__HttpClientHandler____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x269b770 size 0x8 virtual false final false
  void _ctor() ;
@@ -181,14 +183,12 @@ constexpr System::Net::Http::ClientCertificateOption __get__clientCertificateOpt
 /// @brief Method CreateDefaultHandler addr 0x269acf8 size 0x58 virtual false final false
 static System::Net::Http::IMonoHttpClientHandler CreateDefaultHandler() ;
 
-// Ctor Parameters []
-explicit HttpClientHandler() ;
+static System::Net::Http::HttpClientHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x269af00 size 0x38 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::IMonoHttpClientHandler", modifiers: "", def_value: None }]
-explicit HttpClientHandler(System::Net::Http::IMonoHttpClientHandler handler) ;
+static System::Net::Http::HttpClientHandler New_ctor(System::Net::Http::IMonoHttpClientHandler handler) ;
 
 /// @brief Method .ctor addr 0x269af38 size 0x30 virtual false final false
  void _ctor(System::Net::Http::IMonoHttpClientHandler handler) ;

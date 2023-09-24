@@ -81,8 +81,7 @@ constexpr int64_t __get_m_cookie() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mgr", ty: "System::LocalDataStoreMgr", modifiers: "", def_value: None }, CppParam { name: "slot", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cookie", ty: "int64_t", modifiers: "", def_value: None }]
-explicit LocalDataStoreSlot(System::LocalDataStoreMgr mgr, int32_t slot, int64_t cookie) ;
+static System::LocalDataStoreSlot New_ctor(System::LocalDataStoreMgr mgr, int32_t slot, int64_t cookie) ;
 
 /// @brief Method .ctor addr 0x2469f00 size 0x40 virtual false final false
  void _ctor(System::LocalDataStoreMgr mgr, int32_t slot, int64_t cookie) ;

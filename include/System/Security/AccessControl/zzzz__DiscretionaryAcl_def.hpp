@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_def.hpp"
 #include <cstdint>
-namespace System::Security::AccessControl {
-struct PropagationFlags;
+namespace System::Security::Principal {
+class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
 struct AccessControlType;
 }
 namespace System::Security::AccessControl {
-struct InheritanceFlags;
-}
-namespace System::Security::Principal {
-class SecurityIdentifier;
+struct PropagationFlags;
 }
 namespace System::Security::AccessControl {
 struct AceQualifier;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 class GenericAce;
@@ -66,8 +66,7 @@ constexpr explicit DiscretionaryAcl(void* ptr) noexcept : System::Security::Acce
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DiscretionaryAcl(bool isContainer, bool isDS, int32_t capacity) ;
+static System::Security::AccessControl::DiscretionaryAcl New_ctor(bool isContainer, bool isDS, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x231800c size 0xc virtual false final false
  void _ctor(bool isContainer, bool isDS, int32_t capacity) ;

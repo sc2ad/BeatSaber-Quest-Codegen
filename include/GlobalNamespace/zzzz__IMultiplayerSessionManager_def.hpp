@@ -4,14 +4,21 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
+class Action;
+}
+namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerSessionManager__SessionType;
+template<typename TData>
+class INetworkPacketSubSerializer_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -20,6 +27,14 @@ class IReadOnlyList_1;
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
+namespace System {
+template<typename TResult>
+class Func_1;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
 }
@@ -27,22 +42,7 @@ namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
-template<typename TData>
-class INetworkPacketSubSerializer_1;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
+struct GlobalNamespace__MultiplayerSessionManager__SessionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

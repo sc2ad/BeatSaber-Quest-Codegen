@@ -4,15 +4,18 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
+struct UnityEngine__TextCore__Text__TextResourceManager__FontAssetRef;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__AuthenticationSchemeSelector_def.hpp"
-#include "System/Net/zzzz__HttpListenerRequest_def.hpp"
 #include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
+#include "System/Net/zzzz__HttpListenerRequest_def.hpp"
 //  Writing Method size for method: System::Net::AuthenticationSchemeSelector._ctor
 template<>
 
@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Net::AuthenticationSchemeSelector::AuthenticationSchemeSelector(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<AuthenticationSchemeSelector>(object, method))) {}
+ System::Net::AuthenticationSchemeSelector System::Net::AuthenticationSchemeSelector::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Net::AuthenticationSchemeSelector o{THROW_UNLESS(::il2cpp_utils::New<System::Net::AuthenticationSchemeSelector>(object, method))};
+return o;
+}
  void System::Net::AuthenticationSchemeSelector::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::AuthenticationSchemeSelector>::get(),

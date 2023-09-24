@@ -68,8 +68,7 @@ static GlobalNamespace::StandaloneThreadContext __get_instance() ;
 /// @brief Method Run addr 0xdcc2c4 size 0x4 virtual true final true
  void Run(GlobalNamespace::IStandaloneThreadRunnable runnable) ;
 
-// Ctor Parameters []
-explicit StandaloneThreadContext() ;
+static GlobalNamespace::StandaloneThreadContext New_ctor() ;
 
 /// @brief Method .ctor addr 0xdcc2c8 size 0x8 virtual false final false
  void _ctor() ;

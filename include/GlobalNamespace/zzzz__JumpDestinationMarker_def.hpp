@@ -47,8 +47,7 @@ constexpr explicit JumpDestinationMarker(void* ptr) noexcept : UnityEngine::Time
 
 // Methods
 
-// Ctor Parameters []
-explicit JumpDestinationMarker() ;
+static GlobalNamespace::JumpDestinationMarker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f838c0 size 0x8 virtual false final false
  void _ctor() ;

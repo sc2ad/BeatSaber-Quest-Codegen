@@ -1,21 +1,21 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class IDisposable;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -75,8 +75,7 @@ constexpr explicit HttpMessageHandler(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method SendAsync addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage> SendAsync(System::Net::Http::HttpRequestMessage request, System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit HttpMessageHandler() ;
+static System::Net::Http::HttpMessageHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x269af68 size 0x8 virtual false final false
  void _ctor() ;

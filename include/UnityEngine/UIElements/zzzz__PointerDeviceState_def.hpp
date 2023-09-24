@@ -4,14 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__PointerDeviceState__PointerLocation;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__PointerDeviceState__LocationFlag;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -72,6 +78,8 @@ __OutsidePanel = 1,
 constexpr operator __UnityEngine__UIElements__PointerDeviceState__LocationFlag_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__PointerDeviceState__LocationFlag_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

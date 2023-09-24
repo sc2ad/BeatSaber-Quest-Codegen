@@ -309,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, reason);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::DiagnosticReport::DiagnosticReport()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiagnosticReport>())) {}
+ UnityEngine::XR::OpenXR::DiagnosticReport UnityEngine::XR::OpenXR::DiagnosticReport::New_ctor()  {
+UnityEngine::XR::OpenXR::DiagnosticReport o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::DiagnosticReport>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::DiagnosticReport::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::DiagnosticReport>::get(),

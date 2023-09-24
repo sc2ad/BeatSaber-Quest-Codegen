@@ -1,16 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-class Gradient;
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivableWrapperClass_1;
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,8 +73,7 @@ constexpr UnityEngine::Gradient __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Gradient", modifiers: "", def_value: None }]
-explicit Test_Gradient(UnityEngine::Gradient self) ;
+static HoudiniEngineUnity::Test_Gradient New_ctor(UnityEngine::Gradient self) ;
 
 /// @brief Method .ctor addr 0x2074250 size 0x28 virtual false final false
  void _ctor(UnityEngine::Gradient self) ;

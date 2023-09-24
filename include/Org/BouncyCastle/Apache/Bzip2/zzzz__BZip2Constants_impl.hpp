@@ -23,8 +23,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
  ::ArrayW<int32_t> Org::BouncyCastle::Apache::Bzip2::BZip2Constants::__get_rNums()  {
 return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "rNums", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::BZip2Constants>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Apache::Bzip2::BZip2Constants::BZip2Constants()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BZip2Constants>())) {}
+ Org::BouncyCastle::Apache::Bzip2::BZip2Constants Org::BouncyCastle::Apache::Bzip2::BZip2Constants::New_ctor()  {
+Org::BouncyCastle::Apache::Bzip2::BZip2Constants o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Apache::Bzip2::BZip2Constants>())};
+return o;
+}
  void Org::BouncyCastle::Apache::Bzip2::BZip2Constants::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Apache::Bzip2::BZip2Constants>::get(),

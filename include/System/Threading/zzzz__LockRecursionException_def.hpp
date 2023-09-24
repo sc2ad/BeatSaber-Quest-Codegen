@@ -54,20 +54,17 @@ constexpr explicit LockRecursionException(void* ptr) noexcept : System::Exceptio
 
 // Methods
 
-// Ctor Parameters []
-explicit LockRecursionException() ;
+static System::Threading::LockRecursionException New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a2830 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit LockRecursionException(::StringW message) ;
+static System::Threading::LockRecursionException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x24a2888 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit LockRecursionException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Threading::LockRecursionException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24a28f0 size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -94,8 +94,7 @@ static uint64_t Unshuffle(uint64_t x) ;
 /// @brief Method Unshuffle2 addr 0xfcedcc size 0x54 virtual false final false
 static uint32_t Unshuffle2(uint32_t x) ;
 
-// Ctor Parameters []
-explicit Interleave() ;
+static Org::BouncyCastle::Math::Raw::Interleave New_ctor() ;
 
 /// @brief Method .ctor addr 0xfcee20 size 0x8 virtual false final false
  void _ctor() ;

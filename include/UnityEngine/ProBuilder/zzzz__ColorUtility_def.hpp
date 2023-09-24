@@ -4,10 +4,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace UnityEngine::ProBuilder {
-class XYZColor;
-}
-namespace UnityEngine {
-struct Vector3;
+class CIELabColor;
 }
 namespace UnityEngine {
 struct Color;
@@ -17,7 +14,10 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-class CIELabColor;
+class XYZColor;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class HSVColor;

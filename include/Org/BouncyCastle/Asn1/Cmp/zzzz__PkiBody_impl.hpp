@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiBody_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::PkiBody.GetInstance
 template<>
@@ -149,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::PkiBody, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiBody::PkiBody(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiBody>(tagged))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiBody Org::BouncyCastle::Asn1::Cmp::PkiBody::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
+Org::BouncyCastle::Asn1::Cmp::PkiBody o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiBody>(tagged))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiBody::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiBody>::get(),
@@ -160,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tagged);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiBody::PkiBody(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiBody>(type, content))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiBody Org::BouncyCastle::Asn1::Cmp::PkiBody::New_ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content)  {
+Org::BouncyCastle::Asn1::Cmp::PkiBody o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiBody>(type, content))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiBody::_ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiBody>::get(),

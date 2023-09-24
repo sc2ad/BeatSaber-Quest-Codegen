@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::ReflectionOnlyType::ReflectionOnlyType()  : System::RuntimeType(THROW_UNLESS(::il2cpp_utils::New<ReflectionOnlyType>())) {}
+ System::ReflectionOnlyType System::ReflectionOnlyType::New_ctor()  {
+System::ReflectionOnlyType o{THROW_UNLESS(::il2cpp_utils::New<System::ReflectionOnlyType>())};
+return o;
+}
  void System::ReflectionOnlyType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ReflectionOnlyType>::get(),

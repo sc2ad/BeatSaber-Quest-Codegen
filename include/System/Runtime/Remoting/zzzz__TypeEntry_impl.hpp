@@ -97,8 +97,10 @@ constexpr void System::Runtime::Remoting::TypeEntry::__set_type_name(::StringW v
 constexpr ::StringW System::Runtime::Remoting::TypeEntry::__get_type_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::TypeEntry::TypeEntry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TypeEntry>())) {}
+ System::Runtime::Remoting::TypeEntry System::Runtime::Remoting::TypeEntry::New_ctor()  {
+System::Runtime::Remoting::TypeEntry o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::TypeEntry>())};
+return o;
+}
  void System::Runtime::Remoting::TypeEntry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::TypeEntry>::get(),

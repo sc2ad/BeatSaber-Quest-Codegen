@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, id, name, bInstanced, bInstancer);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_LoadBufferBase::HEU_LoadBufferBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_LoadBufferBase>())) {}
+ HoudiniEngineUnity::HEU_LoadBufferBase HoudiniEngineUnity::HEU_LoadBufferBase::New_ctor()  {
+HoudiniEngineUnity::HEU_LoadBufferBase o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_LoadBufferBase>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_LoadBufferBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_LoadBufferBase>::get(),

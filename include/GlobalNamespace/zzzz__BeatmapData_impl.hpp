@@ -1,21 +1,22 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataBasicInfo_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataSortedListForTypeAndIds_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataSortedListForTypeAndIds_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem._ctor
 template<>
@@ -61,8 +62,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryH
 constexpr System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem::__get_node() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "node", ty: "System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> node)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem>(node))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem::New_ctor(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> node)  {
+GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem>(node))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem::_ctor(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> node)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData__BeatmapDataBinaryHeapItem>::get(),
@@ -851,8 +854,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapData::BeatmapData(int32_t numberOfLines)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapData>(numberOfLines))) {}
+ GlobalNamespace::BeatmapData GlobalNamespace::BeatmapData::New_ctor(int32_t numberOfLines)  {
+GlobalNamespace::BeatmapData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapData>(numberOfLines))};
+return o;
+}
  void GlobalNamespace::BeatmapData::_ctor(int32_t numberOfLines)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapData>::get(),
@@ -1018,60 +1023,28 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>, false>(const_cast<void*>(instance), ___internal_method, beatmapDataItem, node);
 }
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::*)()>(&GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1._GetBeatmapDataItemsMerged_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::*)(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>)>(&GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::_GetBeatmapDataItemsMerged_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1>::get(),
-                            "<GetBeatmapDataItemsMerged>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::__set_subtypeGroupIdentifiers(::ArrayW<int32_t> value)  {
+constexpr void GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>::__set_subtypeGroupIdentifiers(::ArrayW<int32_t> value)  {
 ::cordl_internals::setInstanceField<::ArrayW<int32_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::ArrayW<int32_t>>(value));
 }
-constexpr ::ArrayW<int32_t> GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::__get_subtypeGroupIdentifiers() const {
+constexpr ::ArrayW<int32_t> GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>::__get_subtypeGroupIdentifiers() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapData____c__DisplayClass45_0_1>())) {}
- void GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::_ctor()  {
+ GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T> GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T> o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>>())};
+return o;
+}
+ void GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1::_GetBeatmapDataItemsMerged_b__0(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> head)  {
+ bool GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>::_GetBeatmapDataItemsMerged_b__0(System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem> head)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapData____c__DisplayClass45_0_1<T>>::get(),
                             "<GetBeatmapDataItemsMerged>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Collections::Generic::LinkedListNode_1<GlobalNamespace::BeatmapDataItem>>::get()}

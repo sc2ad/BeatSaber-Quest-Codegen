@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelAnalytics_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardLevelAnalytics.Start
 template<>
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, standardLevelScenesTransitionSetupData, levelCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelAnalytics::StandardLevelAnalytics()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelAnalytics>())) {}
+ GlobalNamespace::StandardLevelAnalytics GlobalNamespace::StandardLevelAnalytics::New_ctor()  {
+GlobalNamespace::StandardLevelAnalytics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelAnalytics>())};
+return o;
+}
  void GlobalNamespace::StandardLevelAnalytics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelAnalytics>::get(),

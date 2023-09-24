@@ -6,62 +6,68 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Net {
-class ResponseStream;
-}
-namespace System::Net {
-class ListenerPrefix;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Net {
-class RequestStream;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
-}
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
 class AsyncCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Net {
-class EndPointListener;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Net {
-class HttpListenerContext;
-}
-namespace System::Threading {
-class Timer;
-}
-namespace System::Net {
-class HttpListener;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
-class IPEndPoint;
+class ResponseStream;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Net::Security {
 class SslStream;
+}
+namespace System::Threading {
+class Timer;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net {
+class HttpListenerContext;
+}
+namespace System::Net {
+struct System__Net__HttpConnection__InputState;
+}
+namespace System::Net {
+class RequestStream;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Net {
+class EndPointListener;
+}
+namespace System::Net {
+struct System__Net__HttpConnection__LineState;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Net {
+class HttpListener;
+}
+namespace System::Net {
+class ListenerPrefix;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -122,6 +128,8 @@ __Headers = 1,
 constexpr operator __System__Net__HttpConnection__InputState_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__HttpConnection__InputState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -192,6 +200,8 @@ __LF = 2,
 constexpr operator __System__Net__HttpConnection__LineState_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__HttpConnection__LineState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -431,8 +441,7 @@ constexpr int32_t __get_position() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sock", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "epl", ty: "System::Net::EndPointListener", modifiers: "", def_value: None }, CppParam { name: "secure", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cert", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }]
-explicit HttpConnection(System::Net::Sockets::Socket sock, System::Net::EndPointListener epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
+static System::Net::HttpConnection New_ctor(System::Net::Sockets::Socket sock, System::Net::EndPointListener epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
 /// @brief Method .ctor addr 0x282ead8 size 0x260 virtual false final false
  void _ctor(System::Net::Sockets::Socket sock, System::Net::EndPointListener epl, bool secure, System::Security::Cryptography::X509Certificates::X509Certificate cert) ;

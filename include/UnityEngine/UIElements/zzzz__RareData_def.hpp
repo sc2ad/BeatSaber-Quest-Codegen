@@ -8,27 +8,27 @@ namespace UnityEngine::UIElements {
 struct Cursor;
 }
 namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
+struct OverflowClipBox;
 }
-namespace UnityEngine {
-struct ScaleMode;
+namespace UnityEngine::UIElements {
+struct TextOverflowPosition;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
-struct OverflowClipBox;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
+struct TextOverflow;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UIElements {
-struct TextOverflow;
+namespace UnityEngine {
+struct ScaleMode;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

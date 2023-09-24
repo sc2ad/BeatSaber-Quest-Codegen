@@ -91,8 +91,7 @@ static bool __get_reuseSameInstance() ;
 /// @brief Method CreateOrGet addr 0x2063bc0 size 0x94 virtual false final false
 static HoudiniEngineUnity::JSONNull CreateOrGet() ;
 
-// Ctor Parameters []
-explicit JSONNull() ;
+static HoudiniEngineUnity::JSONNull New_ctor() ;
 
 /// @brief Method .ctor addr 0x2069828 size 0x8 virtual false final false
  void _ctor() ;

@@ -94,8 +94,10 @@ constexpr void Org::BouncyCastle::Cmp::RevocationDetails::__set_revDetails(Org::
 constexpr Org::BouncyCastle::Asn1::Cmp::RevDetails Org::BouncyCastle::Cmp::RevocationDetails::__get_revDetails() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cmp::RevDetails, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "revDetails", ty: "Org::BouncyCastle::Asn1::Cmp::RevDetails", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::RevocationDetails::RevocationDetails(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RevocationDetails>(revDetails))) {}
+ Org::BouncyCastle::Cmp::RevocationDetails Org::BouncyCastle::Cmp::RevocationDetails::New_ctor(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails)  {
+Org::BouncyCastle::Cmp::RevocationDetails o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::RevocationDetails>(revDetails))};
+return o;
+}
  void Org::BouncyCastle::Cmp::RevocationDetails::_ctor(Org::BouncyCastle::Asn1::Cmp::RevDetails revDetails)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::RevocationDetails>::get(),

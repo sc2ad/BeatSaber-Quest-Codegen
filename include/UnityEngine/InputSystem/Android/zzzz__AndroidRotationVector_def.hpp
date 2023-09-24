@@ -47,8 +47,7 @@ constexpr explicit AndroidRotationVector(void* ptr) noexcept : UnityEngine::Inpu
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidRotationVector() ;
+static UnityEngine::InputSystem::Android::AndroidRotationVector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953098 size 0x8 virtual false final false
  void _ctor() ;

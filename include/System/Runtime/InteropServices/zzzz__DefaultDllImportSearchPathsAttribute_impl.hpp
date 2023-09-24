@@ -25,8 +25,10 @@ constexpr void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttr
 constexpr System::Runtime::InteropServices::DllImportSearchPath System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__get__paths() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::DllImportSearchPath, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "paths", ty: "System::Runtime::InteropServices::DllImportSearchPath", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::DefaultDllImportSearchPathsAttribute(System::Runtime::InteropServices::DllImportSearchPath paths)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultDllImportSearchPathsAttribute>(paths))) {}
+ System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::New_ctor(System::Runtime::InteropServices::DllImportSearchPath paths)  {
+System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute>(paths))};
+return o;
+}
  void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::_ctor(System::Runtime::InteropServices::DllImportSearchPath paths)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute>::get(),

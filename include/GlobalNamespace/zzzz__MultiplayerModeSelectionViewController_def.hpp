@@ -3,18 +3,21 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton;
+}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace GlobalNamespace {
 class MultiplayerStatusData;
@@ -77,6 +80,8 @@ __GameBrowser = 3,
 constexpr operator __GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -213,8 +218,7 @@ constexpr System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewControll
 /// @brief Method HandleMenuButton addr 0x2178ad4 size 0x28 virtual false final false
  void HandleMenuButton(GlobalNamespace::GlobalNamespace__MultiplayerModeSelectionViewController__MenuButton menuButton) ;
 
-// Ctor Parameters []
-explicit MultiplayerModeSelectionViewController() ;
+static GlobalNamespace::MultiplayerModeSelectionViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2178afc size 0x8 virtual false final false
  void _ctor() ;

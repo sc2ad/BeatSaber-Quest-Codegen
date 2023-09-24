@@ -5,38 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-class IInputActionCollection;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
+class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
 class InputActionMap;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace UnityEngine::InputSystem {
 class IInputActionCollection2;
@@ -44,15 +34,37 @@ class IInputActionCollection2;
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__DefaultInputActions__UIActions;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__DefaultInputActions__PlayerActions;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__DefaultInputActions__IUIActions;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::InputSystem {
 struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__DefaultInputActions__IPlayerActions;
 }
 namespace UnityEngine::InputSystem {
 struct UnityEngine__InputSystem__InputAction__CallbackContext;
@@ -621,8 +633,7 @@ constexpr int32_t __get_m_XRSchemeIndex() const;
 /// @brief Method get_asset addr 0x2925b0c size 0x8 virtual false final false
  UnityEngine::InputSystem::InputActionAsset get_asset() ;
 
-// Ctor Parameters []
-explicit DefaultInputActions() ;
+static UnityEngine::InputSystem::DefaultInputActions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2925b14 size 0x360 virtual false final false
  void _ctor() ;

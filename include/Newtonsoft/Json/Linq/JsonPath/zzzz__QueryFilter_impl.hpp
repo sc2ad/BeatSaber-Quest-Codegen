@@ -2,12 +2,13 @@
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_def.hpp"
+#include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryFilter_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4._ctor
 template<>
 
@@ -246,8 +247,10 @@ constexpr void Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPat
 constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JToken> Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JToken>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4>(__1__state))) {}
+ Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4 Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4::New_ctor(int32_t __1__state)  {
+Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4 o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4>(__1__state))};
+return o;
+}
  void Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JsonPath::Newtonsoft__Json__Linq__JsonPath__QueryFilter___ExecuteFilter_d__4>::get(),
@@ -439,8 +442,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<Newtonsoft::Json::Linq::JToken>, false>(const_cast<void*>(instance), ___internal_method, current, errorWhenNoMatch);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JsonPath::QueryFilter::QueryFilter()  : Newtonsoft::Json::Linq::JsonPath::PathFilter(THROW_UNLESS(::il2cpp_utils::New<QueryFilter>())) {}
+ Newtonsoft::Json::Linq::JsonPath::QueryFilter Newtonsoft::Json::Linq::JsonPath::QueryFilter::New_ctor()  {
+Newtonsoft::Json::Linq::JsonPath::QueryFilter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JsonPath::QueryFilter>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JsonPath::QueryFilter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JsonPath::QueryFilter>::get(),

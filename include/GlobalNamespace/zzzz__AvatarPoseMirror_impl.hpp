@@ -157,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(nullptr, ___internal_method, position);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarPoseMirror::AvatarPoseMirror()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarPoseMirror>())) {}
+ GlobalNamespace::AvatarPoseMirror GlobalNamespace::AvatarPoseMirror::New_ctor()  {
+GlobalNamespace::AvatarPoseMirror o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarPoseMirror>())};
+return o;
+}
  void GlobalNamespace::AvatarPoseMirror::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarPoseMirror>::get(),

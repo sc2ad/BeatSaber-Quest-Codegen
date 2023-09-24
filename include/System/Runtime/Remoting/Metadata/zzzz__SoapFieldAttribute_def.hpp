@@ -69,8 +69,7 @@ constexpr bool __get__isElement() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SoapFieldAttribute() ;
+static System::Runtime::Remoting::Metadata::SoapFieldAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2339a70 size 0x8 virtual false final false
  void _ctor() ;

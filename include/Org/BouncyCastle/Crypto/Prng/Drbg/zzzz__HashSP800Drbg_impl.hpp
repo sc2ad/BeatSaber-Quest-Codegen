@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__HashSP800Drbg_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg._ctor
 template<>
 
@@ -227,8 +227,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg::__set_mRese
 constexpr int64_t Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg::__get_mReseedCounter() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg::HashSP800Drbg(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HashSP800Drbg>(digest, securityStrength, entropySource, personalizationString, nonce))) {}
+ Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg::New_ctor(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce)  {
+Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg>(digest, securityStrength, entropySource, personalizationString, nonce))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg::_ctor(Org::BouncyCastle::Crypto::IDigest digest, int32_t securityStrength, Org::BouncyCastle::Crypto::IEntropySource entropySource, ::ArrayW<uint8_t> personalizationString, ::ArrayW<uint8_t> nonce)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg>::get(),

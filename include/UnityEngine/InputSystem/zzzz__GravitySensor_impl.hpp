@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::GravitySensor::GravitySensor()  : UnityEngine::InputSystem::Sensor(THROW_UNLESS(::il2cpp_utils::New<GravitySensor>())) {}
+ UnityEngine::InputSystem::GravitySensor UnityEngine::InputSystem::GravitySensor::New_ctor()  {
+UnityEngine::InputSystem::GravitySensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::GravitySensor>())};
+return o;
+}
  void UnityEngine::InputSystem::GravitySensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::GravitySensor>::get(),

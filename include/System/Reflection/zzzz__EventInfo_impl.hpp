@@ -2,11 +2,12 @@
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__EventInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "Mono/zzzz__RuntimeEventHandle_def.hpp"
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "Mono/zzzz__RuntimeEventHandle_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 //  Writing Method size for method: System::Reflection::System__Reflection__EventInfo__AddEventAdapter._ctor
 template<>
@@ -42,8 +43,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Reflection::System__Reflection__EventInfo__AddEventAdapter::System__Reflection__EventInfo__AddEventAdapter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Reflection__EventInfo__AddEventAdapter>(object, method))) {}
+ System::Reflection::System__Reflection__EventInfo__AddEventAdapter System::Reflection::System__Reflection__EventInfo__AddEventAdapter::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Reflection::System__Reflection__EventInfo__AddEventAdapter o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::System__Reflection__EventInfo__AddEventAdapter>(object, method))};
+return o;
+}
  void System::Reflection::System__Reflection__EventInfo__AddEventAdapter::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__EventInfo__AddEventAdapter>::get(),
@@ -306,8 +309,10 @@ constexpr void System::Reflection::EventInfo::__set_cached_add_event(System::Ref
 constexpr System::Reflection::System__Reflection__EventInfo__AddEventAdapter System::Reflection::EventInfo::__get_cached_add_event() const {
 return ::cordl_internals::getInstanceField<System::Reflection::System__Reflection__EventInfo__AddEventAdapter, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::EventInfo::EventInfo()  : System::Reflection::MemberInfo(THROW_UNLESS(::il2cpp_utils::New<EventInfo>())) {}
+ System::Reflection::EventInfo System::Reflection::EventInfo::New_ctor()  {
+System::Reflection::EventInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::EventInfo>())};
+return o;
+}
  void System::Reflection::EventInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::EventInfo>::get(),

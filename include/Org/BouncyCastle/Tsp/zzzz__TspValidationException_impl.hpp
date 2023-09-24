@@ -58,8 +58,10 @@ constexpr void Org::BouncyCastle::Tsp::TspValidationException::__set_failureCode
 constexpr int32_t Org::BouncyCastle::Tsp::TspValidationException::__get_failureCode() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x8c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TspValidationException::TspValidationException(::StringW message)  : Org::BouncyCastle::Tsp::TspException(THROW_UNLESS(::il2cpp_utils::New<TspValidationException>(message))) {}
+ Org::BouncyCastle::Tsp::TspValidationException Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Tsp::TspValidationException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TspValidationException>(message))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TspValidationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TspValidationException>::get(),
@@ -69,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "failureCode", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TspValidationException::TspValidationException(::StringW message, int32_t failureCode)  : Org::BouncyCastle::Tsp::TspException(THROW_UNLESS(::il2cpp_utils::New<TspValidationException>(message, failureCode))) {}
+ Org::BouncyCastle::Tsp::TspValidationException Org::BouncyCastle::Tsp::TspValidationException::New_ctor(::StringW message, int32_t failureCode)  {
+Org::BouncyCastle::Tsp::TspValidationException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TspValidationException>(message, failureCode))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TspValidationException::_ctor(::StringW message, int32_t failureCode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TspValidationException>::get(),

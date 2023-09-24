@@ -2,20 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Bounds;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -84,8 +84,7 @@ constexpr int32_t __get_m_WidthSegments() const;
 /// @brief Method RebuildMesh addr 0x29f67cc size 0x24c virtual true final false
  UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit Plane() ;
+static UnityEngine::ProBuilder::Shapes::Plane New_ctor() ;
 
 /// @brief Method .ctor addr 0x29f6a18 size 0x10 virtual false final false
  void _ctor() ;

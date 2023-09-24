@@ -173,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters []
- Oculus::Platform::StandalonePlatformSettings::StandalonePlatformSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StandalonePlatformSettings>())) {}
+ Oculus::Platform::StandalonePlatformSettings Oculus::Platform::StandalonePlatformSettings::New_ctor()  {
+Oculus::Platform::StandalonePlatformSettings o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::StandalonePlatformSettings>())};
+return o;
+}
  void Oculus::Platform::StandalonePlatformSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::StandalonePlatformSettings>::get(),

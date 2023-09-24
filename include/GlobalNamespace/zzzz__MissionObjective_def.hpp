@@ -4,6 +4,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__MissionObjective__ReferenceValueComparisonType;
+}
+namespace GlobalNamespace {
 class MissionObjectiveTypeSO;
 }
 // Forward declare root types
@@ -64,6 +67,8 @@ __Min = 3,
 constexpr operator __GlobalNamespace__MissionObjective__ReferenceValueComparisonType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MissionObjective__ReferenceValueComparisonType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -185,8 +190,7 @@ static bool op_Inequality(GlobalNamespace::MissionObjective obj1, GlobalNamespac
 /// @brief Method GetHashCode addr 0x21f10d4 size 0x64 virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit MissionObjective() ;
+static GlobalNamespace::MissionObjective New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f1138 size 0x8 virtual false final false
  void _ctor() ;

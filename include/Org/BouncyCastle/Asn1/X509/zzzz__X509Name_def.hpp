@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509NameEntryConverter;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509NameEntryConverter;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -367,68 +367,57 @@ static Org::BouncyCastle::Asn1::X509::X509Name GetInstance(Org::BouncyCastle::As
 /// @brief Method GetInstance addr 0x1104750 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::X509Name GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit X509Name() ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor() ;
 
 /// @brief Method .ctor addr 0x1119840 size 0x7c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit X509Name(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1118f14 size 0x92c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit X509Name(System::Collections::IList ordering, System::Collections::IDictionary attributes) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes) ;
 
 /// @brief Method .ctor addr 0x11198bc size 0x7c virtual false final false
  void _ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes) ;
 
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
-explicit X509Name(System::Collections::IList ordering, System::Collections::IDictionary attributes, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
 /// @brief Method .ctor addr 0x1119938 size 0x654 virtual false final false
  void _ctor(System::Collections::IList ordering, System::Collections::IDictionary attributes, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit X509Name(System::Collections::IList oids, System::Collections::IList values) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(System::Collections::IList oids, System::Collections::IList values) ;
 
 /// @brief Method .ctor addr 0x1119f8c size 0x7c virtual false final false
  void _ctor(System::Collections::IList oids, System::Collections::IList values) ;
 
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
-explicit X509Name(System::Collections::IList oids, System::Collections::IList values, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(System::Collections::IList oids, System::Collections::IList values, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
 /// @brief Method .ctor addr 0x111a008 size 0x484 virtual false final false
  void _ctor(System::Collections::IList oids, System::Collections::IList values, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
-// Ctor Parameters [CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit X509Name(::StringW dirName) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(::StringW dirName) ;
 
 /// @brief Method .ctor addr 0x1103ed0 size 0x78 virtual false final false
  void _ctor(::StringW dirName) ;
 
-// Ctor Parameters [CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
-explicit X509Name(::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
 /// @brief Method .ctor addr 0x111a518 size 0x80 virtual false final false
  void _ctor(::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit X509Name(bool reverse, ::StringW dirName) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(bool reverse, ::StringW dirName) ;
 
 /// @brief Method .ctor addr 0x111afe4 size 0x78 virtual false final false
  void _ctor(bool reverse, ::StringW dirName) ;
 
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
-explicit X509Name(bool reverse, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(bool reverse, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
 /// @brief Method .ctor addr 0x111b05c size 0x88 virtual false final false
  void _ctor(bool reverse, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lookUp", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit X509Name(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName) ;
 
 /// @brief Method .ctor addr 0x111a48c size 0x8c virtual false final false
  void _ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName) ;
@@ -436,8 +425,7 @@ explicit X509Name(bool reverse, System::Collections::IDictionary lookUp, ::Strin
 /// @brief Method DecodeOid addr 0x111b0e4 size 0x268 virtual false final false
  Org::BouncyCastle::Asn1::DerObjectIdentifier DecodeOid(::StringW name, System::Collections::IDictionary lookUp) ;
 
-// Ctor Parameters [CppParam { name: "reverse", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "lookUp", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }, CppParam { name: "dirName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "Org::BouncyCastle::Asn1::X509::X509NameEntryConverter", modifiers: "", def_value: None }]
-explicit X509Name(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
+static Org::BouncyCastle::Asn1::X509::X509Name New_ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;
 
 /// @brief Method .ctor addr 0x111a598 size 0xa4c virtual false final false
  void _ctor(bool reverse, System::Collections::IDictionary lookUp, ::StringW dirName, Org::BouncyCastle::Asn1::X509::X509NameEntryConverter converter) ;

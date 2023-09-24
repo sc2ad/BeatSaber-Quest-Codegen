@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceEnumerator_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::GenericAcl._ctor
 template<>
 
@@ -202,8 +202,10 @@ return ::cordl_internals::getStaticField<uint8_t, "AclRevisionDS", ::il2cpp_util
  int32_t System::Security::AccessControl::GenericAcl::__get_MaxBinaryLength()  {
 return ::cordl_internals::getStaticField<int32_t, "MaxBinaryLength", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::GenericAcl>::get>();
 }
-// Ctor Parameters []
- System::Security::AccessControl::GenericAcl::GenericAcl()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericAcl>())) {}
+ System::Security::AccessControl::GenericAcl System::Security::AccessControl::GenericAcl::New_ctor()  {
+System::Security::AccessControl::GenericAcl o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::GenericAcl>())};
+return o;
+}
  void System::Security::AccessControl::GenericAcl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::GenericAcl>::get(),

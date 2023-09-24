@@ -1,6 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -11,12 +17,6 @@ class PlayerLobbyPermissionConfigurationNetSerializable;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,7 @@ static GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable Obtai
 /// @brief Method Init addr 0x1218794 size 0x60 virtual false final false
  GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable Init(System::Collections::Generic::IEnumerable_1<GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable> playersPermission) ;
 
-// Ctor Parameters []
-explicit PlayersLobbyPermissionConfigurationNetSerializable() ;
+static GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x12187f4 size 0xa0 virtual false final false
  void _ctor() ;

@@ -5,6 +5,7 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource._ctor
 template<>
 
@@ -73,8 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource::OVR__OpenVR__IVRResources___LoadSharedResource(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRResources___LoadSharedResource>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRResources___LoadSharedResource>::get(),
@@ -179,8 +182,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath::OVR__OpenVR__IVRResources___GetResourceFullPath(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRResources___GetResourceFullPath>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRResources___GetResourceFullPath>::get(),

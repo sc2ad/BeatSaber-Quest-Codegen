@@ -1,5 +1,6 @@
 #pragma once
 #include "Unity/XR/Oculus/zzzz__Stats_def.hpp"
+#include "Unity/XR/Oculus/zzzz__Stats_def.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
 //  Writing Method size for method: Unity::XR::Oculus::Unity__XR__Oculus__Stats__AdaptivePerformance.get_GPUAppTime
 template<>
@@ -810,8 +811,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::IntegratedSubsystem, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::Stats::Stats()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Stats>())) {}
+ Unity::XR::Oculus::Stats Unity::XR::Oculus::Stats::New_ctor()  {
+Unity::XR::Oculus::Stats o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::Stats>())};
+return o;
+}
  void Unity::XR::Oculus::Stats::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::Stats>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::MouseDownEvent.Init
 template<>
 
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::MouseDownEvent::MouseDownEvent()  : UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseDownEvent>(THROW_UNLESS(::il2cpp_utils::New<MouseDownEvent>())) {}
+ UnityEngine::UIElements::MouseDownEvent UnityEngine::UIElements::MouseDownEvent::New_ctor()  {
+UnityEngine::UIElements::MouseDownEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::MouseDownEvent>())};
+return o;
+}
  void UnityEngine::UIElements::MouseDownEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::MouseDownEvent>::get(),

@@ -55,8 +55,7 @@ constexpr explicit SocketElement(void* ptr) noexcept : System::Configuration::Co
 
 // Methods
 
-// Ctor Parameters []
-explicit SocketElement() ;
+static System::Net::Configuration::SocketElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b266c size 0x38 virtual false final false
  void _ctor() ;

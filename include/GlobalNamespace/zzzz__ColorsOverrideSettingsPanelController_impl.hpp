@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeDropdown_def.hpp"
-#include "HMUI/zzzz__PanelAnimationSO_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 #include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "GlobalNamespace/zzzz__EditColorSchemeController_def.hpp"
 #include "HMUI/zzzz__ModalView_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorsOverrideSettingsPanelController.get_colorSchemesSettings
 template<>
 
@@ -384,8 +384,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, colorScheme);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorsOverrideSettingsPanelController::ColorsOverrideSettingsPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ColorsOverrideSettingsPanelController>())) {}
+ GlobalNamespace::ColorsOverrideSettingsPanelController GlobalNamespace::ColorsOverrideSettingsPanelController::New_ctor()  {
+GlobalNamespace::ColorsOverrideSettingsPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorsOverrideSettingsPanelController>())};
+return o;
+}
  void GlobalNamespace::ColorsOverrideSettingsPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorsOverrideSettingsPanelController>::get(),

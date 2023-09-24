@@ -47,8 +47,7 @@ constexpr explicit CustomSignalEventDrawer(void* ptr) noexcept : UnityEngine::Pr
 
 // Methods
 
-// Ctor Parameters []
-explicit CustomSignalEventDrawer() ;
+static UnityEngine::Timeline::CustomSignalEventDrawer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad0400 size 0x8 virtual false final false
  void _ctor() ;

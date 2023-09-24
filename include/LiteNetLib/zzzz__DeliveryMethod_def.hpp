@@ -59,6 +59,8 @@ constexpr operator __DeliveryMethod_Unwrapped () const noexcept {
 return std::bit_cast<__DeliveryMethod_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 

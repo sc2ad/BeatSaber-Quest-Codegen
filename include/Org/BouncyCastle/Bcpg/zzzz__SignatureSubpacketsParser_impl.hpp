@@ -59,8 +59,10 @@ constexpr void Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::__set_input(S
 constexpr System::IO::Stream Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::__get_input() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::SignatureSubpacketsParser(System::IO::Stream input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignatureSubpacketsParser>(input))) {}
+ Org::BouncyCastle::Bcpg::SignatureSubpacketsParser Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::New_ctor(System::IO::Stream input)  {
+Org::BouncyCastle::Bcpg::SignatureSubpacketsParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SignatureSubpacketsParser>(input))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::_ctor(System::IO::Stream input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SignatureSubpacketsParser>::get(),

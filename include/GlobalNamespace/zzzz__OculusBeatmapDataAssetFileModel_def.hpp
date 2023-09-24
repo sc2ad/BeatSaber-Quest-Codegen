@@ -5,22 +5,22 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
-namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Message_1;
+namespace Oculus::Platform::Models {
+class AssetFileDeleteResult;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace Oculus::Platform::Models {
-class AssetFileDeleteResult;
+namespace Oculus::Platform {
+template<typename T>
+class Message_1;
 }
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
@@ -31,49 +31,73 @@ class AssetDetails;
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
 }
-namespace Oculus::Platform::Models {
-class AssetFileDownloadUpdate;
-}
-namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class OculusLevelProductsModelSO;
+struct GlobalNamespace__OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Threading {
-class SemaphoreSlim;
+namespace GlobalNamespace {
+class GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0;
+}
+namespace GlobalNamespace {
+class OculusLevelProductsModelSO;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13;
+}
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadUpdate;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -166,8 +190,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::GetA
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData(::StringW levelId, ::StringW assetBundlePath) ;
+static GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel__LevelDownloadingData New_ctor(::StringW levelId, ::StringW assetBundlePath) ;
 
 /// @brief Method .ctor addr 0x2216a54 size 0x94 virtual false final false
  void _ctor(::StringW levelId, ::StringW assetBundlePath) ;
@@ -245,8 +268,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> __get_taskSourc
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0() ;
+static GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2216f4c size 0x8 virtual false final false
  void _ctor() ;
@@ -547,8 +569,7 @@ constexpr GlobalNamespace::OculusBeatmapDataAssetFileModel __get___4__this() con
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0() ;
+static GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2218170 size 0x8 virtual false final false
  void _ctor() ;
@@ -712,8 +733,7 @@ constexpr Oculus::Platform::Models::AssetDetails __get_assetDetails() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0() ;
+static GlobalNamespace::GlobalNamespace__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22188e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -941,8 +961,7 @@ constexpr GlobalNamespace::OculusLevelProductsModelSO __get__oculusLevelProducts
 /// @brief Method remove_levelDataAssetDownloadUpdateEvent addr 0x2216280 size 0xb0 virtual true final true
  void remove_levelDataAssetDownloadUpdateEvent(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> value) ;
 
-// Ctor Parameters [CppParam { name: "oculusLevelProductsModel", ty: "GlobalNamespace::OculusLevelProductsModelSO", modifiers: "", def_value: None }]
-explicit OculusBeatmapDataAssetFileModel(GlobalNamespace::OculusLevelProductsModelSO oculusLevelProductsModel) ;
+static GlobalNamespace::OculusBeatmapDataAssetFileModel New_ctor(GlobalNamespace::OculusLevelProductsModelSO oculusLevelProductsModel) ;
 
 /// @brief Method .ctor addr 0x2216330 size 0x1e4 virtual false final false
  void _ctor(GlobalNamespace::OculusLevelProductsModelSO oculusLevelProductsModel) ;

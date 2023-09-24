@@ -3,11 +3,11 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class AsyncCallback;
-}
 namespace System::ComponentModel {
 class PropertyChangingEventArgs;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
@@ -58,8 +58,7 @@ constexpr explicit PropertyChangingEventHandler(void* ptr) noexcept : System::Mu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit PropertyChangingEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::ComponentModel::PropertyChangingEventHandler New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x24c7204 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

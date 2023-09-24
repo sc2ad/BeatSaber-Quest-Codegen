@@ -97,20 +97,17 @@ static System::Net::Mime::EncodedStreamFactory __get_s_encoderFactory() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "domain", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MailAddress(::StringW displayName, ::StringW userName, ::StringW domain) ;
+static System::Net::Mail::MailAddress New_ctor(::StringW displayName, ::StringW userName, ::StringW domain) ;
 
 /// @brief Method .ctor addr 0x276ffec size 0x80 virtual false final false
  void _ctor(::StringW displayName, ::StringW userName, ::StringW domain) ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MailAddress(::StringW address) ;
+static System::Net::Mail::MailAddress New_ctor(::StringW address) ;
 
 /// @brief Method .ctor addr 0x2770900 size 0xc virtual false final false
  void _ctor(::StringW address) ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayNameEncoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit MailAddress(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding) ;
+static System::Net::Mail::MailAddress New_ctor(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding) ;
 
 /// @brief Method .ctor addr 0x277090c size 0x24c virtual false final false
  void _ctor(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding) ;

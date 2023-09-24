@@ -59,8 +59,7 @@ constexpr UnityEngine::AudioSource __get__audioSource() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DisableSpatializerOnUnsupportedPlatforms() ;
+static GlobalNamespace::DisableSpatializerOnUnsupportedPlatforms New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bad3c size 0x8 virtual false final false
  void _ctor() ;

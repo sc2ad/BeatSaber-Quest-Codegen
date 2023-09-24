@@ -7,22 +7,31 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IMockPlayerScoreCalculator;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class NoteSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
+class IMockPlayerScoreCalculator;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class MockNoteData;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
 }
 namespace UnityEngine {
 struct Pose;
@@ -31,22 +40,13 @@ namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class MockNoteData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
 class MockObstacleData;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+struct NoteCutDirection;
 }
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -277,8 +277,7 @@ constexpr bool __get__isInited() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "scoreCalculator", ty: "GlobalNamespace::IMockPlayerScoreCalculator", modifiers: "", def_value: None }, CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }]
-explicit MockPlayerGamePoseGeneratorAI(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator scoreCalculator, bool leftHanded) ;
+static GlobalNamespace::MockPlayerGamePoseGeneratorAI New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator scoreCalculator, bool leftHanded) ;
 
 /// @brief Method .ctor addr 0x227a00c size 0x278 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMockPlayerScoreCalculator scoreCalculator, bool leftHanded) ;

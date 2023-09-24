@@ -2,14 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothStepPositionGroupEventEffect_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
-#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Tweening/zzzz__Vector3Tween_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SmoothStepPositionGroupEventEffect.Awake
 template<>
 
@@ -273,8 +273,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position);
 }
-// Ctor Parameters []
- GlobalNamespace::SmoothStepPositionGroupEventEffect::SmoothStepPositionGroupEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SmoothStepPositionGroupEventEffect>())) {}
+ GlobalNamespace::SmoothStepPositionGroupEventEffect GlobalNamespace::SmoothStepPositionGroupEventEffect::New_ctor()  {
+GlobalNamespace::SmoothStepPositionGroupEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SmoothStepPositionGroupEventEffect>())};
+return o;
+}
  void GlobalNamespace::SmoothStepPositionGroupEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SmoothStepPositionGroupEventEffect>::get(),

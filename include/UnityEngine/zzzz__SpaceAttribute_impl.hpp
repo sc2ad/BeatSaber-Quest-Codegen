@@ -41,8 +41,10 @@ constexpr void UnityEngine::SpaceAttribute::__set_height(float_t value)  {
 constexpr float_t UnityEngine::SpaceAttribute::__get_height() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::SpaceAttribute::SpaceAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<SpaceAttribute>())) {}
+ UnityEngine::SpaceAttribute UnityEngine::SpaceAttribute::New_ctor()  {
+UnityEngine::SpaceAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SpaceAttribute>())};
+return o;
+}
  void UnityEngine::SpaceAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SpaceAttribute>::get(),
@@ -52,8 +54,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "height", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::SpaceAttribute::SpaceAttribute(float_t height)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<SpaceAttribute>(height))) {}
+ UnityEngine::SpaceAttribute UnityEngine::SpaceAttribute::New_ctor(float_t height)  {
+UnityEngine::SpaceAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::SpaceAttribute>(height))};
+return o;
+}
  void UnityEngine::SpaceAttribute::_ctor(float_t height)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::SpaceAttribute>::get(),

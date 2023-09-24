@@ -1,38 +1,38 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
-namespace UnityEngine::InputSystem::Controls {
-class DoubleControl;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class TouchPressControl;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class TouchControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
 namespace UnityEngine::InputSystem::Controls {
-class TouchPhaseControl;
+class TouchPressControl;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
-}
-namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
-namespace UnityEngine::InputSystem {
-class InputControl;
+namespace UnityEngine::InputSystem::Controls {
+class TouchPhaseControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class DoubleControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -86,8 +86,7 @@ static constexpr ::ConstString  metadata{u"AutoWindowSpace;Touch;Vector2;Delta;A
 
 // Methods
 
-// Ctor Parameters []
-explicit FastTouchscreen() ;
+static UnityEngine::InputSystem::FastTouchscreen New_ctor() ;
 
 /// @brief Method .ctor addr 0x28eb52c size 0x2e08 virtual false final false
  void _ctor() ;

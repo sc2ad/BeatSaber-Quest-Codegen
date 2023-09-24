@@ -9,26 +9,29 @@
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Net {
-struct WebHeaderCollectionType;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Net {
-class HeaderInfoTable;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Collections::Specialized {
-class NameValueCollection;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Net {
+struct WebHeaderCollectionType;
+}
+namespace System::Net {
+class HeaderInfoTable;
+}
+namespace System::Net {
 struct HttpRequestHeader;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Net {
+struct System__Net__WebHeaderCollection__RfcChar;
+}
+namespace System::Collections::Specialized {
+class NameValueCollection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -92,6 +95,8 @@ __Delim = 7u,
 constexpr operator __System__Net__WebHeaderCollection__RfcChar_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__WebHeaderCollection__RfcChar_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -300,20 +305,17 @@ static bool ContainsNonAsciiChars(::StringW token) ;
 /// @brief Method GetAsString addr 0x280fdd0 size 0x2a4 virtual false final false
 static ::StringW GetAsString(System::Collections::Specialized::NameValueCollection cc, bool winInetCompat, bool forTrace) ;
 
-// Ctor Parameters []
-explicit WebHeaderCollection() ;
+static System::Net::WebHeaderCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2810074 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Net::WebHeaderCollectionType", modifiers: "", def_value: None }]
-explicit WebHeaderCollection(System::Net::WebHeaderCollectionType type) ;
+static System::Net::WebHeaderCollection New_ctor(System::Net::WebHeaderCollectionType type) ;
 
 /// @brief Method .ctor addr 0x28100d8 size 0xe4 virtual false final false
  void _ctor(System::Net::WebHeaderCollectionType type) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit WebHeaderCollection(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::WebHeaderCollection New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x28101bc size 0x1c4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

@@ -87,8 +87,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "UnityEngine::Networking::UnityWebRequest", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::WebRequestQueueOperation::WebRequestQueueOperation(UnityEngine::Networking::UnityWebRequest request)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebRequestQueueOperation>(request))) {}
+ UnityEngine::ResourceManagement::WebRequestQueueOperation UnityEngine::ResourceManagement::WebRequestQueueOperation::New_ctor(UnityEngine::Networking::UnityWebRequest request)  {
+UnityEngine::ResourceManagement::WebRequestQueueOperation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::WebRequestQueueOperation>(request))};
+return o;
+}
  void UnityEngine::ResourceManagement::WebRequestQueueOperation::_ctor(UnityEngine::Networking::UnityWebRequest request)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::WebRequestQueueOperation>::get(),

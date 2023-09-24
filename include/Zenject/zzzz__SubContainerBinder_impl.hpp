@@ -1,17 +1,18 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerBinder_def.hpp"
-#include "Zenject/zzzz__NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__BindStatement_def.hpp"
-#include "Zenject/zzzz__WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__SubContainerBinder_def.hpp"
+#include "Zenject/zzzz__IBindingFinalizer_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__BindStatement_def.hpp"
+#include "Zenject/zzzz__WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
@@ -90,8 +91,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0::__set
 constexpr Zenject::DiContainer Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0::__get_subContainer() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0::Zenject__SubContainerBinder____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass7_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass7_0>::get(),
@@ -202,8 +205,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0::__set
 constexpr System::Func_2<Zenject::InjectContext,Zenject::DiContainer> Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0::__get_subContainerGetter() const {
 return ::cordl_internals::getInstanceField<System::Func_2<Zenject::InjectContext,Zenject::DiContainer>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0::Zenject__SubContainerBinder____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass8_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass8_0>::get(),
@@ -320,8 +325,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0::__se
 constexpr System::Type Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0::__get_installerType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0::Zenject__SubContainerBinder____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass10_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass10_0>::get(),
@@ -438,8 +445,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0::__se
 constexpr System::Action_1<Zenject::DiContainer> Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0::__get_installerMethod() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0::Zenject__SubContainerBinder____c__DisplayClass11_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass11_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass11_0>::get(),
@@ -556,8 +565,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0::__se
 constexpr System::Action_1<Zenject::DiContainer> Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0::__get_installerMethod() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0::Zenject__SubContainerBinder____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass12_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass12_0>::get(),
@@ -680,8 +691,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0::__se
 constexpr System::Action_1<Zenject::DiContainer> Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0::__get_installerMethod() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0::Zenject__SubContainerBinder____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass13_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass13_0>::get(),
@@ -804,8 +817,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0::__se
 constexpr Zenject::SubContainerBinder Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::SubContainerBinder, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0::Zenject__SubContainerBinder____c__DisplayClass15_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass15_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass15_0>::get(),
@@ -934,8 +949,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0::__se
 constexpr Zenject::SubContainerBinder Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::SubContainerBinder, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0::Zenject__SubContainerBinder____c__DisplayClass17_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass17_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass17_0>::get(),
@@ -1058,8 +1075,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0::__se
 constexpr System::Action_1<Zenject::DiContainer> Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0::__get_installerMethod() const {
 return ::cordl_internals::getInstanceField<System::Action_1<Zenject::DiContainer>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0::Zenject__SubContainerBinder____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass18_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass18_0>::get(),
@@ -1188,8 +1207,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0::__se
 constexpr Zenject::SubContainerBinder Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<Zenject::SubContainerBinder, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0::Zenject__SubContainerBinder____c__DisplayClass20_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass20_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass20_0>::get(),
@@ -1306,8 +1327,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0::__se
 constexpr Zenject::GameObjectCreationParameters Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0::__get_gameObjectInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::GameObjectCreationParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0::Zenject__SubContainerBinder____c__DisplayClass22_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass22_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass22_0>::get(),
@@ -1424,8 +1447,10 @@ constexpr void Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0::__se
 constexpr Zenject::GameObjectCreationParameters Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0::__get_gameObjectInfo() const {
 return ::cordl_internals::getInstanceField<Zenject::GameObjectCreationParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0::Zenject__SubContainerBinder____c__DisplayClass24_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__SubContainerBinder____c__DisplayClass24_0>())) {}
+ Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0 Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0::New_ctor()  {
+Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0>())};
+return o;
+}
  void Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SubContainerBinder____c__DisplayClass24_0>::get(),
@@ -1758,8 +1783,10 @@ constexpr void Zenject::SubContainerBinder::__set__resolveAll(bool value)  {
 constexpr bool Zenject::SubContainerBinder::__get__resolveAll() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "bindStatement", ty: "Zenject::BindStatement", modifiers: "", def_value: None }, CppParam { name: "subIdentifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "resolveAll", ty: "bool", modifiers: "", def_value: None }]
- Zenject::SubContainerBinder::SubContainerBinder(Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerBinder>(bindInfo, bindStatement, subIdentifier, resolveAll))) {}
+ Zenject::SubContainerBinder Zenject::SubContainerBinder::New_ctor(Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll)  {
+Zenject::SubContainerBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerBinder>(bindInfo, bindStatement, subIdentifier, resolveAll))};
+return o;
+}
  void Zenject::SubContainerBinder::_ctor(Zenject::BindInfo bindInfo, Zenject::BindStatement bindStatement, ::bs_hook::Il2CppWrapperType subIdentifier, bool resolveAll)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerBinder>::get(),

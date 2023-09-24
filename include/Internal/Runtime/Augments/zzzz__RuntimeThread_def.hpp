@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Threading {
-class Thread;
+class ParameterizedThreadStart;
 }
 namespace System::Threading {
-class ParameterizedThreadStart;
+class Thread;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {
@@ -74,8 +74,7 @@ constexpr System::Threading::Thread __get_thread() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "System::Threading::Thread", modifiers: "", def_value: None }]
-explicit RuntimeThread(System::Threading::Thread t) ;
+static Internal::Runtime::Augments::RuntimeThread New_ctor(System::Threading::Thread t) ;
 
 /// @brief Method .ctor addr 0x22bf100 size 0x28 virtual false final false
  void _ctor(System::Threading::Thread t) ;

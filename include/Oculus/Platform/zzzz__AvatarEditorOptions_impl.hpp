@@ -74,8 +74,10 @@ constexpr void Oculus::Platform::AvatarEditorOptions::__set_Handle(::cordl_inter
 constexpr ::cordl_internals::intptr_t Oculus::Platform::AvatarEditorOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::AvatarEditorOptions::AvatarEditorOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarEditorOptions>())) {}
+ Oculus::Platform::AvatarEditorOptions Oculus::Platform::AvatarEditorOptions::New_ctor()  {
+Oculus::Platform::AvatarEditorOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::AvatarEditorOptions>())};
+return o;
+}
  void Oculus::Platform::AvatarEditorOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::AvatarEditorOptions>::get(),

@@ -3,8 +3,8 @@
 #include "System/Xml/Schema/zzzz__Numeric2FacetsChecker_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::Numeric2FacetsChecker.CheckValueFacets
 template<>
 
@@ -152,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, enumeration, valueConverter);
 }
-// Ctor Parameters []
- System::Xml::Schema::Numeric2FacetsChecker::Numeric2FacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<Numeric2FacetsChecker>())) {}
+ System::Xml::Schema::Numeric2FacetsChecker System::Xml::Schema::Numeric2FacetsChecker::New_ctor()  {
+System::Xml::Schema::Numeric2FacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Numeric2FacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::Numeric2FacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Numeric2FacetsChecker>::get(),

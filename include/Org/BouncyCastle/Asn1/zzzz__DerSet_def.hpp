@@ -72,32 +72,27 @@ static Org::BouncyCastle::Asn1::DerSet FromVector(Org::BouncyCastle::Asn1::Asn1E
 /// @brief Method FromVector addr 0x112aca8 size 0x9c virtual false final false
 static Org::BouncyCastle::Asn1::DerSet FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;
 
-// Ctor Parameters []
-explicit DerSet() ;
+static Org::BouncyCastle::Asn1::DerSet New_ctor() ;
 
 /// @brief Method .ctor addr 0x11332fc size 0x4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DerSet(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
+static Org::BouncyCastle::Asn1::DerSet New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
 /// @brief Method .ctor addr 0x112e314 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
-explicit DerSet(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
+static Org::BouncyCastle::Asn1::DerSet New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
 /// @brief Method .ctor addr 0x1133300 size 0x18 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit DerSet(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
+static Org::BouncyCastle::Asn1::DerSet New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
 /// @brief Method .ctor addr 0x11332e4 size 0x18 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }, CppParam { name: "needsSorting", ty: "bool", modifiers: "", def_value: None }]
-explicit DerSet(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;
+static Org::BouncyCastle::Asn1::DerSet New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;
 
 /// @brief Method .ctor addr 0x112e318 size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector, bool needsSorting) ;

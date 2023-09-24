@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::ObjectiveValueFormatterSO::ObjectiveValueFormatterSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ObjectiveValueFormatterSO>())) {}
+ GlobalNamespace::ObjectiveValueFormatterSO GlobalNamespace::ObjectiveValueFormatterSO::New_ctor()  {
+GlobalNamespace::ObjectiveValueFormatterSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObjectiveValueFormatterSO>())};
+return o;
+}
  void GlobalNamespace::ObjectiveValueFormatterSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObjectiveValueFormatterSO>::get(),

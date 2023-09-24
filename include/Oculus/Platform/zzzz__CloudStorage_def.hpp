@@ -4,24 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Oculus::Platform::Models {
-class CloudStorageMetadataList;
-}
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
 namespace Oculus::Platform::Models {
-class CloudStorageData;
-}
-namespace Oculus::Platform::Models {
 class CloudStorageConflictMetadata;
 }
 namespace Oculus::Platform::Models {
-class CloudStorageMetadata;
+class CloudStorageUpdateResponse;
 }
 namespace Oculus::Platform::Models {
-class CloudStorageUpdateResponse;
+class CloudStorageData;
+}
+namespace Oculus::Platform::Models {
+class CloudStorageMetadataList;
+}
+namespace Oculus::Platform::Models {
+class CloudStorageMetadata;
 }
 // Forward declare root types
 namespace Oculus::Platform {

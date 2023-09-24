@@ -24,8 +24,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::LeaderboardEntries::__set_entr
 constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::LeaderboardEntry> BeatSaberAPI::DataTransferObjects::LeaderboardEntries::__get_entries() const {
 return ::cordl_internals::getInstanceField<::ArrayW<BeatSaberAPI::DataTransferObjects::LeaderboardEntry>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::LeaderboardEntries::LeaderboardEntries()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LeaderboardEntries>())) {}
+ BeatSaberAPI::DataTransferObjects::LeaderboardEntries BeatSaberAPI::DataTransferObjects::LeaderboardEntries::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::LeaderboardEntries o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::LeaderboardEntries>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::LeaderboardEntries::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::LeaderboardEntries>::get(),

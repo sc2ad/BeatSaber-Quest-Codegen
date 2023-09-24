@@ -81,8 +81,7 @@ static UnityEngine::Quaternion MirrorRotation(UnityEngine::Quaternion rotation) 
 /// @brief Method MirrorPosition addr 0x20c047c size 0x8 virtual false final false
 static UnityEngine::Vector3 MirrorPosition(UnityEngine::Vector3 position) ;
 
-// Ctor Parameters []
-explicit AvatarPoseMirror() ;
+static GlobalNamespace::AvatarPoseMirror New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c04cc size 0x8 virtual false final false
  void _ctor() ;

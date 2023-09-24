@@ -2,6 +2,7 @@
 #include "Org/BouncyCastle/Asn1/zzzz__BerGenerator_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerOctetStringGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__BerOctetStringGenerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream._ctor
@@ -96,8 +97,10 @@ constexpr void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringG
 constexpr Org::BouncyCastle::Asn1::DerOutputStream Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream::__get__derOut() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerOutputStream, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "gen", ty: "Org::BouncyCastle::Asn1::BerOctetStringGenerator", modifiers: "", def_value: None }, CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream>(gen, buf))) {}
+ Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream::New_ctor(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf)  {
+Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream>(gen, buf))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream::_ctor(Org::BouncyCastle::Asn1::BerOctetStringGenerator gen, ::ArrayW<uint8_t> buf)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Org__BouncyCastle__Asn1__BerOctetStringGenerator__BufferedBerOctetStream>::get(),
@@ -219,8 +222,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetStringGenerator::BerOctetStringGenerator(System::IO::Stream outStream)  : Org::BouncyCastle::Asn1::BerGenerator(THROW_UNLESS(::il2cpp_utils::New<BerOctetStringGenerator>(outStream))) {}
+ Org::BouncyCastle::Asn1::BerOctetStringGenerator Org::BouncyCastle::Asn1::BerOctetStringGenerator::New_ctor(System::IO::Stream outStream)  {
+Org::BouncyCastle::Asn1::BerOctetStringGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetStringGenerator>(outStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetStringGenerator::_ctor(System::IO::Stream outStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetStringGenerator>::get(),
@@ -230,8 +235,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStream);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerOctetStringGenerator::BerOctetStringGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  : Org::BouncyCastle::Asn1::BerGenerator(THROW_UNLESS(::il2cpp_utils::New<BerOctetStringGenerator>(outStream, tagNo, isExplicit))) {}
+ Org::BouncyCastle::Asn1::BerOctetStringGenerator Org::BouncyCastle::Asn1::BerOctetStringGenerator::New_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  {
+Org::BouncyCastle::Asn1::BerOctetStringGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerOctetStringGenerator>(outStream, tagNo, isExplicit))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerOctetStringGenerator::_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerOctetStringGenerator>::get(),

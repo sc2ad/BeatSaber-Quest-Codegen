@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::IHapticFeedbackPlayer.PlayHapticFeedback
 template<>
 

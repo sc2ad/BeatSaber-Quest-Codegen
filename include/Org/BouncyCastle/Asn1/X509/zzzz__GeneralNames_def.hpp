@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -89,20 +89,17 @@ static Org::BouncyCastle::Asn1::X509::GeneralNames GetInstance(Org::BouncyCastle
 /// @brief Method FromExtensions addr 0x11051a8 size 0x78 virtual false final false
 static Org::BouncyCastle::Asn1::X509::GeneralNames FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions, Org::BouncyCastle::Asn1::DerObjectIdentifier extOid) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit GeneralNames(Org::BouncyCastle::Asn1::X509::GeneralName name) ;
+static Org::BouncyCastle::Asn1::X509::GeneralNames New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName name) ;
 
 /// @brief Method .ctor addr 0x1105220 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName name) ;
 
-// Ctor Parameters [CppParam { name: "names", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName>", modifiers: "", def_value: None }]
-explicit GeneralNames(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> names) ;
+static Org::BouncyCastle::Asn1::X509::GeneralNames New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> names) ;
 
 /// @brief Method .ctor addr 0x11052c8 size 0x30 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::GeneralName> names) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit GeneralNames(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::GeneralNames New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1105084 size 0x124 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -1,24 +1,25 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedGenerator_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedDataGenerator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSignedData_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSignedHelper_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSignedDataGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSignedHelper_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerIdentifier_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSignedData_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerInfo_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf._ctor
 template<>
 
@@ -169,8 +170,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGene
 constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::__get_baseSignedTable() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::AttributeTable, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsSignedGenerator", modifiers: "", def_value: None }, CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "signerIdentifier", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "digestOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "baseSignedTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf>(outer, key, signerIdentifier, digestOID, encOID, sAttr, unsAttr, baseSignedTable))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::New_ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf>(outer, key, signerIdentifier, digestOID, encOID, sAttr, unsAttr, baseSignedTable))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::_ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::AsymmetricKeyParameter key, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, ::StringW digestOID, ::StringW encOID, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf>::get(),
@@ -180,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outer, key, signerIdentifier, digestOID, encOID, sAttr, unsAttr, baseSignedTable);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Cms::CmsSignedGenerator", modifiers: "", def_value: None }, CppParam { name: "sigCalc", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "signerIdentifier", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "sAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsAttr", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "baseSignedTable", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::ISignatureFactory sigCalc, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf>(outer, sigCalc, signerIdentifier, sAttr, unsAttr, baseSignedTable))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::New_ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::ISignatureFactory sigCalc, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf>(outer, sigCalc, signerIdentifier, sAttr, unsAttr, baseSignedTable))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf::_ctor(Org::BouncyCastle::Cms::CmsSignedGenerator outer, Org::BouncyCastle::Crypto::ISignatureFactory sigCalc, Org::BouncyCastle::Asn1::Cms::SignerIdentifier signerIdentifier, Org::BouncyCastle::Cms::CmsAttributeTableGenerator sAttr, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsAttr, Org::BouncyCastle::Asn1::Cms::AttributeTable baseSignedTable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsSignedDataGenerator__SignerInf>::get(),
@@ -579,8 +584,10 @@ constexpr void Org::BouncyCastle::Cms::CmsSignedDataGenerator::__set_signerInfs(
 constexpr System::Collections::IList Org::BouncyCastle::Cms::CmsSignedDataGenerator::__get_signerInfs() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsSignedDataGenerator::CmsSignedDataGenerator()  : Org::BouncyCastle::Cms::CmsSignedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsSignedDataGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsSignedDataGenerator Org::BouncyCastle::Cms::CmsSignedDataGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsSignedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedDataGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedDataGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedDataGenerator>::get(),
@@ -590,8 +597,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "rand", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsSignedDataGenerator::CmsSignedDataGenerator(Org::BouncyCastle::Security::SecureRandom rand)  : Org::BouncyCastle::Cms::CmsSignedGenerator(THROW_UNLESS(::il2cpp_utils::New<CmsSignedDataGenerator>(rand))) {}
+ Org::BouncyCastle::Cms::CmsSignedDataGenerator Org::BouncyCastle::Cms::CmsSignedDataGenerator::New_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
+Org::BouncyCastle::Cms::CmsSignedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsSignedDataGenerator>(rand))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsSignedDataGenerator::_ctor(Org::BouncyCastle::Security::SecureRandom rand)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsSignedDataGenerator>::get(),

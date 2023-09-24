@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, session);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_GeoSync::HEU_GeoSync()  : HoudiniEngineUnity::HEU_BaseSync(THROW_UNLESS(::il2cpp_utils::New<HEU_GeoSync>())) {}
+ HoudiniEngineUnity::HEU_GeoSync HoudiniEngineUnity::HEU_GeoSync::New_ctor()  {
+HoudiniEngineUnity::HEU_GeoSync o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_GeoSync>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_GeoSync::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_GeoSync>::get(),

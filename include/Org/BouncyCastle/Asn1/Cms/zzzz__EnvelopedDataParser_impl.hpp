@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedDataParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EncryptedContentInfoParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser._ctor
 template<>
@@ -132,8 +132,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::__set__origina
 constexpr bool Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::__get__originatorInfoCalled() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::EnvelopedDataParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnvelopedDataParser>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  {
+Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser>::get(),

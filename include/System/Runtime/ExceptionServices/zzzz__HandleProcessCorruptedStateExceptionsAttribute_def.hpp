@@ -47,8 +47,7 @@ constexpr explicit HandleProcessCorruptedStateExceptionsAttribute(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters []
-explicit HandleProcessCorruptedStateExceptionsAttribute() ;
+static System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236d7f8 size 0x8 virtual false final false
  void _ctor() ;

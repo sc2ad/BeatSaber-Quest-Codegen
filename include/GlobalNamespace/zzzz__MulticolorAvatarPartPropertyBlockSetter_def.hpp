@@ -13,13 +13,19 @@ template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine {
-class Renderer;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 struct Vector4;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData;
+}
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class Renderer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -112,8 +118,7 @@ constexpr float_t __get__whiteBoost() const;
 /// @brief Method get_whiteBoost addr 0x20c336c size 0x8 virtual false final false
  float_t get_whiteBoost() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData() ;
+static GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c3374 size 0x24 virtual false final false
  void _ctor() ;
@@ -179,8 +184,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartProp
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c() ;
+static GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c33fc size 0x8 virtual false final false
  void _ctor() ;
@@ -307,8 +311,7 @@ constexpr int32_t __get__uvSegment() const;
 /// @brief Method UpdateRenderer addr 0x20c3178 size 0x178 virtual false final false
  void UpdateRenderer() ;
 
-// Ctor Parameters []
-explicit MulticolorAvatarPartPropertyBlockSetter() ;
+static GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c32f0 size 0x68 virtual false final false
  void _ctor() ;

@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class X931SecureRandom;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class X931SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -85,20 +85,17 @@ constexpr ::ArrayW<uint8_t> __get_mDateTimeVector() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X931SecureRandomBuilder() ;
+static Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb7f7c size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "entropySource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit X931SecureRandomBuilder(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
+static Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder New_ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb7fe0 size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
 
-// Ctor Parameters [CppParam { name: "entropySourceProvider", ty: "Org::BouncyCastle::Crypto::IEntropySourceProvider", modifiers: "", def_value: None }]
-explicit X931SecureRandomBuilder(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
+static Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder New_ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
 
 /// @brief Method .ctor addr 0xeb806c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;

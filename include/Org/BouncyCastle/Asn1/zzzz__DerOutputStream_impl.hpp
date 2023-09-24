@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerOutputStream._ctor
 template<>
 
@@ -191,8 +191,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "os", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerOutputStream::DerOutputStream(System::IO::Stream os)  : Org::BouncyCastle::Utilities::IO::FilterStream(THROW_UNLESS(::il2cpp_utils::New<DerOutputStream>(os))) {}
+ Org::BouncyCastle::Asn1::DerOutputStream Org::BouncyCastle::Asn1::DerOutputStream::New_ctor(System::IO::Stream os)  {
+Org::BouncyCastle::Asn1::DerOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerOutputStream>(os))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerOutputStream::_ctor(System::IO::Stream os)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerOutputStream>::get(),

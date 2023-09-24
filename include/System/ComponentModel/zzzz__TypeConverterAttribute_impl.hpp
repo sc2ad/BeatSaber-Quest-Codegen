@@ -116,8 +116,10 @@ constexpr void System::ComponentModel::TypeConverterAttribute::__set__ConverterT
 constexpr ::StringW System::ComponentModel::TypeConverterAttribute::__get__ConverterTypeName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ComponentModel::TypeConverterAttribute::TypeConverterAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeConverterAttribute>())) {}
+ System::ComponentModel::TypeConverterAttribute System::ComponentModel::TypeConverterAttribute::New_ctor()  {
+System::ComponentModel::TypeConverterAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::TypeConverterAttribute>())};
+return o;
+}
  void System::ComponentModel::TypeConverterAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::TypeConverterAttribute>::get(),
@@ -127,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::TypeConverterAttribute::TypeConverterAttribute(System::Type type)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeConverterAttribute>(type))) {}
+ System::ComponentModel::TypeConverterAttribute System::ComponentModel::TypeConverterAttribute::New_ctor(System::Type type)  {
+System::ComponentModel::TypeConverterAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::TypeConverterAttribute>(type))};
+return o;
+}
  void System::ComponentModel::TypeConverterAttribute::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::TypeConverterAttribute>::get(),
@@ -138,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::TypeConverterAttribute::TypeConverterAttribute(::StringW typeName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeConverterAttribute>(typeName))) {}
+ System::ComponentModel::TypeConverterAttribute System::ComponentModel::TypeConverterAttribute::New_ctor(::StringW typeName)  {
+System::ComponentModel::TypeConverterAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::TypeConverterAttribute>(typeName))};
+return o;
+}
  void System::ComponentModel::TypeConverterAttribute::_ctor(::StringW typeName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::TypeConverterAttribute>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextVertex_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "uv0", ty: "UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::TextVertex::TextVertex(UnityEngine::Vector3 position, UnityEngine::Color32 color, UnityEngine::Vector2 uv0) noexcept : ::bs_hook::ValueTypeWrapper() {this->position = position;
 this->color = color;

@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Bcpg {
-class MPInteger;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
+}
+namespace Org::BouncyCastle::Bcpg {
+class MPInteger;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -92,14 +92,12 @@ constexpr Org::BouncyCastle::Bcpg::MPInteger __get_e() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit RsaPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::RsaPublicBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x1148354 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "e", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaPublicBcpgKey(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger e) ;
+static Org::BouncyCastle::Bcpg::RsaPublicBcpgKey New_ctor(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger e) ;
 
 /// @brief Method .ctor addr 0x11486ec size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger e) ;

@@ -3,14 +3,17 @@
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
-}
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -61,8 +64,7 @@ constexpr explicit Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__Deflat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "z", ty: "Org::BouncyCastle::Utilities::Zlib::ZStream", modifiers: "", def_value: None }, CppParam { name: "compress", ty: "bool", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__TlsDeflateCompression__DeflateOutputStream New_ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
 
 /// @brief Method .ctor addr 0xf15e98 size 0x38 virtual false final false
  void _ctor(System::IO::Stream output, Org::BouncyCastle::Utilities::Zlib::ZStream z, bool compress) ;
@@ -148,14 +150,12 @@ constexpr Org::BouncyCastle::Utilities::Zlib::ZStream __get_zOut() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TlsDeflateCompression() ;
+static Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression New_ctor() ;
 
 /// @brief Method .ctor addr 0xf15d50 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsDeflateCompression(int32_t level) ;
+static Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression New_ctor(int32_t level) ;
 
 /// @brief Method .ctor addr 0xf15d58 size 0xac virtual false final false
  void _ctor(int32_t level) ;

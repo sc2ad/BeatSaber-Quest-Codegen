@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__SignerUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::SignerUtilities._ctor
 template<>
 
@@ -206,8 +206,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algo
  System::Collections::IDictionary Org::BouncyCastle::Security::SignerUtilities::__get_oids()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "oids", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::SignerUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::SignerUtilities::SignerUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerUtilities>())) {}
+ Org::BouncyCastle::Security::SignerUtilities Org::BouncyCastle::Security::SignerUtilities::New_ctor()  {
+Org::BouncyCastle::Security::SignerUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::SignerUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::SignerUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::SignerUtilities>::get(),

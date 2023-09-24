@@ -6,42 +6,43 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Xml/zzzz__LineInfo_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
-#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapterV1_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapterV1_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__LineInfo_def.hpp"
 #include "System/Xml/zzzz__XmlParserContext_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
 #include "System/Xml/zzzz__XmlSpace_def.hpp"
-#include "System/Xml/zzzz__DtdProcessing_def.hpp"
-#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
-#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
-#include "System/Xml/zzzz__ReadState_def.hpp"
-#include "System/Xml/zzzz__WhitespaceHandling_def.hpp"
-#include "System/zzzz__Tuple_4_def.hpp"
-#include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
-#include "System/Xml/zzzz__XmlReader_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
+#include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/zzzz__Tuple_4_def.hpp"
+#include "System/Xml/zzzz__WhitespaceHandling_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Xml/zzzz__DtdProcessing_def.hpp"
+#include "System/Xml/zzzz__ReadState_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
+#include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
 #include "System/Xml/zzzz__EntityHandling_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::System__Xml__XmlTextReaderImpl__ParsingFunction::System__Xml__XmlTextReaderImpl__ParsingFunction(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -527,8 +528,10 @@ constexpr void System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::__set_pr
 constexpr System::Xml::System__Xml__XmlTextReaderImpl__XmlContext System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::__get_previousContext() const {
 return ::cordl_internals::getInstanceField<System::Xml::System__Xml__XmlTextReaderImpl__XmlContext, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::System__Xml__XmlTextReaderImpl__XmlContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__XmlContext>())) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__XmlContext System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::New_ctor()  {
+System::Xml::System__Xml__XmlTextReaderImpl__XmlContext o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__XmlContext>())};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__XmlContext>::get(),
@@ -538,8 +541,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "previousContext", ty: "System::Xml::System__Xml__XmlTextReaderImpl__XmlContext", modifiers: "", def_value: None }]
- System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::System__Xml__XmlTextReaderImpl__XmlContext(System::Xml::System__Xml__XmlTextReaderImpl__XmlContext previousContext)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__XmlContext>(previousContext))) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__XmlContext System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::New_ctor(System::Xml::System__Xml__XmlTextReaderImpl__XmlContext previousContext)  {
+System::Xml::System__Xml__XmlTextReaderImpl__XmlContext o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__XmlContext>(previousContext))};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__XmlContext::_ctor(System::Xml::System__Xml__XmlTextReaderImpl__XmlContext previousContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__XmlContext>::get(),
@@ -702,8 +707,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager::System__Xml__XmlTextReaderImpl__NoNamespaceManager()  : System::Xml::XmlNamespaceManager(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__NoNamespaceManager>())) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager::New_ctor()  {
+System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager>())};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__NoNamespaceManager>::get(),
@@ -1330,8 +1337,10 @@ constexpr void System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy::__se
 constexpr System::Xml::XmlTextReaderImpl System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy::__get_reader() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlTextReaderImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::Xml::XmlTextReaderImpl", modifiers: "", def_value: None }]
- System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy::System__Xml__XmlTextReaderImpl__DtdParserProxy(System::Xml::XmlTextReaderImpl reader)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__DtdParserProxy>(reader))) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy::New_ctor(System::Xml::XmlTextReaderImpl reader)  {
+System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy>(reader))};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy::_ctor(System::Xml::XmlTextReaderImpl reader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__DtdParserProxy>::get(),
@@ -2186,8 +2195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::System__Xml__XmlTextReaderImpl__NodeData, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::System__Xml__XmlTextReaderImpl__NodeData::System__Xml__XmlTextReaderImpl__NodeData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__NodeData>())) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__NodeData System::Xml::System__Xml__XmlTextReaderImpl__NodeData::New_ctor()  {
+System::Xml::System__Xml__XmlTextReaderImpl__NodeData o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__NodeData>())};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__NodeData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__NodeData>::get(),
@@ -2492,8 +2503,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, x, y);
 }
-// Ctor Parameters []
- System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer>())) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::New_ctor()  {
+System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer>())};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer>::get(),
@@ -2537,8 +2550,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate>(object, method))) {}
+ System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate>(object, method))};
+return o;
+}
  void System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__XmlTextReaderImpl__OnDefaultAttributeUseDelegate>::get(),
@@ -6791,8 +6806,10 @@ constexpr void System::Xml::XmlTextReaderImpl::__set_parseText_dummyTask(System:
 constexpr System::Threading::Tasks::Task_1<System::Tuple_4<int32_t,int32_t,int32_t,bool>> System::Xml::XmlTextReaderImpl::__get_parseText_dummyTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<System::Tuple_4<int32_t,int32_t,int32_t,bool>>, 0x238>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::XmlTextReaderImpl::XmlTextReaderImpl(System::Xml::XmlNameTable nt)  : System::Xml::XmlReader(THROW_UNLESS(::il2cpp_utils::New<XmlTextReaderImpl>(nt))) {}
+ System::Xml::XmlTextReaderImpl System::Xml::XmlTextReaderImpl::New_ctor(System::Xml::XmlNameTable nt)  {
+System::Xml::XmlTextReaderImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlTextReaderImpl>(nt))};
+return o;
+}
  void System::Xml::XmlTextReaderImpl::_ctor(System::Xml::XmlNameTable nt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlTextReaderImpl>::get(),
@@ -6802,8 +6819,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, nt);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::XmlTextReaderImpl::XmlTextReaderImpl(System::IO::TextReader input, System::Xml::XmlNameTable nt)  : System::Xml::XmlReader(THROW_UNLESS(::il2cpp_utils::New<XmlTextReaderImpl>(input, nt))) {}
+ System::Xml::XmlTextReaderImpl System::Xml::XmlTextReaderImpl::New_ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt)  {
+System::Xml::XmlTextReaderImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlTextReaderImpl>(input, nt))};
+return o;
+}
  void System::Xml::XmlTextReaderImpl::_ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlTextReaderImpl>::get(),
@@ -6813,8 +6832,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, input, nt);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::XmlTextReaderImpl::XmlTextReaderImpl(::StringW url, System::IO::TextReader input, System::Xml::XmlNameTable nt)  : System::Xml::XmlReader(THROW_UNLESS(::il2cpp_utils::New<XmlTextReaderImpl>(url, input, nt))) {}
+ System::Xml::XmlTextReaderImpl System::Xml::XmlTextReaderImpl::New_ctor(::StringW url, System::IO::TextReader input, System::Xml::XmlNameTable nt)  {
+System::Xml::XmlTextReaderImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlTextReaderImpl>(url, input, nt))};
+return o;
+}
  void System::Xml::XmlTextReaderImpl::_ctor(::StringW url, System::IO::TextReader input, System::Xml::XmlNameTable nt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlTextReaderImpl>::get(),
@@ -6824,8 +6845,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, url, input, nt);
 }
-// Ctor Parameters [CppParam { name: "xmlFragment", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fragType", ty: "System::Xml::XmlNodeType", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Xml::XmlParserContext", modifiers: "", def_value: None }]
- System::Xml::XmlTextReaderImpl::XmlTextReaderImpl(::StringW xmlFragment, System::Xml::XmlNodeType fragType, System::Xml::XmlParserContext context)  : System::Xml::XmlReader(THROW_UNLESS(::il2cpp_utils::New<XmlTextReaderImpl>(xmlFragment, fragType, context))) {}
+ System::Xml::XmlTextReaderImpl System::Xml::XmlTextReaderImpl::New_ctor(::StringW xmlFragment, System::Xml::XmlNodeType fragType, System::Xml::XmlParserContext context)  {
+System::Xml::XmlTextReaderImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlTextReaderImpl>(xmlFragment, fragType, context))};
+return o;
+}
  void System::Xml::XmlTextReaderImpl::_ctor(::StringW xmlFragment, System::Xml::XmlNodeType fragType, System::Xml::XmlParserContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlTextReaderImpl>::get(),
@@ -6835,8 +6858,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlFragment, fragType, context);
 }
-// Ctor Parameters [CppParam { name: "xmlFragment", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Xml::XmlParserContext", modifiers: "", def_value: None }]
- System::Xml::XmlTextReaderImpl::XmlTextReaderImpl(::StringW xmlFragment, System::Xml::XmlParserContext context)  : System::Xml::XmlReader(THROW_UNLESS(::il2cpp_utils::New<XmlTextReaderImpl>(xmlFragment, context))) {}
+ System::Xml::XmlTextReaderImpl System::Xml::XmlTextReaderImpl::New_ctor(::StringW xmlFragment, System::Xml::XmlParserContext context)  {
+System::Xml::XmlTextReaderImpl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlTextReaderImpl>(xmlFragment, context))};
+return o;
+}
  void System::Xml::XmlTextReaderImpl::_ctor(::StringW xmlFragment, System::Xml::XmlParserContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlTextReaderImpl>::get(),

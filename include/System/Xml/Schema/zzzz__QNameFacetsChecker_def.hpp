@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Xml {
-class XmlQualifiedName;
-}
 namespace System {
 class Exception;
+}
+namespace System::Xml {
+class XmlQualifiedName;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
@@ -72,8 +72,7 @@ constexpr explicit QNameFacetsChecker(void* ptr) noexcept : System::Xml::Schema:
 /// @brief Method MatchEnumeration addr 0x272f6a8 size 0x110 virtual false final false
  bool MatchEnumeration(System::Xml::XmlQualifiedName value, System::Collections::ArrayList enumeration) ;
 
-// Ctor Parameters []
-explicit QNameFacetsChecker() ;
+static System::Xml::Schema::QNameFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272f8cc size 0x8 virtual false final false
  void _ctor() ;

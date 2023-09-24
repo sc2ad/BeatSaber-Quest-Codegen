@@ -52,8 +52,7 @@ constexpr explicit MessageWithSystemVoipState(void* ptr) noexcept : Oculus::Plat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithSystemVoipState(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithSystemVoipState New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f348 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

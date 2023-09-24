@@ -99,8 +99,10 @@ constexpr void GlobalNamespace::BufferedAudioStream::__set_remainingBufferTime(f
 constexpr float_t GlobalNamespace::BufferedAudioStream::__get_remainingBufferTime() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "audio", ty: "UnityEngine::AudioSource", modifiers: "", def_value: None }]
- GlobalNamespace::BufferedAudioStream::BufferedAudioStream(UnityEngine::AudioSource audio)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BufferedAudioStream>(audio))) {}
+ GlobalNamespace::BufferedAudioStream GlobalNamespace::BufferedAudioStream::New_ctor(UnityEngine::AudioSource audio)  {
+GlobalNamespace::BufferedAudioStream o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BufferedAudioStream>(audio))};
+return o;
+}
  void GlobalNamespace::BufferedAudioStream::_ctor(UnityEngine::AudioSource audio)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BufferedAudioStream>::get(),

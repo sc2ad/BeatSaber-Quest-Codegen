@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class InjectContext;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {

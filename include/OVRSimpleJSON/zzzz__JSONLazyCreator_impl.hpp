@@ -1,10 +1,9 @@
 #pragma once
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONLazyCreator_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONArray_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONArray_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONObject_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
@@ -497,8 +496,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "aNode", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }]
- OVRSimpleJSON::JSONLazyCreator::JSONLazyCreator(OVRSimpleJSON::JSONNode aNode)  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONLazyCreator>(aNode))) {}
+ OVRSimpleJSON::JSONLazyCreator OVRSimpleJSON::JSONLazyCreator::New_ctor(OVRSimpleJSON::JSONNode aNode)  {
+OVRSimpleJSON::JSONLazyCreator o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONLazyCreator>(aNode))};
+return o;
+}
  void OVRSimpleJSON::JSONLazyCreator::_ctor(OVRSimpleJSON::JSONNode aNode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONLazyCreator>::get(),
@@ -508,8 +509,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, aNode);
 }
-// Ctor Parameters [CppParam { name: "aNode", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "aKey", ty: "::StringW", modifiers: "", def_value: None }]
- OVRSimpleJSON::JSONLazyCreator::JSONLazyCreator(OVRSimpleJSON::JSONNode aNode, ::StringW aKey)  : OVRSimpleJSON::JSONNode(THROW_UNLESS(::il2cpp_utils::New<JSONLazyCreator>(aNode, aKey))) {}
+ OVRSimpleJSON::JSONLazyCreator OVRSimpleJSON::JSONLazyCreator::New_ctor(OVRSimpleJSON::JSONNode aNode, ::StringW aKey)  {
+OVRSimpleJSON::JSONLazyCreator o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONLazyCreator>(aNode, aKey))};
+return o;
+}
  void OVRSimpleJSON::JSONLazyCreator::_ctor(OVRSimpleJSON::JSONNode aNode, ::StringW aKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONLazyCreator>::get(),

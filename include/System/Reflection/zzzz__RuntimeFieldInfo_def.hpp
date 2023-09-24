@@ -11,38 +11,38 @@ class FieldInfo;
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System::Reflection {
-struct BindingFlags;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct RuntimeFieldHandle;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+struct FieldAttributes;
 }
 namespace System::Reflection {
 class RuntimeModule;
 }
-namespace System::Reflection {
-class Binder;
-}
-namespace System::Globalization {
-class CultureInfo;
+namespace System {
+class RuntimeType;
 }
 namespace System::Reflection {
 class Module;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+struct RuntimeFieldHandle;
+}
 namespace System::Reflection {
-struct FieldAttributes;
+class Binder;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -242,8 +242,7 @@ static void SetValueInternal(System::Reflection::FieldInfo fi, ::bs_hook::Il2Cpp
 /// @brief Method get_metadata_token addr 0x2386718 size 0x4 virtual false final false
 static int32_t get_metadata_token(System::Reflection::RuntimeFieldInfo monoField) ;
 
-// Ctor Parameters []
-explicit RuntimeFieldInfo() ;
+static System::Reflection::RuntimeFieldInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x238671c size 0x8 virtual false final false
  void _ctor() ;

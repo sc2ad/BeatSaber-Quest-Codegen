@@ -64,20 +64,17 @@ constexpr ::StringW __get_lobbyCode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lobbySecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lobbyCode", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SelectMultiplayerLobbyDestination(::StringW lobbySecret, ::StringW lobbyCode) ;
+static GlobalNamespace::SelectMultiplayerLobbyDestination New_ctor(::StringW lobbySecret, ::StringW lobbyCode) ;
 
 /// @brief Method .ctor addr 0x21bc618 size 0x2c virtual false final false
  void _ctor(::StringW lobbySecret, ::StringW lobbyCode) ;
 
-// Ctor Parameters [CppParam { name: "roomId", ty: "uint64_t", modifiers: "", def_value: None }]
-explicit SelectMultiplayerLobbyDestination(uint64_t roomId) ;
+static GlobalNamespace::SelectMultiplayerLobbyDestination New_ctor(uint64_t roomId) ;
 
 /// @brief Method .ctor addr 0x21bc644 size 0xd4 virtual false final false
  void _ctor(uint64_t roomId) ;
 
-// Ctor Parameters [CppParam { name: "lobbyCode", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SelectMultiplayerLobbyDestination(::StringW lobbyCode) ;
+static GlobalNamespace::SelectMultiplayerLobbyDestination New_ctor(::StringW lobbyCode) ;
 
 /// @brief Method .ctor addr 0x21bd470 size 0x28 virtual false final false
  void _ctor(::StringW lobbyCode) ;

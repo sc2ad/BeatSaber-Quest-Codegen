@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__NavigationMoveEvent__Direction::UnityEngine__UIElements__NavigationMoveEvent__Direction(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -203,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::NavigationMoveEvent::NavigationMoveEvent()  : UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationMoveEvent>(THROW_UNLESS(::il2cpp_utils::New<NavigationMoveEvent>())) {}
+ UnityEngine::UIElements::NavigationMoveEvent UnityEngine::UIElements::NavigationMoveEvent::New_ctor()  {
+UnityEngine::UIElements::NavigationMoveEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::NavigationMoveEvent>())};
+return o;
+}
  void UnityEngine::UIElements::NavigationMoveEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::NavigationMoveEvent>::get(),

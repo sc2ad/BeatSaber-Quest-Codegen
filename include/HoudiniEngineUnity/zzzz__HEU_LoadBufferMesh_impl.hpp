@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeoGroup_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_LoadBufferMesh._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferMesh::__set__bPartInstanced(boo
 constexpr bool HoudiniEngineUnity::HEU_LoadBufferMesh::__get__bPartInstanced() const {
 return ::cordl_internals::getInstanceField<bool, 0x47>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_LoadBufferMesh::HEU_LoadBufferMesh()  : HoudiniEngineUnity::HEU_LoadBufferBase(THROW_UNLESS(::il2cpp_utils::New<HEU_LoadBufferMesh>())) {}
+ HoudiniEngineUnity::HEU_LoadBufferMesh HoudiniEngineUnity::HEU_LoadBufferMesh::New_ctor()  {
+HoudiniEngineUnity::HEU_LoadBufferMesh o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_LoadBufferMesh>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_LoadBufferMesh::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_LoadBufferMesh>::get(),

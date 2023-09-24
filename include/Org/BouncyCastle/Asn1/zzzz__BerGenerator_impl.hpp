@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::BerGenerator._ctor
 template<>
 
@@ -174,8 +174,10 @@ constexpr void Org::BouncyCastle::Asn1::BerGenerator::__set__tagNo(int32_t value
 constexpr int32_t Org::BouncyCastle::Asn1::BerGenerator::__get__tagNo() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerGenerator::BerGenerator(System::IO::Stream outStream)  : Org::BouncyCastle::Asn1::Asn1Generator(THROW_UNLESS(::il2cpp_utils::New<BerGenerator>(outStream))) {}
+ Org::BouncyCastle::Asn1::BerGenerator Org::BouncyCastle::Asn1::BerGenerator::New_ctor(System::IO::Stream outStream)  {
+Org::BouncyCastle::Asn1::BerGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerGenerator>(outStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerGenerator::_ctor(System::IO::Stream outStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerGenerator>::get(),
@@ -185,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStream);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerGenerator::BerGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  : Org::BouncyCastle::Asn1::Asn1Generator(THROW_UNLESS(::il2cpp_utils::New<BerGenerator>(outStream, tagNo, isExplicit))) {}
+ Org::BouncyCastle::Asn1::BerGenerator Org::BouncyCastle::Asn1::BerGenerator::New_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  {
+Org::BouncyCastle::Asn1::BerGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerGenerator>(outStream, tagNo, isExplicit))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerGenerator::_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerGenerator>::get(),

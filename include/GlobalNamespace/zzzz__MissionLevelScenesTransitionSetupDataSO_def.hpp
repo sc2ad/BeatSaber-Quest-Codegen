@@ -3,36 +3,36 @@
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class MissionObjective;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class MissionCompletionResults;
+}
+namespace GlobalNamespace {
+class MissionObjective;
+}
+namespace GlobalNamespace {
+class SceneInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,8 +150,7 @@ constexpr GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap_k__Backin
 /// @brief Method Finish addr 0x21d39c0 size 0x28 virtual false final false
  void Finish(GlobalNamespace::MissionCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit MissionLevelScenesTransitionSetupDataSO() ;
+static GlobalNamespace::MissionLevelScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d39e8 size 0x8 virtual false final false
  void _ctor() ;

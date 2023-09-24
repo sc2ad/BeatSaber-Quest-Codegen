@@ -2,12 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
 #include <cstdint>
-namespace System::Security::AccessControl {
-class GenericAce;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Security::AccessControl {
+class GenericAce;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -77,8 +77,7 @@ constexpr System::Collections::Generic::List_1<System::Security::AccessControl::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "revision", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RawAcl(uint8_t revision, int32_t capacity) ;
+static System::Security::AccessControl::RawAcl New_ctor(uint8_t revision, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x231601c size 0xbc virtual false final false
  void _ctor(uint8_t revision, int32_t capacity) ;

@@ -1,19 +1,19 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Oculus::Platform::Models {
+class PartyUpdateNotification;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
+namespace Oculus::Platform::Models {
+class Party;
+}
 namespace Oculus::Platform {
 template<typename T>
 class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class PartyUpdateNotification;
-}
-namespace Oculus::Platform::Models {
-class Party;
 }
 // Forward declare root types
 namespace Oculus::Platform {

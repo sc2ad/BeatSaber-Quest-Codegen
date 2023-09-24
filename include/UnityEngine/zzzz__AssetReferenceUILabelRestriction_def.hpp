@@ -67,8 +67,7 @@ constexpr ::StringW __get_m_CachedToString() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "allowedLabels", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit AssetReferenceUILabelRestriction(::ArrayW<::StringW> allowedLabels) ;
+static UnityEngine::AssetReferenceUILabelRestriction New_ctor(::ArrayW<::StringW> allowedLabels) ;
 
 /// @brief Method .ctor addr 0x287d6ac size 0x28 virtual false final false
  void _ctor(::ArrayW<::StringW> allowedLabels) ;

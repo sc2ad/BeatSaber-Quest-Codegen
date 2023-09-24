@@ -5,23 +5,24 @@
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__RpcHandler_1_def.hpp"
-#include "GlobalNamespace/zzzz__EntitlementsStatus_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__EntitlementsStatus_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializable_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersMissingEntitlementsNetSerializable_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerGameState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MenuRpcManager__RpcType::GlobalNamespace__MenuRpcManager__RpcType(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -88,8 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetPlayersPermissionConfigurationRpc>::get(),
@@ -116,8 +119,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersPermissionConfigurationRpc>::get(),
@@ -144,8 +149,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::PlayersMissingEntitlementsNetSerializable>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc>::get(),
@@ -172,8 +179,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc()  : GlobalNamespace::RemoteProcedureCall_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsEntitledToLevelRpc>::get(),
@@ -200,8 +209,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc()  : GlobalNamespace::RemoteProcedureCall_2<::StringW,int32_t>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsEntitledToLevelRpc>::get(),
@@ -228,8 +239,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__InvalidateLevelEntitlementStatusesRpc>::get(),
@@ -256,8 +269,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc()  : GlobalNamespace::RemoteProcedureCall_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SelectLevelPackRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SelectLevelPackRpc>::get(),
@@ -284,8 +299,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::BeatmapIdentifierNetSerializable>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedBeatmapRpc>::get(),
@@ -312,8 +329,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedBeatmapRpc>::get(),
@@ -340,8 +359,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedBeatmapRpc>::get(),
@@ -368,8 +389,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::BeatmapIdentifierNetSerializable>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendBeatmapRpc>::get(),
@@ -396,8 +419,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedBeatmapRpc>::get(),
@@ -424,8 +449,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedBeatmapRpc>::get(),
@@ -452,8 +479,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::GameplayModifiers>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetSelectedGameplayModifiersRpc>::get(),
@@ -480,8 +509,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearSelectedGameplayModifiersRpc>::get(),
@@ -508,8 +539,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetSelectedGameplayModifiersRpc>::get(),
@@ -536,8 +569,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::GameplayModifiers>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__RecommendGameplayModifiersRpc>::get(),
@@ -564,8 +599,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__ClearRecommendedGameplayModifiersRpc>::get(),
@@ -592,8 +629,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetRecommendedGameplayModifiersRpc>::get(),
@@ -620,8 +659,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsStartButtonEnabledRpc>::get(),
@@ -648,8 +689,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::CannotStartGameReason>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsStartButtonEnabledRpc>::get(),
@@ -676,8 +719,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc()  : GlobalNamespace::RemoteProcedureCall_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadErrorRpc>::get(),
@@ -704,8 +749,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc()  : GlobalNamespace::RemoteProcedureCall_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__LevelLoadSuccessRpc>::get(),
@@ -732,8 +779,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc::GlobalNamespace__MenuRpcManager__StartLevelRpc()  : GlobalNamespace::RemoteProcedureCall_3<GlobalNamespace::BeatmapIdentifierNetSerializable,GlobalNamespace::GameplayModifiers,float_t>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__StartLevelRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__StartLevelRpc>::get(),
@@ -760,8 +809,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetStartedLevelRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetStartedLevelRpc>::get(),
@@ -788,8 +839,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetMultiplayerGameStateRpc>::get(),
@@ -816,8 +869,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::MultiplayerGameState>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetMultiplayerGameStateRpc>::get(),
@@ -844,8 +899,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc::GlobalNamespace__MenuRpcManager__CancelCountdownRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__CancelCountdownRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelCountdownRpc>::get(),
@@ -872,8 +929,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc()  : GlobalNamespace::RemoteProcedureCall_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetCountdownEndTimeRpc>::get(),
@@ -900,8 +959,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetCountdownEndTimeRpc>::get(),
@@ -928,8 +989,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__CancelLevelStartRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelLevelStartRpc>::get(),
@@ -956,8 +1019,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc::GlobalNamespace__MenuRpcManager__GetIsReadyRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetIsReadyRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsReadyRpc>::get(),
@@ -984,8 +1049,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc::GlobalNamespace__MenuRpcManager__SetIsReadyRpc()  : GlobalNamespace::RemoteProcedureCall_1<bool>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetIsReadyRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsReadyRpc>::get(),
@@ -1012,8 +1079,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc()  : GlobalNamespace::RemoteProcedureCall_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetStartGameTimeRpc>::get(),
@@ -1040,8 +1109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__CancelStartGameTimeRpc>::get(),
@@ -1068,8 +1139,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetIsInLobbyRpc>::get(),
@@ -1096,8 +1169,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc()  : GlobalNamespace::RemoteProcedureCall_1<bool>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetIsInLobbyRpc>::get(),
@@ -1124,8 +1199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc()  : GlobalNamespace::RemoteProcedureCall(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__GetOwnedSongPacksRpc>::get(),
@@ -1152,8 +1229,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc()  : GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::SongPackMask>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__SetOwnedSongPacksRpc>::get(),
@@ -1180,8 +1259,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc()  : GlobalNamespace::RemoteProcedureCall_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc>())) {}
+ GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuRpcManager__RequestKickPlayerRpc>::get(),
@@ -4352,8 +4433,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MenuRpcManager::MenuRpcManager(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MenuRpcManager>(multiplayerSessionManager))) {}
+ GlobalNamespace::MenuRpcManager GlobalNamespace::MenuRpcManager::New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
+GlobalNamespace::MenuRpcManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuRpcManager>(multiplayerSessionManager))};
+return o;
+}
  void GlobalNamespace::MenuRpcManager::_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuRpcManager>::get(),

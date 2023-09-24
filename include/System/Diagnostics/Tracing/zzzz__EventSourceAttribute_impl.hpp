@@ -82,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Diagnostics::Tracing::EventSourceAttribute::EventSourceAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<EventSourceAttribute>())) {}
+ System::Diagnostics::Tracing::EventSourceAttribute System::Diagnostics::Tracing::EventSourceAttribute::New_ctor()  {
+System::Diagnostics::Tracing::EventSourceAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Tracing::EventSourceAttribute>())};
+return o;
+}
  void System::Diagnostics::Tracing::EventSourceAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Tracing::EventSourceAttribute>::get(),

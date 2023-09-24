@@ -127,14 +127,12 @@ static ::StringW __declspec(property(get=get_MachinePath))  MachinePath;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
-explicit KeyPairPersistence(System::Security::Cryptography::CspParameters parameters) ;
+static Mono::Security::Cryptography::KeyPairPersistence New_ctor(System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method .ctor addr 0x22b18ac size 0x8 virtual false final false
  void _ctor(System::Security::Cryptography::CspParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }, CppParam { name: "keyPair", ty: "::StringW", modifiers: "", def_value: None }]
-explicit KeyPairPersistence(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;
+static Mono::Security::Cryptography::KeyPairPersistence New_ctor(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;
 
 /// @brief Method .ctor addr 0x22b18b4 size 0x84 virtual false final false
  void _ctor(System::Security::Cryptography::CspParameters parameters, ::StringW keyPair) ;

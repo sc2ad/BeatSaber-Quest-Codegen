@@ -57,8 +57,7 @@ constexpr ::StringW __get__Trademark_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "trademark", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyTrademarkAttribute(::StringW trademark) ;
+static System::Reflection::AssemblyTrademarkAttribute New_ctor(::StringW trademark) ;
 
 /// @brief Method .ctor addr 0x2378e88 size 0x28 virtual false final false
  void _ctor(::StringW trademark) ;

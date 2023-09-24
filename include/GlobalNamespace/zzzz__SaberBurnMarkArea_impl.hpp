@@ -1,18 +1,18 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberBurnMarkArea_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__LineRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__Plane_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__LineRenderer_def.hpp"
+#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "UnityEngine/zzzz__Plane_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SaberBurnMarkArea.Start
 template<>
 
@@ -332,8 +332,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberBurnMarkArea::SaberBurnMarkArea()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SaberBurnMarkArea>())) {}
+ GlobalNamespace::SaberBurnMarkArea GlobalNamespace::SaberBurnMarkArea::New_ctor()  {
+GlobalNamespace::SaberBurnMarkArea o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberBurnMarkArea>())};
+return o;
+}
  void GlobalNamespace::SaberBurnMarkArea::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberBurnMarkArea>::get(),

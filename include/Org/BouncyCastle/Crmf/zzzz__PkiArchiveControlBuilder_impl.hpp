@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__PkiArchiveControlBuilder_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessableByteArray_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PkiArchiveControl_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessableByteArray_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedDataGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::PkiArchiveControlBuilder._ctor
 template<>
 
@@ -70,8 +70,10 @@ constexpr void Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__set_keyConte
 constexpr Org::BouncyCastle::Cms::CmsProcessableByteArray Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__get_keyContent() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Cms::CmsProcessableByteArray, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "privateKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo", modifiers: "", def_value: None }, CppParam { name: "generalName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::PkiArchiveControlBuilder(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkiArchiveControlBuilder>(privateKeyInfo, generalName))) {}
+ Org::BouncyCastle::Crmf::PkiArchiveControlBuilder Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::New_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName)  {
+Org::BouncyCastle::Crmf::PkiArchiveControlBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PkiArchiveControlBuilder>(privateKeyInfo, generalName))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::_ctor(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo privateKeyInfo, Org::BouncyCastle::Asn1::X509::GeneralName generalName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PkiArchiveControlBuilder>::get(),

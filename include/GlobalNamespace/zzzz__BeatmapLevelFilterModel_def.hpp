@@ -5,55 +5,64 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace GlobalNamespace {
 class AdditionalContentModel;
 }
 namespace GlobalNamespace {
-class LevelFilterParams;
+struct GlobalNamespace__BeatmapLevelFilterModel___FilerBeatmapLevelPackCollectionAsync_d__0;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class LevelFilterParams;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapLevelFilterModel___GetAllBeatmapLevelsAsync_d__2;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -137,8 +146,7 @@ constexpr GlobalNamespace::PlayerDataModel __get_playerDataModel() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0() ;
+static GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e3840 size 0x8 virtual false final false
  void _ctor() ;

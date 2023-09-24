@@ -5,29 +5,29 @@
 #include <cstdint>
 namespace Oculus::Platform {
 template<typename T>
-class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadUpdate;
-}
-namespace Oculus::Platform::Models {
-class AssetFileDownloadCancelResult;
+class Request_1;
 }
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
 }
 namespace Oculus::Platform::Models {
-class AssetFileDeleteResult;
+class AssetDetails;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDownloadUpdate;
 }
 namespace Oculus::Platform::Models {
 class AssetFileDownloadResult;
 }
 namespace Oculus::Platform {
 template<typename T>
-class Request_1;
+class Oculus__Platform__Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
-class AssetDetails;
+class AssetFileDownloadCancelResult;
+}
+namespace Oculus::Platform::Models {
+class AssetFileDeleteResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {

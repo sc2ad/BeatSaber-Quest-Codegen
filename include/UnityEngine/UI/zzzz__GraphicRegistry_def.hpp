@@ -1,27 +1,27 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine::UI::Collections {
-template<typename T>
-class IndexedSet_1;
-}
 namespace UnityEngine::UI {
 class Graphic;
 }
 namespace UnityEngine {
 class Canvas;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::UI::Collections {
+template<typename T>
+class IndexedSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -101,8 +101,7 @@ static UnityEngine::UI::GraphicRegistry __declspec(property(get=get_instance))  
 
 // Methods
 
-// Ctor Parameters []
-explicit GraphicRegistry() ;
+static UnityEngine::UI::GraphicRegistry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2be77cc size 0x1a8 virtual false final false
  void _ctor() ;

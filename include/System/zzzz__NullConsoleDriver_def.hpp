@@ -68,8 +68,7 @@ static System::ConsoleKeyInfo __get_EmptyConsoleKeyInfo() ;
 /// @brief Method ReadKey addr 0x249080c size 0x5c virtual true final true
  System::ConsoleKeyInfo ReadKey(bool intercept) ;
 
-// Ctor Parameters []
-explicit NullConsoleDriver() ;
+static System::NullConsoleDriver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2489428 size 0x4 virtual false final false
  void _ctor() ;

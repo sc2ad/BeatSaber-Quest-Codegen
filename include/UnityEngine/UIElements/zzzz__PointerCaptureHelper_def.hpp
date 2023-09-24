@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class PointerDispatchState;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class PointerDispatchState;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

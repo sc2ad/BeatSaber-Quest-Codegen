@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IRichPresencePlatformHandler;
 }
 namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
+class IRichPresenceData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +83,7 @@ constexpr ::StringW __get__currentPresenceApiName_k__BackingField() const;
 /// @brief Method Clear addr 0x2229e90 size 0x50 virtual true final true
  void Clear() ;
 
-// Ctor Parameters []
-explicit NoRichPresencePlatformHandler() ;
+static GlobalNamespace::NoRichPresencePlatformHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229ee0 size 0x58 virtual false final false
  void _ctor() ;

@@ -56,6 +56,8 @@ constexpr operator __WhiteSpace_Unwrapped () const noexcept {
 return std::bit_cast<__WhiteSpace_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

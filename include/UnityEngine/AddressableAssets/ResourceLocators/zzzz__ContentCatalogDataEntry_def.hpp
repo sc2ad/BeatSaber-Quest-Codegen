@@ -2,12 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -149,8 +149,7 @@ constexpr System::Type __get__ResourceType_k__BackingField() const;
 /// @brief Method set_ResourceType addr 0x289b6c8 size 0x8 virtual false final false
  void set_ResourceType(System::Type value) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "internalId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keys", ty: "System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "extraData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ContentCatalogDataEntry(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;
+static UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry New_ctor(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;
 
 /// @brief Method .ctor addr 0x289b6d0 size 0x108 virtual false final false
  void _ctor(System::Type type, ::StringW internalId, ::StringW provider, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> keys, System::Collections::Generic::IEnumerable_1<::bs_hook::Il2CppWrapperType> dependencies, ::bs_hook::Il2CppWrapperType extraData) ;

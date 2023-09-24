@@ -1,8 +1,21 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
+namespace System::Linq::Expressions {
+class System__Linq__Expressions__Expression__LambdaExpressionProxy;
+}
+namespace System::Dynamic::Utils {
+template<typename TKey,typename TValue>
+class CacheDict_2;
+}
+namespace System::Linq::Expressions {
+class System__Linq__Expressions__Expression__UnaryExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class System__Linq__Expressions__Expression__MemberExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class System__Linq__Expressions__Expression__ExtensionInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -10,9 +23,8 @@ class MethodInfo;
 namespace System::Linq::Expressions {
 struct ExpressionType;
 }
-namespace System::Dynamic::Utils {
-template<typename TKey,typename TValue>
-class CacheDict_2;
+namespace System {
+class Type;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TKey,typename TValue>

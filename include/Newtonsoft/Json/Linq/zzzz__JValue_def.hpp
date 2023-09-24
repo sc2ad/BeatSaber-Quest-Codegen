@@ -6,57 +6,57 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace Newtonsoft::Json {
-class JsonConverter;
+namespace System {
+class IComparable;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-struct DateTimeOffset;
-}
-namespace System {
-struct Decimal;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
 struct Guid;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class IConvertible;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System {
 class Uri;
 }
 namespace System {
-class IFormatProvider;
+struct Decimal;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class IConvertible;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace System {
 struct TypeCode;
 }
 namespace Newtonsoft::Json::Linq {
-class JToken;
+struct JTokenType;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class IFormattable;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
 }
 namespace System {
 class Type;
 }
 namespace System {
-class IFormattable;
+struct DateTimeOffset;
 }
 namespace Newtonsoft::Json::Linq {
-struct JTokenType;
+class JToken;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -137,98 +137,82 @@ constexpr ::bs_hook::Il2CppWrapperType __get__value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "Newtonsoft::Json::Linq::JTokenType", modifiers: "", def_value: None }]
-explicit JValue(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Linq::JTokenType type) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Linq::JTokenType type) ;
 
 /// @brief Method .ctor addr 0x2530c50 size 0x74 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Linq::JTokenType type) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JValue", modifiers: "", def_value: None }]
-explicit JValue(Newtonsoft::Json::Linq::JValue other) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(Newtonsoft::Json::Linq::JValue other) ;
 
 /// @brief Method .ctor addr 0x2530cc4 size 0x80 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JValue other) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }]
-explicit JValue(int64_t value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(int64_t value) ;
 
 /// @brief Method .ctor addr 0x2530d44 size 0x6c virtual false final false
  void _ctor(int64_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::Decimal", modifiers: "", def_value: None }]
-explicit JValue(System::Decimal value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(System::Decimal value) ;
 
 /// @brief Method .ctor addr 0x2530db0 size 0xa0 virtual false final false
  void _ctor(System::Decimal value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: None }]
-explicit JValue(char16_t value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(char16_t value) ;
 
 /// @brief Method .ctor addr 0x2530e50 size 0x6c virtual false final false
  void _ctor(char16_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "uint64_t", modifiers: "", def_value: None }]
-explicit JValue(uint64_t value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(uint64_t value) ;
 
 /// @brief Method .ctor addr 0x2530ebc size 0x6c virtual false final false
  void _ctor(uint64_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "double_t", modifiers: "", def_value: None }]
-explicit JValue(double_t value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(double_t value) ;
 
 /// @brief Method .ctor addr 0x2530f28 size 0x6c virtual false final false
  void _ctor(double_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }]
-explicit JValue(float_t value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(float_t value) ;
 
 /// @brief Method .ctor addr 0x2530f94 size 0x6c virtual false final false
  void _ctor(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::DateTime", modifiers: "", def_value: None }]
-explicit JValue(System::DateTime value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(System::DateTime value) ;
 
 /// @brief Method .ctor addr 0x2531000 size 0x6c virtual false final false
  void _ctor(System::DateTime value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
-explicit JValue(System::DateTimeOffset value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(System::DateTimeOffset value) ;
 
 /// @brief Method .ctor addr 0x253106c size 0x78 virtual false final false
  void _ctor(System::DateTimeOffset value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
-explicit JValue(bool value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(bool value) ;
 
 /// @brief Method .ctor addr 0x25310e4 size 0x6c virtual false final false
  void _ctor(bool value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JValue(::StringW value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x2531150 size 0x8 virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit JValue(System::Guid value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(System::Guid value) ;
 
 /// @brief Method .ctor addr 0x2531158 size 0x78 virtual false final false
  void _ctor(System::Guid value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit JValue(System::Uri value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(System::Uri value) ;
 
 /// @brief Method .ctor addr 0x25311d0 size 0x84 virtual false final false
  void _ctor(System::Uri value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "System::TimeSpan", modifiers: "", def_value: None }]
-explicit JValue(System::TimeSpan value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(System::TimeSpan value) ;
 
 /// @brief Method .ctor addr 0x2531254 size 0x6c virtual false final false
  void _ctor(System::TimeSpan value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit JValue(::bs_hook::Il2CppWrapperType value) ;
+static Newtonsoft::Json::Linq::JValue New_ctor(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x25312c0 size 0x30 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType value) ;

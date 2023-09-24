@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"
+#include "HMUI/zzzz__UISelectionState_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__UISelectionState_def.hpp"
 //  Writing Method size for method: HMUI::NoTransitionsToggle.get_selectionState
 template<>
 
@@ -180,8 +180,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state, instant);
 }
-// Ctor Parameters []
- HMUI::NoTransitionsToggle::NoTransitionsToggle()  : UnityEngine::UI::Toggle(THROW_UNLESS(::il2cpp_utils::New<NoTransitionsToggle>())) {}
+ HMUI::NoTransitionsToggle HMUI::NoTransitionsToggle::New_ctor()  {
+HMUI::NoTransitionsToggle o{THROW_UNLESS(::il2cpp_utils::New<HMUI::NoTransitionsToggle>())};
+return o;
+}
  void HMUI::NoTransitionsToggle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::NoTransitionsToggle>::get(),

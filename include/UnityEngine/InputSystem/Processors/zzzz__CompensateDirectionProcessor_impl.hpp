@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateDirectionProcessor_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Processors::CompensateDirectionProcessor.Process
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::CompensateDirectionProcessor()  : UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3>(THROW_UNLESS(::il2cpp_utils::New<CompensateDirectionProcessor>())) {}
+ UnityEngine::InputSystem::Processors::CompensateDirectionProcessor UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::New_ctor()  {
+UnityEngine::InputSystem::Processors::CompensateDirectionProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::CompensateDirectionProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::CompensateDirectionProcessor>::get(),

@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Input::HapticControl::HapticControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::XR::OpenXR::Input::Haptic>(THROW_UNLESS(::il2cpp_utils::New<HapticControl>())) {}
+ UnityEngine::XR::OpenXR::Input::HapticControl UnityEngine::XR::OpenXR::Input::HapticControl::New_ctor()  {
+UnityEngine::XR::OpenXR::Input::HapticControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Input::HapticControl>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Input::HapticControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Input::HapticControl>::get(),

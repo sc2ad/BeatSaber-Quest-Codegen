@@ -56,8 +56,7 @@ constexpr explicit MouseMoveEvent(void* ptr) noexcept : UnityEngine::UIElements:
 /// @brief Method LocalInit addr 0x2cd9f80 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit MouseMoveEvent() ;
+static UnityEngine::UIElements::MouseMoveEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9f8c size 0x54 virtual false final false
  void _ctor() ;

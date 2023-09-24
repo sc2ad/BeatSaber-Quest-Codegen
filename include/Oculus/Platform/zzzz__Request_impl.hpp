@@ -1,7 +1,6 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Request_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Request._ctor
 template<>
 
@@ -116,8 +115,10 @@ constexpr void Oculus::Platform::Request::__set__RequestID_k__BackingField(uint6
 constexpr uint64_t Oculus::Platform::Request::__get__RequestID_k__BackingField() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "requestID", ty: "uint64_t", modifiers: "", def_value: None }]
- Oculus::Platform::Request::Request(uint64_t requestID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Request>(requestID))) {}
+ Oculus::Platform::Request Oculus::Platform::Request::New_ctor(uint64_t requestID)  {
+Oculus::Platform::Request o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Request>(requestID))};
+return o;
+}
  void Oculus::Platform::Request::_ctor(uint64_t requestID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Request>::get(),

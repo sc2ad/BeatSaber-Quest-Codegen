@@ -2,29 +2,29 @@
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "Oculus/Platform/Models/zzzz__Room_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
-#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__Room_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserAndRoomList_def.hpp"
+#include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__OculusConnectionManager_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "Oculus/Platform/zzzz__RoomJoinPolicy_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
-#include "GlobalNamespace/zzzz__OculusConnectionManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Oculus/Platform/zzzz__RoomJoinPolicy_def.hpp"
 #include "Oculus/Platform/Models/zzzz__RoomInviteNotification_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -857,8 +857,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "playerModel", ty: "GlobalNamespace::OculusNetworkPlayerModel", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isMe", ty: "bool", modifiers: "", def_value: Some("false") }]
- GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer(GlobalNamespace::OculusNetworkPlayerModel playerModel, uint64_t id, ::StringW userName, bool isMe)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer>(playerModel, id, userName, isMe))) {}
+/// @param isMe: bool (default: false)
+ GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer::New_ctor(GlobalNamespace::OculusNetworkPlayerModel playerModel, uint64_t id, ::StringW userName, bool isMe)  {
+GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer>(playerModel, id, userName, isMe))};
+return o;
+}
 /// @param isMe: bool (default: false)
  void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel__OculusNetworkPlayer::_ctor(GlobalNamespace::OculusNetworkPlayerModel playerModel, uint64_t id, ::StringW userName, bool isMe)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1208,8 +1211,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__
 constexpr System::Threading::Tasks::TaskCompletionSource_1<::StringW> GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0::__get_tcs() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskCompletionSource_1<::StringW>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0 GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass50_0>::get(),
@@ -1274,8 +1279,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__
 constexpr GlobalNamespace::OculusNetworkPlayerModel GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OculusNetworkPlayerModel, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0 GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass51_0>::get(),
@@ -1463,8 +1470,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__
 constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::UserList> GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0::__get_onGetInvitable() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::UserList>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0 GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass55_0>::get(),
@@ -1544,8 +1553,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__
 constexpr uint64_t GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0::__get_userId() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0 GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusNetworkPlayerModel____c__DisplayClass64_0>::get(),
@@ -2526,8 +2537,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<bool>, false>(const_cast<void*>(instance), ___internal_method, userId);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayerModel()  : GlobalNamespace::PlatformNetworkPlayerModel(THROW_UNLESS(::il2cpp_utils::New<OculusNetworkPlayerModel>())) {}
+ GlobalNamespace::OculusNetworkPlayerModel GlobalNamespace::OculusNetworkPlayerModel::New_ctor()  {
+GlobalNamespace::OculusNetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusNetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::OculusNetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusNetworkPlayerModel>::get(),

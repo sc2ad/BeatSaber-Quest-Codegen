@@ -47,8 +47,7 @@ constexpr explicit ViveLighthouse(void* ptr) noexcept : UnityEngine::InputSystem
 
 // Methods
 
-// Ctor Parameters []
-explicit ViveLighthouse() ;
+static Unity::XR::OpenVR::ViveLighthouse New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a2c4c size 0x8 virtual false final false
  void _ctor() ;

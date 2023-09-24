@@ -6,23 +6,41 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::Events {
-template<typename T0>
-class UnityEvent_1;
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageEvent;
 }
-namespace System {
-struct Guid;
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass8_0;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class MessageEventArgs;
 }
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
 }
-namespace UnityEngine::Networking::PlayerConnection {
-class MessageEventArgs;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__ConnectionChangeEvent;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass6_0;
+}
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageTypeSubscribers;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass7_0;
+}
+namespace UnityEngine::Events {
+template<typename T0>
+class UnityEvent_1;
 }
 // Forward declare root types
 namespace UnityEngine::Networking::PlayerConnection {
@@ -49,7 +67,7 @@ class UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents___
 // Type: ::MessageEvent
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(10248))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5053 }), TypeDefinitionIndex(TypeDefinitionIndex(10248)), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10237))
 // CS Name: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::MessageEvent
 class CORDL_TYPE UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs> {
@@ -88,8 +106,7 @@ constexpr explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnec
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageEvent() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f5fc size 0x48 virtual false final false
  void _ctor() ;
@@ -101,7 +118,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::ConnectionChangeEvent
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 92 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 92 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10238))
 // CS Name: UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::ConnectionChangeEvent
 class CORDL_TYPE UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__ConnectionChangeEvent : public UnityEngine::Events::UnityEvent_1<int32_t> {
@@ -140,8 +157,7 @@ constexpr explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnec
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__ConnectionChangeEvent() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__ConnectionChangeEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f878 size 0x48 virtual false final false
  void _ctor() ;
@@ -224,8 +240,7 @@ constexpr UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__Pl
 /// @brief Method set_MessageTypeId addr 0x2b6f5d0 size 0x2c virtual false final false
  void set_MessageTypeId(System::Guid value) ;
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageTypeSubscribers() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents__MessageTypeSubscribers New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f568 size 0x68 virtual false final false
  void _ctor() ;
@@ -285,8 +300,7 @@ constexpr System::Guid __get_messageId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass6_0() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f370 size 0x8 virtual false final false
  void _ctor() ;
@@ -349,8 +363,7 @@ constexpr System::Guid __get_messageId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass7_0() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f560 size 0x8 virtual false final false
  void _ctor() ;
@@ -413,8 +426,7 @@ constexpr System::Guid __get_messageId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass8_0() ;
+static UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__PlayerConnection__PlayerEditorConnectionEvents____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f7b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -510,8 +522,7 @@ constexpr UnityEngine::Networking::PlayerConnection::UnityEngine__Networking__Pl
 /// @brief Method UnregisterManagedCallback addr 0x2b6f644 size 0x16c virtual false final false
  void UnregisterManagedCallback(System::Guid messageId, UnityEngine::Events::UnityAction_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs> callback) ;
 
-// Ctor Parameters []
-explicit PlayerEditorConnectionEvents() ;
+static UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6f7b8 size 0xc0 virtual false final false
  void _ctor() ;

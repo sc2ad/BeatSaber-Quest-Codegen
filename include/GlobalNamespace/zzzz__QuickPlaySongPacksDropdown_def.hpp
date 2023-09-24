@@ -7,6 +7,9 @@
 namespace GlobalNamespace {
 struct SongPackMask;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -15,30 +18,36 @@ namespace GlobalNamespace {
 class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPackName;
+class SongPackMaskModelSO;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace HMUI {
-class SimpleTextDropdown;
-}
 namespace GlobalNamespace {
-class SongPackMaskModelSO;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride;
-}
-namespace HMUI {
-class DropdownWithTableView;
+class GlobalNamespace__QuickPlaySongPacksDropdown____c;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySetupData__QuickPlaySongPacksOverride;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem;
+}
+namespace HMUI {
+class SimpleTextDropdown;
+}
+namespace HMUI {
+class DropdownWithTableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +131,7 @@ constexpr GlobalNamespace::SongPackMask __get_songPackMask() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x214e718 size 0x8 virtual false final false
  void _ctor() ;
@@ -183,8 +191,7 @@ constexpr ::StringW __get_serializedName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x214e64c size 0x8 virtual false final false
  void _ctor() ;
@@ -265,8 +272,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__QuickPlaySongPacksDropdown____c() ;
+static GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x214e84c size 0x8 virtual false final false
  void _ctor() ;
@@ -398,8 +404,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method LazyInit addr 0x214e128 size 0x3d4 virtual false final false
  void LazyInit() ;
 
-// Ctor Parameters []
-explicit QuickPlaySongPacksDropdown() ;
+static GlobalNamespace::QuickPlaySongPacksDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x214e678 size 0x8 virtual false final false
  void _ctor() ;

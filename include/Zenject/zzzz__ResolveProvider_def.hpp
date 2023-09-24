@@ -3,29 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class IProvider;
+class DiContainer;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+class Action;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-struct InjectSources;
+class IProvider;
 }
-namespace System {
-class Action;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
-class DiContainer;
+struct TypeValuePair;
+}
+namespace Zenject {
+struct InjectSources;
 }
 // Forward declare root types
 namespace Zenject {
@@ -122,8 +122,7 @@ constexpr bool __get__matchAll() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "contractType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "isOptional", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "source", ty: "Zenject::InjectSources", modifiers: "", def_value: None }, CppParam { name: "matchAll", ty: "bool", modifiers: "", def_value: None }]
-explicit ResolveProvider(System::Type contractType, Zenject::DiContainer container, ::bs_hook::Il2CppWrapperType identifier, bool isOptional, Zenject::InjectSources source, bool matchAll) ;
+static Zenject::ResolveProvider New_ctor(System::Type contractType, Zenject::DiContainer container, ::bs_hook::Il2CppWrapperType identifier, bool isOptional, Zenject::InjectSources source, bool matchAll) ;
 
 /// @brief Method .ctor addr 0x2d908b0 size 0x5c virtual false final false
  void _ctor(System::Type contractType, Zenject::DiContainer container, ::bs_hook::Il2CppWrapperType identifier, bool isOptional, Zenject::InjectSources source, bool matchAll) ;

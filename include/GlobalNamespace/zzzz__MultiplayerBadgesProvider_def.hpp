@@ -11,17 +11,20 @@ namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class MultiplayerBadgesModelSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerBadgesProvider____c;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace GlobalNamespace {
-class MultiplayerBadgesModelSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,8 +96,7 @@ static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,int32_t> __g
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerBadgesProvider____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20db940 size 0x8 virtual false final false
  void _ctor() ;
@@ -189,8 +191,7 @@ static constexpr float_t  kMaxRandomMultiplierAmount{1.2};
 /// @brief Method SelectBadgesAndPutThemIntoResults addr 0x20da430 size 0x14a4 virtual false final false
  void SelectBadgesAndPutThemIntoResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> playerResults) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgesProvider() ;
+static GlobalNamespace::MultiplayerBadgesProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x20db8d4 size 0x8 virtual false final false
  void _ctor() ;

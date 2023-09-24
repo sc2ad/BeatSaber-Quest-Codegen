@@ -7,16 +7,19 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
+}
+namespace GlobalNamespace {
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
 namespace UnityEngine {
 class Sprite;
-}
-namespace GlobalNamespace {
-class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelPackSO;
@@ -131,8 +134,7 @@ constexpr float_t __get__bannerPromoTextPosition() const;
 /// @brief Method get_bannerPromoTextPosition addr 0x21923e4 size 0x8 virtual false final false
  float_t get_bannerPromoTextPosition() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo() ;
+static GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x21923ec size 0x8 virtual false final false
  void _ctor() ;
@@ -235,8 +237,7 @@ constexpr int32_t __get__minNumberOfNotOwnedPacks() const;
 /// @brief Method get_defaultMusicPackPromo addr 0x2192380 size 0x34 virtual false final false
  GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo get_defaultMusicPackPromo() ;
 
-// Ctor Parameters []
-explicit DlcPromoPanelDataSO() ;
+static GlobalNamespace::DlcPromoPanelDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21923b4 size 0x10 virtual false final false
  void _ctor() ;

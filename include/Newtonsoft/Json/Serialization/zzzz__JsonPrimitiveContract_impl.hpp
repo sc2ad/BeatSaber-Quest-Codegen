@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::JsonPrimitiveContract.get_TypeCode
 template<>
@@ -86,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonPrimitiveContract::JsonPrimitiveContract(System::Type underlyingType)  : Newtonsoft::Json::Serialization::JsonContract(THROW_UNLESS(::il2cpp_utils::New<JsonPrimitiveContract>(underlyingType))) {}
+ Newtonsoft::Json::Serialization::JsonPrimitiveContract Newtonsoft::Json::Serialization::JsonPrimitiveContract::New_ctor(System::Type underlyingType)  {
+Newtonsoft::Json::Serialization::JsonPrimitiveContract o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonPrimitiveContract>(underlyingType))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonPrimitiveContract::_ctor(System::Type underlyingType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonPrimitiveContract>::get(),

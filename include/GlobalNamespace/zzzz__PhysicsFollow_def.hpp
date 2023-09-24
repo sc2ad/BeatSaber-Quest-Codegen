@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class Rigidbody2D;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -96,8 +96,7 @@ constexpr UnityEngine::Rigidbody2D __get__rigidBody2D() const;
 /// @brief Method FixedUpdate addr 0x1f79908 size 0xd8 virtual false final false
  void FixedUpdate() ;
 
-// Ctor Parameters []
-explicit PhysicsFollow() ;
+static GlobalNamespace::PhysicsFollow New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f799e0 size 0x14 virtual false final false
  void _ctor() ;

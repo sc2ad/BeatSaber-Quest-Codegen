@@ -3,6 +3,12 @@
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class MultiplayerConnectedPlayerLevelFailController;
+}
+namespace GlobalNamespace {
+class ScaleAnimator;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
@@ -12,13 +18,7 @@ namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerLevelFailController;
-}
-namespace GlobalNamespace {
 class MultiplayerConnectedPlayerSpectatingSpot;
-}
-namespace GlobalNamespace {
-class ScaleAnimator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ constexpr GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot __get__playe
 /// @brief Method HandleIsObservedChanged addr 0x20e00c8 size 0x7c virtual false final false
  void HandleIsObservedChanged(bool isObserved) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerGameplayAnimator() ;
+static GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e01b4 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,10 +5,10 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

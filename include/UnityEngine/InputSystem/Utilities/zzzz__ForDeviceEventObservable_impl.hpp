@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IObservable_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice._ctor
 template<>
@@ -97,8 +98,10 @@ constexpr void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Ut
 constexpr System::Type UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice::__get_m_DeviceType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "deviceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "device", ty: "UnityEngine::InputSystem::InputDevice", modifiers: "", def_value: None }, CppParam { name: "observer", ty: "System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice(System::Type deviceType, UnityEngine::InputSystem::InputDevice device, System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> observer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice>(deviceType, device, observer))) {}
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice::New_ctor(System::Type deviceType, UnityEngine::InputSystem::InputDevice device, System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> observer)  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice>(deviceType, device, observer))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice::_ctor(System::Type deviceType, UnityEngine::InputSystem::InputDevice device, System::IObserver_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> observer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__ForDeviceEventObservable__ForDevice>::get(),
@@ -191,8 +194,10 @@ constexpr void UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__
 constexpr System::Type UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::__get_m_DeviceType() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr>", modifiers: "", def_value: None }, CppParam { name: "deviceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "device", ty: "UnityEngine::InputSystem::InputDevice", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::ForDeviceEventObservable(System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> source, System::Type deviceType, UnityEngine::InputSystem::InputDevice device)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ForDeviceEventObservable>(source, deviceType, device))) {}
+ UnityEngine::InputSystem::Utilities::ForDeviceEventObservable UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::New_ctor(System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> source, System::Type deviceType, UnityEngine::InputSystem::InputDevice device)  {
+UnityEngine::InputSystem::Utilities::ForDeviceEventObservable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::ForDeviceEventObservable>(source, deviceType, device))};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::_ctor(System::IObservable_1<UnityEngine::InputSystem::LowLevel::InputEventPtr> source, System::Type deviceType, UnityEngine::InputSystem::InputDevice device)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::ForDeviceEventObservable>::get(),

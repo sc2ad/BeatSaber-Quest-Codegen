@@ -2,19 +2,19 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
 }
 // Forward declare root types
 namespace UnityEngine::XR::WindowsMR::Input {
@@ -309,8 +309,7 @@ constexpr UnityEngine::InputSystem::Controls::QuaternionControl __get__pointerRo
 /// @brief Method FinishSetup addr 0x28a37ec size 0x364 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit WMRSpatialController() ;
+static UnityEngine::XR::WindowsMR::Input::WMRSpatialController New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a3b50 size 0x8 virtual false final false
  void _ctor() ;

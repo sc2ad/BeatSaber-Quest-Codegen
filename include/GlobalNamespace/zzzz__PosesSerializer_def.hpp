@@ -6,23 +6,23 @@ namespace GlobalNamespace {
 class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-class PosesRecordingData;
+class GlobalNamespace__PosesRecordingData__TransformsKeyframe;
 }
 namespace GlobalNamespace {
 class PosesRecordingInfoSaveData;
+}
+namespace GlobalNamespace {
+class IPosesSerializer;
+}
+namespace GlobalNamespace {
+class RecordingConverter;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class RecordingConverter;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__PosesRecordingData__TransformsKeyframe;
-}
-namespace GlobalNamespace {
-class IPosesSerializer;
+class PosesRecordingData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ constexpr GlobalNamespace::RecordingConverter __get__recordingConverter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "logger", ty: "GlobalNamespace::IBeatSaberLogger", modifiers: "", def_value: None }]
-explicit PosesSerializer(GlobalNamespace::IBeatSaberLogger logger) ;
+static GlobalNamespace::PosesSerializer New_ctor(GlobalNamespace::IBeatSaberLogger logger) ;
 
 /// @brief Method .ctor addr 0x21a6ff8 size 0x80 virtual false final false
  void _ctor(GlobalNamespace::IBeatSaberLogger logger) ;

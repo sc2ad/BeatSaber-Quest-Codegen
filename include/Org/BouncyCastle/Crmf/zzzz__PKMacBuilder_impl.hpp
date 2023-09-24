@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PbmParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PbmParameter_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::PKMacBuilder._ctor
 template<>
 
@@ -257,8 +257,10 @@ constexpr void Org::BouncyCastle::Crmf::PKMacBuilder::__set_maxIterations(int32_
 constexpr int32_t Org::BouncyCastle::Crmf::PKMacBuilder::__get_maxIterations() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacBuilder>())) {}
+ Org::BouncyCastle::Crmf::PKMacBuilder Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor()  {
+Org::BouncyCastle::Crmf::PKMacBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacBuilder>::get(),
@@ -268,8 +270,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacBuilder>(provider))) {}
+ Org::BouncyCastle::Crmf::PKMacBuilder Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider)  {
+Org::BouncyCastle::Crmf::PKMacBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacBuilder>(provider))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacBuilder>::get(),
@@ -279,8 +283,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, provider);
 }
-// Ctor Parameters [CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }, CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "macAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacBuilder>(provider, digestAlgorithmIdentifier, macAlgorithmIdentifier))) {}
+ Org::BouncyCastle::Crmf::PKMacBuilder Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier)  {
+Org::BouncyCastle::Crmf::PKMacBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacBuilder>(provider, digestAlgorithmIdentifier, macAlgorithmIdentifier))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacBuilder>::get(),
@@ -290,8 +296,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, provider, digestAlgorithmIdentifier, macAlgorithmIdentifier);
 }
-// Ctor Parameters [CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }, CppParam { name: "maxIterations", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, int32_t maxIterations)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacBuilder>(provider, maxIterations))) {}
+ Org::BouncyCastle::Crmf::PKMacBuilder Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, int32_t maxIterations)  {
+Org::BouncyCastle::Crmf::PKMacBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacBuilder>(provider, maxIterations))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider, int32_t maxIterations)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacBuilder>::get(),
@@ -301,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, provider, maxIterations);
 }
-// Ctor Parameters [CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier, Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacBuilder>(digestAlgorithmIdentifier, iterationCount, macAlgorithmIdentifier, provider))) {}
+ Org::BouncyCastle::Crmf::PKMacBuilder Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier, Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider)  {
+Org::BouncyCastle::Crmf::PKMacBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacBuilder>(digestAlgorithmIdentifier, iterationCount, macAlgorithmIdentifier, provider))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlgorithmIdentifier, Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider provider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacBuilder>::get(),

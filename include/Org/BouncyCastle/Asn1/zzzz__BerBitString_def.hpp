@@ -55,26 +55,22 @@ constexpr explicit BerBitString(void* ptr) noexcept : Org::BouncyCastle::Asn1::D
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "padBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BerBitString(::ArrayW<uint8_t> data, int32_t padBits) ;
+static Org::BouncyCastle::Asn1::BerBitString New_ctor(::ArrayW<uint8_t> data, int32_t padBits) ;
 
 /// @brief Method .ctor addr 0x1130a04 size 0x70 virtual false final false
  void _ctor(::ArrayW<uint8_t> data, int32_t padBits) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BerBitString(::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Asn1::BerBitString New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x1130a74 size 0x68 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "namedBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BerBitString(int32_t namedBits) ;
+static Org::BouncyCastle::Asn1::BerBitString New_ctor(int32_t namedBits) ;
 
 /// @brief Method .ctor addr 0x1130adc size 0x68 virtual false final false
  void _ctor(int32_t namedBits) ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit BerBitString(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
+static Org::BouncyCastle::Asn1::BerBitString New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;
 
 /// @brief Method .ctor addr 0x1130b44 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj) ;

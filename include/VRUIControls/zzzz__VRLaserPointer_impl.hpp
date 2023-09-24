@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: VRUIControls::VRLaserPointer.SetLocalPosition
 template<>
 
@@ -117,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, distance);
 }
-// Ctor Parameters []
- VRUIControls::VRLaserPointer::VRLaserPointer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRLaserPointer>())) {}
+ VRUIControls::VRLaserPointer VRUIControls::VRLaserPointer::New_ctor()  {
+VRUIControls::VRLaserPointer o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::VRLaserPointer>())};
+return o;
+}
  void VRUIControls::VRLaserPointer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::VRLaserPointer>::get(),

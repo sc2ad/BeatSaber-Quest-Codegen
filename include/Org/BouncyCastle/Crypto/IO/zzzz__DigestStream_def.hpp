@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::IO {
+struct SeekOrigin;
+}
+namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace System::IO {
-struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {
@@ -92,8 +92,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_outDigest() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "writeDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DigestStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::IDigest readDigest, Org::BouncyCastle::Crypto::IDigest writeDigest) ;
+static Org::BouncyCastle::Crypto::IO::DigestStream New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IDigest readDigest, Org::BouncyCastle::Crypto::IDigest writeDigest) ;
 
 /// @brief Method .ctor addr 0xe7bb94 size 0x80 virtual false final false
  void _ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IDigest readDigest, Org::BouncyCastle::Crypto::IDigest writeDigest) ;

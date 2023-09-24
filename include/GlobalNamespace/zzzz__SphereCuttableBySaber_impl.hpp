@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__SphereCuttableBySaber_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
 #include "UnityEngine/zzzz__SphereCollider_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SphereCuttableBySaber.get_radius
 template<>
 
@@ -164,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, saber, cutPoint, orientation, cutDirVec);
 }
-// Ctor Parameters []
- GlobalNamespace::SphereCuttableBySaber::SphereCuttableBySaber()  : GlobalNamespace::CuttableBySaber(THROW_UNLESS(::il2cpp_utils::New<SphereCuttableBySaber>())) {}
+ GlobalNamespace::SphereCuttableBySaber GlobalNamespace::SphereCuttableBySaber::New_ctor()  {
+GlobalNamespace::SphereCuttableBySaber o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SphereCuttableBySaber>())};
+return o;
+}
  void GlobalNamespace::SphereCuttableBySaber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SphereCuttableBySaber>::get(),

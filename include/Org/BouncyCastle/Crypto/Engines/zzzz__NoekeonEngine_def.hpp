@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -96,8 +96,7 @@ constexpr bool __get__forEncryption() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NoekeonEngine() ;
+static Org::BouncyCastle::Crypto::Engines::NoekeonEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe4b844 size 0x60 virtual false final false
  void _ctor() ;

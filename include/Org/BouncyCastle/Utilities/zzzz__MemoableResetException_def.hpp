@@ -48,8 +48,7 @@ constexpr explicit MemoableResetException(void* ptr) noexcept : System::InvalidC
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MemoableResetException(::StringW msg) ;
+static Org::BouncyCastle::Utilities::MemoableResetException New_ctor(::StringW msg) ;
 
 /// @brief Method .ctor addr 0x10e2a90 size 0x8 virtual false final false
  void _ctor(::StringW msg) ;

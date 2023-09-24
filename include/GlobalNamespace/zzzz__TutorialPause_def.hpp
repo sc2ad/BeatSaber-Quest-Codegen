@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class IGamePause;
+class SaberManager;
 }
 namespace GlobalNamespace {
-class SaberManager;
+class IGamePause;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class AudioListenerController;
+class TutorialSongController;
 }
 namespace GlobalNamespace {
-class TutorialSongController;
+class AudioListenerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,8 +145,7 @@ constexpr bool __get__pause() const;
 /// @brief Method Resume addr 0x2113118 size 0x74 virtual true final true
  void Resume() ;
 
-// Ctor Parameters []
-explicit TutorialPause() ;
+static GlobalNamespace::TutorialPause New_ctor() ;
 
 /// @brief Method .ctor addr 0x211318c size 0x8 virtual false final false
  void _ctor() ;

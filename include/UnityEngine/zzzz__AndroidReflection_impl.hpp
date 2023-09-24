@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__AndroidReflection_def.hpp"
-#include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__GlobalJavaObjectRef_def.hpp"
 //  Writing Method size for method: UnityEngine::AndroidReflection.IsPrimitive
 template<>
 

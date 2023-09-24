@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Net::Security::AsyncReadRequest::AsyncReadRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  : Mono::Net::Security::AsyncReadOrWriteRequest(THROW_UNLESS(::il2cpp_utils::New<AsyncReadRequest>(parent, sync, buffer, offset, size))) {}
+ Mono::Net::Security::AsyncReadRequest Mono::Net::Security::AsyncReadRequest::New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  {
+Mono::Net::Security::AsyncReadRequest o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::AsyncReadRequest>(parent, sync, buffer, offset, size))};
+return o;
+}
  void Mono::Net::Security::AsyncReadRequest::_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::AsyncReadRequest>::get(),

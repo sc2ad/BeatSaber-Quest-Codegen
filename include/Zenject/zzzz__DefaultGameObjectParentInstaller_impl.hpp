@@ -1,6 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__DefaultGameObjectParentInstaller_def.hpp"
+#include "Zenject/zzzz__DefaultGameObjectParentInstaller_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -82,8 +83,10 @@ constexpr void Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParent
 constexpr UnityEngine::GameObject Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::__get__gameObject() const {
 return ::cordl_internals::getInstanceField<UnityEngine::GameObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
- Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(UnityEngine::GameObject gameObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer>(gameObject))) {}
+ Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::New_ctor(UnityEngine::GameObject gameObject)  {
+Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer>(gameObject))};
+return o;
+}
  void Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::_ctor(UnityEngine::GameObject gameObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer>::get(),
@@ -194,8 +197,10 @@ constexpr void Zenject::DefaultGameObjectParentInstaller::__set__name(::StringW 
 constexpr ::StringW Zenject::DefaultGameObjectParentInstaller::__get__name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- Zenject::DefaultGameObjectParentInstaller::DefaultGameObjectParentInstaller(::StringW name)  : Zenject::Installer_2<::StringW,Zenject::DefaultGameObjectParentInstaller>(THROW_UNLESS(::il2cpp_utils::New<DefaultGameObjectParentInstaller>(name))) {}
+ Zenject::DefaultGameObjectParentInstaller Zenject::DefaultGameObjectParentInstaller::New_ctor(::StringW name)  {
+Zenject::DefaultGameObjectParentInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::DefaultGameObjectParentInstaller>(name))};
+return o;
+}
  void Zenject::DefaultGameObjectParentInstaller::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::DefaultGameObjectParentInstaller>::get(),

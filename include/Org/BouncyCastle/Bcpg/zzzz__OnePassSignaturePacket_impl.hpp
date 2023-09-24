@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__OnePassSignaturePacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OnePassSignaturePacket._ctor
 template<>
 
@@ -160,8 +160,10 @@ constexpr void Org::BouncyCastle::Bcpg::OnePassSignaturePacket::__set_nested(int
 constexpr int32_t Org::BouncyCastle::Bcpg::OnePassSignaturePacket::__get_nested() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OnePassSignaturePacket::OnePassSignaturePacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<OnePassSignaturePacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::OnePassSignaturePacket Org::BouncyCastle::Bcpg::OnePassSignaturePacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::OnePassSignaturePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OnePassSignaturePacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OnePassSignaturePacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OnePassSignaturePacket>::get(),
@@ -171,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "sigType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "isNested", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OnePassSignaturePacket::OnePassSignaturePacket(int32_t sigType, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<OnePassSignaturePacket>(sigType, hashAlgorithm, keyAlgorithm, keyId, isNested))) {}
+ Org::BouncyCastle::Bcpg::OnePassSignaturePacket Org::BouncyCastle::Bcpg::OnePassSignaturePacket::New_ctor(int32_t sigType, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested)  {
+Org::BouncyCastle::Bcpg::OnePassSignaturePacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OnePassSignaturePacket>(sigType, hashAlgorithm, keyAlgorithm, keyId, isNested))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OnePassSignaturePacket::_ctor(int32_t sigType, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OnePassSignaturePacket>::get(),

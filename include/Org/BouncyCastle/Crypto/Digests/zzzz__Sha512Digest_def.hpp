@@ -64,14 +64,12 @@ static constexpr int32_t  DigestLength{64};
 
 // Methods
 
-// Ctor Parameters []
-explicit Sha512Digest() ;
+static Org::BouncyCastle::Crypto::Digests::Sha512Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe177f0 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha512Digest", modifiers: "", def_value: None }]
-explicit Sha512Digest(Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::Sha512Digest New_ctor(Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
 
 /// @brief Method .ctor addr 0xe17848 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;

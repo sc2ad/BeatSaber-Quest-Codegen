@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -101,8 +101,7 @@ constexpr int32_t __get__hashCode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ns", ty: "System::Xml::Linq::XNamespace", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XName(System::Xml::Linq::XNamespace ns, ::StringW localName) ;
+static System::Xml::Linq::XName New_ctor(System::Xml::Linq::XNamespace ns, ::StringW localName) ;
 
 /// @brief Method .ctor addr 0x26cd6e0 size 0xb8 virtual false final false
  void _ctor(System::Xml::Linq::XNamespace ns, ::StringW localName) ;
@@ -143,8 +142,7 @@ static bool op_Equality(System::Xml::Linq::XName left, System::Xml::Linq::XName 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x26cde9c size 0x40 virtual true final true
  void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters []
-explicit XName() ;
+static System::Xml::Linq::XName New_ctor() ;
 
 /// @brief Method .ctor addr 0x26cdedc size 0x38 virtual false final false
  void _ctor() ;

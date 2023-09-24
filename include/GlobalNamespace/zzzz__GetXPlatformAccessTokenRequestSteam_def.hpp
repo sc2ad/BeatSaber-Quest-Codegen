@@ -64,8 +64,7 @@ constexpr int64_t __get_platformUserId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "platformToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformUserId", ty: "int64_t", modifiers: "", def_value: None }]
-explicit GetXPlatformAccessTokenRequestSteam(::StringW platformToken, int64_t platformUserId) ;
+static GlobalNamespace::GetXPlatformAccessTokenRequestSteam New_ctor(::StringW platformToken, int64_t platformUserId) ;
 
 /// @brief Method .ctor addr 0x221f9fc size 0x2c virtual false final false
  void _ctor(::StringW platformToken, int64_t platformUserId) ;

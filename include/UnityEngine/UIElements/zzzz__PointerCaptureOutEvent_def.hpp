@@ -8,7 +8,7 @@ class PointerCaptureOutEvent;
 // Type: UnityEngine.UIElements::PointerCaptureOutEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4676 }), TypeDefinitionIndex(TypeDefinitionIndex(7249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7249), inst: 4676 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7250))
 // CS Name: UnityEngine.UIElements.PointerCaptureOutEvent
 class CORDL_TYPE PointerCaptureOutEvent : public UnityEngine::UIElements::PointerCaptureEventBase_1<UnityEngine::UIElements::PointerCaptureOutEvent> {
@@ -47,8 +47,7 @@ constexpr explicit PointerCaptureOutEvent(void* ptr) noexcept : UnityEngine::UIE
 
 // Methods
 
-// Ctor Parameters []
-explicit PointerCaptureOutEvent() ;
+static UnityEngine::UIElements::PointerCaptureOutEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd0a94 size 0x48 virtual false final false
  void _ctor() ;

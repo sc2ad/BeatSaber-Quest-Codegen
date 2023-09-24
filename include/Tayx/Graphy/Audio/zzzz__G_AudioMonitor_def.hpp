@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class AudioListener;
-}
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 namespace UnityEngine {
+class AudioListener;
+}
+namespace UnityEngine {
 struct FFTWindow;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
 }
 namespace Tayx::Graphy {
 struct Tayx__Graphy__GraphyManager__LookForAudioListener;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -181,8 +181,7 @@ constexpr float_t __get__MaxDB_k__BackingField() const;
 /// @brief Method Init addr 0x2877908 size 0xe8 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit G_AudioMonitor() ;
+static Tayx::Graphy::Audio::G_AudioMonitor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2877d58 size 0x1c virtual false final false
  void _ctor() ;

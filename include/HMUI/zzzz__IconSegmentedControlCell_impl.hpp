@@ -2,8 +2,8 @@
 #include "HMUI/zzzz__SegmentedControlCell_impl.hpp"
 #include "HMUI/zzzz__IconSegmentedControlCell_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "HMUI/zzzz__HoverHint_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "HMUI/zzzz__HoverHint_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: HMUI::IconSegmentedControlCell.set_sprite
 template<>
@@ -170,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::IconSegmentedControlCell::IconSegmentedControlCell()  : HMUI::SegmentedControlCell(THROW_UNLESS(::il2cpp_utils::New<IconSegmentedControlCell>())) {}
+ HMUI::IconSegmentedControlCell HMUI::IconSegmentedControlCell::New_ctor()  {
+HMUI::IconSegmentedControlCell o{THROW_UNLESS(::il2cpp_utils::New<HMUI::IconSegmentedControlCell>())};
+return o;
+}
  void HMUI::IconSegmentedControlCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::IconSegmentedControlCell>::get(),

@@ -62,8 +62,7 @@ constexpr ::StringW __get_mJavaStackTrace() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "javaStackTrace", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AndroidJavaException(::StringW message, ::StringW javaStackTrace) ;
+static UnityEngine::AndroidJavaException New_ctor(::StringW message, ::StringW javaStackTrace) ;
 
 /// @brief Method .ctor addr 0x2b083d0 size 0x74 virtual false final false
  void _ctor(::StringW message, ::StringW javaStackTrace) ;

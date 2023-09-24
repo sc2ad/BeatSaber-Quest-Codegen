@@ -5,17 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class ISaberMovementDataProcessor;
-}
 namespace GlobalNamespace {
 struct BladeMovementDataElement;
-}
-namespace GlobalNamespace {
-class IBladeMovementData;
 }
 namespace GlobalNamespace {
 class ISaberMovementData;
@@ -23,6 +14,15 @@ class ISaberMovementData;
 namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class ISaberMovementDataProcessor;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class IBladeMovementData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ constexpr float_t __get__bladeSpeed() const;
 /// @brief Method get_prevAddedData addr 0x21bff98 size 0x5c virtual true final true
  GlobalNamespace::BladeMovementDataElement get_prevAddedData() ;
 
-// Ctor Parameters []
-explicit SaberMovementData() ;
+static GlobalNamespace::SaberMovementData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bfff4 size 0xa8 virtual false final false
  void _ctor() ;

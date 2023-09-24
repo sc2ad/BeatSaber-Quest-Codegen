@@ -1,7 +1,7 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JsonLoadSettings_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__CommentHandling_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__LineInfoHandling_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__CommentHandling_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JsonLoadSettings.get_CommentHandling
 template<>
 
@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Linq::JsonLoadSettings::JsonLoadSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JsonLoadSettings>())) {}
+ Newtonsoft::Json::Linq::JsonLoadSettings Newtonsoft::Json::Linq::JsonLoadSettings::New_ctor()  {
+Newtonsoft::Json::Linq::JsonLoadSettings o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JsonLoadSettings>())};
+return o;
+}
  void Newtonsoft::Json::Linq::JsonLoadSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JsonLoadSettings>::get(),

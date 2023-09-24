@@ -7,33 +7,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::TextCore::LowLevel {
+struct GlyphRenderMode;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine {
+class Font;
+}
+namespace TMPro {
+struct AtlasPopulationMode;
 }
 namespace TMPro {
 struct FontAssetCreationSettings;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace UnityEngine::TextCore {
+struct FaceInfo;
 }
-namespace TMPro {
-class FaceInfo_Legacy;
-}
-namespace TMPro {
-struct TMP_FontWeightPair;
-}
-namespace TMPro {
-class TMP_Character;
-}
-namespace UnityEngine::TextCore::LowLevel {
-struct GlyphRenderMode;
-}
-namespace TMPro {
-struct AtlasPopulationMode;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace TMPro {
 class TMP_FontFeatureTable;
@@ -42,27 +39,33 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::TextCore {
-struct GlyphRect;
+namespace TMPro {
+class TMP_Glyph;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace UnityEngine::TextCore {
-struct FaceInfo;
-}
-namespace UnityEngine {
-class Font;
+namespace TMPro {
+class TMPro__TMP_FontAsset____c;
 }
 namespace TMPro {
-class TMP_Glyph;
+class FaceInfo_Legacy;
+}
+namespace TMPro {
+class KerningTable;
 }
 namespace UnityEngine::TextCore {
 class Glyph;
 }
 namespace TMPro {
-class KerningTable;
+class TMP_Character;
+}
+namespace UnityEngine::TextCore {
+struct GlyphRect;
+}
+namespace TMPro {
+struct TMP_FontWeightPair;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -138,8 +141,7 @@ static System::Func_2<UnityEngine::TextCore::Glyph,uint32_t> __get___9__125_0() 
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_FontAsset____c() ;
+static TMPro::TMPro__TMP_FontAsset____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a787d4 size 0x8 virtual false final false
  void _ctor() ;
@@ -904,8 +906,7 @@ template<typename T>
 /// @brief Method UpgradeGlyphAdjustmentTableToFontFeatureTable addr 0x2a71f84 size 0x324 virtual false final false
  void UpgradeGlyphAdjustmentTableToFontFeatureTable() ;
 
-// Ctor Parameters []
-explicit TMP_FontAsset() ;
+static TMPro::TMP_FontAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a780fc size 0x314 virtual false final false
  void _ctor() ;

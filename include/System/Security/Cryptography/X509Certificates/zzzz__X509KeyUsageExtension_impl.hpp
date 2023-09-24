@@ -170,8 +170,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509KeyUsageExt
 constexpr System::Security::Cryptography::AsnDecodeStatus System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::__get__status() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::AsnDecodeStatus, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509KeyUsageExtension()  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509KeyUsageExtension>())) {}
+ System::Security::Cryptography::X509Certificates::X509KeyUsageExtension System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509KeyUsageExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509KeyUsageExtension>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509KeyUsageExtension>::get(),
@@ -181,8 +183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "encodedKeyUsage", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509KeyUsageExtension(System::Security::Cryptography::AsnEncodedData encodedKeyUsage, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509KeyUsageExtension>(encodedKeyUsage, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509KeyUsageExtension System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::New_ctor(System::Security::Cryptography::AsnEncodedData encodedKeyUsage, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509KeyUsageExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509KeyUsageExtension>(encodedKeyUsage, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::_ctor(System::Security::Cryptography::AsnEncodedData encodedKeyUsage, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509KeyUsageExtension>::get(),
@@ -192,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encodedKeyUsage, critical);
 }
-// Ctor Parameters [CppParam { name: "keyUsages", ty: "System::Security::Cryptography::X509Certificates::X509KeyUsageFlags", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509KeyUsageExtension(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical)  : System::Security::Cryptography::X509Certificates::X509Extension(THROW_UNLESS(::il2cpp_utils::New<X509KeyUsageExtension>(keyUsages, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509KeyUsageExtension System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::New_ctor(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509KeyUsageExtension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509KeyUsageExtension>(keyUsages, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::_ctor(System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509KeyUsageExtension>::get(),

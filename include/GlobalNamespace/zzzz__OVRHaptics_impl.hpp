@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"
+#include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRHaptics__Config.get_SampleRateHz
@@ -468,8 +469,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel::
 constexpr GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel::__get_m_output() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outputIndex", ty: "uint32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel::GlobalNamespace__OVRHaptics__OVRHapticsChannel(uint32_t outputIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRHaptics__OVRHapticsChannel>(outputIndex))) {}
+ GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel::New_ctor(uint32_t outputIndex)  {
+GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel>(outputIndex))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel::_ctor(uint32_t outputIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsChannel>::get(),
@@ -648,8 +651,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "clip", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker(GlobalNamespace::OVRHapticsClip clip)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker>(clip))) {}
+ GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::New_ctor(GlobalNamespace::OVRHapticsClip clip)  {
+GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker>(clip))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker::_ctor(GlobalNamespace::OVRHapticsClip clip)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker>::get(),
@@ -833,8 +838,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput::_
 constexpr int32_t GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput::__get_PrevSampleRateHz() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "controller", ty: "uint32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput::GlobalNamespace__OVRHaptics__OVRHapticsOutput(uint32_t controller)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRHaptics__OVRHapticsOutput>(controller))) {}
+ GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput::New_ctor(uint32_t controller)  {
+GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput>(controller))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput::_ctor(uint32_t controller)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRHaptics__OVRHapticsOutput>::get(),

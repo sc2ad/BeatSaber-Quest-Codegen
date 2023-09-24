@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Random;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System {
+class Random;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math {
@@ -278,32 +278,27 @@ static int32_t GetByteLength(int32_t nBits) ;
 /// @brief Method Arbitrary addr 0x1004378 size 0x7c virtual false final false
 static Org::BouncyCastle::Math::BigInteger Arbitrary(int32_t sizeInBits) ;
 
-// Ctor Parameters [CppParam { name: "signum", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mag", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "checkMag", ty: "bool", modifiers: "", def_value: None }]
-explicit BigInteger(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag) ;
 
 /// @brief Method .ctor addr 0x1003e74 size 0x138 virtual false final false
  void _ctor(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BigInteger(::StringW value) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x1004594 size 0x8 virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "radix", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BigInteger(::StringW str, int32_t radix) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(::StringW str, int32_t radix) ;
 
 /// @brief Method .ctor addr 0x100459c size 0x4e8 virtual false final false
  void _ctor(::StringW str, int32_t radix) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BigInteger(::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x1004e00 size 0x1c virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes) ;
 
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BigInteger(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x1004e1c size 0x264 virtual false final false
  void _ctor(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
@@ -311,26 +306,22 @@ explicit BigInteger(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
 /// @brief Method MakeMagnitude addr 0x1005080 size 0x1a0 virtual false final false
 static ::ArrayW<int32_t> MakeMagnitude(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BigInteger(int32_t sign, ::ArrayW<uint8_t> bytes) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(int32_t sign, ::ArrayW<uint8_t> bytes) ;
 
 /// @brief Method .ctor addr 0x1000d24 size 0x1c virtual false final false
  void _ctor(int32_t sign, ::ArrayW<uint8_t> bytes) ;
 
-// Ctor Parameters [CppParam { name: "sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BigInteger(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x1005220 size 0x138 virtual false final false
  void _ctor(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "sizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "System::Random", modifiers: "", def_value: None }]
-explicit BigInteger(int32_t sizeInBits, System::Random random) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(int32_t sizeInBits, System::Random random) ;
 
 /// @brief Method .ctor addr 0x10043f4 size 0x1a0 virtual false final false
  void _ctor(int32_t sizeInBits, System::Random random) ;
 
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "certainty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "System::Random", modifiers: "", def_value: None }]
-explicit BigInteger(int32_t bitLength, int32_t certainty, System::Random random) ;
+static Org::BouncyCastle::Math::BigInteger New_ctor(int32_t bitLength, int32_t certainty, System::Random random) ;
 
 /// @brief Method .ctor addr 0x1005358 size 0x310 virtual false final false
  void _ctor(int32_t bitLength, int32_t certainty, System::Random random) ;

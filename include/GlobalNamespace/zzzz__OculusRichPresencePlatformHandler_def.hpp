@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
+class IRichPresenceData;
 }
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IRichPresencePlatformHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,8 +62,7 @@ constexpr explicit OculusRichPresencePlatformHandler(void* ptr) noexcept : ::bs_
 /// @brief Method Clear addr 0x222a240 size 0x9c virtual true final true
  void Clear() ;
 
-// Ctor Parameters []
-explicit OculusRichPresencePlatformHandler() ;
+static GlobalNamespace::OculusRichPresencePlatformHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x222a2dc size 0x8 virtual false final false
  void _ctor() ;

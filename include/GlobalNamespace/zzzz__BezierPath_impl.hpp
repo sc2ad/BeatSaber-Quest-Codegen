@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BezierPath_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__BezierPath__ControlMode::GlobalNamespace__BezierPath__ControlMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -519,8 +520,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "centre", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "initTwoSegments", ty: "bool", modifiers: "", def_value: Some("false") }]
- GlobalNamespace::BezierPath::BezierPath(UnityEngine::Vector3 centre, bool initTwoSegments)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BezierPath>(centre, initTwoSegments))) {}
+/// @param initTwoSegments: bool (default: false)
+ GlobalNamespace::BezierPath GlobalNamespace::BezierPath::New_ctor(UnityEngine::Vector3 centre, bool initTwoSegments)  {
+GlobalNamespace::BezierPath o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BezierPath>(centre, initTwoSegments))};
+return o;
+}
 /// @param initTwoSegments: bool (default: false)
  void GlobalNamespace::BezierPath::_ctor(UnityEngine::Vector3 centre, bool initTwoSegments)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

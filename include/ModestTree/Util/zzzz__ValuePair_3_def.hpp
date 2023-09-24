@@ -77,14 +77,12 @@ constexpr T3 __get_Third() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ValuePair_3() ;
+static ModestTree::Util::ValuePair_3<T1,T2,T3> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "first", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "second", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "third", ty: "T3", modifiers: "", def_value: None }]
-explicit ValuePair_3(T1 first, T2 second, T3 third) ;
+static ModestTree::Util::ValuePair_3<T1,T2,T3> New_ctor(T1 first, T2 second, T3 third) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T1 first, T2 second, T3 third) ;

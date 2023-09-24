@@ -92,14 +92,12 @@ static ::ArrayW<::StringW> __get_ReasonString() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reason", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CrlReason(int32_t reason) ;
+static Org::BouncyCastle::Asn1::X509::CrlReason New_ctor(int32_t reason) ;
 
 /// @brief Method .ctor addr 0x1100ec0 size 0x68 virtual false final false
  void _ctor(int32_t reason) ;
 
-// Ctor Parameters [CppParam { name: "reason", ty: "Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
-explicit CrlReason(Org::BouncyCastle::Asn1::DerEnumerated reason) ;
+static Org::BouncyCastle::Asn1::X509::CrlReason New_ctor(Org::BouncyCastle::Asn1::DerEnumerated reason) ;
 
 /// @brief Method .ctor addr 0x1100f28 size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerEnumerated reason) ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
-#include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
 //  Writing Method size for method: System::Threading::WaitHandle._ctor
 template<>
 
@@ -424,8 +424,10 @@ return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWr
  ::cordl_internals::intptr_t System::Threading::WaitHandle::__get_InvalidHandle()  {
 return ::cordl_internals::getStaticField<::cordl_internals::intptr_t, "InvalidHandle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::WaitHandle>::get>();
 }
-// Ctor Parameters []
- System::Threading::WaitHandle::WaitHandle()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<WaitHandle>())) {}
+ System::Threading::WaitHandle System::Threading::WaitHandle::New_ctor()  {
+System::Threading::WaitHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::WaitHandle>())};
+return o;
+}
  void System::Threading::WaitHandle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::WaitHandle>::get(),

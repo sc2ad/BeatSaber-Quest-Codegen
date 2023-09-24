@@ -61,20 +61,17 @@ constexpr explicit Sha3Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::D
 /// @brief Method CheckBitLength addr 0xe1743c size 0xc4 virtual false final false
 static int32_t CheckBitLength(int32_t bitLength) ;
 
-// Ctor Parameters []
-explicit Sha3Digest() ;
+static Org::BouncyCastle::Crypto::Digests::Sha3Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe17500 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Sha3Digest(int32_t bitLength) ;
+static Org::BouncyCastle::Crypto::Digests::Sha3Digest New_ctor(int32_t bitLength) ;
 
 /// @brief Method .ctor addr 0xe17508 size 0x78 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::Sha3Digest", modifiers: "", def_value: None }]
-explicit Sha3Digest(Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
+static Org::BouncyCastle::Crypto::Digests::Sha3Digest New_ctor(Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;
 
 /// @brief Method .ctor addr 0xe17580 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Sha3Digest source) ;

@@ -17,7 +17,7 @@ class ScaleVector2Processor;
 // Type: UnityEngine.InputSystem.Processors::ScaleVector2Processor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6674))
 // CS Name: UnityEngine.InputSystem.Processors.ScaleVector2Processor
 class CORDL_TYPE ScaleVector2Processor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector2> {
@@ -77,8 +77,7 @@ constexpr float_t __get_y() const;
 /// @brief Method ToString addr 0x2967280 size 0xa0 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit ScaleVector2Processor() ;
+static UnityEngine::InputSystem::Processors::ScaleVector2Processor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2967320 size 0x50 virtual false final false
  void _ctor() ;

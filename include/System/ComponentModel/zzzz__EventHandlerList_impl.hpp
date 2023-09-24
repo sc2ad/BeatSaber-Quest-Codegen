@@ -1,7 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
+#include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"
 #include "System/ComponentModel/zzzz__Component_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 constexpr void System::ComponentModel::System__ComponentModel__EventHandlerList__ListEntry::__set__next(System::ComponentModel::System__ComponentModel__EventHandlerList__ListEntry value)  {
 ::cordl_internals::setInstanceField<System::ComponentModel::System__ComponentModel__EventHandlerList__ListEntry, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::ComponentModel::System__ComponentModel__EventHandlerList__ListEntry>(value));
 }

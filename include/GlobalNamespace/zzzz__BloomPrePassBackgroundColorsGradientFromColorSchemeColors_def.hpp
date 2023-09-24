@@ -7,10 +7,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+class EnvironmentColorManager;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor;
+}
+namespace GlobalNamespace {
 class BloomPrePassBackgroundColorsGradient;
 }
 namespace GlobalNamespace {
-class EnvironmentColorManager;
+class GlobalNamespace__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element;
 }
 namespace UnityEngine {
 struct Color;
@@ -94,8 +100,7 @@ constexpr UnityEngine::Color __get_color() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__Element New_ctor() ;
 
 /// @brief Method .ctor addr 0x2191a54 size 0x8 virtual false final false
  void _ctor() ;
@@ -155,6 +160,8 @@ __Color1Boost = 3,
 constexpr operator __GlobalNamespace__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BloomPrePassBackgroundColorsGradientFromColorSchemeColors__EnvironmentColor_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -248,8 +255,7 @@ constexpr GlobalNamespace::EnvironmentColorManager __get__colorManager() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundColorsGradientFromColorSchemeColors() ;
+static GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors New_ctor() ;
 
 /// @brief Method .ctor addr 0x2191778 size 0x2dc virtual false final false
  void _ctor() ;

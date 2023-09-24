@@ -2,8 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
+namespace UnityEngine {
+class CanvasGroup;
+}
 namespace GlobalNamespace {
-class VisualMetronome;
+class FloatSO;
 }
 namespace GlobalNamespace {
 class SongPreviewPlayer;
@@ -11,20 +14,17 @@ class SongPreviewPlayer;
 namespace HMUI {
 class ToggleBinder;
 }
-namespace GlobalNamespace {
-class FloatSO;
-}
-namespace UnityEngine {
-class CanvasGroup;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace GlobalNamespace {
 class BoolSO;
 }
+namespace GlobalNamespace {
+class VisualMetronome;
+}
 namespace HMUI {
 class RangeValuesTextSlider;
-}
-namespace UnityEngine::UI {
-class Toggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -147,8 +147,7 @@ constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 /// @brief Method RefreshVisuals addr 0x21550f4 size 0xec virtual false final false
  void RefreshVisuals(bool overrideAudioLatencyIsEnabled) ;
 
-// Ctor Parameters []
-explicit AudioLatencyViewController() ;
+static GlobalNamespace::AudioLatencyViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21553c8 size 0x14 virtual false final false
  void _ctor() ;

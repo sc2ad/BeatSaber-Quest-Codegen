@@ -51,20 +51,17 @@ constexpr explicit HttpRequestException(void* ptr) noexcept : System::Exception(
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpRequestException() ;
+static System::Net::Http::HttpRequestException New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a1fe4 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HttpRequestException(::StringW message) ;
+static System::Net::Http::HttpRequestException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x26a123c size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit HttpRequestException(::StringW message, System::Exception inner) ;
+static System::Net::Http::HttpRequestException New_ctor(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x269eb78 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception inner) ;

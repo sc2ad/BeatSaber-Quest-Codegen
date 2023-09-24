@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ScaleAnimator.OnDestroy
 template<>
 
@@ -285,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, show, duration, easeType, delay);
 }
-// Ctor Parameters []
- GlobalNamespace::ScaleAnimator::ScaleAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ScaleAnimator>())) {}
+ GlobalNamespace::ScaleAnimator GlobalNamespace::ScaleAnimator::New_ctor()  {
+GlobalNamespace::ScaleAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScaleAnimator>())};
+return o;
+}
  void GlobalNamespace::ScaleAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScaleAnimator>::get(),

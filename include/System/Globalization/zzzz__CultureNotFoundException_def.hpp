@@ -87,20 +87,17 @@ static ::StringW __declspec(property(get=get_DefaultMessage))  DefaultMessage;
 
 // Methods
 
-// Ctor Parameters []
-explicit CultureNotFoundException() ;
+static System::Globalization::CultureNotFoundException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23dddf8 size 0x4c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CultureNotFoundException(::StringW paramName, ::StringW message) ;
+static System::Globalization::CultureNotFoundException New_ctor(::StringW paramName, ::StringW message) ;
 
 /// @brief Method .ctor addr 0x23dde84 size 0x14 virtual false final false
  void _ctor(::StringW paramName, ::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CultureNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Globalization::CultureNotFoundException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23dde98 size 0x1bc virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

@@ -5,38 +5,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class Action;
-}
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace GlobalNamespace {
-class Parametric3SliceSpriteController;
-}
-namespace GlobalNamespace {
-class ParametricBoxController;
+struct Vector3;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class BoolSO;
+}
+namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__BloomPrePassLight__QuadData;
+class ParametricBoxController;
+}
+namespace GlobalNamespace {
+class Parametric3SliceSpriteController;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class BoolSO;
+struct GlobalNamespace__BloomPrePassLight__QuadData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -382,8 +382,7 @@ static void ClipPoints(ByRef<UnityEngine::Vector4> fromPointClipPos, ByRef<Unity
 /// @brief Method OnDrawGizmos addr 0x1f98768 size 0x13c virtual false final false
  void OnDrawGizmos() ;
 
-// Ctor Parameters []
-explicit TubeBloomPrePassLight() ;
+static GlobalNamespace::TubeBloomPrePassLight New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f988a4 size 0xd8 virtual false final false
  void _ctor() ;

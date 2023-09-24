@@ -4,22 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
 }
@@ -27,20 +11,42 @@ namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23;
+}
+namespace GlobalNamespace {
+class BeatmapData;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24;
+}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -371,8 +377,7 @@ constexpr GlobalNamespace::BeatmapData __get__beatmapData() const;
 /// @brief Method GetBeatmapDataAsync addr 0x21eab00 size 0xf0 virtual true final true
  System::Threading::Tasks::Task_1<GlobalNamespace::IReadonlyBeatmapData> GetBeatmapDataAsync(GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
-// Ctor Parameters []
-explicit EmptyDifficultyBeatmap() ;
+static GlobalNamespace::EmptyDifficultyBeatmap New_ctor() ;
 
 /// @brief Method .ctor addr 0x21eabf0 size 0x9c virtual false final false
  void _ctor() ;

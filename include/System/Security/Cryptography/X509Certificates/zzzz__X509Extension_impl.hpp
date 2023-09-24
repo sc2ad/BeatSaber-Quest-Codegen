@@ -110,8 +110,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509Extension::
 constexpr bool System::Security::Cryptography::X509Certificates::X509Extension::__get__critical() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509Extension::X509Extension()  : System::Security::Cryptography::AsnEncodedData(THROW_UNLESS(::il2cpp_utils::New<X509Extension>())) {}
+ System::Security::Cryptography::X509Certificates::X509Extension System::Security::Cryptography::X509Certificates::X509Extension::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509Extension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Extension>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Extension::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Extension>::get(),
@@ -121,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Extension::X509Extension(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical)  : System::Security::Cryptography::AsnEncodedData(THROW_UNLESS(::il2cpp_utils::New<X509Extension>(oid, rawData, critical))) {}
+ System::Security::Cryptography::X509Certificates::X509Extension System::Security::Cryptography::X509Certificates::X509Extension::New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical)  {
+System::Security::Cryptography::X509Certificates::X509Extension o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Extension>(oid, rawData, critical))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Extension::_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Extension>::get(),

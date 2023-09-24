@@ -1,15 +1,16 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CallContextRemotingData_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallContextSecurityData_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CallContextRemotingData_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::System__Runtime__Remoting__Messaging__LogicalCallContext__Reader._ctor
 template<>
 
@@ -375,8 +376,10 @@ constexpr void System::Runtime::Remoting::Messaging::LogicalCallContext::__set__
 constexpr ::ArrayW<System::Runtime::Remoting::Messaging::Header> System::Runtime::Remoting::Messaging::LogicalCallContext::__get__recvHeaders() const {
 return ::cordl_internals::getInstanceField<::ArrayW<System::Runtime::Remoting::Messaging::Header>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::LogicalCallContext::LogicalCallContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LogicalCallContext>())) {}
+ System::Runtime::Remoting::Messaging::LogicalCallContext System::Runtime::Remoting::Messaging::LogicalCallContext::New_ctor()  {
+System::Runtime::Remoting::Messaging::LogicalCallContext o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::LogicalCallContext>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::LogicalCallContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::LogicalCallContext>::get(),
@@ -386,8 +389,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::LogicalCallContext::LogicalCallContext(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LogicalCallContext>(info, context))) {}
+ System::Runtime::Remoting::Messaging::LogicalCallContext System::Runtime::Remoting::Messaging::LogicalCallContext::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Remoting::Messaging::LogicalCallContext o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::LogicalCallContext>(info, context))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::LogicalCallContext::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::LogicalCallContext>::get(),

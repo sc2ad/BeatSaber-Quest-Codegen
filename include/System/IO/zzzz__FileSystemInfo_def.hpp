@@ -4,17 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+struct DateTime;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::IO {
-struct FileStatus;
-}
-namespace System::IO {
-struct FileAttributes;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -22,8 +16,14 @@ class ISerializable;
 namespace System {
 struct DateTimeOffset;
 }
-namespace System {
-struct DateTime;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::IO {
+struct FileAttributes;
+}
+namespace System::IO {
+struct FileStatus;
 }
 // Forward declare root types
 namespace System::IO {
@@ -124,8 +124,7 @@ constexpr ::StringW __get__name() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit FileSystemInfo() ;
+static System::IO::FileSystemInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x239b278 size 0x74 virtual false final false
  void _ctor() ;
@@ -157,8 +156,7 @@ static void ThrowNotFound(::StringW path) ;
 /// @brief Method get_NormalizedPath addr 0x239fd74 size 0x8 virtual false final false
  ::StringW get_NormalizedPath() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit FileSystemInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::IO::FileSystemInfo New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x239b958 size 0x144 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

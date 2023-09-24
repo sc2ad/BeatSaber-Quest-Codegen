@@ -59,8 +59,7 @@ constexpr UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mt", ty: "UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType", modifiers: "", def_value: None }]
-explicit TrackMediaType(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt) ;
+static UnityEngine::Timeline::TrackMediaType New_ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt) ;
 
 /// @brief Method .ctor addr 0x2ad5cc4 size 0x28 virtual false final false
  void _ctor(UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__MediaType mt) ;

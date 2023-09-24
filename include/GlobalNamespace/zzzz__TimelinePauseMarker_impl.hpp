@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseMarker_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TimelinePauseMarker.get_id
 template<>
 
@@ -56,8 +56,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::PropertyName, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TimelinePauseMarker::TimelinePauseMarker()  : UnityEngine::Timeline::Marker(THROW_UNLESS(::il2cpp_utils::New<TimelinePauseMarker>())) {}
+ GlobalNamespace::TimelinePauseMarker GlobalNamespace::TimelinePauseMarker::New_ctor()  {
+GlobalNamespace::TimelinePauseMarker o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TimelinePauseMarker>())};
+return o;
+}
  void GlobalNamespace::TimelinePauseMarker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TimelinePauseMarker>::get(),

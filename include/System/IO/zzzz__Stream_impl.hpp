@@ -1,37 +1,38 @@
 #pragma once
-#include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/IO/zzzz__Stream_NullStream_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "System/zzzz__Func_5_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
+#include "System/zzzz__Func_5_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
@@ -214,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "isRead", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "apm", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "function", ty: "System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
- System::IO::System__IO__Stream__ReadWriteTask::System__IO__Stream__ReadWriteTask(bool isRead, bool apm, System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> function, ::bs_hook::Il2CppWrapperType state, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback)  : System::Threading::Tasks::Task_1<int32_t>(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream__ReadWriteTask>(isRead, apm, function, state, stream, buffer, offset, count, callback))) {}
+ System::IO::System__IO__Stream__ReadWriteTask System::IO::System__IO__Stream__ReadWriteTask::New_ctor(bool isRead, bool apm, System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> function, ::bs_hook::Il2CppWrapperType state, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback)  {
+System::IO::System__IO__Stream__ReadWriteTask o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__Stream__ReadWriteTask>(isRead, apm, function, state, stream, buffer, offset, count, callback))};
+return o;
+}
  void System::IO::System__IO__Stream__ReadWriteTask::_ctor(bool isRead, bool apm, System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> function, ::bs_hook::Il2CppWrapperType state, System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__ReadWriteTask>::get(),
@@ -251,6 +254,1024 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::*)()>(&GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23c6b60;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c._get_AsyncWaitHandle_b__12_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ManualResetEvent (GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::*)()>(&GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_get_AsyncWaitHandle_b__12_0)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x23c6b68;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
+                            "<get_AsyncWaitHandle>b__12_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+ void GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__set___9(GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c value)  {
+::cordl_internals::setStaticField<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>(std::forward<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>(value));
+}
+ GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__get___9()  {
+return ::cordl_internals::getStaticField<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>();
+}
+ void GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__set___9__12_0(System::Func_1<System::Threading::ManualResetEvent> value)  {
+::cordl_internals::setStaticField<System::Func_1<System::Threading::ManualResetEvent>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>(std::forward<System::Func_1<System::Threading::ManualResetEvent>>(value));
+}
+ System::Func_1<System::Threading::ManualResetEvent> GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__get___9__12_0()  {
+return ::cordl_internals::getStaticField<System::Func_1<System::Threading::ManualResetEvent>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>();
+}
+ GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::New_ctor()  {
+GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>())};
+return o;
+}
+ void GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ System::Threading::ManualResetEvent GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_get_AsyncWaitHandle_b__12_0()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
+                            "<get_AsyncWaitHandle>b__12_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Threading::ManualResetEvent, false>(const_cast<void*>(instance), ___internal_method);
+}
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)(int32_t, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x23c5c70;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x23c5f58;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)(System::Exception, ::bs_hook::Il2CppWrapperType, bool)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x23c5ca0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_IsCompleted
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_IsCompleted)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23c69d8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_IsCompleted",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_AsyncWaitHandle
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncWaitHandle)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x23c69e0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_AsyncWaitHandle",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_AsyncState
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncState)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23c6ad8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_AsyncState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_CompletedSynchronously
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_CompletedSynchronously)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23c6ae0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_CompletedSynchronously",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.ThrowIfError
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::ThrowIfError)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x23c6ae8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "ThrowIfError",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.EndRead
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(System::IAsyncResult)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::EndRead)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x23c5cf0;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "EndRead",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.EndWrite
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::EndWrite)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x23c5f8c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "EndWrite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to System::IAsyncResult
+constexpr  System::IO::System__IO__Stream__SynchronousAsyncResult::operator System::IAsyncResult() const noexcept {
+return System::IAsyncResult(::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__stateObject(::bs_hook::Il2CppWrapperType value)  {
+::cordl_internals::setInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::bs_hook::Il2CppWrapperType>(value));
+}
+constexpr ::bs_hook::Il2CppWrapperType System::IO::System__IO__Stream__SynchronousAsyncResult::__get__stateObject() const {
+return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__isWrite(bool value)  {
+::cordl_internals::setInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
+}
+constexpr bool System::IO::System__IO__Stream__SynchronousAsyncResult::__get__isWrite() const {
+return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__waitHandle(System::Threading::ManualResetEvent value)  {
+::cordl_internals::setInstanceField<System::Threading::ManualResetEvent, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::ManualResetEvent>(value));
+}
+constexpr System::Threading::ManualResetEvent System::IO::System__IO__Stream__SynchronousAsyncResult::__get__waitHandle() const {
+return ::cordl_internals::getInstanceField<System::Threading::ManualResetEvent, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__exceptionInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo value)  {
+::cordl_internals::setInstanceField<System::Runtime::ExceptionServices::ExceptionDispatchInfo, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Runtime::ExceptionServices::ExceptionDispatchInfo>(value));
+}
+constexpr System::Runtime::ExceptionServices::ExceptionDispatchInfo System::IO::System__IO__Stream__SynchronousAsyncResult::__get__exceptionInfo() const {
+return ::cordl_internals::getInstanceField<System::Runtime::ExceptionServices::ExceptionDispatchInfo, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__endXxxCalled(bool value)  {
+::cordl_internals::setInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
+}
+constexpr bool System::IO::System__IO__Stream__SynchronousAsyncResult::__get__endXxxCalled() const {
+return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__bytesRead(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::IO::System__IO__Stream__SynchronousAsyncResult::__get__bytesRead() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
+}
+ System::IO::System__IO__Stream__SynchronousAsyncResult System::IO::System__IO__Stream__SynchronousAsyncResult::New_ctor(int32_t bytesRead, ::bs_hook::Il2CppWrapperType asyncStateObject)  {
+System::IO::System__IO__Stream__SynchronousAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__Stream__SynchronousAsyncResult>(bytesRead, asyncStateObject))};
+return o;
+}
+ void System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor(int32_t bytesRead, ::bs_hook::Il2CppWrapperType asyncStateObject)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bytesRead, asyncStateObject);
+}
+ System::IO::System__IO__Stream__SynchronousAsyncResult System::IO::System__IO__Stream__SynchronousAsyncResult::New_ctor(::bs_hook::Il2CppWrapperType asyncStateObject)  {
+System::IO::System__IO__Stream__SynchronousAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__Stream__SynchronousAsyncResult>(asyncStateObject))};
+return o;
+}
+ void System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor(::bs_hook::Il2CppWrapperType asyncStateObject)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asyncStateObject);
+}
+ System::IO::System__IO__Stream__SynchronousAsyncResult System::IO::System__IO__Stream__SynchronousAsyncResult::New_ctor(System::Exception ex, ::bs_hook::Il2CppWrapperType asyncStateObject, bool isWrite)  {
+System::IO::System__IO__Stream__SynchronousAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__Stream__SynchronousAsyncResult>(ex, asyncStateObject, isWrite))};
+return o;
+}
+ void System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor(System::Exception ex, ::bs_hook::Il2CppWrapperType asyncStateObject, bool isWrite)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ex, asyncStateObject, isWrite);
+}
+ bool System::IO::System__IO__Stream__SynchronousAsyncResult::get_IsCompleted()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_IsCompleted",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
+}
+ System::Threading::WaitHandle System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncWaitHandle()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_AsyncWaitHandle",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Threading::WaitHandle, false>(const_cast<void*>(instance), ___internal_method);
+}
+ ::bs_hook::Il2CppWrapperType System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncState()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_AsyncState",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
+}
+ bool System::IO::System__IO__Stream__SynchronousAsyncResult::get_CompletedSynchronously()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "get_CompletedSynchronously",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
+}
+ void System::IO::System__IO__Stream__SynchronousAsyncResult::ThrowIfError()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "ThrowIfError",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ int32_t System::IO::System__IO__Stream__SynchronousAsyncResult::EndRead(System::IAsyncResult asyncResult)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "EndRead",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, asyncResult);
+}
+ void System::IO::System__IO__Stream__SynchronousAsyncResult::EndWrite(System::IAsyncResult asyncResult)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
+                            "EndWrite",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, asyncResult);
+}
+//  Writing Method size for method: System::IO::System__IO__Stream____c._ctor
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____c::*)()>(&System::IO::System__IO__Stream____c::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x23c6c2c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._EnsureAsyncActiveSemaphoreInitialized_b__4_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim (System::IO::System__IO__Stream____c::*)()>(&System::IO::System__IO__Stream____c::_EnsureAsyncActiveSemaphoreInitialized_b__4_0)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x23c6c34;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<EnsureAsyncActiveSemaphoreInitialized>b__4_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._FlushAsync_b__37_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____c::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_FlushAsync_b__37_0)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x23c6c98;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<FlushAsync>b__37_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginReadInternal_b__40_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream____c::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginReadInternal_b__40_0)> {
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x23c6d48;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginReadInternal>b__40_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndReadAsync_b__45_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IO::System__IO__Stream__ReadWriteParameters, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_0)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x23c6ed8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndReadAsync>b__45_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndReadAsync_b__45_1
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IAsyncResult)>(&System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_1)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x23c6f0c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndReadAsync>b__45_1",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginWriteInternal_b__48_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream____c::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginWriteInternal_b__48_0)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x23c6f38;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginWriteInternal>b__48_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._RunReadWriteTaskWhenReady_b__49_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____c::*)(System::Threading::Tasks::Task, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_RunReadWriteTaskWhenReady_b__49_0)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x23c70b8;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<RunReadWriteTaskWhenReady>b__49_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndWriteAsync_b__58_0
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IO::System__IO__Stream__ReadWriteParameters, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_0)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x23c7124;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndWriteAsync>b__58_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndWriteAsync_b__58_1
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::VoidTaskResult (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IAsyncResult)>(&System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_1)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x23c7158;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndWriteAsync>b__58_1",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+ void System::IO::System__IO__Stream____c::__set___9(System::IO::System__IO__Stream____c value)  {
+::cordl_internals::setStaticField<System::IO::System__IO__Stream____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::IO::System__IO__Stream____c>(value));
+}
+ System::IO::System__IO__Stream____c System::IO::System__IO__Stream____c::__get___9()  {
+return ::cordl_internals::getStaticField<System::IO::System__IO__Stream____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__4_0(System::Func_1<System::Threading::SemaphoreSlim> value)  {
+::cordl_internals::setStaticField<System::Func_1<System::Threading::SemaphoreSlim>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_1<System::Threading::SemaphoreSlim>>(value));
+}
+ System::Func_1<System::Threading::SemaphoreSlim> System::IO::System__IO__Stream____c::__get___9__4_0()  {
+return ::cordl_internals::getStaticField<System::Func_1<System::Threading::SemaphoreSlim>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__37_0(System::Action_1<::bs_hook::Il2CppWrapperType> value)  {
+::cordl_internals::setStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "<>9__37_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Action_1<::bs_hook::Il2CppWrapperType>>(value));
+}
+ System::Action_1<::bs_hook::Il2CppWrapperType> System::IO::System__IO__Stream____c::__get___9__37_0()  {
+return ::cordl_internals::getStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "<>9__37_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__40_0(System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> value)  {
+::cordl_internals::setStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__40_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>>(value));
+}
+ System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> System::IO::System__IO__Stream____c::__get___9__40_0()  {
+return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__40_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__45_0(System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> value)  {
+::cordl_internals::setStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>>(value));
+}
+ System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> System::IO::System__IO__Stream____c::__get___9__45_0()  {
+return ::cordl_internals::getStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__45_1(System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t> value)  {
+::cordl_internals::setStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t>, "<>9__45_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t>>(value));
+}
+ System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t> System::IO::System__IO__Stream____c::__get___9__45_1()  {
+return ::cordl_internals::getStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t>, "<>9__45_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__48_0(System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> value)  {
+::cordl_internals::setStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__48_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>>(value));
+}
+ System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> System::IO::System__IO__Stream____c::__get___9__48_0()  {
+return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__48_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__49_0(System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType> value)  {
+::cordl_internals::setStaticField<System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType>, "<>9__49_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType>>(value));
+}
+ System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType> System::IO::System__IO__Stream____c::__get___9__49_0()  {
+return ::cordl_internals::getStaticField<System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType>, "<>9__49_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__58_0(System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> value)  {
+::cordl_internals::setStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__58_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>>(value));
+}
+ System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> System::IO::System__IO__Stream____c::__get___9__58_0()  {
+return ::cordl_internals::getStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__58_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ void System::IO::System__IO__Stream____c::__set___9__58_1(System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult> value)  {
+::cordl_internals::setStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult>, "<>9__58_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult>>(value));
+}
+ System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult> System::IO::System__IO__Stream____c::__get___9__58_1()  {
+return ::cordl_internals::getStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult>, "<>9__58_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
+}
+ System::IO::System__IO__Stream____c System::IO::System__IO__Stream____c::New_ctor()  {
+System::IO::System__IO__Stream____c o{THROW_UNLESS(::il2cpp_utils::New<System::IO::System__IO__Stream____c>())};
+return o;
+}
+ void System::IO::System__IO__Stream____c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            ".ctor",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
+}
+ System::Threading::SemaphoreSlim System::IO::System__IO__Stream____c::_EnsureAsyncActiveSemaphoreInitialized_b__4_0()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<EnsureAsyncActiveSemaphoreInitialized>b__4_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Threading::SemaphoreSlim, false>(const_cast<void*>(instance), ___internal_method);
+}
+ void System::IO::System__IO__Stream____c::_FlushAsync_b__37_0(::bs_hook::Il2CppWrapperType state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<FlushAsync>b__37_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
+}
+ int32_t System::IO::System__IO__Stream____c::_BeginReadInternal_b__40_0(::bs_hook::Il2CppWrapperType _p0_)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginReadInternal>b__40_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, _p0_);
+}
+ System::IAsyncResult System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_0(System::IO::Stream stream, System::IO::System__IO__Stream__ReadWriteParameters args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndReadAsync>b__45_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, stream, args, callback, state);
+}
+ int32_t System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_1(System::IO::Stream stream, System::IAsyncResult asyncResult)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndReadAsync>b__45_1",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, stream, asyncResult);
+}
+ int32_t System::IO::System__IO__Stream____c::_BeginWriteInternal_b__48_0(::bs_hook::Il2CppWrapperType _p0_)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginWriteInternal>b__48_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, _p0_);
+}
+ void System::IO::System__IO__Stream____c::_RunReadWriteTaskWhenReady_b__49_0(System::Threading::Tasks::Task t, ::bs_hook::Il2CppWrapperType state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<RunReadWriteTaskWhenReady>b__49_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t, state);
+}
+ System::IAsyncResult System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_0(System::IO::Stream stream, System::IO::System__IO__Stream__ReadWriteParameters args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndWriteAsync>b__58_0",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, stream, args, callback, state);
+}
+ System::Threading::Tasks::VoidTaskResult System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_1(System::IO::Stream stream, System::IAsyncResult asyncResult)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
+                            "<BeginEndWriteAsync>b__58_1",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::VoidTaskResult, false>(const_cast<void*>(instance), ___internal_method, stream, asyncResult);
+}
+//  Writing Method size for method: System::IO::System__IO__Stream___CopyToAsyncInternal_d__28.MoveNext
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::*)()>(&System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::MoveNext)> {
+  constexpr static std::size_t size = 0x6dc;
+  constexpr static std::size_t addrs = 0x23c718c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream___CopyToAsyncInternal_d__28.SetStateMachine
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::SetStateMachine)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23c7868;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
+                            "SetStateMachine",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr  System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
+return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "System::IO::Stream", modifiers: "", def_value: Some("csnull") }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "destination", ty: "System::IO::Stream", modifiers: "", def_value: Some("csnull") }, CppParam { name: "_buffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::System__IO__Stream___CopyToAsyncInternal_d__28(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t bufferSize, System::IO::Stream __4__this, System::Threading::CancellationToken cancellationToken, System::IO::Stream destination, ::ArrayW<uint8_t> _buffer_5__2, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> __u__1, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter __u__2) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
+this->__t__builder = __t__builder;
+this->bufferSize = bufferSize;
+this->__4__this = __4__this;
+this->cancellationToken = cancellationToken;
+this->destination = destination;
+this->_buffer_5__2 = _buffer_5__2;
+this->__u__1 = __u__1;
+this->__u__2 = __u__2;
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___1__state(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___1__state() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(value));
+}
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___t__builder() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set_bufferSize(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x20>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get_bufferSize() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___4__this(System::IO::Stream value)  {
+::cordl_internals::setInstanceField<System::IO::Stream, 0x28>(this->__instance, std::forward<System::IO::Stream>(value));
+}
+constexpr System::IO::Stream System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___4__this() const {
+return ::cordl_internals::getInstanceField<System::IO::Stream, 0x28>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set_cancellationToken(System::Threading::CancellationToken value)  {
+::cordl_internals::setInstanceField<System::Threading::CancellationToken, 0x30>(this->__instance, std::forward<System::Threading::CancellationToken>(value));
+}
+constexpr System::Threading::CancellationToken System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get_cancellationToken() const {
+return ::cordl_internals::getInstanceField<System::Threading::CancellationToken, 0x30>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set_destination(System::IO::Stream value)  {
+::cordl_internals::setInstanceField<System::IO::Stream, 0x38>(this->__instance, std::forward<System::IO::Stream>(value));
+}
+constexpr System::IO::Stream System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get_destination() const {
+return ::cordl_internals::getInstanceField<System::IO::Stream, 0x38>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set__buffer_5__2(::ArrayW<uint8_t> value)  {
+::cordl_internals::setInstanceField<::ArrayW<uint8_t>, 0x40>(this->__instance, std::forward<::ArrayW<uint8_t>>(value));
+}
+constexpr ::ArrayW<uint8_t> System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get__buffer_5__2() const {
+return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x40>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>, 0x48>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>>(value));
+}
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___u__1() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>, 0x48>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___u__2(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter, 0x58>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter>(value));
+}
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___u__2() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter, 0x58>(this->__instance);
+}
+ void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+ void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
+                            "SetStateMachine",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
+}
+//  Writing Method size for method: System::IO::System__IO__Stream___FinishWriteAsync_d__57.MoveNext
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___FinishWriteAsync_d__57::*)()>(&System::IO::System__IO__Stream___FinishWriteAsync_d__57::MoveNext)> {
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x23c7874;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream___FinishWriteAsync_d__57.SetStateMachine
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___FinishWriteAsync_d__57::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::IO::System__IO__Stream___FinishWriteAsync_d__57::SetStateMachine)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x23c7a80;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
+                            "SetStateMachine",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr  System::IO::System__IO__Stream___FinishWriteAsync_d__57::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
+return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "writeTask", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: Some("csnull") }, CppParam { name: "localBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr System::IO::System__IO__Stream___FinishWriteAsync_d__57::System__IO__Stream___FinishWriteAsync_d__57(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, System::Threading::Tasks::Task writeTask, ::ArrayW<uint8_t> localBuffer, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
+this->__t__builder = __t__builder;
+this->writeTask = writeTask;
+this->localBuffer = localBuffer;
+this->__u__1 = __u__1;
+}
+constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set___1__state(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get___1__state() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(value));
+}
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get___t__builder() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set_writeTask(System::Threading::Tasks::Task value)  {
+::cordl_internals::setInstanceField<System::Threading::Tasks::Task, 0x20>(this->__instance, std::forward<System::Threading::Tasks::Task>(value));
+}
+constexpr System::Threading::Tasks::Task System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get_writeTask() const {
+return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task, 0x20>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set_localBuffer(::ArrayW<uint8_t> value)  {
+::cordl_internals::setInstanceField<::ArrayW<uint8_t>, 0x28>(this->__instance, std::forward<::ArrayW<uint8_t>>(value));
+}
+constexpr ::ArrayW<uint8_t> System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get_localBuffer() const {
+return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter, 0x30>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter>(value));
+}
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get___u__1() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter, 0x30>(this->__instance);
+}
+ void System::IO::System__IO__Stream___FinishWriteAsync_d__57::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+ void System::IO::System__IO__Stream___FinishWriteAsync_d__57::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
+                            "SetStateMachine",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
+}
+//  Writing Method size for method: System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d.MoveNext
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::*)()>(&System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::MoveNext)> {
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x23c7a8c;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d.SetStateMachine
+template<>
+
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::SetStateMachine)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x23c7e20;
+
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
+                            "SetStateMachine",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
+                        )));
+    return ___internal_method;
+  }
+};
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr  System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
+return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "readTask", ty: "System::Threading::Tasks::Task_1<int32_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "localBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "localDestination", ty: "System::Memory_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d(int32_t __1__state, System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> __t__builder, System::Threading::Tasks::Task_1<int32_t> readTask, ::ArrayW<uint8_t> localBuffer, System::Memory_1<uint8_t> localDestination, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
+this->__t__builder = __t__builder;
+this->readTask = readTask;
+this->localBuffer = localBuffer;
+this->localDestination = localDestination;
+this->__u__1 = __u__1;
+}
+constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set___1__state(int32_t value)  {
+::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
+}
+constexpr int32_t System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get___1__state() const {
+return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set___t__builder(System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>>(value));
+}
+constexpr System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get___t__builder() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>, 0x8>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set_readTask(System::Threading::Tasks::Task_1<int32_t> value)  {
+::cordl_internals::setInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x28>(this->__instance, std::forward<System::Threading::Tasks::Task_1<int32_t>>(value));
+}
+constexpr System::Threading::Tasks::Task_1<int32_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get_readTask() const {
+return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x28>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set_localBuffer(::ArrayW<uint8_t> value)  {
+::cordl_internals::setInstanceField<::ArrayW<uint8_t>, 0x30>(this->__instance, std::forward<::ArrayW<uint8_t>>(value));
+}
+constexpr ::ArrayW<uint8_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get_localBuffer() const {
+return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set_localDestination(System::Memory_1<uint8_t> value)  {
+::cordl_internals::setInstanceField<System::Memory_1<uint8_t>, 0x38>(this->__instance, std::forward<System::Memory_1<uint8_t>>(value));
+}
+constexpr System::Memory_1<uint8_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get_localDestination() const {
+return ::cordl_internals::getInstanceField<System::Memory_1<uint8_t>, 0x38>(this->__instance);
+}
+constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> value)  {
+::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>, 0x48>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>>(value));
+}
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get___u__1() const {
+return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>, 0x48>(this->__instance);
+}
+ void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::MoveNext()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
+                            "MoveNext",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
+}
+ void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
+                            "SetStateMachine",
+                            std::vector<Il2CppClass*>{},
+                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
 }
 //  Writing Method size for method: System::IO::Stream.EnsureAsyncActiveSemaphoreInitialized
 template<>
@@ -1714,8 +2735,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::IO::Stream::Stream()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<Stream>())) {}
+ System::IO::Stream System::IO::Stream::New_ctor()  {
+System::IO::Stream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Stream>())};
+return o;
+}
  void System::IO::Stream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Stream>::get(),
@@ -1733,1724 +2756,4 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task_1<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Memory_1<uint8_t>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::ValueTask_1<int32_t>, false>(nullptr, ___internal_method, readTask, localBuffer, localDestination);
-}
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23c60fc;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.get_CanRead
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::get_CanRead)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6300;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  7
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.get_CanWrite
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::get_CanWrite)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6308;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  10
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.get_CanSeek
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::get_CanSeek)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6310;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  8
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.get_Length
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::get_Length)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6318;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  11
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.get_Position
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::get_Position)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6320;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  12
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.set_Position
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(int64_t)>(&System::IO::System__IO__Stream__NullStream::set_Position)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c6328;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  13
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.CopyToAsync
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task (System::IO::System__IO__Stream__NullStream::*)(System::IO::Stream, int32_t, System::Threading::CancellationToken)>(&System::IO::System__IO__Stream__NullStream::CopyToAsync)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x23c632c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  18
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Dispose
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(bool)>(&System::IO::System__IO__Stream__NullStream::Dispose)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c6414;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  20
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Flush
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::Flush)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c6418;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  21
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.FlushAsync
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task (System::IO::System__IO__Stream__NullStream::*)(System::Threading::CancellationToken)>(&System::IO::System__IO__Stream__NullStream::FlushAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x23c641c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  22
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.BeginRead
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (System::IO::System__IO__Stream__NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream__NullStream::BeginRead)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23c64dc;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  23
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.EndRead
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream__NullStream::*)(System::IAsyncResult)>(&System::IO::System__IO__Stream__NullStream::EndRead)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23c6568;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  24
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.BeginWrite
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (System::IO::System__IO__Stream__NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream__NullStream::BeginWrite)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23c660c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  27
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.EndWrite
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(System::IAsyncResult)>(&System::IO::System__IO__Stream__NullStream::EndWrite)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23c6698;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  28
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Read
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream__NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&System::IO::System__IO__Stream__NullStream::Read)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c673c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  33
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Read
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream__NullStream::*)(System::Span_1<uint8_t>)>(&System::IO::System__IO__Stream__NullStream::Read)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6744;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  34
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.ReadAsync
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int32_t> (System::IO::System__IO__Stream__NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, System::Threading::CancellationToken)>(&System::IO::System__IO__Stream__NullStream::ReadAsync)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23c674c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  25
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.ReadAsync
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::ValueTask_1<int32_t> (System::IO::System__IO__Stream__NullStream::*)(System::Memory_1<uint8_t>, System::Threading::CancellationToken)>(&System::IO::System__IO__Stream__NullStream::ReadAsync)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23c67a4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  26
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.ReadByte
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream__NullStream::*)()>(&System::IO::System__IO__Stream__NullStream::ReadByte)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c67d8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  35
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Write
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&System::IO::System__IO__Stream__NullStream::Write)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c67e0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  36
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Write
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(System::ReadOnlySpan_1<uint8_t>)>(&System::IO::System__IO__Stream__NullStream::Write)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c67e4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  37
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.WriteAsync
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task (System::IO::System__IO__Stream__NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, System::Threading::CancellationToken)>(&System::IO::System__IO__Stream__NullStream::WriteAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x23c67e8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  29
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.WriteAsync
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::ValueTask (System::IO::System__IO__Stream__NullStream::*)(System::ReadOnlyMemory_1<uint8_t>, System::Threading::CancellationToken)>(&System::IO::System__IO__Stream__NullStream::WriteAsync)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x23c68a8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  30
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.WriteByte
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(uint8_t)>(&System::IO::System__IO__Stream__NullStream::WriteByte)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c693c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  38
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.Seek
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::System__IO__Stream__NullStream::*)(int64_t, System::IO::SeekOrigin)>(&System::IO::System__IO__Stream__NullStream::Seek)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6940;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  31
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__NullStream.SetLength
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__NullStream::*)(int64_t)>(&System::IO::System__IO__Stream__NullStream::SetLength)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c6948;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::IO::System__IO__Stream__NullStream),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                                  32
-                                ));
-    return ___internal_method;
-  }
-};
- void System::IO::System__IO__Stream__NullStream::__set_s_zeroTask(System::Threading::Tasks::Task_1<int32_t> value)  {
-::cordl_internals::setStaticField<System::Threading::Tasks::Task_1<int32_t>, "s_zeroTask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get>(std::forward<System::Threading::Tasks::Task_1<int32_t>>(value));
-}
- System::Threading::Tasks::Task_1<int32_t> System::IO::System__IO__Stream__NullStream::__get_s_zeroTask()  {
-return ::cordl_internals::getStaticField<System::Threading::Tasks::Task_1<int32_t>, "s_zeroTask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get>();
-}
-// Ctor Parameters []
- System::IO::System__IO__Stream__NullStream::System__IO__Stream__NullStream()  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream__NullStream>())) {}
- void System::IO::System__IO__Stream__NullStream::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::IO::System__IO__Stream__NullStream::get_CanRead()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "get_CanRead",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::IO::System__IO__Stream__NullStream::get_CanWrite()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "get_CanWrite",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::IO::System__IO__Stream__NullStream::get_CanSeek()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "get_CanSeek",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- int64_t System::IO::System__IO__Stream__NullStream::get_Length()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "get_Length",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
-}
- int64_t System::IO::System__IO__Stream__NullStream::get_Position()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "get_Position",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method);
-}
- void System::IO::System__IO__Stream__NullStream::set_Position(int64_t value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "set_Position",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
-}
- System::Threading::Tasks::Task System::IO::System__IO__Stream__NullStream::CopyToAsync(System::IO::Stream destination, int32_t bufferSize, System::Threading::CancellationToken cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "CopyToAsync",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task, false>(const_cast<void*>(instance), ___internal_method, destination, bufferSize, cancellationToken);
-}
- void System::IO::System__IO__Stream__NullStream::Dispose(bool disposing)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Dispose",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
-}
- void System::IO::System__IO__Stream__NullStream::Flush()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Flush",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Threading::Tasks::Task System::IO::System__IO__Stream__NullStream::FlushAsync(System::Threading::CancellationToken cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "FlushAsync",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task, false>(const_cast<void*>(instance), ___internal_method, cancellationToken);
-}
- System::IAsyncResult System::IO::System__IO__Stream__NullStream::BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "BeginRead",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count, callback, state);
-}
- int32_t System::IO::System__IO__Stream__NullStream::EndRead(System::IAsyncResult asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "EndRead",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, asyncResult);
-}
- System::IAsyncResult System::IO::System__IO__Stream__NullStream::BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "BeginWrite",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count, callback, state);
-}
- void System::IO::System__IO__Stream__NullStream::EndWrite(System::IAsyncResult asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "EndWrite",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asyncResult);
-}
- int32_t System::IO::System__IO__Stream__NullStream::Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Read",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count);
-}
- int32_t System::IO::System__IO__Stream__NullStream::Read(System::Span_1<uint8_t> buffer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Read",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Span_1<uint8_t>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, buffer);
-}
- System::Threading::Tasks::Task_1<int32_t> System::IO::System__IO__Stream__NullStream::ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "ReadAsync",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<int32_t>, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count, cancellationToken);
-}
-/// @param cancellationToken: System::Threading::CancellationToken (default: {})
- System::Threading::Tasks::ValueTask_1<int32_t> System::IO::System__IO__Stream__NullStream::ReadAsync(System::Memory_1<uint8_t> buffer, System::Threading::CancellationToken cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "ReadAsync",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Memory_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::ValueTask_1<int32_t>, false>(const_cast<void*>(instance), ___internal_method, buffer, cancellationToken);
-}
- int32_t System::IO::System__IO__Stream__NullStream::ReadByte()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "ReadByte",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
-}
- void System::IO::System__IO__Stream__NullStream::Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Write",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count);
-}
- void System::IO::System__IO__Stream__NullStream::Write(System::ReadOnlySpan_1<uint8_t> buffer)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Write",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::ReadOnlySpan_1<uint8_t>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer);
-}
- System::Threading::Tasks::Task System::IO::System__IO__Stream__NullStream::WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, System::Threading::CancellationToken cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "WriteAsync",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task, false>(const_cast<void*>(instance), ___internal_method, buffer, offset, count, cancellationToken);
-}
-/// @param cancellationToken: System::Threading::CancellationToken (default: {})
- System::Threading::Tasks::ValueTask System::IO::System__IO__Stream__NullStream::WriteAsync(System::ReadOnlyMemory_1<uint8_t> buffer, System::Threading::CancellationToken cancellationToken)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "WriteAsync",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::ReadOnlyMemory_1<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::CancellationToken>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::ValueTask, false>(const_cast<void*>(instance), ___internal_method, buffer, cancellationToken);
-}
- void System::IO::System__IO__Stream__NullStream::WriteByte(uint8_t value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "WriteByte",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
-}
- int64_t System::IO::System__IO__Stream__NullStream::Seek(int64_t offset, System::IO::SeekOrigin origin)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "Seek",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::SeekOrigin>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method, offset, origin);
-}
- void System::IO::System__IO__Stream__NullStream::SetLength(int64_t length)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__NullStream>::get(),
-                            "SetLength",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, length);
-}
-//  Writing Method size for method: GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::*)()>(&GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6b60;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c._get_AsyncWaitHandle_b__12_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ManualResetEvent (GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::*)()>(&GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_get_AsyncWaitHandle_b__12_0)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23c6b68;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
-                            "<get_AsyncWaitHandle>b__12_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
- void GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__set___9(GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c value)  {
-::cordl_internals::setStaticField<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>(std::forward<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>(value));
-}
- GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__get___9()  {
-return ::cordl_internals::getStaticField<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>();
-}
- void GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__set___9__12_0(System::Func_1<System::Threading::ManualResetEvent> value)  {
-::cordl_internals::setStaticField<System::Func_1<System::Threading::ManualResetEvent>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>(std::forward<System::Func_1<System::Threading::ManualResetEvent>>(value));
-}
- System::Func_1<System::Threading::ManualResetEvent> GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::__get___9__12_0()  {
-return ::cordl_internals::getStaticField<System::Func_1<System::Threading::ManualResetEvent>, "<>9__12_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get>();
-}
-// Ctor Parameters []
- GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::System__IO__Stream__SynchronousAsyncResult____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream__SynchronousAsyncResult____c>())) {}
- void GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Threading::ManualResetEvent GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c::_get_AsyncWaitHandle_b__12_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__IO__Stream__SynchronousAsyncResult____c>::get(),
-                            "<get_AsyncWaitHandle>b__12_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::ManualResetEvent, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)(int32_t, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23c5c70;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23c5f58;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)(System::Exception, ::bs_hook::Il2CppWrapperType, bool)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23c5ca0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_IsCompleted
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_IsCompleted)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c69d8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_IsCompleted",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_AsyncWaitHandle
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncWaitHandle)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x23c69e0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_AsyncWaitHandle",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_AsyncState
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::Il2CppWrapperType (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncState)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6ad8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_AsyncState",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.get_CompletedSynchronously
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::get_CompletedSynchronously)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6ae0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_CompletedSynchronously",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.ThrowIfError
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream__SynchronousAsyncResult::*)()>(&System::IO::System__IO__Stream__SynchronousAsyncResult::ThrowIfError)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23c6ae8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "ThrowIfError",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.EndRead
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(System::IAsyncResult)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::EndRead)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23c5cf0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "EndRead",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream__SynchronousAsyncResult.EndWrite
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult)>(&System::IO::System__IO__Stream__SynchronousAsyncResult::EndWrite)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x23c5f8c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "EndWrite",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::IAsyncResult
-constexpr  System::IO::System__IO__Stream__SynchronousAsyncResult::operator System::IAsyncResult() const noexcept {
-return System::IAsyncResult(::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__stateObject(::bs_hook::Il2CppWrapperType value)  {
-::cordl_internals::setInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::bs_hook::Il2CppWrapperType>(value));
-}
-constexpr ::bs_hook::Il2CppWrapperType System::IO::System__IO__Stream__SynchronousAsyncResult::__get__stateObject() const {
-return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__isWrite(bool value)  {
-::cordl_internals::setInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
-}
-constexpr bool System::IO::System__IO__Stream__SynchronousAsyncResult::__get__isWrite() const {
-return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__waitHandle(System::Threading::ManualResetEvent value)  {
-::cordl_internals::setInstanceField<System::Threading::ManualResetEvent, 0x20>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Threading::ManualResetEvent>(value));
-}
-constexpr System::Threading::ManualResetEvent System::IO::System__IO__Stream__SynchronousAsyncResult::__get__waitHandle() const {
-return ::cordl_internals::getInstanceField<System::Threading::ManualResetEvent, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__exceptionInfo(System::Runtime::ExceptionServices::ExceptionDispatchInfo value)  {
-::cordl_internals::setInstanceField<System::Runtime::ExceptionServices::ExceptionDispatchInfo, 0x28>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Runtime::ExceptionServices::ExceptionDispatchInfo>(value));
-}
-constexpr System::Runtime::ExceptionServices::ExceptionDispatchInfo System::IO::System__IO__Stream__SynchronousAsyncResult::__get__exceptionInfo() const {
-return ::cordl_internals::getInstanceField<System::Runtime::ExceptionServices::ExceptionDispatchInfo, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__endXxxCalled(bool value)  {
-::cordl_internals::setInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<bool>(value));
-}
-constexpr bool System::IO::System__IO__Stream__SynchronousAsyncResult::__get__endXxxCalled() const {
-return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-constexpr void System::IO::System__IO__Stream__SynchronousAsyncResult::__set__bytesRead(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::IO::System__IO__Stream__SynchronousAsyncResult::__get__bytesRead() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
-}
-// Ctor Parameters [CppParam { name: "bytesRead", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "asyncStateObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::IO::System__IO__Stream__SynchronousAsyncResult::System__IO__Stream__SynchronousAsyncResult(int32_t bytesRead, ::bs_hook::Il2CppWrapperType asyncStateObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream__SynchronousAsyncResult>(bytesRead, asyncStateObject))) {}
- void System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor(int32_t bytesRead, ::bs_hook::Il2CppWrapperType asyncStateObject)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bytesRead, asyncStateObject);
-}
-// Ctor Parameters [CppParam { name: "asyncStateObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::IO::System__IO__Stream__SynchronousAsyncResult::System__IO__Stream__SynchronousAsyncResult(::bs_hook::Il2CppWrapperType asyncStateObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream__SynchronousAsyncResult>(asyncStateObject))) {}
- void System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor(::bs_hook::Il2CppWrapperType asyncStateObject)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asyncStateObject);
-}
-// Ctor Parameters [CppParam { name: "ex", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "asyncStateObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "isWrite", ty: "bool", modifiers: "", def_value: None }]
- System::IO::System__IO__Stream__SynchronousAsyncResult::System__IO__Stream__SynchronousAsyncResult(System::Exception ex, ::bs_hook::Il2CppWrapperType asyncStateObject, bool isWrite)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream__SynchronousAsyncResult>(ex, asyncStateObject, isWrite))) {}
- void System::IO::System__IO__Stream__SynchronousAsyncResult::_ctor(System::Exception ex, ::bs_hook::Il2CppWrapperType asyncStateObject, bool isWrite)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Exception>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ex, asyncStateObject, isWrite);
-}
- bool System::IO::System__IO__Stream__SynchronousAsyncResult::get_IsCompleted()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_IsCompleted",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Threading::WaitHandle System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncWaitHandle()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_AsyncWaitHandle",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::WaitHandle, false>(const_cast<void*>(instance), ___internal_method);
-}
- ::bs_hook::Il2CppWrapperType System::IO::System__IO__Stream__SynchronousAsyncResult::get_AsyncState()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_AsyncState",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
-}
- bool System::IO::System__IO__Stream__SynchronousAsyncResult::get_CompletedSynchronously()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "get_CompletedSynchronously",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
-}
- void System::IO::System__IO__Stream__SynchronousAsyncResult::ThrowIfError()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "ThrowIfError",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- int32_t System::IO::System__IO__Stream__SynchronousAsyncResult::EndRead(System::IAsyncResult asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "EndRead",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, asyncResult);
-}
- void System::IO::System__IO__Stream__SynchronousAsyncResult::EndWrite(System::IAsyncResult asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream__SynchronousAsyncResult>::get(),
-                            "EndWrite",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, asyncResult);
-}
-//  Writing Method size for method: System::IO::System__IO__Stream____c._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____c::*)()>(&System::IO::System__IO__Stream____c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c6c2c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._EnsureAsyncActiveSemaphoreInitialized_b__4_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim (System::IO::System__IO__Stream____c::*)()>(&System::IO::System__IO__Stream____c::_EnsureAsyncActiveSemaphoreInitialized_b__4_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23c6c34;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<EnsureAsyncActiveSemaphoreInitialized>b__4_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._FlushAsync_b__37_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____c::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_FlushAsync_b__37_0)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x23c6c98;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<FlushAsync>b__37_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginReadInternal_b__40_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream____c::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginReadInternal_b__40_0)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x23c6d48;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginReadInternal>b__40_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndReadAsync_b__45_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IO::System__IO__Stream__ReadWriteParameters, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23c6ed8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndReadAsync>b__45_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndReadAsync_b__45_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IAsyncResult)>(&System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_1)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23c6f0c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndReadAsync>b__45_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginWriteInternal_b__48_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (System::IO::System__IO__Stream____c::*)(::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginWriteInternal_b__48_0)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x23c6f38;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginWriteInternal>b__48_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._RunReadWriteTaskWhenReady_b__49_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____c::*)(System::Threading::Tasks::Task, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_RunReadWriteTaskWhenReady_b__49_0)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23c70b8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<RunReadWriteTaskWhenReady>b__49_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndWriteAsync_b__58_0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IO::System__IO__Stream__ReadWriteParameters, System::AsyncCallback, ::bs_hook::Il2CppWrapperType)>(&System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23c7124;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndWriteAsync>b__58_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____c._BeginEndWriteAsync_b__58_1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::VoidTaskResult (System::IO::System__IO__Stream____c::*)(System::IO::Stream, System::IAsyncResult)>(&System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_1)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x23c7158;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndWriteAsync>b__58_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
- void System::IO::System__IO__Stream____c::__set___9(System::IO::System__IO__Stream____c value)  {
-::cordl_internals::setStaticField<System::IO::System__IO__Stream____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::IO::System__IO__Stream____c>(value));
-}
- System::IO::System__IO__Stream____c System::IO::System__IO__Stream____c::__get___9()  {
-return ::cordl_internals::getStaticField<System::IO::System__IO__Stream____c, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__4_0(System::Func_1<System::Threading::SemaphoreSlim> value)  {
-::cordl_internals::setStaticField<System::Func_1<System::Threading::SemaphoreSlim>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_1<System::Threading::SemaphoreSlim>>(value));
-}
- System::Func_1<System::Threading::SemaphoreSlim> System::IO::System__IO__Stream____c::__get___9__4_0()  {
-return ::cordl_internals::getStaticField<System::Func_1<System::Threading::SemaphoreSlim>, "<>9__4_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__37_0(System::Action_1<::bs_hook::Il2CppWrapperType> value)  {
-::cordl_internals::setStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "<>9__37_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Action_1<::bs_hook::Il2CppWrapperType>>(value));
-}
- System::Action_1<::bs_hook::Il2CppWrapperType> System::IO::System__IO__Stream____c::__get___9__37_0()  {
-return ::cordl_internals::getStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "<>9__37_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__40_0(System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> value)  {
-::cordl_internals::setStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__40_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>>(value));
-}
- System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> System::IO::System__IO__Stream____c::__get___9__40_0()  {
-return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__40_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__45_0(System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> value)  {
-::cordl_internals::setStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>>(value));
-}
- System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> System::IO::System__IO__Stream____c::__get___9__45_0()  {
-return ::cordl_internals::getStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__45_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__45_1(System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t> value)  {
-::cordl_internals::setStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t>, "<>9__45_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t>>(value));
-}
- System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t> System::IO::System__IO__Stream____c::__get___9__45_1()  {
-return ::cordl_internals::getStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,int32_t>, "<>9__45_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__48_0(System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> value)  {
-::cordl_internals::setStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__48_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>>(value));
-}
- System::Func_2<::bs_hook::Il2CppWrapperType,int32_t> System::IO::System__IO__Stream____c::__get___9__48_0()  {
-return ::cordl_internals::getStaticField<System::Func_2<::bs_hook::Il2CppWrapperType,int32_t>, "<>9__48_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__49_0(System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType> value)  {
-::cordl_internals::setStaticField<System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType>, "<>9__49_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType>>(value));
-}
- System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType> System::IO::System__IO__Stream____c::__get___9__49_0()  {
-return ::cordl_internals::getStaticField<System::Action_2<System::Threading::Tasks::Task,::bs_hook::Il2CppWrapperType>, "<>9__49_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__58_0(System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> value)  {
-::cordl_internals::setStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__58_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>>(value));
-}
- System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult> System::IO::System__IO__Stream____c::__get___9__58_0()  {
-return ::cordl_internals::getStaticField<System::Func_5<System::IO::Stream,System::IO::System__IO__Stream__ReadWriteParameters,System::AsyncCallback,::bs_hook::Il2CppWrapperType,System::IAsyncResult>, "<>9__58_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
- void System::IO::System__IO__Stream____c::__set___9__58_1(System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult> value)  {
-::cordl_internals::setStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult>, "<>9__58_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>(std::forward<System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult>>(value));
-}
- System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult> System::IO::System__IO__Stream____c::__get___9__58_1()  {
-return ::cordl_internals::getStaticField<System::Func_3<System::IO::Stream,System::IAsyncResult,System::Threading::Tasks::VoidTaskResult>, "<>9__58_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get>();
-}
-// Ctor Parameters []
- System::IO::System__IO__Stream____c::System__IO__Stream____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__IO__Stream____c>())) {}
- void System::IO::System__IO__Stream____c::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
- System::Threading::SemaphoreSlim System::IO::System__IO__Stream____c::_EnsureAsyncActiveSemaphoreInitialized_b__4_0()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<EnsureAsyncActiveSemaphoreInitialized>b__4_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::SemaphoreSlim, false>(const_cast<void*>(instance), ___internal_method);
-}
- void System::IO::System__IO__Stream____c::_FlushAsync_b__37_0(::bs_hook::Il2CppWrapperType state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<FlushAsync>b__37_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state);
-}
- int32_t System::IO::System__IO__Stream____c::_BeginReadInternal_b__40_0(::bs_hook::Il2CppWrapperType _p0_)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginReadInternal>b__40_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, _p0_);
-}
- System::IAsyncResult System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_0(System::IO::Stream stream, System::IO::System__IO__Stream__ReadWriteParameters args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndReadAsync>b__45_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, stream, args, callback, state);
-}
- int32_t System::IO::System__IO__Stream____c::_BeginEndReadAsync_b__45_1(System::IO::Stream stream, System::IAsyncResult asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndReadAsync>b__45_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, stream, asyncResult);
-}
- int32_t System::IO::System__IO__Stream____c::_BeginWriteInternal_b__48_0(::bs_hook::Il2CppWrapperType _p0_)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginWriteInternal>b__48_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, _p0_);
-}
- void System::IO::System__IO__Stream____c::_RunReadWriteTaskWhenReady_b__49_0(System::Threading::Tasks::Task t, ::bs_hook::Il2CppWrapperType state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<RunReadWriteTaskWhenReady>b__49_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Threading::Tasks::Task>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t, state);
-}
- System::IAsyncResult System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_0(System::IO::Stream stream, System::IO::System__IO__Stream__ReadWriteParameters args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndWriteAsync>b__58_0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::System__IO__Stream__ReadWriteParameters>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::AsyncCallback>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::bs_hook::Il2CppWrapperType>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::IAsyncResult, false>(const_cast<void*>(instance), ___internal_method, stream, args, callback, state);
-}
- System::Threading::Tasks::VoidTaskResult System::IO::System__IO__Stream____c::_BeginEndWriteAsync_b__58_1(System::IO::Stream stream, System::IAsyncResult asyncResult)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____c>::get(),
-                            "<BeginEndWriteAsync>b__58_1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IO::Stream>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::IAsyncResult>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::VoidTaskResult, false>(const_cast<void*>(instance), ___internal_method, stream, asyncResult);
-}
-//  Writing Method size for method: System::IO::System__IO__Stream___CopyToAsyncInternal_d__28.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::*)()>(&System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::MoveNext)> {
-  constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x23c718c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream___CopyToAsyncInternal_d__28.SetStateMachine
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23c7868;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr  System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
-return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "System::IO::Stream", modifiers: "", def_value: Some("csnull") }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "destination", ty: "System::IO::Stream", modifiers: "", def_value: Some("csnull") }, CppParam { name: "_buffer_5__2", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::System__IO__Stream___CopyToAsyncInternal_d__28(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t bufferSize, System::IO::Stream __4__this, System::Threading::CancellationToken cancellationToken, System::IO::Stream destination, ::ArrayW<uint8_t> _buffer_5__2, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> __u__1, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter __u__2) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
-this->__t__builder = __t__builder;
-this->bufferSize = bufferSize;
-this->__4__this = __4__this;
-this->cancellationToken = cancellationToken;
-this->destination = destination;
-this->_buffer_5__2 = _buffer_5__2;
-this->__u__1 = __u__1;
-this->__u__2 = __u__2;
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___1__state(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___1__state() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(value));
-}
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___t__builder() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set_bufferSize(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x20>(this->__instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get_bufferSize() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___4__this(System::IO::Stream value)  {
-::cordl_internals::setInstanceField<System::IO::Stream, 0x28>(this->__instance, std::forward<System::IO::Stream>(value));
-}
-constexpr System::IO::Stream System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___4__this() const {
-return ::cordl_internals::getInstanceField<System::IO::Stream, 0x28>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set_cancellationToken(System::Threading::CancellationToken value)  {
-::cordl_internals::setInstanceField<System::Threading::CancellationToken, 0x30>(this->__instance, std::forward<System::Threading::CancellationToken>(value));
-}
-constexpr System::Threading::CancellationToken System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get_cancellationToken() const {
-return ::cordl_internals::getInstanceField<System::Threading::CancellationToken, 0x30>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set_destination(System::IO::Stream value)  {
-::cordl_internals::setInstanceField<System::IO::Stream, 0x38>(this->__instance, std::forward<System::IO::Stream>(value));
-}
-constexpr System::IO::Stream System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get_destination() const {
-return ::cordl_internals::getInstanceField<System::IO::Stream, 0x38>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set__buffer_5__2(::ArrayW<uint8_t> value)  {
-::cordl_internals::setInstanceField<::ArrayW<uint8_t>, 0x40>(this->__instance, std::forward<::ArrayW<uint8_t>>(value));
-}
-constexpr ::ArrayW<uint8_t> System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get__buffer_5__2() const {
-return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x40>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>, 0x48>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>>(value));
-}
-constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t> System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___u__1() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter<int32_t>, 0x48>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__set___u__2(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter, 0x58>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter>(value));
-}
-constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::__get___u__2() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter, 0x58>(this->__instance);
-}
- void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
- void System::IO::System__IO__Stream___CopyToAsyncInternal_d__28::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___CopyToAsyncInternal_d__28>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
-}
-//  Writing Method size for method: System::IO::System__IO__Stream___FinishWriteAsync_d__57.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___FinishWriteAsync_d__57::*)()>(&System::IO::System__IO__Stream___FinishWriteAsync_d__57::MoveNext)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x23c7874;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream___FinishWriteAsync_d__57.SetStateMachine
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream___FinishWriteAsync_d__57::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::IO::System__IO__Stream___FinishWriteAsync_d__57::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23c7a80;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr  System::IO::System__IO__Stream___FinishWriteAsync_d__57::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
-return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "writeTask", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: Some("csnull") }, CppParam { name: "localBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr System::IO::System__IO__Stream___FinishWriteAsync_d__57::System__IO__Stream___FinishWriteAsync_d__57(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, System::Threading::Tasks::Task writeTask, ::ArrayW<uint8_t> localBuffer, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
-this->__t__builder = __t__builder;
-this->writeTask = writeTask;
-this->localBuffer = localBuffer;
-this->__u__1 = __u__1;
-}
-constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set___1__state(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get___1__state() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncTaskMethodBuilder>(value));
-}
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get___t__builder() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncTaskMethodBuilder, 0x8>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set_writeTask(System::Threading::Tasks::Task value)  {
-::cordl_internals::setInstanceField<System::Threading::Tasks::Task, 0x20>(this->__instance, std::forward<System::Threading::Tasks::Task>(value));
-}
-constexpr System::Threading::Tasks::Task System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get_writeTask() const {
-return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task, 0x20>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set_localBuffer(::ArrayW<uint8_t> value)  {
-::cordl_internals::setInstanceField<::ArrayW<uint8_t>, 0x28>(this->__instance, std::forward<::ArrayW<uint8_t>>(value));
-}
-constexpr ::ArrayW<uint8_t> System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get_localBuffer() const {
-return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream___FinishWriteAsync_d__57::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter, 0x30>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter>(value));
-}
-constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter System::IO::System__IO__Stream___FinishWriteAsync_d__57::__get___u__1() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter, 0x30>(this->__instance);
-}
- void System::IO::System__IO__Stream___FinishWriteAsync_d__57::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
- void System::IO::System__IO__Stream___FinishWriteAsync_d__57::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream___FinishWriteAsync_d__57>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
-}
-//  Writing Method size for method: System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d.MoveNext
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::*)()>(&System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x23c7a8c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d.SetStateMachine
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::*)(System::Runtime::CompilerServices::IAsyncStateMachine)>(&System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::SetStateMachine)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23c7e20;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr  System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::operator System::Runtime::CompilerServices::IAsyncStateMachine() const {
-return System::Runtime::CompilerServices::IAsyncStateMachine(::cordl_internals::Box(this).convert());
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "readTask", ty: "System::Threading::Tasks::Task_1<int32_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "localBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "localDestination", ty: "System::Memory_1<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
-constexpr System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d(int32_t __1__state, System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> __t__builder, System::Threading::Tasks::Task_1<int32_t> readTask, ::ArrayW<uint8_t> localBuffer, System::Memory_1<uint8_t> localDestination, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept : ::bs_hook::ValueTypeWrapper() {this->__1__state = __1__state;
-this->__t__builder = __t__builder;
-this->readTask = readTask;
-this->localBuffer = localBuffer;
-this->localDestination = localDestination;
-this->__u__1 = __u__1;
-}
-constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set___1__state(int32_t value)  {
-::cordl_internals::setInstanceField<int32_t, 0x0>(this->__instance, std::forward<int32_t>(value));
-}
-constexpr int32_t System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get___1__state() const {
-return ::cordl_internals::getInstanceField<int32_t, 0x0>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set___t__builder(System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>, 0x8>(this->__instance, std::forward<System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>>(value));
-}
-constexpr System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get___t__builder() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<int32_t>, 0x8>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set_readTask(System::Threading::Tasks::Task_1<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x28>(this->__instance, std::forward<System::Threading::Tasks::Task_1<int32_t>>(value));
-}
-constexpr System::Threading::Tasks::Task_1<int32_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get_readTask() const {
-return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x28>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set_localBuffer(::ArrayW<uint8_t> value)  {
-::cordl_internals::setInstanceField<::ArrayW<uint8_t>, 0x30>(this->__instance, std::forward<::ArrayW<uint8_t>>(value));
-}
-constexpr ::ArrayW<uint8_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get_localBuffer() const {
-return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set_localDestination(System::Memory_1<uint8_t> value)  {
-::cordl_internals::setInstanceField<System::Memory_1<uint8_t>, 0x38>(this->__instance, std::forward<System::Memory_1<uint8_t>>(value));
-}
-constexpr System::Memory_1<uint8_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get_localDestination() const {
-return ::cordl_internals::getInstanceField<System::Memory_1<uint8_t>, 0x38>(this->__instance);
-}
-constexpr void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> value)  {
-::cordl_internals::setInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>, 0x48>(this->__instance, std::forward<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>>(value));
-}
-constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::__get___u__1() const {
-return ::cordl_internals::getInstanceField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>, 0x48>(this->__instance);
-}
- void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::MoveNext()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
-                            "MoveNext",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method);
-}
- void System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d::SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::System__IO__Stream____ReadAsync_g__FinishReadAsync_44_0_d>::get(),
-                            "SetStateMachine",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<System::Runtime::CompilerServices::IAsyncStateMachine>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(reinterpret_cast<const void*>(__instance.data())), ___internal_method, stateMachine);
 }

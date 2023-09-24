@@ -60,8 +60,7 @@ static constexpr int32_t  tls_prf_sha384{2};
 
 // Methods
 
-// Ctor Parameters []
-explicit PrfAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::PrfAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xf055b4 size 0x8 virtual false final false
  void _ctor() ;

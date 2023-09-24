@@ -7,19 +7,19 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class SigPolicyQualifierInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherHashAlgAndValue;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -98,26 +98,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_sigPolicyQualifiers() cons
 /// @brief Method GetInstance addr 0xe097a8 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::SignaturePolicyId GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignaturePolicyId(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::SignaturePolicyId New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe09930 size 0x2e4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "sigPolicyIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "sigPolicyHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue", modifiers: "", def_value: None }]
-explicit SignaturePolicyId(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash) ;
+static Org::BouncyCastle::Asn1::Esf::SignaturePolicyId New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash) ;
 
 /// @brief Method .ctor addr 0xe09c14 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash) ;
 
-// Ctor Parameters [CppParam { name: "sigPolicyIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "sigPolicyHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue", modifiers: "", def_value: None }, CppParam { name: "sigPolicyQualifiers", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo>", modifiers: "", def_value: None }]
-explicit SignaturePolicyId(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash, ::ArrayW<Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo> sigPolicyQualifiers) ;
+static Org::BouncyCastle::Asn1::Esf::SignaturePolicyId New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash, ::ArrayW<Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo> sigPolicyQualifiers) ;
 
 /// @brief Method .ctor addr 0xe09c1c size 0x104 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash, ::ArrayW<Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo> sigPolicyQualifiers) ;
 
-// Ctor Parameters [CppParam { name: "sigPolicyIdentifier", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "sigPolicyHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue", modifiers: "", def_value: None }, CppParam { name: "sigPolicyQualifiers", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit SignaturePolicyId(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash, System::Collections::IEnumerable sigPolicyQualifiers) ;
+static Org::BouncyCastle::Asn1::Esf::SignaturePolicyId New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash, System::Collections::IEnumerable sigPolicyQualifiers) ;
 
 /// @brief Method .ctor addr 0xe09d20 size 0x1e4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue sigPolicyHash, System::Collections::IEnumerable sigPolicyQualifiers) ;

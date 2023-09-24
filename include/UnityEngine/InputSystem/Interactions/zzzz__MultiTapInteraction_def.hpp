@@ -6,14 +6,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
+class IInputInteraction;
+}
+namespace UnityEngine::InputSystem {
 template<typename TValue>
 class IInputInteraction_1;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
-}
-namespace UnityEngine::InputSystem {
 struct InputInteractionContext;
+}
+namespace UnityEngine::InputSystem::Interactions {
+struct UnityEngine__InputSystem__Interactions__MultiTapInteraction__TapPhase;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -72,6 +75,8 @@ __WaitingForNextPress = 2,
 constexpr operator __UnityEngine__InputSystem__Interactions__MultiTapInteraction__TapPhase_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Interactions__MultiTapInteraction__TapPhase_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -225,8 +230,7 @@ constexpr double_t __get_m_LastTapReleaseTime() const;
 /// @brief Method Reset addr 0x297a1a8 size 0xc virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit MultiTapInteraction() ;
+static UnityEngine::InputSystem::Interactions::MultiTapInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x297a1b4 size 0x10 virtual false final false
  void _ctor() ;

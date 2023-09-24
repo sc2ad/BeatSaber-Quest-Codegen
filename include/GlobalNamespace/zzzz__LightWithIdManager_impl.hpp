@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
-#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightWithIdManager.add_didChangeSomeColorsThisFrameEvent
 template<>
 
@@ -236,8 +236,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method, lightId, initializeIfNull);
 }
-// Ctor Parameters []
- GlobalNamespace::LightWithIdManager::LightWithIdManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightWithIdManager>())) {}
+ GlobalNamespace::LightWithIdManager GlobalNamespace::LightWithIdManager::New_ctor()  {
+GlobalNamespace::LightWithIdManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightWithIdManager>())};
+return o;
+}
  void GlobalNamespace::LightWithIdManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightWithIdManager>::get(),

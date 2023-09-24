@@ -7,83 +7,116 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class IInputActionCollection2;
 }
 namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TDelegate>
-struct CallbackArray_1;
-}
-namespace System {
-struct Guid;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
+class InputActionState;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
-namespace System {
-class ICloneable;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace UnityEngine::InputSystem {
-struct InputControlScheme;
+class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
-class IInputActionCollection2;
+struct UnityEngine__InputSystem__InputActionMap__ReadMapJson;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__Flags;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System {
+struct Guid;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__WriteMapJson;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__BindingOverrideJson;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__ReadActionJson;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__BindingJson;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__DeviceArray;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__ReadFileJson;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__WriteActionJson;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__BindingOverrideListJson;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__WriteFileJson;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TDelegate>
+struct CallbackArray_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace UnityEngine::InputSystem {
-class InputActionState;
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+struct InputBinding;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
-}
-namespace UnityEngine::InputSystem {
-class InputActionAsset;
+class InputControl;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -177,6 +210,8 @@ __BindingsForEachActionInitialized = 8,
 constexpr operator __UnityEngine__InputSystem__InputActionMap__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__InputActionMap__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1297,14 +1332,12 @@ static int32_t __get_s_DeferBindingResolution() ;
 /// @brief Method remove_actionTriggered addr 0x28aa260 size 0x58 virtual false final false
  void remove_actionTriggered(System::Action_1<UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext> value) ;
 
-// Ctor Parameters []
-explicit InputActionMap() ;
+static UnityEngine::InputSystem::InputActionMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a5490 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InputActionMap(::StringW name) ;
+static UnityEngine::InputSystem::InputActionMap New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x28aa2b8 size 0x30 virtual false final false
  void _ctor(::StringW name) ;

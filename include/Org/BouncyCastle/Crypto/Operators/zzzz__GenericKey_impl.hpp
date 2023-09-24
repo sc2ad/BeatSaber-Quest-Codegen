@@ -98,8 +98,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::GenericKey::__set_represent
 constexpr ::bs_hook::Il2CppWrapperType Org::BouncyCastle::Crypto::Operators::GenericKey::__get_representation() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "representation", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::GenericKey::GenericKey(::bs_hook::Il2CppWrapperType representation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericKey>(representation))) {}
+ Org::BouncyCastle::Crypto::Operators::GenericKey Org::BouncyCastle::Crypto::Operators::GenericKey::New_ctor(::bs_hook::Il2CppWrapperType representation)  {
+Org::BouncyCastle::Crypto::Operators::GenericKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::GenericKey>(representation))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::GenericKey::_ctor(::bs_hook::Il2CppWrapperType representation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::GenericKey>::get(),
@@ -109,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, representation);
 }
-// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::GenericKey::GenericKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericKey>(algorithmIdentifier, representation))) {}
+ Org::BouncyCastle::Crypto::Operators::GenericKey Org::BouncyCastle::Crypto::Operators::GenericKey::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation)  {
+Org::BouncyCastle::Crypto::Operators::GenericKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::GenericKey>(algorithmIdentifier, representation))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::GenericKey::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::ArrayW<uint8_t> representation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::GenericKey>::get(),
@@ -120,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithmIdentifier, representation);
 }
-// Ctor Parameters [CppParam { name: "algorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "representation", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::GenericKey::GenericKey(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GenericKey>(algorithmIdentifier, representation))) {}
+ Org::BouncyCastle::Crypto::Operators::GenericKey Org::BouncyCastle::Crypto::Operators::GenericKey::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation)  {
+Org::BouncyCastle::Crypto::Operators::GenericKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::GenericKey>(algorithmIdentifier, representation))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::GenericKey::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier algorithmIdentifier, ::bs_hook::Il2CppWrapperType representation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::GenericKey>::get(),

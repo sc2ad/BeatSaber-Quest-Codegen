@@ -95,26 +95,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_postalAddress() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignerLocation(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::SignerLocation New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0aa28 size 0x3fc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "countryName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "localityName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignerLocation(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress) ;
+static Org::BouncyCastle::Asn1::Esf::SignerLocation New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress) ;
 
 /// @brief Method .ctor addr 0xe0ae24 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress) ;
 
-// Ctor Parameters [CppParam { name: "countryName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "localityName", ty: "Org::BouncyCastle::Asn1::X500::DirectoryString", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString>", modifiers: "", def_value: None }]
-explicit SignerLocation(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> postalAddress) ;
+static Org::BouncyCastle::Asn1::Esf::SignerLocation New_ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> postalAddress) ;
 
 /// @brief Method .ctor addr 0xe0aecc size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X500::DirectoryString countryName, Org::BouncyCastle::Asn1::X500::DirectoryString localityName, ::ArrayW<Org::BouncyCastle::Asn1::X500::DirectoryString> postalAddress) ;
 
-// Ctor Parameters [CppParam { name: "countryName", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }, CppParam { name: "localityName", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }, CppParam { name: "postalAddress", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignerLocation(Org::BouncyCastle::Asn1::DerUtf8String countryName, Org::BouncyCastle::Asn1::DerUtf8String localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress) ;
+static Org::BouncyCastle::Asn1::Esf::SignerLocation New_ctor(Org::BouncyCastle::Asn1::DerUtf8String countryName, Org::BouncyCastle::Asn1::DerUtf8String localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress) ;
 
 /// @brief Method .ctor addr 0xe0af58 size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerUtf8String countryName, Org::BouncyCastle::Asn1::DerUtf8String localityName, Org::BouncyCastle::Asn1::Asn1Sequence postalAddress) ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__RSA_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSACryptoServiceProvider_def.hpp"
-#include "Mono/Security/Cryptography/zzzz__RSAManaged_def.hpp"
-#include "System/Security/Cryptography/zzzz__CspProviderFlags_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSAParameters_def.hpp"
-#include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
+#include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
+#include "Mono/Security/Cryptography/zzzz__RSAManaged_def.hpp"
+#include "System/Security/Cryptography/zzzz__CspProviderFlags_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::RSACryptoServiceProvider.get_UseMachineKeyStore
 template<>
 
@@ -347,8 +347,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvider()  : System::Security::Cryptography::RSA(THROW_UNLESS(::il2cpp_utils::New<RSACryptoServiceProvider>())) {}
+ System::Security::Cryptography::RSACryptoServiceProvider System::Security::Cryptography::RSACryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::RSACryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSACryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::RSACryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSACryptoServiceProvider>::get(),
@@ -358,8 +360,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
- System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvider(System::Security::Cryptography::CspParameters parameters)  : System::Security::Cryptography::RSA(THROW_UNLESS(::il2cpp_utils::New<RSACryptoServiceProvider>(parameters))) {}
+ System::Security::Cryptography::RSACryptoServiceProvider System::Security::Cryptography::RSACryptoServiceProvider::New_ctor(System::Security::Cryptography::CspParameters parameters)  {
+System::Security::Cryptography::RSACryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSACryptoServiceProvider>(parameters))};
+return o;
+}
  void System::Security::Cryptography::RSACryptoServiceProvider::_ctor(System::Security::Cryptography::CspParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSACryptoServiceProvider>::get(),
@@ -369,8 +373,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parameters);
 }
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvider(int32_t dwKeySize)  : System::Security::Cryptography::RSA(THROW_UNLESS(::il2cpp_utils::New<RSACryptoServiceProvider>(dwKeySize))) {}
+ System::Security::Cryptography::RSACryptoServiceProvider System::Security::Cryptography::RSACryptoServiceProvider::New_ctor(int32_t dwKeySize)  {
+System::Security::Cryptography::RSACryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSACryptoServiceProvider>(dwKeySize))};
+return o;
+}
  void System::Security::Cryptography::RSACryptoServiceProvider::_ctor(int32_t dwKeySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSACryptoServiceProvider>::get(),
@@ -380,8 +386,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dwKeySize);
 }
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
- System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvider(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters)  : System::Security::Cryptography::RSA(THROW_UNLESS(::il2cpp_utils::New<RSACryptoServiceProvider>(dwKeySize, parameters))) {}
+ System::Security::Cryptography::RSACryptoServiceProvider System::Security::Cryptography::RSACryptoServiceProvider::New_ctor(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters)  {
+System::Security::Cryptography::RSACryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RSACryptoServiceProvider>(dwKeySize, parameters))};
+return o;
+}
  void System::Security::Cryptography::RSACryptoServiceProvider::_ctor(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RSACryptoServiceProvider>::get(),

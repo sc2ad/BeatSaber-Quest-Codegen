@@ -65,8 +65,7 @@ static Org::BouncyCastle::Asn1::X509::X509Name GetSubjectX509Principal(Org::Boun
 /// @brief Method GetIssuerX509Principal addr 0x10eaf08 size 0x118 virtual false final false
 static Org::BouncyCastle::Asn1::X509::X509Name GetIssuerX509Principal(Org::BouncyCastle::X509::X509Crl crl) ;
 
-// Ctor Parameters []
-explicit PrincipalUtilities() ;
+static Org::BouncyCastle::X509::PrincipalUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10eb020 size 0x8 virtual false final false
  void _ctor() ;

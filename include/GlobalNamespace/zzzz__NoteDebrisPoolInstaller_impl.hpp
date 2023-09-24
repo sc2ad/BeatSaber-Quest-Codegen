@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPoolInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
+#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteDebrisPoolInstaller.InstallBindings
 template<>
 
@@ -88,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteDebrisPoolInstaller::NoteDebrisPoolInstaller()  : Zenject::ScriptableObjectInstaller(THROW_UNLESS(::il2cpp_utils::New<NoteDebrisPoolInstaller>())) {}
+ GlobalNamespace::NoteDebrisPoolInstaller GlobalNamespace::NoteDebrisPoolInstaller::New_ctor()  {
+GlobalNamespace::NoteDebrisPoolInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteDebrisPoolInstaller>())};
+return o;
+}
  void GlobalNamespace::NoteDebrisPoolInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteDebrisPoolInstaller>::get(),

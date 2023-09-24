@@ -10,6 +10,9 @@
 namespace GlobalNamespace {
 class FloatSO;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__FormattedFloatListSettingsValueController__ValueType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__FormattedFloatListSettingsValueController__ValueType;
@@ -67,6 +70,8 @@ __InvertedNormalized = 2,
 constexpr operator __GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__FormattedFloatListSettingsValueController__ValueType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -182,8 +187,7 @@ constexpr float_t __get__max() const;
 /// @brief Method TextForValue addr 0x2152f50 size 0xdc virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit FormattedFloatListSettingsValueController() ;
+static GlobalNamespace::FormattedFloatListSettingsValueController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215302c size 0x5c virtual false final false
  void _ctor() ;

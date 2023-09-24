@@ -137,8 +137,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_ArchiveTimestampV2() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit EsfAttributes() ;
+static Org::BouncyCastle::Asn1::Esf::EsfAttributes New_ctor() ;
 
 /// @brief Method .ctor addr 0xe05304 size 0x8 virtual false final false
  void _ctor() ;

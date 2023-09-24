@@ -4,14 +4,14 @@
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
 }
+namespace GlobalNamespace {
+class BTSCharacter;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockFloatAnimator;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -92,8 +92,7 @@ constexpr UnityEngine::GameObject __get__collidersGameObject() const;
 /// @brief Method StopAnimation addr 0x20a738c size 0x20 virtual false final false
  void StopAnimation() ;
 
-// Ctor Parameters []
-explicit BTSCharacterResultAnimationController() ;
+static GlobalNamespace::BTSCharacterResultAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20a73ac size 0x8 virtual false final false
  void _ctor() ;

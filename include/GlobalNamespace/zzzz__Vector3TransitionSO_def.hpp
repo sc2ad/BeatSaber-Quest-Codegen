@@ -122,8 +122,7 @@ constexpr UnityEngine::Vector3 __get__selectedAndHighlightedState() const;
 /// @brief Method get_selectedAndHighlightedState addr 0x212c2e8 size 0xc virtual false final false
  UnityEngine::Vector3 get_selectedAndHighlightedState() ;
 
-// Ctor Parameters []
-explicit Vector3TransitionSO() ;
+static GlobalNamespace::Vector3TransitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x212c2f4 size 0x8 virtual false final false
  void _ctor() ;

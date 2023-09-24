@@ -86,26 +86,22 @@ constexpr int32_t __get_m_HashCode() const;
 /// @brief Method get_hashCode addr 0x2aacf30 size 0x8 virtual false final false
  int32_t get_hashCode() ;
 
-// Ctor Parameters []
-explicit TMP_SpriteCharacter() ;
+static TMPro::TMP_SpriteCharacter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aaccc8 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
-explicit TMP_SpriteCharacter(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph) ;
+static TMPro::TMP_SpriteCharacter New_ctor(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph) ;
 
 /// @brief Method .ctor addr 0x2aacf40 size 0x54 virtual false final false
  void _ctor(uint32_t unicode, TMPro::TMP_SpriteGlyph glyph) ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty: "TMPro::TMP_SpriteAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "TMPro::TMP_SpriteGlyph", modifiers: "", def_value: None }]
-explicit TMP_SpriteCharacter(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph) ;
+static TMPro::TMP_SpriteCharacter New_ctor(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph) ;
 
 /// @brief Method .ctor addr 0x2aacf94 size 0x60 virtual false final false
  void _ctor(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, TMPro::TMP_SpriteGlyph glyph) ;
 
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit TMP_SpriteCharacter(uint32_t unicode, uint32_t glyphIndex) ;
+static TMPro::TMP_SpriteCharacter New_ctor(uint32_t unicode, uint32_t glyphIndex) ;
 
 /// @brief Method .ctor addr 0x2aacff4 size 0x40 virtual false final false
  void _ctor(uint32_t unicode, uint32_t glyphIndex) ;

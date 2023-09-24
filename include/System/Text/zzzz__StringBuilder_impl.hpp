@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__ParamsArray_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 //  Writing Method size for method: System::Text::StringBuilder._ctor
 template<>
 
@@ -1180,8 +1180,10 @@ constexpr void System::Text::StringBuilder::__set_m_MaxCapacity(int32_t value)  
 constexpr int32_t System::Text::StringBuilder::__get_m_MaxCapacity() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::StringBuilder::StringBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>())) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor()  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>())};
+return o;
+}
  void System::Text::StringBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1191,8 +1193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(capacity))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(int32_t capacity)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(capacity))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1202,8 +1206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(::StringW value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(value))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(::StringW value)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(value))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1213,8 +1219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(::StringW value, int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(value, capacity))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(::StringW value, int32_t capacity)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(value, capacity))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(::StringW value, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1224,8 +1232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, capacity);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(::StringW value, int32_t startIndex, int32_t length, int32_t capacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(value, startIndex, length, capacity))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(::StringW value, int32_t startIndex, int32_t length, int32_t capacity)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(value, startIndex, length, capacity))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(::StringW value, int32_t startIndex, int32_t length, int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1235,8 +1245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, startIndex, length, capacity);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(int32_t capacity, int32_t maxCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(capacity, maxCapacity))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(int32_t capacity, int32_t maxCapacity)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(capacity, maxCapacity))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(int32_t capacity, int32_t maxCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1246,8 +1258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity, maxCapacity);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(info, context))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(info, context))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1775,8 +1789,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, minBlockCharCount);
 }
-// Ctor Parameters [CppParam { name: "from", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(System::Text::StringBuilder from)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(from))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(System::Text::StringBuilder from)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(from))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(System::Text::StringBuilder from)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),
@@ -1795,8 +1811,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, index, count, chunk, indexInChunk, doNotMoveFollowingChars);
 }
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "previousBlock", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }]
- System::Text::StringBuilder::StringBuilder(int32_t size, int32_t maxCapacity, System::Text::StringBuilder previousBlock)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StringBuilder>(size, maxCapacity, previousBlock))) {}
+ System::Text::StringBuilder System::Text::StringBuilder::New_ctor(int32_t size, int32_t maxCapacity, System::Text::StringBuilder previousBlock)  {
+System::Text::StringBuilder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::StringBuilder>(size, maxCapacity, previousBlock))};
+return o;
+}
  void System::Text::StringBuilder::_ctor(int32_t size, int32_t maxCapacity, System::Text::StringBuilder previousBlock)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::StringBuilder>::get(),

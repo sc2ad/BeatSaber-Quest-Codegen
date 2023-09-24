@@ -9,34 +9,46 @@ namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace UnityEngine::ProBuilder {
-struct Triangle;
-}
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct Vector4;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine {
-struct Vector4;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__MeshValidation____c__DisplayClass10_0;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__MeshValidation____c__DisplayClass5_0;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+struct UnityEngine__ProBuilder__MeshOperations__MeshValidation__AttributeValidationStrategy;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__MeshValidation____c;
+}
+namespace UnityEngine::ProBuilder {
+struct Triangle;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -107,6 +119,8 @@ __Nullify = 1,
 constexpr operator __UnityEngine__ProBuilder__MeshOperations__MeshValidation__AttributeValidationStrategy_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ProBuilder__MeshOperations__MeshValidation__AttributeValidationStrategy_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -196,8 +210,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__MeshValidation____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshValidation____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a27ddc size 0x8 virtual false final false
  void _ctor() ;
@@ -272,8 +285,7 @@ constexpr System::Func_2<UnityEngine::ProBuilder::Triangle,bool> __get___9__0() 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__MeshValidation____c__DisplayClass5_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshValidation____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a260d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -336,8 +348,7 @@ constexpr UnityEngine::ProBuilder::ProBuilderMesh __get_mesh() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__MeshValidation____c__DisplayClass10_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshValidation____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a274bc size 0x8 virtual false final false
  void _ctor() ;

@@ -3,18 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
+namespace TMPro {
+struct FloatTween;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace TMPro {
-struct FloatTween;
+template<typename T>
+class TMPro__TweenRunner_1___Start_d__2;
 }
 namespace UnityEngine {
 class MonoBehaviour;
@@ -125,8 +129,7 @@ constexpr float_t __get__elapsedTime_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TMPro__TweenRunner_1___Start_d__2(int32_t __1__state) ;
+static TMPro::TMPro__TweenRunner_1___Start_d__2<TMPro::FloatTween> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -223,8 +226,7 @@ static System::Collections::IEnumerator Start(TMPro::FloatTween tweenInfo) ;
 /// @brief Method StopTween addr 0x0 size 0xffffffffffffffff virtual false final false
  void StopTween() ;
 
-// Ctor Parameters []
-explicit TweenRunner_1() ;
+static TMPro::TweenRunner_1<TMPro::FloatTween> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

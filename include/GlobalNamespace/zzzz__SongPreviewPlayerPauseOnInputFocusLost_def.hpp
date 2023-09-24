@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class AudioPlayerBase;
+class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class AudioPlayerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 /// @brief Method HandleInputFocusReleased addr 0x20bf080 size 0x44 virtual false final false
  void HandleInputFocusReleased() ;
 
-// Ctor Parameters []
-explicit SongPreviewPlayerPauseOnInputFocusLost() ;
+static GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bf0c4 size 0x8 virtual false final false
  void _ctor() ;

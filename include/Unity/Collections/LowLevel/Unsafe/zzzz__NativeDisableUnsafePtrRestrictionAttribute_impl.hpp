@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute::NativeDisableUnsafePtrRestrictionAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeDisableUnsafePtrRestrictionAttribute>())) {}
+ Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute::New_ctor()  {
+Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute o{THROW_UNLESS(::il2cpp_utils::New<Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute>())};
+return o;
+}
  void Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute>::get(),

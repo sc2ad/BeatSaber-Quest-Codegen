@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockNodePoseSyncStateSender_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockNodePoseSyncStateSender._ctor
@@ -83,8 +83,10 @@ constexpr void GlobalNamespace::MockNodePoseSyncStateSender::__set__multiplayerS
 constexpr GlobalNamespace::IMultiplayerSessionManager GlobalNamespace::MockNodePoseSyncStateSender::__get__multiplayerSessionManager() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IMultiplayerSessionManager, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "msm", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
- GlobalNamespace::MockNodePoseSyncStateSender::MockNodePoseSyncStateSender(GlobalNamespace::IMultiplayerSessionManager msm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockNodePoseSyncStateSender>(msm))) {}
+ GlobalNamespace::MockNodePoseSyncStateSender GlobalNamespace::MockNodePoseSyncStateSender::New_ctor(GlobalNamespace::IMultiplayerSessionManager msm)  {
+GlobalNamespace::MockNodePoseSyncStateSender o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockNodePoseSyncStateSender>(msm))};
+return o;
+}
  void GlobalNamespace::MockNodePoseSyncStateSender::_ctor(GlobalNamespace::IMultiplayerSessionManager msm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockNodePoseSyncStateSender>::get(),

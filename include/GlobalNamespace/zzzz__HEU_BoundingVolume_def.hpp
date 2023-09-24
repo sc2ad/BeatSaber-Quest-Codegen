@@ -4,12 +4,12 @@
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class Collider;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+class Collider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,8 +68,7 @@ constexpr explicit HEU_BoundingVolume(void* ptr) noexcept : UnityEngine::MonoBeh
 /// @brief Method GetAllIntersectingObjects addr 0x1fd7430 size 0x2b4 virtual false final false
  System::Collections::Generic::List_1<UnityEngine::GameObject> GetAllIntersectingObjects() ;
 
-// Ctor Parameters []
-explicit HEU_BoundingVolume() ;
+static GlobalNamespace::HEU_BoundingVolume New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd76e4 size 0x8 virtual false final false
  void _ctor() ;

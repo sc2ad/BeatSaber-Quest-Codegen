@@ -3,11 +3,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlAtomicValue_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlAtomicValue_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "boolVal", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "i64Val", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "i32Val", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dtVal", ty: "System::DateTime", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__Union::System__Xml__Schema__XmlAtomicValue__Union(bool boolVal, double_t dblVal, int64_t i64Val, int32_t i32Val, System::DateTime dtVal) noexcept : ::bs_hook::ValueTypeWrapper() {this->boolVal = boolVal;
 this->dblVal = dblVal;
@@ -112,8 +113,10 @@ constexpr void System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__Namespa
 constexpr ::StringW System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName::__get_ns() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName(::StringW prefix, ::StringW ns)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName>(prefix, ns))) {}
+ System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName::New_ctor(::StringW prefix, ::StringW ns)  {
+System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName>(prefix, ns))};
+return o;
+}
  void System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName::_ctor(::StringW prefix, ::StringW ns)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName>::get(),
@@ -549,8 +552,10 @@ constexpr void System::Xml::Schema::XmlAtomicValue::__set_nsPrefix(System::Xml::
 constexpr System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName System::Xml::Schema::XmlAtomicValue::__get_nsPrefix() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::System__Xml__Schema__XmlAtomicValue__NamespacePrefixForQName, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, bool value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, bool value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, bool value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -560,8 +565,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "System::DateTime", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, System::DateTime value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, System::DateTime value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, System::DateTime value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -571,8 +578,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "double_t", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, double_t value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, double_t value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, double_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -582,8 +591,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, int32_t value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, int32_t value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -593,8 +604,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, int64_t value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, int64_t value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, int64_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -604,8 +617,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -615,8 +630,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nsResolver", ty: "System::Xml::IXmlNamespaceResolver", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value, System::Xml::IXmlNamespaceResolver nsResolver)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value, nsResolver))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value, System::Xml::IXmlNamespaceResolver nsResolver)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value, nsResolver))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::StringW value, System::Xml::IXmlNamespaceResolver nsResolver)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -626,8 +643,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value, nsResolver);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),
@@ -637,8 +656,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, xmlType, value);
 }
-// Ctor Parameters [CppParam { name: "xmlType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "nsResolver", ty: "System::Xml::IXmlNamespaceResolver", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlAtomicValue::XmlAtomicValue(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver)  : System::Xml::XPath::XPathItem(THROW_UNLESS(::il2cpp_utils::New<XmlAtomicValue>(xmlType, value, nsResolver))) {}
+ System::Xml::Schema::XmlAtomicValue System::Xml::Schema::XmlAtomicValue::New_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver)  {
+System::Xml::Schema::XmlAtomicValue o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlAtomicValue>(xmlType, value, nsResolver))};
+return o;
+}
  void System::Xml::Schema::XmlAtomicValue::_ctor(System::Xml::Schema::XmlSchemaType xmlType, ::bs_hook::Il2CppWrapperType value, System::Xml::IXmlNamespaceResolver nsResolver)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlAtomicValue>::get(),

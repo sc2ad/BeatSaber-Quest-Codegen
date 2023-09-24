@@ -4,6 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+struct Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+class Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -76,6 +88,8 @@ __Ed25519ph = 2,
 constexpr operator __Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -174,8 +188,7 @@ constexpr ::ArrayW<int32_t> __get_v() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointAccum New_ctor() ;
 
 /// @brief Method .ctor addr 0xfb7eb8 size 0x94 virtual false final false
  void _ctor() ;
@@ -253,8 +266,7 @@ constexpr ::ArrayW<int32_t> __get_t() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointExt New_ctor() ;
 
 /// @brief Method .ctor addr 0xfb7f4c size 0x88 virtual false final false
  void _ctor() ;
@@ -326,8 +338,7 @@ constexpr ::ArrayW<int32_t> __get_xyd() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__PointPrecomp New_ctor() ;
 
 /// @brief Method .ctor addr 0xfb7fd4 size 0x7c virtual false final false
  void _ctor() ;
@@ -695,8 +706,7 @@ static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_
 /// @brief Method VerifyPrehash addr 0xfb7a34 size 0x1d4 virtual false final false
 static bool VerifyPrehash(::ArrayW<uint8_t> sig, int32_t sigOff, ::ArrayW<uint8_t> pk, int32_t pkOff, ::ArrayW<uint8_t> ctx, Org::BouncyCastle::Crypto::IDigest ph) ;
 
-// Ctor Parameters []
-explicit Ed25519() ;
+static Org::BouncyCastle::Math::EC::Rfc8032::Ed25519 New_ctor() ;
 
 /// @brief Method .ctor addr 0xfb7eb0 size 0x8 virtual false final false
  void _ctor() ;

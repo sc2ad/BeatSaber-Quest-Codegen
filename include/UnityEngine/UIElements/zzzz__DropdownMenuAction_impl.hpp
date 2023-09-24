@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
-#include "UnityEngine/UIElements/zzzz__DropdownMenuEventInfo_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DropdownMenuEventInfo_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status::UnityEngine__UIElements__DropdownMenuAction__Status(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -167,8 +168,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "actionName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "actionCallback", ty: "System::Action_1<UnityEngine::UIElements::DropdownMenuAction>", modifiers: "", def_value: None }, CppParam { name: "actionStatusCallback", ty: "System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status>", modifiers: "", def_value: None }, CppParam { name: "userData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::UIElements::DropdownMenuAction::DropdownMenuAction(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData)  : UnityEngine::UIElements::DropdownMenuItem(THROW_UNLESS(::il2cpp_utils::New<DropdownMenuAction>(actionName, actionCallback, actionStatusCallback, userData))) {}
+/// @param userData: ::bs_hook::Il2CppWrapperType (default: csnull)
+ UnityEngine::UIElements::DropdownMenuAction UnityEngine::UIElements::DropdownMenuAction::New_ctor(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData)  {
+UnityEngine::UIElements::DropdownMenuAction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DropdownMenuAction>(actionName, actionCallback, actionStatusCallback, userData))};
+return o;
+}
 /// @param userData: ::bs_hook::Il2CppWrapperType (default: csnull)
  void UnityEngine::UIElements::DropdownMenuAction::_ctor(::StringW actionName, System::Action_1<UnityEngine::UIElements::DropdownMenuAction> actionCallback, System::Func_2<UnityEngine::UIElements::DropdownMenuAction,UnityEngine::UIElements::UnityEngine__UIElements__DropdownMenuAction__Status> actionStatusCallback, ::bs_hook::Il2CppWrapperType userData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -76,8 +76,7 @@ constexpr ::ArrayW<::ArrayW<::ArrayW<uint32_t>>> __get_M() const;
 /// @brief Method MultiplyH addr 0xe88034 size 0x150 virtual true final true
  void MultiplyH(::ArrayW<uint8_t> x) ;
 
-// Ctor Parameters []
-explicit Tables64kGcmMultiplier() ;
+static Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xe88184 size 0x8 virtual false final false
  void _ctor() ;

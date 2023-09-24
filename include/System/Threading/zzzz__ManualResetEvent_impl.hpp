@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::ManualResetEvent::ManualResetEvent(bool initialState)  : System::Threading::EventWaitHandle(THROW_UNLESS(::il2cpp_utils::New<ManualResetEvent>(initialState))) {}
+ System::Threading::ManualResetEvent System::Threading::ManualResetEvent::New_ctor(bool initialState)  {
+System::Threading::ManualResetEvent o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ManualResetEvent>(initialState))};
+return o;
+}
  void System::Threading::ManualResetEvent::_ctor(bool initialState)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ManualResetEvent>::get(),

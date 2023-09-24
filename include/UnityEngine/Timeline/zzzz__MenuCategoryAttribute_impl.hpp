@@ -24,8 +24,10 @@ constexpr void UnityEngine::Timeline::MenuCategoryAttribute::__set_category(::St
 constexpr ::StringW UnityEngine::Timeline::MenuCategoryAttribute::__get_category() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "category", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Timeline::MenuCategoryAttribute::MenuCategoryAttribute(::StringW category)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<MenuCategoryAttribute>(category))) {}
+ UnityEngine::Timeline::MenuCategoryAttribute UnityEngine::Timeline::MenuCategoryAttribute::New_ctor(::StringW category)  {
+UnityEngine::Timeline::MenuCategoryAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::MenuCategoryAttribute>(category))};
+return o;
+}
  void UnityEngine::Timeline::MenuCategoryAttribute::_ctor(::StringW category)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::MenuCategoryAttribute>::get(),

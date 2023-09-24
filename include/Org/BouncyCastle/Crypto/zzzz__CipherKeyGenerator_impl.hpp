@@ -145,8 +145,10 @@ constexpr void Org::BouncyCastle::Crypto::CipherKeyGenerator::__set_defaultStren
 constexpr int32_t Org::BouncyCastle::Crypto::CipherKeyGenerator::__get_defaultStrength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::CipherKeyGenerator::CipherKeyGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CipherKeyGenerator>())) {}
+ Org::BouncyCastle::Crypto::CipherKeyGenerator Org::BouncyCastle::Crypto::CipherKeyGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::CipherKeyGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::CipherKeyGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::CipherKeyGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::CipherKeyGenerator>::get(),
@@ -156,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "defaultStrength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::CipherKeyGenerator::CipherKeyGenerator(int32_t defaultStrength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CipherKeyGenerator>(defaultStrength))) {}
+ Org::BouncyCastle::Crypto::CipherKeyGenerator Org::BouncyCastle::Crypto::CipherKeyGenerator::New_ctor(int32_t defaultStrength)  {
+Org::BouncyCastle::Crypto::CipherKeyGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::CipherKeyGenerator>(defaultStrength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::CipherKeyGenerator::_ctor(int32_t defaultStrength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::CipherKeyGenerator>::get(),

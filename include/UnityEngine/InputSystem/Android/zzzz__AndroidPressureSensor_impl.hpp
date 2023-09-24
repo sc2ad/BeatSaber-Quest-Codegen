@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::AndroidPressureSensor::AndroidPressureSensor()  : UnityEngine::InputSystem::PressureSensor(THROW_UNLESS(::il2cpp_utils::New<AndroidPressureSensor>())) {}
+ UnityEngine::InputSystem::Android::AndroidPressureSensor UnityEngine::InputSystem::Android::AndroidPressureSensor::New_ctor()  {
+UnityEngine::InputSystem::Android::AndroidPressureSensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::AndroidPressureSensor>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::AndroidPressureSensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::AndroidPressureSensor>::get(),

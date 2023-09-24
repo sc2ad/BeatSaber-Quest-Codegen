@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__BadImageFormatException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::BadImageFormatException._ctor
 template<>
 
@@ -169,8 +169,10 @@ constexpr void System::BadImageFormatException::__set__fusionLog(::StringW value
 constexpr ::StringW System::BadImageFormatException::__get__fusionLog() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::BadImageFormatException::BadImageFormatException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<BadImageFormatException>())) {}
+ System::BadImageFormatException System::BadImageFormatException::New_ctor()  {
+System::BadImageFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::BadImageFormatException>())};
+return o;
+}
  void System::BadImageFormatException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::BadImageFormatException>::get(),
@@ -180,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::BadImageFormatException::BadImageFormatException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<BadImageFormatException>(message))) {}
+ System::BadImageFormatException System::BadImageFormatException::New_ctor(::StringW message)  {
+System::BadImageFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::BadImageFormatException>(message))};
+return o;
+}
  void System::BadImageFormatException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::BadImageFormatException>::get(),
@@ -191,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- System::BadImageFormatException::BadImageFormatException(::StringW message, System::Exception inner)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<BadImageFormatException>(message, inner))) {}
+ System::BadImageFormatException System::BadImageFormatException::New_ctor(::StringW message, System::Exception inner)  {
+System::BadImageFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::BadImageFormatException>(message, inner))};
+return o;
+}
  void System::BadImageFormatException::_ctor(::StringW message, System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::BadImageFormatException>::get(),
@@ -202,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, inner);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }]
- System::BadImageFormatException::BadImageFormatException(::StringW message, ::StringW fileName)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<BadImageFormatException>(message, fileName))) {}
+ System::BadImageFormatException System::BadImageFormatException::New_ctor(::StringW message, ::StringW fileName)  {
+System::BadImageFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::BadImageFormatException>(message, fileName))};
+return o;
+}
  void System::BadImageFormatException::_ctor(::StringW message, ::StringW fileName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::BadImageFormatException>::get(),
@@ -213,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, fileName);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::BadImageFormatException::BadImageFormatException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<BadImageFormatException>(info, context))) {}
+ System::BadImageFormatException System::BadImageFormatException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::BadImageFormatException o{THROW_UNLESS(::il2cpp_utils::New<System::BadImageFormatException>(info, context))};
+return o;
+}
  void System::BadImageFormatException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::BadImageFormatException>::get(),

@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__AbTestExperimentDefinitionSO_def.hpp"
+#include "GlobalNamespace/zzzz__AbTestExperimentDefinitionSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group::GlobalNamespace__AbTestExperimentDefinitionSO__Group(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -275,8 +276,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__AbTestExperimentDefinitionSO__Group, false>(const_cast<void*>(instance), ___internal_method, userId);
 }
-// Ctor Parameters []
- GlobalNamespace::AbTestExperimentDefinitionSO::AbTestExperimentDefinitionSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<AbTestExperimentDefinitionSO>())) {}
+ GlobalNamespace::AbTestExperimentDefinitionSO GlobalNamespace::AbTestExperimentDefinitionSO::New_ctor()  {
+GlobalNamespace::AbTestExperimentDefinitionSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AbTestExperimentDefinitionSO>())};
+return o;
+}
  void GlobalNamespace::AbTestExperimentDefinitionSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AbTestExperimentDefinitionSO>::get(),

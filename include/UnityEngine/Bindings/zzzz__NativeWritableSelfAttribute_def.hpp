@@ -64,8 +64,7 @@ constexpr bool __get__WritableSelf_k__BackingField() const;
 /// @brief Method set_WritableSelf addr 0x2ba12c8 size 0xc virtual true final true
  void set_WritableSelf(bool value) ;
 
-// Ctor Parameters []
-explicit NativeWritableSelfAttribute() ;
+static UnityEngine::Bindings::NativeWritableSelfAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba12d4 size 0x20 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit WriteAccessRequiredAttribute(void* ptr) noexcept : System::At
 
 // Methods
 
-// Ctor Parameters []
-explicit WriteAccessRequiredAttribute() ;
+static Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b28ae0 size 0x8 virtual false final false
  void _ctor() ;

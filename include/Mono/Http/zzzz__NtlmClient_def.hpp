@@ -5,28 +5,31 @@
 namespace Mono::Http {
 class NtlmSession;
 }
+namespace System::Net {
+class HttpWebRequest;
+}
 namespace System::Runtime::CompilerServices {
 template<typename TKey,typename TValue>
 class System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback;
 }
 namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Net {
-class IAuthenticationModule;
-}
-namespace System::Net {
 class WebRequest;
+}
+namespace System::Net {
+class Authorization;
+}
+namespace Mono::Http {
+class Mono__Http__NtlmClient____c;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TKey,typename TValue>
 class ConditionalWeakTable_2;
 }
 namespace System::Net {
-class Authorization;
+class ICredentials;
 }
 namespace System::Net {
-class ICredentials;
+class IAuthenticationModule;
 }
 // Forward declare root types
 namespace Mono::Http {
@@ -92,8 +95,7 @@ static System::Runtime::CompilerServices::System__Runtime__CompilerServices__Con
 
 // Methods
 
-// Ctor Parameters []
-explicit Mono__Http__NtlmClient____c() ;
+static Mono::Http::Mono__Http__NtlmClient____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2694ed4 size 0x8 virtual false final false
  void _ctor() ;
@@ -175,8 +177,7 @@ static System::Runtime::CompilerServices::ConditionalWeakTable_2<System::Net::Ht
 /// @brief Method get_AuthenticationType addr 0x2694d9c size 0x40 virtual true final true
  ::StringW get_AuthenticationType() ;
 
-// Ctor Parameters []
-explicit NtlmClient() ;
+static Mono::Http::NtlmClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x2694ddc size 0x8 virtual false final false
  void _ctor() ;

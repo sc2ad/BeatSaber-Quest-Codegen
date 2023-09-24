@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Runtime::InteropServices {
+struct GCHandle;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace System::Runtime::InteropServices {
-struct GCHandle;
 }
 // Forward declare root types
 namespace System {
@@ -70,8 +70,7 @@ constexpr System::Runtime::InteropServices::GCHandle __get__weakTargetObj() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit Gen2GcCallback() ;
+static System::Gen2GcCallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x24294d0 size 0x8 virtual false final false
  void _ctor() ;

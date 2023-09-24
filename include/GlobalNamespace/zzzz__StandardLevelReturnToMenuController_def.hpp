@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class IReturnToMenuController;
-}
-namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class IReturnToMenuController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::PrepareLevelCompletionResults __get__prepareLevelComp
 /// @brief Method ReturnToMenu addr 0x20d59a8 size 0x40 virtual true final true
  void ReturnToMenu() ;
 
-// Ctor Parameters []
-explicit StandardLevelReturnToMenuController() ;
+static GlobalNamespace::StandardLevelReturnToMenuController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d59e8 size 0x8 virtual false final false
  void _ctor() ;

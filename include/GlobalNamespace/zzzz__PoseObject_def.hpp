@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace GlobalNamespace {
-class PoseObjectIdSO;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class PoseObjectIdSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr GlobalNamespace::PoseObjectIdSO __get__poseObjectId() const;
 /// @brief Method get_id addr 0x21a64bc size 0x1c virtual false final false
  ::StringW get_id() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "poseObjectId", ty: "GlobalNamespace::PoseObjectIdSO", modifiers: "", def_value: None }]
-explicit PoseObject(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId) ;
+static GlobalNamespace::PoseObject New_ctor(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId) ;
 
 /// @brief Method .ctor addr 0x21a4638 size 0x2c virtual false final false
  void _ctor(UnityEngine::Transform transform, GlobalNamespace::PoseObjectIdSO poseObjectId) ;

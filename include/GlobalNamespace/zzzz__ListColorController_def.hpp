@@ -91,8 +91,7 @@ constexpr int32_t __get__numberOfElements() const;
 /// @brief Method DecButtonPressed addr 0x21265fc size 0x38 virtual true final false
  void DecButtonPressed() ;
 
-// Ctor Parameters []
-explicit ListColorController() ;
+static GlobalNamespace::ListColorController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2126634 size 0x8 virtual false final false
  void _ctor() ;

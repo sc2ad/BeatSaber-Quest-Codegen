@@ -120,8 +120,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::ChaCha7539Engine()  : Org::BouncyCastle::Crypto::Engines::Salsa20Engine(THROW_UNLESS(::il2cpp_utils::New<ChaCha7539Engine>())) {}
+ Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine>::get(),

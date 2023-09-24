@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Security/zzzz__SslServerAuthenticationOptions_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: System::Net::Security::SslServerAuthenticationOptions.get_ClientCertificateRequired
 template<>
 
@@ -265,8 +265,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Net::Security::SslServerAuthenticationOptions::SslServerAuthenticationOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SslServerAuthenticationOptions>())) {}
+ System::Net::Security::SslServerAuthenticationOptions System::Net::Security::SslServerAuthenticationOptions::New_ctor()  {
+System::Net::Security::SslServerAuthenticationOptions o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::SslServerAuthenticationOptions>())};
+return o;
+}
  void System::Net::Security::SslServerAuthenticationOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::SslServerAuthenticationOptions>::get(),

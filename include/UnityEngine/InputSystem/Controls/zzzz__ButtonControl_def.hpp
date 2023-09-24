@@ -86,8 +86,7 @@ static constexpr float_t  kMinButtonPressPoint{0.0001};
 /// @brief Method get_pressPointOrDefault addr 0x29775f0 size 0x58 virtual false final false
  float_t get_pressPointOrDefault() ;
 
-// Ctor Parameters []
-explicit ButtonControl() ;
+static UnityEngine::InputSystem::Controls::ButtonControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977088 size 0x88 virtual false final false
  void _ctor() ;

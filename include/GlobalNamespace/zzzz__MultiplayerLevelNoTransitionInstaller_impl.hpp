@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLevelNoTransitionInstaller::MultiplayerLevelNoTransitionInstaller()  : Zenject::NoTransitionInstaller(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelNoTransitionInstaller>())) {}
+ GlobalNamespace::MultiplayerLevelNoTransitionInstaller GlobalNamespace::MultiplayerLevelNoTransitionInstaller::New_ctor()  {
+GlobalNamespace::MultiplayerLevelNoTransitionInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelNoTransitionInstaller>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelNoTransitionInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelNoTransitionInstaller>::get(),

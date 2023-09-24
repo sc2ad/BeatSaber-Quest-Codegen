@@ -7,6 +7,9 @@
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream;
@@ -65,8 +68,7 @@ constexpr Org::BouncyCastle::Crypto::ISigner __get_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(Org::BouncyCastle::Crypto::ISigner s) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream New_ctor(Org::BouncyCastle::Crypto::ISigner s) ;
 
 /// @brief Method .ctor addr 0xf09900 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISigner s) ;
@@ -128,8 +130,7 @@ constexpr explicit SignerInputBuffer(void* ptr) noexcept : System::IO::MemoryStr
 /// @brief Method UpdateSigner addr 0xf09888 size 0x78 virtual false final false
  void UpdateSigner(Org::BouncyCastle::Crypto::ISigner s) ;
 
-// Ctor Parameters []
-explicit SignerInputBuffer() ;
+static Org::BouncyCastle::Crypto::Tls::SignerInputBuffer New_ctor() ;
 
 /// @brief Method .ctor addr 0xf09928 size 0x8 virtual false final false
  void _ctor() ;

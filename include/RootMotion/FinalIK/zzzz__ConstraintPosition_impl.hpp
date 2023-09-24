@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::ConstraintPosition::ConstraintPosition()  : RootMotion::FinalIK::Constraint(THROW_UNLESS(::il2cpp_utils::New<ConstraintPosition>())) {}
+ RootMotion::FinalIK::ConstraintPosition RootMotion::FinalIK::ConstraintPosition::New_ctor()  {
+RootMotion::FinalIK::ConstraintPosition o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ConstraintPosition>())};
+return o;
+}
  void RootMotion::FinalIK::ConstraintPosition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ConstraintPosition>::get(),
@@ -80,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::ConstraintPosition::ConstraintPosition(UnityEngine::Transform transform)  : RootMotion::FinalIK::Constraint(THROW_UNLESS(::il2cpp_utils::New<ConstraintPosition>(transform))) {}
+ RootMotion::FinalIK::ConstraintPosition RootMotion::FinalIK::ConstraintPosition::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::ConstraintPosition o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ConstraintPosition>(transform))};
+return o;
+}
  void RootMotion::FinalIK::ConstraintPosition::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ConstraintPosition>::get(),

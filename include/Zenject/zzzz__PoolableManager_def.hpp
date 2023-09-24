@@ -4,30 +4,42 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Zenject {
+class Zenject__PoolableManager____c__DisplayClass3_0;
+}
 namespace ModestTree::Util {
 template<typename T1,typename T2>
 class ValuePair_2;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class IPoolable;
+class Zenject__PoolableManager____c__DisplayClass2_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+class Zenject__PoolableManager____c;
+}
 namespace System {
 class Type;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+struct Zenject__PoolableManager__PoolableInfo;
+}
+namespace Zenject {
+class IPoolable;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -167,8 +179,7 @@ constexpr System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<Sys
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PoolableManager____c__DisplayClass2_0() ;
+static Zenject::Zenject__PoolableManager____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9dbec size 0x8 virtual false final false
  void _ctor() ;
@@ -255,8 +266,7 @@ static System::Func_2<ModestTree::Util::ValuePair_2<System::Type,int32_t>,System
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PoolableManager____c() ;
+static Zenject::Zenject__PoolableManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9e704 size 0x8 virtual false final false
  void _ctor() ;
@@ -331,8 +341,7 @@ constexpr Zenject::IPoolable __get_poolable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__PoolableManager____c__DisplayClass3_0() ;
+static Zenject::Zenject__PoolableManager____c__DisplayClass3_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9de0c size 0x8 virtual false final false
  void _ctor() ;
@@ -415,8 +424,7 @@ constexpr bool __get__isSpawned() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "poolables", ty: "System::Collections::Generic::List_1<Zenject::IPoolable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
-explicit PoolableManager(System::Collections::Generic::List_1<Zenject::IPoolable> poolables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;
+static Zenject::PoolableManager New_ctor(System::Collections::Generic::List_1<Zenject::IPoolable> poolables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;
 
 /// @brief Method .ctor addr 0x2d9d948 size 0x2a4 virtual false final false
  void _ctor(System::Collections::Generic::List_1<Zenject::IPoolable> poolables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;

@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HMUI::ScreenModeData, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::ScreenModeSO::ScreenModeSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ScreenModeSO>())) {}
+ HMUI::ScreenModeSO HMUI::ScreenModeSO::New_ctor()  {
+HMUI::ScreenModeSO o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ScreenModeSO>())};
+return o;
+}
  void HMUI::ScreenModeSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ScreenModeSO>::get(),

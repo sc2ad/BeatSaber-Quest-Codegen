@@ -206,8 +206,10 @@ constexpr void System::Net::Http::HttpMethod::__set_method(::StringW value)  {
 constexpr ::StringW System::Net::Http::HttpMethod::__get_method() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::HttpMethod::HttpMethod(::StringW method)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpMethod>(method))) {}
+ System::Net::Http::HttpMethod System::Net::Http::HttpMethod::New_ctor(::StringW method)  {
+System::Net::Http::HttpMethod o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpMethod>(method))};
+return o;
+}
  void System::Net::Http::HttpMethod::_ctor(::StringW method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpMethod>::get(),

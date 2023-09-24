@@ -71,8 +71,7 @@ constexpr TMPro::TextMeshProUGUI __get__text() const;
 /// @brief Method Start addr 0x215819c size 0x78 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit CrashInfoViewController() ;
+static GlobalNamespace::CrashInfoViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2158214 size 0x8 virtual false final false
  void _ctor() ;

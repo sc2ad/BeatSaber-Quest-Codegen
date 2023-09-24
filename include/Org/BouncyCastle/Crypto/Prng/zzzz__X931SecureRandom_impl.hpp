@@ -123,8 +123,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__set_mDrbg(Or
 constexpr Org::BouncyCastle::Crypto::Prng::X931Rng Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mDrbg() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Prng::X931Rng, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "randomSource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "drbg", ty: "Org::BouncyCastle::Crypto::Prng::X931Rng", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::X931SecureRandom::X931SecureRandom(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::Prng::X931Rng drbg, bool predictionResistant)  : Org::BouncyCastle::Security::SecureRandom(THROW_UNLESS(::il2cpp_utils::New<X931SecureRandom>(randomSource, drbg, predictionResistant))) {}
+ Org::BouncyCastle::Crypto::Prng::X931SecureRandom Org::BouncyCastle::Crypto::Prng::X931SecureRandom::New_ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::Prng::X931Rng drbg, bool predictionResistant)  {
+Org::BouncyCastle::Crypto::Prng::X931SecureRandom o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::X931SecureRandom>(randomSource, drbg, predictionResistant))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::_ctor(Org::BouncyCastle::Security::SecureRandom randomSource, Org::BouncyCastle::Crypto::Prng::X931Rng drbg, bool predictionResistant)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::X931SecureRandom>::get(),

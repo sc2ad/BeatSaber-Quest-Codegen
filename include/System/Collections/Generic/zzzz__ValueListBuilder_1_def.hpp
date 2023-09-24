@@ -1,5 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -21,17 +22,17 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct ValueListBuilder_1<T>;
 }
 namespace System::Collections::Generic {
-template<>
-struct ValueListBuilder_1<int32_t>;
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+struct ValueListBuilder_1<T>;
 }
 // Type: System.Collections.Generic::ValueListBuilder`1
 // Type: System.Collections.Generic::ValueListBuilder`1
 namespace System::Collections::Generic {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3829)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 2 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8381)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8381), inst: 92 })
 // CS Name: System.Collections.Generic.ValueListBuilder`1
 struct CORDL_TYPE ValueListBuilder_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
@@ -93,6 +94,8 @@ constexpr int32_t __get__pos() const;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
+ T __declspec(property(get=get_Item))  Item;
+
 
 // Methods
 
@@ -101,6 +104,9 @@ constexpr int32_t __get__pos() const;
 
 /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Length() ;
+
+/// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+ ByRef<T> get_Item(int32_t index) ;
 
 /// @brief Method Append addr 0x0 size 0xffffffffffffffff virtual false final false
  void Append(T item) ;
@@ -114,6 +120,9 @@ constexpr int32_t __get__pos() const;
 /// @brief Method Grow addr 0x0 size 0xffffffffffffffff virtual false final false
  void Grow() ;
 
+/// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
+ T Pop() ;
+
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -121,16 +130,16 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: System.Collections.Generic::ValueListBuilder`1
 namespace System::Collections::Generic {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3829)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 92 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8381)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8381), inst: 2 })
 // CS Name: System.Collections.Generic.ValueListBuilder`1
-struct CORDL_TYPE ValueListBuilder_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE ValueListBuilder_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_span", ty: "System::Span_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ValueListBuilder_1(System::Span_1<int32_t> _span, ::ArrayW<int32_t> _arrayFromPool, int32_t _pos) noexcept;
+// Ctor Parameters [CppParam { name: "_span", ty: "System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ValueListBuilder_1(System::Span_1<T> _span, ::ArrayW<T> _arrayFromPool, int32_t _pos) noexcept;
 
 
                     constexpr ValueListBuilder_1(ValueListBuilder_1 const&) = default;
@@ -163,17 +172,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- System::Span_1<int32_t> __declspec(property(get=__get__span, put=__set__span))  _span;
+ System::Span_1<T> __declspec(property(get=__get__span, put=__set__span))  _span;
 
-constexpr void __set__span(System::Span_1<int32_t> value) ;
+constexpr void __set__span(System::Span_1<T> value) ;
 
-constexpr System::Span_1<int32_t> __get__span() const;
+constexpr System::Span_1<T> __get__span() const;
 
- ::ArrayW<int32_t> __declspec(property(get=__get__arrayFromPool, put=__set__arrayFromPool))  _arrayFromPool;
+ ::ArrayW<T> __declspec(property(get=__get__arrayFromPool, put=__set__arrayFromPool))  _arrayFromPool;
 
-constexpr void __set__arrayFromPool(::ArrayW<int32_t> value) ;
+constexpr void __set__arrayFromPool(::ArrayW<T> value) ;
 
-constexpr ::ArrayW<int32_t> __get__arrayFromPool() const;
+constexpr ::ArrayW<T> __get__arrayFromPool() const;
 
  int32_t __declspec(property(get=__get__pos, put=__set__pos))  _pos;
 
@@ -186,26 +195,34 @@ constexpr int32_t __get__pos() const;
 
  int32_t __declspec(property(get=get_Length))  Length;
 
+ T __declspec(property(get=get_Item))  Item;
+
 
 // Methods
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(System::Span_1<int32_t> initialSpan) ;
+ void _ctor(System::Span_1<T> initialSpan) ;
 
 /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_Length() ;
 
+/// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+ ByRef<T> get_Item(int32_t index) ;
+
 /// @brief Method Append addr 0x0 size 0xffffffffffffffff virtual false final false
- void Append(int32_t item) ;
+ void Append(T item) ;
 
 /// @brief Method AsSpan addr 0x0 size 0xffffffffffffffff virtual false final false
- System::ReadOnlySpan_1<int32_t> AsSpan() ;
+ System::ReadOnlySpan_1<T> AsSpan() ;
 
 /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual false final false
  void Dispose() ;
 
 /// @brief Method Grow addr 0x0 size 0xffffffffffffffff virtual false final false
  void Grow() ;
+
+/// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
+ T Pop() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };

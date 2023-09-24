@@ -78,8 +78,7 @@ constexpr int32_t __get_charEntityIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::CharEntityEncoderFallback", modifiers: "", def_value: None }]
-explicit CharEntityEncoderFallbackBuffer(System::Xml::CharEntityEncoderFallback parent) ;
+static System::Xml::CharEntityEncoderFallbackBuffer New_ctor(System::Xml::CharEntityEncoderFallback parent) ;
 
 /// @brief Method .ctor addr 0x26bc0d4 size 0x74 virtual false final false
  void _ctor(System::Xml::CharEntityEncoderFallback parent) ;

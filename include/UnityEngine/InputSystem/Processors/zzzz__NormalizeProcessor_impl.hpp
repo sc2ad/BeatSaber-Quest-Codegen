@@ -141,8 +141,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Processors::NormalizeProcessor::NormalizeProcessor()  : UnityEngine::InputSystem::InputProcessor_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<NormalizeProcessor>())) {}
+ UnityEngine::InputSystem::Processors::NormalizeProcessor UnityEngine::InputSystem::Processors::NormalizeProcessor::New_ctor()  {
+UnityEngine::InputSystem::Processors::NormalizeProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Processors::NormalizeProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::Processors::NormalizeProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Processors::NormalizeProcessor>::get(),

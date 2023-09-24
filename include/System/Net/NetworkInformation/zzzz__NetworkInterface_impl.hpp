@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceType_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::NetworkInterface.GetAllNetworkInterfaces
 template<>
 
@@ -150,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::NetworkInformation::NetworkInterfaceType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::NetworkInterface::NetworkInterface()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetworkInterface>())) {}
+ System::Net::NetworkInformation::NetworkInterface System::Net::NetworkInformation::NetworkInterface::New_ctor()  {
+System::Net::NetworkInformation::NetworkInterface o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::NetworkInterface>())};
+return o;
+}
  void System::Net::NetworkInformation::NetworkInterface::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::NetworkInterface>::get(),

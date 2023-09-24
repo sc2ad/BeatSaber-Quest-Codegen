@@ -5,15 +5,18 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct RaycastHit;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Ray;
+namespace VRUIControls {
+struct VRUIControls__PhysicsRaycasterWithCache__CachedRaycast;
 }
 namespace UnityEngine {
-struct RaycastHit;
+struct Ray;
 }
 // Forward declare root types
 namespace VRUIControls {
@@ -167,8 +170,7 @@ constexpr int32_t __get__lastFrameCount() const;
 /// @brief Method Raycast addr 0x2d3b07c size 0x56c virtual false final false
  bool Raycast(UnityEngine::Ray ray, ByRef<UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask) ;
 
-// Ctor Parameters []
-explicit PhysicsRaycasterWithCache() ;
+static VRUIControls::PhysicsRaycasterWithCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3b628 size 0x84 virtual false final false
  void _ctor() ;

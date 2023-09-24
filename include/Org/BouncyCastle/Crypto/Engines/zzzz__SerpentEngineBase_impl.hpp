@@ -558,8 +558,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__set_X3(i
 constexpr int32_t Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::__get_X3() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::SerpentEngineBase()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerpentEngineBase>())) {}
+ Org::BouncyCastle::Crypto::Engines::SerpentEngineBase Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::SerpentEngineBase o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SerpentEngineBase>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SerpentEngineBase>::get(),

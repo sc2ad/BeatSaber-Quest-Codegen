@@ -8,25 +8,29 @@ template<typename T>
 class Action_1;
 }
 namespace System::Threading {
-class WaitCallback;
+class WaitHandle;
 }
 namespace System::Threading {
-class RegisteredWaitHandle;
+template<typename TState>
+class System__Threading__ThreadPool____c__DisplayClass17_0_1;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
 namespace System::Threading {
-class WaitOrTimerCallback;
+class RegisteredWaitHandle;
 }
-namespace System {
-struct TimeSpan;
+namespace System::Threading {
+class WaitCallback;
+}
+namespace System::Threading {
+class WaitOrTimerCallback;
 }
 namespace System::Threading {
 struct StackCrawlMark;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -206,8 +210,7 @@ constexpr System::Action_1<TState> __get_callBack() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__ThreadPool____c__DisplayClass17_0_1() ;
+static System::Threading::System__Threading__ThreadPool____c__DisplayClass17_0_1<TState> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

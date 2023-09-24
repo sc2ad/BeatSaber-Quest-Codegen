@@ -1,14 +1,14 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__PbeUtilities_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__PbeParametersGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__PbeParametersGenerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::PbeUtilities._ctor
 template<>
 
@@ -418,8 +418,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "algo
  System::Collections::IDictionary Org::BouncyCastle::Security::PbeUtilities::__get_oids()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "oids", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::PbeUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::PbeUtilities::PbeUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PbeUtilities>())) {}
+ Org::BouncyCastle::Security::PbeUtilities Org::BouncyCastle::Security::PbeUtilities::New_ctor()  {
+Org::BouncyCastle::Security::PbeUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::PbeUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::PbeUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::PbeUtilities>::get(),

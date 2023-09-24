@@ -63,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, false>(const_cast<void*>(instance), ___internal_method, category, eventType, frame, val);
 }
-// Ctor Parameters []
- UnityEngine::AddressableAssets::Utility::DiagnosticInfo::DiagnosticInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiagnosticInfo>())) {}
+ UnityEngine::AddressableAssets::Utility::DiagnosticInfo UnityEngine::AddressableAssets::Utility::DiagnosticInfo::New_ctor()  {
+UnityEngine::AddressableAssets::Utility::DiagnosticInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::Utility::DiagnosticInfo>())};
+return o;
+}
  void UnityEngine::AddressableAssets::Utility::DiagnosticInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::Utility::DiagnosticInfo>::get(),

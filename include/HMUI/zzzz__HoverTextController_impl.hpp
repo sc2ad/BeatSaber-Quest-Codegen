@@ -2,9 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverTextController_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "HMUI/zzzz__HoverTextController_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10._ctor
 template<>
 
@@ -137,8 +138,10 @@ constexpr void HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10::__set_
 constexpr HMUI::HoverTextController HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10::__get___4__this() const {
 return ::cordl_internals::getInstanceField<HMUI::HoverTextController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10::HMUI__HoverTextController___ShowTextCoroutine_d__10(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__HoverTextController___ShowTextCoroutine_d__10>(__1__state))) {}
+ HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10 HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10>(__1__state))};
+return o;
+}
  void HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10>::get(),
@@ -325,8 +328,10 @@ constexpr void HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12::__set_
 constexpr HMUI::HoverTextController HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12::__get___4__this() const {
 return ::cordl_internals::getInstanceField<HMUI::HoverTextController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12::HMUI__HoverTextController___HideTextCoroutine_d__12(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__HoverTextController___HideTextCoroutine_d__12>(__1__state))) {}
+ HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12 HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12>(__1__state))};
+return o;
+}
  void HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12>::get(),
@@ -616,8 +621,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::HoverTextController::HoverTextController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HoverTextController>())) {}
+ HMUI::HoverTextController HMUI::HoverTextController::New_ctor()  {
+HMUI::HoverTextController o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HoverTextController>())};
+return o;
+}
  void HMUI::HoverTextController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HoverTextController>::get(),

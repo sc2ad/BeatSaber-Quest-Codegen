@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class Saber;
-}
 namespace UnityEngine {
 class BoxCollider;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -125,8 +125,7 @@ constexpr float_t __get__radius() const;
 /// @brief Method RefreshRadius addr 0x210a4b0 size 0x68 virtual false final false
  void RefreshRadius() ;
 
-// Ctor Parameters []
-explicit BoxCuttableBySaber() ;
+static GlobalNamespace::BoxCuttableBySaber New_ctor() ;
 
 /// @brief Method .ctor addr 0x210a654 size 0x8 virtual false final false
  void _ctor() ;

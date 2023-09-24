@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class SecurityParameters;
 }
 namespace Org::BouncyCastle::Crypto::Prng {
 class IRandomGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
+class TlsContext;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ProtocolVersion;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -144,8 +144,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_mUserObject() const;
 /// @brief Method NextCounterValue addr 0xecbce0 size 0x58 virtual false final false
 static int64_t NextCounterValue() ;
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "securityParameters", ty: "Org::BouncyCastle::Crypto::Tls::SecurityParameters", modifiers: "", def_value: None }]
-explicit AbstractTlsContext(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsContext New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;
 
 /// @brief Method .ctor addr 0xecbd38 size 0x324 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;

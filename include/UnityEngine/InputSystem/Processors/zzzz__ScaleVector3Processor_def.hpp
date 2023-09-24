@@ -4,11 +4,11 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Processors {
@@ -17,7 +17,7 @@ class ScaleVector3Processor;
 // Type: UnityEngine.InputSystem.Processors::ScaleVector3Processor
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 }), TypeDefinitionIndex(TypeDefinitionIndex(6319))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(10190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6319), inst: 394 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6675))
 // CS Name: UnityEngine.InputSystem.Processors.ScaleVector3Processor
 class CORDL_TYPE ScaleVector3Processor : public UnityEngine::InputSystem::InputProcessor_1<UnityEngine::Vector3> {
@@ -83,8 +83,7 @@ constexpr float_t __get_z() const;
 /// @brief Method ToString addr 0x2967388 size 0xc4 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit ScaleVector3Processor() ;
+static UnityEngine::InputSystem::Processors::ScaleVector3Processor New_ctor() ;
 
 /// @brief Method .ctor addr 0x296744c size 0x58 virtual false final false
  void _ctor() ;

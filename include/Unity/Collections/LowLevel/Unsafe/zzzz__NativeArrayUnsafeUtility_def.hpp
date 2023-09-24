@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+struct Allocator;
 }
 namespace Unity::Collections {
-struct Allocator;
+template<typename T>
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

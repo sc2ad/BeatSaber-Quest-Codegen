@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MaterialPropertyBlockController.get_renderers
 template<>
 
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MaterialPropertyBlockController::MaterialPropertyBlockController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MaterialPropertyBlockController>())) {}
+ GlobalNamespace::MaterialPropertyBlockController GlobalNamespace::MaterialPropertyBlockController::New_ctor()  {
+GlobalNamespace::MaterialPropertyBlockController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MaterialPropertyBlockController>())};
+return o;
+}
  void GlobalNamespace::MaterialPropertyBlockController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MaterialPropertyBlockController>::get(),

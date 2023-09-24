@@ -1,7 +1,7 @@
 #pragma once
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeArrayUnsafeUtility_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 template<typename T>
  Unity::Collections::NativeArray_1<T> Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray(void* dataPointer, int32_t length, Unity::Collections::Allocator allocator)  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -7,32 +7,32 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class ISpanFormattable;
-}
-namespace System {
 template<typename T>
-class IEquatable_1;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
+struct Span_1;
 }
 namespace System {
 class IComparable;
 }
 namespace System {
-template<typename T>
-struct Span_1;
+class IFormattable;
 }
 namespace System {
 template<typename T>
 class IComparable_1;
 }
 namespace System {
-class IFormatProvider;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
-class IFormattable;
+class ISpanFormattable;
+}
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {

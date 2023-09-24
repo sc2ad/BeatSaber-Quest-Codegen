@@ -234,8 +234,10 @@ return ::cordl_internals::getStaticField<System::Random, "t_threadRandom", ::il2
  System::Random System::Random::__get_s_globalRandom()  {
 return ::cordl_internals::getStaticField<System::Random, "s_globalRandom", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Random>::get>();
 }
-// Ctor Parameters []
- System::Random::Random()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Random>())) {}
+ System::Random System::Random::New_ctor()  {
+System::Random o{THROW_UNLESS(::il2cpp_utils::New<System::Random>())};
+return o;
+}
  void System::Random::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Random>::get(),
@@ -245,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Seed", ty: "int32_t", modifiers: "", def_value: None }]
- System::Random::Random(int32_t Seed)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Random>(Seed))) {}
+ System::Random System::Random::New_ctor(int32_t Seed)  {
+System::Random o{THROW_UNLESS(::il2cpp_utils::New<System::Random>(Seed))};
+return o;
+}
  void System::Random::_ctor(int32_t Seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Random>::get(),

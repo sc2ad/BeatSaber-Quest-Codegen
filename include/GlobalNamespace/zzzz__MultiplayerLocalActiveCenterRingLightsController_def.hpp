@@ -3,17 +3,17 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+class BeatmapObjectSpawnCenter;
 }
 namespace GlobalNamespace {
 class MultiplayerCenterResizeController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnCenter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -124,8 +124,7 @@ constexpr bool __get__spawnCenterDistanceFound() const;
 /// @brief Method HandleEdgeDistanceFromCenterWasCalculated addr 0x20e2e58 size 0x18 virtual false final false
  void HandleEdgeDistanceFromCenterWasCalculated(float_t constructEdgeDistanceFromCenter) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActiveCenterRingLightsController() ;
+static GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e32b0 size 0x8 virtual false final false
  void _ctor() ;

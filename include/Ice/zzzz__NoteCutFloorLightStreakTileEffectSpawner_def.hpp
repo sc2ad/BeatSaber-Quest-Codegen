@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
+namespace UnityEngine {
+struct Color;
 }
 namespace Ice {
 class FloorLightStreakTileEffect;
 }
 namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-struct Color;
+class NoteController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace Ice {
@@ -113,8 +113,7 @@ constexpr UnityEngine::Color __get__spawnColor() const;
 /// @brief Method HandleNoteWasCut addr 0x1211d54 size 0x64 virtual false final false
  void HandleNoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
-// Ctor Parameters []
-explicit NoteCutFloorLightStreakTileEffectSpawner() ;
+static Ice::NoteCutFloorLightStreakTileEffectSpawner New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211db8 size 0xc virtual false final false
  void _ctor() ;

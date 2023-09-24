@@ -119,8 +119,10 @@ constexpr void Newtonsoft::Json::Serialization::JsonPropertyCollection::__set__l
 constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::JsonProperty> Newtonsoft::Json::Serialization::JsonPropertyCollection::__get__list() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Newtonsoft::Json::Serialization::JsonProperty>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonPropertyCollection::JsonPropertyCollection(System::Type type)  : System::Collections::ObjectModel::KeyedCollection_2<::StringW,Newtonsoft::Json::Serialization::JsonProperty>(THROW_UNLESS(::il2cpp_utils::New<JsonPropertyCollection>(type))) {}
+ Newtonsoft::Json::Serialization::JsonPropertyCollection Newtonsoft::Json::Serialization::JsonPropertyCollection::New_ctor(System::Type type)  {
+Newtonsoft::Json::Serialization::JsonPropertyCollection o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonPropertyCollection>(type))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonPropertyCollection::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonPropertyCollection>::get(),

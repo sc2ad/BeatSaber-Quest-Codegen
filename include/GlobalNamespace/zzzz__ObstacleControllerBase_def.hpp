@@ -89,8 +89,7 @@ constexpr System::Action_2<GlobalNamespace::ObstacleControllerBase,float_t> __ge
 /// @brief Method InvokeDidStartDissolvingEvent addr 0x2244a2c size 0x1c virtual false final false
  void InvokeDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
 
-// Ctor Parameters []
-explicit ObstacleControllerBase() ;
+static GlobalNamespace::ObstacleControllerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2244a50 size 0x8 virtual false final false
  void _ctor() ;

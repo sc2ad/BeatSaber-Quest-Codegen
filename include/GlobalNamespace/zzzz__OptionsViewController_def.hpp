@@ -3,15 +3,18 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OptionsViewController__OptionsButton;
+}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
 class AppStaticSettingsSO;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,6 +73,8 @@ __Settings = 2,
 constexpr operator __GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OptionsViewController__OptionsButton_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -179,8 +184,7 @@ constexpr System::Action_1<GlobalNamespace::GlobalNamespace__OptionsViewControll
 /// @brief Method DidActivate addr 0x217bcdc size 0x190 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit OptionsViewController() ;
+static GlobalNamespace::OptionsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217be6c size 0x8 virtual false final false
  void _ctor() ;

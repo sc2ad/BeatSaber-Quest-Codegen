@@ -5,14 +5,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
+namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct Translate;
-}
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
 }
 namespace System {
 template<typename T>

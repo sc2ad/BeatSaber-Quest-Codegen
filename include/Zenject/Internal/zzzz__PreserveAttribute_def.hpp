@@ -47,8 +47,7 @@ constexpr explicit PreserveAttribute(void* ptr) noexcept : System::Attribute(ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit PreserveAttribute() ;
+static Zenject::Internal::PreserveAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d402b4 size 0x8 virtual false final false
  void _ctor() ;

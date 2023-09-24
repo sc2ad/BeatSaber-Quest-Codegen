@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlDateTimeConverter_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlDateTimeConverter._ctor
 template<>
@@ -245,8 +245,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlDateTimeConverter::XmlDateTimeConverter(System::Xml::Schema::XmlSchemaType schemaType)  : System::Xml::Schema::XmlBaseConverter(THROW_UNLESS(::il2cpp_utils::New<XmlDateTimeConverter>(schemaType))) {}
+ System::Xml::Schema::XmlDateTimeConverter System::Xml::Schema::XmlDateTimeConverter::New_ctor(System::Xml::Schema::XmlSchemaType schemaType)  {
+System::Xml::Schema::XmlDateTimeConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlDateTimeConverter>(schemaType))};
+return o;
+}
  void System::Xml::Schema::XmlDateTimeConverter::_ctor(System::Xml::Schema::XmlSchemaType schemaType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlDateTimeConverter>::get(),

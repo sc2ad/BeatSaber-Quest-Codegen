@@ -93,14 +93,12 @@ constexpr System::Collections::Generic::List_1<int32_t> __get_m_SortedHash() con
 /// @brief Method Clear addr 0x2cf2948 size 0x9c virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit StyleVariableContext() ;
+static UnityEngine::UIElements::StyleVariableContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf29e4 size 0xc8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::UIElements::StyleVariableContext", modifiers: "", def_value: None }]
-explicit StyleVariableContext(UnityEngine::UIElements::StyleVariableContext other) ;
+static UnityEngine::UIElements::StyleVariableContext New_ctor(UnityEngine::UIElements::StyleVariableContext other) ;
 
 /// @brief Method .ctor addr 0x2cf2aac size 0xec virtual false final false
  void _ctor(UnityEngine::UIElements::StyleVariableContext other) ;

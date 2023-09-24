@@ -2,10 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
+#include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair._ctor
 template<>
@@ -36,8 +37,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTint
 constexpr ::StringW GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair::__get_property() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair>())) {}
+ GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SetSaberGlowColor__PropertyTintColorPair>::get(),
@@ -178,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SetSaberGlowColor::SetSaberGlowColor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SetSaberGlowColor>())) {}
+ GlobalNamespace::SetSaberGlowColor GlobalNamespace::SetSaberGlowColor::New_ctor()  {
+GlobalNamespace::SetSaberGlowColor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SetSaberGlowColor>())};
+return o;
+}
  void GlobalNamespace::SetSaberGlowColor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SetSaberGlowColor>::get(),

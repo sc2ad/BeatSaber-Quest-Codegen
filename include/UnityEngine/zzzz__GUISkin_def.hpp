@@ -6,21 +6,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine {
+class GUISettings;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
-class Font;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
 class GUIStyle;
 }
 namespace UnityEngine {
-class GUISettings;
+class UnityEngine__GUISkin__SkinChangedDelegate;
+}
+namespace UnityEngine {
+class Font;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -71,8 +74,7 @@ constexpr explicit UnityEngine__GUISkin__SkinChangedDelegate(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__GUISkin__SkinChangedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b91ac4 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -368,8 +370,7 @@ static UnityEngine::GUIStyle __declspec(property(get=get_error))  error;
 
 // Methods
 
-// Ctor Parameters []
-explicit GUISkin() ;
+static UnityEngine::GUISkin New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b906dc size 0xb4 virtual false final false
  void _ctor() ;

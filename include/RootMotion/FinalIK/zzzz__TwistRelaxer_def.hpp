@@ -5,11 +5,11 @@
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class IK;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -135,8 +135,7 @@ constexpr UnityEngine::Vector3 __get_axisRelativeToChildDefault() const;
 /// @brief Method OnDestroy addr 0x11f7494 size 0x118 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit TwistRelaxer() ;
+static RootMotion::FinalIK::TwistRelaxer New_ctor() ;
 
 /// @brief Method .ctor addr 0x11f75ac size 0xa0 virtual false final false
  void _ctor() ;

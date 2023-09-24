@@ -83,8 +83,7 @@ constexpr int32_t __get__QueueIndex_k__BackingField() const;
 /// @brief Method set_QueueIndex addr 0x21d70e0 size 0x8 virtual false final false
  void set_QueueIndex(int32_t value) ;
 
-// Ctor Parameters []
-explicit FastPriorityQueueNode() ;
+static Priority_Queue::FastPriorityQueueNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d70e8 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,15 +3,22 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace GlobalNamespace {
+class GlobalNamespace__OVRResources____c__DisplayClass2_0;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class Object;
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__OVRResources____c__DisplayClass3_0_1;
 }
 namespace UnityEngine {
 class AssetBundle;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -79,8 +86,7 @@ constexpr ::StringW __get_path() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRResources____c__DisplayClass2_0() ;
+static GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x26026ac size 0x8 virtual false final false
  void _ctor() ;
@@ -165,8 +171,7 @@ static T Load(::StringW path) ;
 /// @brief Method SetResourceBundle addr 0x26026b4 size 0xd4 virtual false final false
 static void SetResourceBundle(UnityEngine::AssetBundle bundle) ;
 
-// Ctor Parameters []
-explicit OVRResources() ;
+static GlobalNamespace::OVRResources New_ctor() ;
 
 /// @brief Method .ctor addr 0x2602788 size 0x8 virtual false final false
  void _ctor() ;
@@ -228,8 +233,7 @@ constexpr ::StringW __get_path() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRResources____c__DisplayClass3_0_1() ;
+static GlobalNamespace::GlobalNamespace__OVRResources____c__DisplayClass3_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

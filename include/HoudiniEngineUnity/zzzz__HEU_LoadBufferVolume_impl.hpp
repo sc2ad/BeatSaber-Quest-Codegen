@@ -1,12 +1,12 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolumeLayer_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_DetailProperties_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_LoadBufferVolume._ctor
 template<>
 
@@ -126,8 +126,10 @@ constexpr void HoudiniEngineUnity::HEU_LoadBufferVolume::__set__specifiedTerrain
 constexpr ::StringW HoudiniEngineUnity::HEU_LoadBufferVolume::__get__specifiedTerrainMaterialName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_LoadBufferVolume::HEU_LoadBufferVolume()  : HoudiniEngineUnity::HEU_LoadBufferBase(THROW_UNLESS(::il2cpp_utils::New<HEU_LoadBufferVolume>())) {}
+ HoudiniEngineUnity::HEU_LoadBufferVolume HoudiniEngineUnity::HEU_LoadBufferVolume::New_ctor()  {
+HoudiniEngineUnity::HEU_LoadBufferVolume o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_LoadBufferVolume>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_LoadBufferVolume::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_LoadBufferVolume>::get(),

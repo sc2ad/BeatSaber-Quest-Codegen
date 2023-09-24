@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshImporter_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshImportSettings_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshImportSettings_def.hpp"
+#include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshImporter_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c._ctor
@@ -54,8 +55,10 @@ return ::cordl_internals::getStaticField<UnityEngine::ProBuilder::MeshOperations
  System::Func_2<UnityEngine::ProBuilder::Vertex,UnityEngine::Vector3> UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c::__get___9__9_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder::Vertex,UnityEngine::Vector3>, "<>9__9_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__MeshOperations__MeshImporter____c>())) {}
+ UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c::New_ctor()  {
+UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__MeshImporter____c>::get(),
@@ -189,8 +192,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::MeshImporter::__set_m_Ve
 constexpr ::ArrayW<UnityEngine::ProBuilder::Vertex> UnityEngine::ProBuilder::MeshOperations::MeshImporter::__get_m_Vertices() const {
 return ::cordl_internals::getInstanceField<::ArrayW<UnityEngine::ProBuilder::Vertex>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::MeshOperations::MeshImporter::MeshImporter(UnityEngine::GameObject gameObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshImporter>(gameObject))) {}
+ UnityEngine::ProBuilder::MeshOperations::MeshImporter UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(UnityEngine::GameObject gameObject)  {
+UnityEngine::ProBuilder::MeshOperations::MeshImporter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::MeshImporter>(gameObject))};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(UnityEngine::GameObject gameObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::MeshImporter>::get(),
@@ -200,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, gameObject);
 }
-// Ctor Parameters [CppParam { name: "sourceMesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }, CppParam { name: "sourceMaterials", ty: "::ArrayW<UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "destination", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::MeshOperations::MeshImporter::MeshImporter(UnityEngine::Mesh sourceMesh, ::ArrayW<UnityEngine::Material> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh destination)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshImporter>(sourceMesh, sourceMaterials, destination))) {}
+ UnityEngine::ProBuilder::MeshOperations::MeshImporter UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(UnityEngine::Mesh sourceMesh, ::ArrayW<UnityEngine::Material> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh destination)  {
+UnityEngine::ProBuilder::MeshOperations::MeshImporter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::MeshImporter>(sourceMesh, sourceMaterials, destination))};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(UnityEngine::Mesh sourceMesh, ::ArrayW<UnityEngine::Material> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh destination)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::MeshImporter>::get(),
@@ -211,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sourceMesh, sourceMaterials, destination);
 }
-// Ctor Parameters [CppParam { name: "destination", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::MeshOperations::MeshImporter::MeshImporter(UnityEngine::ProBuilder::ProBuilderMesh destination)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshImporter>(destination))) {}
+ UnityEngine::ProBuilder::MeshOperations::MeshImporter UnityEngine::ProBuilder::MeshOperations::MeshImporter::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh destination)  {
+UnityEngine::ProBuilder::MeshOperations::MeshImporter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::MeshImporter>(destination))};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor(UnityEngine::ProBuilder::ProBuilderMesh destination)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::MeshImporter>::get(),

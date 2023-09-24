@@ -7,13 +7,13 @@ namespace System {
 struct DateTime;
 }
 namespace System::Globalization {
-class EraInfo;
-}
-namespace System::Globalization {
 class GregorianCalendarHelper;
 }
 namespace System {
 struct DayOfWeek;
+}
+namespace System::Globalization {
+class EraInfo;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -95,8 +95,7 @@ constexpr System::Globalization::GregorianCalendarHelper __get_helper() const;
 /// @brief Method get_MaxSupportedDateTime addr 0x23fae04 size 0x58 virtual true final false
  System::DateTime get_MaxSupportedDateTime() ;
 
-// Ctor Parameters []
-explicit ThaiBuddhistCalendar() ;
+static System::Globalization::ThaiBuddhistCalendar New_ctor() ;
 
 /// @brief Method .ctor addr 0x23fae5c size 0xa4 virtual false final false
  void _ctor() ;

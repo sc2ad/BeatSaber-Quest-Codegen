@@ -10,8 +10,8 @@ class MD2Managed;
 // Type: Mono.Security.Cryptography::MD2Managed
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14001))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14002))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2277))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2278))
 // CS Name: Mono.Security.Cryptography.MD2Managed
 class CORDL_TYPE MD2Managed : public Mono::Security::Cryptography::MD2 {
 public:
@@ -88,25 +88,24 @@ static ::ArrayW<uint8_t> __get_PI_SUBST() ;
 
 // Methods
 
-/// @brief Method Padding addr 0x2297314 size 0x9c virtual false final false
+/// @brief Method Padding addr 0x22b3320 size 0x9c virtual false final false
  ::ArrayW<uint8_t> Padding(int32_t nLength) ;
 
-// Ctor Parameters []
-explicit MD2Managed() ;
+static Mono::Security::Cryptography::MD2Managed New_ctor() ;
 
-/// @brief Method .ctor addr 0x2297270 size 0xa4 virtual false final false
+/// @brief Method .ctor addr 0x22b327c size 0xa4 virtual false final false
  void _ctor() ;
 
-/// @brief Method Initialize addr 0x22973b0 size 0x60 virtual true final false
+/// @brief Method Initialize addr 0x22b33bc size 0x60 virtual true final false
  void Initialize() ;
 
-/// @brief Method HashCore addr 0x2297410 size 0xdc virtual true final false
+/// @brief Method HashCore addr 0x22b341c size 0xdc virtual true final false
  void HashCore(::ArrayW<uint8_t> array, int32_t ibStart, int32_t cbSize) ;
 
-/// @brief Method HashFinal addr 0x2297744 size 0xf0 virtual true final false
+/// @brief Method HashFinal addr 0x22b3750 size 0xf0 virtual true final false
  ::ArrayW<uint8_t> HashFinal() ;
 
-/// @brief Method MD2Transform addr 0x22974ec size 0x258 virtual false final false
+/// @brief Method MD2Transform addr 0x22b34f8 size 0x258 virtual false final false
  void MD2Transform(::ArrayW<uint8_t> state, ::ArrayW<uint8_t> checksum, ::ArrayW<uint8_t> block, int32_t index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

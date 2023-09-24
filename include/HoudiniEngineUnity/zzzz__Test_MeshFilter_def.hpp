@@ -5,12 +5,12 @@ namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivableWrapperClass_1;
+}
+namespace UnityEngine {
+class MeshFilter;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,8 +73,7 @@ constexpr UnityEngine::MeshFilter __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::MeshFilter", modifiers: "", def_value: None }]
-explicit Test_MeshFilter(UnityEngine::MeshFilter self) ;
+static HoudiniEngineUnity::Test_MeshFilter New_ctor(UnityEngine::MeshFilter self) ;
 
 /// @brief Method .ctor addr 0x2073b7c size 0x28 virtual false final false
  void _ctor(UnityEngine::MeshFilter self) ;

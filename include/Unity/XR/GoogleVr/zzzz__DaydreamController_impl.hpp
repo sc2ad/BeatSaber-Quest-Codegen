@@ -2,8 +2,8 @@
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_impl.hpp"
 #include "Unity/XR/GoogleVr/zzzz__DaydreamController_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 //  Writing Method size for method: Unity::XR::GoogleVr::DaydreamController.get_touchpad
 template<>
 
@@ -685,8 +685,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::GoogleVr::DaydreamController::DaydreamController()  : UnityEngine::InputSystem::XR::XRController(THROW_UNLESS(::il2cpp_utils::New<DaydreamController>())) {}
+ Unity::XR::GoogleVr::DaydreamController Unity::XR::GoogleVr::DaydreamController::New_ctor()  {
+Unity::XR::GoogleVr::DaydreamController o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::GoogleVr::DaydreamController>())};
+return o;
+}
  void Unity::XR::GoogleVr::DaydreamController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::GoogleVr::DaydreamController>::get(),

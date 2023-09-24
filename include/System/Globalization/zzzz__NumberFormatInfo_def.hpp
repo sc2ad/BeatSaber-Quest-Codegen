@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class IFormatProvider;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ICloneable;
 }
 namespace System::Globalization {
 class CultureData;
 }
-namespace System {
-class Type;
-}
-namespace System {
-class ICloneable;
-}
 namespace System::Globalization {
 struct NumberStyles;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
+class IFormatProvider;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -349,8 +349,7 @@ static System::Globalization::NumberFormatInfo __declspec(property(get=get_Curre
 
 // Methods
 
-// Ctor Parameters []
-explicit NumberFormatInfo() ;
+static System::Globalization::NumberFormatInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x23f7258 size 0x8 virtual false final false
  void _ctor() ;
@@ -367,8 +366,7 @@ explicit NumberFormatInfo() ;
 /// @brief Method VerifyGroupSeparator addr 0x23f7840 size 0x70 virtual false final false
 static void VerifyGroupSeparator(::StringW groupSep, ::StringW propertyName) ;
 
-// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }]
-explicit NumberFormatInfo(System::Globalization::CultureData cultureData) ;
+static System::Globalization::NumberFormatInfo New_ctor(System::Globalization::CultureData cultureData) ;
 
 /// @brief Method .ctor addr 0x23f7260 size 0x554 virtual false final false
  void _ctor(System::Globalization::CultureData cultureData) ;

@@ -7,19 +7,19 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsTableCell_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerResultsTableView_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerOffsetPositionByLocalPlayerPosition_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0._ctor
 template<>
 
@@ -83,8 +83,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____
 constexpr GlobalNamespace::MultiplayerResultsTableCell GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0::__get_cell() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerResultsTableCell, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0 GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_0>::get(),
@@ -152,8 +154,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____
 constexpr UnityEngine::RectTransform GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1::__get_winnerRectTransform() const {
 return ::cordl_internals::getInstanceField<UnityEngine::RectTransform, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1 GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView____c__DisplayClass30_1>::get(),
@@ -310,8 +314,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___P
 constexpr GlobalNamespace::MultiplayerResultsTableView GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerResultsTableView, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31 GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayRandomRowSlideInSound_d__31>::get(),
@@ -504,8 +510,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___P
 constexpr GlobalNamespace::MultiplayerResultsTableView GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MultiplayerResultsTableView, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32 GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerResultsTableView___PlayAvatarSlideInSound_d__32>::get(),
@@ -1004,8 +1012,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, delay);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerResultsTableView::MultiplayerResultsTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerResultsTableView>())) {}
+ GlobalNamespace::MultiplayerResultsTableView GlobalNamespace::MultiplayerResultsTableView::New_ctor()  {
+GlobalNamespace::MultiplayerResultsTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerResultsTableView>())};
+return o;
+}
  void GlobalNamespace::MultiplayerResultsTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerResultsTableView>::get(),

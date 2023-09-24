@@ -1,11 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Delegate;
+namespace System::ComponentModel {
+class System__ComponentModel__EventHandlerList__ListEntry;
 }
 namespace System::ComponentModel {
 class Component;
+}
+namespace System {
+class Delegate;
 }
 // Forward declare root types
 namespace System::ComponentModel {

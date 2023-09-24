@@ -91,8 +91,7 @@ static ::ArrayW<Org::BouncyCastle::Math::BigInteger> GenerateSafePrimes(int32_t 
 /// @brief Method SelectGenerator addr 0xe6bd54 size 0xf0 virtual false final false
 static Org::BouncyCastle::Math::BigInteger SelectGenerator(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters []
-explicit DHParametersHelper() ;
+static Org::BouncyCastle::Crypto::Generators::DHParametersHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6c004 size 0x8 virtual false final false
  void _ctor() ;

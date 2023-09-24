@@ -9,13 +9,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace System {
+class IFormattable;
+}
+namespace System {
 class IFormatProvider;
 }
 namespace UnityEngine {
 struct Ray;
-}
-namespace System {
-class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -60,8 +60,7 @@ constexpr ::StringW __get_typeName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit DebuggerTypeProxyAttribute(System::Type type) ;
+static System::Diagnostics::DebuggerTypeProxyAttribute New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x240bff4 size 0xe8 virtual false final false
  void _ctor(System::Type type) ;

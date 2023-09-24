@@ -3,10 +3,10 @@
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
 #include <cmath>
 namespace UnityEngine::Playables {
-struct Playable;
+struct FrameData;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 class TimelineClip;
@@ -99,8 +99,7 @@ constexpr UnityEngine::Playables::Playable __get_m_ParentMixer() const;
 /// @brief Method get_duration addr 0x2acf03c size 0x18 virtual true final false
  double_t get_duration() ;
 
-// Ctor Parameters [CppParam { name: "clip", ty: "UnityEngine::Timeline::TimelineClip", modifiers: "", def_value: None }, CppParam { name: "clipPlayable", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }, CppParam { name: "parentMixer", ty: "UnityEngine::Playables::Playable", modifiers: "", def_value: None }]
-explicit RuntimeClip(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer) ;
+static UnityEngine::Timeline::RuntimeClip New_ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer) ;
 
 /// @brief Method .ctor addr 0x2ab97f8 size 0x5c virtual false final false
  void _ctor(UnityEngine::Timeline::TimelineClip clip, UnityEngine::Playables::Playable clipPlayable, UnityEngine::Playables::Playable parentMixer) ;

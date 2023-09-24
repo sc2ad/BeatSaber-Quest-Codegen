@@ -3,32 +3,33 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
-#include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "Mono/Net/Security/zzzz__BufferOffsetSize2_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
-#include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "Mono/Net/Security/zzzz__BufferOffsetSize_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "Mono/Net/Security/zzzz__BufferOffsetSize2_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream__Operation::Mono__Net__Security__MobileAuthenticatedStream__Operation(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -319,8 +320,10 @@ constexpr void Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStre
 constexpr int32_t Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0::__get_len() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0>())) {}
+ Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0 Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0::New_ctor()  {
+Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0>())};
+return o;
+}
  void Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::Mono__Net__Security__MobileAuthenticatedStream____c__DisplayClass66_0>::get(),
@@ -1508,8 +1511,10 @@ constexpr void Mono::Net::Security::MobileAuthenticatedStream::__set_ID(int32_t 
 constexpr int32_t Mono::Net::Security::MobileAuthenticatedStream::__get_ID() const {
 return ::cordl_internals::getInstanceField<int32_t, 0xa8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }]
- Mono::Net::Security::MobileAuthenticatedStream::MobileAuthenticatedStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider)  : System::Net::Security::AuthenticatedStream(THROW_UNLESS(::il2cpp_utils::New<MobileAuthenticatedStream>(innerStream, leaveInnerStreamOpen, owner, settings, provider))) {}
+ Mono::Net::Security::MobileAuthenticatedStream Mono::Net::Security::MobileAuthenticatedStream::New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider)  {
+Mono::Net::Security::MobileAuthenticatedStream o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::MobileAuthenticatedStream>(innerStream, leaveInnerStreamOpen, owner, settings, provider))};
+return o;
+}
  void Mono::Net::Security::MobileAuthenticatedStream::_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::MobileAuthenticatedStream>::get(),

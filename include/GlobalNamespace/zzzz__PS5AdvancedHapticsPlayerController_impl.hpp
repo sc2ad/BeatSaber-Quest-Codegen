@@ -3,12 +3,12 @@
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__PS5AdvancedHapticsPlayerController_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__HapticsAudioClipPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0._ctor
 template<>
 
@@ -61,8 +61,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerControl
 constexpr Libraries::HM::HMLib::VR::HapticPresetSO GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0::__get_hapticPreset() const {
 return ::cordl_internals::getInstanceField<Libraries::HM::HMLib::VR::HapticPresetSO, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0>())) {}
+ GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0 GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0>::get(),
@@ -133,8 +135,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerControl
 constexpr Libraries::HM::HMLib::VR::HapticPresetSO GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0::__get_hapticPreset() const {
 return ::cordl_internals::getInstanceField<Libraries::HM::HMLib::VR::HapticPresetSO, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0>())) {}
+ GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0 GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0>::get(),
@@ -352,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, player);
 }
-// Ctor Parameters []
- GlobalNamespace::PS5AdvancedHapticsPlayerController::PS5AdvancedHapticsPlayerController()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PS5AdvancedHapticsPlayerController>())) {}
+ GlobalNamespace::PS5AdvancedHapticsPlayerController GlobalNamespace::PS5AdvancedHapticsPlayerController::New_ctor()  {
+GlobalNamespace::PS5AdvancedHapticsPlayerController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS5AdvancedHapticsPlayerController>())};
+return o;
+}
  void GlobalNamespace::PS5AdvancedHapticsPlayerController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS5AdvancedHapticsPlayerController>::get(),

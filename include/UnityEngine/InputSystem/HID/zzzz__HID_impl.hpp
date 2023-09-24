@@ -3,18 +3,17 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
+#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 //  Writing Method size for method: GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c._ctor
 template<>
@@ -108,8 +107,10 @@ return ::cordl_internals::getStaticField<System::Predicate_1<UnityEngine::InputS
  System::Func_2<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW> GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c::__get___9__4_2()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Layouts::UnityEngine__InputSystem__Layouts__InputControlLayout__ControlItem,::StringW>, "<>9__4_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c>())) {}
+ GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c::New_ctor()  {
+GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c>())};
+return o;
+}
  void GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder____c>::get(),
@@ -213,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::Layouts::InputControlLayout, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder>())) {}
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder::New_ctor()  {
+UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder>())};
+return o;
+}
  void UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder>::get(),
@@ -1627,8 +1630,10 @@ constexpr void UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID
 constexpr UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0::__get_layout() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID__HIDLayoutBuilder, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0>())) {}
+ UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0::New_ctor()  {
+UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0>())};
+return o;
+}
  void UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::HID::UnityEngine__InputSystem__HID__HID____c__DisplayClass12_0>::get(),
@@ -1884,8 +1889,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, usagePage, usage);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::HID::HID::HID()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<HID>())) {}
+ UnityEngine::InputSystem::HID::HID UnityEngine::InputSystem::HID::HID::New_ctor()  {
+UnityEngine::InputSystem::HID::HID o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::HID::HID>())};
+return o;
+}
  void UnityEngine::InputSystem::HID::HID::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::HID::HID>::get(),

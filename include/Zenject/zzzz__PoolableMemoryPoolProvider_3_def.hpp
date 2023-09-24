@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class InjectContext;
+class IValidatable;
 }
 namespace Zenject {
-class IValidatable;
+class DiContainer;
+}
+namespace System {
+struct Guid;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 class Action;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 struct TypeValuePair;
-}
-namespace System {
-struct Guid;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -91,8 +91,7 @@ constexpr TMemoryPool __get__pool() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "poolId", ty: "System::Guid", modifiers: "", def_value: None }]
-explicit PoolableMemoryPoolProvider_3(Zenject::DiContainer container, System::Guid poolId) ;
+static Zenject::PoolableMemoryPoolProvider_3<TParam1,TContract,TMemoryPool> New_ctor(Zenject::DiContainer container, System::Guid poolId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::DiContainer container, System::Guid poolId) ;

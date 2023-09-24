@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObjectFactory_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory._ctor
 template<>
@@ -113,8 +113,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::__set_bcpgIn(
 constexpr Org::BouncyCastle::Bcpg::BcpgInputStream Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::__get_bcpgIn() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::BcpgInputStream, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::PgpObjectFactory(System::IO::Stream inputStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpObjectFactory>(inputStream))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::New_ctor(System::IO::Stream inputStream)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory>(inputStream))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::_ctor(System::IO::Stream inputStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory>::get(),
@@ -124,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inputStream);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::PgpObjectFactory(::ArrayW<uint8_t> bytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpObjectFactory>(bytes))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::New_ctor(::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory>(bytes))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory>::get(),

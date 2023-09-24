@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Keyboard_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Keyboard.add_onTextInput
 template<>
 
@@ -3914,8 +3914,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Keyboard::Keyboard()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<Keyboard>())) {}
+ UnityEngine::InputSystem::Keyboard UnityEngine::InputSystem::Keyboard::New_ctor()  {
+UnityEngine::InputSystem::Keyboard o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Keyboard>())};
+return o;
+}
  void UnityEngine::InputSystem::Keyboard::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Keyboard>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlDocumentTypeWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XmlDocumentTypeWrapper._ctor
 template<>
@@ -120,8 +120,10 @@ constexpr void Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::__set__docu
 constexpr System::Xml::XmlDocumentType Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::__get__documentType() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlDocumentType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "documentType", ty: "System::Xml::XmlDocumentType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::XmlDocumentTypeWrapper(System::Xml::XmlDocumentType documentType)  : Newtonsoft::Json::Converters::XmlNodeWrapper(THROW_UNLESS(::il2cpp_utils::New<XmlDocumentTypeWrapper>(documentType))) {}
+ Newtonsoft::Json::Converters::XmlDocumentTypeWrapper Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::New_ctor(System::Xml::XmlDocumentType documentType)  {
+Newtonsoft::Json::Converters::XmlDocumentTypeWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XmlDocumentTypeWrapper>(documentType))};
+return o;
+}
  void Newtonsoft::Json::Converters::XmlDocumentTypeWrapper::_ctor(System::Xml::XmlDocumentType documentType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XmlDocumentTypeWrapper>::get(),

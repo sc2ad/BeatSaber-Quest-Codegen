@@ -4,31 +4,31 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 class EnvironmentIntensityReductionOptions;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {

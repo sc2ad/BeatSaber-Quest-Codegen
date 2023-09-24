@@ -221,8 +221,7 @@ constexpr UnityEngine::GameObject __get__duelGroup() const;
 /// @brief Method HandleActivations addr 0x21b0fd4 size 0x60 virtual false final false
  void HandleActivations(bool isDuel) ;
 
-// Ctor Parameters []
-explicit MultiplayerTimelineMock() ;
+static GlobalNamespace::MultiplayerTimelineMock New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1034 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolverState_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ResolverContractKey_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PropertyNameTable_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::DefaultContractResolverState._ctor
 template<>
 
@@ -33,8 +33,10 @@ constexpr void Newtonsoft::Json::Serialization::DefaultContractResolverState::__
 constexpr Newtonsoft::Json::Utilities::PropertyNameTable Newtonsoft::Json::Serialization::DefaultContractResolverState::__get_NameTable() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Utilities::PropertyNameTable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::DefaultContractResolverState::DefaultContractResolverState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultContractResolverState>())) {}
+ Newtonsoft::Json::Serialization::DefaultContractResolverState Newtonsoft::Json::Serialization::DefaultContractResolverState::New_ctor()  {
+Newtonsoft::Json::Serialization::DefaultContractResolverState o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::DefaultContractResolverState>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::DefaultContractResolverState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::DefaultContractResolverState>::get(),

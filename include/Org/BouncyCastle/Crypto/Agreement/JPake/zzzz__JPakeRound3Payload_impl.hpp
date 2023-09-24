@@ -64,8 +64,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::__get_macTag() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "magTag", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::JPakeRound3Payload(::StringW participantId, Org::BouncyCastle::Math::BigInteger magTag)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakeRound3Payload>(participantId, magTag))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::New_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger magTag)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload>(participantId, magTag))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger magTag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload>::get(),

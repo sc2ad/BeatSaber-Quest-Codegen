@@ -47,8 +47,7 @@ constexpr explicit AndroidAccelerometer(void* ptr) noexcept : UnityEngine::Input
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidAccelerometer() ;
+static UnityEngine::InputSystem::Android::AndroidAccelerometer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953058 size 0x8 virtual false final false
  void _ctor() ;

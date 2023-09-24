@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__XRDeviceDescriptor_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
+#include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceExecuteCommandDelegate_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__XRDeviceDescriptor_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0._ctor
 template<>
 
@@ -47,8 +48,10 @@ constexpr void UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLay
 constexpr UnityEngine::InputSystem::XR::XRLayoutBuilder UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0::__get_layout() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::XR::XRLayoutBuilder, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0>())) {}
+ UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0 UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0::New_ctor()  {
+UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0>())};
+return o;
+}
  void UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XR::UnityEngine__InputSystem__XR__XRLayoutBuilder____c__DisplayClass5_0>::get(),
@@ -323,8 +326,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::Layouts::InputControlLayout, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XR::XRLayoutBuilder::XRLayoutBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XRLayoutBuilder>())) {}
+ UnityEngine::InputSystem::XR::XRLayoutBuilder UnityEngine::InputSystem::XR::XRLayoutBuilder::New_ctor()  {
+UnityEngine::InputSystem::XR::XRLayoutBuilder o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XR::XRLayoutBuilder>())};
+return o;
+}
  void UnityEngine::InputSystem::XR::XRLayoutBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XR::XRLayoutBuilder>::get(),

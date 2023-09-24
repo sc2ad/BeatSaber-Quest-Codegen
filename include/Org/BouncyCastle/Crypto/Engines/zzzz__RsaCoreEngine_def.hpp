@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
+}
 namespace Org::BouncyCastle::Crypto {
 class IRsa;
 }
@@ -11,9 +14,6 @@ class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -106,8 +106,7 @@ constexpr int32_t __get_bitSize() const;
 /// @brief Method ProcessBlock addr 0xe54a80 size 0x168 virtual true final false
  Org::BouncyCastle::Math::BigInteger ProcessBlock(Org::BouncyCastle::Math::BigInteger input) ;
 
-// Ctor Parameters []
-explicit RsaCoreEngine() ;
+static Org::BouncyCastle::Crypto::Engines::RsaCoreEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe538a0 size 0x8 virtual false final false
  void _ctor() ;

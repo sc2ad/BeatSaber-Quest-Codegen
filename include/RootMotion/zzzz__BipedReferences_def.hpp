@@ -6,23 +6,26 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace UnityEngine {
-class Animator;
+namespace RootMotion {
+struct RootMotion__BipedReferences__AutoDetectParams;
 }
-namespace UnityEngine {
-class Transform;
+namespace RootMotion {
+struct RootMotion__BipedNaming__BoneSide;
 }
 namespace RootMotion {
 struct RootMotion__BipedNaming__BoneType;
 }
-namespace RootMotion {
-struct RootMotion__BipedNaming__BoneSide;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -329,8 +332,7 @@ static bool FacingAxisWarning(RootMotion::BipedReferences references, ByRef<::St
 /// @brief Method GetVerticalOffset addr 0x11b29c4 size 0x68 virtual false final false
 static float_t GetVerticalOffset(UnityEngine::Vector3 p1, UnityEngine::Vector3 p2, UnityEngine::Quaternion rotation) ;
 
-// Ctor Parameters []
-explicit BipedReferences() ;
+static RootMotion::BipedReferences New_ctor() ;
 
 /// @brief Method .ctor addr 0x11afda4 size 0x68 virtual false final false
  void _ctor() ;

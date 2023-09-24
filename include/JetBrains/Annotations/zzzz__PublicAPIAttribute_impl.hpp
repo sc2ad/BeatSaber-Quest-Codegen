@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::PublicAPIAttribute::__set__Comment_k__Bac
 constexpr ::StringW JetBrains::Annotations::PublicAPIAttribute::__get__Comment_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::PublicAPIAttribute::PublicAPIAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PublicAPIAttribute>())) {}
+ JetBrains::Annotations::PublicAPIAttribute JetBrains::Annotations::PublicAPIAttribute::New_ctor()  {
+JetBrains::Annotations::PublicAPIAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::PublicAPIAttribute>())};
+return o;
+}
  void JetBrains::Annotations::PublicAPIAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::PublicAPIAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "comment", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::PublicAPIAttribute::PublicAPIAttribute(::StringW comment)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PublicAPIAttribute>(comment))) {}
+ JetBrains::Annotations::PublicAPIAttribute JetBrains::Annotations::PublicAPIAttribute::New_ctor(::StringW comment)  {
+JetBrains::Annotations::PublicAPIAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::PublicAPIAttribute>(comment))};
+return o;
+}
  void JetBrains::Annotations::PublicAPIAttribute::_ctor(::StringW comment)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::PublicAPIAttribute>::get(),

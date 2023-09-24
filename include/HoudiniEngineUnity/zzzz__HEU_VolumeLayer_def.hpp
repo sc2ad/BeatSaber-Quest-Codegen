@@ -5,17 +5,17 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
-}
-namespace UnityEngine {
-class TerrainLayer;
+struct HFLayerType;
 }
 namespace HoudiniEngineUnity {
 class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
-struct HFLayerType;
+template<typename T>
+class IEquivable_1;
+}
+namespace UnityEngine {
+class TerrainLayer;
 }
 namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
@@ -141,8 +141,7 @@ constexpr HoudiniEngineUnity::HEU_DetailPrototype __get__detailPrototype() const
 /// @brief Method IsEquivalentTo addr 0x2077538 size 0x370 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeLayer other) ;
 
-// Ctor Parameters []
-explicit HEU_VolumeLayer() ;
+static HoudiniEngineUnity::HEU_VolumeLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x20778a8 size 0x10 virtual false final false
  void _ctor() ;

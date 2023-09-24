@@ -1,10 +1,10 @@
 #pragma once
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__StringWriter_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: System::IO::StringWriter._ctor
 template<>
 
@@ -193,8 +193,10 @@ constexpr void System::IO::StringWriter::__set__isOpen(bool value)  {
 constexpr bool System::IO::StringWriter::__get__isOpen() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::StringWriter::StringWriter()  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StringWriter>())) {}
+ System::IO::StringWriter System::IO::StringWriter::New_ctor()  {
+System::IO::StringWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StringWriter>())};
+return o;
+}
  void System::IO::StringWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StringWriter>::get(),
@@ -204,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "formatProvider", ty: "System::IFormatProvider", modifiers: "", def_value: None }]
- System::IO::StringWriter::StringWriter(System::IFormatProvider formatProvider)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StringWriter>(formatProvider))) {}
+ System::IO::StringWriter System::IO::StringWriter::New_ctor(System::IFormatProvider formatProvider)  {
+System::IO::StringWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StringWriter>(formatProvider))};
+return o;
+}
  void System::IO::StringWriter::_ctor(System::IFormatProvider formatProvider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StringWriter>::get(),
@@ -215,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, formatProvider);
 }
-// Ctor Parameters [CppParam { name: "sb", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }, CppParam { name: "formatProvider", ty: "System::IFormatProvider", modifiers: "", def_value: None }]
- System::IO::StringWriter::StringWriter(System::Text::StringBuilder sb, System::IFormatProvider formatProvider)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StringWriter>(sb, formatProvider))) {}
+ System::IO::StringWriter System::IO::StringWriter::New_ctor(System::Text::StringBuilder sb, System::IFormatProvider formatProvider)  {
+System::IO::StringWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StringWriter>(sb, formatProvider))};
+return o;
+}
  void System::IO::StringWriter::_ctor(System::Text::StringBuilder sb, System::IFormatProvider formatProvider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StringWriter>::get(),

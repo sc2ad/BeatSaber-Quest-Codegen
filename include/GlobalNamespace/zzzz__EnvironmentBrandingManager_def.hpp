@@ -6,6 +6,9 @@
 namespace UnityEngine {
 class GameObject;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__EnvironmentBrandingManager__InitData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class EnvironmentBrandingManager;
@@ -64,8 +67,7 @@ constexpr bool __get_hideBranding() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hideBranding", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EnvironmentBrandingManager__InitData(bool hideBranding) ;
+static GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData New_ctor(bool hideBranding) ;
 
 /// @brief Method .ctor addr 0x222ca88 size 0x28 virtual false final false
  void _ctor(bool hideBranding) ;
@@ -142,8 +144,7 @@ constexpr GlobalNamespace::GlobalNamespace__EnvironmentBrandingManager__InitData
 /// @brief Method Start addr 0x222c9b4 size 0xcc virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit EnvironmentBrandingManager() ;
+static GlobalNamespace::EnvironmentBrandingManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222ca80 size 0x8 virtual false final false
  void _ctor() ;

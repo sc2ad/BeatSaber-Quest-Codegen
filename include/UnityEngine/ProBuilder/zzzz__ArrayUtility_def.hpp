@@ -6,17 +6,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::ProBuilder {
+template<typename TSource,typename TKey>
+class UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2;
+}
 namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace UnityEngine::ProBuilder {
+struct UnityEngine__ProBuilder__ArrayUtility__SearchRange;
+}
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::ProBuilder {
+template<typename T>
+class UnityEngine__ProBuilder__ArrayUtility____c__23_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,7 +35,7 @@ class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -50,8 +61,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 class UnityEngine__ProBuilder__ArrayUtility____c__23_1<T>;
 }
 namespace UnityEngine::ProBuilder {
-template<>
-class UnityEngine__ProBuilder__ArrayUtility____c__23_1<int32_t>;
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+class UnityEngine__ProBuilder__ArrayUtility____c__23_1<T>;
 }
 namespace UnityEngine::ProBuilder {
 template<::cordl_internals::il2cpp_reference_type TSource,::cordl_internals::il2cpp_reference_type TKey>
@@ -289,78 +300,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass21_0`2
 namespace UnityEngine::ProBuilder {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type TSource,::cordl_internals::il2cpp_reference_type TKey>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12037))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12037), inst: 80 })
-// CS Name: UnityEngine.ProBuilder.ArrayUtility::<>c__DisplayClass21_0`2
-class CORDL_TYPE UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2<TSource,TKey> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2&& o) noexcept = default;
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Collections::Generic::HashSet_1<TKey> __declspec(property(get=__get_knownKeys, put=__set_knownKeys))  knownKeys;
-
-constexpr void __set_knownKeys(System::Collections::Generic::HashSet_1<TKey> value) ;
-
-constexpr System::Collections::Generic::HashSet_1<TKey> __get_knownKeys() const;
-
- System::Func_2<TSource,TKey> __declspec(property(get=__get_keySelector, put=__set_keySelector))  keySelector;
-
-constexpr void __set_keySelector(System::Func_2<TSource,TKey> value) ;
-
-constexpr System::Func_2<TSource,TKey> __get_keySelector() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <DistinctBy>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- bool _DistinctBy_b__0(TSource x) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::ProBuilder
-// Type: ::<>c__DisplayClass21_0`2
-namespace UnityEngine::ProBuilder {
-// cpp template
 template<::cordl_internals::il2cpp_reference_type TSource>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12037))}
@@ -417,14 +356,155 @@ constexpr System::Func_2<TSource,UnityEngine::ProBuilder::Edge> __get_keySelecto
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2<TSource,UnityEngine::ProBuilder::Edge> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <DistinctBy>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
  bool _DistinctBy_b__0(TSource x) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::ProBuilder
+// Type: ::<>c__DisplayClass21_0`2
+namespace UnityEngine::ProBuilder {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type TSource,::cordl_internals::il2cpp_reference_type TKey>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12037))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12037), inst: 80 })
+// CS Name: UnityEngine.ProBuilder.ArrayUtility::<>c__DisplayClass21_0`2
+class CORDL_TYPE UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2<TSource,TKey> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2&& o) noexcept = default;
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2& operator=(UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Collections::Generic::HashSet_1<TKey> __declspec(property(get=__get_knownKeys, put=__set_knownKeys))  knownKeys;
+
+constexpr void __set_knownKeys(System::Collections::Generic::HashSet_1<TKey> value) ;
+
+constexpr System::Collections::Generic::HashSet_1<TKey> __get_knownKeys() const;
+
+ System::Func_2<TSource,TKey> __declspec(property(get=__get_keySelector, put=__set_keySelector))  keySelector;
+
+constexpr void __set_keySelector(System::Func_2<TSource,TKey> value) ;
+
+constexpr System::Func_2<TSource,TKey> __get_keySelector() const;
+
+
+// Methods
+
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__DisplayClass21_0_2<TSource,TKey> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <DistinctBy>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ bool _DistinctBy_b__0(TSource x) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def UnityEngine::ProBuilder
+// Type: ::<>c__23`1
+namespace UnityEngine::ProBuilder {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12038))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12038), inst: 92 })
+// CS Name: UnityEngine.ProBuilder.ArrayUtility::<>c__23`1
+class CORDL_TYPE UnityEngine__ProBuilder__ArrayUtility____c__23_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~UnityEngine__ProBuilder__ArrayUtility____c__23_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__23_1", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1(UnityEngine__ProBuilder__ArrayUtility____c__23_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__23_1", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1(UnityEngine__ProBuilder__ArrayUtility____c__23_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit UnityEngine__ProBuilder__ArrayUtility____c__23_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(UnityEngine__ProBuilder__ArrayUtility____c__23_1&& o) noexcept = default;
+  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(UnityEngine__ProBuilder__ArrayUtility____c__23_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<T> __declspec(property(get=__get___9, put=__set___9))  __9;
+
+static void __set___9(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<T> value) ;
+
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<T> __get___9() ;
+
+static System::Func_2<T,::StringW> __declspec(property(get=__get___9__23_0, put=__set___9__23_0))  __9__23_0;
+
+static void __set___9__23_0(System::Func_2<T,::StringW> value) ;
+
+static System::Func_2<T,::StringW> __get___9__23_0() ;
+
+
+// Methods
+
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <ToString>b__23_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ ::StringW _ToString_b__23_0(T x) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -489,86 +569,13 @@ static System::Func_2<T,::StringW> __get___9__23_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ArrayUtility____c__23_1() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
 /// @brief Method <ToString>b__23_0 addr 0x0 size 0xffffffffffffffff virtual false final false
  ::StringW _ToString_b__23_0(T x) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def UnityEngine::ProBuilder
-// Type: ::<>c__23`1
-namespace UnityEngine::ProBuilder {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12038))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12038), inst: 92 })
-// CS Name: UnityEngine.ProBuilder.ArrayUtility::<>c__23`1
-class CORDL_TYPE UnityEngine__ProBuilder__ArrayUtility____c__23_1<int32_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~UnityEngine__ProBuilder__ArrayUtility____c__23_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__23_1", modifiers: " const&", def_value: None }]
-constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1(UnityEngine__ProBuilder__ArrayUtility____c__23_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__ProBuilder__ArrayUtility____c__23_1", modifiers: "&&", def_value: None }]
-constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1(UnityEngine__ProBuilder__ArrayUtility____c__23_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEngine__ProBuilder__ArrayUtility____c__23_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(UnityEngine__ProBuilder__ArrayUtility____c__23_1&& o) noexcept = default;
-  constexpr UnityEngine__ProBuilder__ArrayUtility____c__23_1& operator=(UnityEngine__ProBuilder__ArrayUtility____c__23_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
-static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<int32_t> __declspec(property(get=__get___9, put=__set___9))  __9;
-
-static void __set___9(UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<int32_t> value) ;
-
-static UnityEngine::ProBuilder::UnityEngine__ProBuilder__ArrayUtility____c__23_1<int32_t> __get___9() ;
-
-static System::Func_2<int32_t,::StringW> __declspec(property(get=__get___9__23_0, put=__set___9__23_0))  __9__23_0;
-
-static void __set___9__23_0(System::Func_2<int32_t,::StringW> value) ;
-
-static System::Func_2<int32_t,::StringW> __get___9__23_0() ;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__ArrayUtility____c__23_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <ToString>b__23_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- ::StringW _ToString_b__23_0(int32_t x) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp;
+}
 namespace System {
 class Type;
 }
@@ -17,11 +20,11 @@ class WebRequestQueueOperation;
 namespace System {
 class Exception;
 }
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
+}
+namespace UnityEngine {
+class AsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -138,8 +141,7 @@ constexpr int32_t __get_m_Timeout() const;
 /// @brief Method SendWebRequest addr 0x2a42e34 size 0x284 virtual true final false
  void SendWebRequest(::StringW path) ;
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp() ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__TextDataProvider__InternalOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a4266c size 0x8 virtual false final false
  void _ctor() ;
@@ -221,8 +223,7 @@ constexpr bool __get__IgnoreFailures_k__BackingField() const;
 /// @brief Method Provide addr 0x2a425dc size 0x90 virtual true final false
  void Provide(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle) ;
 
-// Ctor Parameters []
-explicit TextDataProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3fdcc size 0x8 virtual false final false
  void _ctor() ;

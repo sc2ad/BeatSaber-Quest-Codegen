@@ -118,8 +118,10 @@ constexpr void Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::__set_unicodeVersi
 constexpr Org::BouncyCastle::Asn1::DerPrintableString Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::__get_unicodeVersion() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerPrintableString, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ldsVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "unicodeVersion", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::LdsVersionInfo(::StringW ldsVersion, ::StringW unicodeVersion)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<LdsVersionInfo>(ldsVersion, unicodeVersion))) {}
+ Org::BouncyCastle::Asn1::Icao::LdsVersionInfo Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::New_ctor(::StringW ldsVersion, ::StringW unicodeVersion)  {
+Org::BouncyCastle::Asn1::Icao::LdsVersionInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::LdsVersionInfo>(ldsVersion, unicodeVersion))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::_ctor(::StringW ldsVersion, ::StringW unicodeVersion)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::LdsVersionInfo>::get(),
@@ -129,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ldsVersion, unicodeVersion);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::LdsVersionInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<LdsVersionInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::Icao::LdsVersionInfo Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Icao::LdsVersionInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::LdsVersionInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::LdsVersionInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::LdsVersionInfo>::get(),

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MonoMethodMessage_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Proxies::RealProxy._ctor
 template<>
 
@@ -348,8 +348,10 @@ constexpr void System::Runtime::Remoting::Proxies::RealProxy::__set__stubData(::
 constexpr ::bs_hook::Il2CppWrapperType System::Runtime::Remoting::Proxies::RealProxy::__get__stubData() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Proxies::RealProxy::RealProxy()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RealProxy>())) {}
+ System::Runtime::Remoting::Proxies::RealProxy System::Runtime::Remoting::Proxies::RealProxy::New_ctor()  {
+System::Runtime::Remoting::Proxies::RealProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::RealProxy>())};
+return o;
+}
  void System::Runtime::Remoting::Proxies::RealProxy::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::RealProxy>::get(),
@@ -359,8 +361,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "classToProxy", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Proxies::RealProxy::RealProxy(System::Type classToProxy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RealProxy>(classToProxy))) {}
+ System::Runtime::Remoting::Proxies::RealProxy System::Runtime::Remoting::Proxies::RealProxy::New_ctor(System::Type classToProxy)  {
+System::Runtime::Remoting::Proxies::RealProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::RealProxy>(classToProxy))};
+return o;
+}
  void System::Runtime::Remoting::Proxies::RealProxy::_ctor(System::Type classToProxy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::RealProxy>::get(),
@@ -370,8 +374,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, classToProxy);
 }
-// Ctor Parameters [CppParam { name: "classToProxy", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identity", ty: "System::Runtime::Remoting::ClientIdentity", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Proxies::RealProxy::RealProxy(System::Type classToProxy, System::Runtime::Remoting::ClientIdentity identity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RealProxy>(classToProxy, identity))) {}
+ System::Runtime::Remoting::Proxies::RealProxy System::Runtime::Remoting::Proxies::RealProxy::New_ctor(System::Type classToProxy, System::Runtime::Remoting::ClientIdentity identity)  {
+System::Runtime::Remoting::Proxies::RealProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::RealProxy>(classToProxy, identity))};
+return o;
+}
  void System::Runtime::Remoting::Proxies::RealProxy::_ctor(System::Type classToProxy, System::Runtime::Remoting::ClientIdentity identity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::RealProxy>::get(),
@@ -381,8 +387,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, classToProxy, identity);
 }
-// Ctor Parameters [CppParam { name: "classToProxy", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "stub", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "stubData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Proxies::RealProxy::RealProxy(System::Type classToProxy, ::cordl_internals::intptr_t stub, ::bs_hook::Il2CppWrapperType stubData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RealProxy>(classToProxy, stub, stubData))) {}
+ System::Runtime::Remoting::Proxies::RealProxy System::Runtime::Remoting::Proxies::RealProxy::New_ctor(System::Type classToProxy, ::cordl_internals::intptr_t stub, ::bs_hook::Il2CppWrapperType stubData)  {
+System::Runtime::Remoting::Proxies::RealProxy o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Proxies::RealProxy>(classToProxy, stub, stubData))};
+return o;
+}
  void System::Runtime::Remoting::Proxies::RealProxy::_ctor(System::Type classToProxy, ::cordl_internals::intptr_t stub, ::bs_hook::Il2CppWrapperType stubData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Proxies::RealProxy>::get(),

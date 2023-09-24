@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
-#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
+#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightRotationBeatmapEventData.get_rotation
 template<>
 
@@ -198,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "loopCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rotationDirection", ty: "GlobalNamespace::LightRotationDirection", modifiers: "", def_value: None }]
- GlobalNamespace::LightRotationBeatmapEventData::LightRotationBeatmapEventData(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, GlobalNamespace::LightRotationDirection rotationDirection)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<LightRotationBeatmapEventData>(time, groupId, elementId, usePreviousEventValue, easeType, axis, rotation, loopCount, rotationDirection))) {}
+ GlobalNamespace::LightRotationBeatmapEventData GlobalNamespace::LightRotationBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, GlobalNamespace::LightRotationDirection rotationDirection)  {
+GlobalNamespace::LightRotationBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightRotationBeatmapEventData>(time, groupId, elementId, usePreviousEventValue, easeType, axis, rotation, loopCount, rotationDirection))};
+return o;
+}
  void GlobalNamespace::LightRotationBeatmapEventData::_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, GlobalNamespace::LightRotationDirection rotationDirection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightRotationBeatmapEventData>::get(),

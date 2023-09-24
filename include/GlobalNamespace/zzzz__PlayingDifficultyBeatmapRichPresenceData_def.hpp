@@ -91,8 +91,7 @@ constexpr ::StringW __get__localizedDescription_k__BackingField() const;
 /// @brief Method set_localizedDescription addr 0x222a500 size 0x8 virtual false final false
  void set_localizedDescription(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
-explicit PlayingDifficultyBeatmapRichPresenceData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+static GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData New_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 /// @brief Method .ctor addr 0x222a508 size 0x40 virtual false final false
  void _ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;

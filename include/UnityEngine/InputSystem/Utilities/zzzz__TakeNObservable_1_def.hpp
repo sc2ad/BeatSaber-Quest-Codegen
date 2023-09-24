@@ -4,14 +4,18 @@
 #include <cstdint>
 namespace System {
 template<typename T>
-class IObserver_1;
-}
-namespace System {
-template<typename T>
 class IObservable_1;
 }
 namespace System {
+template<typename T>
+class IObserver_1;
+}
+namespace System {
 class IDisposable;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__TakeNObservable_1__Take;
 }
 namespace System {
 class Exception;
@@ -97,8 +101,7 @@ constexpr int32_t __get_m_Remaining() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "observable", ty: "UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "observer", ty: "System::IObserver_1<TValue>", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__TakeNObservable_1__Take(UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue> observable, System::IObserver_1<TValue> observer) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__TakeNObservable_1__Take<TValue> New_ctor(UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue> observable, System::IObserver_1<TValue> observer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue> observable, System::IObserver_1<TValue> observer) ;
@@ -180,8 +183,7 @@ constexpr int32_t __get_m_Count() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::IObservable_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TakeNObservable_1(System::IObservable_1<TValue> source, int32_t count) ;
+static UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue> New_ctor(System::IObservable_1<TValue> source, int32_t count) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::IObservable_1<TValue> source, int32_t count) ;

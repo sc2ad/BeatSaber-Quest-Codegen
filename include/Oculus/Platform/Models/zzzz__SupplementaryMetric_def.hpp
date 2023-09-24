@@ -63,8 +63,7 @@ constexpr int64_t __get_Metric() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit SupplementaryMetric(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::SupplementaryMetric New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259f9a8 size 0x88 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

@@ -2,6 +2,7 @@
 #include "System/zzzz__TypeNames_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
+#include "System/zzzz__TypeNames_def.hpp"
 //  Writing Method size for method: System::System__TypeNames__ATypeName.get_DisplayName
 template<>
 
@@ -131,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- System::System__TypeNames__ATypeName::System__TypeNames__ATypeName()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TypeNames__ATypeName>())) {}
+ System::System__TypeNames__ATypeName System::System__TypeNames__ATypeName::New_ctor()  {
+System::System__TypeNames__ATypeName o{THROW_UNLESS(::il2cpp_utils::New<System::System__TypeNames__ATypeName>())};
+return o;
+}
  void System::System__TypeNames__ATypeName::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TypeNames__ATypeName>::get(),

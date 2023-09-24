@@ -1,7 +1,6 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/zzzz__UnityWebRequestResult_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::UnityWebRequestResult._ctor
 template<>
 
@@ -185,8 +184,10 @@ constexpr void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__s
 constexpr ::StringW UnityEngine::ResourceManagement::Util::UnityWebRequestResult::__get__Url_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "UnityEngine::Networking::UnityWebRequest", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Util::UnityWebRequestResult::UnityWebRequestResult(UnityEngine::Networking::UnityWebRequest request)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityWebRequestResult>(request))) {}
+ UnityEngine::ResourceManagement::Util::UnityWebRequestResult UnityEngine::ResourceManagement::Util::UnityWebRequestResult::New_ctor(UnityEngine::Networking::UnityWebRequest request)  {
+UnityEngine::ResourceManagement::Util::UnityWebRequestResult o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::UnityWebRequestResult>(request))};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::UnityWebRequestResult::_ctor(UnityEngine::Networking::UnityWebRequest request)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::UnityWebRequestResult>::get(),

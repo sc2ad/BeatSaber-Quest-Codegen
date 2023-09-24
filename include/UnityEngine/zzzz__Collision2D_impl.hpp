@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__Collision2D_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__ContactPoint2D_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 constexpr void UnityEngine::Collision2D::__set_m_Collider(int32_t value)  {
 ::cordl_internals::setInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<int32_t>(value));
 }

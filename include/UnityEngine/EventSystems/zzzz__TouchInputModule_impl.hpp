@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__TouchInputModule_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::TouchInputModule._ctor
 template<>
 
@@ -282,8 +282,10 @@ constexpr void UnityEngine::EventSystems::TouchInputModule::__set_m_ForceModuleA
 constexpr bool UnityEngine::EventSystems::TouchInputModule::__get_m_ForceModuleActive() const {
 return ::cordl_internals::getInstanceField<bool, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::EventSystems::TouchInputModule::TouchInputModule()  : UnityEngine::EventSystems::PointerInputModule(THROW_UNLESS(::il2cpp_utils::New<TouchInputModule>())) {}
+ UnityEngine::EventSystems::TouchInputModule UnityEngine::EventSystems::TouchInputModule::New_ctor()  {
+UnityEngine::EventSystems::TouchInputModule o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::TouchInputModule>())};
+return o;
+}
  void UnityEngine::EventSystems::TouchInputModule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::TouchInputModule>::get(),

@@ -4,33 +4,34 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
+#include "GlobalNamespace/zzzz__SliderController_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshController_def.hpp"
-#include "GlobalNamespace/zzzz__ISliderDidDissolveEvent_def.hpp"
-#include "GlobalNamespace/zzzz__ISliderTailDidMovePastCutMarkEvent_def.hpp"
-#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__ISliderDidFinishJumpEvent_def.hpp"
-#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
-#include "GlobalNamespace/zzzz__SliderIntensityEffect_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "GlobalNamespace/zzzz__ISliderDidStartDissolvingEvent_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__FixedUpdateVector3SmoothValue_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__SliderMovement_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__ISliderHeadDidMovePastCutMarkEvent_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__ISliderTailDidMovePastCutMarkEvent_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
+#include "GlobalNamespace/zzzz__ISliderDidFinishJumpEvent_def.hpp"
+#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SliderMovement_def.hpp"
+#include "GlobalNamespace/zzzz__ISliderDidDissolveEvent_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
+#include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "GlobalNamespace/zzzz__SliderIntensityEffect_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SliderController__LengthType::GlobalNamespace__SliderController__LengthType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1222,8 +1223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(nullptr, ___internal_method, saber);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderController::SliderController()  : GlobalNamespace::SliderControllerBase(THROW_UNLESS(::il2cpp_utils::New<SliderController>())) {}
+ GlobalNamespace::SliderController GlobalNamespace::SliderController::New_ctor()  {
+GlobalNamespace::SliderController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderController>())};
+return o;
+}
  void GlobalNamespace::SliderController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderController>::get(),
@@ -1250,8 +1253,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SliderController__Pool__Short::GlobalNamespace__SliderController__Pool__Short()  : Zenject::MonoMemoryPool_1<GlobalNamespace::SliderController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderController__Pool__Short>())) {}
+ GlobalNamespace::GlobalNamespace__SliderController__Pool__Short GlobalNamespace::GlobalNamespace__SliderController__Pool__Short::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SliderController__Pool__Short o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderController__Pool__Short>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderController__Pool__Short::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderController__Pool__Short>::get(),
@@ -1278,8 +1283,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium::GlobalNamespace__SliderController__Pool__Medium()  : Zenject::MonoMemoryPool_1<GlobalNamespace::SliderController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderController__Pool__Medium>())) {}
+ GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium>::get(),
@@ -1306,8 +1313,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SliderController__Pool__Long::GlobalNamespace__SliderController__Pool__Long()  : Zenject::MonoMemoryPool_1<GlobalNamespace::SliderController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderController__Pool__Long>())) {}
+ GlobalNamespace::GlobalNamespace__SliderController__Pool__Long GlobalNamespace::GlobalNamespace__SliderController__Pool__Long::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SliderController__Pool__Long o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderController__Pool__Long>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderController__Pool__Long::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderController__Pool__Long>::get(),
@@ -1386,8 +1395,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SliderController__Pool::__set__
 constexpr GlobalNamespace::GlobalNamespace__SliderController__Pool__Long GlobalNamespace::GlobalNamespace__SliderController__Pool::__get__longPool() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__SliderController__Pool__Long, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "shortPool", ty: "GlobalNamespace::GlobalNamespace__SliderController__Pool__Short", modifiers: "", def_value: None }, CppParam { name: "mediumPool", ty: "GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium", modifiers: "", def_value: None }, CppParam { name: "longPool", ty: "GlobalNamespace::GlobalNamespace__SliderController__Pool__Long", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SliderController__Pool::GlobalNamespace__SliderController__Pool(GlobalNamespace::GlobalNamespace__SliderController__Pool__Short shortPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium mediumPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Long longPool)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderController__Pool>(shortPool, mediumPool, longPool))) {}
+ GlobalNamespace::GlobalNamespace__SliderController__Pool GlobalNamespace::GlobalNamespace__SliderController__Pool::New_ctor(GlobalNamespace::GlobalNamespace__SliderController__Pool__Short shortPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium mediumPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Long longPool)  {
+GlobalNamespace::GlobalNamespace__SliderController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderController__Pool>(shortPool, mediumPool, longPool))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderController__Pool::_ctor(GlobalNamespace::GlobalNamespace__SliderController__Pool__Short shortPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Medium mediumPool, GlobalNamespace::GlobalNamespace__SliderController__Pool__Long longPool)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderController__Pool>::get(),
@@ -1553,8 +1564,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SliderController___DissolveCoro
 constexpr float_t GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70::__get_duration() const {
 return ::cordl_internals::getInstanceField<float_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70::GlobalNamespace__SliderController___DissolveCoroutine_d__70(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SliderController___DissolveCoroutine_d__70>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70 GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SliderController___DissolveCoroutine_d__70>::get(),

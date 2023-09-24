@@ -4,13 +4,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class Animator;
+class GameObject;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRControllerHelper__ControllerType;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRInput__Controller;
 }
 namespace UnityEngine {
-class GameObject;
+class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -70,6 +73,8 @@ __TouchPro = 4,
 constexpr operator __GlobalNamespace__OVRControllerHelper__ControllerType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRControllerHelper__ControllerType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -260,8 +265,7 @@ constexpr bool __get_m_prevControllerConnectedCached() const;
 /// @brief Method InputFocusLost addr 0x261a1cc size 0x8 virtual false final false
  void InputFocusLost() ;
 
-// Ctor Parameters []
-explicit OVRControllerHelper() ;
+static GlobalNamespace::OVRControllerHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x261a1d4 size 0x18 virtual false final false
  void _ctor() ;

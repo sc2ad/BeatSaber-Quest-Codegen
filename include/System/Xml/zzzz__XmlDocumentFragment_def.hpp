@@ -6,13 +6,13 @@ namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
-class XmlLinkedNode;
-}
-namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+class XmlLinkedNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -88,8 +88,7 @@ constexpr System::Xml::XmlLinkedNode __get_lastChild() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ownerDocument", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlDocumentFragment(System::Xml::XmlDocument ownerDocument) ;
+static System::Xml::XmlDocumentFragment New_ctor(System::Xml::XmlDocument ownerDocument) ;
 
 /// @brief Method .ctor addr 0x26f4068 size 0x84 virtual false final false
  void _ctor(System::Xml::XmlDocument ownerDocument) ;

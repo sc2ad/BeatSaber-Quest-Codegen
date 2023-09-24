@@ -3,23 +3,14 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__SliderData__Type;
-}
-namespace GlobalNamespace {
-struct Vector3Serializable;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
 struct SliderMidAnchorMode;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
@@ -28,7 +19,16 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
+struct NoteLineLayer;
+}
+namespace GlobalNamespace {
 struct ColorType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SliderData__Type;
+}
+namespace GlobalNamespace {
+struct Vector3Serializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -277,8 +277,7 @@ static GlobalNamespace::SliderSpawnInfoNetSerializable Obtain() ;
 /// @brief Method Init addr 0x121bf4c size 0x244 virtual false final false
  GlobalNamespace::SliderSpawnInfoNetSerializable Init(GlobalNamespace::ColorType colorType, GlobalNamespace::GlobalNamespace__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, int32_t headLineIndex, GlobalNamespace::NoteLineLayer headLineLayer, GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex, GlobalNamespace::NoteLineLayer tailLineLayer, GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier, GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount, UnityEngine::Vector3 headMoveStartPos, UnityEngine::Vector3 headJumpStartPos, UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity, UnityEngine::Vector3 tailMoveStartPos, UnityEngine::Vector3 tailJumpStartPos, UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration, float_t jumpDuration, float_t rotation) ;
 
-// Ctor Parameters []
-explicit SliderSpawnInfoNetSerializable() ;
+static GlobalNamespace::SliderSpawnInfoNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x121c190 size 0x58 virtual false final false
  void _ctor() ;

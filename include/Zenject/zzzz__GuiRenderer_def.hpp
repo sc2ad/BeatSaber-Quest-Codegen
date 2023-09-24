@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class InjectTypeInfo;
+class GuiRenderableManager;
 }
 namespace Zenject {
-class GuiRenderableManager;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -70,8 +70,7 @@ constexpr Zenject::GuiRenderableManager __get__renderableManager() const;
 /// @brief Method OnGUI addr 0x2d99a48 size 0x18 virtual false final false
  void OnGUI() ;
 
-// Ctor Parameters []
-explicit GuiRenderer() ;
+static Zenject::GuiRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d99a60 size 0x8 virtual false final false
  void _ctor() ;

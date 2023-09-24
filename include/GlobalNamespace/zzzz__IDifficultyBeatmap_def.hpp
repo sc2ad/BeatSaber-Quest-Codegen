@@ -3,20 +3,7 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class IBeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
@@ -25,7 +12,20 @@ namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
+class IReadonlyBeatmapData;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 // Forward declare root types
 namespace GlobalNamespace {

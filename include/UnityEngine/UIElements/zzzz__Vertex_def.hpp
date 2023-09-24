@@ -3,10 +3,10 @@
 #include <cmath>
 #include <cstddef>
 namespace UnityEngine {
-struct Vector2;
+struct Color32;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;

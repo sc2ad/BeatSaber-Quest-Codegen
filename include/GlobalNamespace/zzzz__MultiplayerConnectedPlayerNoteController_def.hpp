@@ -65,8 +65,7 @@ constexpr UnityEngine::GameObject __get__visualsWrapperGo() const;
 /// @brief Method Pause addr 0x20e23bc size 0x10 virtual true final false
  void Pause(bool pause) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerNoteController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e210c size 0x8 virtual false final false
  void _ctor() ;

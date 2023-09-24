@@ -2,37 +2,37 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__LevelCompletionResults__LevelEndAction;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
+class ComboController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectExecutionRatingsRecorder;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
-}
-namespace GlobalNamespace {
-class ComboController;
+class IScoreController;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
 class GameEnergyCounter;
 }
 namespace GlobalNamespace {
-class IScoreController;
+struct GlobalNamespace__LevelCompletionResults__LevelEndAction;
+}
+namespace GlobalNamespace {
+class GameplayModifiersModelSO;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class SaberActivityCounter;
@@ -143,8 +143,7 @@ constexpr GlobalNamespace::ComboController __get__comboController() const;
 /// @brief Method FillLevelCompletionResults addr 0x2108a30 size 0x250 virtual false final false
  GlobalNamespace::LevelCompletionResults FillLevelCompletionResults(GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction) ;
 
-// Ctor Parameters []
-explicit PrepareLevelCompletionResults() ;
+static GlobalNamespace::PrepareLevelCompletionResults New_ctor() ;
 
 /// @brief Method .ctor addr 0x2108cb8 size 0x8 virtual false final false
  void _ctor() ;

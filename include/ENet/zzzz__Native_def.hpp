@@ -7,16 +7,13 @@
 #include <cmath>
 #include <cstdint>
 namespace ENet {
-struct ENetEvent;
-}
-namespace ENet {
 struct ENetCallbacks;
 }
 namespace ENet {
-struct PacketFlags;
+struct ENetSslConfiguration;
 }
 namespace ENet {
-struct ENetSslConfiguration;
+struct ENetEvent;
 }
 namespace ENet {
 struct PeerState;
@@ -26,6 +23,9 @@ struct ENetAddress;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace ENet {
+struct PacketFlags;
 }
 // Forward declare root types
 namespace ENet {

@@ -2,6 +2,7 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggableAttribute_def.hpp"
+#include "System/Diagnostics/zzzz__DebuggableAttribute_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes::System__Diagnostics__DebuggableAttribute__DebuggingModes(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -39,8 +40,10 @@ constexpr void System::Diagnostics::DebuggableAttribute::__set_m_debuggingModes(
 constexpr System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes System::Diagnostics::DebuggableAttribute::__get_m_debuggingModes() const {
 return ::cordl_internals::getInstanceField<System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "modes", ty: "System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes", modifiers: "", def_value: None }]
- System::Diagnostics::DebuggableAttribute::DebuggableAttribute(System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes modes)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DebuggableAttribute>(modes))) {}
+ System::Diagnostics::DebuggableAttribute System::Diagnostics::DebuggableAttribute::New_ctor(System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes modes)  {
+System::Diagnostics::DebuggableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DebuggableAttribute>(modes))};
+return o;
+}
  void System::Diagnostics::DebuggableAttribute::_ctor(System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes modes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DebuggableAttribute>::get(),

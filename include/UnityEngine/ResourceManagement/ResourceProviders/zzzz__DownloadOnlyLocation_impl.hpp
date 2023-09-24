@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation::DownloadOnlyLocation(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  : UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper(THROW_UNLESS(::il2cpp_utils::New<DownloadOnlyLocation>(location))) {}
+ UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation::New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  {
+UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation>(location))};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation::_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation>::get(),

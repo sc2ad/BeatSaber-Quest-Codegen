@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Unity::Collections::ReadOnlyAttribute::ReadOnlyAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ReadOnlyAttribute>())) {}
+ Unity::Collections::ReadOnlyAttribute Unity::Collections::ReadOnlyAttribute::New_ctor()  {
+Unity::Collections::ReadOnlyAttribute o{THROW_UNLESS(::il2cpp_utils::New<Unity::Collections::ReadOnlyAttribute>())};
+return o;
+}
  void Unity::Collections::ReadOnlyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::Collections::ReadOnlyAttribute>::get(),

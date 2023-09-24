@@ -14,11 +14,11 @@ namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TValue>
-class IFactory_9;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TValue>
+class IFactory_9;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TParam4,typename TParam5,typename TParam6,typename TParam7,typename TParam8,typename TValue>
@@ -39,7 +39,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TParam4,::cordl_internals::il2cpp_reference_type TParam5,::cordl_internals::il2cpp_reference_type TParam6,::cordl_internals::il2cpp_reference_type TParam7,::cordl_internals::il2cpp_reference_type TParam8,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10988)), TypeDefinitionIndex(TypeDefinitionIndex(10991)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2695 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10991)), TypeDefinitionIndex(TypeDefinitionIndex(10988)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2695 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10988), inst: 7469 })
 // CS Name: Zenject.MemoryPool`9
 class CORDL_TYPE MemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue> : public Zenject::MemoryPoolBase_1<TValue> {
@@ -102,8 +102,7 @@ constexpr explicit MemoryPool_9(void* ptr) noexcept : Zenject::MemoryPoolBase_1<
 /// @brief Method Zenject.IFactory<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
  TValue Zenject_IFactory_TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue__Create(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TParam8 p8) ;
 
-// Ctor Parameters []
-explicit MemoryPool_9() ;
+static Zenject::MemoryPool_9<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -1,19 +1,20 @@
 #pragma once
 #include "Org/BouncyCastle/Ocsp/zzzz__BasicOcspRespGenerator_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__BasicOcspResp_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__SingleResponse_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__RespID_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__CertificateID_def.hpp"
+#include "Org/BouncyCastle/Ocsp/zzzz__BasicOcspRespGenerator_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ocsp/zzzz__SingleResponse_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertStatus_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject._ctor
 template<>
@@ -113,8 +114,10 @@ constexpr void Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGe
 constexpr Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::__get_extensions() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::X509Extensions, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Ocsp::CertificateStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>(certId, certStatus, thisUpdate, extensions))) {}
+ Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
+Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>(certId, certStatus, thisUpdate, extensions))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>::get(),
@@ -124,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certId, certStatus, thisUpdate, extensions);
 }
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Ocsp::CertificateStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "nextUpdate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, System::DateTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>(certId, certStatus, thisUpdate, nextUpdate, extensions))) {}
+ Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, System::DateTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
+Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>(certId, certStatus, thisUpdate, nextUpdate, extensions))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, System::DateTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>::get(),
@@ -135,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certId, certStatus, thisUpdate, nextUpdate, extensions);
 }
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Ocsp::CertificateStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "nextUpdate", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>(certId, certStatus, thisUpdate, nextUpdate, extensions))) {}
+ Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
+Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>(certId, certStatus, thisUpdate, nextUpdate, extensions))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject::_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject>::get(),
@@ -377,8 +384,10 @@ constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__set_responderI
 constexpr Org::BouncyCastle::Ocsp::RespID Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__get_responderID() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Ocsp::RespID, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "responderID", ty: "Org::BouncyCastle::Ocsp::RespID", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::BasicOcspRespGenerator(Org::BouncyCastle::Ocsp::RespID responderID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicOcspRespGenerator>(responderID))) {}
+ Org::BouncyCastle::Ocsp::BasicOcspRespGenerator Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::New_ctor(Org::BouncyCastle::Ocsp::RespID responderID)  {
+Org::BouncyCastle::Ocsp::BasicOcspRespGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::BasicOcspRespGenerator>(responderID))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::_ctor(Org::BouncyCastle::Ocsp::RespID responderID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::BasicOcspRespGenerator>::get(),
@@ -388,8 +397,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, responderID);
 }
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::BasicOcspRespGenerator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicOcspRespGenerator>(publicKey))) {}
+ Org::BouncyCastle::Ocsp::BasicOcspRespGenerator Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  {
+Org::BouncyCastle::Ocsp::BasicOcspRespGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::BasicOcspRespGenerator>(publicKey))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::BasicOcspRespGenerator>::get(),

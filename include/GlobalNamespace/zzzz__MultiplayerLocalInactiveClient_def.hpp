@@ -71,8 +71,7 @@ constexpr GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateMan
 /// @brief Method LateUpdate addr 0x20e81b8 size 0x348 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalInactiveClient() ;
+static GlobalNamespace::MultiplayerLocalInactiveClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e8500 size 0x8 virtual false final false
  void _ctor() ;

@@ -6,7 +6,17 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
 struct UICharInfo;
+}
+namespace UnityEngine {
+struct HorizontalWrapMode;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine {
 struct FontStyle;
@@ -15,48 +25,38 @@ namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
 struct VerticalWrapMode;
 }
 namespace UnityEngine {
-struct UIVertex;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct UILineInfo;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+struct Vector2;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct HorizontalWrapMode;
 }
 namespace UnityEngine {
 struct TextGenerationSettings;
 }
 namespace UnityEngine {
-class GameObject;
+struct Color;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+struct UILineInfo;
+}
+namespace UnityEngine {
+struct UIVertex;
 }
 namespace UnityEngine {
 struct TextGenerationError;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -193,14 +193,12 @@ constexpr bool __get_m_CachedLines() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TextGenerator() ;
+static UnityEngine::TextGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd4d18 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TextGenerator(int32_t initialCapacity) ;
+static UnityEngine::TextGenerator New_ctor(int32_t initialCapacity) ;
 
 /// @brief Method .ctor addr 0x2bd4d20 size 0x14c virtual false final false
  void _ctor(int32_t initialCapacity) ;

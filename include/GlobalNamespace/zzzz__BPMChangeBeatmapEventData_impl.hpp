@@ -60,8 +60,10 @@ constexpr void GlobalNamespace::BPMChangeBeatmapEventData::__set_bpm(float_t val
 constexpr float_t GlobalNamespace::BPMChangeBeatmapEventData::__get_bpm() const {
 return ::cordl_internals::getInstanceField<float_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::BPMChangeBeatmapEventData::BPMChangeBeatmapEventData(float_t time, float_t bpm)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<BPMChangeBeatmapEventData>(time, bpm))) {}
+ GlobalNamespace::BPMChangeBeatmapEventData GlobalNamespace::BPMChangeBeatmapEventData::New_ctor(float_t time, float_t bpm)  {
+GlobalNamespace::BPMChangeBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BPMChangeBeatmapEventData>(time, bpm))};
+return o;
+}
  void GlobalNamespace::BPMChangeBeatmapEventData::_ctor(float_t time, float_t bpm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BPMChangeBeatmapEventData>::get(),

@@ -5,15 +5,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct Substring;
-}
 namespace System {
 struct StringComparison;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct Substring;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -25,12 +31,12 @@ class IEnumerable;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -151,8 +157,7 @@ constexpr int32_t __get__endPos_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8(int32_t __1__state) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Tokenize_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x29858f0 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -303,8 +308,7 @@ constexpr int32_t __get__position_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9(int32_t __1__state) ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__StringHelpers___Split_d__9 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x29859ac size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

@@ -4,24 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
+}
 namespace Internal::Cryptography::Pal {
 struct CertificateData;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
 }
+namespace System::Security::Cryptography::X509Certificates {
+struct X509NameType;
+}
 namespace System {
 struct DateTime;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
 }
 namespace System::Text {
 class StringBuilder;
@@ -177,8 +177,7 @@ constexpr Internal::Cryptography::Pal::CertificateData __get_certData() const;
 /// @brief Method AppendPrivateKeyInfo addr 0x27ec55c size 0x94 virtual true final true
  void AppendPrivateKeyInfo(System::Text::StringBuilder sb) ;
 
-// Ctor Parameters []
-explicit X509Certificate2ImplUnix() ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix New_ctor() ;
 
 /// @brief Method .ctor addr 0x27eac54 size 0x8 virtual false final false
  void _ctor() ;

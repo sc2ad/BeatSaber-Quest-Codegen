@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimit_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RotationLimit.SetDefaultLocalRotation
 template<>
 
@@ -472,8 +472,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, v1, v2, normal);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RotationLimit::RotationLimit()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RotationLimit>())) {}
+ RootMotion::FinalIK::RotationLimit RootMotion::FinalIK::RotationLimit::New_ctor()  {
+RootMotion::FinalIK::RotationLimit o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RotationLimit>())};
+return o;
+}
  void RootMotion::FinalIK::RotationLimit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RotationLimit>::get(),

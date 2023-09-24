@@ -5,12 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Globalization {
+struct UnicodeCategory;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
-}
-namespace System::Globalization {
-struct UnicodeCategory;
 }
 // Forward declare root types
 namespace System::Globalization {

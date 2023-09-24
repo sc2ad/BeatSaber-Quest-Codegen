@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBigCuttableColliderSize_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteBigCuttableColliderSize.Awake
 template<>
 
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteBigCuttableColliderSize::NoteBigCuttableColliderSize()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteBigCuttableColliderSize>())) {}
+ GlobalNamespace::NoteBigCuttableColliderSize GlobalNamespace::NoteBigCuttableColliderSize::New_ctor()  {
+GlobalNamespace::NoteBigCuttableColliderSize o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteBigCuttableColliderSize>())};
+return o;
+}
  void GlobalNamespace::NoteBigCuttableColliderSize::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteBigCuttableColliderSize>::get(),

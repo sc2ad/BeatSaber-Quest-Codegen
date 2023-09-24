@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SteamLevelProductsModelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__SteamLevelProductsModelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData.get_appId
 template<>
 
@@ -83,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SteamLevelProductsModelSO__LevelProductData>())) {}
+ GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData>::get(),
@@ -207,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelProductData>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData>())) {}
+ GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData>::get(),
@@ -357,8 +362,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__SteamLevelProductsModelSO__LevelPackProductData, false>(const_cast<void*>(instance), ___internal_method, levelPackId);
 }
-// Ctor Parameters []
- GlobalNamespace::SteamLevelProductsModelSO::SteamLevelProductsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SteamLevelProductsModelSO>())) {}
+ GlobalNamespace::SteamLevelProductsModelSO GlobalNamespace::SteamLevelProductsModelSO::New_ctor()  {
+GlobalNamespace::SteamLevelProductsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SteamLevelProductsModelSO>())};
+return o;
+}
  void GlobalNamespace::SteamLevelProductsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SteamLevelProductsModelSO>::get(),

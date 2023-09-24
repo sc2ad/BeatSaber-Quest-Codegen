@@ -798,8 +798,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::__get_PbewithShaAnd40BitRC2Cbc()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "PbewithShaAnd40BitRC2Cbc", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::PkcsObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkcsObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PkcsObjectIdentifiers>::get(),

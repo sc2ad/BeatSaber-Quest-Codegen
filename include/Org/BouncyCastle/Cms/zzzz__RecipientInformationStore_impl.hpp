@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientID_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::RecipientInformationStore._ctor
 template<>
 
@@ -119,8 +119,10 @@ constexpr void Org::BouncyCastle::Cms::RecipientInformationStore::__set_table(Sy
 constexpr System::Collections::IDictionary Org::BouncyCastle::Cms::RecipientInformationStore::__get_table() const {
 return ::cordl_internals::getInstanceField<System::Collections::IDictionary, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "recipientInfos", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::RecipientInformationStore::RecipientInformationStore(System::Collections::ICollection recipientInfos)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RecipientInformationStore>(recipientInfos))) {}
+ Org::BouncyCastle::Cms::RecipientInformationStore Org::BouncyCastle::Cms::RecipientInformationStore::New_ctor(System::Collections::ICollection recipientInfos)  {
+Org::BouncyCastle::Cms::RecipientInformationStore o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::RecipientInformationStore>(recipientInfos))};
+return o;
+}
  void Org::BouncyCastle::Cms::RecipientInformationStore::_ctor(System::Collections::ICollection recipientInfos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::RecipientInformationStore>::get(),

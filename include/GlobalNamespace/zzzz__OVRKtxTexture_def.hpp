@@ -65,8 +65,7 @@ static constexpr uint32_t  KTX_TTF_ASTC_4x4_RGBA{10u};
 /// @brief Method Load addr 0x25c3d18 size 0x250 virtual false final false
 static bool Load(::ArrayW<uint8_t> data, ByRef<GlobalNamespace::OVRTextureData> ktxData) ;
 
-// Ctor Parameters []
-explicit OVRKtxTexture() ;
+static GlobalNamespace::OVRKtxTexture New_ctor() ;
 
 /// @brief Method .ctor addr 0x25c3f68 size 0x8 virtual false final false
  void _ctor() ;

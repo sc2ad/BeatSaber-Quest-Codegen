@@ -2,17 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
-}
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct CursorPositionStylePainterParameters;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine::TextCore::Text {
+class TextInfo;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

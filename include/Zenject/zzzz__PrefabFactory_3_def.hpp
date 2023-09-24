@@ -2,21 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine {
-class Object;
-}
-namespace Zenject {
-template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
-class IFactory_4;
-}
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
+namespace UnityEngine {
+class Object;
+}
 namespace Zenject {
 class IFactory;
+}
+namespace Zenject {
+template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
+class IFactory_4;
 }
 // Forward declare root types
 namespace Zenject {
@@ -98,8 +98,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
  T Create(UnityEngine::Object prefab, P1 param, P2 param2) ;
 
-// Ctor Parameters []
-explicit PrefabFactory_3() ;
+static Zenject::PrefabFactory_3<P1,P2,T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

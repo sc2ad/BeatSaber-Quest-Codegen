@@ -3,10 +3,10 @@
 #include "Zenject/zzzz__SignalCopyBinder_def.hpp"
 #include <cstdint>
 namespace Zenject {
-class SignalCopyBinder;
+class SignalDeclarationBindInfo;
 }
 namespace Zenject {
-class SignalDeclarationBindInfo;
+class SignalCopyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -68,8 +68,7 @@ constexpr Zenject::SignalDeclarationBindInfo __get__SignalBindInfo_k__BackingFie
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }]
-explicit SignalTickPriorityCopyBinder(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
+static Zenject::SignalTickPriorityCopyBinder New_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d48df0 size 0x24 virtual false final false
  void _ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;

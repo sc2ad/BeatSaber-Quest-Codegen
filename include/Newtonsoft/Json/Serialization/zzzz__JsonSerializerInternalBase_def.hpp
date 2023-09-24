@@ -4,29 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Newtonsoft::Json::Serialization {
-class JsonSerializerProxy;
+class Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 }
 namespace Newtonsoft::Json {
-class IJsonLineInfo;
+class JsonSerializer;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename TFirst,typename TSecond>
 class BidirectionalDictionary_2;
 }
-namespace System {
-class Exception;
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerProxy;
 }
 namespace Newtonsoft::Json::Serialization {
 class ITraceWriter;
 }
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
+namespace System {
+class Exception;
 }
 namespace Newtonsoft::Json::Serialization {
 class ErrorContext;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -90,8 +93,7 @@ constexpr explicit Newtonsoft__Json__Serialization__JsonSerializerInternalBase__
 /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode addr 0x25037d8 size 0xc virtual true final true
  int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer() ;
+static Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x25032cc size 0x8 virtual false final false
  void _ctor() ;
@@ -182,8 +184,7 @@ constexpr Newtonsoft::Json::Serialization::JsonSerializerProxy __get_InternalSer
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serializer", ty: "Newtonsoft::Json::JsonSerializer", modifiers: "", def_value: None }]
-explicit JsonSerializerInternalBase(Newtonsoft::Json::JsonSerializer serializer) ;
+static Newtonsoft::Json::Serialization::JsonSerializerInternalBase New_ctor(Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method .ctor addr 0x2503244 size 0x88 virtual false final false
  void _ctor(Newtonsoft::Json::JsonSerializer serializer) ;

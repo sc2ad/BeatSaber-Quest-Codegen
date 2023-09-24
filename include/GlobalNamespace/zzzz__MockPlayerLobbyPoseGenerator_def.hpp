@@ -74,8 +74,7 @@ constexpr GlobalNamespace::MockNodePoseSyncStateSender __get_mockNodePoseSyncSta
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGenerator(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+static GlobalNamespace::MockPlayerLobbyPoseGenerator New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0x227e7cc size 0x7c virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;

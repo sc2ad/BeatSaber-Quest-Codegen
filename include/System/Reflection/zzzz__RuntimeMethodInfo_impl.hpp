@@ -1,28 +1,28 @@
 #pragma once
 #include "System/Reflection/zzzz__MethodInfo_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__CallingConventions_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/Reflection/zzzz__MethodAttributes_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__PInvokeAttributes_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/Reflection/zzzz__MethodImplAttributes_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__RuntimeModule_def.hpp"
-#include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__RuntimeMethodHandle_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Reflection/zzzz__PInvokeAttributes_def.hpp"
+#include "System/Reflection/zzzz__RuntimeModule_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__RuntimeMethodHandle_def.hpp"
+#include "System/Reflection/zzzz__MethodAttributes_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
 //  Writing Method size for method: System::Reflection::RuntimeMethodInfo.get_BindingFlags
 template<>
 
@@ -1046,8 +1046,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Reflection::MethodBase, false>(nullptr, ___internal_method, method_handle, type_handle, genericCheck);
 }
-// Ctor Parameters []
- System::Reflection::RuntimeMethodInfo::RuntimeMethodInfo()  : System::Reflection::MethodInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeMethodInfo>())) {}
+ System::Reflection::RuntimeMethodInfo System::Reflection::RuntimeMethodInfo::New_ctor()  {
+System::Reflection::RuntimeMethodInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeMethodInfo>())};
+return o;
+}
  void System::Reflection::RuntimeMethodInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeMethodInfo>::get(),

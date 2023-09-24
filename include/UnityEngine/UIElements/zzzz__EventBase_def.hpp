@@ -3,12 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace System {
-class IDisposable;
-}
 namespace UnityEngine {
 class Event;
 }
@@ -16,17 +10,29 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
+struct PropagationPhase;
+}
+namespace UnityEngine::UIElements {
 class PropagationPaths;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__EventBase__LifeCycleStatus;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__EventBase__EventPropagation;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::UIElements {
-struct PropagationPhase;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -91,6 +97,8 @@ __IgnoreCompositeRoots = 16,
 constexpr operator __UnityEngine__UIElements__EventBase__EventPropagation_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__EventBase__EventPropagation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -182,6 +190,8 @@ __ProcessedByFocusController = 2048,
 constexpr operator __UnityEngine__UIElements__EventBase__LifeCycleStatus_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__EventBase__LifeCycleStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -627,8 +637,7 @@ static int64_t RegisterEventType() ;
 /// @brief Method LocalInit addr 0x2cd6ad8 size 0x140 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit EventBase() ;
+static UnityEngine::UIElements::EventBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd6c34 size 0x88 virtual false final false
  void _ctor() ;

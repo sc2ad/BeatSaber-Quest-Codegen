@@ -3,14 +3,14 @@
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Security::Claims {
-class Claim;
+class ClaimsIdentity;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::Security::Claims {
-class ClaimsIdentity;
+class Claim;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -82,20 +82,17 @@ constexpr ::StringW __get_m_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GenericIdentity(::StringW name, ::StringW type) ;
+static System::Security::Principal::GenericIdentity New_ctor(::StringW name, ::StringW type) ;
 
 /// @brief Method .ctor addr 0x230b30c size 0xbc virtual false final false
  void _ctor(::StringW name, ::StringW type) ;
 
-// Ctor Parameters []
-explicit GenericIdentity() ;
+static System::Security::Principal::GenericIdentity New_ctor() ;
 
 /// @brief Method .ctor addr 0x230b4bc size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Security::Principal::GenericIdentity", modifiers: "", def_value: None }]
-explicit GenericIdentity(System::Security::Principal::GenericIdentity identity) ;
+static System::Security::Principal::GenericIdentity New_ctor(System::Security::Principal::GenericIdentity identity) ;
 
 /// @brief Method .ctor addr 0x230b4d8 size 0x30 virtual false final false
  void _ctor(System::Security::Principal::GenericIdentity identity) ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__QueryOutputWriter_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__BitStack_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__BitStack_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 //  Writing Method size for method: System::Xml::QueryOutputWriter._ctor
 template<>
@@ -590,8 +590,10 @@ constexpr void System::Xml::QueryOutputWriter::__set_depth(int32_t value)  {
 constexpr int32_t System::Xml::QueryOutputWriter::__get_depth() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlRawWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::QueryOutputWriter::QueryOutputWriter(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<QueryOutputWriter>(writer, settings))) {}
+ System::Xml::QueryOutputWriter System::Xml::QueryOutputWriter::New_ctor(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings)  {
+System::Xml::QueryOutputWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::QueryOutputWriter>(writer, settings))};
+return o;
+}
  void System::Xml::QueryOutputWriter::_ctor(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::QueryOutputWriter>::get(),

@@ -3,11 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -133,8 +133,7 @@ constexpr UnityEngine::Vector3 __get__afterSpawnRotation() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MenuNeonLightsGenerator() ;
+static GlobalNamespace::MenuNeonLightsGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x222cc58 size 0x2c virtual false final false
  void _ctor() ;

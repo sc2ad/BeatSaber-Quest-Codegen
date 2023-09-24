@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
@@ -87,26 +87,22 @@ constexpr Org::BouncyCastle::Asn1::X509::GeneralName __get_roleName() const;
 /// @brief Method GetInstance addr 0x110b504 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::RoleSyntax GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "roleAuthority", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "roleName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit RoleSyntax(Org::BouncyCastle::Asn1::X509::GeneralNames roleAuthority, Org::BouncyCastle::Asn1::X509::GeneralName roleName) ;
+static Org::BouncyCastle::Asn1::X509::RoleSyntax New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames roleAuthority, Org::BouncyCastle::Asn1::X509::GeneralName roleName) ;
 
 /// @brief Method .ctor addr 0x110b7b8 size 0x194 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames roleAuthority, Org::BouncyCastle::Asn1::X509::GeneralName roleName) ;
 
-// Ctor Parameters [CppParam { name: "roleName", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit RoleSyntax(Org::BouncyCastle::Asn1::X509::GeneralName roleName) ;
+static Org::BouncyCastle::Asn1::X509::RoleSyntax New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName roleName) ;
 
 /// @brief Method .ctor addr 0x110b94c size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName roleName) ;
 
-// Ctor Parameters [CppParam { name: "roleName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RoleSyntax(::StringW roleName) ;
+static Org::BouncyCastle::Asn1::X509::RoleSyntax New_ctor(::StringW roleName) ;
 
 /// @brief Method .ctor addr 0x110b958 size 0x94 virtual false final false
  void _ctor(::StringW roleName) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RoleSyntax(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::RoleSyntax New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110b5a8 size 0x210 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

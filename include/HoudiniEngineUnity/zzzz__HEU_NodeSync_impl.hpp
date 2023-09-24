@@ -233,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_NodeSync::HEU_NodeSync()  : HoudiniEngineUnity::HEU_BaseSync(THROW_UNLESS(::il2cpp_utils::New<HEU_NodeSync>())) {}
+ HoudiniEngineUnity::HEU_NodeSync HoudiniEngineUnity::HEU_NodeSync::New_ctor()  {
+HoudiniEngineUnity::HEU_NodeSync o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_NodeSync>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_NodeSync::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_NodeSync>::get(),

@@ -303,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, x);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::Raw::Interleave::Interleave()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Interleave>())) {}
+ Org::BouncyCastle::Math::Raw::Interleave Org::BouncyCastle::Math::Raw::Interleave::New_ctor()  {
+Org::BouncyCastle::Math::Raw::Interleave o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Raw::Interleave>())};
+return o;
+}
  void Org::BouncyCastle::Math::Raw::Interleave::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Raw::Interleave>::get(),

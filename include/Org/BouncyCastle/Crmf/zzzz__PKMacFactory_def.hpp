@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IMacFactory;
-}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PbmParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMacFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -81,8 +81,7 @@ constexpr ::ArrayW<uint8_t> __get_key() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Cmp::PbmParameter", modifiers: "", def_value: None }]
-explicit PKMacFactory(::ArrayW<uint8_t> key, Org::BouncyCastle::Asn1::Cmp::PbmParameter parameters) ;
+static Org::BouncyCastle::Crmf::PKMacFactory New_ctor(::ArrayW<uint8_t> key, Org::BouncyCastle::Asn1::Cmp::PbmParameter parameters) ;
 
 /// @brief Method .ctor addr 0x1186e28 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> key, Org::BouncyCastle::Asn1::Cmp::PbmParameter parameters) ;

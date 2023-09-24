@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -108,20 +108,17 @@ static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_DefaultPSourceAl
 /// @brief Method GetInstance addr 0xeff9d8 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit RsaesOaepParameters() ;
+static Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0xeffd14 size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "maskGenAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "pSourceAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit RsaesOaepParameters(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier maskGenAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier pSourceAlgorithm) ;
+static Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier maskGenAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier pSourceAlgorithm) ;
 
 /// @brief Method .ctor addr 0xeffd88 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier maskGenAlgorithm, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier pSourceAlgorithm) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RsaesOaepParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeffb60 size 0x1b4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

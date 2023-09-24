@@ -8,65 +8,74 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine {
+struct Bounds;
+}
 namespace UnityEngine::UI {
-class Scrollbar;
+class UnityEngine__UI__ScrollRect__ScrollRectEvent;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
+class PointerEventData;
 }
 namespace UnityEngine::UI {
-class ILayoutGroup;
+class ICanvasElement;
 }
 namespace UnityEngine::UI {
-class ILayoutController;
+struct UnityEngine__UI__ScrollRect__ScrollbarVisibility;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__ScrollRect__MovementType;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
-namespace UnityEngine {
-class Transform;
-}
 namespace UnityEngine::EventSystems {
 class IEndDragHandler;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
 namespace UnityEngine {
-struct DrivenRectTransformTracker;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine::UI {
-class ICanvasElement;
+class Scrollbar;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
+}
+namespace UnityEngine::UI {
+class ILayoutGroup;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::EventSystems {
 class IScrollHandler;
 }
 namespace UnityEngine {
-struct Bounds;
+struct DrivenRectTransformTracker;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -131,6 +140,8 @@ __Clamped = 2,
 constexpr operator __UnityEngine__UI__ScrollRect__MovementType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__ScrollRect__MovementType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -205,6 +216,8 @@ constexpr operator __UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped 
 return std::bit_cast<__UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -230,7 +243,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::ScrollRectEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 393 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13054))
 // CS Name: UnityEngine.UI.ScrollRect::ScrollRectEvent
 class CORDL_TYPE UnityEngine__UI__ScrollRect__ScrollRectEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2> {
@@ -269,8 +282,7 @@ constexpr explicit UnityEngine__UI__ScrollRect__ScrollRectEvent(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__ScrollRect__ScrollRectEvent() ;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c0a380 size 0x48 virtual false final false
  void _ctor() ;
@@ -755,8 +767,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_m_Corners() const;
 /// @brief Method get_rectTransform addr 0x2c0a1e8 size 0x94 virtual false final false
  UnityEngine::RectTransform get_rectTransform() ;
 
-// Ctor Parameters []
-explicit ScrollRect() ;
+static UnityEngine::UI::ScrollRect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c0a27c size 0x104 virtual false final false
  void _ctor() ;

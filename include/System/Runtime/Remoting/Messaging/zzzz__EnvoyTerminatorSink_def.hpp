@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -74,8 +74,7 @@ static System::Runtime::Remoting::Messaging::EnvoyTerminatorSink __get_Instance(
 /// @brief Method AsyncProcessMessage addr 0x2341260 size 0xc0 virtual true final true
  System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
-// Ctor Parameters []
-explicit EnvoyTerminatorSink() ;
+static System::Runtime::Remoting::Messaging::EnvoyTerminatorSink New_ctor() ;
 
 /// @brief Method .ctor addr 0x2341320 size 0x8 virtual false final false
  void _ctor() ;

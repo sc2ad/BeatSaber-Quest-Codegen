@@ -6,70 +6,79 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class Uri;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Net {
-class ContextAwareResult;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Net {
-class FtpWebResponse;
-}
-namespace System::Net {
-class System__Net__TimerThread__Timer;
-}
-namespace System::Net {
-class FtpMethodInfo;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Net {
-struct CloseExState;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System::Net {
-class NetworkCredential;
-}
-namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
-class LazyAsyncResult;
-}
-namespace System::Net {
-class WebResponse;
-}
-namespace System::Net {
-class FtpControlStream;
+class System__Net__TimerThread__Callback;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
-class System__Net__TimerThread__Callback;
+struct CloseExState;
+}
+namespace System::Net {
+class NetworkCredential;
+}
+namespace System::Net {
+struct System__Net__FtpWebRequest__RequestStage;
+}
+namespace System::Net {
+class System__Net__TimerThread__Timer;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Net {
+class ContextAwareResult;
+}
+namespace System::Net {
+class System__Net__FtpWebRequest____c;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Net {
+class ICredentials;
+}
+namespace System::Net {
+class WebHeaderCollection;
+}
+namespace System::Net {
+struct System__Net__FtpWebRequest___CreateConnectionAsync_d__86;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net {
+class FtpWebResponse;
+}
+namespace System::Net {
+class FtpMethodInfo;
+}
+namespace System::Net {
+class LazyAsyncResult;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
 }
 namespace System::Net {
 class System__Net__TimerThread__Queue;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System {
+class Uri;
+}
+namespace System {
+class Exception;
+}
+namespace System::Net {
+class FtpControlStream;
 }
 namespace System {
 template<typename TResult>
@@ -79,13 +88,13 @@ namespace System::Net::Sockets {
 class TcpClient;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace System::Net {
@@ -152,6 +161,8 @@ __ReleaseConnection = 4,
 constexpr operator __System__Net__FtpWebRequest__RequestStage_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__FtpWebRequest__RequestStage_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -327,8 +338,7 @@ static System::Func_1<System::Security::Cryptography::X509Certificates::X509Cert
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__FtpWebRequest____c() ;
+static System::Net::System__Net__FtpWebRequest____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28094f4 size 0x8 virtual false final false
  void _ctor() ;
@@ -704,8 +714,7 @@ static System::Net::System__Net__TimerThread__Queue __get_s_DefaultTimerQueue() 
 /// @brief Method get_Aborted addr 0x2803d7c size 0x8 virtual false final false
  bool get_Aborted() ;
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit FtpWebRequest(System::Uri uri) ;
+static System::Net::FtpWebRequest New_ctor(System::Uri uri) ;
 
 /// @brief Method .ctor addr 0x2803d84 size 0x3c0 virtual false final false
  void _ctor(System::Uri uri) ;

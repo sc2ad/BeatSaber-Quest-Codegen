@@ -1,41 +1,41 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
-#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
-#include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
-#include "Newtonsoft/Json/zzzz__ConstructorHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__MissingMemberHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverterCollection_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializerSettings_def.hpp"
-#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
-#include "Newtonsoft/Json/zzzz__MetadataPropertyHandling_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "Newtonsoft/Json/zzzz__PreserveReferencesHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__ConstructorHandling_def.hpp"
+#include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
+#include "Newtonsoft/Json/zzzz__StringEscapeHandling_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "Newtonsoft/Json/zzzz__MetadataPropertyHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverterCollection_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__DefaultValueHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__Formatting_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__ObjectCreationHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__MissingMemberHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializerSettings_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationBinder_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatFormatHandling_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
+#include "Newtonsoft/Json/zzzz__PreserveReferencesHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateFormatHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"
+#include "Newtonsoft/Json/zzzz__NullValueHandling_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonSerializer.add_Error
 template<>
 
@@ -2138,8 +2138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonSerializer::JsonSerializer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JsonSerializer>())) {}
+ Newtonsoft::Json::JsonSerializer Newtonsoft::Json::JsonSerializer::New_ctor()  {
+Newtonsoft::Json::JsonSerializer o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonSerializer>())};
+return o;
+}
  void Newtonsoft::Json::JsonSerializer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonSerializer>::get(),

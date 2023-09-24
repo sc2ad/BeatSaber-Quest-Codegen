@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__PlayerSpecificSettingsAtStartNetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable.get_activePlayersAtGameStart
 template<>
 
@@ -169,8 +169,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::PlayerSpecificSettingsAtStartNetSerializable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerSpecificSettingsAtStartNetSerializable>())) {}
+ GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::New_ctor()  {
+GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable>())};
+return o;
+}
  void GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable>::get(),
@@ -180,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "activePlayerSpecificSettingsAtGameStart", ty: "System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable>", modifiers: "", def_value: None }]
- GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::PlayerSpecificSettingsAtStartNetSerializable(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerSpecificSettingsAtStartNetSerializable>(activePlayerSpecificSettingsAtGameStart))) {}
+ GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::New_ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart)  {
+GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable>(activePlayerSpecificSettingsAtGameStart))};
+return o;
+}
  void GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::_ctor(System::Collections::Generic::List_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> activePlayerSpecificSettingsAtGameStart)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable>::get(),

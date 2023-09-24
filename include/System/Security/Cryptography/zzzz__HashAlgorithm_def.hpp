@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography {
-class ICryptoTransform;
-}
 namespace System {
 class IDisposable;
+}
+namespace System::Security::Cryptography {
+class ICryptoTransform;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -102,8 +102,7 @@ constexpr int32_t __get_State() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HashAlgorithm() ;
+static System::Security::Cryptography::HashAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ef0b0 size 0x8 virtual false final false
  void _ctor() ;

@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Configuration::ProxyElement::ProxyElement()  : System::Configuration::ConfigurationElement(THROW_UNLESS(::il2cpp_utils::New<ProxyElement>())) {}
+ System::Net::Configuration::ProxyElement System::Net::Configuration::ProxyElement::New_ctor()  {
+System::Net::Configuration::ProxyElement o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Configuration::ProxyElement>())};
+return o;
+}
  void System::Net::Configuration::ProxyElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Configuration::ProxyElement>::get(),

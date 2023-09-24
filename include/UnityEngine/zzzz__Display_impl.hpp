@@ -2,6 +2,7 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Display_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Display_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate._ctor
 template<>
 
@@ -36,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate::UnityEngine__Display__DisplaysUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Display__DisplaysUpdatedDelegate>(object, method))) {}
+ UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate>::get(),
@@ -307,8 +310,10 @@ return ::cordl_internals::getStaticField<int32_t, "m_ActiveEditorGameViewTarget"
  UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate UnityEngine::Display::__get_onDisplaysUpdated()  {
 return ::cordl_internals::getStaticField<UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate, "onDisplaysUpdated", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Display>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Display::Display()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Display>())) {}
+ UnityEngine::Display UnityEngine::Display::New_ctor()  {
+UnityEngine::Display o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Display>())};
+return o;
+}
  void UnityEngine::Display::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Display>::get(),
@@ -318,8 +323,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "nativeDisplay", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Display::Display(::cordl_internals::intptr_t nativeDisplay)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Display>(nativeDisplay))) {}
+ UnityEngine::Display UnityEngine::Display::New_ctor(::cordl_internals::intptr_t nativeDisplay)  {
+UnityEngine::Display o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Display>(nativeDisplay))};
+return o;
+}
  void UnityEngine::Display::_ctor(::cordl_internals::intptr_t nativeDisplay)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Display>::get(),

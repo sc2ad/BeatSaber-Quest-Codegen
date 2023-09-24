@@ -72,14 +72,12 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::RevokedInfo __get_info() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Ocsp::RevokedInfo", modifiers: "", def_value: None }]
-explicit RevokedStatus(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
+static Org::BouncyCastle::Ocsp::RevokedStatus New_ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
 
 /// @brief Method .ctor addr 0x1018d14 size 0x6c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
 
-// Ctor Parameters [CppParam { name: "revocationDate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RevokedStatus(System::DateTime revocationDate, int32_t reason) ;
+static Org::BouncyCastle::Ocsp::RevokedStatus New_ctor(System::DateTime revocationDate, int32_t reason) ;
 
 /// @brief Method .ctor addr 0x1018d80 size 0x108 virtual false final false
  void _ctor(System::DateTime revocationDate, int32_t reason) ;

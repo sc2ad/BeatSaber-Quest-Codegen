@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Xml/zzzz__XmlName_impl.hpp"
 #include "System/Xml/zzzz__XmlNameEx_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
-#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaElement_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/Xml/zzzz__XmlName_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAttribute_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
+#include "System/Xml/zzzz__XmlName_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaElement_def.hpp"
+#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
 //  Writing Method size for method: System::Xml::XmlNameEx._ctor
 template<>
 
@@ -237,8 +237,10 @@ constexpr void System::Xml::XmlNameEx::__set_decl(::bs_hook::Il2CppWrapperType v
 constexpr ::bs_hook::Il2CppWrapperType System::Xml::XmlNameEx::__get_decl() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ns", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ownerDoc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }, CppParam { name: "next", ty: "System::Xml::XmlName", modifiers: "", def_value: None }, CppParam { name: "schemaInfo", ty: "System::Xml::Schema::IXmlSchemaInfo", modifiers: "", def_value: None }]
- System::Xml::XmlNameEx::XmlNameEx(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo)  : System::Xml::XmlName(THROW_UNLESS(::il2cpp_utils::New<XmlNameEx>(prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo))) {}
+ System::Xml::XmlNameEx System::Xml::XmlNameEx::New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo)  {
+System::Xml::XmlNameEx o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNameEx>(prefix, localName, ns, hashCode, ownerDoc, next, schemaInfo))};
+return o;
+}
  void System::Xml::XmlNameEx::_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, System::Xml::XmlDocument ownerDoc, System::Xml::XmlName next, System::Xml::Schema::IXmlSchemaInfo schemaInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNameEx>::get(),

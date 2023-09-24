@@ -43,8 +43,10 @@ constexpr void Org::BouncyCastle::Bcpg::MarkerPacket::__set_marker(::ArrayW<uint
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::MarkerPacket::__get_marker() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::MarkerPacket::MarkerPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ContainedPacket(THROW_UNLESS(::il2cpp_utils::New<MarkerPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::MarkerPacket Org::BouncyCastle::Bcpg::MarkerPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::MarkerPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::MarkerPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::MarkerPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::MarkerPacket>::get(),

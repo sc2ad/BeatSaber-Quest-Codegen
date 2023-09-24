@@ -5,11 +5,11 @@
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Exceptions {
@@ -57,26 +57,22 @@ constexpr explicit ResourceManagerException(void* ptr) noexcept : System::Except
 
 // Methods
 
-// Ctor Parameters []
-explicit ResourceManagerException() ;
+static UnityEngine::ResourceManagement::Exceptions::ResourceManagerException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a382a4 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ResourceManagerException(::StringW message) ;
+static UnityEngine::ResourceManagement::Exceptions::ResourceManagerException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2a382fc size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ResourceManagerException(::StringW message, System::Exception innerException) ;
+static UnityEngine::ResourceManagement::Exceptions::ResourceManagerException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2a38364 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ResourceManagerException(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;
+static UnityEngine::ResourceManagement::Exceptions::ResourceManagerException New_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2a383d4 size 0x80 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context) ;

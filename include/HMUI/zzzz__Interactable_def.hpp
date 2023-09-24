@@ -83,8 +83,7 @@ constexpr System::Action_2<HMUI::Interactable,bool> __get_interactableChangeEven
 /// @brief Method set_interactable addr 0x1faa9cc size 0x3c virtual false final false
  void set_interactable(bool value) ;
 
-// Ctor Parameters []
-explicit Interactable() ;
+static HMUI::Interactable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa50d0 size 0x10 virtual false final false
  void _ctor() ;

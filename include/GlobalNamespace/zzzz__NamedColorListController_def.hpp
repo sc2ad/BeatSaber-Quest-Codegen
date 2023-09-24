@@ -8,13 +8,16 @@
 namespace UnityEngine {
 struct Color;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace HMUI {
 template<typename T>
 class IValueChanger_1;
 }
-namespace System {
-template<typename T>
-class Action_1;
+namespace GlobalNamespace {
+class GlobalNamespace__NamedColorListController__ColorValuePair;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +83,7 @@ constexpr int32_t __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__NamedColorListController__ColorValuePair() ;
+static GlobalNamespace::GlobalNamespace__NamedColorListController__ColorValuePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2126d4c size 0x8 virtual false final false
  void _ctor() ;
@@ -179,8 +181,7 @@ constexpr System::Action_1<int32_t> __get_valueChangedEvent() const;
 /// @brief Method ColorForValue addr 0x2126d08 size 0x3c virtual true final false
  UnityEngine::Color ColorForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit NamedColorListController() ;
+static GlobalNamespace::NamedColorListController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2126d44 size 0x8 virtual false final false
  void _ctor() ;

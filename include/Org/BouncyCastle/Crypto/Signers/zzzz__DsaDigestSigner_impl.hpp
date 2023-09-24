@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__DsaDigestSigner_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDsaExt_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Signers::DsaDigestSigner._ctor
 template<>
 
@@ -205,8 +205,10 @@ constexpr void Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::__set_forSig
 constexpr bool Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::__get_forSigning() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dsa", ty: "Org::BouncyCastle::Crypto::IDsa", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::DsaDigestSigner(Org::BouncyCastle::Crypto::IDsa dsa, Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DsaDigestSigner>(dsa, digest))) {}
+ Org::BouncyCastle::Crypto::Signers::DsaDigestSigner Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IDsa dsa, Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Signers::DsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::DsaDigestSigner>(dsa, digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IDsa dsa, Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::DsaDigestSigner>::get(),
@@ -216,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dsa, digest);
 }
-// Ctor Parameters [CppParam { name: "dsa", ty: "Org::BouncyCastle::Crypto::IDsaExt", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "Org::BouncyCastle::Crypto::Signers::IDsaEncoding", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::DsaDigestSigner(Org::BouncyCastle::Crypto::IDsaExt dsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DsaDigestSigner>(dsa, digest, encoding))) {}
+ Org::BouncyCastle::Crypto::Signers::DsaDigestSigner Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::New_ctor(Org::BouncyCastle::Crypto::IDsaExt dsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding)  {
+Org::BouncyCastle::Crypto::Signers::DsaDigestSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Signers::DsaDigestSigner>(dsa, digest, encoding))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::_ctor(Org::BouncyCastle::Crypto::IDsaExt dsa, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Crypto::Signers::IDsaEncoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Signers::DsaDigestSigner>::get(),

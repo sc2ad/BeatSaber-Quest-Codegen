@@ -58,8 +58,10 @@ constexpr void JetBrains::Annotations::AspRequiredAttributeAttribute::__set__Att
 constexpr ::StringW JetBrains::Annotations::AspRequiredAttributeAttribute::__get__Attribute_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attribute", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspRequiredAttributeAttribute::AspRequiredAttributeAttribute(::StringW attribute)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspRequiredAttributeAttribute>(attribute))) {}
+ JetBrains::Annotations::AspRequiredAttributeAttribute JetBrains::Annotations::AspRequiredAttributeAttribute::New_ctor(::StringW attribute)  {
+JetBrains::Annotations::AspRequiredAttributeAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspRequiredAttributeAttribute>(attribute))};
+return o;
+}
  void JetBrains::Annotations::AspRequiredAttributeAttribute::_ctor(::StringW attribute)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspRequiredAttributeAttribute>::get(),

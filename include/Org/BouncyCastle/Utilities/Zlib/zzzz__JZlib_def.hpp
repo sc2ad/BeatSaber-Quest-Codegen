@@ -121,8 +121,7 @@ static constexpr int32_t  Z_VERSION_ERROR{-6};
 /// @brief Method version addr 0x10dd6c4 size 0x40 virtual false final false
 static ::StringW version() ;
 
-// Ctor Parameters []
-explicit JZlib() ;
+static Org::BouncyCastle::Utilities::Zlib::JZlib New_ctor() ;
 
 /// @brief Method .ctor addr 0x10dd704 size 0x8 virtual false final false
  void _ctor() ;

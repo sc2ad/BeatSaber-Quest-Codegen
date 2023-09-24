@@ -4,11 +4,11 @@
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class LanguageSettingsController;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,8 +104,7 @@ constexpr System::Action __get_didPressContinueButtonEvent() const;
 /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange addr 0x2181194 size 0x1c virtual false final false
  void HandleLanguageSettingsControllerOndropDownValueDidChange() ;
 
-// Ctor Parameters []
-explicit SelectLanguageViewController() ;
+static GlobalNamespace::SelectLanguageViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21811b0 size 0x8 virtual false final false
  void _ctor() ;

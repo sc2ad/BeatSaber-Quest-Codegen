@@ -56,8 +56,7 @@ constexpr bool __get__allowed_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "allowed", ty: "bool", modifiers: "", def_value: None }]
-explicit AndroidAssetPackUseMobileDataRequestResult(bool allowed) ;
+static UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult New_ctor(bool allowed) ;
 
 /// @brief Method .ctor addr 0x2b16e44 size 0x28 virtual false final false
  void _ctor(bool allowed) ;

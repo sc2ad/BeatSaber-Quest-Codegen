@@ -9,22 +9,28 @@
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
-struct TimeSpan;
+class IFormatProvider;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanFormat__Pattern;
+}
+namespace System::Globalization {
+struct System__Globalization__TimeSpanFormat__FormatLiterals;
 }
 namespace System {
 template<typename T>
 struct Span_1;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
-class IFormatProvider;
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -86,6 +92,8 @@ __Full = 2,
 constexpr operator __System__Globalization__TimeSpanFormat__Pattern_Unwrapped () const noexcept {
 return std::bit_cast<__System__Globalization__TimeSpanFormat__Pattern_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

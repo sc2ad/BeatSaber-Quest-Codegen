@@ -121,8 +121,7 @@ constexpr bool __get__isInLobby_k__BackingField() const;
 /// @brief Method set_isInLobby addr 0x21f8ca0 size 0xc virtual true final true
  void set_isInLobby(bool value) ;
 
-// Ctor Parameters []
-explicit LobbyPlayerData() ;
+static GlobalNamespace::LobbyPlayerData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f8cac size 0x4 virtual false final false
  void _ctor() ;

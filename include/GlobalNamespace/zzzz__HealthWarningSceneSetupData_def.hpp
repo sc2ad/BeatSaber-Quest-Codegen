@@ -67,8 +67,7 @@ constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get__nextScenesTransiti
 /// @brief Method get_nextScenesTransitionSetupData addr 0x21cf910 size 0x8 virtual false final false
  GlobalNamespace::ScenesTransitionSetupDataSO get_nextScenesTransitionSetupData() ;
 
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit HealthWarningSceneSetupData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+static GlobalNamespace::HealthWarningSceneSetupData New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21cf918 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;

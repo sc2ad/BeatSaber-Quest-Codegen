@@ -63,8 +63,7 @@ constexpr GlobalNamespace::IAudioTimeSource __get__audioTimeSource() const;
 /// @brief Method GetTime addr 0x21d5600 size 0xa0 virtual true final false
  float_t GetTime() ;
 
-// Ctor Parameters []
-explicit SongTimeTweeningManager() ;
+static Tweening::SongTimeTweeningManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d56a0 size 0x8 virtual false final false
  void _ctor() ;

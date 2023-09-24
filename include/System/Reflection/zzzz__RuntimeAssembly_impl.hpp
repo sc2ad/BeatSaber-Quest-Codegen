@@ -1,15 +1,14 @@
 #pragma once
 #include "System/Reflection/zzzz__Assembly_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
-#include "System/Reflection/zzzz__AssemblyName_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Reflection/zzzz__AssemblyName_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Security/Policy/zzzz__Evidence_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Reflection::RuntimeAssembly._ctor
 template<>
 
@@ -478,8 +477,10 @@ constexpr void System::Reflection::RuntimeAssembly::__set_assemblyName(::StringW
 constexpr ::StringW System::Reflection::RuntimeAssembly::__get_assemblyName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Reflection::RuntimeAssembly::RuntimeAssembly()  : System::Reflection::Assembly(THROW_UNLESS(::il2cpp_utils::New<RuntimeAssembly>())) {}
+ System::Reflection::RuntimeAssembly System::Reflection::RuntimeAssembly::New_ctor()  {
+System::Reflection::RuntimeAssembly o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeAssembly>())};
+return o;
+}
  void System::Reflection::RuntimeAssembly::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeAssembly>::get(),

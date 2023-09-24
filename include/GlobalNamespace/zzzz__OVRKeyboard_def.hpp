@@ -10,13 +10,19 @@ namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__TrackedKeyboardFlags;
+struct GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRKeyboard__TrackedKeyboardState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardFlags;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;

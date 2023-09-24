@@ -3,11 +3,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonReader_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonReader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonType_def.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__BsonReaderState::Newtonsoft__Json__Bson__BsonReader__BsonReaderState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -61,8 +62,10 @@ constexpr void Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__Conta
 constexpr int32_t Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext::__get_Position() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "Newtonsoft::Json::Bson::BsonType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext::Newtonsoft__Json__Bson__BsonReader__ContainerContext(Newtonsoft::Json::Bson::BsonType type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Bson__BsonReader__ContainerContext>(type))) {}
+ Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext::New_ctor(Newtonsoft::Json::Bson::BsonType type)  {
+Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext>(type))};
+return o;
+}
  void Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext::_ctor(Newtonsoft::Json::Bson::BsonType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext>::get(),
@@ -771,8 +774,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonReader::BsonReader(System::IO::Stream stream)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<BsonReader>(stream))) {}
+ Newtonsoft::Json::Bson::BsonReader Newtonsoft::Json::Bson::BsonReader::New_ctor(System::IO::Stream stream)  {
+Newtonsoft::Json::Bson::BsonReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonReader>(stream))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonReader::_ctor(System::IO::Stream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonReader>::get(),
@@ -782,8 +787,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::BinaryReader", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonReader::BsonReader(System::IO::BinaryReader reader)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<BsonReader>(reader))) {}
+ Newtonsoft::Json::Bson::BsonReader Newtonsoft::Json::Bson::BsonReader::New_ctor(System::IO::BinaryReader reader)  {
+Newtonsoft::Json::Bson::BsonReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonReader>(reader))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonReader::_ctor(System::IO::BinaryReader reader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonReader>::get(),
@@ -793,8 +800,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reader);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "System::DateTimeKind", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonReader::BsonReader(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<BsonReader>(stream, readRootValueAsArray, dateTimeKindHandling))) {}
+ Newtonsoft::Json::Bson::BsonReader Newtonsoft::Json::Bson::BsonReader::New_ctor(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling)  {
+Newtonsoft::Json::Bson::BsonReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonReader>(stream, readRootValueAsArray, dateTimeKindHandling))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonReader::_ctor(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonReader>::get(),
@@ -804,8 +813,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, readRootValueAsArray, dateTimeKindHandling);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::BinaryReader", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "System::DateTimeKind", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonReader::BsonReader(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling)  : Newtonsoft::Json::JsonReader(THROW_UNLESS(::il2cpp_utils::New<BsonReader>(reader, readRootValueAsArray, dateTimeKindHandling))) {}
+ Newtonsoft::Json::Bson::BsonReader Newtonsoft::Json::Bson::BsonReader::New_ctor(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling)  {
+Newtonsoft::Json::Bson::BsonReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonReader>(reader, readRootValueAsArray, dateTimeKindHandling))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonReader::_ctor(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonReader>::get(),

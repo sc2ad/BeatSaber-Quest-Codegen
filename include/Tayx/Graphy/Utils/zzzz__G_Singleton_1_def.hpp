@@ -17,7 +17,7 @@ namespace Tayx::Graphy::Utils {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15193)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(15193))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15193), inst: 2 })
 // CS Name: Tayx.Graphy.Utils.G_Singleton`1
 class CORDL_TYPE G_Singleton_1<T> : public UnityEngine::MonoBehaviour {
@@ -85,8 +85,7 @@ static T get_Instance() ;
 /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit G_Singleton_1() ;
+static Tayx::Graphy::Utils::G_Singleton_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

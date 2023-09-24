@@ -3,26 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace System {
 template<typename T>
 class Comparison_1;
 }
 namespace GlobalNamespace {
-struct MultiplayerPlayerLayout;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerPlayerPlacement____c;
+}
+namespace GlobalNamespace {
+struct MultiplayerPlayerLayout;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -88,8 +91,7 @@ static System::Comparison_1<GlobalNamespace::IConnectedPlayer> __get___9__4_0() 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerPlayerPlacement____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerPlayerPlacement____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ff974 size 0x8 virtual false final false
  void _ctor() ;

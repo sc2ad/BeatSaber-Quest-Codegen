@@ -56,6 +56,8 @@ constexpr operator __EVRScreenshotPropertyFilenames_Unwrapped () const noexcept 
 return std::bit_cast<__EVRScreenshotPropertyFilenames_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

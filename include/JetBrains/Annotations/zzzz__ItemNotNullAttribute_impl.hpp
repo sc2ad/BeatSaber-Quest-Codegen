@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::ItemNotNullAttribute::ItemNotNullAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ItemNotNullAttribute>())) {}
+ JetBrains::Annotations::ItemNotNullAttribute JetBrains::Annotations::ItemNotNullAttribute::New_ctor()  {
+JetBrains::Annotations::ItemNotNullAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::ItemNotNullAttribute>())};
+return o;
+}
  void JetBrains::Annotations::ItemNotNullAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::ItemNotNullAttribute>::get(),

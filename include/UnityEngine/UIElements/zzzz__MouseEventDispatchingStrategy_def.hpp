@@ -9,13 +9,13 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
 class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -90,8 +90,7 @@ static void UpdateElementUnderMouse(UnityEngine::UIElements::EventBase evt, Unit
 /// @brief Method IsDone addr 0x2cdb348 size 0x48 virtual false final false
 static bool IsDone(UnityEngine::UIElements::EventBase evt) ;
 
-// Ctor Parameters []
-explicit MouseEventDispatchingStrategy() ;
+static UnityEngine::UIElements::MouseEventDispatchingStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdb68c size 0x8 virtual false final false
  void _ctor() ;

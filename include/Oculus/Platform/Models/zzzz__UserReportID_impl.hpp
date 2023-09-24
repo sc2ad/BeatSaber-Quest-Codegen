@@ -29,8 +29,10 @@ constexpr void Oculus::Platform::Models::UserReportID::__set_ID(uint64_t value) 
 constexpr uint64_t Oculus::Platform::Models::UserReportID::__get_ID() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::UserReportID::UserReportID(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserReportID>(o))) {}
+ Oculus::Platform::Models::UserReportID Oculus::Platform::Models::UserReportID::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::UserReportID o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::UserReportID>(o))};
+return o;
+}
  void Oculus::Platform::Models::UserReportID::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::UserReportID>::get(),

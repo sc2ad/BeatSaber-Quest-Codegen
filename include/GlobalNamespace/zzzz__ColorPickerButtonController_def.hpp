@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine {
-struct Color;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -82,8 +82,7 @@ constexpr UnityEngine::UI::Image __get__colorImage() const;
 /// @brief Method SetColor addr 0x2122810 size 0x28 virtual false final false
  void SetColor(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit ColorPickerButtonController() ;
+static GlobalNamespace::ColorPickerButtonController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2122838 size 0x8 virtual false final false
  void _ctor() ;

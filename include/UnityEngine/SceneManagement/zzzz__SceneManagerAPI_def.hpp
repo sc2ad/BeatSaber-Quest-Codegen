@@ -8,10 +8,10 @@ namespace UnityEngine {
 class AsyncOperation;
 }
 namespace UnityEngine::SceneManagement {
-struct LoadSceneParameters;
+struct UnloadSceneOptions;
 }
 namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
+struct LoadSceneParameters;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {
@@ -87,8 +87,7 @@ static UnityEngine::SceneManagement::SceneManagerAPI get_ActiveAPI() ;
 /// @brief Method get_overrideAPI addr 0x2b78aec size 0x58 virtual false final false
 static UnityEngine::SceneManagement::SceneManagerAPI get_overrideAPI() ;
 
-// Ctor Parameters []
-explicit SceneManagerAPI() ;
+static UnityEngine::SceneManagement::SceneManagerAPI New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b78b44 size 0x8 virtual false final false
  void _ctor() ;

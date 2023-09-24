@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixCertPath.SortCerts
 template<>
 
@@ -232,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IList, false>(nullptr, ___internal_method, certs);
 }
-// Ctor Parameters [CppParam { name: "certificates", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixCertPath::PkixCertPath(System::Collections::ICollection certificates)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixCertPath>(certificates))) {}
+ Org::BouncyCastle::Pkix::PkixCertPath Org::BouncyCastle::Pkix::PkixCertPath::New_ctor(System::Collections::ICollection certificates)  {
+Org::BouncyCastle::Pkix::PkixCertPath o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPath>(certificates))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPath::_ctor(System::Collections::ICollection certificates)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPath>::get(),
@@ -243,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certificates);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixCertPath::PkixCertPath(System::IO::Stream inStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixCertPath>(inStream))) {}
+ Org::BouncyCastle::Pkix::PkixCertPath Org::BouncyCastle::Pkix::PkixCertPath::New_ctor(System::IO::Stream inStream)  {
+Org::BouncyCastle::Pkix::PkixCertPath o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPath>(inStream))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPath::_ctor(System::IO::Stream inStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPath>::get(),
@@ -254,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStream);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixCertPath::PkixCertPath(System::IO::Stream inStream, ::StringW encoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixCertPath>(inStream, encoding))) {}
+ Org::BouncyCastle::Pkix::PkixCertPath Org::BouncyCastle::Pkix::PkixCertPath::New_ctor(System::IO::Stream inStream, ::StringW encoding)  {
+Org::BouncyCastle::Pkix::PkixCertPath o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPath>(inStream, encoding))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPath::_ctor(System::IO::Stream inStream, ::StringW encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPath>::get(),

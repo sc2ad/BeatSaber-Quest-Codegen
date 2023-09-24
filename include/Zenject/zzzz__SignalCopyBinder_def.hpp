@@ -4,12 +4,12 @@
 namespace Zenject {
 struct BindingInheritanceMethods;
 }
+namespace Zenject {
+class BindInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace Zenject {
-class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -66,14 +66,12 @@ constexpr System::Collections::Generic::List_1<Zenject::BindInfo> __get__bindInf
 
 // Methods
 
-// Ctor Parameters []
-explicit SignalCopyBinder() ;
+static Zenject::SignalCopyBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d48fd4 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit SignalCopyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::SignalCopyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d49054 size 0xf8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

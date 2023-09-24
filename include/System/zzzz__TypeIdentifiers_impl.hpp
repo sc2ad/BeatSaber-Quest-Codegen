@@ -1,9 +1,10 @@
 #pragma once
 #include "System/zzzz__TypeNames_impl.hpp"
 #include "System/zzzz__TypeIdentifiers_def.hpp"
-#include "System/zzzz__TypeIdentifier_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__TypeIdentifier_def.hpp"
+#include "System/zzzz__TypeIdentifiers_def.hpp"
 //  Writing Method size for method: System::System__TypeIdentifiers__Display._ctor
 template<>
 
@@ -96,8 +97,10 @@ constexpr void System::System__TypeIdentifiers__Display::__set_internal_name(::S
 constexpr ::StringW System::System__TypeIdentifiers__Display::__get_internal_name() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }]
- System::System__TypeIdentifiers__Display::System__TypeIdentifiers__Display(::StringW displayName)  : System::System__TypeNames__ATypeName(THROW_UNLESS(::il2cpp_utils::New<System__TypeIdentifiers__Display>(displayName))) {}
+ System::System__TypeIdentifiers__Display System::System__TypeIdentifiers__Display::New_ctor(::StringW displayName)  {
+System::System__TypeIdentifiers__Display o{THROW_UNLESS(::il2cpp_utils::New<System::System__TypeIdentifiers__Display>(displayName))};
+return o;
+}
  void System::System__TypeIdentifiers__Display::_ctor(::StringW displayName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TypeIdentifiers__Display>::get(),

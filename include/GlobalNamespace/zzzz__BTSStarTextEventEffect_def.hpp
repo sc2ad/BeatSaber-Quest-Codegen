@@ -5,34 +5,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class BasicBeatmapEventData;
-}
-namespace UnityEngine {
-class Sprite;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-struct BasicBeatmapEventType;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__BTSStarTextEventEffect__StarTextSprite;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BTSStarTextEventEffect__StartTextPosition;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
 class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +131,7 @@ constexpr float_t __get__animationLength() const;
 /// @brief Method get_animationLength addr 0x20ab3f4 size 0x8 virtual false final false
  float_t get_animationLength() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BTSStarTextEventEffect__StarTextSprite() ;
+static GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StarTextSprite New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ab3fc size 0x8 virtual false final false
  void _ctor() ;
@@ -205,8 +210,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method get_transform addr 0x20ab40c size 0x8 virtual false final false
  UnityEngine::Transform get_transform() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BTSStarTextEventEffect__StartTextPosition() ;
+static GlobalNamespace::GlobalNamespace__BTSStarTextEventEffect__StartTextPosition New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ab414 size 0x8 virtual false final false
  void _ctor() ;
@@ -330,8 +334,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::Transf
 /// @brief Method HandleBeatmapEvent addr 0x20ab14c size 0x1d8 virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::BasicBeatmapEventData basicBeatmapEventData) ;
 
-// Ctor Parameters []
-explicit BTSStarTextEventEffect() ;
+static GlobalNamespace::BTSStarTextEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ab324 size 0xc0 virtual false final false
  void _ctor() ;

@@ -3,7 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace UnityEngine::UIElements {
+struct StyleInt;
+}
+namespace UnityEngine::UIElements {
 struct StyleFloat;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StyleValue;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
@@ -12,14 +18,8 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct StyleValue;
-}
 namespace UnityEngine::UIElements {
 struct StyleLength;
-}
-namespace UnityEngine::UIElements {
-struct StyleInt;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -91,8 +91,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::StyleShe
 /// @brief Method SetStyleValue addr 0x2cfa934 size 0x1fc virtual false final false
  void SetStyleValue(UnityEngine::UIElements::StyleSheets::StyleValue value) ;
 
-// Ctor Parameters []
-explicit StyleValueCollection() ;
+static UnityEngine::UIElements::StyleValueCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cfab30 size 0x7c virtual false final false
  void _ctor() ;

@@ -59,8 +59,7 @@ constexpr Org::BouncyCastle::Bcpg::BcpgOutputStream __get_bcpgOut() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgOut", ty: "Org::BouncyCastle::Bcpg::BcpgOutputStream", modifiers: "", def_value: None }]
-explicit OutputStreamPacket(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+static Org::BouncyCastle::Bcpg::OutputStreamPacket New_ctor(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 /// @brief Method .ctor addr 0x1147ff0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;

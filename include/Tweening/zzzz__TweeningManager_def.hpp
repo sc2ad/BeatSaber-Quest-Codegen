@@ -5,7 +5,7 @@
 #include <cmath>
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class HashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -13,7 +13,7 @@ class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class List_1;
 }
 namespace Tweening {
 class Tween;
@@ -131,8 +131,7 @@ constexpr System::Collections::Generic::Queue_1<System::Collections::Generic::Ha
 /// @brief Method AddTweenToOwnerDictionary addr 0x287b230 size 0x198 virtual false final false
  void AddTweenToOwnerDictionary(Tweening::Tween tween, ::bs_hook::Il2CppWrapperType owner) ;
 
-// Ctor Parameters []
-explicit TweeningManager() ;
+static Tweening::TweeningManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x287a830 size 0x18c virtual false final false
  void _ctor() ;

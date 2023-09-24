@@ -50,8 +50,7 @@ constexpr explicit SteamInit(void* ptr) noexcept : UnityEngine::MonoBehaviour(pt
 /// @brief Method Init addr 0x20b85a8 size 0x4 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit SteamInit() ;
+static GlobalNamespace::SteamInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b85ac size 0x8 virtual false final false
  void _ctor() ;

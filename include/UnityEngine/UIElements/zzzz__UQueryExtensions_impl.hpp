@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UQueryExtensions_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryBuilder_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UQueryExtensions.Q
 template<>
 

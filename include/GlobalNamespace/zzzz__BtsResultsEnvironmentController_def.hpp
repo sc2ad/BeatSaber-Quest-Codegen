@@ -6,16 +6,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__BTSCharacterDataModel__PrefabWithId;
 }
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace GlobalNamespace {
 class BTSCharacterDataModel;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,17 +39,14 @@ class List_1;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
 namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class AnimationClip;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
+}
+namespace UnityEngine::AddressableAssets {
+class AssetReference;
 }
 namespace UnityEngine {
 class Transform;
@@ -42,18 +54,12 @@ class Transform;
 namespace GlobalNamespace {
 class BTSCharacterResultAnimationController;
 }
-namespace UnityEngine::AddressableAssets {
-class AssetReference;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -160,8 +166,7 @@ constexpr UnityEngine::AddressableAssets::AssetReference __get__btsCharacterAsse
 /// @brief Method SetCharacter addr 0x20aa200 size 0xcc virtual false final false
  void SetCharacter(UnityEngine::AddressableAssets::AssetReference assetReference, GlobalNamespace::BTSCharacter btsCharacter, bool alternativeMaterial) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation() ;
+static GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation New_ctor() ;
 
 /// @brief Method .ctor addr 0x20aa7c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -249,8 +254,7 @@ constexpr GlobalNamespace::BtsResultsEnvironmentController __get___4__this() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20aa630 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -374,8 +378,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::ResourceManagement::
 /// @brief Method DestroyCharactersAndStopAnimations addr 0x20aa544 size 0x84 virtual false final false
  void DestroyCharactersAndStopAnimations() ;
 
-// Ctor Parameters []
-explicit BtsResultsEnvironmentController() ;
+static GlobalNamespace::BtsResultsEnvironmentController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20aa744 size 0x7c virtual false final false
  void _ctor() ;

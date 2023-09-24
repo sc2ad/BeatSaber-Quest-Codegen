@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Utilities::Zlib {
-class InfBlocks;
+class ZStream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
+class InfBlocks;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -226,8 +226,7 @@ static ::ArrayW<uint8_t> __get_mark() ;
 /// @brief Method inflateSyncPoint addr 0x10dcaf8 size 0x2c virtual false final false
  int32_t inflateSyncPoint(Org::BouncyCastle::Utilities::Zlib::ZStream z) ;
 
-// Ctor Parameters []
-explicit Inflate() ;
+static Org::BouncyCastle::Utilities::Zlib::Inflate New_ctor() ;
 
 /// @brief Method .ctor addr 0x10dcbb8 size 0x58 virtual false final false
  void _ctor() ;

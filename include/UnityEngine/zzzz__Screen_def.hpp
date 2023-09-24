@@ -6,13 +6,13 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Resolution;
+struct ScreenOrientation;
 }
 namespace UnityEngine {
 struct FullScreenMode;
 }
 namespace UnityEngine {
-struct ScreenOrientation;
+struct Resolution;
 }
 // Forward declare root types
 namespace UnityEngine {

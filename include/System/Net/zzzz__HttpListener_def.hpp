@@ -3,62 +3,62 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System::Net {
+class IPAddress;
+}
+namespace System::IO {
+class Stream;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
 }
 namespace Mono::Security::Interface {
 class MonoTlsProvider;
 }
 namespace System::Net {
-class HttpListenerPrefixCollection;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Net {
 struct AuthenticationSchemes;
-}
-namespace System::Security::Authentication::ExtendedProtection {
-class ExtendedProtectionPolicy;
-}
-namespace System::Collections {
-class ArrayList;
 }
 namespace System::Net::Security {
 class SslStream;
 }
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+namespace System::Net {
+class HttpListenerContext;
 }
 namespace System::Net {
-class ServiceNameStore;
+class HttpConnection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Net {
-class AuthenticationSchemeSelector;
+class HttpListenerPrefixCollection;
 }
-namespace System::IO {
-class Stream;
+namespace System {
+class AsyncCallback;
+}
+namespace System::Security::Authentication::ExtendedProtection {
+class ExtendedProtectionPolicy;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
-class HttpConnection;
+class AuthenticationSchemeSelector;
 }
 namespace System {
-class AsyncCallback;
+class IDisposable;
 }
 namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
-class HttpListenerContext;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
+class ServiceNameStore;
 }
 // Forward declare root types
 namespace System::Net {
@@ -235,8 +235,7 @@ constexpr System::Security::Authentication::ExtendedProtection::ExtendedProtecti
 /// @brief Method CreateSslStream addr 0x2832714 size 0x190 virtual false final false
  System::Net::Security::SslStream CreateSslStream(System::IO::Stream innerStream, bool ownsStream, System::Net::Security::RemoteCertificateValidationCallback callback) ;
 
-// Ctor Parameters []
-explicit HttpListener() ;
+static System::Net::HttpListener New_ctor() ;
 
 /// @brief Method .ctor addr 0x2835658 size 0x1ac virtual false final false
  void _ctor() ;

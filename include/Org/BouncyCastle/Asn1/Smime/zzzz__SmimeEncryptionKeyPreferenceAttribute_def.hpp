@@ -5,10 +5,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientKeyIdentifier;
+class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
+class RecipientKeyIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {
@@ -56,20 +56,17 @@ constexpr explicit SmimeEncryptionKeyPreferenceAttribute(void* ptr) noexcept : O
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "issAndSer", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
-explicit SmimeEncryptionKeyPreferenceAttribute(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issAndSer) ;
+static Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issAndSer) ;
 
 /// @brief Method .ctor addr 0xfe7c70 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issAndSer) ;
 
-// Ctor Parameters [CppParam { name: "rKeyID", ty: "Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier", modifiers: "", def_value: None }]
-explicit SmimeEncryptionKeyPreferenceAttribute(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID) ;
+static Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute New_ctor(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID) ;
 
 /// @brief Method .ctor addr 0xfe7d54 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID) ;
 
-// Ctor Parameters [CppParam { name: "sKeyID", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit SmimeEncryptionKeyPreferenceAttribute(Org::BouncyCastle::Asn1::Asn1OctetString sKeyID) ;
+static Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString sKeyID) ;
 
 /// @brief Method .ctor addr 0xfe7e38 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString sKeyID) ;

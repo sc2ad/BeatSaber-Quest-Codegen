@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__ForceMode_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__CollisionDetectionMode_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: UnityEngine::Rigidbody.set_velocity
 template<>
 
@@ -660,8 +660,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, force, position);
 }
-// Ctor Parameters []
- UnityEngine::Rigidbody::Rigidbody()  : UnityEngine::Component(THROW_UNLESS(::il2cpp_utils::New<Rigidbody>())) {}
+ UnityEngine::Rigidbody UnityEngine::Rigidbody::New_ctor()  {
+UnityEngine::Rigidbody o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Rigidbody>())};
+return o;
+}
  void UnityEngine::Rigidbody::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Rigidbody>::get(),

@@ -21,22 +21,34 @@ class IAsyncResult;
 namespace System {
 class AsyncCallback;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System {
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderIntensityEffect__InitData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SliderIntensityEffect__FadeElement;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,8 +123,7 @@ constexpr float_t __get_hapticFeedback() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "arcVisibilityType", ty: "GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None }, CppParam { name: "hapticFeedbackEnabled", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SliderIntensityEffect__InitData(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled) ;
+static GlobalNamespace::GlobalNamespace__SliderIntensityEffect__InitData New_ctor(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled) ;
 
 /// @brief Method .ctor addr 0x224a76c size 0x6c virtual false final false
  void _ctor(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled) ;
@@ -196,8 +207,7 @@ constexpr System::Action __get_startCallback() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "startIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "endIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startCallback", ty: "System::Action", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SliderIntensityEffect__FadeElement(GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, System::Action startCallback) ;
+static GlobalNamespace::GlobalNamespace__SliderIntensityEffect__FadeElement New_ctor(GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, System::Action startCallback) ;
 
 /// @brief Method .ctor addr 0x224a604 size 0x44 virtual false final false
  void _ctor(GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, System::Action startCallback) ;
@@ -248,8 +258,7 @@ constexpr explicit GlobalNamespace__SliderIntensityEffect__IntensityCalculationD
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__SliderIntensityEffect__IntensityCalculationDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x224a7d8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -370,8 +379,7 @@ constexpr float_t __get__startTime_5__4() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__SliderIntensityEffect___ProcessEffectCoroutine_d__32 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x224a6bc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -611,8 +619,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SliderIntensityEffect__Fade
 /// @brief Method StartFlashEffect addr 0x224a6e4 size 0x30 virtual false final false
  void StartFlashEffect() ;
 
-// Ctor Parameters []
-explicit SliderIntensityEffect() ;
+static GlobalNamespace::SliderIntensityEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224a714 size 0x20 virtual false final false
  void _ctor() ;

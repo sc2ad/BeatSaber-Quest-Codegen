@@ -58,8 +58,7 @@ constexpr explicit ExpandableObjectConverter(void* ptr) noexcept : System::Compo
 
 // Methods
 
-// Ctor Parameters []
-explicit ExpandableObjectConverter() ;
+static System::ComponentModel::ExpandableObjectConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x277d694 size 0x8 virtual false final false
  void _ctor() ;

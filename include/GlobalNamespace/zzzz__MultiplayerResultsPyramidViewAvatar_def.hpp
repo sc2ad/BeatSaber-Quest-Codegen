@@ -7,38 +7,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace Tweening {
-class Vector3Tween;
-}
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace Tweening {
-class FloatTween;
+class GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace UnityEngine {
-class GameObject;
+class Sprite;
 }
-namespace Tweening {
-class ColorTween;
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace HMUI {
 class ImageView;
@@ -46,20 +37,32 @@ class ImageView;
 namespace GlobalNamespace {
 class GhostDuplicationEffect;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace Tweening {
+class Vector3Tween;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
+namespace Tweening {
+class FloatTween;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace UnityEngine {
-struct Color;
+class Transform;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+struct GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace Tweening {
+class ColorTween;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -342,8 +345,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get__connectedPlayer() const;
 /// @brief Method SetupBadgeTimeline addr 0x20fea28 size 0x57c virtual false final false
  void SetupBadgeTimeline(UnityEngine::Transform startTransform, UnityEngine::Transform midTransform) ;
 
-// Ctor Parameters []
-explicit MultiplayerResultsPyramidViewAvatar() ;
+static GlobalNamespace::MultiplayerResultsPyramidViewAvatar New_ctor() ;
 
 /// @brief Method .ctor addr 0x210146c size 0x2c virtual false final false
  void _ctor() ;
@@ -355,7 +357,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Factory
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3369 }), TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(5335)), TypeDefinitionIndex(TypeDefinitionIndex(10947))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(10947)), TypeDefinitionIndex(TypeDefinitionIndex(5335)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10947), inst: 3369 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5334))
 // CS Name: MultiplayerResultsPyramidViewAvatar::Factory
 class CORDL_TYPE GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory : public Zenject::PlaceholderFactory_2<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerResultsPyramidViewAvatar> {
@@ -394,8 +396,7 @@ constexpr explicit GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerResultsPyramidViewAvatar__Factory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2101498 size 0x48 virtual false final false
  void _ctor() ;

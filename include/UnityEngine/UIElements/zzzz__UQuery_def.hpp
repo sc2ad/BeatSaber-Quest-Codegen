@@ -3,6 +3,9 @@
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
 }
@@ -11,7 +14,20 @@ template<typename T1,typename T2>
 class Action_2;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class UnityEngine__UIElements__UQuery__IVisualPredicateWrapper;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UQuery__UQueryMatcher;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UQuery__SingleQueryMatcher;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class UnityEngine__UIElements__UQuery__IsOfType_1;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UQuery__FirstQueryMatcher;
 }
 namespace UnityEngine::UIElements {
 struct RuleMatcher;
@@ -19,6 +35,9 @@ struct RuleMatcher;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__UQuery__UQueryMatcher____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -130,8 +149,7 @@ static System::Action_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIEl
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQuery__UQueryMatcher____c() ;
+static GlobalNamespace::UnityEngine__UIElements__UQuery__UQueryMatcher____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8bf90 size 0x8 virtual false final false
  void _ctor() ;
@@ -196,8 +214,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::RuleMatc
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQuery__UQueryMatcher() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UQuery__UQueryMatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8bd04 size 0x8 virtual false final false
  void _ctor() ;
@@ -292,8 +309,7 @@ constexpr UnityEngine::UIElements::VisualElement __get__match_k__BackingField() 
 /// @brief Method CreateNew addr 0x0 size 0xffffffffffffffff virtual true final false
  UnityEngine::UIElements::UnityEngine__UIElements__UQuery__SingleQueryMatcher CreateNew() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQuery__SingleQueryMatcher() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UQuery__SingleQueryMatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8bfe0 size 0x8 virtual false final false
  void _ctor() ;
@@ -359,8 +375,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__UQuery__FirstQueryMatch
 /// @brief Method CreateNew addr 0x2c8bffc size 0x5c virtual true final false
  UnityEngine::UIElements::UnityEngine__UIElements__UQuery__SingleQueryMatcher CreateNew() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQuery__FirstQueryMatcher() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UQuery__FirstQueryMatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8c058 size 0x8 virtual false final false
  void _ctor() ;
@@ -482,8 +497,7 @@ static UnityEngine::UIElements::UnityEngine__UIElements__UQuery__IsOfType_1<T> _
 /// @brief Method Predicate addr 0x0 size 0xffffffffffffffff virtual true final true
  bool Predicate(::bs_hook::Il2CppWrapperType e) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQuery__IsOfType_1() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UQuery__IsOfType_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

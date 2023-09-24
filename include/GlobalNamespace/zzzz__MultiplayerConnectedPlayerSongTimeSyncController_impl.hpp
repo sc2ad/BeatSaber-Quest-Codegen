@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSongTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData._ctor
 template<>
 
@@ -39,8 +40,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongT
 constexpr float_t GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData::__get_timeScale() const {
 return ::cordl_internals::getInstanceField<float_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(float_t startSongTime, float_t songTimeOffset, float_t timeScale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData>(startSongTime, songTimeOffset, timeScale))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData::New_ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale)  {
+GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData>(startSongTime, songTimeOffset, timeScale))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData::_ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData>::get(),
@@ -461,8 +464,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::MultiplayerConnectedPlayerSongTimeSyncController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerSongTimeSyncController>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController>::get(),

@@ -176,8 +176,7 @@ static ::StringW GetHoudiniEngineEnvironmentFilePathFull() ;
 /// @brief Method LoadFileIntoMemory addr 0x2017bcc size 0x21c virtual false final false
 static bool LoadFileIntoMemory(::StringW path, ByRef<::ArrayW<uint8_t>> buffer) ;
 
-// Ctor Parameters []
-explicit HEU_Platform() ;
+static HoudiniEngineUnity::HEU_Platform New_ctor() ;
 
 /// @brief Method .ctor addr 0x2017de8 size 0x8 virtual false final false
  void _ctor() ;

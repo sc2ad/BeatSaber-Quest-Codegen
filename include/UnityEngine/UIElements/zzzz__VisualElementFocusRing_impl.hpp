@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -61,8 +62,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFo
 constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord> UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord::__get_m_ScopeNavigationOrder() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord>::get(),
@@ -349,8 +352,11 @@ constexpr void UnityEngine::UIElements::VisualElementFocusRing::__set_m_FocusRin
 constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord> UnityEngine::UIElements::VisualElementFocusRing::__get_m_FocusRing() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__FocusRingRecord>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "root", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }, CppParam { name: "dfo", ty: "UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder", modifiers: "", def_value: Some("0") }]
- UnityEngine::UIElements::VisualElementFocusRing::VisualElementFocusRing(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder dfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VisualElementFocusRing>(root, dfo))) {}
+/// @param dfo: UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder (default: 0)
+ UnityEngine::UIElements::VisualElementFocusRing UnityEngine::UIElements::VisualElementFocusRing::New_ctor(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder dfo)  {
+UnityEngine::UIElements::VisualElementFocusRing o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualElementFocusRing>(root, dfo))};
+return o;
+}
 /// @param dfo: UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder (default: 0)
  void UnityEngine::UIElements::VisualElementFocusRing::_ctor(UnityEngine::UIElements::VisualElement root, UnityEngine::UIElements::UnityEngine__UIElements__VisualElementFocusRing__DefaultFocusOrder dfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

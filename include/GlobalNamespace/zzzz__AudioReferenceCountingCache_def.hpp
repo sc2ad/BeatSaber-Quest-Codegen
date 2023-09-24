@@ -11,7 +11,7 @@ class AudioReferenceCountingCache;
 // Type: ::AudioReferenceCountingCache
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 266 }), TypeDefinitionIndex(TypeDefinitionIndex(6001)), TypeDefinitionIndex(TypeDefinitionIndex(15606)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6001), inst: 3688 }), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15606)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6001), inst: 3688 }), TypeDefinitionIndex(TypeDefinitionIndex(6001)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2770), inst: 266 }), TypeDefinitionIndex(TypeDefinitionIndex(2770))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5977))
 // CS Name: AudioReferenceCountingCache
 class CORDL_TYPE AudioReferenceCountingCache : public GlobalNamespace::ReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> {
@@ -50,8 +50,7 @@ constexpr explicit AudioReferenceCountingCache(void* ptr) noexcept : GlobalNames
 
 // Methods
 
-// Ctor Parameters []
-explicit AudioReferenceCountingCache() ;
+static GlobalNamespace::AudioReferenceCountingCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a192c size 0x48 virtual false final false
  void _ctor() ;

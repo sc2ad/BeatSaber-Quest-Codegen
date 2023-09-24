@@ -3,17 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class Triangulatable;
+class DelaunayTriangle;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationContext;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class PolygonPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+struct TriangulationMode;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class PolygonPoint;
+class Triangulatable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -25,12 +31,6 @@ class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class TriangulationPoint;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-struct TriangulationMode;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationContext;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -125,20 +125,17 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::PolygonPoint __get__last() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>", modifiers: "", def_value: None }]
-explicit Polygon(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
+static UnityEngine::ProBuilder::Poly2Tri::Polygon New_ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
 
 /// @brief Method .ctor addr 0x299a4dc size 0x3b8 virtual false final false
  void _ctor(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>", modifiers: "", def_value: None }]
-explicit Polygon(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
+static UnityEngine::ProBuilder::Poly2Tri::Polygon New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
 
 /// @brief Method .ctor addr 0x299a894 size 0x88 virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>", modifiers: "", def_value: None }]
-explicit Polygon(::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
+static UnityEngine::ProBuilder::Poly2Tri::Polygon New_ctor(::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;
 
 /// @brief Method .ctor addr 0x299a91c size 0x4 virtual false final false
  void _ctor(::ArrayW<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint> points) ;

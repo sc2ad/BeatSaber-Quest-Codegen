@@ -177,8 +177,10 @@ constexpr void System::Security::SecurityDocument::__set_m_data(::ArrayW<uint8_t
 constexpr ::ArrayW<uint8_t> System::Security::SecurityDocument::__get_m_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "numData", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::SecurityDocument::SecurityDocument(int32_t numData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecurityDocument>(numData))) {}
+ System::Security::SecurityDocument System::Security::SecurityDocument::New_ctor(int32_t numData)  {
+System::Security::SecurityDocument o{THROW_UNLESS(::il2cpp_utils::New<System::Security::SecurityDocument>(numData))};
+return o;
+}
  void System::Security::SecurityDocument::_ctor(int32_t numData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::SecurityDocument>::get(),

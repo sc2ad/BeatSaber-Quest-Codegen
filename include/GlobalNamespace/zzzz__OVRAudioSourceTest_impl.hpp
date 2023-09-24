@@ -82,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRAudioSourceTest::OVRAudioSourceTest()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRAudioSourceTest>())) {}
+ GlobalNamespace::OVRAudioSourceTest GlobalNamespace::OVRAudioSourceTest::New_ctor()  {
+GlobalNamespace::OVRAudioSourceTest o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRAudioSourceTest>())};
+return o;
+}
  void GlobalNamespace::OVRAudioSourceTest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRAudioSourceTest>::get(),

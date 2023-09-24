@@ -6,8 +6,23 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
+namespace Tayx::Graphy {
+class Tayx__Graphy__GraphyDebugger____c;
+}
+namespace Tayx::Graphy {
+class Tayx__Graphy__GraphyDebugger__DebugPacket;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyDebugger__DebugVariable;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyDebugger__MessageType;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyDebugger__ConditionEvaluation;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -16,11 +31,26 @@ class List_1;
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
 }
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyDebugger__DebugCondition;
+}
+namespace Tayx::Graphy {
+class Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0;
+}
 namespace System {
 class Action;
 }
-namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
+namespace Tayx::Graphy {
+class Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0;
+}
+namespace Tayx::Graphy {
+class Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0;
+}
+namespace Tayx::Graphy {
+struct Tayx__Graphy__GraphyDebugger__DebugComparer;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
@@ -119,6 +149,8 @@ constexpr operator __Tayx__Graphy__GraphyDebugger__DebugVariable_Unwrapped () co
 return std::bit_cast<__Tayx__Graphy__GraphyDebugger__DebugVariable_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -209,6 +241,8 @@ constexpr operator __Tayx__Graphy__GraphyDebugger__DebugComparer_Unwrapped () co
 return std::bit_cast<__Tayx__Graphy__GraphyDebugger__DebugComparer_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -287,6 +321,8 @@ constexpr operator __Tayx__Graphy__GraphyDebugger__ConditionEvaluation_Unwrapped
 return std::bit_cast<__Tayx__Graphy__GraphyDebugger__ConditionEvaluation_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -356,6 +392,8 @@ __Error = 2,
 constexpr operator __Tayx__Graphy__GraphyDebugger__MessageType_Unwrapped () const noexcept {
 return std::bit_cast<__Tayx__Graphy__GraphyDebugger__MessageType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -605,8 +643,7 @@ constexpr float_t __get_timePassed() const;
 /// @brief Method Executed addr 0x286eeec size 0xc virtual false final false
  void Executed() ;
 
-// Ctor Parameters []
-explicit Tayx__Graphy__GraphyDebugger__DebugPacket() ;
+static Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x286dde0 size 0x11c virtual false final false
  void _ctor() ;
@@ -666,8 +703,7 @@ constexpr int32_t __get_packetId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0() ;
+static Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x286e2c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -730,8 +766,7 @@ constexpr int32_t __get_packetId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0() ;
+static Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x286e3ac size 0x8 virtual false final false
  void _ctor() ;
@@ -794,8 +829,7 @@ constexpr int32_t __get_packetId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0() ;
+static Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x286e52c size 0x8 virtual false final false
  void _ctor() ;
@@ -864,8 +898,7 @@ static System::Predicate_1<Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPack
 
 // Methods
 
-// Ctor Parameters []
-explicit Tayx__Graphy__GraphyDebugger____c() ;
+static Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x286efd0 size 0x8 virtual false final false
  void _ctor() ;
@@ -880,7 +913,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: Tayx.Graphy::GraphyDebugger
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15193), inst: 2450 }), TypeDefinitionIndex(TypeDefinitionIndex(15193))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15193)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15193), inst: 2450 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15183))
 // CS Name: Tayx.Graphy.GraphyDebugger
 class CORDL_TYPE GraphyDebugger : public Tayx::Graphy::Utils::G_Singleton_1<Tayx::Graphy::GraphyDebugger> {
@@ -966,8 +999,7 @@ constexpr Tayx::Graphy::Audio::G_AudioMonitor __get_m_audioMonitor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GraphyDebugger() ;
+static Tayx::Graphy::GraphyDebugger New_ctor() ;
 
 /// @brief Method .ctor addr 0x286d620 size 0xbc virtual false final false
  void _ctor() ;

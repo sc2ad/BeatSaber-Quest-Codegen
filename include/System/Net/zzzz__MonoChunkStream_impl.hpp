@@ -2,17 +2,18 @@
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__MonoChunkStream_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Net/zzzz__MonoChunkStream_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__MonoChunkStream___ProcessReadAsync_d__7.MoveNext
 template<>
@@ -365,8 +366,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::MonoChunkParser, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Net::WebHeaderCollection", modifiers: "", def_value: None }]
- System::Net::MonoChunkStream::MonoChunkStream(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::WebHeaderCollection headers)  : System::Net::WebReadStream(THROW_UNLESS(::il2cpp_utils::New<MonoChunkStream>(operation, innerStream, headers))) {}
+ System::Net::MonoChunkStream System::Net::MonoChunkStream::New_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::WebHeaderCollection headers)  {
+System::Net::MonoChunkStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::MonoChunkStream>(operation, innerStream, headers))};
+return o;
+}
  void System::Net::MonoChunkStream::_ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, System::Net::WebHeaderCollection headers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::MonoChunkStream>::get(),

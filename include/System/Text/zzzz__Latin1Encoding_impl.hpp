@@ -3,9 +3,9 @@
 #include "System/Text/zzzz__Latin1Encoding_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Text::Latin1Encoding._ctor
 template<>
 
@@ -192,8 +192,10 @@ return ::cordl_internals::getStaticField<System::Text::Latin1Encoding, "s_defaul
  ::ArrayW<char16_t> System::Text::Latin1Encoding::__get_arrayCharBestFit()  {
 return ::cordl_internals::getStaticField<::ArrayW<char16_t>, "arrayCharBestFit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Latin1Encoding>::get>();
 }
-// Ctor Parameters []
- System::Text::Latin1Encoding::Latin1Encoding()  : System::Text::EncodingNLS(THROW_UNLESS(::il2cpp_utils::New<Latin1Encoding>())) {}
+ System::Text::Latin1Encoding System::Text::Latin1Encoding::New_ctor()  {
+System::Text::Latin1Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::Latin1Encoding>())};
+return o;
+}
  void System::Text::Latin1Encoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Latin1Encoding>::get(),
@@ -203,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::Latin1Encoding::Latin1Encoding(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Text::EncodingNLS(THROW_UNLESS(::il2cpp_utils::New<Latin1Encoding>(info, context))) {}
+ System::Text::Latin1Encoding System::Text::Latin1Encoding::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::Latin1Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::Latin1Encoding>(info, context))};
+return o;
+}
  void System::Text::Latin1Encoding::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Latin1Encoding>::get(),

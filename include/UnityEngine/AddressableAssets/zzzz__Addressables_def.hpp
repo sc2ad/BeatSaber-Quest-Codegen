@@ -5,29 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class IResourceLocator;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class IInstanceProvider;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+namespace System {
+class Exception;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -36,55 +31,63 @@ class IList_1;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
+namespace System {
+class Type;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System {
-class Exception;
+namespace UnityEngine::AddressableAssets {
+struct UnityEngine__AddressableAssets__Addressables__MergeMode;
 }
-namespace System {
-class Type;
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
 }
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class IResourceLocator;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 namespace UnityEngine {
 struct LogType;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace UnityEngine {
-class Transform;
+class GameObject;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+class Transform;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -144,6 +147,8 @@ __Intersection = 2,
 constexpr operator __UnityEngine__AddressableAssets__Addressables__MergeMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__AddressableAssets__Addressables__MergeMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

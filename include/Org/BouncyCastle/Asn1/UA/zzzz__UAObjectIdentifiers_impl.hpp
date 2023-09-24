@@ -252,8 +252,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::__get_dstu7624kw_512()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "dstu7624kw_512", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::UAObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UAObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers>::get(),

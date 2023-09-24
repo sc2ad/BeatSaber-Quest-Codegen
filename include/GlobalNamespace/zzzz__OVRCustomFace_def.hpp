@@ -78,8 +78,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OVRFaceExpressions__FaceExp
 /// @brief Method GetFaceExpression addr 0x261ecdc size 0x30 virtual true final false
  GlobalNamespace::GlobalNamespace__OVRFaceExpressions__FaceExpression GetFaceExpression(int32_t blendShapeIndex) ;
 
-// Ctor Parameters []
-explicit OVRCustomFace() ;
+static GlobalNamespace::OVRCustomFace New_ctor() ;
 
 /// @brief Method .ctor addr 0x261ed0c size 0x10 virtual false final false
  void _ctor() ;

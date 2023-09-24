@@ -2,34 +2,37 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
+class UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -129,8 +132,7 @@ constexpr UnityEngine::UIElements::UxmlTraits __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8(int32_t __1__state) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlTraits___get_uxmlChildElementsDescription_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c98e68 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -220,8 +222,7 @@ constexpr bool __get__canHaveAnyAttribute_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlTraits() ;
+static UnityEngine::UIElements::UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c98dd8 size 0x20 virtual false final false
  void _ctor() ;

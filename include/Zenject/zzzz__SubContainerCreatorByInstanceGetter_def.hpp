@@ -2,10 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class DiContainer;
+struct TypeValuePair;
 }
 namespace Zenject {
-struct TypeValuePair;
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Zenject {
 class ISubContainerCreator;
@@ -13,10 +17,6 @@ class ISubContainerCreator;
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace Zenject {
 class InjectContext;
@@ -79,8 +79,7 @@ constexpr System::Func_2<Zenject::InjectContext,Zenject::DiContainer> __get__sub
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subcontainerGetter", ty: "System::Func_2<Zenject::InjectContext,Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByInstanceGetter(System::Func_2<Zenject::InjectContext,Zenject::DiContainer> subcontainerGetter) ;
+static Zenject::SubContainerCreatorByInstanceGetter New_ctor(System::Func_2<Zenject::InjectContext,Zenject::DiContainer> subcontainerGetter) ;
 
 /// @brief Method .ctor addr 0x2d92174 size 0x28 virtual false final false
  void _ctor(System::Func_2<Zenject::InjectContext,Zenject::DiContainer> subcontainerGetter) ;

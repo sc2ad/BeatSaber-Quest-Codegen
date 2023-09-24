@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::Playables {
-class INotification;
-}
-namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
+}
+namespace UnityEngine::Playables {
+class INotification;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,8 +83,7 @@ constexpr bool __get__jumpToDestinationValid_k__BackingField() const;
 /// @brief Method OnNotify addr 0x1f838f4 size 0x140 virtual true final true
  void OnNotify(UnityEngine::Playables::Playable origin, UnityEngine::Playables::INotification notification, ::bs_hook::Il2CppWrapperType context) ;
 
-// Ctor Parameters []
-explicit JumpReceiver() ;
+static GlobalNamespace::JumpReceiver New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83a34 size 0x8 virtual false final false
  void _ctor() ;

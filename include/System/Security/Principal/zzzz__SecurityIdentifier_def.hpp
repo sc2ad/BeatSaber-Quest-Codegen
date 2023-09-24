@@ -6,15 +6,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Security::Principal {
+class IdentityReference;
+}
 namespace System {
 template<typename T>
 class IComparable_1;
 }
 namespace System {
 class Type;
-}
-namespace System::Security::Principal {
-class IdentityReference;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -93,14 +93,12 @@ static int32_t __get_MinBinaryLength() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "sddlForm", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SecurityIdentifier(::StringW sddlForm) ;
+static System::Security::Principal::SecurityIdentifier New_ctor(::StringW sddlForm) ;
 
 /// @brief Method .ctor addr 0x230c168 size 0xbc virtual false final false
  void _ctor(::StringW sddlForm) ;
 
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SecurityIdentifier(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
+static System::Security::Principal::SecurityIdentifier New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;
 
 /// @brief Method .ctor addr 0x230c684 size 0xec virtual false final false
  void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset) ;

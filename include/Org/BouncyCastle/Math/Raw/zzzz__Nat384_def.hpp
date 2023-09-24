@@ -55,8 +55,7 @@ static void Mul(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y, ::ArrayW<uint32_t> z
 /// @brief Method Square addr 0x100150c size 0x114 virtual false final false
 static void Square(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> zz) ;
 
-// Ctor Parameters []
-explicit Nat384() ;
+static Org::BouncyCastle::Math::Raw::Nat384 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1001620 size 0x8 virtual false final false
  void _ctor() ;

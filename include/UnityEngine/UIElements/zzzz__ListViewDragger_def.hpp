@@ -7,28 +7,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 class StartDragArgs;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
-struct ListDragAndDropArgs;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+struct UnityEngine__UIElements__ListViewDragger__DragPosition;
 }
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
@@ -36,15 +18,36 @@ struct DragVisualMode;
 namespace UnityEngine::UIElements {
 class ICollectionDragAndDropController;
 }
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+struct ListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
 namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
+class VisualElement;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct DragAndDropPosition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -219,8 +222,7 @@ constexpr UnityEngine::UIElements::ICollectionDragAndDropController __get__dragA
 /// @brief Method set_dragAndDropController addr 0x2c91148 size 0x8 virtual false final false
  void set_dragAndDropController(UnityEngine::UIElements::ICollectionDragAndDropController value) ;
 
-// Ctor Parameters [CppParam { name: "listView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
-explicit ListViewDragger(UnityEngine::UIElements::BaseVerticalCollectionView listView) ;
+static UnityEngine::UIElements::ListViewDragger New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView) ;
 
 /// @brief Method .ctor addr 0x2c91150 size 0x4 virtual false final false
  void _ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView) ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlSchemaInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaAttribute_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaValidity_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaElement_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaAttribute_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
-#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlSchemaInfo._ctor
 template<>
 
@@ -229,8 +229,10 @@ constexpr void System::Xml::Schema::XmlSchemaInfo::__set_contentType(System::Xml
 constexpr System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::XmlSchemaInfo::__get_contentType() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::XmlSchemaContentType, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaInfo::XmlSchemaInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaInfo>())) {}
+ System::Xml::Schema::XmlSchemaInfo System::Xml::Schema::XmlSchemaInfo::New_ctor()  {
+System::Xml::Schema::XmlSchemaInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaInfo>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaInfo>::get(),
@@ -240,8 +242,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "validity", ty: "System::Xml::Schema::XmlSchemaValidity", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlSchemaInfo::XmlSchemaInfo(System::Xml::Schema::XmlSchemaValidity validity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaInfo>(validity))) {}
+ System::Xml::Schema::XmlSchemaInfo System::Xml::Schema::XmlSchemaInfo::New_ctor(System::Xml::Schema::XmlSchemaValidity validity)  {
+System::Xml::Schema::XmlSchemaInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaInfo>(validity))};
+return o;
+}
  void System::Xml::Schema::XmlSchemaInfo::_ctor(System::Xml::Schema::XmlSchemaValidity validity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaInfo>::get(),

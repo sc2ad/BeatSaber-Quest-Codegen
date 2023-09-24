@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Diagnostics::Tracing::NonEventAttribute::NonEventAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NonEventAttribute>())) {}
+ System::Diagnostics::Tracing::NonEventAttribute System::Diagnostics::Tracing::NonEventAttribute::New_ctor()  {
+System::Diagnostics::Tracing::NonEventAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Tracing::NonEventAttribute>())};
+return o;
+}
  void System::Diagnostics::Tracing::NonEventAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Tracing::NonEventAttribute>::get(),

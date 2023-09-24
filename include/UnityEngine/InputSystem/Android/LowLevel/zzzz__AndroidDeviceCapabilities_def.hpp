@@ -15,6 +15,9 @@ struct AndroidAxis;
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidInputSource;
 }
+namespace UnityEngine::InputSystem::Android::LowLevel {
+class UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
 class UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c;
@@ -79,8 +82,7 @@ static System::Func_2<UnityEngine::InputSystem::Android::LowLevel::AndroidAxis,:
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c() ;
+static UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidDeviceCapabilities____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2954234 size 0x8 virtual false final false
  void _ctor() ;

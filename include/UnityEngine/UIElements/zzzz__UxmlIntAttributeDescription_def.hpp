@@ -13,6 +13,9 @@ namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UxmlIntAttributeDescription____c;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 // Forward declare root types
@@ -85,8 +88,7 @@ static System::Func_3<::StringW,int32_t,int32_t> __get___9__4_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UxmlIntAttributeDescription____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlIntAttributeDescription____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c985d8 size 0x8 virtual false final false
  void _ctor() ;
@@ -145,8 +147,7 @@ constexpr explicit UxmlIntAttributeDescription(void* ptr) noexcept : UnityEngine
 
 // Methods
 
-// Ctor Parameters []
-explicit UxmlIntAttributeDescription() ;
+static UnityEngine::UIElements::UxmlIntAttributeDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c981c0 size 0x9c virtual false final false
  void _ctor() ;

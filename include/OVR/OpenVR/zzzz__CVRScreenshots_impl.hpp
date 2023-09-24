@@ -1,10 +1,10 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRScreenshots_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRScreenshotType_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRScreenshotPropertyFilenames_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRScreenshots_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRScreenshotPropertyFilenames_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRScreenshotError_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRScreenshots._ctor
 template<>
 
@@ -147,8 +147,10 @@ constexpr void OVR::OpenVR::CVRScreenshots::__set_FnTable(OVR::OpenVR::IVRScreen
 constexpr OVR::OpenVR::IVRScreenshots OVR::OpenVR::CVRScreenshots::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRScreenshots, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRScreenshots::CVRScreenshots(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRScreenshots>(pInterface))) {}
+ OVR::OpenVR::CVRScreenshots OVR::OpenVR::CVRScreenshots::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRScreenshots o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRScreenshots>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRScreenshots::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRScreenshots>::get(),

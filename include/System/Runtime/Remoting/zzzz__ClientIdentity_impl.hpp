@@ -2,8 +2,8 @@
 #include "System/Runtime/Remoting/zzzz__Identity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::ClientIdentity._ctor
 template<>
@@ -96,8 +96,10 @@ constexpr void System::Runtime::Remoting::ClientIdentity::__set__proxyReference(
 constexpr System::WeakReference System::Runtime::Remoting::ClientIdentity::__get__proxyReference() const {
 return ::cordl_internals::getInstanceField<System::WeakReference, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objRef", ty: "System::Runtime::Remoting::ObjRef", modifiers: "", def_value: None }]
- System::Runtime::Remoting::ClientIdentity::ClientIdentity(::StringW objectUri, System::Runtime::Remoting::ObjRef objRef)  : System::Runtime::Remoting::Identity(THROW_UNLESS(::il2cpp_utils::New<ClientIdentity>(objectUri, objRef))) {}
+ System::Runtime::Remoting::ClientIdentity System::Runtime::Remoting::ClientIdentity::New_ctor(::StringW objectUri, System::Runtime::Remoting::ObjRef objRef)  {
+System::Runtime::Remoting::ClientIdentity o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ClientIdentity>(objectUri, objRef))};
+return o;
+}
  void System::Runtime::Remoting::ClientIdentity::_ctor(::StringW objectUri, System::Runtime::Remoting::ObjRef objRef)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ClientIdentity>::get(),

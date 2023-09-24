@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {

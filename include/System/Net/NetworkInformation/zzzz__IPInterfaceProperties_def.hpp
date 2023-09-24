@@ -66,8 +66,7 @@ constexpr explicit IPInterfaceProperties(void* ptr) noexcept : ::bs_hook::Il2Cpp
 /// @brief Method get_GatewayAddresses addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Net::NetworkInformation::GatewayIPAddressInformationCollection get_GatewayAddresses() ;
 
-// Ctor Parameters []
-explicit IPInterfaceProperties() ;
+static System::Net::NetworkInformation::IPInterfaceProperties New_ctor() ;
 
 /// @brief Method .ctor addr 0x285902c size 0x8 virtual false final false
  void _ctor() ;

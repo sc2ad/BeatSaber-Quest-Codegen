@@ -4,32 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct EventModifiers;
-}
 namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
-namespace UnityEngine {
-struct Touch;
-}
-namespace UnityEngine::UIElements {
-class IPointerEventInternal;
+struct Vector3;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Touch;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+namespace UnityEngine::UIElements {
+class IPointerEventInternal;
+}
+namespace UnityEngine {
+struct EventModifiers;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,7 +46,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1635 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1635 }), TypeDefinitionIndex(TypeDefinitionIndex(7297)), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 2 })
 // CS Name: UnityEngine.UIElements.PointerEventBase`1
 class CORDL_TYPE PointerEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
@@ -437,8 +437,7 @@ static T GetPooled(UnityEngine::UIElements::IPointerEvent triggerEvent) ;
 /// @brief Method PostDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
  void PostDispatch(UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit PointerEventBase_1() ;
+static UnityEngine::UIElements::PointerEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

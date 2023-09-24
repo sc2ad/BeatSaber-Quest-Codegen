@@ -5,17 +5,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace UnityEngine::UIElements {
+struct Angle;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct Angle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

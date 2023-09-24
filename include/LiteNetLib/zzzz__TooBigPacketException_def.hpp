@@ -51,20 +51,17 @@ constexpr explicit TooBigPacketException(void* ptr) noexcept : LiteNetLib::Inval
 
 // Methods
 
-// Ctor Parameters []
-explicit TooBigPacketException() ;
+static LiteNetLib::TooBigPacketException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2088bac size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TooBigPacketException(::StringW message) ;
+static LiteNetLib::TooBigPacketException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2088bb4 size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit TooBigPacketException(::StringW message, System::Exception innerException) ;
+static LiteNetLib::TooBigPacketException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2088bbc size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;

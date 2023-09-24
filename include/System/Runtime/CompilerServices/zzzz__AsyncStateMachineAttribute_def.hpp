@@ -50,8 +50,7 @@ constexpr explicit AsyncStateMachineAttribute(void* ptr) noexcept : System::Runt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stateMachineType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit AsyncStateMachineAttribute(System::Type stateMachineType) ;
+static System::Runtime::CompilerServices::AsyncStateMachineAttribute New_ctor(System::Type stateMachineType) ;
 
 /// @brief Method .ctor addr 0x236d9b4 size 0x28 virtual false final false
  void _ctor(System::Type stateMachineType) ;

@@ -64,8 +64,7 @@ constexpr explicit AbstractTlsEncryptionCredentials(void* ptr) noexcept : Org::B
 /// @brief Method DecryptPreMasterSecret addr 0x0 size 0xffffffffffffffff virtual true final false
  ::ArrayW<uint8_t> DecryptPreMasterSecret(::ArrayW<uint8_t> encryptedPreMasterSecret) ;
 
-// Ctor Parameters []
-explicit AbstractTlsEncryptionCredentials() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials New_ctor() ;
 
 /// @brief Method .ctor addr 0xecc3f4 size 0x8 virtual false final false
  void _ctor() ;

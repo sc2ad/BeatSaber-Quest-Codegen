@@ -1,13 +1,13 @@
 #pragma once
 #include "Mono/Http/zzzz__NtlmClient_def.hpp"
 #include "Mono/Http/zzzz__NtlmSession_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
-#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
+#include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
+#include "Mono/Http/zzzz__NtlmClient_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 //  Writing Method size for method: Mono::Http::Mono__Http__NtlmClient____c._ctor
 template<>
 
@@ -54,8 +54,10 @@ return ::cordl_internals::getStaticField<Mono::Http::Mono__Http__NtlmClient____c
  System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback<System::Net::HttpWebRequest,Mono::Http::NtlmSession> Mono::Http::Mono__Http__NtlmClient____c::__get___9__1_0()  {
 return ::cordl_internals::getStaticField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback<System::Net::HttpWebRequest,Mono::Http::NtlmSession>, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Http::Mono__Http__NtlmClient____c>::get>();
 }
-// Ctor Parameters []
- Mono::Http::Mono__Http__NtlmClient____c::Mono__Http__NtlmClient____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Http__NtlmClient____c>())) {}
+ Mono::Http::Mono__Http__NtlmClient____c Mono::Http::Mono__Http__NtlmClient____c::New_ctor()  {
+Mono::Http::Mono__Http__NtlmClient____c o{THROW_UNLESS(::il2cpp_utils::New<Mono::Http::Mono__Http__NtlmClient____c>())};
+return o;
+}
  void Mono::Http::Mono__Http__NtlmClient____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Http::Mono__Http__NtlmClient____c>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Mono::Http::NtlmClient::NtlmClient()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NtlmClient>())) {}
+ Mono::Http::NtlmClient Mono::Http::NtlmClient::New_ctor()  {
+Mono::Http::NtlmClient o{THROW_UNLESS(::il2cpp_utils::New<Mono::Http::NtlmClient>())};
+return o;
+}
  void Mono::Http::NtlmClient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Http::NtlmClient>::get(),

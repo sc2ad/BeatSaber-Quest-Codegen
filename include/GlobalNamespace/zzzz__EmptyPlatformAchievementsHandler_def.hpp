@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IPlatformAchievementsHandler;
-}
-namespace GlobalNamespace {
 class GlobalNamespace__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler;
 }
 namespace GlobalNamespace {
-class HMAsyncRequest;
+class GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler;
+class IPlatformAchievementsHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -72,8 +72,7 @@ constexpr explicit EmptyPlatformAchievementsHandler(void* ptr) noexcept : ::bs_h
 /// @brief Method GetUnlockedAchievements addr 0x20c7070 size 0x8 virtual true final true
  GlobalNamespace::HMAsyncRequest GetUnlockedAchievements(GlobalNamespace::GlobalNamespace__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler completionHandler) ;
 
-// Ctor Parameters []
-explicit EmptyPlatformAchievementsHandler() ;
+static GlobalNamespace::EmptyPlatformAchievementsHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c7078 size 0x8 virtual false final false
  void _ctor() ;

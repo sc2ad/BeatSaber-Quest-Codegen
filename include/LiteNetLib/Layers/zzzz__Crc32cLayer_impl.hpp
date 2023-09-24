@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- LiteNetLib::Layers::Crc32cLayer::Crc32cLayer()  : LiteNetLib::Layers::PacketLayerBase(THROW_UNLESS(::il2cpp_utils::New<Crc32cLayer>())) {}
+ LiteNetLib::Layers::Crc32cLayer LiteNetLib::Layers::Crc32cLayer::New_ctor()  {
+LiteNetLib::Layers::Crc32cLayer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Layers::Crc32cLayer>())};
+return o;
+}
  void LiteNetLib::Layers::Crc32cLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Layers::Crc32cLayer>::get(),

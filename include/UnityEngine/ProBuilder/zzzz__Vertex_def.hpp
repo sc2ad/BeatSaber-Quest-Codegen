@@ -6,35 +6,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Color;
 }
 namespace UnityEngine {
 class Mesh;
 }
-namespace UnityEngine::ProBuilder {
-struct MeshArrays;
+namespace UnityEngine {
+struct Vector4;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::ProBuilder {
+struct MeshArrays;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -281,8 +281,7 @@ constexpr UnityEngine::ProBuilder::MeshArrays __get_m_Attributes() const;
 /// @brief Method set_hasUV4 addr 0x29eb66c size 0x2c virtual false final false
  void set_hasUV4(bool value) ;
 
-// Ctor Parameters []
-explicit Vertex() ;
+static UnityEngine::ProBuilder::Vertex New_ctor() ;
 
 /// @brief Method .ctor addr 0x29eb710 size 0x8 virtual false final false
  void _ctor() ;
@@ -299,8 +298,7 @@ explicit Vertex() ;
 /// @brief Method GetHashCode addr 0x29eba48 size 0x6c virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters [CppParam { name: "vertex", ty: "UnityEngine::ProBuilder::Vertex", modifiers: "", def_value: None }]
-explicit Vertex(UnityEngine::ProBuilder::Vertex vertex) ;
+static UnityEngine::ProBuilder::Vertex New_ctor(UnityEngine::ProBuilder::Vertex vertex) ;
 
 /// @brief Method .ctor addr 0x29ebab4 size 0x190 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Vertex vertex) ;

@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace GlobalNamespace {
 class CutoutEffect;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(4858))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 2 })
 // CS Name: DisappearingArrowControllerBase`1
 class CORDL_TYPE DisappearingArrowControllerBase_1<T> : public UnityEngine::MonoBehaviour {
@@ -174,8 +174,7 @@ static int32_t __get__colorId() ;
 /// @brief Method SetArrowTransparency addr 0x0 size 0xffffffffffffffff virtual false final false
  void SetArrowTransparency(float_t arrowTransparency) ;
 
-// Ctor Parameters []
-explicit DisappearingArrowControllerBase_1() ;
+static GlobalNamespace::DisappearingArrowControllerBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

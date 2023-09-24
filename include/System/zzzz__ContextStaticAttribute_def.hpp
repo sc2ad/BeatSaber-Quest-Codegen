@@ -47,8 +47,7 @@ constexpr explicit ContextStaticAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit ContextStaticAttribute() ;
+static System::ContextStaticAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x246e194 size 0x8 virtual false final false
  void _ctor() ;

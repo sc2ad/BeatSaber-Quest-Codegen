@@ -3,6 +3,7 @@
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignerInputBuffer_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__SignerInputBuffer_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream._ctor
 template<>
 
@@ -60,8 +61,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__S
 constexpr Org::BouncyCastle::Crypto::ISigner Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream::__get_s() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ISigner, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream(Org::BouncyCastle::Crypto::ISigner s)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream>(s))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream::New_ctor(Org::BouncyCastle::Crypto::ISigner s)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream>(s))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream::_ctor(Org::BouncyCastle::Crypto::ISigner s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SignerInputBuffer__SigStream>::get(),
@@ -132,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, s);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::SignerInputBuffer()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<SignerInputBuffer>())) {}
+ Org::BouncyCastle::Crypto::Tls::SignerInputBuffer Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::SignerInputBuffer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SignerInputBuffer>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SignerInputBuffer>::get(),

@@ -1,12 +1,13 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKBridge_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKBridge_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKApplicationOutput_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKResolution_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKPlane_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKOutputFrame_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTexture_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKPlane_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKApplicationOutput_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKResolution_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 // Ctor Parameters [CppParam { name: "active", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: Some("csnull") }, CppParam { name: "data", ty: "T", modifiers: "", def_value: Some("csnull") }]
 constexpr LIV::SDK::Unity::LIV__SDK__Unity__SDKBridge__SDKInjection_1::LIV__SDK__Unity__SDKBridge__SDKInjection_1(bool active, System::Action action, T data) noexcept : ::bs_hook::ValueTypeWrapper() {this->active = active;

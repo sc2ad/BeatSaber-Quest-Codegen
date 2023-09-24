@@ -3,10 +3,10 @@
 #include "LiteNetLib/zzzz__BaseChannel_def.hpp"
 #include <cstdint>
 namespace LiteNetLib {
-class NetPacket;
+class NetPeer;
 }
 namespace LiteNetLib {
-class NetPeer;
+class NetPacket;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -105,8 +105,7 @@ constexpr int64_t __get__lastPacketSendTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "reliable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit SequencedChannel(LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;
+static LiteNetLib::SequencedChannel New_ctor(LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;
 
 /// @brief Method .ctor addr 0x20900c8 size 0xa8 virtual false final false
  void _ctor(LiteNetLib::NetPeer peer, bool reliable, uint8_t id) ;

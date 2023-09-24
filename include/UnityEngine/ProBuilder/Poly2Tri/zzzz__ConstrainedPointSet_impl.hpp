@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointSet_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__ConstrainedPointSet_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
-#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationMode_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet.get_EdgeIndex
 template<>
 
@@ -114,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "points", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::ConstrainedPointSet(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points, ::ArrayW<int32_t> index)  : UnityEngine::ProBuilder::Poly2Tri::PointSet(THROW_UNLESS(::il2cpp_utils::New<ConstrainedPointSet>(points, index))) {}
+ UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::New_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points, ::ArrayW<int32_t> index)  {
+UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet>(points, index))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::_ctor(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint> points, ::ArrayW<int32_t> index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet>::get(),

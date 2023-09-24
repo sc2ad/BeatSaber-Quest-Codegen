@@ -8,14 +8,17 @@
 namespace System {
 class Action;
 }
-namespace HMUI {
-class SegmentedControl;
+namespace GlobalNamespace {
+class GlobalNamespace__TabBarViewController__TabBarItem;
+}
+namespace UnityEngine::UI {
+class ContentSizeFitter;
 }
 namespace HMUI {
 class TextSegmentedControl;
 }
-namespace UnityEngine::UI {
-class ContentSizeFitter;
+namespace HMUI {
+class SegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +84,7 @@ constexpr System::Action __get_action() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TabBarViewController__TabBarItem(::StringW title, System::Action action) ;
+static GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem New_ctor(::StringW title, System::Action action) ;
 
 /// @brief Method .ctor addr 0x2182630 size 0x2c virtual false final false
  void _ctor(::StringW title, System::Action action) ;
@@ -202,8 +204,7 @@ constexpr bool __get__shouldReloadData() const;
 /// @brief Method HandleDidSelectCell addr 0x21825d8 size 0x50 virtual false final false
  void HandleDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t cellNumber) ;
 
-// Ctor Parameters []
-explicit TabBarViewController() ;
+static GlobalNamespace::TabBarViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2182628 size 0x8 virtual false final false
  void _ctor() ;

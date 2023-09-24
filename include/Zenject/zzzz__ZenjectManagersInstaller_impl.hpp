@@ -79,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Zenject::ZenjectManagersInstaller::ZenjectManagersInstaller()  : Zenject::Installer_1<Zenject::ZenjectManagersInstaller>(THROW_UNLESS(::il2cpp_utils::New<ZenjectManagersInstaller>())) {}
+ Zenject::ZenjectManagersInstaller Zenject::ZenjectManagersInstaller::New_ctor()  {
+Zenject::ZenjectManagersInstaller o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ZenjectManagersInstaller>())};
+return o;
+}
  void Zenject::ZenjectManagersInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ZenjectManagersInstaller>::get(),

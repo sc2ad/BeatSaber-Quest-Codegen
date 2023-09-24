@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ParticleSystemEmitEventEffectInstaller::ParticleSystemEmitEventEffectInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<ParticleSystemEmitEventEffectInstaller>())) {}
+ GlobalNamespace::ParticleSystemEmitEventEffectInstaller GlobalNamespace::ParticleSystemEmitEventEffectInstaller::New_ctor()  {
+GlobalNamespace::ParticleSystemEmitEventEffectInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ParticleSystemEmitEventEffectInstaller>())};
+return o;
+}
  void GlobalNamespace::ParticleSystemEmitEventEffectInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ParticleSystemEmitEventEffectInstaller>::get(),

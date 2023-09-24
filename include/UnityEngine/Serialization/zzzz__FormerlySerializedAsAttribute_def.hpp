@@ -57,8 +57,7 @@ constexpr ::StringW __get_m_oldName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "oldName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit FormerlySerializedAsAttribute(::StringW oldName) ;
+static UnityEngine::Serialization::FormerlySerializedAsAttribute New_ctor(::StringW oldName) ;
 
 /// @brief Method .ctor addr 0x2b78cac size 0x28 virtual false final false
  void _ctor(::StringW oldName) ;

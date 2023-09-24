@@ -8,7 +8,7 @@ class MouseOutEvent;
 // Type: UnityEngine.UIElements::MouseOutEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4511 }), TypeDefinitionIndex(TypeDefinitionIndex(7314))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7314)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7314), inst: 4511 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: UnityEngine.UIElements.MouseOutEvent
 class CORDL_TYPE MouseOutEvent : public UnityEngine::UIElements::MouseEventBase_1<UnityEngine::UIElements::MouseOutEvent> {
@@ -47,8 +47,7 @@ constexpr explicit MouseOutEvent(void* ptr) noexcept : UnityEngine::UIElements::
 
 // Methods
 
-// Ctor Parameters []
-explicit MouseOutEvent() ;
+static UnityEngine::UIElements::MouseOutEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda948 size 0x48 virtual false final false
  void _ctor() ;

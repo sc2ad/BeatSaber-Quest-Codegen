@@ -93,14 +93,12 @@ constexpr System::Threading::SparselyPopulatedArrayFragment_1<T> __get__prev() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SparselyPopulatedArrayFragment_1(int32_t size) ;
+static System::Threading::SparselyPopulatedArrayFragment_1<T> New_ctor(int32_t size) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t size) ;
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "prev", ty: "System::Threading::SparselyPopulatedArrayFragment_1<T>", modifiers: "", def_value: None }]
-explicit SparselyPopulatedArrayFragment_1(int32_t size, System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;
+static System::Threading::SparselyPopulatedArrayFragment_1<T> New_ctor(int32_t size, System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t size, System::Threading::SparselyPopulatedArrayFragment_1<T> prev) ;

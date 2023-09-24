@@ -8,7 +8,10 @@ template<typename T>
 struct Nullable_1;
 }
 namespace System::Xml {
-struct ValidationType;
+class XmlNameTable;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaValidationFlags;
 }
 namespace System::Xml {
 class XmlResolver;
@@ -20,13 +23,10 @@ namespace System::Xml::Schema {
 class XmlSchemaSet;
 }
 namespace System::Xml {
-struct ConformanceLevel;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaValidationFlags;
+struct ValidationType;
 }
 namespace System::Xml {
-class XmlNameTable;
+struct ConformanceLevel;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -232,8 +232,7 @@ static System::Nullable_1<bool> __get_s_enableLegacyXmlSettings() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlReaderSettings() ;
+static System::Xml::XmlReaderSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c7740 size 0x20 virtual false final false
  void _ctor() ;

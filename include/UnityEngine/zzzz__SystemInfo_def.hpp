@@ -3,29 +3,29 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::Rendering {
+struct GraphicsDeviceType;
+}
+namespace UnityEngine {
+struct DeviceType;
+}
+namespace UnityEngine::Experimental::Rendering {
+struct FormatUsage;
+}
 namespace UnityEngine {
 struct RenderTextureFormat;
 }
 namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
-namespace UnityEngine::Experimental::Rendering {
-struct FormatUsage;
-}
-namespace UnityEngine::Experimental::Rendering {
-struct DefaultFormat;
+namespace UnityEngine {
+struct TextureFormat;
 }
 namespace UnityEngine {
 struct OperatingSystemFamily;
 }
-namespace UnityEngine {
-struct DeviceType;
-}
-namespace UnityEngine {
-struct TextureFormat;
-}
-namespace UnityEngine::Rendering {
-struct GraphicsDeviceType;
+namespace UnityEngine::Experimental::Rendering {
+struct DefaultFormat;
 }
 // Forward declare root types
 namespace UnityEngine {

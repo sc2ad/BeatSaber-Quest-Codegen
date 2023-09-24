@@ -5,11 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class AsyncCallback;
+namespace System::Net {
+class System__Net__ContextAwareResult____c;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net {
+struct System__Net__ContextAwareResult__StateFlags;
 }
 namespace System::Threading {
 class ContextCallback;
@@ -77,6 +83,8 @@ __PostBlockFinished = 16u,
 constexpr operator __System__Net__ContextAwareResult__StateFlags_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__ContextAwareResult__StateFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -166,8 +174,7 @@ static System::Threading::ContextCallback __get___9__17_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__ContextAwareResult____c() ;
+static System::Net::System__Net__ContextAwareResult____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x27f6efc size 0x8 virtual false final false
  void _ctor() ;
@@ -252,20 +259,17 @@ constexpr System::Net::System__Net__ContextAwareResult__StateFlags __get__flags(
 /// @brief Method CleanupInternal addr 0x27f6158 size 0x4 virtual false final false
  void CleanupInternal() ;
 
-// Ctor Parameters [CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
-explicit ContextAwareResult(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
+static System::Net::ContextAwareResult New_ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
 
 /// @brief Method .ctor addr 0x27f615c size 0x8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
 
-// Ctor Parameters [CppParam { name: "captureIdentity", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "forceCaptureContext", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
-explicit ContextAwareResult(bool captureIdentity, bool forceCaptureContext, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
+static System::Net::ContextAwareResult New_ctor(bool captureIdentity, bool forceCaptureContext, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
 
 /// @brief Method .ctor addr 0x27f6164 size 0x50 virtual false final false
  void _ctor(bool captureIdentity, bool forceCaptureContext, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
 
-// Ctor Parameters [CppParam { name: "captureIdentity", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "forceCaptureContext", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "threadSafeContextCopy", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
-explicit ContextAwareResult(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
+static System::Net::ContextAwareResult New_ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
 
 /// @brief Method .ctor addr 0x27f61b4 size 0x78 virtual false final false
  void _ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;

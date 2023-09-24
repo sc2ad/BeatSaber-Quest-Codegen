@@ -47,8 +47,7 @@ constexpr explicit CamelliaWrapEngine(void* ptr) noexcept : Org::BouncyCastle::C
 
 // Methods
 
-// Ctor Parameters []
-explicit CamelliaWrapEngine() ;
+static Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe36b60 size 0x64 virtual false final false
  void _ctor() ;

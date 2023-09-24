@@ -5,9 +5,6 @@
 namespace GlobalNamespace {
 class MultiplayerPositionHUDController;
 }
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
-}
 namespace Tweening {
 class FloatTween;
 }
@@ -15,10 +12,13 @@ namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
-class CoreGameHUDController;
+class IMultiplayerLevelEndActionsPublisher;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
+class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class CoreGameHUDController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +117,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method HandlePlayerDidFinish addr 0x20e6cc0 size 0x34 virtual false final false
  void HandlePlayerDidFinish(GlobalNamespace::MultiplayerLevelCompletionResults levelCompletionResults) ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActivePlayerGameplayAnimator() ;
+static GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e6cf4 size 0x14 virtual false final false
  void _ctor() ;

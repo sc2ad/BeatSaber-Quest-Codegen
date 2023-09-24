@@ -9,7 +9,7 @@ class WebCompletionSource;
 // Type: System.Net::WebCompletionSource
 namespace System::Net {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8063), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(8063))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8063)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8063), inst: 2 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8064))
 // CS Name: System.Net.WebCompletionSource
 class CORDL_TYPE WebCompletionSource : public System::Net::WebCompletionSource_1<::bs_hook::Il2CppWrapperType> {
@@ -48,8 +48,7 @@ constexpr explicit WebCompletionSource(void* ptr) noexcept : System::Net::WebCom
 
 // Methods
 
-// Ctor Parameters []
-explicit WebCompletionSource() ;
+static System::Net::WebCompletionSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x284a40c size 0x4c virtual false final false
  void _ctor() ;

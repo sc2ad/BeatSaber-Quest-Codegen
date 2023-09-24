@@ -5,15 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
 namespace System::Net {
 class IPAddress;
 }
 namespace System::Text {
 class StringBuilder;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::Net {

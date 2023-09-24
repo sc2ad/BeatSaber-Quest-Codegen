@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ColorSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultipliedColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__SimpleColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleColorSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultipliedColorSO.get_color
 template<>
 
@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultipliedColorSO::MultipliedColorSO()  : GlobalNamespace::ColorSO(THROW_UNLESS(::il2cpp_utils::New<MultipliedColorSO>())) {}
+ GlobalNamespace::MultipliedColorSO GlobalNamespace::MultipliedColorSO::New_ctor()  {
+GlobalNamespace::MultipliedColorSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultipliedColorSO>())};
+return o;
+}
  void GlobalNamespace::MultipliedColorSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultipliedColorSO>::get(),

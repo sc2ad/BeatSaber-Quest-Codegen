@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningNoTransitionInstaller_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningScenesTransitionSetupDataSO_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HealthWarningNoTransitionInstaller.InstallBindings
 template<>
 
@@ -59,8 +59,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- GlobalNamespace::HealthWarningNoTransitionInstaller::HealthWarningNoTransitionInstaller()  : Zenject::NoTransitionInstaller(THROW_UNLESS(::il2cpp_utils::New<HealthWarningNoTransitionInstaller>())) {}
+ GlobalNamespace::HealthWarningNoTransitionInstaller GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor()  {
+GlobalNamespace::HealthWarningNoTransitionInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HealthWarningNoTransitionInstaller>())};
+return o;
+}
  void GlobalNamespace::HealthWarningNoTransitionInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HealthWarningNoTransitionInstaller>::get(),

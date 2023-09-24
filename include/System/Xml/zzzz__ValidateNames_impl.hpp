@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/zzzz__ValidateNames_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Xml::ValidateNames.ParseNmtoken
 template<>
 

@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderHapticFeedbackInteractionEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SliderHapticFeedbackInteractionEffect.Start
 template<>
 
@@ -176,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderHapticFeedbackInteractionEffect::SliderHapticFeedbackInteractionEffect()  : GlobalNamespace::SliderInteractionEffect(THROW_UNLESS(::il2cpp_utils::New<SliderHapticFeedbackInteractionEffect>())) {}
+ GlobalNamespace::SliderHapticFeedbackInteractionEffect GlobalNamespace::SliderHapticFeedbackInteractionEffect::New_ctor()  {
+GlobalNamespace::SliderHapticFeedbackInteractionEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderHapticFeedbackInteractionEffect>())};
+return o;
+}
  void GlobalNamespace::SliderHapticFeedbackInteractionEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderHapticFeedbackInteractionEffect>::get(),

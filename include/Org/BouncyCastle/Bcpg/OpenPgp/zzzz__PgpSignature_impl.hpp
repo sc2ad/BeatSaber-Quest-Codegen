@@ -1,17 +1,17 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignature_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureSubpacketVector_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__Packet_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__TrustPacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SignaturePacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__TrustPacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__SignaturePacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureSubpacketVector_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature.Cast
 template<>
@@ -664,8 +664,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Bcpg::SignaturePacket, false>(nullptr, ___internal_method, packet);
 }
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::PgpSignature(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSignature>(bcpgInput))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>(bcpgInput))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>::get(),
@@ -675,8 +677,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgInput);
 }
-// Ctor Parameters [CppParam { name: "sigPacket", ty: "Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::PgpSignature(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSignature>(sigPacket))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::New_ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>(sigPacket))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::_ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>::get(),
@@ -686,8 +690,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigPacket);
 }
-// Ctor Parameters [CppParam { name: "sigPacket", ty: "Org::BouncyCastle::Bcpg::SignaturePacket", modifiers: "", def_value: None }, CppParam { name: "trustPacket", ty: "Org::BouncyCastle::Bcpg::TrustPacket", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::PgpSignature(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSignature>(sigPacket, trustPacket))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::New_ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>(sigPacket, trustPacket))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature::_ctor(Org::BouncyCastle::Bcpg::SignaturePacket sigPacket, Org::BouncyCastle::Bcpg::TrustPacket trustPacket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature>::get(),

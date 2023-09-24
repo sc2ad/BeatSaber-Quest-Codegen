@@ -2,12 +2,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8._ctor
 template<>
 
@@ -164,8 +165,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEff
 constexpr float_t GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8::__get__time_5__3() const {
 return ::cordl_internals::getInstanceField<float_t, 0x3c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AudioPitchGainEffect___StartEffectCoroutine_d__8>::get(),
@@ -409,8 +412,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, audioSource);
 }
-// Ctor Parameters []
- GlobalNamespace::AudioPitchGainEffect::AudioPitchGainEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AudioPitchGainEffect>())) {}
+ GlobalNamespace::AudioPitchGainEffect GlobalNamespace::AudioPitchGainEffect::New_ctor()  {
+GlobalNamespace::AudioPitchGainEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AudioPitchGainEffect>())};
+return o;
+}
  void GlobalNamespace::AudioPitchGainEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AudioPitchGainEffect>::get(),

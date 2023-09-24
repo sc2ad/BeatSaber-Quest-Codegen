@@ -1,13 +1,13 @@
 #pragma once
 #include "TMPro/zzzz__TMP_FontAssetUtilities_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "TMPro/zzzz__TMP_SpriteCharacter_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "TMPro/zzzz__FontWeight_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__FontWeight_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "TMPro/zzzz__TMP_Character_def.hpp"
+#include "TMPro/zzzz__TMP_SpriteCharacter_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 //  Writing Method size for method: TMPro::TMP_FontAssetUtilities.get_instance
 template<>
 
@@ -199,8 +199,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<TMPro::TMP_SpriteCharacter, false>(nullptr, ___internal_method, unicode, spriteAsset, includeFallbacks);
 }
-// Ctor Parameters []
- TMPro::TMP_FontAssetUtilities::TMP_FontAssetUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_FontAssetUtilities>())) {}
+ TMPro::TMP_FontAssetUtilities TMPro::TMP_FontAssetUtilities::New_ctor()  {
+TMPro::TMP_FontAssetUtilities o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_FontAssetUtilities>())};
+return o;
+}
  void TMPro::TMP_FontAssetUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_FontAssetUtilities>::get(),

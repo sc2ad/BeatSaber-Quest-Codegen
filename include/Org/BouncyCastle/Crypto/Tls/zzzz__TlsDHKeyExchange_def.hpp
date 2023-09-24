@@ -4,31 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAgreementCredentials;
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHPublicKeyParameters;
+}
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSigner;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class TlsAgreementCredentials;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHPrivateKeyParameters;
@@ -39,8 +39,8 @@ class TlsContext;
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -138,14 +138,12 @@ constexpr Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters __get_mDH
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "dhParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
-explicit TlsDHKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;
+static Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;
 
 /// @brief Method .ctor addr 0xf16990 size 0x8c virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;
 
-// Ctor Parameters [CppParam { name: "keyExchange", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "supportedSignatureAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "dhVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsDHVerifier", modifiers: "", def_value: None }, CppParam { name: "dhParameters", ty: "Org::BouncyCastle::Crypto::Parameters::DHParameters", modifiers: "", def_value: None }]
-explicit TlsDHKeyExchange(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;
+static Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange New_ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;
 
 /// @brief Method .ctor addr 0xf16a1c size 0x13c virtual false final false
  void _ctor(int32_t keyExchange, System::Collections::IList supportedSignatureAlgorithms, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier, Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;

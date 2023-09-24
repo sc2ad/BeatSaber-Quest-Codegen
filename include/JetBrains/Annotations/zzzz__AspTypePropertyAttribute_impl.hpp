@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "createConstructorReferences", ty: "bool", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspTypePropertyAttribute::AspTypePropertyAttribute(bool createConstructorReferences)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspTypePropertyAttribute>(createConstructorReferences))) {}
+ JetBrains::Annotations::AspTypePropertyAttribute JetBrains::Annotations::AspTypePropertyAttribute::New_ctor(bool createConstructorReferences)  {
+JetBrains::Annotations::AspTypePropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspTypePropertyAttribute>(createConstructorReferences))};
+return o;
+}
  void JetBrains::Annotations::AspTypePropertyAttribute::_ctor(bool createConstructorReferences)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspTypePropertyAttribute>::get(),

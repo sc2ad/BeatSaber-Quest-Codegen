@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-struct DateTime;
-}
 namespace Mono::Security {
 class ASN1;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Mono::Security {

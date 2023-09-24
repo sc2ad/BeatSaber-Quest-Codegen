@@ -132,8 +132,7 @@ constexpr UnityEngine::InputSystem::Controls::ButtonControl __get__triggerPresse
 /// @brief Method FinishSetup addr 0x28a2d70 size 0x138 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit HandedViveTracker() ;
+static Unity::XR::OpenVR::HandedViveTracker New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a2ea8 size 0x8 virtual false final false
  void _ctor() ;

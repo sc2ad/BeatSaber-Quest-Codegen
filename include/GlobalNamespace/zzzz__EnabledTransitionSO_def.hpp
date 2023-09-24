@@ -119,8 +119,7 @@ constexpr bool __get__selectedAndHighlightedState() const;
 /// @brief Method get_selectedAndHighlightedState addr 0x2128f10 size 0x8 virtual false final false
  bool get_selectedAndHighlightedState() ;
 
-// Ctor Parameters []
-explicit EnabledTransitionSO() ;
+static GlobalNamespace::EnabledTransitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2128f18 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine {
-class Animator;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine {
+class Animator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr System::Action __get_resumeFromPauseAnimationDidFinishEvent() const;
 /// @brief Method ResumeFromPauseAnimationDidFinish addr 0x20d1a08 size 0x50 virtual false final false
  void ResumeFromPauseAnimationDidFinish() ;
 
-// Ctor Parameters []
-explicit PauseAnimationController() ;
+static GlobalNamespace::PauseAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d1a58 size 0x8 virtual false final false
  void _ctor() ;

@@ -50,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BoolWithDefaultValueSO::BoolWithDefaultValueSO()  : GlobalNamespace::BoolSO(THROW_UNLESS(::il2cpp_utils::New<BoolWithDefaultValueSO>())) {}
+ GlobalNamespace::BoolWithDefaultValueSO GlobalNamespace::BoolWithDefaultValueSO::New_ctor()  {
+GlobalNamespace::BoolWithDefaultValueSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BoolWithDefaultValueSO>())};
+return o;
+}
  void GlobalNamespace::BoolWithDefaultValueSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BoolWithDefaultValueSO>::get(),

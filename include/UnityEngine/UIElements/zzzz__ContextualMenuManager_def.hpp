@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
+class DropdownMenu;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class DropdownMenu;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

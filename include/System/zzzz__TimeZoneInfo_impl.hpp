@@ -2,23 +2,24 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__TimeZoneInfo_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__TimeZoneInfo_def.hpp"
+#include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
+#include "GlobalNamespace/zzzz__Interop_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__TimeZoneInfoOptions_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__TimeZoneInfoOptions_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__Interop_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
 //  Writing Method size for method: System::System__TimeZoneInfo__TZifType._ctor
 template<>
 
@@ -648,8 +649,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dateStart", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "dateEnd", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "daylightDelta", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "daylightTransitionStart", ty: "System::System__TimeZoneInfo__TransitionTime", modifiers: "", def_value: None }, CppParam { name: "daylightTransitionEnd", ty: "System::System__TimeZoneInfo__TransitionTime", modifiers: "", def_value: None }, CppParam { name: "baseUtcOffsetDelta", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "noDaylightTransitions", ty: "bool", modifiers: "", def_value: None }]
- System::System__TimeZoneInfo__AdjustmentRule::System__TimeZoneInfo__AdjustmentRule(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::System__TimeZoneInfo__TransitionTime daylightTransitionStart, System::System__TimeZoneInfo__TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TimeZoneInfo__AdjustmentRule>(dateStart, dateEnd, daylightDelta, daylightTransitionStart, daylightTransitionEnd, baseUtcOffsetDelta, noDaylightTransitions))) {}
+ System::System__TimeZoneInfo__AdjustmentRule System::System__TimeZoneInfo__AdjustmentRule::New_ctor(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::System__TimeZoneInfo__TransitionTime daylightTransitionStart, System::System__TimeZoneInfo__TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions)  {
+System::System__TimeZoneInfo__AdjustmentRule o{THROW_UNLESS(::il2cpp_utils::New<System::System__TimeZoneInfo__AdjustmentRule>(dateStart, dateEnd, daylightDelta, daylightTransitionStart, daylightTransitionEnd, baseUtcOffsetDelta, noDaylightTransitions))};
+return o;
+}
  void System::System__TimeZoneInfo__AdjustmentRule::_ctor(System::DateTime dateStart, System::DateTime dateEnd, System::TimeSpan daylightDelta, System::System__TimeZoneInfo__TransitionTime daylightTransitionStart, System::System__TimeZoneInfo__TransitionTime daylightTransitionEnd, System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo__AdjustmentRule>::get(),
@@ -722,8 +725,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::System__TimeZoneInfo__AdjustmentRule::System__TimeZoneInfo__AdjustmentRule(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TimeZoneInfo__AdjustmentRule>(info, context))) {}
+ System::System__TimeZoneInfo__AdjustmentRule System::System__TimeZoneInfo__AdjustmentRule::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::System__TimeZoneInfo__AdjustmentRule o{THROW_UNLESS(::il2cpp_utils::New<System::System__TimeZoneInfo__AdjustmentRule>(info, context))};
+return o;
+}
  void System::System__TimeZoneInfo__AdjustmentRule::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo__AdjustmentRule>::get(),
@@ -733,8 +738,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters []
- System::System__TimeZoneInfo__AdjustmentRule::System__TimeZoneInfo__AdjustmentRule()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TimeZoneInfo__AdjustmentRule>())) {}
+ System::System__TimeZoneInfo__AdjustmentRule System::System__TimeZoneInfo__AdjustmentRule::New_ctor()  {
+System::System__TimeZoneInfo__AdjustmentRule o{THROW_UNLESS(::il2cpp_utils::New<System::System__TimeZoneInfo__AdjustmentRule>())};
+return o;
+}
  void System::System__TimeZoneInfo__AdjustmentRule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo__AdjustmentRule>::get(),
@@ -1343,8 +1350,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::DateTimeKind, false>(const_cast<void*>(instance), ___internal_method, timeZone);
 }
-// Ctor Parameters []
- System::System__TimeZoneInfo__CachedData::System__TimeZoneInfo__CachedData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TimeZoneInfo__CachedData>())) {}
+ System::System__TimeZoneInfo__CachedData System::System__TimeZoneInfo__CachedData::New_ctor()  {
+System::System__TimeZoneInfo__CachedData o{THROW_UNLESS(::il2cpp_utils::New<System::System__TimeZoneInfo__CachedData>())};
+return o;
+}
  void System::System__TimeZoneInfo__CachedData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo__CachedData>::get(),
@@ -1424,8 +1433,10 @@ constexpr void System::System__TimeZoneInfo____c__DisplayClass16_0::__set_timeZo
 constexpr ::StringW System::System__TimeZoneInfo____c__DisplayClass16_0::__get_timeZoneDirectory() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::System__TimeZoneInfo____c__DisplayClass16_0::System__TimeZoneInfo____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TimeZoneInfo____c__DisplayClass16_0>())) {}
+ System::System__TimeZoneInfo____c__DisplayClass16_0 System::System__TimeZoneInfo____c__DisplayClass16_0::New_ctor()  {
+System::System__TimeZoneInfo____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<System::System__TimeZoneInfo____c__DisplayClass16_0>())};
+return o;
+}
  void System::System__TimeZoneInfo____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo____c__DisplayClass16_0>::get(),
@@ -1605,8 +1616,10 @@ return ::cordl_internals::getStaticField<System::Func_2<char16_t,bool>, "<>9__38
  System::Comparison_1<System::System__TimeZoneInfo__AdjustmentRule> System::System__TimeZoneInfo____c::__get___9__161_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<System::System__TimeZoneInfo__AdjustmentRule>, "<>9__161_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo____c>::get>();
 }
-// Ctor Parameters []
- System::System__TimeZoneInfo____c::System__TimeZoneInfo____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__TimeZoneInfo____c>())) {}
+ System::System__TimeZoneInfo____c System::System__TimeZoneInfo____c::New_ctor()  {
+System::System__TimeZoneInfo____c o{THROW_UNLESS(::il2cpp_utils::New<System::System__TimeZoneInfo____c>())};
+return o;
+}
  void System::System__TimeZoneInfo____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__TimeZoneInfo____c>::get(),
@@ -3341,8 +3354,10 @@ return ::cordl_internals::getStaticField<System::TimeSpan, "MaxOffset", ::il2cpp
  System::TimeSpan System::TimeZoneInfo::__get_MinOffset()  {
 return ::cordl_internals::getStaticField<System::TimeSpan, "MinOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TimeZoneInfo>::get>();
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "dstDisabled", ty: "bool", modifiers: "", def_value: None }]
- System::TimeZoneInfo::TimeZoneInfo(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeZoneInfo>(data, id, dstDisabled))) {}
+ System::TimeZoneInfo System::TimeZoneInfo::New_ctor(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled)  {
+System::TimeZoneInfo o{THROW_UNLESS(::il2cpp_utils::New<System::TimeZoneInfo>(data, id, dstDisabled))};
+return o;
+}
  void System::TimeZoneInfo::_ctor(::ArrayW<uint8_t> data, ::StringW id, bool dstDisabled)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TimeZoneInfo>::get(),
@@ -3865,8 +3880,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::TimeZoneInfo, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseUtcOffset", ty: "System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standardDisplayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "daylightDisplayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "adjustmentRules", ty: "::ArrayW<System::System__TimeZoneInfo__AdjustmentRule>", modifiers: "", def_value: None }, CppParam { name: "disableDaylightSavingTime", ty: "bool", modifiers: "", def_value: None }]
- System::TimeZoneInfo::TimeZoneInfo(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::System__TimeZoneInfo__AdjustmentRule> adjustmentRules, bool disableDaylightSavingTime)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeZoneInfo>(id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime))) {}
+ System::TimeZoneInfo System::TimeZoneInfo::New_ctor(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::System__TimeZoneInfo__AdjustmentRule> adjustmentRules, bool disableDaylightSavingTime)  {
+System::TimeZoneInfo o{THROW_UNLESS(::il2cpp_utils::New<System::TimeZoneInfo>(id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime))};
+return o;
+}
  void System::TimeZoneInfo::_ctor(::StringW id, System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName, ::ArrayW<System::System__TimeZoneInfo__AdjustmentRule> adjustmentRules, bool disableDaylightSavingTime)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TimeZoneInfo>::get(),
@@ -3912,8 +3929,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::TimeZoneInfo::TimeZoneInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeZoneInfo>(info, context))) {}
+ System::TimeZoneInfo System::TimeZoneInfo::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::TimeZoneInfo o{THROW_UNLESS(::il2cpp_utils::New<System::TimeZoneInfo>(info, context))};
+return o;
+}
  void System::TimeZoneInfo::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TimeZoneInfo>::get(),
@@ -4175,8 +4194,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::TimeZoneInfo, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::TimeZoneInfo::TimeZoneInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeZoneInfo>())) {}
+ System::TimeZoneInfo System::TimeZoneInfo::New_ctor()  {
+System::TimeZoneInfo o{THROW_UNLESS(::il2cpp_utils::New<System::TimeZoneInfo>())};
+return o;
+}
  void System::TimeZoneInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::TimeZoneInfo>::get(),

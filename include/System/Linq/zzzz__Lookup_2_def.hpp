@@ -3,19 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace System::Linq {
+template<typename TKey,typename TElement>
+class IGrouping_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Linq {
+template<typename TKey,typename TElement>
+class System__Linq__Lookup_2__Grouping;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,22 +34,23 @@ class IEqualityComparer_1;
 }
 namespace System::Linq {
 template<typename TKey,typename TElement>
-class IGrouping_2;
+class System__Linq__Lookup_2___GetEnumerator_d__12;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerable;
+class ICollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
+namespace GlobalNamespace {
+template<typename TKey,typename TElement>
+class System__Linq__Lookup_2__Grouping___GetEnumerator_d__7;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -164,8 +176,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Linq__Lookup_2__Grouping___GetEnumerator_d__7(int32_t __1__state) ;
+static GlobalNamespace::System__Linq__Lookup_2__Grouping___GetEnumerator_d__7<TKey,TElement> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -348,8 +359,7 @@ constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get_ne
 /// @brief Method System.Collections.Generic.IList<TElement>.set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
  void System_Collections_Generic_IList_TElement__set_Item(int32_t index, TElement value) ;
 
-// Ctor Parameters []
-explicit System__Linq__Lookup_2__Grouping() ;
+static System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -445,8 +455,7 @@ constexpr System::Linq::System__Linq__Lookup_2__Grouping<TKey,TElement> __get__g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Linq__Lookup_2___GetEnumerator_d__12(int32_t __1__state) ;
+static System::Linq::System__Linq__Lookup_2___GetEnumerator_d__12<TKey,TElement> New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -555,8 +564,7 @@ constexpr int32_t __get_count() const;
 template<typename TSource>
 static System::Linq::Lookup_2<TKey,TElement> Create(System::Collections::Generic::IEnumerable_1<TSource> source, System::Func_2<TSource,TKey> keySelector, System::Func_2<TSource,TElement> elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit Lookup_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+static System::Linq::Lookup_2<TKey,TElement> New_ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;

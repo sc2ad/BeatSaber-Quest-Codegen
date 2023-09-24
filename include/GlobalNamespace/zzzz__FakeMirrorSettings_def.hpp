@@ -144,8 +144,7 @@ static int32_t __get__vertexDistortionZposMultiplierId() ;
 /// @brief Method SetGlobalParameters addr 0x26764d4 size 0x110 virtual false final false
  void SetGlobalParameters() ;
 
-// Ctor Parameters []
-explicit FakeMirrorSettings() ;
+static GlobalNamespace::FakeMirrorSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x26765ec size 0x30 virtual false final false
  void _ctor() ;

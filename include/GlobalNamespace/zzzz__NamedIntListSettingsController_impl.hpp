@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedIntListSettingsController_def.hpp"
+#include "GlobalNamespace/zzzz__NamedIntListSettingsController_def.hpp"
 #include "GlobalNamespace/zzzz__IntSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair.get_localizedText
 template<>
@@ -57,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair::GlobalNamespace__NamedIntListSettingsController__TextValuePair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NamedIntListSettingsController__TextValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair>::get(),
@@ -175,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::NamedIntListSettingsController::NamedIntListSettingsController()  : GlobalNamespace::ListSettingsController(THROW_UNLESS(::il2cpp_utils::New<NamedIntListSettingsController>())) {}
+ GlobalNamespace::NamedIntListSettingsController GlobalNamespace::NamedIntListSettingsController::New_ctor()  {
+GlobalNamespace::NamedIntListSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NamedIntListSettingsController>())};
+return o;
+}
  void GlobalNamespace::NamedIntListSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NamedIntListSettingsController>::get(),

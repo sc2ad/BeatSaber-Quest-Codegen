@@ -6,16 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
-class ContentValidator;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaContentType;
+class SyntaxTreeNode;
 }
 namespace System::Xml::Schema {
-class InteriorNode;
-}
-namespace System::Collections {
-class Stack;
+class BitSet;
 }
 namespace System::Xml {
 class XmlQualifiedName;
@@ -23,17 +20,20 @@ class XmlQualifiedName;
 namespace System::Xml::Schema {
 class NamespaceList;
 }
+namespace System::Collections {
+class Stack;
+}
 namespace System::Xml::Schema {
-class BitSet;
+class InteriorNode;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaContentType;
+}
+namespace System::Xml::Schema {
+class ContentValidator;
 }
 namespace System::Xml::Schema {
 class Positions;
-}
-namespace System::Xml::Schema {
-class SymbolsDictionary;
-}
-namespace System::Xml::Schema {
-class SyntaxTreeNode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -126,14 +126,12 @@ constexpr bool __get_enableUpaCheck() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }]
-explicit ParticleContentValidator(System::Xml::Schema::XmlSchemaContentType contentType) ;
+static System::Xml::Schema::ParticleContentValidator New_ctor(System::Xml::Schema::XmlSchemaContentType contentType) ;
 
 /// @brief Method .ctor addr 0x271b550 size 0x8 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaContentType contentType) ;
 
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "enableUpaCheck", ty: "bool", modifiers: "", def_value: None }]
-explicit ParticleContentValidator(System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck) ;
+static System::Xml::Schema::ParticleContentValidator New_ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck) ;
 
 /// @brief Method .ctor addr 0x271b558 size 0x7c virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck) ;

@@ -9,6 +9,8 @@
 #include "System/Net/Http/Headers/EntityTagHeaderValue.hpp"
 #include "System/Net/Http/Headers/HashCodeCalculator.hpp"
 #include "System/Net/Http/Headers/HeaderInfo.hpp"
+#include "System/Net/Http/Headers/HeaderInfo_CollectionHeaderTypeInfo_2.hpp"
+#include "System/Net/Http/Headers/HeaderInfo_HeaderTypeInfo_2.hpp"
 #include "System/Net/Http/Headers/HttpContentHeaders.hpp"
 #include "System/Net/Http/Headers/HttpHeaderKind.hpp"
 #include "System/Net/Http/Headers/HttpHeaderValueCollection_1.hpp"

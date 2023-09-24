@@ -7,23 +7,26 @@
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class SecT571FieldElement;
+}
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 class SecT571R1Point;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Math::EC::Custom::Sec {
+class Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math::EC::Custom::Sec {
-class SecT571FieldElement;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class ECCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
@@ -100,8 +103,7 @@ constexpr int32_t __get_m_size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve outer, ::ArrayW<uint64_t> table, int32_t size) ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::Org__BouncyCastle__Math__EC__Custom__Sec__SecT571R1Curve__SecT571R1LookupTable New_ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve outer, ::ArrayW<uint64_t> table, int32_t size) ;
 
 /// @brief Method .ctor addr 0xfa6304 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve outer, ::ArrayW<uint64_t> table, int32_t size) ;
@@ -218,8 +220,7 @@ static Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement __get_SecT5
 
 // Methods
 
-// Ctor Parameters []
-explicit SecT571R1Curve() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa5d04 size 0x194 virtual false final false
  void _ctor() ;

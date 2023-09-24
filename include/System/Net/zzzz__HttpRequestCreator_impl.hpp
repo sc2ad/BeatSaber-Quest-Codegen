@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__HttpRequestCreator_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 //  Writing Method size for method: System::Net::HttpRequestCreator._ctor
 template<>
@@ -41,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 constexpr  System::Net::HttpRequestCreator::operator System::Net::IWebRequestCreate() const noexcept {
 return System::Net::IWebRequestCreate(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::HttpRequestCreator::HttpRequestCreator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpRequestCreator>())) {}
+ System::Net::HttpRequestCreator System::Net::HttpRequestCreator::New_ctor()  {
+System::Net::HttpRequestCreator o{THROW_UNLESS(::il2cpp_utils::New<System::Net::HttpRequestCreator>())};
+return o;
+}
  void System::Net::HttpRequestCreator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::HttpRequestCreator>::get(),

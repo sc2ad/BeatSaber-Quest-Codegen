@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertID_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__IssuerSerial_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__IssuerSerial_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Ess::EssCertID.GetInstance
 template<>
 
@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Ess::EssCertID, false>(nullptr, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::EssCertID::EssCertID(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EssCertID>(seq))) {}
+ Org::BouncyCastle::Asn1::Ess::EssCertID Org::BouncyCastle::Asn1::Ess::EssCertID::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Ess::EssCertID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::EssCertID>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::EssCertID::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::EssCertID>::get(),
@@ -156,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::EssCertID::EssCertID(::ArrayW<uint8_t> hash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EssCertID>(hash))) {}
+ Org::BouncyCastle::Asn1::Ess::EssCertID Org::BouncyCastle::Asn1::Ess::EssCertID::New_ctor(::ArrayW<uint8_t> hash)  {
+Org::BouncyCastle::Asn1::Ess::EssCertID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::EssCertID>(hash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::EssCertID::_ctor(::ArrayW<uint8_t> hash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::EssCertID>::get(),
@@ -167,8 +171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hash);
 }
-// Ctor Parameters [CppParam { name: "hash", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Ess::EssCertID::EssCertID(::ArrayW<uint8_t> hash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<EssCertID>(hash, issuerSerial))) {}
+ Org::BouncyCastle::Asn1::Ess::EssCertID Org::BouncyCastle::Asn1::Ess::EssCertID::New_ctor(::ArrayW<uint8_t> hash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial)  {
+Org::BouncyCastle::Asn1::Ess::EssCertID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Ess::EssCertID>(hash, issuerSerial))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Ess::EssCertID::_ctor(::ArrayW<uint8_t> hash, Org::BouncyCastle::Asn1::X509::IssuerSerial issuerSerial)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Ess::EssCertID>::get(),

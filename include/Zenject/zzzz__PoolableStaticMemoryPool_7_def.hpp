@@ -55,8 +55,7 @@ constexpr explicit PoolableStaticMemoryPool_7(void* ptr) noexcept : Zenject::Sta
 
 // Methods
 
-// Ctor Parameters []
-explicit PoolableStaticMemoryPool_7() ;
+static Zenject::PoolableStaticMemoryPool_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

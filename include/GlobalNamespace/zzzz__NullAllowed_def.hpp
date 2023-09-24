@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__NullAllowed__Context;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__NullAllowed__Context;
@@ -61,6 +64,8 @@ __Prefab = 1,
 constexpr operator __GlobalNamespace__NullAllowed__Context_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NullAllowed__Context_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -146,20 +151,17 @@ constexpr ::bs_hook::Il2CppWrapperType __get_ifNotValue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NullAllowed() ;
+static GlobalNamespace::NullAllowed New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8f350 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "context", ty: "GlobalNamespace::GlobalNamespace__NullAllowed__Context", modifiers: "", def_value: None }]
-explicit NullAllowed(GlobalNamespace::GlobalNamespace__NullAllowed__Context context) ;
+static GlobalNamespace::NullAllowed New_ctor(GlobalNamespace::GlobalNamespace__NullAllowed__Context context) ;
 
 /// @brief Method .ctor addr 0x1f8f36c size 0x28 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__NullAllowed__Context context) ;
 
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ifNotValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit NullAllowed(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue) ;
+static GlobalNamespace::NullAllowed New_ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue) ;
 
 /// @brief Method .ctor addr 0x1f8f394 size 0x30 virtual false final false
  void _ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType ifNotValue) ;

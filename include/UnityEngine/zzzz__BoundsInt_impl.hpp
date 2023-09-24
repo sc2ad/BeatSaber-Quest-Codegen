@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__BoundsInt_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "UnityEngine/zzzz__Vector3Int_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/zzzz__BoundsInt_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__BoundsInt__PositionEnumerator._ctor
 template<>
 

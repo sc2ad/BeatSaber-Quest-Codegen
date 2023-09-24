@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
-class Exception;
+class Type;
 }
 namespace System {
-class Type;
+class Exception;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {
@@ -56,8 +56,7 @@ constexpr explicit ReflectionExecutionDomainCallbacks(void* ptr) noexcept : ::bs
 /// @brief Method CreateMissingMetadataException addr 0x22bf0a4 size 0x5c virtual false final false
  System::Exception CreateMissingMetadataException(System::Type attributeType) ;
 
-// Ctor Parameters []
-explicit ReflectionExecutionDomainCallbacks() ;
+static Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks New_ctor() ;
 
 /// @brief Method .ctor addr 0x22bf09c size 0x8 virtual false final false
  void _ctor() ;

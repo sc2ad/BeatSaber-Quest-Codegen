@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TimelineHelpURLAttribute::TimelineHelpURLAttribute(System::Type type)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TimelineHelpURLAttribute>(type))) {}
+ UnityEngine::Timeline::TimelineHelpURLAttribute UnityEngine::Timeline::TimelineHelpURLAttribute::New_ctor(System::Type type)  {
+UnityEngine::Timeline::TimelineHelpURLAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TimelineHelpURLAttribute>(type))};
+return o;
+}
  void UnityEngine::Timeline::TimelineHelpURLAttribute::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TimelineHelpURLAttribute>::get(),

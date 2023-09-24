@@ -3,6 +3,15 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__OculusSettings__StereoRenderingModeDesktop;
+}
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__OculusSettings__FoveationMethod;
+}
+namespace Unity::XR::Oculus {
+struct Unity__XR__Oculus__OculusSettings__StereoRenderingModeAndroid;
+}
 namespace UnityEngine {
 class Texture2D;
 }
@@ -68,6 +77,8 @@ __SinglePassInstanced = 1,
 constexpr operator __Unity__XR__Oculus__OculusSettings__StereoRenderingModeDesktop_Unwrapped () const noexcept {
 return std::bit_cast<__Unity__XR__Oculus__OculusSettings__StereoRenderingModeDesktop_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -138,6 +149,8 @@ constexpr operator __Unity__XR__Oculus__OculusSettings__StereoRenderingModeAndro
 return std::bit_cast<__Unity__XR__Oculus__OculusSettings__StereoRenderingModeAndroid_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -206,6 +219,8 @@ __EyeTrackedFoveatedRendering = 1,
 constexpr operator __Unity__XR__Oculus__OculusSettings__FoveationMethod_Unwrapped () const noexcept {
 return std::bit_cast<__Unity__XR__Oculus__OculusSettings__FoveationMethod_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -403,8 +418,7 @@ static Unity::XR::Oculus::OculusSettings __get_s_Settings() ;
 /// @brief Method Awake addr 0x2ae3288 size 0x4c virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit OculusSettings() ;
+static Unity::XR::Oculus::OculusSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae32d4 size 0x30 virtual false final false
  void _ctor() ;

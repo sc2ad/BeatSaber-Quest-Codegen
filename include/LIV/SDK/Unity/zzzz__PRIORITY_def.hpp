@@ -56,6 +56,8 @@ constexpr operator __PRIORITY_Unwrapped () const noexcept {
 return std::bit_cast<__PRIORITY_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int8_t;
+
 
 // Fields
 

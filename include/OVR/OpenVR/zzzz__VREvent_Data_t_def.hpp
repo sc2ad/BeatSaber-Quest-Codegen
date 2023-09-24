@@ -2,64 +2,46 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace OVR::OpenVR {
-struct VREvent_PerformanceTest_t;
+struct VREvent_Chaperone_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_Property_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_MessageOverlay_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_DualAnalog_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Reserved_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_EditingCameraSurface_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_InputBindingLoad_t;
-}
-namespace OVR::OpenVR {
 struct VREvent_Overlay_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_WebConsole_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Process_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_ScreenshotProgress_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Scroll_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_ApplicationLaunch_t;
+struct VREvent_Ipd_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_Notification_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Status_t;
+struct VREvent_Reserved_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_PerformanceTest_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_WebConsole_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_ApplicationLaunch_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Scroll_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_InputBindingLoad_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Screenshot_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_SpatialAnchor_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Controller_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_SeatedZeroPoseReset_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_TouchPadMove_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Ipd_t;
+struct VREvent_Process_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_HapticVibration_t;
@@ -68,13 +50,31 @@ namespace OVR::OpenVR {
 struct VREvent_Keyboard_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Chaperone_t;
+struct VREvent_MessageOverlay_t;
 }
 namespace OVR::OpenVR {
-struct VREvent_Screenshot_t;
+struct VREvent_Controller_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_TouchPadMove_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_Status_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_EditingCameraSurface_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_SeatedZeroPoseReset_t;
 }
 namespace OVR::OpenVR {
 struct VREvent_Mouse_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_DualAnalog_t;
+}
+namespace OVR::OpenVR {
+struct VREvent_ScreenshotProgress_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

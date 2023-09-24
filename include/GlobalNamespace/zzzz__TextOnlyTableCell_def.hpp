@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace HMUI {
-class ImageView;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+struct HMUI__SelectableCell__TransitionType;
 }
 namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
+class ImageView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,8 +107,7 @@ constexpr HMUI::ImageView __get__highlightImage() const;
 /// @brief Method RefreshVisuals addr 0x2127a84 size 0xcc virtual false final false
  void RefreshVisuals() ;
 
-// Ctor Parameters []
-explicit TextOnlyTableCell() ;
+static GlobalNamespace::TextOnlyTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127b54 size 0x14 virtual false final false
  void _ctor() ;

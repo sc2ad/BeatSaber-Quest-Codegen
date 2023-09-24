@@ -1,7 +1,7 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_VolumeLayerPreset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_VolumeLayerPreset_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_VolumeCachePreset._ctor
 template<>
 
@@ -55,8 +55,10 @@ constexpr void HoudiniEngineUnity::HEU_VolumeCachePreset::__set__tile(int32_t va
 constexpr int32_t HoudiniEngineUnity::HEU_VolumeCachePreset::__get__tile() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_VolumeCachePreset::HEU_VolumeCachePreset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_VolumeCachePreset>())) {}
+ HoudiniEngineUnity::HEU_VolumeCachePreset HoudiniEngineUnity::HEU_VolumeCachePreset::New_ctor()  {
+HoudiniEngineUnity::HEU_VolumeCachePreset o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_VolumeCachePreset>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_VolumeCachePreset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_VolumeCachePreset>::get(),

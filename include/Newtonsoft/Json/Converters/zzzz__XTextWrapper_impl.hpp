@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Linq::XText, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "System::Xml::Linq::XText", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XTextWrapper::XTextWrapper(System::Xml::Linq::XText text)  : Newtonsoft::Json::Converters::XObjectWrapper(THROW_UNLESS(::il2cpp_utils::New<XTextWrapper>(text))) {}
+ Newtonsoft::Json::Converters::XTextWrapper Newtonsoft::Json::Converters::XTextWrapper::New_ctor(System::Xml::Linq::XText text)  {
+Newtonsoft::Json::Converters::XTextWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XTextWrapper>(text))};
+return o;
+}
  void Newtonsoft::Json::Converters::XTextWrapper::_ctor(System::Xml::Linq::XText text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XTextWrapper>::get(),

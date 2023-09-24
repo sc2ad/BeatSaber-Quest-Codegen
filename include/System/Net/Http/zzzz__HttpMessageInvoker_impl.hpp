@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/Http/zzzz__HttpMessageInvoker_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
-#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
+#include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 //  Writing Method size for method: System::Net::Http::HttpMessageInvoker._ctor
 template<>
 
@@ -90,8 +90,10 @@ constexpr void System::Net::Http::HttpMessageInvoker::__set_disposeHandler(bool 
 constexpr bool System::Net::Http::HttpMessageInvoker::__get_disposeHandler() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::HttpMessageHandler", modifiers: "", def_value: None }, CppParam { name: "disposeHandler", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Http::HttpMessageInvoker::HttpMessageInvoker(System::Net::Http::HttpMessageHandler handler, bool disposeHandler)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpMessageInvoker>(handler, disposeHandler))) {}
+ System::Net::Http::HttpMessageInvoker System::Net::Http::HttpMessageInvoker::New_ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler)  {
+System::Net::Http::HttpMessageInvoker o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpMessageInvoker>(handler, disposeHandler))};
+return o;
+}
  void System::Net::Http::HttpMessageInvoker::_ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpMessageInvoker>::get(),

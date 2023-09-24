@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__NfaContentValidator_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::NfaContentValidator._ctor
 template<>
@@ -52,8 +52,10 @@ constexpr void System::Xml::Schema::NfaContentValidator::__set_endMarkerPos(int3
 constexpr int32_t System::Xml::Schema::NfaContentValidator::__get_endMarkerPos() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "firstpos", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "followpos", ty: "::ArrayW<System::Xml::Schema::BitSet>", modifiers: "", def_value: None }, CppParam { name: "symbols", ty: "System::Xml::Schema::SymbolsDictionary", modifiers: "", def_value: None }, CppParam { name: "positions", ty: "System::Xml::Schema::Positions", modifiers: "", def_value: None }, CppParam { name: "endMarkerPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::NfaContentValidator::NfaContentValidator(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  : System::Xml::Schema::ContentValidator(THROW_UNLESS(::il2cpp_utils::New<NfaContentValidator>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isOpen, isEmptiable))) {}
+ System::Xml::Schema::NfaContentValidator System::Xml::Schema::NfaContentValidator::New_ctor(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  {
+System::Xml::Schema::NfaContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::NfaContentValidator>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isOpen, isEmptiable))};
+return o;
+}
  void System::Xml::Schema::NfaContentValidator::_ctor(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::NfaContentValidator>::get(),

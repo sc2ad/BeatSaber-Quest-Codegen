@@ -23,8 +23,10 @@ constexpr void GlobalNamespace::VersionSaveData::__set_version(::StringW value) 
 constexpr ::StringW GlobalNamespace::VersionSaveData::__get_version() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::VersionSaveData::VersionSaveData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VersionSaveData>())) {}
+ GlobalNamespace::VersionSaveData GlobalNamespace::VersionSaveData::New_ctor()  {
+GlobalNamespace::VersionSaveData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VersionSaveData>())};
+return o;
+}
  void GlobalNamespace::VersionSaveData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VersionSaveData>::get(),

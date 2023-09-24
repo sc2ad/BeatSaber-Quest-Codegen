@@ -3,11 +3,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyDebugger_def.hpp"
-#include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyDebugger_def.hpp"
+#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
+#include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -284,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket::Tayx__Graphy__GraphyDebugger__DebugPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tayx__Graphy__GraphyDebugger__DebugPacket>())) {}
+ Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket::New_ctor()  {
+Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket>())};
+return o;
+}
  void Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket>::get(),
@@ -335,8 +338,10 @@ constexpr void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0
 constexpr int32_t Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0::__get_packetId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0>())) {}
+ Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0 Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0::New_ctor()  {
+Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0>())};
+return o;
+}
  void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass18_0>::get(),
@@ -395,8 +400,10 @@ constexpr void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0
 constexpr int32_t Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0::__get_packetId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0>())) {}
+ Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0 Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0::New_ctor()  {
+Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0 o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0>())};
+return o;
+}
  void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass19_0>::get(),
@@ -455,8 +462,10 @@ constexpr void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0
 constexpr int32_t Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0::__get_packetId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0>())) {}
+ Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0 Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0::New_ctor()  {
+Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0>())};
+return o;
+}
  void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c__DisplayClass21_0>::get(),
@@ -521,8 +530,10 @@ return ::cordl_internals::getStaticField<Tayx::Graphy::Tayx__Graphy__GraphyDebug
  System::Predicate_1<Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket> Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c::__get___9__24_0()  {
 return ::cordl_internals::getStaticField<System::Predicate_1<Tayx::Graphy::Tayx__Graphy__GraphyDebugger__DebugPacket>, "<>9__24_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c>::get>();
 }
-// Ctor Parameters []
- Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c::Tayx__Graphy__GraphyDebugger____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tayx__Graphy__GraphyDebugger____c>())) {}
+ Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c::New_ctor()  {
+Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c>())};
+return o;
+}
  void Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Tayx__Graphy__GraphyDebugger____c>::get(),
@@ -871,8 +882,10 @@ constexpr void Tayx::Graphy::GraphyDebugger::__set_m_audioMonitor(Tayx::Graphy::
 constexpr Tayx::Graphy::Audio::G_AudioMonitor Tayx::Graphy::GraphyDebugger::__get_m_audioMonitor() const {
 return ::cordl_internals::getInstanceField<Tayx::Graphy::Audio::G_AudioMonitor, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Tayx::Graphy::GraphyDebugger::GraphyDebugger()  : Tayx::Graphy::Utils::G_Singleton_1<Tayx::Graphy::GraphyDebugger>(THROW_UNLESS(::il2cpp_utils::New<GraphyDebugger>())) {}
+ Tayx::Graphy::GraphyDebugger Tayx::Graphy::GraphyDebugger::New_ctor()  {
+Tayx::Graphy::GraphyDebugger o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::GraphyDebugger>())};
+return o;
+}
  void Tayx::Graphy::GraphyDebugger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::GraphyDebugger>::get(),

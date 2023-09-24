@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class Encoding;
+namespace System {
+class TermInfoDriver;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class TermInfoDriver;
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace System::IO {
@@ -69,8 +69,7 @@ constexpr System::TermInfoDriver __get_driver() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit CStreamReader(System::IO::Stream stream, System::Text::Encoding encoding) ;
+static System::IO::CStreamReader New_ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x23d47d0 size 0x114 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;

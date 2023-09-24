@@ -4,28 +4,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine::ProBuilder {
 class Face;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+class WingedEdge;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
+}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
-class WingedEdge;
+class UnityEngine__ProBuilder__Smoothing____c;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -101,8 +104,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,int32_t> __get___9__9_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__Smoothing____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Smoothing____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29e4dd8 size 0x8 virtual false final false
  void _ctor() ;

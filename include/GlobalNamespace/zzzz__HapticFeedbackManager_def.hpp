@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
-}
 namespace GlobalNamespace {
 class BoolSO;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
 }
 namespace GlobalNamespace {
 class RumbleHapticFeedbackPlayer;
@@ -100,8 +100,7 @@ constexpr GlobalNamespace::IHapticFeedbackPlayer __get__advancedHapticFeedbackPl
 /// @brief Method PlayHapticFeedback addr 0x1f84d4c size 0x180 virtual false final false
  void PlayHapticFeedback(UnityEngine::XR::XRNode node, Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
-// Ctor Parameters []
-explicit HapticFeedbackManager() ;
+static GlobalNamespace::HapticFeedbackManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f84ecc size 0x8 virtual false final false
  void _ctor() ;

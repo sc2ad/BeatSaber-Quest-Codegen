@@ -10,6 +10,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine {
+struct UnityEngine__BeforeRenderHelper__OrderBlock;
+}
 // Forward declare root types
 namespace UnityEngine {
 class BeforeRenderHelper;

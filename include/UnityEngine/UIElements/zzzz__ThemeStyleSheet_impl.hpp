@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ThemeStyleSheet::ThemeStyleSheet()  : UnityEngine::UIElements::StyleSheet(THROW_UNLESS(::il2cpp_utils::New<ThemeStyleSheet>())) {}
+ UnityEngine::UIElements::ThemeStyleSheet UnityEngine::UIElements::ThemeStyleSheet::New_ctor()  {
+UnityEngine::UIElements::ThemeStyleSheet o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ThemeStyleSheet>())};
+return o;
+}
  void UnityEngine::UIElements::ThemeStyleSheet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ThemeStyleSheet>::get(),

@@ -51,20 +51,17 @@ constexpr explicit InvalidPacketException(void* ptr) noexcept : System::Argument
 
 // Methods
 
-// Ctor Parameters []
-explicit InvalidPacketException() ;
+static LiteNetLib::InvalidPacketException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2088b94 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InvalidPacketException(::StringW message) ;
+static LiteNetLib::InvalidPacketException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2088b9c size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit InvalidPacketException(::StringW message, System::Exception innerException) ;
+static LiteNetLib::InvalidPacketException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2088ba4 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;

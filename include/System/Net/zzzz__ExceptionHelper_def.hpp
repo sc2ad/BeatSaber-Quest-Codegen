@@ -4,11 +4,11 @@
 namespace System {
 class NotImplementedException;
 }
-namespace System {
-class NotSupportedException;
-}
 namespace System::Net {
 class WebException;
+}
+namespace System {
+class NotSupportedException;
 }
 // Forward declare root types
 namespace System::Net {

@@ -66,8 +66,7 @@ constexpr GlobalNamespace::BeatmapObjectSpawnCenter __get__spawnCenter() const;
 /// @brief Method HandleSpawnCenterDistanceWasFound addr 0x222cd28 size 0x68 virtual false final false
  void HandleSpawnCenterDistanceWasFound(float_t distance) ;
 
-// Ctor Parameters []
-explicit OffsetByBeatmapObjectSpawnCenter() ;
+static GlobalNamespace::OffsetByBeatmapObjectSpawnCenter New_ctor() ;
 
 /// @brief Method .ctor addr 0x222ce40 size 0x8 virtual false final false
  void _ctor() ;

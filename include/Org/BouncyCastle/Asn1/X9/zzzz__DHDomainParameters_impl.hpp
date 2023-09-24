@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__DHDomainParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__DHValidationParms_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::DHDomainParameters.GetInstance
@@ -243,8 +243,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X9::DHDomainParameters, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "j", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "validationParms", ty: "Org::BouncyCastle::Asn1::X9::DHValidationParms", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::DHDomainParameters::DHDomainParameters(Org::BouncyCastle::Asn1::DerInteger p, Org::BouncyCastle::Asn1::DerInteger g, Org::BouncyCastle::Asn1::DerInteger q, Org::BouncyCastle::Asn1::DerInteger j, Org::BouncyCastle::Asn1::X9::DHValidationParms validationParms)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DHDomainParameters>(p, g, q, j, validationParms))) {}
+ Org::BouncyCastle::Asn1::X9::DHDomainParameters Org::BouncyCastle::Asn1::X9::DHDomainParameters::New_ctor(Org::BouncyCastle::Asn1::DerInteger p, Org::BouncyCastle::Asn1::DerInteger g, Org::BouncyCastle::Asn1::DerInteger q, Org::BouncyCastle::Asn1::DerInteger j, Org::BouncyCastle::Asn1::X9::DHValidationParms validationParms)  {
+Org::BouncyCastle::Asn1::X9::DHDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::DHDomainParameters>(p, g, q, j, validationParms))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::DHDomainParameters::_ctor(Org::BouncyCastle::Asn1::DerInteger p, Org::BouncyCastle::Asn1::DerInteger g, Org::BouncyCastle::Asn1::DerInteger q, Org::BouncyCastle::Asn1::DerInteger j, Org::BouncyCastle::Asn1::X9::DHValidationParms validationParms)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::DHDomainParameters>::get(),
@@ -254,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, g, q, j, validationParms);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::DHDomainParameters::DHDomainParameters(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DHDomainParameters>(seq))) {}
+ Org::BouncyCastle::Asn1::X9::DHDomainParameters Org::BouncyCastle::Asn1::X9::DHDomainParameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X9::DHDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::DHDomainParameters>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::DHDomainParameters::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::DHDomainParameters>::get(),

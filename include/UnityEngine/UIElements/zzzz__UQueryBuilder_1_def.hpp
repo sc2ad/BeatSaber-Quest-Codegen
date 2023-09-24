@@ -4,22 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct RuleMatcher;
 }
-namespace UnityEngine::UIElements {
-struct StyleSelectorRelationship;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct StyleSelectorPart;
+}
+namespace UnityEngine::UIElements {
+struct StyleSelectorRelationship;
 }
 namespace UnityEngine::UIElements {
 class StyleSelector;
@@ -27,9 +30,6 @@ class StyleSelector;
 namespace UnityEngine::UIElements {
 template<typename T>
 struct UQueryState_1;
-}
-namespace UnityEngine::UIElements {
-struct StyleSelectorPart;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

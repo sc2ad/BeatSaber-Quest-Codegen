@@ -4,21 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net {
+struct System__Net__ContentDecodeStream__Mode;
+}
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
 class WebOperation;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Net {
@@ -76,6 +79,8 @@ __Deflate = 1,
 constexpr operator __System__Net__ContentDecodeStream__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__ContentDecodeStream__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -160,8 +165,7 @@ static System::Net::ContentDecodeStream Create(System::Net::WebOperation operati
 /// @brief Method get_OriginalInnerStream addr 0x282ad68 size 0x8 virtual false final false
  System::IO::Stream get_OriginalInnerStream() ;
 
-// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "decodeStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "originalInnerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit ContentDecodeStream(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream) ;
+static System::Net::ContentDecodeStream New_ctor(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream) ;
 
 /// @brief Method .ctor addr 0x282ad40 size 0x28 virtual false final false
  void _ctor(System::Net::WebOperation operation, System::IO::Stream decodeStream, System::IO::Stream originalInnerStream) ;

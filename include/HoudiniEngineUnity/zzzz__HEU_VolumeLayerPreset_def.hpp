@@ -77,8 +77,7 @@ constexpr int32_t __get__tile() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_VolumeLayerPreset() ;
+static HoudiniEngineUnity::HEU_VolumeLayerPreset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdafe4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::EnhancedTouch::Finger.get_screen
 template<>
 
@@ -295,8 +295,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::InputSystem::EnhancedTouch::TouchHistory, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "screen", ty: "UnityEngine::InputSystem::Touchscreen", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateMask", ty: "UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::EnhancedTouch::Finger::Finger(UnityEngine::InputSystem::Touchscreen screen, int32_t index, UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Finger>(screen, index, updateMask))) {}
+ UnityEngine::InputSystem::EnhancedTouch::Finger UnityEngine::InputSystem::EnhancedTouch::Finger::New_ctor(UnityEngine::InputSystem::Touchscreen screen, int32_t index, UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask)  {
+UnityEngine::InputSystem::EnhancedTouch::Finger o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::EnhancedTouch::Finger>(screen, index, updateMask))};
+return o;
+}
  void UnityEngine::InputSystem::EnhancedTouch::Finger::_ctor(UnityEngine::InputSystem::Touchscreen screen, int32_t index, UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::EnhancedTouch::Finger>::get(),

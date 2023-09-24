@@ -7,35 +7,35 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-struct Decimal;
-}
-namespace System {
 struct DateTimeOffset;
-}
-namespace System {
-class Uri;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace Newtonsoft::Json {
 class JsonTextWriter;
 }
-namespace System {
-struct Guid;
+namespace System::IO {
+class StringWriter;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System::IO {
-class StringWriter;
-}
 namespace System {
 struct DateTime;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -104,8 +104,7 @@ constexpr System::IO::StringWriter __get__sw() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerWriter", ty: "Newtonsoft::Json::JsonWriter", modifiers: "", def_value: None }]
-explicit TraceJsonWriter(Newtonsoft::Json::JsonWriter innerWriter) ;
+static Newtonsoft::Json::Serialization::TraceJsonWriter New_ctor(Newtonsoft::Json::JsonWriter innerWriter) ;
 
 /// @brief Method .ctor addr 0x24f37d0 size 0x1c0 virtual false final false
  void _ctor(Newtonsoft::Json::JsonWriter innerWriter) ;

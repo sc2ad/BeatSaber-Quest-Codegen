@@ -3,11 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace HMUI {
-class ButtonBinder;
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -15,9 +18,6 @@ class Button;
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine::UI {
-class Graphic;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +125,7 @@ constexpr UnityEngine::Color __get__graphicsColor() const;
 /// @brief Method DiscardUpcomingColor addr 0x212010c size 0xc virtual false final false
  void DiscardUpcomingColor() ;
 
-// Ctor Parameters []
-explicit PreviousColorPanelController() ;
+static GlobalNamespace::PreviousColorPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2120ed4 size 0x18 virtual false final false
  void _ctor() ;

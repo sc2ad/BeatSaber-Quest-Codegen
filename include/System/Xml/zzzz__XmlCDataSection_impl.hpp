@@ -123,8 +123,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlCDataSection::XmlCDataSection(::StringW data, System::Xml::XmlDocument doc)  : System::Xml::XmlCharacterData(THROW_UNLESS(::il2cpp_utils::New<XmlCDataSection>(data, doc))) {}
+ System::Xml::XmlCDataSection System::Xml::XmlCDataSection::New_ctor(::StringW data, System::Xml::XmlDocument doc)  {
+System::Xml::XmlCDataSection o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlCDataSection>(data, doc))};
+return o;
+}
  void System::Xml::XmlCDataSection::_ctor(::StringW data, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlCDataSection>::get(),

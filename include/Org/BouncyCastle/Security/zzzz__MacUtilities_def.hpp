@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
-}
-namespace System::Collections {
-class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -71,8 +71,7 @@ static System::Collections::IDictionary __get_algorithms() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MacUtilities() ;
+static Org::BouncyCastle::Security::MacUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10a2d08 size 0x8 virtual false final false
  void _ctor() ;

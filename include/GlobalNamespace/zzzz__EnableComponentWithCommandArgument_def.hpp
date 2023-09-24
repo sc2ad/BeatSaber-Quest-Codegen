@@ -69,8 +69,7 @@ constexpr UnityEngine::Behaviour __get__component() const;
 /// @brief Method Awake addr 0x1f769f8 size 0x90 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit EnableComponentWithCommandArgument() ;
+static GlobalNamespace::EnableComponentWithCommandArgument New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f76a88 size 0x8 virtual false final false
  void _ctor() ;

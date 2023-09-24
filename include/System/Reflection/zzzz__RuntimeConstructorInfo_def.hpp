@@ -6,17 +6,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-struct RuntimeMethodHandle;
-}
 namespace System::Reflection {
 struct MethodImplAttributes;
-}
-namespace System::Reflection {
-struct MethodAttributes;
-}
-namespace System::Reflection {
-class Binder;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -24,35 +15,44 @@ class SerializationInfo;
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::Reflection {
-class ParameterInfo;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System::Reflection {
-struct CallingConventions;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System {
-class Type;
-}
-namespace System::Reflection {
-struct BindingFlags;
+class RuntimeType;
 }
 namespace System {
 class Exception;
 }
-namespace System {
-class RuntimeType;
-}
 namespace System::Reflection {
 class RuntimeModule;
 }
+namespace System {
+class Type;
+}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Reflection {
+struct CallingConventions;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System {
+struct RuntimeMethodHandle;
+}
+namespace System::Reflection {
+class ParameterInfo;
+}
+namespace System::Reflection {
+struct MethodAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -244,8 +244,7 @@ static int32_t get_core_clr_security_level() ;
 /// @brief Method get_metadata_token addr 0x2389198 size 0x4 virtual false final false
 static int32_t get_metadata_token(System::Reflection::RuntimeConstructorInfo method) ;
 
-// Ctor Parameters []
-explicit RuntimeConstructorInfo() ;
+static System::Reflection::RuntimeConstructorInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x238919c size 0x58 virtual false final false
  void _ctor() ;

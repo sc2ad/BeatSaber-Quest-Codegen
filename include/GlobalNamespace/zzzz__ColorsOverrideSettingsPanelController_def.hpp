@@ -3,7 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 namespace HMUI {
-class ButtonBinder;
+class DropdownWithTableView;
 }
 namespace GlobalNamespace {
 class ColorScheme;
@@ -11,17 +11,14 @@ class ColorScheme;
 namespace GlobalNamespace {
 class ColorSchemeDropdown;
 }
-namespace HMUI {
-class PanelAnimationSO;
-}
-namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
 namespace UnityEngine::UI {
-class Toggle;
+class Button;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace HMUI {
+class PanelAnimationSO;
 }
 namespace GlobalNamespace {
 class IRefreshable;
@@ -32,14 +29,17 @@ class EditColorSchemeController;
 namespace HMUI {
 class ModalView;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
 namespace HMUI {
-class DropdownWithTableView;
+class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -200,8 +200,7 @@ constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme addr 0x211f5e4 size 0x1c virtual false final false
  void HandleEditColorSchemeControllerDidChangeColorScheme(GlobalNamespace::ColorScheme colorScheme) ;
 
-// Ctor Parameters []
-explicit ColorsOverrideSettingsPanelController() ;
+static GlobalNamespace::ColorsOverrideSettingsPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x211f600 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,12 +5,11 @@
 #include "Zenject/zzzz__SignalDeclaration_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System {
-template<typename T>
-class Action_1;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
-class SignalDeclaration;
+class Zenject__SignalSubscription__Pool;
 }
 namespace Zenject {
 struct BindingId;
@@ -19,11 +18,15 @@ namespace Zenject {
 template<typename TParam1,typename TParam2>
 class IPoolable_2;
 }
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class IDisposable;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace Zenject {
+class SignalDeclaration;
 }
 // Forward declare root types
 namespace Zenject {
@@ -114,8 +117,7 @@ constexpr Zenject::BindingId __get__signalId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pool", ty: "Zenject::Zenject__SignalSubscription__Pool", modifiers: "", def_value: None }]
-explicit SignalSubscription(Zenject::Zenject__SignalSubscription__Pool pool) ;
+static Zenject::SignalSubscription New_ctor(Zenject::Zenject__SignalSubscription__Pool pool) ;
 
 /// @brief Method .ctor addr 0x2d4a698 size 0x34 virtual false final false
  void _ctor(Zenject::Zenject__SignalSubscription__Pool pool) ;
@@ -154,7 +156,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(10601)), TypeDefinitionIndex(TypeDefinitionIndex(11009)), TypeDefinitionIndex(TypeDefinitionIndex(10603)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11009), inst: 3382 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10601)), TypeDefinitionIndex(TypeDefinitionIndex(11009)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11009), inst: 3382 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(10603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10602))
 // CS Name: Zenject.SignalSubscription::Pool
 class CORDL_TYPE Zenject__SignalSubscription__Pool : public Zenject::PoolableMemoryPool_3<System::Action_1<::bs_hook::Il2CppWrapperType>,Zenject::SignalDeclaration,Zenject::SignalSubscription> {
@@ -193,8 +195,7 @@ constexpr explicit Zenject__SignalSubscription__Pool(void* ptr) noexcept : Zenje
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SignalSubscription__Pool() ;
+static Zenject::Zenject__SignalSubscription__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4ab3c size 0x48 virtual false final false
  void _ctor() ;

@@ -29,8 +29,10 @@ return ::cordl_internals::getStaticField<int32_t, "DRAFT_token_binding", ::il2cp
  int32_t Org::BouncyCastle::Crypto::Tls::ExtensionType::__get_negotiated_ff_dhe_groups()  {
 return ::cordl_internals::getStaticField<int32_t, "negotiated_ff_dhe_groups", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ExtensionType>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::ExtensionType::ExtensionType()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ExtensionType>())) {}
+ Org::BouncyCastle::Crypto::Tls::ExtensionType Org::BouncyCastle::Crypto::Tls::ExtensionType::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::ExtensionType o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ExtensionType>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ExtensionType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ExtensionType>::get(),

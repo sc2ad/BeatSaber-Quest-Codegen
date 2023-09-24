@@ -106,8 +106,7 @@ static System::Collections::Generic::List_1<GlobalNamespace::DirectionalLight> g
 /// @brief Method OnDisable addr 0x1f98ff0 size 0x80 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit DirectionalLight() ;
+static GlobalNamespace::DirectionalLight New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f99070 size 0x10 virtual false final false
  void _ctor() ;

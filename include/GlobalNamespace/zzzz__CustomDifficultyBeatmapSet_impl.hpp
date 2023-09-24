@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomDifficultyBeatmapSet_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__CustomDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CustomDifficultyBeatmapSet.get_beatmapCharacteristic
 template<>
 
@@ -107,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmap>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }]
- GlobalNamespace::CustomDifficultyBeatmapSet::CustomDifficultyBeatmapSet(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomDifficultyBeatmapSet>(beatmapCharacteristic))) {}
+ GlobalNamespace::CustomDifficultyBeatmapSet GlobalNamespace::CustomDifficultyBeatmapSet::New_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
+GlobalNamespace::CustomDifficultyBeatmapSet o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomDifficultyBeatmapSet>(beatmapCharacteristic))};
+return o;
+}
  void GlobalNamespace::CustomDifficultyBeatmapSet::_ctor(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomDifficultyBeatmapSet>::get(),

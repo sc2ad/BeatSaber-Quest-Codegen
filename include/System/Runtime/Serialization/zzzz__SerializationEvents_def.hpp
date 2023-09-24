@@ -4,15 +4,15 @@
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization {
 class SerializationEventHandler;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -95,8 +95,7 @@ constexpr System::Collections::Generic::List_1<System::Reflection::MethodInfo> _
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SerializationEvents(System::Type t) ;
+static System::Runtime::Serialization::SerializationEvents New_ctor(System::Type t) ;
 
 /// @brief Method .ctor addr 0x2348d40 size 0x134 virtual false final false
  void _ctor(System::Type t) ;

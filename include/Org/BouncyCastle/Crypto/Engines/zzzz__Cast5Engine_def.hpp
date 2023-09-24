@@ -162,8 +162,7 @@ constexpr int32_t __get__rounds() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Cast5Engine() ;
+static Org::BouncyCastle::Crypto::Engines::Cast5Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe36bc4 size 0xb8 virtual false final false
  void _ctor() ;

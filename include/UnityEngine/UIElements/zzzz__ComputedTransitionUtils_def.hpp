@@ -5,15 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct EasingMode;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-struct EasingMode;
+struct TimeValue;
 }
 namespace UnityEngine::UIElements {
 struct StylePropertyName;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__ComputedTransitionUtils____c;
+}
+namespace UnityEngine::UIElements {
+struct ComputedTransitionProperty;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -21,15 +33,6 @@ class Func_2;
 }
 namespace UnityEngine::UIElements {
 struct ComputedStyle;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements {
-struct ComputedTransitionProperty;
-}
-namespace UnityEngine::UIElements {
-struct TimeValue;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -227,8 +230,7 @@ static System::Func_2<float_t,float_t> __get___9__12_22() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ComputedTransitionUtils____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ComputedTransitionUtils____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf7a7c size 0x8 virtual false final false
  void _ctor() ;

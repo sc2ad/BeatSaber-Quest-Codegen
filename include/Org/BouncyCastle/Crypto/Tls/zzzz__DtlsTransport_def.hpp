@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class TlsCloseable;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCloseable;
+class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer __get_mRecordLayer() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "recordLayer", ty: "Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer", modifiers: "", def_value: None }]
-explicit DtlsTransport(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsTransport New_ctor(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;
 
 /// @brief Method .ctor addr 0xf03a70 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer recordLayer) ;

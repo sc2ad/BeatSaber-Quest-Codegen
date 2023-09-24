@@ -64,8 +64,7 @@ constexpr explicit NoInvitePlatformHandler(void* ptr) noexcept : ::bs_hook::Il2C
 /// @brief Method OpenInvitePanel addr 0x21f3028 size 0x40 virtual true final true
  void OpenInvitePanel() ;
 
-// Ctor Parameters []
-explicit NoInvitePlatformHandler() ;
+static GlobalNamespace::NoInvitePlatformHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f3068 size 0x8 virtual false final false
  void _ctor() ;

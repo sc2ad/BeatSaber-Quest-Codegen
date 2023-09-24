@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ArmoredOutputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__Crc24_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::ArmoredOutputStream.Encode
 template<>
@@ -349,8 +349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, outStream, data, len);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ArmoredOutputStream::ArmoredOutputStream(System::IO::Stream outStream)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<ArmoredOutputStream>(outStream))) {}
+ Org::BouncyCastle::Bcpg::ArmoredOutputStream Org::BouncyCastle::Bcpg::ArmoredOutputStream::New_ctor(System::IO::Stream outStream)  {
+Org::BouncyCastle::Bcpg::ArmoredOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ArmoredOutputStream>(outStream))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ArmoredOutputStream::_ctor(System::IO::Stream outStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ArmoredOutputStream>::get(),
@@ -360,8 +362,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, outStream);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ArmoredOutputStream::ArmoredOutputStream(System::IO::Stream outStream, System::Collections::IDictionary headers)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<ArmoredOutputStream>(outStream, headers))) {}
+ Org::BouncyCastle::Bcpg::ArmoredOutputStream Org::BouncyCastle::Bcpg::ArmoredOutputStream::New_ctor(System::IO::Stream outStream, System::Collections::IDictionary headers)  {
+Org::BouncyCastle::Bcpg::ArmoredOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ArmoredOutputStream>(outStream, headers))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ArmoredOutputStream::_ctor(System::IO::Stream outStream, System::Collections::IDictionary headers)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ArmoredOutputStream>::get(),

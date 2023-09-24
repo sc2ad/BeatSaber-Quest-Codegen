@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace UnityEngine {
-struct Pose;
-}
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
+}
+namespace UnityEngine {
+struct Pose;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::XR::Interaction {
@@ -60,8 +60,7 @@ constexpr explicit BasePoseProvider(void* ptr) noexcept : UnityEngine::MonoBehav
 /// @brief Method TryGetPoseFromProvider addr 0x2ba2ebc size 0x88 virtual true final false
  bool TryGetPoseFromProvider(ByRef<UnityEngine::Pose> output) ;
 
-// Ctor Parameters []
-explicit BasePoseProvider() ;
+static UnityEngine::Experimental::XR::Interaction::BasePoseProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba2f44 size 0x8 virtual false final false
  void _ctor() ;

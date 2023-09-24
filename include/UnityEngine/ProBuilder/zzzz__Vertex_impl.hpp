@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__MeshArrays_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__MeshArrays_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Vertex.get_position
 template<>
 
@@ -1410,8 +1410,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Vertex::Vertex()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Vertex>())) {}
+ UnityEngine::ProBuilder::Vertex UnityEngine::ProBuilder::Vertex::New_ctor()  {
+UnityEngine::ProBuilder::Vertex o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Vertex>())};
+return o;
+}
  void UnityEngine::ProBuilder::Vertex::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Vertex>::get(),
@@ -1457,8 +1459,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "vertex", ty: "UnityEngine::ProBuilder::Vertex", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Vertex::Vertex(UnityEngine::ProBuilder::Vertex vertex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Vertex>(vertex))) {}
+ UnityEngine::ProBuilder::Vertex UnityEngine::ProBuilder::Vertex::New_ctor(UnityEngine::ProBuilder::Vertex vertex)  {
+UnityEngine::ProBuilder::Vertex o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Vertex>(vertex))};
+return o;
+}
  void UnityEngine::ProBuilder::Vertex::_ctor(UnityEngine::ProBuilder::Vertex vertex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Vertex>::get(),

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsContent_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CreditsContent.get_normalTextPrefab
 template<>
 
@@ -406,8 +406,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::TextAsset, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CreditsContent::CreditsContent()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CreditsContent>())) {}
+ GlobalNamespace::CreditsContent GlobalNamespace::CreditsContent::New_ctor()  {
+GlobalNamespace::CreditsContent o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CreditsContent>())};
+return o;
+}
  void GlobalNamespace::CreditsContent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CreditsContent>::get(),

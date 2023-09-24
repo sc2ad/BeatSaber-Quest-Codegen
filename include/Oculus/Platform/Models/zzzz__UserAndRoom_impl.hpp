@@ -1,7 +1,7 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__UserAndRoom_def.hpp"
-#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Room_def.hpp"
+#include "Oculus/Platform/Models/zzzz__User_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Models::UserAndRoom._ctor
 template<>
 
@@ -37,8 +37,10 @@ constexpr void Oculus::Platform::Models::UserAndRoom::__set_User(Oculus::Platfor
 constexpr Oculus::Platform::Models::User Oculus::Platform::Models::UserAndRoom::__get_User() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::User, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::UserAndRoom::UserAndRoom(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserAndRoom>(o))) {}
+ Oculus::Platform::Models::UserAndRoom Oculus::Platform::Models::UserAndRoom::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::UserAndRoom o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::UserAndRoom>(o))};
+return o;
+}
  void Oculus::Platform::Models::UserAndRoom::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::UserAndRoom>::get(),

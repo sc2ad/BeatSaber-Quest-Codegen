@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSystemPerfMetrics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSystemPerfMetrics_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics.ToJSON
 template<>
 
@@ -257,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, json);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics>())) {}
+ GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics>::get(),
@@ -407,8 +410,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer>())) {}
+ GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer>::get(),
@@ -435,8 +440,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVRSystemPerfMetrics::OVRSystemPerfMetrics()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRSystemPerfMetrics>())) {}
+ GlobalNamespace::OVRSystemPerfMetrics GlobalNamespace::OVRSystemPerfMetrics::New_ctor()  {
+GlobalNamespace::OVRSystemPerfMetrics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSystemPerfMetrics>())};
+return o;
+}
  void GlobalNamespace::OVRSystemPerfMetrics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSystemPerfMetrics>::get(),

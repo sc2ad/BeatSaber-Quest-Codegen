@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Collections/zzzz__CollectionBase_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509ExtensionCollection_def.hpp"
-#include "Mono/Security/zzzz__ASN1_def.hpp"
-#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "Mono/Security/zzzz__ASN1_def.hpp"
 //  Writing Method size for method: Mono::Security::X509::X509ExtensionCollection._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void Mono::Security::X509::X509ExtensionCollection::__set_readOnly(boo
 constexpr bool Mono::Security::X509::X509ExtensionCollection::__get_readOnly() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Mono::Security::X509::X509ExtensionCollection::X509ExtensionCollection()  : System::Collections::CollectionBase(THROW_UNLESS(::il2cpp_utils::New<X509ExtensionCollection>())) {}
+ Mono::Security::X509::X509ExtensionCollection Mono::Security::X509::X509ExtensionCollection::New_ctor()  {
+Mono::Security::X509::X509ExtensionCollection o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509ExtensionCollection>())};
+return o;
+}
  void Mono::Security::X509::X509ExtensionCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509ExtensionCollection>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
- Mono::Security::X509::X509ExtensionCollection::X509ExtensionCollection(Mono::Security::ASN1 asn1)  : System::Collections::CollectionBase(THROW_UNLESS(::il2cpp_utils::New<X509ExtensionCollection>(asn1))) {}
+ Mono::Security::X509::X509ExtensionCollection Mono::Security::X509::X509ExtensionCollection::New_ctor(Mono::Security::ASN1 asn1)  {
+Mono::Security::X509::X509ExtensionCollection o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::X509::X509ExtensionCollection>(asn1))};
+return o;
+}
  void Mono::Security::X509::X509ExtensionCollection::_ctor(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::X509::X509ExtensionCollection>::get(),

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Cms {
+class Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
+}
 namespace System::IO {
 class Stream;
 }
@@ -90,8 +93,7 @@ constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator __get__eiGen() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "Org::BouncyCastle::Utilities::Zlib::ZOutputStream", modifiers: "", def_value: None }, CppParam { name: "sGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
+static Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream New_ctor(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
 
 /// @brief Method .ctor addr 0x1153450 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen) ;
@@ -165,8 +167,7 @@ constexpr int32_t __get__bufferSize() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CmsCompressedDataStreamGenerator() ;
+static Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1153100 size 0x8 virtual false final false
  void _ctor() ;

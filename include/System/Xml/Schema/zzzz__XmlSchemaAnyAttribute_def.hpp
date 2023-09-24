@@ -3,10 +3,10 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml::Schema {
-class NamespaceList;
+struct XmlSchemaContentProcessing;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaContentProcessing;
+class NamespaceList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -86,8 +86,7 @@ constexpr System::Xml::Schema::NamespaceList __get_namespaceList() const;
 /// @brief Method BuildNamespaceList addr 0x27338d8 size 0x90 virtual false final false
  void BuildNamespaceList(::StringW targetNamespace) ;
 
-// Ctor Parameters []
-explicit XmlSchemaAnyAttribute() ;
+static System::Xml::Schema::XmlSchemaAnyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2733968 size 0x8 virtual false final false
  void _ctor() ;

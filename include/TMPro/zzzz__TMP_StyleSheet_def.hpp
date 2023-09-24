@@ -98,8 +98,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,TMPro::TMP_Style> _
 /// @brief Method LoadStyleDictionaryInternal addr 0x2aad63c size 0x318 virtual false final false
  void LoadStyleDictionaryInternal() ;
 
-// Ctor Parameters []
-explicit TMP_StyleSheet() ;
+static TMPro::TMP_StyleSheet New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aada98 size 0x80 virtual false final false
  void _ctor() ;

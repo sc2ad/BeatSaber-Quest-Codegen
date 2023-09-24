@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__GMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__GcmBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__GcmBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::GMac._ctor
 template<>
 
@@ -172,8 +172,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::GMac::__set_macSizeBits(int32_t 
 constexpr int32_t Org::BouncyCastle::Crypto::Macs::GMac::__get_macSizeBits() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::GMac::GMac(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GMac>(cipher))) {}
+ Org::BouncyCastle::Crypto::Macs::GMac Org::BouncyCastle::Crypto::Macs::GMac::New_ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Macs::GMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::GMac>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::GMac::_ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::GMac>::get(),
@@ -183,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cipher);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::GMac::GMac(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GMac>(cipher, macSizeBits))) {}
+ Org::BouncyCastle::Crypto::Macs::GMac Org::BouncyCastle::Crypto::Macs::GMac::New_ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits)  {
+Org::BouncyCastle::Crypto::Macs::GMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::GMac>(cipher, macSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::GMac::_ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::GMac>::get(),

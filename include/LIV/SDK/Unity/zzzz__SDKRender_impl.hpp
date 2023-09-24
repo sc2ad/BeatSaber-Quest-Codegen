@@ -1,24 +1,24 @@
 #pragma once
 #include "LIV/SDK/Unity/zzzz__SDKRender_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKOutputFrame_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
-#include "UnityEngine/zzzz__Plane_def.hpp"
-#include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ColorWriteMask_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKResolution_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKResolution_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
+#include "LIV/SDK/Unity/zzzz__LIV_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
+#include "UnityEngine/zzzz__Plane_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ColorWriteMask_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKOutputFrame_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
 //  Writing Method size for method: LIV::SDK::Unity::SDKRender.GetClipPlaneMaterial
 template<>
 
@@ -1081,8 +1081,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "liv", ty: "LIV::SDK::Unity::LIV", modifiers: "", def_value: None }]
- LIV::SDK::Unity::SDKRender::SDKRender(LIV::SDK::Unity::LIV liv)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SDKRender>(liv))) {}
+ LIV::SDK::Unity::SDKRender LIV::SDK::Unity::SDKRender::New_ctor(LIV::SDK::Unity::LIV liv)  {
+LIV::SDK::Unity::SDKRender o{THROW_UNLESS(::il2cpp_utils::New<LIV::SDK::Unity::SDKRender>(liv))};
+return o;
+}
  void LIV::SDK::Unity::SDKRender::_ctor(LIV::SDK::Unity::LIV liv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LIV::SDK::Unity::SDKRender>::get(),

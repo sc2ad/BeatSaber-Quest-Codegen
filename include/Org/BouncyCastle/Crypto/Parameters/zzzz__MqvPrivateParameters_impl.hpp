@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__MqvPrivateParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters._ctor
 template<>
 
@@ -110,8 +110,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::__se
 constexpr Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::__get_ephemeralPublicKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::MqvPrivateParameters(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MqvPrivateParameters>(staticPrivateKey, ephemeralPrivateKey))) {}
+ Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey)  {
+Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters>(staticPrivateKey, ephemeralPrivateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters>::get(),
@@ -121,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, staticPrivateKey, ephemeralPrivateKey);
 }
-// Ctor Parameters [CppParam { name: "staticPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPrivateKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters", modifiers: "", def_value: None }, CppParam { name: "ephemeralPublicKey", ty: "Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::MqvPrivateParameters(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MqvPrivateParameters>(staticPrivateKey, ephemeralPrivateKey, ephemeralPublicKey))) {}
+ Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  {
+Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters>(staticPrivateKey, ephemeralPrivateKey, ephemeralPublicKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters staticPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters ephemeralPrivateKey, Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters ephemeralPublicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters>::get(),

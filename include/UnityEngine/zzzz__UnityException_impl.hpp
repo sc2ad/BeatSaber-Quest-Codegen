@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UnityException::UnityException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityException>())) {}
+ UnityEngine::UnityException UnityEngine::UnityException::New_ctor()  {
+UnityEngine::UnityException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityException>())};
+return o;
+}
  void UnityEngine::UnityException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::UnityException::UnityException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityException>(message))) {}
+ UnityEngine::UnityException UnityEngine::UnityException::New_ctor(::StringW message)  {
+UnityEngine::UnityException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityException>(message))};
+return o;
+}
  void UnityEngine::UnityException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- UnityEngine::UnityException::UnityException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<UnityException>(info, context))) {}
+ UnityEngine::UnityException UnityEngine::UnityException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+UnityEngine::UnityException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityException>(info, context))};
+return o;
+}
  void UnityEngine::UnityException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityException>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
-namespace System {
-class IServiceProvider;
-}
 namespace System::ComponentModel {
 class IComponent;
 }
 namespace System::ComponentModel::Design {
 class IDesigner;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design {

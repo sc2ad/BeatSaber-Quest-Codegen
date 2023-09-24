@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "UnityEngine/Networking/zzzz__UploadHandler_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
-#include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
+#include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Networking::UnityEngine__Networking__UnityWebRequest__UnityWebRequestMethod::UnityEngine__Networking__UnityWebRequest__UnityWebRequestMethod(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1220,8 +1221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "downloadHandler", ty: "UnityEngine::Networking::DownloadHandler", modifiers: "", def_value: None }, CppParam { name: "uploadHandler", ty: "UnityEngine::Networking::UploadHandler", modifiers: "", def_value: None }]
- UnityEngine::Networking::UnityWebRequest::UnityWebRequest(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler downloadHandler, UnityEngine::Networking::UploadHandler uploadHandler)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityWebRequest>(url, method, downloadHandler, uploadHandler))) {}
+ UnityEngine::Networking::UnityWebRequest UnityEngine::Networking::UnityWebRequest::New_ctor(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler downloadHandler, UnityEngine::Networking::UploadHandler uploadHandler)  {
+UnityEngine::Networking::UnityWebRequest o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::UnityWebRequest>(url, method, downloadHandler, uploadHandler))};
+return o;
+}
  void UnityEngine::Networking::UnityWebRequest::_ctor(::StringW url, ::StringW method, UnityEngine::Networking::DownloadHandler downloadHandler, UnityEngine::Networking::UploadHandler uploadHandler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::UnityWebRequest>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_MeshFilter_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_MeshFilter._ctor
 template<>
 
@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_MeshFilter::__set_self(UnityEngine::Mesh
 constexpr UnityEngine::MeshFilter HoudiniEngineUnity::Test_MeshFilter::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::MeshFilter, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::MeshFilter", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_MeshFilter::Test_MeshFilter(UnityEngine::MeshFilter self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_MeshFilter>(self))) {}
+ HoudiniEngineUnity::Test_MeshFilter HoudiniEngineUnity::Test_MeshFilter::New_ctor(UnityEngine::MeshFilter self)  {
+HoudiniEngineUnity::Test_MeshFilter o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_MeshFilter>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_MeshFilter::_ctor(UnityEngine::MeshFilter self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_MeshFilter>::get(),

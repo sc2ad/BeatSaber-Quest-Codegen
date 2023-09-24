@@ -1,8 +1,9 @@
 #pragma once
 #include "System/zzzz__BitConverter_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
-#include "System/zzzz__ValueTuple_3_def.hpp"
+#include "System/zzzz__BitConverter_def.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
 //  Writing Method size for method: System::System__BitConverter____c._ctor
 template<>
 
@@ -49,8 +50,10 @@ return ::cordl_internals::getStaticField<System::System__BitConverter____c, "<>9
  System::Buffers::SpanAction_2<char16_t,System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>> System::System__BitConverter____c::__get___9__38_0()  {
 return ::cordl_internals::getStaticField<System::Buffers::SpanAction_2<char16_t,System::ValueTuple_3<::ArrayW<uint8_t>,int32_t,int32_t>>, "<>9__38_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__BitConverter____c>::get>();
 }
-// Ctor Parameters []
- System::System__BitConverter____c::System__BitConverter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__BitConverter____c>())) {}
+ System::System__BitConverter____c System::System__BitConverter____c::New_ctor()  {
+System::System__BitConverter____c o{THROW_UNLESS(::il2cpp_utils::New<System::System__BitConverter____c>())};
+return o;
+}
  void System::System__BitConverter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__BitConverter____c>::get(),

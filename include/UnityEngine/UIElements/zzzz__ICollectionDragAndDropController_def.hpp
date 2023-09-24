@@ -4,11 +4,11 @@ namespace UnityEngine::UIElements {
 class IReorderable;
 }
 namespace UnityEngine::UIElements {
-template<typename TArgs>
-class IDragAndDropController_1;
+class IListDragAndDropArgs;
 }
 namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
+template<typename TArgs>
+class IDragAndDropController_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

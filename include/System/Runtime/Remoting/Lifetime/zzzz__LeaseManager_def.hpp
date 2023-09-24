@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Runtime::Remoting {
+class ServerIdentity;
+}
 namespace System {
 struct TimeSpan;
 }
 namespace System::Collections {
 class ArrayList;
-}
-namespace System::Runtime::Remoting {
-class ServerIdentity;
 }
 namespace System::Threading {
 class Timer;
@@ -89,8 +89,7 @@ constexpr System::Threading::Timer __get__timer() const;
 /// @brief Method ManageLeases addr 0x232f7c4 size 0x264 virtual false final false
  void ManageLeases(::bs_hook::Il2CppWrapperType state) ;
 
-// Ctor Parameters []
-explicit LeaseManager() ;
+static System::Runtime::Remoting::Lifetime::LeaseManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x232fa28 size 0x68 virtual false final false
  void _ctor() ;

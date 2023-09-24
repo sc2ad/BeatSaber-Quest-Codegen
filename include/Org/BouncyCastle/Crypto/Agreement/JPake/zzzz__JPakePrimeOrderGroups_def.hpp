@@ -71,8 +71,7 @@ static Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup __get_N
 
 // Methods
 
-// Ctor Parameters []
-explicit JPakePrimeOrderGroups() ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups New_ctor() ;
 
 /// @brief Method .ctor addr 0x118a8c0 size 0x8 virtual false final false
  void _ctor() ;

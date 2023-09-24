@@ -4,24 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferVolumeLayer;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeScatterTrees;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_VolumeScatterTrees;
+class HEU_DetailProperties;
 }
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferVolumeLayer;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace HoudiniEngineUnity {
 class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -174,8 +174,7 @@ constexpr ::StringW __get__specifiedTerrainMaterialName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_LoadBufferVolume() ;
+static HoudiniEngineUnity::HEU_LoadBufferVolume New_ctor() ;
 
 /// @brief Method .ctor addr 0x203a390 size 0x104 virtual false final false
  void _ctor() ;

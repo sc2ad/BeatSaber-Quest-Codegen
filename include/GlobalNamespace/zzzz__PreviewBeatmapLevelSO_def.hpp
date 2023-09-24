@@ -7,33 +7,39 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+class IAssetSongPreviewAudioClipProvider;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
-}
 namespace UnityEngine {
 class AudioClip;
 }
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PreviewBeatmapLevelSO___GetCoverImageAsync_d__57;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__56;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -509,8 +515,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::Preview
 /// @brief Method GetCoverImageAsync addr 0x21ec910 size 0xfc virtual true final true
  System::Threading::Tasks::Task_1<UnityEngine::Sprite> GetCoverImageAsync(System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit PreviewBeatmapLevelSO() ;
+static GlobalNamespace::PreviewBeatmapLevelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21eca0c size 0x8 virtual false final false
  void _ctor() ;

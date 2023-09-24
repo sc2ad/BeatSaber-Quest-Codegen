@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshConstructor_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SliderMeshConstructor.get_mesh
 template<>
@@ -215,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderMeshConstructor::SliderMeshConstructor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SliderMeshConstructor>())) {}
+ GlobalNamespace::SliderMeshConstructor GlobalNamespace::SliderMeshConstructor::New_ctor()  {
+GlobalNamespace::SliderMeshConstructor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderMeshConstructor>())};
+return o;
+}
  void GlobalNamespace::SliderMeshConstructor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderMeshConstructor>::get(),

@@ -78,8 +78,7 @@ constexpr bool __get__dissolving() const;
 /// @brief Method AnimateCutout addr 0x223e398 size 0x28 virtual false final false
  void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration) ;
 
-// Ctor Parameters []
-explicit SliderControllerBase() ;
+static GlobalNamespace::SliderControllerBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x223e3c8 size 0x8 virtual false final false
  void _ctor() ;

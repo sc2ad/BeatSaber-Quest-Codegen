@@ -1,15 +1,16 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Application_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/zzzz__ThreadPriority_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__NetworkReachability_def.hpp"
-#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
+#include "UnityEngine/zzzz__Application_def.hpp"
+#include "UnityEngine/zzzz__LogType_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"
+#include "UnityEngine/zzzz__NetworkReachability_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Application__LowMemoryCallback._ctor
 template<>
 
@@ -44,8 +45,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Application__LowMemoryCallback::UnityEngine__Application__LowMemoryCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Application__LowMemoryCallback>(object, method))) {}
+ UnityEngine::UnityEngine__Application__LowMemoryCallback UnityEngine::UnityEngine__Application__LowMemoryCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__Application__LowMemoryCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Application__LowMemoryCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__Application__LowMemoryCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Application__LowMemoryCallback>::get(),
@@ -98,8 +101,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Application__LogCallback::UnityEngine__Application__LogCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Application__LogCallback>(object, method))) {}
+ UnityEngine::UnityEngine__Application__LogCallback UnityEngine::UnityEngine__Application__LogCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__Application__LogCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Application__LogCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__Application__LogCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Application__LogCallback>::get(),

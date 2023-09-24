@@ -1,35 +1,35 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__Mouse_def.hpp"
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
+class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IEventMerger;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IEventMerger;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateCallbackReceiver;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class DeltaControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -89,8 +89,7 @@ static constexpr ::ConstString  metadata{u"AutoWindowSpace;Vector2;Delta;Button;
 
 // Methods
 
-// Ctor Parameters []
-explicit FastMouse() ;
+static UnityEngine::InputSystem::FastMouse New_ctor() ;
 
 /// @brief Method .ctor addr 0x290cd5c size 0xa7c virtual false final false
  void _ctor() ;

@@ -126,8 +126,7 @@ constexpr int16_t __get_SizeParamIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "unmanagedType", ty: "System::Runtime::InteropServices::UnmanagedType", modifiers: "", def_value: None }]
-explicit MarshalAsAttribute(System::Runtime::InteropServices::UnmanagedType unmanagedType) ;
+static System::Runtime::InteropServices::MarshalAsAttribute New_ctor(System::Runtime::InteropServices::UnmanagedType unmanagedType) ;
 
 /// @brief Method .ctor addr 0x236d764 size 0x28 virtual false final false
  void _ctor(System::Runtime::InteropServices::UnmanagedType unmanagedType) ;

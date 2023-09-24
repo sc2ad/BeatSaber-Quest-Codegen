@@ -127,8 +127,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::__set_
 constexpr ::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::__get_sigs() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sigs", ty: "::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::PgpOnePassSignatureList(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpOnePassSignatureList>(sigs))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList>(sigs))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::_ctor(::ArrayW<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature> sigs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList>::get(),
@@ -138,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigs);
 }
-// Ctor Parameters [CppParam { name: "sig", ty: "Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::PgpOnePassSignatureList(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpOnePassSignatureList>(sig))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::New_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList>(sig))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList::_ctor(Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature sig)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList>::get(),

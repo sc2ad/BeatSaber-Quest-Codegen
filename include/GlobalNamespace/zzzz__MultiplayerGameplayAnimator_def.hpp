@@ -5,22 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class LightsAnimator;
+class ColorSO;
 }
 namespace Tweening {
 class TimeTweeningManager;
 }
 namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class LightsAnimator;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
-class ColorSO;
-}
-namespace GlobalNamespace {
 class MultiplayerLeadPlayerProvider;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
@@ -149,8 +149,7 @@ constexpr GlobalNamespace::IConnectedPlayer __get_connectedPlayer() const;
 /// @brief Method HandleNewLeaderWasSelected addr 0x20f7994 size 0xe8 virtual false final false
  void HandleNewLeaderWasSelected(::StringW userId) ;
 
-// Ctor Parameters []
-explicit MultiplayerGameplayAnimator() ;
+static GlobalNamespace::MultiplayerGameplayAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e6d08 size 0x14 virtual false final false
  void _ctor() ;

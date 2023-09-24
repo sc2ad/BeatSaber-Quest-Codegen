@@ -8,14 +8,23 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class GlobalNamespace__EncryptionUtility__IEncryptionState;
+class GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EncryptionUtility__IEncryptionState;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -25,34 +34,43 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Diagnostics {
-class Stopwatch;
-}
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace BGNet::Core {
-class ITimeProvider;
-}
-namespace System::Net {
-class IPEndPoint;
+namespace GlobalNamespace {
+struct GlobalNamespace__PacketEncryptionLayer___AddPendingEncryptedEndpointAsync_d__27;
 }
 namespace GlobalNamespace {
 template<typename TKey,typename TValue>
 class ExpiringDictionary_2;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PacketEncryptionLayer___AddEncryptedEndpointAsync_d__25;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList;
+}
+namespace System::Diagnostics {
+class Stopwatch;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace BGNet::Core {
+class ITimeProvider;
+}
+namespace System::Net {
+class IPAddress;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -61,6 +79,9 @@ struct TaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -250,8 +271,7 @@ constexpr int64_t __get__decryptionProcessingTime() const;
 /// @brief Method AddDecryptionProcessingTime addr 0xdc13f0 size 0xc virtual false final false
  void AddDecryptionProcessingTime(int64_t time) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics() ;
+static GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc0f08 size 0x8 virtual false final false
  void _ctor() ;
@@ -311,8 +331,7 @@ constexpr int32_t __get_port() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0() ;
+static GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc3300 size 0x8 virtual false final false
  void _ctor() ;
@@ -381,8 +400,7 @@ static System::Func_2<System::Collections::Generic::KeyValuePair_2<int32_t,Globa
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c() ;
+static GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc34cc size 0x8 virtual false final false
  void _ctor() ;
@@ -445,8 +463,7 @@ constexpr GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState 
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0() ;
+static GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc3370 size 0x8 virtual false final false
  void _ctor() ;
@@ -544,8 +561,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::Gl
 /// @brief Method Remove addr 0xdc2cb8 size 0x174 virtual false final false
  bool Remove(int32_t port, GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState encryptionState) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList() ;
+static GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList New_ctor() ;
 
 /// @brief Method .ctor addr 0xdc3378 size 0x7c virtual false final false
  void _ctor() ;
@@ -912,8 +928,7 @@ constexpr bool __get__enableStatistics_k__BackingField() const;
 /// @brief Method set_enableStatistics addr 0xdc0ddc size 0xc virtual false final false
  void set_enableStatistics(bool value) ;
 
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }]
-explicit PacketEncryptionLayer(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;
+static GlobalNamespace::PacketEncryptionLayer New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;
 
 /// @brief Method .ctor addr 0xdc0de8 size 0x120 virtual false final false
  void _ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility) ;

@@ -2,8 +2,8 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__MaterialEffectPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable.GetHandle
 template<>
 

@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+struct HAPI_GeoInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GeoInfo;
+template<typename T>
+class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -66,8 +66,7 @@ constexpr HoudiniEngineUnity::HAPI_GeoInfo __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_GeoInfo", modifiers: "", def_value: None }]
-explicit Test_HAPI_GeoInfo(HoudiniEngineUnity::HAPI_GeoInfo self) ;
+static HoudiniEngineUnity::Test_HAPI_GeoInfo New_ctor(HoudiniEngineUnity::HAPI_GeoInfo self) ;
 
 /// @brief Method .ctor addr 0x20708ec size 0x34 virtual false final false
  void _ctor(HoudiniEngineUnity::HAPI_GeoInfo self) ;

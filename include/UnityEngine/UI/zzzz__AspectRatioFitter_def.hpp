@@ -4,20 +4,23 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine::UI {
 class ILayoutController;
-}
-namespace UnityEngine::UI {
-class ILayoutSelfController;
 }
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__AspectRatioFitter__AspectMode;
+}
+namespace UnityEngine::UI {
+class ILayoutSelfController;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -78,6 +81,8 @@ __EnvelopeParent = 4,
 constexpr operator __UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__AspectRatioFitter__AspectMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -220,8 +225,7 @@ constexpr UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
 /// @brief Method get_rectTransform addr 0x2bfa174 size 0x94 virtual false final false
  UnityEngine::RectTransform get_rectTransform() ;
 
-// Ctor Parameters []
-explicit AspectRatioFitter() ;
+static UnityEngine::UI::AspectRatioFitter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfa208 size 0x10 virtual false final false
  void _ctor() ;

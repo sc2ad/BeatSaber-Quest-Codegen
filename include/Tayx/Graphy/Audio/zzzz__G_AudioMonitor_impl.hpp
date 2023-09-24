@@ -1,12 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
+#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__AudioListener_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__FFTWindow_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Audio::G_AudioMonitor.get_Spectrum
 template<>
 
@@ -488,8 +487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Audio::G_AudioMonitor::G_AudioMonitor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_AudioMonitor>())) {}
+ Tayx::Graphy::Audio::G_AudioMonitor Tayx::Graphy::Audio::G_AudioMonitor::New_ctor()  {
+Tayx::Graphy::Audio::G_AudioMonitor o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Audio::G_AudioMonitor>())};
+return o;
+}
  void Tayx::Graphy::Audio::G_AudioMonitor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Audio::G_AudioMonitor>::get(),

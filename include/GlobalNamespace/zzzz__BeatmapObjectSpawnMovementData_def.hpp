@@ -5,25 +5,37 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IJumpOffsetYProvider;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace UnityEngine {
-struct Vector3;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteSpawnData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType;
+}
+namespace GlobalNamespace {
+class IJumpOffsetYProvider;
+}
+namespace GlobalNamespace {
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 class SliderData;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -388,6 +400,8 @@ constexpr operator __GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpVa
 return std::bit_cast<__GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -693,8 +707,7 @@ static constexpr float_t  kDefaultStartHalfJumpDurationInBeats{4};
 /// @brief Method NoteJumpGravityForLineLayerWithoutJumpOffset addr 0x2236fc0 size 0x64 virtual false final false
  float_t NoteJumpGravityForLineLayerWithoutJumpOffset(GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::NoteLineLayer beforeJumpLineLayer) ;
 
-// Ctor Parameters []
-explicit BeatmapObjectSpawnMovementData() ;
+static GlobalNamespace::BeatmapObjectSpawnMovementData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2236cac size 0x30 virtual false final false
  void _ctor() ;

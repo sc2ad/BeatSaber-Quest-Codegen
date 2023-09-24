@@ -102,8 +102,7 @@ constexpr float_t __get__pressedValue() const;
 /// @brief Method set_pressedValue addr 0x2d3aca4 size 0x8 virtual false final false
  void set_pressedValue(float_t value) ;
 
-// Ctor Parameters []
-explicit ButtonState() ;
+static VRUIControls::ButtonState New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3acac size 0x8 virtual false final false
  void _ctor() ;

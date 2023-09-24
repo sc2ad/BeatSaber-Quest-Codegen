@@ -82,8 +82,7 @@ constexpr bool __get__isCursorOverriden_k__BackingField() const;
 /// @brief Method ResetCursor addr 0x2c46758 size 0x68 virtual true final true
  void ResetCursor() ;
 
-// Ctor Parameters []
-explicit CursorManager() ;
+static UnityEngine::UIElements::CursorManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c467c0 size 0x8 virtual false final false
  void _ctor() ;

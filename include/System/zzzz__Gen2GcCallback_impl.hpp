@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/zzzz__Gen2GcCallback_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: System::Gen2GcCallback._ctor
 template<>
 
@@ -83,8 +83,10 @@ constexpr void System::Gen2GcCallback::__set__weakTargetObj(System::Runtime::Int
 constexpr System::Runtime::InteropServices::GCHandle System::Gen2GcCallback::__get__weakTargetObj() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::GCHandle, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Gen2GcCallback::Gen2GcCallback()  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<Gen2GcCallback>())) {}
+ System::Gen2GcCallback System::Gen2GcCallback::New_ctor()  {
+System::Gen2GcCallback o{THROW_UNLESS(::il2cpp_utils::New<System::Gen2GcCallback>())};
+return o;
+}
  void System::Gen2GcCallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Gen2GcCallback>::get(),

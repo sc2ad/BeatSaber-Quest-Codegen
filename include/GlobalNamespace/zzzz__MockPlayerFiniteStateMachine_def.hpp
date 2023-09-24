@@ -1,6 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class IMenuRpcManager;
+}
 namespace GlobalNamespace {
 class MockPlayerGamePoseGenerator;
 }
@@ -8,22 +20,10 @@ namespace GlobalNamespace {
 class MockPlayerLobbyPoseGenerator;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class IMenuRpcManager;
-}
-namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr explicit MockPlayerFiniteStateMachine(void* ptr) noexcept : ::bs_hook:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "gameplayRpcManager", ty: "GlobalNamespace::IGameplayRpcManager", modifiers: "", def_value: None }, CppParam { name: "menuRpcManager", ty: "GlobalNamespace::IMenuRpcManager", modifiers: "", def_value: None }, CppParam { name: "beatmapDataProvider", ty: "GlobalNamespace::IMockBeatmapDataProvider", modifiers: "", def_value: None }, CppParam { name: "lobbyPoseGenerator", ty: "GlobalNamespace::MockPlayerLobbyPoseGenerator", modifiers: "", def_value: None }, CppParam { name: "gamePoseGenerator", ty: "GlobalNamespace::MockPlayerGamePoseGenerator", modifiers: "", def_value: None }]
-explicit MockPlayerFiniteStateMachine(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMenuRpcManager menuRpcManager, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::MockPlayerLobbyPoseGenerator lobbyPoseGenerator, GlobalNamespace::MockPlayerGamePoseGenerator gamePoseGenerator) ;
+static GlobalNamespace::MockPlayerFiniteStateMachine New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMenuRpcManager menuRpcManager, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::MockPlayerLobbyPoseGenerator lobbyPoseGenerator, GlobalNamespace::MockPlayerGamePoseGenerator gamePoseGenerator) ;
 
 /// @brief Method .ctor addr 0x2279978 size 0x8 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::IGameplayRpcManager gameplayRpcManager, GlobalNamespace::IMenuRpcManager menuRpcManager, GlobalNamespace::IMockBeatmapDataProvider beatmapDataProvider, GlobalNamespace::MockPlayerLobbyPoseGenerator lobbyPoseGenerator, GlobalNamespace::MockPlayerGamePoseGenerator gamePoseGenerator) ;

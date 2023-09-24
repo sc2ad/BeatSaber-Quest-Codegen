@@ -93,8 +93,10 @@ constexpr void Newtonsoft::Json::Utilities::Base64Encoder::__set__leftOverBytesC
 constexpr int32_t Newtonsoft::Json::Utilities::Base64Encoder::__get__leftOverBytesCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
- Newtonsoft::Json::Utilities::Base64Encoder::Base64Encoder(System::IO::TextWriter writer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Base64Encoder>(writer))) {}
+ Newtonsoft::Json::Utilities::Base64Encoder Newtonsoft::Json::Utilities::Base64Encoder::New_ctor(System::IO::TextWriter writer)  {
+Newtonsoft::Json::Utilities::Base64Encoder o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Base64Encoder>(writer))};
+return o;
+}
  void Newtonsoft::Json::Utilities::Base64Encoder::_ctor(System::IO::TextWriter writer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Base64Encoder>::get(),

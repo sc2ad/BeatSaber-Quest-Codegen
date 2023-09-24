@@ -440,8 +440,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_Mqv1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit X9ObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::X9::X9ObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0x11280e8 size 0x8 virtual false final false
  void _ctor() ;

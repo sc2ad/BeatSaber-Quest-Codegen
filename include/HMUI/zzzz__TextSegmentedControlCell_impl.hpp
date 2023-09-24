@@ -188,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::TextSegmentedControlCell::TextSegmentedControlCell()  : HMUI::SegmentedControlCell(THROW_UNLESS(::il2cpp_utils::New<TextSegmentedControlCell>())) {}
+ HMUI::TextSegmentedControlCell HMUI::TextSegmentedControlCell::New_ctor()  {
+HMUI::TextSegmentedControlCell o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TextSegmentedControlCell>())};
+return o;
+}
  void HMUI::TextSegmentedControlCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TextSegmentedControlCell>::get(),

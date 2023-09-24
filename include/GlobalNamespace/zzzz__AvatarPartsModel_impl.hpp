@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AvatarPartsModel_def.hpp"
-#include "GlobalNamespace/zzzz__SkinColorSetSO_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarMeshPartSO_def.hpp"
-#include "GlobalNamespace/zzzz__SkinColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarSpritePartSO_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPartCollection_1_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarMeshPartSO_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarSpritePartSO_def.hpp"
+#include "GlobalNamespace/zzzz__SkinColorSetSO_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPartCollection_1_def.hpp"
+#include "GlobalNamespace/zzzz__SkinColorSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::AvatarPartsModel.get_headTopCollection
 template<>
@@ -337,8 +337,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::SkinColorSO>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "avatarPartData", ty: "GlobalNamespace::AvatarPartsModelSO", modifiers: "", def_value: None }, CppParam { name: "skinColorSet", ty: "GlobalNamespace::SkinColorSetSO", modifiers: "", def_value: None }]
- GlobalNamespace::AvatarPartsModel::AvatarPartsModel(GlobalNamespace::AvatarPartsModelSO avatarPartData, GlobalNamespace::SkinColorSetSO skinColorSet)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarPartsModel>(avatarPartData, skinColorSet))) {}
+ GlobalNamespace::AvatarPartsModel GlobalNamespace::AvatarPartsModel::New_ctor(GlobalNamespace::AvatarPartsModelSO avatarPartData, GlobalNamespace::SkinColorSetSO skinColorSet)  {
+GlobalNamespace::AvatarPartsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarPartsModel>(avatarPartData, skinColorSet))};
+return o;
+}
  void GlobalNamespace::AvatarPartsModel::_ctor(GlobalNamespace::AvatarPartsModelSO avatarPartData, GlobalNamespace::SkinColorSetSO skinColorSet)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarPartsModel>::get(),

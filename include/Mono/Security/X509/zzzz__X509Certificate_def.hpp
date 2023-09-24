@@ -7,29 +7,29 @@
 namespace System {
 struct DateTime;
 }
-namespace Mono::Security {
-class ASN1;
+namespace System::Security::Cryptography {
+class DSA;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Security::Cryptography {
-class RSA;
-}
-namespace Mono::Security::X509 {
-class X509ExtensionCollection;
+namespace Mono::Security {
+class ASN1;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Security::Cryptography {
-class DSA;
+class RSA;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace Mono::Security::X509 {
+class X509ExtensionCollection;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -261,8 +261,7 @@ static ::StringW __get_encoding_error() ;
 /// @brief Method Parse addr 0x228c664 size 0x908 virtual false final false
  void Parse(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X509Certificate(::ArrayW<uint8_t> data) ;
+static Mono::Security::X509::X509Certificate New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x22824dc size 0x194 virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;

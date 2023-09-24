@@ -5,24 +5,24 @@
 namespace GlobalNamespace {
 class EditAvatarViewController;
 }
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__EditAvatarViewController__FinishAction;
-}
-namespace GlobalNamespace {
-class AvatarDataModel;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType;
 }
 namespace GlobalNamespace {
+class AvatarDataModel;
+}
+namespace GlobalNamespace {
 class EditAvatarFlowCoordinator;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace GlobalNamespace {
+struct GlobalNamespace__EditAvatarViewController__FinishAction;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -121,8 +121,7 @@ constexpr GlobalNamespace::GlobalNamespace__EditAvatarFlowCoordinator__EditAvata
 /// @brief Method CreateEditAvatarEventData addr 0x20b0df4 size 0x278 virtual false final false
  System::Collections::Generic::Dictionary_2<::StringW,::StringW> CreateEditAvatarEventData() ;
 
-// Ctor Parameters []
-explicit EditAvatarAnalytics() ;
+static GlobalNamespace::EditAvatarAnalytics New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b1234 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,8 +2,8 @@
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__TextSlider_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "HMUI/zzzz__TextSlider_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 //  Writing Method size for method: HMUI::RangeValuesTextSlider.get_minValue
 template<>
@@ -482,8 +482,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HMUI::RangeValuesTextSlider::RangeValuesTextSlider()  : HMUI::TextSlider(THROW_UNLESS(::il2cpp_utils::New<RangeValuesTextSlider>())) {}
+ HMUI::RangeValuesTextSlider HMUI::RangeValuesTextSlider::New_ctor()  {
+HMUI::RangeValuesTextSlider o{THROW_UNLESS(::il2cpp_utils::New<HMUI::RangeValuesTextSlider>())};
+return o;
+}
  void HMUI::RangeValuesTextSlider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::RangeValuesTextSlider>::get(),

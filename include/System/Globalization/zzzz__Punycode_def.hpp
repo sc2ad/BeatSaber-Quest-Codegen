@@ -47,8 +47,7 @@ constexpr explicit Punycode(void* ptr) noexcept : System::Globalization::Bootstr
 
 // Methods
 
-// Ctor Parameters []
-explicit Punycode() ;
+static System::Globalization::Punycode New_ctor() ;
 
 /// @brief Method .ctor addr 0x240a068 size 0x40 virtual false final false
  void _ctor() ;

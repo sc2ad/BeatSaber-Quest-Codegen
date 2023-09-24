@@ -6,50 +6,56 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-class Event;
+namespace UnityEngine::UIElements {
+class PanelSettings;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate;
 }
 namespace UnityEngine::UIElements {
 class Panel;
 }
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+class IPanel;
 }
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
-class ScriptableObject;
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class DefaultEventSystem;
+class UnityEngine__UIElements__UIElementsRuntimeUtility____c;
 }
 namespace System {
 template<typename T>
-class Action_1;
+struct Nullable_1;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace System {
 template<typename T>
-struct Nullable_1;
+class Action_1;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+class Object;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class DefaultEventSystem;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class PanelSettings;
+class BaseRuntimePanel;
 }
 namespace System {
 template<typename T>
@@ -107,8 +113,7 @@ constexpr explicit UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRunt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility__CreateRuntimePanelDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2c8e92c size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -177,8 +182,7 @@ static System::Comparison_1<UnityEngine::UIElements::Panel> __get___9__46_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIElementsRuntimeUtility____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UIElementsRuntimeUtility____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c8ead0 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,23 +3,23 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9FieldID;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9FieldID;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -93,26 +93,22 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_fieldIdentifier() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }]
-explicit X9Curve(Org::BouncyCastle::Math::EC::ECCurve curve) ;
+static Org::BouncyCastle::Asn1::X9::X9Curve New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve) ;
 
 /// @brief Method .ctor addr 0x1124d04 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve) ;
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X9Curve(Org::BouncyCastle::Math::EC::ECCurve curve, ::ArrayW<uint8_t> seed) ;
+static Org::BouncyCastle::Asn1::X9::X9Curve New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, ::ArrayW<uint8_t> seed) ;
 
 /// @brief Method .ctor addr 0x1124d0c size 0x17c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, ::ArrayW<uint8_t> seed) ;
 
-// Ctor Parameters [CppParam { name: "fieldID", ty: "Org::BouncyCastle::Asn1::X9::X9FieldID", modifiers: "", def_value: None }, CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit X9Curve(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::X9Curve New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1124e88 size 0x10 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "fieldID", ty: "Org::BouncyCastle::Asn1::X9::X9FieldID", modifiers: "", def_value: None }, CppParam { name: "order", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "cofactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit X9Curve(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::X9Curve New_ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1124e98 size 0x75c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X9::X9FieldID fieldID, Org::BouncyCastle::Math::BigInteger order, Org::BouncyCastle::Math::BigInteger cofactor, Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -15,7 +15,7 @@ class EnabledViewStateTransition;
 // Type: ::EnabledViewStateTransition
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10129)), TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 891 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5544)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5544), inst: 891 }), TypeDefinitionIndex(TypeDefinitionIndex(10129))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5552))
 // CS Name: EnabledViewStateTransition
 class CORDL_TYPE EnabledViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::Behaviour> {
@@ -107,8 +107,7 @@ constexpr GlobalNamespace::EnabledTransitionSO __get__transition() const;
 /// @brief Method SetSelectedAndHighlightedState addr 0x2129048 size 0x28 virtual true final false
  void SetSelectedAndHighlightedState() ;
 
-// Ctor Parameters []
-explicit EnabledViewStateTransition() ;
+static GlobalNamespace::EnabledViewStateTransition New_ctor() ;
 
 /// @brief Method .ctor addr 0x2129070 size 0x48 virtual false final false
  void _ctor() ;

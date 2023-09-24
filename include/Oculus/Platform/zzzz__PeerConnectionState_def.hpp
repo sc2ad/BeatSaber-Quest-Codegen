@@ -58,6 +58,8 @@ constexpr operator __PeerConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__PeerConnectionState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

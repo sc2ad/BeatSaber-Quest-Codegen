@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLobbyCenterScreenLayoutAnimator_def.hpp"
-#include "GlobalNamespace/zzzz__CountdownController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
-#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__CountdownController_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLobbyCenterScreenLayoutAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CenterStageScreenController.get_countdownShown
 template<>
 
@@ -407,8 +407,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, levelGameplaySetupData);
 }
-// Ctor Parameters []
- GlobalNamespace::CenterStageScreenController::CenterStageScreenController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CenterStageScreenController>())) {}
+ GlobalNamespace::CenterStageScreenController GlobalNamespace::CenterStageScreenController::New_ctor()  {
+GlobalNamespace::CenterStageScreenController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CenterStageScreenController>())};
+return o;
+}
  void GlobalNamespace::CenterStageScreenController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CenterStageScreenController>::get(),

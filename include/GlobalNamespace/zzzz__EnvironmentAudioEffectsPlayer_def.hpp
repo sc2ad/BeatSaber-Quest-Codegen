@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class AudioSource;
+class AudioClip;
 }
 namespace UnityEngine {
-class AudioClip;
+class AudioSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,8 +74,7 @@ constexpr UnityEngine::AudioSource __get__audioSource() const;
 /// @brief Method PlayEffect addr 0x20bad4c size 0x64 virtual false final false
  void PlayEffect(UnityEngine::AudioClip clip, float_t volume) ;
 
-// Ctor Parameters []
-explicit EnvironmentAudioEffectsPlayer() ;
+static GlobalNamespace::EnvironmentAudioEffectsPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x20badb0 size 0x8 virtual false final false
  void _ctor() ;

@@ -30,8 +30,10 @@ constexpr void Oculus::Platform::Models::CloudStorageConflictMetadata::__set_Rem
 constexpr Oculus::Platform::Models::CloudStorageMetadata Oculus::Platform::Models::CloudStorageConflictMetadata::__get_Remote() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::CloudStorageMetadata, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::CloudStorageConflictMetadata::CloudStorageConflictMetadata(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CloudStorageConflictMetadata>(o))) {}
+ Oculus::Platform::Models::CloudStorageConflictMetadata Oculus::Platform::Models::CloudStorageConflictMetadata::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::CloudStorageConflictMetadata o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::CloudStorageConflictMetadata>(o))};
+return o;
+}
  void Oculus::Platform::Models::CloudStorageConflictMetadata::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::CloudStorageConflictMetadata>::get(),

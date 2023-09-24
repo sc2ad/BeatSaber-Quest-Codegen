@@ -3,8 +3,11 @@
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System {
+struct DateTime;
+}
 namespace Org::BouncyCastle::Ocsp {
-class RespID;
+class SingleResp;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
@@ -13,10 +16,7 @@ namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponseData;
 }
 namespace Org::BouncyCastle::Ocsp {
-class SingleResp;
-}
-namespace System {
-struct DateTime;
+class RespID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::ResponseData __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "Org::BouncyCastle::Asn1::Ocsp::ResponseData", modifiers: "", def_value: None }]
-explicit RespData(Org::BouncyCastle::Asn1::Ocsp::ResponseData data) ;
+static Org::BouncyCastle::Ocsp::RespData New_ctor(Org::BouncyCastle::Asn1::Ocsp::ResponseData data) ;
 
 /// @brief Method .ctor addr 0x10101d8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::ResponseData data) ;

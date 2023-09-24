@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ExternalCamerasManager_def.hpp"
-#include "GlobalNamespace/zzzz__OculusMRCManager_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__OculusMRCManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ExternalCamerasManager.OnEnable
 template<>
@@ -117,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(const_cast<void*>(instance), ___internal_method, mainCameraGameObject);
 }
-// Ctor Parameters []
- GlobalNamespace::ExternalCamerasManager::ExternalCamerasManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ExternalCamerasManager>())) {}
+ GlobalNamespace::ExternalCamerasManager GlobalNamespace::ExternalCamerasManager::New_ctor()  {
+GlobalNamespace::ExternalCamerasManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ExternalCamerasManager>())};
+return o;
+}
  void GlobalNamespace::ExternalCamerasManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ExternalCamerasManager>::get(),

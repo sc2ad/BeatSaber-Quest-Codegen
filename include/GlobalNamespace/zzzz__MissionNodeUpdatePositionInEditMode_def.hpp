@@ -59,8 +59,7 @@ constexpr GlobalNamespace::MissionNodeConnection __get__missionNodeConnection() 
 
 // Methods
 
-// Ctor Parameters []
-explicit MissionNodeUpdatePositionInEditMode() ;
+static GlobalNamespace::MissionNodeUpdatePositionInEditMode New_ctor() ;
 
 /// @brief Method .ctor addr 0x214a634 size 0x8 virtual false final false
  void _ctor() ;

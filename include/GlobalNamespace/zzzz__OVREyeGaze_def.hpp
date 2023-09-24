@@ -6,10 +6,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRPermissionsRequester__Permission;
+struct GlobalNamespace__OVRPlugin__EyeGazesState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVREyeGaze__EyeTrackingMode;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPermissionsRequester__Permission;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVREyeGaze__EyeId;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -17,9 +26,6 @@ struct Quaternion;
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRPlugin__EyeGazesState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +86,8 @@ __Right = 1,
 constexpr operator __GlobalNamespace__OVREyeGaze__EyeId_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVREyeGaze__EyeId_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -150,6 +158,8 @@ __TrackingSpace = 2,
 constexpr operator __GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVREyeGaze__EyeTrackingMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -343,8 +353,7 @@ static int32_t __get__trackingInstanceCount() ;
 /// @brief Method PrepareHeadDirection addr 0x25af554 size 0x284 virtual false final false
  void PrepareHeadDirection() ;
 
-// Ctor Parameters []
-explicit OVREyeGaze() ;
+static GlobalNamespace::OVREyeGaze New_ctor() ;
 
 /// @brief Method .ctor addr 0x25afddc size 0x18 virtual false final false
  void _ctor() ;

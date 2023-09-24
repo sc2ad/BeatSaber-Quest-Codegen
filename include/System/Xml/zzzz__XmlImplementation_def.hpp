@@ -67,14 +67,12 @@ constexpr System::Xml::XmlNameTable __get_nameTable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlImplementation() ;
+static System::Xml::XmlImplementation New_ctor() ;
 
 /// @brief Method .ctor addr 0x26f68c8 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlImplementation(System::Xml::XmlNameTable nt) ;
+static System::Xml::XmlImplementation New_ctor(System::Xml::XmlNameTable nt) ;
 
 /// @brief Method .ctor addr 0x26f69a0 size 0x28 virtual false final false
  void _ctor(System::Xml::XmlNameTable nt) ;

@@ -64,6 +64,8 @@ constexpr operator __SocketFlags_Unwrapped () const noexcept {
 return std::bit_cast<__SocketFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace HoudiniEngineUnity {
 template<typename T>
-class IEquivableWrapperClass_1;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
 class IEquivable_1;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivableWrapperClass_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,8 +73,7 @@ constexpr UnityEngine::Transform __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit Test_Transform(UnityEngine::Transform self) ;
+static HoudiniEngineUnity::Test_Transform New_ctor(UnityEngine::Transform self) ;
 
 /// @brief Method .ctor addr 0x2071fe4 size 0x28 virtual false final false
  void _ctor(UnityEngine::Transform self) ;

@@ -3,6 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
+template<typename T1,typename T2>
+class Tuple_2;
+}
+namespace System {
 struct Guid;
 }
 namespace Mono::Net::Security {
@@ -11,10 +15,6 @@ class MobileTlsProvider;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System {
-template<typename T1,typename T2>
-class Tuple_2;
 }
 // Forward declare root types
 namespace Mono::Net::Security {

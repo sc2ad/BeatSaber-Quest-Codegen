@@ -66,14 +66,12 @@ static uint8_t __get_FEATURE_MODIFICATION_DETECTION() ;
 /// @brief Method FeatureToByteArray addr 0x113d3dc size 0x64 virtual false final false
 static ::ArrayW<uint8_t> FeatureToByteArray(uint8_t feature) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Features(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::Features New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113d440 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "feature", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit Features(bool critical, uint8_t feature) ;
+static Org::BouncyCastle::Bcpg::Sig::Features New_ctor(bool critical, uint8_t feature) ;
 
 /// @brief Method .ctor addr 0x113d488 size 0x90 virtual false final false
  void _ctor(bool critical, uint8_t feature) ;

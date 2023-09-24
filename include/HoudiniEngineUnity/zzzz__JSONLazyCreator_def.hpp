@@ -6,25 +6,25 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class JSONArray;
-}
-namespace HoudiniEngineUnity {
 struct JSONNodeType;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-struct JSONTextMode;
 }
 namespace HoudiniEngineUnity {
 class JSONNode;
 }
 namespace HoudiniEngineUnity {
-class JSONObject;
+struct JSONTextMode;
 }
 namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__JSONNode__Enumerator;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace HoudiniEngineUnity {
+class JSONObject;
+}
+namespace HoudiniEngineUnity {
+class JSONArray;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -116,14 +116,12 @@ constexpr ::StringW __get_m_Key() const;
 /// @brief Method GetEnumerator addr 0x2069a08 size 0x14 virtual true final false
  HoudiniEngineUnity::HoudiniEngineUnity__JSONNode__Enumerator GetEnumerator() ;
 
-// Ctor Parameters [CppParam { name: "aNode", ty: "HoudiniEngineUnity::JSONNode", modifiers: "", def_value: None }]
-explicit JSONLazyCreator(HoudiniEngineUnity::JSONNode aNode) ;
+static HoudiniEngineUnity::JSONLazyCreator New_ctor(HoudiniEngineUnity::JSONNode aNode) ;
 
 /// @brief Method .ctor addr 0x2067568 size 0x28 virtual false final false
  void _ctor(HoudiniEngineUnity::JSONNode aNode) ;
 
-// Ctor Parameters [CppParam { name: "aNode", ty: "HoudiniEngineUnity::JSONNode", modifiers: "", def_value: None }, CppParam { name: "aKey", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JSONLazyCreator(HoudiniEngineUnity::JSONNode aNode, ::StringW aKey) ;
+static HoudiniEngineUnity::JSONLazyCreator New_ctor(HoudiniEngineUnity::JSONNode aNode, ::StringW aKey) ;
 
 /// @brief Method .ctor addr 0x20680d8 size 0x2c virtual false final false
  void _ctor(HoudiniEngineUnity::JSONNode aNode, ::StringW aKey) ;

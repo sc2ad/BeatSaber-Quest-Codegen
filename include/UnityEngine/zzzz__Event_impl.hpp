@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Event_def.hpp"
-#include "UnityEngine/zzzz__EventType_def.hpp"
 #include "UnityEngine/zzzz__PointerType_def.hpp"
+#include "UnityEngine/zzzz__EventType_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::Event._ctor
 template<>
 
@@ -839,8 +839,10 @@ return ::cordl_internals::getStaticField<UnityEngine::Event, "s_Current", ::il2c
  UnityEngine::Event UnityEngine::Event::__get_s_MasterEvent()  {
 return ::cordl_internals::getStaticField<UnityEngine::Event, "s_MasterEvent", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Event>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Event::Event()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Event>())) {}
+ UnityEngine::Event UnityEngine::Event::New_ctor()  {
+UnityEngine::Event o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Event>())};
+return o;
+}
  void UnityEngine::Event::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Event>::get(),
@@ -850,8 +852,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "displayIndex", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Event::Event(int32_t displayIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Event>(displayIndex))) {}
+ UnityEngine::Event UnityEngine::Event::New_ctor(int32_t displayIndex)  {
+UnityEngine::Event o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Event>(displayIndex))};
+return o;
+}
  void UnityEngine::Event::_ctor(int32_t displayIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Event>::get(),

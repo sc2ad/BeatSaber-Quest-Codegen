@@ -5,20 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapDataCallbackWrapper;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
 }
 namespace UnityEngine {
 class GameObject;
@@ -107,8 +110,7 @@ constexpr bool __get__isActive_k__BackingField() const;
 /// @brief Method SetActive addr 0x225bf90 size 0x7c virtual false final false
  void SetActive(bool active) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList() ;
+static GlobalNamespace::GlobalNamespace__GameObjectIntSwitchEventEffect__GameObjectValueList New_ctor() ;
 
 /// @brief Method .ctor addr 0x225c028 size 0x8 virtual false final false
  void _ctor() ;
@@ -209,8 +211,7 @@ constexpr int32_t __get__previousActiveIdx() const;
 /// @brief Method HandleBasicBeatmapEventData addr 0x225be4c size 0x144 virtual false final false
  void HandleBasicBeatmapEventData(GlobalNamespace::BasicBeatmapEventData data) ;
 
-// Ctor Parameters []
-explicit GameObjectIntSwitchEventEffect() ;
+static GlobalNamespace::GameObjectIntSwitchEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x225c00c size 0x8 virtual false final false
  void _ctor() ;

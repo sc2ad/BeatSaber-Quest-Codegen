@@ -92,8 +92,7 @@ constexpr int64_t __get_mSequenceNumber() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "epoch", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipher", modifiers: "", def_value: None }]
-explicit DtlsEpoch(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsEpoch New_ctor(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;
 
 /// @brief Method .ctor addr 0xede27c size 0x134 virtual false final false
  void _ctor(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;

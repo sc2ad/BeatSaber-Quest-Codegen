@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityOpus/zzzz__Library_def.hpp"
-#include "UnityOpus/zzzz__ErrorCode_def.hpp"
-#include "UnityOpus/zzzz__OpusSignal_def.hpp"
 #include "UnityOpus/zzzz__NumChannels_def.hpp"
-#include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
+#include "UnityOpus/zzzz__ErrorCode_def.hpp"
 #include "UnityOpus/zzzz__OpusApplication_def.hpp"
+#include "UnityOpus/zzzz__OpusSignal_def.hpp"
+#include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
 //  Writing Method size for method: UnityOpus::Library.OpusEncoderCreate
 template<>
 
@@ -334,8 +334,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, pcm, frameSize, channels, softclipMem);
 }
-// Ctor Parameters []
- UnityOpus::Library::Library()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Library>())) {}
+ UnityOpus::Library UnityOpus::Library::New_ctor()  {
+UnityOpus::Library o{THROW_UNLESS(::il2cpp_utils::New<UnityOpus::Library>())};
+return o;
+}
  void UnityOpus::Library::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityOpus::Library>::get(),

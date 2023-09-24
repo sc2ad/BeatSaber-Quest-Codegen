@@ -65,8 +65,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Pkcs5S1ParametersGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe77e98 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

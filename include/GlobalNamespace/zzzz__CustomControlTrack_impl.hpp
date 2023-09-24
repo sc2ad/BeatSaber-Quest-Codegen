@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::CustomControlTrack::CustomControlTrack()  : UnityEngine::Timeline::ControlTrack(THROW_UNLESS(::il2cpp_utils::New<CustomControlTrack>())) {}
+ GlobalNamespace::CustomControlTrack GlobalNamespace::CustomControlTrack::New_ctor()  {
+GlobalNamespace::CustomControlTrack o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomControlTrack>())};
+return o;
+}
  void GlobalNamespace::CustomControlTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomControlTrack>::get(),

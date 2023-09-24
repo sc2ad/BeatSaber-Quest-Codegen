@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::BoolSignal::BoolSignal()  : GlobalNamespace::GenericSignal_1<bool>(THROW_UNLESS(::il2cpp_utils::New<BoolSignal>())) {}
+ GlobalNamespace::BoolSignal GlobalNamespace::BoolSignal::New_ctor()  {
+GlobalNamespace::BoolSignal o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BoolSignal>())};
+return o;
+}
  void GlobalNamespace::BoolSignal::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BoolSignal>::get(),

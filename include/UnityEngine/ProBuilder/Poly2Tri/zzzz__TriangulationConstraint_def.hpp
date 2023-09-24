@@ -65,8 +65,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint __get_Q() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TriangulationConstraint() ;
+static UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a0a10 size 0x8 virtual false final false
  void _ctor() ;

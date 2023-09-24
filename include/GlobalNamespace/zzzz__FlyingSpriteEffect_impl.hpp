@@ -3,12 +3,13 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FlyingSpriteEffect.InitAndPresent
 template<>
 
@@ -96,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- GlobalNamespace::FlyingSpriteEffect::FlyingSpriteEffect()  : GlobalNamespace::FlyingObjectEffect(THROW_UNLESS(::il2cpp_utils::New<FlyingSpriteEffect>())) {}
+ GlobalNamespace::FlyingSpriteEffect GlobalNamespace::FlyingSpriteEffect::New_ctor()  {
+GlobalNamespace::FlyingSpriteEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FlyingSpriteEffect>())};
+return o;
+}
  void GlobalNamespace::FlyingSpriteEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FlyingSpriteEffect>::get(),
@@ -124,8 +127,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool::GlobalNamespace__FlyingSpriteEffect__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::FlyingSpriteEffect>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FlyingSpriteEffect__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FlyingSpriteEffect__Pool>::get(),

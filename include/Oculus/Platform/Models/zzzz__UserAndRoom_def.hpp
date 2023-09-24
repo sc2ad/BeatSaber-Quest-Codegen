@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Oculus::Platform::Models {
-class User;
+class Room;
 }
 namespace Oculus::Platform::Models {
-class Room;
+class User;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -75,8 +75,7 @@ constexpr Oculus::Platform::Models::User __get_User() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UserAndRoom(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::UserAndRoom New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x25a3540 size 0x14c virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

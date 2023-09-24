@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VFXAnimationEvents_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__VFXAnimationEvents_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent.get_name
@@ -85,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::ParticleSystem>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent>())) {}
+ GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent::New_ctor()  {
+GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent>::get(),
@@ -429,8 +432,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VFXAnimationEvents::VFXAnimationEvents()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VFXAnimationEvents>())) {}
+ GlobalNamespace::VFXAnimationEvents GlobalNamespace::VFXAnimationEvents::New_ctor()  {
+GlobalNamespace::VFXAnimationEvents o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VFXAnimationEvents>())};
+return o;
+}
  void GlobalNamespace::VFXAnimationEvents::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VFXAnimationEvents>::get(),

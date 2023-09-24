@@ -1,12 +1,13 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventListener_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventListener_def.hpp"
 #include "System/zzzz__IObservable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState._ctor
 template<>
@@ -54,8 +55,10 @@ constexpr void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__Low
 constexpr System::Action_2<UnityEngine::InputSystem::LowLevel::InputEventPtr,UnityEngine::InputSystem::InputDevice> UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState::__get_onEventDelegate() const {
 return ::cordl_internals::getInstanceField<System::Action_2<UnityEngine::InputSystem::LowLevel::InputEventPtr,UnityEngine::InputSystem::InputDevice>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState>())) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__ObserverState>::get(),
@@ -127,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver>())) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputEventListener__DisposableObserver>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFreeText_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::PkiFreeText.GetInstance
 template<>
@@ -182,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::PkiFreeText, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiFreeText::PkiFreeText(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiFreeText>(seq))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiFreeText Org::BouncyCastle::Asn1::Cmp::PkiFreeText::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cmp::PkiFreeText o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiFreeText>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiFreeText::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiFreeText>::get(),
@@ -193,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::PkiFreeText::PkiFreeText(Org::BouncyCastle::Asn1::DerUtf8String p)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiFreeText>(p))) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiFreeText Org::BouncyCastle::Asn1::Cmp::PkiFreeText::New_ctor(Org::BouncyCastle::Asn1::DerUtf8String p)  {
+Org::BouncyCastle::Asn1::Cmp::PkiFreeText o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiFreeText>(p))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiFreeText::_ctor(Org::BouncyCastle::Asn1::DerUtf8String p)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiFreeText>::get(),

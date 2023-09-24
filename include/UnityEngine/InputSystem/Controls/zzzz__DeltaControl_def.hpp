@@ -115,8 +115,7 @@ constexpr UnityEngine::InputSystem::Controls::AxisControl __get__right_k__Backin
 /// @brief Method FinishSetup addr 0x29779e8 size 0xf8 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit DeltaControl() ;
+static UnityEngine::InputSystem::Controls::DeltaControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977b80 size 0x4 virtual false final false
  void _ctor() ;

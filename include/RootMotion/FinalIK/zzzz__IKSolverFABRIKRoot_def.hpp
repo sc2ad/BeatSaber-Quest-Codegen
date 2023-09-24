@@ -10,13 +10,13 @@ namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class FABRIKChain;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -133,8 +133,7 @@ constexpr UnityEngine::Vector3 __get_rootDefaultPosition() const;
 /// @brief Method GetCentroid addr 0x11da9c0 size 0x228 virtual false final false
  UnityEngine::Vector3 GetCentroid() ;
 
-// Ctor Parameters []
-explicit IKSolverFABRIKRoot() ;
+static RootMotion::FinalIK::IKSolverFABRIKRoot New_ctor() ;
 
 /// @brief Method .ctor addr 0x11dae44 size 0x70 virtual false final false
  void _ctor() ;

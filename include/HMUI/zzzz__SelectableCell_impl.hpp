@@ -2,16 +2,17 @@
 #include "HMUI/zzzz__Interactable_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
-#include "GlobalNamespace/zzzz__Signal_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "HMUI/zzzz__SelectableCell_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__SelectableCell__TransitionType::HMUI__SelectableCell__TransitionType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -584,8 +585,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- HMUI::SelectableCell::SelectableCell()  : HMUI::Interactable(THROW_UNLESS(::il2cpp_utils::New<SelectableCell>())) {}
+ HMUI::SelectableCell HMUI::SelectableCell::New_ctor()  {
+HMUI::SelectableCell o{THROW_UNLESS(::il2cpp_utils::New<HMUI::SelectableCell>())};
+return o;
+}
  void HMUI::SelectableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::SelectableCell>::get(),

@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IRsa;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IRsa;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -76,14 +76,12 @@ constexpr Org::BouncyCastle::Crypto::IRsa __get_core() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RsaEngine() ;
+static Org::BouncyCastle::Crypto::Engines::RsaEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe54be8 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }]
-explicit RsaEngine(Org::BouncyCastle::Crypto::IRsa rsa) ;
+static Org::BouncyCastle::Crypto::Engines::RsaEngine New_ctor(Org::BouncyCastle::Crypto::IRsa rsa) ;
 
 /// @brief Method .ctor addr 0xe54c54 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IRsa rsa) ;

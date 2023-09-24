@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IK_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FABRIKRoot_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFABRIKRoot_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFABRIKRoot_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::FABRIKRoot.OpenUserManual
 template<>
 
@@ -156,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<RootMotion::FinalIK::IKSolver, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::FABRIKRoot::FABRIKRoot()  : RootMotion::FinalIK::IK(THROW_UNLESS(::il2cpp_utils::New<FABRIKRoot>())) {}
+ RootMotion::FinalIK::FABRIKRoot RootMotion::FinalIK::FABRIKRoot::New_ctor()  {
+RootMotion::FinalIK::FABRIKRoot o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::FABRIKRoot>())};
+return o;
+}
  void RootMotion::FinalIK::FABRIKRoot::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::FABRIKRoot>::get(),

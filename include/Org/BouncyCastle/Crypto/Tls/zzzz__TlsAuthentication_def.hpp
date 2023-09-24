@@ -1,10 +1,10 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;

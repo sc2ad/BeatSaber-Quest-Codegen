@@ -5,25 +5,34 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace BGNet::Core {
-class ITaskUtility;
-}
-namespace System::Security::Cryptography {
-class AesCryptoServiceProvider;
+namespace GlobalNamespace {
+class GlobalNamespace__EncryptionUtility__IEncryptionState;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EncryptionUtility____c__DisplayClass18_0;
+}
+namespace System::Security::Cryptography {
+class AesCryptoServiceProvider;
+}
+namespace BGNet::Core {
+class ITaskUtility;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EncryptionUtility__EncryptionState;
+}
+namespace System::Collections::Concurrent {
+template<typename T>
+class ConcurrentQueue_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
-}
-namespace System::Collections::Concurrent {
-template<typename T>
-class ConcurrentQueue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -226,8 +235,7 @@ constexpr System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::
 /// @brief Method GetNextSentSequenceNum addr 0xda7ee8 size 0xc virtual false final false
  uint32_t GetNextSentSequenceNum() ;
 
-// Ctor Parameters [CppParam { name: "preMasterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "serverSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "clientSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "isClient", ty: "bool", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EncryptionUtility__EncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
+static GlobalNamespace::GlobalNamespace__EncryptionUtility__EncryptionState New_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
 
 /// @brief Method .ctor addr 0xda7220 size 0x260 virtual false final false
  void _ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) ;
@@ -317,8 +325,7 @@ constexpr bool __get_isClient() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EncryptionUtility____c__DisplayClass18_0() ;
+static GlobalNamespace::GlobalNamespace__EncryptionUtility____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0xda7480 size 0x8 virtual false final false
  void _ctor() ;

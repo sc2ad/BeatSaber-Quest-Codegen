@@ -2,21 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+struct NoteJumpDurationTypeSettings;
+}
+namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
+struct EnvironmentEffectsFilterPreset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -279,14 +279,12 @@ constexpr GlobalNamespace::EnvironmentEffectsFilterPreset __get__environmentEffe
 /// @brief Method get_environmentEffectsFilterExpertPlusPreset addr 0x2226ffc size 0x8 virtual false final false
  GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset() ;
 
-// Ctor Parameters []
-explicit PlayerSpecificSettings() ;
+static GlobalNamespace::PlayerSpecificSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2225e48 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sfxVolume", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "reduceDebris", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noTextsAndHuds", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "noFailEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saberTrailIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpDurationTypeSettings", ty: "GlobalNamespace::NoteJumpDurationTypeSettings", modifiers: "", def_value: None }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hideNoteSpawnEffect", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcsHapticFeedback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "arcsVisible", ty: "GlobalNamespace::ArcVisibilityType", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterDefaultPreset", ty: "GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }, CppParam { name: "environmentEffectsFilterExpertPlusPreset", ty: "GlobalNamespace::EnvironmentEffectsFilterPreset", modifiers: "", def_value: None }]
-explicit PlayerSpecificSettings(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, GlobalNamespace::ArcVisibilityType arcsVisible, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;
+static GlobalNamespace::PlayerSpecificSettings New_ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, GlobalNamespace::ArcVisibilityType arcsVisible, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;
 
 /// @brief Method .ctor addr 0x2225a2c size 0x120 virtual false final false
  void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud, bool autoRestart, float_t saberTrailIntensity, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration, float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, GlobalNamespace::ArcVisibilityType arcsVisible, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) ;

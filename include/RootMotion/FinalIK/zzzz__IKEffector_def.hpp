@@ -7,19 +7,19 @@
 #include <cmath>
 #include <cstdint>
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+class RootMotion__FinalIK__IKSolver__Node;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Node;
+class IKSolverFullBody;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
@@ -282,14 +282,12 @@ constexpr ::ArrayW<int32_t> __get_childNodeIndexes() const;
 /// @brief Method PinToBone addr 0x11ce378 size 0x84 virtual false final false
  void PinToBone(float_t positionWeight, float_t rotationWeight) ;
 
-// Ctor Parameters []
-explicit IKEffector() ;
+static RootMotion::FinalIK::IKEffector New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ce3fc size 0x1a0 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "childBones", ty: "::ArrayW<UnityEngine::Transform>", modifiers: "", def_value: None }]
-explicit IKEffector(UnityEngine::Transform bone, ::ArrayW<UnityEngine::Transform> childBones) ;
+static RootMotion::FinalIK::IKEffector New_ctor(UnityEngine::Transform bone, ::ArrayW<UnityEngine::Transform> childBones) ;
 
 /// @brief Method .ctor addr 0x11ce59c size 0x1bc virtual false final false
  void _ctor(UnityEngine::Transform bone, ::ArrayW<UnityEngine::Transform> childBones) ;

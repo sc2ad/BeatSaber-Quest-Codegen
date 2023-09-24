@@ -59,8 +59,7 @@ constexpr explicit XmlNameTable(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW Add(::StringW array) ;
 
-// Ctor Parameters []
-explicit XmlNameTable() ;
+static System::Xml::XmlNameTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x27143e0 size 0x8 virtual false final false
  void _ctor() ;

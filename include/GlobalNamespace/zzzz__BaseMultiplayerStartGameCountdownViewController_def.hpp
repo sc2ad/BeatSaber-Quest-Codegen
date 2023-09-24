@@ -1,27 +1,27 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace HMUI {
-class ToggleBinder;
-}
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
 class ModifiersSelectionView;
 }
-namespace GlobalNamespace {
-class BeatmapSelectionView;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class BeatmapSelectionView;
+}
+namespace GlobalNamespace {
 class ILobbyPlayerData;
+}
+namespace HMUI {
+class ToggleBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -123,8 +123,7 @@ constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 /// @brief Method OnDestroy addr 0x2175a44 size 0x1c virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit BaseMultiplayerStartGameCountdownViewController() ;
+static GlobalNamespace::BaseMultiplayerStartGameCountdownViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2175a60 size 0x68 virtual false final false
  void _ctor() ;

@@ -61,8 +61,7 @@ constexpr explicit ColorSO(void* ptr) noexcept : GlobalNamespace::PersistentScri
 /// @brief Method op_Implicit addr 0x11a35b4 size 0x8c virtual false final false
 static UnityEngine::Color op_Implicit_UnityEngine__Color(GlobalNamespace::ColorSO c) ;
 
-// Ctor Parameters []
-explicit ColorSO() ;
+static GlobalNamespace::ColorSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a3640 size 0x8 virtual false final false
  void _ctor() ;

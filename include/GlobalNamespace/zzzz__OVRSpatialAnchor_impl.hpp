@@ -3,23 +3,22 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpaceUser_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-#include "System/zzzz__ValueTuple_2_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpaceUser_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpaceQuery_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 // Ctor Parameters [CppParam { name: "Anchor", ty: "GlobalNamespace::OVRSpatialAnchor", modifiers: "", def_value: Some("csnull") }, CppParam { name: "Delegate", ty: "System::Action_2<GlobalNamespace::OVRSpatialAnchor,bool>", modifiers: "", def_value: Some("csnull") }]
@@ -739,8 +738,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__OVRSp
  System::Comparison_1<GlobalNamespace::OVRSpaceUser> GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c::__get___9__34_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<GlobalNamespace::OVRSpaceUser>, "<>9__34_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c::GlobalNamespace__OVRSpatialAnchor____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSpatialAnchor____c>())) {}
+ GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSpatialAnchor____c>::get(),
@@ -2190,8 +2191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, requestId, result);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRSpatialAnchor::OVRSpatialAnchor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRSpatialAnchor>())) {}
+ GlobalNamespace::OVRSpatialAnchor GlobalNamespace::OVRSpatialAnchor::New_ctor()  {
+GlobalNamespace::OVRSpatialAnchor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSpatialAnchor>())};
+return o;
+}
  void GlobalNamespace::OVRSpatialAnchor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSpatialAnchor>::get(),

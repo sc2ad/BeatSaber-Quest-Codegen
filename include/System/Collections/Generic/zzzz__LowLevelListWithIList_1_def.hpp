@@ -4,8 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -13,15 +14,18 @@ class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class ICollection_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+struct System__Collections__Generic__LowLevelListWithIList_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -224,14 +228,12 @@ constexpr explicit LowLevelListWithIList_1(void* ptr) noexcept : System::Collect
 
 // Methods
 
-// Ctor Parameters []
-explicit LowLevelListWithIList_1() ;
+static System::Collections::Generic::LowLevelListWithIList_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LowLevelListWithIList_1(int32_t capacity) ;
+static System::Collections::Generic::LowLevelListWithIList_1<T> New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;

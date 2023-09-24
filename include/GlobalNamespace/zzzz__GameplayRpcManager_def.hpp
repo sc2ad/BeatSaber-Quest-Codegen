@@ -18,57 +18,105 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace System {
-class IDisposable;
+class NoteMissInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettingsNetSerializable;
+class GlobalNamespace__GameplayRpcManager__SetPlayerDidConnectLateRpc;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+class GlobalNamespace__GameplayRpcManager__SetGameplaySongReadyRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__ReturnToMenuRpc;
+}
+namespace GlobalNamespace {
+class NoteCutInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__SetGameplaySceneReadyRpc;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-class Action_4;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
 namespace GlobalNamespace {
-class NoteSpawnInfoNetSerializable;
+class GlobalNamespace__GameplayRpcManager__SetSongStartTimeRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__SliderSpawnedRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__NoteCutRpc;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-template<typename TType>
-class RpcHandler_1;
+struct GlobalNamespace__GameplayRpcManager__RpcType;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__NoteMissedRpc;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__LevelFinishedRpc;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
+}
+namespace GlobalNamespace {
+class NoteSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsNetSerializable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4>
+class Action_4;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__NoteSpawnedRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__GetGameplaySongReadyRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__ObstacleSpawnedRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__GetGameplaySceneReadyRpc;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayRpcManager__RequestReturnToMenuRpc;
+}
+namespace GlobalNamespace {
+template<typename TType>
+class RpcHandler_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -185,6 +233,8 @@ constexpr operator __GlobalNamespace__GameplayRpcManager__RpcType_Unwrapped () c
 return std::bit_cast<__GlobalNamespace__GameplayRpcManager__RpcType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 
@@ -246,7 +296,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::SetGameplaySceneSyncFinishedRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12865)), TypeDefinitionIndex(TypeDefinitionIndex(12877)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4762 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4762 }), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12684))
 // CS Name: GameplayRpcManager::SetGameplaySceneSyncFinishedRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc : public GlobalNamespace::RemoteProcedureCall_2<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable,::StringW> {
@@ -285,8 +335,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__SetGameplaySceneSyncFini
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae8ec size 0x48 virtual false final false
  void _ctor() ;
@@ -298,7 +347,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SetGameplaySceneReadyRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12866)), TypeDefinitionIndex(TypeDefinitionIndex(12876)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 3679 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 3679 }), TypeDefinitionIndex(TypeDefinitionIndex(12866))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12685))
 // CS Name: GameplayRpcManager::SetGameplaySceneReadyRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__SetGameplaySceneReadyRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::PlayerSpecificSettingsNetSerializable> {
@@ -337,8 +386,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__SetGameplaySceneReadyRpc
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__SetGameplaySceneReadyRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__SetGameplaySceneReadyRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae934 size 0x48 virtual false final false
  void _ctor() ;
@@ -389,8 +437,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__GetGameplaySceneReadyRpc
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__GetGameplaySceneReadyRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__GetGameplaySceneReadyRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae97c size 0x8 virtual false final false
  void _ctor() ;
@@ -402,7 +449,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SetPlayerDidConnectLateRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12865)), TypeDefinitionIndex(TypeDefinitionIndex(12878)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12878), inst: 637 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12878)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12878), inst: 637 }), TypeDefinitionIndex(TypeDefinitionIndex(12865))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12687))
 // CS Name: GameplayRpcManager::SetPlayerDidConnectLateRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__SetPlayerDidConnectLateRpc : public GlobalNamespace::RemoteProcedureCall_3<::StringW,GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable,::StringW> {
@@ -441,8 +488,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__SetPlayerDidConnectLateR
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__SetPlayerDidConnectLateRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__SetPlayerDidConnectLateRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae984 size 0x48 virtual false final false
  void _ctor() ;
@@ -493,8 +539,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__SetGameplaySongReadyRpc(
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__SetGameplaySongReadyRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__SetGameplaySongReadyRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae9cc size 0x8 virtual false final false
  void _ctor() ;
@@ -545,8 +590,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__GetGameplaySongReadyRpc(
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__GetGameplaySongReadyRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__GetGameplaySongReadyRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae9d4 size 0x8 virtual false final false
  void _ctor() ;
@@ -558,7 +602,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SetSongStartTimeRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(12876))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12876)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 374 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12690))
 // CS Name: GameplayRpcManager::SetSongStartTimeRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__SetSongStartTimeRpc : public GlobalNamespace::RemoteProcedureCall_1<float_t> {
@@ -597,8 +641,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__SetSongStartTimeRpc(void
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__SetSongStartTimeRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__SetSongStartTimeRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdae9dc size 0x48 virtual false final false
  void _ctor() ;
@@ -610,7 +653,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::NoteSpawnedRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15117)), TypeDefinitionIndex(TypeDefinitionIndex(12877)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4765 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(15117)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4765 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12691))
 // CS Name: GameplayRpcManager::NoteSpawnedRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__NoteSpawnedRpc : public GlobalNamespace::RemoteProcedureCall_2<float_t,GlobalNamespace::NoteSpawnInfoNetSerializable> {
@@ -649,8 +692,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__NoteSpawnedRpc(void* ptr
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__NoteSpawnedRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__NoteSpawnedRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaea24 size 0x48 virtual false final false
  void _ctor() ;
@@ -662,7 +704,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::ObstacleSpawnedRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4766 }), TypeDefinitionIndex(TypeDefinitionIndex(15118)), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(15118)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4766 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12692))
 // CS Name: GameplayRpcManager::ObstacleSpawnedRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__ObstacleSpawnedRpc : public GlobalNamespace::RemoteProcedureCall_2<float_t,GlobalNamespace::ObstacleSpawnInfoNetSerializable> {
@@ -701,8 +743,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__ObstacleSpawnedRpc(void*
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__ObstacleSpawnedRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__ObstacleSpawnedRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaea6c size 0x48 virtual false final false
  void _ctor() ;
@@ -714,7 +755,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::SliderSpawnedRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(15135)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4767 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4767 }), TypeDefinitionIndex(TypeDefinitionIndex(15135)), TypeDefinitionIndex(TypeDefinitionIndex(12877))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12693))
 // CS Name: GameplayRpcManager::SliderSpawnedRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__SliderSpawnedRpc : public GlobalNamespace::RemoteProcedureCall_2<float_t,GlobalNamespace::SliderSpawnInfoNetSerializable> {
@@ -753,8 +794,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__SliderSpawnedRpc(void* p
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__SliderSpawnedRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__SliderSpawnedRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaeab4 size 0x48 virtual false final false
  void _ctor() ;
@@ -766,7 +806,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::NoteCutRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(15115)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4763 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4763 }), TypeDefinitionIndex(TypeDefinitionIndex(15115))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12694))
 // CS Name: GameplayRpcManager::NoteCutRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__NoteCutRpc : public GlobalNamespace::RemoteProcedureCall_2<float_t,GlobalNamespace::NoteCutInfoNetSerializable> {
@@ -805,8 +845,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__NoteCutRpc(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__NoteCutRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__NoteCutRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaeafc size 0x48 virtual false final false
  void _ctor() ;
@@ -818,7 +857,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::NoteMissedRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4764 }), TypeDefinitionIndex(TypeDefinitionIndex(15116))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12877)), TypeDefinitionIndex(TypeDefinitionIndex(15116)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12877), inst: 4764 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12695))
 // CS Name: GameplayRpcManager::NoteMissedRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__NoteMissedRpc : public GlobalNamespace::RemoteProcedureCall_2<float_t,GlobalNamespace::NoteMissInfoNetSerializable> {
@@ -857,8 +896,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__NoteMissedRpc(void* ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__NoteMissedRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__NoteMissedRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaeb44 size 0x48 virtual false final false
  void _ctor() ;
@@ -870,7 +908,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::LevelFinishedRpc
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 342 }), TypeDefinitionIndex(TypeDefinitionIndex(12876)), TypeDefinitionIndex(TypeDefinitionIndex(12819))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12876), inst: 342 }), TypeDefinitionIndex(TypeDefinitionIndex(12876))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12696))
 // CS Name: GameplayRpcManager::LevelFinishedRpc
 class CORDL_TYPE GlobalNamespace__GameplayRpcManager__LevelFinishedRpc : public GlobalNamespace::RemoteProcedureCall_1<GlobalNamespace::MultiplayerLevelCompletionResults> {
@@ -909,8 +947,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__LevelFinishedRpc(void* p
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__LevelFinishedRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__LevelFinishedRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaeb8c size 0x48 virtual false final false
  void _ctor() ;
@@ -961,8 +998,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__ReturnToMenuRpc(void* pt
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__ReturnToMenuRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__ReturnToMenuRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaebd4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1013,8 +1049,7 @@ constexpr explicit GlobalNamespace__GameplayRpcManager__RequestReturnToMenuRpc(v
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayRpcManager__RequestReturnToMenuRpc() ;
+static GlobalNamespace::GlobalNamespace__GameplayRpcManager__RequestReturnToMenuRpc New_ctor() ;
 
 /// @brief Method .ctor addr 0xdaebdc size 0x8 virtual false final false
  void _ctor() ;
@@ -1222,8 +1257,7 @@ constexpr System::Action_1<::StringW> __get_requestReturnToMenuEvent() const;
 /// @brief Method set_enabled addr 0xdac4b4 size 0xc8 virtual true final true
  void set_enabled(bool value) ;
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit GameplayRpcManager(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+static GlobalNamespace::GameplayRpcManager New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0xdac57c size 0x750 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;

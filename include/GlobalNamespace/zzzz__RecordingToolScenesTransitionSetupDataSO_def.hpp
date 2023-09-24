@@ -53,8 +53,7 @@ constexpr explicit RecordingToolScenesTransitionSetupDataSO(void* ptr) noexcept 
 /// @brief Method Init addr 0x21d3abc size 0x8 virtual false final false
  void Init(GlobalNamespace::RecordingToolSceneSetupData recordingToolSceneSetupData) ;
 
-// Ctor Parameters []
-explicit RecordingToolScenesTransitionSetupDataSO() ;
+static GlobalNamespace::RecordingToolScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d3ac4 size 0x8 virtual false final false
  void _ctor() ;

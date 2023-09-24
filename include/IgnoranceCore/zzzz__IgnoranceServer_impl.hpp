@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceServer_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceIncomingPacket_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceConnectionEvent_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceOutgoingPacket_def.hpp"
 #include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"
-#include "IgnoranceCore/zzzz__IgnoranceCommandPacket_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceOutgoingPacket_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceServer_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceServerStats_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceConnectionEvent_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceIncomingPacket_def.hpp"
+#include "IgnoranceCore/zzzz__IgnoranceCommandPacket_def.hpp"
 // Ctor Parameters [CppParam { name: "IsFruityDevice", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "BindAllInterfaces", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Peers", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Verbosity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "UseSsl", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "CertificatePath", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "Certificate", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "PrivateKeyPath", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "PrivateKey", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
 constexpr IgnoranceCore::IgnoranceCore__IgnoranceServer__ThreadParamInfo::IgnoranceCore__IgnoranceServer__ThreadParamInfo(bool IsFruityDevice, bool BindAllInterfaces, int32_t Channels, int32_t Peers, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity, ::StringW Address, bool UseSsl, ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept : ::bs_hook::ValueTypeWrapper() {this->IsFruityDevice = IsFruityDevice;
 this->BindAllInterfaces = BindAllInterfaces;
@@ -405,8 +406,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- IgnoranceCore::IgnoranceServer::IgnoranceServer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IgnoranceServer>())) {}
+ IgnoranceCore::IgnoranceServer IgnoranceCore::IgnoranceServer::New_ctor()  {
+IgnoranceCore::IgnoranceServer o{THROW_UNLESS(::il2cpp_utils::New<IgnoranceCore::IgnoranceServer>())};
+return o;
+}
  void IgnoranceCore::IgnoranceServer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IgnoranceCore::IgnoranceServer>::get(),

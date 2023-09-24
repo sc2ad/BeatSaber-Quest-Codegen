@@ -3,6 +3,9 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Diagnostics {
+struct System__Diagnostics__DebuggableAttribute__DebuggingModes;
+}
 // Forward declare root types
 namespace System::Diagnostics {
 struct System__Diagnostics__DebuggableAttribute__DebuggingModes;
@@ -62,6 +65,8 @@ __EnableEditAndContinue = 4,
 constexpr operator __System__Diagnostics__DebuggableAttribute__DebuggingModes_Unwrapped () const noexcept {
 return std::bit_cast<__System__Diagnostics__DebuggableAttribute__DebuggingModes_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -144,8 +149,7 @@ constexpr System::Diagnostics::System__Diagnostics__DebuggableAttribute__Debuggi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "modes", ty: "System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes", modifiers: "", def_value: None }]
-explicit DebuggableAttribute(System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes modes) ;
+static System::Diagnostics::DebuggableAttribute New_ctor(System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes modes) ;
 
 /// @brief Method .ctor addr 0x240bf50 size 0x28 virtual false final false
  void _ctor(System::Diagnostics::System__Diagnostics__DebuggableAttribute__DebuggingModes modes) ;

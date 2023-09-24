@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__ListViewDragger_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewDraggerAnimated_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ListViewDragger_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::ListViewDraggerAnimated.get_isDragging
 template<>
 
@@ -247,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "listView", ty: "UnityEngine::UIElements::BaseVerticalCollectionView", modifiers: "", def_value: None }]
- UnityEngine::UIElements::ListViewDraggerAnimated::ListViewDraggerAnimated(UnityEngine::UIElements::BaseVerticalCollectionView listView)  : UnityEngine::UIElements::ListViewDragger(THROW_UNLESS(::il2cpp_utils::New<ListViewDraggerAnimated>(listView))) {}
+ UnityEngine::UIElements::ListViewDraggerAnimated UnityEngine::UIElements::ListViewDraggerAnimated::New_ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView)  {
+UnityEngine::UIElements::ListViewDraggerAnimated o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ListViewDraggerAnimated>(listView))};
+return o;
+}
  void UnityEngine::UIElements::ListViewDraggerAnimated::_ctor(UnityEngine::UIElements::BaseVerticalCollectionView listView)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ListViewDraggerAnimated>::get(),

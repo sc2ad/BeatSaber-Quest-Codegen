@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class INoteControllerDidInitEvent;
-}
 namespace UnityEngine {
 class BoxCollider;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class NoteController;
+class NoteControllerBase;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr UnityEngine::Vector3 __get__defaultColliderSize() const;
 /// @brief Method HandleNoteControllerDidInit addr 0x223e5ec size 0x74 virtual true final true
  void HandleNoteControllerDidInit(GlobalNamespace::NoteControllerBase noteController) ;
 
-// Ctor Parameters []
-explicit NoteBigCuttableColliderSize() ;
+static GlobalNamespace::NoteBigCuttableColliderSize New_ctor() ;
 
 /// @brief Method .ctor addr 0x223e660 size 0x8 virtual false final false
  void _ctor() ;

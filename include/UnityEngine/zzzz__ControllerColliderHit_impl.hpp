@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__ControllerColliderHit_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__CharacterController_def.hpp"
+#include "UnityEngine/zzzz__Collider_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 constexpr void UnityEngine::ControllerColliderHit::__set_m_Controller(UnityEngine::CharacterController value)  {
 ::cordl_internals::setInstanceField<UnityEngine::CharacterController, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::CharacterController>(value));
 }

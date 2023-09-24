@@ -1,25 +1,26 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionResultsViewController_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__ResultObjectiveListItem_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
-#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
+#include "GlobalNamespace/zzzz__ResultObjectiveListItem_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "GlobalNamespace/zzzz__ResultObjectiveListItemsList_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__MissionResultsViewController_def.hpp"
+#include "GlobalNamespace/zzzz__FireworksController_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "GlobalNamespace/zzzz__ResultObjectiveListItemsList_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28._ctor
 template<>
 
@@ -158,8 +159,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionResultsViewController___
 constexpr GlobalNamespace::MissionResultsViewController GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionResultsViewController, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28 GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionResultsViewController___StartFireworksAfterDelay_d__28>::get(),
@@ -272,8 +275,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionResultsViewController___
 constexpr ::ArrayW<GlobalNamespace::MissionObjectiveResult> GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0::__get_missionObjectiveResults() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::MissionObjectiveResult>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0>())) {}
+ GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0 GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionResultsViewController____c__DisplayClass29_0>::get(),
@@ -721,8 +726,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionResultsViewController::MissionResultsViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<MissionResultsViewController>())) {}
+ GlobalNamespace::MissionResultsViewController GlobalNamespace::MissionResultsViewController::New_ctor()  {
+GlobalNamespace::MissionResultsViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionResultsViewController>())};
+return o;
+}
  void GlobalNamespace::MissionResultsViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionResultsViewController>::get(),

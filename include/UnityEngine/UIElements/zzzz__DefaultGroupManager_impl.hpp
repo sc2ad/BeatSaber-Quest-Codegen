@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__DefaultGroupManager_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::DefaultGroupManager.OnOptionSelectionChanged
 template<>
 
@@ -114,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, option);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::DefaultGroupManager::DefaultGroupManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultGroupManager>())) {}
+ UnityEngine::UIElements::DefaultGroupManager UnityEngine::UIElements::DefaultGroupManager::New_ctor()  {
+UnityEngine::UIElements::DefaultGroupManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DefaultGroupManager>())};
+return o;
+}
  void UnityEngine::UIElements::DefaultGroupManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DefaultGroupManager>::get(),

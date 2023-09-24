@@ -29,8 +29,10 @@ constexpr void System::MonoListItem::__set_data(::bs_hook::Il2CppWrapperType val
 constexpr ::bs_hook::Il2CppWrapperType System::MonoListItem::__get_data() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::MonoListItem::MonoListItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoListItem>())) {}
+ System::MonoListItem System::MonoListItem::New_ctor()  {
+System::MonoListItem o{THROW_UNLESS(::il2cpp_utils::New<System::MonoListItem>())};
+return o;
+}
  void System::MonoListItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MonoListItem>::get(),

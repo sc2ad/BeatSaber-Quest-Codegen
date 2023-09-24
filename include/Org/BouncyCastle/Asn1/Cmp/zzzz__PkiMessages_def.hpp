@@ -3,14 +3,14 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiMessage;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -67,8 +67,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_content() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PkiMessages(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessages New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xddff50 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -76,8 +75,7 @@ explicit PkiMessages(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xddcbf0 size 0x18c virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PkiMessages GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "msgs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::PkiMessage>", modifiers: "", def_value: None }]
-explicit PkiMessages(::ArrayW<Org::BouncyCastle::Asn1::Cmp::PkiMessage> msgs) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiMessages New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::PkiMessage> msgs) ;
 
 /// @brief Method .ctor addr 0xddff78 size 0x7c virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::PkiMessage> msgs) ;

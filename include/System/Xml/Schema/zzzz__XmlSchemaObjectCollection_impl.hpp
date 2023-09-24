@@ -110,8 +110,10 @@ constexpr void System::Xml::Schema::XmlSchemaObjectCollection::__set_parent(Syst
 constexpr System::Xml::Schema::XmlSchemaObject System::Xml::Schema::XmlSchemaObjectCollection::__get_parent() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::XmlSchemaObject, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaObjectCollection::XmlSchemaObjectCollection()  : System::Collections::CollectionBase(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaObjectCollection>())) {}
+ System::Xml::Schema::XmlSchemaObjectCollection System::Xml::Schema::XmlSchemaObjectCollection::New_ctor()  {
+System::Xml::Schema::XmlSchemaObjectCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaObjectCollection>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaObjectCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaObjectCollection>::get(),

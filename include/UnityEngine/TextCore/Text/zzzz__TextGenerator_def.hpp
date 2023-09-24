@@ -7,48 +7,78 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::TextCore::Text {
-struct TextElementType;
-}
-namespace UnityEngine::TextCore::Text {
-class TextElement;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
-}
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-class TextColorGradient;
+class TextInfo;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+struct Vector4;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
+struct TextElementInfo;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine::TextCore::Text {
+struct Extents;
 }
 namespace UnityEngine::TextCore::Text {
 struct WordWrapState;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyleStack;
 }
 namespace UnityEngine::TextCore::Text {
 template<typename T>
 struct TextProcessingStack_1;
 }
 namespace UnityEngine::TextCore::Text {
-struct XmlTagAttribute;
+class TextElement;
 }
-namespace UnityEngine {
-struct Color32;
+namespace UnityEngine::TextCore::Text {
+struct TextAlignment;
+}
+namespace UnityEngine::TextCore::Text {
+struct UnityEngine__TextCore__Text__TextGenerator__SpecialCharacter;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextElementType;
+}
+namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyles;
 }
 namespace UnityEngine::TextCore::Text {
 struct RichTextTagAttribute;
+}
+namespace UnityEngine::TextCore::Text {
+class TextGenerationSettings;
+}
+namespace UnityEngine::TextCore::Text {
+struct XmlTagAttribute;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine::TextCore::Text {
+class TextColorGradient;
+}
+namespace UnityEngine::TextCore::Text {
+class SpriteAsset;
+}
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -56,35 +86,8 @@ struct Vector3;
 namespace UnityEngine::TextCore::Text {
 struct MaterialReference;
 }
-namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine::TextCore::Text {
-struct Extents;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextElementInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyleStack;
+struct Matrix4x4;
 }
 namespace UnityEngine::TextCore::Text {
 class Character;
@@ -913,8 +916,7 @@ static void ClearMesh(bool updateMesh, UnityEngine::TextCore::Text::TextInfo tex
 /// @brief Method CalculatePreferredValues addr 0x2bbebe4 size 0x1c10 virtual true final false
  UnityEngine::Vector2 CalculatePreferredValues(float_t defaultFontSize, UnityEngine::Vector2 marginSize, bool ignoreTextAutoSizing, UnityEngine::TextCore::Text::TextGenerationSettings generationSettings, UnityEngine::TextCore::Text::TextInfo textInfo) ;
 
-// Ctor Parameters []
-explicit TextGenerator() ;
+static UnityEngine::TextCore::Text::TextGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bb355c size 0x4dc virtual false final false
  void _ctor() ;

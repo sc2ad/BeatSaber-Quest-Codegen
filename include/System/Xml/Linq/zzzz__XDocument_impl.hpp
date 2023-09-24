@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XContainer_impl.hpp"
 #include "System/Xml/Linq/zzzz__XDocument_def.hpp"
-#include "System/Xml/zzzz__XmlWriter_def.hpp"
-#include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
+#include "System/Xml/Linq/zzzz__XDeclaration_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlWriter_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XDocument._ctor
 template<>
 
@@ -251,8 +251,10 @@ constexpr void System::Xml::Linq::XDocument::__set__declaration(System::Xml::Lin
 constexpr System::Xml::Linq::XDeclaration System::Xml::Linq::XDocument::__get__declaration() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XDeclaration, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Linq::XDocument::XDocument()  : System::Xml::Linq::XContainer(THROW_UNLESS(::il2cpp_utils::New<XDocument>())) {}
+ System::Xml::Linq::XDocument System::Xml::Linq::XDocument::New_ctor()  {
+System::Xml::Linq::XDocument o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XDocument>())};
+return o;
+}
  void System::Xml::Linq::XDocument::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XDocument>::get(),
@@ -262,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDocument", modifiers: "", def_value: None }]
- System::Xml::Linq::XDocument::XDocument(System::Xml::Linq::XDocument other)  : System::Xml::Linq::XContainer(THROW_UNLESS(::il2cpp_utils::New<XDocument>(other))) {}
+ System::Xml::Linq::XDocument System::Xml::Linq::XDocument::New_ctor(System::Xml::Linq::XDocument other)  {
+System::Xml::Linq::XDocument o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XDocument>(other))};
+return o;
+}
  void System::Xml::Linq::XDocument::_ctor(System::Xml::Linq::XDocument other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XDocument>::get(),

@@ -1,20 +1,21 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Func_4_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__Func_4_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputStateHistory__Enumerator._ctor
 template<>
@@ -1829,8 +1830,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "maxStateSizeInBytes", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory::InputStateHistory(int32_t maxStateSizeInBytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory>(maxStateSizeInBytes))) {}
+ UnityEngine::InputSystem::LowLevel::InputStateHistory UnityEngine::InputSystem::LowLevel::InputStateHistory::New_ctor(int32_t maxStateSizeInBytes)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory>(maxStateSizeInBytes))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor(int32_t maxStateSizeInBytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputStateHistory>::get(),
@@ -1840,8 +1843,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, maxStateSizeInBytes);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory::InputStateHistory(::StringW path)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory>(path))) {}
+ UnityEngine::InputSystem::LowLevel::InputStateHistory UnityEngine::InputSystem::LowLevel::InputStateHistory::New_ctor(::StringW path)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory>(path))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor(::StringW path)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputStateHistory>::get(),
@@ -1851,8 +1856,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters [CppParam { name: "control", ty: "UnityEngine::InputSystem::InputControl", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory::InputStateHistory(UnityEngine::InputSystem::InputControl control)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory>(control))) {}
+ UnityEngine::InputSystem::LowLevel::InputStateHistory UnityEngine::InputSystem::LowLevel::InputStateHistory::New_ctor(UnityEngine::InputSystem::InputControl control)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory>(control))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor(UnityEngine::InputSystem::InputControl control)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputStateHistory>::get(),
@@ -1862,8 +1869,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, control);
 }
-// Ctor Parameters [CppParam { name: "controls", ty: "System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl>", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputStateHistory::InputStateHistory(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputStateHistory>(controls))) {}
+ UnityEngine::InputSystem::LowLevel::InputStateHistory UnityEngine::InputSystem::LowLevel::InputStateHistory::New_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls)  {
+UnityEngine::InputSystem::LowLevel::InputStateHistory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputStateHistory>(controls))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor(System::Collections::Generic::IEnumerable_1<UnityEngine::InputSystem::InputControl> controls)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputStateHistory>::get(),

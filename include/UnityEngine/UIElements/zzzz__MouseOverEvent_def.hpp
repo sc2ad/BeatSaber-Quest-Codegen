@@ -47,8 +47,7 @@ constexpr explicit MouseOverEvent(void* ptr) noexcept : UnityEngine::UIElements:
 
 // Methods
 
-// Ctor Parameters []
-explicit MouseOverEvent() ;
+static UnityEngine::UIElements::MouseOverEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cda900 size 0x48 virtual false final false
  void _ctor() ;

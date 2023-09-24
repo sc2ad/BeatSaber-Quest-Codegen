@@ -2,8 +2,8 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 //  Writing Method size for method: Mono::Security::Interface::MonoRemoteCertificateValidationCallback._ctor
 template<>
 
@@ -38,8 +38,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Mono::Security::Interface::MonoRemoteCertificateValidationCallback::MonoRemoteCertificateValidationCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<MonoRemoteCertificateValidationCallback>(object, method))) {}
+ Mono::Security::Interface::MonoRemoteCertificateValidationCallback Mono::Security::Interface::MonoRemoteCertificateValidationCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+Mono::Security::Interface::MonoRemoteCertificateValidationCallback o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::MonoRemoteCertificateValidationCallback>(object, method))};
+return o;
+}
  void Mono::Security::Interface::MonoRemoteCertificateValidationCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::MonoRemoteCertificateValidationCallback>::get(),

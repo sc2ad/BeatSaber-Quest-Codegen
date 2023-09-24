@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Experimental/Rendering/zzzz__BuiltinRuntimeReflectionSystem_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__IScriptableRuntimeReflectionSystem_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__IScriptableRuntimeReflectionSystem_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem.TickRealtimeProbes
 template<>
 
@@ -157,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinRuntimeReflectionSystem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BuiltinRuntimeReflectionSystem>())) {}
+ UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::New_ctor()  {
+UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem>())};
+return o;
+}
  void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem>::get(),

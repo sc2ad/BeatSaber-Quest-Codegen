@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__DllImportAttribute_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__CallingConvention_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__CharSet_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__CallingConvention_def.hpp"
 #include "System/Reflection/zzzz__RuntimeMethodInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::InteropServices::DllImportAttribute.GetCustomAttribute
 template<>
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, method);
 }
-// Ctor Parameters [CppParam { name: "dllName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "entryPoint", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "charSet", ty: "System::Runtime::InteropServices::CharSet", modifiers: "", def_value: None }, CppParam { name: "exactSpelling", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "setLastError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "preserveSig", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "callingConvention", ty: "System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }, CppParam { name: "bestFitMapping", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnUnmappableChar", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::DllImportAttribute::DllImportAttribute(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DllImportAttribute>(dllName, entryPoint, charSet, exactSpelling, setLastError, preserveSig, callingConvention, bestFitMapping, throwOnUnmappableChar))) {}
+ System::Runtime::InteropServices::DllImportAttribute System::Runtime::InteropServices::DllImportAttribute::New_ctor(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar)  {
+System::Runtime::InteropServices::DllImportAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::DllImportAttribute>(dllName, entryPoint, charSet, exactSpelling, setLastError, preserveSig, callingConvention, bestFitMapping, throwOnUnmappableChar))};
+return o;
+}
  void System::Runtime::InteropServices::DllImportAttribute::_ctor(::StringW dllName, ::StringW entryPoint, System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig, System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::DllImportAttribute>::get(),
@@ -173,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dllName, entryPoint, charSet, exactSpelling, setLastError, preserveSig, callingConvention, bestFitMapping, throwOnUnmappableChar);
 }
-// Ctor Parameters [CppParam { name: "dllName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::DllImportAttribute::DllImportAttribute(::StringW dllName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DllImportAttribute>(dllName))) {}
+ System::Runtime::InteropServices::DllImportAttribute System::Runtime::InteropServices::DllImportAttribute::New_ctor(::StringW dllName)  {
+System::Runtime::InteropServices::DllImportAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::DllImportAttribute>(dllName))};
+return o;
+}
  void System::Runtime::InteropServices::DllImportAttribute::_ctor(::StringW dllName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::DllImportAttribute>::get(),

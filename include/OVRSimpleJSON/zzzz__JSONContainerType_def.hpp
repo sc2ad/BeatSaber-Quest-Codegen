@@ -56,6 +56,8 @@ constexpr operator __JSONContainerType_Unwrapped () const noexcept {
 return std::bit_cast<__JSONContainerType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

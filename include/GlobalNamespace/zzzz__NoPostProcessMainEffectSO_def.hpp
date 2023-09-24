@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Shader;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,8 +104,7 @@ constexpr UnityEngine::Material __get__fadeMaterial() const;
 /// @brief Method DrawFadeQuad addr 0x26775c0 size 0xec virtual false final false
  void DrawFadeQuad(float_t alpha) ;
 
-// Ctor Parameters []
-explicit NoPostProcessMainEffectSO() ;
+static GlobalNamespace::NoPostProcessMainEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x26776ac size 0x10 virtual false final false
  void _ctor() ;

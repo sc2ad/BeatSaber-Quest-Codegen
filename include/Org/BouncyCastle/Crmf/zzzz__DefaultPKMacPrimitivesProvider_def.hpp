@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crmf {
-class IPKMacPrimitivesProvider;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Crmf {
+class IPKMacPrimitivesProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -68,8 +68,7 @@ constexpr explicit DefaultPKMacPrimitivesProvider(void* ptr) noexcept : ::bs_hoo
 /// @brief Method CreateMac addr 0x1185620 size 0x78 virtual true final true
  Org::BouncyCastle::Crypto::IMac CreateMac(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier macAlg) ;
 
-// Ctor Parameters []
-explicit DefaultPKMacPrimitivesProvider() ;
+static Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1185698 size 0x8 virtual false final false
  void _ctor() ;

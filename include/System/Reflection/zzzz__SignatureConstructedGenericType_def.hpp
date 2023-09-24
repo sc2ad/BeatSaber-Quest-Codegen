@@ -98,8 +98,7 @@ constexpr ::ArrayW<System::Type> __get__genericTypeArguments() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "genericTypeDefinition", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "typeArguments", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
-explicit SignatureConstructedGenericType(System::Type genericTypeDefinition, ::ArrayW<System::Type> typeArguments) ;
+static System::Reflection::SignatureConstructedGenericType New_ctor(System::Type genericTypeDefinition, ::ArrayW<System::Type> typeArguments) ;
 
 /// @brief Method .ctor addr 0x237cec0 size 0x1a4 virtual false final false
  void _ctor(System::Type genericTypeDefinition, ::ArrayW<System::Type> typeArguments) ;

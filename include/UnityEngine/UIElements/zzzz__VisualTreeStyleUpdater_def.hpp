@@ -3,21 +3,21 @@
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace UnityEngine::UIElements {
-class VisualTreeStyleUpdaterTraversal;
-}
-namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class VisualElement;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class VisualTreeStyleUpdaterTraversal;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -133,8 +133,7 @@ static Unity::Profiling::ProfilerMarker __get_s_ProfilerMarker() ;
 /// @brief Method ApplyStyles addr 0x2c48890 size 0xe0 virtual false final false
  void ApplyStyles() ;
 
-// Ctor Parameters []
-explicit VisualTreeStyleUpdater() ;
+static UnityEngine::UIElements::VisualTreeStyleUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c48cf4 size 0xd4 virtual false final false
  void _ctor() ;

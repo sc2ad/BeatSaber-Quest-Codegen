@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IKSolverHeuristic_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::IKSolverFABRIK.SolveForward
 template<>
 
@@ -663,8 +663,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolverFABRIK::IKSolverFABRIK()  : RootMotion::FinalIK::IKSolverHeuristic(THROW_UNLESS(::il2cpp_utils::New<IKSolverFABRIK>())) {}
+ RootMotion::FinalIK::IKSolverFABRIK RootMotion::FinalIK::IKSolverFABRIK::New_ctor()  {
+RootMotion::FinalIK::IKSolverFABRIK o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolverFABRIK>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolverFABRIK::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolverFABRIK>::get(),

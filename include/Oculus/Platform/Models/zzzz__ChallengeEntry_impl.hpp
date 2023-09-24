@@ -1,7 +1,7 @@
 #pragma once
 #include "Oculus/Platform/Models/zzzz__ChallengeEntry_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Models::ChallengeEntry._ctor
 template<>
 
@@ -61,8 +61,10 @@ constexpr void Oculus::Platform::Models::ChallengeEntry::__set_User(Oculus::Plat
 constexpr Oculus::Platform::Models::User Oculus::Platform::Models::ChallengeEntry::__get_User() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Models::User, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::ChallengeEntry::ChallengeEntry(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ChallengeEntry>(o))) {}
+ Oculus::Platform::Models::ChallengeEntry Oculus::Platform::Models::ChallengeEntry::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::ChallengeEntry o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::ChallengeEntry>(o))};
+return o;
+}
  void Oculus::Platform::Models::ChallengeEntry::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::ChallengeEntry>::get(),

@@ -72,8 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::ArithmeticException::ArithmeticException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ArithmeticException>())) {}
+ System::ArithmeticException System::ArithmeticException::New_ctor()  {
+System::ArithmeticException o{THROW_UNLESS(::il2cpp_utils::New<System::ArithmeticException>())};
+return o;
+}
  void System::ArithmeticException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArithmeticException>::get(),
@@ -83,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::ArithmeticException::ArithmeticException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ArithmeticException>(message))) {}
+ System::ArithmeticException System::ArithmeticException::New_ctor(::StringW message)  {
+System::ArithmeticException o{THROW_UNLESS(::il2cpp_utils::New<System::ArithmeticException>(message))};
+return o;
+}
  void System::ArithmeticException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArithmeticException>::get(),
@@ -94,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::ArithmeticException::ArithmeticException(::StringW message, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ArithmeticException>(message, innerException))) {}
+ System::ArithmeticException System::ArithmeticException::New_ctor(::StringW message, System::Exception innerException)  {
+System::ArithmeticException o{THROW_UNLESS(::il2cpp_utils::New<System::ArithmeticException>(message, innerException))};
+return o;
+}
  void System::ArithmeticException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArithmeticException>::get(),
@@ -105,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::ArithmeticException::ArithmeticException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ArithmeticException>(info, context))) {}
+ System::ArithmeticException System::ArithmeticException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::ArithmeticException o{THROW_UNLESS(::il2cpp_utils::New<System::ArithmeticException>(info, context))};
+return o;
+}
  void System::ArithmeticException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ArithmeticException>::get(),

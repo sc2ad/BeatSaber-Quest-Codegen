@@ -64,8 +64,7 @@ constexpr System::Security::Util::TokenizerShortBlock __get_m_next() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TokenizerShortBlock() ;
+static System::Security::Util::TokenizerShortBlock New_ctor() ;
 
 /// @brief Method .ctor addr 0x22ea2c0 size 0x58 virtual false final false
  void _ctor() ;

@@ -2,8 +2,9 @@
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::Newtonsoft__Json__Serialization__DefaultSerializationBinder__TypeNameKey._ctor
 template<>
 
@@ -205,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Type, false>(const_cast<void*>(instance), ___internal_method, assemblyName, typeName);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::DefaultSerializationBinder::DefaultSerializationBinder()  : System::Runtime::Serialization::SerializationBinder(THROW_UNLESS(::il2cpp_utils::New<DefaultSerializationBinder>())) {}
+ Newtonsoft::Json::Serialization::DefaultSerializationBinder Newtonsoft::Json::Serialization::DefaultSerializationBinder::New_ctor()  {
+Newtonsoft::Json::Serialization::DefaultSerializationBinder o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::DefaultSerializationBinder>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::DefaultSerializationBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::DefaultSerializationBinder>::get(),

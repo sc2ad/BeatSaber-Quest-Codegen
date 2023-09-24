@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::LightGroupTranslationYTransform::LightGroupTranslationYTransform()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightGroupTranslationYTransform>())) {}
+ GlobalNamespace::LightGroupTranslationYTransform GlobalNamespace::LightGroupTranslationYTransform::New_ctor()  {
+GlobalNamespace::LightGroupTranslationYTransform o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightGroupTranslationYTransform>())};
+return o;
+}
  void GlobalNamespace::LightGroupTranslationYTransform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightGroupTranslationYTransform>::get(),

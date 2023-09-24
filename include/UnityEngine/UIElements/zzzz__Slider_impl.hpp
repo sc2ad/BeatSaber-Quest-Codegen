@@ -3,14 +3,15 @@
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Slider_def.hpp"
-#include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Slider_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFloatAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits.Init
 template<>
 
@@ -90,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits::UnityEngine__UIElements__Slider__UxmlTraits()  : UnityEngine::UIElements::BaseFieldTraits_2<float_t,UnityEngine::UIElements::UxmlFloatAttributeDescription>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Slider__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits>::get(),
@@ -238,8 +241,10 @@ return ::cordl_internals::getStaticField<::StringW, "labelUssClassName", ::il2cp
  ::StringW UnityEngine::UIElements::Slider::__get_inputUssClassName()  {
 return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Slider>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Slider::Slider()  : UnityEngine::UIElements::BaseSlider_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<Slider>())) {}
+ UnityEngine::UIElements::Slider UnityEngine::UIElements::Slider::New_ctor()  {
+UnityEngine::UIElements::Slider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Slider>())};
+return o;
+}
  void UnityEngine::UIElements::Slider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Slider>::get(),
@@ -249,8 +254,12 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "direction", ty: "UnityEngine::UIElements::SliderDirection", modifiers: "", def_value: Some("0") }, CppParam { name: "pageSize", ty: "float_t", modifiers: "", def_value: Some("0") }]
- UnityEngine::UIElements::Slider::Slider(float_t start, float_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  : UnityEngine::UIElements::BaseSlider_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<Slider>(start, end, direction, pageSize))) {}
+/// @param direction: UnityEngine::UIElements::SliderDirection (default: 0)
+/// @param pageSize: float_t (default: 0)
+ UnityEngine::UIElements::Slider UnityEngine::UIElements::Slider::New_ctor(float_t start, float_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  {
+UnityEngine::UIElements::Slider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Slider>(start, end, direction, pageSize))};
+return o;
+}
 /// @param direction: UnityEngine::UIElements::SliderDirection (default: 0)
 /// @param pageSize: float_t (default: 0)
  void UnityEngine::UIElements::Slider::_ctor(float_t start, float_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  {
@@ -262,8 +271,14 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, start, end, direction, pageSize);
 }
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "start", ty: "float_t", modifiers: "", def_value: Some("0") }, CppParam { name: "end", ty: "float_t", modifiers: "", def_value: Some("10") }, CppParam { name: "direction", ty: "UnityEngine::UIElements::SliderDirection", modifiers: "", def_value: Some("0") }, CppParam { name: "pageSize", ty: "float_t", modifiers: "", def_value: Some("0") }]
- UnityEngine::UIElements::Slider::Slider(::StringW label, float_t start, float_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  : UnityEngine::UIElements::BaseSlider_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<Slider>(label, start, end, direction, pageSize))) {}
+/// @param start: float_t (default: 0)
+/// @param end: float_t (default: 10)
+/// @param direction: UnityEngine::UIElements::SliderDirection (default: 0)
+/// @param pageSize: float_t (default: 0)
+ UnityEngine::UIElements::Slider UnityEngine::UIElements::Slider::New_ctor(::StringW label, float_t start, float_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize)  {
+UnityEngine::UIElements::Slider o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Slider>(label, start, end, direction, pageSize))};
+return o;
+}
 /// @param start: float_t (default: 0)
 /// @param end: float_t (default: 10)
 /// @param direction: UnityEngine::UIElements::SliderDirection (default: 0)
@@ -330,8 +345,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory::UnityEngine__UIElements__Slider__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Slider,UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Slider__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Slider__UxmlFactory>::get(),

@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__PackedPlayModeBuildLogs_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__PackedPlayModeBuildLogs_def.hpp"
 #include "UnityEngine/zzzz__LogType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PackedPlayModeBuildLogs__RuntimeBuildLog._ctor
 template<>
@@ -120,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::PackedPlayModeBuildLogs::PackedPlayModeBuildLogs()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PackedPlayModeBuildLogs>())) {}
+ GlobalNamespace::PackedPlayModeBuildLogs GlobalNamespace::PackedPlayModeBuildLogs::New_ctor()  {
+GlobalNamespace::PackedPlayModeBuildLogs o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PackedPlayModeBuildLogs>())};
+return o;
+}
  void GlobalNamespace::PackedPlayModeBuildLogs::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PackedPlayModeBuildLogs>::get(),

@@ -5,13 +5,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Reflection {
+class MemberInfo;
+}
+namespace System::Reflection {
 struct CustomAttributeTypedArgument;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-class MemberInfo;
 }
 // Forward declare root types
 namespace System::Reflection {

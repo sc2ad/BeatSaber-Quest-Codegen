@@ -4,13 +4,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class GameplayCoreSceneSetupData;
 }
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelScenesTransitionSetupDataSO___BeforeScenesWillBeActivatedAsync_d__6;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -183,8 +186,7 @@ constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__gameplayCoreSceneSe
 /// @brief Method BeforeScenesWillBeActivatedAsync addr 0x21d0ba0 size 0xc8 virtual true final false
  System::Threading::Tasks::Task BeforeScenesWillBeActivatedAsync() ;
 
-// Ctor Parameters []
-explicit LevelScenesTransitionSetupDataSO() ;
+static GlobalNamespace::LevelScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d0c68 size 0x8 virtual false final false
  void _ctor() ;

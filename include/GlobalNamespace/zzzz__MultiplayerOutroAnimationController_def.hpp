@@ -6,11 +6,32 @@
 namespace UnityEngine {
 class GameObject;
 }
+namespace GlobalNamespace {
+class MultiplayerResultsData;
+}
+namespace GlobalNamespace {
+class MultiplayerTimelineMock;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace UnityEngine {
+class Transform;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreRingManager;
+}
+namespace UnityEngine {
+struct PropertyName;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsPyramidView;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
@@ -19,28 +40,7 @@ namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace UnityEngine {
-struct PropertyName;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsPyramidView;
-}
-namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
-}
-namespace GlobalNamespace {
-class MultiplayerTimelineMock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -244,8 +244,7 @@ constexpr System::Action __get__onCompleted() const;
 /// @brief Method HandlePlayerSpawningDidFinish addr 0x20fc77c size 0x24 virtual false final false
  void HandlePlayerSpawningDidFinish() ;
 
-// Ctor Parameters []
-explicit MultiplayerOutroAnimationController() ;
+static GlobalNamespace::MultiplayerOutroAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ff3c8 size 0x8 virtual false final false
  void _ctor() ;

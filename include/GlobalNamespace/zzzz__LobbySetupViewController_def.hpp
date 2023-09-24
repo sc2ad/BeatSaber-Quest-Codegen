@@ -2,32 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace HMUI {
-class ToggleBinder;
+namespace GlobalNamespace {
+struct CannotStartGameReason;
 }
 namespace GlobalNamespace {
 struct MultiplayerLobbyState;
 }
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace HMUI {
-class HoverHint;
-}
-namespace GlobalNamespace {
-class EditableBeatmapSelectionView;
-}
-namespace System {
-class Action;
-}
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class EditableModifiersSelectionView;
 }
 namespace GlobalNamespace {
 class GameServersFilterText;
@@ -36,7 +21,22 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class EditableModifiersSelectionView;
+class EditableBeatmapSelectionView;
+}
+namespace HMUI {
+class HoverHint;
+}
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 class ILobbyPlayerData;
@@ -291,8 +291,7 @@ constexpr bool __get__isQuickStart() const;
 /// @brief Method OnDestroy addr 0x2178300 size 0x1c virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit LobbySetupViewController() ;
+static GlobalNamespace::LobbySetupViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217831c size 0x68 virtual false final false
  void _ctor() ;

@@ -10,17 +10,17 @@ class ProBuilderMesh;
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::ProBuilder {
 struct ShapeType;
 }
 namespace UnityEngine::ProBuilder {
-struct Axis;
-}
-namespace UnityEngine::ProBuilder {
 struct PivotLocation;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+struct Axis;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

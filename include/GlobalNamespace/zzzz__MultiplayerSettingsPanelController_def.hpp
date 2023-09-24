@@ -2,12 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
 namespace GlobalNamespace {
 class ServerCodeView;
 }
@@ -15,14 +9,20 @@ namespace HMUI {
 class ToggleBinder;
 }
 namespace GlobalNamespace {
+class ILobbyPlayerData;
+}
+namespace GlobalNamespace {
 class IRefreshable;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -154,8 +154,7 @@ constexpr System::Action_1<bool> __get_playerActiveStateChangedEvent() const;
 /// @brief Method Refresh addr 0x215d7f0 size 0x10c virtual true final true
  void Refresh() ;
 
-// Ctor Parameters []
-explicit MultiplayerSettingsPanelController() ;
+static GlobalNamespace::MultiplayerSettingsPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215da5c size 0x8 virtual false final false
  void _ctor() ;

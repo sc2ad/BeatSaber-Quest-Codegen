@@ -1,15 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_impl.hpp"
 #include "Org/BouncyCastle/Crypto/EC/zzzz__CustomNamedCurves_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Crypto/EC/zzzz__CustomNamedCurves_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder._ctor
 template<>
 
@@ -50,8 +51,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__Curve25519Holder>::get(),
@@ -110,8 +113,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP128R1Holder>::get(),
@@ -170,8 +175,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160K1Holder>::get(),
@@ -230,8 +237,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R1Holder>::get(),
@@ -290,8 +299,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP160R2Holder>::get(),
@@ -350,8 +361,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192K1Holder>::get(),
@@ -410,8 +423,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP192R1Holder>::get(),
@@ -470,8 +485,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224K1Holder>::get(),
@@ -530,8 +547,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP224R1Holder>::get(),
@@ -590,8 +609,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256K1Holder>::get(),
@@ -650,8 +671,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP256R1Holder>::get(),
@@ -710,8 +733,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP384R1Holder>::get(),
@@ -770,8 +795,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecP521R1Holder>::get(),
@@ -830,8 +857,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R1Holder>::get(),
@@ -890,8 +919,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT113R2Holder>::get(),
@@ -950,8 +981,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R1Holder>::get(),
@@ -1010,8 +1043,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT131R2Holder>::get(),
@@ -1070,8 +1105,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163K1Holder>::get(),
@@ -1130,8 +1167,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R1Holder>::get(),
@@ -1190,8 +1229,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT163R2Holder>::get(),
@@ -1250,8 +1291,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R1Holder>::get(),
@@ -1310,8 +1353,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT193R2Holder>::get(),
@@ -1370,8 +1415,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233K1Holder>::get(),
@@ -1430,8 +1477,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT233R1Holder>::get(),
@@ -1490,8 +1539,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT239K1Holder>::get(),
@@ -1550,8 +1601,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283K1Holder>::get(),
@@ -1610,8 +1663,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT283R1Holder>::get(),
@@ -1670,8 +1725,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409K1Holder>::get(),
@@ -1730,8 +1787,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT409R1Holder>::get(),
@@ -1790,8 +1849,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571K1Holder>::get(),
@@ -1850,8 +1911,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SecT571R1Holder>::get(),
@@ -1910,8 +1973,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder>())) {}
+ Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::Org__BouncyCastle__Crypto__EC__CustomNamedCurves__SM2P256V1Holder>::get(),
@@ -2164,8 +2229,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "oidT
  System::Collections::IList Org::BouncyCastle::Crypto::EC::CustomNamedCurves::__get_names()  {
 return ::cordl_internals::getStaticField<System::Collections::IList, "names", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::CustomNamedCurves>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::EC::CustomNamedCurves::CustomNamedCurves()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomNamedCurves>())) {}
+ Org::BouncyCastle::Crypto::EC::CustomNamedCurves Org::BouncyCastle::Crypto::EC::CustomNamedCurves::New_ctor()  {
+Org::BouncyCastle::Crypto::EC::CustomNamedCurves o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::EC::CustomNamedCurves>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::EC::CustomNamedCurves::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::EC::CustomNamedCurves>::get(),

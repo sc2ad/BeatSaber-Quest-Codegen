@@ -66,8 +66,7 @@ constexpr explicit XTextWrapper(void* ptr) noexcept : Newtonsoft::Json::Converte
 /// @brief Method get_Text addr 0x254410c size 0x78 virtual false final false
  System::Xml::Linq::XText get_Text() ;
 
-// Ctor Parameters [CppParam { name: "text", ty: "System::Xml::Linq::XText", modifiers: "", def_value: None }]
-explicit XTextWrapper(System::Xml::Linq::XText text) ;
+static Newtonsoft::Json::Converters::XTextWrapper New_ctor(System::Xml::Linq::XText text) ;
 
 /// @brief Method .ctor addr 0x2544184 size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XText text) ;

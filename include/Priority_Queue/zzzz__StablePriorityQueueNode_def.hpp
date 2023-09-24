@@ -68,8 +68,7 @@ constexpr int64_t __get__InsertionIndex_k__BackingField() const;
 /// @brief Method set_InsertionIndex addr 0x21d70f8 size 0x8 virtual false final false
  void set_InsertionIndex(int64_t value) ;
 
-// Ctor Parameters []
-explicit StablePriorityQueueNode() ;
+static Priority_Queue::StablePriorityQueueNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d7100 size 0x8 virtual false final false
  void _ctor() ;

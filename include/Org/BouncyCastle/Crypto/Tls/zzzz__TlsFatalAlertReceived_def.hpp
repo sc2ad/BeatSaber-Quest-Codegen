@@ -62,8 +62,7 @@ constexpr uint8_t __get_alertDescription() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "alertDescription", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit TlsFatalAlertReceived(uint8_t alertDescription) ;
+static Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived New_ctor(uint8_t alertDescription) ;
 
 /// @brief Method .ctor addr 0xf20e6c size 0x40 virtual false final false
  void _ctor(uint8_t alertDescription) ;

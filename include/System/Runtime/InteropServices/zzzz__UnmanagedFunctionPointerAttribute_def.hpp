@@ -59,8 +59,7 @@ constexpr System::Runtime::InteropServices::CallingConvention __get_m_callingCon
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callingConvention", ty: "System::Runtime::InteropServices::CallingConvention", modifiers: "", def_value: None }]
-explicit UnmanagedFunctionPointerAttribute(System::Runtime::InteropServices::CallingConvention callingConvention) ;
+static System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute New_ctor(System::Runtime::InteropServices::CallingConvention callingConvention) ;
 
 /// @brief Method .ctor addr 0x236aba0 size 0x28 virtual false final false
  void _ctor(System::Runtime::InteropServices::CallingConvention callingConvention) ;

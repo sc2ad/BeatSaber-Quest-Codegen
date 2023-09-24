@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::AmbientTemperatureSensor value
 /// @brief Method FinishSetup addr 0x29167b8 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit AmbientTemperatureSensor() ;
+static UnityEngine::InputSystem::AmbientTemperatureSensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2916830 size 0x8 virtual false final false
  void _ctor() ;

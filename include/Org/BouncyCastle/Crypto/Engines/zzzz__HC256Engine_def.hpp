@@ -142,8 +142,7 @@ constexpr int32_t __get_idx() const;
 /// @brief Method RotateRight addr 0xe46c60 size 0x8 virtual false final false
 static uint32_t RotateRight(uint32_t x, int32_t bits) ;
 
-// Ctor Parameters []
-explicit HC256Engine() ;
+static Org::BouncyCastle::Crypto::Engines::HC256Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe47418 size 0x9c virtual false final false
  void _ctor() ;

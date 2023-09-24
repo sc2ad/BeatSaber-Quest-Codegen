@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::MessageWithChallengeEntryList::MessageWithChallengeEntryList(::cordl_internals::intptr_t c_message)  : Oculus::Platform::Message_1<Oculus::Platform::Models::ChallengeEntryList>(THROW_UNLESS(::il2cpp_utils::New<MessageWithChallengeEntryList>(c_message))) {}
+ Oculus::Platform::MessageWithChallengeEntryList Oculus::Platform::MessageWithChallengeEntryList::New_ctor(::cordl_internals::intptr_t c_message)  {
+Oculus::Platform::MessageWithChallengeEntryList o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::MessageWithChallengeEntryList>(c_message))};
+return o;
+}
  void Oculus::Platform::MessageWithChallengeEntryList::_ctor(::cordl_internals::intptr_t c_message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::MessageWithChallengeEntryList>::get(),

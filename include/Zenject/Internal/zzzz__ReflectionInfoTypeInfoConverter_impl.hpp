@@ -2,25 +2,19 @@
 #include "Zenject/Internal/zzzz__ReflectionInfoTypeInfoConverter_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "Zenject/zzzz__ZenInjectMethod_def.hpp"
-#include "Zenject/zzzz__ZenFactoryMethod_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/Internal/zzzz__ReflectionInfoTypeInfoConverter_def.hpp"
 #include "Zenject/zzzz__ZenMemberSetterMethod_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "Zenject/zzzz__ZenInjectMethod_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "Zenject/zzzz__ZenFactoryMethod_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"
-#include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 //  Writing Method size for method: Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0._ctor
@@ -97,8 +91,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConve
 constexpr System::Reflection::MethodInfo Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0::__get_methodInfo() const {
 return ::cordl_internals::getInstanceField<System::Reflection::MethodInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0>())) {}
+ Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0 Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0>::get(),
@@ -261,8 +257,10 @@ return ::cordl_internals::getStaticField<System::Func_2<Zenject::Internal::Zenje
  System::Func_2<System::Reflection::FieldInfo,::StringW> Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c::__get___9__8_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Reflection::FieldInfo,::StringW>, "<>9__8_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c>::get>();
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c::Zenject__Internal__ReflectionInfoTypeInfoConverter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ReflectionInfoTypeInfoConverter____c>())) {}
+ Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c>::get(),
@@ -391,8 +389,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConve
 constexpr System::Type Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0::__get_type() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0>())) {}
+ Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0 Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0>::get(),
@@ -526,8 +526,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConve
 constexpr System::Collections::Generic::List_1<System::Reflection::FieldInfo> Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0::__get_writeableFields() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Reflection::FieldInfo>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0>())) {}
+ Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0 Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0>::get(),
@@ -653,8 +655,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConve
 constexpr ::bs_hook::Il2CppWrapperType Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1::__get_value() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1>())) {}
+ Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1 Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1>::get(),
@@ -788,8 +792,10 @@ constexpr void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConve
 constexpr System::Reflection::PropertyInfo Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0::__get_propInfo() const {
 return ::cordl_internals::getInstanceField<System::Reflection::PropertyInfo, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0>())) {}
+ Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0 Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0::New_ctor()  {
+Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0>())};
+return o;
+}
  void Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Internal::Zenject__Internal__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0>::get(),

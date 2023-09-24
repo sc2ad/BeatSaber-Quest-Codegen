@@ -9,7 +9,7 @@ class XRMeshSubsystemDescriptor;
 // Type: UnityEngine.XR::XRMeshSubsystemDescriptor
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15589)), TypeDefinitionIndex(TypeDefinitionIndex(15844)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 3777 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 3777 }), TypeDefinitionIndex(TypeDefinitionIndex(15844)), TypeDefinitionIndex(TypeDefinitionIndex(15589))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15582))
 // CS Name: UnityEngine.XR.XRMeshSubsystemDescriptor
 class CORDL_TYPE XRMeshSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem> {
@@ -48,8 +48,7 @@ constexpr explicit XRMeshSubsystemDescriptor(void* ptr) noexcept : UnityEngine::
 
 // Methods
 
-// Ctor Parameters []
-explicit XRMeshSubsystemDescriptor() ;
+static UnityEngine::XR::XRMeshSubsystemDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3a16c size 0x48 virtual false final false
  void _ctor() ;

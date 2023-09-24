@@ -68,8 +68,7 @@ constexpr bool __get__allInternalsVisible() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit InternalsVisibleToAttribute(::StringW assemblyName) ;
+static System::Runtime::CompilerServices::InternalsVisibleToAttribute New_ctor(::StringW assemblyName) ;
 
 /// @brief Method .ctor addr 0x2370a5c size 0x30 virtual false final false
  void _ctor(::StringW assemblyName) ;

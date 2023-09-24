@@ -1,11 +1,12 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__LowerCaseMapping._ctor
 template<>
@@ -107,8 +108,10 @@ return System::Collections::Generic::IComparer_1<System::Text::RegularExpression
  System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer::__get_Instance()  {
 return ::cordl_internals::getStaticField<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer>::get>();
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer>())) {}
+ System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer::New_ctor()  {
+System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer>())};
+return o;
+}
  void System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRangeComparer>::get(),
@@ -929,8 +932,10 @@ constexpr void System::Text::RegularExpressions::RegexCharClass::__set__subtract
 constexpr System::Text::RegularExpressions::RegexCharClass System::Text::RegularExpressions::RegexCharClass::__get__subtractor() const {
 return ::cordl_internals::getInstanceField<System::Text::RegularExpressions::RegexCharClass, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::RegexCharClass::RegexCharClass()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexCharClass>())) {}
+ System::Text::RegularExpressions::RegexCharClass System::Text::RegularExpressions::RegexCharClass::New_ctor()  {
+System::Text::RegularExpressions::RegexCharClass o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexCharClass>())};
+return o;
+}
  void System::Text::RegularExpressions::RegexCharClass::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexCharClass>::get(),
@@ -940,8 +945,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ranges", ty: "System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange>", modifiers: "", def_value: None }, CppParam { name: "categories", ty: "System::Text::StringBuilder", modifiers: "", def_value: None }, CppParam { name: "subtraction", ty: "System::Text::RegularExpressions::RegexCharClass", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexCharClass::RegexCharClass(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexCharClass>(negate, ranges, categories, subtraction))) {}
+ System::Text::RegularExpressions::RegexCharClass System::Text::RegularExpressions::RegexCharClass::New_ctor(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction)  {
+System::Text::RegularExpressions::RegexCharClass o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexCharClass>(negate, ranges, categories, subtraction))};
+return o;
+}
  void System::Text::RegularExpressions::RegexCharClass::_ctor(bool negate, System::Collections::Generic::List_1<System::Text::RegularExpressions::System__Text__RegularExpressions__RegexCharClass__SingleRange> ranges, System::Text::StringBuilder categories, System::Text::RegularExpressions::RegexCharClass subtraction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexCharClass>::get(),

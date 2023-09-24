@@ -3,32 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpPublicKey;
-}
-namespace Org::BouncyCastle::Bcpg {
-class OnePassSignaturePacket;
-}
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpSignature;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class Packet;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+class OnePassSignaturePacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+class Packet;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpPublicKey;
+}
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpSignature;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -117,14 +117,12 @@ constexpr uint8_t __get_lastb() const;
 /// @brief Method Cast addr 0x10254ac size 0xd0 virtual false final false
 static Org::BouncyCastle::Bcpg::OnePassSignaturePacket Cast(Org::BouncyCastle::Bcpg::Packet packet) ;
 
-// Ctor Parameters [CppParam { name: "bcpgInput", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit PgpOnePassSignature(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
 /// @brief Method .ctor addr 0x1025188 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgInput) ;
 
-// Ctor Parameters [CppParam { name: "sigPack", ty: "Org::BouncyCastle::Bcpg::OnePassSignaturePacket", modifiers: "", def_value: None }]
-explicit PgpOnePassSignature(Org::BouncyCastle::Bcpg::OnePassSignaturePacket sigPack) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature New_ctor(Org::BouncyCastle::Bcpg::OnePassSignaturePacket sigPack) ;
 
 /// @brief Method .ctor addr 0x102557c size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::OnePassSignaturePacket sigPack) ;

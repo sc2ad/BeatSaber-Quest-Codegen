@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__UserInfo__Platform;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__UserInfo__Platform;
@@ -63,6 +66,8 @@ __PS5 = 4,
 constexpr operator __GlobalNamespace__UserInfo__Platform_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__UserInfo__Platform_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -157,8 +162,7 @@ constexpr ::StringW __get_userName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "platform", ty: "GlobalNamespace::GlobalNamespace__UserInfo__Platform", modifiers: "", def_value: None }, CppParam { name: "platformUserId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UserInfo(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;
+static GlobalNamespace::UserInfo New_ctor(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;
 
 /// @brief Method .ctor addr 0x221da98 size 0x3c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName) ;

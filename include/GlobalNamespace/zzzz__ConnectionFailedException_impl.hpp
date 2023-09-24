@@ -42,8 +42,10 @@ constexpr void GlobalNamespace::ConnectionFailedException::__set_reason(GlobalNa
 constexpr GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedException::__get_reason() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ConnectionFailedReason, 0x8c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reason", ty: "GlobalNamespace::ConnectionFailedReason", modifiers: "", def_value: None }]
- GlobalNamespace::ConnectionFailedException::ConnectionFailedException(GlobalNamespace::ConnectionFailedReason reason)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<ConnectionFailedException>(reason))) {}
+ GlobalNamespace::ConnectionFailedException GlobalNamespace::ConnectionFailedException::New_ctor(GlobalNamespace::ConnectionFailedReason reason)  {
+GlobalNamespace::ConnectionFailedException o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConnectionFailedException>(reason))};
+return o;
+}
  void GlobalNamespace::ConnectionFailedException::_ctor(GlobalNamespace::ConnectionFailedReason reason)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConnectionFailedException>::get(),
@@ -53,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reason);
 }
-// Ctor Parameters [CppParam { name: "reason", ty: "GlobalNamespace::ConnectionFailedReason", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::ConnectionFailedException::ConnectionFailedException(GlobalNamespace::ConnectionFailedReason reason, ::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<ConnectionFailedException>(reason, message))) {}
+ GlobalNamespace::ConnectionFailedException GlobalNamespace::ConnectionFailedException::New_ctor(GlobalNamespace::ConnectionFailedReason reason, ::StringW message)  {
+GlobalNamespace::ConnectionFailedException o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ConnectionFailedException>(reason, message))};
+return o;
+}
  void GlobalNamespace::ConnectionFailedException::_ctor(GlobalNamespace::ConnectionFailedReason reason, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ConnectionFailedException>::get(),

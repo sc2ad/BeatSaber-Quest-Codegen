@@ -5,14 +5,14 @@
 namespace UnityEngine {
 struct Color;
 }
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ constexpr TMPro::TextMeshProUGUI __get__valueText() const;
 /// @brief Method set_hideValueText addr 0x218ed6c size 0x34 virtual false final false
  void set_hideValueText(bool value) ;
 
-// Ctor Parameters []
-explicit ResultObjectiveListItem() ;
+static GlobalNamespace::ResultObjectiveListItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x218eda0 size 0x8 virtual false final false
  void _ctor() ;

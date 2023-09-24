@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace System::Security::Cryptography {
 class HashAlgorithm;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Mono::Security::Authenticode {
@@ -118,8 +118,7 @@ constexpr bool __get_pe64() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AuthenticodeBase() ;
+static Mono::Security::Authenticode::AuthenticodeBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x229cdc8 size 0x5c virtual false final false
  void _ctor() ;

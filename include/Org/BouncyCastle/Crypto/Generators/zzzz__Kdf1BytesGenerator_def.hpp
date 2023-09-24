@@ -50,8 +50,7 @@ constexpr explicit Kdf1BytesGenerator(void* ptr) noexcept : Org::BouncyCastle::C
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit Kdf1BytesGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Generators::Kdf1BytesGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe711bc size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

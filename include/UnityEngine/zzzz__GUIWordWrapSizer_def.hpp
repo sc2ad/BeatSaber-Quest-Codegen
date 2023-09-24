@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace UnityEngine {
-class GUILayoutOption;
+class GUIStyle;
 }
 namespace UnityEngine {
 class GUIContent;
 }
 namespace UnityEngine {
-class GUIStyle;
+class GUILayoutOption;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -79,8 +79,7 @@ constexpr float_t __get_m_ForcedMaxHeight() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "style", ty: "UnityEngine::GUIStyle", modifiers: "", def_value: None }, CppParam { name: "content", ty: "UnityEngine::GUIContent", modifiers: "", def_value: None }, CppParam { name: "options", ty: "::ArrayW<UnityEngine::GUILayoutOption>", modifiers: "", def_value: None }]
-explicit GUIWordWrapSizer(UnityEngine::GUIStyle style, UnityEngine::GUIContent content, ::ArrayW<UnityEngine::GUILayoutOption> options) ;
+static UnityEngine::GUIWordWrapSizer New_ctor(UnityEngine::GUIStyle style, UnityEngine::GUIContent content, ::ArrayW<UnityEngine::GUILayoutOption> options) ;
 
 /// @brief Method .ctor addr 0x2b83dec size 0xdc virtual false final false
  void _ctor(UnityEngine::GUIStyle style, UnityEngine::GUIContent content, ::ArrayW<UnityEngine::GUILayoutOption> options) ;

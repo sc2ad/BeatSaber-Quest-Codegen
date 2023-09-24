@@ -144,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cms::ScvpReqRes, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::ScvpReqRes::ScvpReqRes(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ScvpReqRes>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::ScvpReqRes Org::BouncyCastle::Asn1::Cms::ScvpReqRes::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::ScvpReqRes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::ScvpReqRes>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::ScvpReqRes::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::ScvpReqRes>::get(),
@@ -155,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "response", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::ScvpReqRes::ScvpReqRes(Org::BouncyCastle::Asn1::Cms::ContentInfo response)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ScvpReqRes>(response))) {}
+ Org::BouncyCastle::Asn1::Cms::ScvpReqRes Org::BouncyCastle::Asn1::Cms::ScvpReqRes::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo response)  {
+Org::BouncyCastle::Asn1::Cms::ScvpReqRes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::ScvpReqRes>(response))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::ScvpReqRes::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo response)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::ScvpReqRes>::get(),
@@ -166,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, response);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }, CppParam { name: "response", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::ScvpReqRes::ScvpReqRes(Org::BouncyCastle::Asn1::Cms::ContentInfo request, Org::BouncyCastle::Asn1::Cms::ContentInfo response)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ScvpReqRes>(request, response))) {}
+ Org::BouncyCastle::Asn1::Cms::ScvpReqRes Org::BouncyCastle::Asn1::Cms::ScvpReqRes::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo request, Org::BouncyCastle::Asn1::Cms::ContentInfo response)  {
+Org::BouncyCastle::Asn1::Cms::ScvpReqRes o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::ScvpReqRes>(request, response))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::ScvpReqRes::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo request, Org::BouncyCastle::Asn1::Cms::ContentInfo response)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::ScvpReqRes>::get(),

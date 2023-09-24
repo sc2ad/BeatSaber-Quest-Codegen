@@ -72,8 +72,7 @@ constexpr System::Collections::Hashtable __get__caps() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "regex", ty: "System::Text::RegularExpressions::Regex", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "begpos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startpos", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MatchSparse(System::Text::RegularExpressions::Regex regex, System::Collections::Hashtable caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos) ;
+static System::Text::RegularExpressions::MatchSparse New_ctor(System::Text::RegularExpressions::Regex regex, System::Collections::Hashtable caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos) ;
 
 /// @brief Method .ctor addr 0x27becdc size 0xb0 virtual false final false
  void _ctor(System::Text::RegularExpressions::Regex regex, System::Collections::Hashtable caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos) ;

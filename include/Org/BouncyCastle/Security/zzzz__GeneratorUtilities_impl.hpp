@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Security/zzzz__GeneratorUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Security::GeneratorUtilities._ctor
 template<>
 
@@ -260,8 +260,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "kpgA
  System::Collections::IDictionary Org::BouncyCastle::Security::GeneratorUtilities::__get_defaultKeySizes()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "defaultKeySizes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::GeneratorUtilities>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Security::GeneratorUtilities::GeneratorUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GeneratorUtilities>())) {}
+ Org::BouncyCastle::Security::GeneratorUtilities Org::BouncyCastle::Security::GeneratorUtilities::New_ctor()  {
+Org::BouncyCastle::Security::GeneratorUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Security::GeneratorUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Security::GeneratorUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Security::GeneratorUtilities>::get(),

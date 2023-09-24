@@ -4,18 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net::Sockets {
-struct AddressFamily;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Net {
-class IPEndPoint;
+class IPAddress;
 }
 namespace System::Net {
-class IPAddress;
+class IPEndPoint;
+}
+namespace System::Net::Sockets {
+struct AddressFamily;
 }
 namespace LiteNetLib {
 struct LocalAddrType;

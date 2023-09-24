@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -83,20 +83,17 @@ static Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier GetInstance(::bs_hook
 /// @brief Method FromExtensions addr 0x110cf70 size 0x74 virtual false final false
 static Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier FromExtensions(Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "keyID", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifier(::ArrayW<uint8_t> keyID) ;
+static Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier New_ctor(::ArrayW<uint8_t> keyID) ;
 
 /// @brief Method .ctor addr 0x110cfe4 size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> keyID) ;
 
-// Ctor Parameters [CppParam { name: "keyID", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifier(Org::BouncyCastle::Asn1::Asn1OctetString keyID) ;
+static Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString keyID) ;
 
 /// @brief Method .ctor addr 0x110cf3c size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString keyID) ;
 
-// Ctor Parameters [CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
-explicit SubjectKeyIdentifier(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
+static Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier New_ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
 
 /// @brief Method .ctor addr 0x110cf0c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;

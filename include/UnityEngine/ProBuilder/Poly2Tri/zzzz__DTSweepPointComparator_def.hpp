@@ -2,12 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -61,8 +61,7 @@ constexpr explicit DTSweepPointComparator(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method Compare addr 0x29a13cc size 0x50 virtual true final true
  int32_t Compare(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
 
-// Ctor Parameters []
-explicit DTSweepPointComparator() ;
+static UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a0b30 size 0x8 virtual false final false
  void _ctor() ;

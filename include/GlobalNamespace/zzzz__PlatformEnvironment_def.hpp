@@ -57,6 +57,8 @@ constexpr operator __PlatformEnvironment_Unwrapped () const noexcept {
 return std::bit_cast<__PlatformEnvironment_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+
 
 // Fields
 

@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/zzzz__V1TbsCertificateGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerTaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerUtcTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__Time_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__TbsCertificateStructure_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerUtcTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator._ctor
 template<>
 
@@ -243,8 +243,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::__set_s
 constexpr Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::__get_subjectPublicKeyInfo() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::V1TbsCertificateGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<V1TbsCertificateGenerator>())) {}
+ Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::New_ctor()  {
+Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator>::get(),

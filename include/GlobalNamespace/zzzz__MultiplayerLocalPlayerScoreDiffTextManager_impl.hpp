@@ -1,13 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalPlayerScoreDiffTextManager_def.hpp"
-#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
+#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerScoreProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager.Start
 template<>
 
@@ -171,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, newState);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager::MultiplayerLocalPlayerScoreDiffTextManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalPlayerScoreDiffTextManager>())) {}
+ GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager::New_ctor()  {
+GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager>::get(),

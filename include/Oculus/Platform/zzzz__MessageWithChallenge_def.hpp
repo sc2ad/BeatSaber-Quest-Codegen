@@ -52,8 +52,7 @@ constexpr explicit MessageWithChallenge(void* ptr) noexcept : Oculus::Platform::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithChallenge(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithChallenge New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e2c8 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

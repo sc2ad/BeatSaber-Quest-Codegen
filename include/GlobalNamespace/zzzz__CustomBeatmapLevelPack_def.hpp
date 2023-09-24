@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class CustomBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace GlobalNamespace {
-class CustomBeatmapLevelCollection;
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -151,8 +151,7 @@ constexpr GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollection
 /// @brief Method get_isPackAlwaysOwned addr 0x21e963c size 0x8 virtual false final false
  bool get_isPackAlwaysOwned() ;
 
-// Ctor Parameters [CppParam { name: "packID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "shortPackName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "smallCoverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelCollection", ty: "GlobalNamespace::CustomBeatmapLevelCollection", modifiers: "", def_value: None }]
-explicit CustomBeatmapLevelPack(::StringW packID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;
+static GlobalNamespace::CustomBeatmapLevelPack New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;
 
 /// @brief Method .ctor addr 0x21e9644 size 0x54 virtual false final false
  void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::CustomBeatmapLevelCollection beatmapLevelCollection) ;

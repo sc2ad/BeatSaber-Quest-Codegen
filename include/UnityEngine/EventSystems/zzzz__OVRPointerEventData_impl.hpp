@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRPointerEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 //  Writing Method size for method: UnityEngine::EventSystems::OVRPointerEventData._ctor
 template<>
@@ -50,8 +50,10 @@ constexpr void UnityEngine::EventSystems::OVRPointerEventData::__set_swipeStart(
 constexpr UnityEngine::Vector2 UnityEngine::EventSystems::OVRPointerEventData::__get_swipeStart() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector2, 0x178>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
- UnityEngine::EventSystems::OVRPointerEventData::OVRPointerEventData(UnityEngine::EventSystems::EventSystem eventSystem)  : UnityEngine::EventSystems::PointerEventData(THROW_UNLESS(::il2cpp_utils::New<OVRPointerEventData>(eventSystem))) {}
+ UnityEngine::EventSystems::OVRPointerEventData UnityEngine::EventSystems::OVRPointerEventData::New_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
+UnityEngine::EventSystems::OVRPointerEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::EventSystems::OVRPointerEventData>(eventSystem))};
+return o;
+}
  void UnityEngine::EventSystems::OVRPointerEventData::_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::EventSystems::OVRPointerEventData>::get(),

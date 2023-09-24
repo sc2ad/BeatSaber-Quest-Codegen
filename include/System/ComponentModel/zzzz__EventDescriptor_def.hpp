@@ -52,8 +52,7 @@ constexpr explicit EventDescriptor(void* ptr) noexcept : System::ComponentModel:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit EventDescriptor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
+static System::ComponentModel::EventDescriptor New_ctor(::StringW name, ::ArrayW<System::Attribute> attrs) ;
 
 /// @brief Method .ctor addr 0x277c54c size 0x8 virtual false final false
  void _ctor(::StringW name, ::ArrayW<System::Attribute> attrs) ;

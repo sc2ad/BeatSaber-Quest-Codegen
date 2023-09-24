@@ -178,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::ResponseDescription::ResponseDescription()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResponseDescription>())) {}
+ System::Net::ResponseDescription System::Net::ResponseDescription::New_ctor()  {
+System::Net::ResponseDescription o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ResponseDescription>())};
+return o;
+}
  void System::Net::ResponseDescription::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ResponseDescription>::get(),

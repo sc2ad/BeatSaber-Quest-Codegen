@@ -94,8 +94,7 @@ constexpr ::ArrayW<uint8_t> __get_seed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DigestRandomGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xeb3ef0 size 0x168 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

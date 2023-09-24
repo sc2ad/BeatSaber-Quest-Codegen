@@ -73,8 +73,7 @@ constexpr uint8_t __get_mSignature() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hash", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit SignatureAndHashAlgorithm(uint8_t hash, uint8_t signature) ;
+static Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm New_ctor(uint8_t hash, uint8_t signature) ;
 
 /// @brief Method .ctor addr 0xf094b8 size 0x164 virtual false final false
  void _ctor(uint8_t hash, uint8_t signature) ;

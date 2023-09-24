@@ -3,11 +3,12 @@
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
-#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnEventEffect_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterSpawnAnimationController_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacterSpawnController_def.hpp"
+#include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19._ctor
@@ -142,8 +143,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___T
 constexpr GlobalNamespace::BTSCharacterSpawnController GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BTSCharacterSpawnController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19>::get(),
@@ -523,8 +526,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BTSCharacterSpawnController::BTSCharacterSpawnController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BTSCharacterSpawnController>())) {}
+ GlobalNamespace::BTSCharacterSpawnController GlobalNamespace::BTSCharacterSpawnController::New_ctor()  {
+GlobalNamespace::BTSCharacterSpawnController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BTSCharacterSpawnController>())};
+return o;
+}
  void GlobalNamespace::BTSCharacterSpawnController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BTSCharacterSpawnController>::get(),

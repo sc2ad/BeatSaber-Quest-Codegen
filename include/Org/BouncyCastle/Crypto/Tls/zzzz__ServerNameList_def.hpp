@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace System::Collections {
 class IList;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -69,8 +69,7 @@ constexpr System::Collections::IList __get_mServerNameList() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "serverNameList", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit ServerNameList(System::Collections::IList serverNameList) ;
+static Org::BouncyCastle::Crypto::Tls::ServerNameList New_ctor(System::Collections::IList serverNameList) ;
 
 /// @brief Method .ctor addr 0xf0809c size 0x78 virtual false final false
  void _ctor(System::Collections::IList serverNameList) ;

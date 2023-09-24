@@ -147,8 +147,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::__set_mBas
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::__get_mBaseDigest() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "baseDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::NonMemoableDigest(Org::BouncyCastle::Crypto::IDigest baseDigest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NonMemoableDigest>(baseDigest))) {}
+ Org::BouncyCastle::Crypto::Digests::NonMemoableDigest Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::New_ctor(Org::BouncyCastle::Crypto::IDigest baseDigest)  {
+Org::BouncyCastle::Crypto::Digests::NonMemoableDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::NonMemoableDigest>(baseDigest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::_ctor(Org::BouncyCastle::Crypto::IDigest baseDigest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::NonMemoableDigest>::get(),

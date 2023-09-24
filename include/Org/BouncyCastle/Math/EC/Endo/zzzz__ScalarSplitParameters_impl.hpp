@@ -205,8 +205,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, v, name);
 }
-// Ctor Parameters [CppParam { name: "v1", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "v2", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "g1", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g2", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "bits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::ScalarSplitParameters(::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScalarSplitParameters>(v1, v2, g1, g2, bits))) {}
+ Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::New_ctor(::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits)  {
+Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters>(v1, v2, g1, g2, bits))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::_ctor(::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters>::get(),

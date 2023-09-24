@@ -63,8 +63,7 @@ constexpr ::ArrayW<GlobalNamespace::SceneInfo> __get__sceneInfos() const;
 /// @brief Method Init addr 0x1f82a04 size 0x10 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit FixedScenesScenesTransitionSetupDataSO() ;
+static GlobalNamespace::FixedScenesScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f82a20 size 0x8 virtual false final false
  void _ctor() ;

@@ -94,8 +94,7 @@ static bool get_hasInputFocus() ;
 /// @brief Method Update addr 0x2adec1c size 0xa0 virtual false final false
 static void Update() ;
 
-// Ctor Parameters []
-explicit InputFocus() ;
+static Unity::XR::Oculus::InputFocus New_ctor() ;
 
 /// @brief Method .ctor addr 0x2adecbc size 0x8 virtual false final false
  void _ctor() ;

@@ -5,14 +5,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace Unity::Collections::LowLevel::Unsafe {
+template<typename T>
+struct Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1;
+}
 namespace System {
 class Array;
 }
 namespace System {
 class Type;
-}
-namespace Unity::Collections {
-struct Allocator;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {

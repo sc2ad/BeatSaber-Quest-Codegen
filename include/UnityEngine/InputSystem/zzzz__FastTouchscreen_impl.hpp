@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__Touchscreen_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__FastTouchscreen_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__DoubleControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__TouchPressControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DeltaControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__TouchPressControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DoubleControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::FastTouchscreen._ctor
 template<>
 
@@ -4959,8 +4959,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::FastTouchscreen::FastTouchscreen()  : UnityEngine::InputSystem::Touchscreen(THROW_UNLESS(::il2cpp_utils::New<FastTouchscreen>())) {}
+ UnityEngine::InputSystem::FastTouchscreen UnityEngine::InputSystem::FastTouchscreen::New_ctor()  {
+UnityEngine::InputSystem::FastTouchscreen o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::FastTouchscreen>())};
+return o;
+}
  void UnityEngine::InputSystem::FastTouchscreen::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::FastTouchscreen>::get(),

@@ -7,11 +7,11 @@ class Type;
 namespace System::Reflection {
 class EventInfo;
 }
-namespace System::Collections {
-class IList;
-}
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -98,8 +98,7 @@ constexpr bool __get__filledMethods() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "eventInfo", ty: "System::Reflection::EventInfo", modifiers: "", def_value: None }]
-explicit ReflectEventDescriptor(System::Type componentClass, System::Reflection::EventInfo eventInfo) ;
+static System::ComponentModel::ReflectEventDescriptor New_ctor(System::Type componentClass, System::Reflection::EventInfo eventInfo) ;
 
 /// @brief Method .ctor addr 0x27842c4 size 0x178 virtual false final false
  void _ctor(System::Type componentClass, System::Reflection::EventInfo eventInfo) ;

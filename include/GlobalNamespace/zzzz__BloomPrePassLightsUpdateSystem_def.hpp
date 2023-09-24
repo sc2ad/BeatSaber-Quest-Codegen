@@ -50,8 +50,7 @@ constexpr explicit BloomPrePassLightsUpdateSystem(void* ptr) noexcept : UnityEng
 /// @brief Method LateUpdate addr 0x1f94bb4 size 0x2f0 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit BloomPrePassLightsUpdateSystem() ;
+static GlobalNamespace::BloomPrePassLightsUpdateSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f94ea4 size 0x8 virtual false final false
  void _ctor() ;

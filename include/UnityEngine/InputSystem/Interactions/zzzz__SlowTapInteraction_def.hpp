@@ -98,8 +98,7 @@ constexpr double_t __get_m_SlowTapStartTime() const;
 /// @brief Method Reset addr 0x297a8a8 size 0x8 virtual true final true
  void Reset() ;
 
-// Ctor Parameters []
-explicit SlowTapInteraction() ;
+static UnityEngine::InputSystem::Interactions::SlowTapInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x297a8b0 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ArrayList;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
-}
 namespace Mono::Security::X509 {
 class X509Crl;
 }
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -102,8 +102,7 @@ constexpr bool __get__newFormat() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "crl", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "newFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit X509Store(::StringW path, bool crl, bool newFormat) ;
+static Mono::Security::X509::X509Store New_ctor(::StringW path, bool crl, bool newFormat) ;
 
 /// @brief Method .ctor addr 0x228ff40 size 0x40 virtual false final false
  void _ctor(::StringW path, bool crl, bool newFormat) ;

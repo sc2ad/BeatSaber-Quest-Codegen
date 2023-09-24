@@ -2,6 +2,7 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream._ctor
 template<>
@@ -60,8 +61,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__D
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream::__get_d() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "d", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream(Org::BouncyCastle::Crypto::IDigest d)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream>(d))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream::New_ctor(Org::BouncyCastle::Crypto::IDigest d)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream>(d))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream::_ctor(Org::BouncyCastle::Crypto::IDigest d)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DigestInputBuffer__DigStream>::get(),
@@ -132,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, d);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::DigestInputBuffer::DigestInputBuffer()  : System::IO::MemoryStream(THROW_UNLESS(::il2cpp_utils::New<DigestInputBuffer>())) {}
+ Org::BouncyCastle::Crypto::Tls::DigestInputBuffer Org::BouncyCastle::Crypto::Tls::DigestInputBuffer::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::DigestInputBuffer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DigestInputBuffer>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DigestInputBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DigestInputBuffer>::get(),

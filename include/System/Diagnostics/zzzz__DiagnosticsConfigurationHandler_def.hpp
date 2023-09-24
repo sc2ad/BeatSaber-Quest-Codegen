@@ -56,8 +56,7 @@ constexpr explicit DiagnosticsConfigurationHandler(void* ptr) noexcept : ::bs_ho
 
 // Methods
 
-// Ctor Parameters []
-explicit DiagnosticsConfigurationHandler() ;
+static System::Diagnostics::DiagnosticsConfigurationHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b27f4 size 0x38 virtual false final false
  void _ctor() ;

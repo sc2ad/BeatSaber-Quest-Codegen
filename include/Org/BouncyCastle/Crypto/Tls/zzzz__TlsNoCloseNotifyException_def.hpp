@@ -47,8 +47,7 @@ constexpr explicit TlsNoCloseNotifyException(void* ptr) noexcept : System::IO::E
 
 // Methods
 
-// Ctor Parameters []
-explicit TlsNoCloseNotifyException() ;
+static Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException New_ctor() ;
 
 /// @brief Method .ctor addr 0xf21b58 size 0x4c virtual false final false
  void _ctor() ;

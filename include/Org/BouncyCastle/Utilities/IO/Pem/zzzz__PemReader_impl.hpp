@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::IO::Pem::PemReader._ctor
 template<>
 
@@ -76,8 +76,10 @@ constexpr void Org::BouncyCastle::Utilities::IO::Pem::PemReader::__set_reader(Sy
 constexpr System::IO::TextReader Org::BouncyCastle::Utilities::IO::Pem::PemReader::__get_reader() const {
 return ::cordl_internals::getInstanceField<System::IO::TextReader, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::TextReader", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::Pem::PemReader::PemReader(System::IO::TextReader reader)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PemReader>(reader))) {}
+ Org::BouncyCastle::Utilities::IO::Pem::PemReader Org::BouncyCastle::Utilities::IO::Pem::PemReader::New_ctor(System::IO::TextReader reader)  {
+Org::BouncyCastle::Utilities::IO::Pem::PemReader o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::Pem::PemReader>(reader))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::Pem::PemReader::_ctor(System::IO::TextReader reader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::Pem::PemReader>::get(),

@@ -65,8 +65,7 @@ constexpr ::StringW __get__missionHelpId() const;
 /// @brief Method get_missionHelpId addr 0x21f0ecc size 0x8 virtual false final false
  ::StringW get_missionHelpId() ;
 
-// Ctor Parameters []
-explicit MissionHelpSO() ;
+static GlobalNamespace::MissionHelpSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f0ed4 size 0x8 virtual false final false
  void _ctor() ;

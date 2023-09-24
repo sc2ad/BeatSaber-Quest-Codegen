@@ -7,11 +7,11 @@ struct LazyState;
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
-namespace System {
-class Exception;
-}
 namespace System::Threading {
 struct LazyThreadSafetyMode;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Type;
@@ -115,14 +115,12 @@ constexpr System::Runtime::ExceptionServices::ExceptionDispatchInfo __get__excep
 /// @brief Method get_State addr 0x2440978 size 0x8 virtual false final false
  System::LazyState get_State() ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "System::LazyState", modifiers: "", def_value: None }]
-explicit LazyHelper(System::LazyState state) ;
+static System::LazyHelper New_ctor(System::LazyState state) ;
 
 /// @brief Method .ctor addr 0x2440980 size 0x28 virtual false final false
  void _ctor(System::LazyState state) ;
 
-// Ctor Parameters [CppParam { name: "mode", ty: "System::Threading::LazyThreadSafetyMode", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit LazyHelper(System::Threading::LazyThreadSafetyMode mode, System::Exception exception) ;
+static System::LazyHelper New_ctor(System::Threading::LazyThreadSafetyMode mode, System::Exception exception) ;
 
 /// @brief Method .ctor addr 0x24409a8 size 0x50 virtual false final false
  void _ctor(System::Threading::LazyThreadSafetyMode mode, System::Exception exception) ;

@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
 namespace System {
 class Type;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {

@@ -3,10 +3,10 @@
 #include "System/zzzz__EventArgs_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeChangedAction;
 }
 namespace System::Xml {
-struct XmlNodeChangedAction;
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -98,8 +98,7 @@ constexpr ::StringW __get_newValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "node", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }, CppParam { name: "oldParent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }, CppParam { name: "newParent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }, CppParam { name: "oldValue", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "newValue", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Xml::XmlNodeChangedAction", modifiers: "", def_value: None }]
-explicit XmlNodeChangedEventArgs(System::Xml::XmlNode node, System::Xml::XmlNode oldParent, System::Xml::XmlNode newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action) ;
+static System::Xml::XmlNodeChangedEventArgs New_ctor(System::Xml::XmlNode node, System::Xml::XmlNode oldParent, System::Xml::XmlNode newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action) ;
 
 /// @brief Method .ctor addr 0x26fde18 size 0x9c virtual false final false
  void _ctor(System::Xml::XmlNode node, System::Xml::XmlNode oldParent, System::Xml::XmlNode newParent, ::StringW oldValue, ::StringW newValue, System::Xml::XmlNodeChangedAction action) ;

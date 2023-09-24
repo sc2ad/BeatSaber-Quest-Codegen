@@ -70,8 +70,10 @@ constexpr void UnityEngine::ProBuilder::Transform2D::__set_scale(UnityEngine::Ve
 constexpr UnityEngine::Vector2 UnityEngine::ProBuilder::Transform2D::__get_scale() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector2, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Transform2D::Transform2D(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Transform2D>(position, rotation, scale))) {}
+ UnityEngine::ProBuilder::Transform2D UnityEngine::ProBuilder::Transform2D::New_ctor(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale)  {
+UnityEngine::ProBuilder::Transform2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Transform2D>(position, rotation, scale))};
+return o;
+}
  void UnityEngine::ProBuilder::Transform2D::_ctor(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Transform2D>::get(),

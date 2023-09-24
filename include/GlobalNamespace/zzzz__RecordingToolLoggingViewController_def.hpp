@@ -71,8 +71,7 @@ constexpr GlobalNamespace::RecordingToolManager __get__recordingToolManager() co
 /// @brief Method DidActivate addr 0x217ee2c size 0xa4 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit RecordingToolLoggingViewController() ;
+static GlobalNamespace::RecordingToolLoggingViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217eed0 size 0x8 virtual false final false
  void _ctor() ;

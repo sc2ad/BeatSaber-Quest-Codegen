@@ -8,6 +8,12 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__SliderInt__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__SliderInt__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
 struct SliderDirection;
 }
 namespace UnityEngine::UIElements {
@@ -18,10 +24,13 @@ namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class UxmlIntAttributeDescription;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
@@ -29,9 +38,6 @@ class UxmlBoolAttributeDescription;
 namespace UnityEngine::UIElements {
 template<typename T>
 class UxmlEnumAttributeDescription_1;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,7 +52,7 @@ class UnityEngine__UIElements__SliderInt__UxmlTraits;
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7079)), TypeDefinitionIndex(TypeDefinitionIndex(7229)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 885 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7079)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 885 }), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7219))
 // CS Name: UnityEngine.UIElements.SliderInt::UxmlTraits
 class CORDL_TYPE UnityEngine__UIElements__SliderInt__UxmlTraits : public UnityEngine::UIElements::BaseFieldTraits_2<int32_t,UnityEngine::UIElements::UxmlIntAttributeDescription> {
@@ -127,8 +133,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_Inverted
 /// @brief Method Init addr 0x2cc2e58 size 0x2c0 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__SliderInt__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc3118 size 0x230 virtual false final false
  void _ctor() ;
@@ -209,14 +214,12 @@ static ::StringW __get_inputUssClassName() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SliderInt() ;
+static UnityEngine::UIElements::SliderInt New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc2318 size 0x18 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "direction", ty: "UnityEngine::UIElements::SliderDirection", modifiers: "", def_value: None }, CppParam { name: "pageSize", ty: "float_t", modifiers: "", def_value: None }]
-explicit SliderInt(::StringW label, int32_t start, int32_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize) ;
+static UnityEngine::UIElements::SliderInt New_ctor(::StringW label, int32_t start, int32_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize) ;
 
 /// @brief Method .ctor addr 0x2cc2330 size 0x14c virtual false final false
  void _ctor(::StringW label, int32_t start, int32_t end, UnityEngine::UIElements::SliderDirection direction, float_t pageSize) ;
@@ -249,7 +252,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7220)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5104 }), TypeDefinitionIndex(TypeDefinitionIndex(7219))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5104 }), TypeDefinitionIndex(TypeDefinitionIndex(7220)), TypeDefinitionIndex(TypeDefinitionIndex(7219)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7218))
 // CS Name: UnityEngine.UIElements.SliderInt::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__SliderInt__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::SliderInt,UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlTraits> {
@@ -288,8 +291,7 @@ constexpr explicit UnityEngine__UIElements__SliderInt__UxmlFactory(void* ptr) no
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__SliderInt__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__SliderInt__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc2e10 size 0x48 virtual false final false
  void _ctor() ;

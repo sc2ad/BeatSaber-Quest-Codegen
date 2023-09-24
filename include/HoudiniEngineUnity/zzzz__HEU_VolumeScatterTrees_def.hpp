@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HoudiniEngineUnity {
+class HEU_TreePrototypeInfo;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine {
+struct Color32;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_TreePrototypeInfo;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -130,8 +130,7 @@ constexpr ::ArrayW<int32_t> __get__terrainTiles() const;
 /// @brief Method IsEquivalentTo addr 0x20778b8 size 0x374 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeScatterTrees other) ;
 
-// Ctor Parameters []
-explicit HEU_VolumeScatterTrees() ;
+static HoudiniEngineUnity::HEU_VolumeScatterTrees New_ctor() ;
 
 /// @brief Method .ctor addr 0x2077c2c size 0x8 virtual false final false
  void _ctor() ;

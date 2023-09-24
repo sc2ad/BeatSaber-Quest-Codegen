@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_ReloadDataEvent::HEU_ReloadDataEvent()  : UnityEngine::Events::UnityEvent_1<HoudiniEngineUnity::HEU_ReloadEventData>(THROW_UNLESS(::il2cpp_utils::New<HEU_ReloadDataEvent>())) {}
+ HoudiniEngineUnity::HEU_ReloadDataEvent HoudiniEngineUnity::HEU_ReloadDataEvent::New_ctor()  {
+HoudiniEngineUnity::HEU_ReloadDataEvent o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_ReloadDataEvent>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_ReloadDataEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_ReloadDataEvent>::get(),

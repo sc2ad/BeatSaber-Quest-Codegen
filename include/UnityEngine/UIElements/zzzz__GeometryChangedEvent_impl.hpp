@@ -271,8 +271,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::GeometryChangedEvent::GeometryChangedEvent()  : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::GeometryChangedEvent>(THROW_UNLESS(::il2cpp_utils::New<GeometryChangedEvent>())) {}
+ UnityEngine::UIElements::GeometryChangedEvent UnityEngine::UIElements::GeometryChangedEvent::New_ctor()  {
+UnityEngine::UIElements::GeometryChangedEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::GeometryChangedEvent>())};
+return o;
+}
  void UnityEngine::UIElements::GeometryChangedEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::GeometryChangedEvent>::get(),

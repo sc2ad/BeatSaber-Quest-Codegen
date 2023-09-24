@@ -85,8 +85,7 @@ constexpr int32_t __get__leftOverBytesCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }]
-explicit Base64Encoder(System::IO::TextWriter writer) ;
+static Newtonsoft::Json::Utilities::Base64Encoder New_ctor(System::IO::TextWriter writer) ;
 
 /// @brief Method .ctor addr 0x24e18b8 size 0x8c virtual false final false
  void _ctor(System::IO::TextWriter writer) ;

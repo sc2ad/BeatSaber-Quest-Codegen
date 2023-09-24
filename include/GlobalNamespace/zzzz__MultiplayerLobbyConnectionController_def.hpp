@@ -4,39 +4,45 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-class SelectMultiplayerLobbyDestination;
-}
-namespace GlobalNamespace {
-class INetworkPlayer;
-}
-namespace GlobalNamespace {
-struct SongPackMask;
+class GlobalNamespace__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-struct CreateServerFormData;
+namespace System {
+class Action;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+class INetworkPlayer;
+}
+namespace GlobalNamespace {
+struct CreateServerFormData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionType;
+}
+namespace GlobalNamespace {
+class SelectMultiplayerLobbyDestination;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig;
+struct GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionState;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,6 +105,8 @@ __ConnectionFailed = 3,
 constexpr operator __GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -176,6 +184,8 @@ __QuickPlay = 3,
 constexpr operator __GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__MultiplayerLobbyConnectionController__LobbyConnectionType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -374,8 +384,7 @@ constexpr int32_t __get__retryAttemptsLeft() const;
 /// @brief Method HandleMultiplayerSessionManagerConnectionFailedWithRetry addr 0x2200130 size 0x12c virtual false final false
  void HandleMultiplayerSessionManagerConnectionFailedWithRetry(GlobalNamespace::ConnectionFailedReason reason) ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyConnectionController() ;
+static GlobalNamespace::MultiplayerLobbyConnectionController New_ctor() ;
 
 /// @brief Method .ctor addr 0x220025c size 0x8 virtual false final false
  void _ctor() ;

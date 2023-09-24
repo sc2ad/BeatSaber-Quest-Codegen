@@ -1,10 +1,10 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalInactivePlayerInstaller.InstallBindings
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::MultiplayerLocalInactivePlayerInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalInactivePlayerInstaller>())) {}
+ GlobalNamespace::MultiplayerLocalInactivePlayerInstaller GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::New_ctor()  {
+GlobalNamespace::MultiplayerLocalInactivePlayerInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalInactivePlayerInstaller>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalInactivePlayerInstaller>::get(),

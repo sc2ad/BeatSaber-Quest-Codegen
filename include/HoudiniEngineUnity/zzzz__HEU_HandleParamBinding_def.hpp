@@ -9,6 +9,9 @@ namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType;
+}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType;
@@ -66,6 +69,8 @@ __SCALE = 2,
 constexpr operator __HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_HandleParamBinding__HEU_HandleParamType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,8 +177,7 @@ constexpr ::ArrayW<bool> __get__boundChannels() const;
 /// @brief Method IsEquivalentTo addr 0x201ef4c size 0x200 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_HandleParamBinding other) ;
 
-// Ctor Parameters []
-explicit HEU_HandleParamBinding() ;
+static HoudiniEngineUnity::HEU_HandleParamBinding New_ctor() ;
 
 /// @brief Method .ctor addr 0x201e02c size 0x58 virtual false final false
  void _ctor() ;

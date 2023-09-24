@@ -8,28 +8,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Net {
-class WebRequest;
+struct FtpStatusCode;
 }
-namespace System::Net {
-class ResponseDescription;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net::Sockets {
-class Socket;
+namespace System {
+class WeakReference;
 }
 namespace System::Net {
 struct FtpLoginState;
 }
 namespace System::Net {
-class System__Net__CommandStream__PipelineEntry;
+struct System__Net__CommandStream__PipelineInstruction;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Net {
 class IPEndPoint;
 }
+namespace System::Net {
+struct System__Net__FtpControlStream__GetPathOption;
+}
 namespace System {
-class WeakReference;
+class IAsyncResult;
+}
+namespace System::Net {
+class System__Net__FtpControlStream____c__DisplayClass31_0;
 }
 namespace System::IO {
 class Stream;
@@ -37,38 +40,41 @@ class Stream;
 namespace System {
 struct DateTime;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Net {
+class IPAddress;
 }
-namespace System {
-class IAsyncResult;
+namespace System::Net {
+class FtpWebRequest;
+}
+namespace System::Net {
+class WebRequest;
+}
+namespace System::Net {
+class ResponseDescription;
 }
 namespace System::Net {
 class NetworkCredential;
-}
-namespace System::Net {
-struct System__Net__CommandStream__PipelineInstruction;
 }
 namespace System {
 class Uri;
 }
 namespace System::Net {
-class FtpWebRequest;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::Net {
-struct FtpStatusCode;
-}
-namespace System::Net {
 struct TriState;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net {
+class System__Net__CommandStream__PipelineEntry;
+}
+namespace System::Net::Sockets {
+class TcpClient;
 }
 namespace System::Net {
 class TlsStream;
 }
-namespace System::Net::Sockets {
-class TcpClient;
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Net {
@@ -130,6 +136,8 @@ __AssumeNoFilename = 2,
 constexpr operator __System__Net__FtpControlStream__GetPathOption_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__FtpControlStream__GetPathOption_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -210,8 +218,7 @@ constexpr System::Net::TlsStream __get_tlsStream() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__FtpControlStream____c__DisplayClass31_0() ;
+static System::Net::System__Net__FtpControlStream____c__DisplayClass31_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x27fee1c size 0x8 virtual false final false
  void _ctor() ;
@@ -421,8 +428,7 @@ static System::AsyncCallback __get_s_SSLHandshakeCallback() ;
 /// @brief Method set_Credentials addr 0x27fd6c4 size 0x80 virtual false final false
  void set_Credentials(System::Net::NetworkCredential value) ;
 
-// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
-explicit FtpControlStream(System::Net::Sockets::TcpClient client) ;
+static System::Net::FtpControlStream New_ctor(System::Net::Sockets::TcpClient client) ;
 
 /// @brief Method .ctor addr 0x27fd744 size 0x8c virtual false final false
  void _ctor(System::Net::Sockets::TcpClient client) ;

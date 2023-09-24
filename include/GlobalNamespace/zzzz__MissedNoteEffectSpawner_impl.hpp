@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissedNoteEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingSpriteSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingSpriteSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissedNoteEffectSpawner.Start
 template<>
 
@@ -131,8 +131,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::MissedNoteEffectSpawner::MissedNoteEffectSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissedNoteEffectSpawner>())) {}
+ GlobalNamespace::MissedNoteEffectSpawner GlobalNamespace::MissedNoteEffectSpawner::New_ctor()  {
+GlobalNamespace::MissedNoteEffectSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissedNoteEffectSpawner>())};
+return o;
+}
  void GlobalNamespace::MissedNoteEffectSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissedNoteEffectSpawner>::get(),

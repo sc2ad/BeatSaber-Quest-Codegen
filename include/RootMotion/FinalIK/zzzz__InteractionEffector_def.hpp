@@ -4,24 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
-}
-namespace RootMotion::FinalIK {
-class Poser;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class InteractionTarget;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -29,11 +11,29 @@ class List_1;
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace RootMotion::FinalIK {
-class InteractionSystem;
+class Poser;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class InteractionObject;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class InteractionTarget;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class InteractionSystem;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -334,8 +334,7 @@ constexpr bool __get_started() const;
 /// @brief Method get_inInteraction addr 0x11f7680 size 0x60 virtual false final false
  bool get_inInteraction() ;
 
-// Ctor Parameters [CppParam { name: "effectorType", ty: "RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }]
-explicit InteractionEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;
+static RootMotion::FinalIK::InteractionEffector New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;
 
 /// @brief Method .ctor addr 0x11f76e0 size 0x90 virtual false final false
  void _ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType) ;

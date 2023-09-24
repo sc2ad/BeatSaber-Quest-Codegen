@@ -11,10 +11,10 @@ namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -91,8 +91,7 @@ constexpr bool __get_forSigning() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit GenericSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::GenericSigner New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xebe218 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher engine, Org::BouncyCastle::Crypto::IDigest digest) ;

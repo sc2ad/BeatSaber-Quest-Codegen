@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::Timeline::TrackColorAttribute::TrackColorAttribute(float_t r, float_t g, float_t b)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TrackColorAttribute>(r, g, b))) {}
+ UnityEngine::Timeline::TrackColorAttribute UnityEngine::Timeline::TrackColorAttribute::New_ctor(float_t r, float_t g, float_t b)  {
+UnityEngine::Timeline::TrackColorAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::TrackColorAttribute>(r, g, b))};
+return o;
+}
  void UnityEngine::Timeline::TrackColorAttribute::_ctor(float_t r, float_t g, float_t b)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::TrackColorAttribute>::get(),

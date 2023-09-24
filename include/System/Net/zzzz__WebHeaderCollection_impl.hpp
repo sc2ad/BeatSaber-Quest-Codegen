@@ -3,13 +3,14 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollectionType_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Net/zzzz__HeaderInfoTable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollectionType_def.hpp"
+#include "System/Net/zzzz__HeaderInfoTable_def.hpp"
 #include "System/Net/zzzz__HttpRequestHeader_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__WebHeaderCollection__RfcChar::System__Net__WebHeaderCollection__RfcChar(uint8_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -783,8 +784,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, cc, winInetCompat, forTrace);
 }
-// Ctor Parameters []
- System::Net::WebHeaderCollection::WebHeaderCollection()  : System::Collections::Specialized::NameValueCollection(THROW_UNLESS(::il2cpp_utils::New<WebHeaderCollection>())) {}
+ System::Net::WebHeaderCollection System::Net::WebHeaderCollection::New_ctor()  {
+System::Net::WebHeaderCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebHeaderCollection>())};
+return o;
+}
  void System::Net::WebHeaderCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebHeaderCollection>::get(),
@@ -794,8 +797,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Net::WebHeaderCollectionType", modifiers: "", def_value: None }]
- System::Net::WebHeaderCollection::WebHeaderCollection(System::Net::WebHeaderCollectionType type)  : System::Collections::Specialized::NameValueCollection(THROW_UNLESS(::il2cpp_utils::New<WebHeaderCollection>(type))) {}
+ System::Net::WebHeaderCollection System::Net::WebHeaderCollection::New_ctor(System::Net::WebHeaderCollectionType type)  {
+System::Net::WebHeaderCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebHeaderCollection>(type))};
+return o;
+}
  void System::Net::WebHeaderCollection::_ctor(System::Net::WebHeaderCollectionType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebHeaderCollection>::get(),
@@ -805,8 +810,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::WebHeaderCollection::WebHeaderCollection(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::Collections::Specialized::NameValueCollection(THROW_UNLESS(::il2cpp_utils::New<WebHeaderCollection>(serializationInfo, streamingContext))) {}
+ System::Net::WebHeaderCollection System::Net::WebHeaderCollection::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::WebHeaderCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebHeaderCollection>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::WebHeaderCollection::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebHeaderCollection>::get(),

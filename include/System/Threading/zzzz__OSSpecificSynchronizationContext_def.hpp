@@ -4,15 +4,24 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Runtime::CompilerServices {
-template<typename TKey,typename TValue>
-class ConditionalWeakTable_2;
-}
 namespace System::Threading {
 class SynchronizationContext;
 }
 namespace System::Threading {
 class SendOrPostCallback;
+}
+namespace System::Threading {
+class System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate;
+}
+namespace System::Threading {
+class System__Threading__OSSpecificSynchronizationContext____c;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TKey,typename TValue>
+class ConditionalWeakTable_2;
+}
+namespace System::Threading {
+class System__Threading__OSSpecificSynchronizationContext__InvocationContext;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TKey,typename TValue>
@@ -73,8 +82,7 @@ constexpr explicit System__Threading__OSSpecificSynchronizationContext__Invocati
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x24abb20 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -143,8 +151,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_State() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "d", ty: "System::Threading::SendOrPostCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit System__Threading__OSSpecificSynchronizationContext__InvocationContext(System::Threading::SendOrPostCallback d, ::bs_hook::Il2CppWrapperType state) ;
+static System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext New_ctor(System::Threading::SendOrPostCallback d, ::bs_hook::Il2CppWrapperType state) ;
 
 /// @brief Method .ctor addr 0x24abbe4 size 0x2c virtual false final false
  void _ctor(System::Threading::SendOrPostCallback d, ::bs_hook::Il2CppWrapperType state) ;
@@ -213,8 +220,7 @@ static System::Runtime::CompilerServices::System__Runtime__CompilerServices__Con
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__OSSpecificSynchronizationContext____c() ;
+static System::Threading::System__Threading__OSSpecificSynchronizationContext____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24abd40 size 0x8 virtual false final false
  void _ctor() ;
@@ -289,8 +295,7 @@ static System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2C
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "osContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit OSSpecificSynchronizationContext(::bs_hook::Il2CppWrapperType osContext) ;
+static System::Threading::OSSpecificSynchronizationContext New_ctor(::bs_hook::Il2CppWrapperType osContext) ;
 
 /// @brief Method .ctor addr 0x24ab8f4 size 0x28 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType osContext) ;

@@ -107,8 +107,10 @@ return ::cordl_internals::getStaticField<System::Net::KnownHttpVerb, "Post", ::i
  System::Net::KnownHttpVerb System::Net::KnownHttpVerb::__get_MkCol()  {
 return ::cordl_internals::getStaticField<System::Net::KnownHttpVerb, "MkCol", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::KnownHttpVerb>::get>();
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requireContentBody", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "contentBodyNotAllowed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "connectRequest", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "expectNoContentResponse", ty: "bool", modifiers: "", def_value: None }]
- System::Net::KnownHttpVerb::KnownHttpVerb(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KnownHttpVerb>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse))) {}
+ System::Net::KnownHttpVerb System::Net::KnownHttpVerb::New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse)  {
+System::Net::KnownHttpVerb o{THROW_UNLESS(::il2cpp_utils::New<System::Net::KnownHttpVerb>(name, requireContentBody, contentBodyNotAllowed, connectRequest, expectNoContentResponse))};
+return o;
+}
  void System::Net::KnownHttpVerb::_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::KnownHttpVerb>::get(),

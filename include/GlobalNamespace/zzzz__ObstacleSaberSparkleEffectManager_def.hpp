@@ -4,10 +4,29 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class SaberManager;
+class Saber;
+}
+namespace Libraries::HM::HMLib::VR {
+class HapticPresetSO;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct SaberType;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffect;
@@ -15,33 +34,14 @@ class ObstacleSaberSparkleEffect;
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace GlobalNamespace {
 class HapticFeedbackManager;
 }
-namespace GlobalNamespace {
-class Saber;
-}
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace Libraries::HM::HMLib::VR {
-class HapticPresetSO;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Bounds;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -206,8 +206,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get__burnMarkPositions() const;
 /// @brief Method GetBurnMarkPos addr 0x225b730 size 0x288 virtual false final false
  bool GetBurnMarkPos(UnityEngine::Bounds bounds, UnityEngine::Transform transform, UnityEngine::Vector3 bladeBottomPos, UnityEngine::Vector3 bladeTopPos, ByRef<UnityEngine::Vector3> burnMarkPos) ;
 
-// Ctor Parameters []
-explicit ObstacleSaberSparkleEffectManager() ;
+static GlobalNamespace::ObstacleSaberSparkleEffectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x225bb68 size 0x8 virtual false final false
  void _ctor() ;

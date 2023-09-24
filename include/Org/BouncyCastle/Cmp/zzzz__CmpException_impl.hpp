@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cmp::CmpException::CmpException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CmpException>())) {}
+ Org::BouncyCastle::Cmp::CmpException Org::BouncyCastle::Cmp::CmpException::New_ctor()  {
+Org::BouncyCastle::Cmp::CmpException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::CmpException>())};
+return o;
+}
  void Org::BouncyCastle::Cmp::CmpException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::CmpException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::CmpException::CmpException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CmpException>(message))) {}
+ Org::BouncyCastle::Cmp::CmpException Org::BouncyCastle::Cmp::CmpException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Cmp::CmpException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::CmpException>(message))};
+return o;
+}
  void Org::BouncyCastle::Cmp::CmpException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::CmpException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::CmpException::CmpException(::StringW message, System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CmpException>(message, innerException))) {}
+ Org::BouncyCastle::Cmp::CmpException Org::BouncyCastle::Cmp::CmpException::New_ctor(::StringW message, System::Exception innerException)  {
+Org::BouncyCastle::Cmp::CmpException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::CmpException>(message, innerException))};
+return o;
+}
  void Org::BouncyCastle::Cmp::CmpException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::CmpException>::get(),

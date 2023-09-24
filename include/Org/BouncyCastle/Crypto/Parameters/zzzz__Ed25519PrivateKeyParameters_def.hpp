@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Math::EC::Rfc8032 {
-struct Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed25519PublicKeyParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Math::EC::Rfc8032 {
+struct Org__BouncyCastle__Math__EC__Rfc8032__Ed25519__Algorithm;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -88,20 +88,17 @@ constexpr Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit Ed25519PrivateKeyParameters(Org::BouncyCastle::Security::SecureRandom random) ;
+static Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters New_ctor(Org::BouncyCastle::Security::SecureRandom random) ;
 
 /// @brief Method .ctor addr 0xea6e9c size 0xd0 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Ed25519PrivateKeyParameters(::ArrayW<uint8_t> buf, int32_t off) ;
+static Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters New_ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
 /// @brief Method .ctor addr 0xea6f6c size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Ed25519PrivateKeyParameters(System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0xea702c size 0x10c virtual false final false
  void _ctor(System::IO::Stream input) ;

@@ -66,8 +66,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::DsaParameters __get_parameters(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DsaParameters", modifiers: "", def_value: None }]
-explicit DsaKeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;
+static Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;
 
 /// @brief Method .ctor addr 0xea47c4 size 0x30 virtual false final false
  void _ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters) ;

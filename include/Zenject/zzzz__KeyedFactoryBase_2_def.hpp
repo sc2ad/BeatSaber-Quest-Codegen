@@ -2,27 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace ModestTree::Util {
-template<typename T1,typename T2>
-class ValuePair_2;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System {
-class Type;
-}
 namespace Zenject {
 class DiContainer;
 }
@@ -33,9 +12,34 @@ class ICollection_1;
 namespace Zenject {
 class IValidatable;
 }
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace Zenject {
+template<typename TBase,typename TKey>
+class Zenject__KeyedFactoryBase_2____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace ModestTree::Util {
+template<typename T1,typename T2>
+class ValuePair_2;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -125,8 +129,7 @@ static System::Func_2<ModestTree::Util::ValuePair_2<TKey,System::Type>,System::T
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__KeyedFactoryBase_2____c() ;
+static Zenject::Zenject__KeyedFactoryBase_2____c<TBase,TKey> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -262,8 +265,7 @@ constexpr System::Type __get__fallbackType() const;
 template<typename TDerived>
 static Zenject::ConditionCopyNonLazyBinder AddBindingInternal(Zenject::DiContainer container, TKey key) ;
 
-// Ctor Parameters []
-explicit KeyedFactoryBase_2() ;
+static Zenject::KeyedFactoryBase_2<TBase,TKey> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

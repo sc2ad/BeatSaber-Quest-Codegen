@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace OVR::OpenVR {
-struct VROverlayIntersectionMaskPrimitive_Data_t;
+struct EVROverlayIntersectionMaskPrimitiveType;
 }
 namespace OVR::OpenVR {
-struct EVROverlayIntersectionMaskPrimitiveType;
+struct VROverlayIntersectionMaskPrimitive_Data_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

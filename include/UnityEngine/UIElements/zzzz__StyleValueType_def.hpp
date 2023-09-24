@@ -68,6 +68,8 @@ constexpr operator __StyleValueType_Unwrapped () const noexcept {
 return std::bit_cast<__StyleValueType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

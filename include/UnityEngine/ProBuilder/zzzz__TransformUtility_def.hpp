@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>

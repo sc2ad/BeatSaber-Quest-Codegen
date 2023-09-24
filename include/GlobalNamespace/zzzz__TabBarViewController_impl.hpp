@@ -2,9 +2,10 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__TabBarViewController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
+#include "GlobalNamespace/zzzz__TabBarViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem._ctor
 template<>
 
@@ -34,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarIte
 constexpr System::Action GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem::GlobalNamespace__TabBarViewController__TabBarItem(::StringW title, System::Action action)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TabBarViewController__TabBarItem>(title, action))) {}
+ GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem::New_ctor(::StringW title, System::Action action)  {
+GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem>(title, action))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem::_ctor(::StringW title, System::Action action)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TabBarViewController__TabBarItem>::get(),
@@ -326,8 +329,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, segmentedControl, cellNumber);
 }
-// Ctor Parameters []
- GlobalNamespace::TabBarViewController::TabBarViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<TabBarViewController>())) {}
+ GlobalNamespace::TabBarViewController GlobalNamespace::TabBarViewController::New_ctor()  {
+GlobalNamespace::TabBarViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TabBarViewController>())};
+return o;
+}
  void GlobalNamespace::TabBarViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TabBarViewController>::get(),

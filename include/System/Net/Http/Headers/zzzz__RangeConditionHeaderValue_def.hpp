@@ -8,14 +8,14 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System {
-struct DateTimeOffset;
+namespace System::Net::Http::Headers {
+class EntityTagHeaderValue;
 }
 namespace System {
 class ICloneable;
 }
-namespace System::Net::Http::Headers {
-class EntityTagHeaderValue;
+namespace System {
+struct DateTimeOffset;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -88,14 +88,12 @@ constexpr System::Net::Http::Headers::EntityTagHeaderValue __get__EntityTag_k__B
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "date", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
-explicit RangeConditionHeaderValue(System::DateTimeOffset date) ;
+static System::Net::Http::Headers::RangeConditionHeaderValue New_ctor(System::DateTimeOffset date) ;
 
 /// @brief Method .ctor addr 0x26ae138 size 0x90 virtual false final false
  void _ctor(System::DateTimeOffset date) ;
 
-// Ctor Parameters [CppParam { name: "entityTag", ty: "System::Net::Http::Headers::EntityTagHeaderValue", modifiers: "", def_value: None }]
-explicit RangeConditionHeaderValue(System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;
+static System::Net::Http::Headers::RangeConditionHeaderValue New_ctor(System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;
 
 /// @brief Method .ctor addr 0x26ae1c8 size 0x78 virtual false final false
  void _ctor(System::Net::Http::Headers::EntityTagHeaderValue entityTag) ;

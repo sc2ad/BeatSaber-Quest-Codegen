@@ -70,8 +70,7 @@ constexpr Org::BouncyCastle::Asn1::X9::X9ECParameters __get_parameters() const;
 /// @brief Method CreateParameters addr 0x0 size 0xffffffffffffffff virtual true final false
  Org::BouncyCastle::Asn1::X9::X9ECParameters CreateParameters() ;
 
-// Ctor Parameters []
-explicit X9ECParametersHolder() ;
+static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd5704 size 0x8 virtual false final false
  void _ctor() ;

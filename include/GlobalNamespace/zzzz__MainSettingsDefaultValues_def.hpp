@@ -142,8 +142,7 @@ static constexpr int32_t  kDefaultPauseButtonPressDurationLevel{0};
 /// @brief Method SetFixedDefaultValues addr 0x21ef7e4 size 0x154 virtual false final false
 static void SetFixedDefaultValues(GlobalNamespace::MainSettingsModelSO mainSettingsModel) ;
 
-// Ctor Parameters []
-explicit MainSettingsDefaultValues() ;
+static GlobalNamespace::MainSettingsDefaultValues New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef938 size 0x8 virtual false final false
  void _ctor() ;

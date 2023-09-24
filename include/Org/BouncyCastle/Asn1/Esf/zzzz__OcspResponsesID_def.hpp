@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1::Esf {
-class OtherHash;
-}
-namespace Org::BouncyCastle::Asn1::Esf {
 class OcspIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Esf {
+class OtherHash;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -85,20 +85,17 @@ constexpr Org::BouncyCastle::Asn1::Esf::OtherHash __get_ocspRepHash() const;
 /// @brief Method GetInstance addr 0xe05cfc size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::OcspResponsesID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OcspResponsesID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::OcspResponsesID New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe06274 size 0x1c8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "ocspIdentifier", ty: "Org::BouncyCastle::Asn1::Esf::OcspIdentifier", modifiers: "", def_value: None }]
-explicit OcspResponsesID(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier) ;
+static Org::BouncyCastle::Asn1::Esf::OcspResponsesID New_ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier) ;
 
 /// @brief Method .ctor addr 0xe0643c size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier) ;
 
-// Ctor Parameters [CppParam { name: "ocspIdentifier", ty: "Org::BouncyCastle::Asn1::Esf::OcspIdentifier", modifiers: "", def_value: None }, CppParam { name: "ocspRepHash", ty: "Org::BouncyCastle::Asn1::Esf::OtherHash", modifiers: "", def_value: None }]
-explicit OcspResponsesID(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHash ocspRepHash) ;
+static Org::BouncyCastle::Asn1::Esf::OcspResponsesID New_ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHash ocspRepHash) ;
 
 /// @brief Method .ctor addr 0xe06444 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Esf::OcspIdentifier ocspIdentifier, Org::BouncyCastle::Asn1::Esf::OtherHash ocspRepHash) ;

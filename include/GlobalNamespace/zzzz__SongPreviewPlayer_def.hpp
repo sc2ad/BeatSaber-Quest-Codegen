@@ -11,21 +11,15 @@ struct Vector3;
 namespace UnityEngine {
 class AudioSource;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class IDisposable;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class AudioManagerSO;
 }
 namespace System {
 class Action;
@@ -33,6 +27,24 @@ class Action;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SongPreviewPlayer__InitData;
+}
+namespace GlobalNamespace {
+class AudioManagerSO;
+}
+namespace UnityEngine {
+class AudioClip;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SongPreviewPlayer__AudioSourceParams;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +113,7 @@ constexpr float_t __get_ambientVolumeScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SongPreviewPlayer__InitData(float_t ambientVolumeScale) ;
+static GlobalNamespace::GlobalNamespace__SongPreviewPlayer__InitData New_ctor(float_t ambientVolumeScale) ;
 
 /// @brief Method .ctor addr 0x20beb1c size 0x28 virtual false final false
  void _ctor(float_t ambientVolumeScale) ;
@@ -203,8 +214,7 @@ constexpr float_t __get__spread() const;
 /// @brief Method get_spread addr 0x20beb60 size 0x8 virtual false final false
  float_t get_spread() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__SongPreviewPlayer__AudioSourceParams() ;
+static GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x20beb68 size 0x8 virtual false final false
  void _ctor() ;
@@ -295,8 +305,7 @@ constexpr float_t __get__volume() const;
 /// @brief Method set_maxVolume addr 0x20beb80 size 0x8 virtual false final false
  void set_maxVolume(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "audioSource", ty: "UnityEngine::AudioSource", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController(UnityEngine::AudioSource audioSource) ;
+static GlobalNamespace::GlobalNamespace__SongPreviewPlayer__AudioSourceVolumeController New_ctor(UnityEngine::AudioSource audioSource) ;
 
 /// @brief Method .ctor addr 0x20bdf9c size 0x30 virtual false final false
  void _ctor(UnityEngine::AudioSource audioSource) ;
@@ -390,8 +399,7 @@ constexpr GlobalNamespace::SongPreviewPlayer __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__28 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20be158 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -638,8 +646,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,System::Action> __g
 /// @brief Method ReportChannelDidFadeOut addr 0x20be3f8 size 0xb0 virtual false final false
  void ReportChannelDidFadeOut(int32_t channel) ;
 
-// Ctor Parameters []
-explicit SongPreviewPlayer() ;
+static GlobalNamespace::SongPreviewPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bea84 size 0x98 virtual false final false
  void _ctor() ;

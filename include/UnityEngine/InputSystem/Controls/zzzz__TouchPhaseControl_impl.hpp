@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::TouchPhaseControl::TouchPhaseControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::TouchPhase>(THROW_UNLESS(::il2cpp_utils::New<TouchPhaseControl>())) {}
+ UnityEngine::InputSystem::Controls::TouchPhaseControl UnityEngine::InputSystem::Controls::TouchPhaseControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::TouchPhaseControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::TouchPhaseControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::TouchPhaseControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::TouchPhaseControl>::get(),

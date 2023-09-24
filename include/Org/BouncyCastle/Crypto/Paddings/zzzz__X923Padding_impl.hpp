@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Paddings/zzzz__X923Padding_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Paddings/zzzz__IBlockCipherPadding_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Paddings::X923Padding.Init
 template<>
 
@@ -133,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, input);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Paddings::X923Padding::X923Padding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X923Padding>())) {}
+ Org::BouncyCastle::Crypto::Paddings::X923Padding Org::BouncyCastle::Crypto::Paddings::X923Padding::New_ctor()  {
+Org::BouncyCastle::Crypto::Paddings::X923Padding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Paddings::X923Padding>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Paddings::X923Padding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Paddings::X923Padding>::get(),

@@ -9,7 +9,7 @@ class GameplayModifierInfoListItemsList;
 // Type: ::GameplayModifierInfoListItemsList
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13725)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5043 }), TypeDefinitionIndex(TypeDefinitionIndex(5514))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5514)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13725), inst: 5043 }), TypeDefinitionIndex(TypeDefinitionIndex(13725))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5515))
 // CS Name: GameplayModifierInfoListItemsList
 class CORDL_TYPE GameplayModifierInfoListItemsList : public HMUI::UIItemsList_1<GlobalNamespace::GameplayModifierInfoListItem> {
@@ -48,8 +48,7 @@ constexpr explicit GameplayModifierInfoListItemsList(void* ptr) noexcept : HMUI:
 
 // Methods
 
-// Ctor Parameters []
-explicit GameplayModifierInfoListItemsList() ;
+static GlobalNamespace::GameplayModifierInfoListItemsList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2123158 size 0x48 virtual false final false
  void _ctor() ;

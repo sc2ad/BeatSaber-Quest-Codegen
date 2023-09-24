@@ -3,18 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace Zenject {
-class InjectContext;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Zenject {
+class InjectContext;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -22,6 +18,10 @@ class Func_2;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -180,8 +180,7 @@ static bool op_Equality(Zenject::GameObjectCreationParameters left, Zenject::Gam
 /// @brief Method op_Inequality addr 0x2d66108 size 0x20 virtual false final false
 static bool op_Inequality(Zenject::GameObjectCreationParameters left, Zenject::GameObjectCreationParameters right) ;
 
-// Ctor Parameters []
-explicit GameObjectCreationParameters() ;
+static Zenject::GameObjectCreationParameters New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d62634 size 0x8 virtual false final false
  void _ctor() ;

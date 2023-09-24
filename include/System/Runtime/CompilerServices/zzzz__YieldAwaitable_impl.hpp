@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__YieldAwaitable_def.hpp"
 //  Writing Method size for method: System::Runtime::CompilerServices::System__Runtime__CompilerServices__YieldAwaitable__YieldAwaiter.get_IsCompleted
 template<>
 

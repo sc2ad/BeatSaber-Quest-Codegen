@@ -17,7 +17,7 @@ class TickablesTaskUpdater;
 // Type: Zenject::TickablesTaskUpdater
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 2990 }), TypeDefinitionIndex(TypeDefinitionIndex(15674)), TypeDefinitionIndex(TypeDefinitionIndex(11279))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11279), inst: 2990 }), TypeDefinitionIndex(TypeDefinitionIndex(15674))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11280))
 // CS Name: Zenject.TickablesTaskUpdater
 class CORDL_TYPE TickablesTaskUpdater : public Zenject::TaskUpdater_1<Zenject::ITickable> {
@@ -59,8 +59,7 @@ constexpr explicit TickablesTaskUpdater(void* ptr) noexcept : Zenject::TaskUpdat
 /// @brief Method UpdateItem addr 0x2d9f8e0 size 0x9c virtual true final false
  void UpdateItem(Zenject::ITickable task) ;
 
-// Ctor Parameters []
-explicit TickablesTaskUpdater() ;
+static Zenject::TickablesTaskUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9f97c size 0x48 virtual false final false
  void _ctor() ;

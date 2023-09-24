@@ -7,65 +7,83 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class PointerCaptureEvent;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerCaptureOutEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+class UnityEngine__UIElements__ScrollView__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
-class WheelEvent;
+struct UnityEngine__UIElements__ScrollView__NestedInteractionKind;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class PointerCancelEvent;
-}
-namespace UnityEngine::UIElements {
-class Scroller;
+struct UnityEngine__UIElements__ScrollView__TouchScrollingResult;
 }
 namespace UnityEngine::UIElements {
 struct ScrollerVisibility;
 }
 namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
+class UnityEngine__UIElements__ScrollView__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class WheelEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+struct ScrollViewMode;
 }
 namespace UnityEngine::UIElements {
 template<typename TEventType>
 class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-struct ScrollViewMode;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+struct UnityEngine__UIElements__ScrollView__TouchScrollBehavior;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureEvent;
+}
+namespace UnityEngine::UIElements {
+class Scroller;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureOutEvent;
+}
+namespace UnityEngine::UIElements {
+class UxmlFloatAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -75,10 +93,7 @@ template<typename T>
 class UxmlEnumAttributeDescription_1;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlBoolAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -213,8 +228,7 @@ constexpr UnityEngine::UIElements::UxmlFloatAttributeDescription __get_m_Elastic
 /// @brief Method Init addr 0x2caffe0 size 0x390 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ScrollView__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb0370 size 0x408 virtual false final false
  void _ctor() ;
@@ -702,14 +716,12 @@ constexpr UnityEngine::UIElements::IVisualElementScheduledItem __get_m_PostPoint
 /// @brief Method get_contentContainer addr 0x2cab7e8 size 0x8 virtual true final false
  UnityEngine::UIElements::VisualElement get_contentContainer() ;
 
-// Ctor Parameters []
-explicit ScrollView() ;
+static UnityEngine::UIElements::ScrollView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cab7f0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "scrollViewMode", ty: "UnityEngine::UIElements::ScrollViewMode", modifiers: "", def_value: None }]
-explicit ScrollView(UnityEngine::UIElements::ScrollViewMode scrollViewMode) ;
+static UnityEngine::UIElements::ScrollView New_ctor(UnityEngine::UIElements::ScrollViewMode scrollViewMode) ;
 
 /// @brief Method .ctor addr 0x2cab7f8 size 0xa00 virtual false final false
  void _ctor(UnityEngine::UIElements::ScrollViewMode scrollViewMode) ;
@@ -808,7 +820,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5101 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(7144))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7144)), TypeDefinitionIndex(TypeDefinitionIndex(7140)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5101 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7139))
 // CS Name: UnityEngine.UIElements.ScrollView::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__ScrollView__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::ScrollView,UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlTraits> {
@@ -847,8 +859,7 @@ constexpr explicit UnityEngine__UIElements__ScrollView__UxmlFactory(void* ptr) n
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ScrollView__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ScrollView__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2caff98 size 0x48 virtual false final false
  void _ctor() ;
@@ -907,6 +918,8 @@ __Clamped = 2,
 constexpr operator __UnityEngine__UIElements__ScrollView__TouchScrollBehavior_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__ScrollView__TouchScrollBehavior_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -981,6 +994,8 @@ constexpr operator __UnityEngine__UIElements__ScrollView__NestedInteractionKind_
 return std::bit_cast<__UnityEngine__UIElements__ScrollView__NestedInteractionKind_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1053,6 +1068,8 @@ __Block = 2,
 constexpr operator __UnityEngine__UIElements__ScrollView__TouchScrollingResult_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__ScrollView__TouchScrollingResult_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

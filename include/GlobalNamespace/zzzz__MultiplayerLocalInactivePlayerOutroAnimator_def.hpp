@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class MultiplayerController;
-}
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::MultiplayerController __get__multiplayerController() 
 /// @brief Method Start addr 0x20e8e78 size 0x3c virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalInactivePlayerOutroAnimator() ;
+static GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e8eb4 size 0x8 virtual false final false
  void _ctor() ;

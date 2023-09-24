@@ -98,8 +98,10 @@ constexpr void Oculus::Platform::Models::PingResult::__set_pingTimeUsec(System::
 constexpr System::Nullable_1<uint64_t> Oculus::Platform::Models::PingResult::__get_pingTimeUsec() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<uint64_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pingTimeUsec", ty: "System::Nullable_1<uint64_t>", modifiers: "", def_value: None }]
- Oculus::Platform::Models::PingResult::PingResult(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PingResult>(id, pingTimeUsec))) {}
+ Oculus::Platform::Models::PingResult Oculus::Platform::Models::PingResult::New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec)  {
+Oculus::Platform::Models::PingResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::PingResult>(id, pingTimeUsec))};
+return o;
+}
  void Oculus::Platform::Models::PingResult::_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::PingResult>::get(),

@@ -8,11 +8,11 @@ class ILazyCopyHashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class HashSet_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -100,14 +100,12 @@ constexpr bool __get__dirty() const;
 /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
  System::Collections::Generic::List_1<T> get_items() ;
 
-// Ctor Parameters []
-explicit LazyCopyHashSet_1() ;
+static GlobalNamespace::LazyCopyHashSet_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LazyCopyHashSet_1(int32_t capacity) ;
+static GlobalNamespace::LazyCopyHashSet_1<T> New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;

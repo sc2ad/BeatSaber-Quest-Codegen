@@ -50,8 +50,7 @@ constexpr explicit DTSweepConstraint(void* ptr) noexcept : UnityEngine::ProBuild
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "p1", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "p2", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
-explicit DTSweepConstraint(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
+static UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;
 
 /// @brief Method .ctor addr 0x299ff7c size 0x70 virtual false final false
  void _ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p1, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint p2) ;

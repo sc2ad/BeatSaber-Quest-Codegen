@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__AudioBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "UnityEngine/zzzz__FFTWindow_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__FFTWindow_def.hpp"
 //  Writing Method size for method: UnityEngine::AudioSource.GetPitch
 template<>
 

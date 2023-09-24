@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs8EncryptedPrivateKeyInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptedPrivateKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDecryptorBuilderProvider_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo.parseBytes
 template<>
 
@@ -137,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo, false>(nullptr, ___internal_method, pkcs8Encoding);
 }
-// Ctor Parameters [CppParam { name: "encryptedPrivateKeyInfo", ty: "Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::Pkcs8EncryptedPrivateKeyInfo(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo encryptedPrivateKeyInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs8EncryptedPrivateKeyInfo>(encryptedPrivateKeyInfo))) {}
+ Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::New_ctor(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo encryptedPrivateKeyInfo)  {
+Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo>(encryptedPrivateKeyInfo))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::_ctor(Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo encryptedPrivateKeyInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo>::get(),
@@ -148,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encryptedPrivateKeyInfo);
 }
-// Ctor Parameters [CppParam { name: "encryptedPrivateKeyInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::Pkcs8EncryptedPrivateKeyInfo(::ArrayW<uint8_t> encryptedPrivateKeyInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs8EncryptedPrivateKeyInfo>(encryptedPrivateKeyInfo))) {}
+ Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::New_ctor(::ArrayW<uint8_t> encryptedPrivateKeyInfo)  {
+Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo>(encryptedPrivateKeyInfo))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::_ctor(::ArrayW<uint8_t> encryptedPrivateKeyInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo>::get(),

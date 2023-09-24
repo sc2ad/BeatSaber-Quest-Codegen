@@ -73,8 +73,7 @@ static System::Collections::Generic::List_1<::StringW> GetDefines() ;
 /// @brief Method SetDefines addr 0x205ee0c size 0x4 virtual false final false
 static void SetDefines(System::Collections::Generic::List_1<::StringW> definesList) ;
 
-// Ctor Parameters []
-explicit HEU_RenderingPipelineDefines() ;
+static HoudiniEngineUnity::HEU_RenderingPipelineDefines New_ctor() ;
 
 /// @brief Method .ctor addr 0x205ee10 size 0x8 virtual false final false
  void _ctor() ;

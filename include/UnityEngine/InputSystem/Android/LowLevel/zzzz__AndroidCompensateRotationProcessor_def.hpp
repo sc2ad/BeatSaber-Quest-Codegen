@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_def.hpp"
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -56,8 +56,7 @@ constexpr explicit AndroidCompensateRotationProcessor(void* ptr) noexcept : Unit
 /// @brief Method Process addr 0x29545f4 size 0x34 virtual true final false
  UnityEngine::Quaternion Process(UnityEngine::Quaternion value, UnityEngine::InputSystem::InputControl control) ;
 
-// Ctor Parameters []
-explicit AndroidCompensateRotationProcessor() ;
+static UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2954628 size 0x8 virtual false final false
  void _ctor() ;

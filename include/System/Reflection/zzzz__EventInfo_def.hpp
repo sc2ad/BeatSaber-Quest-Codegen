@@ -4,20 +4,23 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System {
+struct RuntimeTypeHandle;
+}
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System::Reflection {
+class System__Reflection__EventInfo__AddEventAdapter;
+}
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace Mono {
 struct RuntimeEventHandle;
 }
 namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System {
 class Type;
-}
-namespace System::Reflection {
-struct MemberTypes;
 }
 namespace System {
 class Delegate;
@@ -71,8 +74,7 @@ constexpr explicit System__Reflection__EventInfo__AddEventAdapter(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__Reflection__EventInfo__AddEventAdapter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Reflection::System__Reflection__EventInfo__AddEventAdapter New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x237941c size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -144,8 +146,7 @@ constexpr System::Reflection::System__Reflection__EventInfo__AddEventAdapter __g
 
 // Methods
 
-// Ctor Parameters []
-explicit EventInfo() ;
+static System::Reflection::EventInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2379140 size 0x8 virtual false final false
  void _ctor() ;

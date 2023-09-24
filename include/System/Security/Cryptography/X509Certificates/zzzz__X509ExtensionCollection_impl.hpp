@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionCollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ExtensionCollection._ctor
 template<>
 
@@ -180,8 +180,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ExtensionCo
 constexpr System::Collections::ArrayList System::Security::Cryptography::X509Certificates::X509ExtensionCollection::__get__list() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509ExtensionCollection::X509ExtensionCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ExtensionCollection>())) {}
+ System::Security::Cryptography::X509Certificates::X509ExtensionCollection System::Security::Cryptography::X509Certificates::X509ExtensionCollection::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509ExtensionCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ExtensionCollection>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ExtensionCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ExtensionCollection>::get(),

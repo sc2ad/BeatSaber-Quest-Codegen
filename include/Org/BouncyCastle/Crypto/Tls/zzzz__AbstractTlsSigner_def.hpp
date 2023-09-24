@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Tls {
-class SignatureAndHashAlgorithm;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class SignatureAndHashAlgorithm;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -106,8 +106,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsContext __get_mContext() const;
 /// @brief Method IsValidPublicKey addr 0x0 size 0xffffffffffffffff virtual true final false
  bool IsValidPublicKey(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
-// Ctor Parameters []
-explicit AbstractTlsSigner() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xecd868 size 0x8 virtual false final false
  void _ctor() ;

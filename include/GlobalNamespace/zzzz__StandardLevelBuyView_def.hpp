@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class LevelBar;
+namespace UnityEngine::UI {
+class Button;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class LevelBar;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr UnityEngine::UI::Button __get__buyButton() const;
 /// @brief Method SetContent addr 0x218f6b4 size 0x20 virtual false final false
  void SetContent(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
-// Ctor Parameters []
-explicit StandardLevelBuyView() ;
+static GlobalNamespace::StandardLevelBuyView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218f6d4 size 0x8 virtual false final false
  void _ctor() ;

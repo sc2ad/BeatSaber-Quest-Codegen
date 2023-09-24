@@ -47,8 +47,7 @@ constexpr explicit WaitForEndOfFrame(void* ptr) noexcept : UnityEngine::YieldIns
 
 // Methods
 
-// Ctor Parameters []
-explicit WaitForEndOfFrame() ;
+static UnityEngine::WaitForEndOfFrame New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b55fbc size 0x8 virtual false final false
  void _ctor() ;

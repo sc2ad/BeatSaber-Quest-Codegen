@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::ResultProof::ResultProof()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResultProof>())) {}
+ BeatSaberAPI::DataTransferObjects::ResultProof BeatSaberAPI::DataTransferObjects::ResultProof::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::ResultProof o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::ResultProof>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::ResultProof::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::ResultProof>::get(),

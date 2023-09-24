@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace HoudiniEngineUnity {
+class CurveNodeData;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HoudiniEngineUnity {
-class CurveNodeData;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -100,8 +100,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,System::Collectio
 /// @brief Method IsEquivalentTo addr 0x1fdd0b0 size 0xbc virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_AssetSerializedMetaData other) ;
 
-// Ctor Parameters []
-explicit HEU_AssetSerializedMetaData() ;
+static HoudiniEngineUnity::HEU_AssetSerializedMetaData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdd16c size 0x7c virtual false final false
  void _ctor() ;

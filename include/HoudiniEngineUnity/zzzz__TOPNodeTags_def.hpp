@@ -62,8 +62,7 @@ constexpr bool __get__autoload() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TOPNodeTags() ;
+static HoudiniEngineUnity::TOPNodeTags New_ctor() ;
 
 /// @brief Method .ctor addr 0x2028e58 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::XR {
+struct AvailableTrackingData;
+}
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::XR {
 struct XRNode;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::XR {
-struct AvailableTrackingData;
 }
 // Forward declare root types
 namespace UnityEngine::XR {

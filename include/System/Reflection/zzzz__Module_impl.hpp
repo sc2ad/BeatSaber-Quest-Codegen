@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/InteropServices/zzzz___Module_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
+#include "System/Reflection/zzzz__TypeFilter_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__TypeFilter_def.hpp"
-#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "System/Runtime/InteropServices/zzzz___Module_def.hpp"
 //  Writing Method size for method: System::Reflection::Module._ctor
 template<>
 
@@ -307,8 +307,10 @@ return ::cordl_internals::getStaticField<System::Reflection::TypeFilter, "Filter
 return ::cordl_internals::getStaticField<System::Reflection::TypeFilter, "FilterTypeNameIgnoreCase", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Module>::get>();
 }
 constexpr System::Reflection::BindingFlags  System::Reflection::Module::DefaultLookup{28};
-// Ctor Parameters []
- System::Reflection::Module::Module()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Module>())) {}
+ System::Reflection::Module System::Reflection::Module::New_ctor()  {
+System::Reflection::Module o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::Module>())};
+return o;
+}
  void System::Reflection::Module::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Module>::get(),

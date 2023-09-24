@@ -2,13 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ModalView_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "HMUI/zzzz__ModalView_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__ModalView____c__DisplayClass17_0._ctor
 template<>
 
@@ -55,8 +56,10 @@ constexpr void HMUI::HMUI__ModalView____c__DisplayClass17_0::__set_finishedCallb
 constexpr System::Action HMUI::HMUI__ModalView____c__DisplayClass17_0::__get_finishedCallback() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ModalView____c__DisplayClass17_0::HMUI__ModalView____c__DisplayClass17_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ModalView____c__DisplayClass17_0>())) {}
+ HMUI::HMUI__ModalView____c__DisplayClass17_0 HMUI::HMUI__ModalView____c__DisplayClass17_0::New_ctor()  {
+HMUI::HMUI__ModalView____c__DisplayClass17_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ModalView____c__DisplayClass17_0>())};
+return o;
+}
  void HMUI::HMUI__ModalView____c__DisplayClass17_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ModalView____c__DisplayClass17_0>::get(),
@@ -121,8 +124,10 @@ constexpr void HMUI::HMUI__ModalView____c__DisplayClass21_0::__set_prevAnimatePa
 constexpr bool HMUI::HMUI__ModalView____c__DisplayClass21_0::__get_prevAnimateParentCanvas() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::HMUI__ModalView____c__DisplayClass21_0::HMUI__ModalView____c__DisplayClass21_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__ModalView____c__DisplayClass21_0>())) {}
+ HMUI::HMUI__ModalView____c__DisplayClass21_0 HMUI::HMUI__ModalView____c__DisplayClass21_0::New_ctor()  {
+HMUI::HMUI__ModalView____c__DisplayClass21_0 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__ModalView____c__DisplayClass21_0>())};
+return o;
+}
  void HMUI::HMUI__ModalView____c__DisplayClass21_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__ModalView____c__DisplayClass21_0>::get(),
@@ -519,8 +524,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Transform, false>(nullptr, ___internal_method, transform, canvas, viewController);
 }
-// Ctor Parameters []
- HMUI::ModalView::ModalView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ModalView>())) {}
+ HMUI::ModalView HMUI::ModalView::New_ctor()  {
+HMUI::ModalView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ModalView>())};
+return o;
+}
  void HMUI::ModalView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ModalView>::get(),

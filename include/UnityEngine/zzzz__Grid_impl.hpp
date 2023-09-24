@@ -62,8 +62,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Grid::Grid()  : UnityEngine::GridLayout(THROW_UNLESS(::il2cpp_utils::New<Grid>())) {}
+ UnityEngine::Grid UnityEngine::Grid::New_ctor()  {
+UnityEngine::Grid o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Grid>())};
+return o;
+}
  void UnityEngine::Grid::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Grid>::get(),

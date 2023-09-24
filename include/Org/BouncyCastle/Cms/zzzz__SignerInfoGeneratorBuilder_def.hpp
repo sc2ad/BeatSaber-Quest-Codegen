@@ -3,11 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Cms {
+class SignerInfoGenerator;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
@@ -15,8 +12,11 @@ class SignerIdentifier;
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
 }
-namespace Org::BouncyCastle::Cms {
-class SignerInfoGenerator;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -85,8 +85,7 @@ constexpr Org::BouncyCastle::Cms::CmsAttributeTableGenerator __get_unsignedGen()
 
 // Methods
 
-// Ctor Parameters []
-explicit SignerInfoGeneratorBuilder() ;
+static Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x117db24 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace BeatSaberAPI::DataTransferObjects {
-struct ScoresScope;
+struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
 }
 namespace BeatSaberAPI::DataTransferObjects {
-struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
+struct ScoresScope;
 }
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
@@ -101,8 +101,7 @@ constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransfer
 
 // Methods
 
-// Ctor Parameters []
-explicit LeaderboardQuery() ;
+static BeatSaberAPI::DataTransferObjects::LeaderboardQuery New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d734c size 0x8 virtual false final false
  void _ctor() ;

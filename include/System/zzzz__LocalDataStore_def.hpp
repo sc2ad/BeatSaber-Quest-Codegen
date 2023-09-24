@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System {
-class LocalDataStoreMgr;
+class LocalDataStoreSlot;
 }
 namespace System {
 class LocalDataStoreElement;
 }
 namespace System {
-class LocalDataStoreSlot;
+class LocalDataStoreMgr;
 }
 // Forward declare root types
 namespace System {
@@ -73,8 +73,7 @@ constexpr System::LocalDataStoreMgr __get_m_Manager() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mgr", ty: "System::LocalDataStoreMgr", modifiers: "", def_value: None }, CppParam { name: "InitialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LocalDataStore(System::LocalDataStoreMgr mgr, int32_t InitialCapacity) ;
+static System::LocalDataStore New_ctor(System::LocalDataStoreMgr mgr, int32_t InitialCapacity) ;
 
 /// @brief Method .ctor addr 0x2469844 size 0x70 virtual false final false
  void _ctor(System::LocalDataStoreMgr mgr, int32_t InitialCapacity) ;

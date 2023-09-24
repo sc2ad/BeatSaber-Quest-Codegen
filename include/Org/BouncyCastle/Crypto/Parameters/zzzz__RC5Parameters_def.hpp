@@ -63,8 +63,7 @@ constexpr int32_t __get_rounds() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "rounds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RC5Parameters(::ArrayW<uint8_t> key, int32_t rounds) ;
+static Org::BouncyCastle::Crypto::Parameters::RC5Parameters New_ctor(::ArrayW<uint8_t> key, int32_t rounds) ;
 
 /// @brief Method .ctor addr 0xeab334 size 0x8c virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t rounds) ;

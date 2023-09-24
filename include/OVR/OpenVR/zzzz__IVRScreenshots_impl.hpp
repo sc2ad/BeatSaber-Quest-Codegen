@@ -2,12 +2,13 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRScreenshots_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRScreenshotPropertyFilenames_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRScreenshotError_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRScreenshotError_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRScreenshotType_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRScreenshots_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot._ctor
 template<>
 
@@ -76,8 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot::OVR__OpenVR__IVRScreenshots___RequestScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___RequestScreenshot>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot>::get(),
@@ -182,8 +185,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot::OVR__OpenVR__IVRScreenshots___HookScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___HookScreenshot>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot>::get(),
@@ -288,8 +293,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType>::get(),
@@ -394,8 +401,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename>::get(),
@@ -500,8 +509,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress>::get(),
@@ -606,8 +617,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot>::get(),
@@ -712,8 +725,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot::OVR__OpenVR__IVRScreenshots___SubmitScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRScreenshots___SubmitScreenshot>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot>::get(),

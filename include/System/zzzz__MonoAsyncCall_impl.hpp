@@ -53,8 +53,10 @@ constexpr void System::MonoAsyncCall::__set_out_args(::bs_hook::Il2CppWrapperTyp
 constexpr ::bs_hook::Il2CppWrapperType System::MonoAsyncCall::__get_out_args() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::MonoAsyncCall::MonoAsyncCall()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonoAsyncCall>())) {}
+ System::MonoAsyncCall System::MonoAsyncCall::New_ctor()  {
+System::MonoAsyncCall o{THROW_UNLESS(::il2cpp_utils::New<System::MonoAsyncCall>())};
+return o;
+}
  void System::MonoAsyncCall::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::MonoAsyncCall>::get(),

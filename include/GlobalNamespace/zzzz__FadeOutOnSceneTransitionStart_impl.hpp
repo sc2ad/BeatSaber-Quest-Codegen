@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeOutOnSceneTransitionStart_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FadeOutOnSceneTransitionStart.Start
 template<>
 
@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, duration);
 }
-// Ctor Parameters []
- GlobalNamespace::FadeOutOnSceneTransitionStart::FadeOutOnSceneTransitionStart()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FadeOutOnSceneTransitionStart>())) {}
+ GlobalNamespace::FadeOutOnSceneTransitionStart GlobalNamespace::FadeOutOnSceneTransitionStart::New_ctor()  {
+GlobalNamespace::FadeOutOnSceneTransitionStart o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FadeOutOnSceneTransitionStart>())};
+return o;
+}
  void GlobalNamespace::FadeOutOnSceneTransitionStart::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FadeOutOnSceneTransitionStart>::get(),

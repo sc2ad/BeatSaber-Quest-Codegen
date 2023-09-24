@@ -84,8 +84,7 @@ constexpr TMPro::TextMeshProUGUI __get__conditionText() const;
 /// @brief Method set_hideCondition addr 0x218e5c8 size 0x34 virtual false final false
  void set_hideCondition(bool value) ;
 
-// Ctor Parameters []
-explicit ObjectiveListItem() ;
+static GlobalNamespace::ObjectiveListItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x218e5fc size 0x8 virtual false final false
  void _ctor() ;

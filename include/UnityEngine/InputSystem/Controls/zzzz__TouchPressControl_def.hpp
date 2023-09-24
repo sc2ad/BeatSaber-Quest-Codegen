@@ -57,8 +57,7 @@ constexpr explicit TouchPressControl(void* ptr) noexcept : UnityEngine::InputSys
 /// @brief Method WriteValueIntoState addr 0x29795ac size 0x40 virtual true final false
  void WriteValueIntoState(float_t value, void* statePtr) ;
 
-// Ctor Parameters []
-explicit TouchPressControl() ;
+static UnityEngine::InputSystem::Controls::TouchPressControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x29795ec size 0x4 virtual false final false
  void _ctor() ;

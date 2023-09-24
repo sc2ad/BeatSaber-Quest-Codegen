@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorManager.get_obstaclesColor
 template<>
@@ -210,8 +210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorManager::ColorManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ColorManager>())) {}
+ GlobalNamespace::ColorManager GlobalNamespace::ColorManager::New_ctor()  {
+GlobalNamespace::ColorManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorManager>())};
+return o;
+}
  void GlobalNamespace::ColorManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorManager>::get(),

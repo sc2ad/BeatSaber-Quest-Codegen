@@ -4,23 +4,29 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__RepeatButton__UxmlFactory;
+}
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__RepeatButton__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
 class Clickable;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlLongAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -92,8 +98,7 @@ constexpr UnityEngine::UIElements::UxmlLongAttributeDescription __get_m_Interval
 /// @brief Method Init addr 0x2cb0998 size 0x134 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__RepeatButton__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb0acc size 0xc4 virtual false final false
  void _ctor() ;
@@ -163,14 +168,12 @@ static ::StringW __get_ussClassName() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit RepeatButton() ;
+static UnityEngine::UIElements::RepeatButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb0778 size 0x94 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "clickEvent", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "interval", ty: "int64_t", modifiers: "", def_value: None }]
-explicit RepeatButton(System::Action clickEvent, int64_t delay, int64_t interval) ;
+static UnityEngine::UIElements::RepeatButton New_ctor(System::Action clickEvent, int64_t delay, int64_t interval) ;
 
 /// @brief Method .ctor addr 0x2cb080c size 0x40 virtual false final false
  void _ctor(System::Action clickEvent, int64_t delay, int64_t interval) ;
@@ -185,7 +188,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7146)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7147)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5100 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7146)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5100 }), TypeDefinitionIndex(TypeDefinitionIndex(7147))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7145))
 // CS Name: UnityEngine.UIElements.RepeatButton::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__RepeatButton__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RepeatButton,UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits> {
@@ -224,8 +227,7 @@ constexpr explicit UnityEngine__UIElements__RepeatButton__UxmlFactory(void* ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__RepeatButton__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb0950 size 0x48 virtual false final false
  void _ctor() ;

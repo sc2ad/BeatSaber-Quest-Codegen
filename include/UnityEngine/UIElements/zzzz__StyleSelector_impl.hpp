@@ -1,7 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__StyleSelector_def.hpp"
-#include "UnityEngine/UIElements/zzzz__StyleSelectorPart_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSelector_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleSelectorPart_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c._ctor
 template<>
@@ -49,8 +50,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UIElements::UnityEngine__U
  System::Func_2<UnityEngine::UIElements::StyleSelectorPart,::StringW> UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c::__get___9__10_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::UIElements::StyleSelectorPart,::StringW>, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c::UnityEngine__UIElements__StyleSelector____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__StyleSelector____c>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__StyleSelector____c>::get(),
@@ -240,8 +243,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleSelector::StyleSelector()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleSelector>())) {}
+ UnityEngine::UIElements::StyleSelector UnityEngine::UIElements::StyleSelector::New_ctor()  {
+UnityEngine::UIElements::StyleSelector o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleSelector>())};
+return o;
+}
  void UnityEngine::UIElements::StyleSelector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleSelector>::get(),

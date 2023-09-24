@@ -14,7 +14,7 @@ class ButtonWithTwoModifiers;
 // Type: UnityEngine.InputSystem.Composites::ButtonWithTwoModifiers
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6273)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6273), inst: 374 }), TypeDefinitionIndex(TypeDefinitionIndex(6273))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6799))
 // CS Name: UnityEngine.InputSystem.Composites.ButtonWithTwoModifiers
 class CORDL_TYPE ButtonWithTwoModifiers : public UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
@@ -92,8 +92,7 @@ constexpr bool __get_overrideModifiersNeedToBePressedFirst() const;
 /// @brief Method FinishSetup addr 0x28c8624 size 0x90 virtual true final false
  void FinishSetup(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit ButtonWithTwoModifiers() ;
+static UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c86b4 size 0x48 virtual false final false
  void _ctor() ;

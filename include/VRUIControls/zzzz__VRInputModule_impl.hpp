@@ -1,21 +1,21 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "VRUIControls/zzzz__VRInputModule_def.hpp"
-#include "VRUIControls/zzzz__MouseState_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "VRUIControls/zzzz__MouseButtonEventData_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "VRUIControls/zzzz__MouseState_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: VRUIControls::VRInputModule.add_onProcessMousePressEvent
 template<>
 
@@ -549,8 +549,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, lhs, rhs);
 }
-// Ctor Parameters []
- VRUIControls::VRInputModule::VRInputModule()  : UnityEngine::EventSystems::BaseInputModule(THROW_UNLESS(::il2cpp_utils::New<VRInputModule>())) {}
+ VRUIControls::VRInputModule VRUIControls::VRInputModule::New_ctor()  {
+VRUIControls::VRInputModule o{THROW_UNLESS(::il2cpp_utils::New<VRUIControls::VRInputModule>())};
+return o;
+}
  void VRUIControls::VRInputModule::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<VRUIControls::VRInputModule>::get(),

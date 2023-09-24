@@ -56,8 +56,7 @@ constexpr explicit CustomConstantAttribute(void* ptr) noexcept : System::Attribu
 /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType get_Value() ;
 
-// Ctor Parameters []
-explicit CustomConstantAttribute() ;
+static System::Runtime::CompilerServices::CustomConstantAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x236ddf8 size 0x8 virtual false final false
  void _ctor() ;

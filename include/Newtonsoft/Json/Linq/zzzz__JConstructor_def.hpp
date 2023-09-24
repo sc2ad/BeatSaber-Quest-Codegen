@@ -7,32 +7,32 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class List_1;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
 }
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
 }
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
 namespace Newtonsoft::Json::Linq {
 class JsonLoadSettings;
 }
-namespace Newtonsoft::Json::Linq {
-class JToken;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace Newtonsoft::Json::Linq {
 class JsonMergeSettings;
 }
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
 namespace Newtonsoft::Json {
-class JsonConverter;
+class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -124,32 +124,27 @@ constexpr System::Collections::Generic::List_1<Newtonsoft::Json::Linq::JToken> _
 /// @brief Method get_Type addr 0x251a668 size 0x8 virtual true final false
  Newtonsoft::Json::Linq::JTokenType get_Type() ;
 
-// Ctor Parameters []
-explicit JConstructor() ;
+static Newtonsoft::Json::Linq::JConstructor New_ctor() ;
 
 /// @brief Method .ctor addr 0x251a670 size 0x78 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JConstructor", modifiers: "", def_value: None }]
-explicit JConstructor(Newtonsoft::Json::Linq::JConstructor other) ;
+static Newtonsoft::Json::Linq::JConstructor New_ctor(Newtonsoft::Json::Linq::JConstructor other) ;
 
 /// @brief Method .ctor addr 0x251a740 size 0x98 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JConstructor other) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit JConstructor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
+static Newtonsoft::Json::Linq::JConstructor New_ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
 /// @brief Method .ctor addr 0x251aaf0 size 0x34 virtual false final false
  void _ctor(::StringW name, ::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit JConstructor(::StringW name, ::bs_hook::Il2CppWrapperType content) ;
+static Newtonsoft::Json::Linq::JConstructor New_ctor(::StringW name, ::bs_hook::Il2CppWrapperType content) ;
 
 /// @brief Method .ctor addr 0x251ab24 size 0x34 virtual false final false
  void _ctor(::StringW name, ::bs_hook::Il2CppWrapperType content) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit JConstructor(::StringW name) ;
+static Newtonsoft::Json::Linq::JConstructor New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x251ab58 size 0x130 virtual false final false
  void _ctor(::StringW name) ;

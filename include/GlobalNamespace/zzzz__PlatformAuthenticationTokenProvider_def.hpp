@@ -6,35 +6,44 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-class UserInfo;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
-namespace GlobalNamespace {
 struct GlobalNamespace__AuthenticationToken__Platform;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformAuthenticationTokenProvider___GetAuthenticationToken_d__16;
+}
+namespace GlobalNamespace {
+struct AuthenticationToken;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19;
+}
+namespace GlobalNamespace {
+struct PlatformEnvironment;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace GlobalNamespace {
-struct AuthenticationToken;
+class IPlatformUserModel;
 }
 namespace GlobalNamespace {
-struct PlatformEnvironment;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+class UserInfo;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class PlatformUserAuthTokenData;
+class XPlatformAccessTokenData;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -44,8 +53,8 @@ namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class PlatformUserAuthTokenData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -450,8 +459,7 @@ constexpr float_t __get__xPlatformTokenRetryDelayExpiration() const;
 /// @brief Method get_platform addr 0x22108e0 size 0x8 virtual true final true
  GlobalNamespace::GlobalNamespace__AuthenticationToken__Platform get_platform() ;
 
-// Ctor Parameters [CppParam { name: "platformUserModel", ty: "GlobalNamespace::IPlatformUserModel", modifiers: "", def_value: None }, CppParam { name: "userInfo", ty: "GlobalNamespace::UserInfo", modifiers: "", def_value: None }]
-explicit PlatformAuthenticationTokenProvider(GlobalNamespace::IPlatformUserModel platformUserModel, GlobalNamespace::UserInfo userInfo) ;
+static GlobalNamespace::PlatformAuthenticationTokenProvider New_ctor(GlobalNamespace::IPlatformUserModel platformUserModel, GlobalNamespace::UserInfo userInfo) ;
 
 /// @brief Method .ctor addr 0x22108e8 size 0xac virtual false final false
  void _ctor(GlobalNamespace::IPlatformUserModel platformUserModel, GlobalNamespace::UserInfo userInfo) ;

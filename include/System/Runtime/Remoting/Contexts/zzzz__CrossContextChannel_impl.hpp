@@ -1,6 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextChannel_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__CrossContextChannel_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
@@ -77,8 +78,10 @@ constexpr void System::Runtime::Remoting::Contexts::System__Runtime__Remoting__C
 constexpr System::Runtime::Remoting::Messaging::IMessage System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink::__get__call() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Messaging::IMessage, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "next", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "call", ty: "System::Runtime::Remoting::Messaging::IMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink(System::Runtime::Remoting::Messaging::IMessageSink next, System::Runtime::Remoting::Contexts::Context context, System::Runtime::Remoting::Messaging::IMessage call)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink>(next, context, call))) {}
+ System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink::New_ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::Runtime::Remoting::Contexts::Context context, System::Runtime::Remoting::Messaging::IMessage call)  {
+System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink>(next, context, call))};
+return o;
+}
  void System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink::_ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::Runtime::Remoting::Contexts::Context context, System::Runtime::Remoting::Messaging::IMessage call)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink>::get(),
@@ -179,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Messaging::IMessageCtrl, false>(const_cast<void*>(instance), ___internal_method, msg, replySink);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Contexts::CrossContextChannel::CrossContextChannel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CrossContextChannel>())) {}
+ System::Runtime::Remoting::Contexts::CrossContextChannel System::Runtime::Remoting::Contexts::CrossContextChannel::New_ctor()  {
+System::Runtime::Remoting::Contexts::CrossContextChannel o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Contexts::CrossContextChannel>())};
+return o;
+}
  void System::Runtime::Remoting::Contexts::CrossContextChannel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Contexts::CrossContextChannel>::get(),

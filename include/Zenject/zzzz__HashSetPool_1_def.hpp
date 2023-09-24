@@ -21,7 +21,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14596), inst: 2476 }), TypeDefinitionIndex(TypeDefinitionIndex(14596)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2699 }), TypeDefinitionIndex(TypeDefinitionIndex(11038)), TypeDefinitionIndex(TypeDefinitionIndex(11028))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14596), inst: 2476 }), TypeDefinitionIndex(TypeDefinitionIndex(11028)), TypeDefinitionIndex(TypeDefinitionIndex(11038)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11028), inst: 2699 }), TypeDefinitionIndex(TypeDefinitionIndex(14596))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 2 })
 // CS Name: Zenject.HashSetPool`1
 class CORDL_TYPE HashSetPool_1<T> : public Zenject::StaticMemoryPool_1<System::Collections::Generic::HashSet_1<T>> {
@@ -74,8 +74,7 @@ static Zenject::HashSetPool_1<T> __declspec(property(get=get_Instance))  Instanc
 
 // Methods
 
-// Ctor Parameters []
-explicit HashSetPool_1() ;
+static Zenject::HashSetPool_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

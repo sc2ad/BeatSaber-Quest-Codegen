@@ -4,50 +4,50 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class RsassaPssParameters;
-}
 namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
+class AsymmetricKeyParameter;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class RsassaPssParameters;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactoryProvider;
-}
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -131,44 +131,37 @@ static Org::BouncyCastle::Utilities::Collections::ISet __get_noParams() ;
 /// @brief Method CreatePssParams addr 0x104d6cc size 0x12c virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters CreatePssParams(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier hashAlgId, int32_t saltSize) ;
 
-// Ctor Parameters []
-explicit Pkcs10CertificationRequest() ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x104d7f8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encoded", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Pkcs10CertificationRequest(::ArrayW<uint8_t> encoded) ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor(::ArrayW<uint8_t> encoded) ;
 
 /// @brief Method .ctor addr 0x1047788 size 0x98 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoded) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit Pkcs10CertificationRequest(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x104d800 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Pkcs10CertificationRequest(System::IO::Stream input) ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x104d808 size 0x98 virtual false final false
  void _ctor(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "signatureAlgorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "signingKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Pkcs10CertificationRequest(::StringW signatureAlgorithm, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey) ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor(::StringW signatureAlgorithm, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey) ;
 
 /// @brief Method .ctor addr 0x104d8a0 size 0xa4 virtual false final false
  void _ctor(::StringW signatureAlgorithm, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey) ;
 
-// Ctor Parameters [CppParam { name: "signatureFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "signingKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Pkcs10CertificationRequest(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey) ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey) ;
 
 /// @brief Method .ctor addr 0x104da84 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes, Org::BouncyCastle::Crypto::AsymmetricKeyParameter signingKey) ;
 
-// Ctor Parameters [CppParam { name: "signatureFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit Pkcs10CertificationRequest(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
+static Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest New_ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes) ;
 
 /// @brief Method .ctor addr 0x104d944 size 0x140 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ISignatureFactory signatureFactory, Org::BouncyCastle::Asn1::X509::X509Name subject, Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey, Org::BouncyCastle::Asn1::Asn1Set attributes) ;

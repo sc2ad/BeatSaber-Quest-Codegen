@@ -1,11 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBloomTextureEffectSO_def.hpp"
+#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomPrePassBloomTextureEffectSO.get_toneMapping
 template<>
 
@@ -153,8 +152,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, src, dest);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBloomTextureEffectSO::BloomPrePassBloomTextureEffectSO()  : GlobalNamespace::BloomPrePassEffectSO(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBloomTextureEffectSO>())) {}
+ GlobalNamespace::BloomPrePassBloomTextureEffectSO GlobalNamespace::BloomPrePassBloomTextureEffectSO::New_ctor()  {
+GlobalNamespace::BloomPrePassBloomTextureEffectSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBloomTextureEffectSO>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBloomTextureEffectSO>::get(),

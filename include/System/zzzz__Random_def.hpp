@@ -92,14 +92,12 @@ static System::Random __get_s_globalRandom() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Random() ;
+static System::Random New_ctor() ;
 
 /// @brief Method .ctor addr 0x2451640 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "Seed", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Random(int32_t Seed) ;
+static System::Random New_ctor(int32_t Seed) ;
 
 /// @brief Method .ctor addr 0x245185c size 0x1b0 virtual false final false
  void _ctor(int32_t Seed) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
-#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerAxis_t_def.hpp"
+#include "OVR/OpenVR/zzzz__VRControllerState_t_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::VRControllerState_t_Packed._ctor
 template<>
 

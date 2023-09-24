@@ -3,12 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,8 +120,7 @@ constexpr System::Collections::Generic::IEnumerable_1<::StringW> __get__specialB
 /// @brief Method get_specialBasicBeatmapEventKeywords addr 0x21cabc4 size 0x8 virtual true final true
  System::Collections::Generic::IEnumerable_1<::StringW> get_specialBasicBeatmapEventKeywords() ;
 
-// Ctor Parameters [CppParam { name: "numberOfLines", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cuttableNotesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "obstaclesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bombsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "specialBasicBeatmapEventKeywords", ty: "System::Collections::Generic::IEnumerable_1<::StringW>", modifiers: "", def_value: None }]
-explicit BeatmapDataBasicInfo(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;
+static GlobalNamespace::BeatmapDataBasicInfo New_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;
 
 /// @brief Method .ctor addr 0x21cabcc size 0x50 virtual false final false
  void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount, System::Collections::Generic::IEnumerable_1<::StringW> specialBasicBeatmapEventKeywords) ;

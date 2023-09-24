@@ -3,8 +3,8 @@
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
+namespace RootMotion {
+class BipedReferences;
 }
 namespace UnityEngine {
 class Transform;
@@ -12,8 +12,8 @@ class Transform;
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
-namespace RootMotion {
-class BipedReferences;
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -112,8 +112,7 @@ constexpr RootMotion::FinalIK::IKSolverFullBodyBiped __get_solver() const;
 /// @brief Method AutoDetectReferences addr 0x11c4d14 size 0xd8 virtual false final false
  void AutoDetectReferences() ;
 
-// Ctor Parameters []
-explicit FullBodyBipedIK() ;
+static RootMotion::FinalIK::FullBodyBipedIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c4dec size 0x98 virtual false final false
  void _ctor() ;

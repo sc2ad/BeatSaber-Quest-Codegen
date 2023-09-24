@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg {
-class UserAttributeSubpacket;
+namespace Org::BouncyCastle::Bcpg::Attr {
+class ImageAttrib;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct UserAttributeSubpacketTag;
 }
-namespace Org::BouncyCastle::Bcpg::Attr {
-class ImageAttrib;
+namespace Org::BouncyCastle::Bcpg {
+class UserAttributeSubpacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -67,8 +67,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> __get_packet
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "packets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket>", modifiers: "", def_value: None }]
-explicit PgpUserAttributeSubpacketVector(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> packets) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> packets) ;
 
 /// @brief Method .ctor addr 0x10412d8 size 0x28 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Bcpg::UserAttributeSubpacket> packets) ;

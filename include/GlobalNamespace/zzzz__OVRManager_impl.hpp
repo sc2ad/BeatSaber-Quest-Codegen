@@ -6,43 +6,42 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-#include "UnityEngine/zzzz__DepthTextureMode_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "System/zzzz__WeakReference_1_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTracker_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureSettings_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
-#include "System/zzzz__Action_6_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
-#include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRRuntimeSettings_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
+#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "System/zzzz__WeakReference_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPose_def.hpp"
+#include "System/zzzz__Action_6_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
+#include "System/zzzz__Version_def.hpp"
+#include "UnityEngine/zzzz__DepthTextureMode_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTracker_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureSettings_def.hpp"
+#include "GlobalNamespace/zzzz__OVRDisplay_def.hpp"
+#include "UnityEngine/XR/zzzz__XRNode_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRuntimeSettings_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRManager__XrApi::GlobalNamespace__OVRManager__XrApi(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -332,8 +331,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate>::get(),
@@ -464,8 +465,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "supportsPassthrough", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "supportsColorPassthrough", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities::GlobalNamespace__OVRManager__PassthroughCapabilities(bool supportsPassthrough, bool supportsColorPassthrough)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRManager__PassthroughCapabilities>(supportsPassthrough, supportsColorPassthrough))) {}
+ GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities::New_ctor(bool supportsPassthrough, bool supportsColorPassthrough)  {
+GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities>(supportsPassthrough, supportsColorPassthrough))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities::_ctor(bool supportsPassthrough, bool supportsColorPassthrough)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRManager__PassthroughCapabilities>::get(),
@@ -544,8 +547,10 @@ return ::cordl_internals::getStaticField<System::Func_2<float_t,::StringW>, "<>9
  System::Comparison_1<UnityEngine::Camera> GlobalNamespace::GlobalNamespace__OVRManager____c::__get___9__413_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::Camera>, "<>9__413_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRManager____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRManager____c::GlobalNamespace__OVRManager____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRManager____c>())) {}
+ GlobalNamespace::GlobalNamespace__OVRManager____c GlobalNamespace::GlobalNamespace__OVRManager____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRManager____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRManager____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRManager____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRManager____c>::get(),
@@ -7150,8 +7155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRManager::OVRManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRManager>())) {}
+ GlobalNamespace::OVRManager GlobalNamespace::OVRManager::New_ctor()  {
+GlobalNamespace::OVRManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRManager>())};
+return o;
+}
  void GlobalNamespace::OVRManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRManager>::get(),

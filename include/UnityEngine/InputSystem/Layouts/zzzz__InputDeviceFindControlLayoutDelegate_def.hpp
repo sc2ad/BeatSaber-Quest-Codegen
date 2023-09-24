@@ -6,16 +6,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class AsyncCallback;
 }
-namespace UnityEngine::InputSystem::Layouts {
-struct InputDeviceDescription;
+namespace System {
+class IAsyncResult;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class InputDeviceExecuteCommandDelegate;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputDeviceDescription;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
@@ -63,8 +63,7 @@ constexpr explicit InputDeviceFindControlLayoutDelegate(void* ptr) noexcept : Sy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit InputDeviceFindControlLayoutDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2967938 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

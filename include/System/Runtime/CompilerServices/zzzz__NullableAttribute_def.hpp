@@ -58,14 +58,12 @@ constexpr ::ArrayW<uint8_t> __get_NullableFlags() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit NullableAttribute(uint8_t ) ;
+static System::Runtime::CompilerServices::NullableAttribute New_ctor(uint8_t ) ;
 
 /// @brief Method .ctor addr 0x20a431c size 0x80 virtual false final false
  void _ctor(uint8_t ) ;
 
-// Ctor Parameters [CppParam { name: "", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit NullableAttribute(::ArrayW<uint8_t> ) ;
+static System::Runtime::CompilerServices::NullableAttribute New_ctor(::ArrayW<uint8_t> ) ;
 
 /// @brief Method .ctor addr 0x20a439c size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> ) ;

@@ -3,9 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class MenuEnvironmentManager;
-}
-namespace GlobalNamespace {
 class MultiplayerLobbyCenterStageManager;
 }
 namespace GlobalNamespace {
@@ -13,6 +10,9 @@ class MultiplayerLobbyAvatarManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlaceManager;
+}
+namespace GlobalNamespace {
+class MenuEnvironmentManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +122,7 @@ constexpr bool __get__lobbyActivated_k__BackingField() const;
 /// @brief Method DeactivateMultiplayerLobby addr 0x214f90c size 0x70 virtual false final false
  void DeactivateMultiplayerLobby() ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyController() ;
+static GlobalNamespace::MultiplayerLobbyController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214f97c size 0x14 virtual false final false
  void _ctor() ;

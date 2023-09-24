@@ -47,8 +47,7 @@ constexpr explicit CompetetiveActivitySO(void* ptr) noexcept : GlobalNamespace::
 
 // Methods
 
-// Ctor Parameters []
-explicit CompetetiveActivitySO() ;
+static GlobalNamespace::CompetetiveActivitySO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a79c size 0x8 virtual false final false
  void _ctor() ;

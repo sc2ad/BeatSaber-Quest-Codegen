@@ -83,8 +83,7 @@ constexpr System::Action __get_OnBecameInvisibleEvent() const;
 /// @brief Method OnBecameInvisible addr 0x1f7dac8 size 0x1c virtual false final false
  void OnBecameInvisible() ;
 
-// Ctor Parameters []
-explicit VisibilityChecker() ;
+static GlobalNamespace::VisibilityChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7dae4 size 0x8 virtual false final false
  void _ctor() ;

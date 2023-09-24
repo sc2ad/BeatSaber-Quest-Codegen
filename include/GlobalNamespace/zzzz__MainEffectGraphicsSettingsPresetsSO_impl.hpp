@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset._ctor
 template<>
 
@@ -27,8 +28,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPrese
 constexpr GlobalNamespace::MainEffectSO GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset::__get_mainEffect() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MainEffectSO, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset()  : GlobalNamespace::NamedPreset(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset>())) {}
+ GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainEffectGraphicsSettingsPresetsSO__Preset>::get(),
@@ -113,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::NamedPreset>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::MainEffectGraphicsSettingsPresetsSO()  : GlobalNamespace::NamedPresetsSO(THROW_UNLESS(::il2cpp_utils::New<MainEffectGraphicsSettingsPresetsSO>())) {}
+ GlobalNamespace::MainEffectGraphicsSettingsPresetsSO GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::New_ctor()  {
+GlobalNamespace::MainEffectGraphicsSettingsPresetsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>())};
+return o;
+}
  void GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>::get(),

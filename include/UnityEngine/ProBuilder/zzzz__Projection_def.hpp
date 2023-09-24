@@ -5,14 +5,17 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+struct AutoUnwrapSettings;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
+struct SortMethod;
 }
 namespace UnityEngine::ProBuilder {
 struct ProjectionAxis;
@@ -20,29 +23,29 @@ struct ProjectionAxis;
 namespace UnityEngine {
 struct Plane;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__Projection____c;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::ProBuilder {
-struct SortMethod;
+namespace System {
+template<typename T>
+class Comparison_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace System {
-template<typename T>
-class Comparison_1;
 }
 namespace UnityEngine::ProBuilder {
 template<typename T1,typename T2>
@@ -118,8 +121,7 @@ static System::Func_2<UnityEngine::ProBuilder::SimpleTuple_2<float_t,UnityEngine
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__Projection____c() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x29cefc4 size 0x8 virtual false final false
  void _ctor() ;

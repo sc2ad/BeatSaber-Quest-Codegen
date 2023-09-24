@@ -3,7 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
+struct UnityEngine__ParticleSystem__EmitParams;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -12,7 +12,7 @@ namespace GlobalNamespace {
 class IntSO;
 }
 namespace UnityEngine {
-struct UnityEngine__ParticleSystem__EmitParams;
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,8 +93,7 @@ constexpr float_t __get__prevShockwaveParticleSpawnTime() const;
 /// @brief Method SpawnShockwave addr 0x2257a2c size 0xd4 virtual false final false
  void SpawnShockwave(UnityEngine::Vector3 pos) ;
 
-// Ctor Parameters []
-explicit ShockwaveEffect() ;
+static GlobalNamespace::ShockwaveEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2257b00 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__ECAlgorithms_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafPreCompInfo_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
@@ -623,8 +623,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::ECPoint, false>(nullptr, ___internal_method, p, k, q, l);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::ECAlgorithms::ECAlgorithms()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECAlgorithms>())) {}
+ Org::BouncyCastle::Math::EC::ECAlgorithms Org::BouncyCastle::Math::EC::ECAlgorithms::New_ctor()  {
+Org::BouncyCastle::Math::EC::ECAlgorithms o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::ECAlgorithms>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::ECAlgorithms::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::ECAlgorithms>::get(),

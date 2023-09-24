@@ -2,20 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::UI {
-class Image;
+namespace System::Threading {
+class CancellationTokenSource;
 }
 namespace HMUI {
 struct HMUI__SelectableCell__TransitionType;
 }
-namespace UnityEngine {
-struct Color;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace System::Threading {
-class CancellationTokenSource;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -122,8 +122,7 @@ constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSou
 /// @brief Method RefreshVisuals addr 0x212700c size 0x88 virtual false final false
  void RefreshVisuals() ;
 
-// Ctor Parameters []
-explicit PackLevelListHeaderTableCell() ;
+static GlobalNamespace::PackLevelListHeaderTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127098 size 0x14 virtual false final false
  void _ctor() ;

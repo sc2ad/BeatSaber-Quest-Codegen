@@ -53,8 +53,7 @@ constexpr explicit PointerStationaryEvent(void* ptr) noexcept : UnityEngine::UIE
 /// @brief Method LocalInit addr 0x2cd8754 size 0x104 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerStationaryEvent() ;
+static UnityEngine::UIElements::PointerStationaryEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd8858 size 0x50 virtual false final false
  void _ctor() ;

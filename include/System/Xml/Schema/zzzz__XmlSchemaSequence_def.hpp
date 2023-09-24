@@ -67,8 +67,7 @@ constexpr System::Xml::Schema::XmlSchemaObjectCollection __get_items() const;
 /// @brief Method get_Items addr 0x273543c size 0x8 virtual true final false
  System::Xml::Schema::XmlSchemaObjectCollection get_Items() ;
 
-// Ctor Parameters []
-explicit XmlSchemaSequence() ;
+static System::Xml::Schema::XmlSchemaSequence New_ctor() ;
 
 /// @brief Method .ctor addr 0x27341f4 size 0x64 virtual false final false
  void _ctor() ;

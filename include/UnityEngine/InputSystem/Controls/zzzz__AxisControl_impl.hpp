@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__AxisControl__Clamp::UnityEngine__InputSystem__Controls__AxisControl__Clamp(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -235,8 +236,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::AxisControl::AxisControl()  : UnityEngine::InputSystem::InputControl_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<AxisControl>())) {}
+ UnityEngine::InputSystem::Controls::AxisControl UnityEngine::InputSystem::Controls::AxisControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::AxisControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::AxisControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::AxisControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::AxisControl>::get(),

@@ -8,7 +8,7 @@ class NavigationSubmitEvent;
 // Type: UnityEngine.UIElements::NavigationSubmitEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7347)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 4562 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 4562 }), TypeDefinitionIndex(TypeDefinitionIndex(7347))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7353))
 // CS Name: UnityEngine.UIElements.NavigationSubmitEvent
 class CORDL_TYPE NavigationSubmitEvent : public UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationSubmitEvent> {
@@ -47,8 +47,7 @@ constexpr explicit NavigationSubmitEvent(void* ptr) noexcept : UnityEngine::UIEl
 
 // Methods
 
-// Ctor Parameters []
-explicit NavigationSubmitEvent() ;
+static UnityEngine::UIElements::NavigationSubmitEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdbef8 size 0x48 virtual false final false
  void _ctor() ;

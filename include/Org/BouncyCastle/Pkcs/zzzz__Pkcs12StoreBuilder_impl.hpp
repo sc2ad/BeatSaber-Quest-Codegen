@@ -134,8 +134,10 @@ constexpr void Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::__set_useDerEncoding
 constexpr bool Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::__get_useDerEncoding() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::Pkcs12StoreBuilder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12StoreBuilder>())) {}
+ Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::New_ctor()  {
+Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder>())};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder>::get(),

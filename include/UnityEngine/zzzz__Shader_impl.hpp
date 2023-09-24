@@ -1,24 +1,24 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__GlobalKeyword_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ShaderHardwareTier_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
-#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderPropertyType_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__DisableBatchingType_def.hpp"
-#include "UnityEngine/Rendering/zzzz__ShaderPropertyFlags_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeywordSpace_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GlobalKeyword_def.hpp"
+#include "UnityEngine/zzzz__DisableBatchingType_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderTagId_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderHardwareTier_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ShaderPropertyFlags_def.hpp"
+#include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 //  Writing Method size for method: UnityEngine::Shader.get_globalShaderHardwareTier
 template<>
 
@@ -4288,8 +4288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, nameID, values);
 }
-// Ctor Parameters []
- UnityEngine::Shader::Shader()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Shader>())) {}
+ UnityEngine::Shader UnityEngine::Shader::New_ctor()  {
+UnityEngine::Shader o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Shader>())};
+return o;
+}
  void UnityEngine::Shader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Shader>::get(),

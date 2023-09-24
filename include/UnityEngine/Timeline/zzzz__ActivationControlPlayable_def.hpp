@@ -5,17 +5,23 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
 template<typename T>
 struct ScriptPlayable_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__ActivationControlPlayable__InitialState;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -80,6 +86,8 @@ __Revert = 2,
 constexpr operator __UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__ActivationControlPlayable__PostPlaybackState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -153,6 +161,8 @@ __Inactive = 2,
 constexpr operator __UnityEngine__Timeline__ActivationControlPlayable__InitialState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__ActivationControlPlayable__InitialState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -261,8 +271,7 @@ static UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::Activatio
 /// @brief Method OnPlayableDestroy addr 0x2ad1bec size 0xcc virtual true final false
  void OnPlayableDestroy(UnityEngine::Playables::Playable playable) ;
 
-// Ctor Parameters []
-explicit ActivationControlPlayable() ;
+static UnityEngine::Timeline::ActivationControlPlayable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad1cb8 size 0x10 virtual false final false
  void _ctor() ;

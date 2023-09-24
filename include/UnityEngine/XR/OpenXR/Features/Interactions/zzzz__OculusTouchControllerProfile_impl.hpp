@@ -2,14 +2,15 @@
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__OculusTouchControllerProfile_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/Interactions/zzzz__OculusTouchControllerProfile_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__HapticControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/XR/OpenXR/Input/zzzz__PoseControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 //  Writing Method size for method: UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController.get_thumbstick
 template<>
 
@@ -1387,8 +1388,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController()  : UnityEngine::InputSystem::XR::XRControllerWithRumble(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__OculusTouchControllerProfile__OculusTouchController>::get(),
@@ -1493,8 +1496,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile::OculusTouchControllerProfile()  : UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature(THROW_UNLESS(::il2cpp_utils::New<OculusTouchControllerProfile>())) {}
+ UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::Interactions::OculusTouchControllerProfile>::get(),

@@ -92,8 +92,7 @@ constexpr ::ArrayW<TMPro::TextMeshPro> __get__texts() const;
 /// @brief Method get_alpha addr 0x20f9780 size 0x40 virtual false final false
  float_t get_alpha() ;
 
-// Ctor Parameters []
-explicit MultiplayerIntroCountdownTextController() ;
+static GlobalNamespace::MultiplayerIntroCountdownTextController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20fa860 size 0x8 virtual false final false
  void _ctor() ;

@@ -138,8 +138,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers::__get_IdIsisMttATLiabilityLimitationFlag()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "IdIsisMttATLiabilityLimitationFlag", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers::IsisMttObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IsisMttObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers>::get(),

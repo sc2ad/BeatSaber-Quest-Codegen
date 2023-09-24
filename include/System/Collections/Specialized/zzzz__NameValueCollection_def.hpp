@@ -85,26 +85,22 @@ constexpr ::ArrayW<::StringW> __get__allKeys() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NameValueCollection() ;
+static System::Collections::Specialized::NameValueCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27aa17c size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NameValueCollection(int32_t capacity) ;
+static System::Collections::Specialized::NameValueCollection New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x27aa230 size 0x64 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit NameValueCollection(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
+static System::Collections::Specialized::NameValueCollection New_ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
 /// @brief Method .ctor addr 0x27aa344 size 0x74 virtual false final false
  void _ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit NameValueCollection(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Specialized::NameValueCollection New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27aa3e4 size 0x6c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -148,8 +144,7 @@ static ::ArrayW<::StringW> GetAsStringArray(System::Collections::ArrayList list)
 /// @brief Method GetKey addr 0x27ab034 size 0x4 virtual true final false
  ::StringW GetKey(int32_t index) ;
 
-// Ctor Parameters [CppParam { name: "dummy", ty: "System::DBNull", modifiers: "", def_value: None }]
-explicit NameValueCollection(System::DBNull dummy) ;
+static System::Collections::Specialized::NameValueCollection New_ctor(System::DBNull dummy) ;
 
 /// @brief Method .ctor addr 0x27ab0d4 size 0x58 virtual false final false
  void _ctor(System::DBNull dummy) ;

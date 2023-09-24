@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ComboController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__IComboController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__IComboController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ComboController.get_maxCombo
 template<>
 
@@ -325,8 +325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::ComboController::ComboController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ComboController>())) {}
+ GlobalNamespace::ComboController GlobalNamespace::ComboController::New_ctor()  {
+GlobalNamespace::ComboController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ComboController>())};
+return o;
+}
  void GlobalNamespace::ComboController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ComboController>::get(),

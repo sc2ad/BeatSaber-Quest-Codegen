@@ -3,14 +3,14 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace System::IO {
+struct SeekOrigin;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System::IO {
-struct SeekOrigin;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::IO {
@@ -92,8 +92,7 @@ constexpr Org::BouncyCastle::Crypto::IMac __get_outMac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "writeMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit MacStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::IMac readMac, Org::BouncyCastle::Crypto::IMac writeMac) ;
+static Org::BouncyCastle::Crypto::IO::MacStream New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IMac readMac, Org::BouncyCastle::Crypto::IMac writeMac) ;
 
 /// @brief Method .ctor addr 0xe7c2f8 size 0x80 virtual false final false
  void _ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IMac readMac, Org::BouncyCastle::Crypto::IMac writeMac) ;

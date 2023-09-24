@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Delegate;
-}
 namespace System::Threading {
 class ContextCallback;
+}
+namespace System {
+class Delegate;
 }
 namespace System::Threading {
 class ExecutionContext;
@@ -83,8 +83,7 @@ static System::Threading::ContextCallback __get__ccb() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "start", ty: "System::Delegate", modifiers: "", def_value: None }]
-explicit ThreadHelper(System::Delegate start) ;
+static System::Threading::ThreadHelper New_ctor(System::Delegate start) ;
 
 /// @brief Method .ctor addr 0x24abdac size 0x28 virtual false final false
  void _ctor(System::Delegate start) ;

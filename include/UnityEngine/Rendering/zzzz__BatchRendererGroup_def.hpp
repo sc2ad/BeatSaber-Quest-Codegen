@@ -10,11 +10,14 @@ struct BatchRendererCullingOutput;
 namespace UnityEngine::Rendering {
 struct LODParameters;
 }
-namespace Unity::Jobs {
-struct JobHandle;
+namespace UnityEngine::Rendering {
+class UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling;
 }
 namespace UnityEngine::Rendering {
 struct BatchCullingContext;
+}
+namespace Unity::Jobs {
+struct JobHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -65,8 +68,7 @@ constexpr explicit UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::Rendering::UnityEngine__Rendering__BatchRendererGroup__OnPerformCulling New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b76ccc size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

@@ -74,8 +74,7 @@ constexpr GlobalNamespace::OVRExternalComposition __get_composition() const;
 /// @brief Method OnAudioFilterRead addr 0x25a8f98 size 0x18 virtual false final false
  void OnAudioFilterRead(::ArrayW<float_t> data, int32_t channels) ;
 
-// Ctor Parameters []
-explicit OVRMRAudioFilter() ;
+static GlobalNamespace::OVRMRAudioFilter New_ctor() ;
 
 /// @brief Method .ctor addr 0x25a8fb0 size 0x8 virtual false final false
  void _ctor() ;

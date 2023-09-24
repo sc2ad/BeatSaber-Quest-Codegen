@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SonySaveData_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SonySaveData.RegisterForTicking
 template<>
 
@@ -268,8 +268,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SonySaveData::SonySaveData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SonySaveData>())) {}
+ GlobalNamespace::SonySaveData GlobalNamespace::SonySaveData::New_ctor()  {
+GlobalNamespace::SonySaveData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonySaveData>())};
+return o;
+}
  void GlobalNamespace::SonySaveData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonySaveData>::get(),

@@ -374,8 +374,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x50>(this->::bs_hook::Il2Cp
  ::ArrayW<uint32_t> Org::BouncyCastle::Crypto::Digests::Sha224Digest::__get_K()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint32_t>, "K", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Sha224Digest>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sha224Digest()  : Org::BouncyCastle::Crypto::Digests::GeneralDigest(THROW_UNLESS(::il2cpp_utils::New<Sha224Digest>())) {}
+ Org::BouncyCastle::Crypto::Digests::Sha224Digest Org::BouncyCastle::Crypto::Digests::Sha224Digest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::Sha224Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Sha224Digest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Sha224Digest>::get(),
@@ -385,8 +387,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha224Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Sha224Digest::Sha224Digest(Org::BouncyCastle::Crypto::Digests::Sha224Digest t)  : Org::BouncyCastle::Crypto::Digests::GeneralDigest(THROW_UNLESS(::il2cpp_utils::New<Sha224Digest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::Sha224Digest Org::BouncyCastle::Crypto::Digests::Sha224Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::Sha224Digest t)  {
+Org::BouncyCastle::Crypto::Digests::Sha224Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Sha224Digest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Sha224Digest::_ctor(Org::BouncyCastle::Crypto::Digests::Sha224Digest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Sha224Digest>::get(),

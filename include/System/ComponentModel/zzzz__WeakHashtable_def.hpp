@@ -6,6 +6,9 @@
 namespace System::Collections {
 class IEqualityComparer;
 }
+namespace System::ComponentModel {
+class System__ComponentModel__WeakHashtable__WeakKeyComparer;
+}
 // Forward declare root types
 namespace System::ComponentModel {
 class System__ComponentModel__WeakHashtable__WeakKeyComparer;
@@ -64,8 +67,7 @@ constexpr explicit System__ComponentModel__WeakHashtable__WeakKeyComparer(void* 
 /// @brief Method System.Collections.IEqualityComparer.GetHashCode addr 0x27a815c size 0x20 virtual true final true
  int32_t System_Collections_IEqualityComparer_GetHashCode(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit System__ComponentModel__WeakHashtable__WeakKeyComparer() ;
+static System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a7ff8 size 0x8 virtual false final false
  void _ctor() ;
@@ -127,8 +129,7 @@ static System::Collections::IEqualityComparer __get__comparer() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit WeakHashtable() ;
+static System::ComponentModel::WeakHashtable New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a7f0c size 0x64 virtual false final false
  void _ctor() ;

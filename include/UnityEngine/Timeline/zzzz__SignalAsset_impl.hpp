@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::SignalAsset::SignalAsset()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SignalAsset>())) {}
+ UnityEngine::Timeline::SignalAsset UnityEngine::Timeline::SignalAsset::New_ctor()  {
+UnityEngine::Timeline::SignalAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::SignalAsset>())};
+return o;
+}
  void UnityEngine::Timeline::SignalAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::SignalAsset>::get(),

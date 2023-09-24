@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ResourceManagerException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__UnknownResourceProviderException_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException.get_Location
 template<>
@@ -182,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::UnknownResourceProviderException(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  : UnityEngine::ResourceManagement::Exceptions::ResourceManagerException(THROW_UNLESS(::il2cpp_utils::New<UnknownResourceProviderException>(location))) {}
+ UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  {
+UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>(location))};
+return o;
+}
  void UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>::get(),
@@ -193,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, location);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::UnknownResourceProviderException()  : UnityEngine::ResourceManagement::Exceptions::ResourceManagerException(THROW_UNLESS(::il2cpp_utils::New<UnknownResourceProviderException>())) {}
+ UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::New_ctor()  {
+UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>())};
+return o;
+}
  void UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>::get(),
@@ -204,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::UnknownResourceProviderException(::StringW message)  : UnityEngine::ResourceManagement::Exceptions::ResourceManagerException(THROW_UNLESS(::il2cpp_utils::New<UnknownResourceProviderException>(message))) {}
+ UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::New_ctor(::StringW message)  {
+UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>(message))};
+return o;
+}
  void UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>::get(),
@@ -215,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::UnknownResourceProviderException(::StringW message, System::Exception innerException)  : UnityEngine::ResourceManagement::Exceptions::ResourceManagerException(THROW_UNLESS(::il2cpp_utils::New<UnknownResourceProviderException>(message, innerException))) {}
+ UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::New_ctor(::StringW message, System::Exception innerException)  {
+UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>(message, innerException))};
+return o;
+}
  void UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>::get(),
@@ -226,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::UnknownResourceProviderException(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context)  : UnityEngine::ResourceManagement::Exceptions::ResourceManagerException(THROW_UNLESS(::il2cpp_utils::New<UnknownResourceProviderException>(message, context))) {}
+ UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::New_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context)  {
+UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>(message, context))};
+return o;
+}
  void UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException::_ctor(System::Runtime::Serialization::SerializationInfo message, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException>::get(),

@@ -2,22 +2,22 @@
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__Saber_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
+#include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
+#include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
+#include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BurstSliderGameNoteController.add_cubeNoteControllerDidInitEvent
 template<>
 
@@ -531,8 +531,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pause);
 }
-// Ctor Parameters []
- GlobalNamespace::BurstSliderGameNoteController::BurstSliderGameNoteController()  : GlobalNamespace::NoteController(THROW_UNLESS(::il2cpp_utils::New<BurstSliderGameNoteController>())) {}
+ GlobalNamespace::BurstSliderGameNoteController GlobalNamespace::BurstSliderGameNoteController::New_ctor()  {
+GlobalNamespace::BurstSliderGameNoteController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BurstSliderGameNoteController>())};
+return o;
+}
  void GlobalNamespace::BurstSliderGameNoteController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BurstSliderGameNoteController>::get(),
@@ -559,8 +561,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool::GlobalNamespace__BurstSliderGameNoteController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::BurstSliderGameNoteController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BurstSliderGameNoteController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BurstSliderGameNoteController__Pool>::get(),

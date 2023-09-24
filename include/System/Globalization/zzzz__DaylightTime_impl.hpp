@@ -88,8 +88,10 @@ constexpr void System::Globalization::DaylightTime::__set__delta(System::TimeSpa
 constexpr System::TimeSpan System::Globalization::DaylightTime::__get__delta() const {
 return ::cordl_internals::getInstanceField<System::TimeSpan, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "start", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "end", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "System::TimeSpan", modifiers: "", def_value: None }]
- System::Globalization::DaylightTime::DaylightTime(System::DateTime start, System::DateTime end, System::TimeSpan delta)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DaylightTime>(start, end, delta))) {}
+ System::Globalization::DaylightTime System::Globalization::DaylightTime::New_ctor(System::DateTime start, System::DateTime end, System::TimeSpan delta)  {
+System::Globalization::DaylightTime o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::DaylightTime>(start, end, delta))};
+return o;
+}
  void System::Globalization::DaylightTime::_ctor(System::DateTime start, System::DateTime end, System::TimeSpan delta)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::DaylightTime>::get(),

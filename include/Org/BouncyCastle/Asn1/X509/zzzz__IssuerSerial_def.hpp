@@ -3,6 +3,9 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -11,14 +14,11 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -102,14 +102,12 @@ static Org::BouncyCastle::Asn1::X509::IssuerSerial GetInstance(::bs_hook::Il2Cpp
 /// @brief Method GetInstance addr 0x1106054 size 0x18 virtual false final false
 static Org::BouncyCastle::Asn1::X509::IssuerSerial GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool explicitly) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit IssuerSerial(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::IssuerSerial New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1106f18 size 0x1c0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "serial", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit IssuerSerial(Org::BouncyCastle::Asn1::X509::GeneralNames issuer, Org::BouncyCastle::Asn1::DerInteger serial) ;
+static Org::BouncyCastle::Asn1::X509::IssuerSerial New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuer, Org::BouncyCastle::Asn1::DerInteger serial) ;
 
 /// @brief Method .ctor addr 0x11070d8 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuer, Org::BouncyCastle::Asn1::DerInteger serial) ;

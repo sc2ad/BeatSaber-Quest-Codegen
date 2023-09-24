@@ -100,8 +100,7 @@ constexpr ::StringW __get_keyword() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType", modifiers: "", def_value: None }]
-explicit Expression(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;
+static UnityEngine::UIElements::StyleSheets::Syntax::Expression New_ctor(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;
 
 /// @brief Method .ctor addr 0x2c7e068 size 0x44 virtual false final false
  void _ctor(UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type) ;

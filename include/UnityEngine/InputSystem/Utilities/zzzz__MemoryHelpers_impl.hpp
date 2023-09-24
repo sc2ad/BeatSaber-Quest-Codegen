@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__MemoryHelpers__BitRegion.get_isEmpty
 template<>
 

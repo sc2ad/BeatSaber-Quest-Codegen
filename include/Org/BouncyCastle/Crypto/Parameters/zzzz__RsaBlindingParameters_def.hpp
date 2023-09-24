@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
@@ -81,8 +81,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_blindingFactor() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters", modifiers: "", def_value: None }, CppParam { name: "blindingFactor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaBlindingParameters(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters publicKey, Org::BouncyCastle::Math::BigInteger blindingFactor) ;
+static Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters New_ctor(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters publicKey, Org::BouncyCastle::Math::BigInteger blindingFactor) ;
 
 /// @brief Method .ctor addr 0xeab3c8 size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters publicKey, Org::BouncyCastle::Math::BigInteger blindingFactor) ;

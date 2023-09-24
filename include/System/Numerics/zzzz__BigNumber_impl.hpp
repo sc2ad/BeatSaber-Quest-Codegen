@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Numerics/zzzz__BigNumber_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Numerics/zzzz__BigInteger_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
+#include "System/Numerics/zzzz__BigInteger_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 //  Writing Method size for method: System::Numerics::BigNumber.ParseFormatSpecifier
 template<>
 

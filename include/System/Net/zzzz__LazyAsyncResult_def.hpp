@@ -3,17 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace System {
-class IAsyncResult;
+namespace System::Threading {
+class ManualResetEvent;
 }
 namespace System::Threading {
 class WaitHandle;
 }
-namespace System::Threading {
-class ManualResetEvent;
+namespace System::Net {
+class System__Net__LazyAsyncResult__ThreadContext;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace System::Net {
@@ -73,8 +76,7 @@ constexpr int32_t __get_m_NestedIOCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__LazyAsyncResult__ThreadContext() ;
+static System::Net::System__Net__LazyAsyncResult__ThreadContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2816490 size 0x8 virtual false final false
  void _ctor() ;
@@ -211,8 +213,7 @@ static System::Net::System__Net__LazyAsyncResult__ThreadContext __declspec(prope
 /// @brief Method get_CurrentThreadContext addr 0x28163fc size 0x94 virtual false final false
 static System::Net::System__Net__LazyAsyncResult__ThreadContext get_CurrentThreadContext() ;
 
-// Ctor Parameters [CppParam { name: "myObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myState", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "myCallBack", ty: "System::AsyncCallback", modifiers: "", def_value: None }]
-explicit LazyAsyncResult(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
+static System::Net::LazyAsyncResult New_ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;
 
 /// @brief Method .ctor addr 0x2816498 size 0x90 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType myObject, ::bs_hook::Il2CppWrapperType myState, System::AsyncCallback myCallBack) ;

@@ -1,20 +1,21 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Internal/Cryptography/Pal/zzzz__CertificateData_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X500DistinguishedName_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "Internal/Cryptography/Pal/zzzz__CertificateData_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "Internal/Cryptography/Pal/zzzz__GeneralNameType_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509NameType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
-#include "Internal/Cryptography/Pal/zzzz__GeneralNameType_def.hpp"
 // Ctor Parameters [CppParam { name: "AlgorithmId", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "Parameters", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("csnull") }]
 constexpr Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData__AlgorithmIdentifier::Internal__Cryptography__Pal__CertificateData__AlgorithmIdentifier(::StringW AlgorithmId, ::ArrayW<uint8_t> Parameters) noexcept : ::bs_hook::ValueTypeWrapper() {this->AlgorithmId = AlgorithmId;
 this->Parameters = Parameters;
@@ -229,8 +230,10 @@ constexpr void Internal::Cryptography::Pal::Internal__Cryptography__Pal__Certifi
 constexpr System::Security::Cryptography::DerSequenceReader Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21::__get__rdnReader_5__3() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::DerSequenceReader, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21>(__1__state))) {}
+ Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21 Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21::New_ctor(int32_t __1__state)  {
+Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21 o{THROW_UNLESS(::il2cpp_utils::New<Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21>(__1__state))};
+return o;
+}
  void Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Internal::Cryptography::Pal::Internal__Cryptography__Pal__CertificateData___ReadReverseRdns_d__21>::get(),

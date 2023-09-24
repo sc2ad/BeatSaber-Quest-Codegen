@@ -2,22 +2,22 @@
 #include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffect_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
+#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
-#include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"
-#include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
 #include "GlobalNamespace/zzzz__PauseController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior._ctor
 template<>
 
@@ -126,8 +126,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__
 constexpr GlobalNamespace::BeatmapDataCallbackWrapper GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::__get__beatmapDataCallbackWrapper() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapDataCallbackWrapper, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapEvent", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "particleSystemParentTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "particleSystemMaxSpawnedSystems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "particleSystemEventControllerPool", ty: "GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool))) {}
+ GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::New_ctor(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool)  {
+GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior::_ctor(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior>::get(),
@@ -225,8 +227,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__
 constexpr Zenject::TickableManager GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::__get__tickableManager() const {
 return ::cordl_internals::getInstanceField<Zenject::TickableManager, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapEvent", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "particleSystemParentTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "particleSystemMaxSpawnedSystems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "particleSystemEventControllerPool", ty: "GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool", modifiers: "", def_value: None }, CppParam { name: "tickableManager", ty: "Zenject::TickableManager", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool, Zenject::TickableManager tickableManager)  : GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool, tickableManager))) {}
+ GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::New_ctor(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool, Zenject::TickableManager tickableManager)  {
+GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool, tickableManager))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior::_ctor(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool, Zenject::TickableManager tickableManager)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior>::get(),
@@ -351,8 +355,10 @@ constexpr void GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__
 constexpr GlobalNamespace::SongSpeedData GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::__get__songSpeedData() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SongSpeedData, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beatmapEvent", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "particleSystemParentTransform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "particleSystemMaxSpawnedSystems", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "audioTimeSource", ty: "GlobalNamespace::IAudioTimeSource", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "particleSystemEventControllerPool", ty: "GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool", modifiers: "", def_value: None }, CppParam { name: "pauseController", ty: "GlobalNamespace::PauseController", modifiers: "", def_value: None }, CppParam { name: "songSpeedData", ty: "GlobalNamespace::SongSpeedData", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool, GlobalNamespace::PauseController pauseController, GlobalNamespace::SongSpeedData songSpeedData)  : GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool, pauseController, songSpeedData))) {}
+ GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::New_ctor(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool, GlobalNamespace::PauseController pauseController, GlobalNamespace::SongSpeedData songSpeedData)  {
+GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool, pauseController, songSpeedData))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior::_ctor(GlobalNamespace::BasicBeatmapEventType beatmapEvent, UnityEngine::Transform particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems, GlobalNamespace::IAudioTimeSource audioTimeSource, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool particleSystemEventControllerPool, GlobalNamespace::PauseController pauseController, GlobalNamespace::SongSpeedData songSpeedData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior>::get(),
@@ -503,8 +509,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ParticleSystemEmitEventEffect::ParticleSystemEmitEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ParticleSystemEmitEventEffect>())) {}
+ GlobalNamespace::ParticleSystemEmitEventEffect GlobalNamespace::ParticleSystemEmitEventEffect::New_ctor()  {
+GlobalNamespace::ParticleSystemEmitEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ParticleSystemEmitEventEffect>())};
+return o;
+}
  void GlobalNamespace::ParticleSystemEmitEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ParticleSystemEmitEventEffect>::get(),

@@ -142,8 +142,7 @@ static ::ArrayW<::ArrayW<uint64_t>> __get_T() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "IV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Gost3411_2012Digest(::ArrayW<uint8_t> IV) ;
+static Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest New_ctor(::ArrayW<uint8_t> IV) ;
 
 /// @brief Method .ctor addr 0x1198004 size 0x104 virtual false final false
  void _ctor(::ArrayW<uint8_t> IV) ;

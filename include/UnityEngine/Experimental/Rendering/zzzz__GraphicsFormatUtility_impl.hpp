@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormatUtility_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureReadWrite_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
 //  Writing Method size for method: UnityEngine::Experimental::Rendering::GraphicsFormatUtility.GetGraphicsFormat
 template<>
 

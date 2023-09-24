@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstallerData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardLevelNoTransitionInstallerData.get_beatmapLevel
 template<>
 
@@ -606,8 +606,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelNoTransitionInstallerData::StandardLevelNoTransitionInstallerData()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<StandardLevelNoTransitionInstallerData>())) {}
+ GlobalNamespace::StandardLevelNoTransitionInstallerData GlobalNamespace::StandardLevelNoTransitionInstallerData::New_ctor()  {
+GlobalNamespace::StandardLevelNoTransitionInstallerData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelNoTransitionInstallerData>())};
+return o;
+}
  void GlobalNamespace::StandardLevelNoTransitionInstallerData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelNoTransitionInstallerData>::get(),

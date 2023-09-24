@@ -65,8 +65,7 @@ constexpr System::Reflection::MemberInfo __get__memberInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "memberInfo", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }]
-explicit ReflectionValueProvider(System::Reflection::MemberInfo memberInfo) ;
+static Newtonsoft::Json::Serialization::ReflectionValueProvider New_ctor(System::Reflection::MemberInfo memberInfo) ;
 
 /// @brief Method .ctor addr 0x2517570 size 0x6c virtual false final false
  void _ctor(System::Reflection::MemberInfo memberInfo) ;

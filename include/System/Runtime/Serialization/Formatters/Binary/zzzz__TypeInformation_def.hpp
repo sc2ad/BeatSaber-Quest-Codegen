@@ -87,8 +87,7 @@ constexpr bool __get_hasTypeForwardedFrom() const;
 /// @brief Method get_HasTypeForwardedFrom addr 0x235f194 size 0x8 virtual false final false
  bool get_HasTypeForwardedFrom() ;
 
-// Ctor Parameters [CppParam { name: "fullTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hasTypeForwardedFrom", ty: "bool", modifiers: "", def_value: None }]
-explicit TypeInformation(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom) ;
+static System::Runtime::Serialization::Formatters::Binary::TypeInformation New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom) ;
 
 /// @brief Method .ctor addr 0x235f19c size 0x3c virtual false final false
  void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom) ;

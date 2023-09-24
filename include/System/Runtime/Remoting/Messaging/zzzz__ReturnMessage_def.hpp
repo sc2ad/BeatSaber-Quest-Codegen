@@ -4,17 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class MethodReturnDictionary;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
@@ -23,25 +17,31 @@ namespace System {
 class Exception;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class ArgInfo;
-}
-namespace System::Reflection {
-class MethodBase;
+class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
+class IInternalMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MethodReturnDictionary;
+}
+namespace System::Runtime::Remoting::Messaging {
+class ArgInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -213,14 +213,12 @@ constexpr System::Runtime::Remoting::Messaging::ArgInfo __get__inArgInfo() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ret", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "outArgs", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "outArgsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callCtx", ty: "System::Runtime::Remoting::Messaging::LogicalCallContext", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit ReturnMessage(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
+static System::Runtime::Remoting::Messaging::ReturnMessage New_ctor(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
 /// @brief Method .ctor addr 0x232bb94 size 0x168 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType ret, ::ArrayW<::bs_hook::Il2CppWrapperType> outArgs, int32_t outArgsCount, System::Runtime::Remoting::Messaging::LogicalCallContext callCtx, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "mcm", ty: "System::Runtime::Remoting::Messaging::IMethodCallMessage", modifiers: "", def_value: None }]
-explicit ReturnMessage(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
+static System::Runtime::Remoting::Messaging::ReturnMessage New_ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;
 
 /// @brief Method .ctor addr 0x232ba4c size 0x148 virtual false final false
  void _ctor(System::Exception e, System::Runtime::Remoting::Messaging::IMethodCallMessage mcm) ;

@@ -1,14 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Anssi/zzzz__AnssiNamedCurves_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Asn1/Anssi/zzzz__AnssiNamedCurves_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder._ctor
 template<>
 
@@ -49,8 +50,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder>())) {}
+ Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder>::get(),
@@ -338,8 +341,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerable, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::AnssiNamedCurves()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnssiNamedCurves>())) {}
+ Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::New_ctor()  {
+Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves>::get(),

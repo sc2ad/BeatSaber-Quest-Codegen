@@ -65,14 +65,12 @@ constexpr int32_t __get_m_relaxations() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "relaxations", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CompilationRelaxationsAttribute(int32_t relaxations) ;
+static System::Runtime::CompilerServices::CompilationRelaxationsAttribute New_ctor(int32_t relaxations) ;
 
 /// @brief Method .ctor addr 0x2370a04 size 0x28 virtual false final false
  void _ctor(int32_t relaxations) ;
 
-// Ctor Parameters [CppParam { name: "relaxations", ty: "System::Runtime::CompilerServices::CompilationRelaxations", modifiers: "", def_value: None }]
-explicit CompilationRelaxationsAttribute(System::Runtime::CompilerServices::CompilationRelaxations relaxations) ;
+static System::Runtime::CompilerServices::CompilationRelaxationsAttribute New_ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations) ;
 
 /// @brief Method .ctor addr 0x2370a2c size 0x28 virtual false final false
  void _ctor(System::Runtime::CompilerServices::CompilationRelaxations relaxations) ;

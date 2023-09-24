@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstddef>
+namespace GlobalNamespace {
+struct GlobalNamespace__SynchronizedActionQueue__SynchronizedAction;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -144,8 +147,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method Update addr 0xdcc46c size 0x114 virtual false final false
  void Update(float_t time) ;
 
-// Ctor Parameters []
-explicit SynchronizedActionQueue() ;
+static GlobalNamespace::SynchronizedActionQueue New_ctor() ;
 
 /// @brief Method .ctor addr 0xdcc580 size 0x7c virtual false final false
  void _ctor() ;

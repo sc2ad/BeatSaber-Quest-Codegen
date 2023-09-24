@@ -84,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::BloomPrePassBackgroundParticleSystemRenderer()  : GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundParticleSystemRenderer>())) {}
+ GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer>::get(),

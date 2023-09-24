@@ -2,17 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Type;
-}
 namespace System::ComponentModel {
 class System__ComponentModel__TypeConverter__StandardValuesCollection;
 }
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
+namespace System {
+class Type;
 }
 namespace System::Globalization {
 class CultureInfo;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -84,8 +84,7 @@ static System::ComponentModel::System__ComponentModel__TypeConverter__StandardVa
 /// @brief Method GetStandardValuesSupported addr 0x2774838 size 0x8 virtual true final false
  bool GetStandardValuesSupported(System::ComponentModel::ITypeDescriptorContext context) ;
 
-// Ctor Parameters []
-explicit BooleanConverter() ;
+static System::ComponentModel::BooleanConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2774840 size 0x8 virtual false final false
  void _ctor() ;

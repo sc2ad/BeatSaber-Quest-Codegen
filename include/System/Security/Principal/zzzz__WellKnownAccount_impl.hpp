@@ -398,8 +398,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Security::Principal::WellKnownAccount, false>(nullptr, ___internal_method, s);
 }
-// Ctor Parameters []
- System::Security::Principal::WellKnownAccount::WellKnownAccount()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WellKnownAccount>())) {}
+ System::Security::Principal::WellKnownAccount System::Security::Principal::WellKnownAccount::New_ctor()  {
+System::Security::Principal::WellKnownAccount o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::WellKnownAccount>())};
+return o;
+}
  void System::Security::Principal::WellKnownAccount::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::WellKnownAccount>::get(),

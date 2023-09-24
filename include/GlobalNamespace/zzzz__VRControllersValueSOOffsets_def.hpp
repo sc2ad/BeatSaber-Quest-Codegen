@@ -81,8 +81,7 @@ constexpr GlobalNamespace::Vector3SO __get__rotationOffset() const;
 /// @brief Method get_rotationOffset addr 0x222c910 size 0x4c virtual true final false
  UnityEngine::Vector3 get_rotationOffset() ;
 
-// Ctor Parameters []
-explicit VRControllersValueSOOffsets() ;
+static GlobalNamespace::VRControllersValueSOOffsets New_ctor() ;
 
 /// @brief Method .ctor addr 0x222c95c size 0x8 virtual false final false
  void _ctor() ;

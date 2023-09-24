@@ -1,7 +1,7 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerCreatorUtil_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorBindInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerCreatorUtil.ApplyBindSettings
 template<>
 

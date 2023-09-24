@@ -24,8 +24,10 @@ constexpr void UnityEngine::WaitForSeconds::__set_m_Seconds(float_t value)  {
 constexpr float_t UnityEngine::WaitForSeconds::__get_m_Seconds() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seconds", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::WaitForSeconds::WaitForSeconds(float_t seconds)  : UnityEngine::YieldInstruction(THROW_UNLESS(::il2cpp_utils::New<WaitForSeconds>(seconds))) {}
+ UnityEngine::WaitForSeconds UnityEngine::WaitForSeconds::New_ctor(float_t seconds)  {
+UnityEngine::WaitForSeconds o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::WaitForSeconds>(seconds))};
+return o;
+}
  void UnityEngine::WaitForSeconds::_ctor(float_t seconds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::WaitForSeconds>::get(),

@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class NoteLineConnectionController;
-}
-namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class BombNoteController;
+class NoteLineConnectionController;
 }
 namespace GlobalNamespace {
 class TutorialNoteController;
+}
+namespace GlobalNamespace {
+class BombNoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -89,8 +89,7 @@ constexpr GlobalNamespace::NoteLineConnectionController __get__noteLineConnectio
 /// @brief Method InstallBindings addr 0x211b560 size 0x18c virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit TutorialBeatmapObjectPoolsInstaller() ;
+static GlobalNamespace::TutorialBeatmapObjectPoolsInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211b6ec size 0x8 virtual false final false
  void _ctor() ;

@@ -73,8 +73,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, enumeration, datatype);
 }
-// Ctor Parameters []
- System::Xml::Schema::ListFacetsChecker::ListFacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<ListFacetsChecker>())) {}
+ System::Xml::Schema::ListFacetsChecker System::Xml::Schema::ListFacetsChecker::New_ctor()  {
+System::Xml::Schema::ListFacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::ListFacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::ListFacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ListFacetsChecker>::get(),

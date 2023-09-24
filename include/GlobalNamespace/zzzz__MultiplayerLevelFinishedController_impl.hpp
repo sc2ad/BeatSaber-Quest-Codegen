@@ -1,15 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelFinishedController_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelFinishedController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19._ctor
 template<>
 
@@ -166,8 +167,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedControl
 constexpr float_t GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19::__get__resultsTimeoutLength_5__4() const {
 return ::cordl_internals::getInstanceField<float_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerLevelFinishedController___StartLevelFinished_d__19>::get(),
@@ -573,8 +576,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, userId, results);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLevelFinishedController::MultiplayerLevelFinishedController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLevelFinishedController>())) {}
+ GlobalNamespace::MultiplayerLevelFinishedController GlobalNamespace::MultiplayerLevelFinishedController::New_ctor()  {
+GlobalNamespace::MultiplayerLevelFinishedController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLevelFinishedController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLevelFinishedController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLevelFinishedController>::get(),

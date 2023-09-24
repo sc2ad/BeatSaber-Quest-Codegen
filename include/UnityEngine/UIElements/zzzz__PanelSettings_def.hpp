@@ -4,57 +4,60 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-struct PanelScreenMatchMode;
-}
-namespace UnityEngine::UIElements {
-class DynamicAtlasSettings;
-}
-namespace UnityEngine::UIElements {
-struct PanelScaleMode;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-class PanelTextSettings;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+class UnityEngine__UIElements__PanelSettings__RuntimePanelAccess;
+}
+namespace UnityEngine::UIElements {
+class PanelTextSettings;
 }
 namespace UnityEngine::UIElements {
 class UIDocument;
 }
 namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine::UIElements {
+struct PanelScreenMatchMode;
+}
+namespace UnityEngine::UIElements {
+struct PanelScaleMode;
+}
+namespace UnityEngine::UIElements {
+class ThemeStyleSheet;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Vector2Int;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+class DynamicAtlasSettings;
 }
 namespace UnityEngine {
 class Shader;
 }
 namespace UnityEngine::UIElements {
-class ThemeStyleSheet;
-}
-namespace UnityEngine::UIElements {
 class StyleSheet;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
 class UIDocumentList;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -127,8 +130,7 @@ constexpr UnityEngine::UIElements::BaseRuntimePanel __get_m_RuntimePanel() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "settings", ty: "UnityEngine::UIElements::PanelSettings", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__PanelSettings__RuntimePanelAccess(UnityEngine::UIElements::PanelSettings settings) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__PanelSettings__RuntimePanelAccess New_ctor(UnityEngine::UIElements::PanelSettings settings) ;
 
 /// @brief Method .ctor addr 0x2ca23f8 size 0x28 virtual false final false
  void _ctor(UnityEngine::UIElements::PanelSettings settings) ;
@@ -528,8 +530,7 @@ constexpr System::Func_2<UnityEngine::Vector2,UnityEngine::Vector2> __get_m_Assi
 /// @brief Method set_dynamicAtlasSettings addr 0x2ca233c size 0x8 virtual false final false
  void set_dynamicAtlasSettings(UnityEngine::UIElements::DynamicAtlasSettings value) ;
 
-// Ctor Parameters []
-explicit PanelSettings() ;
+static UnityEngine::UIElements::PanelSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ca2344 size 0xb4 virtual false final false
  void _ctor() ;

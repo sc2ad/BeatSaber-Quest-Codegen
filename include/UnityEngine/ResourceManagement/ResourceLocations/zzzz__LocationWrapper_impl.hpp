@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__LocationWrapper_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper._ctor
 template<>
 
@@ -183,8 +183,10 @@ constexpr void UnityEngine::ResourceManagement::ResourceLocations::LocationWrapp
 constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::__get_m_InternalLocation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::LocationWrapper(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocationWrapper>(location))) {}
+ UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  {
+UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper>(location))};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper>::get(),

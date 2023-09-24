@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__TextNative_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextVertex_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextNativeSettings_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextVertex_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::TextNative.GetCursorPosition
 template<>
 

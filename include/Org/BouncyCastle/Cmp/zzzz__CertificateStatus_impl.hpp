@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Cmp/zzzz__CertificateStatus_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__DefaultSignatureAlgorithmIdentifierFinder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertStatus_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__DefaultSignatureAlgorithmIdentifierFinder_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__DefaultDigestAlgorithmIdentifierFinder_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cmp::CertificateStatus._ctor
 template<>
 
@@ -92,8 +92,10 @@ constexpr void Org::BouncyCastle::Cmp::CertificateStatus::__set_certStatus(Org::
 constexpr Org::BouncyCastle::Asn1::Cmp::CertStatus Org::BouncyCastle::Cmp::CertificateStatus::__get_certStatus() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cmp::CertStatus, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digestAlgFinder", ty: "Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Asn1::Cmp::CertStatus", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::CertificateStatus::CertificateStatus(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateStatus>(digestAlgFinder, certStatus))) {}
+ Org::BouncyCastle::Cmp::CertificateStatus Org::BouncyCastle::Cmp::CertificateStatus::New_ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus)  {
+Org::BouncyCastle::Cmp::CertificateStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::CertificateStatus>(digestAlgFinder, certStatus))};
+return o;
+}
  void Org::BouncyCastle::Cmp::CertificateStatus::_ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::CertificateStatus>::get(),

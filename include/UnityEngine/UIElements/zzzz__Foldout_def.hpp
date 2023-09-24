@@ -5,24 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-template<typename T>
-class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class Toggle;
-}
-namespace UnityEngine::UIElements {
 template<typename T>
 class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class Toggle;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Foldout__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Foldout__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -32,6 +35,9 @@ class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -103,8 +109,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_Value() 
 /// @brief Method Init addr 0x2cbcbbc size 0x130 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Foldout__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbccec size 0xec virtual false final false
  void _ctor() ;
@@ -261,8 +266,7 @@ static int32_t __get_ussFoldoutMaxDepth() ;
 /// @brief Method OnViewDataReady addr 0x2cbc774 size 0x40 virtual true final false
  void OnViewDataReady() ;
 
-// Ctor Parameters []
-explicit Foldout() ;
+static UnityEngine::UIElements::Foldout New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb5848 size 0x330 virtual false final false
  void _ctor() ;
@@ -280,7 +284,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7184)), TypeDefinitionIndex(TypeDefinitionIndex(7185)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5087 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7184)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5087 }), TypeDefinitionIndex(TypeDefinitionIndex(7185))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
 // CS Name: UnityEngine.UIElements.Foldout::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__Foldout__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Foldout,UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits> {
@@ -319,8 +323,7 @@ constexpr explicit UnityEngine__UIElements__Foldout__UxmlFactory(void* ptr) noex
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Foldout__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cbcb74 size 0x48 virtual false final false
  void _ctor() ;

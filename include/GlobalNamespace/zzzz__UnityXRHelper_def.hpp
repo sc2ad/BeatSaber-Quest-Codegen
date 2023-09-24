@@ -6,8 +6,20 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct VRPlatformSDK;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__UnityXRController__Configuration;
+}
 namespace UnityEngine {
-struct Quaternion;
+struct Pose;
+}
+namespace GlobalNamespace {
+struct EulerPose;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
 }
 namespace UnityEngine::XR {
 struct XRNodeState;
@@ -16,25 +28,7 @@ namespace GlobalNamespace {
 class UnityXRController;
 }
 namespace UnityEngine::InputSystem {
-class InputActionReference;
-}
-namespace UnityEngine::XR {
-class XRInputSubsystem;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__UnityXRController__Configuration;
-}
-namespace UnityEngine::InputSystem {
 class InputAction;
-}
-namespace GlobalNamespace {
-struct VRPlatformSDK;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::XR {
-struct XRNode;
 }
 namespace GlobalNamespace {
 class IVerboseLogger;
@@ -42,20 +36,29 @@ class IVerboseLogger;
 namespace UnityEngine::InputSystem {
 struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
-namespace UnityEngine {
-struct Pose;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+struct GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
 }
 namespace System {
 class Action;
 }
+namespace UnityEngine::XR {
+class XRInputSubsystem;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace GlobalNamespace {
-struct EulerPose;
+class IVRPlatformHelper;
+}
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,6 +120,8 @@ __Unknown = 5,
 constexpr operator __GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -505,8 +510,7 @@ static bool GetButtonDown(::StringW buttonLegacyName) ;
 /// @brief Method ReadHeadPose addr 0x1f8d3f8 size 0x98 virtual false final false
  void ReadHeadPose(ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot) ;
 
-// Ctor Parameters []
-explicit UnityXRHelper() ;
+static GlobalNamespace::UnityXRHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8d78c size 0xf0 virtual false final false
  void _ctor() ;

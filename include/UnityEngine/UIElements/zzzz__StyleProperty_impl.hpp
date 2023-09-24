@@ -100,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<UnityEngine::UIElements::StyleValueHandle>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::StyleProperty::StyleProperty()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StyleProperty>())) {}
+ UnityEngine::UIElements::StyleProperty UnityEngine::UIElements::StyleProperty::New_ctor()  {
+UnityEngine::UIElements::StyleProperty o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::StyleProperty>())};
+return o;
+}
  void UnityEngine::UIElements::StyleProperty::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::StyleProperty>::get(),

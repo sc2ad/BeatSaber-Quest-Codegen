@@ -178,8 +178,10 @@ constexpr void Zenject::MemoryPoolBindInfo::__set__MaxSize_k__BackingField(int32
 constexpr int32_t Zenject::MemoryPoolBindInfo::__get__MaxSize_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::MemoryPoolBindInfo::MemoryPoolBindInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MemoryPoolBindInfo>())) {}
+ Zenject::MemoryPoolBindInfo Zenject::MemoryPoolBindInfo::New_ctor()  {
+Zenject::MemoryPoolBindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::MemoryPoolBindInfo>())};
+return o;
+}
  void Zenject::MemoryPoolBindInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::MemoryPoolBindInfo>::get(),

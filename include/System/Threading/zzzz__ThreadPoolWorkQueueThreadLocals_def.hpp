@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Threading {
+class System__Threading__ThreadPoolWorkQueue__WorkStealingQueue;
+}
+namespace System::Threading {
 class ThreadPoolWorkQueue;
 }
 namespace System {
 class Random;
-}
-namespace System::Threading {
-class System__Threading__ThreadPoolWorkQueue__WorkStealingQueue;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -83,8 +83,7 @@ constexpr System::Random __get_random() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tpq", ty: "System::Threading::ThreadPoolWorkQueue", modifiers: "", def_value: None }]
-explicit ThreadPoolWorkQueueThreadLocals(System::Threading::ThreadPoolWorkQueue tpq) ;
+static System::Threading::ThreadPoolWorkQueueThreadLocals New_ctor(System::Threading::ThreadPoolWorkQueue tpq) ;
 
 /// @brief Method .ctor addr 0x24aeaf4 size 0x11c virtual false final false
  void _ctor(System::Threading::ThreadPoolWorkQueue tpq) ;

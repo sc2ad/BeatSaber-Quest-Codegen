@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLightWithIdsGroupEntry_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -96,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData>())) {}
+ GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightData>::get(),
@@ -188,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId>(lightId, lightIntensity))) {}
+ GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::New_ctor(int32_t lightId, float_t lightIntensity)  {
+GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId>(lightId, lightIntensity))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId::_ctor(int32_t lightId, float_t lightIntensity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId>::get(),
@@ -246,8 +251,10 @@ constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__set__groupL
 constexpr GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting GlobalNamespace::DirectionalLightWithIdsGroupEntry::__get__groupLightsWeighting() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__DirectionalLightWithIdsGroupEntry__GroupLightsWeighting, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::DirectionalLightWithIdsGroupEntry::DirectionalLightWithIdsGroupEntry()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DirectionalLightWithIdsGroupEntry>())) {}
+ GlobalNamespace::DirectionalLightWithIdsGroupEntry GlobalNamespace::DirectionalLightWithIdsGroupEntry::New_ctor()  {
+GlobalNamespace::DirectionalLightWithIdsGroupEntry o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DirectionalLightWithIdsGroupEntry>())};
+return o;
+}
  void GlobalNamespace::DirectionalLightWithIdsGroupEntry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DirectionalLightWithIdsGroupEntry>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/XPath/zzzz__XPathItem_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 //  Writing Method size for method: System::Xml::XPath::XPathItem.get_XmlType
 template<>
 
@@ -307,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, returnType, nsResolver);
 }
-// Ctor Parameters []
- System::Xml::XPath::XPathItem::XPathItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XPathItem>())) {}
+ System::Xml::XPath::XPathItem System::Xml::XPath::XPathItem::New_ctor()  {
+System::Xml::XPath::XPathItem o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XPath::XPathItem>())};
+return o;
+}
  void System::Xml::XPath::XPathItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XPath::XPathItem>::get(),

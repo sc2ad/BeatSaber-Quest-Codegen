@@ -73,8 +73,7 @@ constexpr int32_t __get__Length_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit FixedBufferAttribute(System::Type elementType, int32_t length) ;
+static System::Runtime::CompilerServices::FixedBufferAttribute New_ctor(System::Type elementType, int32_t length) ;
 
 /// @brief Method .ctor addr 0x236df0c size 0x30 virtual false final false
  void _ctor(System::Type elementType, int32_t length) ;

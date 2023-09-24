@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Globalization {
-class EraInfo;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Globalization {
 class Calendar;
 }
 namespace System {
 struct DayOfWeek;
+}
+namespace System::Globalization {
+class EraInfo;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -122,8 +122,7 @@ constexpr System::DateTime __get_m_minDate() const;
 /// @brief Method get_MaxYear addr 0x23f29bc size 0x8 virtual false final false
  int32_t get_MaxYear() ;
 
-// Ctor Parameters [CppParam { name: "cal", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "eraInfo", ty: "::ArrayW<System::Globalization::EraInfo>", modifiers: "", def_value: None }]
-explicit GregorianCalendarHelper(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo) ;
+static System::Globalization::GregorianCalendarHelper New_ctor(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo) ;
 
 /// @brief Method .ctor addr 0x23f29c4 size 0x78 virtual false final false
  void _ctor(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo) ;

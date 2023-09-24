@@ -3,26 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
 namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
+class X509Certificate;
 }
-namespace System {
-class ICloneable;
+namespace System::Collections {
+class ICollection;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
 }
-namespace System::Collections {
-class ICollection;
+namespace System {
+class ICloneable;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -170,14 +170,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_maxBaseCrlNumber() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509CrlStoreSelector() ;
+static Org::BouncyCastle::X509::Store::X509CrlStoreSelector New_ctor() ;
 
 /// @brief Method .ctor addr 0x10e6b7c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::X509::Store::X509CrlStoreSelector", modifiers: "", def_value: None }]
-explicit X509CrlStoreSelector(Org::BouncyCastle::X509::Store::X509CrlStoreSelector o) ;
+static Org::BouncyCastle::X509::Store::X509CrlStoreSelector New_ctor(Org::BouncyCastle::X509::Store::X509CrlStoreSelector o) ;
 
 /// @brief Method .ctor addr 0x10e6b84 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::X509::Store::X509CrlStoreSelector o) ;

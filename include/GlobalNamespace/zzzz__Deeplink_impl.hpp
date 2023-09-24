@@ -65,8 +65,10 @@ constexpr void GlobalNamespace::Deeplink::__set_MultiplayerRoomId(uint64_t value
 constexpr uint64_t GlobalNamespace::Deeplink::__get_MultiplayerRoomId() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::Deeplink::Deeplink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Deeplink>())) {}
+ GlobalNamespace::Deeplink GlobalNamespace::Deeplink::New_ctor()  {
+GlobalNamespace::Deeplink o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Deeplink>())};
+return o;
+}
  void GlobalNamespace::Deeplink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Deeplink>::get(),

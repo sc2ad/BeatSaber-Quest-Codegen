@@ -4,19 +4,15 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::AddressableAssets::ResourceLocators {
+class ResourceLocationData;
 }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::AddressableAssets::ResourceLocators {
-class ResourceLocationData;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 class Type;
@@ -25,8 +21,12 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class IList_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -101,8 +101,7 @@ constexpr System::Collections::Generic::Dictionary_2<::bs_hook::Il2CppWrapperTyp
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ResourceLocationMap(::StringW id, int32_t capacity) ;
+static UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap New_ctor(::StringW id, int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x289bfe8 size 0xa0 virtual false final false
  void _ctor(::StringW id, int32_t capacity) ;
@@ -113,8 +112,7 @@ explicit ResourceLocationMap(::StringW id, int32_t capacity) ;
 /// @brief Method set_LocatorId addr 0x289d240 size 0x8 virtual false final false
  void set_LocatorId(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "locations", ty: "System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData>", modifiers: "", def_value: None }]
-explicit ResourceLocationMap(::StringW id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> locations) ;
+static UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap New_ctor(::StringW id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> locations) ;
 
 /// @brief Method .ctor addr 0x289d248 size 0x96c virtual false final false
  void _ctor(::StringW id, System::Collections::Generic::IList_1<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData> locations) ;

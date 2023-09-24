@@ -4,12 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
 class TextStyle;
@@ -95,8 +95,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::TextCo
 /// @brief Method LoadStyleDictionaryInternal addr 0x2bd4098 size 0x1c4 virtual false final false
  void LoadStyleDictionaryInternal() ;
 
-// Ctor Parameters []
-explicit TextStyleSheet() ;
+static UnityEngine::TextCore::Text::TextStyleSheet New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd42f8 size 0x80 virtual false final false
  void _ctor() ;

@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class EnvelopedData;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class EncryptedValue;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class EnvelopedData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -91,14 +91,12 @@ constexpr Org::BouncyCastle::Asn1::Crmf::EncryptedValue __get_encryptedValue() c
 /// @brief Method GetInstance addr 0xdf7e20 size 0x1a0 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::EncryptedKey GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "envelopedData", ty: "Org::BouncyCastle::Asn1::Cms::EnvelopedData", modifiers: "", def_value: None }]
-explicit EncryptedKey(Org::BouncyCastle::Asn1::Cms::EnvelopedData envelopedData) ;
+static Org::BouncyCastle::Asn1::Crmf::EncryptedKey New_ctor(Org::BouncyCastle::Asn1::Cms::EnvelopedData envelopedData) ;
 
 /// @brief Method .ctor addr 0xdf7fc0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::EnvelopedData envelopedData) ;
 
-// Ctor Parameters [CppParam { name: "encryptedValue", ty: "Org::BouncyCastle::Asn1::Crmf::EncryptedValue", modifiers: "", def_value: None }]
-explicit EncryptedKey(Org::BouncyCastle::Asn1::Crmf::EncryptedValue encryptedValue) ;
+static Org::BouncyCastle::Asn1::Crmf::EncryptedKey New_ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedValue encryptedValue) ;
 
 /// @brief Method .ctor addr 0xdf7fe8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedValue encryptedValue) ;

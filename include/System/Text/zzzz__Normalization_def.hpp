@@ -9,10 +9,10 @@ namespace System::Text {
 class StringBuilder;
 }
 namespace System::Text {
-struct NormalizationCheck;
+struct NormalizationForm;
 }
 namespace System::Text {
-struct NormalizationForm;
+struct NormalizationCheck;
 }
 // Forward declare root types
 namespace System::Text {

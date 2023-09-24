@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Set;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -82,14 +82,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_crls() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "crls", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit OriginatorInfo(Org::BouncyCastle::Asn1::Asn1Set certs, Org::BouncyCastle::Asn1::Asn1Set crls) ;
+static Org::BouncyCastle::Asn1::Cms::OriginatorInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Set certs, Org::BouncyCastle::Asn1::Asn1Set crls) ;
 
 /// @brief Method .ctor addr 0xdee05c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Set certs, Org::BouncyCastle::Asn1::Asn1Set crls) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OriginatorInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::OriginatorInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdee088 size 0x2a0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

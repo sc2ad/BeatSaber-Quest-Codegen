@@ -96,14 +96,12 @@ constexpr int32_t __get_intOffset() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "term", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TermInfoReader(::StringW term, ::StringW filename) ;
+static System::TermInfoReader New_ctor(::StringW term, ::StringW filename) ;
 
 /// @brief Method .ctor addr 0x2492130 size 0x2d8 virtual false final false
  void _ctor(::StringW term, ::StringW filename) ;
 
-// Ctor Parameters [CppParam { name: "term", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TermInfoReader(::StringW term, ::ArrayW<uint8_t> buffer) ;
+static System::TermInfoReader New_ctor(::StringW term, ::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method .ctor addr 0x2492408 size 0x8c virtual false final false
  void _ctor(::StringW term, ::ArrayW<uint8_t> buffer) ;

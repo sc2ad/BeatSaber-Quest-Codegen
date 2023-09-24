@@ -59,8 +59,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  ::ArrayW<::StringW> Org::BouncyCastle::Asn1::X509::CrlReason::__get_ReasonString()  {
 return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "ReasonString", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::CrlReason>::get>();
 }
-// Ctor Parameters [CppParam { name: "reason", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::CrlReason::CrlReason(int32_t reason)  : Org::BouncyCastle::Asn1::DerEnumerated(THROW_UNLESS(::il2cpp_utils::New<CrlReason>(reason))) {}
+ Org::BouncyCastle::Asn1::X509::CrlReason Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor(int32_t reason)  {
+Org::BouncyCastle::Asn1::X509::CrlReason o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::CrlReason>(reason))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::CrlReason::_ctor(int32_t reason)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::CrlReason>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, reason);
 }
-// Ctor Parameters [CppParam { name: "reason", ty: "Org::BouncyCastle::Asn1::DerEnumerated", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::CrlReason::CrlReason(Org::BouncyCastle::Asn1::DerEnumerated reason)  : Org::BouncyCastle::Asn1::DerEnumerated(THROW_UNLESS(::il2cpp_utils::New<CrlReason>(reason))) {}
+ Org::BouncyCastle::Asn1::X509::CrlReason Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor(Org::BouncyCastle::Asn1::DerEnumerated reason)  {
+Org::BouncyCastle::Asn1::X509::CrlReason o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::CrlReason>(reason))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::CrlReason::_ctor(Org::BouncyCastle::Asn1::DerEnumerated reason)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::CrlReason>::get(),

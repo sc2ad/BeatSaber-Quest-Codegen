@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::MeshHandle._ctor
 template<>
 
@@ -56,8 +56,10 @@ constexpr void UnityEngine::UIElements::UIR::MeshHandle::__set_updateAllocID(uin
 constexpr uint32_t UnityEngine::UIElements::UIR::MeshHandle::__get_updateAllocID() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x5c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::MeshHandle::MeshHandle()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::MeshHandle>(THROW_UNLESS(::il2cpp_utils::New<MeshHandle>())) {}
+ UnityEngine::UIElements::UIR::MeshHandle UnityEngine::UIElements::UIR::MeshHandle::New_ctor()  {
+UnityEngine::UIElements::UIR::MeshHandle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::MeshHandle>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::MeshHandle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::MeshHandle>::get(),

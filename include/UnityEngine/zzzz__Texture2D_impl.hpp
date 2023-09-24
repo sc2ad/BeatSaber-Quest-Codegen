@@ -2,17 +2,18 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__TextureCreationFlags_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__TextureCreationFlags_def.hpp"
+#include "UnityEngine/zzzz__TextureFormat_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__DefaultFormat_def.hpp"
-#include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__Texture2D__EXRFlags::UnityEngine__Texture2D__EXRFlags(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -2285,8 +2286,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, format, width, height);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount, ::cordl_internals::intptr_t nativeTex)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, format, flags, mipCount, nativeTex))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount, ::cordl_internals::intptr_t nativeTex)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, format, flags, mipCount, nativeTex))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags, int32_t mipCount, ::cordl_internals::intptr_t nativeTex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2296,8 +2299,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, format, flags, mipCount, nativeTex);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::DefaultFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, format, flags))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, format, flags))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::DefaultFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2307,8 +2312,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, format, flags);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, format, flags))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, format, flags))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2318,8 +2325,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, format, flags);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "format", ty: "UnityEngine::Experimental::Rendering::GraphicsFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Experimental::Rendering::TextureCreationFlags", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, format, mipCount, flags))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, format, mipCount, flags))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t mipCount, UnityEngine::Experimental::Rendering::TextureCreationFlags flags)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2329,8 +2338,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, format, mipCount, flags);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nativeTex", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, ::cordl_internals::intptr_t nativeTex)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, textureFormat, mipCount, linear, nativeTex))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, ::cordl_internals::intptr_t nativeTex)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, textureFormat, mipCount, linear, nativeTex))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, ::cordl_internals::intptr_t nativeTex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2340,8 +2351,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, textureFormat, mipCount, linear, nativeTex);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linear", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, textureFormat, mipCount, linear))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, textureFormat, mipCount, linear))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2351,8 +2364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, textureFormat, mipCount, linear);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "linear", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, textureFormat, mipChain, linear))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, textureFormat, mipChain, linear))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2362,8 +2377,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, textureFormat, mipChain, linear);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "textureFormat", ty: "UnityEngine::TextureFormat", modifiers: "", def_value: None }, CppParam { name: "mipChain", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, bool mipChain)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height, textureFormat, mipChain))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, bool mipChain)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height, textureFormat, mipChain))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height, UnityEngine::TextureFormat textureFormat, bool mipChain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),
@@ -2373,8 +2390,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, width, height, textureFormat, mipChain);
 }
-// Ctor Parameters [CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::Texture2D::Texture2D(int32_t width, int32_t height)  : UnityEngine::Texture(THROW_UNLESS(::il2cpp_utils::New<Texture2D>(width, height))) {}
+ UnityEngine::Texture2D UnityEngine::Texture2D::New_ctor(int32_t width, int32_t height)  {
+UnityEngine::Texture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Texture2D>(width, height))};
+return o;
+}
  void UnityEngine::Texture2D::_ctor(int32_t width, int32_t height)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Texture2D>::get(),

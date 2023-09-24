@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyTitleAttribute::__set__Title_k__Backi
 constexpr ::StringW System::Reflection::AssemblyTitleAttribute::__get__Title_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyTitleAttribute::AssemblyTitleAttribute(::StringW title)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyTitleAttribute>(title))) {}
+ System::Reflection::AssemblyTitleAttribute System::Reflection::AssemblyTitleAttribute::New_ctor(::StringW title)  {
+System::Reflection::AssemblyTitleAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyTitleAttribute>(title))};
+return o;
+}
  void System::Reflection::AssemblyTitleAttribute::_ctor(::StringW title)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyTitleAttribute>::get(),

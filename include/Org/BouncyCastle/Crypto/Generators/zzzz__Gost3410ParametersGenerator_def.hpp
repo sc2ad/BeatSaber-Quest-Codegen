@@ -100,8 +100,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_init_random() const;
 /// @brief Method GenerateParameters addr 0xe7079c size 0x2fc virtual false final false
  Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters GenerateParameters() ;
 
-// Ctor Parameters []
-explicit Gost3410ParametersGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::Gost3410ParametersGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe70a98 size 0x8 virtual false final false
  void _ctor() ;

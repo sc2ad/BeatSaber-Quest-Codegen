@@ -1,6 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsCompressedDataStreamGenerator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsCompressedDataStreamGenerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerSequenceGenerator_def.hpp"
@@ -96,8 +97,10 @@ constexpr void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedData
 constexpr Org::BouncyCastle::Asn1::BerSequenceGenerator Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream::__get__eiGen() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::BerSequenceGenerator, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "Org::BouncyCastle::Utilities::Zlib::ZOutputStream", modifiers: "", def_value: None }, CppParam { name: "sGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "cGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }, CppParam { name: "eiGen", ty: "Org::BouncyCastle::Asn1::BerSequenceGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream>(outStream, sGen, cGen, eiGen))) {}
+ Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream::New_ctor(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
+Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream>(outStream, sGen, cGen, eiGen))};
+return o;
+}
  void Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream::_ctor(Org::BouncyCastle::Utilities::Zlib::ZOutputStream outStream, Org::BouncyCastle::Asn1::BerSequenceGenerator sGen, Org::BouncyCastle::Asn1::BerSequenceGenerator cGen, Org::BouncyCastle::Asn1::BerSequenceGenerator eiGen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::Org__BouncyCastle__Cms__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream>::get(),
@@ -208,8 +211,10 @@ constexpr void Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator::__set__
 constexpr int32_t Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator::__get__bufferSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator::CmsCompressedDataStreamGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsCompressedDataStreamGenerator>())) {}
+ Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator::New_ctor()  {
+Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator>::get(),

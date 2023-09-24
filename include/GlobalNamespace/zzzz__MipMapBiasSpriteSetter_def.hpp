@@ -70,8 +70,7 @@ constexpr float_t __get__mipMapBias() const;
 /// @brief Method Start addr 0x1f7312c size 0x74 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit MipMapBiasSpriteSetter() ;
+static GlobalNamespace::MipMapBiasSpriteSetter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f731a0 size 0x14 virtual false final false
  void _ctor() ;

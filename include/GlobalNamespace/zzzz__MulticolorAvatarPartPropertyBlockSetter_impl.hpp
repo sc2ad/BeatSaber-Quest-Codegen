@@ -3,9 +3,10 @@
 #include "GlobalNamespace/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/zzzz__Renderer_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "GlobalNamespace/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
+#include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData.get_defaultColor
 template<>
 
@@ -119,8 +120,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData>())) {}
+ GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData>::get(),
@@ -176,8 +179,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Multi
  System::Func_2<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData,UnityEngine::Color> GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c::__get___9__10_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter__ColorData,UnityEngine::Color>, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c>())) {}
+ GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MulticolorAvatarPartPropertyBlockSetter____c>::get(),
@@ -371,8 +376,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::MulticolorAvatarPartPropertyBlockSetter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MulticolorAvatarPartPropertyBlockSetter>())) {}
+ GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::New_ctor()  {
+GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter>())};
+return o;
+}
  void GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter>::get(),

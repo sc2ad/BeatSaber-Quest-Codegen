@@ -6,47 +6,53 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Rect;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::InputSystem {
-struct PlayerJoinBehavior;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TDelegate>
 struct CallbackArray_1;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionProperty;
 }
 namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::InputSystem {
 struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+class UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent;
+}
+namespace UnityEngine::InputSystem {
+struct PlayerNotifications;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::InputSystem {
 class PlayerInput;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-struct PlayerNotifications;
+struct PlayerJoinBehavior;
 }
 namespace UnityEngine {
-class GameObject;
+struct Rect;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -61,7 +67,7 @@ class UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent;
 // Type: ::PlayerJoinedEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6399))
 // CS Name: UnityEngine.InputSystem.PlayerInputManager::PlayerJoinedEvent
 class CORDL_TYPE UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
@@ -100,8 +106,7 @@ constexpr explicit UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEve
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerJoinedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x293143c size 0x48 virtual false final false
  void _ctor() ;
@@ -113,7 +118,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::PlayerLeftEvent
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6398)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 361 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6400))
 // CS Name: UnityEngine.InputSystem.PlayerInputManager::PlayerLeftEvent
 class CORDL_TYPE UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::InputSystem::PlayerInput> {
@@ -152,8 +157,7 @@ constexpr explicit UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__PlayerInputManager__PlayerLeftEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x29314ec size 0x48 virtual false final false
  void _ctor() ;
@@ -487,8 +491,7 @@ static ::ArrayW<::StringW> get_messages() ;
 /// @brief Method NotifyPlayerLeft addr 0x292f584 size 0x128 virtual false final false
  void NotifyPlayerLeft(UnityEngine::InputSystem::PlayerInput player) ;
 
-// Ctor Parameters []
-explicit PlayerInputManager() ;
+static UnityEngine::InputSystem::PlayerInputManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x293276c size 0x60 virtual false final false
  void _ctor() ;

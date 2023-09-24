@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__X931Rng_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Prng::X931Rng._ctor
 template<>
 
@@ -163,8 +163,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::X931Rng::__set_mReseedCounter(in
 constexpr int64_t Org::BouncyCastle::Crypto::Prng::X931Rng::__get_mReseedCounter() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "dateTimeVector", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "entropySource", ty: "Org::BouncyCastle::Crypto::IEntropySource", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Prng::X931Rng::X931Rng(Org::BouncyCastle::Crypto::IBlockCipher engine, ::ArrayW<uint8_t> dateTimeVector, Org::BouncyCastle::Crypto::IEntropySource entropySource)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X931Rng>(engine, dateTimeVector, entropySource))) {}
+ Org::BouncyCastle::Crypto::Prng::X931Rng Org::BouncyCastle::Crypto::Prng::X931Rng::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, ::ArrayW<uint8_t> dateTimeVector, Org::BouncyCastle::Crypto::IEntropySource entropySource)  {
+Org::BouncyCastle::Crypto::Prng::X931Rng o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::X931Rng>(engine, dateTimeVector, entropySource))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::X931Rng::_ctor(Org::BouncyCastle::Crypto::IBlockCipher engine, ::ArrayW<uint8_t> dateTimeVector, Org::BouncyCastle::Crypto::IEntropySource entropySource)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::X931Rng>::get(),

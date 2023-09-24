@@ -2,11 +2,11 @@
 #include "System/Xml/Schema/zzzz__XmlListConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlUntypedConverter_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlValueConverter_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlUntypedConverter._ctor
 template<>
 
@@ -688,8 +688,10 @@ return ::cordl_internals::getStaticField<System::Xml::Schema::XmlValueConverter,
  System::Xml::Schema::XmlValueConverter System::Xml::Schema::XmlUntypedConverter::__get_UntypedList()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::XmlValueConverter, "UntypedList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlUntypedConverter>::get>();
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlUntypedConverter::XmlUntypedConverter()  : System::Xml::Schema::XmlListConverter(THROW_UNLESS(::il2cpp_utils::New<XmlUntypedConverter>())) {}
+ System::Xml::Schema::XmlUntypedConverter System::Xml::Schema::XmlUntypedConverter::New_ctor()  {
+System::Xml::Schema::XmlUntypedConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlUntypedConverter>())};
+return o;
+}
  void System::Xml::Schema::XmlUntypedConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlUntypedConverter>::get(),
@@ -699,8 +701,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlUntypedConverter", modifiers: "", def_value: None }, CppParam { name: "allowListToList", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::XmlUntypedConverter::XmlUntypedConverter(System::Xml::Schema::XmlUntypedConverter atomicConverter, bool allowListToList)  : System::Xml::Schema::XmlListConverter(THROW_UNLESS(::il2cpp_utils::New<XmlUntypedConverter>(atomicConverter, allowListToList))) {}
+ System::Xml::Schema::XmlUntypedConverter System::Xml::Schema::XmlUntypedConverter::New_ctor(System::Xml::Schema::XmlUntypedConverter atomicConverter, bool allowListToList)  {
+System::Xml::Schema::XmlUntypedConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlUntypedConverter>(atomicConverter, allowListToList))};
+return o;
+}
  void System::Xml::Schema::XmlUntypedConverter::_ctor(System::Xml::Schema::XmlUntypedConverter atomicConverter, bool allowListToList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlUntypedConverter>::get(),

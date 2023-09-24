@@ -3,11 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 class ILightWithId;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class GlobalNamespace__LightWithIds__LightWithId;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -119,14 +122,12 @@ constexpr GlobalNamespace::LightWithIds __get__parentLightWithIds() const;
 /// @brief Method __SetIsUnRegistered addr 0x1f9f0bc size 0x8 virtual true final true
  void __SetIsUnRegistered() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__LightWithIds__LightWithId() ;
+static GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9d1a4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightWithIds__LightWithId(int32_t lightId) ;
+static GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId New_ctor(int32_t lightId) ;
 
 /// @brief Method .ctor addr 0x1f9cae4 size 0x28 virtual false final false
  void _ctor(int32_t lightId) ;
@@ -253,8 +254,7 @@ constexpr bool __get__childrenColorWasSet() const;
 /// @brief Method ProcessNewColorData addr 0x0 size 0xffffffffffffffff virtual true final false
  void ProcessNewColorData() ;
 
-// Ctor Parameters []
-explicit LightWithIds() ;
+static GlobalNamespace::LightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9caac size 0x8 virtual false final false
  void _ctor() ;

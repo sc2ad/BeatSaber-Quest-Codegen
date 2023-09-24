@@ -63,8 +63,7 @@ constexpr ::StringW __get_platform() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MetaData() ;
+static UnityEngine::Profiling::Memory::Experimental::MetaData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b6ea8c size 0x8 virtual false final false
  void _ctor() ;

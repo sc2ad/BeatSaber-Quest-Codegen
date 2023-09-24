@@ -7,17 +7,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net {
+struct System__Net__CommandStream__PipelineInstruction;
+}
 namespace System::Text {
 class Decoder;
-}
-namespace System::Net::Sockets {
-class TcpClient;
 }
 namespace System::Net {
 class WebRequest;
 }
 namespace System::Net {
+class ResponseDescription;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Net {
+struct System__Net__CommandStream__PipelineEntryFlags;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class Exception;
+}
+namespace System::Net {
 struct WebExceptionStatus;
+}
+namespace System::Net {
+class ReceiveState;
 }
 namespace System {
 class AsyncCallback;
@@ -25,23 +43,14 @@ class AsyncCallback;
 namespace System::Text {
 class Encoding;
 }
-namespace System {
-class Exception;
-}
 namespace System::Net {
-class ResponseDescription;
+class System__Net__CommandStream__PipelineEntry;
+}
+namespace System::Net::Sockets {
+class TcpClient;
 }
 namespace System::Net {
 struct FtpStatusCode;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Net {
-class ReceiveState;
-}
-namespace System::IO {
-class Stream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -108,6 +117,8 @@ __GiveStream = 4,
 constexpr operator __System__Net__CommandStream__PipelineInstruction_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__CommandStream__PipelineInstruction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -188,6 +199,8 @@ __DontLogParameter = 8,
 constexpr operator __System__Net__CommandStream__PipelineEntryFlags_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__CommandStream__PipelineEntryFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -271,14 +284,12 @@ constexpr System::Net::System__Net__CommandStream__PipelineEntryFlags __get_Flag
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "command", ty: "::StringW", modifiers: "", def_value: None }]
-explicit System__Net__CommandStream__PipelineEntry(::StringW command) ;
+static System::Net::System__Net__CommandStream__PipelineEntry New_ctor(::StringW command) ;
 
 /// @brief Method .ctor addr 0x27fd4f0 size 0x28 virtual false final false
  void _ctor(::StringW command) ;
 
-// Ctor Parameters [CppParam { name: "command", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Net::System__Net__CommandStream__PipelineEntryFlags", modifiers: "", def_value: None }]
-explicit System__Net__CommandStream__PipelineEntry(::StringW command, System::Net::System__Net__CommandStream__PipelineEntryFlags flags) ;
+static System::Net::System__Net__CommandStream__PipelineEntry New_ctor(::StringW command, System::Net::System__Net__CommandStream__PipelineEntryFlags flags) ;
 
 /// @brief Method .ctor addr 0x27fd518 size 0x30 virtual false final false
  void _ctor(::StringW command, System::Net::System__Net__CommandStream__PipelineEntryFlags flags) ;
@@ -438,8 +449,7 @@ constexpr System::Text::Decoder __get__decoder() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
-explicit CommandStream(System::Net::Sockets::TcpClient client) ;
+static System::Net::CommandStream New_ctor(System::Net::Sockets::TcpClient client) ;
 
 /// @brief Method .ctor addr 0x27fb544 size 0x94 virtual false final false
  void _ctor(System::Net::Sockets::TcpClient client) ;

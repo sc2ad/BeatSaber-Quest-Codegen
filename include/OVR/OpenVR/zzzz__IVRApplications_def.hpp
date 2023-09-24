@@ -8,13 +8,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
+class AsyncCallback;
+}
+namespace System {
 class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct EVRApplicationError;
-}
-namespace System {
-class AsyncCallback;
 }
 namespace System::Text {
 class StringBuilder;
@@ -27,6 +27,99 @@ struct EVRApplicationTransitionState;
 }
 namespace OVR::OpenVR {
 struct AppOverrideKeys_t;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetCurrentSceneProcessId;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationsTransitionStateNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationKeyByProcessId;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___IdentifyApplication;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationSupportedMimeTypes;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___SetDefaultApplicationForMimeType;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___PerformApplicationPrelaunchCheck;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationsErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationLaunchArguments;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationCount;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationPropertyUint64;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___IsApplicationInstalled;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___AddApplicationManifest;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetStartingApplication;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___CancelApplicationLaunch;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationPropertyString;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___LaunchApplicationFromMimeType;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationPropertyBool;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___LaunchTemplateApplication;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationProcessId;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationsThatSupportMimeType;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetTransitionState;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___RemoveApplicationManifest;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___LaunchApplication;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___LaunchDashboardOverlay;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationAutoLaunch;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___IsQuitUserPromptRequested;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetApplicationKeyByIndex;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___SetApplicationAutoLaunch;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___LaunchInternalProcess;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRApplications___GetDefaultApplicationForMimeType;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -167,8 +260,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___AddApplicationManifest(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___AddApplicationManifest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___AddApplicationManifest New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26481d0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -228,8 +320,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___RemoveApplicationManifest(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___RemoveApplicationManifest(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___RemoveApplicationManifest New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2648380 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -289,8 +380,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___IsApplicationInstalled(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___IsApplicationInstalled(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___IsApplicationInstalled New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26484b0 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -350,8 +440,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationCount(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationCount(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationCount New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26485e0 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -411,8 +500,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationKeyByIndex(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationKeyByIndex(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationKeyByIndex New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26486f8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -472,8 +560,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationKeyByProcessId(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationKeyByProcessId(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationKeyByProcessId New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264889c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -533,8 +620,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___LaunchApplication(void* ptr) n
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___LaunchApplication(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___LaunchApplication New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2648a40 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -594,8 +680,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___LaunchTemplateApplication(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___LaunchTemplateApplication(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___LaunchTemplateApplication New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2648b70 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -655,8 +740,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___LaunchApplicationFromMimeType(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___LaunchApplicationFromMimeType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___LaunchApplicationFromMimeType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2648d2c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -716,8 +800,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___LaunchDashboardOverlay(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___LaunchDashboardOverlay(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___LaunchDashboardOverlay New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2648e68 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -777,8 +860,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___CancelApplicationLaunch(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___CancelApplicationLaunch(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___CancelApplicationLaunch New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2648f98 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -838,8 +920,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___IdentifyApplication(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___IdentifyApplication(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___IdentifyApplication New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26490c8 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -899,8 +980,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationProcessId(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationProcessId(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationProcessId New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649258 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -960,8 +1040,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationsErrorNameFromEn
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationsErrorNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationsErrorNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649388 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1021,8 +1100,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationPropertyString(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationPropertyString(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationPropertyString New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264950c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1082,8 +1160,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationPropertyBool(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationPropertyBool(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationPropertyBool New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649720 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1143,8 +1220,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationPropertyUint64(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationPropertyUint64(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationPropertyUint64 New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649900 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1204,8 +1280,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___SetApplicationAutoLaunch(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___SetApplicationAutoLaunch(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___SetApplicationAutoLaunch New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649ae0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1265,8 +1340,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationAutoLaunch(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationAutoLaunch(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationAutoLaunch New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649c90 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1326,8 +1400,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___SetDefaultApplicationForMimeTy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___SetDefaultApplicationForMimeType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___SetDefaultApplicationForMimeType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649dc0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1387,8 +1460,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetDefaultApplicationForMimeTy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetDefaultApplicationForMimeType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetDefaultApplicationForMimeType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2649efc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1448,8 +1520,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationSupportedMimeTyp
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationSupportedMimeTypes(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationSupportedMimeTypes New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a0a8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1509,8 +1580,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationsThatSupportMime
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationsThatSupportMimeType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationsThatSupportMimeType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a254 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1570,8 +1640,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationLaunchArguments(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationLaunchArguments(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationLaunchArguments New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a400 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1631,8 +1700,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetStartingApplication(void* p
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetStartingApplication(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetStartingApplication New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a5a4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1692,8 +1760,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetTransitionState(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetTransitionState(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetTransitionState New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a74c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1753,8 +1820,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___PerformApplicationPrelaunchChe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___PerformApplicationPrelaunchCheck(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___PerformApplicationPrelaunchCheck New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a864 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1814,8 +1880,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetApplicationsTransitionState
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetApplicationsTransitionStateNameFromEnum(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetApplicationsTransitionStateNameFromEnum New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264a994 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1875,8 +1940,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___IsQuitUserPromptRequested(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___IsQuitUserPromptRequested(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___IsQuitUserPromptRequested New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ab18 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1936,8 +2000,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___LaunchInternalProcess(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___LaunchInternalProcess(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___LaunchInternalProcess New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ac30 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1997,8 +2060,7 @@ constexpr explicit OVR__OpenVR__IVRApplications___GetCurrentSceneProcessId(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRApplications___GetCurrentSceneProcessId(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRApplications___GetCurrentSceneProcessId New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ad70 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

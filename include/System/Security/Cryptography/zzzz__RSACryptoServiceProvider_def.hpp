@@ -6,22 +6,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Mono::Security::Cryptography {
-class RSAManaged;
-}
-namespace System::Security::Cryptography {
-struct CspProviderFlags;
-}
-namespace Mono::Security::Cryptography {
 class KeyPairPersistence;
 }
 namespace System::Security::Cryptography {
 struct RSAParameters;
 }
+namespace System {
+class EventArgs;
+}
 namespace System::Security::Cryptography {
 class CspParameters;
 }
-namespace System {
-class EventArgs;
+namespace Mono::Security::Cryptography {
+class RSAManaged;
+}
+namespace System::Security::Cryptography {
+struct CspProviderFlags;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -126,26 +126,22 @@ static bool __declspec(property(get=get_UseMachineKeyStore))  UseMachineKeyStore
 /// @brief Method get_UseMachineKeyStore addr 0x22faee0 size 0x54 virtual false final false
 static bool get_UseMachineKeyStore() ;
 
-// Ctor Parameters []
-explicit RSACryptoServiceProvider() ;
+static System::Security::Cryptography::RSACryptoServiceProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x22fa4c0 size 0x2c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
-explicit RSACryptoServiceProvider(System::Security::Cryptography::CspParameters parameters) ;
+static System::Security::Cryptography::RSACryptoServiceProvider New_ctor(System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method .ctor addr 0x22faf6c size 0xc virtual false final false
  void _ctor(System::Security::Cryptography::CspParameters parameters) ;
 
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RSACryptoServiceProvider(int32_t dwKeySize) ;
+static System::Security::Cryptography::RSACryptoServiceProvider New_ctor(int32_t dwKeySize) ;
 
 /// @brief Method .ctor addr 0x22faf34 size 0x38 virtual false final false
  void _ctor(int32_t dwKeySize) ;
 
-// Ctor Parameters [CppParam { name: "dwKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Security::Cryptography::CspParameters", modifiers: "", def_value: None }]
-explicit RSACryptoServiceProvider(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters) ;
+static System::Security::Cryptography::RSACryptoServiceProvider New_ctor(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters) ;
 
 /// @brief Method .ctor addr 0x22faf78 size 0x5c virtual false final false
  void _ctor(int32_t dwKeySize, System::Security::Cryptography::CspParameters parameters) ;

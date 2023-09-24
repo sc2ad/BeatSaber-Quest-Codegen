@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DynamicBonePlaneCollider::DynamicBonePlaneCollider()  : GlobalNamespace::DynamicBoneColliderBase(THROW_UNLESS(::il2cpp_utils::New<DynamicBonePlaneCollider>())) {}
+ GlobalNamespace::DynamicBonePlaneCollider GlobalNamespace::DynamicBonePlaneCollider::New_ctor()  {
+GlobalNamespace::DynamicBonePlaneCollider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DynamicBonePlaneCollider>())};
+return o;
+}
  void GlobalNamespace::DynamicBonePlaneCollider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DynamicBonePlaneCollider>::get(),

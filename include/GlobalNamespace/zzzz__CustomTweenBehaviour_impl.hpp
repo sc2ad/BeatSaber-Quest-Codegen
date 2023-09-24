@@ -1,9 +1,10 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomTweenBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "GlobalNamespace/zzzz__CustomTweenBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -53,8 +54,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Custo
  System::Func_2<int32_t,float_t> GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c::__get___9__21_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<int32_t,float_t>, "<>9__21_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c::GlobalNamespace__CustomTweenBehaviour____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CustomTweenBehaviour____c>())) {}
+ GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CustomTweenBehaviour____c>::get(),
@@ -302,8 +305,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable, info);
 }
-// Ctor Parameters []
- GlobalNamespace::CustomTweenBehaviour::CustomTweenBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<CustomTweenBehaviour>())) {}
+ GlobalNamespace::CustomTweenBehaviour GlobalNamespace::CustomTweenBehaviour::New_ctor()  {
+GlobalNamespace::CustomTweenBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomTweenBehaviour>())};
+return o;
+}
  void GlobalNamespace::CustomTweenBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomTweenBehaviour>::get(),

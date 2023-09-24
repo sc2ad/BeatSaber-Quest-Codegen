@@ -2,13 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
+#include "LiteNetLib/zzzz__NatPunchModule_def.hpp"
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetPacketProcessor_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 // Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: Some("csnull") }, CppParam { name: "RemoteEndPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: Some("csnull") }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
 constexpr LiteNetLib::LiteNetLib__NatPunchModule__RequestEventData::LiteNetLib__NatPunchModule__RequestEventData(System::Net::IPEndPoint LocalEndPoint, System::Net::IPEndPoint RemoteEndPoint, ::StringW Token) noexcept : ::bs_hook::ValueTypeWrapper() {this->LocalEndPoint = LocalEndPoint;
@@ -189,8 +190,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__NatPunchModule__NatIntroduceRequestPacket>())) {}
+ LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket::New_ctor()  {
+LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket>())};
+return o;
+}
  void LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket>::get(),
@@ -391,8 +394,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__NatPunchModule__NatIntroduceResponsePacket>())) {}
+ LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket::New_ctor()  {
+LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket>())};
+return o;
+}
  void LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket>::get(),
@@ -535,8 +540,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket::LiteNetLib__NatPunchModule__NatPunchPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LiteNetLib__NatPunchModule__NatPunchPacket>())) {}
+ LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket::New_ctor()  {
+LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket>())};
+return o;
+}
  void LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket>::get(),
@@ -758,8 +765,10 @@ constexpr void LiteNetLib::NatPunchModule::__set__natPunchListener(LiteNetLib::I
 constexpr LiteNetLib::INatPunchListener LiteNetLib::NatPunchModule::__get__natPunchListener() const {
 return ::cordl_internals::getInstanceField<LiteNetLib::INatPunchListener, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "socket", ty: "LiteNetLib::NetSocket", modifiers: "", def_value: None }]
- LiteNetLib::NatPunchModule::NatPunchModule(LiteNetLib::NetSocket socket)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NatPunchModule>(socket))) {}
+ LiteNetLib::NatPunchModule LiteNetLib::NatPunchModule::New_ctor(LiteNetLib::NetSocket socket)  {
+LiteNetLib::NatPunchModule o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NatPunchModule>(socket))};
+return o;
+}
  void LiteNetLib::NatPunchModule::_ctor(LiteNetLib::NetSocket socket)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NatPunchModule>::get(),

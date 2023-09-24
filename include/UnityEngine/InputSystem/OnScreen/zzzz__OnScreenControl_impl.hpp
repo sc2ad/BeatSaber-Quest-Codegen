@@ -2,11 +2,12 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
+#include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::OnScreen::UnityEngine__InputSystem__OnScreen__OnScreenControl__OnScreenDeviceInfo.AddControl
 template<>
 
@@ -404,8 +405,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::OnScreen::OnScreenControl::OnScreenControl()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OnScreenControl>())) {}
+ UnityEngine::InputSystem::OnScreen::OnScreenControl UnityEngine::InputSystem::OnScreen::OnScreenControl::New_ctor()  {
+UnityEngine::InputSystem::OnScreen::OnScreenControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::OnScreen::OnScreenControl>())};
+return o;
+}
  void UnityEngine::InputSystem::OnScreen::OnScreenControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::OnScreen::OnScreenControl>::get(),

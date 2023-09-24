@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
@@ -92,14 +92,12 @@ constexpr ::ArrayW<uint8_t> __get_extraInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DHKdfParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
+static Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
 
 /// @brief Method .ctor addr 0x118bba4 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z) ;
 
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "extraInfo", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DHKdfParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;
+static Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;
 
 /// @brief Method .ctor addr 0x118bbe4 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, int32_t keySize, ::ArrayW<uint8_t> z, ::ArrayW<uint8_t> extraInfo) ;

@@ -37,8 +37,10 @@ constexpr void System::Xml::Serialization::XmlElementAttribute::__set_order(int3
 constexpr int32_t System::Xml::Serialization::XmlElementAttribute::__get_order() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "elementName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::Xml::Serialization::XmlElementAttribute::XmlElementAttribute(::StringW elementName, System::Type type)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XmlElementAttribute>(elementName, type))) {}
+ System::Xml::Serialization::XmlElementAttribute System::Xml::Serialization::XmlElementAttribute::New_ctor(::StringW elementName, System::Type type)  {
+System::Xml::Serialization::XmlElementAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Serialization::XmlElementAttribute>(elementName, type))};
+return o;
+}
  void System::Xml::Serialization::XmlElementAttribute::_ctor(::StringW elementName, System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Serialization::XmlElementAttribute>::get(),

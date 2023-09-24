@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ShaderVariantsSO_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
+#include "GlobalNamespace/zzzz__ShaderVariantsSO_def.hpp"
 #include "UnityEngine/Rendering/zzzz__PassType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant.get_passType
 template<>
@@ -84,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "passType", ty: "UnityEngine::Rendering::PassType", modifiers: "", def_value: None }, CppParam { name: "keywords", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant(UnityEngine::Rendering::PassType passType, ::StringW keywords)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant>(passType, keywords))) {}
+ GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant::New_ctor(UnityEngine::Rendering::PassType passType, ::StringW keywords)  {
+GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant>(passType, keywords))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant::_ctor(UnityEngine::Rendering::PassType passType, ::StringW keywords)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant>::get(),
@@ -176,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Shader, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "shader", ty: "UnityEngine::Shader", modifiers: "", def_value: None }, CppParam { name: "variants", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant::GlobalNamespace__ShaderVariantsSO__ShaderVariant(UnityEngine::Shader shader, ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant> variants)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__ShaderVariantsSO__ShaderVariant>(shader, variants))) {}
+ GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant::New_ctor(UnityEngine::Shader shader, ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant> variants)  {
+GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant>(shader, variants))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant::_ctor(UnityEngine::Shader shader, ::ArrayW<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant__Variant> variants)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__ShaderVariantsSO__ShaderVariant>::get(),
@@ -262,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, shaderVariants);
 }
-// Ctor Parameters []
- GlobalNamespace::ShaderVariantsSO::ShaderVariantsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ShaderVariantsSO>())) {}
+ GlobalNamespace::ShaderVariantsSO GlobalNamespace::ShaderVariantsSO::New_ctor()  {
+GlobalNamespace::ShaderVariantsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ShaderVariantsSO>())};
+return o;
+}
  void GlobalNamespace::ShaderVariantsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ShaderVariantsSO>::get(),

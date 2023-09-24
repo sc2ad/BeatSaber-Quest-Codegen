@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace HoudiniEngineUnity {
-class HEU_ThreadedTask;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_ThreadedTask;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -110,8 +110,7 @@ static void CreateInstance() ;
 /// @brief Method RemoveTask addr 0x2040cb0 size 0xec virtual false final false
  void RemoveTask(HoudiniEngineUnity::HEU_ThreadedTask task) ;
 
-// Ctor Parameters []
-explicit HEU_ThreadManager() ;
+static HoudiniEngineUnity::HEU_ThreadManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2040d9c size 0xbc virtual false final false
  void _ctor() ;

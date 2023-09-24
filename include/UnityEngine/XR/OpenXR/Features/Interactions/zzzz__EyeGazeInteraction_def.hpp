@@ -3,6 +3,9 @@
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRDevice_def.hpp"
 #include <cstdint>
+namespace UnityEngine::XR::OpenXR::Features::Interactions {
+class UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice;
+}
 namespace UnityEngine::XR::OpenXR::Input {
 class PoseControl;
 }
@@ -78,8 +81,7 @@ constexpr UnityEngine::XR::OpenXR::Input::PoseControl __get__pose_k__BackingFiel
 /// @brief Method FinishSetup addr 0x2af1298 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__EyeGazeInteraction__EyeGazeDevice New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af1310 size 0x8 virtual false final false
  void _ctor() ;
@@ -165,8 +167,7 @@ static constexpr ::ConstString  extensionString{u"XR_EXT_eye_gaze_interaction"};
 /// @brief Method RegisterActionMapsWithRuntime addr 0x2af0d54 size 0x52c virtual true final false
  void RegisterActionMapsWithRuntime() ;
 
-// Ctor Parameters []
-explicit EyeGazeInteraction() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af1280 size 0x8 virtual false final false
  void _ctor() ;

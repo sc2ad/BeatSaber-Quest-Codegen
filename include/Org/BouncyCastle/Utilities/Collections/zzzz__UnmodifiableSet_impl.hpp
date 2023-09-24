@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSet_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableSet._ctor
 template<>
 
@@ -272,8 +272,10 @@ return System::Collections::ICollection(::bs_hook::Il2CppWrapperType::instance);
 constexpr  Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator System::Collections::IEnumerable() const noexcept {
 return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::UnmodifiableSet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnmodifiableSet>())) {}
+ Org::BouncyCastle::Utilities::Collections::UnmodifiableSet Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::New_ctor()  {
+Org::BouncyCastle::Utilities::Collections::UnmodifiableSet o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::UnmodifiableSet>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::UnmodifiableSet>::get(),

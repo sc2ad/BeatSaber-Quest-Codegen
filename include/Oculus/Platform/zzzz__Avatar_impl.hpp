@@ -1,8 +1,8 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Avatar_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AvatarEditorResult_def.hpp"
-#include "Oculus/Platform/zzzz__Request_1_def.hpp"
 #include "Oculus/Platform/zzzz__AvatarEditorOptions_def.hpp"
+#include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AvatarEditorResult_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Avatar.LaunchAvatarEditor
 template<>
 

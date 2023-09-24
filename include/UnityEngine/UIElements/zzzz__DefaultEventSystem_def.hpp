@@ -7,41 +7,56 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
+class UnityEngine__UIElements__DefaultEventSystem__Input;
+}
+namespace UnityEngine {
+struct Touch;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DefaultEventSystem__IInput;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__DefaultEventSystem__UpdateMode;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DefaultEventSystem__NoInput;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__DefaultEventSystem____c;
+}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace System {
-template<typename T>
-struct Nullable_1;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename TResult>
 class Func_4;
 }
 namespace UnityEngine {
-class Event;
+struct EventModifiers;
 }
 namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine {
-struct Touch;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct EventModifiers;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -111,6 +126,8 @@ __IgnoreIfAppNotFocused = 1,
 constexpr operator __UnityEngine__UIElements__DefaultEventSystem__UpdateMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__DefaultEventSystem__UpdateMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -242,8 +259,7 @@ constexpr explicit UnityEngine__UIElements__DefaultEventSystem__Input(void* ptr)
 /// @brief Method get_mousePresent addr 0x2c3db10 size 0x8 virtual true final true
  bool get_mousePresent() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DefaultEventSystem__Input() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__Input New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3c390 size 0x8 virtual false final false
  void _ctor() ;
@@ -319,8 +335,7 @@ constexpr explicit UnityEngine__UIElements__DefaultEventSystem__NoInput(void* pt
 /// @brief Method get_mousePresent addr 0x2c3db44 size 0x8 virtual true final true
  bool get_mousePresent() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DefaultEventSystem__NoInput() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem__NoInput New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3c398 size 0x8 virtual false final false
  void _ctor() ;
@@ -422,8 +437,7 @@ static System::Func_4<UnityEngine::Vector3,UnityEngine::Vector3,UnityEngine::Tou
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__DefaultEventSystem____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__DefaultEventSystem____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3dbb0 size 0x8 virtual false final false
  void _ctor() ;
@@ -657,8 +671,7 @@ static UnityEngine::UIElements::EventBase MakeTouchEvent(UnityEngine::Touch touc
 /// @brief Method GetLocalScreenPosition addr 0x2c3d170 size 0x1c virtual false final false
 static UnityEngine::Vector2 GetLocalScreenPosition(UnityEngine::Event evt, ByRef<System::Nullable_1<int32_t>> targetDisplay) ;
 
-// Ctor Parameters []
-explicit DefaultEventSystem() ;
+static UnityEngine::UIElements::DefaultEventSystem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3d900 size 0xf4 virtual false final false
  void _ctor() ;

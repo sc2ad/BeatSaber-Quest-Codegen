@@ -7,6 +7,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__TrailElementCollection__InterpolationState;
+}
+namespace GlobalNamespace {
 class TrailElement;
 }
 namespace UnityEngine {
@@ -149,8 +152,7 @@ constexpr float_t __get__totalDistance() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "defaultStartPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "defaultEndPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit TrailElementCollection(int32_t capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float_t time) ;
+static GlobalNamespace::TrailElementCollection New_ctor(int32_t capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float_t time) ;
 
 /// @brief Method .ctor addr 0x2255a64 size 0x1b0 virtual false final false
  void _ctor(int32_t capacity, UnityEngine::Vector3 defaultStartPosition, UnityEngine::Vector3 defaultEndPosition, float_t time) ;

@@ -5,10 +5,10 @@ namespace UnityEngine {
 class AnimationClip;
 }
 namespace HMUI {
-struct HMUI__InputFieldView__SelectionState;
+class InputFieldView;
 }
 namespace HMUI {
-class InputFieldView;
+struct HMUI__InputFieldView__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -116,8 +116,7 @@ constexpr bool __get__didStart() const;
 /// @brief Method HandleInputFieldViewSelectionStateDidChange addr 0x1fcdf78 size 0x100 virtual false final false
  void HandleInputFieldViewSelectionStateDidChange(HMUI::HMUI__InputFieldView__SelectionState state) ;
 
-// Ctor Parameters []
-explicit InputFieldViewStaticAnimations() ;
+static HMUI::InputFieldViewStaticAnimations New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fce164 size 0x8 virtual false final false
  void _ctor() ;

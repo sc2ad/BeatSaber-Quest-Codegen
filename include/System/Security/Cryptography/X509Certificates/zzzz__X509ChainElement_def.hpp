@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
-}
-namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -96,8 +96,7 @@ constexpr System::Security::Cryptography::X509Certificates::X509ChainStatusFlags
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certificate", ty: "System::Security::Cryptography::X509Certificates::X509Certificate2", modifiers: "", def_value: None }]
-explicit X509ChainElement(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;
+static System::Security::Cryptography::X509Certificates::X509ChainElement New_ctor(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;
 
 /// @brief Method .ctor addr 0x27ed580 size 0x6c virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509Certificate2 certificate) ;

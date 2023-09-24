@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsaExt;
+class IDsa;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IDsaExt;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -117,8 +117,7 @@ constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 /// @brief Method VerifySignature addr 0xebb9e8 size 0x2d8 virtual true final false
  bool VerifySignature(::ArrayW<uint8_t> message, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger s) ;
 
-// Ctor Parameters []
-explicit ECNRSigner() ;
+static Org::BouncyCastle::Crypto::Signers::ECNRSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xebbcc0 size 0x8 virtual false final false
  void _ctor() ;

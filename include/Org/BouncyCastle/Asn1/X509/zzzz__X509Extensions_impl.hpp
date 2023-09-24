@@ -1,18 +1,18 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extension_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extension_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::X509Extensions.GetExtension
 template<>
 
@@ -627,8 +627,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::X509Extensions, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),
@@ -638,8 +640,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "extensions", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(System::Collections::IDictionary extensions)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(extensions))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(System::Collections::IDictionary extensions)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(extensions))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(System::Collections::IDictionary extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),
@@ -649,8 +653,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, extensions);
 }
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(System::Collections::IList ordering, System::Collections::IDictionary extensions)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(ordering, extensions))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(System::Collections::IList ordering, System::Collections::IDictionary extensions)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(ordering, extensions))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(System::Collections::IList ordering, System::Collections::IDictionary extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),
@@ -660,8 +666,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ordering, extensions);
 }
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(System::Collections::IList oids, System::Collections::IList values)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(oids, values))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(System::Collections::IList oids, System::Collections::IList values)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(oids, values))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(System::Collections::IList oids, System::Collections::IList values)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),
@@ -671,8 +679,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oids, values);
 }
-// Ctor Parameters [CppParam { name: "extensions", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(System::Collections::Hashtable extensions)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(extensions))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(System::Collections::Hashtable extensions)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(extensions))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(System::Collections::Hashtable extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),
@@ -682,8 +692,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, extensions);
 }
-// Ctor Parameters [CppParam { name: "ordering", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(System::Collections::ArrayList ordering, System::Collections::Hashtable extensions)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(ordering, extensions))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(System::Collections::ArrayList ordering, System::Collections::Hashtable extensions)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(ordering, extensions))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(System::Collections::ArrayList ordering, System::Collections::Hashtable extensions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),
@@ -693,8 +705,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ordering, extensions);
 }
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "values", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions(System::Collections::ArrayList oids, System::Collections::ArrayList values)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X509Extensions>(oids, values))) {}
+ Org::BouncyCastle::Asn1::X509::X509Extensions Org::BouncyCastle::Asn1::X509::X509Extensions::New_ctor(System::Collections::ArrayList oids, System::Collections::ArrayList values)  {
+Org::BouncyCastle::Asn1::X509::X509Extensions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509Extensions>(oids, values))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509Extensions::_ctor(System::Collections::ArrayList oids, System::Collections::ArrayList values)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509Extensions>::get(),

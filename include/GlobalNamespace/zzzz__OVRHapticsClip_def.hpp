@@ -101,32 +101,27 @@ constexpr ::ArrayW<uint8_t> __get__Samples_k__BackingField() const;
 /// @brief Method set_Samples addr 0x25bbad8 size 0x8 virtual false final false
  void set_Samples(::ArrayW<uint8_t> value) ;
 
-// Ctor Parameters []
-explicit OVRHapticsClip() ;
+static GlobalNamespace::OVRHapticsClip New_ctor() ;
 
 /// @brief Method .ctor addr 0x25bb760 size 0x100 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRHapticsClip(int32_t capacity) ;
+static GlobalNamespace::OVRHapticsClip New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x25bb888 size 0xd8 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "samples", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "samplesCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRHapticsClip(::ArrayW<uint8_t> samples, int32_t samplesCount) ;
+static GlobalNamespace::OVRHapticsClip New_ctor(::ArrayW<uint8_t> samples, int32_t samplesCount) ;
 
 /// @brief Method .ctor addr 0x25bbae0 size 0xc4 virtual false final false
  void _ctor(::ArrayW<uint8_t> samples, int32_t samplesCount) ;
 
-// Ctor Parameters [CppParam { name: "a", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }, CppParam { name: "b", ty: "GlobalNamespace::OVRHapticsClip", modifiers: "", def_value: None }]
-explicit OVRHapticsClip(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b) ;
+static GlobalNamespace::OVRHapticsClip New_ctor(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b) ;
 
 /// @brief Method .ctor addr 0x25bbba4 size 0x20c virtual false final false
  void _ctor(GlobalNamespace::OVRHapticsClip a, GlobalNamespace::OVRHapticsClip b) ;
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "channel", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRHapticsClip(UnityEngine::AudioClip audioClip, int32_t channel) ;
+static GlobalNamespace::OVRHapticsClip New_ctor(UnityEngine::AudioClip audioClip, int32_t channel) ;
 
 /// @brief Method .ctor addr 0x25bbdb0 size 0xd8 virtual false final false
  void _ctor(UnityEngine::AudioClip audioClip, int32_t channel) ;

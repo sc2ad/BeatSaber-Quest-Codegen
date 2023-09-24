@@ -59,8 +59,7 @@ constexpr System::Type __get__TypeChanged_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeChanged", ty: "System::Type", modifiers: "", def_value: None }]
-explicit RefreshEventArgs(System::Type typeChanged) ;
+static System::ComponentModel::RefreshEventArgs New_ctor(System::Type typeChanged) ;
 
 /// @brief Method .ctor addr 0x27854c4 size 0x6c virtual false final false
  void _ctor(System::Type typeChanged) ;

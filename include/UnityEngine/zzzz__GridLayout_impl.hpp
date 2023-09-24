@@ -89,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::GridLayout::GridLayout()  : UnityEngine::Behaviour(THROW_UNLESS(::il2cpp_utils::New<GridLayout>())) {}
+ UnityEngine::GridLayout UnityEngine::GridLayout::New_ctor()  {
+UnityEngine::GridLayout o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GridLayout>())};
+return o;
+}
  void UnityEngine::GridLayout::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GridLayout>::get(),

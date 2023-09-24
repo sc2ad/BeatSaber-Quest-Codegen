@@ -59,8 +59,7 @@ constexpr GlobalNamespace::MissionNodesManager __get__missionNodesManager() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit MissionNodeNameGenerator() ;
+static GlobalNamespace::MissionNodeNameGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2149140 size 0x8 virtual false final false
  void _ctor() ;

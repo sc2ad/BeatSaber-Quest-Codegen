@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: UnityEngine::Playables::PlayableBehaviour._ctor
 template<>
 
@@ -182,8 +182,10 @@ return UnityEngine::Playables::IPlayableBehaviour(::bs_hook::Il2CppWrapperType::
 constexpr  UnityEngine::Playables::PlayableBehaviour::operator System::ICloneable() const noexcept {
 return System::ICloneable(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::Playables::PlayableBehaviour::PlayableBehaviour()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayableBehaviour>())) {}
+ UnityEngine::Playables::PlayableBehaviour UnityEngine::Playables::PlayableBehaviour::New_ctor()  {
+UnityEngine::Playables::PlayableBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Playables::PlayableBehaviour>())};
+return o;
+}
  void UnityEngine::Playables::PlayableBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Playables::PlayableBehaviour>::get(),

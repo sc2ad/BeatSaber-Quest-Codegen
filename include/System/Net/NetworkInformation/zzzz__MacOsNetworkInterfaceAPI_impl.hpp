@@ -59,8 +59,10 @@ constexpr void System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::__set_
 constexpr int32_t System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::__get_AF_INET6() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::MacOsNetworkInterfaceAPI()  : System::Net::NetworkInformation::UnixNetworkInterfaceAPI(THROW_UNLESS(::il2cpp_utils::New<MacOsNetworkInterfaceAPI>())) {}
+ System::Net::NetworkInformation::MacOsNetworkInterfaceAPI System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::New_ctor()  {
+System::Net::NetworkInformation::MacOsNetworkInterfaceAPI o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::MacOsNetworkInterfaceAPI>())};
+return o;
+}
  void System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::MacOsNetworkInterfaceAPI>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "AF_INET6", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::MacOsNetworkInterfaceAPI(int32_t AF_INET6)  : System::Net::NetworkInformation::UnixNetworkInterfaceAPI(THROW_UNLESS(::il2cpp_utils::New<MacOsNetworkInterfaceAPI>(AF_INET6))) {}
+ System::Net::NetworkInformation::MacOsNetworkInterfaceAPI System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::New_ctor(int32_t AF_INET6)  {
+System::Net::NetworkInformation::MacOsNetworkInterfaceAPI o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::MacOsNetworkInterfaceAPI>(AF_INET6))};
+return o;
+}
  void System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::_ctor(int32_t AF_INET6)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::MacOsNetworkInterfaceAPI>::get(),

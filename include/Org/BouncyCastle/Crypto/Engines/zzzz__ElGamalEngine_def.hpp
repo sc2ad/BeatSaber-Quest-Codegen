@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ElGamalKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ElGamalKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -112,8 +112,7 @@ constexpr int32_t __get_bitSize() const;
 /// @brief Method ProcessBlock addr 0xe444b4 size 0x52c virtual true final false
  ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t length) ;
 
-// Ctor Parameters []
-explicit ElGamalEngine() ;
+static Org::BouncyCastle::Crypto::Engines::ElGamalEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe449e0 size 0x8 virtual false final false
  void _ctor() ;

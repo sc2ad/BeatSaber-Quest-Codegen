@@ -3,16 +3,16 @@
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IGamePause;
+class HapticFeedbackManager;
+}
+namespace GlobalNamespace {
+struct SaberType;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
 namespace GlobalNamespace {
-class HapticFeedbackManager;
-}
-namespace GlobalNamespace {
-struct SaberType;
+class IGamePause;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr GlobalNamespace::SaberType __get__saberType() const;
 /// @brief Method Vibrate addr 0x224a210 size 0x40 virtual false final false
  void Vibrate() ;
 
-// Ctor Parameters []
-explicit SliderHapticFeedbackInteractionEffect() ;
+static GlobalNamespace::SliderHapticFeedbackInteractionEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224a2a4 size 0x8 virtual false final false
  void _ctor() ;

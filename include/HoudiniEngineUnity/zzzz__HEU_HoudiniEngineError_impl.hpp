@@ -58,8 +58,10 @@ constexpr void HoudiniEngineUnity::HEU_HoudiniEngineError::__set__errorMsg(::Str
 constexpr ::StringW HoudiniEngineUnity::HEU_HoudiniEngineError::__get__errorMsg() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_HoudiniEngineError::HEU_HoudiniEngineError()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<HEU_HoudiniEngineError>())) {}
+ HoudiniEngineUnity::HEU_HoudiniEngineError HoudiniEngineUnity::HEU_HoudiniEngineError::New_ctor()  {
+HoudiniEngineUnity::HEU_HoudiniEngineError o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_HoudiniEngineError>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_HoudiniEngineError::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_HoudiniEngineError>::get(),
@@ -69,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "errorMsg", ty: "::StringW", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HEU_HoudiniEngineError::HEU_HoudiniEngineError(::StringW errorMsg)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<HEU_HoudiniEngineError>(errorMsg))) {}
+ HoudiniEngineUnity::HEU_HoudiniEngineError HoudiniEngineUnity::HEU_HoudiniEngineError::New_ctor(::StringW errorMsg)  {
+HoudiniEngineUnity::HEU_HoudiniEngineError o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_HoudiniEngineError>(errorMsg))};
+return o;
+}
  void HoudiniEngineUnity::HEU_HoudiniEngineError::_ctor(::StringW errorMsg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_HoudiniEngineError>::get(),

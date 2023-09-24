@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AddressableAssets::AssetReferenceTexture2D::AssetReferenceTexture2D(::StringW guid)  : UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::Texture2D>(THROW_UNLESS(::il2cpp_utils::New<AssetReferenceTexture2D>(guid))) {}
+ UnityEngine::AddressableAssets::AssetReferenceTexture2D UnityEngine::AddressableAssets::AssetReferenceTexture2D::New_ctor(::StringW guid)  {
+UnityEngine::AddressableAssets::AssetReferenceTexture2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::AssetReferenceTexture2D>(guid))};
+return o;
+}
  void UnityEngine::AddressableAssets::AssetReferenceTexture2D::_ctor(::StringW guid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AddressableAssets::AssetReferenceTexture2D>::get(),

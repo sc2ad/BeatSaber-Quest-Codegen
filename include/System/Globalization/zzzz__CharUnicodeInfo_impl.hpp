@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Globalization/zzzz__CharUnicodeInfo_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: System::Globalization::CharUnicodeInfo.InternalConvertToUtf32
 template<>
 

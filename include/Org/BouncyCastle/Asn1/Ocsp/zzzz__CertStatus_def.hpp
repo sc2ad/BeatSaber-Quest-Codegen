@@ -3,20 +3,20 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class RevokedInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class RevokedInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -89,26 +89,22 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CertStatus() ;
+static Org::BouncyCastle::Asn1::Ocsp::CertStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0xef1d88 size 0x70 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Ocsp::RevokedInfo", modifiers: "", def_value: None }]
-explicit CertStatus(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
+static Org::BouncyCastle::Asn1::Ocsp::CertStatus New_ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
 
 /// @brief Method .ctor addr 0xef1df8 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::RevokedInfo info) ;
 
-// Ctor Parameters [CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit CertStatus(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
+static Org::BouncyCastle::Asn1::Ocsp::CertStatus New_ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
 /// @brief Method .ctor addr 0xef1e28 size 0x30 virtual false final false
  void _ctor(int32_t tagNo, Org::BouncyCastle::Asn1::Asn1Encodable value) ;
 
-// Ctor Parameters [CppParam { name: "choice", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit CertStatus(Org::BouncyCastle::Asn1::Asn1TaggedObject choice) ;
+static Org::BouncyCastle::Asn1::Ocsp::CertStatus New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject choice) ;
 
 /// @brief Method .ctor addr 0xef1e58 size 0x138 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject choice) ;

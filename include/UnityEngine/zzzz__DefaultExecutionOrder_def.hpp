@@ -62,8 +62,7 @@ constexpr int32_t __get_m_Order() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DefaultExecutionOrder(int32_t order) ;
+static UnityEngine::DefaultExecutionOrder New_ctor(int32_t order) ;
 
 /// @brief Method .ctor addr 0x2b5b3d8 size 0x28 virtual false final false
  void _ctor(int32_t order) ;

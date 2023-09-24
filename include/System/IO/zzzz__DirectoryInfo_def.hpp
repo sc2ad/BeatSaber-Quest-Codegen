@@ -3,21 +3,21 @@
 #include "System/IO/zzzz__FileSystemInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::IO {
+struct SearchTarget;
+}
+namespace System::IO {
+class EnumerationOptions;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::IO {
-class EnumerationOptions;
-}
-namespace System::IO {
 class FileSystemInfo;
 }
-namespace System::IO {
-struct SearchTarget;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -68,14 +68,12 @@ constexpr explicit DirectoryInfo(void* ptr) noexcept : System::IO::FileSystemInf
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DirectoryInfo(::StringW path) ;
+static System::IO::DirectoryInfo New_ctor(::StringW path) ;
 
 /// @brief Method .ctor addr 0x239a090 size 0x84 virtual false final false
  void _ctor(::StringW path) ;
 
-// Ctor Parameters [CppParam { name: "originalPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fullPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isNormalized", ty: "bool", modifiers: "", def_value: None }]
-explicit DirectoryInfo(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized) ;
+static System::IO::DirectoryInfo New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized) ;
 
 /// @brief Method .ctor addr 0x239a844 size 0x48 virtual false final false
  void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized) ;
@@ -95,8 +93,7 @@ static System::Collections::Generic::IEnumerable_1<System::IO::FileSystemInfo> I
 /// @brief Method Delete addr 0x239b884 size 0xc virtual true final false
  void Delete() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DirectoryInfo(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::IO::DirectoryInfo New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x239b954 size 0x4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

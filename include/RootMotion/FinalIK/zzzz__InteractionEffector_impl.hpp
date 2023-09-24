@@ -1,15 +1,15 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__InteractionEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Poser_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Poser_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::InteractionEffector.get_effectorType
 template<>
 
@@ -629,8 +629,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "effectorType", ty: "RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }]
- RootMotion::FinalIK::InteractionEffector::InteractionEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InteractionEffector>(effectorType))) {}
+ RootMotion::FinalIK::InteractionEffector RootMotion::FinalIK::InteractionEffector::New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType)  {
+RootMotion::FinalIK::InteractionEffector o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::InteractionEffector>(effectorType))};
+return o;
+}
  void RootMotion::FinalIK::InteractionEffector::_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::InteractionEffector>::get(),

@@ -2,11 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableView_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableCell_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
+#include "HMUI/zzzz__TableView_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DifficultyTableView.add_didSelectRow
 template<>
 
@@ -350,8 +349,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DifficultyTableView::DifficultyTableView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DifficultyTableView>())) {}
+ GlobalNamespace::DifficultyTableView GlobalNamespace::DifficultyTableView::New_ctor()  {
+GlobalNamespace::DifficultyTableView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DifficultyTableView>())};
+return o;
+}
  void GlobalNamespace::DifficultyTableView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DifficultyTableView>::get(),

@@ -1,12 +1,13 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
-#include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_def.hpp"
+#include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c._ctor
 template<>
@@ -54,8 +55,10 @@ return ::cordl_internals::getStaticField<System::Net::Http::Headers::System__Net
  System::Predicate_1<System::Net::Http::Headers::NameValueHeaderValue> System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c::__get___9__6_0()  {
 return ::cordl_internals::getStaticField<System::Predicate_1<System::Net::Http::Headers::NameValueHeaderValue>, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c>::get>();
 }
-// Ctor Parameters []
- System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c::System__Net__Http__Headers__MediaTypeHeaderValue____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__Headers__MediaTypeHeaderValue____c>())) {}
+ System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c::New_ctor()  {
+System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c>())};
+return o;
+}
  void System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::System__Net__Http__Headers__MediaTypeHeaderValue____c>::get(),
@@ -328,8 +331,10 @@ constexpr void System::Net::Http::Headers::MediaTypeHeaderValue::__set_media_typ
 constexpr ::StringW System::Net::Http::Headers::MediaTypeHeaderValue::__get_media_type() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mediaType", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::Headers::MediaTypeHeaderValue::MediaTypeHeaderValue(::StringW mediaType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MediaTypeHeaderValue>(mediaType))) {}
+ System::Net::Http::Headers::MediaTypeHeaderValue System::Net::Http::Headers::MediaTypeHeaderValue::New_ctor(::StringW mediaType)  {
+System::Net::Http::Headers::MediaTypeHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::MediaTypeHeaderValue>(mediaType))};
+return o;
+}
  void System::Net::Http::Headers::MediaTypeHeaderValue::_ctor(::StringW mediaType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::MediaTypeHeaderValue>::get(),
@@ -339,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mediaType);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "System::Net::Http::Headers::MediaTypeHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::MediaTypeHeaderValue::MediaTypeHeaderValue(System::Net::Http::Headers::MediaTypeHeaderValue source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MediaTypeHeaderValue>(source))) {}
+ System::Net::Http::Headers::MediaTypeHeaderValue System::Net::Http::Headers::MediaTypeHeaderValue::New_ctor(System::Net::Http::Headers::MediaTypeHeaderValue source)  {
+System::Net::Http::Headers::MediaTypeHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::MediaTypeHeaderValue>(source))};
+return o;
+}
  void System::Net::Http::Headers::MediaTypeHeaderValue::_ctor(System::Net::Http::Headers::MediaTypeHeaderValue source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::MediaTypeHeaderValue>::get(),
@@ -350,8 +357,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::MediaTypeHeaderValue::MediaTypeHeaderValue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MediaTypeHeaderValue>())) {}
+ System::Net::Http::Headers::MediaTypeHeaderValue System::Net::Http::Headers::MediaTypeHeaderValue::New_ctor()  {
+System::Net::Http::Headers::MediaTypeHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::MediaTypeHeaderValue>())};
+return o;
+}
  void System::Net::Http::Headers::MediaTypeHeaderValue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::MediaTypeHeaderValue>::get(),

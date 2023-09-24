@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters []
- BGNet::Logging::UnityLogger::UnityLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityLogger>())) {}
+ BGNet::Logging::UnityLogger BGNet::Logging::UnityLogger::New_ctor()  {
+BGNet::Logging::UnityLogger o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Logging::UnityLogger>())};
+return o;
+}
  void BGNet::Logging::UnityLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Logging::UnityLogger>::get(),

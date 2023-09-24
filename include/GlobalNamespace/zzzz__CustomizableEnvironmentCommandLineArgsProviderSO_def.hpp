@@ -88,8 +88,7 @@ static GlobalNamespace::EnvironmentCommandLineArgsProvider __get__environmentCom
 /// @brief Method GetCommandLineArgs addr 0x21a8cc0 size 0x174 virtual true final true
  ::ArrayW<::StringW> GetCommandLineArgs() ;
 
-// Ctor Parameters []
-explicit CustomizableEnvironmentCommandLineArgsProviderSO() ;
+static GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a8e3c size 0x8 virtual false final false
  void _ctor() ;

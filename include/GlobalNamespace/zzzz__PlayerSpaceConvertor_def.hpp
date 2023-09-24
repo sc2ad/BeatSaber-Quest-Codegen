@@ -70,8 +70,7 @@ constexpr UnityEngine::Quaternion __get__worldToPlayerSpaceRotation() const;
 /// @brief Method Start addr 0x2108f64 size 0x38 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit PlayerSpaceConvertor() ;
+static GlobalNamespace::PlayerSpaceConvertor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2108f9c size 0x8 virtual false final false
  void _ctor() ;

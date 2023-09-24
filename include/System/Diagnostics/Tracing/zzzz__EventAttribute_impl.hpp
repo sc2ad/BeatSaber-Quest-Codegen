@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventAttribute_def.hpp"
-#include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
+#include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
 //  Writing Method size for method: System::Diagnostics::Tracing::EventAttribute._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void System::Diagnostics::Tracing::EventAttribute::__set__Message_k__B
 constexpr ::StringW System::Diagnostics::Tracing::EventAttribute::__get__Message_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "eventId", ty: "int32_t", modifiers: "", def_value: None }]
- System::Diagnostics::Tracing::EventAttribute::EventAttribute(int32_t eventId)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<EventAttribute>(eventId))) {}
+ System::Diagnostics::Tracing::EventAttribute System::Diagnostics::Tracing::EventAttribute::New_ctor(int32_t eventId)  {
+System::Diagnostics::Tracing::EventAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Tracing::EventAttribute>(eventId))};
+return o;
+}
  void System::Diagnostics::Tracing::EventAttribute::_ctor(int32_t eventId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Tracing::EventAttribute>::get(),

@@ -4,25 +4,56 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass6_0;
+}
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass15_0;
+}
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass14_0;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass2_0;
+}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System::Text::RegularExpressions {
-struct RegexOptions;
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass8_0;
 }
 namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace Zenject {
-class ConventionBindInfo;
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass4_0;
+}
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass13_0;
+}
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass13_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System {
-class Type;
+namespace Zenject {
+template<typename T>
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass9_0_1;
+}
+namespace Zenject {
+class ConventionBindInfo;
+}
+namespace System::Text::RegularExpressions {
+struct RegexOptions;
+}
+namespace Zenject {
+class Zenject__ConventionFilterTypesBinder____c__DisplayClass18_0;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -117,8 +148,7 @@ constexpr System::Type __get_parentType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass2_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4fc00 size 0x8 virtual false final false
  void _ctor() ;
@@ -187,8 +217,7 @@ constexpr System::Type __get_parentType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass4_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4fcd4 size 0x8 virtual false final false
  void _ctor() ;
@@ -257,8 +286,7 @@ constexpr System::Type __get_attribute() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass6_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4fdfc size 0x8 virtual false final false
  void _ctor() ;
@@ -327,8 +355,7 @@ constexpr System::Type __get_attribute() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass8_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d4ff24 size 0x8 virtual false final false
  void _ctor() ;
@@ -398,8 +425,7 @@ constexpr System::Collections::Generic::IEnumerable_1<::StringW> __get_namespace
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass13_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d500c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -468,8 +494,7 @@ constexpr System::Type __get_t() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass13_1() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass13_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d5104c size 0x8 virtual false final false
  void _ctor() ;
@@ -538,8 +563,7 @@ constexpr ::StringW __get_suffix() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass14_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass14_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d50194 size 0x8 virtual false final false
  void _ctor() ;
@@ -608,8 +632,7 @@ constexpr ::StringW __get_prefix() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass15_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass15_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d50268 size 0x8 virtual false final false
  void _ctor() ;
@@ -678,8 +701,7 @@ constexpr System::Text::RegularExpressions::Regex __get_regex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass18_0() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d503c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -760,8 +782,7 @@ constexpr explicit ConventionFilterTypesBinder(void* ptr) noexcept : Zenject::Co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::ConventionBindInfo", modifiers: "", def_value: None }]
-explicit ConventionFilterTypesBinder(Zenject::ConventionBindInfo bindInfo) ;
+static Zenject::ConventionFilterTypesBinder New_ctor(Zenject::ConventionBindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4fb0c size 0x28 virtual false final false
  void _ctor(Zenject::ConventionBindInfo bindInfo) ;
@@ -885,8 +906,7 @@ constexpr System::Func_2<T,bool> __get_predicate() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionFilterTypesBinder____c__DisplayClass9_0_1() ;
+static Zenject::Zenject__ConventionFilterTypesBinder____c__DisplayClass9_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

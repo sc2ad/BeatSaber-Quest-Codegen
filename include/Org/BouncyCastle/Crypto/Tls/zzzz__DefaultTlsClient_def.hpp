@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
+class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsKeyExchange;
+class TlsDHVerifier;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipherFactory;
@@ -67,20 +67,17 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsDHVerifier __get_mDHVerifier() cons
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultTlsClient() ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsClient New_ctor() ;
 
 /// @brief Method .ctor addr 0xed51b4 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }]
-explicit DefaultTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
 
 /// @brief Method .ctor addr 0xed5218 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory) ;
 
-// Ctor Parameters [CppParam { name: "cipherFactory", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipherFactory", modifiers: "", def_value: None }, CppParam { name: "dhVerifier", ty: "Org::BouncyCastle::Crypto::Tls::TlsDHVerifier", modifiers: "", def_value: None }]
-explicit DefaultTlsClient(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsClient New_ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier) ;
 
 /// @brief Method .ctor addr 0xed52f0 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsCipherFactory cipherFactory, Org::BouncyCastle::Crypto::Tls::TlsDHVerifier dhVerifier) ;

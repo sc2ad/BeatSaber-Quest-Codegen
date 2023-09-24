@@ -2,7 +2,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -11,7 +11,7 @@ namespace Zenject {
 class MemoryPoolBindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,7 +28,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10908)), TypeDefinitionIndex(TypeDefinitionIndex(10807))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10807)), TypeDefinitionIndex(TypeDefinitionIndex(10908))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10807), inst: 2 })
 // CS Name: Zenject.MemoryPoolBindingFinalizer`1
 class CORDL_TYPE MemoryPoolBindingFinalizer_1<TContract> : public Zenject::ProviderBindingFinalizer {
@@ -82,8 +82,7 @@ constexpr Zenject::FactoryBindInfo __get__factoryBindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "factoryBindInfo", ty: "Zenject::FactoryBindInfo", modifiers: "", def_value: None }, CppParam { name: "poolBindInfo", ty: "Zenject::MemoryPoolBindInfo", modifiers: "", def_value: None }]
-explicit MemoryPoolBindingFinalizer_1(Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;
+static Zenject::MemoryPoolBindingFinalizer_1<TContract> New_ctor(Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::BindInfo bindInfo, Zenject::FactoryBindInfo factoryBindInfo, Zenject::MemoryPoolBindInfo poolBindInfo) ;

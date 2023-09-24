@@ -2,18 +2,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
 #include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__NoteDebrisPhysics_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "GlobalNamespace/zzzz__NoteDebrisPhysics_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteDebris.get_didFinishEvent
 template<>
 
@@ -225,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, colorType, notePos, noteRot, noteMoveVec, noteScale, positionOffset, rotationOffset, cutPoint, cutNormal, force, torque, lifeTime);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteDebris::NoteDebris()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteDebris>())) {}
+ GlobalNamespace::NoteDebris GlobalNamespace::NoteDebris::New_ctor()  {
+GlobalNamespace::NoteDebris o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteDebris>())};
+return o;
+}
  void GlobalNamespace::NoteDebris::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteDebris>::get(),
@@ -253,8 +256,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NoteDebris__Pool::GlobalNamespace__NoteDebris__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::NoteDebris>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NoteDebris__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__NoteDebris__Pool GlobalNamespace::GlobalNamespace__NoteDebris__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NoteDebris__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NoteDebris__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NoteDebris__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NoteDebris__Pool>::get(),

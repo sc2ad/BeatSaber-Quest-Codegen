@@ -63,8 +63,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::LightGroupSO> __
 
 // Methods
 
-// Ctor Parameters []
-explicit LightGroupEditorPrefabContext() ;
+static GlobalNamespace::LightGroupEditorPrefabContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9bf70 size 0x8 virtual false final false
  void _ctor() ;

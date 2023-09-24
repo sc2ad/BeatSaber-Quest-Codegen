@@ -29,8 +29,10 @@ constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__set_platf
 constexpr int64_t GlobalNamespace::GetXPlatformAccessTokenRequestSteam::__get_platformUserId() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "platformToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformUserId", ty: "int64_t", modifiers: "", def_value: None }]
- GlobalNamespace::GetXPlatformAccessTokenRequestSteam::GetXPlatformAccessTokenRequestSteam(::StringW platformToken, int64_t platformUserId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GetXPlatformAccessTokenRequestSteam>(platformToken, platformUserId))) {}
+ GlobalNamespace::GetXPlatformAccessTokenRequestSteam GlobalNamespace::GetXPlatformAccessTokenRequestSteam::New_ctor(::StringW platformToken, int64_t platformUserId)  {
+GlobalNamespace::GetXPlatformAccessTokenRequestSteam o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GetXPlatformAccessTokenRequestSteam>(platformToken, platformUserId))};
+return o;
+}
  void GlobalNamespace::GetXPlatformAccessTokenRequestSteam::_ctor(::StringW platformToken, int64_t platformUserId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GetXPlatformAccessTokenRequestSteam>::get(),

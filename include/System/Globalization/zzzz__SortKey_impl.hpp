@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, sortkey1, sortkey2);
 }
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "opt", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }]
- System::Globalization::SortKey::SortKey(int32_t lcid, ::StringW source, System::Globalization::CompareOptions opt)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SortKey>(lcid, source, opt))) {}
+ System::Globalization::SortKey System::Globalization::SortKey::New_ctor(int32_t lcid, ::StringW source, System::Globalization::CompareOptions opt)  {
+System::Globalization::SortKey o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::SortKey>(lcid, source, opt))};
+return o;
+}
  void System::Globalization::SortKey::_ctor(int32_t lcid, ::StringW source, System::Globalization::CompareOptions opt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::SortKey>::get(),
@@ -215,8 +217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lcid, source, opt);
 }
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "opt", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }, CppParam { name: "lv1Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lv2Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lv3Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kanaSmallLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "markTypeLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "katakanaLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kanaWidthLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "identLength", ty: "int32_t", modifiers: "", def_value: None }]
- System::Globalization::SortKey::SortKey(int32_t lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SortKey>(lcid, source, buffer, opt, lv1Length, lv2Length, lv3Length, kanaSmallLength, markTypeLength, katakanaLength, kanaWidthLength, identLength))) {}
+ System::Globalization::SortKey System::Globalization::SortKey::New_ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength)  {
+System::Globalization::SortKey o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::SortKey>(lcid, source, buffer, opt, lv1Length, lv2Length, lv3Length, kanaSmallLength, markTypeLength, katakanaLength, kanaWidthLength, identLength))};
+return o;
+}
  void System::Globalization::SortKey::_ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::SortKey>::get(),
@@ -226,8 +230,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, lcid, source, buffer, opt, lv1Length, lv2Length, lv3Length, kanaSmallLength, markTypeLength, katakanaLength, kanaWidthLength, identLength);
 }
-// Ctor Parameters [CppParam { name: "localeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }, CppParam { name: "keyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Globalization::SortKey::SortKey(::StringW localeName, ::StringW str, System::Globalization::CompareOptions options, ::ArrayW<uint8_t> keyData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SortKey>(localeName, str, options, keyData))) {}
+ System::Globalization::SortKey System::Globalization::SortKey::New_ctor(::StringW localeName, ::StringW str, System::Globalization::CompareOptions options, ::ArrayW<uint8_t> keyData)  {
+System::Globalization::SortKey o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::SortKey>(localeName, str, options, keyData))};
+return o;
+}
  void System::Globalization::SortKey::_ctor(::StringW localeName, ::StringW str, System::Globalization::CompareOptions options, ::ArrayW<uint8_t> keyData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::SortKey>::get(),
@@ -282,8 +288,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::SortKey::SortKey()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SortKey>())) {}
+ System::Globalization::SortKey System::Globalization::SortKey::New_ctor()  {
+System::Globalization::SortKey o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::SortKey>())};
+return o;
+}
  void System::Globalization::SortKey::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::SortKey>::get(),

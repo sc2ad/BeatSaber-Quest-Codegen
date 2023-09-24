@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace System {
 class Type;
 }
 namespace System {
 class Uri;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -70,8 +70,7 @@ constexpr explicit XmlResolver(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 /// @brief Method GetEntityAsync addr 0x2715c80 size 0x40 virtual true final false
  System::Threading::Tasks::Task_1<::bs_hook::Il2CppWrapperType> GetEntityAsync(System::Uri absoluteUri, ::StringW role, System::Type ofObjectToReturn) ;
 
-// Ctor Parameters []
-explicit XmlResolver() ;
+static System::Xml::XmlResolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2715cc0 size 0x8 virtual false final false
  void _ctor() ;

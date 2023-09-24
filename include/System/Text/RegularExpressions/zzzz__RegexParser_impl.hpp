@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexParser_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexTree_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexCharClass_def.hpp"
 #include "System/zzzz__ArgumentException_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexTree_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexParser.Parse
 template<>
 
@@ -1405,8 +1405,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Text::RegularExpressions::RegexReplacement, false>(nullptr, ___internal_method, rep, caps, capsize, capnames, op);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexParser::RegexParser(System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexParser>(culture))) {}
+ System::Text::RegularExpressions::RegexParser System::Text::RegularExpressions::RegexParser::New_ctor(System::Globalization::CultureInfo culture)  {
+System::Text::RegularExpressions::RegexParser o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexParser>(culture))};
+return o;
+}
  void System::Text::RegularExpressions::RegexParser::_ctor(System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexParser>::get(),

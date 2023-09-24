@@ -2,6 +2,7 @@
 #include "RootMotion/FinalIK/zzzz__IKSolver_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimit_def.hpp"
@@ -217,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point::RootMotion__FinalIK__IKSolver__Point()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Point>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point>::get(),
@@ -468,8 +471,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::RootMotion__FinalIK__IKSolver__Bone()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Bone>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>::get(),
@@ -479,8 +484,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::RootMotion__FinalIK__IKSolver__Bone(UnityEngine::Transform transform)  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Bone>(transform))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>(transform))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>::get(),
@@ -490,8 +497,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, transform);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::RootMotion__FinalIK__IKSolver__Bone(UnityEngine::Transform transform, float_t weight)  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Bone>(transform, weight))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::New_ctor(UnityEngine::Transform transform, float_t weight)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>(transform, weight))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone::_ctor(UnityEngine::Transform transform, float_t weight)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Bone>::get(),
@@ -576,8 +585,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::__set_o
 constexpr UnityEngine::Vector3 RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::__get_offset() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Vector3, 0x60>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::RootMotion__FinalIK__IKSolver__Node()  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Node>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node>::get(),
@@ -587,8 +598,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::RootMotion__FinalIK__IKSolver__Node(UnityEngine::Transform transform)  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Node>(transform))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::New_ctor(UnityEngine::Transform transform)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node>(transform))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::_ctor(UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node>::get(),
@@ -598,8 +611,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, transform);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::RootMotion__FinalIK__IKSolver__Node(UnityEngine::Transform transform, float_t weight)  : RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Point(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__Node>(transform, weight))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::New_ctor(UnityEngine::Transform transform, float_t weight)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node>(transform, weight))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node::_ctor(UnityEngine::Transform transform, float_t weight)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__Node>::get(),
@@ -677,8 +692,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate::RootMotion__FinalIK__IKSolver__UpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__UpdateDelegate>(object, method))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate>(object, method))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__UpdateDelegate>::get(),
@@ -783,8 +800,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate::RootMotion__FinalIK__IKSolver__IterationDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__IKSolver__IterationDelegate>(object, method))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate>(object, method))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate>::get(),
@@ -1438,8 +1457,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, bones);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::IKSolver::IKSolver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IKSolver>())) {}
+ RootMotion::FinalIK::IKSolver RootMotion::FinalIK::IKSolver::New_ctor()  {
+RootMotion::FinalIK::IKSolver o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::IKSolver>())};
+return o;
+}
  void RootMotion::FinalIK::IKSolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::IKSolver>::get(),

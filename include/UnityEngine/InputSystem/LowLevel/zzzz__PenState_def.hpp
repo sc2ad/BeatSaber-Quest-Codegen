@@ -3,17 +3,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::InputSystem {
 struct PenButton;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

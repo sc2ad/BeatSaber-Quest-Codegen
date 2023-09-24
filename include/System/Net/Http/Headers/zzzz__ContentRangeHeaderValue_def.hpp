@@ -98,8 +98,7 @@ constexpr System::Nullable_1<int64_t> __get__To_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ContentRangeHeaderValue() ;
+static System::Net::Http::Headers::ContentRangeHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a6598 size 0x50 virtual false final false
  void _ctor() ;

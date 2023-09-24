@@ -76,14 +76,12 @@ constexpr explicit LongEnumEqualityComparer_1(void* ptr) noexcept : System::Coll
 /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit LongEnumEqualityComparer_1() ;
+static System::Collections::Generic::LongEnumEqualityComparer_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "information", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit LongEnumEqualityComparer_1(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Generic::LongEnumEqualityComparer_1 New_ctor(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;

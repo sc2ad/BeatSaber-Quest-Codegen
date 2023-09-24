@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Security {
+class System__Security__SecurityElement__SecurityAttribute;
+}
 namespace System::Text {
 class StringBuilder;
 }
@@ -82,8 +85,7 @@ constexpr ::StringW __get__value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit System__Security__SecurityElement__SecurityAttribute(::StringW name, ::StringW value) ;
+static System::Security::System__Security__SecurityElement__SecurityAttribute New_ctor(::StringW name, ::StringW value) ;
 
 /// @brief Method .ctor addr 0x22e7390 size 0x164 virtual false final false
  void _ctor(::StringW name, ::StringW value) ;
@@ -210,14 +212,12 @@ static ::ArrayW<char16_t> __get_invalid_chars() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tag", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SecurityElement(::StringW tag) ;
+static System::Security::SecurityElement New_ctor(::StringW tag) ;
 
 /// @brief Method .ctor addr 0x22e4c64 size 0x8 virtual false final false
  void _ctor(::StringW tag) ;
 
-// Ctor Parameters [CppParam { name: "tag", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SecurityElement(::StringW tag, ::StringW text) ;
+static System::Security::SecurityElement New_ctor(::StringW tag, ::StringW text) ;
 
 /// @brief Method .ctor addr 0x22e6b50 size 0x150 virtual false final false
  void _ctor(::StringW tag, ::StringW text) ;

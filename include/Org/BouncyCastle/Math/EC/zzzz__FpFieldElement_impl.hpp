@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__FpFieldElement_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::FpFieldElement.CalculateResidue
 template<>
 
@@ -591,8 +591,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, p);
 }
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::FpFieldElement::FpFieldElement(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger x)  : Org::BouncyCastle::Math::EC::AbstractFpFieldElement(THROW_UNLESS(::il2cpp_utils::New<FpFieldElement>(q, x))) {}
+ Org::BouncyCastle::Math::EC::FpFieldElement Org::BouncyCastle::Math::EC::FpFieldElement::New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger x)  {
+Org::BouncyCastle::Math::EC::FpFieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::FpFieldElement>(q, x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::FpFieldElement::_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::FpFieldElement>::get(),
@@ -602,8 +604,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, q, x);
 }
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "r", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::FpFieldElement::FpFieldElement(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger x)  : Org::BouncyCastle::Math::EC::AbstractFpFieldElement(THROW_UNLESS(::il2cpp_utils::New<FpFieldElement>(q, r, x))) {}
+ Org::BouncyCastle::Math::EC::FpFieldElement Org::BouncyCastle::Math::EC::FpFieldElement::New_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger x)  {
+Org::BouncyCastle::Math::EC::FpFieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::FpFieldElement>(q, r, x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::FpFieldElement::_ctor(Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger r, Org::BouncyCastle::Math::BigInteger x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::FpFieldElement>::get(),

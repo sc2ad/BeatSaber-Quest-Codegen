@@ -264,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DeactivateOnInputFocusCapture::DeactivateOnInputFocusCapture()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DeactivateOnInputFocusCapture>())) {}
+ GlobalNamespace::DeactivateOnInputFocusCapture GlobalNamespace::DeactivateOnInputFocusCapture::New_ctor()  {
+GlobalNamespace::DeactivateOnInputFocusCapture o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DeactivateOnInputFocusCapture>())};
+return o;
+}
  void GlobalNamespace::DeactivateOnInputFocusCapture::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DeactivateOnInputFocusCapture>::get(),

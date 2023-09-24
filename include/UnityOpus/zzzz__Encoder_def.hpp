@@ -5,16 +5,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityOpus {
-struct OpusApplication;
-}
-namespace UnityOpus {
 struct OpusSignal;
-}
-namespace System {
-class IDisposable;
 }
 namespace UnityOpus {
 struct NumChannels;
+}
+namespace UnityOpus {
+struct OpusApplication;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityOpus {
 struct SamplingFrequency;
@@ -134,8 +134,7 @@ constexpr bool __get_disposedValue() const;
 /// @brief Method set_Signal addr 0x21d6950 size 0x28 virtual false final false
  void set_Signal(UnityOpus::OpusSignal value) ;
 
-// Ctor Parameters [CppParam { name: "samplingFrequency", ty: "UnityOpus::SamplingFrequency", modifiers: "", def_value: None }, CppParam { name: "channels", ty: "UnityOpus::NumChannels", modifiers: "", def_value: None }, CppParam { name: "application", ty: "UnityOpus::OpusApplication", modifiers: "", def_value: None }]
-explicit Encoder(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application) ;
+static UnityOpus::Encoder New_ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application) ;
 
 /// @brief Method .ctor addr 0x21d69fc size 0x130 virtual false final false
  void _ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application) ;

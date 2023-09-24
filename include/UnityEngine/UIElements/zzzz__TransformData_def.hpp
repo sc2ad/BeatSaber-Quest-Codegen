@@ -5,15 +5,14 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-template<typename T>
-class IStyleDataGroup_1;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
+struct Scale;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
 struct TransformOrigin;
@@ -21,8 +20,9 @@ struct TransformOrigin;
 namespace UnityEngine::UIElements {
 struct Translate;
 }
-namespace UnityEngine::UIElements {
-struct Rotate;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

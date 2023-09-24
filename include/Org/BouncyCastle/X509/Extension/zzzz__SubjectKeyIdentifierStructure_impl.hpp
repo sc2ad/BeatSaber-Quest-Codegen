@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_impl.hpp"
 #include "Org/BouncyCastle/X509/Extension/zzzz__SubjectKeyIdentifierStructure_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "encodedValue", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::SubjectKeyIdentifierStructure(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue)  : Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier(THROW_UNLESS(::il2cpp_utils::New<SubjectKeyIdentifierStructure>(encodedValue))) {}
+ Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue)  {
+Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure>(encodedValue))};
+return o;
+}
  void Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString encodedValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure>::get(),
@@ -74,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Asn1OctetString, false>(nullptr, ___internal_method, pubKey);
 }
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::SubjectKeyIdentifierStructure(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  : Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier(THROW_UNLESS(::il2cpp_utils::New<SubjectKeyIdentifierStructure>(pubKey))) {}
+ Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  {
+Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure>(pubKey))};
+return o;
+}
  void Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure>::get(),

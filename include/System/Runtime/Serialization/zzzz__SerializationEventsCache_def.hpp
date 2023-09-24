@@ -4,12 +4,15 @@
 namespace System {
 class Type;
 }
-namespace System::Collections::Concurrent {
-template<typename TKey,typename TValue>
-class ConcurrentDictionary_2;
+namespace System::Runtime::Serialization {
+class System__Runtime__Serialization__SerializationEventsCache____c;
 }
 namespace System::Runtime::Serialization {
 class SerializationEvents;
+}
+namespace System::Collections::Concurrent {
+template<typename TKey,typename TValue>
+class ConcurrentDictionary_2;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -79,8 +82,7 @@ static System::Func_2<System::Type,System::Runtime::Serialization::Serialization
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__Serialization__SerializationEventsCache____c() ;
+static System::Runtime::Serialization::System__Runtime__Serialization__SerializationEventsCache____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x23496ac size 0x8 virtual false final false
  void _ctor() ;

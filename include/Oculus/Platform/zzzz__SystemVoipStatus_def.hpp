@@ -58,6 +58,8 @@ constexpr operator __SystemVoipStatus_Unwrapped () const noexcept {
 return std::bit_cast<__SystemVoipStatus_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

@@ -59,8 +59,7 @@ constexpr System::Runtime::CompilerServices::LoadHint __get_loadHint() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "loadHintArgument", ty: "System::Runtime::CompilerServices::LoadHint", modifiers: "", def_value: None }]
-explicit DefaultDependencyAttribute(System::Runtime::CompilerServices::LoadHint loadHintArgument) ;
+static System::Runtime::CompilerServices::DefaultDependencyAttribute New_ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument) ;
 
 /// @brief Method .ctor addr 0x23709dc size 0x28 virtual false final false
  void _ctor(System::Runtime::CompilerServices::LoadHint loadHintArgument) ;

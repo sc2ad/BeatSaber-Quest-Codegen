@@ -3,20 +3,17 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__CompositionMethod;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__MrcActivationMode;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
-}
 namespace UnityEngine {
 struct LayerMask;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CameraDevice;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__DepthQuality;
@@ -25,10 +22,13 @@ namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__VirtualGreenScreenType;
 }
 namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
+struct GlobalNamespace__OVRManager__MrcActivationMode;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__CameraDevice;
+class GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -477,8 +477,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDele
 /// @brief Method OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject addr 0x2627f9c size 0x8 virtual true final true
  void OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject(GlobalNamespace::GlobalNamespace__OVRManager__InstantiateMrcCameraDelegate value) ;
 
-// Ctor Parameters []
-explicit OVRMixedRealityCaptureSettings() ;
+static GlobalNamespace::OVRMixedRealityCaptureSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2627fa4 size 0x6c virtual false final false
  void _ctor() ;

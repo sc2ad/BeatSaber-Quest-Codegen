@@ -3,9 +3,10 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
 #include "System/Security/AccessControl/zzzz__ResourceType_def.hpp"
-#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
+#include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
+#include "System/Security/AccessControl/zzzz__NativeObjectSecurity_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode._ctor
 template<>
 
@@ -40,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode>(object, method))) {}
+ System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode>(object, method))};
+return o;
+}
  void System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode>::get(),
@@ -185,8 +188,10 @@ constexpr void System::Security::AccessControl::NativeObjectSecurity::__set_exce
 constexpr System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode System::Security::AccessControl::NativeObjectSecurity::__get_exception_from_error_code() const {
 return ::cordl_internals::getInstanceField<System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Security::AccessControl::ResourceType", modifiers: "", def_value: None }, CppParam { name: "exceptionFromErrorCode", ty: "System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode", modifiers: "", def_value: None }, CppParam { name: "exceptionContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Security::AccessControl::NativeObjectSecurity::NativeObjectSecurity(bool isContainer, System::Security::AccessControl::ResourceType resourceType, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext)  : System::Security::AccessControl::CommonObjectSecurity(THROW_UNLESS(::il2cpp_utils::New<NativeObjectSecurity>(isContainer, resourceType, exceptionFromErrorCode, exceptionContext))) {}
+ System::Security::AccessControl::NativeObjectSecurity System::Security::AccessControl::NativeObjectSecurity::New_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext)  {
+System::Security::AccessControl::NativeObjectSecurity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::NativeObjectSecurity>(isContainer, resourceType, exceptionFromErrorCode, exceptionContext))};
+return o;
+}
  void System::Security::AccessControl::NativeObjectSecurity::_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::NativeObjectSecurity>::get(),
@@ -196,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isContainer, resourceType, exceptionFromErrorCode, exceptionContext);
 }
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Security::AccessControl::ResourceType", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }]
- System::Security::AccessControl::NativeObjectSecurity::NativeObjectSecurity(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections)  : System::Security::AccessControl::CommonObjectSecurity(THROW_UNLESS(::il2cpp_utils::New<NativeObjectSecurity>(isContainer, resourceType, name, includeSections))) {}
+ System::Security::AccessControl::NativeObjectSecurity System::Security::AccessControl::NativeObjectSecurity::New_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections)  {
+System::Security::AccessControl::NativeObjectSecurity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::NativeObjectSecurity>(isContainer, resourceType, name, includeSections))};
+return o;
+}
  void System::Security::AccessControl::NativeObjectSecurity::_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::NativeObjectSecurity>::get(),
@@ -207,8 +214,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isContainer, resourceType, name, includeSections);
 }
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Security::AccessControl::ResourceType", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "includeSections", ty: "System::Security::AccessControl::AccessControlSections", modifiers: "", def_value: None }, CppParam { name: "exceptionFromErrorCode", ty: "System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode", modifiers: "", def_value: None }, CppParam { name: "exceptionContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Security::AccessControl::NativeObjectSecurity::NativeObjectSecurity(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext)  : System::Security::AccessControl::CommonObjectSecurity(THROW_UNLESS(::il2cpp_utils::New<NativeObjectSecurity>(isContainer, resourceType, name, includeSections, exceptionFromErrorCode, exceptionContext))) {}
+ System::Security::AccessControl::NativeObjectSecurity System::Security::AccessControl::NativeObjectSecurity::New_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext)  {
+System::Security::AccessControl::NativeObjectSecurity o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::NativeObjectSecurity>(isContainer, resourceType, name, includeSections, exceptionFromErrorCode, exceptionContext))};
+return o;
+}
  void System::Security::AccessControl::NativeObjectSecurity::_ctor(bool isContainer, System::Security::AccessControl::ResourceType resourceType, ::StringW name, System::Security::AccessControl::AccessControlSections includeSections, System::Security::AccessControl::System__Security__AccessControl__NativeObjectSecurity__ExceptionFromErrorCode exceptionFromErrorCode, ::bs_hook::Il2CppWrapperType exceptionContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::NativeObjectSecurity>::get(),

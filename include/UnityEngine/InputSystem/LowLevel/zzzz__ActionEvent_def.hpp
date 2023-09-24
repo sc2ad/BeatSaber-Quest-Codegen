@@ -4,7 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__ActionEvent___m_ValueData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -13,10 +19,7 @@ namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+struct InputEvent;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

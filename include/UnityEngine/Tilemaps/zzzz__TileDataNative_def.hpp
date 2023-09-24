@@ -5,14 +5,14 @@
 namespace UnityEngine {
 struct Color;
 }
+namespace UnityEngine {
+struct Matrix4x4;
+}
 namespace UnityEngine::Tilemaps {
 struct TileFlags;
 }
 namespace UnityEngine::Tilemaps {
 struct UnityEngine__Tilemaps__Tile__ColliderType;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {

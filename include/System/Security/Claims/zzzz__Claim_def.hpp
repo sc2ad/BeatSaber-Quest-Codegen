@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System::Security::Claims {
 class ClaimsIdentity;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -132,20 +132,17 @@ constexpr System::Security::Claims::ClaimsIdentity __get_m_subject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
-explicit Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject) ;
+static System::Security::Claims::Claim New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject) ;
 
 /// @brief Method .ctor addr 0x230b7e4 size 0x20 virtual false final false
  void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }, CppParam { name: "propertyKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "propertyValue", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
+static System::Security::Claims::Claim New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
 
 /// @brief Method .ctor addr 0x2310538 size 0x258 virtual false final false
  void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Claims::Claim", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
-explicit Claim(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject) ;
+static System::Security::Claims::Claim New_ctor(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject) ;
 
 /// @brief Method .ctor addr 0x23108c8 size 0x314 virtual false final false
  void _ctor(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject) ;

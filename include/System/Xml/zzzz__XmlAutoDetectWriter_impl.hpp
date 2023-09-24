@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAutoDetectWriter_def.hpp"
-#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
 #include "System/Xml/zzzz__XmlEventCache_def.hpp"
 #include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 //  Writing Method size for method: System::Xml::XmlAutoDetectWriter._ctor
 template<>
 
@@ -675,8 +675,10 @@ constexpr void System::Xml::XmlAutoDetectWriter::__set_strm(System::IO::Stream v
 constexpr System::IO::Stream System::Xml::XmlAutoDetectWriter::__get_strm() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlAutoDetectWriter::XmlAutoDetectWriter(System::Xml::XmlWriterSettings writerSettings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlAutoDetectWriter>(writerSettings))) {}
+ System::Xml::XmlAutoDetectWriter System::Xml::XmlAutoDetectWriter::New_ctor(System::Xml::XmlWriterSettings writerSettings)  {
+System::Xml::XmlAutoDetectWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAutoDetectWriter>(writerSettings))};
+return o;
+}
  void System::Xml::XmlAutoDetectWriter::_ctor(System::Xml::XmlWriterSettings writerSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAutoDetectWriter>::get(),
@@ -686,8 +688,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writerSettings);
 }
-// Ctor Parameters [CppParam { name: "textWriter", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlAutoDetectWriter::XmlAutoDetectWriter(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlAutoDetectWriter>(textWriter, writerSettings))) {}
+ System::Xml::XmlAutoDetectWriter System::Xml::XmlAutoDetectWriter::New_ctor(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings)  {
+System::Xml::XmlAutoDetectWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAutoDetectWriter>(textWriter, writerSettings))};
+return o;
+}
  void System::Xml::XmlAutoDetectWriter::_ctor(System::IO::TextWriter textWriter, System::Xml::XmlWriterSettings writerSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAutoDetectWriter>::get(),
@@ -697,8 +701,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, textWriter, writerSettings);
 }
-// Ctor Parameters [CppParam { name: "strm", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "writerSettings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::XmlAutoDetectWriter::XmlAutoDetectWriter(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings)  : System::Xml::XmlRawWriter(THROW_UNLESS(::il2cpp_utils::New<XmlAutoDetectWriter>(strm, writerSettings))) {}
+ System::Xml::XmlAutoDetectWriter System::Xml::XmlAutoDetectWriter::New_ctor(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings)  {
+System::Xml::XmlAutoDetectWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAutoDetectWriter>(strm, writerSettings))};
+return o;
+}
  void System::Xml::XmlAutoDetectWriter::_ctor(System::IO::Stream strm, System::Xml::XmlWriterSettings writerSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAutoDetectWriter>::get(),

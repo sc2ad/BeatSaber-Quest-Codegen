@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Xml::IValidationEventHandling.SendEvent
 template<>
 

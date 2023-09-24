@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlSchemaWhiteSpace, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::Datatype_normalizedString::Datatype_normalizedString()  : System::Xml::Schema::Datatype_string(THROW_UNLESS(::il2cpp_utils::New<Datatype_normalizedString>())) {}
+ System::Xml::Schema::Datatype_normalizedString System::Xml::Schema::Datatype_normalizedString::New_ctor()  {
+System::Xml::Schema::Datatype_normalizedString o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::Datatype_normalizedString>())};
+return o;
+}
  void System::Xml::Schema::Datatype_normalizedString::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::Datatype_normalizedString>::get(),

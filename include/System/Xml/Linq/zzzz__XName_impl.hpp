@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XName_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XName._ctor
@@ -269,8 +269,10 @@ constexpr void System::Xml::Linq::XName::__set__hashCode(int32_t value)  {
 constexpr int32_t System::Xml::Linq::XName::__get__hashCode() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "ns", ty: "System::Xml::Linq::XNamespace", modifiers: "", def_value: None }, CppParam { name: "localName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XName::XName(System::Xml::Linq::XNamespace ns, ::StringW localName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XName>(ns, localName))) {}
+ System::Xml::Linq::XName System::Xml::Linq::XName::New_ctor(System::Xml::Linq::XNamespace ns, ::StringW localName)  {
+System::Xml::Linq::XName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XName>(ns, localName))};
+return o;
+}
  void System::Xml::Linq::XName::_ctor(System::Xml::Linq::XNamespace ns, ::StringW localName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XName>::get(),
@@ -388,8 +390,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters []
- System::Xml::Linq::XName::XName()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XName>())) {}
+ System::Xml::Linq::XName System::Xml::Linq::XName::New_ctor()  {
+System::Xml::Linq::XName o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XName>())};
+return o;
+}
  void System::Xml::Linq::XName::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XName>::get(),

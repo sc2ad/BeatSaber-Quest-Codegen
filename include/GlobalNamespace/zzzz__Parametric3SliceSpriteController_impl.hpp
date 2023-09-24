@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::Parametric3SliceSpriteController.Awake
 template<>
 
@@ -369,8 +369,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::Parametric3SliceSpriteController::Parametric3SliceSpriteController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Parametric3SliceSpriteController>())) {}
+ GlobalNamespace::Parametric3SliceSpriteController GlobalNamespace::Parametric3SliceSpriteController::New_ctor()  {
+GlobalNamespace::Parametric3SliceSpriteController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::Parametric3SliceSpriteController>())};
+return o;
+}
  void GlobalNamespace::Parametric3SliceSpriteController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::Parametric3SliceSpriteController>::get(),

@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace System::Reflection {
-class Binder;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+class Binder;
 }
 // Forward declare root types
 namespace System {

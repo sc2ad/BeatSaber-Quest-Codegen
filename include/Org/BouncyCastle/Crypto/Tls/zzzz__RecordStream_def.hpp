@@ -5,31 +5,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
+class Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsProtocol;
 }
-namespace Org::BouncyCastle::Utilities::IO {
-class BaseOutputStream;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
+namespace System::IO {
+class MemoryStream;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsCompression;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
 }
+namespace Org::BouncyCastle::Utilities::IO {
+class BaseOutputStream;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class ProtocolVersion;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCompression;
-}
-namespace System::IO {
-class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -92,8 +98,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::RecordStream __get_mOuter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mOuter", ty: "Org::BouncyCastle::Crypto::Tls::RecordStream", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream(Org::BouncyCastle::Crypto::Tls::RecordStream mOuter) ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream New_ctor(Org::BouncyCastle::Crypto::Tls::RecordStream mOuter) ;
 
 /// @brief Method .ctor addr 0xf066bc size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::RecordStream mOuter) ;
@@ -165,8 +170,7 @@ constexpr bool __get_exhausted() const;
 /// @brief Method NextValue addr 0xf07298 size 0x7c virtual false final false
  int64_t NextValue(uint8_t alertDescription) ;
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber() ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber New_ctor() ;
 
 /// @brief Method .ctor addr 0xf066ac size 0x10 virtual false final false
  void _ctor() ;
@@ -368,8 +372,7 @@ constexpr int32_t __get_mCiphertextLimit() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "handler", ty: "Org::BouncyCastle::Crypto::Tls::TlsProtocol", modifiers: "", def_value: None }, CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit RecordStream(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler, System::IO::Stream input, System::IO::Stream output) ;
+static Org::BouncyCastle::Crypto::Tls::RecordStream New_ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler, System::IO::Stream input, System::IO::Stream output) ;
 
 /// @brief Method .ctor addr 0xf06540 size 0x16c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler, System::IO::Stream input, System::IO::Stream output) ;

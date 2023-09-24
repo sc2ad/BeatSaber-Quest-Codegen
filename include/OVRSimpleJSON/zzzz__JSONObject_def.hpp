@@ -4,28 +4,34 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Text {
+class StringBuilder;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace OVRSimpleJSON {
-class JSONNode;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace OVRSimpleJSON {
+struct JSONTextMode;
+}
+namespace OVRSimpleJSON {
 struct JSONNodeType;
 }
 namespace OVRSimpleJSON {
-struct OVRSimpleJSON__JSONNode__Enumerator;
+class JSONNode;
 }
 namespace OVRSimpleJSON {
-struct JSONTextMode;
+class OVRSimpleJSON__JSONObject___get_Children_d__23;
 }
-namespace System::Text {
-class StringBuilder;
+namespace OVRSimpleJSON {
+class OVRSimpleJSON__JSONObject____c__DisplayClass21_0;
+}
+namespace OVRSimpleJSON {
+struct OVRSimpleJSON__JSONNode__Enumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -35,18 +41,18 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct System__Collections__Generic__Dictionary_2__Enumerator;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace OVRSimpleJSON {
@@ -109,8 +115,7 @@ constexpr OVRSimpleJSON::JSONNode __get_aNode() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRSimpleJSON__JSONObject____c__DisplayClass21_0() ;
+static OVRSimpleJSON::OVRSimpleJSON__JSONObject____c__DisplayClass21_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x263fa58 size 0x8 virtual false final false
  void _ctor() ;
@@ -219,8 +224,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__Dictionary
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OVRSimpleJSON__JSONObject___get_Children_d__23(int32_t __1__state) ;
+static OVRSimpleJSON::OVRSimpleJSON__JSONObject___get_Children_d__23 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x263fad8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -379,8 +383,7 @@ constexpr bool __get_inline() const;
 /// @brief Method WriteToStringBuilder addr 0x263fb0c size 0x30c virtual true final false
  void WriteToStringBuilder(System::Text::StringBuilder aSB, int32_t aIndent, int32_t aIndentInc, OVRSimpleJSON::JSONTextMode aMode) ;
 
-// Ctor Parameters []
-explicit JSONObject() ;
+static OVRSimpleJSON::JSONObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x263fe18 size 0x7c virtual false final false
  void _ctor() ;

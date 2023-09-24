@@ -3,13 +3,14 @@
 #include "GlobalNamespace/zzzz__CreditsController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
-#include "GlobalNamespace/zzzz__CreditsScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "GlobalNamespace/zzzz__CreditsController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__CreditsScenesTransitionSetupDataSO_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13._ctor
 template<>
 
@@ -166,8 +167,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CreditsController___ScrollCorou
 constexpr float_t GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13::__get__scrollingSpeed_5__5() const {
 return ::cordl_internals::getInstanceField<float_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13::GlobalNamespace__CreditsController___ScrollCoroutine_d__13(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CreditsController___ScrollCoroutine_d__13>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13 GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CreditsController___ScrollCoroutine_d__13>::get(),
@@ -455,8 +458,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CreditsController::CreditsController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CreditsController>())) {}
+ GlobalNamespace::CreditsController GlobalNamespace::CreditsController::New_ctor()  {
+GlobalNamespace::CreditsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CreditsController>())};
+return o;
+}
  void GlobalNamespace::CreditsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CreditsController>::get(),

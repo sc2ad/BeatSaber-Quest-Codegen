@@ -3,13 +3,13 @@
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
@@ -105,8 +105,7 @@ constexpr bool __get_startPaused() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "backButtonText", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "startPaused", ty: "bool", modifiers: "", def_value: None }]
-explicit StandardGameplaySceneSetupData(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::StringW backButtonText, GlobalNamespace::GameplayModifiers gameplayModifiers, bool startPaused) ;
+static GlobalNamespace::StandardGameplaySceneSetupData New_ctor(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::StringW backButtonText, GlobalNamespace::GameplayModifiers gameplayModifiers, bool startPaused) ;
 
 /// @brief Method .ctor addr 0x21cfa5c size 0x6c virtual false final false
  void _ctor(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::StringW backButtonText, GlobalNamespace::GameplayModifiers gameplayModifiers, bool startPaused) ;

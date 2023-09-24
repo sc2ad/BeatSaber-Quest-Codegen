@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct MeshTopology;
+struct Bounds;
 }
 namespace UnityEngine {
-struct Bounds;
+struct MeshTopology;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {

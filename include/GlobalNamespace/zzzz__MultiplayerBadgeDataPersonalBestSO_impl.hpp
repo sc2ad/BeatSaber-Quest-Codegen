@@ -2,10 +2,10 @@
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataPersonalBestSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerBadgeDataPersonalBestSO.CalculateBadgeData
 template<>
 
@@ -55,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::MultiplayerBadgeAwardData, false>(const_cast<void*>(instance), ___internal_method, resultsData, playerDataModel, difficultyBeatmap, randomMultiplier);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::MultiplayerBadgeDataPersonalBestSO()  : GlobalNamespace::MultiplayerBadgeDataSO(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBadgeDataPersonalBestSO>())) {}
+ GlobalNamespace::MultiplayerBadgeDataPersonalBestSO GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::New_ctor()  {
+GlobalNamespace::MultiplayerBadgeDataPersonalBestSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBadgeDataPersonalBestSO>())};
+return o;
+}
  void GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBadgeDataPersonalBestSO>::get(),

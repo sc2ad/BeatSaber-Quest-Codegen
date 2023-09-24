@@ -70,8 +70,7 @@ constexpr bool __get_m_Used() const;
 /// @brief Method get_used addr 0x2c1c27c size 0x8 virtual true final false
  bool get_used() ;
 
-// Ctor Parameters []
-explicit AbstractEventData() ;
+static UnityEngine::EventSystems::AbstractEventData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1c284 size 0x8 virtual false final false
  void _ctor() ;

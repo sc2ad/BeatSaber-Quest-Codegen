@@ -99,8 +99,7 @@ constexpr explicit StateMachineBehaviour(void* ptr) noexcept : UnityEngine::Scri
 /// @brief Method OnStateMachineExit addr 0x2b20e34 size 0x4 virtual true final false
  void OnStateMachineExit(UnityEngine::Animator animator, int32_t stateMachinePathHash, UnityEngine::Animations::AnimatorControllerPlayable controller) ;
 
-// Ctor Parameters []
-explicit StateMachineBehaviour() ;
+static UnityEngine::StateMachineBehaviour New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b20e38 size 0x8 virtual false final false
  void _ctor() ;

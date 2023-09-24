@@ -2,13 +2,13 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct InternalPrimitiveTypeE;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -71,8 +71,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_value() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MemberPrimitiveTyped() ;
+static System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped New_ctor() ;
 
 /// @brief Method .ctor addr 0x2356220 size 0x8 virtual false final false
  void _ctor() ;

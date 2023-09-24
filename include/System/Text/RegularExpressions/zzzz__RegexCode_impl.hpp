@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexBoyerMoore_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexCode._ctor
 template<>
 
@@ -93,8 +93,10 @@ constexpr void System::Text::RegularExpressions::RegexCode::__set_RightToLeft(bo
 constexpr bool System::Text::RegularExpressions::RegexCode::__get_RightToLeft() const {
 return ::cordl_internals::getInstanceField<bool, 0x5c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "codes", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "stringlist", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "trackcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bmPrefix", ty: "System::Text::RegularExpressions::RegexBoyerMoore", modifiers: "", def_value: None }, CppParam { name: "fcPrefix", ty: "System::Nullable_1<System::Text::RegularExpressions::RegexPrefix>", modifiers: "", def_value: None }, CppParam { name: "anchors", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::RegexCode::RegexCode(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexCode>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft))) {}
+ System::Text::RegularExpressions::RegexCode System::Text::RegularExpressions::RegexCode::New_ctor(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft)  {
+System::Text::RegularExpressions::RegexCode o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexCode>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft))};
+return o;
+}
  void System::Text::RegularExpressions::RegexCode::_ctor(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexCode>::get(),

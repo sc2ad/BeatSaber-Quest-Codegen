@@ -116,8 +116,7 @@ constexpr bool __get_closed() const;
 /// @brief Method WriteByte addr 0x11325cc size 0x8c virtual true final false
  void WriteByte(uint8_t b) ;
 
-// Ctor Parameters []
-explicit BaseOutputStream() ;
+static Org::BouncyCastle::Utilities::IO::BaseOutputStream New_ctor() ;
 
 /// @brief Method .ctor addr 0x1132148 size 0x58 virtual false final false
  void _ctor() ;

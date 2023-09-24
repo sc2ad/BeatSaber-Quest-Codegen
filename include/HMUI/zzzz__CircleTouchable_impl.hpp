@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__Touchable_impl.hpp"
 #include "HMUI/zzzz__CircleTouchable_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: HMUI::CircleTouchable.OnEnable
 template<>
 
@@ -170,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, center, radius, steps);
 }
-// Ctor Parameters []
- HMUI::CircleTouchable::CircleTouchable()  : HMUI::Touchable(THROW_UNLESS(::il2cpp_utils::New<CircleTouchable>())) {}
+ HMUI::CircleTouchable HMUI::CircleTouchable::New_ctor()  {
+HMUI::CircleTouchable o{THROW_UNLESS(::il2cpp_utils::New<HMUI::CircleTouchable>())};
+return o;
+}
  void HMUI::CircleTouchable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::CircleTouchable>::get(),

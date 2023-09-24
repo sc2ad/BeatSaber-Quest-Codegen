@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
 #include <cmath>
-namespace System {
-class Random;
+namespace UnityEngine {
+struct Pose;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
-namespace UnityEngine {
-struct Pose;
+namespace System {
+class Random;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ constexpr float_t __get__nextTargetTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGeneratorAI(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+static GlobalNamespace::MockPlayerLobbyPoseGeneratorAI New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0x227ddfc size 0x4 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;

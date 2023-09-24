@@ -1,16 +1,16 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Voip_def.hpp"
-#include "Oculus/Platform/zzzz__VoipDtxState_def.hpp"
-#include "Oculus/Platform/Models/zzzz__MicrophoneAvailabilityState_def.hpp"
-#include "Oculus/Platform/zzzz__VoipMuteState_def.hpp"
-#include "Oculus/Platform/Models/zzzz__SystemVoipState_def.hpp"
-#include "Oculus/Platform/zzzz__VoipOptions_def.hpp"
-#include "Oculus/Platform/zzzz__SystemVoipStatus_def.hpp"
-#include "Oculus/Platform/zzzz__CAPI_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetworkingPeer_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/zzzz__CAPI_def.hpp"
+#include "Oculus/Platform/zzzz__VoipMuteState_def.hpp"
 #include "Oculus/Platform/zzzz__VoipBitrate_def.hpp"
+#include "Oculus/Platform/zzzz__SystemVoipStatus_def.hpp"
+#include "Oculus/Platform/Models/zzzz__NetworkingPeer_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__SystemVoipState_def.hpp"
+#include "Oculus/Platform/zzzz__VoipDtxState_def.hpp"
+#include "Oculus/Platform/zzzz__VoipOptions_def.hpp"
+#include "Oculus/Platform/Models/zzzz__MicrophoneAvailabilityState_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Voip.Start
 template<>
 

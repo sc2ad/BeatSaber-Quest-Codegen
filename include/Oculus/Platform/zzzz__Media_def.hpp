@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Oculus::Platform::Models {
-class ShareMediaResult;
-}
 namespace Oculus::Platform {
 struct MediaContentType;
+}
+namespace Oculus::Platform::Models {
+class ShareMediaResult;
 }
 namespace Oculus::Platform {
 template<typename T>

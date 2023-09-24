@@ -47,8 +47,7 @@ constexpr explicit SceneSetupData(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Methods
 
-// Ctor Parameters []
-explicit SceneSetupData() ;
+static GlobalNamespace::SceneSetupData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f829fc size 0x8 virtual false final false
  void _ctor() ;

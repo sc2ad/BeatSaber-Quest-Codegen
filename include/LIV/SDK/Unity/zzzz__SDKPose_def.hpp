@@ -5,13 +5,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 namespace LIV::SDK::Unity {
 struct SDKMatrix4x4;
 }
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

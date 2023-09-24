@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace GlobalNamespace {
+class IConnectionRequestHandler;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
-namespace GlobalNamespace {
-class IConnectionRequestHandler;
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,7 @@ constexpr ::StringW __get__playerSessionId_k__BackingField() const;
 /// @brief Method ValidateConnectionMessage addr 0xda9cf4 size 0x14 virtual true final true
  bool ValidateConnectionMessage(LiteNetLib::Utils::NetDataReader reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner) ;
 
-// Ctor Parameters []
-explicit GameLiftClientConnectionRequestHandler() ;
+static GlobalNamespace::GameLiftClientConnectionRequestHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0xda9d08 size 0x8 virtual false final false
  void _ctor() ;

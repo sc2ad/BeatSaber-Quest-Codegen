@@ -5,35 +5,41 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace GlobalNamespace {
 struct GlobalNamespace__GameplayModifiers__SongSpeed;
 }
 namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+struct GameplayModifierMask;
 }
-namespace GlobalNamespace {
-class GameplayModifiers;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-struct GameplayModifierMask;
+class GameplayModifiers;
 }
-namespace System {
-class IAsyncResult;
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter;
+}
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayModifiersModelSO____c;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +93,7 @@ constexpr explicit GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x21c2b54 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -253,8 +258,7 @@ static GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModif
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayModifiersModelSO____c() ;
+static GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c3734 size 0x8 virtual false final false
  void _ctor() ;
@@ -492,8 +496,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayMo
 /// @brief Method GetSongSpeedFromValueGetter addr 0x21c2ef8 size 0x84 virtual false final false
  GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed GetSongSpeedFromValueGetter(System::Func_2<GlobalNamespace::GameplayModifierParamsSO,bool> valueGetter) ;
 
-// Ctor Parameters []
-explicit GameplayModifiersModelSO() ;
+static GlobalNamespace::GameplayModifiersModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c366c size 0x8 virtual false final false
  void _ctor() ;

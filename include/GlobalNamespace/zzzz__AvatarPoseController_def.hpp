@@ -5,21 +5,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace GlobalNamespace {
 class HeadBodyOffsetSO;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 namespace System {
 class AsyncCallback;
@@ -82,8 +91,7 @@ constexpr explicit GlobalNamespace__AvatarPoseController__PositionsWillBeSetDele
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20bfcb4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -143,8 +151,7 @@ constexpr explicit GlobalNamespace__AvatarPoseController__LatePositionsWillBeSet
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20bfee0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -204,8 +211,7 @@ constexpr explicit GlobalNamespace__AvatarPoseController__RotationsWillBeSetDele
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x20c0154 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -367,8 +373,7 @@ constexpr System::Action_1<UnityEngine::Vector3> __get_didUpdatePoseEvent() cons
 /// @brief Method UpdateBodyPosition addr 0x20bf4d8 size 0x1b0 virtual false final false
  void UpdateBodyPosition() ;
 
-// Ctor Parameters []
-explicit AvatarPoseController() ;
+static GlobalNamespace::AvatarPoseController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20bfcac size 0x8 virtual false final false
  void _ctor() ;

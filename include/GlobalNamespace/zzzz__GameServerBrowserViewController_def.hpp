@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace GlobalNamespace {
-class GameServersFilterText;
-}
-namespace GlobalNamespace {
-class GameServersListTableView;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
+class GameServersFilterText;
+}
+namespace GlobalNamespace {
 class LoadingControl;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
+class GameServersListTableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,8 +107,7 @@ constexpr GlobalNamespace::LoadingControl __get__smallLoadingControl() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GameServerBrowserViewController() ;
+static GlobalNamespace::GameServerBrowserViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21765c4 size 0x8 virtual false final false
  void _ctor() ;

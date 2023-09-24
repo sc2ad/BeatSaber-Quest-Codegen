@@ -65,8 +65,7 @@ constexpr UnityEngine::Rigidbody2D __get__rigidbody2D() const;
 /// @brief Method OnBecameInvisible addr 0x1f7b6f4 size 0x1c virtual false final false
  void OnBecameInvisible() ;
 
-// Ctor Parameters []
-explicit SleepRigidbody2DWhenInvisible() ;
+static GlobalNamespace::SleepRigidbody2DWhenInvisible New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7b710 size 0x8 virtual false final false
  void _ctor() ;

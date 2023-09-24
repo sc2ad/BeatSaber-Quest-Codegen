@@ -150,8 +150,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X500Distinguish
 constexpr ::ArrayW<uint8_t> System::Security::Cryptography::X509Certificates::X500DistinguishedName::__get_canonEncoding() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encodedDistinguishedName", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName(::ArrayW<uint8_t> encodedDistinguishedName)  : System::Security::Cryptography::AsnEncodedData(THROW_UNLESS(::il2cpp_utils::New<X500DistinguishedName>(encodedDistinguishedName))) {}
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName System::Security::Cryptography::X509Certificates::X500DistinguishedName::New_ctor(::ArrayW<uint8_t> encodedDistinguishedName)  {
+System::Security::Cryptography::X509Certificates::X500DistinguishedName o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X500DistinguishedName>(encodedDistinguishedName))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X500DistinguishedName::_ctor(::ArrayW<uint8_t> encodedDistinguishedName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X500DistinguishedName>::get(),

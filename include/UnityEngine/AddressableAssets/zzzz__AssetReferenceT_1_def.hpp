@@ -2,12 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -24,7 +24,7 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14370)), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(14370))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 2 })
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceT`1
 class CORDL_TYPE AssetReferenceT_1<TObject> : public UnityEngine::AddressableAssets::AssetReference {
@@ -63,8 +63,7 @@ constexpr explicit AssetReferenceT_1(void* ptr) noexcept : UnityEngine::Addressa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReferenceT_1(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReferenceT_1<TObject> New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::StringW guid) ;

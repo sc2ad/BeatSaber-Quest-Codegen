@@ -100,8 +100,7 @@ constexpr bool __get__canBeUppercase() const;
 /// @brief Method OnValidate addr 0x1fab4b0 size 0xe0 virtual false final false
  void OnValidate() ;
 
-// Ctor Parameters []
-explicit UIKeyboardKey() ;
+static HMUI::UIKeyboardKey New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fab590 size 0x8 virtual false final false
  void _ctor() ;

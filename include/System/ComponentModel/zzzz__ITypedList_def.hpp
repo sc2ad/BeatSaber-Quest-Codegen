@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+class PropertyDescriptor;
 }
 // Forward declare root types
 namespace System::ComponentModel {

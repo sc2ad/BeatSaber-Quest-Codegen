@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__Tnaf_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__ZTauElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__SimpleBigDecimal_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mCurve_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Abc::Tnaf.Norm
 template<>
 
@@ -591,8 +591,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint>, false>(nullptr, ___internal_method, p, a);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Abc::Tnaf::Tnaf()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tnaf>())) {}
+ Org::BouncyCastle::Math::EC::Abc::Tnaf Org::BouncyCastle::Math::EC::Abc::Tnaf::New_ctor()  {
+Org::BouncyCastle::Math::EC::Abc::Tnaf o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Abc::Tnaf>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Abc::Tnaf::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Abc::Tnaf>::get(),

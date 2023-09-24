@@ -65,6 +65,8 @@ constexpr operator __InputFeatureType_Unwrapped () const noexcept {
 return std::bit_cast<__InputFeatureType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
+
 
 // Fields
 

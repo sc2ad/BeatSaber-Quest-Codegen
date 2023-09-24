@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SonyPublisherSKUSettingsSO::SonyPublisherSKUSettingsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SonyPublisherSKUSettingsSO>())) {}
+ GlobalNamespace::SonyPublisherSKUSettingsSO GlobalNamespace::SonyPublisherSKUSettingsSO::New_ctor()  {
+GlobalNamespace::SonyPublisherSKUSettingsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyPublisherSKUSettingsSO>())};
+return o;
+}
  void GlobalNamespace::SonyPublisherSKUSettingsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyPublisherSKUSettingsSO>::get(),

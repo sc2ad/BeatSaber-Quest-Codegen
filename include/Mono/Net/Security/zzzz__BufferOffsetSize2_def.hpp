@@ -58,8 +58,7 @@ constexpr int32_t __get_InitialSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit BufferOffsetSize2(int32_t size) ;
+static Mono::Net::Security::BufferOffsetSize2 New_ctor(int32_t size) ;
 
 /// @brief Method .ctor addr 0x268c62c size 0x70 virtual false final false
  void _ctor(int32_t size) ;

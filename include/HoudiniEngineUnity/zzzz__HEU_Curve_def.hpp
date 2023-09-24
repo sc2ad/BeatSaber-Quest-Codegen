@@ -7,31 +7,49 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Curve__CurveEditState;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_HoudiniAsset;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-class CurveNodeData;
-}
-namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Curve__Interaction;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0;
+}
+namespace HoudiniEngineUnity {
+class CurveNodeData;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_Curve__CurveDrawCollision;
 }
 namespace HoudiniEngineUnity {
 class HEU_Parameters;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -110,6 +128,8 @@ constexpr operator __HoudiniEngineUnity__HEU_Curve__CurveEditState_Unwrapped () 
 return std::bit_cast<__HoudiniEngineUnity__HEU_Curve__CurveEditState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -186,6 +206,8 @@ constexpr operator __HoudiniEngineUnity__HEU_Curve__Interaction_Unwrapped () con
 return std::bit_cast<__HoudiniEngineUnity__HEU_Curve__Interaction_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -257,6 +279,8 @@ __LAYERMASK = 1,
 constexpr operator __HoudiniEngineUnity__HEU_Curve__CurveDrawCollision_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_Curve__CurveDrawCollision_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -340,8 +364,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get_scale
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass38_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdfb54 size 0x8 virtual false final false
  void _ctor() ;
@@ -416,8 +439,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get_scale
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass40_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fe062c size 0x8 virtual false final false
  void _ctor() ;
@@ -480,8 +502,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Vector3> __get_point
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_Curve____c__DisplayClass48_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fe1020 size 0x8 virtual false final false
  void _ctor() ;
@@ -763,8 +784,7 @@ static ::StringW GetPointsString(System::Collections::Generic::List_1<UnityEngin
 /// @brief Method IsEquivalentTo addr 0x1fe1674 size 0x36c virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_Curve other) ;
 
-// Ctor Parameters []
-explicit HEU_Curve() ;
+static HoudiniEngineUnity::HEU_Curve New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fe19e0 size 0x7c virtual false final false
  void _ctor() ;

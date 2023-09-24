@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaType_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IDtdAttributeListInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaNotation_def.hpp"
-#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaEntity_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaType_def.hpp"
+#include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaNotation_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::SchemaInfo._ctor
 template<>
 
@@ -381,8 +381,10 @@ constexpr void System::Xml::Schema::SchemaInfo::__set_notations(System::Collecti
 constexpr System::Collections::Generic::Dictionary_2<::StringW,System::Xml::Schema::SchemaNotation> System::Xml::Schema::SchemaInfo::__get_notations() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<::StringW,System::Xml::Schema::SchemaNotation>, 0x68>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::SchemaInfo::SchemaInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SchemaInfo>())) {}
+ System::Xml::Schema::SchemaInfo System::Xml::Schema::SchemaInfo::New_ctor()  {
+System::Xml::Schema::SchemaInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaInfo>())};
+return o;
+}
  void System::Xml::Schema::SchemaInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaInfo>::get(),

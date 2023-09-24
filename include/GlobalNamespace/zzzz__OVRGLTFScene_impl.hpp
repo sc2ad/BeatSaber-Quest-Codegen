@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFScene_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "root", ty: "UnityEngine::GameObject", modifiers: "", def_value: Some("csnull") }, CppParam { name: "nodes", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: Some("csnull") }, CppParam { name: "animationNodes", ty: "System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode>", modifiers: "", def_value: Some("csnull") }]
 constexpr GlobalNamespace::OVRGLTFScene::OVRGLTFScene(UnityEngine::GameObject root, System::Collections::Generic::List_1<UnityEngine::GameObject> nodes, System::Collections::Generic::Dictionary_2<GlobalNamespace::OVRGLTFInputNode,GlobalNamespace::OVRGLTFAnimatinonNode> animationNodes) noexcept : ::bs_hook::ValueTypeWrapper() {this->root = root;
 this->nodes = nodes;

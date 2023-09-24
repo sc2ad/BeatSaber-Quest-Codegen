@@ -10,7 +10,7 @@ class ApplicationInviteList;
 // Type: Oculus.Platform.Models::ApplicationInviteList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13385)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1129 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1129 }), TypeDefinitionIndex(TypeDefinitionIndex(13385))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13386))
 // CS Name: Oculus.Platform.Models.ApplicationInviteList
 class CORDL_TYPE ApplicationInviteList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::ApplicationInvite> {
@@ -49,8 +49,7 @@ constexpr explicit ApplicationInviteList(void* ptr) noexcept : Oculus::Platform:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ApplicationInviteList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::ApplicationInviteList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259c69c size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

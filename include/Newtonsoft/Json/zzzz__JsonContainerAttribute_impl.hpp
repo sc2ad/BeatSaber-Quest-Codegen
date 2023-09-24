@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerAttribute_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/zzzz__TypeNameHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReferenceLoopHandling_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::JsonContainerAttribute.get_Id
 template<>
 
@@ -561,8 +561,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonContainerAttribute::JsonContainerAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonContainerAttribute>())) {}
+ Newtonsoft::Json::JsonContainerAttribute Newtonsoft::Json::JsonContainerAttribute::New_ctor()  {
+Newtonsoft::Json::JsonContainerAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonContainerAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonContainerAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonContainerAttribute>::get(),
@@ -572,8 +574,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::JsonContainerAttribute::JsonContainerAttribute(::StringW id)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonContainerAttribute>(id))) {}
+ Newtonsoft::Json::JsonContainerAttribute Newtonsoft::Json::JsonContainerAttribute::New_ctor(::StringW id)  {
+Newtonsoft::Json::JsonContainerAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonContainerAttribute>(id))};
+return o;
+}
  void Newtonsoft::Json::JsonContainerAttribute::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonContainerAttribute>::get(),

@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyLeaderboardIdsModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyLeaderboardIdsModelSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -85,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sonyLeaderboardId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leaderboardId", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData(uint32_t sonyLeaderboardId, ::StringW leaderboardId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData>(sonyLeaderboardId, leaderboardId))) {}
+ GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData::New_ctor(uint32_t sonyLeaderboardId, ::StringW leaderboardId)  {
+GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData>(sonyLeaderboardId, leaderboardId))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData::_ctor(uint32_t sonyLeaderboardId, ::StringW leaderboardId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SonyLeaderboardIdsModelSO__LeaderboardIdData>::get(),
@@ -229,8 +232,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SonyLeaderboardIdsModelSO::SonyLeaderboardIdsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<SonyLeaderboardIdsModelSO>())) {}
+ GlobalNamespace::SonyLeaderboardIdsModelSO GlobalNamespace::SonyLeaderboardIdsModelSO::New_ctor()  {
+GlobalNamespace::SonyLeaderboardIdsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SonyLeaderboardIdsModelSO>())};
+return o;
+}
  void GlobalNamespace::SonyLeaderboardIdsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SonyLeaderboardIdsModelSO>::get(),

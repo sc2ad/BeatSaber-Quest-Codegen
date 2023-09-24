@@ -9,13 +9,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
+struct Rect;
+}
+namespace UnityEngine {
+class UnityEngine__RectTransform__ReapplyDrivenProperties;
+}
+namespace UnityEngine {
+struct UnityEngine__RectTransform__Axis;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Rect;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -76,6 +82,8 @@ __Vertical = 1,
 constexpr operator __UnityEngine__RectTransform__Axis_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__RectTransform__Axis_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -138,8 +146,7 @@ constexpr explicit UnityEngine__RectTransform__ReapplyDrivenProperties(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__RectTransform__ReapplyDrivenProperties(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__RectTransform__ReapplyDrivenProperties New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b6d0f8 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

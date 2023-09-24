@@ -4,12 +4,13 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
+#include "GlobalNamespace/zzzz__LightsAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11._ctor
 template<>
 
@@ -148,8 +149,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirecti
 constexpr GlobalNamespace::LightsAnimator GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LightsAnimator, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11 GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightsAnimator___DisableDirectionalLightsCoroutine_d__11>::get(),
@@ -453,8 +456,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, delay);
 }
-// Ctor Parameters []
- GlobalNamespace::LightsAnimator::LightsAnimator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightsAnimator>())) {}
+ GlobalNamespace::LightsAnimator GlobalNamespace::LightsAnimator::New_ctor()  {
+GlobalNamespace::LightsAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightsAnimator>())};
+return o;
+}
  void GlobalNamespace::LightsAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightsAnimator>::get(),

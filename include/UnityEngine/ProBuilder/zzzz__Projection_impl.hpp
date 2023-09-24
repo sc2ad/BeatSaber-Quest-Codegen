@@ -1,17 +1,18 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__Projection_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__SortMethod_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProjectionAxis_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__Projection_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__SortMethod_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c._ctor
 template<>
@@ -82,8 +83,10 @@ return ::cordl_internals::getStaticField<System::Comparison_1<UnityEngine::ProBu
  System::Func_2<UnityEngine::ProBuilder::SimpleTuple_2<float_t,UnityEngine::Vector2>,UnityEngine::Vector2> UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c::__get___9__6_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::ProBuilder::SimpleTuple_2<float_t,UnityEngine::Vector2>,UnityEngine::Vector2>, "<>9__6_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c::UnityEngine__ProBuilder__Projection____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__Projection____c>())) {}
+ UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c::New_ctor()  {
+UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnityEngine__ProBuilder__Projection____c>::get(),

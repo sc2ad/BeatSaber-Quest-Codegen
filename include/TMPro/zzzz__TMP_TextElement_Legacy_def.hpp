@@ -106,8 +106,7 @@ constexpr float_t __get_scale() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMP_TextElement_Legacy() ;
+static TMPro::TMP_TextElement_Legacy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aaa5c0 size 0x8 virtual false final false
  void _ctor() ;

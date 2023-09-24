@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorResult_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathBuilderResult_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__TrustAnchor_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixPolicyNode_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixCertPathBuilderResult._ctor
 template<>
@@ -62,8 +62,10 @@ constexpr void Org::BouncyCastle::Pkix::PkixCertPathBuilderResult::__set_certPat
 constexpr Org::BouncyCastle::Pkix::PkixCertPath Org::BouncyCastle::Pkix::PkixCertPathBuilderResult::__get_certPath() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Pkix::PkixCertPath, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certPath", ty: "Org::BouncyCastle::Pkix::PkixCertPath", modifiers: "", def_value: None }, CppParam { name: "trustAnchor", ty: "Org::BouncyCastle::Pkix::TrustAnchor", modifiers: "", def_value: None }, CppParam { name: "policyTree", ty: "Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "subjectPublicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixCertPathBuilderResult::PkixCertPathBuilderResult(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey)  : Org::BouncyCastle::Pkix::PkixCertPathValidatorResult(THROW_UNLESS(::il2cpp_utils::New<PkixCertPathBuilderResult>(certPath, trustAnchor, policyTree, subjectPublicKey))) {}
+ Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Org::BouncyCastle::Pkix::PkixCertPathBuilderResult::New_ctor(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey)  {
+Org::BouncyCastle::Pkix::PkixCertPathBuilderResult o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPathBuilderResult>(certPath, trustAnchor, policyTree, subjectPublicKey))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPathBuilderResult::_ctor(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPathBuilderResult>::get(),

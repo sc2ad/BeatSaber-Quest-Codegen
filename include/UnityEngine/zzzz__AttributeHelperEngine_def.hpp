@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class DisallowMultipleComponent;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 class RequireComponent;
 }
-namespace System {
-class Type;
+namespace UnityEngine {
+class DisallowMultipleComponent;
 }
 namespace UnityEngine {
 class ExecuteInEditMode;

@@ -98,8 +98,10 @@ constexpr void Oculus::Platform::Models::NetworkingPeer::__set__State_k__Backing
 constexpr Oculus::Platform::PeerConnectionState Oculus::Platform::Models::NetworkingPeer::__get__State_k__BackingField() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::PeerConnectionState, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "state", ty: "Oculus::Platform::PeerConnectionState", modifiers: "", def_value: None }]
- Oculus::Platform::Models::NetworkingPeer::NetworkingPeer(uint64_t id, Oculus::Platform::PeerConnectionState state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetworkingPeer>(id, state))) {}
+ Oculus::Platform::Models::NetworkingPeer Oculus::Platform::Models::NetworkingPeer::New_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state)  {
+Oculus::Platform::Models::NetworkingPeer o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::NetworkingPeer>(id, state))};
+return o;
+}
  void Oculus::Platform::Models::NetworkingPeer::_ctor(uint64_t id, Oculus::Platform::PeerConnectionState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::NetworkingPeer>::get(),

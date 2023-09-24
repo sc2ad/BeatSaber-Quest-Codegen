@@ -66,8 +66,7 @@ constexpr int32_t __get_m_CurrentPointerId() const;
 /// @brief Method CanStopManipulation addr 0x2c45830 size 0xb4 virtual false final false
  bool CanStopManipulation(UnityEngine::UIElements::IPointerEvent e) ;
 
-// Ctor Parameters []
-explicit PointerManipulator() ;
+static UnityEngine::UIElements::PointerManipulator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4449c size 0x4 virtual false final false
  void _ctor() ;

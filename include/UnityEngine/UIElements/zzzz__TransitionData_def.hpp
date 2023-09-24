@@ -5,25 +5,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace UnityEngine::UIElements {
-struct EasingFunction;
-}
-namespace UnityEngine::UIElements {
 struct StylePropertyName;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleDataGroup_1;
 }
-namespace System {
-template<typename T>
-class IEquatable_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+struct EasingFunction;
+}
+namespace UnityEngine::UIElements {
+struct TimeValue;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

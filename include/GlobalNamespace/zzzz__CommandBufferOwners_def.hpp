@@ -2,15 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,8 +90,7 @@ constexpr UnityEngine::Rendering::CommandBuffer __get_commandBuffer() const;
 /// @brief Method get_NumberOfOwners addr 0x2675c7c size 0x48 virtual false final false
  int32_t get_NumberOfOwners() ;
 
-// Ctor Parameters []
-explicit CommandBufferOwners() ;
+static GlobalNamespace::CommandBufferOwners New_ctor() ;
 
 /// @brief Method .ctor addr 0x2675f70 size 0x8 virtual false final false
  void _ctor() ;

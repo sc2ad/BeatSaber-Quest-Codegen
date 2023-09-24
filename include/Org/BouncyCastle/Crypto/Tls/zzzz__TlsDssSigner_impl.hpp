@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDsaSigner_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDssSigner_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsDssSigner.IsValidPublicKey
 template<>
 
@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint8_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::TlsDssSigner::TlsDssSigner()  : Org::BouncyCastle::Crypto::Tls::TlsDsaSigner(THROW_UNLESS(::il2cpp_utils::New<TlsDssSigner>())) {}
+ Org::BouncyCastle::Crypto::Tls::TlsDssSigner Org::BouncyCastle::Crypto::Tls::TlsDssSigner::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::TlsDssSigner o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsDssSigner>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsDssSigner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsDssSigner>::get(),

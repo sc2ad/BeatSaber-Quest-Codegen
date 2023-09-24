@@ -1,10 +1,10 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRNotifications_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
 #include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRNotifications._ctor
 template<>
 
@@ -62,8 +62,10 @@ constexpr void OVR::OpenVR::CVRNotifications::__set_FnTable(OVR::OpenVR::IVRNoti
 constexpr OVR::OpenVR::IVRNotifications OVR::OpenVR::CVRNotifications::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRNotifications, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRNotifications::CVRNotifications(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRNotifications>(pInterface))) {}
+ OVR::OpenVR::CVRNotifications OVR::OpenVR::CVRNotifications::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRNotifications o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRNotifications>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRNotifications::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRNotifications>::get(),

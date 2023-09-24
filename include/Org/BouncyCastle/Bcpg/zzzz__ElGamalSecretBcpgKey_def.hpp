@@ -8,9 +8,6 @@ namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Math {
@@ -18,6 +15,9 @@ class BigInteger;
 }
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -84,14 +84,12 @@ constexpr Org::BouncyCastle::Bcpg::MPInteger __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit ElGamalSecretBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+static Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x114783c size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ElGamalSecretBcpgKey(Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Bcpg::ElGamalSecretBcpgKey New_ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0x11478b4 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x) ;

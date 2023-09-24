@@ -109,8 +109,7 @@ static void InternalDestroy(::cordl_internals::intptr_t ptr) ;
 /// @brief Method set_allowSceneActivation addr 0x2b596e8 size 0x44 virtual false final false
  void set_allowSceneActivation(bool value) ;
 
-// Ctor Parameters []
-explicit AsyncOperation() ;
+static UnityEngine::AsyncOperation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5972c size 0x8 virtual false final false
  void _ctor() ;

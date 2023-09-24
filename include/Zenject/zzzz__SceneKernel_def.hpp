@@ -50,8 +50,7 @@ constexpr explicit SceneKernel(void* ptr) noexcept : Zenject::MonoKernel(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit SceneKernel() ;
+static Zenject::SceneKernel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9d7c8 size 0x8 virtual false final false
  void _ctor() ;

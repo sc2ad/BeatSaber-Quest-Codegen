@@ -65,8 +65,7 @@ static System::Collections::IEnumerable __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit EmptyEnumerable() ;
+static Org::BouncyCastle::Utilities::Collections::EmptyEnumerable New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cb844 size 0x8 virtual false final false
  void _ctor() ;

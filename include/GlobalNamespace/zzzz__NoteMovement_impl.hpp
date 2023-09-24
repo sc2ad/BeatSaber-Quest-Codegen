@@ -3,11 +3,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJump_def.hpp"
 #include "GlobalNamespace/zzzz__NoteFloorMovement_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__NoteMovement__MovementPhase::GlobalNamespace__NoteMovement__MovementPhase(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1115,8 +1116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteMovement::NoteMovement()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteMovement>())) {}
+ GlobalNamespace::NoteMovement GlobalNamespace::NoteMovement::New_ctor()  {
+GlobalNamespace::NoteMovement o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteMovement>())};
+return o;
+}
  void GlobalNamespace::NoteMovement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteMovement>::get(),

@@ -1,25 +1,26 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__WebOperation_def.hpp"
-#include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Net/zzzz__ServicePoint_def.hpp"
 #include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Net/zzzz__HttpWebRequest_def.hpp"
-#include "System/Net/zzzz__BufferOffsetSize_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__WebConnection_def.hpp"
-#include "System/Net/zzzz__WebResponseStream_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
+#include "System/Net/zzzz__ServicePoint_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Net/zzzz__WebOperation_def.hpp"
+#include "System/Net/zzzz__BufferOffsetSize_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/zzzz__WebResponseStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__WebOperation___GetRequestStream_d__50.MoveNext
 template<>
 
@@ -922,8 +923,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::HttpWebRequest", modifiers: "", def_value: None }, CppParam { name: "writeBuffer", ty: "System::Net::BufferOffsetSize", modifiers: "", def_value: None }, CppParam { name: "isNtlmChallenge", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::Net::WebOperation::WebOperation(System::Net::HttpWebRequest request, System::Net::BufferOffsetSize writeBuffer, bool isNtlmChallenge, System::Threading::CancellationToken cancellationToken)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WebOperation>(request, writeBuffer, isNtlmChallenge, cancellationToken))) {}
+ System::Net::WebOperation System::Net::WebOperation::New_ctor(System::Net::HttpWebRequest request, System::Net::BufferOffsetSize writeBuffer, bool isNtlmChallenge, System::Threading::CancellationToken cancellationToken)  {
+System::Net::WebOperation o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebOperation>(request, writeBuffer, isNtlmChallenge, cancellationToken))};
+return o;
+}
  void System::Net::WebOperation::_ctor(System::Net::HttpWebRequest request, System::Net::BufferOffsetSize writeBuffer, bool isNtlmChallenge, System::Threading::CancellationToken cancellationToken)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebOperation>::get(),

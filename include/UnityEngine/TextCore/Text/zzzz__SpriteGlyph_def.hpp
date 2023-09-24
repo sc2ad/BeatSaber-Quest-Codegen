@@ -59,8 +59,7 @@ constexpr UnityEngine::Sprite __get_sprite() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SpriteGlyph() ;
+static UnityEngine::TextCore::Text::SpriteGlyph New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd48f0 size 0x8 virtual false final false
  void _ctor() ;

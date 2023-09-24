@@ -4,42 +4,42 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class Encoding;
-}
-namespace System::IO {
-struct FileShare;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::IO {
+struct FileAccess;
+}
+namespace System::IO {
+struct FileShare;
+}
+namespace System::Text {
+class Encoding;
+}
+namespace System::IO {
 struct FileAttributes;
 }
 namespace System::IO {
-class FileStream;
+class TextWriter;
+}
+namespace System::Security::AccessControl {
+class FileSecurity;
 }
 namespace System::IO {
 class StreamWriter;
 }
 namespace System::IO {
-struct FileAccess;
+struct FileMode;
 }
 namespace System::Security::AccessControl {
 struct AccessControlSections;
 }
 namespace System::IO {
-class TextWriter;
+class FileStream;
 }
 namespace System::IO {
 class StreamReader;
-}
-namespace System::IO {
-struct FileMode;
-}
-namespace System::Security::AccessControl {
-class FileSecurity;
 }
 // Forward declare root types
 namespace System::IO {

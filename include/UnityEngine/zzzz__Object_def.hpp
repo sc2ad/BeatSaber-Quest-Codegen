@@ -7,20 +7,20 @@
 #include "beatsaber-hook/shared/utils/unityw.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class Type;
+namespace UnityEngine {
+struct HideFlags;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct HideFlags;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -276,8 +276,7 @@ static UnityEngine::Object FindObjectFromInstanceID(int32_t instanceID) ;
 /// @brief Method ForceLoadFromInstanceID addr 0x2b5929c size 0x3c virtual false final false
 static UnityEngine::Object ForceLoadFromInstanceID(int32_t instanceID) ;
 
-// Ctor Parameters []
-explicit Object() ;
+static UnityEngine::Object New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b57964 size 0x8 virtual false final false
  void _ctor() ;

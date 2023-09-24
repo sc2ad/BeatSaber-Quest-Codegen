@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__TutorialPause_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
+#include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TutorialPause.get_isPaused
 template<>
 
@@ -328,8 +328,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialPause::TutorialPause()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TutorialPause>())) {}
+ GlobalNamespace::TutorialPause GlobalNamespace::TutorialPause::New_ctor()  {
+GlobalNamespace::TutorialPause o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialPause>())};
+return o;
+}
  void GlobalNamespace::TutorialPause::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialPause>::get(),

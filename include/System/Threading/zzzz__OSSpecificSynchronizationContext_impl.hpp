@@ -2,9 +2,9 @@
 #include "System/Threading/zzzz__SynchronizationContext_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__OSSpecificSynchronizationContext_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
+#include "System/Threading/zzzz__OSSpecificSynchronizationContext_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
 //  Writing Method size for method: System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate._ctor
 template<>
@@ -40,8 +40,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate>(object, method))) {}
+ System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate>(object, method))};
+return o;
+}
  void System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationEntryDelegate>::get(),
@@ -106,8 +108,10 @@ constexpr void System::Threading::System__Threading__OSSpecificSynchronizationCo
 constexpr ::bs_hook::Il2CppWrapperType System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext::__get_m_State() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "d", ty: "System::Threading::SendOrPostCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext::System__Threading__OSSpecificSynchronizationContext__InvocationContext(System::Threading::SendOrPostCallback d, ::bs_hook::Il2CppWrapperType state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__OSSpecificSynchronizationContext__InvocationContext>(d, state))) {}
+ System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext::New_ctor(System::Threading::SendOrPostCallback d, ::bs_hook::Il2CppWrapperType state)  {
+System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext>(d, state))};
+return o;
+}
  void System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext::_ctor(System::Threading::SendOrPostCallback d, ::bs_hook::Il2CppWrapperType state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__OSSpecificSynchronizationContext__InvocationContext>::get(),
@@ -172,8 +176,10 @@ return ::cordl_internals::getStaticField<System::Threading::System__Threading__O
  System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback<::bs_hook::Il2CppWrapperType,System::Threading::OSSpecificSynchronizationContext> System::Threading::System__Threading__OSSpecificSynchronizationContext____c::__get___9__3_0()  {
 return ::cordl_internals::getStaticField<System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConditionalWeakTable_2__CreateValueCallback<::bs_hook::Il2CppWrapperType,System::Threading::OSSpecificSynchronizationContext>, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__OSSpecificSynchronizationContext____c>::get>();
 }
-// Ctor Parameters []
- System::Threading::System__Threading__OSSpecificSynchronizationContext____c::System__Threading__OSSpecificSynchronizationContext____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__OSSpecificSynchronizationContext____c>())) {}
+ System::Threading::System__Threading__OSSpecificSynchronizationContext____c System::Threading::System__Threading__OSSpecificSynchronizationContext____c::New_ctor()  {
+System::Threading::System__Threading__OSSpecificSynchronizationContext____c o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::System__Threading__OSSpecificSynchronizationContext____c>())};
+return o;
+}
  void System::Threading::System__Threading__OSSpecificSynchronizationContext____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::System__Threading__OSSpecificSynchronizationContext____c>::get(),
@@ -340,8 +346,10 @@ return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(t
  System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Threading::OSSpecificSynchronizationContext> System::Threading::OSSpecificSynchronizationContext::__get_s_ContextCache()  {
 return ::cordl_internals::getStaticField<System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Threading::OSSpecificSynchronizationContext>, "s_ContextCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::OSSpecificSynchronizationContext>::get>();
 }
-// Ctor Parameters [CppParam { name: "osContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Threading::OSSpecificSynchronizationContext::OSSpecificSynchronizationContext(::bs_hook::Il2CppWrapperType osContext)  : System::Threading::SynchronizationContext(THROW_UNLESS(::il2cpp_utils::New<OSSpecificSynchronizationContext>(osContext))) {}
+ System::Threading::OSSpecificSynchronizationContext System::Threading::OSSpecificSynchronizationContext::New_ctor(::bs_hook::Il2CppWrapperType osContext)  {
+System::Threading::OSSpecificSynchronizationContext o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::OSSpecificSynchronizationContext>(osContext))};
+return o;
+}
  void System::Threading::OSSpecificSynchronizationContext::_ctor(::bs_hook::Il2CppWrapperType osContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::OSSpecificSynchronizationContext>::get(),

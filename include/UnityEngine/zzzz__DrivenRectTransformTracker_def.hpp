@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine {
-class RectTransform;
+struct DrivenTransformProperties;
 }
 namespace UnityEngine {
-struct DrivenTransformProperties;
+class RectTransform;
 }
 namespace UnityEngine {
 class Object;

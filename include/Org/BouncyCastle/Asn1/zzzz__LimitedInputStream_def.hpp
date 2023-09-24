@@ -71,8 +71,7 @@ constexpr int32_t __get__limit() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LimitedInputStream(System::IO::Stream inStream, int32_t limit) ;
+static Org::BouncyCastle::Asn1::LimitedInputStream New_ctor(System::IO::Stream inStream, int32_t limit) ;
 
 /// @brief Method .ctor addr 0x1134f08 size 0x2c virtual false final false
  void _ctor(System::IO::Stream inStream, int32_t limit) ;

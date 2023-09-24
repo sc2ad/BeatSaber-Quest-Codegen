@@ -10,13 +10,13 @@ namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMacDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -147,8 +147,7 @@ constexpr ::ArrayW<uint8_t> __get_k() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prf", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit KdfDoublePipelineIterationBytesGenerator(Org::BouncyCastle::Crypto::IMac prf) ;
+static Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator New_ctor(Org::BouncyCastle::Crypto::IMac prf) ;
 
 /// @brief Method .ctor addr 0xe71bfc size 0xf0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac prf) ;

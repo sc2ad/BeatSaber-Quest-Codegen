@@ -293,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- TMPro::KerningPair::KerningPair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KerningPair>())) {}
+ TMPro::KerningPair TMPro::KerningPair::New_ctor()  {
+TMPro::KerningPair o{THROW_UNLESS(::il2cpp_utils::New<TMPro::KerningPair>())};
+return o;
+}
  void TMPro::KerningPair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::KerningPair>::get(),
@@ -304,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "float_t", modifiers: "", def_value: None }]
- TMPro::KerningPair::KerningPair(uint32_t left, uint32_t right, float_t offset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KerningPair>(left, right, offset))) {}
+ TMPro::KerningPair TMPro::KerningPair::New_ctor(uint32_t left, uint32_t right, float_t offset)  {
+TMPro::KerningPair o{THROW_UNLESS(::il2cpp_utils::New<TMPro::KerningPair>(left, right, offset))};
+return o;
+}
  void TMPro::KerningPair::_ctor(uint32_t left, uint32_t right, float_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::KerningPair>::get(),
@@ -315,8 +319,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, left, right, offset);
 }
-// Ctor Parameters [CppParam { name: "firstGlyph", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "firstGlyphAdjustments", ty: "TMPro::GlyphValueRecord_Legacy", modifiers: "", def_value: None }, CppParam { name: "secondGlyph", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secondGlyphAdjustments", ty: "TMPro::GlyphValueRecord_Legacy", modifiers: "", def_value: None }]
- TMPro::KerningPair::KerningPair(uint32_t firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KerningPair>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments))) {}
+ TMPro::KerningPair TMPro::KerningPair::New_ctor(uint32_t firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments)  {
+TMPro::KerningPair o{THROW_UNLESS(::il2cpp_utils::New<TMPro::KerningPair>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments))};
+return o;
+}
  void TMPro::KerningPair::_ctor(uint32_t firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::KerningPair>::get(),

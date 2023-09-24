@@ -65,8 +65,7 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_v() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "u", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "v", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit ZTauElement(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v) ;
+static Org::BouncyCastle::Math::EC::Abc::ZTauElement New_ctor(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v) ;
 
 /// @brief Method .ctor addr 0xf3a7f0 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v) ;

@@ -2,9 +2,10 @@
 #include "Newtonsoft/Json/Utilities/zzzz__StringUtils_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/IO/zzzz__StringWriter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
+#include "Newtonsoft/Json/Utilities/zzzz__StringUtils_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::StringUtils.FormatWith
 template<>
 
@@ -409,92 +410,43 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, source, value);
 }
-//  Writing Method size for method: Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::*)()>(&Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1._ForgivingCaseSensitiveFind_b__0
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::*)(TSource)>(&Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::_ForgivingCaseSensitiveFind_b__0)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>::get(),
-                            "<ForgivingCaseSensitiveFind>b__0",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSource>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1._ForgivingCaseSensitiveFind_b__1
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::*)(TSource)>(&Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::_ForgivingCaseSensitiveFind_b__1)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>::get(),
-                            "<ForgivingCaseSensitiveFind>b__1",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSource>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::__set_valueSelector(System::Func_2<TSource,::StringW> value)  {
+constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::__set_valueSelector(System::Func_2<TSource,::StringW> value)  {
 ::cordl_internals::setInstanceField<System::Func_2<TSource,::StringW>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<System::Func_2<TSource,::StringW>>(value));
 }
-constexpr System::Func_2<TSource,::StringW> Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::__get_valueSelector() const {
+constexpr System::Func_2<TSource,::StringW> Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::__get_valueSelector() const {
 return ::cordl_internals::getInstanceField<System::Func_2<TSource,::StringW>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::__set_testValue(::StringW value)  {
+constexpr void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::__set_testValue(::StringW value)  {
 ::cordl_internals::setInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<::StringW>(value));
 }
-constexpr ::StringW Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::__get_testValue() const {
+constexpr ::StringW Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::__get_testValue() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>())) {}
- void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::_ctor()  {
+ Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource> Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::New_ctor()  {
+Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource> o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>>())};
+return o;
+}
+ void Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
- bool Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::_ForgivingCaseSensitiveFind_b__0(TSource s)  {
+ bool Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::_ForgivingCaseSensitiveFind_b__0(TSource s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>>::get(),
                             "<ForgivingCaseSensitiveFind>b__0",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSource>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, s);
 }
- bool Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1::_ForgivingCaseSensitiveFind_b__1(TSource s)  {
+ bool Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>::_ForgivingCaseSensitiveFind_b__1(TSource s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__StringUtils____c__DisplayClass15_0_1<TSource>>::get(),
                             "<ForgivingCaseSensitiveFind>b__1",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSource>::get()}

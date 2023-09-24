@@ -2,17 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Cms {
-class CmsReadable;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsProcessable;
 }
 namespace System::IO {
-class Stream;
-}
-namespace System::IO {
 class FileInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -84,14 +84,12 @@ constexpr int32_t __get__bufSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "file", ty: "System::IO::FileInfo", modifiers: "", def_value: None }]
-explicit CmsProcessableFile(System::IO::FileInfo file) ;
+static Org::BouncyCastle::Cms::CmsProcessableFile New_ctor(System::IO::FileInfo file) ;
 
 /// @brief Method .ctor addr 0x1159fdc size 0x30 virtual false final false
  void _ctor(System::IO::FileInfo file) ;
 
-// Ctor Parameters [CppParam { name: "file", ty: "System::IO::FileInfo", modifiers: "", def_value: None }, CppParam { name: "bufSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CmsProcessableFile(System::IO::FileInfo file, int32_t bufSize) ;
+static Org::BouncyCastle::Cms::CmsProcessableFile New_ctor(System::IO::FileInfo file, int32_t bufSize) ;
 
 /// @brief Method .ctor addr 0x115a00c size 0x30 virtual false final false
  void _ctor(System::IO::FileInfo file, int32_t bufSize) ;

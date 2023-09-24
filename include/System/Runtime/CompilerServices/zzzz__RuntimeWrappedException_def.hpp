@@ -63,14 +63,12 @@ constexpr ::bs_hook::Il2CppWrapperType __get__wrappedException() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "thrownObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit RuntimeWrappedException(::bs_hook::Il2CppWrapperType thrownObject) ;
+static System::Runtime::CompilerServices::RuntimeWrappedException New_ctor(::bs_hook::Il2CppWrapperType thrownObject) ;
 
 /// @brief Method .ctor addr 0x236e124 size 0x90 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType thrownObject) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit RuntimeWrappedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Runtime::CompilerServices::RuntimeWrappedException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x236e1b4 size 0x100 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -78,8 +76,7 @@ explicit RuntimeWrappedException(System::Runtime::Serialization::SerializationIn
 /// @brief Method GetObjectData addr 0x236e2b4 size 0xdc virtual true final false
  void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters []
-explicit RuntimeWrappedException() ;
+static System::Runtime::CompilerServices::RuntimeWrappedException New_ctor() ;
 
 /// @brief Method .ctor addr 0x236e390 size 0x38 virtual false final false
  void _ctor() ;

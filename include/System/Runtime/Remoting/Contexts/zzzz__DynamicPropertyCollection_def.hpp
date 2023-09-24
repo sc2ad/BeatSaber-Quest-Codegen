@@ -3,14 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Runtime::Remoting::Contexts {
 class IDynamicProperty;
 }
+namespace System::Runtime::Remoting::Contexts {
+class System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Runtime::Remoting::Contexts {
 class IDynamicMessageSink;
@@ -79,8 +82,7 @@ constexpr System::Runtime::Remoting::Contexts::IDynamicMessageSink __get_Sink() 
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg() ;
+static System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__DynamicPropertyCollection__DynamicPropertyReg New_ctor() ;
 
 /// @brief Method .ctor addr 0x2332cc0 size 0x8 virtual false final false
  void _ctor() ;
@@ -162,8 +164,7 @@ constexpr System::Collections::ArrayList __get__properties() const;
 /// @brief Method FindProperty addr 0x2332b5c size 0x164 virtual false final false
  int32_t FindProperty(::StringW name) ;
 
-// Ctor Parameters []
-explicit DynamicPropertyCollection() ;
+static System::Runtime::Remoting::Contexts::DynamicPropertyCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x2330cd8 size 0x68 virtual false final false
  void _ctor() ;

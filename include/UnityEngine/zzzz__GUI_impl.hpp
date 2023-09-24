@@ -1,14 +1,15 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__GUI_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__GUIStyle_def.hpp"
-#include "UnityEngine/zzzz__GUISkin_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__GUIContent_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngineInternal/zzzz__GenericStack_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__GUISkin_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/zzzz__GUI_def.hpp"
+#include "UnityEngine/zzzz__GUIContent_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__GUI__WindowFunction._ctor
 template<>
 
@@ -43,8 +44,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__GUI__WindowFunction::UnityEngine__GUI__WindowFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__GUI__WindowFunction>(object, method))) {}
+ UnityEngine::UnityEngine__GUI__WindowFunction UnityEngine::UnityEngine__GUI__WindowFunction::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__GUI__WindowFunction o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__GUI__WindowFunction>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__GUI__WindowFunction::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__GUI__WindowFunction>::get(),

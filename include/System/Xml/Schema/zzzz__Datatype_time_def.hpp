@@ -58,8 +58,7 @@ constexpr explicit Datatype_time(void* ptr) noexcept : System::Xml::Schema::Data
 /// @brief Method get_TypeCode addr 0x2726620 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_time() ;
+static System::Xml::Schema::Datatype_time New_ctor() ;
 
 /// @brief Method .ctor addr 0x2726628 size 0x58 virtual false final false
  void _ctor() ;

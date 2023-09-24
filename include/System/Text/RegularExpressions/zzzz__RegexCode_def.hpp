@@ -9,6 +9,9 @@ template<typename T>
 class List_1;
 }
 namespace System::Text::RegularExpressions {
+struct RegexPrefix;
+}
+namespace System::Text::RegularExpressions {
 class RegexBoyerMoore;
 }
 namespace System {
@@ -17,9 +20,6 @@ struct Nullable_1;
 }
 namespace System::Collections {
 class Hashtable;
-}
-namespace System::Text::RegularExpressions {
-struct RegexPrefix;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -268,8 +268,7 @@ constexpr bool __get_RightToLeft() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "codes", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "stringlist", ty: "System::Collections::Generic::List_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "trackcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capsize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bmPrefix", ty: "System::Text::RegularExpressions::RegexBoyerMoore", modifiers: "", def_value: None }, CppParam { name: "fcPrefix", ty: "System::Nullable_1<System::Text::RegularExpressions::RegexPrefix>", modifiers: "", def_value: None }, CppParam { name: "anchors", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }]
-explicit RegexCode(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;
+static System::Text::RegularExpressions::RegexCode New_ctor(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;
 
 /// @brief Method .ctor addr 0x27cba24 size 0xd0 virtual false final false
  void _ctor(::ArrayW<int32_t> codes, System::Collections::Generic::List_1<::StringW> stringlist, int32_t trackcount, System::Collections::Hashtable caps, int32_t capsize, System::Text::RegularExpressions::RegexBoyerMoore bmPrefix, System::Nullable_1<System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) ;

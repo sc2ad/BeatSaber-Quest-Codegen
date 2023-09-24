@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__GenericPoser__Map;
+}
 namespace UnityEngine {
 class Transform;
 }
@@ -90,8 +93,7 @@ constexpr UnityEngine::Quaternion __get_defaultLocalRotation() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bone", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "target", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__GenericPoser__Map(UnityEngine::Transform bone, UnityEngine::Transform target) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map New_ctor(UnityEngine::Transform bone, UnityEngine::Transform target) ;
 
 /// @brief Method .ctor addr 0x12007c4 size 0x30 virtual false final false
  void _ctor(UnityEngine::Transform bone, UnityEngine::Transform target) ;
@@ -180,8 +182,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__GenericPoser__Map> 
 /// @brief Method GetTargetNamed addr 0x1200730 size 0x94 virtual false final false
  UnityEngine::Transform GetTargetNamed(::StringW tName, ::ArrayW<UnityEngine::Transform> array) ;
 
-// Ctor Parameters []
-explicit GenericPoser() ;
+static RootMotion::FinalIK::GenericPoser New_ctor() ;
 
 /// @brief Method .ctor addr 0x1200b44 size 0x10 virtual false final false
  void _ctor() ;

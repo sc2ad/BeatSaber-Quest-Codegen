@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECNamedDomainParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters.get_Name
@@ -124,8 +124,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerObjectIdentifier, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "dp", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp)  : Org::BouncyCastle::Crypto::Parameters::ECDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECNamedDomainParameters>(name, dp))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp)  {
+Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>(name, dp))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters dp)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>::get(),
@@ -135,8 +137,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, dp);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "x9", ty: "Org::BouncyCastle::Asn1::X9::X9ECParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Asn1::X9::X9ECParameters x9)  : Org::BouncyCastle::Crypto::Parameters::ECDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECNamedDomainParameters>(name, x9))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Asn1::X9::X9ECParameters x9)  {
+Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>(name, x9))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Asn1::X9::X9ECParameters x9)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>::get(),
@@ -146,8 +150,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, x9);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n)  : Org::BouncyCastle::Crypto::Parameters::ECDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECNamedDomainParameters>(name, curve, g, n))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n)  {
+Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>(name, curve, g, n))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>::get(),
@@ -157,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, curve, g, n);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  : Org::BouncyCastle::Crypto::Parameters::ECDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECNamedDomainParameters>(name, curve, g, n, h))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  {
+Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>(name, curve, g, n, h))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>::get(),
@@ -168,8 +176,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, curve, g, n, h);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "g", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "h", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::ECNamedDomainParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  : Org::BouncyCastle::Crypto::Parameters::ECDomainParameters(THROW_UNLESS(::il2cpp_utils::New<ECNamedDomainParameters>(name, curve, g, n, h, seed))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  {
+Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>(name, curve, g, n, h, seed))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier name, Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::ECPoint g, Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger h, ::ArrayW<uint8_t> seed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters>::get(),

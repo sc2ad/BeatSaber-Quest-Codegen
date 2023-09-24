@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Zenject {
-struct BindingId;
+class IProvider;
 }
 namespace Zenject {
-class IProvider;
+struct BindingId;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -69,14 +69,12 @@ constexpr Zenject::BindingId __get_BindingId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LookupId() ;
+static Zenject::Internal::LookupId New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da7e78 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "bindingId", ty: "Zenject::BindingId", modifiers: "", def_value: None }]
-explicit LookupId(Zenject::IProvider provider, Zenject::BindingId bindingId) ;
+static Zenject::Internal::LookupId New_ctor(Zenject::IProvider provider, Zenject::BindingId bindingId) ;
 
 /// @brief Method .ctor addr 0x2da7e80 size 0x9c virtual false final false
  void _ctor(Zenject::IProvider provider, Zenject::BindingId bindingId) ;

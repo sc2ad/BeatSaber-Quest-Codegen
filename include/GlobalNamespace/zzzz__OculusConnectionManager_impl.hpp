@@ -4,24 +4,25 @@
 #include "GlobalNamespace/zzzz__OculusConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
 #include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__IConnection_def.hpp"
 #include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
-#include "Oculus/Platform/zzzz__SendPolicy_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
-#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "GlobalNamespace/zzzz__OculusConnectionManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__NetworkingPeer_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
+#include "Oculus/Platform/zzzz__SendPolicy_def.hpp"
+#include "Oculus/Platform/Models/zzzz__NetworkingPeer_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -293,8 +294,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isConnectionOwner", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection::GlobalNamespace__OculusConnectionManager__OculusConnection(uint64_t id, ::StringW userName, bool isConnectionOwner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusConnectionManager__OculusConnection>(id, userName, isConnectionOwner))) {}
+ GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection::New_ctor(uint64_t id, ::StringW userName, bool isConnectionOwner)  {
+GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection>(id, userName, isConnectionOwner))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection::_ctor(uint64_t id, ::StringW userName, bool isConnectionOwner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusConnectionManager__OculusConnection>::get(),
@@ -385,8 +388,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartS
 constexpr GlobalNamespace::OculusNetworkPlayerModel GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams::__get_oculusNetworkPlayerModel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OculusNetworkPlayerModel, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams::GlobalNamespace__OculusConnectionManager__StartServerParams()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusConnectionManager__StartServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusConnectionManager__StartServerParams>::get(),
@@ -429,8 +434,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusConnectionManager__Connec
 constexpr uint64_t GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams::__get_serverId() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams::GlobalNamespace__OculusConnectionManager__ConnectToServerParams()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusConnectionManager__ConnectToServerParams>())) {}
+ GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusConnectionManager__ConnectToServerParams>::get(),
@@ -1755,8 +1762,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusConnectionManager::OculusConnectionManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusConnectionManager>())) {}
+ GlobalNamespace::OculusConnectionManager GlobalNamespace::OculusConnectionManager::New_ctor()  {
+GlobalNamespace::OculusConnectionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusConnectionManager>())};
+return o;
+}
  void GlobalNamespace::OculusConnectionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusConnectionManager>::get(),

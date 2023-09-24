@@ -71,8 +71,7 @@ constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 /// @brief Method Awake addr 0x1f701dc size 0xd0 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit ActivateOnPlatform() ;
+static GlobalNamespace::ActivateOnPlatform New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f702ac size 0x8 virtual false final false
  void _ctor() ;

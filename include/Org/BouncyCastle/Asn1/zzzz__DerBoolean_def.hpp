@@ -6,10 +6,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -95,14 +95,12 @@ static Org::BouncyCastle::Asn1::DerBoolean GetInstance(bool value) ;
 /// @brief Method GetInstance addr 0x1135b48 size 0x150 virtual false final false
 static Org::BouncyCastle::Asn1::DerBoolean GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "val", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit DerBoolean(::ArrayW<uint8_t> val) ;
+static Org::BouncyCastle::Asn1::DerBoolean New_ctor(::ArrayW<uint8_t> val) ;
 
 /// @brief Method .ctor addr 0x1135c98 size 0xa0 virtual false final false
  void _ctor(::ArrayW<uint8_t> val) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
-explicit DerBoolean(bool value) ;
+static Org::BouncyCastle::Asn1::DerBoolean New_ctor(bool value) ;
 
 /// @brief Method .ctor addr 0x1135d38 size 0x34 virtual false final false
  void _ctor(bool value) ;

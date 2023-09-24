@@ -2,8 +2,8 @@
 #include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpMode_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpLeapIndicator_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: LiteNetLib::Utils::NtpPacket.get_Bytes
 template<>
@@ -850,8 +850,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::TimeSpan, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::NtpPacket::NtpPacket()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NtpPacket>())) {}
+ LiteNetLib::Utils::NtpPacket LiteNetLib::Utils::NtpPacket::New_ctor()  {
+LiteNetLib::Utils::NtpPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NtpPacket>())};
+return o;
+}
  void LiteNetLib::Utils::NtpPacket::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NtpPacket>::get(),
@@ -861,8 +863,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NtpPacket::NtpPacket(::ArrayW<uint8_t> bytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NtpPacket>(bytes))) {}
+ LiteNetLib::Utils::NtpPacket LiteNetLib::Utils::NtpPacket::New_ctor(::ArrayW<uint8_t> bytes)  {
+LiteNetLib::Utils::NtpPacket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NtpPacket>(bytes))};
+return o;
+}
  void LiteNetLib::Utils::NtpPacket::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NtpPacket>::get(),

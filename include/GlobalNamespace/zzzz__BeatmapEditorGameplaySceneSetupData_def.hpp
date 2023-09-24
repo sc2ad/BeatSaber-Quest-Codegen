@@ -68,8 +68,7 @@ constexpr bool __get_playVRMovement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "useFirstPersonFlyingController", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "recordVRMovement", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playVRMovement", ty: "bool", modifiers: "", def_value: None }]
-explicit BeatmapEditorGameplaySceneSetupData(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement) ;
+static GlobalNamespace::BeatmapEditorGameplaySceneSetupData New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement) ;
 
 /// @brief Method .ctor addr 0x21b6a34 size 0x40 virtual false final false
  void _ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement) ;

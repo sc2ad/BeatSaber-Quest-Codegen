@@ -4,27 +4,27 @@
 #include "GlobalNamespace/zzzz__LevelFilteringNavigationController_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
-#include "GlobalNamespace/zzzz__LevelSearchViewController_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsViewController_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__LevelFilteringNavigationController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_def.hpp"
+#include "System/zzzz__Action_4_def.hpp"
+#include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionsViewController_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "GlobalNamespace/zzzz__LevelSearchViewController_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LevelFilteringNavigationControl
 constexpr GlobalNamespace::IBeatmapLevelPack GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0::__get_levelPack() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IBeatmapLevelPack, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0>())) {}
+ GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0 GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c__DisplayClass53_0>::get(),
@@ -131,8 +133,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Level
  System::Func_2<GlobalNamespace::IBeatmapLevelPack,::StringW> GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c::__get___9__53_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IBeatmapLevelPack,::StringW>, "<>9__53_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c::GlobalNamespace__LevelFilteringNavigationController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelFilteringNavigationController____c>())) {}
+ GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelFilteringNavigationController____c>::get(),
@@ -1193,8 +1197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelFilteringNavigationController::LevelFilteringNavigationController()  : HMUI::NavigationController(THROW_UNLESS(::il2cpp_utils::New<LevelFilteringNavigationController>())) {}
+ GlobalNamespace::LevelFilteringNavigationController GlobalNamespace::LevelFilteringNavigationController::New_ctor()  {
+GlobalNamespace::LevelFilteringNavigationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelFilteringNavigationController>())};
+return o;
+}
  void GlobalNamespace::LevelFilteringNavigationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelFilteringNavigationController>::get(),

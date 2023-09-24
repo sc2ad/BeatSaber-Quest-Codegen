@@ -65,8 +65,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1StreamParser __get__parser() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
-explicit DerExternalParser(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+static Org::BouncyCastle::Asn1::DerExternalParser New_ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method .ctor addr 0x112b71c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;

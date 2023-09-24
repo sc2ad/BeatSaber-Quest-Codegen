@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class VRController;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class VRController;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +103,7 @@ constexpr UnityEngine::Transform __get__headTransform() const;
 /// @brief Method get_headRot addr 0x2147154 size 0x1c virtual false final false
  UnityEngine::Quaternion get_headRot() ;
 
-// Ctor Parameters []
-explicit MenuPlayerController() ;
+static GlobalNamespace::MenuPlayerController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2147170 size 0x8 virtual false final false
  void _ctor() ;

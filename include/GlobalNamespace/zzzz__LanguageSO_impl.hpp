@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::LanguageSO::LanguageSO()  : GlobalNamespace::ObservableVariableSO_1<Polyglot::Language>(THROW_UNLESS(::il2cpp_utils::New<LanguageSO>())) {}
+ GlobalNamespace::LanguageSO GlobalNamespace::LanguageSO::New_ctor()  {
+GlobalNamespace::LanguageSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LanguageSO>())};
+return o;
+}
  void GlobalNamespace::LanguageSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LanguageSO>::get(),

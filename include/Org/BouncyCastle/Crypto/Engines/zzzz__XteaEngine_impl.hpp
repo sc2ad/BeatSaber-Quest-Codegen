@@ -206,8 +206,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::XteaEngine::__set__forEncrypt
 constexpr bool Org::BouncyCastle::Crypto::Engines::XteaEngine::__get__forEncryption() const {
 return ::cordl_internals::getInstanceField<bool, 0x29>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::XteaEngine::XteaEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XteaEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::XteaEngine Org::BouncyCastle::Crypto::Engines::XteaEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::XteaEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::XteaEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::XteaEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::XteaEngine>::get(),

@@ -2,6 +2,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainCameraCullingMask_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__MainCameraCullingMask_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData._ctor
 template<>
 
@@ -25,8 +26,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData
 constexpr bool GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData::__get_showDebris() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "showDebris", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData::GlobalNamespace__MainCameraCullingMask__InitData(bool showDebris)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainCameraCullingMask__InitData>(showDebris))) {}
+ GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData::New_ctor(bool showDebris)  {
+GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData>(showDebris))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData::_ctor(bool showDebris)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainCameraCullingMask__InitData>::get(),
@@ -91,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MainCameraCullingMask::MainCameraCullingMask()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MainCameraCullingMask>())) {}
+ GlobalNamespace::MainCameraCullingMask GlobalNamespace::MainCameraCullingMask::New_ctor()  {
+GlobalNamespace::MainCameraCullingMask o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainCameraCullingMask>())};
+return o;
+}
  void GlobalNamespace::MainCameraCullingMask::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainCameraCullingMask>::get(),

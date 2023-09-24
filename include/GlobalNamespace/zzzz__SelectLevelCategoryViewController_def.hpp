@@ -17,17 +17,29 @@ namespace HMUI {
 class HMUI__IconSegmentedControl__DataItem;
 }
 namespace GlobalNamespace {
-class IAnalyticsModel;
+struct GlobalNamespace__SelectLevelCategoryViewController__LevelCategory;
 }
 namespace HMUI {
-class SegmentedControl;
+class IconSegmentedControl;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__SelectLevelCategoryViewController____c;
+}
 namespace HMUI {
-class IconSegmentedControl;
+class SegmentedControl;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -97,6 +109,8 @@ __All = 4,
 constexpr operator __GlobalNamespace__SelectLevelCategoryViewController__LevelCategory_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SelectLevelCategoryViewController__LevelCategory_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -189,8 +203,7 @@ constexpr UnityEngine::Sprite __get_categoryIcon() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo() ;
+static GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController__LevelCategoryInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x216ca80 size 0x8 virtual false final false
  void _ctor() ;
@@ -250,8 +263,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewCont
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0() ;
+static GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x216c714 size 0x8 virtual false final false
  void _ctor() ;
@@ -326,8 +338,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewC
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SelectLevelCategoryViewController____c() ;
+static GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x216cb44 size 0x8 virtual false final false
  void _ctor() ;
@@ -457,8 +468,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__SelectLevelCategoryViewCont
 /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell addr 0x216c85c size 0x21c virtual false final false
  void LevelFilterCategoryIconSegmentedControlDidSelectCell(HMUI::SegmentedControl segmentedControl, int32_t index) ;
 
-// Ctor Parameters []
-explicit SelectLevelCategoryViewController() ;
+static GlobalNamespace::SelectLevelCategoryViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x216ca78 size 0x8 virtual false final false
  void _ctor() ;

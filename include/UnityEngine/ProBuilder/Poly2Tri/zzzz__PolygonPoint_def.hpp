@@ -71,8 +71,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::PolygonPoint __get__Previous_k__Bac
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PolygonPoint(double_t x, double_t y, int32_t index) ;
+static UnityEngine::ProBuilder::Poly2Tri::PolygonPoint New_ctor(double_t x, double_t y, int32_t index) ;
 
 /// @brief Method .ctor addr 0x299b7ec size 0x3c virtual false final false
  void _ctor(double_t x, double_t y, int32_t index) ;

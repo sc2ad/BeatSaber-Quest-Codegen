@@ -15,6 +15,9 @@ class Func_2;
 namespace GlobalNamespace {
 class MissionStageLockView;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MissionStagesManager____c;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__MissionStagesManager____c;
@@ -79,8 +82,7 @@ static System::Func_2<GlobalNamespace::MissionStage,int32_t> __get___9__6_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MissionStagesManager____c() ;
+static GlobalNamespace::GlobalNamespace__MissionStagesManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x214ae10 size 0x8 virtual false final false
  void _ctor() ;
@@ -180,8 +182,7 @@ constexpr GlobalNamespace::MissionStage __get__firstLockedMissionStage() const;
 /// @brief Method UpdateStageLockText addr 0x214a404 size 0xb8 virtual false final false
  void UpdateStageLockText(int32_t numberOfClearedMissions) ;
 
-// Ctor Parameters []
-explicit MissionStagesManager() ;
+static GlobalNamespace::MissionStagesManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x214ada4 size 0x8 virtual false final false
  void _ctor() ;

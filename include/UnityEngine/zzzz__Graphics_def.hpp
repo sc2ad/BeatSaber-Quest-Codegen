@@ -5,10 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class Transform;
+class Camera;
 }
 namespace UnityEngine {
-class Material;
+class Mesh;
+}
+namespace UnityEngine {
+struct CubemapFace;
+}
+namespace UnityEngine::Rendering {
+struct ShadowCastingMode;
+}
+namespace UnityEngine {
+class LightProbeProxyVolume;
+}
+namespace UnityEngine {
+class MaterialPropertyBlock;
+}
+namespace UnityEngine::Rendering {
+struct LightProbeUsage;
 }
 namespace UnityEngine {
 struct RenderBuffer;
@@ -16,41 +31,26 @@ struct RenderBuffer;
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-class MaterialPropertyBlock;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace UnityEngine::Rendering {
 struct GraphicsTier;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::Rendering {
-struct ShadowCastingMode;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
-class LightProbeProxyVolume;
-}
-namespace UnityEngine::Rendering {
-struct LightProbeUsage;
+class RenderTexture;
 }
 namespace UnityEngine {
-struct CubemapFace;
+class Material;
 }
 namespace UnityEngine {
 class Texture;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
 }
 // Forward declare root types
 namespace UnityEngine {

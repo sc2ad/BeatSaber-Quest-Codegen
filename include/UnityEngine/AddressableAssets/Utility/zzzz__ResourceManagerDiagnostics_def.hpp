@@ -3,18 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::ResourceManagement {
-struct UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventContext;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::AddressableAssets::Utility {
 class DiagnosticInfo;
+}
+namespace UnityEngine::ResourceManagement {
+struct UnityEngine__ResourceManagement__ResourceManager__DiagnosticEventContext;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
@@ -92,8 +92,7 @@ constexpr System::Collections::Generic::Dictionary_2<int32_t,UnityEngine::Addres
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resourceManager", ty: "UnityEngine::ResourceManagement::ResourceManager", modifiers: "", def_value: None }]
-explicit ResourceManagerDiagnostics(UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
+static UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics New_ctor(UnityEngine::ResourceManagement::ResourceManager resourceManager) ;
 
 /// @brief Method .ctor addr 0x2896e4c size 0xec virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceManager resourceManager) ;

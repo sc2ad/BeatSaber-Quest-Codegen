@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::XR::XRMeshSubsystemDescriptor::XRMeshSubsystemDescriptor()  : UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRMeshSubsystem>(THROW_UNLESS(::il2cpp_utils::New<XRMeshSubsystemDescriptor>())) {}
+ UnityEngine::XR::XRMeshSubsystemDescriptor UnityEngine::XR::XRMeshSubsystemDescriptor::New_ctor()  {
+UnityEngine::XR::XRMeshSubsystemDescriptor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::XRMeshSubsystemDescriptor>())};
+return o;
+}
  void UnityEngine::XR::XRMeshSubsystemDescriptor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::XRMeshSubsystemDescriptor>::get(),

@@ -4,6 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingSaveData__PoseSaveData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData;
@@ -104,8 +113,7 @@ constexpr float_t __get_rotW() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "posX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "posZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rotW", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PosesRecordingSaveData__PoseSaveData(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW) ;
+static GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData New_ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW) ;
 
 /// @brief Method .ctor addr 0x21a6e00 size 0x64 virtual false final false
  void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW) ;
@@ -171,8 +179,7 @@ constexpr float_t __get_time() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "poses", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData>", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
+static GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe New_ctor(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
 
 /// @brief Method .ctor addr 0x21a6e64 size 0x38 virtual false final false
  void _ctor(::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__PoseSaveData> poses, float_t time) ;
@@ -256,8 +263,7 @@ constexpr float_t __get_nearOffset() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fieldOfVision", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hmdOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearOffset", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
+static GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
 
 /// @brief Method .ctor addr 0x21a6e9c size 0x50 virtual false final false
  void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
@@ -335,8 +341,7 @@ constexpr GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCame
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "keyframes", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData", modifiers: "", def_value: None }]
-explicit PosesRecordingSaveData(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;
+static GlobalNamespace::PosesRecordingSaveData New_ctor(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;
 
 /// @brief Method .ctor addr 0x21a6dc4 size 0x3c virtual false final false
  void _ctor(::ArrayW<::StringW> objectIds, ::ArrayW<GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__TransformsSaveKeyframe> keyframes, GlobalNamespace::GlobalNamespace__PosesRecordingSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration) ;

@@ -77,8 +77,7 @@ constexpr ::ArrayW<uint8_t> __get_SortKey() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sortkey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Contraction(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) ;
+static Mono::Globalization::Unicode::Contraction New_ctor(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) ;
 
 /// @brief Method .ctor addr 0x22a7f58 size 0x44 virtual false final false
  void _ctor(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey) ;

@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace UnityEngine {
-class Rigidbody;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Rigidbody;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -3,17 +3,17 @@
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace System::Threading::Tasks {
-class Task;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Net {
 class TransportContext;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -94,20 +94,17 @@ constexpr bool __get_contentCopied() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "content", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit StreamContent(System::IO::Stream content) ;
+static System::Net::Http::StreamContent New_ctor(System::IO::Stream content) ;
 
 /// @brief Method .ctor addr 0x26a2a94 size 0x8 virtual false final false
  void _ctor(System::IO::Stream content) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StreamContent(System::IO::Stream content, int32_t bufferSize) ;
+static System::Net::Http::StreamContent New_ctor(System::IO::Stream content, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x26a2a9c size 0xe8 virtual false final false
  void _ctor(System::IO::Stream content, int32_t bufferSize) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
-explicit StreamContent(System::IO::Stream content, System::Threading::CancellationToken cancellationToken) ;
+static System::Net::Http::StreamContent New_ctor(System::IO::Stream content, System::Threading::CancellationToken cancellationToken) ;
 
 /// @brief Method .ctor addr 0x269f19c size 0x28 virtual false final false
  void _ctor(System::IO::Stream content, System::Threading::CancellationToken cancellationToken) ;

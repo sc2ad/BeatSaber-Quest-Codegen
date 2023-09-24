@@ -5,14 +5,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Unity::Jobs::LowLevel::Unsafe {
-struct JobRanges;
+namespace Unity::Jobs {
+struct JobHandle;
 }
 namespace System {
 class Type;
 }
-namespace Unity::Jobs {
-struct JobHandle;
+namespace Unity::Jobs::LowLevel::Unsafe {
+class Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct Unity__Jobs__LowLevel__Unsafe__JobsUtility__JobScheduleParameters;
+}
+namespace Unity::Jobs::LowLevel::Unsafe {
+struct JobRanges;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct ScheduleMode;
@@ -146,8 +152,7 @@ constexpr explicit Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Unity::Jobs::LowLevel::Unsafe::Unity__Jobs__LowLevel__Unsafe__JobsUtility__PanicFunction_ New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b2838c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

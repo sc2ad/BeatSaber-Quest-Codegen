@@ -6,7 +6,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Reflection {
-class FieldInfo;
+class ConstructorInfo;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -16,13 +16,13 @@ namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Reflection {
-class ConstructorInfo;
-}
-namespace System::Reflection {
 class ParameterInfo;
 }
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+class FieldInfo;
 }
 namespace System::Reflection {
 class PropertyInfo;
@@ -32,13 +32,26 @@ class MethodInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IList_1;
+}
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0;
+}
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__ReflectionUtils____c;
 }
 namespace System::Reflection {
 struct BindingFlags;
 }
-namespace System::Runtime::Serialization {
-class SerializationBinder;
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterAssemblyStyle;
 }
 namespace System {
 class Attribute;
@@ -47,16 +60,12 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace System::Runtime::Serialization {
+class SerializationBinder;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterAssemblyStyle;
+class List_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -146,8 +155,7 @@ static System::Func_2<System::Reflection::FieldInfo,bool> __get___9__39_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ReflectionUtils____c() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f1688 size 0x8 virtual false final false
  void _ctor() ;
@@ -219,8 +227,7 @@ constexpr System::Reflection::PropertyInfo __get_subTypeProperty() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass42_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f12f0 size 0x8 virtual false final false
  void _ctor() ;
@@ -295,8 +302,7 @@ constexpr System::Type __get_methodDeclaringType() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionUtils____c__DisplayClass43_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f13f4 size 0x8 virtual false final false
  void _ctor() ;

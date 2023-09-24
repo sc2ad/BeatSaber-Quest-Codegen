@@ -1,12 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
-#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
-#include "Tweening/zzzz__FloatTween_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_def.hpp"
+#include "GlobalNamespace/zzzz__LightRotationGroupEffect_def.hpp"
+#include "Tweening/zzzz__FloatTween_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData._ctor
 template<>
@@ -55,8 +56,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitD
 constexpr UnityEngine::Transform GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData::__get_transform() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Transform, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "mirrored", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData::GlobalNamespace__LightRotationGroupEffect__InitData(int32_t groupId, int32_t elementId, GlobalNamespace::LightAxis axis, bool mirrored, UnityEngine::Transform transform)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightRotationGroupEffect__InitData>(groupId, elementId, axis, mirrored, transform))) {}
+ GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData::New_ctor(int32_t groupId, int32_t elementId, GlobalNamespace::LightAxis axis, bool mirrored, UnityEngine::Transform transform)  {
+GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData>(groupId, elementId, axis, mirrored, transform))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData::_ctor(int32_t groupId, int32_t elementId, GlobalNamespace::LightAxis axis, bool mirrored, UnityEngine::Transform transform)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData>::get(),
@@ -193,8 +196,10 @@ constexpr void GlobalNamespace::LightRotationGroupEffect::__set__lightRotationBe
 constexpr GlobalNamespace::BeatmapDataCallbackWrapper GlobalNamespace::LightRotationGroupEffect::__get__lightRotationBeatmapEventCallbackWrapper() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::BeatmapDataCallbackWrapper, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "tweeningManager", ty: "Tweening::SongTimeTweeningManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
- GlobalNamespace::LightRotationGroupEffect::LightRotationGroupEffect(GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LightRotationGroupEffect>(initData, tweeningManager, beatmapCallbacksController))) {}
+ GlobalNamespace::LightRotationGroupEffect GlobalNamespace::LightRotationGroupEffect::New_ctor(GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
+GlobalNamespace::LightRotationGroupEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightRotationGroupEffect>(initData, tweeningManager, beatmapCallbacksController))};
+return o;
+}
  void GlobalNamespace::LightRotationGroupEffect::_ctor(GlobalNamespace::GlobalNamespace__LightRotationGroupEffect__InitData initData, Tweening::SongTimeTweeningManager tweeningManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightRotationGroupEffect>::get(),

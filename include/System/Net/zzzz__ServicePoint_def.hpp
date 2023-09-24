@@ -4,38 +4,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System {
+class Version;
+}
+namespace System::Net {
+class IPHostEntry;
+}
+namespace System::Net {
+class BindIPEndPoint;
+}
+namespace System::Net {
+class System__Net__ServicePointManager__SPKey;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net::Sockets {
+class Socket;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System::Net {
-class BindIPEndPoint;
-}
-namespace System {
-struct DateTime;
-}
-namespace System::Net {
-class System__Net__ServicePointManager__SPKey;
+class ServicePointScheduler;
 }
 namespace System::Net {
 class WebOperation;
 }
-namespace System {
-class Version;
-}
-namespace System::Net {
-class ServicePointScheduler;
-}
-namespace System::Net {
-class IPHostEntry;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System {
-class Uri;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 // Forward declare root types
 namespace System::Net {
@@ -245,8 +245,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_m_ClientCertificateOrBytes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "System::Net::System__Net__ServicePointManager__SPKey", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "connectionLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxIdleTime", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ServicePoint(System::Net::System__Net__ServicePointManager__SPKey key, System::Uri uri, int32_t connectionLimit, int32_t maxIdleTime) ;
+static System::Net::ServicePoint New_ctor(System::Net::System__Net__ServicePointManager__SPKey key, System::Uri uri, int32_t connectionLimit, int32_t maxIdleTime) ;
 
 /// @brief Method .ctor addr 0x2844b7c size 0xe0 virtual false final false
  void _ctor(System::Net::System__Net__ServicePointManager__SPKey key, System::Uri uri, int32_t connectionLimit, int32_t maxIdleTime) ;

@@ -5,19 +5,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
+class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerClickHandler;
 }
-namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::UI {
-struct CanvasUpdate;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
 class Graphic;
@@ -26,13 +20,25 @@ namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::UI {
+class UnityEngine__UI__Toggle__ToggleEvent;
+}
+namespace UnityEngine::UI {
 class ToggleGroup;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Toggle__ToggleTransition;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class ISubmitHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -93,6 +99,8 @@ __Fade = 1,
 constexpr operator __UnityEngine__UI__Toggle__ToggleTransition_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Toggle__ToggleTransition_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -155,8 +163,7 @@ constexpr explicit UnityEngine__UI__Toggle__ToggleEvent(void* ptr) noexcept : Un
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__Toggle__ToggleEvent() ;
+static UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c13660 size 0x48 virtual false final false
  void _ctor() ;
@@ -269,8 +276,7 @@ constexpr bool __get_m_IsOn() const;
 /// @brief Method set_group addr 0x2c133b4 size 0x20 virtual false final false
  void set_group(UnityEngine::UI::ToggleGroup value) ;
 
-// Ctor Parameters []
-explicit Toggle() ;
+static UnityEngine::UI::Toggle New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c135d4 size 0x8c virtual false final false
  void _ctor() ;

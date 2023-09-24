@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MissionCompletionResults_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionCompletionResults.get_IsMissionComplete
 template<>
 
@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "levelCompletionResults", ty: "GlobalNamespace::LevelCompletionResults", modifiers: "", def_value: None }, CppParam { name: "missionObjectiveResults", ty: "::ArrayW<GlobalNamespace::MissionObjectiveResult>", modifiers: "", def_value: None }]
- GlobalNamespace::MissionCompletionResults::MissionCompletionResults(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MissionCompletionResults>(levelCompletionResults, missionObjectiveResults))) {}
+ GlobalNamespace::MissionCompletionResults GlobalNamespace::MissionCompletionResults::New_ctor(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults)  {
+GlobalNamespace::MissionCompletionResults o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionCompletionResults>(levelCompletionResults, missionObjectiveResults))};
+return o;
+}
  void GlobalNamespace::MissionCompletionResults::_ctor(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionCompletionResults>::get(),

@@ -12,7 +12,7 @@ class TouchPhaseControl;
 // Type: UnityEngine.InputSystem.Controls::TouchPhaseControl
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3758 }), TypeDefinitionIndex(TypeDefinitionIndex(6299)), TypeDefinitionIndex(TypeDefinitionIndex(6370))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 3758 }), TypeDefinitionIndex(TypeDefinitionIndex(6370))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6725))
 // CS Name: UnityEngine.InputSystem.Controls.TouchPhaseControl
 class CORDL_TYPE TouchPhaseControl : public UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::TouchPhase> {
@@ -51,8 +51,7 @@ constexpr explicit TouchPhaseControl(void* ptr) noexcept : UnityEngine::InputSys
 
 // Methods
 
-// Ctor Parameters []
-explicit TouchPhaseControl() ;
+static UnityEngine::InputSystem::Controls::TouchPhaseControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2979268 size 0x88 virtual false final false
  void _ctor() ;

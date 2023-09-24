@@ -69,8 +69,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __get_points() const;
 /// @brief Method Copy addr 0xfcdd50 size 0xec virtual false final false
 static ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> Copy(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "points", ty: "::ArrayW<Org::BouncyCastle::Math::EC::ECPoint>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SimpleLookupTable(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len) ;
+static Org::BouncyCastle::Math::EC::SimpleLookupTable New_ctor(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len) ;
 
 /// @brief Method .ctor addr 0xfcde3c size 0x48 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> points, int32_t off, int32_t len) ;

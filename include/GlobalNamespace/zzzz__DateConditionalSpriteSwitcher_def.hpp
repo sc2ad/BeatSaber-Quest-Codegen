@@ -90,8 +90,7 @@ constexpr GlobalNamespace::ConditionalSpriteSwitcher __get__conditionalSpriteSwi
 /// @brief Method Awake addr 0x21158dc size 0xb8 virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit DateConditionalSpriteSwitcher() ;
+static GlobalNamespace::DateConditionalSpriteSwitcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115994 size 0x8 virtual false final false
  void _ctor() ;

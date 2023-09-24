@@ -1,12 +1,12 @@
 #pragma once
 #include "LiteNetLib/zzzz__NetSocket_def.hpp"
-#include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/Threading/zzzz__ThreadPriority_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/Threading/zzzz__ThreadPriority_def.hpp"
 //  Writing Method size for method: LiteNetLib::NetSocket.get_LocalPort
 template<>
 
@@ -301,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "listener", ty: "LiteNetLib::INetSocketListener", modifiers: "", def_value: None }]
- LiteNetLib::NetSocket::NetSocket(LiteNetLib::INetSocketListener listener)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetSocket>(listener))) {}
+ LiteNetLib::NetSocket LiteNetLib::NetSocket::New_ctor(LiteNetLib::INetSocketListener listener)  {
+LiteNetLib::NetSocket o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetSocket>(listener))};
+return o;
+}
  void LiteNetLib::NetSocket::_ctor(LiteNetLib::INetSocketListener listener)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetSocket>::get(),

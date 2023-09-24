@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionManager_def.hpp"
-#include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__ColorType_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SliderInteractionManager.get_colorType
 template<>
@@ -424,8 +424,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sliderController);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderInteractionManager::SliderInteractionManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SliderInteractionManager>())) {}
+ GlobalNamespace::SliderInteractionManager GlobalNamespace::SliderInteractionManager::New_ctor()  {
+GlobalNamespace::SliderInteractionManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderInteractionManager>())};
+return o;
+}
  void GlobalNamespace::SliderInteractionManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderInteractionManager>::get(),

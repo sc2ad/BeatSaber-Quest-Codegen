@@ -7,32 +7,32 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRManager__CompositionMethod;
-}
-namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
 class AudioListener;
 }
 namespace GlobalNamespace {
-class OVRMixedRealityCaptureConfiguration;
-}
-namespace GlobalNamespace {
 class OVRMRAudioFilter;
 }
-namespace UnityEngine {
-class RenderTexture;
+namespace GlobalNamespace {
+class OVRMixedRealityCaptureConfiguration;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__OVRManager__CompositionMethod;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OVRManager__TrackingOrigin;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -200,8 +200,7 @@ constexpr int32_t __get_cachedChannels() const;
 /// @brief Method CompositionMethod addr 0x25a620c size 0x8 virtual true final false
  GlobalNamespace::GlobalNamespace__OVRManager__CompositionMethod CompositionMethod() ;
 
-// Ctor Parameters [CppParam { name: "parentObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }, CppParam { name: "mainCamera", ty: "UnityEngine::Camera", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "GlobalNamespace::OVRMixedRealityCaptureConfiguration", modifiers: "", def_value: None }]
-explicit OVRExternalComposition(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
+static GlobalNamespace::OVRExternalComposition New_ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;
 
 /// @brief Method .ctor addr 0x25a6214 size 0x4bc virtual false final false
  void _ctor(UnityEngine::GameObject parentObject, UnityEngine::Camera mainCamera, GlobalNamespace::OVRMixedRealityCaptureConfiguration configuration) ;

@@ -47,8 +47,7 @@ constexpr explicit PureAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit PureAttribute() ;
+static JetBrains::Annotations::PureAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d40e30 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__BinaryFacetsChecker_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::BinaryFacetsChecker.CheckValueFacets
 template<>
@@ -125,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value, enumeration, datatype);
 }
-// Ctor Parameters []
- System::Xml::Schema::BinaryFacetsChecker::BinaryFacetsChecker()  : System::Xml::Schema::FacetsChecker(THROW_UNLESS(::il2cpp_utils::New<BinaryFacetsChecker>())) {}
+ System::Xml::Schema::BinaryFacetsChecker System::Xml::Schema::BinaryFacetsChecker::New_ctor()  {
+System::Xml::Schema::BinaryFacetsChecker o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::BinaryFacetsChecker>())};
+return o;
+}
  void System::Xml::Schema::BinaryFacetsChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::BinaryFacetsChecker>::get(),

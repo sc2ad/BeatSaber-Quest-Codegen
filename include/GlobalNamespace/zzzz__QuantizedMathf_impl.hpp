@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__QuantizedMathf_def.hpp"
-#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::QuantizedMathf.Approximately
 template<>

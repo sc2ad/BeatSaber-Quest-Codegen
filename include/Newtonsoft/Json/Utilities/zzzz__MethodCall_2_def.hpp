@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -25,7 +25,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T,::cordl_internals::il2cpp_reference_type TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(11802))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11802)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11802), inst: 80 })
 // CS Name: Newtonsoft.Json.Utilities.MethodCall`2
 class CORDL_TYPE MethodCall_2<T,TResult> : public System::MulticastDelegate {
@@ -64,8 +64,7 @@ constexpr explicit MethodCall_2(void* ptr) noexcept : System::MulticastDelegate(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MethodCall_2(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Newtonsoft::Json::Utilities::MethodCall_2<T,TResult> New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

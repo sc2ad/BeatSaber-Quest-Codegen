@@ -42,8 +42,10 @@ constexpr void System::Net::NetworkInformation::LinuxUnicastIPAddressInformation
 constexpr System::Net::IPAddress System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::__get_address() const {
 return ::cordl_internals::getInstanceField<System::Net::IPAddress, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::LinuxUnicastIPAddressInformation(System::Net::IPAddress address)  : System::Net::NetworkInformation::UnicastIPAddressInformation(THROW_UNLESS(::il2cpp_utils::New<LinuxUnicastIPAddressInformation>(address))) {}
+ System::Net::NetworkInformation::LinuxUnicastIPAddressInformation System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor(System::Net::IPAddress address)  {
+System::Net::NetworkInformation::LinuxUnicastIPAddressInformation o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::LinuxUnicastIPAddressInformation>(address))};
+return o;
+}
  void System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::_ctor(System::Net::IPAddress address)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::LinuxUnicastIPAddressInformation>::get(),

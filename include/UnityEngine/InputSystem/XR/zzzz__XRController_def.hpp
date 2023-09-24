@@ -63,8 +63,7 @@ static UnityEngine::InputSystem::XR::XRController get_rightHand() ;
 /// @brief Method FinishSetup addr 0x2933188 size 0xf0 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit XRController() ;
+static UnityEngine::InputSystem::XR::XRController New_ctor() ;
 
 /// @brief Method .ctor addr 0x29332c0 size 0x8 virtual false final false
  void _ctor() ;

@@ -96,8 +96,10 @@ constexpr void Org::BouncyCastle::Crypto::AsymmetricKeyParameter::__set_privateK
 constexpr bool Org::BouncyCastle::Crypto::AsymmetricKeyParameter::__get_privateKey() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "privateKey", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::AsymmetricKeyParameter::AsymmetricKeyParameter(bool privateKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsymmetricKeyParameter>(privateKey))) {}
+ Org::BouncyCastle::Crypto::AsymmetricKeyParameter Org::BouncyCastle::Crypto::AsymmetricKeyParameter::New_ctor(bool privateKey)  {
+Org::BouncyCastle::Crypto::AsymmetricKeyParameter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::AsymmetricKeyParameter>(privateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::AsymmetricKeyParameter::_ctor(bool privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::AsymmetricKeyParameter>::get(),

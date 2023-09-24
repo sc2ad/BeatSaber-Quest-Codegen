@@ -2,22 +2,22 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
+}
+namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
+namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
 }
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
 }
 // Forward declare root types
 namespace GlobalNamespace {

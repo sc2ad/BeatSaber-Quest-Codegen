@@ -78,8 +78,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers::__get_IdIcaoExtensionsNamechangekeyrollover()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "IdIcaoExtensionsNamechangekeyrollover", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers::IcaoObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IcaoObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers>::get(),

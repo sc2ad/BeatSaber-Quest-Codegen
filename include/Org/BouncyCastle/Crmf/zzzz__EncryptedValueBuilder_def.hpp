@@ -6,20 +6,20 @@
 namespace Org::BouncyCastle::Asn1::Crmf {
 class EncryptedValue;
 }
-namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
-}
 namespace Org::BouncyCastle::Crmf {
 class IEncryptedValuePadder;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilderWithKey;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -88,14 +88,12 @@ constexpr Org::BouncyCastle::Crmf::IEncryptedValuePadder __get_padder() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "wrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }]
-explicit EncryptedValueBuilder(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
+static Org::BouncyCastle::Crmf::EncryptedValueBuilder New_ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
 
 /// @brief Method .ctor addr 0x11856a0 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor) ;
 
-// Ctor Parameters [CppParam { name: "wrapper", ty: "Org::BouncyCastle::Crypto::IKeyWrapper", modifiers: "", def_value: None }, CppParam { name: "encryptor", ty: "Org::BouncyCastle::Crypto::ICipherBuilderWithKey", modifiers: "", def_value: None }, CppParam { name: "padder", ty: "Org::BouncyCastle::Crmf::IEncryptedValuePadder", modifiers: "", def_value: None }]
-explicit EncryptedValueBuilder(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;
+static Org::BouncyCastle::Crmf::EncryptedValueBuilder New_ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;
 
 /// @brief Method .ctor addr 0x11856d0 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IKeyWrapper wrapper, Org::BouncyCastle::Crypto::ICipherBuilderWithKey encryptor, Org::BouncyCastle::Crmf::IEncryptedValuePadder padder) ;

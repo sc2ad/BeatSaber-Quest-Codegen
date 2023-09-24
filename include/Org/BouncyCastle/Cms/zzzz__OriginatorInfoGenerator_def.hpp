@@ -1,9 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
@@ -12,6 +9,9 @@ class IList;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -74,20 +74,17 @@ constexpr System::Collections::IList __get_origCrls() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "origCert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit OriginatorInfoGenerator(Org::BouncyCastle::X509::X509Certificate origCert) ;
+static Org::BouncyCastle::Cms::OriginatorInfoGenerator New_ctor(Org::BouncyCastle::X509::X509Certificate origCert) ;
 
 /// @brief Method .ctor addr 0x117b774 size 0x110 virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate origCert) ;
 
-// Ctor Parameters [CppParam { name: "origCerts", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
-explicit OriginatorInfoGenerator(Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
+static Org::BouncyCastle::Cms::OriginatorInfoGenerator New_ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
 
 /// @brief Method .ctor addr 0x117b884 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts) ;
 
-// Ctor Parameters [CppParam { name: "origCerts", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }, CppParam { name: "origCrls", ty: "Org::BouncyCastle::X509::Store::IX509Store", modifiers: "", def_value: None }]
-explicit OriginatorInfoGenerator(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls) ;
+static Org::BouncyCastle::Cms::OriginatorInfoGenerator New_ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls) ;
 
 /// @brief Method .ctor addr 0x117b8b4 size 0x4c virtual false final false
  void _ctor(Org::BouncyCastle::X509::Store::IX509Store origCerts, Org::BouncyCastle::X509::Store::IX509Store origCrls) ;

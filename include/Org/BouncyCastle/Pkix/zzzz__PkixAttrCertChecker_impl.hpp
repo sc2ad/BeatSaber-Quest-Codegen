@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Pkix/zzzz__PkixAttrCertChecker_def.hpp"
-#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkix::PkixAttrCertChecker.GetSupportedExtensions
 template<>
 
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Pkix::PkixAttrCertChecker, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixAttrCertChecker::PkixAttrCertChecker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PkixAttrCertChecker>())) {}
+ Org::BouncyCastle::Pkix::PkixAttrCertChecker Org::BouncyCastle::Pkix::PkixAttrCertChecker::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixAttrCertChecker o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixAttrCertChecker>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixAttrCertChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixAttrCertChecker>::get(),

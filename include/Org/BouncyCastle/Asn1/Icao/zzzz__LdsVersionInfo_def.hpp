@@ -73,14 +73,12 @@ constexpr Org::BouncyCastle::Asn1::DerPrintableString __get_unicodeVersion() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ldsVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "unicodeVersion", ty: "::StringW", modifiers: "", def_value: None }]
-explicit LdsVersionInfo(::StringW ldsVersion, ::StringW unicodeVersion) ;
+static Org::BouncyCastle::Asn1::Icao::LdsVersionInfo New_ctor(::StringW ldsVersion, ::StringW unicodeVersion) ;
 
 /// @brief Method .ctor addr 0xee7788 size 0xa0 virtual false final false
  void _ctor(::StringW ldsVersion, ::StringW unicodeVersion) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit LdsVersionInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Icao::LdsVersionInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee7828 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityOpus/zzzz__Encoder_def.hpp"
-#include "UnityOpus/zzzz__OpusApplication_def.hpp"
 #include "UnityOpus/zzzz__OpusSignal_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityOpus/zzzz__NumChannels_def.hpp"
+#include "UnityOpus/zzzz__OpusApplication_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
 //  Writing Method size for method: UnityOpus::Encoder.get_Bitrate
 template<>
@@ -286,8 +286,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "samplingFrequency", ty: "UnityOpus::SamplingFrequency", modifiers: "", def_value: None }, CppParam { name: "channels", ty: "UnityOpus::NumChannels", modifiers: "", def_value: None }, CppParam { name: "application", ty: "UnityOpus::OpusApplication", modifiers: "", def_value: None }]
- UnityOpus::Encoder::Encoder(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Encoder>(samplingFrequency, channels, application))) {}
+ UnityOpus::Encoder UnityOpus::Encoder::New_ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application)  {
+UnityOpus::Encoder o{THROW_UNLESS(::il2cpp_utils::New<UnityOpus::Encoder>(samplingFrequency, channels, application))};
+return o;
+}
  void UnityOpus::Encoder::_ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels, UnityOpus::OpusApplication application)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityOpus::Encoder>::get(),

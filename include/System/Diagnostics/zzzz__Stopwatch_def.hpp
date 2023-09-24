@@ -101,8 +101,7 @@ static int64_t GetTimestamp() ;
 /// @brief Method StartNew addr 0x27e1770 size 0x64 virtual false final false
 static System::Diagnostics::Stopwatch StartNew() ;
 
-// Ctor Parameters []
-explicit Stopwatch() ;
+static System::Diagnostics::Stopwatch New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e17d4 size 0x8 virtual false final false
  void _ctor() ;

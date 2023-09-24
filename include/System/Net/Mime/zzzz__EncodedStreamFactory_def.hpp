@@ -47,8 +47,7 @@ constexpr explicit EncodedStreamFactory(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Methods
 
-// Ctor Parameters []
-explicit EncodedStreamFactory() ;
+static System::Net::Mime::EncodedStreamFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x276ee00 size 0x8 virtual false final false
  void _ctor() ;

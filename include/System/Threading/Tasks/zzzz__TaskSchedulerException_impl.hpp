@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskSchedulerException_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::TaskSchedulerException._ctor
 template<>
 
@@ -55,8 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Threading::Tasks::TaskSchedulerException::TaskSchedulerException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<TaskSchedulerException>())) {}
+ System::Threading::Tasks::TaskSchedulerException System::Threading::Tasks::TaskSchedulerException::New_ctor()  {
+System::Threading::Tasks::TaskSchedulerException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskSchedulerException>())};
+return o;
+}
  void System::Threading::Tasks::TaskSchedulerException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskSchedulerException>::get(),
@@ -66,8 +68,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskSchedulerException::TaskSchedulerException(System::Exception innerException)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<TaskSchedulerException>(innerException))) {}
+ System::Threading::Tasks::TaskSchedulerException System::Threading::Tasks::TaskSchedulerException::New_ctor(System::Exception innerException)  {
+System::Threading::Tasks::TaskSchedulerException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskSchedulerException>(innerException))};
+return o;
+}
  void System::Threading::Tasks::TaskSchedulerException::_ctor(System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskSchedulerException>::get(),
@@ -77,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskSchedulerException::TaskSchedulerException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<TaskSchedulerException>(info, context))) {}
+ System::Threading::Tasks::TaskSchedulerException System::Threading::Tasks::TaskSchedulerException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Threading::Tasks::TaskSchedulerException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskSchedulerException>(info, context))};
+return o;
+}
  void System::Threading::Tasks::TaskSchedulerException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskSchedulerException>::get(),

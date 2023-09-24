@@ -5,14 +5,14 @@
 namespace Zenject {
 class IPrefabProvider;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace Zenject {
@@ -75,8 +75,7 @@ constexpr Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefabDynamicContext(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+static Zenject::SubContainerCreatorByNewPrefabDynamicContext New_ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d92c88 size 0x3c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;

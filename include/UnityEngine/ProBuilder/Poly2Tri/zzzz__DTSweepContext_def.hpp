@@ -3,31 +3,31 @@
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationContext_def.hpp"
 #include <cmath>
 namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationPoint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class TriangulationConstraint;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
 struct TriangulationAlgorithm;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class Triangulatable;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class DTSweepBasin;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepEdgeEvent;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationConstraint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFront;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class DTSweepPointComparator;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DTSweepBasin;
-}
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class DelaunayTriangle;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class AdvancingFrontNode;
@@ -146,8 +146,7 @@ constexpr UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator __get__compa
 /// @brief Method set_Tail addr 0x29a0b20 size 0x8 virtual false final false
  void set_Tail(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint value) ;
 
-// Ctor Parameters []
-explicit DTSweepContext() ;
+static UnityEngine::ProBuilder::Poly2Tri::DTSweepContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x299a3ac size 0xe0 virtual false final false
  void _ctor() ;

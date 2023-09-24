@@ -59,8 +59,7 @@ constexpr explicit XmlSchemaObject(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 /// @brief Method OnClear addr 0x27352b8 size 0x4 virtual true final false
  void OnClear(System::Xml::Schema::XmlSchemaObjectCollection container) ;
 
-// Ctor Parameters []
-explicit XmlSchemaObject() ;
+static System::Xml::Schema::XmlSchemaObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2733760 size 0x8 virtual false final false
  void _ctor() ;

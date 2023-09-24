@@ -4,14 +4,14 @@ namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+template<typename T>
+class ILazyCopyHashSet_1;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-template<typename T>
-class ILazyCopyHashSet_1;
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {

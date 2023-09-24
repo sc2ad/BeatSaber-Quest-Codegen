@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Bindings::NativeAsStructAttribute::NativeAsStructAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NativeAsStructAttribute>())) {}
+ UnityEngine::Bindings::NativeAsStructAttribute UnityEngine::Bindings::NativeAsStructAttribute::New_ctor()  {
+UnityEngine::Bindings::NativeAsStructAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Bindings::NativeAsStructAttribute>())};
+return o;
+}
  void UnityEngine::Bindings::NativeAsStructAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Bindings::NativeAsStructAttribute>::get(),

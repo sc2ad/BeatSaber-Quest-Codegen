@@ -81,8 +81,10 @@ return ::cordl_internals::getInstanceField<System::Diagnostics::Stopwatch, 0x20>
  GlobalNamespace::MonotonicTimeProvider GlobalNamespace::MonotonicTimeProvider::__get_instance()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::MonotonicTimeProvider, "instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MonotonicTimeProvider>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::MonotonicTimeProvider::MonotonicTimeProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MonotonicTimeProvider>())) {}
+ GlobalNamespace::MonotonicTimeProvider GlobalNamespace::MonotonicTimeProvider::New_ctor()  {
+GlobalNamespace::MonotonicTimeProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MonotonicTimeProvider>())};
+return o;
+}
  void GlobalNamespace::MonotonicTimeProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MonotonicTimeProvider>::get(),

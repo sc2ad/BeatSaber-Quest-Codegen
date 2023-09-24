@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__CharEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::CharEnumerator._ctor
 template<>
 
@@ -174,8 +174,10 @@ constexpr void System::CharEnumerator::__set__currentElement(char16_t value)  {
 constexpr char16_t System::CharEnumerator::__get__currentElement() const {
 return ::cordl_internals::getInstanceField<char16_t, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }]
- System::CharEnumerator::CharEnumerator(::StringW str)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CharEnumerator>(str))) {}
+ System::CharEnumerator System::CharEnumerator::New_ctor(::StringW str)  {
+System::CharEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::CharEnumerator>(str))};
+return o;
+}
  void System::CharEnumerator::_ctor(::StringW str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CharEnumerator>::get(),
@@ -239,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::CharEnumerator::CharEnumerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CharEnumerator>())) {}
+ System::CharEnumerator System::CharEnumerator::New_ctor()  {
+System::CharEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::CharEnumerator>())};
+return o;
+}
  void System::CharEnumerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CharEnumerator>::get(),

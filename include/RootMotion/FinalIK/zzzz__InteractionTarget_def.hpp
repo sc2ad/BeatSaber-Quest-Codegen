@@ -8,9 +8,6 @@ namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
@@ -18,6 +15,12 @@ struct Vector3;
 }
 namespace GlobalNamespace {
 struct RootMotion__FinalIK__InteractionObject__WeightCurve__Type;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionTarget__Multiplier;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -83,8 +86,7 @@ constexpr float_t __get_multiplier() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionTarget__Multiplier() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionTarget__Multiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ff520 size 0x8 virtual false final false
  void _ctor() ;
@@ -233,8 +235,7 @@ constexpr UnityEngine::Transform __get_lastPivot() const;
 /// @brief Method RotateTo addr 0x11f8524 size 0x4a4 virtual false final false
  void RotateTo(UnityEngine::Vector3 position) ;
 
-// Ctor Parameters []
-explicit InteractionTarget() ;
+static RootMotion::FinalIK::InteractionTarget New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ff4b0 size 0x70 virtual false final false
  void _ctor() ;

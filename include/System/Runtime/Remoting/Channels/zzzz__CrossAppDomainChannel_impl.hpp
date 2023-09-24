@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainChannel_def.hpp"
-#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannelSender_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannelReceiver_def.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel.RegisterCrossAppDomainChannel
 template<>
 
@@ -195,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Messaging::IMessageSink, false>(const_cast<void*>(instance), ___internal_method, url, data, uri);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Channels::CrossAppDomainChannel::CrossAppDomainChannel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CrossAppDomainChannel>())) {}
+ System::Runtime::Remoting::Channels::CrossAppDomainChannel System::Runtime::Remoting::Channels::CrossAppDomainChannel::New_ctor()  {
+System::Runtime::Remoting::Channels::CrossAppDomainChannel o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Channels::CrossAppDomainChannel>())};
+return o;
+}
  void System::Runtime::Remoting::Channels::CrossAppDomainChannel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Channels::CrossAppDomainChannel>::get(),

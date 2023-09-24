@@ -83,14 +83,12 @@ constexpr int32_t __get_m_currentItem() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit LongList() ;
+static System::Runtime::Serialization::LongList New_ctor() ;
 
 /// @brief Method .ctor addr 0x23505b0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "startingSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LongList(int32_t startingSize) ;
+static System::Runtime::Serialization::LongList New_ctor(int32_t startingSize) ;
 
 /// @brief Method .ctor addr 0x2350838 size 0x6c virtual false final false
  void _ctor(int32_t startingSize) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetBundleRequestOptions_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ILocationSizeData_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__AssetLoadMode_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__ILocationSizeData_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions.get_Hash
 template<>
 
@@ -747,8 +747,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method, location, resourceManager);
 }
-// Ctor Parameters []
- UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::AssetBundleRequestOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AssetBundleRequestOptions>())) {}
+ UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::New_ctor()  {
+UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions>())};
+return o;
+}
  void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions>::get(),

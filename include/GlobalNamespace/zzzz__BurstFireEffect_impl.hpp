@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__FireEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstFireEffect_def.hpp"
-#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BurstFireEffect.Awake
 template<>
 
@@ -267,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fadeOutProgress);
 }
-// Ctor Parameters []
- GlobalNamespace::BurstFireEffect::BurstFireEffect()  : GlobalNamespace::FireEffect(THROW_UNLESS(::il2cpp_utils::New<BurstFireEffect>())) {}
+ GlobalNamespace::BurstFireEffect GlobalNamespace::BurstFireEffect::New_ctor()  {
+GlobalNamespace::BurstFireEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BurstFireEffect>())};
+return o;
+}
  void GlobalNamespace::BurstFireEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BurstFireEffect>::get(),

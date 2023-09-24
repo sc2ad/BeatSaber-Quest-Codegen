@@ -5,24 +5,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace UnityEngine {
 class GUILayoutGroup;
 }
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class GUIStyle;
+class UnityEngine__GUILayoutUtility__LayoutCache;
 }
 namespace UnityEngine {
 class GUILayoutOption;
 }
 namespace UnityEngine {
 class GUIContent;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace UnityEngineInternal {
 class GenericStack;
@@ -111,8 +114,7 @@ constexpr UnityEngine::GUILayoutGroup __get_windows() const;
 /// @brief Method set_id addr 0x2b8b068 size 0x8 virtual false final false
  void set_id(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__GUILayoutUtility__LayoutCache(int32_t instanceID) ;
+static UnityEngine::UnityEngine__GUILayoutUtility__LayoutCache New_ctor(int32_t instanceID) ;
 
 /// @brief Method .ctor addr 0x2b89b34 size 0xd8 virtual false final false
  void _ctor(int32_t instanceID) ;

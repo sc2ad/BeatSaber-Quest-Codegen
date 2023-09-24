@@ -10,7 +10,7 @@ class ProductList;
 // Type: Oculus.Platform.Models::ProductList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1146 }), TypeDefinitionIndex(TypeDefinitionIndex(13463)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13463)), TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1146 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13464))
 // CS Name: Oculus.Platform.Models.ProductList
 class CORDL_TYPE ProductList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Product> {
@@ -49,8 +49,7 @@ constexpr explicit ProductList(void* ptr) noexcept : Oculus::Platform::Models::D
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ProductList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::ProductList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a24b0 size 0x25c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

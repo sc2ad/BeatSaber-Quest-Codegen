@@ -3,18 +3,11 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstdint>
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class IReadOnlyList_1;
+class Action_1;
 }
 namespace GlobalNamespace {
 class AnnotatedBeatmapLevelCollectionsGridView;
@@ -24,6 +17,13 @@ class AdditionalContentModel;
 }
 namespace GlobalNamespace {
 class LoadingControl;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -180,8 +180,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnota
 /// @brief Method HandleDidSelectAnnotatedBeatmapLevelCollection addr 0x2160a84 size 0x180 virtual false final false
  void HandleDidSelectAnnotatedBeatmapLevelCollection(GlobalNamespace::IAnnotatedBeatmapLevelCollection beatmapLevelCollection) ;
 
-// Ctor Parameters []
-explicit AnnotatedBeatmapLevelCollectionsViewController() ;
+static GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2160c04 size 0x8 virtual false final false
  void _ctor() ;

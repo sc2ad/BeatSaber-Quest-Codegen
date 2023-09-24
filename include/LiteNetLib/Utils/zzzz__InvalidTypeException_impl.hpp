@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- LiteNetLib::Utils::InvalidTypeException::InvalidTypeException(::StringW message)  : System::ArgumentException(THROW_UNLESS(::il2cpp_utils::New<InvalidTypeException>(message))) {}
+ LiteNetLib::Utils::InvalidTypeException LiteNetLib::Utils::InvalidTypeException::New_ctor(::StringW message)  {
+LiteNetLib::Utils::InvalidTypeException o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::InvalidTypeException>(message))};
+return o;
+}
  void LiteNetLib::Utils::InvalidTypeException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::InvalidTypeException>::get(),

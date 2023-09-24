@@ -9,7 +9,7 @@ class LocalAppContextSwitches;
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11344))
 // CS Name: System.LocalAppContextSwitches
 class CORDL_TYPE LocalAppContextSwitches : public ::bs_hook::Il2CppWrapperType {
 public:
@@ -47,11 +47,11 @@ constexpr explicit LocalAppContextSwitches(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
-static bool __declspec(property(get=__get_MemberDescriptorEqualsReturnsFalseIfEquivalent, put=__set_MemberDescriptorEqualsReturnsFalseIfEquivalent))  MemberDescriptorEqualsReturnsFalseIfEquivalent;
+static bool __declspec(property(get=__get_DontThrowOnInvalidSurrogatePairs, put=__set_DontThrowOnInvalidSurrogatePairs))  DontThrowOnInvalidSurrogatePairs;
 
-static void __set_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value) ;
+static void __set_DontThrowOnInvalidSurrogatePairs(bool value) ;
 
-static bool __get_MemberDescriptorEqualsReturnsFalseIfEquivalent() ;
+static bool __get_DontThrowOnInvalidSurrogatePairs() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };

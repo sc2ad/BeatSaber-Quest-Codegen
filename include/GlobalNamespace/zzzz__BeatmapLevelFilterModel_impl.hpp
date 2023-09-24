@@ -1,20 +1,20 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelFilterModel_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelFilterModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFilterParams_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0._ctor
 template<>
@@ -74,8 +74,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__D
 constexpr GlobalNamespace::PlayerDataModel GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0::__get_playerDataModel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::PlayerDataModel, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0 GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelFilterModel____c__DisplayClass0_0>::get(),

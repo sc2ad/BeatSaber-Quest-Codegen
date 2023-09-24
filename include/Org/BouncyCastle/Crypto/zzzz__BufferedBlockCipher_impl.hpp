@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedCipherBase_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::BufferedBlockCipher._ctor
 template<>
 
@@ -282,8 +282,10 @@ constexpr void Org::BouncyCastle::Crypto::BufferedBlockCipher::__set_cipher(Org:
 constexpr Org::BouncyCastle::Crypto::IBlockCipher Org::BouncyCastle::Crypto::BufferedBlockCipher::__get_cipher() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IBlockCipher, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::BufferedBlockCipher::BufferedBlockCipher()  : Org::BouncyCastle::Crypto::BufferedCipherBase(THROW_UNLESS(::il2cpp_utils::New<BufferedBlockCipher>())) {}
+ Org::BouncyCastle::Crypto::BufferedBlockCipher Org::BouncyCastle::Crypto::BufferedBlockCipher::New_ctor()  {
+Org::BouncyCastle::Crypto::BufferedBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::BufferedBlockCipher>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::BufferedBlockCipher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::BufferedBlockCipher>::get(),
@@ -293,8 +295,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::BufferedBlockCipher::BufferedBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher)  : Org::BouncyCastle::Crypto::BufferedCipherBase(THROW_UNLESS(::il2cpp_utils::New<BufferedBlockCipher>(cipher))) {}
+ Org::BouncyCastle::Crypto::BufferedBlockCipher Org::BouncyCastle::Crypto::BufferedBlockCipher::New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::BufferedBlockCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::BufferedBlockCipher>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::BufferedBlockCipher::_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::BufferedBlockCipher>::get(),

@@ -2,21 +2,22 @@
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCache_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__14.MoveNext
 template<>
@@ -333,8 +334,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::IReadonlyBeatmapData, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }, CppParam { name: "practiceSettings", ty: "GlobalNamespace::PracticeSettings", modifiers: "", def_value: None }, CppParam { name: "useTestNoteCutSoundEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "GlobalNamespace::EnvironmentInfoSO", modifiers: "", def_value: None }, CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorScheme", modifiers: "", def_value: None }, CppParam { name: "mainSettingsModel", ty: "GlobalNamespace::MainSettingsModelSO", modifiers: "", def_value: None }, CppParam { name: "beatmapDataCache", ty: "GlobalNamespace::BeatmapDataCache", modifiers: "", def_value: Some("csnull") }]
- GlobalNamespace::GameplayCoreSceneSetupData::GameplayCoreSceneSetupData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<GameplayCoreSceneSetupData>(difficultyBeatmap, previewBeatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, beatmapDataCache))) {}
+/// @param beatmapDataCache: GlobalNamespace::BeatmapDataCache (default: csnull)
+ GlobalNamespace::GameplayCoreSceneSetupData GlobalNamespace::GameplayCoreSceneSetupData::New_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache)  {
+GlobalNamespace::GameplayCoreSceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayCoreSceneSetupData>(difficultyBeatmap, previewBeatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, beatmapDataCache))};
+return o;
+}
 /// @param beatmapDataCache: GlobalNamespace::BeatmapDataCache (default: csnull)
  void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, GlobalNamespace::PracticeSettings practiceSettings, bool useTestNoteCutSoundEffects, GlobalNamespace::EnvironmentInfoSO environmentInfo, GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::MainSettingsModelSO mainSettingsModel, GlobalNamespace::BeatmapDataCache beatmapDataCache)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

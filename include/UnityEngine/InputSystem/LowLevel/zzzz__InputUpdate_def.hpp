@@ -4,6 +4,12 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputUpdate__UpdateStepCount;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__InputUpdate__SerializedState;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
 // Forward declare root types

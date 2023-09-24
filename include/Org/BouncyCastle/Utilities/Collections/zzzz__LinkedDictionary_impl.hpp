@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionary_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Collections::LinkedDictionary._ctor
 template<>
 
@@ -320,8 +320,10 @@ constexpr void Org::BouncyCastle::Utilities::Collections::LinkedDictionary::__se
 constexpr System::Collections::IList Org::BouncyCastle::Utilities::Collections::LinkedDictionary::__get_keys() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Collections::LinkedDictionary::LinkedDictionary()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LinkedDictionary>())) {}
+ Org::BouncyCastle::Utilities::Collections::LinkedDictionary Org::BouncyCastle::Utilities::Collections::LinkedDictionary::New_ctor()  {
+Org::BouncyCastle::Utilities::Collections::LinkedDictionary o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::LinkedDictionary>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::LinkedDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::LinkedDictionary>::get(),

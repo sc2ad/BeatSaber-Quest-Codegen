@@ -5,14 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class TextOnlyTableCell;
+}
 namespace HMUI {
 class HMUI__TableView__IDataSource;
 }
 namespace HMUI {
 class TableView;
-}
-namespace GlobalNamespace {
-class TextOnlyTableCell;
 }
 namespace HMUI {
 class TableCell;
@@ -32,7 +32,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4800)), TypeDefinitionIndex(TypeDefinitionIndex(10166))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166)), TypeDefinitionIndex(TypeDefinitionIndex(4800))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4800), inst: 2 })
 // CS Name: EnumTableViewDataSource`1
 class CORDL_TYPE EnumTableViewDataSource_1<T> : public UnityEngine::MonoBehaviour {
@@ -119,8 +119,7 @@ constexpr ::ArrayW<T> __get__values() const;
 /// @brief Method GetLabelForValue addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW GetLabelForValue(T value) ;
 
-// Ctor Parameters []
-explicit EnumTableViewDataSource_1() ;
+static GlobalNamespace::EnumTableViewDataSource_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

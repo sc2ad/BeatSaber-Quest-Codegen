@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::AudioReferenceCountingCache::AudioReferenceCountingCache()  : GlobalNamespace::ReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>>(THROW_UNLESS(::il2cpp_utils::New<AudioReferenceCountingCache>())) {}
+ GlobalNamespace::AudioReferenceCountingCache GlobalNamespace::AudioReferenceCountingCache::New_ctor()  {
+GlobalNamespace::AudioReferenceCountingCache o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AudioReferenceCountingCache>())};
+return o;
+}
  void GlobalNamespace::AudioReferenceCountingCache::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AudioReferenceCountingCache>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__RangeConditionHeaderValue_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Net/Http/Headers/zzzz__EntityTagHeaderValue_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::RangeConditionHeaderValue._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void System::Net::Http::Headers::RangeConditionHeaderValue::__set__Ent
 constexpr System::Net::Http::Headers::EntityTagHeaderValue System::Net::Http::Headers::RangeConditionHeaderValue::__get__EntityTag_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Net::Http::Headers::EntityTagHeaderValue, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "date", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
- System::Net::Http::Headers::RangeConditionHeaderValue::RangeConditionHeaderValue(System::DateTimeOffset date)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RangeConditionHeaderValue>(date))) {}
+ System::Net::Http::Headers::RangeConditionHeaderValue System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor(System::DateTimeOffset date)  {
+System::Net::Http::Headers::RangeConditionHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RangeConditionHeaderValue>(date))};
+return o;
+}
  void System::Net::Http::Headers::RangeConditionHeaderValue::_ctor(System::DateTimeOffset date)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RangeConditionHeaderValue>::get(),
@@ -218,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, date);
 }
-// Ctor Parameters [CppParam { name: "entityTag", ty: "System::Net::Http::Headers::EntityTagHeaderValue", modifiers: "", def_value: None }]
- System::Net::Http::Headers::RangeConditionHeaderValue::RangeConditionHeaderValue(System::Net::Http::Headers::EntityTagHeaderValue entityTag)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RangeConditionHeaderValue>(entityTag))) {}
+ System::Net::Http::Headers::RangeConditionHeaderValue System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor(System::Net::Http::Headers::EntityTagHeaderValue entityTag)  {
+System::Net::Http::Headers::RangeConditionHeaderValue o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::RangeConditionHeaderValue>(entityTag))};
+return o;
+}
  void System::Net::Http::Headers::RangeConditionHeaderValue::_ctor(System::Net::Http::Headers::EntityTagHeaderValue entityTag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::RangeConditionHeaderValue>::get(),

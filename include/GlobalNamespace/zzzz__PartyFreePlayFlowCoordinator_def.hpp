@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
@@ -16,10 +13,19 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class ResultsViewController;
 }
 namespace GlobalNamespace {
-class MenuLightsManager;
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0;
+}
+namespace GlobalNamespace {
+class ISaveData;
 }
 namespace GlobalNamespace {
 class LeaderboardViewController;
@@ -28,13 +34,13 @@ namespace GlobalNamespace {
 class LocalLeaderboardViewController;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class ISaveData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -127,8 +133,7 @@ constexpr bool __get_practice() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0() ;
+static GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2144188 size 0x8 virtual false final false
  void _ctor() ;
@@ -197,8 +202,7 @@ constexpr GlobalNamespace::ResultsViewController __get_resultsViewController() c
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0() ;
+static GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21443e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -354,8 +358,7 @@ constexpr GlobalNamespace::ISaveData __get__saveData() const;
 /// @brief Method HandleResultsViewControllerRestartButtonPressed addr 0x2144318 size 0xc8 virtual false final false
  void HandleResultsViewControllerRestartButtonPressed(GlobalNamespace::ResultsViewController resultsViewController) ;
 
-// Ctor Parameters []
-explicit PartyFreePlayFlowCoordinator() ;
+static GlobalNamespace::PartyFreePlayFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x214468c size 0x8 virtual false final false
  void _ctor() ;

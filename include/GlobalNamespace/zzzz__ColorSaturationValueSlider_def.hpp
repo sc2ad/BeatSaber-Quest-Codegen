@@ -3,33 +3,33 @@
 #include "HMUI/zzzz__Slider2D_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector2;
-}
-namespace HMUI {
-class Slider2D;
-}
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
+}
+namespace HMUI {
+class Slider2D;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::UI {
 class Graphic;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -140,8 +140,7 @@ constexpr System::Action_3<GlobalNamespace::ColorSaturationValueSlider,UnityEngi
 /// @brief Method OnPointerUp addr 0x211d29c size 0x44 virtual true final false
  void OnPointerUp(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit ColorSaturationValueSlider() ;
+static GlobalNamespace::ColorSaturationValueSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x211d2e0 size 0x8 virtual false final false
  void _ctor() ;

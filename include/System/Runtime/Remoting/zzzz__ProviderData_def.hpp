@@ -90,8 +90,7 @@ constexpr System::Collections::IList __get_CustomData() const;
 /// @brief Method CopyFrom addr 0x231e00c size 0x704 virtual false final false
  void CopyFrom(System::Runtime::Remoting::ProviderData other) ;
 
-// Ctor Parameters []
-explicit ProviderData() ;
+static System::Runtime::Remoting::ProviderData New_ctor() ;
 
 /// @brief Method .ctor addr 0x23223ac size 0x68 virtual false final false
  void _ctor() ;

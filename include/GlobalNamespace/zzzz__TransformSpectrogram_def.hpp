@@ -3,14 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct LightAxis;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-struct LightAxis;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class BasicSpectrogramData;
@@ -124,8 +124,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get__defaultPositions() const;
 /// @brief Method Update addr 0x226c448 size 0x268 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit TransformSpectrogram() ;
+static GlobalNamespace::TransformSpectrogram New_ctor() ;
 
 /// @brief Method .ctor addr 0x226c6b0 size 0x1c virtual false final false
  void _ctor() ;

@@ -128,8 +128,10 @@ constexpr void System::Security::Principal::NTAccount::__set__value(::StringW va
 constexpr ::StringW System::Security::Principal::NTAccount::__get__value() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Principal::NTAccount::NTAccount(::StringW name)  : System::Security::Principal::IdentityReference(THROW_UNLESS(::il2cpp_utils::New<NTAccount>(name))) {}
+ System::Security::Principal::NTAccount System::Security::Principal::NTAccount::New_ctor(::StringW name)  {
+System::Security::Principal::NTAccount o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::NTAccount>(name))};
+return o;
+}
  void System::Security::Principal::NTAccount::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::NTAccount>::get(),

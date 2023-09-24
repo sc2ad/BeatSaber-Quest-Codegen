@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::PS4ActivePublisherSKUSettingsSO::__set_activePub
 constexpr GlobalNamespace::PS4PublisherSKUSettingsSO GlobalNamespace::PS4ActivePublisherSKUSettingsSO::__get_activePublisherSKUSettings() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::PS4PublisherSKUSettingsSO, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::PS4ActivePublisherSKUSettingsSO::PS4ActivePublisherSKUSettingsSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<PS4ActivePublisherSKUSettingsSO>())) {}
+ GlobalNamespace::PS4ActivePublisherSKUSettingsSO GlobalNamespace::PS4ActivePublisherSKUSettingsSO::New_ctor()  {
+GlobalNamespace::PS4ActivePublisherSKUSettingsSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS4ActivePublisherSKUSettingsSO>())};
+return o;
+}
  void GlobalNamespace::PS4ActivePublisherSKUSettingsSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS4ActivePublisherSKUSettingsSO>::get(),

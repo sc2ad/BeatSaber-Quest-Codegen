@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace TMPro {
-class TMP_Character;
+class TMP_FontAsset;
 }
 namespace TMPro {
-class TMP_FontAsset;
+class TMP_Character;
 }
 namespace System::Collections::Generic {
 template<typename T>

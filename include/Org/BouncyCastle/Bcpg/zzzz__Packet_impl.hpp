@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::Packet::Packet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Packet>())) {}
+ Org::BouncyCastle::Bcpg::Packet Org::BouncyCastle::Bcpg::Packet::New_ctor()  {
+Org::BouncyCastle::Bcpg::Packet o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::Packet>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::Packet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::Packet>::get(),

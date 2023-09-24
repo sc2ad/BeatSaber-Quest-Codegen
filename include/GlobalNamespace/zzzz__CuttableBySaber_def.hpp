@@ -9,10 +9,13 @@ namespace GlobalNamespace {
 class Saber;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace System {
 class IAsyncResult;
@@ -69,8 +72,7 @@ constexpr explicit GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x210a79c size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -169,8 +171,7 @@ constexpr GlobalNamespace::GlobalNamespace__CuttableBySaber__WasCutBySaberDelega
 /// @brief Method Cut addr 0x0 size 0xffffffffffffffff virtual true final false
  void Cut(GlobalNamespace::Saber saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec) ;
 
-// Ctor Parameters []
-explicit CuttableBySaber() ;
+static GlobalNamespace::CuttableBySaber New_ctor() ;
 
 /// @brief Method .ctor addr 0x210a65c size 0x8 virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpStartScaleUp_def.hpp"
-#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__NoteJump_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteJump_def.hpp"
+#include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteJumpStartScaleUp.Awake
 template<>
 
@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteJumpStartScaleUp::NoteJumpStartScaleUp()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteJumpStartScaleUp>())) {}
+ GlobalNamespace::NoteJumpStartScaleUp GlobalNamespace::NoteJumpStartScaleUp::New_ctor()  {
+GlobalNamespace::NoteJumpStartScaleUp o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteJumpStartScaleUp>())};
+return o;
+}
  void GlobalNamespace::NoteJumpStartScaleUp::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteJumpStartScaleUp>::get(),

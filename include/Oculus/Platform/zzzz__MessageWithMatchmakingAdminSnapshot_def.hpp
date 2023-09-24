@@ -13,7 +13,7 @@ class MessageWithMatchmakingAdminSnapshot;
 // Type: Oculus.Platform::MessageWithMatchmakingAdminSnapshot
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4456 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13437))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4456 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13252))
 // CS Name: Oculus.Platform.MessageWithMatchmakingAdminSnapshot
 class CORDL_TYPE MessageWithMatchmakingAdminSnapshot : public Oculus::Platform::Message_1<Oculus::Platform::Models::MatchmakingAdminSnapshot> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithMatchmakingAdminSnapshot(void* ptr) noexcept : Ocu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithMatchmakingAdminSnapshot(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithMatchmakingAdminSnapshot New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257ea58 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

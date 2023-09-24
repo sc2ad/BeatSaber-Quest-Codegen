@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpCurve_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::AbstractFpCurve._ctor
 template<>
 
@@ -124,8 +124,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::AbstractFpCurve::AbstractFpCurve(Org::BouncyCastle::Math::BigInteger q)  : Org::BouncyCastle::Math::EC::ECCurve(THROW_UNLESS(::il2cpp_utils::New<AbstractFpCurve>(q))) {}
+ Org::BouncyCastle::Math::EC::AbstractFpCurve Org::BouncyCastle::Math::EC::AbstractFpCurve::New_ctor(Org::BouncyCastle::Math::BigInteger q)  {
+Org::BouncyCastle::Math::EC::AbstractFpCurve o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::AbstractFpCurve>(q))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::AbstractFpCurve::_ctor(Org::BouncyCastle::Math::BigInteger q)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::AbstractFpCurve>::get(),

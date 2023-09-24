@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class EncryptionScheme;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class KeyDerivationFunc;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class EncryptionScheme;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme __get_scheme() const;
 /// @brief Method GetInstance addr 0xefb840 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "keyDevFunc", ty: "Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc", modifiers: "", def_value: None }, CppParam { name: "encScheme", ty: "Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme", modifiers: "", def_value: None }]
-explicit PbeS2Parameters(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc keyDevFunc, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme encScheme) ;
+static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters New_ctor(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc keyDevFunc, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme encScheme) ;
 
 /// @brief Method .ctor addr 0xefbb70 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc keyDevFunc, Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme encScheme) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PbeS2Parameters(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefb8e4 size 0x28c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

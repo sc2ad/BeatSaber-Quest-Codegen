@@ -130,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::OperationCanceledException::OperationCanceledException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OperationCanceledException>())) {}
+ System::OperationCanceledException System::OperationCanceledException::New_ctor()  {
+System::OperationCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::OperationCanceledException>())};
+return o;
+}
  void System::OperationCanceledException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OperationCanceledException>::get(),
@@ -141,8 +143,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::OperationCanceledException::OperationCanceledException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OperationCanceledException>(message))) {}
+ System::OperationCanceledException System::OperationCanceledException::New_ctor(::StringW message)  {
+System::OperationCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::OperationCanceledException>(message))};
+return o;
+}
  void System::OperationCanceledException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OperationCanceledException>::get(),
@@ -152,8 +156,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "token", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }]
- System::OperationCanceledException::OperationCanceledException(::StringW message, System::Threading::CancellationToken token)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OperationCanceledException>(message, token))) {}
+ System::OperationCanceledException System::OperationCanceledException::New_ctor(::StringW message, System::Threading::CancellationToken token)  {
+System::OperationCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::OperationCanceledException>(message, token))};
+return o;
+}
  void System::OperationCanceledException::_ctor(::StringW message, System::Threading::CancellationToken token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OperationCanceledException>::get(),
@@ -163,8 +169,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, token);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::OperationCanceledException::OperationCanceledException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<OperationCanceledException>(info, context))) {}
+ System::OperationCanceledException System::OperationCanceledException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::OperationCanceledException o{THROW_UNLESS(::il2cpp_utils::New<System::OperationCanceledException>(info, context))};
+return o;
+}
  void System::OperationCanceledException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::OperationCanceledException>::get(),

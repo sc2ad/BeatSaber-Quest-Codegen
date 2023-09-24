@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4828)), TypeDefinitionIndex(TypeDefinitionIndex(4827))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4827)), TypeDefinitionIndex(TypeDefinitionIndex(4828))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4828), inst: 2 })
 // CS Name: BeatmapDataCallbackWrapper`1
 class CORDL_TYPE BeatmapDataCallbackWrapper_1<T> : public GlobalNamespace::BeatmapDataCallbackWrapper {
@@ -74,8 +74,7 @@ constexpr GlobalNamespace::BeatmapDataCallback_1<T> __get__callback() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "GlobalNamespace::BeatmapDataCallback_1<T>", modifiers: "", def_value: None }, CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventSubtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit BeatmapDataCallbackWrapper_1(GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;
+static GlobalNamespace::BeatmapDataCallbackWrapper_1<T> New_ctor(GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__ElGamalKeyPairGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyGenerationParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator.Init
 template<>
@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::ElGamalKeyPairGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ElGamalKeyPairGenerator>())) {}
+ Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator>::get(),

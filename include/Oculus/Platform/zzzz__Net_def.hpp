@@ -5,23 +5,23 @@
 #include <cstdint>
 namespace Oculus::Platform {
 template<typename T>
-class Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform::Models {
-class PingResult;
-}
-namespace Oculus::Platform::Models {
-class NetworkingPeer;
+class Request_1;
 }
 namespace Oculus::Platform {
 struct SendPolicy;
 }
 namespace Oculus::Platform {
-class Packet;
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
+}
+namespace Oculus::Platform::Models {
+class NetworkingPeer;
 }
 namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+class Packet;
+}
+namespace Oculus::Platform::Models {
+class PingResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {

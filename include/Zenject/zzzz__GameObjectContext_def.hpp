@@ -6,28 +6,28 @@
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace Zenject {
-class MonoKernel;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System {
-class Action;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class MonoKernel;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -161,8 +161,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method InstallBindings addr 0x2d75524 size 0x1f8 virtual false final false
  void InstallBindings(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour> injectableMonoBehaviours) ;
 
-// Ctor Parameters []
-explicit GameObjectContext() ;
+static Zenject::GameObjectContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d759e4 size 0x5c virtual false final false
  void _ctor() ;

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__RuntimeFieldHandle_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
 #include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/zzzz__RuntimeFieldHandle_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__MarshalAsAttribute_def.hpp"
 #include "System/Reflection/zzzz__FieldAttributes_def.hpp"
-#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
 //  Writing Method size for method: System::Reflection::FieldInfo._ctor
 template<>
 
@@ -470,8 +470,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::FieldInfo::FieldInfo()  : System::Reflection::MemberInfo(THROW_UNLESS(::il2cpp_utils::New<FieldInfo>())) {}
+ System::Reflection::FieldInfo System::Reflection::FieldInfo::New_ctor()  {
+System::Reflection::FieldInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::FieldInfo>())};
+return o;
+}
  void System::Reflection::FieldInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::FieldInfo>::get(),

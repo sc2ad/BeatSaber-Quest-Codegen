@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BeatmapLevelPackCollectionSO, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapLevelPackCollectionContainerSO::BeatmapLevelPackCollectionContainerSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelPackCollectionContainerSO>())) {}
+ GlobalNamespace::BeatmapLevelPackCollectionContainerSO GlobalNamespace::BeatmapLevelPackCollectionContainerSO::New_ctor()  {
+GlobalNamespace::BeatmapLevelPackCollectionContainerSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelPackCollectionContainerSO>())};
+return o;
+}
  void GlobalNamespace::BeatmapLevelPackCollectionContainerSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelPackCollectionContainerSO>::get(),

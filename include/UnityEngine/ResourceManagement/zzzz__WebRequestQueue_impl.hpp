@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/zzzz__WebRequestQueue_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__WebRequestQueueOperation_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::WebRequestQueue.SetMaxConcurrentRequests
 template<>
 

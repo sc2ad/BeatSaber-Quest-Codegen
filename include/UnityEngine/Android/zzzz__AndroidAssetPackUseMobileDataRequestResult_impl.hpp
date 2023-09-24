@@ -23,8 +23,10 @@ constexpr void UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult:
 constexpr bool UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::__get__allowed_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "allowed", ty: "bool", modifiers: "", def_value: None }]
- UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::AndroidAssetPackUseMobileDataRequestResult(bool allowed)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AndroidAssetPackUseMobileDataRequestResult>(allowed))) {}
+ UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::New_ctor(bool allowed)  {
+UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult>(allowed))};
+return o;
+}
  void UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult::_ctor(bool allowed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult>::get(),

@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class Encoding;
+namespace System {
+class Version;
+}
+namespace System::IO {
+class MemoryStream;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Net {
-class Cookie;
+class CookieCollection;
 }
-namespace System::Net {
-class WebHeaderCollection;
+namespace System::Text {
+class Encoding;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-class CookieCollection;
+class Cookie;
 }
 namespace System::Net {
 class HttpListenerContext;
 }
-namespace System::IO {
-class MemoryStream;
-}
 namespace System::Net {
 class ResponseStream;
 }
-namespace System {
-class Version;
+namespace System::Net {
+class WebHeaderCollection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -219,8 +219,7 @@ static ::StringW __get_tspecials() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "System::Net::HttpListenerContext", modifiers: "", def_value: None }]
-explicit HttpListenerResponse(System::Net::HttpListenerContext context) ;
+static System::Net::HttpListenerResponse New_ctor(System::Net::HttpListenerContext context) ;
 
 /// @brief Method .ctor addr 0x2836f28 size 0x114 virtual false final false
  void _ctor(System::Net::HttpListenerContext context) ;

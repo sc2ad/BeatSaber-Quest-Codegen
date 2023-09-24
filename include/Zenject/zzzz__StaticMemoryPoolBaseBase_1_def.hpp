@@ -2,26 +2,26 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace Zenject {
-class IMemoryPool;
+namespace System {
+class IDisposable;
 }
 namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
-}
-namespace System {
 class Type;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -120,8 +120,7 @@ constexpr int32_t __get__activeCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onDespawnedMethod", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }]
-explicit StaticMemoryPoolBaseBase_1(System::Action_1<TValue> onDespawnedMethod) ;
+static Zenject::StaticMemoryPoolBaseBase_1<TValue> New_ctor(System::Action_1<TValue> onDespawnedMethod) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_1<TValue> onDespawnedMethod) ;

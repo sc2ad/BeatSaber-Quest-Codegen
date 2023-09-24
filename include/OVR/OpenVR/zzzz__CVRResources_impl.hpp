@@ -1,7 +1,7 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRResources_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRResources._ctor
 template<>
 
@@ -59,8 +59,10 @@ constexpr void OVR::OpenVR::CVRResources::__set_FnTable(OVR::OpenVR::IVRResource
 constexpr OVR::OpenVR::IVRResources OVR::OpenVR::CVRResources::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRResources, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRResources::CVRResources(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRResources>(pInterface))) {}
+ OVR::OpenVR::CVRResources OVR::OpenVR::CVRResources::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRResources o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRResources>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRResources::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRResources>::get(),

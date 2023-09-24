@@ -137,8 +137,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::SerStack::__s
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::SerStack::__get_top() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stackId", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::SerStack::SerStack(::StringW stackId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerStack>(stackId))) {}
+ System::Runtime::Serialization::Formatters::Binary::SerStack System::Runtime::Serialization::Formatters::Binary::SerStack::New_ctor(::StringW stackId)  {
+System::Runtime::Serialization::Formatters::Binary::SerStack o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::SerStack>(stackId))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::SerStack::_ctor(::StringW stackId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::SerStack>::get(),

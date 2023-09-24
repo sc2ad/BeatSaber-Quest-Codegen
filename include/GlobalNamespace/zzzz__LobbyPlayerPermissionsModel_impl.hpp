@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "GlobalNamespace/zzzz__PlayersLobbyPermissionConfigurationNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LobbyPlayerPermissionsModel.get_isPartyOwner
 template<>
 
@@ -485,8 +485,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, userId, playersLobbyPermissionConfiguration);
 }
-// Ctor Parameters []
- GlobalNamespace::LobbyPlayerPermissionsModel::LobbyPlayerPermissionsModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LobbyPlayerPermissionsModel>())) {}
+ GlobalNamespace::LobbyPlayerPermissionsModel GlobalNamespace::LobbyPlayerPermissionsModel::New_ctor()  {
+GlobalNamespace::LobbyPlayerPermissionsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LobbyPlayerPermissionsModel>())};
+return o;
+}
  void GlobalNamespace::LobbyPlayerPermissionsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LobbyPlayerPermissionsModel>::get(),

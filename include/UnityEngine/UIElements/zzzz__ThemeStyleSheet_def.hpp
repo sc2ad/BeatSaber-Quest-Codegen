@@ -50,8 +50,7 @@ constexpr explicit ThemeStyleSheet(void* ptr) noexcept : UnityEngine::UIElements
 /// @brief Method OnEnable addr 0x2cf3d84 size 0x1c virtual true final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit ThemeStyleSheet() ;
+static UnityEngine::UIElements::ThemeStyleSheet New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf3f04 size 0x58 virtual false final false
  void _ctor() ;

@@ -85,26 +85,22 @@ constexpr int32_t __get_index() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PkixCertPathValidatorException() ;
+static Org::BouncyCastle::Pkix::PkixCertPathValidatorException New_ctor() ;
 
 /// @brief Method .ctor addr 0x1074518 size 0xc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PkixCertPathValidatorException(::StringW message) ;
+static Org::BouncyCastle::Pkix::PkixCertPathValidatorException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x1074524 size 0xc virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cause", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit PkixCertPathValidatorException(::StringW message, System::Exception cause) ;
+static Org::BouncyCastle::Pkix::PkixCertPathValidatorException New_ctor(::StringW message, System::Exception cause) ;
 
 /// @brief Method .ctor addr 0x1060298 size 0x2c virtual false final false
  void _ctor(::StringW message, System::Exception cause) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cause", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "certPath", ty: "Org::BouncyCastle::Pkix::PkixCertPath", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PkixCertPathValidatorException(::StringW message, System::Exception cause, Org::BouncyCastle::Pkix::PkixCertPath certPath, int32_t index) ;
+static Org::BouncyCastle::Pkix::PkixCertPathValidatorException New_ctor(::StringW message, System::Exception cause, Org::BouncyCastle::Pkix::PkixCertPath certPath, int32_t index) ;
 
 /// @brief Method .ctor addr 0x106a15c size 0x198 virtual false final false
  void _ctor(::StringW message, System::Exception cause, Org::BouncyCastle::Pkix::PkixCertPath certPath, int32_t index) ;

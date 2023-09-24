@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace TMPro {
-class TextMeshProUGUI;
+namespace System {
+class Action;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace System {
-class Action;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -135,8 +135,7 @@ constexpr System::Action __get_incButtonWasPressedEvent() const;
 /// @brief Method DecButtonPressed addr 0x21279e4 size 0x1c virtual false final false
  void DecButtonPressed() ;
 
-// Ctor Parameters []
-explicit StepValuePicker() ;
+static GlobalNamespace::StepValuePicker New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127a00 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__TypedReference_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
 //  Writing Method size for method: System::TypedReference.MakeTypedReference
 template<>
 

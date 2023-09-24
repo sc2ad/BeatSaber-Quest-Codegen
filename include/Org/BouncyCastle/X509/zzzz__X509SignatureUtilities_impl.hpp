@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509SignatureUtilities_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509SignatureUtilities.SetSignatureParameters
 template<>
 
@@ -106,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, digestAlgOID);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::X509SignatureUtilities::X509SignatureUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509SignatureUtilities>())) {}
+ Org::BouncyCastle::X509::X509SignatureUtilities Org::BouncyCastle::X509::X509SignatureUtilities::New_ctor()  {
+Org::BouncyCastle::X509::X509SignatureUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509SignatureUtilities>())};
+return o;
+}
  void Org::BouncyCastle::X509::X509SignatureUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509SignatureUtilities>::get(),

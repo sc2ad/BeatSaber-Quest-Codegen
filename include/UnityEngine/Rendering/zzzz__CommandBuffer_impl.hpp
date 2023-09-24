@@ -1,22 +1,22 @@
 #pragma once
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/zzzz__FilterMode_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBufferExecutionFlags_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureMemoryless_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureFormat_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Mesh_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBufferExecutionFlags_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderTextureSubElement_def.hpp"
+#include "UnityEngine/zzzz__FilterMode_def.hpp"
+#include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_def.hpp"
 //  Writing Method size for method: UnityEngine::Rendering::CommandBuffer.InitBuffer
 template<>
 
@@ -983,8 +983,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, disposing);
 }
-// Ctor Parameters []
- UnityEngine::Rendering::CommandBuffer::CommandBuffer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CommandBuffer>())) {}
+ UnityEngine::Rendering::CommandBuffer UnityEngine::Rendering::CommandBuffer::New_ctor()  {
+UnityEngine::Rendering::CommandBuffer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Rendering::CommandBuffer>())};
+return o;
+}
  void UnityEngine::Rendering::CommandBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Rendering::CommandBuffer>::get(),

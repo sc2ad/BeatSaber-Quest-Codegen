@@ -5,36 +5,39 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class RuntimeType;
+namespace System::Reflection {
+struct CustomAttributeTypedArgument;
 }
 namespace System::Reflection {
-class Assembly;
+class Module;
 }
 namespace System::Reflection {
 struct CustomAttributeNamedArgument;
 }
 namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-struct CustomAttributeTypedArgument;
+class System__Reflection__CustomAttributeData__LazyCAttrData;
 }
 namespace System::Reflection {
 class ParameterInfo;
 }
 namespace System::Reflection {
-class ConstructorInfo;
+class MemberInfo;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System::Reflection {
-class Module;
+class Assembly;
+}
+namespace System::Reflection {
+class ConstructorInfo;
+}
+namespace System {
+class RuntimeType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -106,8 +109,7 @@ constexpr uint32_t __get_data_length() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Reflection__CustomAttributeData__LazyCAttrData() ;
+static System::Reflection::System__Reflection__CustomAttributeData__LazyCAttrData New_ctor() ;
 
 /// @brief Method .ctor addr 0x238355c size 0x8 virtual false final false
  void _ctor() ;
@@ -198,26 +200,22 @@ constexpr System::Reflection::System__Reflection__CustomAttributeData__LazyCAttr
 
 // Methods
 
-// Ctor Parameters []
-explicit CustomAttributeData() ;
+static System::Reflection::CustomAttributeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x23834bc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "ctorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "data_length", ty: "uint32_t", modifiers: "", def_value: None }]
-explicit CustomAttributeData(System::Reflection::ConstructorInfo ctorInfo, System::Reflection::Assembly assembly, ::cordl_internals::intptr_t data, uint32_t data_length) ;
+static System::Reflection::CustomAttributeData New_ctor(System::Reflection::ConstructorInfo ctorInfo, System::Reflection::Assembly assembly, ::cordl_internals::intptr_t data, uint32_t data_length) ;
 
 /// @brief Method .ctor addr 0x23834c4 size 0x98 virtual false final false
  void _ctor(System::Reflection::ConstructorInfo ctorInfo, System::Reflection::Assembly assembly, ::cordl_internals::intptr_t data, uint32_t data_length) ;
 
-// Ctor Parameters [CppParam { name: "ctorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }]
-explicit CustomAttributeData(System::Reflection::ConstructorInfo ctorInfo) ;
+static System::Reflection::CustomAttributeData New_ctor(System::Reflection::ConstructorInfo ctorInfo) ;
 
 /// @brief Method .ctor addr 0x237a17c size 0xfc virtual false final false
  void _ctor(System::Reflection::ConstructorInfo ctorInfo) ;
 
-// Ctor Parameters [CppParam { name: "ctorInfo", ty: "System::Reflection::ConstructorInfo", modifiers: "", def_value: None }, CppParam { name: "ctorArgs", ty: "System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument>", modifiers: "", def_value: None }, CppParam { name: "namedArgs", ty: "System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument>", modifiers: "", def_value: None }]
-explicit CustomAttributeData(System::Reflection::ConstructorInfo ctorInfo, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument> ctorArgs, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument> namedArgs) ;
+static System::Reflection::CustomAttributeData New_ctor(System::Reflection::ConstructorInfo ctorInfo, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument> ctorArgs, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument> namedArgs) ;
 
 /// @brief Method .ctor addr 0x237a528 size 0x3c virtual false final false
  void _ctor(System::Reflection::ConstructorInfo ctorInfo, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeTypedArgument> ctorArgs, System::Collections::Generic::IList_1<System::Reflection::CustomAttributeNamedArgument> namedArgs) ;

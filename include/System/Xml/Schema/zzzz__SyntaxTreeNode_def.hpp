@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace System::Xml::Schema {
-class Positions;
+class BitSet;
 }
 namespace System::Xml::Schema {
 class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class InteriorNode;
+class Positions;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class InteriorNode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -79,8 +79,7 @@ constexpr explicit SyntaxTreeNode(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 /// @brief Method get_IsRangeNode addr 0x271a260 size 0x8 virtual true final false
  bool get_IsRangeNode() ;
 
-// Ctor Parameters []
-explicit SyntaxTreeNode() ;
+static System::Xml::Schema::SyntaxTreeNode New_ctor() ;
 
 /// @brief Method .ctor addr 0x271a268 size 0x8 virtual false final false
  void _ctor() ;

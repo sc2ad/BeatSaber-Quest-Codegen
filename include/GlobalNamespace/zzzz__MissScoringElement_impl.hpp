@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
-#include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
+#include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
+#include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissScoringElement.get_cutScore
 template<>
 
@@ -162,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteData);
 }
-// Ctor Parameters []
- GlobalNamespace::MissScoringElement::MissScoringElement()  : GlobalNamespace::ScoringElement(THROW_UNLESS(::il2cpp_utils::New<MissScoringElement>())) {}
+ GlobalNamespace::MissScoringElement GlobalNamespace::MissScoringElement::New_ctor()  {
+GlobalNamespace::MissScoringElement o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissScoringElement>())};
+return o;
+}
  void GlobalNamespace::MissScoringElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissScoringElement>::get(),
@@ -190,8 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissScoringElement__Pool::GlobalNamespace__MissScoringElement__Pool()  : GlobalNamespace::GlobalNamespace__ScoringElement__Pool_1<GlobalNamespace::MissScoringElement>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissScoringElement__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__MissScoringElement__Pool GlobalNamespace::GlobalNamespace__MissScoringElement__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissScoringElement__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissScoringElement__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissScoringElement__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissScoringElement__Pool>::get(),

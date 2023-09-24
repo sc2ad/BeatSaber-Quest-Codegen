@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__DrawHelpers_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: GlobalNamespace::DrawHelpers.DrawTexture
 template<>
 
@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, texture, x, y, w, h, mat, sx, sy, sw, sh);
 }
-// Ctor Parameters []
- GlobalNamespace::DrawHelpers::DrawHelpers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DrawHelpers>())) {}
+ GlobalNamespace::DrawHelpers GlobalNamespace::DrawHelpers::New_ctor()  {
+GlobalNamespace::DrawHelpers o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DrawHelpers>())};
+return o;
+}
  void GlobalNamespace::DrawHelpers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DrawHelpers>::get(),

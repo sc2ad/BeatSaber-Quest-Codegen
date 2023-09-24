@@ -130,8 +130,7 @@ static int32_t GetProcessId() ;
 /// @brief Method GetThreadId addr 0x27da948 size 0x20 virtual false final false
 static int32_t GetThreadId() ;
 
-// Ctor Parameters []
-explicit TraceEventCache() ;
+static System::Diagnostics::TraceEventCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x27dadd4 size 0x70 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelStatsView_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerData_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LevelStatsView.Hide
 template<>
 
@@ -91,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, difficultyBeatmap, playerData);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelStatsView::LevelStatsView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LevelStatsView>())) {}
+ GlobalNamespace::LevelStatsView GlobalNamespace::LevelStatsView::New_ctor()  {
+GlobalNamespace::LevelStatsView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelStatsView>())};
+return o;
+}
  void GlobalNamespace::LevelStatsView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelStatsView>::get(),

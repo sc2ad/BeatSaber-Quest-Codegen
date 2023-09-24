@@ -5,16 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -23,45 +16,52 @@ namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4>
 class Action_4;
 }
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class ICachable;
 }
 namespace System {
 class Exception;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class HashSet_1;
+class List_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IGenericProviderOperation;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System {
 class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -257,8 +257,7 @@ static constexpr ::ConstString  kInvalidHandleMsg{u"The ProvideHandle is invalid
 /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
  UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(System::Collections::Generic::HashSet_1<::bs_hook::Il2CppWrapperType> visited) ;
 
-// Ctor Parameters []
-explicit ProviderOperation_1() ;
+static UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

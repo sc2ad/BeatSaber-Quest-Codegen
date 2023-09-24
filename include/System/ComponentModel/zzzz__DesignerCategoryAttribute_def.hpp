@@ -90,14 +90,12 @@ constexpr ::StringW __get__Category_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DesignerCategoryAttribute() ;
+static System::ComponentModel::DesignerCategoryAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2771cbc size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "category", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DesignerCategoryAttribute(::StringW category) ;
+static System::ComponentModel::DesignerCategoryAttribute New_ctor(::StringW category) ;
 
 /// @brief Method .ctor addr 0x2771d18 size 0x28 virtual false final false
  void _ctor(::StringW category) ;

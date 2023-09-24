@@ -4,13 +4,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
 class FloatSO;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +85,7 @@ constexpr float_t __get_timeScale() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "startSongTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeScale", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData(float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerSongTimeSyncController__InitData New_ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
 
 /// @brief Method .ctor addr 0x20e0e40 size 0x3c virtual false final false
  void _ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale) ;
@@ -269,8 +271,7 @@ constexpr bool __get__isReady() const;
 /// @brief Method StopSong addr 0x20df7e8 size 0xc virtual false final false
  void StopSong() ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerSongTimeSyncController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e159c size 0x14 virtual false final false
  void _ctor() ;

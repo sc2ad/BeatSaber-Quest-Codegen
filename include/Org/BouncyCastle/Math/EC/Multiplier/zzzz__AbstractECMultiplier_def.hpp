@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ECMultiplier;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -68,8 +68,7 @@ constexpr explicit AbstractECMultiplier(void* ptr) noexcept : ::bs_hook::Il2CppW
 /// @brief Method CheckResult addr 0xfa8ae0 size 0xc virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint CheckResult(Org::BouncyCastle::Math::EC::ECPoint p) ;
 
-// Ctor Parameters []
-explicit AbstractECMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa8aec size 0x8 virtual false final false
  void _ctor() ;

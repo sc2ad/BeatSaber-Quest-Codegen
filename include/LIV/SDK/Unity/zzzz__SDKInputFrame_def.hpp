@@ -4,19 +4,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace LIV::SDK::Unity {
-struct SDKTransform;
+struct FEATURES;
 }
 namespace LIV::SDK::Unity {
 struct SDKPose;
 }
 namespace LIV::SDK::Unity {
+struct SDKPriority;
+}
+namespace LIV::SDK::Unity {
 struct SDKClipPlane;
 }
 namespace LIV::SDK::Unity {
-struct FEATURES;
-}
-namespace LIV::SDK::Unity {
-struct SDKPriority;
+struct SDKTransform;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {

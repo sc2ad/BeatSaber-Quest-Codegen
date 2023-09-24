@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__SeedEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::SeedEngine.Init
 template<>
 
@@ -507,8 +507,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, r0, ki0, r1, ki1);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::SeedEngine::SeedEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SeedEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::SeedEngine Org::BouncyCastle::Crypto::Engines::SeedEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::SeedEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::SeedEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::SeedEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::SeedEngine>::get(),

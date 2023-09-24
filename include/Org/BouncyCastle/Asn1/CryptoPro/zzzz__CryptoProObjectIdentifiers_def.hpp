@@ -194,8 +194,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_GostElSgDH3410x1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CryptoProObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xdfb950 size 0x8 virtual false final false
  void _ctor() ;

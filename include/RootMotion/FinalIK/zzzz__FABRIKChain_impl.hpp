@@ -1,7 +1,7 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__FABRIKChain_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FABRIK_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FABRIK_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::FABRIKChain.IsValid
 template<>
 
@@ -173,8 +173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector3, false>(const_cast<void*>(instance), ___internal_method, chain);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::FABRIKChain::FABRIKChain()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FABRIKChain>())) {}
+ RootMotion::FinalIK::FABRIKChain RootMotion::FinalIK::FABRIKChain::New_ctor()  {
+RootMotion::FinalIK::FABRIKChain o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::FABRIKChain>())};
+return o;
+}
  void RootMotion::FinalIK::FABRIKChain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::FABRIKChain>::get(),

@@ -1,28 +1,25 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Threading {
-class ContextCallback;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace System::Threading {
-class ExecutionContext;
+class ContextCallback;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
 namespace System::Threading {
-class SynchronizationContext;
+class System__Threading__CancellationCallbackInfo__WithSyncContext;
+}
+namespace System::Threading {
+class ExecutionContext;
 }
 // Forward declare root types
 namespace System::Threading {
 class CancellationCallbackInfo;
-}
-namespace System::Threading {
-class System__Threading__CancellationCallbackInfo__WithSyncContext;
 }
 // Type: System.Threading::CancellationCallbackInfo
 namespace System::Threading {
@@ -101,8 +98,7 @@ static System::Threading::ContextCallback __get_s_executionContextCallback() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "stateForCallback", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "targetExecutionContext", ty: "System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "cancellationTokenSource", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: None }]
-explicit CancellationCallbackInfo(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource) ;
+static System::Threading::CancellationCallbackInfo New_ctor(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource) ;
 
 /// @brief Method .ctor addr 0x24a5b18 size 0x40 virtual false final false
  void _ctor(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource) ;
@@ -117,68 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-// Type: ::WithSyncContext
-namespace System::Threading {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2690))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2689))
-// CS Name: System.Threading.CancellationCallbackInfo::WithSyncContext
-class CORDL_TYPE System__Threading__CancellationCallbackInfo__WithSyncContext : public System::Threading::CancellationCallbackInfo {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
-
-virtual ~System__Threading__CancellationCallbackInfo__WithSyncContext() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationCallbackInfo__WithSyncContext", modifiers: " const&", def_value: None }]
-constexpr System__Threading__CancellationCallbackInfo__WithSyncContext(System__Threading__CancellationCallbackInfo__WithSyncContext const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Threading__CancellationCallbackInfo__WithSyncContext", modifiers: "&&", def_value: None }]
-constexpr System__Threading__CancellationCallbackInfo__WithSyncContext(System__Threading__CancellationCallbackInfo__WithSyncContext&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Threading__CancellationCallbackInfo__WithSyncContext(void* ptr) noexcept : System::Threading::CancellationCallbackInfo(ptr) {
-}
-
-
-  constexpr System__Threading__CancellationCallbackInfo__WithSyncContext& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationCallbackInfo__WithSyncContext& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Threading__CancellationCallbackInfo__WithSyncContext& operator=(System__Threading__CancellationCallbackInfo__WithSyncContext&& o) noexcept = default;
-  constexpr System__Threading__CancellationCallbackInfo__WithSyncContext& operator=(System__Threading__CancellationCallbackInfo__WithSyncContext const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Threading::SynchronizationContext __declspec(property(get=__get_TargetSyncContext, put=__set_TargetSyncContext))  TargetSyncContext;
-
-constexpr void __set_TargetSyncContext(System::Threading::SynchronizationContext value) ;
-
-constexpr System::Threading::SynchronizationContext __get_TargetSyncContext() const;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "callback", ty: "System::Action_1<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "stateForCallback", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "targetExecutionContext", ty: "System::Threading::ExecutionContext", modifiers: "", def_value: None }, CppParam { name: "cancellationTokenSource", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: None }, CppParam { name: "targetSyncContext", ty: "System::Threading::SynchronizationContext", modifiers: "", def_value: None }]
-explicit System__Threading__CancellationCallbackInfo__WithSyncContext(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource, System::Threading::SynchronizationContext targetSyncContext) ;
-
-/// @brief Method .ctor addr 0x24a5b58 size 0x50 virtual false final false
- void _ctor(System::Action_1<::bs_hook::Il2CppWrapperType> callback, ::bs_hook::Il2CppWrapperType stateForCallback, System::Threading::ExecutionContext targetExecutionContext, System::Threading::CancellationTokenSource cancellationTokenSource, System::Threading::SynchronizationContext targetSyncContext) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Threading
 NEED_NO_BOX(System::Threading::CancellationCallbackInfo);
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo, "System.Threading", "CancellationCallbackInfo");
-NEED_NO_BOX(System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext);
-DEFINE_IL2CPP_ARG_TYPE(System::Threading::System__Threading__CancellationCallbackInfo__WithSyncContext, "System.Threading", "CancellationCallbackInfo/WithSyncContext");

@@ -7,20 +7,23 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class GlobalNamespace__PlayerHeightDetector__InitData;
 }
 namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -86,8 +89,7 @@ constexpr float_t __get_startPlayerHeight() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "headPosToPlayerHeightOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "startPlayerHeight", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerHeightDetector__InitData(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight) ;
+static GlobalNamespace::GlobalNamespace__PlayerHeightDetector__InitData New_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight) ;
 
 /// @brief Method .ctor addr 0x210983c size 0x2c virtual false final false
  void _ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight) ;
@@ -229,8 +231,7 @@ constexpr float_t __get__lastReportedHeight() const;
 /// @brief Method BeatmapObjectSpawnCallback addr 0x21097f0 size 0x44 virtual false final false
  void BeatmapObjectSpawnCallback(GlobalNamespace::ObstacleData obstacleData) ;
 
-// Ctor Parameters []
-explicit PlayerHeightDetector() ;
+static GlobalNamespace::PlayerHeightDetector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2109834 size 0x8 virtual false final false
  void _ctor() ;

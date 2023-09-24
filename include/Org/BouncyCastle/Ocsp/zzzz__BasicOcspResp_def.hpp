@@ -5,38 +5,38 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class ResponseData;
-}
 namespace System {
 struct DateTime;
-}
-namespace Org::BouncyCastle::Ocsp {
-class RespData;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Ocsp {
-class RespID;
-}
-namespace Org::BouncyCastle::Ocsp {
-class SingleResp;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Ocsp {
+class RespID;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class ResponseData;
+}
+namespace Org::BouncyCastle::Ocsp {
+class SingleResp;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class BasicOcspResponse;
 }
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
+}
+namespace Org::BouncyCastle::Ocsp {
+class RespData;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -116,8 +116,7 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::ResponseData __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "resp", ty: "Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse", modifiers: "", def_value: None }]
-explicit BasicOcspResp(Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse resp) ;
+static Org::BouncyCastle::Ocsp::BasicOcspResp New_ctor(Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse resp) ;
 
 /// @brief Method .ctor addr 0x100fb18 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse resp) ;

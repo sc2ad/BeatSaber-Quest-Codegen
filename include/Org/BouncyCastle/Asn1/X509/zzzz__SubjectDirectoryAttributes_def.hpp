@@ -2,12 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace System::Collections {
 class IList;
 }
@@ -16,6 +10,12 @@ class ArrayList;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -80,20 +80,17 @@ constexpr System::Collections::IList __get_attributes() const;
 /// @brief Method GetInstance addr 0x110c4dc size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SubjectDirectoryAttributes(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110c664 size 0x360 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
-explicit SubjectDirectoryAttributes(System::Collections::ArrayList attributes) ;
+static Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes New_ctor(System::Collections::ArrayList attributes) ;
 
 /// @brief Method .ctor addr 0x110c9c4 size 0x4 virtual false final false
  void _ctor(System::Collections::ArrayList attributes) ;
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit SubjectDirectoryAttributes(System::Collections::IList attributes) ;
+static Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes New_ctor(System::Collections::IList attributes) ;
 
 /// @brief Method .ctor addr 0x110c9c8 size 0x78 virtual false final false
  void _ctor(System::Collections::IList attributes) ;

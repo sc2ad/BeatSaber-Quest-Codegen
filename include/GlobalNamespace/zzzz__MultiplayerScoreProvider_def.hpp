@@ -6,16 +6,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IComparable_1;
-}
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
 class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 struct StandardScoreSyncState;
+}
+namespace System {
+template<typename T>
+class IComparable_1;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__StandardScoreSyncState__Score;
@@ -24,13 +24,8 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreProvider____c;
 }
 namespace GlobalNamespace {
 class IScoreSyncStateManager;
@@ -42,6 +37,20 @@ class Dictionary_2;
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -169,8 +178,7 @@ constexpr GlobalNamespace::MultiplayerScoreProvider __get__scoreSyncManager() co
 /// @brief Method get_userName addr 0x2102790 size 0xb8 virtual false final false
  ::StringW get_userName() ;
 
-// Ctor Parameters [CppParam { name: "multiplayerSyncState", ty: "GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t>", modifiers: "", def_value: None }, CppParam { name: "scoreSyncManager", ty: "GlobalNamespace::MultiplayerScoreProvider", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MultiplayerScoreProvider__RankedPlayer(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t> multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider scoreSyncManager) ;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider__RankedPlayer New_ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t> multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider scoreSyncManager) ;
 
 /// @brief Method .ctor addr 0x210228c size 0x2c virtual false final false
  void _ctor(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t> multiplayerSyncState, GlobalNamespace::MultiplayerScoreProvider scoreSyncManager) ;
@@ -239,8 +247,7 @@ static System::Func_2<GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerScoreProvider____c() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2102934 size 0x8 virtual false final false
  void _ctor() ;
@@ -303,8 +310,7 @@ constexpr ::StringW __get_userId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerScoreProvider____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21024bc size 0x8 virtual false final false
  void _ctor() ;
@@ -439,8 +445,7 @@ constexpr System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::
 /// @brief Method GetPositionOfPlayer addr 0x21023d8 size 0xe4 virtual false final false
  int32_t GetPositionOfPlayer(::StringW userId) ;
 
-// Ctor Parameters []
-explicit MultiplayerScoreProvider() ;
+static GlobalNamespace::MultiplayerScoreProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x21024c4 size 0xc0 virtual false final false
  void _ctor() ;

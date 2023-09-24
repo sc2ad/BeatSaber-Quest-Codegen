@@ -3,12 +3,15 @@
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualTreeAsset__SlotUsageEntry;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__TemplateAsset__AttributeOverride;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

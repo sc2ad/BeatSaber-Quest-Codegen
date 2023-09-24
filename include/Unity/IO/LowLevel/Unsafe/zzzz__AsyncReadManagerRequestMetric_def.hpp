@@ -5,16 +5,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace Unity::IO::LowLevel::Unsafe {
-struct ProcessingState;
-}
-namespace Unity::IO::LowLevel::Unsafe {
-struct Priority;
+struct AssetLoadingSubsystem;
 }
 namespace Unity::IO::LowLevel::Unsafe {
 struct FileReadType;
 }
 namespace Unity::IO::LowLevel::Unsafe {
-struct AssetLoadingSubsystem;
+struct Priority;
+}
+namespace Unity::IO::LowLevel::Unsafe {
+struct ProcessingState;
 }
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {

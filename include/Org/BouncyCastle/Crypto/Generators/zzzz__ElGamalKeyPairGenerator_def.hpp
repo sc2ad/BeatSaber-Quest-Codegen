@@ -2,13 +2,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ElGamalKeyGenerationParameters;
@@ -77,8 +77,7 @@ constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters 
 /// @brief Method GenerateKeyPair addr 0xe6e2cc size 0x198 virtual true final true
  Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair GenerateKeyPair() ;
 
-// Ctor Parameters []
-explicit ElGamalKeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6e464 size 0x8 virtual false final false
  void _ctor() ;

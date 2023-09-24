@@ -1,23 +1,6 @@
 #pragma once
 #include "Zenject/zzzz__IFactory_11_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
-//  Writing Method size for method: Zenject::IFactory_11.Create
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TValue (Zenject::IFactory_11::*)(TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10)>(&Zenject::IFactory_11::Create)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(Zenject::IFactory_11),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::IFactory_11>::get(),
-                                  0
-                                ));
-    return ___internal_method;
-  }
-};
 /// @brief Convert operator to Zenject::IFactory
 constexpr  Zenject::IFactory_11::operator Zenject::IFactory() const noexcept {
 return Zenject::IFactory(::bs_hook::Il2CppWrapperType::instance);

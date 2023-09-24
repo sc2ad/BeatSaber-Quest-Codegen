@@ -3,13 +3,13 @@
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
 class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -97,8 +97,7 @@ constexpr ::StringW __get_standalone() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standalone", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlDeclaration New_ctor(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f0780 size 0x190 virtual false final false
  void _ctor(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc) ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace HMUI {
+class CurvedCanvasSettings;
 }
 namespace UnityEngine {
 class Canvas;
 }
-namespace HMUI {
-class CurvedCanvasSettings;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -99,8 +99,7 @@ static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas,HMUI::Curv
 /// @brief Method GetCurvedCanvasSettingsForCanvas addr 0x1fa8b60 size 0x110 virtual false final false
 static HMUI::CurvedCanvasSettings GetCurvedCanvasSettingsForCanvas(UnityEngine::Canvas canvas) ;
 
-// Ctor Parameters []
-explicit CurvedCanvasSettingsHelper() ;
+static HMUI::CurvedCanvasSettingsHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa8c70 size 0x8 virtual false final false
  void _ctor() ;

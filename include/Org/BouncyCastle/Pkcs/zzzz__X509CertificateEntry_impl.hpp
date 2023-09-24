@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__X509CertificateEntry_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::X509CertificateEntry._ctor
 template<>
 
@@ -112,8 +112,10 @@ constexpr void Org::BouncyCastle::Pkcs::X509CertificateEntry::__set_cert(Org::Bo
 constexpr Org::BouncyCastle::X509::X509Certificate Org::BouncyCastle::Pkcs::X509CertificateEntry::__get_cert() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::X509::X509Certificate, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::X509CertificateEntry::X509CertificateEntry(Org::BouncyCastle::X509::X509Certificate cert)  : Org::BouncyCastle::Pkcs::Pkcs12Entry(THROW_UNLESS(::il2cpp_utils::New<X509CertificateEntry>(cert))) {}
+ Org::BouncyCastle::Pkcs::X509CertificateEntry Org::BouncyCastle::Pkcs::X509CertificateEntry::New_ctor(Org::BouncyCastle::X509::X509Certificate cert)  {
+Org::BouncyCastle::Pkcs::X509CertificateEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::X509CertificateEntry>(cert))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::X509CertificateEntry::_ctor(Org::BouncyCastle::X509::X509Certificate cert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::X509CertificateEntry>::get(),
@@ -123,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cert);
 }
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::X509CertificateEntry::X509CertificateEntry(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::Hashtable attributes)  : Org::BouncyCastle::Pkcs::Pkcs12Entry(THROW_UNLESS(::il2cpp_utils::New<X509CertificateEntry>(cert, attributes))) {}
+ Org::BouncyCastle::Pkcs::X509CertificateEntry Org::BouncyCastle::Pkcs::X509CertificateEntry::New_ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::Hashtable attributes)  {
+Org::BouncyCastle::Pkcs::X509CertificateEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::X509CertificateEntry>(cert, attributes))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::X509CertificateEntry::_ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::Hashtable attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::X509CertificateEntry>::get(),
@@ -134,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, cert, attributes);
 }
-// Ctor Parameters [CppParam { name: "cert", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::X509CertificateEntry::X509CertificateEntry(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::IDictionary attributes)  : Org::BouncyCastle::Pkcs::Pkcs12Entry(THROW_UNLESS(::il2cpp_utils::New<X509CertificateEntry>(cert, attributes))) {}
+ Org::BouncyCastle::Pkcs::X509CertificateEntry Org::BouncyCastle::Pkcs::X509CertificateEntry::New_ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::IDictionary attributes)  {
+Org::BouncyCastle::Pkcs::X509CertificateEntry o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::X509CertificateEntry>(cert, attributes))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::X509CertificateEntry::_ctor(Org::BouncyCastle::X509::X509Certificate cert, System::Collections::IDictionary attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::X509CertificateEntry>::get(),

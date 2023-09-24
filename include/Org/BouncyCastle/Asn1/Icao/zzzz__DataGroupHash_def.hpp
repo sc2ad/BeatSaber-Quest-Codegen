@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -11,9 +14,6 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -86,14 +86,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_dataGroupHashValue() co
 /// @brief Method GetInstance addr 0xee66a4 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Icao::DataGroupHash GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit DataGroupHash(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Icao::DataGroupHash New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee6748 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "dataGroupNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dataGroupHashValue", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit DataGroupHash(int32_t dataGroupNumber, Org::BouncyCastle::Asn1::Asn1OctetString dataGroupHashValue) ;
+static Org::BouncyCastle::Asn1::Icao::DataGroupHash New_ctor(int32_t dataGroupNumber, Org::BouncyCastle::Asn1::Asn1OctetString dataGroupHashValue) ;
 
 /// @brief Method .ctor addr 0xee6830 size 0x80 virtual false final false
  void _ctor(int32_t dataGroupNumber, Org::BouncyCastle::Asn1::Asn1OctetString dataGroupHashValue) ;

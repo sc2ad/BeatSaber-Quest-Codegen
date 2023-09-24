@@ -1,8 +1,8 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_InstancedInput_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_InstancedInput.IsEquivalentTo
 template<>
 
@@ -68,8 +68,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InstancedInput::HEU_InstancedInput()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InstancedInput>())) {}
+ HoudiniEngineUnity::HEU_InstancedInput HoudiniEngineUnity::HEU_InstancedInput::New_ctor()  {
+HoudiniEngineUnity::HEU_InstancedInput o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InstancedInput>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InstancedInput::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InstancedInput>::get(),

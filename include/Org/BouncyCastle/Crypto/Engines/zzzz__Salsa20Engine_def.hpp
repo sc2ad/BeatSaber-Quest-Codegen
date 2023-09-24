@@ -153,14 +153,12 @@ constexpr uint32_t __get_cW2() const;
 /// @brief Method PackTauOrSigma addr 0xe3c2f8 size 0x134 virtual false final false
  void PackTauOrSigma(int32_t keyLength, ::ArrayW<uint32_t> state, int32_t stateOffset) ;
 
-// Ctor Parameters []
-explicit Salsa20Engine() ;
+static Org::BouncyCastle::Crypto::Engines::Salsa20Engine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe3c42c size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rounds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Salsa20Engine(int32_t rounds) ;
+static Org::BouncyCastle::Crypto::Engines::Salsa20Engine New_ctor(int32_t rounds) ;
 
 /// @brief Method .ctor addr 0xe3c48c size 0x100 virtual false final false
  void _ctor(int32_t rounds) ;

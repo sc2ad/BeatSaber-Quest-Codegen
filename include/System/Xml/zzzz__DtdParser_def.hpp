@@ -6,57 +6,72 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Xml::Schema {
-class SchemaAttDef;
+namespace System::Xml {
+class System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame;
 }
 namespace System::Xml {
-class IDtdParserAdapter;
+class IDtdParser;
 }
 namespace System::Xml {
-class IDtdParserAdapterWithValidation;
-}
-namespace System::Xml::Schema {
-struct XmlSeverityType;
-}
-namespace System::Xml::Schema {
-class SchemaElementDecl;
-}
-namespace System::Xml {
-struct LineInfo;
+struct XmlCharType;
 }
 namespace System::Xml::Schema {
 class SchemaEntity;
 }
 namespace System::Xml {
-class XmlQualifiedName;
+struct System__Xml__DtdParser__LiteralType;
+}
+namespace System::Xml {
+struct System__Xml__DtdParser__Token;
 }
 namespace System::Xml::Schema {
 class ParticleContentValidator;
 }
-namespace System::Xml {
-class IDtdParser;
-}
 namespace System::Xml::Schema {
-class XmlSchemaException;
+struct XmlSeverityType;
 }
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace System::Xml {
+struct LineInfo;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace System::Xml {
+struct System__Xml__DtdParser__ScanningFunction;
+}
+namespace System::Xml::Schema {
+class SchemaElementDecl;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Xml {
-struct XmlCharType;
+class IDtdParserAdapterWithValidation;
+}
+namespace System::Xml::Schema {
+class SchemaAttDef;
+}
+namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System::Xml::Schema {
+class SchemaInfo;
+}
+namespace System::Xml {
+class System__Xml__DtdParser__UndeclaredNotation;
+}
+namespace System::Xml {
+class IDtdParserAdapter;
 }
 namespace System::Xml {
 class IDtdInfo;
+}
+namespace System::Xml::Schema {
+class XmlSchemaException;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -172,6 +187,8 @@ __INCLUDE = 47,
 constexpr operator __System__Xml__DtdParser__Token_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__DtdParser__Token_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -412,6 +429,8 @@ constexpr operator __System__Xml__DtdParser__ScanningFunction_Unwrapped () const
 return std::bit_cast<__System__Xml__DtdParser__ScanningFunction_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -578,6 +597,8 @@ constexpr operator __System__Xml__DtdParser__LiteralType_Unwrapped () const noex
 return std::bit_cast<__System__Xml__DtdParser__LiteralType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -669,8 +690,7 @@ constexpr System::Xml::System__Xml__DtdParser__UndeclaredNotation __get_next() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__DtdParser__UndeclaredNotation(::StringW name, int32_t lineNo, int32_t linePos) ;
+static System::Xml::System__Xml__DtdParser__UndeclaredNotation New_ctor(::StringW name, int32_t lineNo, int32_t linePos) ;
 
 /// @brief Method .ctor addr 0x27090a8 size 0x40 virtual false final false
  void _ctor(::StringW name, int32_t lineNo, int32_t linePos) ;
@@ -736,8 +756,7 @@ constexpr System::Xml::System__Xml__DtdParser__Token __get_parsingSchema() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "startParentEntityIdParam", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame(int32_t startParentEntityIdParam) ;
+static System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame New_ctor(int32_t startParentEntityIdParam) ;
 
 /// @brief Method .ctor addr 0x27090e8 size 0x2c virtual false final false
  void _ctor(int32_t startParentEntityIdParam) ;
@@ -1023,8 +1042,7 @@ constexpr ::ArrayW<int32_t> __get_condSectionEntityIds() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DtdParser() ;
+static System::Xml::DtdParser New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ff1e4 size 0x88 virtual false final false
  void _ctor() ;

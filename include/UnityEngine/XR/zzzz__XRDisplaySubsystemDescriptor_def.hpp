@@ -9,7 +9,7 @@ class XRDisplaySubsystemDescriptor;
 // Type: UnityEngine.XR::XRDisplaySubsystemDescriptor
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(15844)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 3776 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15844)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 3776 }), TypeDefinitionIndex(TypeDefinitionIndex(15594))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15590))
 // CS Name: UnityEngine.XR.XRDisplaySubsystemDescriptor
 class CORDL_TYPE XRDisplaySubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRDisplaySubsystem> {
@@ -48,8 +48,7 @@ constexpr explicit XRDisplaySubsystemDescriptor(void* ptr) noexcept : UnityEngin
 
 // Methods
 
-// Ctor Parameters []
-explicit XRDisplaySubsystemDescriptor() ;
+static UnityEngine::XR::XRDisplaySubsystemDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d3a9b8 size 0x48 virtual false final false
  void _ctor() ;

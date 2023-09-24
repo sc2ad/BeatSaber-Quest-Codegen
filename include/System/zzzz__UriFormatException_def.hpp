@@ -6,10 +6,10 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -60,20 +60,17 @@ constexpr explicit UriFormatException(void* ptr) noexcept : System::FormatExcept
 
 // Methods
 
-// Ctor Parameters []
-explicit UriFormatException() ;
+static System::UriFormatException New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b8024 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "textString", ty: "::StringW", modifiers: "", def_value: None }]
-explicit UriFormatException(::StringW textString) ;
+static System::UriFormatException New_ctor(::StringW textString) ;
 
 /// @brief Method .ctor addr 0x27b6204 size 0x8 virtual false final false
  void _ctor(::StringW textString) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit UriFormatException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::UriFormatException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x27b802c size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

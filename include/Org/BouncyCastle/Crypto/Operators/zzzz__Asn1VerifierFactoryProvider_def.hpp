@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactoryProvider;
@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricKeyParameter __get_publicKey() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit Asn1VerifierFactoryProvider(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+static Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method .ctor addr 0xe9ff1c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;

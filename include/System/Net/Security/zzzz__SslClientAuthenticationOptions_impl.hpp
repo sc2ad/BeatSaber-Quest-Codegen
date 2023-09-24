@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/Security/zzzz__SslClientAuthenticationOptions_def.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
-#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 //  Writing Method size for method: System::Net::Security::SslClientAuthenticationOptions.set_LocalCertificateSelectionCallback
 template<>
 
@@ -298,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Net::Security::SslClientAuthenticationOptions::SslClientAuthenticationOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SslClientAuthenticationOptions>())) {}
+ System::Net::Security::SslClientAuthenticationOptions System::Net::Security::SslClientAuthenticationOptions::New_ctor()  {
+System::Net::Security::SslClientAuthenticationOptions o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::SslClientAuthenticationOptions>())};
+return o;
+}
  void System::Net::Security::SslClientAuthenticationOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::SslClientAuthenticationOptions>::get(),

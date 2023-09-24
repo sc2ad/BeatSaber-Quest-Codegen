@@ -58,8 +58,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Micro
  Microsoft::Win32::SafeHandles::SafeProcessHandle Microsoft::Win32::SafeHandles::SafeProcessHandle::__get_InvalidHandle()  {
 return ::cordl_internals::getStaticField<Microsoft::Win32::SafeHandles::SafeProcessHandle, "InvalidHandle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Microsoft::Win32::SafeHandles::SafeProcessHandle>::get>();
 }
-// Ctor Parameters [CppParam { name: "handle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Microsoft::Win32::SafeHandles::SafeProcessHandle::SafeProcessHandle(::cordl_internals::intptr_t handle)  : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(THROW_UNLESS(::il2cpp_utils::New<SafeProcessHandle>(handle))) {}
+ Microsoft::Win32::SafeHandles::SafeProcessHandle Microsoft::Win32::SafeHandles::SafeProcessHandle::New_ctor(::cordl_internals::intptr_t handle)  {
+Microsoft::Win32::SafeHandles::SafeProcessHandle o{THROW_UNLESS(::il2cpp_utils::New<Microsoft::Win32::SafeHandles::SafeProcessHandle>(handle))};
+return o;
+}
  void Microsoft::Win32::SafeHandles::SafeProcessHandle::_ctor(::cordl_internals::intptr_t handle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Microsoft::Win32::SafeHandles::SafeProcessHandle>::get(),
@@ -69,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, handle);
 }
-// Ctor Parameters [CppParam { name: "existingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
- Microsoft::Win32::SafeHandles::SafeProcessHandle::SafeProcessHandle(::cordl_internals::intptr_t existingHandle, bool ownsHandle)  : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid(THROW_UNLESS(::il2cpp_utils::New<SafeProcessHandle>(existingHandle, ownsHandle))) {}
+ Microsoft::Win32::SafeHandles::SafeProcessHandle Microsoft::Win32::SafeHandles::SafeProcessHandle::New_ctor(::cordl_internals::intptr_t existingHandle, bool ownsHandle)  {
+Microsoft::Win32::SafeHandles::SafeProcessHandle o{THROW_UNLESS(::il2cpp_utils::New<Microsoft::Win32::SafeHandles::SafeProcessHandle>(existingHandle, ownsHandle))};
+return o;
+}
  void Microsoft::Win32::SafeHandles::SafeProcessHandle::_ctor(::cordl_internals::intptr_t existingHandle, bool ownsHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Microsoft::Win32::SafeHandles::SafeProcessHandle>::get(),

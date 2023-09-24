@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Globalization/zzzz__CultureData_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
+#include "System/Globalization/zzzz__CultureData_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Globalization::NumberFormatInfo._ctor
 template<>
 
@@ -956,8 +956,10 @@ constexpr bool System::Globalization::NumberFormatInfo::__get_validForParseAsCur
 return ::cordl_internals::getInstanceField<bool, 0xd4>(this->::bs_hook::Il2CppWrapperType::instance);
 }
 constexpr System::Globalization::NumberStyles  System::Globalization::NumberFormatInfo::InvalidNumberStyles{-1024};
-// Ctor Parameters []
- System::Globalization::NumberFormatInfo::NumberFormatInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NumberFormatInfo>())) {}
+ System::Globalization::NumberFormatInfo System::Globalization::NumberFormatInfo::New_ctor()  {
+System::Globalization::NumberFormatInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::NumberFormatInfo>())};
+return o;
+}
  void System::Globalization::NumberFormatInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::NumberFormatInfo>::get(),
@@ -1003,8 +1005,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, groupSep, propertyName);
 }
-// Ctor Parameters [CppParam { name: "cultureData", ty: "System::Globalization::CultureData", modifiers: "", def_value: None }]
- System::Globalization::NumberFormatInfo::NumberFormatInfo(System::Globalization::CultureData cultureData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NumberFormatInfo>(cultureData))) {}
+ System::Globalization::NumberFormatInfo System::Globalization::NumberFormatInfo::New_ctor(System::Globalization::CultureData cultureData)  {
+System::Globalization::NumberFormatInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::NumberFormatInfo>(cultureData))};
+return o;
+}
  void System::Globalization::NumberFormatInfo::_ctor(System::Globalization::CultureData cultureData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::NumberFormatInfo>::get(),

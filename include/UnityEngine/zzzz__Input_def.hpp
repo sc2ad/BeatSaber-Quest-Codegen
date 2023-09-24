@@ -6,7 +6,7 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
+struct IMECompositionMode;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -18,7 +18,7 @@ namespace UnityEngine {
 struct Touch;
 }
 namespace UnityEngine {
-struct IMECompositionMode;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine {

@@ -6,19 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+struct InternalObjectTypeE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalMemberTypeE;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryTypeEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class ParseRecord;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalObjectTypeE;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalMemberTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalMemberValueE;
@@ -192,8 +192,7 @@ constexpr System::Runtime::Serialization::Formatters::Binary::ParseRecord __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit ObjectProgress() ;
+static System::Runtime::Serialization::Formatters::Binary::ObjectProgress New_ctor() ;
 
 /// @brief Method .ctor addr 0x2357efc size 0x70 virtual false final false
  void _ctor() ;

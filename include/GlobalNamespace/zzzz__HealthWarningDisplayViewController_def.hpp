@@ -81,8 +81,7 @@ constexpr bool __get__showShortHealthAndSafety() const;
 /// @brief Method DidActivate addr 0x215f32c size 0x3c virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit HealthWarningDisplayViewController() ;
+static GlobalNamespace::HealthWarningDisplayViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x215f368 size 0x8 virtual false final false
  void _ctor() ;

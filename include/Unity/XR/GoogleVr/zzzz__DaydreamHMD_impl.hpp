@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Unity::XR::GoogleVr::DaydreamHMD::DaydreamHMD()  : UnityEngine::InputSystem::XR::XRHMD(THROW_UNLESS(::il2cpp_utils::New<DaydreamHMD>())) {}
+ Unity::XR::GoogleVr::DaydreamHMD Unity::XR::GoogleVr::DaydreamHMD::New_ctor()  {
+Unity::XR::GoogleVr::DaydreamHMD o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::GoogleVr::DaydreamHMD>())};
+return o;
+}
  void Unity::XR::GoogleVr::DaydreamHMD::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::GoogleVr::DaydreamHMD>::get(),

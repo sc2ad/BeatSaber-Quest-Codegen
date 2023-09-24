@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::AspMvcMasterAttribute::AspMvcMasterAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcMasterAttribute>())) {}
+ JetBrains::Annotations::AspMvcMasterAttribute JetBrains::Annotations::AspMvcMasterAttribute::New_ctor()  {
+JetBrains::Annotations::AspMvcMasterAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcMasterAttribute>())};
+return o;
+}
  void JetBrains::Annotations::AspMvcMasterAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcMasterAttribute>::get(),

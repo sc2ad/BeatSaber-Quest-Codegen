@@ -106,8 +106,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::RijndaelManaged::RijndaelManaged()  : System::Security::Cryptography::Rijndael(THROW_UNLESS(::il2cpp_utils::New<RijndaelManaged>())) {}
+ System::Security::Cryptography::RijndaelManaged System::Security::Cryptography::RijndaelManaged::New_ctor()  {
+System::Security::Cryptography::RijndaelManaged o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::RijndaelManaged>())};
+return o;
+}
  void System::Security::Cryptography::RijndaelManaged::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::RijndaelManaged>::get(),

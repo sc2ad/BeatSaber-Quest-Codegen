@@ -69,20 +69,17 @@ constexpr Org::BouncyCastle::Asn1::Cms::ContentInfo __get_contentInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "compressedData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CmsCompressedData(::ArrayW<uint8_t> compressedData) ;
+static Org::BouncyCastle::Cms::CmsCompressedData New_ctor(::ArrayW<uint8_t> compressedData) ;
 
 /// @brief Method .ctor addr 0x1152480 size 0x38 virtual false final false
  void _ctor(::ArrayW<uint8_t> compressedData) ;
 
-// Ctor Parameters [CppParam { name: "compressedDataStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CmsCompressedData(System::IO::Stream compressedDataStream) ;
+static Org::BouncyCastle::Cms::CmsCompressedData New_ctor(System::IO::Stream compressedDataStream) ;
 
 /// @brief Method .ctor addr 0x11524e0 size 0x38 virtual false final false
  void _ctor(System::IO::Stream compressedDataStream) ;
 
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit CmsCompressedData(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+static Org::BouncyCastle::Cms::CmsCompressedData New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method .ctor addr 0x11524b8 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;

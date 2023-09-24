@@ -75,8 +75,7 @@ constexpr System::Runtime::Serialization::Formatters::Binary::SerStack __get_oiP
 
 // Methods
 
-// Ctor Parameters []
-explicit SerObjectInfoInit() ;
+static System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x235ef94 size 0xb4 virtual false final false
  void _ctor() ;

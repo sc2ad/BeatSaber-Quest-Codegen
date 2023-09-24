@@ -24,8 +24,10 @@ constexpr void GlobalNamespace::SetChildrenLightId::__set__ID(int32_t value)  {
 constexpr int32_t GlobalNamespace::SetChildrenLightId::__get__ID() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::SetChildrenLightId::SetChildrenLightId()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SetChildrenLightId>())) {}
+ GlobalNamespace::SetChildrenLightId GlobalNamespace::SetChildrenLightId::New_ctor()  {
+GlobalNamespace::SetChildrenLightId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SetChildrenLightId>())};
+return o;
+}
  void GlobalNamespace::SetChildrenLightId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SetChildrenLightId>::get(),

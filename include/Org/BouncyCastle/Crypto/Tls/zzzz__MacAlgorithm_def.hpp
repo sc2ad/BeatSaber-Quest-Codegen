@@ -75,8 +75,7 @@ static constexpr int32_t  hmac_sha512{5};
 
 // Methods
 
-// Ctor Parameters []
-explicit MacAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::MacAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04d30 size 0x8 virtual false final false
  void _ctor() ;

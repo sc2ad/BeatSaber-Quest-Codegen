@@ -5,17 +5,24 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
-class ClickDetector;
+struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
-struct DispatchMode;
+template<typename T>
+class ObjectPool_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-class PointerDispatchState;
+struct UnityEngine__UIElements__EventDispatcher__DispatchContext;
+}
+namespace UnityEngine::UIElements {
+class ClickDetector;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__EventDispatcher__EventRecord;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -23,24 +30,23 @@ class Queue_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class Stack_1;
-}
-namespace UnityEngine::UIElements {
-template<typename T>
-class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class PointerDispatchState;
+}
+namespace UnityEngine::UIElements {
+class IEventDispatchingStrategy;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -294,8 +300,7 @@ constexpr bool __get__processingEvents_k__BackingField() const;
 /// @brief Method CreateForRuntime addr 0x2c89d70 size 0x60 virtual false final false
 static UnityEngine::UIElements::EventDispatcher CreateForRuntime(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies) ;
 
-// Ctor Parameters [CppParam { name: "strategies", ty: "System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy>", modifiers: "", def_value: None }]
-explicit EventDispatcher(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies) ;
+static UnityEngine::UIElements::EventDispatcher New_ctor(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies) ;
 
 /// @brief Method .ctor addr 0x2c89dd0 size 0x1ac virtual false final false
  void _ctor(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies) ;

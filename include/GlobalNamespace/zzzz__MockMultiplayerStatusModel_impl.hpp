@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockMultiplayerStatusModel_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockMultiplayerStatusModel.GetMultiplayerStatusAsync
 template<>
 
@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData>, false>(const_cast<void*>(instance), ___internal_method, cancellationToken);
 }
-// Ctor Parameters []
- GlobalNamespace::MockMultiplayerStatusModel::MockMultiplayerStatusModel()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockMultiplayerStatusModel>())) {}
+ GlobalNamespace::MockMultiplayerStatusModel GlobalNamespace::MockMultiplayerStatusModel::New_ctor()  {
+GlobalNamespace::MockMultiplayerStatusModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockMultiplayerStatusModel>())};
+return o;
+}
  void GlobalNamespace::MockMultiplayerStatusModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockMultiplayerStatusModel>::get(),

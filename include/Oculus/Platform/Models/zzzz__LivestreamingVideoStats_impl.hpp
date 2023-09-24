@@ -35,8 +35,10 @@ constexpr void Oculus::Platform::Models::LivestreamingVideoStats::__set_TotalVie
 constexpr ::StringW Oculus::Platform::Models::LivestreamingVideoStats::__get_TotalViews() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LivestreamingVideoStats::LivestreamingVideoStats(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LivestreamingVideoStats>(o))) {}
+ Oculus::Platform::Models::LivestreamingVideoStats Oculus::Platform::Models::LivestreamingVideoStats::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LivestreamingVideoStats o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LivestreamingVideoStats>(o))};
+return o;
+}
  void Oculus::Platform::Models::LivestreamingVideoStats::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LivestreamingVideoStats>::get(),

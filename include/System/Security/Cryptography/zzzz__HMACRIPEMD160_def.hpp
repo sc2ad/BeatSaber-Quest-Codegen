@@ -49,14 +49,12 @@ constexpr explicit HMACRIPEMD160(void* ptr) noexcept : System::Security::Cryptog
 
 // Methods
 
-// Ctor Parameters []
-explicit HMACRIPEMD160() ;
+static System::Security::Cryptography::HMACRIPEMD160 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22f3840 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HMACRIPEMD160(::ArrayW<uint8_t> key) ;
+static System::Security::Cryptography::HMACRIPEMD160 New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0x22f3864 size 0xc0 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;

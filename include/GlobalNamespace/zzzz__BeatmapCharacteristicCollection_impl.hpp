@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
-#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapCharacteristicCollection._ctor
 template<>
@@ -51,8 +51,10 @@ constexpr void GlobalNamespace::BeatmapCharacteristicCollection::__set_beatmapCh
 constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::BeatmapCharacteristicCollection::__get_beatmapCharacteristics() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapCharacteristicSO>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "collection", ty: "GlobalNamespace::BeatmapCharacteristicCollectionSO", modifiers: "", def_value: None }, CppParam { name: "appSettings", ty: "GlobalNamespace::AppStaticSettingsSO", modifiers: "", def_value: None }]
- GlobalNamespace::BeatmapCharacteristicCollection::BeatmapCharacteristicCollection(GlobalNamespace::BeatmapCharacteristicCollectionSO collection, GlobalNamespace::AppStaticSettingsSO appSettings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapCharacteristicCollection>(collection, appSettings))) {}
+ GlobalNamespace::BeatmapCharacteristicCollection GlobalNamespace::BeatmapCharacteristicCollection::New_ctor(GlobalNamespace::BeatmapCharacteristicCollectionSO collection, GlobalNamespace::AppStaticSettingsSO appSettings)  {
+GlobalNamespace::BeatmapCharacteristicCollection o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapCharacteristicCollection>(collection, appSettings))};
+return o;
+}
  void GlobalNamespace::BeatmapCharacteristicCollection::_ctor(GlobalNamespace::BeatmapCharacteristicCollectionSO collection, GlobalNamespace::AppStaticSettingsSO appSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapCharacteristicCollection>::get(),

@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Xml/zzzz__XmlNodeList_def.hpp"
-#include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
-#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNodeList_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlNode._ctor
 template<>
 
@@ -909,8 +909,10 @@ constexpr void System::Xml::XmlNode::__set_parentNode(System::Xml::XmlNode value
 constexpr System::Xml::XmlNode System::Xml::XmlNode::__get_parentNode() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlNode, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::XmlNode::XmlNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlNode>())) {}
+ System::Xml::XmlNode System::Xml::XmlNode::New_ctor()  {
+System::Xml::XmlNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNode>())};
+return o;
+}
  void System::Xml::XmlNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNode>::get(),
@@ -920,8 +922,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlNode::XmlNode(System::Xml::XmlDocument doc)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlNode>(doc))) {}
+ System::Xml::XmlNode System::Xml::XmlNode::New_ctor(System::Xml::XmlDocument doc)  {
+System::Xml::XmlNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNode>(doc))};
+return o;
+}
  void System::Xml::XmlNode::_ctor(System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNode>::get(),

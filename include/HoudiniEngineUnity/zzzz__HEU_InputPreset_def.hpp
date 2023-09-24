@@ -8,13 +8,13 @@ template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
+class HEU_InputObjectPreset;
+}
+namespace HoudiniEngineUnity {
 class HEU_InputAssetPreset;
 }
 namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__HEU_InputNode__InputObjectType;
-}
-namespace HoudiniEngineUnity {
-class HEU_InputObjectPreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -113,8 +113,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAsse
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputPreset() ;
+static HoudiniEngineUnity::HEU_InputPreset New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdae74 size 0xc0 virtual false final false
  void _ctor() ;

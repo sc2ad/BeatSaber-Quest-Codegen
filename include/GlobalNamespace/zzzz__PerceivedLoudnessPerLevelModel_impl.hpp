@@ -93,8 +93,10 @@ constexpr void GlobalNamespace::PerceivedLoudnessPerLevelModel::__set__loudnessL
 constexpr System::Collections::Generic::Dictionary_2<::StringW,float_t> GlobalNamespace::PerceivedLoudnessPerLevelModel::__get__loudnessLevelPerLevelId() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<::StringW,float_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "loudnessPerLeveData", ty: "GlobalNamespace::PerceivedLoudnessPerLevelSO", modifiers: "", def_value: None }]
- GlobalNamespace::PerceivedLoudnessPerLevelModel::PerceivedLoudnessPerLevelModel(GlobalNamespace::PerceivedLoudnessPerLevelSO loudnessPerLeveData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PerceivedLoudnessPerLevelModel>(loudnessPerLeveData))) {}
+ GlobalNamespace::PerceivedLoudnessPerLevelModel GlobalNamespace::PerceivedLoudnessPerLevelModel::New_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO loudnessPerLeveData)  {
+GlobalNamespace::PerceivedLoudnessPerLevelModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PerceivedLoudnessPerLevelModel>(loudnessPerLeveData))};
+return o;
+}
  void GlobalNamespace::PerceivedLoudnessPerLevelModel::_ctor(GlobalNamespace::PerceivedLoudnessPerLevelSO loudnessPerLeveData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PerceivedLoudnessPerLevelModel>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine::UIElements {
-class Focusable;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class Focusable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

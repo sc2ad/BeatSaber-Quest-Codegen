@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -103,14 +103,12 @@ constexpr int32_t __get_minorVersion() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SerializationHeaderRecord() ;
+static System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord New_ctor() ;
 
 /// @brief Method .ctor addr 0x2355898 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }, CppParam { name: "topId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "headerId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "majorVersion", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minorVersion", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SerializationHeaderRecord(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;
+static System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;
 
 /// @brief Method .ctor addr 0x23558a8 size 0x58 virtual false final false
  void _ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion) ;

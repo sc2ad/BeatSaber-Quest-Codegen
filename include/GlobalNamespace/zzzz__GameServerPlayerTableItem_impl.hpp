@@ -41,8 +41,10 @@ constexpr void GlobalNamespace::GameServerPlayerTableItem::__set_isReady(bool va
 constexpr bool GlobalNamespace::GameServerPlayerTableItem::__get_isReady() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "suggestedLevel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "suggestedModifiers", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isReady", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GameServerPlayerTableItem::GameServerPlayerTableItem(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GameServerPlayerTableItem>(playerName, suggestedLevel, suggestedModifiers, isReady))) {}
+ GlobalNamespace::GameServerPlayerTableItem GlobalNamespace::GameServerPlayerTableItem::New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady)  {
+GlobalNamespace::GameServerPlayerTableItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerPlayerTableItem>(playerName, suggestedLevel, suggestedModifiers, isReady))};
+return o;
+}
  void GlobalNamespace::GameServerPlayerTableItem::_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerPlayerTableItem>::get(),

@@ -320,8 +320,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FPSCounter::FPSCounter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FPSCounter>())) {}
+ GlobalNamespace::FPSCounter GlobalNamespace::FPSCounter::New_ctor()  {
+GlobalNamespace::FPSCounter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FPSCounter>())};
+return o;
+}
  void GlobalNamespace::FPSCounter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FPSCounter>::get(),

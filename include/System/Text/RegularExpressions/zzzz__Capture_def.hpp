@@ -85,8 +85,7 @@ constexpr ::StringW __get__Text_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Capture(::StringW text, int32_t index, int32_t length) ;
+static System::Text::RegularExpressions::Capture New_ctor(::StringW text, int32_t index, int32_t length) ;
 
 /// @brief Method .ctor addr 0x27bc920 size 0x3c virtual false final false
  void _ctor(::StringW text, int32_t index, int32_t length) ;

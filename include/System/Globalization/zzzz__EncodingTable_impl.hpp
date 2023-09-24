@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Globalization/zzzz__EncodingTable_def.hpp"
-#include "System/Globalization/zzzz__CodePageDataItem_def.hpp"
 #include "System/Globalization/zzzz__InternalEncodingDataItem_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Globalization/zzzz__CodePageDataItem_def.hpp"
 #include "System/Globalization/zzzz__InternalCodePageDataItem_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: System::Globalization::EncodingTable.GetNumEncodingItems
 template<>
 

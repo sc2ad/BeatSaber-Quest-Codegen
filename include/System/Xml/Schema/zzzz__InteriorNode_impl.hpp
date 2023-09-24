@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::InteriorNode.get_LeftChild
 template<>
 
@@ -189,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, parent, symbols, positions);
 }
-// Ctor Parameters []
- System::Xml::Schema::InteriorNode::InteriorNode()  : System::Xml::Schema::SyntaxTreeNode(THROW_UNLESS(::il2cpp_utils::New<InteriorNode>())) {}
+ System::Xml::Schema::InteriorNode System::Xml::Schema::InteriorNode::New_ctor()  {
+System::Xml::Schema::InteriorNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::InteriorNode>())};
+return o;
+}
  void System::Xml::Schema::InteriorNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::InteriorNode>::get(),

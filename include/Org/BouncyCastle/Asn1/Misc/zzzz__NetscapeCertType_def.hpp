@@ -79,14 +79,12 @@ static constexpr int32_t  ObjectSigningCA{1};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NetscapeCertType(int32_t usage) ;
+static Org::BouncyCastle::Asn1::Misc::NetscapeCertType New_ctor(int32_t usage) ;
 
 /// @brief Method .ctor addr 0xeeee08 size 0x68 virtual false final false
  void _ctor(int32_t usage) ;
 
-// Ctor Parameters [CppParam { name: "usage", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }]
-explicit NetscapeCertType(Org::BouncyCastle::Asn1::DerBitString usage) ;
+static Org::BouncyCastle::Asn1::Misc::NetscapeCertType New_ctor(Org::BouncyCastle::Asn1::DerBitString usage) ;
 
 /// @brief Method .ctor addr 0xeeee70 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBitString usage) ;

@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::EC::ECPoint, false>(const_cast<void*>(instance), ___internal_method, p, k);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier::ZSignedDigitR2LMultiplier()  : Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier(THROW_UNLESS(::il2cpp_utils::New<ZSignedDigitR2LMultiplier>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitR2LMultiplier>::get(),

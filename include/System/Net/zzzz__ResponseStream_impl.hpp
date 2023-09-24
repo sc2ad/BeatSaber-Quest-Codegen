@@ -1,12 +1,12 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__ResponseStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Net/zzzz__HttpListenerResponse_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::Net::ResponseStream._ctor
 template<>
 
@@ -383,8 +383,10 @@ return ::cordl_internals::getInstanceField<System::IO::Stream, 0x38>(this->::bs_
  ::ArrayW<uint8_t> System::Net::ResponseStream::__get_crlf()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "crlf", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ResponseStream>::get>();
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "response", ty: "System::Net::HttpListenerResponse", modifiers: "", def_value: None }, CppParam { name: "ignore_errors", ty: "bool", modifiers: "", def_value: None }]
- System::Net::ResponseStream::ResponseStream(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<ResponseStream>(stream, response, ignore_errors))) {}
+ System::Net::ResponseStream System::Net::ResponseStream::New_ctor(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors)  {
+System::Net::ResponseStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ResponseStream>(stream, response, ignore_errors))};
+return o;
+}
  void System::Net::ResponseStream::_ctor(System::IO::Stream stream, System::Net::HttpListenerResponse response, bool ignore_errors)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ResponseStream>::get(),

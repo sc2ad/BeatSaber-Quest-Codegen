@@ -4,7 +4,6 @@
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "HMUI/zzzz__NoTransitionsButton_def.hpp"
 //  Writing Method size for method: HMUI::ButtonSpriteSwap.Awake
 template<>
 
@@ -220,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::ButtonSpriteSwap::ButtonSpriteSwap()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ButtonSpriteSwap>())) {}
+ HMUI::ButtonSpriteSwap HMUI::ButtonSpriteSwap::New_ctor()  {
+HMUI::ButtonSpriteSwap o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ButtonSpriteSwap>())};
+return o;
+}
  void HMUI::ButtonSpriteSwap::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ButtonSpriteSwap>::get(),

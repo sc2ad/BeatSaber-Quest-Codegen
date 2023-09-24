@@ -6,14 +6,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ISceneProvider2;
@@ -21,39 +19,47 @@ class ISceneProvider2;
 namespace UnityEngine::SceneManagement {
 struct UnloadSceneOptions;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class ISceneProvider;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__UnloadSceneOp;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__SceneOp;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneInstance;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class IList_1;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -162,8 +168,7 @@ constexpr UnityEngine::ResourceManagement::ResourceManager __get_m_ResourceManag
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rm", ty: "UnityEngine::ResourceManagement::ResourceManager", modifiers: "", def_value: None }]
-explicit UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__SceneOp(UnityEngine::ResourceManagement::ResourceManager rm) ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__SceneOp New_ctor(UnityEngine::ResourceManagement::ResourceManager rm) ;
 
 /// @brief Method .ctor addr 0x2a40e48 size 0x5c virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceManager rm) ;
@@ -208,7 +213,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UnloadSceneOp
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), TypeDefinitionIndex(TypeDefinitionIndex(14285)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 772 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 772 }), TypeDefinitionIndex(TypeDefinitionIndex(14285)), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14297))
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.SceneProvider::UnloadSceneOp
 class CORDL_TYPE UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__UnloadSceneOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
@@ -291,8 +296,7 @@ constexpr UnityEngine::SceneManagement::UnloadSceneOptions __get_m_UnloadOptions
 /// @brief Method get_Progress addr 0x2a42578 size 0x48 virtual true final false
  float_t get_Progress() ;
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__UnloadSceneOp() ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__SceneProvider__UnloadSceneOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a41170 size 0x48 virtual false final false
  void _ctor() ;
@@ -362,8 +366,7 @@ constexpr explicit SceneProvider(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2.ReleaseScene addr 0x2a41050 size 0x120 virtual true final true
  UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnityEngine_ResourceManagement_ResourceProviders_ISceneProvider2_ReleaseScene(UnityEngine::ResourceManagement::ResourceManager resourceManager, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle, UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions) ;
 
-// Ctor Parameters []
-explicit SceneProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::SceneProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a4124c size 0x8 virtual false final false
  void _ctor() ;

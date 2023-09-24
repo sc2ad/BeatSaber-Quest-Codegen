@@ -2,8 +2,9 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType::GlobalNamespace__SpriteLightWithId__MultiplyColorByAlphaType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -145,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::SpriteLightWithId::SpriteLightWithId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SpriteLightWithId>())) {}
+ GlobalNamespace::SpriteLightWithId GlobalNamespace::SpriteLightWithId::New_ctor()  {
+GlobalNamespace::SpriteLightWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpriteLightWithId>())};
+return o;
+}
  void GlobalNamespace::SpriteLightWithId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpriteLightWithId>::get(),

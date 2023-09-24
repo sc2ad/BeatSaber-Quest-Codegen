@@ -10,6 +10,12 @@ class BigInteger;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Math {
+class Org__BouncyCastle__Math__Primes__MROutput;
+}
+namespace Org::BouncyCastle::Math {
+class Org__BouncyCastle__Math__Primes__STOutput;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -98,8 +104,7 @@ static Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput Provab
 /// @brief Method ProvablyCompositeNotPrimePower addr 0x100f560 size 0x68 virtual false final false
 static Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput ProvablyCompositeNotPrimePower() ;
 
-// Ctor Parameters [CppParam { name: "provablyComposite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "factor", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__Primes__MROutput(bool provablyComposite, Org::BouncyCastle::Math::BigInteger factor) ;
+static Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__MROutput New_ctor(bool provablyComposite, Org::BouncyCastle::Math::BigInteger factor) ;
 
 /// @brief Method .ctor addr 0x100f4c4 size 0x30 virtual false final false
  void _ctor(bool provablyComposite, Org::BouncyCastle::Math::BigInteger factor) ;
@@ -189,8 +194,7 @@ constexpr int32_t __get_mPrimeGenCounter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prime", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "primeSeed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "primeGenCounter", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__Primes__STOutput(Org::BouncyCastle::Math::BigInteger prime, ::ArrayW<uint8_t> primeSeed, int32_t primeGenCounter) ;
+static Org::BouncyCastle::Math::Org__BouncyCastle__Math__Primes__STOutput New_ctor(Org::BouncyCastle::Math::BigInteger prime, ::ArrayW<uint8_t> primeSeed, int32_t primeGenCounter) ;
 
 /// @brief Method .ctor addr 0x100f5f8 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger prime, ::ArrayW<uint8_t> primeSeed, int32_t primeGenCounter) ;
@@ -323,8 +327,7 @@ static void Inc(::ArrayW<uint8_t> seed, int32_t c) ;
 /// @brief Method IsPrime32 addr 0x100e0f0 size 0x158 virtual false final false
 static bool IsPrime32(uint32_t x) ;
 
-// Ctor Parameters []
-explicit Primes() ;
+static Org::BouncyCastle::Math::Primes New_ctor() ;
 
 /// @brief Method .ctor addr 0x100e458 size 0x1008 virtual false final false
  void _ctor() ;

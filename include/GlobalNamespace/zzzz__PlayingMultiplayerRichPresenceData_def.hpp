@@ -56,8 +56,7 @@ static constexpr ::ConstString  kPlayingMultiplayerLobbyRichPresenceLocalization
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "atMaxPartySize", ty: "bool", modifiers: "", def_value: None }]
-explicit PlayingMultiplayerRichPresenceData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;
+static GlobalNamespace::PlayingMultiplayerRichPresenceData New_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;
 
 /// @brief Method .ctor addr 0x2229d4c size 0x8c virtual false final false
  void _ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize) ;

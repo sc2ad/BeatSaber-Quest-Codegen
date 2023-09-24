@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeParticipant_def.hpp"
-#include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakePrimeOrderGroup_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeRound1Payload_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeRound2Payload_def.hpp"
+#include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakePrimeOrderGroup_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeRound2Payload_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeRound3Payload_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant._ctor
 template<>
@@ -338,8 +338,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::__
 constexpr int32_t Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::__get_state() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x88>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakeParticipant>(participantId, password))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::New_ctor(::StringW participantId, ::ArrayW<char16_t> password)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant>(participantId, password))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::_ctor(::StringW participantId, ::ArrayW<char16_t> password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant>::get(),
@@ -349,8 +351,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, participantId, password);
 }
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakeParticipant>(participantId, password, group))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::New_ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant>(participantId, password, group))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::_ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant>::get(),
@@ -360,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, participantId, password, group);
 }
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "group", ty: "Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::JPakeParticipant(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakeParticipant>(participantId, password, group, digest, random))) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::New_ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant>(participantId, password, group, digest, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::_ctor(::StringW participantId, ::ArrayW<char16_t> password, Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup group, Org::BouncyCastle::Crypto::IDigest digest, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant>::get(),

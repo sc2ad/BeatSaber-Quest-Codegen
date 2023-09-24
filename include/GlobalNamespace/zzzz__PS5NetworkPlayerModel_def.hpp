@@ -47,8 +47,7 @@ constexpr explicit PS5NetworkPlayerModel(void* ptr) noexcept : GlobalNamespace::
 
 // Methods
 
-// Ctor Parameters []
-explicit PS5NetworkPlayerModel() ;
+static GlobalNamespace::PS5NetworkPlayerModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2211778 size 0x8 virtual false final false
  void _ctor() ;

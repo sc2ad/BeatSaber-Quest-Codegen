@@ -2,12 +2,13 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent._ctor
@@ -27,8 +28,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent::UnityEngine__UI__Button__ButtonClickedEvent()  : UnityEngine::Events::UnityEvent(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__Button__ButtonClickedEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent>::get(),
@@ -182,8 +185,10 @@ constexpr void UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9::_
 constexpr float_t UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9::__get__elapsedTime_5__3() const {
 return ::cordl_internals::getInstanceField<float_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9::UnityEngine__UI__Button___OnFinishSubmit_d__9(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__Button___OnFinishSubmit_d__9>(__1__state))) {}
+ UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9 UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9::New_ctor(int32_t __1__state)  {
+UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9>(__1__state))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__Button___OnFinishSubmit_d__9>::get(),
@@ -375,8 +380,10 @@ constexpr void UnityEngine::UI::Button::__set_m_OnClick(UnityEngine::UI::UnityEn
 constexpr UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent UnityEngine::UI::Button::__get_m_OnClick() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UI::UnityEngine__UI__Button__ButtonClickedEvent, 0xf8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UI::Button::Button()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<Button>())) {}
+ UnityEngine::UI::Button UnityEngine::UI::Button::New_ctor()  {
+UnityEngine::UI::Button o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::Button>())};
+return o;
+}
  void UnityEngine::UI::Button::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::Button>::get(),

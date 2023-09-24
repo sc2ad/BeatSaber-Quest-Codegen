@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__Aes_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AesManaged_def.hpp"
-#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
+#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::AesManaged._ctor
@@ -334,8 +334,10 @@ constexpr void System::Security::Cryptography::AesManaged::__set_m_rijndael(Syst
 constexpr System::Security::Cryptography::RijndaelManaged System::Security::Cryptography::AesManaged::__get_m_rijndael() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::RijndaelManaged, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::AesManaged::AesManaged()  : System::Security::Cryptography::Aes(THROW_UNLESS(::il2cpp_utils::New<AesManaged>())) {}
+ System::Security::Cryptography::AesManaged System::Security::Cryptography::AesManaged::New_ctor()  {
+System::Security::Cryptography::AesManaged o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::AesManaged>())};
+return o;
+}
  void System::Security::Cryptography::AesManaged::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::AesManaged>::get(),

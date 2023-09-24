@@ -53,8 +53,7 @@ constexpr explicit MonitoringDescriptionAttribute(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MonitoringDescriptionAttribute(::StringW description) ;
+static System::Diagnostics::MonitoringDescriptionAttribute New_ctor(::StringW description) ;
 
 /// @brief Method .ctor addr 0x27e1700 size 0x68 virtual false final false
  void _ctor(::StringW description) ;

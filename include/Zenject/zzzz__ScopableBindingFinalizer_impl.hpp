@@ -1,11 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__ScopableBindingFinalizer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__ScopableBindingFinalizer_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0._ctor
@@ -88,8 +89,10 @@ constexpr void Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0:
 constexpr Zenject::DiContainer Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0::__get_container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ScopableBindingFinalizer____c__DisplayClass3_0>())) {}
+ Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0 Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0::New_ctor()  {
+Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0>())};
+return o;
+}
  void Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass3_0>::get(),
@@ -206,8 +209,10 @@ constexpr void Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0:
 constexpr Zenject::DiContainer Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0::__get_container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__ScopableBindingFinalizer____c__DisplayClass4_0>())) {}
+ Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0 Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0::New_ctor()  {
+Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0>())};
+return o;
+}
  void Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__ScopableBindingFinalizer____c__DisplayClass4_0>::get(),
@@ -318,8 +323,10 @@ constexpr void Zenject::ScopableBindingFinalizer::__set__providerFactory(System:
 constexpr System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> Zenject::ScopableBindingFinalizer::__get__providerFactory() const {
 return ::cordl_internals::getInstanceField<System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "providerFactory", ty: "System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider>", modifiers: "", def_value: None }]
- Zenject::ScopableBindingFinalizer::ScopableBindingFinalizer(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory)  : Zenject::ProviderBindingFinalizer(THROW_UNLESS(::il2cpp_utils::New<ScopableBindingFinalizer>(bindInfo, providerFactory))) {}
+ Zenject::ScopableBindingFinalizer Zenject::ScopableBindingFinalizer::New_ctor(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory)  {
+Zenject::ScopableBindingFinalizer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ScopableBindingFinalizer>(bindInfo, providerFactory))};
+return o;
+}
  void Zenject::ScopableBindingFinalizer::_ctor(Zenject::BindInfo bindInfo, System::Func_3<Zenject::DiContainer,System::Type,Zenject::IProvider> providerFactory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ScopableBindingFinalizer>::get(),

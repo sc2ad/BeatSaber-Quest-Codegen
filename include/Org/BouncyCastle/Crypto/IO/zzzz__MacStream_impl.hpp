@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__MacStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::IO::MacStream._ctor
 template<>
 
@@ -311,8 +311,10 @@ constexpr void Org::BouncyCastle::Crypto::IO::MacStream::__set_outMac(Org::Bounc
 constexpr Org::BouncyCastle::Crypto::IMac Org::BouncyCastle::Crypto::IO::MacStream::__get_outMac() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IMac, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "writeMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::IO::MacStream::MacStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::IMac readMac, Org::BouncyCastle::Crypto::IMac writeMac)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MacStream>(stream, readMac, writeMac))) {}
+ Org::BouncyCastle::Crypto::IO::MacStream Org::BouncyCastle::Crypto::IO::MacStream::New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IMac readMac, Org::BouncyCastle::Crypto::IMac writeMac)  {
+Org::BouncyCastle::Crypto::IO::MacStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::IO::MacStream>(stream, readMac, writeMac))};
+return o;
+}
  void Org::BouncyCastle::Crypto::IO::MacStream::_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IMac readMac, Org::BouncyCastle::Crypto::IMac writeMac)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::IO::MacStream>::get(),

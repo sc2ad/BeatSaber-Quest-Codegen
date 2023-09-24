@@ -6,10 +6,10 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
-class DiContainer;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -66,8 +66,7 @@ constexpr Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewGameObjectDynamicContext(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+static Zenject::SubContainerCreatorByNewGameObjectDynamicContext New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d9235c size 0x2c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;

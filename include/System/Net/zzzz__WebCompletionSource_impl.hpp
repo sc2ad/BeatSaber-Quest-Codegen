@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::WebCompletionSource::WebCompletionSource()  : System::Net::WebCompletionSource_1<::bs_hook::Il2CppWrapperType>(THROW_UNLESS(::il2cpp_utils::New<WebCompletionSource>())) {}
+ System::Net::WebCompletionSource System::Net::WebCompletionSource::New_ctor()  {
+System::Net::WebCompletionSource o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebCompletionSource>())};
+return o;
+}
  void System::Net::WebCompletionSource::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebCompletionSource>::get(),

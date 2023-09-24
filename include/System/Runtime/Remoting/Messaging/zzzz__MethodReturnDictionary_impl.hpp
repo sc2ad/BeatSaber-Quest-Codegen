@@ -31,8 +31,10 @@ return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "InternalReturnKey
  ::ArrayW<::StringW> System::Runtime::Remoting::Messaging::MethodReturnDictionary::__get_InternalExceptionKeys()  {
 return ::cordl_internals::getStaticField<::ArrayW<::StringW>, "InternalExceptionKeys", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MethodReturnDictionary>::get>();
 }
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::MethodReturnDictionary::MethodReturnDictionary(System::Runtime::Remoting::Messaging::IMethodReturnMessage message)  : System::Runtime::Remoting::Messaging::MessageDictionary(THROW_UNLESS(::il2cpp_utils::New<MethodReturnDictionary>(message))) {}
+ System::Runtime::Remoting::Messaging::MethodReturnDictionary System::Runtime::Remoting::Messaging::MethodReturnDictionary::New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage message)  {
+System::Runtime::Remoting::Messaging::MethodReturnDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::MethodReturnDictionary>(message))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::MethodReturnDictionary::_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::MethodReturnDictionary>::get(),

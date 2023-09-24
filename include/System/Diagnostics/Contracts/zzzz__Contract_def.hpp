@@ -1,13 +1,13 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System {
 template<typename T>
 class Predicate_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Diagnostics::Contracts {

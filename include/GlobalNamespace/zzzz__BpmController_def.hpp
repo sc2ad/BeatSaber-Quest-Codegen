@@ -3,19 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
 class BPMChangeBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class IBpmController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BpmController__InitData;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class IBpmController;
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +78,7 @@ constexpr float_t __get_startBpm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "startBpm", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BpmController__InitData(float_t startBpm) ;
+static GlobalNamespace::GlobalNamespace__BpmController__InitData New_ctor(float_t startBpm) ;
 
 /// @brief Method .ctor addr 0x224d610 size 0x28 virtual false final false
  void _ctor(float_t startBpm) ;
@@ -164,8 +166,7 @@ constexpr float_t __get__currentBpm() const;
 /// @brief Method get_currentBpm addr 0x224d500 size 0x8 virtual true final true
  float_t get_currentBpm() ;
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__BpmController__InitData", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
-explicit BpmController(GlobalNamespace::GlobalNamespace__BpmController__InitData initData, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
+static GlobalNamespace::BpmController New_ctor(GlobalNamespace::GlobalNamespace__BpmController__InitData initData, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
 
 /// @brief Method .ctor addr 0x224d508 size 0xd0 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__BpmController__InitData initData, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;

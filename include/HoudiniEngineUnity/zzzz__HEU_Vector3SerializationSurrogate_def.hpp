@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -68,8 +68,7 @@ constexpr explicit HEU_Vector3SerializationSurrogate(void* ptr) noexcept : ::bs_
 /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData addr 0x1fdcc38 size 0x1fc virtual true final true
  ::bs_hook::Il2CppWrapperType System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context, System::Runtime::Serialization::ISurrogateSelector selector) ;
 
-// Ctor Parameters []
-explicit HEU_Vector3SerializationSurrogate() ;
+static HoudiniEngineUnity::HEU_Vector3SerializationSurrogate New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdbf44 size 0x8 virtual false final false
  void _ctor() ;

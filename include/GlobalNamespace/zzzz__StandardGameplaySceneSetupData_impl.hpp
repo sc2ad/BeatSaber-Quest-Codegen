@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardGameplaySceneSetupData._ctor
 template<>
@@ -64,8 +64,10 @@ constexpr void GlobalNamespace::StandardGameplaySceneSetupData::__set_startPause
 constexpr bool GlobalNamespace::StandardGameplaySceneSetupData::__get_startPaused() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "autoRestart", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "backButtonText", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "startPaused", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::StandardGameplaySceneSetupData::StandardGameplaySceneSetupData(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::StringW backButtonText, GlobalNamespace::GameplayModifiers gameplayModifiers, bool startPaused)  : GlobalNamespace::SceneSetupData(THROW_UNLESS(::il2cpp_utils::New<StandardGameplaySceneSetupData>(autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, backButtonText, gameplayModifiers, startPaused))) {}
+ GlobalNamespace::StandardGameplaySceneSetupData GlobalNamespace::StandardGameplaySceneSetupData::New_ctor(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::StringW backButtonText, GlobalNamespace::GameplayModifiers gameplayModifiers, bool startPaused)  {
+GlobalNamespace::StandardGameplaySceneSetupData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardGameplaySceneSetupData>(autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, backButtonText, gameplayModifiers, startPaused))};
+return o;
+}
  void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::StringW backButtonText, GlobalNamespace::GameplayModifiers gameplayModifiers, bool startPaused)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardGameplaySceneSetupData>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationFieldInfo_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__RuntimeFieldInfo_def.hpp"
-#include "System/Reflection/zzzz__FieldAttributes_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
 #include "System/zzzz__RuntimeFieldHandle_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/Reflection/zzzz__FieldAttributes_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SerializationFieldInfo.get_Module
 template<>
@@ -328,8 +328,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "field", ty: "System::Reflection::RuntimeFieldInfo", modifiers: "", def_value: None }, CppParam { name: "namePrefix", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationFieldInfo::SerializationFieldInfo(System::Reflection::RuntimeFieldInfo field, ::StringW namePrefix)  : System::Reflection::FieldInfo(THROW_UNLESS(::il2cpp_utils::New<SerializationFieldInfo>(field, namePrefix))) {}
+ System::Runtime::Serialization::SerializationFieldInfo System::Runtime::Serialization::SerializationFieldInfo::New_ctor(System::Reflection::RuntimeFieldInfo field, ::StringW namePrefix)  {
+System::Runtime::Serialization::SerializationFieldInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationFieldInfo>(field, namePrefix))};
+return o;
+}
  void System::Runtime::Serialization::SerializationFieldInfo::_ctor(System::Reflection::RuntimeFieldInfo field, ::StringW namePrefix)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationFieldInfo>::get(),

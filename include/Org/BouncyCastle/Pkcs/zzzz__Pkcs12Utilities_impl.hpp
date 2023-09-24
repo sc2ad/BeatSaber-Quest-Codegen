@@ -69,8 +69,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, berPkcs12File, passwd);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkcs::Pkcs12Utilities::Pkcs12Utilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12Utilities>())) {}
+ Org::BouncyCastle::Pkcs::Pkcs12Utilities Org::BouncyCastle::Pkcs::Pkcs12Utilities::New_ctor()  {
+Org::BouncyCastle::Pkcs::Pkcs12Utilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12Utilities>())};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12Utilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12Utilities>::get(),

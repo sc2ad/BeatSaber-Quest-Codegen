@@ -4,17 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
+}
 namespace Org::BouncyCastle::Crypto::Engines {
 class ThreefishEngine;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SkeinParameters;
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -88,8 +100,7 @@ constexpr ::ArrayW<uint8_t> __get_bytes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outputSizeBits", ty: "int64_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration(int64_t outputSizeBits) ;
+static Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Configuration New_ctor(int64_t outputSizeBits) ;
 
 /// @brief Method .ctor addr 0xe1aba8 size 0x148 virtual false final false
  void _ctor(int64_t outputSizeBits) ;
@@ -165,8 +176,7 @@ constexpr ::ArrayW<uint8_t> __get_value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter(int32_t type, ::ArrayW<uint8_t> value) ;
+static Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__Parameter New_ctor(int32_t type, ::ArrayW<uint8_t> value) ;
 
 /// @brief Method .ctor addr 0xe1ab28 size 0x30 virtual false final false
  void _ctor(int32_t type, ::ArrayW<uint8_t> value) ;
@@ -256,8 +266,7 @@ constexpr bool __get_extendedPosition() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak() ;
+static Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UbiTweak New_ctor() ;
 
 /// @brief Method .ctor addr 0xe1b170 size 0x60 virtual false final false
  void _ctor() ;
@@ -374,8 +383,7 @@ constexpr ::ArrayW<uint64_t> __get_message() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
+static Org::BouncyCastle::Crypto::Digests::Org__BouncyCastle__Crypto__Digests__SkeinEngine__UBI New_ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
 
 /// @brief Method .ctor addr 0xe19e50 size 0xd8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine, int32_t blockSize) ;
@@ -549,14 +557,12 @@ static void InitialState(int32_t blockSize, int32_t outputSize, ::ArrayW<uint64_
 /// @brief Method VariantIdentifier addr 0xe19e48 size 0x8 virtual false final false
 static int32_t VariantIdentifier(int32_t blockSizeBytes, int32_t outputSizeBytes) ;
 
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "outputSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SkeinEngine(int32_t blockSizeBits, int32_t outputSizeBits) ;
+static Org::BouncyCastle::Crypto::Digests::SkeinEngine New_ctor(int32_t blockSizeBits, int32_t outputSizeBits) ;
 
 /// @brief Method .ctor addr 0xe18fcc size 0x190 virtual false final false
  void _ctor(int32_t blockSizeBits, int32_t outputSizeBits) ;
 
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Digests::SkeinEngine", modifiers: "", def_value: None }]
-explicit SkeinEngine(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
+static Org::BouncyCastle::Crypto::Digests::SkeinEngine New_ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;
 
 /// @brief Method .ctor addr 0xe191ec size 0x58 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::SkeinEngine engine) ;

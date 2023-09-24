@@ -1,15 +1,15 @@
 #pragma once
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelNoTransitionInstaller_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MissionLevelNoTransitionInstaller.InstallBindings
 template<>
 
@@ -107,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionLevelNoTransitionInstaller::MissionLevelNoTransitionInstaller()  : Zenject::NoTransitionInstaller(THROW_UNLESS(::il2cpp_utils::New<MissionLevelNoTransitionInstaller>())) {}
+ GlobalNamespace::MissionLevelNoTransitionInstaller GlobalNamespace::MissionLevelNoTransitionInstaller::New_ctor()  {
+GlobalNamespace::MissionLevelNoTransitionInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionLevelNoTransitionInstaller>())};
+return o;
+}
  void GlobalNamespace::MissionLevelNoTransitionInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionLevelNoTransitionInstaller>::get(),

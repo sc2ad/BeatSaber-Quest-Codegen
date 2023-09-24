@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::UIElements {
-struct TextVertex;
+struct TextNativeSettings;
+}
+namespace UnityEngine {
+struct Rect;
 }
 namespace Unity::Collections {
 template<typename T>
@@ -18,10 +18,10 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine::UIElements {
-struct TextNativeSettings;
+struct TextVertex;
 }
 namespace UnityEngine {
-struct Rect;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

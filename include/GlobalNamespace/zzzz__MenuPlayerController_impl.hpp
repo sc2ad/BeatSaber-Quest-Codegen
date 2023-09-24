@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuPlayerController_def.hpp"
-#include "GlobalNamespace/zzzz__VRController_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__VRController_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MenuPlayerController.get_leftController
 template<>
 
@@ -144,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Quaternion, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuPlayerController::MenuPlayerController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuPlayerController>())) {}
+ GlobalNamespace::MenuPlayerController GlobalNamespace::MenuPlayerController::New_ctor()  {
+GlobalNamespace::MenuPlayerController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuPlayerController>())};
+return o;
+}
  void GlobalNamespace::MenuPlayerController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuPlayerController>::get(),

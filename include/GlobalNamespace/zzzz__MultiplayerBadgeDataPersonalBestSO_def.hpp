@@ -6,17 +6,17 @@ namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,8 +76,7 @@ constexpr float_t __get__weight() const;
 /// @brief Method CalculateBadgeData addr 0x20d9cec size 0x550 virtual true final false
  GlobalNamespace::MultiplayerBadgeAwardData CalculateBadgeData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> resultsData, GlobalNamespace::PlayerDataModel playerDataModel, GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, float_t randomMultiplier) ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgeDataPersonalBestSO() ;
+static GlobalNamespace::MultiplayerBadgeDataPersonalBestSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20da23c size 0x10 virtual false final false
  void _ctor() ;

@@ -2,26 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class TickableManager;
-}
 namespace System {
 class IDisposable;
-}
-namespace Zenject {
-class IFixedTickable;
-}
-namespace Zenject {
-class ILateDisposable;
-}
-namespace Zenject {
-class IInitializable;
 }
 namespace Zenject {
 class ITickable;
 }
 namespace Zenject {
+class TickableManager;
+}
+namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class IInitializable;
 }
 namespace Zenject {
 class InitializableManager;
@@ -31,6 +25,12 @@ class ILateTickable;
 }
 namespace Zenject {
 class DisposableManager;
+}
+namespace Zenject {
+class IFixedTickable;
+}
+namespace Zenject {
+class ILateDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -135,8 +135,7 @@ constexpr Zenject::DisposableManager __get__disposablesManager() const;
 /// @brief Method FixedTick addr 0x2d9b7e0 size 0x18 virtual true final false
  void FixedTick() ;
 
-// Ctor Parameters []
-explicit Kernel() ;
+static Zenject::Kernel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9b880 size 0x8 virtual false final false
  void _ctor() ;

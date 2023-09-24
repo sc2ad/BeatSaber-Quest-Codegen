@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__StyleValues_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::ReusableCollectionItem.get_rootElement
 template<>
 
@@ -430,8 +430,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ReusableCollectionItem::ReusableCollectionItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReusableCollectionItem>())) {}
+ UnityEngine::UIElements::ReusableCollectionItem UnityEngine::UIElements::ReusableCollectionItem::New_ctor()  {
+UnityEngine::UIElements::ReusableCollectionItem o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ReusableCollectionItem>())};
+return o;
+}
  void UnityEngine::UIElements::ReusableCollectionItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ReusableCollectionItem>::get(),

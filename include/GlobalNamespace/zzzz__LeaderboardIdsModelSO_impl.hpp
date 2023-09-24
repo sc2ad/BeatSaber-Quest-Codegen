@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData.get_platformLeaderboardId
 template<>
@@ -85,8 +86,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "difficultyBeatmapId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformLeaderboardId", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData>(difficultyBeatmapId, platformLeaderboardId))) {}
+ GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData::New_ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId)  {
+GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData>(difficultyBeatmapId, platformLeaderboardId))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData::_ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LeaderboardIdsModelSO__LeaderboardIdData>::get(),
@@ -203,8 +206,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, difficultyBeatmap, platformLeaderboardId);
 }
-// Ctor Parameters []
- GlobalNamespace::LeaderboardIdsModelSO::LeaderboardIdsModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LeaderboardIdsModelSO>())) {}
+ GlobalNamespace::LeaderboardIdsModelSO GlobalNamespace::LeaderboardIdsModelSO::New_ctor()  {
+GlobalNamespace::LeaderboardIdsModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LeaderboardIdsModelSO>())};
+return o;
+}
  void GlobalNamespace::LeaderboardIdsModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LeaderboardIdsModelSO>::get(),

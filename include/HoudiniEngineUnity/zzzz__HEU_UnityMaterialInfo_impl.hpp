@@ -35,8 +35,10 @@ constexpr void HoudiniEngineUnity::HEU_UnityMaterialInfo::__set__substanceIndex(
 constexpr int32_t HoudiniEngineUnity::HEU_UnityMaterialInfo::__get__substanceIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "unityMaterialPath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "substancePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "substanceIndex", ty: "int32_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HEU_UnityMaterialInfo::HEU_UnityMaterialInfo(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_UnityMaterialInfo>(unityMaterialPath, substancePath, substanceIndex))) {}
+ HoudiniEngineUnity::HEU_UnityMaterialInfo HoudiniEngineUnity::HEU_UnityMaterialInfo::New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex)  {
+HoudiniEngineUnity::HEU_UnityMaterialInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_UnityMaterialInfo>(unityMaterialPath, substancePath, substanceIndex))};
+return o;
+}
  void HoudiniEngineUnity::HEU_UnityMaterialInfo::_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_UnityMaterialInfo>::get(),

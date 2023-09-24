@@ -4,14 +4,14 @@
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationMode;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+namespace System::Net::Security {
+struct EncryptionPolicy;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
 }
-namespace System::Net::Security {
-struct EncryptionPolicy;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -135,8 +135,7 @@ constexpr System::Security::Cryptography::X509Certificates::X509Certificate __ge
 /// @brief Method set_EncryptionPolicy addr 0x276cd44 size 0xa0 virtual false final false
  void set_EncryptionPolicy(System::Net::Security::EncryptionPolicy value) ;
 
-// Ctor Parameters []
-explicit SslServerAuthenticationOptions() ;
+static System::Net::Security::SslServerAuthenticationOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x276cde4 size 0x10 virtual false final false
  void _ctor() ;

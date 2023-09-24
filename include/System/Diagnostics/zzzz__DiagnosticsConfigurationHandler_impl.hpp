@@ -40,8 +40,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::bs_hook::
 constexpr  System::Diagnostics::DiagnosticsConfigurationHandler::operator System::Configuration::IConfigurationSectionHandler() const noexcept {
 return System::Configuration::IConfigurationSectionHandler(::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Diagnostics::DiagnosticsConfigurationHandler::DiagnosticsConfigurationHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiagnosticsConfigurationHandler>())) {}
+ System::Diagnostics::DiagnosticsConfigurationHandler System::Diagnostics::DiagnosticsConfigurationHandler::New_ctor()  {
+System::Diagnostics::DiagnosticsConfigurationHandler o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DiagnosticsConfigurationHandler>())};
+return o;
+}
  void System::Diagnostics::DiagnosticsConfigurationHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DiagnosticsConfigurationHandler>::get(),

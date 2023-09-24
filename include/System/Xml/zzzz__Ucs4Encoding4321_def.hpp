@@ -55,8 +55,7 @@ constexpr explicit Ucs4Encoding4321(void* ptr) noexcept : System::Xml::Ucs4Encod
 
 // Methods
 
-// Ctor Parameters []
-explicit Ucs4Encoding4321() ;
+static System::Xml::Ucs4Encoding4321 New_ctor() ;
 
 /// @brief Method .ctor addr 0x27123a8 size 0x68 virtual false final false
  void _ctor() ;

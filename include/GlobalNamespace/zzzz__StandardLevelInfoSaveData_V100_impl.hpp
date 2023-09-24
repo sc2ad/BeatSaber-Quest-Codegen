@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_V100_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelInfoSaveData_V100_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap.get_difficulty
 template<>
 
@@ -178,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "difficultyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyRank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatmapFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "noteJumpMovementSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "noteJumpStartBeatOffset", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>(difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed, noteJumpStartBeatOffset))) {}
+ GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap::New_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset)  {
+GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>(difficultyName, difficultyRank, beatmapFilename, noteJumpMovementSpeed, noteJumpStartBeatOffset))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap::_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>::get(),
@@ -238,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck>())) {}
+ GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck::New_ctor()  {
+GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__VersionCheck>::get(),
@@ -814,8 +819,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "songName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songSubName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "songAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "levelAuthorName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songTimeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shuffle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shufflePeriod", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "previewDuration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "songFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImageFilename", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmaps", ty: "::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap>", modifiers: "", def_value: None }]
- GlobalNamespace::StandardLevelInfoSaveData_V100::StandardLevelInfoSaveData_V100(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StandardLevelInfoSaveData_V100>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, difficultyBeatmaps))) {}
+ GlobalNamespace::StandardLevelInfoSaveData_V100 GlobalNamespace::StandardLevelInfoSaveData_V100::New_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps)  {
+GlobalNamespace::StandardLevelInfoSaveData_V100 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelInfoSaveData_V100>(songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, songFilename, coverImageFilename, difficultyBeatmaps))};
+return o;
+}
  void GlobalNamespace::StandardLevelInfoSaveData_V100::_ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::ArrayW<GlobalNamespace::GlobalNamespace__StandardLevelInfoSaveData_V100__DifficultyBeatmap> difficultyBeatmaps)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelInfoSaveData_V100>::get(),

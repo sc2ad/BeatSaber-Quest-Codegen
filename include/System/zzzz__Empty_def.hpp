@@ -6,10 +6,10 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -69,8 +69,7 @@ static System::Empty __get_Value() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Empty() ;
+static System::Empty New_ctor() ;
 
 /// @brief Method .ctor addr 0x247384c size 0x8 virtual false final false
  void _ctor() ;

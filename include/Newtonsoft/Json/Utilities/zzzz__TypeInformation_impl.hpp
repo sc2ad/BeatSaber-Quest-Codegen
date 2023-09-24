@@ -1,7 +1,7 @@
 #pragma once
 #include "Newtonsoft/Json/Utilities/zzzz__TypeInformation_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Utilities::TypeInformation.get_Type
 template<>
 
@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Utilities::TypeInformation::TypeInformation()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TypeInformation>())) {}
+ Newtonsoft::Json::Utilities::TypeInformation Newtonsoft::Json::Utilities::TypeInformation::New_ctor()  {
+Newtonsoft::Json::Utilities::TypeInformation o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Utilities::TypeInformation>())};
+return o;
+}
  void Newtonsoft::Json::Utilities::TypeInformation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Utilities::TypeInformation>::get(),

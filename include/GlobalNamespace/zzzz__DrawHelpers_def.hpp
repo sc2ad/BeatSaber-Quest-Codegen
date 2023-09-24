@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Material;
+class Texture;
 }
 namespace UnityEngine {
-class Texture;
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,8 +57,7 @@ constexpr explicit DrawHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 /// @brief Method DrawTexture addr 0x1f73db0 size 0x1a8 virtual false final false
 static void DrawTexture(UnityEngine::Texture texture, float_t x, float_t y, float_t w, float_t h, UnityEngine::Material mat, float_t sx, float_t sy, float_t sw, float_t sh) ;
 
-// Ctor Parameters []
-explicit DrawHelpers() ;
+static GlobalNamespace::DrawHelpers New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f73f58 size 0x8 virtual false final false
  void _ctor() ;

@@ -185,8 +185,7 @@ constexpr int32_t __get_m_LayoutPriority() const;
 /// @brief Method set_layoutPriority addr 0x2bfe648 size 0x74 virtual true final false
  void set_layoutPriority(int32_t value) ;
 
-// Ctor Parameters []
-explicit LayoutElement() ;
+static UnityEngine::UI::LayoutElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bfe6bc size 0x24 virtual false final false
  void _ctor() ;

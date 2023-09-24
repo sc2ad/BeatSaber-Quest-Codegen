@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__ParticleContentValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
-#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
-#include "System/Collections/zzzz__Stack_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
-#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
-#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
+#include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Collections/zzzz__Stack_def.hpp"
+#include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
+#include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
+#include "System/Xml/Schema/zzzz__Positions_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::ParticleContentValidator._ctor
 template<>
 
@@ -427,8 +427,10 @@ constexpr void System::Xml::Schema::ParticleContentValidator::__set_enableUpaChe
 constexpr bool System::Xml::Schema::ParticleContentValidator::__get_enableUpaCheck() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }]
- System::Xml::Schema::ParticleContentValidator::ParticleContentValidator(System::Xml::Schema::XmlSchemaContentType contentType)  : System::Xml::Schema::ContentValidator(THROW_UNLESS(::il2cpp_utils::New<ParticleContentValidator>(contentType))) {}
+ System::Xml::Schema::ParticleContentValidator System::Xml::Schema::ParticleContentValidator::New_ctor(System::Xml::Schema::XmlSchemaContentType contentType)  {
+System::Xml::Schema::ParticleContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::ParticleContentValidator>(contentType))};
+return o;
+}
  void System::Xml::Schema::ParticleContentValidator::_ctor(System::Xml::Schema::XmlSchemaContentType contentType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ParticleContentValidator>::get(),
@@ -438,8 +440,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, contentType);
 }
-// Ctor Parameters [CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "enableUpaCheck", ty: "bool", modifiers: "", def_value: None }]
- System::Xml::Schema::ParticleContentValidator::ParticleContentValidator(System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck)  : System::Xml::Schema::ContentValidator(THROW_UNLESS(::il2cpp_utils::New<ParticleContentValidator>(contentType, enableUpaCheck))) {}
+ System::Xml::Schema::ParticleContentValidator System::Xml::Schema::ParticleContentValidator::New_ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck)  {
+System::Xml::Schema::ParticleContentValidator o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::ParticleContentValidator>(contentType, enableUpaCheck))};
+return o;
+}
  void System::Xml::Schema::ParticleContentValidator::_ctor(System::Xml::Schema::XmlSchemaContentType contentType, bool enableUpaCheck)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::ParticleContentValidator>::get(),

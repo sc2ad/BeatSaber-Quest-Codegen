@@ -13,7 +13,7 @@ class MessageWithInvitePanelResultInfo;
 // Type: Oculus.Platform::MessageWithInvitePanelResultInfo
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13419)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4446 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4446 }), TypeDefinitionIndex(TypeDefinitionIndex(13419)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13239))
 // CS Name: Oculus.Platform.MessageWithInvitePanelResultInfo
 class CORDL_TYPE MessageWithInvitePanelResultInfo : public Oculus::Platform::Message_1<Oculus::Platform::Models::InvitePanelResultInfo> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithInvitePanelResultInfo(void* ptr) noexcept : Oculus
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithInvitePanelResultInfo(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithInvitePanelResultInfo New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e740 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

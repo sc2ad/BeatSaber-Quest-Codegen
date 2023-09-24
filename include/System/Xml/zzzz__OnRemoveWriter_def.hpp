@@ -52,8 +52,7 @@ constexpr explicit OnRemoveWriter(void* ptr) noexcept : System::MulticastDelegat
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OnRemoveWriter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::Xml::OnRemoveWriter New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x26c1010 size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

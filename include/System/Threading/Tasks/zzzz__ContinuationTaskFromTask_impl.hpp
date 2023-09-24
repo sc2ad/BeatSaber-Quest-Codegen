@@ -45,8 +45,10 @@ constexpr void System::Threading::Tasks::ContinuationTaskFromTask::__set_m_antec
 constexpr System::Threading::Tasks::Task System::Threading::Tasks::ContinuationTaskFromTask::__get_m_antecedent() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "antecedent", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Delegate", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "creationOptions", ty: "System::Threading::Tasks::TaskCreationOptions", modifiers: "", def_value: None }, CppParam { name: "internalOptions", ty: "System::Threading::Tasks::InternalTaskOptions", modifiers: "", def_value: None }]
- System::Threading::Tasks::ContinuationTaskFromTask::ContinuationTaskFromTask(System::Threading::Tasks::Task antecedent, System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions)  : System::Threading::Tasks::Task(THROW_UNLESS(::il2cpp_utils::New<ContinuationTaskFromTask>(antecedent, action, state, creationOptions, internalOptions))) {}
+ System::Threading::Tasks::ContinuationTaskFromTask System::Threading::Tasks::ContinuationTaskFromTask::New_ctor(System::Threading::Tasks::Task antecedent, System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions)  {
+System::Threading::Tasks::ContinuationTaskFromTask o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::ContinuationTaskFromTask>(antecedent, action, state, creationOptions, internalOptions))};
+return o;
+}
  void System::Threading::Tasks::ContinuationTaskFromTask::_ctor(System::Threading::Tasks::Task antecedent, System::Delegate action, ::bs_hook::Il2CppWrapperType state, System::Threading::Tasks::TaskCreationOptions creationOptions, System::Threading::Tasks::InternalTaskOptions internalOptions)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::ContinuationTaskFromTask>::get(),

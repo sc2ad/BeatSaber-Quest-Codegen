@@ -83,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::FocusChangeDirection, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::VisualElementFocusChangeDirection::VisualElementFocusChangeDirection(int32_t value)  : UnityEngine::UIElements::FocusChangeDirection(THROW_UNLESS(::il2cpp_utils::New<VisualElementFocusChangeDirection>(value))) {}
+ UnityEngine::UIElements::VisualElementFocusChangeDirection UnityEngine::UIElements::VisualElementFocusChangeDirection::New_ctor(int32_t value)  {
+UnityEngine::UIElements::VisualElementFocusChangeDirection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualElementFocusChangeDirection>(value))};
+return o;
+}
  void UnityEngine::UIElements::VisualElementFocusChangeDirection::_ctor(int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualElementFocusChangeDirection>::get(),

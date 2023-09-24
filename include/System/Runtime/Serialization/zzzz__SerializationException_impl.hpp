@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationException_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::SerializationException._ctor
 template<>
 
@@ -78,8 +78,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  ::StringW System::Runtime::Serialization::SerializationException::__get_s_nullMessage()  {
 return ::cordl_internals::getStaticField<::StringW, "s_nullMessage", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationException>::get>();
 }
-// Ctor Parameters []
- System::Runtime::Serialization::SerializationException::SerializationException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SerializationException>())) {}
+ System::Runtime::Serialization::SerializationException System::Runtime::Serialization::SerializationException::New_ctor()  {
+System::Runtime::Serialization::SerializationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationException>())};
+return o;
+}
  void System::Runtime::Serialization::SerializationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationException>::get(),
@@ -89,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationException::SerializationException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SerializationException>(message))) {}
+ System::Runtime::Serialization::SerializationException System::Runtime::Serialization::SerializationException::New_ctor(::StringW message)  {
+System::Runtime::Serialization::SerializationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationException>(message))};
+return o;
+}
  void System::Runtime::Serialization::SerializationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationException>::get(),
@@ -100,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationException::SerializationException(::StringW message, System::Exception innerException)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SerializationException>(message, innerException))) {}
+ System::Runtime::Serialization::SerializationException System::Runtime::Serialization::SerializationException::New_ctor(::StringW message, System::Exception innerException)  {
+System::Runtime::Serialization::SerializationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationException>(message, innerException))};
+return o;
+}
  void System::Runtime::Serialization::SerializationException::_ctor(::StringW message, System::Exception innerException)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationException>::get(),
@@ -111,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message, innerException);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SerializationException::SerializationException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<SerializationException>(info, context))) {}
+ System::Runtime::Serialization::SerializationException System::Runtime::Serialization::SerializationException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Serialization::SerializationException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SerializationException>(info, context))};
+return o;
+}
  void System::Runtime::Serialization::SerializationException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SerializationException>::get(),

@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::ReflectionProbeDataSO::ReflectionProbeDataSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<ReflectionProbeDataSO>())) {}
+ GlobalNamespace::ReflectionProbeDataSO GlobalNamespace::ReflectionProbeDataSO::New_ctor()  {
+GlobalNamespace::ReflectionProbeDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ReflectionProbeDataSO>())};
+return o;
+}
  void GlobalNamespace::ReflectionProbeDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ReflectionProbeDataSO>::get(),

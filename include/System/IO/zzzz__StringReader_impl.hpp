@@ -155,8 +155,10 @@ constexpr void System::IO::StringReader::__set__length(int32_t value)  {
 constexpr int32_t System::IO::StringReader::__get__length() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "s", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::StringReader::StringReader(::StringW s)  : System::IO::TextReader(THROW_UNLESS(::il2cpp_utils::New<StringReader>(s))) {}
+ System::IO::StringReader System::IO::StringReader::New_ctor(::StringW s)  {
+System::IO::StringReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StringReader>(s))};
+return o;
+}
  void System::IO::StringReader::_ctor(::StringW s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StringReader>::get(),

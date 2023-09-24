@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace System::Globalization {
 class NumberFormatInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -73,8 +73,7 @@ constexpr explicit Int64Converter(void* ptr) noexcept : System::ComponentModel::
 /// @brief Method ToString addr 0x277eaa4 size 0xb0 virtual true final false
  ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::Globalization::NumberFormatInfo formatInfo) ;
 
-// Ctor Parameters []
-explicit Int64Converter() ;
+static System::ComponentModel::Int64Converter New_ctor() ;
 
 /// @brief Method .ctor addr 0x277eb54 size 0x8 virtual false final false
  void _ctor() ;

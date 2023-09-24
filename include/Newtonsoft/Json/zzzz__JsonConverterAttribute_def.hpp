@@ -83,14 +83,12 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__ConverterParameters_k__B
 /// @brief Method set_ConverterParameters addr 0x24c833c size 0x8 virtual false final false
  void set_ConverterParameters(::ArrayW<::bs_hook::Il2CppWrapperType> value) ;
 
-// Ctor Parameters [CppParam { name: "converterType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonConverterAttribute(System::Type converterType) ;
+static Newtonsoft::Json::JsonConverterAttribute New_ctor(System::Type converterType) ;
 
 /// @brief Method .ctor addr 0x24c8344 size 0x78 virtual false final false
  void _ctor(System::Type converterType) ;
 
-// Ctor Parameters [CppParam { name: "converterType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "converterParameters", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit JsonConverterAttribute(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;
+static Newtonsoft::Json::JsonConverterAttribute New_ctor(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;
 
 /// @brief Method .ctor addr 0x24c83bc size 0x24 virtual false final false
  void _ctor(System::Type converterType, ::ArrayW<::bs_hook::Il2CppWrapperType> converterParameters) ;

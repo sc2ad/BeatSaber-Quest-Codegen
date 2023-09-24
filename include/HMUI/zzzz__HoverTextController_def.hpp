@@ -8,15 +8,21 @@
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+class HMUI__HoverTextController___ShowTextCoroutine_d__10;
+}
+namespace HMUI {
+class HMUI__HoverTextController___HideTextCoroutine_d__12;
 }
 // Forward declare root types
 namespace HMUI {
@@ -107,8 +113,7 @@ constexpr HMUI::HoverTextController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__HoverTextController___ShowTextCoroutine_d__10(int32_t __1__state) ;
+static HMUI::HMUI__HoverTextController___ShowTextCoroutine_d__10 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fab6d4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -211,8 +216,7 @@ constexpr HMUI::HoverTextController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__HoverTextController___HideTextCoroutine_d__12(int32_t __1__state) ;
+static HMUI::HMUI__HoverTextController___HideTextCoroutine_d__12 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fab7d0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -342,8 +346,7 @@ constexpr bool __get__isFadingIn() const;
 /// @brief Method HideTextCoroutine addr 0x1fab768 size 0x68 virtual false final false
  System::Collections::IEnumerator HideTextCoroutine() ;
 
-// Ctor Parameters []
-explicit HoverTextController() ;
+static HMUI::HoverTextController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fab7f8 size 0x1c virtual false final false
  void _ctor() ;

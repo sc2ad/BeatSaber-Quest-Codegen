@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__CollectionParser_def.hpp"
-#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
-#include "System/Net/Http/Headers/zzzz__ElementTryParser_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__ElementTryParser_1_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::CollectionParser.TryParse
 template<>
 

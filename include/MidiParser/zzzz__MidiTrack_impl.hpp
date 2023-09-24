@@ -1,7 +1,7 @@
 #pragma once
 #include "MidiParser/zzzz__MidiTrack_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "MidiParser/zzzz__MidiEvent_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: MidiParser::MidiTrack._ctor
 template<>
 
@@ -31,8 +31,10 @@ constexpr void MidiParser::MidiTrack::__set_MidiEvents(System::Collections::Gene
 constexpr System::Collections::Generic::List_1<MidiParser::MidiEvent> MidiParser::MidiTrack::__get_MidiEvents() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<MidiParser::MidiEvent>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- MidiParser::MidiTrack::MidiTrack()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MidiTrack>())) {}
+ MidiParser::MidiTrack MidiParser::MidiTrack::New_ctor()  {
+MidiParser::MidiTrack o{THROW_UNLESS(::il2cpp_utils::New<MidiParser::MidiTrack>())};
+return o;
+}
  void MidiParser::MidiTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<MidiParser::MidiTrack>::get(),

@@ -4,26 +4,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+namespace System::IO {
+class Stream;
 }
-namespace System::Net::Security {
-class SslStream;
+namespace Mono::Net::Security {
+class ChainValidationHelper;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
 namespace Mono::Net::Security {
-class ChainValidationHelper;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
+}
+namespace System::Net::Security {
+class SslStream;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
 }
 namespace System::Net::Security {
 struct SslPolicyErrors;
@@ -80,8 +80,7 @@ constexpr explicit MobileTlsProvider(void* ptr) noexcept : Mono::Security::Inter
 /// @brief Method ValidateCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
  bool ValidateCertificate(Mono::Net::Security::ChainValidationHelper validator, ::StringW targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain> chain, ByRef<System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11) ;
 
-// Ctor Parameters []
-explicit MobileTlsProvider() ;
+static Mono::Net::Security::MobileTlsProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x268bd8c size 0x8 virtual false final false
  void _ctor() ;

@@ -65,8 +65,7 @@ constexpr System::Type __get_obj_type() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ActivatedServiceTypeEntry(::StringW typeName, ::StringW assemblyName) ;
+static System::Runtime::Remoting::ActivatedServiceTypeEntry New_ctor(::StringW typeName, ::StringW assemblyName) ;
 
 /// @brief Method .ctor addr 0x2319cbc size 0x128 virtual false final false
  void _ctor(::StringW typeName, ::StringW assemblyName) ;

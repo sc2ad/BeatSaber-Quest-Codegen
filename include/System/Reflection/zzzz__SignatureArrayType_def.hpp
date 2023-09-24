@@ -76,8 +76,7 @@ constexpr bool __get__isMultiDim() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isMultiDim", ty: "bool", modifiers: "", def_value: None }]
-explicit SignatureArrayType(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;
+static System::Reflection::SignatureArrayType New_ctor(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;
 
 /// @brief Method .ctor addr 0x237cc84 size 0x3c virtual false final false
  void _ctor(System::Reflection::SignatureType elementType, int32_t rank, bool isMultiDim) ;

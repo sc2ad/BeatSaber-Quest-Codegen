@@ -3,17 +3,18 @@
 #include "GlobalNamespace/zzzz__MainMenuDestinationRequestController_def.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainMenuDestinationRequestController_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "GlobalNamespace/zzzz__MenuScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__IDestinationRequestManager_def.hpp"
-#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "GlobalNamespace/zzzz__MenuScenesTransitionSetupDataSO_def.hpp"
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0._ctor
 template<>
 
@@ -54,8 +55,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestContr
 constexpr GlobalNamespace::MenuDestination GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0::__get_menuDestination() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MenuDestination, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0>())) {}
+ GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0 GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MainMenuDestinationRequestController____c__DisplayClass8_0>::get(),
@@ -360,8 +363,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, menuDestination);
 }
-// Ctor Parameters []
- GlobalNamespace::MainMenuDestinationRequestController::MainMenuDestinationRequestController()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MainMenuDestinationRequestController>())) {}
+ GlobalNamespace::MainMenuDestinationRequestController GlobalNamespace::MainMenuDestinationRequestController::New_ctor()  {
+GlobalNamespace::MainMenuDestinationRequestController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainMenuDestinationRequestController>())};
+return o;
+}
  void GlobalNamespace::MainMenuDestinationRequestController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainMenuDestinationRequestController>::get(),

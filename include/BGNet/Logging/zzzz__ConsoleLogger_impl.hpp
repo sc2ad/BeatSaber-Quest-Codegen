@@ -1,7 +1,7 @@
 #pragma once
 #include "BGNet/Logging/zzzz__ConsoleLogger_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: BGNet::Logging::ConsoleLogger.LogInfo
 template<>
 
@@ -127,8 +127,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters []
- BGNet::Logging::ConsoleLogger::ConsoleLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConsoleLogger>())) {}
+ BGNet::Logging::ConsoleLogger BGNet::Logging::ConsoleLogger::New_ctor()  {
+BGNet::Logging::ConsoleLogger o{THROW_UNLESS(::il2cpp_utils::New<BGNet::Logging::ConsoleLogger>())};
+return o;
+}
  void BGNet::Logging::ConsoleLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BGNet::Logging::ConsoleLogger>::get(),

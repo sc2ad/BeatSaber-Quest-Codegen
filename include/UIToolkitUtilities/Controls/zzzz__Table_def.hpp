@@ -5,59 +5,74 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlChildElementDescription;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UIToolkitUtilities::Controls {
+class UIToolkitUtilities__Controls__Table__UxmlFactory;
+}
 namespace UnityEngine::UIElements {
-class ScrollView;
+class VisualElement;
+}
+namespace UIToolkitUtilities::Controls {
+class UIToolkitUtilities__Controls__Table__TableColumn;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+namespace UIToolkitUtilities::Controls {
+class UIToolkitUtilities__Controls__Table__RuntimeTableColumn;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class ScrollView;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace UIToolkitUtilities::Controls {
+class UIToolkitUtilities__Controls__Table__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct ScrollerVisibility;
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlBoolAttributeDescription;
+}
+namespace GlobalNamespace {
+class UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class UxmlEnumAttributeDescription_1;
+}
+namespace UnityEngine::UIElements {
+struct ScrollerVisibility;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
@@ -162,14 +177,12 @@ constexpr int32_t __get_maxWidth() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cellType", ty: "::bs_hook::EnumTypeWrapper", modifiers: "", def_value: None }]
-explicit UIToolkitUtilities__Controls__Table__TableColumn(::StringW name, ::bs_hook::EnumTypeWrapper cellType) ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn New_ctor(::StringW name, ::bs_hook::EnumTypeWrapper cellType) ;
 
 /// @brief Method .ctor addr 0x287c7fc size 0x40 virtual false final false
  void _ctor(::StringW name, ::bs_hook::EnumTypeWrapper cellType) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "headerTooltip", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cellType", ty: "::bs_hook::EnumTypeWrapper", modifiers: "", def_value: None }, CppParam { name: "visible", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "minWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxWidth", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UIToolkitUtilities__Controls__Table__TableColumn(::StringW name, ::StringW headerTooltip, ::bs_hook::EnumTypeWrapper cellType, bool visible, int32_t minWidth, int32_t maxWidth) ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__TableColumn New_ctor(::StringW name, ::StringW headerTooltip, ::bs_hook::EnumTypeWrapper cellType, bool visible, int32_t minWidth, int32_t maxWidth) ;
 
 /// @brief Method .ctor addr 0x287c83c size 0x68 virtual false final false
  void _ctor(::StringW name, ::StringW headerTooltip, ::bs_hook::EnumTypeWrapper cellType, bool visible, int32_t minWidth, int32_t maxWidth) ;
@@ -235,8 +248,7 @@ constexpr bool __get_visible() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UIToolkitUtilities__Controls__Table__RuntimeTableColumn() ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__RuntimeTableColumn New_ctor() ;
 
 /// @brief Method .ctor addr 0x287be20 size 0x8 virtual false final false
  void _ctor() ;
@@ -327,8 +339,7 @@ constexpr UnityEngine::UIElements::UxmlEnumAttributeDescription_1<UnityEngine::U
 /// @brief Method Init addr 0x287c990 size 0x1a8 virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UIToolkitUtilities__Controls__Table__UxmlTraits() ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x287cb38 size 0x170 virtual false final false
  void _ctor() ;
@@ -503,8 +514,7 @@ constexpr bool __get_newRowIsAltStyle() const;
 /// @brief Method set_initialized addr 0x287ba48 size 0xc virtual false final false
  void set_initialized(bool value) ;
 
-// Ctor Parameters []
-explicit Table() ;
+static UIToolkitUtilities::Controls::Table New_ctor() ;
 
 /// @brief Method .ctor addr 0x287ba54 size 0x1e4 virtual false final false
  void _ctor() ;
@@ -537,7 +547,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UIToolkitUtilities::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15947)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5105 }), TypeDefinitionIndex(TypeDefinitionIndex(15946))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5105 }), TypeDefinitionIndex(TypeDefinitionIndex(15946)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(15947))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15944))
 // CS Name: UIToolkitUtilities.Controls.Table::UxmlFactory
 class CORDL_TYPE UIToolkitUtilities__Controls__Table__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UIToolkitUtilities::Controls::Table,UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlTraits> {
@@ -576,8 +586,7 @@ constexpr explicit UIToolkitUtilities__Controls__Table__UxmlFactory(void* ptr) n
 
 // Methods
 
-// Ctor Parameters []
-explicit UIToolkitUtilities__Controls__Table__UxmlFactory() ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__Table__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x287c8a4 size 0x48 virtual false final false
  void _ctor() ;
@@ -671,8 +680,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5(int32_t __1__state) ;
+static GlobalNamespace::UIToolkitUtilities__Controls__Table__UxmlTraits___get_uxmlChildElementsDescription_d__5 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x287c95c size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

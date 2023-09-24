@@ -304,8 +304,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, a, b);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::KdTree::Math::FloatMath::FloatMath()  : UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<FloatMath>())) {}
+ UnityEngine::ProBuilder::KdTree::Math::FloatMath UnityEngine::ProBuilder::KdTree::Math::FloatMath::New_ctor()  {
+UnityEngine::ProBuilder::KdTree::Math::FloatMath o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::KdTree::Math::FloatMath>())};
+return o;
+}
  void UnityEngine::ProBuilder::KdTree::Math::FloatMath::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::KdTree::Math::FloatMath>::get(),

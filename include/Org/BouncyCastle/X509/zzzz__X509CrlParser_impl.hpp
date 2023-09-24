@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__X509CrlParser_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__PemParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CertificateList_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Crl_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::X509CrlParser._ctor
 template<>
 
@@ -207,8 +207,10 @@ constexpr void Org::BouncyCastle::X509::X509CrlParser::__set_currentCrlStream(Sy
 constexpr System::IO::Stream Org::BouncyCastle::X509::X509CrlParser::__get_currentCrlStream() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::X509::X509CrlParser::X509CrlParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CrlParser>())) {}
+ Org::BouncyCastle::X509::X509CrlParser Org::BouncyCastle::X509::X509CrlParser::New_ctor()  {
+Org::BouncyCastle::X509::X509CrlParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509CrlParser>())};
+return o;
+}
  void Org::BouncyCastle::X509::X509CrlParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509CrlParser>::get(),
@@ -218,8 +220,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lazyAsn1", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::X509CrlParser::X509CrlParser(bool lazyAsn1)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CrlParser>(lazyAsn1))) {}
+ Org::BouncyCastle::X509::X509CrlParser Org::BouncyCastle::X509::X509CrlParser::New_ctor(bool lazyAsn1)  {
+Org::BouncyCastle::X509::X509CrlParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::X509CrlParser>(lazyAsn1))};
+return o;
+}
  void Org::BouncyCastle::X509::X509CrlParser::_ctor(bool lazyAsn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::X509CrlParser>::get(),

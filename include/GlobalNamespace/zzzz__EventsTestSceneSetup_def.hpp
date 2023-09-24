@@ -62,8 +62,7 @@ constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() co
 /// @brief Method InstallBindings addr 0x21b4160 size 0xc34 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit EventsTestSceneSetup() ;
+static GlobalNamespace::EventsTestSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b4d94 size 0x8 virtual false final false
  void _ctor() ;

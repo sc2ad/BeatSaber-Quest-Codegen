@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::SymbolsDictionary._ctor
 template<>
 
@@ -211,8 +211,10 @@ constexpr void System::Xml::Schema::SymbolsDictionary::__set_isUpaEnforced(bool 
 constexpr bool System::Xml::Schema::SymbolsDictionary::__get_isUpaEnforced() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::SymbolsDictionary::SymbolsDictionary()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SymbolsDictionary>())) {}
+ System::Xml::Schema::SymbolsDictionary System::Xml::Schema::SymbolsDictionary::New_ctor()  {
+System::Xml::Schema::SymbolsDictionary o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SymbolsDictionary>())};
+return o;
+}
  void System::Xml::Schema::SymbolsDictionary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SymbolsDictionary>::get(),

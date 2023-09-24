@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__PrefabControlPlayable_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::PrefabControlPlayable.Create
@@ -212,8 +212,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObject);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::PrefabControlPlayable::PrefabControlPlayable()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<PrefabControlPlayable>())) {}
+ UnityEngine::Timeline::PrefabControlPlayable UnityEngine::Timeline::PrefabControlPlayable::New_ctor()  {
+UnityEngine::Timeline::PrefabControlPlayable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::PrefabControlPlayable>())};
+return o;
+}
  void UnityEngine::Timeline::PrefabControlPlayable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::PrefabControlPlayable>::get(),

@@ -2,17 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace GlobalNamespace {
+class OVRGrabber;
+}
 namespace UnityEngine {
-class Collider;
+class Transform;
 }
 namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class OVRGrabber;
+class Collider;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -177,8 +177,7 @@ constexpr GlobalNamespace::OVRGrabber __get_m_grabbedBy() const;
 /// @brief Method OnDestroy addr 0x2621604 size 0x84 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit OVRGrabbable() ;
+static GlobalNamespace::OVRGrabbable New_ctor() ;
 
 /// @brief Method .ctor addr 0x2621738 size 0x10 virtual false final false
  void _ctor() ;

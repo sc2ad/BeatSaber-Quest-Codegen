@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::ProviderData::ProviderData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProviderData>())) {}
+ System::Runtime::Remoting::ProviderData System::Runtime::Remoting::ProviderData::New_ctor()  {
+System::Runtime::Remoting::ProviderData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::ProviderData>())};
+return o;
+}
  void System::Runtime::Remoting::ProviderData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::ProviderData>::get(),

@@ -3,10 +3,10 @@
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlLinkedNode;
+struct XmlNodeType;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlLinkedNode;
 }
 namespace System::Xml {
 class XmlNode;
@@ -134,8 +134,7 @@ constexpr bool __get_childrenFoliating() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strdata", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "notationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlEntity(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlEntity New_ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f5a4c size 0x80 virtual false final false
  void _ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc) ;

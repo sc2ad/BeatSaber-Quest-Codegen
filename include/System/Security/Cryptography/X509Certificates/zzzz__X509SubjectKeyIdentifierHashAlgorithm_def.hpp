@@ -57,6 +57,8 @@ constexpr operator __X509SubjectKeyIdentifierHashAlgorithm_Unwrapped () const no
 return std::bit_cast<__X509SubjectKeyIdentifierHashAlgorithm_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

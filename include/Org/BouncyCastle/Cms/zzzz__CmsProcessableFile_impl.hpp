@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableFile_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 #include "System/IO/zzzz__FileInfo_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsProcessableFile._ctor
 template<>
 
@@ -109,8 +109,10 @@ constexpr void Org::BouncyCastle::Cms::CmsProcessableFile::__set__bufSize(int32_
 constexpr int32_t Org::BouncyCastle::Cms::CmsProcessableFile::__get__bufSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "file", ty: "System::IO::FileInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsProcessableFile::CmsProcessableFile(System::IO::FileInfo file)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsProcessableFile>(file))) {}
+ Org::BouncyCastle::Cms::CmsProcessableFile Org::BouncyCastle::Cms::CmsProcessableFile::New_ctor(System::IO::FileInfo file)  {
+Org::BouncyCastle::Cms::CmsProcessableFile o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsProcessableFile>(file))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsProcessableFile::_ctor(System::IO::FileInfo file)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsProcessableFile>::get(),
@@ -120,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, file);
 }
-// Ctor Parameters [CppParam { name: "file", ty: "System::IO::FileInfo", modifiers: "", def_value: None }, CppParam { name: "bufSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsProcessableFile::CmsProcessableFile(System::IO::FileInfo file, int32_t bufSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsProcessableFile>(file, bufSize))) {}
+ Org::BouncyCastle::Cms::CmsProcessableFile Org::BouncyCastle::Cms::CmsProcessableFile::New_ctor(System::IO::FileInfo file, int32_t bufSize)  {
+Org::BouncyCastle::Cms::CmsProcessableFile o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsProcessableFile>(file, bufSize))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsProcessableFile::_ctor(System::IO::FileInfo file, int32_t bufSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsProcessableFile>::get(),

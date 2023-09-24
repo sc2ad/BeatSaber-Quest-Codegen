@@ -57,8 +57,7 @@ constexpr ::StringW __get_accessToken() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "accessToken", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GetXPlatformAccessTokenResponse(::StringW accessToken) ;
+static GlobalNamespace::GetXPlatformAccessTokenResponse New_ctor(::StringW accessToken) ;
 
 /// @brief Method .ctor addr 0x221fa28 size 0x28 virtual false final false
  void _ctor(::StringW accessToken) ;

@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_def.hpp"
 namespace UnityEngine::UIElements {
-class IListDragAndDropArgs;
-}
-namespace UnityEngine::UIElements {
 class ListView;
 }
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
+}
+namespace UnityEngine::UIElements {
+class IListDragAndDropArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -65,8 +65,7 @@ constexpr UnityEngine::UIElements::ListView __get_m_ListView() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "view", ty: "UnityEngine::UIElements::ListView", modifiers: "", def_value: None }]
-explicit ListViewReorderableDragAndDropController(UnityEngine::UIElements::ListView view) ;
+static UnityEngine::UIElements::ListViewReorderableDragAndDropController New_ctor(UnityEngine::UIElements::ListView view) ;
 
 /// @brief Method .ctor addr 0x2c90228 size 0x34 virtual false final false
  void _ctor(UnityEngine::UIElements::ListView view) ;

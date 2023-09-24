@@ -3,15 +3,15 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
-}
-namespace GlobalNamespace {
-class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
@@ -116,8 +116,7 @@ static System::Collections::Generic::Dictionary_2<GlobalNamespace::BasicBeatmapE
 /// @brief Method set_sameTypeIndex addr 0xd9155c size 0x8 virtual false final false
  void set_sameTypeIndex(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "basicBeatmapEventType", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None }]
-explicit BasicBeatmapEventData(float_t time, GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue) ;
+static GlobalNamespace::BasicBeatmapEventData New_ctor(float_t time, GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue) ;
 
 /// @brief Method .ctor addr 0xd91564 size 0x98 virtual false final false
  void _ctor(float_t time, GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue) ;

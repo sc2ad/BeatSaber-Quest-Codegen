@@ -1,9 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__EmptyPlatformAchievementsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EmptyPlatformAchievementsHandler.Initialize
 template<>
 
@@ -103,8 +101,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::HMAsyncRequest, false>(const_cast<void*>(instance), ___internal_method, completionHandler);
 }
-// Ctor Parameters []
- GlobalNamespace::EmptyPlatformAchievementsHandler::EmptyPlatformAchievementsHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EmptyPlatformAchievementsHandler>())) {}
+ GlobalNamespace::EmptyPlatformAchievementsHandler GlobalNamespace::EmptyPlatformAchievementsHandler::New_ctor()  {
+GlobalNamespace::EmptyPlatformAchievementsHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EmptyPlatformAchievementsHandler>())};
+return o;
+}
  void GlobalNamespace::EmptyPlatformAchievementsHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EmptyPlatformAchievementsHandler>::get(),

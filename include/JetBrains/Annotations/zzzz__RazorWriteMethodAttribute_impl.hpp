@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::RazorWriteMethodAttribute::RazorWriteMethodAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RazorWriteMethodAttribute>())) {}
+ JetBrains::Annotations::RazorWriteMethodAttribute JetBrains::Annotations::RazorWriteMethodAttribute::New_ctor()  {
+JetBrains::Annotations::RazorWriteMethodAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::RazorWriteMethodAttribute>())};
+return o;
+}
  void JetBrains::Annotations::RazorWriteMethodAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::RazorWriteMethodAttribute>::get(),

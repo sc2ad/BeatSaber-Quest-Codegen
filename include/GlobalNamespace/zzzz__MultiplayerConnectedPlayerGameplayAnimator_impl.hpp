@@ -1,12 +1,12 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameplayAnimator_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerLevelFailController_def.hpp"
+#include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBigAvatarAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerLevelFailController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSpectatingSpot_def.hpp"
-#include "GlobalNamespace/zzzz__ScaleAnimator_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator.Start
 template<>
 
@@ -248,8 +248,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isObserved);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::MultiplayerConnectedPlayerGameplayAnimator()  : GlobalNamespace::MultiplayerGameplayAnimator(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConnectedPlayerGameplayAnimator>())) {}
+ GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::New_ctor()  {
+GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator>::get(),

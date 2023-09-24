@@ -60,8 +60,7 @@ constexpr int32_t __get_crossAppDomainArrayIndex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryCrossAppDomainMap() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x23561ec size 0x8 virtual false final false
  void _ctor() ;

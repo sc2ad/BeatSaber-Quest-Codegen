@@ -132,8 +132,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__set_
 constexpr uint8_t Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::__get_mSignature() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x11>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hash", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "signature", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::SignatureAndHashAlgorithm(uint8_t hash, uint8_t signature)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignatureAndHashAlgorithm>(hash, signature))) {}
+ Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::New_ctor(uint8_t hash, uint8_t signature)  {
+Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm>(hash, signature))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::_ctor(uint8_t hash, uint8_t signature)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm>::get(),

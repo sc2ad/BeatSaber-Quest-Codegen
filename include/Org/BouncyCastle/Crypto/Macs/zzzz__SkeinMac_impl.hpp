@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__SkeinMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::SkeinMac._ctor
 template<>
 
@@ -166,8 +166,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::SkeinMac::__set_engine(Org::Boun
 constexpr Org::BouncyCastle::Crypto::Digests::SkeinEngine Org::BouncyCastle::Crypto::Macs::SkeinMac::__get_engine() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Digests::SkeinEngine, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stateSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digestSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::SkeinMac::SkeinMac(int32_t stateSizeBits, int32_t digestSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinMac>(stateSizeBits, digestSizeBits))) {}
+ Org::BouncyCastle::Crypto::Macs::SkeinMac Org::BouncyCastle::Crypto::Macs::SkeinMac::New_ctor(int32_t stateSizeBits, int32_t digestSizeBits)  {
+Org::BouncyCastle::Crypto::Macs::SkeinMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::SkeinMac>(stateSizeBits, digestSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::SkeinMac::_ctor(int32_t stateSizeBits, int32_t digestSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::SkeinMac>::get(),
@@ -177,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stateSizeBits, digestSizeBits);
 }
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::Macs::SkeinMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::SkeinMac::SkeinMac(Org::BouncyCastle::Crypto::Macs::SkeinMac mac)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SkeinMac>(mac))) {}
+ Org::BouncyCastle::Crypto::Macs::SkeinMac Org::BouncyCastle::Crypto::Macs::SkeinMac::New_ctor(Org::BouncyCastle::Crypto::Macs::SkeinMac mac)  {
+Org::BouncyCastle::Crypto::Macs::SkeinMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::SkeinMac>(mac))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::SkeinMac::_ctor(Org::BouncyCastle::Crypto::Macs::SkeinMac mac)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::SkeinMac>::get(),

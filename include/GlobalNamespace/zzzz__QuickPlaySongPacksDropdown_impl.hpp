@@ -2,16 +2,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySongPacksDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__SongPackMaskModelSO_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__QuickPlaySongPacksDropdown_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
-#include "GlobalNamespace/zzzz__SongPackMaskModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
-#include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem._ctor
 template<>
 
@@ -53,8 +51,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__Son
 constexpr GlobalNamespace::SongPackMask GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem::__get_songPackMask() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::SongPackMask, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem>::get(),
@@ -104,8 +104,10 @@ constexpr void GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c
 constexpr ::StringW GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0::__get_serializedName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0 GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c__DisplayClass13_0>::get(),
@@ -216,8 +218,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalN
  System::Func_2<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem,::StringW> GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c::__get___9__15_3()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown__SongPackMaskItem,::StringW>, "<>9__15_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c::GlobalNamespace__QuickPlaySongPacksDropdown____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__QuickPlaySongPacksDropdown____c>())) {}
+ GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__QuickPlaySongPacksDropdown____c>::get(),
@@ -575,8 +579,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::QuickPlaySongPacksDropdown::QuickPlaySongPacksDropdown()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<QuickPlaySongPacksDropdown>())) {}
+ GlobalNamespace::QuickPlaySongPacksDropdown GlobalNamespace::QuickPlaySongPacksDropdown::New_ctor()  {
+GlobalNamespace::QuickPlaySongPacksDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::QuickPlaySongPacksDropdown>())};
+return o;
+}
  void GlobalNamespace::QuickPlaySongPacksDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::QuickPlaySongPacksDropdown>::get(),

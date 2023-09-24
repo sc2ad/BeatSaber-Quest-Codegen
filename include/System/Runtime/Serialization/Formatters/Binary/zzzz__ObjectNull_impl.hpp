@@ -94,8 +94,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::ObjectNull::_
 constexpr int32_t System::Runtime::Serialization::Formatters::Binary::ObjectNull::__get_nullCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::ObjectNull::ObjectNull()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectNull>())) {}
+ System::Runtime::Serialization::Formatters::Binary::ObjectNull System::Runtime::Serialization::Formatters::Binary::ObjectNull::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::ObjectNull o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ObjectNull>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ObjectNull::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ObjectNull>::get(),

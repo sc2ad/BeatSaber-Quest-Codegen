@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidFinishReceiver;
+class ISaberSwingRatingCounterDidChangeReceiver;
 }
 namespace GlobalNamespace {
-class ISaberSwingRatingCounterDidChangeReceiver;
+class ISaberSwingRatingCounterDidFinishReceiver;
 }
 // Forward declare root types
 namespace GlobalNamespace {

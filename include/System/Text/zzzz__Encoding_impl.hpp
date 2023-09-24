@@ -2,21 +2,22 @@
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Text/zzzz__Encoder_impl.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Text/zzzz__EncoderFallback_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
-#include "System/Globalization/zzzz__CodePageDataItem_def.hpp"
-#include "System/Text/zzzz__DecoderFallback_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Text/zzzz__Decoder_def.hpp"
+#include "System/Globalization/zzzz__CodePageDataItem_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/Text/zzzz__DecoderFallback_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: System::Text::System__Text__Encoding__DefaultEncoder._ctor
@@ -181,8 +182,10 @@ constexpr void System::Text::System__Text__Encoding__DefaultEncoder::__set_charL
 constexpr char16_t System::Text::System__Text__Encoding__DefaultEncoder::__get_charLeftOver() const {
 return ::cordl_internals::getInstanceField<char16_t, 0x2a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__Encoding__DefaultEncoder::System__Text__Encoding__DefaultEncoder(System::Text::Encoding encoding)  : System::Text::Encoder(THROW_UNLESS(::il2cpp_utils::New<System__Text__Encoding__DefaultEncoder>(encoding))) {}
+ System::Text::System__Text__Encoding__DefaultEncoder System::Text::System__Text__Encoding__DefaultEncoder::New_ctor(System::Text::Encoding encoding)  {
+System::Text::System__Text__Encoding__DefaultEncoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__Encoding__DefaultEncoder>(encoding))};
+return o;
+}
  void System::Text::System__Text__Encoding__DefaultEncoder::_ctor(System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__Encoding__DefaultEncoder>::get(),
@@ -192,8 +195,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::System__Text__Encoding__DefaultEncoder::System__Text__Encoding__DefaultEncoder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Text::Encoder(THROW_UNLESS(::il2cpp_utils::New<System__Text__Encoding__DefaultEncoder>(info, context))) {}
+ System::Text::System__Text__Encoding__DefaultEncoder System::Text::System__Text__Encoding__DefaultEncoder::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::System__Text__Encoding__DefaultEncoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__Encoding__DefaultEncoder>(info, context))};
+return o;
+}
  void System::Text::System__Text__Encoding__DefaultEncoder::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__Encoding__DefaultEncoder>::get(),
@@ -447,8 +452,10 @@ constexpr void System::Text::System__Text__Encoding__DefaultDecoder::__set_m_has
 constexpr bool System::Text::System__Text__Encoding__DefaultDecoder::__get_m_hasInitializedEncoding() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Text::System__Text__Encoding__DefaultDecoder::System__Text__Encoding__DefaultDecoder(System::Text::Encoding encoding)  : System::Text::Decoder(THROW_UNLESS(::il2cpp_utils::New<System__Text__Encoding__DefaultDecoder>(encoding))) {}
+ System::Text::System__Text__Encoding__DefaultDecoder System::Text::System__Text__Encoding__DefaultDecoder::New_ctor(System::Text::Encoding encoding)  {
+System::Text::System__Text__Encoding__DefaultDecoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__Encoding__DefaultDecoder>(encoding))};
+return o;
+}
  void System::Text::System__Text__Encoding__DefaultDecoder::_ctor(System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__Encoding__DefaultDecoder>::get(),
@@ -458,8 +465,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::System__Text__Encoding__DefaultDecoder::System__Text__Encoding__DefaultDecoder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Text::Decoder(THROW_UNLESS(::il2cpp_utils::New<System__Text__Encoding__DefaultDecoder>(info, context))) {}
+ System::Text::System__Text__Encoding__DefaultDecoder System::Text::System__Text__Encoding__DefaultDecoder::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::System__Text__Encoding__DefaultDecoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__Encoding__DefaultDecoder>(info, context))};
+return o;
+}
  void System::Text::System__Text__Encoding__DefaultDecoder::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__Encoding__DefaultDecoder>::get(),
@@ -771,8 +780,10 @@ constexpr void System::Text::System__Text__Encoding__EncodingCharBuffer::__set_f
 constexpr System::Text::DecoderFallbackBuffer System::Text::System__Text__Encoding__EncodingCharBuffer::__get_fallbackBuffer() const {
 return ::cordl_internals::getInstanceField<System::Text::DecoderFallbackBuffer, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "enc", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "decoder", ty: "System::Text::DecoderNLS", modifiers: "", def_value: None }, CppParam { name: "charStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "charCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "byteStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "byteCount", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::System__Text__Encoding__EncodingCharBuffer::System__Text__Encoding__EncodingCharBuffer(System::Text::Encoding enc, System::Text::DecoderNLS decoder, void* charStart, int32_t charCount, void* byteStart, int32_t byteCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Text__Encoding__EncodingCharBuffer>(enc, decoder, charStart, charCount, byteStart, byteCount))) {}
+ System::Text::System__Text__Encoding__EncodingCharBuffer System::Text::System__Text__Encoding__EncodingCharBuffer::New_ctor(System::Text::Encoding enc, System::Text::DecoderNLS decoder, void* charStart, int32_t charCount, void* byteStart, int32_t byteCount)  {
+System::Text::System__Text__Encoding__EncodingCharBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__Encoding__EncodingCharBuffer>(enc, decoder, charStart, charCount, byteStart, byteCount))};
+return o;
+}
  void System::Text::System__Text__Encoding__EncodingCharBuffer::_ctor(System::Text::Encoding enc, System::Text::DecoderNLS decoder, void* charStart, int32_t charCount, void* byteStart, int32_t byteCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__Encoding__EncodingCharBuffer>::get(),
@@ -1093,8 +1104,10 @@ constexpr void System::Text::System__Text__Encoding__EncodingByteBuffer::__set_f
 constexpr System::Text::EncoderFallbackBuffer System::Text::System__Text__Encoding__EncodingByteBuffer::__get_fallbackBuffer() const {
 return ::cordl_internals::getInstanceField<System::Text::EncoderFallbackBuffer, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inEncoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "inEncoder", ty: "System::Text::EncoderNLS", modifiers: "", def_value: None }, CppParam { name: "inByteStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "inByteCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "inCharStart", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "inCharCount", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::System__Text__Encoding__EncodingByteBuffer::System__Text__Encoding__EncodingByteBuffer(System::Text::Encoding inEncoding, System::Text::EncoderNLS inEncoder, void* inByteStart, int32_t inByteCount, void* inCharStart, int32_t inCharCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Text__Encoding__EncodingByteBuffer>(inEncoding, inEncoder, inByteStart, inByteCount, inCharStart, inCharCount))) {}
+ System::Text::System__Text__Encoding__EncodingByteBuffer System::Text::System__Text__Encoding__EncodingByteBuffer::New_ctor(System::Text::Encoding inEncoding, System::Text::EncoderNLS inEncoder, void* inByteStart, int32_t inByteCount, void* inCharStart, int32_t inCharCount)  {
+System::Text::System__Text__Encoding__EncodingByteBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__Encoding__EncodingByteBuffer>(inEncoding, inEncoder, inByteStart, inByteCount, inCharStart, inCharCount))};
+return o;
+}
  void System::Text::System__Text__Encoding__EncodingByteBuffer::_ctor(System::Text::Encoding inEncoding, System::Text::EncoderNLS inEncoder, void* inByteStart, int32_t inByteCount, void* inCharStart, int32_t inCharCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__Encoding__EncodingByteBuffer>::get(),
@@ -2509,8 +2522,10 @@ return ::cordl_internals::getInstanceField<System::Text::DecoderFallback, 0x30>(
  ::bs_hook::Il2CppWrapperType System::Text::Encoding::__get_s_InternalSyncObject()  {
 return ::cordl_internals::getStaticField<::bs_hook::Il2CppWrapperType, "s_InternalSyncObject", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Encoding>::get>();
 }
-// Ctor Parameters []
- System::Text::Encoding::Encoding()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Encoding>())) {}
+ System::Text::Encoding System::Text::Encoding::New_ctor()  {
+System::Text::Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::Encoding>())};
+return o;
+}
  void System::Text::Encoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Encoding>::get(),
@@ -2520,8 +2535,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "codePage", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::Encoding::Encoding(int32_t codePage)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Encoding>(codePage))) {}
+ System::Text::Encoding System::Text::Encoding::New_ctor(int32_t codePage)  {
+System::Text::Encoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::Encoding>(codePage))};
+return o;
+}
  void System::Text::Encoding::_ctor(int32_t codePage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Encoding>::get(),

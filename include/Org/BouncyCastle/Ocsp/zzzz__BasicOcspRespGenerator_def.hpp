@@ -4,46 +4,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Ocsp {
-class RespID;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateStatus;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System::Collections {
 class IEnumerable;
-}
-namespace Org::BouncyCastle::Ocsp {
-class CertificateID;
-}
-namespace System {
-struct DateTime;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
 }
 namespace Org::BouncyCastle::Ocsp {
 class BasicOcspResp;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class SingleResponse;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateStatus;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Ocsp {
+class RespID;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace System {
+struct DateTime;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
+namespace Org::BouncyCastle::Ocsp {
+class CertificateID;
+}
+namespace Org::BouncyCastle::Ocsp {
+class Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class SingleResponse;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertStatus;
@@ -130,20 +133,17 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Ocsp::CertificateStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+static Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method .ctor addr 0x1011398 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Ocsp::CertificateStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "nextUpdate", ty: "System::DateTime", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, System::DateTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+static Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, System::DateTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method .ctor addr 0x1011698 size 0xc0 virtual false final false
  void _ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, System::DateTime thisUpdate, System::DateTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
-// Ctor Parameters [CppParam { name: "certId", ty: "Org::BouncyCastle::Ocsp::CertificateID", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Ocsp::CertificateStatus", modifiers: "", def_value: None }, CppParam { name: "thisUpdate", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "nextUpdate", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+static Org::BouncyCastle::Ocsp::Org__BouncyCastle__Ocsp__BasicOcspRespGenerator__ResponseObject New_ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method .ctor addr 0x1012924 size 0x264 virtual false final false
  void _ctor(Org::BouncyCastle::Ocsp::CertificateID certId, Org::BouncyCastle::Ocsp::CertificateStatus certStatus, Org::BouncyCastle::Asn1::DerGeneralizedTime thisUpdate, Org::BouncyCastle::Asn1::DerGeneralizedTime nextUpdate, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
@@ -225,14 +225,12 @@ constexpr Org::BouncyCastle::Ocsp::RespID __get_responderID() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "responderID", ty: "Org::BouncyCastle::Ocsp::RespID", modifiers: "", def_value: None }]
-explicit BasicOcspRespGenerator(Org::BouncyCastle::Ocsp::RespID responderID) ;
+static Org::BouncyCastle::Ocsp::BasicOcspRespGenerator New_ctor(Org::BouncyCastle::Ocsp::RespID responderID) ;
 
 /// @brief Method .ctor addr 0x1010f44 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Ocsp::RespID responderID) ;
 
-// Ctor Parameters [CppParam { name: "publicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit BasicOcspRespGenerator(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+static Org::BouncyCastle::Ocsp::BasicOcspRespGenerator New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method .ctor addr 0x1010fbc size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;

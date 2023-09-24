@@ -7,49 +7,47 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Timeline {
-class ILayerable;
+struct UnityEngine__Timeline__TimelineClip__ClipExtrapolation;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace UnityEngine::Timeline {
+namespace System::Collections::Generic {
 template<typename T>
-class IntervalTree_1;
-}
-namespace UnityEngine::Timeline {
-struct MatchTargetFields;
-}
-namespace UnityEngine::Timeline {
-class RuntimeElement;
+class Queue_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::Timeline {
-class IPropertyCollector;
+class ILayerable;
 }
-namespace UnityEngine {
-class AvatarMask;
+namespace UnityEngine::Timeline {
+struct TrackOffset;
 }
 namespace UnityEngine::Playables {
-class PlayableDirector;
+struct Playable;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Timeline {
+template<typename T>
+class IntervalTree_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine::Timeline {
+struct MatchTargetFields;
+}
+namespace UnityEngine {
+class AvatarMask;
 }
 namespace UnityEngine::Timeline {
 struct UnityEngine__Timeline__AnimationPlayableAsset__LoopMode;
@@ -57,39 +55,41 @@ struct UnityEngine__Timeline__AnimationPlayableAsset__LoopMode;
 namespace UnityEngine {
 class AnimationClip;
 }
-namespace UnityEngine::Timeline {
-struct UnityEngine__Timeline__TimelineClip__ClipExtrapolation;
-}
-namespace UnityEngine::Animations {
-struct AnimationLayerMixerPlayable;
-}
-namespace UnityEngine {
-class Animator;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::Playables {
+struct PlayableBinding;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Timeline {
-struct TrackOffset;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
-}
-namespace UnityEngine::Timeline {
 struct AppliedOffsetMode;
 }
 namespace UnityEngine {
-class Transform;
+class Animator;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UnityEngine::Animations {
+struct AnimationLayerMixerPlayable;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__AnimationTrack__AnimationTrackUpgrade;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__AnimationTrack___get_outputs_d__49;
+}
+namespace UnityEngine::Timeline {
+class RuntimeElement;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -97,6 +97,12 @@ class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -254,8 +260,7 @@ constexpr UnityEngine::Timeline::AnimationTrack __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Timeline__AnimationTrack___get_outputs_d__49(int32_t __1__state) ;
+static UnityEngine::Timeline::UnityEngine__Timeline__AnimationTrack___get_outputs_d__49 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ab86c8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -750,8 +755,7 @@ static UnityEngine::Transform FindInHierarchyBreadthFirst(UnityEngine::Transform
 /// @brief Method OnUpgradeFromVersion addr 0x2abc378 size 0x50 virtual true final false
  void OnUpgradeFromVersion(int32_t oldVersion) ;
 
-// Ctor Parameters []
-explicit AnimationTrack() ;
+static UnityEngine::Timeline::AnimationTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2abc508 size 0x190 virtual false final false
  void _ctor() ;

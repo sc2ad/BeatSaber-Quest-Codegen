@@ -135,8 +135,7 @@ static constexpr int32_t  Tagged{128};
 
 // Methods
 
-// Ctor Parameters []
-explicit Asn1Tags() ;
+static Org::BouncyCastle::Asn1::Asn1Tags New_ctor() ;
 
 /// @brief Method .ctor addr 0x1130214 size 0x8 virtual false final false
  void _ctor() ;

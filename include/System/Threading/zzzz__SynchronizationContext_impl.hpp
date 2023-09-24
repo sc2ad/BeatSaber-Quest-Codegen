@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
-#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContextProperties_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 //  Writing Method size for method: System::Threading::SynchronizationContext._ctor
 template<>
 
@@ -277,8 +277,10 @@ return ::cordl_internals::getStaticField<System::Type, "s_cachedPreparedType4", 
  System::Type System::Threading::SynchronizationContext::__get_s_cachedPreparedType5()  {
 return ::cordl_internals::getStaticField<System::Type, "s_cachedPreparedType5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::SynchronizationContext>::get>();
 }
-// Ctor Parameters []
- System::Threading::SynchronizationContext::SynchronizationContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SynchronizationContext>())) {}
+ System::Threading::SynchronizationContext System::Threading::SynchronizationContext::New_ctor()  {
+System::Threading::SynchronizationContext o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::SynchronizationContext>())};
+return o;
+}
  void System::Threading::SynchronizationContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::SynchronizationContext>::get(),

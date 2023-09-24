@@ -1,7 +1,7 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultReferenceResolver_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::DefaultReferenceResolver.GetMappings
 template<>
 
@@ -159,8 +159,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, context, value);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::DefaultReferenceResolver::DefaultReferenceResolver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultReferenceResolver>())) {}
+ Newtonsoft::Json::Serialization::DefaultReferenceResolver Newtonsoft::Json::Serialization::DefaultReferenceResolver::New_ctor()  {
+Newtonsoft::Json::Serialization::DefaultReferenceResolver o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::DefaultReferenceResolver>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::DefaultReferenceResolver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::DefaultReferenceResolver>::get(),

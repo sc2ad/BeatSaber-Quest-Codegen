@@ -47,8 +47,7 @@ constexpr explicit AspMethodPropertyAttribute(void* ptr) noexcept : System::Attr
 
 // Methods
 
-// Ctor Parameters []
-explicit AspMethodPropertyAttribute() ;
+static JetBrains::Annotations::AspMethodPropertyAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d412f4 size 0x8 virtual false final false
  void _ctor() ;

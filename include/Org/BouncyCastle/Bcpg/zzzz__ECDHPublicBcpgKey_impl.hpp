@@ -2,11 +2,11 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__ECPublicBcpgKey_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ECDHPublicBcpgKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey._ctor
 template<>
 
@@ -161,8 +161,10 @@ constexpr void Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::__set_symAlgorithmId(
 constexpr Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::__get_symAlgorithmId() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::ECDHPublicBcpgKey(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::ECPublicBcpgKey(THROW_UNLESS(::il2cpp_utils::New<ECDHPublicBcpgKey>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey>::get(),
@@ -172,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bcpgIn);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "point", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "hashAlgorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "symmetricKeyAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::ECDHPublicBcpgKey(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm)  : Org::BouncyCastle::Bcpg::ECPublicBcpgKey(THROW_UNLESS(::il2cpp_utils::New<ECDHPublicBcpgKey>(oid, point, hashAlgorithm, symmetricKeyAlgorithm))) {}
+ Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm)  {
+Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey>(oid, point, hashAlgorithm, symmetricKeyAlgorithm))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier oid, Org::BouncyCastle::Math::EC::ECPoint point, Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symmetricKeyAlgorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey>::get(),

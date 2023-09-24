@@ -81,14 +81,12 @@ constexpr ::StringW __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "target", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XProcessingInstruction(::StringW target, ::StringW data) ;
+static System::Xml::Linq::XProcessingInstruction New_ctor(::StringW target, ::StringW data) ;
 
 /// @brief Method .ctor addr 0x26ceb44 size 0x84 virtual false final false
  void _ctor(::StringW target, ::StringW data) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XProcessingInstruction", modifiers: "", def_value: None }]
-explicit XProcessingInstruction(System::Xml::Linq::XProcessingInstruction other) ;
+static System::Xml::Linq::XProcessingInstruction New_ctor(System::Xml::Linq::XProcessingInstruction other) ;
 
 /// @brief Method .ctor addr 0x26ceca8 size 0x7c virtual false final false
  void _ctor(System::Xml::Linq::XProcessingInstruction other) ;

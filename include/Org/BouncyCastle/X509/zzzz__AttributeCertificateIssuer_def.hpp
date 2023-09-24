@@ -3,26 +3,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+namespace System {
+class ICloneable;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AttCertIssuer;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
-namespace System {
-class ICloneable;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AttCertIssuer;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_form() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::AttCertIssuer", modifiers: "", def_value: None }]
-explicit AttributeCertificateIssuer(Org::BouncyCastle::Asn1::X509::AttCertIssuer issuer) ;
+static Org::BouncyCastle::X509::AttributeCertificateIssuer New_ctor(Org::BouncyCastle::Asn1::X509::AttCertIssuer issuer) ;
 
 /// @brief Method .ctor addr 0x10e8f34 size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AttCertIssuer issuer) ;
 
-// Ctor Parameters [CppParam { name: "principal", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit AttributeCertificateIssuer(Org::BouncyCastle::Asn1::X509::X509Name principal) ;
+static Org::BouncyCastle::X509::AttributeCertificateIssuer New_ctor(Org::BouncyCastle::Asn1::X509::X509Name principal) ;
 
 /// @brief Method .ctor addr 0x10e8f68 size 0xdc virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name principal) ;

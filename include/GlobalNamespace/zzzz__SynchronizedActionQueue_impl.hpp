@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__SynchronizedActionQueue_def.hpp"
+#include "GlobalNamespace/zzzz__SynchronizedActionQueue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SynchronizedActionQueue__SynchronizedAction._ctor
@@ -146,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, time);
 }
-// Ctor Parameters []
- GlobalNamespace::SynchronizedActionQueue::SynchronizedActionQueue()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SynchronizedActionQueue>())) {}
+ GlobalNamespace::SynchronizedActionQueue GlobalNamespace::SynchronizedActionQueue::New_ctor()  {
+GlobalNamespace::SynchronizedActionQueue o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SynchronizedActionQueue>())};
+return o;
+}
  void GlobalNamespace::SynchronizedActionQueue::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SynchronizedActionQueue>::get(),

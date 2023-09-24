@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::KeyUpEvent::KeyUpEvent()  : UnityEngine::UIElements::KeyboardEventBase_1<UnityEngine::UIElements::KeyUpEvent>(THROW_UNLESS(::il2cpp_utils::New<KeyUpEvent>())) {}
+ UnityEngine::UIElements::KeyUpEvent UnityEngine::UIElements::KeyUpEvent::New_ctor()  {
+UnityEngine::UIElements::KeyUpEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::KeyUpEvent>())};
+return o;
+}
  void UnityEngine::UIElements::KeyUpEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::KeyUpEvent>::get(),

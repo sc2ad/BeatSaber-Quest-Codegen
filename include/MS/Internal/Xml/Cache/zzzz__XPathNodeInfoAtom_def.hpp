@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml::XPath {
-class XPathDocument;
+namespace MS::Internal::Xml::Cache {
+struct XPathNode;
 }
 namespace MS::Internal::Xml::Cache {
 class XPathNodePageInfo;
 }
-namespace MS::Internal::Xml::Cache {
-struct XPathNode;
+namespace System::Xml::XPath {
+class XPathDocument;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {

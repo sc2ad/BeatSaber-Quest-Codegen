@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBufferedCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -127,8 +127,7 @@ static ::ArrayW<uint8_t> __get_EmptyBuffer() ;
 /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit BufferedCipherBase() ;
+static Org::BouncyCastle::Crypto::BufferedCipherBase New_ctor() ;
 
 /// @brief Method .ctor addr 0xe8de84 size 0x8 virtual false final false
  void _ctor() ;

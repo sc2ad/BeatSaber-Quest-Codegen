@@ -3,23 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Principal {
-class IPrincipal;
-}
 namespace System::Net {
 class HttpListener;
-}
-namespace System::Net {
-struct AuthenticationSchemes;
 }
 namespace System::Net {
 class HttpListenerRequest;
 }
 namespace System::Net {
+class HttpListenerResponse;
+}
+namespace System::Security::Principal {
+class IPrincipal;
+}
+namespace System::Net {
 class HttpConnection;
 }
 namespace System::Net {
-class HttpListenerResponse;
+struct AuthenticationSchemes;
 }
 // Forward declare root types
 namespace System::Net {
@@ -127,8 +127,7 @@ constexpr System::Net::HttpListener __get_Listener() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cnc", ty: "System::Net::HttpConnection", modifiers: "", def_value: None }]
-explicit HttpListenerContext(System::Net::HttpConnection cnc) ;
+static System::Net::HttpListenerContext New_ctor(System::Net::HttpConnection cnc) ;
 
 /// @brief Method .ctor addr 0x283294c size 0xb4 virtual false final false
  void _ctor(System::Net::HttpConnection cnc) ;

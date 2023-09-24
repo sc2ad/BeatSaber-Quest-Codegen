@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::GravitySensor value) ;
 /// @brief Method OnRemoved addr 0x29157cc size 0x84 virtual true final false
  void OnRemoved() ;
 
-// Ctor Parameters []
-explicit GravitySensor() ;
+static UnityEngine::InputSystem::GravitySensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2915850 size 0x8 virtual false final false
  void _ctor() ;

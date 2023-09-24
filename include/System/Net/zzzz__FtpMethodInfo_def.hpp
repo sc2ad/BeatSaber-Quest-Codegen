@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net {
-struct FtpOperation;
+struct FtpMethodFlags;
 }
 namespace System::Net {
-struct FtpMethodFlags;
+struct FtpOperation;
 }
 // Forward declare root types
 namespace System::Net {
@@ -99,8 +99,7 @@ static ::ArrayW<System::Net::FtpMethodInfo> __get_s_knownMethodInfo() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::FtpOperation", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Net::FtpMethodFlags", modifiers: "", def_value: None }, CppParam { name: "httpCommand", ty: "::StringW", modifiers: "", def_value: None }]
-explicit FtpMethodInfo(::StringW method, System::Net::FtpOperation operation, System::Net::FtpMethodFlags flags, ::StringW httpCommand) ;
+static System::Net::FtpMethodInfo New_ctor(::StringW method, System::Net::FtpOperation operation, System::Net::FtpMethodFlags flags, ::StringW httpCommand) ;
 
 /// @brief Method .ctor addr 0x28030a4 size 0x44 virtual false final false
  void _ctor(::StringW method, System::Net::FtpOperation operation, System::Net::FtpMethodFlags flags, ::StringW httpCommand) ;

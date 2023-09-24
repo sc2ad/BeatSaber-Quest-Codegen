@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StartMiddleEndButtonBackgroundController_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StartMiddleEndButtonBackgroundController.SetStartSprite
 template<>
 
@@ -122,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StartMiddleEndButtonBackgroundController::StartMiddleEndButtonBackgroundController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StartMiddleEndButtonBackgroundController>())) {}
+ GlobalNamespace::StartMiddleEndButtonBackgroundController GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor()  {
+GlobalNamespace::StartMiddleEndButtonBackgroundController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StartMiddleEndButtonBackgroundController>())};
+return o;
+}
  void GlobalNamespace::StartMiddleEndButtonBackgroundController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StartMiddleEndButtonBackgroundController>::get(),

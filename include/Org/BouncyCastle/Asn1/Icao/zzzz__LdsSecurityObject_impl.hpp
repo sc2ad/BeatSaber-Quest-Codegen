@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Icao/zzzz__LdsSecurityObject_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/Icao/zzzz__DataGroupHash_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/Icao/zzzz__LdsVersionInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Icao/zzzz__DataGroupHash_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Icao::LdsSecurityObject.GetInstance
 template<>
 
@@ -211,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::LdsSecurityObject(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<LdsSecurityObject>(seq))) {}
+ Org::BouncyCastle::Asn1::Icao::LdsSecurityObject Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Icao::LdsSecurityObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject>::get(),
@@ -222,8 +224,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "datagroupHash", ty: "::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::LdsSecurityObject(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<LdsSecurityObject>(digestAlgorithmIdentifier, datagroupHash))) {}
+ Org::BouncyCastle::Asn1::Icao::LdsSecurityObject Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash)  {
+Org::BouncyCastle::Asn1::Icao::LdsSecurityObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject>(digestAlgorithmIdentifier, datagroupHash))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject>::get(),
@@ -233,8 +237,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digestAlgorithmIdentifier, datagroupHash);
 }
-// Ctor Parameters [CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "datagroupHash", ty: "::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash>", modifiers: "", def_value: None }, CppParam { name: "versionInfo", ty: "Org::BouncyCastle::Asn1::Icao::LdsVersionInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::LdsSecurityObject(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash, Org::BouncyCastle::Asn1::Icao::LdsVersionInfo versionInfo)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<LdsSecurityObject>(digestAlgorithmIdentifier, datagroupHash, versionInfo))) {}
+ Org::BouncyCastle::Asn1::Icao::LdsSecurityObject Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash, Org::BouncyCastle::Asn1::Icao::LdsVersionInfo versionInfo)  {
+Org::BouncyCastle::Asn1::Icao::LdsSecurityObject o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject>(digestAlgorithmIdentifier, datagroupHash, versionInfo))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Icao::LdsSecurityObject::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash, Org::BouncyCastle::Asn1::Icao::LdsVersionInfo versionInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Icao::LdsSecurityObject>::get(),

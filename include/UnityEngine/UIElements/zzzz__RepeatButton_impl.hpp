@@ -2,12 +2,13 @@
 #include "UnityEngine/UIElements/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RepeatButton_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlLongAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits.Init
 template<>
 
@@ -63,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits::UnityEngine__UIElements__RepeatButton__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__TextElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__RepeatButton__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits>::get(),
@@ -137,8 +140,10 @@ return ::cordl_internals::getInstanceField<UnityEngine::UIElements::Clickable, 0
  ::StringW UnityEngine::UIElements::RepeatButton::__get_ussClassName()  {
 return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::RepeatButton>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::RepeatButton::RepeatButton()  : UnityEngine::UIElements::TextElement(THROW_UNLESS(::il2cpp_utils::New<RepeatButton>())) {}
+ UnityEngine::UIElements::RepeatButton UnityEngine::UIElements::RepeatButton::New_ctor()  {
+UnityEngine::UIElements::RepeatButton o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::RepeatButton>())};
+return o;
+}
  void UnityEngine::UIElements::RepeatButton::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::RepeatButton>::get(),
@@ -148,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "clickEvent", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "interval", ty: "int64_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::RepeatButton::RepeatButton(System::Action clickEvent, int64_t delay, int64_t interval)  : UnityEngine::UIElements::TextElement(THROW_UNLESS(::il2cpp_utils::New<RepeatButton>(clickEvent, delay, interval))) {}
+ UnityEngine::UIElements::RepeatButton UnityEngine::UIElements::RepeatButton::New_ctor(System::Action clickEvent, int64_t delay, int64_t interval)  {
+UnityEngine::UIElements::RepeatButton o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::RepeatButton>(clickEvent, delay, interval))};
+return o;
+}
  void UnityEngine::UIElements::RepeatButton::_ctor(System::Action clickEvent, int64_t delay, int64_t interval)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::RepeatButton>::get(),
@@ -185,8 +192,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory::UnityEngine__UIElements__RepeatButton__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::RepeatButton,UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__RepeatButton__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__RepeatButton__UxmlFactory>::get(),

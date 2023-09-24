@@ -4,30 +4,30 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 namespace TMPro {
-class TMP_SpriteAsset;
+struct FontStyles;
+}
+namespace TMPro {
+struct FontWeight;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_Character;
+}
+namespace TMPro {
 class TMP_SpriteCharacter;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
-namespace TMPro {
-struct FontWeight;
-}
-namespace TMPro {
-struct FontStyles;
 }
 namespace TMPro {
 class TMP_FontAsset;
 }
-namespace TMPro {
-class TMP_Character;
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace TMPro {
@@ -119,8 +119,7 @@ static TMPro::TMP_SpriteCharacter GetSpriteCharacterFromSpriteAsset(uint32_t uni
 /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal addr 0x2a7a5ac size 0x1dc virtual false final false
 static TMPro::TMP_SpriteCharacter GetSpriteCharacterFromSpriteAsset_Internal(uint32_t unicode, TMPro::TMP_SpriteAsset spriteAsset, bool includeFallbacks) ;
 
-// Ctor Parameters []
-explicit TMP_FontAssetUtilities() ;
+static TMPro::TMP_FontAssetUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a79ab4 size 0x8 virtual false final false
  void _ctor() ;

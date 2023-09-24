@@ -6,20 +6,23 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class Grounding;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class Rigidbody;
+}
+namespace RootMotion::FinalIK {
+struct RootMotion__FinalIK__GrounderQuadruped__Foot;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace RootMotion::FinalIK {
 class IK;
@@ -386,8 +389,7 @@ constexpr UnityEngine::Rigidbody __get_characterRootRigidbody() const;
 /// @brief Method DestroyLegs addr 0x11c0b9c size 0x1fc virtual false final false
  void DestroyLegs(::ArrayW<RootMotion::FinalIK::IK> ikComponents) ;
 
-// Ctor Parameters []
-explicit GrounderQuadruped() ;
+static RootMotion::FinalIK::GrounderQuadruped New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c0d98 size 0x134 virtual false final false
  void _ctor() ;

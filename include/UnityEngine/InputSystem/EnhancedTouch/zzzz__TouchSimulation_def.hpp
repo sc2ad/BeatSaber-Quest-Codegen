@@ -5,38 +5,38 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
-struct TouchPhase;
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+class InputDevice;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem {
 class Touchscreen;
 }
 namespace UnityEngine::InputSystem {
+struct TouchPhase;
+}
+namespace UnityEngine::InputSystem {
 class Pointer;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateChangeMonitor;
 }
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::EnhancedTouch {
@@ -211,8 +211,7 @@ static void Destroy() ;
 /// @brief Method UninstallStateChangeMonitors addr 0x2952d04 size 0x4 virtual false final false
  void UninstallStateChangeMonitors(int32_t startIndex) ;
 
-// Ctor Parameters []
-explicit TouchSimulation() ;
+static UnityEngine::InputSystem::EnhancedTouch::TouchSimulation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2952d08 size 0x10 virtual false final false
  void _ctor() ;

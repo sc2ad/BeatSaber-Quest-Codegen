@@ -510,8 +510,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::DateTime, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::HijriCalendar::HijriCalendar()  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<HijriCalendar>())) {}
+ System::Globalization::HijriCalendar System::Globalization::HijriCalendar::New_ctor()  {
+System::Globalization::HijriCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::HijriCalendar>())};
+return o;
+}
  void System::Globalization::HijriCalendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::HijriCalendar>::get(),

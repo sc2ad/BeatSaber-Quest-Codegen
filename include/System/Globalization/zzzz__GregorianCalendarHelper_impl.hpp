@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
-#include "System/Globalization/zzzz__EraInfo_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/Globalization/zzzz__EraInfo_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: System::Globalization::GregorianCalendarHelper.get_MaxYear
 template<>
 
@@ -435,8 +435,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "cal", ty: "System::Globalization::Calendar", modifiers: "", def_value: None }, CppParam { name: "eraInfo", ty: "::ArrayW<System::Globalization::EraInfo>", modifiers: "", def_value: None }]
- System::Globalization::GregorianCalendarHelper::GregorianCalendarHelper(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GregorianCalendarHelper>(cal, eraInfo))) {}
+ System::Globalization::GregorianCalendarHelper System::Globalization::GregorianCalendarHelper::New_ctor(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo)  {
+System::Globalization::GregorianCalendarHelper o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::GregorianCalendarHelper>(cal, eraInfo))};
+return o;
+}
  void System::Globalization::GregorianCalendarHelper::_ctor(System::Globalization::Calendar cal, ::ArrayW<System::Globalization::EraInfo> eraInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::GregorianCalendarHelper>::get(),

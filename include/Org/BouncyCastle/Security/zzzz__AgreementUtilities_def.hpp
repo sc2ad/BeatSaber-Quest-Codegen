@@ -69,8 +69,7 @@ static System::Collections::IDictionary __get_algorithms() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit AgreementUtilities() ;
+static Org::BouncyCastle::Security::AgreementUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1091878 size 0x8 virtual false final false
  void _ctor() ;

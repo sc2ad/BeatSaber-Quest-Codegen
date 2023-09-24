@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__LevelDataAssetDownloadUpdate__AssetDownloadingState;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__LevelDataAssetDownloadUpdate__AssetDownloadingState;
@@ -60,6 +63,8 @@ __Completed = 2,
 constexpr operator __GlobalNamespace__LevelDataAssetDownloadUpdate__AssetDownloadingState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LevelDataAssetDownloadUpdate__AssetDownloadingState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

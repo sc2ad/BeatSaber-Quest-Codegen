@@ -6,17 +6,26 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class CanvasGroup;
+struct Vector3;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__GhostDuplicationEffect__GhostEffectParams;
 }
 namespace UnityEngine {
-struct Vector3;
+class CanvasGroup;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace System {
 class IDisposable;
@@ -25,11 +34,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace GlobalNamespace {
-struct EaseType;
-}
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -226,8 +235,7 @@ constexpr UnityEngine::Vector3 __get_direction() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0() ;
+static GlobalNamespace::GlobalNamespace__GhostDuplicationEffect____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2251b84 size 0x8 virtual false final false
  void _ctor() ;
@@ -333,8 +341,7 @@ constexpr GlobalNamespace::GhostDuplicationEffect __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__GhostDuplicationEffect___HideRedundantWithDelay_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2251c04 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -469,8 +476,7 @@ constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 /// @brief Method get_alpha addr 0x2251e10 size 0x40 virtual false final false
  float_t get_alpha() ;
 
-// Ctor Parameters []
-explicit GhostDuplicationEffect() ;
+static GlobalNamespace::GhostDuplicationEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2251e50 size 0x8 virtual false final false
  void _ctor() ;

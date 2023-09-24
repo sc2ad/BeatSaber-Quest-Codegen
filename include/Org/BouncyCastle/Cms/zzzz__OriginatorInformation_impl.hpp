@@ -76,8 +76,10 @@ constexpr void Org::BouncyCastle::Cms::OriginatorInformation::__set_originatorIn
 constexpr Org::BouncyCastle::Asn1::Cms::OriginatorInfo Org::BouncyCastle::Cms::OriginatorInformation::__get_originatorInfo() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::OriginatorInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "originatorInfo", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::OriginatorInformation::OriginatorInformation(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OriginatorInformation>(originatorInfo))) {}
+ Org::BouncyCastle::Cms::OriginatorInformation Org::BouncyCastle::Cms::OriginatorInformation::New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo)  {
+Org::BouncyCastle::Cms::OriginatorInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::OriginatorInformation>(originatorInfo))};
+return o;
+}
  void Org::BouncyCastle::Cms::OriginatorInformation::_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::OriginatorInformation>::get(),

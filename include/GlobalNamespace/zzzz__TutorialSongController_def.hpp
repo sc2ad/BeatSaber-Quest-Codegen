@@ -13,34 +13,52 @@ namespace GlobalNamespace {
 class Signal;
 }
 namespace GlobalNamespace {
-struct ColorType;
+struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
 }
 namespace GlobalNamespace {
-struct NoteLineLayer;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class ObstacleData;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class ObstacleController;
+struct ColorType;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialSongController__TutorialObjectSpawnData;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class NoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialSongController__InitData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData;
+}
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -121,8 +139,7 @@ constexpr GlobalNamespace::BeatmapData __get_beatmapData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "songBpm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapData", ty: "GlobalNamespace::BeatmapData", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialSongController__InitData(float_t songBpm, GlobalNamespace::BeatmapData beatmapData) ;
+static GlobalNamespace::GlobalNamespace__TutorialSongController__InitData New_ctor(float_t songBpm, GlobalNamespace::BeatmapData beatmapData) ;
 
 /// @brief Method .ctor addr 0x211402c size 0x38 virtual false final false
  void _ctor(float_t songBpm, GlobalNamespace::BeatmapData beatmapData) ;
@@ -200,8 +217,7 @@ constexpr int32_t __get_lineIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialSongController__TutorialObjectSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex) ;
+static GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObjectSpawnData New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex) ;
 
 /// @brief Method .ctor addr 0x2114064 size 0x44 virtual false final false
  void _ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex) ;
@@ -261,8 +277,7 @@ constexpr GlobalNamespace::NoteLineLayer __get_noteLineLayer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
+static GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialJumpingNoteSpawnData New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
 
 /// @brief Method .ctor addr 0x21140a8 size 0x50 virtual false final false
  void _ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
@@ -328,8 +343,7 @@ constexpr GlobalNamespace::ColorType __get_colorType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "cutDirection", ty: "GlobalNamespace::NoteCutDirection", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::ColorType", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType) ;
+static GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBasicNoteSpawnData New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType) ;
 
 /// @brief Method .ctor addr 0x21136a0 size 0x64 virtual false final false
  void _ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::ColorType colorType) ;
@@ -380,8 +394,7 @@ constexpr explicit GlobalNamespace__TutorialSongController__TutorialBombNoteSpaw
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
+static GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
 
 /// @brief Method .ctor addr 0x2113704 size 0x50 virtual false final false
  void _ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, GlobalNamespace::NoteLineLayer noteLineLayer) ;
@@ -453,8 +466,7 @@ constexpr int32_t __get_height() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signal", ty: "GlobalNamespace::Signal", modifiers: "", def_value: None }, CppParam { name: "firstTimeBeatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beatOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "noteLineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }]
-explicit GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height, GlobalNamespace::NoteLineLayer noteLineLayer) ;
+static GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialObstacleSpawnData New_ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height, GlobalNamespace::NoteLineLayer noteLineLayer) ;
 
 /// @brief Method .ctor addr 0x2113754 size 0x64 virtual false final false
  void _ctor(GlobalNamespace::Signal signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex, int32_t width, int32_t height, GlobalNamespace::NoteLineLayer noteLineLayer) ;
@@ -703,8 +715,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__TutorialSongController__Tut
 /// @brief Method CreateBombNoteData addr 0x2113f20 size 0x20 virtual false final false
  GlobalNamespace::NoteData CreateBombNoteData(float_t time, GlobalNamespace::GlobalNamespace__TutorialSongController__TutorialBombNoteSpawnData tutorialBombNoteSpawnData) ;
 
-// Ctor Parameters []
-explicit TutorialSongController() ;
+static GlobalNamespace::TutorialSongController New_ctor() ;
 
 /// @brief Method .ctor addr 0x211400c size 0x20 virtual false final false
  void _ctor() ;

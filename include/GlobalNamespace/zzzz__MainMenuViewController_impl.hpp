@@ -2,13 +2,14 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "GlobalNamespace/zzzz__MainMenuViewController_def.hpp"
+#include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
 #include "GlobalNamespace/zzzz__MusicPackPromoBanner_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__MainMenuViewController__MenuButton::GlobalNamespace__MainMenuViewController__MenuButton(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -453,8 +454,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, menuButton);
 }
-// Ctor Parameters []
- GlobalNamespace::MainMenuViewController::MainMenuViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<MainMenuViewController>())) {}
+ GlobalNamespace::MainMenuViewController GlobalNamespace::MainMenuViewController::New_ctor()  {
+GlobalNamespace::MainMenuViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MainMenuViewController>())};
+return o;
+}
  void GlobalNamespace::MainMenuViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MainMenuViewController>::get(),

@@ -50,8 +50,7 @@ constexpr explicit LobbyDataModelInstaller(void* ptr) noexcept : Zenject::MonoIn
 /// @brief Method InstallBindings addr 0x2119bf0 size 0x474 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit LobbyDataModelInstaller() ;
+static GlobalNamespace::LobbyDataModelInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211a064 size 0x8 virtual false final false
  void _ctor() ;

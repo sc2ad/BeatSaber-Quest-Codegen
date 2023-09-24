@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__BasicPlayableBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayableAsset_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::BasicPlayableBehaviour.get_duration
 template<>
 
@@ -320,8 +320,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Playables::Playable, false>(const_cast<void*>(instance), ___internal_method, graph, owner);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::BasicPlayableBehaviour::BasicPlayableBehaviour()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BasicPlayableBehaviour>())) {}
+ UnityEngine::Timeline::BasicPlayableBehaviour UnityEngine::Timeline::BasicPlayableBehaviour::New_ctor()  {
+UnityEngine::Timeline::BasicPlayableBehaviour o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::BasicPlayableBehaviour>())};
+return o;
+}
  void UnityEngine::Timeline::BasicPlayableBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::BasicPlayableBehaviour>::get(),

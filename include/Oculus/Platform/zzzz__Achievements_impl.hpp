@@ -1,9 +1,9 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Achievements_def.hpp"
-#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
+#include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Achievements.AddCount
 template<>
 

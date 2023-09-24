@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Newtonsoft::Json::JsonRequiredAttribute::JsonRequiredAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<JsonRequiredAttribute>())) {}
+ Newtonsoft::Json::JsonRequiredAttribute Newtonsoft::Json::JsonRequiredAttribute::New_ctor()  {
+Newtonsoft::Json::JsonRequiredAttribute o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonRequiredAttribute>())};
+return o;
+}
  void Newtonsoft::Json::JsonRequiredAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonRequiredAttribute>::get(),

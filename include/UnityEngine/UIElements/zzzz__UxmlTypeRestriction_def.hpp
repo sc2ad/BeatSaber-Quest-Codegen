@@ -57,8 +57,7 @@ constexpr explicit UxmlTypeRestriction(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method Equals addr 0x2c964b8 size 0xc virtual true final false
  bool Equals(UnityEngine::UIElements::UxmlTypeRestriction other) ;
 
-// Ctor Parameters []
-explicit UxmlTypeRestriction() ;
+static UnityEngine::UIElements::UxmlTypeRestriction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c964c4 size 0x8 virtual false final false
  void _ctor() ;

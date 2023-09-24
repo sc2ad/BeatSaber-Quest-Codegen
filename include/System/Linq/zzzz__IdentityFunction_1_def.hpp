@@ -5,6 +5,10 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace System::Linq {
+template<typename TElement>
+class System__Linq__IdentityFunction_1____c;
+}
 // Forward declare root types
 namespace System::Linq {
 template<typename TElement>
@@ -83,8 +87,7 @@ static System::Func_2<TElement,TElement> __get___9__1_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Linq__IdentityFunction_1____c() ;
+static System::Linq::System__Linq__IdentityFunction_1____c<TElement> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

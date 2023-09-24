@@ -76,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HEU_ScriptCallbackExample::HEU_ScriptCallbackExample()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HEU_ScriptCallbackExample>())) {}
+ GlobalNamespace::HEU_ScriptCallbackExample GlobalNamespace::HEU_ScriptCallbackExample::New_ctor()  {
+GlobalNamespace::HEU_ScriptCallbackExample o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HEU_ScriptCallbackExample>())};
+return o;
+}
  void GlobalNamespace::HEU_ScriptCallbackExample::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HEU_ScriptCallbackExample>::get(),

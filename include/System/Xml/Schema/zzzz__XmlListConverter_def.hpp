@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Type;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System::Xml::Schema {
 class XmlBaseConverter;
 }
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class Type;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -29,8 +29,8 @@ class List_1;
 namespace System {
 class Exception;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -87,20 +87,17 @@ constexpr System::Xml::Schema::XmlValueConverter __get_atomicConverter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }]
-explicit XmlListConverter(System::Xml::Schema::XmlBaseConverter atomicConverter) ;
+static System::Xml::Schema::XmlListConverter New_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter) ;
 
 /// @brief Method .ctor addr 0x2751988 size 0x70 virtual false final false
  void _ctor(System::Xml::Schema::XmlBaseConverter atomicConverter) ;
 
-// Ctor Parameters [CppParam { name: "atomicConverter", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }, CppParam { name: "clrTypeDefault", ty: "System::Type", modifiers: "", def_value: None }]
-explicit XmlListConverter(System::Xml::Schema::XmlBaseConverter atomicConverter, System::Type clrTypeDefault) ;
+static System::Xml::Schema::XmlListConverter New_ctor(System::Xml::Schema::XmlBaseConverter atomicConverter, System::Type clrTypeDefault) ;
 
 /// @brief Method .ctor addr 0x27479cc size 0x78 virtual false final false
  void _ctor(System::Xml::Schema::XmlBaseConverter atomicConverter, System::Type clrTypeDefault) ;
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlListConverter(System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlListConverter New_ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x27478cc size 0x68 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;

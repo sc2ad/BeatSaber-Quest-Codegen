@@ -1,14 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRGLTFAccessor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFComponentType_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFType_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBinaryChunk_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRGLTFAccessor._ctor
 template<>
 
@@ -335,8 +335,11 @@ constexpr void GlobalNamespace::OVRGLTFAccessor::__set_dataCount(int32_t value) 
 constexpr int32_t GlobalNamespace::OVRGLTFAccessor::__get_dataCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "node", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "root", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }, CppParam { name: "bufferViewOnly", ty: "bool", modifiers: "", def_value: Some("false") }]
- GlobalNamespace::OVRGLTFAccessor::OVRGLTFAccessor(OVRSimpleJSON::JSONNode node, OVRSimpleJSON::JSONNode root, bool bufferViewOnly)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRGLTFAccessor>(node, root, bufferViewOnly))) {}
+/// @param bufferViewOnly: bool (default: false)
+ GlobalNamespace::OVRGLTFAccessor GlobalNamespace::OVRGLTFAccessor::New_ctor(OVRSimpleJSON::JSONNode node, OVRSimpleJSON::JSONNode root, bool bufferViewOnly)  {
+GlobalNamespace::OVRGLTFAccessor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRGLTFAccessor>(node, root, bufferViewOnly))};
+return o;
+}
 /// @param bufferViewOnly: bool (default: false)
  void GlobalNamespace::OVRGLTFAccessor::_ctor(OVRSimpleJSON::JSONNode node, OVRSimpleJSON::JSONNode root, bool bufferViewOnly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

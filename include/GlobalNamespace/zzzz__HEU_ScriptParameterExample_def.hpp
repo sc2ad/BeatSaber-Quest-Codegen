@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,8 +87,7 @@ constexpr float_t __get__scale() const;
 /// @brief Method UpdateGravity addr 0x1fda3c4 size 0xe4 virtual false final false
  void UpdateGravity() ;
 
-// Ctor Parameters []
-explicit HEU_ScriptParameterExample() ;
+static GlobalNamespace::HEU_ScriptParameterExample New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fda4a8 size 0x14 virtual false final false
  void _ctor() ;

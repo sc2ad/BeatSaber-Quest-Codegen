@@ -2,10 +2,10 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMD_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class ButtonControl;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {
@@ -90,8 +90,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector2Control __get__touchpad_k__
 /// @brief Method FinishSetup addr 0x2ae422c size 0xbc virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OculusHMDExtended() ;
+static Unity::XR::Oculus::Input::OculusHMDExtended New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae42e8 size 0x8 virtual false final false
  void _ctor() ;

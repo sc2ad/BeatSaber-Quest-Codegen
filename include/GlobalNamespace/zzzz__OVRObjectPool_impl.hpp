@@ -1,10 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__OVRObjectPool_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__OVRObjectPool_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 template<typename T>
  T GlobalNamespace::OVRObjectPool::Get()  {
 static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,9 +146,9 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, queue);
 }
- void GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1::__set_HashSet(System::Collections::Generic::HashSet_1<T> value)  {
-::cordl_internals::setStaticField<System::Collections::Generic::HashSet_1<T>, "HashSet", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1>::get>(std::forward<System::Collections::Generic::HashSet_1<T>>(value));
+ void GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1<T>::__set_HashSet(System::Collections::Generic::HashSet_1<T> value)  {
+::cordl_internals::setStaticField<System::Collections::Generic::HashSet_1<T>, "HashSet", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1<T>>::get>(std::forward<System::Collections::Generic::HashSet_1<T>>(value));
 }
- System::Collections::Generic::HashSet_1<T> GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1::__get_HashSet()  {
-return ::cordl_internals::getStaticField<System::Collections::Generic::HashSet_1<T>, "HashSet", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1>::get>();
+ System::Collections::Generic::HashSet_1<T> GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1<T>::__get_HashSet()  {
+return ::cordl_internals::getStaticField<System::Collections::Generic::HashSet_1<T>, "HashSet", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRObjectPool__Storage_1<T>>::get>();
 }

@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net::NetworkInformation {
-struct OperationalStatus;
+struct NetworkInterfaceType;
 }
 namespace System::Net::NetworkInformation {
 class IPInterfaceProperties;
 }
 namespace System::Net::NetworkInformation {
-struct NetworkInterfaceType;
+struct OperationalStatus;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -82,8 +82,7 @@ static ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetAllNetwork
 /// @brief Method get_NetworkInterfaceType addr 0x28592b0 size 0x40 virtual true final false
  System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType() ;
 
-// Ctor Parameters []
-explicit NetworkInterface() ;
+static System::Net::NetworkInformation::NetworkInterface New_ctor() ;
 
 /// @brief Method .ctor addr 0x28592f0 size 0x8 virtual false final false
  void _ctor() ;

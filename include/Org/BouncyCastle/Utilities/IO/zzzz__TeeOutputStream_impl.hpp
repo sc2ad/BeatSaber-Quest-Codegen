@@ -82,8 +82,10 @@ constexpr void Org::BouncyCastle::Utilities::IO::TeeOutputStream::__set_tee(Syst
 constexpr System::IO::Stream Org::BouncyCastle::Utilities::IO::TeeOutputStream::__get_tee() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tee", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Utilities::IO::TeeOutputStream::TeeOutputStream(System::IO::Stream output, System::IO::Stream tee)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<TeeOutputStream>(output, tee))) {}
+ Org::BouncyCastle::Utilities::IO::TeeOutputStream Org::BouncyCastle::Utilities::IO::TeeOutputStream::New_ctor(System::IO::Stream output, System::IO::Stream tee)  {
+Org::BouncyCastle::Utilities::IO::TeeOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::IO::TeeOutputStream>(output, tee))};
+return o;
+}
  void Org::BouncyCastle::Utilities::IO::TeeOutputStream::_ctor(System::IO::Stream output, System::IO::Stream tee)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::IO::TeeOutputStream>::get(),

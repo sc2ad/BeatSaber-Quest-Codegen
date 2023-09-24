@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1::Cms {
+class IssuerAndSerialNumber;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientKeyIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientKeyIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class IssuerAndSerialNumber;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -94,14 +94,12 @@ static Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier GetInstance(Org
 /// @brief Method GetInstance addr 0xdec35c size 0x1e4 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "issuerSerial", ty: "Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber", modifiers: "", def_value: None }]
-explicit KeyAgreeRecipientIdentifier(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerSerial) ;
+static Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier New_ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerSerial) ;
 
 /// @brief Method .ctor addr 0xdec540 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber issuerSerial) ;
 
-// Ctor Parameters [CppParam { name: "rKeyID", ty: "Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier", modifiers: "", def_value: None }]
-explicit KeyAgreeRecipientIdentifier(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID) ;
+static Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier New_ctor(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID) ;
 
 /// @brief Method .ctor addr 0xdec580 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier rKeyID) ;

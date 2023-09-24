@@ -1,7 +1,7 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_GeoInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::Test_HAPI_GeoInfo._ctor
 template<>
 
@@ -46,8 +46,10 @@ constexpr void HoudiniEngineUnity::Test_HAPI_GeoInfo::__set_self(HoudiniEngineUn
 constexpr HoudiniEngineUnity::HAPI_GeoInfo HoudiniEngineUnity::Test_HAPI_GeoInfo::__get_self() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HAPI_GeoInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_GeoInfo", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_HAPI_GeoInfo::Test_HAPI_GeoInfo(HoudiniEngineUnity::HAPI_GeoInfo self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_HAPI_GeoInfo>(self))) {}
+ HoudiniEngineUnity::Test_HAPI_GeoInfo HoudiniEngineUnity::Test_HAPI_GeoInfo::New_ctor(HoudiniEngineUnity::HAPI_GeoInfo self)  {
+HoudiniEngineUnity::Test_HAPI_GeoInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_HAPI_GeoInfo>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_HAPI_GeoInfo::_ctor(HoudiniEngineUnity::HAPI_GeoInfo self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_HAPI_GeoInfo>::get(),

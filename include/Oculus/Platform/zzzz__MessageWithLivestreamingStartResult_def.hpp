@@ -13,7 +13,7 @@ class MessageWithLivestreamingStartResult;
 // Type: Oculus.Platform::MessageWithLivestreamingStartResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13434)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4454 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13434)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4454 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13249))
 // CS Name: Oculus.Platform.MessageWithLivestreamingStartResult
 class CORDL_TYPE MessageWithLivestreamingStartResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LivestreamingStartResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithLivestreamingStartResult(void* ptr) noexcept : Ocu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLivestreamingStartResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLivestreamingStartResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2581f28 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

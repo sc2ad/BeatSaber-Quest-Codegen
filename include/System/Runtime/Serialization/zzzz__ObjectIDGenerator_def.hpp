@@ -83,8 +83,7 @@ static ::ArrayW<int32_t> __get_sizes() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ObjectIDGenerator() ;
+static System::Runtime::Serialization::ObjectIDGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x234c2a8 size 0xd8 virtual false final false
  void _ctor() ;

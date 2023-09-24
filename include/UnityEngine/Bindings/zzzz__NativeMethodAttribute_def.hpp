@@ -109,26 +109,22 @@ constexpr bool __get__HasExplicitThis_k__BackingField() const;
 /// @brief Method set_HasExplicitThis addr 0x2ba1320 size 0xc virtual true final true
  void set_HasExplicitThis(bool value) ;
 
-// Ctor Parameters []
-explicit NativeMethodAttribute() ;
+static UnityEngine::Bindings::NativeMethodAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba132c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeMethodAttribute(::StringW name) ;
+static UnityEngine::Bindings::NativeMethodAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2ba1334 size 0x104 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isFreeFunction", ty: "bool", modifiers: "", def_value: None }]
-explicit NativeMethodAttribute(::StringW name, bool isFreeFunction) ;
+static UnityEngine::Bindings::NativeMethodAttribute New_ctor(::StringW name, bool isFreeFunction) ;
 
 /// @brief Method .ctor addr 0x2ba1438 size 0x28 virtual false final false
  void _ctor(::StringW name, bool isFreeFunction) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isFreeFunction", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isThreadSafe", ty: "bool", modifiers: "", def_value: None }]
-explicit NativeMethodAttribute(::StringW name, bool isFreeFunction, bool isThreadSafe) ;
+static UnityEngine::Bindings::NativeMethodAttribute New_ctor(::StringW name, bool isFreeFunction, bool isThreadSafe) ;
 
 /// @brief Method .ctor addr 0x2ba1460 size 0x34 virtual false final false
  void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe) ;

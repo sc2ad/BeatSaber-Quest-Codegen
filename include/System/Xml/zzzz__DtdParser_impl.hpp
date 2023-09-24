@@ -1,23 +1,24 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Xml/zzzz__DtdParser_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
-#include "System/Xml/zzzz__LineInfo_def.hpp"
-#include "System/Xml/Schema/zzzz__SchemaEntity_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Xml/Schema/zzzz__ParticleContentValidator_def.hpp"
+#include "System/Xml/zzzz__DtdParser_def.hpp"
 #include "System/Xml/zzzz__IDtdParser_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaEntity_def.hpp"
+#include "System/Xml/Schema/zzzz__ParticleContentValidator_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSeverityType_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__LineInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaException_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::System__Xml__DtdParser__Token::System__Xml__DtdParser__Token(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -171,8 +172,10 @@ constexpr void System::Xml::System__Xml__DtdParser__UndeclaredNotation::__set_ne
 constexpr System::Xml::System__Xml__DtdParser__UndeclaredNotation System::Xml::System__Xml__DtdParser__UndeclaredNotation::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Xml::System__Xml__DtdParser__UndeclaredNotation, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lineNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePos", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::System__Xml__DtdParser__UndeclaredNotation::System__Xml__DtdParser__UndeclaredNotation(::StringW name, int32_t lineNo, int32_t linePos)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__DtdParser__UndeclaredNotation>(name, lineNo, linePos))) {}
+ System::Xml::System__Xml__DtdParser__UndeclaredNotation System::Xml::System__Xml__DtdParser__UndeclaredNotation::New_ctor(::StringW name, int32_t lineNo, int32_t linePos)  {
+System::Xml::System__Xml__DtdParser__UndeclaredNotation o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__DtdParser__UndeclaredNotation>(name, lineNo, linePos))};
+return o;
+}
  void System::Xml::System__Xml__DtdParser__UndeclaredNotation::_ctor(::StringW name, int32_t lineNo, int32_t linePos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__DtdParser__UndeclaredNotation>::get(),
@@ -211,8 +214,10 @@ constexpr void System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_Loca
 constexpr System::Xml::System__Xml__DtdParser__Token System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame::__get_parsingSchema() const {
 return ::cordl_internals::getInstanceField<System::Xml::System__Xml__DtdParser__Token, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "startParentEntityIdParam", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame(int32_t startParentEntityIdParam)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame>(startParentEntityIdParam))) {}
+ System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame::New_ctor(int32_t startParentEntityIdParam)  {
+System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame>(startParentEntityIdParam))};
+return o;
+}
  void System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame::_ctor(int32_t startParentEntityIdParam)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__DtdParser__ParseElementOnlyContent_LocalFrame>::get(),
@@ -2192,8 +2197,10 @@ constexpr void System::Xml::DtdParser::__set_condSectionEntityIds(::ArrayW<int32
 constexpr ::ArrayW<int32_t> System::Xml::DtdParser::__get_condSectionEntityIds() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0xc0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::DtdParser::DtdParser()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DtdParser>())) {}
+ System::Xml::DtdParser System::Xml::DtdParser::New_ctor()  {
+System::Xml::DtdParser o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::DtdParser>())};
+return o;
+}
  void System::Xml::DtdParser::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::DtdParser>::get(),

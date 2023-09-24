@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Character_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::Character._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::TextCore::Text::Character::Character()  : UnityEngine::TextCore::Text::TextElement(THROW_UNLESS(::il2cpp_utils::New<Character>())) {}
+ UnityEngine::TextCore::Text::Character UnityEngine::TextCore::Text::Character::New_ctor()  {
+UnityEngine::TextCore::Text::Character o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::Character>())};
+return o;
+}
  void UnityEngine::TextCore::Text::Character::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::Character>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "UnityEngine::TextCore::Text::FontAsset", modifiers: "", def_value: None }, CppParam { name: "glyph", ty: "UnityEngine::TextCore::Glyph", modifiers: "", def_value: None }]
- UnityEngine::TextCore::Text::Character::Character(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph)  : UnityEngine::TextCore::Text::TextElement(THROW_UNLESS(::il2cpp_utils::New<Character>(unicode, fontAsset, glyph))) {}
+ UnityEngine::TextCore::Text::Character UnityEngine::TextCore::Text::Character::New_ctor(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph)  {
+UnityEngine::TextCore::Text::Character o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::Character>(unicode, fontAsset, glyph))};
+return o;
+}
  void UnityEngine::TextCore::Text::Character::_ctor(uint32_t unicode, UnityEngine::TextCore::Text::FontAsset fontAsset, UnityEngine::TextCore::Glyph glyph)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::Character>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, unicode, fontAsset, glyph);
 }
-// Ctor Parameters [CppParam { name: "unicode", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "glyphIndex", ty: "uint32_t", modifiers: "", def_value: None }]
- UnityEngine::TextCore::Text::Character::Character(uint32_t unicode, uint32_t glyphIndex)  : UnityEngine::TextCore::Text::TextElement(THROW_UNLESS(::il2cpp_utils::New<Character>(unicode, glyphIndex))) {}
+ UnityEngine::TextCore::Text::Character UnityEngine::TextCore::Text::Character::New_ctor(uint32_t unicode, uint32_t glyphIndex)  {
+UnityEngine::TextCore::Text::Character o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::Character>(unicode, glyphIndex))};
+return o;
+}
  void UnityEngine::TextCore::Text::Character::_ctor(uint32_t unicode, uint32_t glyphIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::Character>::get(),

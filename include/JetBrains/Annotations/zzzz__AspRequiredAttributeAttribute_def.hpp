@@ -62,8 +62,7 @@ constexpr ::StringW __get__Attribute_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attribute", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AspRequiredAttributeAttribute(::StringW attribute) ;
+static JetBrains::Annotations::AspRequiredAttributeAttribute New_ctor(::StringW attribute) ;
 
 /// @brief Method .ctor addr 0x2d412fc size 0x28 virtual false final false
  void _ctor(::StringW attribute) ;

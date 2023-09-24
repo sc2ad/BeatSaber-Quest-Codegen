@@ -50,8 +50,7 @@ constexpr explicit ConfigurationCollectionAttribute(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "itemType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit ConfigurationCollectionAttribute(System::Type itemType) ;
+static System::Configuration::ConfigurationCollectionAttribute New_ctor(System::Type itemType) ;
 
 /// @brief Method .ctor addr 0x267b578 size 0x4 virtual false final false
  void _ctor(System::Type itemType) ;

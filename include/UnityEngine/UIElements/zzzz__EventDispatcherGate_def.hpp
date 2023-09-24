@@ -7,11 +7,11 @@ namespace UnityEngine::UIElements {
 class EventDispatcher;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

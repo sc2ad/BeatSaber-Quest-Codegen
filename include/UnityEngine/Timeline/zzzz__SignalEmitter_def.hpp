@@ -4,17 +4,17 @@
 namespace UnityEngine::Timeline {
 class INotificationOptionProvider;
 }
-namespace UnityEngine {
-struct PropertyName;
-}
 namespace UnityEngine::Timeline {
 struct NotificationFlags;
+}
+namespace UnityEngine::Playables {
+class INotification;
 }
 namespace UnityEngine::Timeline {
 class SignalAsset;
 }
-namespace UnityEngine::Playables {
-class INotification;
+namespace UnityEngine {
+struct PropertyName;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -126,8 +126,7 @@ constexpr UnityEngine::Timeline::SignalAsset __get_m_Asset() const;
 /// @brief Method UnityEngine.Timeline.INotificationOptionProvider.get_flags addr 0x2ad070c size 0x1c virtual true final true
  UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags() ;
 
-// Ctor Parameters []
-explicit SignalEmitter() ;
+static UnityEngine::Timeline::SignalEmitter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad0728 size 0x8 virtual false final false
  void _ctor() ;

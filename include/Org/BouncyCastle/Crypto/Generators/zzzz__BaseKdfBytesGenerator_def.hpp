@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDerivationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -93,8 +93,7 @@ constexpr ::ArrayW<uint8_t> __get_iv() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "counterStart", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit BaseKdfBytesGenerator(int32_t counterStart, Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator New_ctor(int32_t counterStart, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe692f4 size 0x30 virtual false final false
  void _ctor(int32_t counterStart, Org::BouncyCastle::Crypto::IDigest digest) ;

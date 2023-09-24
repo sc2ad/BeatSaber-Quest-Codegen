@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "ENet/zzzz__Packet_def.hpp"
-#include "ENet/zzzz__PacketFreeCallback_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "ENet/zzzz__PacketFreeCallback_def.hpp"
 #include "ENet/zzzz__PacketFlags_def.hpp"
 //  Writing Method size for method: ENet::Packet.get_NativeData
 template<>

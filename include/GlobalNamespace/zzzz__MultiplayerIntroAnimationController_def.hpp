@@ -5,17 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
+}
 namespace UnityEngine {
-struct PropertyName;
+class GameObject;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreRingManager;
+class MultiplayerPlayersManager;
+}
+namespace UnityEngine {
+struct PropertyName;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class MultiplayerScoreRingManager;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -25,23 +31,17 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerTimelineMock;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class MultiplayerTimelineMock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -224,8 +224,7 @@ constexpr bool __get__bindingFinished() const;
 /// @brief Method Completed addr 0x20f962c size 0x38 virtual false final false
  void Completed() ;
 
-// Ctor Parameters []
-explicit MultiplayerIntroAnimationController() ;
+static GlobalNamespace::MultiplayerIntroAnimationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f9664 size 0x5c virtual false final false
  void _ctor() ;

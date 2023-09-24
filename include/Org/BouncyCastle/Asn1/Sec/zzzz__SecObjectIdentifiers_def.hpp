@@ -257,8 +257,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_SecP256r1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit SecObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe6110 size 0x8 virtual false final false
  void _ctor() ;

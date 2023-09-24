@@ -76,8 +76,10 @@ constexpr void System::ComponentModel::Design::Serialization::RootDesignerSerial
 constexpr ::StringW System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::__get__SerializerBaseTypeName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "serializerTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseSerializerTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "reloadable", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::RootDesignerSerializerAttribute(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RootDesignerSerializerAttribute>(serializerTypeName, baseSerializerTypeName, reloadable))) {}
+ System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable)  {
+System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute>(serializerTypeName, baseSerializerTypeName, reloadable))};
+return o;
+}
  void System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute>::get(),

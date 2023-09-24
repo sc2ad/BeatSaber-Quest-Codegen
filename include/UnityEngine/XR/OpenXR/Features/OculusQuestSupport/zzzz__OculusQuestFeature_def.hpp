@@ -65,8 +65,7 @@ constexpr bool __get_targetQuest2() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OculusQuestFeature() ;
+static UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b064fc size 0x10 virtual false final false
  void _ctor() ;

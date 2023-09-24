@@ -63,8 +63,7 @@ constexpr uint8_t __get_Replace() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "replace", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit Level2Map(uint8_t source, uint8_t replace) ;
+static Mono::Globalization::Unicode::Level2Map New_ctor(uint8_t source, uint8_t replace) ;
 
 /// @brief Method .ctor addr 0x22a809c size 0x30 virtual false final false
  void _ctor(uint8_t source, uint8_t replace) ;

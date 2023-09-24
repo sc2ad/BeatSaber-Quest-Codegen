@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::MissionNodeUpdatePositionInEditMode::__set__miss
 constexpr GlobalNamespace::MissionNodeConnection GlobalNamespace::MissionNodeUpdatePositionInEditMode::__get__missionNodeConnection() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MissionNodeConnection, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionNodeUpdatePositionInEditMode::MissionNodeUpdatePositionInEditMode()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MissionNodeUpdatePositionInEditMode>())) {}
+ GlobalNamespace::MissionNodeUpdatePositionInEditMode GlobalNamespace::MissionNodeUpdatePositionInEditMode::New_ctor()  {
+GlobalNamespace::MissionNodeUpdatePositionInEditMode o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionNodeUpdatePositionInEditMode>())};
+return o;
+}
  void GlobalNamespace::MissionNodeUpdatePositionInEditMode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionNodeUpdatePositionInEditMode>::get(),

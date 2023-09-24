@@ -115,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::SmoothCameraSmoothnessSettingsController::SmoothCameraSmoothnessSettingsController()  : GlobalNamespace::ListSettingsController(THROW_UNLESS(::il2cpp_utils::New<SmoothCameraSmoothnessSettingsController>())) {}
+ GlobalNamespace::SmoothCameraSmoothnessSettingsController GlobalNamespace::SmoothCameraSmoothnessSettingsController::New_ctor()  {
+GlobalNamespace::SmoothCameraSmoothnessSettingsController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SmoothCameraSmoothnessSettingsController>())};
+return o;
+}
  void GlobalNamespace::SmoothCameraSmoothnessSettingsController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SmoothCameraSmoothnessSettingsController>::get(),

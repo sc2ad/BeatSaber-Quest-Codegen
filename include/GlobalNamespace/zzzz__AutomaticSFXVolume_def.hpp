@@ -6,6 +6,9 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__AutomaticSFXVolume__InitData;
+}
+namespace GlobalNamespace {
 class AutomaticSFXVolumeParamsSO;
 }
 namespace GlobalNamespace {
@@ -81,8 +84,7 @@ constexpr bool __get_adaptiveSfx() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "volumeOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "adaptiveSfx", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxVolume", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AutomaticSFXVolume__InitData(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume) ;
+static GlobalNamespace::GlobalNamespace__AutomaticSFXVolume__InitData New_ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume) ;
 
 /// @brief Method .ctor addr 0x20b9f34 size 0x3c virtual false final false
  void _ctor(float_t volumeOffset, bool adaptiveSfx, float_t maxVolume) ;
@@ -225,8 +227,7 @@ constexpr float_t __get__maxVolume() const;
 /// @brief Method Update addr 0x20b9ed0 size 0x50 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit AutomaticSFXVolume() ;
+static GlobalNamespace::AutomaticSFXVolume New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b9f20 size 0x14 virtual false final false
  void _ctor() ;

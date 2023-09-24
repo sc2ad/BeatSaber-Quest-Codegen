@@ -8,7 +8,7 @@ class PointerOutEvent;
 // Type: UnityEngine.UIElements::PointerOutEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4684 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 4684 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7307))
 // CS Name: UnityEngine.UIElements.PointerOutEvent
 class CORDL_TYPE PointerOutEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerOutEvent> {
@@ -47,8 +47,7 @@ constexpr explicit PointerOutEvent(void* ptr) noexcept : UnityEngine::UIElements
 
 // Methods
 
-// Ctor Parameters []
-explicit PointerOutEvent() ;
+static UnityEngine::UIElements::PointerOutEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9528 size 0x48 virtual false final false
  void _ctor() ;

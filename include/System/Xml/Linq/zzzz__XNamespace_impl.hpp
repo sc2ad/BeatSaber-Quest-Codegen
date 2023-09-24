@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
-#include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"
+#include "System/Xml/Linq/zzzz__XName_def.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::XNamespace._ctor
 template<>
@@ -351,8 +351,10 @@ constexpr void System::Xml::Linq::XNamespace::__set__names(System::Xml::Linq::XH
 constexpr System::Xml::Linq::XHashtable_1<System::Xml::Linq::XName> System::Xml::Linq::XNamespace::__get__names() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::XHashtable_1<System::Xml::Linq::XName>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "namespaceName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Linq::XNamespace::XNamespace(::StringW namespaceName)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XNamespace>(namespaceName))) {}
+ System::Xml::Linq::XNamespace System::Xml::Linq::XNamespace::New_ctor(::StringW namespaceName)  {
+System::Xml::Linq::XNamespace o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::XNamespace>(namespaceName))};
+return o;
+}
  void System::Xml::Linq::XNamespace::_ctor(::StringW namespaceName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::XNamespace>::get(),

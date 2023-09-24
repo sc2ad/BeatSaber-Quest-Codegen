@@ -11,16 +11,16 @@ namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-struct LightAxis;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
 struct EaseType;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct LightRotationDirection;
 }
 namespace GlobalNamespace {
-struct LightRotationDirection;
+struct LightAxis;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ static System::Collections::Generic::Dictionary_2<int32_t,GlobalNamespace::Light
 /// @brief Method set_rotation addr 0xd92040 size 0x8 virtual false final false
  void set_rotation(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usePreviousEventValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "GlobalNamespace::LightAxis", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "loopCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rotationDirection", ty: "GlobalNamespace::LightRotationDirection", modifiers: "", def_value: None }]
-explicit LightRotationBeatmapEventData(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, GlobalNamespace::LightRotationDirection rotationDirection) ;
+static GlobalNamespace::LightRotationBeatmapEventData New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, GlobalNamespace::LightRotationDirection rotationDirection) ;
 
 /// @brief Method .ctor addr 0xd92048 size 0xe4 virtual false final false
  void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, GlobalNamespace::EaseType easeType, GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, GlobalNamespace::LightRotationDirection rotationDirection) ;

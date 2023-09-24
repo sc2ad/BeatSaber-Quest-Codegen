@@ -5,14 +5,14 @@
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsDHVerifier;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
 }
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsDHVerifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -98,20 +98,17 @@ constexpr int32_t __get_mMinimumPrimeBits() const;
 /// @brief Method AddDefaultGroup addr 0xed5744 size 0xd4 virtual false final false
 static void AddDefaultGroup(Org::BouncyCastle::Crypto::Parameters::DHParameters dhParameters) ;
 
-// Ctor Parameters []
-explicit DefaultTlsDHVerifier() ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier New_ctor() ;
 
 /// @brief Method .ctor addr 0xed5290 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "minimumPrimeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DefaultTlsDHVerifier(int32_t minimumPrimeBits) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier New_ctor(int32_t minimumPrimeBits) ;
 
 /// @brief Method .ctor addr 0xed596c size 0x7c virtual false final false
  void _ctor(int32_t minimumPrimeBits) ;
 
-// Ctor Parameters [CppParam { name: "groups", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "minimumPrimeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DefaultTlsDHVerifier(System::Collections::IList groups, int32_t minimumPrimeBits) ;
+static Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier New_ctor(System::Collections::IList groups, int32_t minimumPrimeBits) ;
 
 /// @brief Method .ctor addr 0xed59e8 size 0x30 virtual false final false
  void _ctor(System::Collections::IList groups, int32_t minimumPrimeBits) ;

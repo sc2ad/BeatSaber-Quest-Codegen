@@ -62,8 +62,7 @@ constexpr ::StringW __get_m_UserMessage() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userMessage", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssertionException(::StringW message, ::StringW userMessage) ;
+static UnityEngine::Assertions::AssertionException New_ctor(::StringW message, ::StringW userMessage) ;
 
 /// @brief Method .ctor addr 0x2b712a4 size 0x74 virtual false final false
  void _ctor(::StringW message, ::StringW userMessage) ;

@@ -3,23 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__TaskExtensions___WaitForTask_d__1_1;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -117,78 +125,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<>c__DisplayClass0_0`1
 namespace GlobalNamespace {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12928))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12928), inst: 2 })
-// CS Name: TaskExtensions::<>c__DisplayClass0_0`1
-class CORDL_TYPE GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1<T> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
-
-virtual ~GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1", modifiers: " const&", def_value: None }]
-constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
-constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1&& o) noexcept = default;
-  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
- System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get_tcs, put=__set_tcs))  tcs;
-
-constexpr void __set_tcs(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
-
-constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get_tcs() const;
-
- System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
-
-constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
-
-constexpr System::Threading::CancellationToken __get_cancellationToken() const;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <WithCancellation>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
- void _WithCancellation_b__0() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<>c__DisplayClass0_0`1
-namespace GlobalNamespace {
-// cpp template
 template<>
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12928))}
@@ -245,8 +181,78 @@ constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1() ;
+static GlobalNamespace::GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1<bool> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <WithCancellation>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _WithCancellation_b__0() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<>c__DisplayClass0_0`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12928))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12928), inst: 2 })
+// CS Name: TaskExtensions::<>c__DisplayClass0_0`1
+class CORDL_TYPE GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
+
+virtual ~GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1&& o) noexcept = default;
+  constexpr GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1& operator=(GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+ System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get_tcs, put=__set_tcs))  tcs;
+
+constexpr void __set_tcs(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
+
+constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get_tcs() const;
+
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
+
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
+
+
+// Methods
+
+static GlobalNamespace::GlobalNamespace__TaskExtensions____c__DisplayClass0_0_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -261,106 +267,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::<WaitForTask>d__1`1
 namespace GlobalNamespace {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
-// Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(12929))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12929), inst: 2 })
-// CS Name: TaskExtensions::<WaitForTask>d__1`1
-struct CORDL_TYPE GlobalNamespace__TaskExtensions___WaitForTask_d__1_1<T> : public ::bs_hook::ValueTypeWrapper {
-public:
-// Declarations
-/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
-
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "tcs", ty: "System::Threading::Tasks::TaskCompletionSource_1<T>", modifiers: "", def_value: None }, CppParam { name: "task", ty: "System::Threading::Tasks::Task_1<T>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "System::Threading::Tasks::TaskCompletionSource_1<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None }]
-constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, System::Threading::Tasks::TaskCompletionSource_1<T> tcs, System::Threading::Tasks::Task_1<T> task, System::Threading::Tasks::TaskCompletionSource_1<T> __7__wrap1, System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
-
-
-                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1 const&) = default;
-                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1&&) = default;
-                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1& operator=(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1 const& o) {
-                        __instance = o.__instance;
-                        return *this;
-                    };
-                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1& operator=(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1&& o) noexcept {
-                        __instance = std::move(o.__instance);
-                        return *this;
-                    };
-                
-
-/// @brief The size of the true value type
-static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
-
-/// @brief Holds the value type data
- std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
-
-// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
-}
-
-/// @brief conversion method for value type
-constexpr void* convert() const noexcept {
-return const_cast<void*>(static_cast<const void*>(__instance.data()));
-}
-
-
-// Fields
-
- int32_t __declspec(property(get=__get___1__state, put=__set___1__state))  __1__state;
-
-constexpr void __set___1__state(int32_t value) ;
-
-constexpr int32_t __get___1__state() const;
-
- System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
-
-constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
-
-constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
-
- System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get_tcs, put=__set_tcs))  tcs;
-
-constexpr void __set_tcs(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
-
-constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get_tcs() const;
-
- System::Threading::Tasks::Task_1<T> __declspec(property(get=__get_task, put=__set_task))  task;
-
-constexpr void __set_task(System::Threading::Tasks::Task_1<T> value) ;
-
-constexpr System::Threading::Tasks::Task_1<T> __get_task() const;
-
- System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get___7__wrap1, put=__set___7__wrap1))  __7__wrap1;
-
-constexpr void __set___7__wrap1(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
-
-constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get___7__wrap1() const;
-
- System::Runtime::CompilerServices::TaskAwaiter_1<T> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
-
-constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<T> value) ;
-
-constexpr System::Runtime::CompilerServices::TaskAwaiter_1<T> __get___u__1() const;
-
-
-// Methods
-
-/// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
- void MoveNext() ;
-
-/// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
- void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace end def GlobalNamespace
-// Type: ::<WaitForTask>d__1`1
-namespace GlobalNamespace {
-// cpp template
 template<>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(12929))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12929)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12929), inst: 99 })
 // CS Name: TaskExtensions::<WaitForTask>d__1`1
 struct CORDL_TYPE GlobalNamespace__TaskExtensions___WaitForTask_d__1_1<bool> : public ::bs_hook::ValueTypeWrapper {
@@ -438,6 +347,103 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> __get___7__wrap
 constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<bool> value) ;
 
 constexpr System::Runtime::CompilerServices::TaskAwaiter_1<bool> __get___u__1() const;
+
+
+// Methods
+
+/// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+ void MoveNext() ;
+
+/// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+} // namespace end def GlobalNamespace
+// Type: ::<WaitForTask>d__1`1
+namespace GlobalNamespace {
+// cpp template
+template<::cordl_internals::il2cpp_reference_type T>
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12929)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12929), inst: 2 })
+// CS Name: TaskExtensions::<WaitForTask>d__1`1
+struct CORDL_TYPE GlobalNamespace__TaskExtensions___WaitForTask_d__1_1<T> : public ::bs_hook::ValueTypeWrapper {
+public:
+// Declarations
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
+
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "tcs", ty: "System::Threading::Tasks::TaskCompletionSource_1<T>", modifiers: "", def_value: None }, CppParam { name: "task", ty: "System::Threading::Tasks::Task_1<T>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "System::Threading::Tasks::TaskCompletionSource_1<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<T>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, System::Threading::Tasks::TaskCompletionSource_1<T> tcs, System::Threading::Tasks::Task_1<T> task, System::Threading::Tasks::TaskCompletionSource_1<T> __7__wrap1, System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
+
+
+                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1 const&) = default;
+                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1&&) = default;
+                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1& operator=(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1 const& o) {
+                        __instance = o.__instance;
+                        return *this;
+                    };
+                    constexpr GlobalNamespace__TaskExtensions___WaitForTask_d__1_1& operator=(GlobalNamespace__TaskExtensions___WaitForTask_d__1_1&& o) noexcept {
+                        __instance = std::move(o.__instance);
+                        return *this;
+                    };
+                
+
+/// @brief The size of the true value type
+static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x30};
+
+/// @brief Holds the value type data
+ std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
+
+// Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
+constexpr explicit GlobalNamespace__TaskExtensions___WaitForTask_d__1_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+}
+
+/// @brief conversion method for value type
+constexpr void* convert() const noexcept {
+return const_cast<void*>(static_cast<const void*>(__instance.data()));
+}
+
+
+// Fields
+
+ int32_t __declspec(property(get=__get___1__state, put=__set___1__state))  __1__state;
+
+constexpr void __set___1__state(int32_t value) ;
+
+constexpr int32_t __get___1__state() const;
+
+ System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
+
+constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
+
+ System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get_tcs, put=__set_tcs))  tcs;
+
+constexpr void __set_tcs(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
+
+constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get_tcs() const;
+
+ System::Threading::Tasks::Task_1<T> __declspec(property(get=__get_task, put=__set_task))  task;
+
+constexpr void __set_task(System::Threading::Tasks::Task_1<T> value) ;
+
+constexpr System::Threading::Tasks::Task_1<T> __get_task() const;
+
+ System::Threading::Tasks::TaskCompletionSource_1<T> __declspec(property(get=__get___7__wrap1, put=__set___7__wrap1))  __7__wrap1;
+
+constexpr void __set___7__wrap1(System::Threading::Tasks::TaskCompletionSource_1<T> value) ;
+
+constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get___7__wrap1() const;
+
+ System::Runtime::CompilerServices::TaskAwaiter_1<T> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<T> value) ;
+
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<T> __get___u__1() const;
 
 
 // Methods

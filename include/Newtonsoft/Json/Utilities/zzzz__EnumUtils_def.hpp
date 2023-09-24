@@ -3,34 +3,41 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System {
+class Type;
+}
 namespace Newtonsoft::Json::Utilities {
-template<typename TKey,typename TValue>
-class ThreadSafeStore_2;
+template<typename T>
+class Newtonsoft__Json__Utilities__EnumUtils____c__2_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template<typename TFirst,typename TSecond>
 class BidirectionalDictionary_2;
 }
-namespace System {
-class Type;
+namespace Newtonsoft::Json::Utilities {
+template<typename T>
+class EnumValue_1;
+}
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__EnumUtils____c;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename TKey,typename TValue>
+class ThreadSafeStore_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace Newtonsoft::Json::Utilities {
-template<typename T>
-class EnumValue_1;
-}
 namespace System::Reflection {
 class FieldInfo;
-}
-namespace System::Runtime::Serialization {
-class EnumMemberAttribute;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace System::Runtime::Serialization {
+class EnumMemberAttribute;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -112,8 +119,7 @@ static System::Func_2<System::Reflection::FieldInfo,bool> __get___9__6_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__EnumUtils____c() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__EnumUtils____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24ea82c size 0x8 virtual false final false
  void _ctor() ;
@@ -190,8 +196,7 @@ static System::Func_2<Newtonsoft::Json::Utilities::EnumValue_1<uint64_t>,bool> _
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__EnumUtils____c__2_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__EnumUtils____c__2_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

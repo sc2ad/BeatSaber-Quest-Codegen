@@ -2,11 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::X509 {
-class V2Form;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class V2Form;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -14,11 +14,11 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -95,14 +95,12 @@ static Org::BouncyCastle::Asn1::X509::AttCertIssuer GetInstance(::bs_hook::Il2Cp
 /// @brief Method GetInstance addr 0xff6d94 size 0x1c virtual false final false
 static Org::BouncyCastle::Asn1::X509::AttCertIssuer GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject obj, bool isExplicit) ;
 
-// Ctor Parameters [CppParam { name: "names", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
-explicit AttCertIssuer(Org::BouncyCastle::Asn1::X509::GeneralNames names) ;
+static Org::BouncyCastle::Asn1::X509::AttCertIssuer New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames names) ;
 
 /// @brief Method .ctor addr 0xff6d50 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames names) ;
 
-// Ctor Parameters [CppParam { name: "v2Form", ty: "Org::BouncyCastle::Asn1::X509::V2Form", modifiers: "", def_value: None }]
-explicit AttCertIssuer(Org::BouncyCastle::Asn1::X509::V2Form v2Form) ;
+static Org::BouncyCastle::Asn1::X509::AttCertIssuer New_ctor(Org::BouncyCastle::Asn1::X509::V2Form v2Form) ;
 
 /// @brief Method .ctor addr 0xff6cc8 size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::V2Form v2Form) ;

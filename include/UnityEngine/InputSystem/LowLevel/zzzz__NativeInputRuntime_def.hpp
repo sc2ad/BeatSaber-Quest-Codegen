@@ -4,35 +4,44 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::InputSystem::LowLevel {
-class InputUpdateDelegate;
-}
 namespace System {
-class Action;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace System {
-template<typename T>
-class Action_1;
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputRuntime;
+class UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0;
 }
 namespace UnityEngine {
 struct ScreenOrientation;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputRuntime;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputUpdateType;
+class InputUpdateDelegate;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngineInternal::Input {
 struct NativeInputUpdateType;
@@ -101,8 +110,7 @@ constexpr UnityEngine::InputSystem::LowLevel::InputUpdateDelegate __get_value() 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0() ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x295e8b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -165,8 +173,7 @@ constexpr System::Action_1<UnityEngine::InputSystem::LowLevel::InputUpdateType> 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0() ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x295e9d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -229,8 +236,7 @@ constexpr System::Func_2<UnityEngine::InputSystem::LowLevel::InputUpdateType,boo
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0() ;
+static UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x295eaf0 size 0x8 virtual false final false
  void _ctor() ;
@@ -475,8 +481,7 @@ constexpr System::Action_1<bool> __get_m_FocusChangedMethod() const;
 /// @brief Method SendAnalyticsEvent addr 0x295ef6c size 0x4 virtual false final false
  void SendAnalyticsEvent(::StringW name, ::bs_hook::Il2CppWrapperType data) ;
 
-// Ctor Parameters []
-explicit NativeInputRuntime() ;
+static UnityEngine::InputSystem::LowLevel::NativeInputRuntime New_ctor() ;
 
 /// @brief Method .ctor addr 0x295ef70 size 0x10 virtual false final false
  void _ctor() ;

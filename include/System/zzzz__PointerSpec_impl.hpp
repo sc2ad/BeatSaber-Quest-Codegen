@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__PointerSpec_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__ModifierSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::PointerSpec._ctor
 template<>
 
@@ -81,8 +81,10 @@ constexpr void System::PointerSpec::__set_pointer_level(int32_t value)  {
 constexpr int32_t System::PointerSpec::__get_pointer_level() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pointer_level", ty: "int32_t", modifiers: "", def_value: None }]
- System::PointerSpec::PointerSpec(int32_t pointer_level)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PointerSpec>(pointer_level))) {}
+ System::PointerSpec System::PointerSpec::New_ctor(int32_t pointer_level)  {
+System::PointerSpec o{THROW_UNLESS(::il2cpp_utils::New<System::PointerSpec>(pointer_level))};
+return o;
+}
  void System::PointerSpec::_ctor(int32_t pointer_level)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::PointerSpec>::get(),

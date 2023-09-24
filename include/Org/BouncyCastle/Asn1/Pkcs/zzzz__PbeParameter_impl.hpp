@@ -129,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Pkcs::PbeParameter, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PbeParameter::PbeParameter(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PbeParameter>(seq))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PbeParameter Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Pkcs::PbeParameter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PbeParameter>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PbeParameter::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PbeParameter>::get(),
@@ -140,8 +142,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PbeParameter::PbeParameter(::ArrayW<uint8_t> salt, int32_t iterationCount)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PbeParameter>(salt, iterationCount))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PbeParameter Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount)  {
+Org::BouncyCastle::Asn1::Pkcs::PbeParameter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PbeParameter>(salt, iterationCount))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PbeParameter::_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PbeParameter>::get(),

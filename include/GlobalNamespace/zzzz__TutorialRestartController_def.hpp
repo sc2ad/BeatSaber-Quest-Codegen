@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class ILevelRestartController;
+class TutorialScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class ILevelRestartController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,8 +68,7 @@ constexpr GlobalNamespace::TutorialScenesTransitionSetupDataSO __get__tutorialSc
 /// @brief Method RestartLevel addr 0x20d59f0 size 0x20 virtual true final true
  void RestartLevel() ;
 
-// Ctor Parameters []
-explicit TutorialRestartController() ;
+static GlobalNamespace::TutorialRestartController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20d5a10 size 0x8 virtual false final false
  void _ctor() ;

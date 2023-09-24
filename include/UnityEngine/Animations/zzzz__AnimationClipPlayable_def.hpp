@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
 class IPlayable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 namespace System {
 template<typename T>

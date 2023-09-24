@@ -8,11 +8,11 @@ class TextMeshProUGUI;
 namespace UnityEngine {
 struct Color;
 }
-namespace HMUI {
-struct HMUI__SelectableCell__TransitionType;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+struct HMUI__SelectableCell__TransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr UnityEngine::Color __get__selectedAndHighlightedBackgroundColor() cons
 /// @brief Method RefreshVisuals addr 0x2126434 size 0x9c virtual false final false
  void RefreshVisuals() ;
 
-// Ctor Parameters []
-explicit LevelPackHeaderTableCell() ;
+static GlobalNamespace::LevelPackHeaderTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x21264d4 size 0x8 virtual false final false
  void _ctor() ;

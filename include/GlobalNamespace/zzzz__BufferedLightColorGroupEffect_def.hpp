@@ -5,31 +5,34 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace UnityEngine {
-struct Vector4;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+class GlobalNamespace__BufferedLightColorGroupEffect__InitData;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
+namespace GlobalNamespace {
+class ColorBoostBeatmapEventData;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace GlobalNamespace {
 class LightGroup;
@@ -98,8 +101,7 @@ constexpr GlobalNamespace::MaterialPropertyBlockController __get_materialPropert
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lightGroup", ty: "GlobalNamespace::LightGroup", modifiers: "", def_value: None }, CppParam { name: "materialPropertyBlockController", ty: "GlobalNamespace::MaterialPropertyBlockController", modifiers: "", def_value: None }]
-explicit GlobalNamespace__BufferedLightColorGroupEffect__InitData(GlobalNamespace::LightGroup lightGroup, GlobalNamespace::MaterialPropertyBlockController materialPropertyBlockController) ;
+static GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData New_ctor(GlobalNamespace::LightGroup lightGroup, GlobalNamespace::MaterialPropertyBlockController materialPropertyBlockController) ;
 
 /// @brief Method .ctor addr 0x225c99c size 0x2c virtual false final false
  void _ctor(GlobalNamespace::LightGroup lightGroup, GlobalNamespace::MaterialPropertyBlockController materialPropertyBlockController) ;
@@ -242,8 +244,7 @@ static int32_t __get__elementIdBufferPropertyId() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initData", ty: "GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData", modifiers: "", def_value: None }, CppParam { name: "colorManager", ty: "GlobalNamespace::ColorManager", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }]
-explicit BufferedLightColorGroupEffect(GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData initData, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
+static GlobalNamespace::BufferedLightColorGroupEffect New_ctor(GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData initData, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;
 
 /// @brief Method .ctor addr 0x225c23c size 0x348 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__BufferedLightColorGroupEffect__InitData initData, GlobalNamespace::ColorManager colorManager, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController) ;

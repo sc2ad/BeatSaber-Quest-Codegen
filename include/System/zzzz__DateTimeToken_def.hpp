@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct TokenType;
+struct System__DateTimeParse__DTT;
 }
 namespace System {
-struct System__DateTimeParse__DTT;
+struct TokenType;
 }
 // Forward declare root types
 namespace System {

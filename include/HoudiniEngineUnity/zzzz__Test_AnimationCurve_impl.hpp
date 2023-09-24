@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_AnimationCurve::__set_self(UnityEngine::
 constexpr UnityEngine::AnimationCurve HoudiniEngineUnity::Test_AnimationCurve::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AnimationCurve, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::AnimationCurve", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_AnimationCurve::Test_AnimationCurve(UnityEngine::AnimationCurve self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_AnimationCurve>(self))) {}
+ HoudiniEngineUnity::Test_AnimationCurve HoudiniEngineUnity::Test_AnimationCurve::New_ctor(UnityEngine::AnimationCurve self)  {
+HoudiniEngineUnity::Test_AnimationCurve o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_AnimationCurve>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_AnimationCurve::_ctor(UnityEngine::AnimationCurve self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_AnimationCurve>::get(),

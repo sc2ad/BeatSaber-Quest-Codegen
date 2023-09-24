@@ -3,44 +3,50 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ICollection;
+namespace System {
+class DBNull;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry;
+}
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System {
-class Array;
-}
-namespace System {
 class StringComparer;
 }
 namespace System {
-class DBNull;
+class Array;
+}
+namespace System::Collections::Specialized {
+class System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class IEqualityComparer;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Collections {
-class Hashtable;
+class IEnumerator;
 }
 namespace System::Collections {
-class IEqualityComparer;
+class ICollection;
 }
 // Forward declare root types
 namespace System::Collections::Specialized {
@@ -109,8 +115,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_Value() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
+static System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectEntry New_ctor(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method .ctor addr 0x27ae670 size 0x2c virtual false final false
  void _ctor(::StringW name, ::bs_hook::Il2CppWrapperType value) ;
@@ -190,8 +195,7 @@ constexpr int32_t __get__version() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "coll", ty: "System::Collections::Specialized::NameObjectCollectionBase", modifiers: "", def_value: None }]
-explicit System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator(System::Collections::Specialized::NameObjectCollectionBase coll) ;
+static System::Collections::Specialized::System__Collections__Specialized__NameObjectCollectionBase__NameObjectKeysEnumerator New_ctor(System::Collections::Specialized::NameObjectCollectionBase coll) ;
 
 /// @brief Method .ctor addr 0x27ae6fc size 0x40 virtual false final false
  void _ctor(System::Collections::Specialized::NameObjectCollectionBase coll) ;
@@ -335,38 +339,32 @@ static System::StringComparer __get_defaultComparer() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit NameObjectCollectionBase() ;
+static System::Collections::Specialized::NameObjectCollectionBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x27aa1d0 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(System::Collections::IEqualityComparer equalityComparer) ;
+static System::Collections::Specialized::NameObjectCollectionBase New_ctor(System::Collections::IEqualityComparer equalityComparer) ;
 
 /// @brief Method .ctor addr 0x27ad468 size 0x80 virtual false final false
  void _ctor(System::Collections::IEqualityComparer equalityComparer) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "equalityComparer", ty: "System::Collections::IEqualityComparer", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
+static System::Collections::Specialized::NameObjectCollectionBase New_ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
 /// @brief Method .ctor addr 0x27aa3b8 size 0x2c virtual false final false
  void _ctor(int32_t capacity, System::Collections::IEqualityComparer equalityComparer) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(int32_t capacity) ;
+static System::Collections::Specialized::NameObjectCollectionBase New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x27aa294 size 0xb0 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "dummy", ty: "System::DBNull", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(System::DBNull dummy) ;
+static System::Collections::Specialized::NameObjectCollectionBase New_ctor(System::DBNull dummy) ;
 
 /// @brief Method .ctor addr 0x27ab12c size 0x8 virtual false final false
  void _ctor(System::DBNull dummy) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit NameObjectCollectionBase(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Specialized::NameObjectCollectionBase New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27aa450 size 0x28 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

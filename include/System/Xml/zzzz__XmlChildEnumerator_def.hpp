@@ -84,8 +84,7 @@ constexpr bool __get_isFirst() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
-explicit XmlChildEnumerator(System::Xml::XmlNode container) ;
+static System::Xml::XmlChildEnumerator New_ctor(System::Xml::XmlNode container) ;
 
 /// @brief Method .ctor addr 0x26f0408 size 0x50 virtual false final false
  void _ctor(System::Xml::XmlNode container) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Cms {
+class DefaultSignatureAlgorithmIdentifierFinder;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiStatusInfo;
@@ -10,14 +10,14 @@ class PkiStatusInfo;
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertStatus;
 }
-namespace Org::BouncyCastle::Cms {
-class DefaultSignatureAlgorithmIdentifierFinder;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Cms {
 class DefaultDigestAlgorithmIdentifierFinder;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cmp {
@@ -93,8 +93,7 @@ constexpr Org::BouncyCastle::Asn1::Cmp::CertStatus __get_certStatus() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digestAlgFinder", ty: "Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }, CppParam { name: "certStatus", ty: "Org::BouncyCastle::Asn1::Cmp::CertStatus", modifiers: "", def_value: None }]
-explicit CertificateStatus(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;
+static Org::BouncyCastle::Cmp::CertificateStatus New_ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;
 
 /// @brief Method .ctor addr 0x114b35c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder, Org::BouncyCastle::Asn1::Cmp::CertStatus certStatus) ;

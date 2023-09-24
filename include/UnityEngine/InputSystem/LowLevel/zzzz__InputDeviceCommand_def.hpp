@@ -2,15 +2,15 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace Unity::Collections {
+template<typename T>
+struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
-namespace Unity::Collections {
-template<typename T>
-struct NativeArray_1;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

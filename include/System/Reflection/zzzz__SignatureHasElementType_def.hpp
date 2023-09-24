@@ -94,8 +94,7 @@ constexpr System::Reflection::SignatureType __get__elementType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
-explicit SignatureHasElementType(System::Reflection::SignatureType elementType) ;
+static System::Reflection::SignatureHasElementType New_ctor(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method .ctor addr 0x237ccc0 size 0x24 virtual false final false
  void _ctor(System::Reflection::SignatureType elementType) ;

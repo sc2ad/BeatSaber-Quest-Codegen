@@ -2,9 +2,9 @@
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__ThaiBuddhistCalendar_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/Globalization/zzzz__EraInfo_def.hpp"
 #include "System/Globalization/zzzz__GregorianCalendarHelper_def.hpp"
 #include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/Globalization/zzzz__EraInfo_def.hpp"
 //  Writing Method size for method: System::Globalization::ThaiBuddhistCalendar.get_MinSupportedDateTime
 template<>
 
@@ -341,8 +341,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::DateTime, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::ThaiBuddhistCalendar::ThaiBuddhistCalendar()  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<ThaiBuddhistCalendar>())) {}
+ System::Globalization::ThaiBuddhistCalendar System::Globalization::ThaiBuddhistCalendar::New_ctor()  {
+System::Globalization::ThaiBuddhistCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::ThaiBuddhistCalendar>())};
+return o;
+}
  void System::Globalization::ThaiBuddhistCalendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::ThaiBuddhistCalendar>::get(),

@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters []
- HMUI::TextPageScrollView::TextPageScrollView()  : HMUI::ScrollView(THROW_UNLESS(::il2cpp_utils::New<TextPageScrollView>())) {}
+ HMUI::TextPageScrollView HMUI::TextPageScrollView::New_ctor()  {
+HMUI::TextPageScrollView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TextPageScrollView>())};
+return o;
+}
  void HMUI::TextPageScrollView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TextPageScrollView>::get(),

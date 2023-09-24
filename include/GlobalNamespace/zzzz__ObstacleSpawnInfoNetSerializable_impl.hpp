@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PoolableSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnInfoNetSerializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
+#include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ObstacleSpawnInfoNetSerializable.Obtain
 template<>
 
@@ -193,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::ObstacleSpawnInfoNetSerializable, false>(const_cast<void*>(instance), ___internal_method, time, lineIndex, lineLayer, duration, width, height, moveStartPos, moveEndPos, jumpEndPos, obstacleHeight, moveDuration, jumpDuration, noteLinesDistance, rotation);
 }
-// Ctor Parameters []
- GlobalNamespace::ObstacleSpawnInfoNetSerializable::ObstacleSpawnInfoNetSerializable()  : GlobalNamespace::PoolableSerializable(THROW_UNLESS(::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable>())) {}
+ GlobalNamespace::ObstacleSpawnInfoNetSerializable GlobalNamespace::ObstacleSpawnInfoNetSerializable::New_ctor()  {
+GlobalNamespace::ObstacleSpawnInfoNetSerializable o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ObstacleSpawnInfoNetSerializable>())};
+return o;
+}
  void GlobalNamespace::ObstacleSpawnInfoNetSerializable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ObstacleSpawnInfoNetSerializable>::get(),

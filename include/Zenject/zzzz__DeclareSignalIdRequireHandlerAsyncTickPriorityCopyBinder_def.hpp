@@ -54,8 +54,7 @@ constexpr explicit DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder(void
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "signalBindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }]
-explicit DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
+static Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder New_ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d48e50 size 0x24 virtual false final false
  void _ctor(Zenject::SignalDeclarationBindInfo signalBindInfo) ;

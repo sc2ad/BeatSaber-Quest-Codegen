@@ -57,8 +57,7 @@ constexpr float_t __get_m_Seconds() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seconds", ty: "float_t", modifiers: "", def_value: None }]
-explicit WaitForSeconds(float_t seconds) ;
+static UnityEngine::WaitForSeconds New_ctor(float_t seconds) ;
 
 /// @brief Method .ctor addr 0x2b55fd4 size 0x28 virtual false final false
  void _ctor(float_t seconds) ;

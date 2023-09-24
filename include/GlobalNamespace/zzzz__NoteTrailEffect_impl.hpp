@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteTrailEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "GlobalNamespace/zzzz__NoteTrailParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteTrailEffect.Awake
 template<>
 
@@ -174,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteTrailEffect::NoteTrailEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteTrailEffect>())) {}
+ GlobalNamespace::NoteTrailEffect GlobalNamespace::NoteTrailEffect::New_ctor()  {
+GlobalNamespace::NoteTrailEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteTrailEffect>())};
+return o;
+}
  void GlobalNamespace::NoteTrailEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteTrailEffect>::get(),

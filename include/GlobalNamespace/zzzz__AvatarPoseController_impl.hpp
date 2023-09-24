@@ -2,11 +2,12 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPoseController_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "GlobalNamespace/zzzz__HeadBodyOffsetSO_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate._ctor
@@ -77,8 +78,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarPoseController__PositionsWillBeSetDelegate>::get(),
@@ -183,8 +186,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarPoseController__LatePositionsWillBeSetDelegate>::get(),
@@ -289,8 +294,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarPoseController__RotationsWillBeSetDelegate>::get(),
@@ -658,8 +665,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarPoseController::AvatarPoseController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarPoseController>())) {}
+ GlobalNamespace::AvatarPoseController GlobalNamespace::AvatarPoseController::New_ctor()  {
+GlobalNamespace::AvatarPoseController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarPoseController>())};
+return o;
+}
  void GlobalNamespace::AvatarPoseController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarPoseController>::get(),

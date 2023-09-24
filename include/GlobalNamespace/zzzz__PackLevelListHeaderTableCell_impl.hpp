@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__PackLevelListHeaderTableCell_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "HMUI/zzzz__SelectableCell_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "HMUI/zzzz__SelectableCell_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PackLevelListHeaderTableCell.set_text
 template<>
 
@@ -189,8 +189,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PackLevelListHeaderTableCell::PackLevelListHeaderTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<PackLevelListHeaderTableCell>())) {}
+ GlobalNamespace::PackLevelListHeaderTableCell GlobalNamespace::PackLevelListHeaderTableCell::New_ctor()  {
+GlobalNamespace::PackLevelListHeaderTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PackLevelListHeaderTableCell>())};
+return o;
+}
  void GlobalNamespace::PackLevelListHeaderTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PackLevelListHeaderTableCell>::get(),

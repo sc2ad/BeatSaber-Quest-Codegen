@@ -3,12 +3,13 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Recoil_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink._ctor
 template<>
@@ -39,8 +40,10 @@ constexpr void GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__Effec
 constexpr float_t GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink::__get_weight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink>())) {}
+ GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink::New_ctor()  {
+GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink>())};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink>::get(),
@@ -155,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, rotation, masterWeight, length, timeLeft);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset::RootMotion__FinalIK__Recoil__RecoilOffset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Recoil__RecoilOffset>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset>::get(),
@@ -618,8 +623,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::Recoil::Recoil()  : RootMotion::FinalIK::OffsetModifier(THROW_UNLESS(::il2cpp_utils::New<Recoil>())) {}
+ RootMotion::FinalIK::Recoil RootMotion::FinalIK::Recoil::New_ctor()  {
+RootMotion::FinalIK::Recoil o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::Recoil>())};
+return o;
+}
  void RootMotion::FinalIK::Recoil::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::Recoil>::get(),

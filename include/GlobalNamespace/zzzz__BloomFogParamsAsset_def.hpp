@@ -1,20 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Timeline {
-struct ClipCaps;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace GlobalNamespace {
 class BloomFogParamsBehaviour;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -88,8 +88,7 @@ constexpr GlobalNamespace::BloomFogParamsBehaviour __get__template() const;
 /// @brief Method CreatePlayable addr 0x21b1ac0 size 0xa8 virtual true final false
  UnityEngine::Playables::Playable CreatePlayable(UnityEngine::Playables::PlayableGraph graph, UnityEngine::GameObject go) ;
 
-// Ctor Parameters []
-explicit BloomFogParamsAsset() ;
+static GlobalNamespace::BloomFogParamsAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1b68 size 0x8 virtual false final false
  void _ctor() ;

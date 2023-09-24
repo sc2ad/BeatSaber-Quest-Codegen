@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::VoipManager::VoipManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VoipManager>())) {}
+ GlobalNamespace::VoipManager GlobalNamespace::VoipManager::New_ctor()  {
+GlobalNamespace::VoipManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VoipManager>())};
+return o;
+}
  void GlobalNamespace::VoipManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VoipManager>::get(),

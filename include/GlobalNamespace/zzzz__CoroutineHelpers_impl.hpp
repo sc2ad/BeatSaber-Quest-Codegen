@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__CoroutineHelpers_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -144,8 +145,10 @@ constexpr void GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfter
 constexpr System::Action GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0::__get_action() const {
 return ::cordl_internals::getInstanceField<System::Action, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0>::get(),

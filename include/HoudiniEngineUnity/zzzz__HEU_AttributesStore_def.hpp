@@ -9,54 +9,57 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+class HEU_ToolsInfo;
 }
-namespace HoudiniEngineUnity {
-class HEU_AttributeData;
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 class Mesh;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__HEU_AttributeData__AttributeType;
-}
-namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__HEU_ToolsInfo__PaintMergeMode;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_ToolsInfo;
-}
-namespace UnityEngine {
-struct Vector3;
+class Material;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace HoudiniEngineUnity {
+class HEU_AttributeData;
+}
 namespace UnityEngine {
-class Material;
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartType;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_AttributeData__AttributeType;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_ToolsInfo__PaintMergeMode;
 }
 namespace UnityEngine {
 class MeshCollider;
@@ -119,8 +122,7 @@ constexpr explicit HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFun
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttributeValueFunc New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2010f7c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -459,8 +461,7 @@ static HoudiniEngineUnity::HoudiniEngineUnity__HEU_AttributesStore__SetAttribute
 /// @brief Method IsEquivalentTo addr 0x200f938 size 0x578 virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_AttributesStore other) ;
 
-// Ctor Parameters []
-explicit HEU_AttributesStore() ;
+static HoudiniEngineUnity::HEU_AttributesStore New_ctor() ;
 
 /// @brief Method .ctor addr 0x200feb0 size 0x10cc virtual false final false
  void _ctor() ;

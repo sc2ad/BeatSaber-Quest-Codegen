@@ -4,17 +4,17 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 class PanelSettings;
+}
+namespace UnityEngine::UIElements {
+class VisualTreeAsset;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class VisualTreeAsset;
 }
 namespace UnityEngine::UIElements {
 class UIDocumentList;
@@ -191,8 +191,7 @@ constexpr float_t __get_m_SortingOrder() const;
 /// @brief Method ApplySortingOrder addr 0x2c9ece8 size 0x4 virtual false final false
  void ApplySortingOrder() ;
 
-// Ctor Parameters []
-explicit UIDocument() ;
+static UnityEngine::UIElements::UIDocument New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9edc0 size 0x70 virtual false final false
  void _ctor() ;

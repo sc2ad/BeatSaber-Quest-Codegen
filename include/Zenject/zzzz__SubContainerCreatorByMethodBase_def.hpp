@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Zenject {
-class InjectContext;
+struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class ISubContainerCreator;
-}
-namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-struct TypeValuePair;
+class ISubContainerCreator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -84,8 +84,7 @@ constexpr Zenject::SubContainerCreatorBindInfo __get__containerBindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "containerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByMethodBase(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo) ;
+static Zenject::SubContainerCreatorByMethodBase New_ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d92220 size 0x2c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::SubContainerCreatorBindInfo containerBindInfo) ;

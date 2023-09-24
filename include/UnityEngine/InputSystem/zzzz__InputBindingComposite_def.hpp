@@ -6,9 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
@@ -16,24 +13,30 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System {
+class Type;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct TypeTable;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System {
+class IDisposable;
 }
 namespace System::Reflection {
 class FieldInfo;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -151,8 +154,7 @@ constexpr int32_t __get___7__wrap2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12(int32_t __1__state) ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBindingComposite___GetPartNames_d__12 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x28c37a4 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -275,8 +277,7 @@ static System::Collections::Generic::IEnumerable_1<::StringW> GetPartNames(::Str
 /// @brief Method GetDisplayFormatString addr 0x28c37d8 size 0x120 virtual false final false
 static ::StringW GetDisplayFormatString(::StringW composite) ;
 
-// Ctor Parameters []
-explicit InputBindingComposite() ;
+static UnityEngine::InputSystem::InputBindingComposite New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c38f8 size 0x8 virtual false final false
  void _ctor() ;

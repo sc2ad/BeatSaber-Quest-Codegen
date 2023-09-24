@@ -67,8 +67,7 @@ constexpr GlobalNamespace::BeatmapLevelPackCollectionSO __get__beatmapLevelPackC
 /// @brief Method get_beatmapLevelPackCollection addr 0x21e51a0 size 0x8 virtual false final false
  GlobalNamespace::BeatmapLevelPackCollectionSO get_beatmapLevelPackCollection() ;
 
-// Ctor Parameters []
-explicit BeatmapLevelPackCollectionContainerSO() ;
+static GlobalNamespace::BeatmapLevelPackCollectionContainerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21e51a8 size 0x8 virtual false final false
  void _ctor() ;

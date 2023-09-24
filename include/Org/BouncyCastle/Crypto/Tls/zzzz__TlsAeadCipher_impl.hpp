@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsAeadCipher._ctor
 template<>
 
@@ -157,8 +157,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::__set_nonceMode(in
 constexpr int32_t Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::__get_nonceMode() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::TlsAeadCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsAeadCipher>(context, clientWriteCipher, serverWriteCipher, cipherKeySize, macSize))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsAeadCipher Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize)  {
+Org::BouncyCastle::Crypto::Tls::TlsAeadCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsAeadCipher>(context, clientWriteCipher, serverWriteCipher, cipherKeySize, macSize))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsAeadCipher>::get(),
@@ -168,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, context, clientWriteCipher, serverWriteCipher, cipherKeySize, macSize);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonceMode", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::TlsAeadCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsAeadCipher>(context, clientWriteCipher, serverWriteCipher, cipherKeySize, macSize, nonceMode))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsAeadCipher Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode)  {
+Org::BouncyCastle::Crypto::Tls::TlsAeadCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsAeadCipher>(context, clientWriteCipher, serverWriteCipher, cipherKeySize, macSize, nonceMode))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsAeadCipher::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsAeadCipher>::get(),

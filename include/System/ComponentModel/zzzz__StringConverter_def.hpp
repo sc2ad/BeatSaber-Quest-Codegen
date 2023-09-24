@@ -63,8 +63,7 @@ constexpr explicit StringConverter(void* ptr) noexcept : System::ComponentModel:
 /// @brief Method ConvertFrom addr 0x2785d10 size 0x84 virtual true final false
  ::bs_hook::Il2CppWrapperType ConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
 
-// Ctor Parameters []
-explicit StringConverter() ;
+static System::ComponentModel::StringConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2785d94 size 0x8 virtual false final false
  void _ctor() ;

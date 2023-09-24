@@ -2,6 +2,7 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"
+#include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SpawnRotationChevron.ColorWasSet
@@ -117,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SpawnRotationChevron::SpawnRotationChevron()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SpawnRotationChevron>())) {}
+ GlobalNamespace::SpawnRotationChevron GlobalNamespace::SpawnRotationChevron::New_ctor()  {
+GlobalNamespace::SpawnRotationChevron o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SpawnRotationChevron>())};
+return o;
+}
  void GlobalNamespace::SpawnRotationChevron::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SpawnRotationChevron>::get(),
@@ -145,8 +148,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool::GlobalNamespace__SpawnRotationChevron__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::SpawnRotationChevron>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SpawnRotationChevron__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SpawnRotationChevron__Pool>::get(),

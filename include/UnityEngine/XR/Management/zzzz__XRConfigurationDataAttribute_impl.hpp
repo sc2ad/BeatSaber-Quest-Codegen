@@ -151,8 +151,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::XR::Management::XRConfigurationDataAttribute::XRConfigurationDataAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XRConfigurationDataAttribute>())) {}
+ UnityEngine::XR::Management::XRConfigurationDataAttribute UnityEngine::XR::Management::XRConfigurationDataAttribute::New_ctor()  {
+UnityEngine::XR::Management::XRConfigurationDataAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::XRConfigurationDataAttribute>())};
+return o;
+}
  void UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::XRConfigurationDataAttribute>::get(),
@@ -162,8 +164,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildSettingsKey", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::XR::Management::XRConfigurationDataAttribute::XRConfigurationDataAttribute(::StringW displayName, ::StringW buildSettingsKey)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XRConfigurationDataAttribute>(displayName, buildSettingsKey))) {}
+ UnityEngine::XR::Management::XRConfigurationDataAttribute UnityEngine::XR::Management::XRConfigurationDataAttribute::New_ctor(::StringW displayName, ::StringW buildSettingsKey)  {
+UnityEngine::XR::Management::XRConfigurationDataAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::Management::XRConfigurationDataAttribute>(displayName, buildSettingsKey))};
+return o;
+}
  void UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor(::StringW displayName, ::StringW buildSettingsKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::Management::XRConfigurationDataAttribute>::get(),

@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Xml::XmlNodeChangedEventHandler::XmlNodeChangedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<XmlNodeChangedEventHandler>(object, method))) {}
+ System::Xml::XmlNodeChangedEventHandler System::Xml::XmlNodeChangedEventHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Xml::XmlNodeChangedEventHandler o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNodeChangedEventHandler>(object, method))};
+return o;
+}
  void System::Xml::XmlNodeChangedEventHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNodeChangedEventHandler>::get(),

@@ -70,8 +70,7 @@ static System::ComponentModel::DefaultPropertyAttribute __get_Default() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DefaultPropertyAttribute(::StringW name) ;
+static System::ComponentModel::DefaultPropertyAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x277bc10 size 0x28 virtual false final false
  void _ctor(::StringW name) ;

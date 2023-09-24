@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism._ctor
 template<>
@@ -94,8 +94,10 @@ constexpr void Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__set_m_
 constexpr Org::BouncyCastle::Math::EC::ECPointMap Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__get_m_pointMap() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECPointMap, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::GlvTypeBEndomorphism(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters parameters)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlvTypeBEndomorphism>(curve, parameters))) {}
+ Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters parameters)  {
+Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism>(curve, parameters))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism>::get(),

@@ -37,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Threading::ThreadAbortException::ThreadAbortException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ThreadAbortException>())) {}
+ System::Threading::ThreadAbortException System::Threading::ThreadAbortException::New_ctor()  {
+System::Threading::ThreadAbortException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ThreadAbortException>())};
+return o;
+}
  void System::Threading::ThreadAbortException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ThreadAbortException>::get(),
@@ -48,8 +50,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Threading::ThreadAbortException::ThreadAbortException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<ThreadAbortException>(info, context))) {}
+ System::Threading::ThreadAbortException System::Threading::ThreadAbortException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Threading::ThreadAbortException o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ThreadAbortException>(info, context))};
+return o;
+}
  void System::Threading::ThreadAbortException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ThreadAbortException>::get(),

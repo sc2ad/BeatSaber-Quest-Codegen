@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__ScriptPlayableBinding_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 //  Writing Method size for method: UnityEngine::Playables::ScriptPlayableBinding.Create

@@ -4,13 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::TextCore {
-struct GlyphClassDefinitionType;
+struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
 struct GlyphRect;
 }
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphClassDefinitionType;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {

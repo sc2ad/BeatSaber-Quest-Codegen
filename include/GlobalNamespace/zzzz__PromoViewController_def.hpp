@@ -3,27 +3,33 @@
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
-}
-namespace GlobalNamespace {
-class BeatmapLevelPackSO;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class PreviewBeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
+class BeatmapLevelPackSO;
+}
+namespace GlobalNamespace {
 class BeatmapLevelSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PromoViewController__ButtonPromoTypePair;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace System {
 template<typename T1,typename T2,typename T3>
 class Action_3;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class GlobalNamespace__PromoViewController____c__DisplayClass5_0;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +124,7 @@ constexpr GlobalNamespace::IAnnotatedBeatmapLevelCollection __get__annotatedBeat
 /// @brief Method get_annotatedBeatmapLevelCollection addr 0x217ec7c size 0xb0 virtual false final false
  GlobalNamespace::IAnnotatedBeatmapLevelCollection get_annotatedBeatmapLevelCollection() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__PromoViewController__ButtonPromoTypePair() ;
+static GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair New_ctor() ;
 
 /// @brief Method .ctor addr 0x217ed2c size 0x8 virtual false final false
  void _ctor() ;
@@ -185,8 +190,7 @@ constexpr GlobalNamespace::PromoViewController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PromoViewController____c__DisplayClass5_0() ;
+static GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x217ec6c size 0x8 virtual false final false
  void _ctor() ;
@@ -268,8 +272,7 @@ constexpr System::Action_3<GlobalNamespace::PromoViewController,GlobalNamespace:
 /// @brief Method DidActivate addr 0x217eb34 size 0x138 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit PromoViewController() ;
+static GlobalNamespace::PromoViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217ec74 size 0x8 virtual false final false
  void _ctor() ;

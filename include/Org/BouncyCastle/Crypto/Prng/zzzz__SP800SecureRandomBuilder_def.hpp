@@ -3,12 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Prng::Drbg {
-class ISP80090Drbg;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class IDrbgProvider;
 }
@@ -16,16 +10,31 @@ namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
 }
 namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Prng::Drbg {
+class ISP80090Drbg;
+}
+namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto::Prng {
 class SP800SecureRandom;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Prng {
+class Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider;
+}
+namespace Org::BouncyCastle::Crypto::Prng {
+class Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
@@ -115,8 +124,7 @@ constexpr int32_t __get_mSecurityStrength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider(Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
+static Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HashDrbgProvider New_ctor(Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
 
 /// @brief Method .ctor addr 0xeb6530 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
@@ -200,8 +208,7 @@ constexpr int32_t __get_mSecurityStrength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hMac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider(Org::BouncyCastle::Crypto::IMac hMac, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
+static Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__HMacDrbgProvider New_ctor(Org::BouncyCastle::Crypto::IMac hMac, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
 
 /// @brief Method .ctor addr 0xeb6888 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac hMac, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
@@ -291,8 +298,7 @@ constexpr int32_t __get_mSecurityStrength() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "blockCipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "keySizeInBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "personalizationString", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "securityStrength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider(Org::BouncyCastle::Crypto::IBlockCipher blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
+static Org::BouncyCastle::Crypto::Prng::Org__BouncyCastle__Crypto__Prng__SP800SecureRandomBuilder__CtrDrbgProvider New_ctor(Org::BouncyCastle::Crypto::IBlockCipher blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
 
 /// @brief Method .ctor addr 0xeb66dc size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher blockCipher, int32_t keySizeInBits, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> personalizationString, int32_t securityStrength) ;
@@ -385,20 +391,17 @@ constexpr int32_t __get_mEntropyBitsRequired() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SP800SecureRandomBuilder() ;
+static Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb6290 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "entropySource", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "predictionResistant", ty: "bool", modifiers: "", def_value: None }]
-explicit SP800SecureRandomBuilder(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
+static Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder New_ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
 
 /// @brief Method .ctor addr 0xeb62f4 size 0x98 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom entropySource, bool predictionResistant) ;
 
-// Ctor Parameters [CppParam { name: "entropySourceProvider", ty: "Org::BouncyCastle::Crypto::IEntropySourceProvider", modifiers: "", def_value: None }]
-explicit SP800SecureRandomBuilder(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
+static Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder New_ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;
 
 /// @brief Method .ctor addr 0xeb638c size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IEntropySourceProvider entropySourceProvider) ;

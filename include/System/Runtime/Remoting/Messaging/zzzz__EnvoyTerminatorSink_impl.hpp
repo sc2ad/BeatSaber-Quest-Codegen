@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__EnvoyTerminatorSink_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::EnvoyTerminatorSink.SyncProcessMessage
 template<>
 
@@ -82,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Runtime::Remoting::Messaging::IMessageCtrl, false>(const_cast<void*>(instance), ___internal_method, msg, replySink);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::EnvoyTerminatorSink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EnvoyTerminatorSink>())) {}
+ System::Runtime::Remoting::Messaging::EnvoyTerminatorSink System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::New_ctor()  {
+System::Runtime::Remoting::Messaging::EnvoyTerminatorSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::EnvoyTerminatorSink>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::EnvoyTerminatorSink>::get(),

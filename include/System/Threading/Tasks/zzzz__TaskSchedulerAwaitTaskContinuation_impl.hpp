@@ -2,9 +2,10 @@
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskSchedulerAwaitTaskContinuation_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskSchedulerAwaitTaskContinuation_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c._ctor
 template<>
 
@@ -51,8 +52,10 @@ return ::cordl_internals::getStaticField<System::Threading::Tasks::System__Threa
  System::Action_1<::bs_hook::Il2CppWrapperType> System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c::__get___9__2_0()  {
 return ::cordl_internals::getStaticField<System::Action_1<::bs_hook::Il2CppWrapperType>, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c>::get>();
 }
-// Ctor Parameters []
- System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c>())) {}
+ System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c::New_ctor()  {
+System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c>())};
+return o;
+}
  void System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::System__Threading__Tasks__TaskSchedulerAwaitTaskContinuation____c>::get(),
@@ -111,8 +114,10 @@ constexpr void System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::__s
 constexpr System::Threading::Tasks::TaskScheduler System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::__get_m_scheduler() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskScheduler, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }, CppParam { name: "action", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "flowExecutionContext", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::TaskSchedulerAwaitTaskContinuation(System::Threading::Tasks::TaskScheduler scheduler, System::Action action, bool flowExecutionContext)  : System::Threading::Tasks::AwaitTaskContinuation(THROW_UNLESS(::il2cpp_utils::New<TaskSchedulerAwaitTaskContinuation>(scheduler, action, flowExecutionContext))) {}
+ System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::New_ctor(System::Threading::Tasks::TaskScheduler scheduler, System::Action action, bool flowExecutionContext)  {
+System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation>(scheduler, action, flowExecutionContext))};
+return o;
+}
  void System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::_ctor(System::Threading::Tasks::TaskScheduler scheduler, System::Action action, bool flowExecutionContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation>::get(),

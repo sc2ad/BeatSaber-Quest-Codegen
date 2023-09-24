@@ -2,12 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarAnalytics_def.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__EditAvatarFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EditAvatarAnalytics.Awake
 template<>
 
@@ -211,8 +209,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::Dictionary_2<::StringW,::StringW>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EditAvatarAnalytics::EditAvatarAnalytics()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EditAvatarAnalytics>())) {}
+ GlobalNamespace::EditAvatarAnalytics GlobalNamespace::EditAvatarAnalytics::New_ctor()  {
+GlobalNamespace::EditAvatarAnalytics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EditAvatarAnalytics>())};
+return o;
+}
  void GlobalNamespace::EditAvatarAnalytics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EditAvatarAnalytics>::get(),

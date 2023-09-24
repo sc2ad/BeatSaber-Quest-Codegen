@@ -77,8 +77,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_m_Corners() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NavMeshPath() ;
+static UnityEngine::AI::NavMeshPath New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b077f0 size 0x48 virtual false final false
  void _ctor() ;

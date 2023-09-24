@@ -4,51 +4,51 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class UnityXRController;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__UnityXRController__Configuration;
-}
-namespace UnityEngine::XR {
-struct XRNode;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::InputSystem::XR {
-class XRControllerWithRumble;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Pose;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-struct EulerPose;
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__UnityXRController__Configuration;
+}
+namespace GlobalNamespace {
+class UnityXRController;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
 struct VRPlatformSDK;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace GlobalNamespace {
+struct EulerPose;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+namespace UnityEngine::XR {
+struct XRNode;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::XR {
+class XRControllerWithRumble;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -302,8 +302,7 @@ static constexpr float_t  kRumbleMinimalDuration{0.05};
 /// @brief Method OnDestroy addr 0x1f8a1cc size 0xa4 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit PSVR2Helper() ;
+static GlobalNamespace::PSVR2Helper New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8a270 size 0x74 virtual false final false
  void _ctor() ;

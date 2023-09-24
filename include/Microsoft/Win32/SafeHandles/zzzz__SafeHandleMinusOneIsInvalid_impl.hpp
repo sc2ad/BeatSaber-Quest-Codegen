@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Micro
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
- Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::SafeHandleMinusOneIsInvalid(bool ownsHandle)  : System::Runtime::InteropServices::SafeHandle(THROW_UNLESS(::il2cpp_utils::New<SafeHandleMinusOneIsInvalid>(ownsHandle))) {}
+ Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::New_ctor(bool ownsHandle)  {
+Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid o{THROW_UNLESS(::il2cpp_utils::New<Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid>(ownsHandle))};
+return o;
+}
  void Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::_ctor(bool ownsHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid>::get(),

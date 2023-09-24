@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
+#include "GlobalNamespace/zzzz__OVRBoundary_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNativeBuffer_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRBoundary__Node::GlobalNamespace__OVRBoundary__Node(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -281,8 +282,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRBoundary::OVRBoundary()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRBoundary>())) {}
+ GlobalNamespace::OVRBoundary GlobalNamespace::OVRBoundary::New_ctor()  {
+GlobalNamespace::OVRBoundary o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRBoundary>())};
+return o;
+}
  void GlobalNamespace::OVRBoundary::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRBoundary>::get(),

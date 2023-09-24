@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: Unity::Profiling::Unity__Profiling__ProfilerMarker__AutoScope._ctor
 template<>

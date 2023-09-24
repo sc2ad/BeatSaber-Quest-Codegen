@@ -3,13 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerBoolean;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class MessageImprint;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -17,11 +20,8 @@ class DerInteger;
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
 }
-namespace Org::BouncyCastle::Asn1::Tsp {
-class MessageImprint;
-}
 namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {
@@ -126,14 +126,12 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const
 /// @brief Method GetInstance addr 0xfec03c size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Tsp::TimeStampReq GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TimeStampReq(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Tsp::TimeStampReq New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xfec0e0 size 0x344 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "messageImprint", ty: "Org::BouncyCastle::Asn1::Tsp::MessageImprint", modifiers: "", def_value: None }, CppParam { name: "tsaPolicy", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "nonce", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "certReq", ty: "Org::BouncyCastle::Asn1::DerBoolean", modifiers: "", def_value: None }, CppParam { name: "extensions", ty: "Org::BouncyCastle::Asn1::X509::X509Extensions", modifiers: "", def_value: None }]
-explicit TimeStampReq(Org::BouncyCastle::Asn1::Tsp::MessageImprint messageImprint, Org::BouncyCastle::Asn1::DerObjectIdentifier tsaPolicy, Org::BouncyCastle::Asn1::DerInteger nonce, Org::BouncyCastle::Asn1::DerBoolean certReq, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
+static Org::BouncyCastle::Asn1::Tsp::TimeStampReq New_ctor(Org::BouncyCastle::Asn1::Tsp::MessageImprint messageImprint, Org::BouncyCastle::Asn1::DerObjectIdentifier tsaPolicy, Org::BouncyCastle::Asn1::DerInteger nonce, Org::BouncyCastle::Asn1::DerBoolean certReq, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;
 
 /// @brief Method .ctor addr 0xfec424 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Tsp::MessageImprint messageImprint, Org::BouncyCastle::Asn1::DerObjectIdentifier tsaPolicy, Org::BouncyCastle::Asn1::DerInteger nonce, Org::BouncyCastle::Asn1::DerBoolean certReq, Org::BouncyCastle::Asn1::X509::X509Extensions extensions) ;

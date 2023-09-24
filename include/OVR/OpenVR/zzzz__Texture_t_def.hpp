@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct EColorSpace;
+struct ETextureType;
 }
 namespace OVR::OpenVR {
-struct ETextureType;
+struct EColorSpace;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

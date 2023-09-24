@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cmp::CmpCertificate._ctor
@@ -140,8 +140,10 @@ constexpr void Org::BouncyCastle::Asn1::Cmp::CmpCertificate::__set_x509v2AttrCer
 constexpr Org::BouncyCastle::Asn1::X509::AttributeCertificate Org::BouncyCastle::Asn1::Cmp::CmpCertificate::__get_x509v2AttrCert() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::X509::AttributeCertificate, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x509v2AttrCert", ty: "Org::BouncyCastle::Asn1::X509::AttributeCertificate", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::CmpCertificate::CmpCertificate(Org::BouncyCastle::Asn1::X509::AttributeCertificate x509v2AttrCert)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CmpCertificate>(x509v2AttrCert))) {}
+ Org::BouncyCastle::Asn1::Cmp::CmpCertificate Org::BouncyCastle::Asn1::Cmp::CmpCertificate::New_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate x509v2AttrCert)  {
+Org::BouncyCastle::Asn1::Cmp::CmpCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>(x509v2AttrCert))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::CmpCertificate::_ctor(Org::BouncyCastle::Asn1::X509::AttributeCertificate x509v2AttrCert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>::get(),
@@ -151,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, x509v2AttrCert);
 }
-// Ctor Parameters [CppParam { name: "x509v3PKCert", ty: "Org::BouncyCastle::Asn1::X509::X509CertificateStructure", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cmp::CmpCertificate::CmpCertificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure x509v3PKCert)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<CmpCertificate>(x509v3PKCert))) {}
+ Org::BouncyCastle::Asn1::Cmp::CmpCertificate Org::BouncyCastle::Asn1::Cmp::CmpCertificate::New_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure x509v3PKCert)  {
+Org::BouncyCastle::Asn1::Cmp::CmpCertificate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>(x509v3PKCert))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::CmpCertificate::_ctor(Org::BouncyCastle::Asn1::X509::X509CertificateStructure x509v3PKCert)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>::get(),

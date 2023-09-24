@@ -1,10 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRenderDataSO_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePassRenderDataSO_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data._ctor
 template<>
 
@@ -58,8 +59,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data:
 constexpr GlobalNamespace::ToneMapping GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data::__get_toneMapping() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ToneMapping, 0xa4>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data::GlobalNamespace__BloomPrePassRenderDataSO__Data()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BloomPrePassRenderDataSO__Data>())) {}
+ GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data>::get(),
@@ -92,8 +95,10 @@ constexpr void GlobalNamespace::BloomPrePassRenderDataSO::__set_data(GlobalNames
 constexpr GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data GlobalNamespace::BloomPrePassRenderDataSO::__get_data() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__BloomPrePassRenderDataSO__Data, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassRenderDataSO::BloomPrePassRenderDataSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassRenderDataSO>())) {}
+ GlobalNamespace::BloomPrePassRenderDataSO GlobalNamespace::BloomPrePassRenderDataSO::New_ctor()  {
+GlobalNamespace::BloomPrePassRenderDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassRenderDataSO>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassRenderDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassRenderDataSO>::get(),

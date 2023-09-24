@@ -64,8 +64,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AdvancedAbuseReportOptions() ;
+static Oculus::Platform::AdvancedAbuseReportOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2552464 size 0x64 virtual false final false
  void _ctor() ;

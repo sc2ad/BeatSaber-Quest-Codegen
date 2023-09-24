@@ -2,11 +2,12 @@
 #include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits.Init
 template<>
 
@@ -56,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits::UnityEngine__UIElements__TextField__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__UxmlTraits<::StringW>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TextField__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits>::get(),
@@ -256,8 +259,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::TextField::TextField()  : UnityEngine::UIElements::TextInputBaseField_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<TextField>())) {}
+ UnityEngine::UIElements::TextField UnityEngine::UIElements::TextField::New_ctor()  {
+UnityEngine::UIElements::TextField o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TextField>())};
+return o;
+}
  void UnityEngine::UIElements::TextField::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TextField>::get(),
@@ -267,8 +272,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::UIElements::TextField::TextField(::StringW label)  : UnityEngine::UIElements::TextInputBaseField_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<TextField>(label))) {}
+ UnityEngine::UIElements::TextField UnityEngine::UIElements::TextField::New_ctor(::StringW label)  {
+UnityEngine::UIElements::TextField o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TextField>(label))};
+return o;
+}
  void UnityEngine::UIElements::TextField::_ctor(::StringW label)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TextField>::get(),
@@ -278,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, label);
 }
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maxLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "multiline", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPasswordField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maskChar", ty: "char16_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::TextField::TextField(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar)  : UnityEngine::UIElements::TextInputBaseField_1<::StringW>(THROW_UNLESS(::il2cpp_utils::New<TextField>(label, maxLength, multiline, isPasswordField, maskChar))) {}
+ UnityEngine::UIElements::TextField UnityEngine::UIElements::TextField::New_ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar)  {
+UnityEngine::UIElements::TextField o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TextField>(label, maxLength, multiline, isPasswordField, maskChar))};
+return o;
+}
  void UnityEngine::UIElements::TextField::_ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TextField>::get(),
@@ -342,8 +351,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory::UnityEngine__UIElements__TextField__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TextField,UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TextField__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TextField__UxmlFactory>::get(),
@@ -610,8 +621,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, evt);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput::UnityEngine__UIElements__TextField__TextInput()  : UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<::StringW>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__TextField__TextInput>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__TextField__TextInput>::get(),

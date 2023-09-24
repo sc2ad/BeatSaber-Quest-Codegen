@@ -4,23 +4,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml {
-struct LineInfo;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System {
-class Uri;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class IDtdEntityInfo;
 }
 namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlNameTable;
+}
+namespace System::Xml {
+struct LineInfo;
+}
+namespace System {
+class Uri;
 }
 namespace System {
 class Exception;

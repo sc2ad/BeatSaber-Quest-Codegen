@@ -75,8 +75,10 @@ constexpr void System::Xml::ByteStack::__set_size(int32_t value)  {
 constexpr int32_t System::Xml::ByteStack::__get_size() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "growthRate", ty: "int32_t", modifiers: "", def_value: None }]
- System::Xml::ByteStack::ByteStack(int32_t growthRate)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ByteStack>(growthRate))) {}
+ System::Xml::ByteStack System::Xml::ByteStack::New_ctor(int32_t growthRate)  {
+System::Xml::ByteStack o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::ByteStack>(growthRate))};
+return o;
+}
  void System::Xml::ByteStack::_ctor(int32_t growthRate)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::ByteStack>::get(),

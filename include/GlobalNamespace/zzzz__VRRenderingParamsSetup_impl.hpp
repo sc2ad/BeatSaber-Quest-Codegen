@@ -2,9 +2,10 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRRenderingParamsSetup_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
+#include "GlobalNamespace/zzzz__VRRenderingParamsSetup_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__VRRenderingParamsSetup__SceneType::GlobalNamespace__VRRenderingParamsSetup__SceneType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -90,8 +91,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::VRRenderingParamsSetup::VRRenderingParamsSetup()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRRenderingParamsSetup>())) {}
+ GlobalNamespace::VRRenderingParamsSetup GlobalNamespace::VRRenderingParamsSetup::New_ctor()  {
+GlobalNamespace::VRRenderingParamsSetup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VRRenderingParamsSetup>())};
+return o;
+}
  void GlobalNamespace::VRRenderingParamsSetup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VRRenderingParamsSetup>::get(),

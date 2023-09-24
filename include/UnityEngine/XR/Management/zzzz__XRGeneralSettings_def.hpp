@@ -152,8 +152,7 @@ static void AttemptStartXRSDKOnBeforeSplashScreen() ;
 /// @brief Method DeInitXRSDK addr 0x2adcf58 size 0xb0 virtual false final false
  void DeInitXRSDK() ;
 
-// Ctor Parameters []
-explicit XRGeneralSettings() ;
+static UnityEngine::XR::Management::XRGeneralSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2adda84 size 0x10 virtual false final false
  void _ctor() ;

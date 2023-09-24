@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMac;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
@@ -164,8 +164,7 @@ static void UpdateMac(Org::BouncyCastle::Crypto::IMac mac, ::ArrayW<uint8_t> byt
 /// @brief Method IntToByteArray addr 0x118b2a8 size 0x8 virtual false final false
 static ::ArrayW<uint8_t> IntToByteArray(int32_t value) ;
 
-// Ctor Parameters []
-explicit JPakeUtilities() ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x118b434 size 0x8 virtual false final false
  void _ctor() ;

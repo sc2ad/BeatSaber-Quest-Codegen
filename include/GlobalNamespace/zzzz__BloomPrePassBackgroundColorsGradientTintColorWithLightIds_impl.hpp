@@ -52,8 +52,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::BloomPrePassBackgroundColorsGradientTintColorWithLightIds()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientTintColorWithLightIds>())) {}
+ GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds>::get(),

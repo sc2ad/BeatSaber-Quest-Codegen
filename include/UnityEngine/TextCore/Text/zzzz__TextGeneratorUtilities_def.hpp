@@ -6,36 +6,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine::TextCore::Text {
-class TextStyle;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
+class TextGenerationSettings;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct FontStyles;
+struct TextAlignment;
 }
 namespace UnityEngine::TextCore::Text {
 template<typename T>
 struct TextProcessingStack_1;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
+class TextStyle;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct TextAnchor;
+}
+namespace UnityEngine::TextCore::Text {
+struct FontStyles;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {

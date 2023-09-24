@@ -3,6 +3,12 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -10,12 +16,6 @@ class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -91,14 +91,12 @@ static Org::BouncyCastle::Asn1::Ocsp::ResponseBytes GetInstance(Org::BouncyCastl
 /// @brief Method GetInstance addr 0xef48a4 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::ResponseBytes GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "responseType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "response", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit ResponseBytes(Org::BouncyCastle::Asn1::DerObjectIdentifier responseType, Org::BouncyCastle::Asn1::Asn1OctetString response) ;
+static Org::BouncyCastle::Asn1::Ocsp::ResponseBytes New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier responseType, Org::BouncyCastle::Asn1::Asn1OctetString response) ;
 
 /// @brief Method .ctor addr 0xef4b5c size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier responseType, Org::BouncyCastle::Asn1::Asn1OctetString response) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ResponseBytes(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ocsp::ResponseBytes New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xef4a2c size 0x130 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

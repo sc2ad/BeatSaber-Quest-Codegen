@@ -8,7 +8,7 @@ namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonWriter;
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
@@ -17,7 +17,7 @@ namespace Newtonsoft::Json::Utilities {
 class ReflectionObject;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonWriter;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -98,8 +98,7 @@ constexpr Newtonsoft::Json::Utilities::ReflectionObject __get__reflectionObject(
 /// @brief Method CanConvert addr 0x253b6c4 size 0x4c virtual true final false
  bool CanConvert(System::Type objectType) ;
 
-// Ctor Parameters []
-explicit BinaryConverter() ;
+static Newtonsoft::Json::Converters::BinaryConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253b710 size 0x8 virtual false final false
  void _ctor() ;

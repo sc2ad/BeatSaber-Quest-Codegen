@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace OVRSimpleJSON {
-struct OVRSimpleJSON__JSONNode__Enumerator;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVRSimpleJSON {
+struct OVRSimpleJSON__JSONNode__Enumerator;
 }
 namespace OVRSimpleJSON {
 struct JSONNodeType;
@@ -91,8 +91,7 @@ static bool __get_reuseSameInstance() ;
 /// @brief Method CreateOrGet addr 0x263e744 size 0x94 virtual false final false
 static OVRSimpleJSON::JSONNull CreateOrGet() ;
 
-// Ctor Parameters []
-explicit JSONNull() ;
+static OVRSimpleJSON::JSONNull New_ctor() ;
 
 /// @brief Method .ctor addr 0x2640adc size 0x8 virtual false final false
  void _ctor() ;

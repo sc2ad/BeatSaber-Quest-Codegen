@@ -4,11 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Exception;
+namespace System::Xml::Schema {
+struct System__Xml__Schema__XsdDuration__Parts;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__XsdDuration__DurationType;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -74,6 +80,8 @@ __HasSeconds = 32,
 constexpr operator __System__Xml__Schema__XsdDuration__Parts_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__XsdDuration__Parts_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -159,6 +167,8 @@ __DayTimeDuration = 2,
 constexpr operator __System__Xml__Schema__XsdDuration__DurationType_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__XsdDuration__DurationType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

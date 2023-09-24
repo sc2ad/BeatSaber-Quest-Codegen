@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Sensor::Sensor()  : UnityEngine::InputSystem::InputDevice(THROW_UNLESS(::il2cpp_utils::New<Sensor>())) {}
+ UnityEngine::InputSystem::Sensor UnityEngine::InputSystem::Sensor::New_ctor()  {
+UnityEngine::InputSystem::Sensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Sensor>())};
+return o;
+}
  void UnityEngine::InputSystem::Sensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Sensor>::get(),

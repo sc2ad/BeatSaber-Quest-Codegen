@@ -145,8 +145,7 @@ static int32_t SubPFrom(::ArrayW<uint32_t> z) ;
 /// @brief Method SubPExtFrom addr 0xf402a0 size 0x168 virtual false final false
 static int32_t SubPExtFrom(::ArrayW<uint32_t> zz) ;
 
-// Ctor Parameters []
-explicit Curve25519Field() ;
+static Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field New_ctor() ;
 
 /// @brief Method .ctor addr 0xf412c4 size 0x8 virtual false final false
  void _ctor() ;

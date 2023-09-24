@@ -18,26 +18,38 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Collections::Generic {
+namespace UnityEngine::UIElements {
 template<typename T>
-class IEnumerator_1;
+class UnityEngine__UIElements__UQueryState_1__ActionQueryMatcher;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UIElements {
-class UnityEngine__UIElements__UQuery__SingleQueryMatcher;
+namespace System {
+template<typename T>
+class IEquatable_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
+namespace UnityEngine::UIElements {
 template<typename T>
-class IEquatable_1;
+struct UnityEngine__UIElements__UQueryState_1__Enumerator;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UQuery__SingleQueryMatcher;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
+namespace UnityEngine::UIElements {
+template<typename T,typename TElement>
+class UnityEngine__UIElements__UQueryState_1__ListQueryMatcher_1;
 }
 namespace System {
 class IDisposable;
@@ -149,8 +161,7 @@ constexpr System::Collections::Generic::List_1<TElement> __get__matches_k__Backi
 /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQueryState_1__ListQueryMatcher_1() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UQueryState_1__ListQueryMatcher_1<T,TElement> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -164,7 +175,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7010)), TypeDefinitionIndex(TypeDefinitionIndex(7015))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7015)), TypeDefinitionIndex(TypeDefinitionIndex(7010))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7015), inst: 2 })
 // CS Name: UnityEngine.UIElements.UQueryState`1::ActionQueryMatcher
 class CORDL_TYPE UnityEngine__UIElements__UQueryState_1__ActionQueryMatcher<T> : public UnityEngine::UIElements::UnityEngine__UIElements__UQuery__UQueryMatcher {
@@ -223,8 +234,7 @@ constexpr System::Action_1<T> __get__callBack_k__BackingField() const;
 /// @brief Method OnRuleMatchedElement addr 0x0 size 0xffffffffffffffff virtual true final false
  bool OnRuleMatchedElement(UnityEngine::UIElements::RuleMatcher matcher, UnityEngine::UIElements::VisualElement element) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UQueryState_1__ActionQueryMatcher() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UQueryState_1__ActionQueryMatcher<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -238,7 +248,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7016)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(7016))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7016), inst: 2 })
 // CS Name: UnityEngine.UIElements.UQueryState`1::Enumerator
 struct CORDL_TYPE UnityEngine__UIElements__UQueryState_1__Enumerator<T> : public ::bs_hook::ValueTypeWrapper {
@@ -336,7 +346,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7017)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(7017))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7017), inst: 2 })
 // CS Name: UnityEngine.UIElements.UQueryState`1
 struct CORDL_TYPE UQueryState_1<T> : public ::bs_hook::ValueTypeWrapper {

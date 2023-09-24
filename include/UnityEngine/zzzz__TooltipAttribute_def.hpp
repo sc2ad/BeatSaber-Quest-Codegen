@@ -57,8 +57,7 @@ constexpr ::StringW __get_tooltip() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tooltip", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TooltipAttribute(::StringW tooltip) ;
+static UnityEngine::TooltipAttribute New_ctor(::StringW tooltip) ;
 
 /// @brief Method .ctor addr 0x2b54e0c size 0x28 virtual false final false
  void _ctor(::StringW tooltip) ;

@@ -1,21 +1,21 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/Compression/zzzz__GZipStream_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
 #include "System/IO/Compression/zzzz__DeflateStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/Compression/zzzz__CompressionMode_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 //  Writing Method size for method: System::IO::Compression::GZipStream._ctor
 template<>
 
@@ -515,8 +515,10 @@ constexpr void System::IO::Compression::GZipStream::__set__deflateStream(System:
 constexpr System::IO::Compression::DeflateStream System::IO::Compression::GZipStream::__get__deflateStream() const {
 return ::cordl_internals::getInstanceField<System::IO::Compression::DeflateStream, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }]
- System::IO::Compression::GZipStream::GZipStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<GZipStream>(stream, mode))) {}
+ System::IO::Compression::GZipStream System::IO::Compression::GZipStream::New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode)  {
+System::IO::Compression::GZipStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::GZipStream>(stream, mode))};
+return o;
+}
  void System::IO::Compression::GZipStream::_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::GZipStream>::get(),
@@ -526,8 +528,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, mode);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::IO::Compression::GZipStream::GZipStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<GZipStream>(stream, mode, leaveOpen))) {}
+ System::IO::Compression::GZipStream System::IO::Compression::GZipStream::New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen)  {
+System::IO::Compression::GZipStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::Compression::GZipStream>(stream, mode, leaveOpen))};
+return o;
+}
  void System::IO::Compression::GZipStream::_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::Compression::GZipStream>::get(),

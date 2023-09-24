@@ -62,8 +62,7 @@ constexpr UnityEngine::Transform __get__targetTransform() const;
 /// @brief Method SetProperty addr 0x1fa26e0 size 0xb4 virtual true final false
  void SetProperty() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockPositionUpdater() ;
+static GlobalNamespace::MaterialPropertyBlockPositionUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2794 size 0x8 virtual false final false
  void _ctor() ;

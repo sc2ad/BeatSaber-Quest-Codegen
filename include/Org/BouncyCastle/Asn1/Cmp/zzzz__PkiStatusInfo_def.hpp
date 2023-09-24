@@ -3,29 +3,29 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFreeText;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFailureInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFreeText;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class DerBitString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -109,26 +109,22 @@ static Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo GetInstance(Org::BouncyCastle
 /// @brief Method GetInstance addr 0xdd8800 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PkiStatusInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde0484 size 0x178 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "status", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PkiStatusInfo(int32_t status) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo New_ctor(int32_t status) ;
 
 /// @brief Method .ctor addr 0xde05fc size 0x7c virtual false final false
  void _ctor(int32_t status) ;
 
-// Ctor Parameters [CppParam { name: "status", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "statusString", ty: "Org::BouncyCastle::Asn1::Cmp::PkiFreeText", modifiers: "", def_value: None }]
-explicit PkiStatusInfo(int32_t status, Org::BouncyCastle::Asn1::Cmp::PkiFreeText statusString) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo New_ctor(int32_t status, Org::BouncyCastle::Asn1::Cmp::PkiFreeText statusString) ;
 
 /// @brief Method .ctor addr 0xde0678 size 0x80 virtual false final false
  void _ctor(int32_t status, Org::BouncyCastle::Asn1::Cmp::PkiFreeText statusString) ;
 
-// Ctor Parameters [CppParam { name: "status", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "statusString", ty: "Org::BouncyCastle::Asn1::Cmp::PkiFreeText", modifiers: "", def_value: None }, CppParam { name: "failInfo", ty: "Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo", modifiers: "", def_value: None }]
-explicit PkiStatusInfo(int32_t status, Org::BouncyCastle::Asn1::Cmp::PkiFreeText statusString, Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo failInfo) ;
+static Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo New_ctor(int32_t status, Org::BouncyCastle::Asn1::Cmp::PkiFreeText statusString, Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo failInfo) ;
 
 /// @brief Method .ctor addr 0xde06f8 size 0x90 virtual false final false
  void _ctor(int32_t status, Org::BouncyCastle::Asn1::Cmp::PkiFreeText statusString, Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo failInfo) ;

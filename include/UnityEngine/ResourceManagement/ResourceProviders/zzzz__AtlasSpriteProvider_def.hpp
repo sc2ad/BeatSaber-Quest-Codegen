@@ -53,8 +53,7 @@ constexpr explicit AtlasSpriteProvider(void* ptr) noexcept : UnityEngine::Resour
 /// @brief Method Provide addr 0x2a3e1b8 size 0x34c virtual true final false
  void Provide(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface) ;
 
-// Ctor Parameters []
-explicit AtlasSpriteProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3e504 size 0x8 virtual false final false
  void _ctor() ;

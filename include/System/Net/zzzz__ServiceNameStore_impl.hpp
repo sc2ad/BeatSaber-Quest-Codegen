@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Net/zzzz__ServiceNameStore_def.hpp"
-#include "System/Security/Authentication/ExtendedProtection/zzzz__ServiceNameCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Security/Authentication/ExtendedProtection/zzzz__ServiceNameCollection_def.hpp"
 //  Writing Method size for method: System::Net::ServiceNameStore._ctor
 template<>
 
@@ -31,8 +31,10 @@ constexpr void System::Net::ServiceNameStore::__set_serviceNameCollection(System
 constexpr System::Security::Authentication::ExtendedProtection::ServiceNameCollection System::Net::ServiceNameStore::__get_serviceNameCollection() const {
 return ::cordl_internals::getInstanceField<System::Security::Authentication::ExtendedProtection::ServiceNameCollection, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::ServiceNameStore::ServiceNameStore()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServiceNameStore>())) {}
+ System::Net::ServiceNameStore System::Net::ServiceNameStore::New_ctor()  {
+System::Net::ServiceNameStore o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ServiceNameStore>())};
+return o;
+}
  void System::Net::ServiceNameStore::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ServiceNameStore>::get(),

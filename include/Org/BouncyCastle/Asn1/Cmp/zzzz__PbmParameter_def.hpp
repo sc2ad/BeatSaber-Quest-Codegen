@@ -8,6 +8,9 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -15,9 +18,6 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -103,8 +103,7 @@ constexpr Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier __get_mac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PbmParameter(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::PbmParameter New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xddbadc size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -112,14 +111,12 @@ explicit PbmParameter(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xddbb88 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PbmParameter GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "owf", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit PbmParameter(::ArrayW<uint8_t> salt, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier owf, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier mac) ;
+static Org::BouncyCastle::Asn1::Cmp::PbmParameter New_ctor(::ArrayW<uint8_t> salt, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier owf, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier mac) ;
 
 /// @brief Method .ctor addr 0xddbd10 size 0xc4 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier owf, int32_t iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier mac) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "owf", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit PbmParameter(Org::BouncyCastle::Asn1::Asn1OctetString salt, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier owf, Org::BouncyCastle::Asn1::DerInteger iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier mac) ;
+static Org::BouncyCastle::Asn1::Cmp::PbmParameter New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString salt, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier owf, Org::BouncyCastle::Asn1::DerInteger iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier mac) ;
 
 /// @brief Method .ctor addr 0xddbdd4 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString salt, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier owf, Org::BouncyCastle::Asn1::DerInteger iterationCount, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier mac) ;

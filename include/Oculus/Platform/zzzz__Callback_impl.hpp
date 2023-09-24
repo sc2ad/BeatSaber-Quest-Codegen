@@ -1,13 +1,12 @@
 #pragma once
 #include "Oculus/Platform/zzzz__Callback_impl.hpp"
 #include "Oculus/Platform/zzzz__Callback_def.hpp"
-#include "Oculus/Platform/zzzz__Request_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Oculus/Platform/zzzz__Request_def.hpp"
+#include "Oculus/Platform/zzzz__Callback_def.hpp"
 //  Writing Method size for method: Oculus::Platform::Oculus__Platform__Callback__RequestCallback._ctor
 template<>
 
@@ -65,8 +64,10 @@ constexpr void Oculus::Platform::Oculus__Platform__Callback__RequestCallback::__
 constexpr Oculus::Platform::Oculus__Platform__Message__Callback Oculus::Platform::Oculus__Platform__Callback__RequestCallback::__get_messageCallback() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Oculus__Platform__Message__Callback, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::Oculus__Platform__Callback__RequestCallback::Oculus__Platform__Callback__RequestCallback()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__Callback__RequestCallback>())) {}
+ Oculus::Platform::Oculus__Platform__Callback__RequestCallback Oculus::Platform::Oculus__Platform__Callback__RequestCallback::New_ctor()  {
+Oculus::Platform::Oculus__Platform__Callback__RequestCallback o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__Callback__RequestCallback>())};
+return o;
+}
  void Oculus::Platform::Oculus__Platform__Callback__RequestCallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback>::get(),
@@ -76,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "Oculus::Platform::Oculus__Platform__Message__Callback", modifiers: "", def_value: None }]
- Oculus::Platform::Oculus__Platform__Callback__RequestCallback::Oculus__Platform__Callback__RequestCallback(Oculus::Platform::Oculus__Platform__Message__Callback callback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__Callback__RequestCallback>(callback))) {}
+ Oculus::Platform::Oculus__Platform__Callback__RequestCallback Oculus::Platform::Oculus__Platform__Callback__RequestCallback::New_ctor(Oculus::Platform::Oculus__Platform__Message__Callback callback)  {
+Oculus::Platform::Oculus__Platform__Callback__RequestCallback o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__Callback__RequestCallback>(callback))};
+return o;
+}
  void Oculus::Platform::Oculus__Platform__Callback__RequestCallback::_ctor(Oculus::Platform::Oculus__Platform__Message__Callback callback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback>::get(),
@@ -354,60 +357,28 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, msg);
 }
-//  Writing Method size for method: Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::*)(Oculus::Platform::Oculus__Platform__Message_1__Callback<T>)>(&Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::_ctor)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Oculus::Platform::Oculus__Platform__Message_1__Callback<T>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1.HandleMessage
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::*)(Oculus::Platform::Message)>(&Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::HandleMessage)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1>::get(),
-                                  4
-                                ));
-    return ___internal_method;
-  }
-};
-constexpr void Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::__set_callback(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> value)  {
+constexpr void Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>::__set_callback(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> value)  {
 ::cordl_internals::setInstanceField<Oculus::Platform::Oculus__Platform__Message_1__Callback<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<Oculus::Platform::Oculus__Platform__Message_1__Callback<T>>(value));
 }
-constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<T> Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::__get_callback() const {
+constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<T> Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>::__get_callback() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Oculus__Platform__Message_1__Callback<T>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "callback", ty: "Oculus::Platform::Oculus__Platform__Message_1__Callback<T>", modifiers: "", def_value: None }]
- Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::Oculus__Platform__Callback__RequestCallback_1(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback)  : Oculus::Platform::Oculus__Platform__Callback__RequestCallback(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__Callback__RequestCallback_1>(callback))) {}
- void Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::_ctor(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback)  {
+ Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T> Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>::New_ctor(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback)  {
+Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T> o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>>(callback))};
+return o;
+}
+ void Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>::_ctor(Oculus::Platform::Oculus__Platform__Message_1__Callback<T> callback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Oculus::Platform::Oculus__Platform__Message_1__Callback<T>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, callback);
 }
- void Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1::HandleMessage(Oculus::Platform::Message msg)  {
+ void Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>::HandleMessage(Oculus::Platform::Message msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1>::get(),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__Callback__RequestCallback_1<T>>::get(),
                             "HandleMessage",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<Oculus::Platform::Message>::get()}

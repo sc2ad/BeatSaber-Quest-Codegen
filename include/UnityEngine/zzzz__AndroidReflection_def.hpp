@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class GlobalJavaObjectRef;
+namespace System {
+class Exception;
 }
 namespace System {
 class Type;
 }
-namespace System {
-class Exception;
+namespace UnityEngine {
+class GlobalJavaObjectRef;
 }
 // Forward declare root types
 namespace UnityEngine {

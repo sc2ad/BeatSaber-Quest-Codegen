@@ -128,8 +128,7 @@ constexpr int32_t __get__width_k__BackingField() const;
 /// @brief Method set_width addr 0x227975c size 0x8 virtual false final false
  void set_width(int32_t value) ;
 
-// Ctor Parameters []
-explicit MockObstacleData() ;
+static GlobalNamespace::MockObstacleData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2279764 size 0x8 virtual false final false
  void _ctor() ;

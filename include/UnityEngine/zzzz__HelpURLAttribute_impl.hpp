@@ -36,8 +36,10 @@ constexpr void UnityEngine::HelpURLAttribute::__set_m_DispatchingFieldName(::Str
 constexpr ::StringW UnityEngine::HelpURLAttribute::__get_m_DispatchingFieldName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::HelpURLAttribute::HelpURLAttribute(::StringW url)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<HelpURLAttribute>(url))) {}
+ UnityEngine::HelpURLAttribute UnityEngine::HelpURLAttribute::New_ctor(::StringW url)  {
+UnityEngine::HelpURLAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::HelpURLAttribute>(url))};
+return o;
+}
  void UnityEngine::HelpURLAttribute::_ctor(::StringW url)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::HelpURLAttribute>::get(),

@@ -4,8 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IDictionary;
+}
 namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
+class LogicalCallContext;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
@@ -13,14 +16,11 @@ class IMethodMessage;
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
 namespace System::Reflection {
 class MethodBase;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -107,8 +107,7 @@ constexpr ::StringW __get__uri() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ErrorMessage() ;
+static System::Runtime::Remoting::Messaging::ErrorMessage New_ctor() ;
 
 /// @brief Method .ctor addr 0x2337170 size 0x50 virtual false final false
  void _ctor() ;

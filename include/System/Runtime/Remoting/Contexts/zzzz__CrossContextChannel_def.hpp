@@ -4,6 +4,9 @@
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
+namespace System::Runtime::Remoting::Contexts {
+class System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
@@ -86,8 +89,7 @@ constexpr System::Runtime::Remoting::Messaging::IMessage __get__call() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "next", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "call", ty: "System::Runtime::Remoting::Messaging::IMessage", modifiers: "", def_value: None }]
-explicit System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink(System::Runtime::Remoting::Messaging::IMessageSink next, System::Runtime::Remoting::Contexts::Context context, System::Runtime::Remoting::Messaging::IMessage call) ;
+static System::Runtime::Remoting::Contexts::System__Runtime__Remoting__Contexts__CrossContextChannel__ContextRestoreSink New_ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::Runtime::Remoting::Contexts::Context context, System::Runtime::Remoting::Messaging::IMessage call) ;
 
 /// @brief Method .ctor addr 0x2333500 size 0x3c virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMessageSink next, System::Runtime::Remoting::Contexts::Context context, System::Runtime::Remoting::Messaging::IMessage call) ;
@@ -155,8 +157,7 @@ constexpr explicit CrossContextChannel(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method AsyncProcessMessage addr 0x23330b4 size 0x44c virtual true final true
  System::Runtime::Remoting::Messaging::IMessageCtrl AsyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage msg, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
-// Ctor Parameters []
-explicit CrossContextChannel() ;
+static System::Runtime::Remoting::Contexts::CrossContextChannel New_ctor() ;
 
 /// @brief Method .ctor addr 0x233353c size 0x8 virtual false final false
  void _ctor() ;

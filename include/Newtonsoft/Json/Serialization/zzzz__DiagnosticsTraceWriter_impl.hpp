@@ -1,9 +1,9 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__DiagnosticsTraceWriter_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::DiagnosticsTraceWriter.get_LevelFilter
 template<>
 
@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, level, message, ex);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::DiagnosticsTraceWriter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DiagnosticsTraceWriter>())) {}
+ Newtonsoft::Json::Serialization::DiagnosticsTraceWriter Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::New_ctor()  {
+Newtonsoft::Json::Serialization::DiagnosticsTraceWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::DiagnosticsTraceWriter>())};
+return o;
+}
  void Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::DiagnosticsTraceWriter>::get(),

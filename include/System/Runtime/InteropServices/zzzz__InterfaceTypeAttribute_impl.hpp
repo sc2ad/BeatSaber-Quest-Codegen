@@ -25,8 +25,10 @@ constexpr void System::Runtime::InteropServices::InterfaceTypeAttribute::__set__
 constexpr System::Runtime::InteropServices::ComInterfaceType System::Runtime::InteropServices::InterfaceTypeAttribute::__get__val() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::ComInterfaceType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "interfaceType", ty: "System::Runtime::InteropServices::ComInterfaceType", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::InterfaceTypeAttribute::InterfaceTypeAttribute(System::Runtime::InteropServices::ComInterfaceType interfaceType)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<InterfaceTypeAttribute>(interfaceType))) {}
+ System::Runtime::InteropServices::InterfaceTypeAttribute System::Runtime::InteropServices::InterfaceTypeAttribute::New_ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType)  {
+System::Runtime::InteropServices::InterfaceTypeAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::InterfaceTypeAttribute>(interfaceType))};
+return o;
+}
  void System::Runtime::InteropServices::InterfaceTypeAttribute::_ctor(System::Runtime::InteropServices::ComInterfaceType interfaceType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::InterfaceTypeAttribute>::get(),

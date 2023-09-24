@@ -5,6 +5,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__TextFadeTransitions__State;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -68,6 +71,8 @@ __FadingIn = 2,
 constexpr operator __GlobalNamespace__TextFadeTransitions__State_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__TextFadeTransitions__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -189,8 +194,7 @@ constexpr float_t __get__fade() const;
 /// @brief Method ShowText addr 0x2108edc size 0x74 virtual false final false
  void ShowText(::StringW text) ;
 
-// Ctor Parameters []
-explicit TextFadeTransitions() ;
+static GlobalNamespace::TextFadeTransitions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2111f18 size 0x14 virtual false final false
  void _ctor() ;

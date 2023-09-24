@@ -9,6 +9,10 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace TMPro {
+template<typename T>
+class TMPro__TMP_ListPool_1____c;
+}
 // Forward declare root types
 namespace TMPro {
 template<typename T>
@@ -81,8 +85,7 @@ static TMPro::TMPro__TMP_ListPool_1____c<T> __get___9() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_ListPool_1____c() ;
+static TMPro::TMPro__TMP_ListPool_1____c<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

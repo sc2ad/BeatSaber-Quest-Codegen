@@ -111,8 +111,7 @@ constexpr bool __get__isElement() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SoapTypeAttribute() ;
+static System::Runtime::Remoting::Metadata::SoapTypeAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2339cf4 size 0x8 virtual false final false
  void _ctor() ;

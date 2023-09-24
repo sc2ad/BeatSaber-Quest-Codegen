@@ -151,8 +151,7 @@ static TMPro::TMP_Style get_NormalStyle() ;
 /// @brief Method get_styleClosingTagArray addr 0x2aad374 size 0x8 virtual false final false
  ::ArrayW<int32_t> get_styleClosingTagArray() ;
 
-// Ctor Parameters [CppParam { name: "styleName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "styleOpeningDefinition", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "styleClosingDefinition", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TMP_Style(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition) ;
+static TMPro::TMP_Style New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition) ;
 
 /// @brief Method .ctor addr 0x2aad270 size 0x90 virtual false final false
  void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition) ;

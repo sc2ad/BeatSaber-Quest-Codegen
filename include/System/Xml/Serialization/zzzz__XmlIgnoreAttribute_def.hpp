@@ -47,8 +47,7 @@ constexpr explicit XmlIgnoreAttribute(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlIgnoreAttribute() ;
+static System::Xml::Serialization::XmlIgnoreAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x27185e8 size 0x8 virtual false final false
  void _ctor() ;

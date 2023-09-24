@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Smime {
@@ -118,14 +118,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_parameters() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SmimeCapability(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Smime::SmimeCapability New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xfe7548 size 0x11c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "capabilityID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit SmimeCapability(Org::BouncyCastle::Asn1::DerObjectIdentifier capabilityID, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Smime::SmimeCapability New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier capabilityID, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xfe7664 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier capabilityID, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;

@@ -3,19 +3,19 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+struct BasicBeatmapEventType;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method ToggleObjects addr 0x22644ec size 0xc4 virtual false final false
  void ToggleObjects(bool isBoostOn) ;
 
-// Ctor Parameters []
-explicit MeshRendererSwitchEventEffect() ;
+static GlobalNamespace::MeshRendererSwitchEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x22645b0 size 0x8 virtual false final false
  void _ctor() ;

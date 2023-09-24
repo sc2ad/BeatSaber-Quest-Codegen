@@ -2,9 +2,9 @@
 #include "UnityEngine/ResourceManagement/Util/zzzz__AsyncOpHandlesCacheKey_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey._ctor
 template<>
 
@@ -104,8 +104,10 @@ constexpr void UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::__
 constexpr System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::__get_m_Handles() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::HashSet_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "handles", ty: "System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>", modifiers: "", def_value: None }]
- UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::AsyncOpHandlesCacheKey(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> handles)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncOpHandlesCacheKey>(handles))) {}
+ UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::New_ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> handles)  {
+UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey>(handles))};
+return o;
+}
  void UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::_ctor(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle> handles)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey>::get(),

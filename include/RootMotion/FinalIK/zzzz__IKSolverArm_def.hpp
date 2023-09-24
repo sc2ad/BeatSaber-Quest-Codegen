@@ -5,9 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class RootMotion__FinalIK__IKSolver__Point;
 }
@@ -19,6 +16,9 @@ class RootMotion__FinalIK__IKSolverVR__Arm;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -168,8 +168,7 @@ constexpr ::ArrayW<UnityEngine::Quaternion> __get_rotations() const;
 /// @brief Method Write addr 0x11d6810 size 0x178 virtual false final false
  void Write() ;
 
-// Ctor Parameters []
-explicit IKSolverArm() ;
+static RootMotion::FinalIK::IKSolverArm New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d6988 size 0x194 virtual false final false
  void _ctor() ;

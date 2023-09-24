@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Claims/zzzz__Claim_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: System::Security::Claims::Claim._ctor
 template<>
@@ -245,8 +245,10 @@ constexpr void System::Security::Claims::Claim::__set_m_subject(System::Security
 constexpr System::Security::Claims::ClaimsIdentity System::Security::Claims::Claim::__get_m_subject() const {
 return ::cordl_internals::getInstanceField<System::Security::Claims::ClaimsIdentity, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
- System::Security::Claims::Claim::Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Claim>(type, value, valueType, issuer, originalIssuer, subject))) {}
+ System::Security::Claims::Claim System::Security::Claims::Claim::New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject)  {
+System::Security::Claims::Claim o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::Claim>(type, value, valueType, issuer, originalIssuer, subject))};
+return o;
+}
  void System::Security::Claims::Claim::_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::Claim>::get(),
@@ -256,8 +258,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, value, valueType, issuer, originalIssuer, subject);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "issuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "originalIssuer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }, CppParam { name: "propertyKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "propertyValue", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Claims::Claim::Claim(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Claim>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue))) {}
+ System::Security::Claims::Claim System::Security::Claims::Claim::New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue)  {
+System::Security::Claims::Claim o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::Claim>(type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue))};
+return o;
+}
  void System::Security::Claims::Claim::_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, System::Security::Claims::ClaimsIdentity subject, ::StringW propertyKey, ::StringW propertyValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::Claim>::get(),
@@ -267,8 +271,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, type, value, valueType, issuer, originalIssuer, subject, propertyKey, propertyValue);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Claims::Claim", modifiers: "", def_value: None }, CppParam { name: "subject", ty: "System::Security::Claims::ClaimsIdentity", modifiers: "", def_value: None }]
- System::Security::Claims::Claim::Claim(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Claim>(other, subject))) {}
+ System::Security::Claims::Claim System::Security::Claims::Claim::New_ctor(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject)  {
+System::Security::Claims::Claim o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Claims::Claim>(other, subject))};
+return o;
+}
  void System::Security::Claims::Claim::_ctor(System::Security::Claims::Claim other, System::Security::Claims::ClaimsIdentity subject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Claims::Claim>::get(),

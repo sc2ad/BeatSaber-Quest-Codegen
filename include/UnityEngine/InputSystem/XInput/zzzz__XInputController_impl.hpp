@@ -3,6 +3,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_def.hpp"
+#include "UnityEngine/InputSystem/XInput/zzzz__XInputController_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::InputSystem::XInput::UnityEngine__InputSystem__XInput__XInputController__DeviceType::UnityEngine__InputSystem__XInput__XInputController__DeviceType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -326,8 +327,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XInput::XInputController::XInputController()  : UnityEngine::InputSystem::Gamepad(THROW_UNLESS(::il2cpp_utils::New<XInputController>())) {}
+ UnityEngine::InputSystem::XInput::XInputController UnityEngine::InputSystem::XInput::XInputController::New_ctor()  {
+UnityEngine::InputSystem::XInput::XInputController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XInput::XInputController>())};
+return o;
+}
  void UnityEngine::InputSystem::XInput::XInputController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XInput::XInputController>::get(),

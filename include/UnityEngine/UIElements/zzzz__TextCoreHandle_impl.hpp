@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextCoreHandle_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationContextUtils_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CursorPositionStylePainterParameters_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextOverflowMode_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::TextCoreHandle.get_MeasuredSizes
 template<>
 

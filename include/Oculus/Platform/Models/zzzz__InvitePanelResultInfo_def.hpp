@@ -57,8 +57,7 @@ constexpr bool __get_InvitesSent() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit InvitePanelResultInfo(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::InvitePanelResultInfo New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259f0e8 size 0x7c virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

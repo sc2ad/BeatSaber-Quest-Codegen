@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__SignalCopyBinder_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: Zenject::SignalCopyBinder._ctor
 template<>
 
@@ -145,8 +145,10 @@ constexpr void Zenject::SignalCopyBinder::__set__bindInfos(System::Collections::
 constexpr System::Collections::Generic::List_1<Zenject::BindInfo> Zenject::SignalCopyBinder::__get__bindInfos() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::BindInfo>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::SignalCopyBinder::SignalCopyBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalCopyBinder>())) {}
+ Zenject::SignalCopyBinder Zenject::SignalCopyBinder::New_ctor()  {
+Zenject::SignalCopyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalCopyBinder>())};
+return o;
+}
  void Zenject::SignalCopyBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalCopyBinder>::get(),
@@ -156,8 +158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::SignalCopyBinder::SignalCopyBinder(Zenject::BindInfo bindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalCopyBinder>(bindInfo))) {}
+ Zenject::SignalCopyBinder Zenject::SignalCopyBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::SignalCopyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalCopyBinder>(bindInfo))};
+return o;
+}
  void Zenject::SignalCopyBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalCopyBinder>::get(),

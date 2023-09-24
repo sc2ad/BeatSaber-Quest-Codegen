@@ -6,17 +6,17 @@ namespace Zenject {
 template<typename TParam1,typename TParam2,typename TValue>
 class IFactory_3;
 }
+namespace UnityEngine {
+class Object;
+}
 namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class DiContainer;
 }
-namespace UnityEngine {
-class Object;
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -98,8 +98,7 @@ constexpr Zenject::DiContainer __get__container() const;
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
  T Create(UnityEngine::Object prefab, P1 param) ;
 
-// Ctor Parameters []
-explicit PrefabFactory_2() ;
+static Zenject::PrefabFactory_2<P1,T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

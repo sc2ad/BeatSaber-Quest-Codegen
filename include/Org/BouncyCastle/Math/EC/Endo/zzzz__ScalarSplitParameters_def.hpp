@@ -118,8 +118,7 @@ constexpr int32_t __get_m_bits() const;
 /// @brief Method CheckVector addr 0xfa8944 size 0x88 virtual false final false
 static void CheckVector(::ArrayW<Org::BouncyCastle::Math::BigInteger> v, ::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "v1", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "v2", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }, CppParam { name: "g1", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "g2", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "bits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ScalarSplitParameters(::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits) ;
+static Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters New_ctor(::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits) ;
 
 /// @brief Method .ctor addr 0xfa85bc size 0xfc virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Math::BigInteger> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger> v2, Org::BouncyCastle::Math::BigInteger g1, Org::BouncyCastle::Math::BigInteger g2, int32_t bits) ;

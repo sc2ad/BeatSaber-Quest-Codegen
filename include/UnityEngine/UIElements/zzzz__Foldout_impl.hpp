@@ -2,15 +2,16 @@
 #include "UnityEngine/UIElements/zzzz__BindableElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Foldout_def.hpp"
-#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Toggle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Toggle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Foldout_def.hpp"
+#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits.Init
 template<>
 
@@ -66,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits::UnityEngine__UIElements__Foldout__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Foldout__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits>::get(),
@@ -380,8 +383,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Foldout::Foldout()  : UnityEngine::UIElements::BindableElement(THROW_UNLESS(::il2cpp_utils::New<Foldout>())) {}
+ UnityEngine::UIElements::Foldout UnityEngine::UIElements::Foldout::New_ctor()  {
+UnityEngine::UIElements::Foldout o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Foldout>())};
+return o;
+}
  void UnityEngine::UIElements::Foldout::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Foldout>::get(),
@@ -426,8 +431,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory::UnityEngine__UIElements__Foldout__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Foldout,UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Foldout__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory>::get(),

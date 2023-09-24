@@ -3,8 +3,9 @@
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl.get_component
 template<>
 
@@ -132,8 +133,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, statePtr);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl()  : UnityEngine::InputSystem::Controls::AxisControl(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl>())) {}
+ UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl>::get(),
@@ -490,8 +493,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::DpadControl::DpadControl()  : UnityEngine::InputSystem::Controls::Vector2Control(THROW_UNLESS(::il2cpp_utils::New<DpadControl>())) {}
+ UnityEngine::InputSystem::Controls::DpadControl UnityEngine::InputSystem::Controls::DpadControl::New_ctor()  {
+UnityEngine::InputSystem::Controls::DpadControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::DpadControl>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::DpadControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::DpadControl>::get(),

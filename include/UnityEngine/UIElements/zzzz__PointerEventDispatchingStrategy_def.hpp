@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace UnityEngine::UIElements {
-class EventBase;
+class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -78,8 +78,7 @@ static void SetBestTargetForEvent(UnityEngine::UIElements::EventBase evt, UnityE
 /// @brief Method UpdateElementUnderPointer addr 0x2cd702c size 0x2ac virtual false final false
 static void UpdateElementUnderPointer(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel, ByRef<UnityEngine::UIElements::VisualElement> elementUnderPointer) ;
 
-// Ctor Parameters []
-explicit PointerEventDispatchingStrategy() ;
+static UnityEngine::UIElements::PointerEventDispatchingStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd72d8 size 0x8 virtual false final false
  void _ctor() ;

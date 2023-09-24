@@ -85,8 +85,7 @@ constexpr ::ArrayW<float_t> __get__smoothnesses() const;
 /// @brief Method TextForValue addr 0x2154aa0 size 0xcc virtual true final false
  ::StringW TextForValue(int32_t idx) ;
 
-// Ctor Parameters []
-explicit SmoothCameraSmoothnessSettingsController() ;
+static GlobalNamespace::SmoothCameraSmoothnessSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2154b6c size 0x8 virtual false final false
  void _ctor() ;

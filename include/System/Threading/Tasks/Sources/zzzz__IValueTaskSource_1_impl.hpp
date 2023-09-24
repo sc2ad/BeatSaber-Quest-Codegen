@@ -1,59 +1,8 @@
 #pragma once
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
-#include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceOnCompletedFlags_def.hpp"
-//  Writing Method size for method: System::Threading::Tasks::Sources::IValueTaskSource_1.GetStatus
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Sources::ValueTaskSourceStatus (System::Threading::Tasks::Sources::IValueTaskSource_1::*)(int16_t)>(&System::Threading::Tasks::Sources::IValueTaskSource_1::GetStatus)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::Tasks::Sources::IValueTaskSource_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Sources::IValueTaskSource_1>::get(),
-                                  0
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::Sources::IValueTaskSource_1.OnCompleted
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Sources::IValueTaskSource_1::*)(System::Action_1<::bs_hook::Il2CppWrapperType>, ::bs_hook::Il2CppWrapperType, int16_t, System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags)>(&System::Threading::Tasks::Sources::IValueTaskSource_1::OnCompleted)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::Tasks::Sources::IValueTaskSource_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Sources::IValueTaskSource_1>::get(),
-                                  1
-                                ));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: System::Threading::Tasks::Sources::IValueTaskSource_1.GetResult
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TResult (System::Threading::Tasks::Sources::IValueTaskSource_1::*)(int16_t)>(&System::Threading::Tasks::Sources::IValueTaskSource_1::GetResult)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    
-                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-                                classof(System::Threading::Tasks::Sources::IValueTaskSource_1),
-                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Sources::IValueTaskSource_1>::get(),
-                                  2
-                                ));
-    return ___internal_method;
-  }
-};
+#include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"
  System::Threading::Tasks::Sources::ValueTaskSourceStatus System::Threading::Tasks::Sources::IValueTaskSource_1::GetStatus(int16_t token)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::Sources::IValueTaskSource_1>::get(),

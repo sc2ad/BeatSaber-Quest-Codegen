@@ -10,7 +10,7 @@ class TeamList;
 // Type: Oculus.Platform.Models::TeamList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1149 }), TypeDefinitionIndex(TypeDefinitionIndex(13478))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13478)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1149 }), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13479))
 // CS Name: Oculus.Platform.Models.TeamList
 class CORDL_TYPE TeamList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::Team> {
@@ -49,8 +49,7 @@ constexpr explicit TeamList(void* ptr) noexcept : Oculus::Platform::Models::Dese
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit TeamList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::TeamList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a2aac size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

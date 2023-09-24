@@ -467,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Globalization::RegionInfo, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "int32_t", modifiers: "", def_value: None }]
- System::Globalization::RegionInfo::RegionInfo(int32_t culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegionInfo>(culture))) {}
+ System::Globalization::RegionInfo System::Globalization::RegionInfo::New_ctor(int32_t culture)  {
+System::Globalization::RegionInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::RegionInfo>(culture))};
+return o;
+}
  void System::Globalization::RegionInfo::_ctor(int32_t culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::RegionInfo>::get(),
@@ -478,8 +480,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, culture);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Globalization::RegionInfo::RegionInfo(::StringW name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegionInfo>(name))) {}
+ System::Globalization::RegionInfo System::Globalization::RegionInfo::New_ctor(::StringW name)  {
+System::Globalization::RegionInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::RegionInfo>(name))};
+return o;
+}
  void System::Globalization::RegionInfo::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::RegionInfo>::get(),
@@ -489,8 +493,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters [CppParam { name: "ci", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Globalization::RegionInfo::RegionInfo(System::Globalization::CultureInfo ci)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegionInfo>(ci))) {}
+ System::Globalization::RegionInfo System::Globalization::RegionInfo::New_ctor(System::Globalization::CultureInfo ci)  {
+System::Globalization::RegionInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::RegionInfo>(ci))};
+return o;
+}
  void System::Globalization::RegionInfo::_ctor(System::Globalization::CultureInfo ci)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::RegionInfo>::get(),

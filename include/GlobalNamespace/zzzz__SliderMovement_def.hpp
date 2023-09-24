@@ -2,27 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -255,8 +255,7 @@ constexpr float_t __get__timeSinceHeadNoteJump() const;
 /// @brief Method ManualUpdate addr 0x2248cb4 size 0x20c virtual false final false
  void ManualUpdate() ;
 
-// Ctor Parameters []
-explicit SliderMovement() ;
+static GlobalNamespace::SliderMovement New_ctor() ;
 
 /// @brief Method .ctor addr 0x224c2cc size 0x8 virtual false final false
  void _ctor() ;

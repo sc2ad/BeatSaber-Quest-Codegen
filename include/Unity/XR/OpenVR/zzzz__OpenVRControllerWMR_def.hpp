@@ -2,16 +2,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class Vector2Control;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {
@@ -222,8 +222,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector2Control __get__joystick_k__
 /// @brief Method FinishSetup addr 0x28a2704 size 0x260 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OpenVRControllerWMR() ;
+static Unity::XR::OpenVR::OpenVRControllerWMR New_ctor() ;
 
 /// @brief Method .ctor addr 0x28a2964 size 0x8 virtual false final false
  void _ctor() ;

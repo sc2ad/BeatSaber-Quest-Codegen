@@ -158,8 +158,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsMac::__set_macLength(int32_t v
 constexpr int32_t Org::BouncyCastle::Crypto::Tls::TlsMac::__get_macLength() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsMac::TlsMac(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TlsMac>(context, digest, key, keyOff, keyLen))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsMac Org::BouncyCastle::Crypto::Tls::TlsMac::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen)  {
+Org::BouncyCastle::Crypto::Tls::TlsMac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsMac>(context, digest, key, keyOff, keyLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsMac::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsMac>::get(),

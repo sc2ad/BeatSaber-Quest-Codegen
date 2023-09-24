@@ -8,11 +8,11 @@ namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace MS::Internal::Xml::Cache {
-struct XPathNode;
-}
 namespace System::Xml {
 class XmlNameTable;
+}
+namespace MS::Internal::Xml::Cache {
+struct XPathNode;
 }
 namespace MS::Internal::Xml::Cache {
 struct XPathNodeRef;

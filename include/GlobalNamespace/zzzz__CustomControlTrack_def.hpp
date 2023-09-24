@@ -47,8 +47,7 @@ constexpr explicit CustomControlTrack(void* ptr) noexcept : UnityEngine::Timelin
 
 // Methods
 
-// Ctor Parameters []
-explicit CustomControlTrack() ;
+static GlobalNamespace::CustomControlTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1dc0 size 0x8 virtual false final false
  void _ctor() ;

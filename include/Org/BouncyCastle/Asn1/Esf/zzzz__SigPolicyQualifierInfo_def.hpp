@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -85,14 +85,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Object __get_sigQualifier() const;
 /// @brief Method GetInstance addr 0xe0a028 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SigPolicyQualifierInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0b348 size 0x208 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "sigPolicyQualifierId", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "sigQualifier", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit SigPolicyQualifierInfo(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyQualifierId, Org::BouncyCastle::Asn1::Asn1Encodable sigQualifier) ;
+static Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyQualifierId, Org::BouncyCastle::Asn1::Asn1Encodable sigQualifier) ;
 
 /// @brief Method .ctor addr 0xe0b550 size 0x48 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier sigPolicyQualifierId, Org::BouncyCastle::Asn1::Asn1Encodable sigQualifier) ;

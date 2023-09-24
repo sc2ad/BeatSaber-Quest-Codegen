@@ -6,6 +6,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class IDisposable;
 }
@@ -20,22 +26,25 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UIToolkitUtilities::Controls {
+class UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace UIToolkitUtilities::Controls {
+class UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class ChangeEvent_1;
+class TextField;
 }
 namespace UnityEngine::UIElements {
 template<typename TEventType>
 class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-class TextField;
+template<typename T>
+class ChangeEvent_1;
+}
+namespace GlobalNamespace {
+class UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -44,13 +53,13 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -141,8 +150,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get__value() c
 /// @brief Method Init addr 0x287d244 size 0x18c virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits() ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x287d3d0 size 0x124 virtual false final false
  void _ctor() ;
@@ -225,8 +233,7 @@ constexpr UnityEngine::UIElements::TextField __get_textField() const;
 /// @brief Method set_textFieldText addr 0x287cde4 size 0x24 virtual false final false
  void set_textFieldText(::StringW value) ;
 
-// Ctor Parameters []
-explicit TextInputFoldout() ;
+static UIToolkitUtilities::Controls::TextInputFoldout New_ctor() ;
 
 /// @brief Method .ctor addr 0x287ce08 size 0x2a0 virtual false final false
  void _ctor() ;
@@ -244,7 +251,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UIToolkitUtilities::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15951)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5109 }), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(15950))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5109 }), TypeDefinitionIndex(TypeDefinitionIndex(15950)), TypeDefinitionIndex(TypeDefinitionIndex(15951))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15948))
 // CS Name: UIToolkitUtilities.Controls.TextInputFoldout::UxmlFactory
 class CORDL_TYPE UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UIToolkitUtilities::Controls::TextInputFoldout,UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits> {
@@ -283,8 +290,7 @@ constexpr explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory(v
 
 // Methods
 
-// Ctor Parameters []
-explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory() ;
+static UIToolkitUtilities::Controls::UIToolkitUtilities__Controls__TextInputFoldout__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x287d158 size 0x48 virtual false final false
  void _ctor() ;
@@ -378,8 +384,7 @@ constexpr int32_t __get___l__initialThreadId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4(int32_t __1__state) ;
+static GlobalNamespace::UIToolkitUtilities__Controls__TextInputFoldout__UxmlTraits___get_uxmlChildElementsDescription_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x287d210 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

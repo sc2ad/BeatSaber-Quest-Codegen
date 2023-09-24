@@ -434,8 +434,10 @@ return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "S2", ::il2cpp_utils
  ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::__get_S3()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "S3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Dstu7564Digest>::get>();
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::Dstu7564Digest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::Dstu7564Digest(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Dstu7564Digest>(digest))) {}
+ Org::BouncyCastle::Crypto::Digests::Dstu7564Digest Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::New_ctor(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest)  {
+Org::BouncyCastle::Crypto::Digests::Dstu7564Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Dstu7564Digest>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::_ctor(Org::BouncyCastle::Crypto::Digests::Dstu7564Digest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Dstu7564Digest>::get(),
@@ -454,8 +456,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, digest);
 }
-// Ctor Parameters [CppParam { name: "hashSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::Dstu7564Digest(int32_t hashSizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Dstu7564Digest>(hashSizeBits))) {}
+ Org::BouncyCastle::Crypto::Digests::Dstu7564Digest Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::New_ctor(int32_t hashSizeBits)  {
+Org::BouncyCastle::Crypto::Digests::Dstu7564Digest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Dstu7564Digest>(hashSizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::_ctor(int32_t hashSizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Dstu7564Digest>::get(),

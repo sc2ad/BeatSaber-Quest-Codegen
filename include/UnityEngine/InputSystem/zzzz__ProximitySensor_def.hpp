@@ -93,8 +93,7 @@ static void set_current(UnityEngine::InputSystem::ProximitySensor value) ;
 /// @brief Method FinishSetup addr 0x29163c0 size 0x78 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit ProximitySensor() ;
+static UnityEngine::InputSystem::ProximitySensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2916438 size 0x8 virtual false final false
  void _ctor() ;

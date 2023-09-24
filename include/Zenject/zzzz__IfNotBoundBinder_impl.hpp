@@ -75,8 +75,10 @@ constexpr void Zenject::IfNotBoundBinder::__set__BindInfo_k__BackingField(Zenjec
 constexpr Zenject::BindInfo Zenject::IfNotBoundBinder::__get__BindInfo_k__BackingField() const {
 return ::cordl_internals::getInstanceField<Zenject::BindInfo, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
- Zenject::IfNotBoundBinder::IfNotBoundBinder(Zenject::BindInfo bindInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IfNotBoundBinder>(bindInfo))) {}
+ Zenject::IfNotBoundBinder Zenject::IfNotBoundBinder::New_ctor(Zenject::BindInfo bindInfo)  {
+Zenject::IfNotBoundBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::IfNotBoundBinder>(bindInfo))};
+return o;
+}
  void Zenject::IfNotBoundBinder::_ctor(Zenject::BindInfo bindInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::IfNotBoundBinder>::get(),

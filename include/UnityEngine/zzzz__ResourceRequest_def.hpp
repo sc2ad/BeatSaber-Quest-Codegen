@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-class Object;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -80,8 +80,7 @@ constexpr System::Type __get_m_Type() const;
 /// @brief Method get_asset addr 0x2b67a08 size 0xc virtual false final false
  UnityEngine::Object get_asset() ;
 
-// Ctor Parameters []
-explicit ResourceRequest() ;
+static UnityEngine::ResourceRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b67a14 size 0x8 virtual false final false
  void _ctor() ;

@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, healthWarningSceneSetupData);
 }
-// Ctor Parameters []
- GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::HealthWarningScenesTransitionSetupDataSO()  : GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<HealthWarningScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::HealthWarningScenesTransitionSetupDataSO GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::HealthWarningScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HealthWarningScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HealthWarningScenesTransitionSetupDataSO>::get(),

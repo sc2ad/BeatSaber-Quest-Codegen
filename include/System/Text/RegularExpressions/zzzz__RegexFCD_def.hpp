@@ -2,33 +2,33 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-struct Span_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+struct ValueListBuilder_1;
+}
 namespace System::Text::RegularExpressions {
-class RegexFC;
+class RegexTree;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
 }
 namespace System::Text::RegularExpressions {
-class RegexTree;
+struct RegexPrefix;
+}
+namespace System::Text::RegularExpressions {
+class RegexFC;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Text::RegularExpressions {
-struct RegexPrefix;
-}
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-struct ValueListBuilder_1;
+struct Span_1;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

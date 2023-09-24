@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
+class BitSet;
+}
+namespace System::Xml::Schema {
 class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
 class Positions;
-}
-namespace System::Xml::Schema {
-class BitSet;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaContentType;
@@ -94,8 +94,7 @@ constexpr int32_t __get_endMarkerPos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "firstpos", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "followpos", ty: "::ArrayW<System::Xml::Schema::BitSet>", modifiers: "", def_value: None }, CppParam { name: "symbols", ty: "System::Xml::Schema::SymbolsDictionary", modifiers: "", def_value: None }, CppParam { name: "positions", ty: "System::Xml::Schema::Positions", modifiers: "", def_value: None }, CppParam { name: "endMarkerPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }]
-explicit NfaContentValidator(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;
+static System::Xml::Schema::NfaContentValidator New_ctor(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;
 
 /// @brief Method .ctor addr 0x271d144 size 0xbc virtual false final false
  void _ctor(System::Xml::Schema::BitSet firstpos, ::ArrayW<System::Xml::Schema::BitSet> followpos, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions, int32_t endMarkerPos, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;

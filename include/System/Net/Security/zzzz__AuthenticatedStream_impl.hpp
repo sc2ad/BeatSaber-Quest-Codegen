@@ -82,8 +82,10 @@ constexpr void System::Net::Security::AuthenticatedStream::__set__LeaveStreamOpe
 constexpr bool System::Net::Security::AuthenticatedStream::__get__LeaveStreamOpen() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Security::AuthenticatedStream::AuthenticatedStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<AuthenticatedStream>(innerStream, leaveInnerStreamOpen))) {}
+ System::Net::Security::AuthenticatedStream System::Net::Security::AuthenticatedStream::New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen)  {
+System::Net::Security::AuthenticatedStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Security::AuthenticatedStream>(innerStream, leaveInnerStreamOpen))};
+return o;
+}
  void System::Net::Security::AuthenticatedStream::_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Security::AuthenticatedStream>::get(),

@@ -63,14 +63,12 @@ constexpr int32_t __get_maxLines() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TextAreaAttribute() ;
+static UnityEngine::TextAreaAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b54f18 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "minLines", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxLines", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TextAreaAttribute(int32_t minLines, int32_t maxLines) ;
+static UnityEngine::TextAreaAttribute New_ctor(int32_t minLines, int32_t maxLines) ;
 
 /// @brief Method .ctor addr 0x2b54f38 size 0x2c virtual false final false
  void _ctor(int32_t minLines, int32_t maxLines) ;

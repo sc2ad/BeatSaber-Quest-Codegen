@@ -51,8 +51,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BetaBuildInfoText::BetaBuildInfoText()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BetaBuildInfoText>())) {}
+ GlobalNamespace::BetaBuildInfoText GlobalNamespace::BetaBuildInfoText::New_ctor()  {
+GlobalNamespace::BetaBuildInfoText o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BetaBuildInfoText>())};
+return o;
+}
  void GlobalNamespace::BetaBuildInfoText::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BetaBuildInfoText>::get(),

@@ -1,17 +1,17 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine::ProBuilder {
+struct PivotLocation;
+}
+namespace System {
+class Type;
+}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::ProBuilder {
-struct PivotLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

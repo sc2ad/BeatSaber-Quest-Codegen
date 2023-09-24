@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 namespace System {
-class Type;
-}
-namespace System {
 class Attribute;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {

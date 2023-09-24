@@ -2,11 +2,12 @@
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
-#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
 #include "System/Xml/zzzz__IValidationEventHandling_def.hpp"
+#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
-#include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
+#include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
+#include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve::System__Xml__Schema__SchemaAttDef__Reserve(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -545,8 +546,10 @@ return ::cordl_internals::getInstanceField<System::Xml::Schema::System__Xml__Sch
  System::Xml::Schema::SchemaAttDef System::Xml::Schema::SchemaAttDef::__get_Empty()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::SchemaAttDef, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaAttDef>::get>();
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Schema::SchemaAttDef::SchemaAttDef(System::Xml::XmlQualifiedName name, ::StringW prefix)  : System::Xml::Schema::SchemaDeclBase(THROW_UNLESS(::il2cpp_utils::New<SchemaAttDef>(name, prefix))) {}
+ System::Xml::Schema::SchemaAttDef System::Xml::Schema::SchemaAttDef::New_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix)  {
+System::Xml::Schema::SchemaAttDef o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaAttDef>(name, prefix))};
+return o;
+}
  void System::Xml::Schema::SchemaAttDef::_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaAttDef>::get(),
@@ -556,8 +559,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, prefix);
 }
-// Ctor Parameters []
- System::Xml::Schema::SchemaAttDef::SchemaAttDef()  : System::Xml::Schema::SchemaDeclBase(THROW_UNLESS(::il2cpp_utils::New<SchemaAttDef>())) {}
+ System::Xml::Schema::SchemaAttDef System::Xml::Schema::SchemaAttDef::New_ctor()  {
+System::Xml::Schema::SchemaAttDef o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaAttDef>())};
+return o;
+}
  void System::Xml::Schema::SchemaAttDef::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaAttDef>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__ResourceProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Zenject::ResourceProvider._ctor
 template<>
 
@@ -113,8 +113,10 @@ constexpr void Zenject::ResourceProvider::__set__matchSingle(bool value)  {
 constexpr bool Zenject::ResourceProvider::__get__matchSingle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "resourcePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
- Zenject::ResourceProvider::ResourceProvider(::StringW resourcePath, System::Type resourceType, bool matchSingle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceProvider>(resourcePath, resourceType, matchSingle))) {}
+ Zenject::ResourceProvider Zenject::ResourceProvider::New_ctor(::StringW resourcePath, System::Type resourceType, bool matchSingle)  {
+Zenject::ResourceProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::ResourceProvider>(resourcePath, resourceType, matchSingle))};
+return o;
+}
  void Zenject::ResourceProvider::_ctor(::StringW resourcePath, System::Type resourceType, bool matchSingle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::ResourceProvider>::get(),

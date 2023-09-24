@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Text {
-class EncoderFallback;
+class DecoderFallback;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System::Text {
-class DecoderFallback;
+class EncoderFallback;
 }
 // Forward declare root types
 namespace System::Text {

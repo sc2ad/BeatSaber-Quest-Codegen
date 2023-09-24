@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/zzzz__MonoAssemblyName_def.hpp"
+#include "Mono/zzzz__MonoAssemblyName_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr Mono::Mono__MonoAssemblyName___public_key_token_e__FixedBuffer::Mono__MonoAssemblyName___public_key_token_e__FixedBuffer(uint8_t FixedElementField) noexcept : ::bs_hook::ValueTypeWrapper() {this->FixedElementField = FixedElementField;
 }

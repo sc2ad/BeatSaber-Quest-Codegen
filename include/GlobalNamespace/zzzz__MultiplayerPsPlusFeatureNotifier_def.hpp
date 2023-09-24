@@ -56,8 +56,7 @@ constexpr bool __get__isSpectator() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit MultiplayerPsPlusFeatureNotifier() ;
+static GlobalNamespace::MultiplayerPsPlusFeatureNotifier New_ctor() ;
 
 /// @brief Method .ctor addr 0x2100db0 size 0x8 virtual false final false
  void _ctor() ;

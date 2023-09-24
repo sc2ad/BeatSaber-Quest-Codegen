@@ -104,8 +104,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_PkixOcspServiceLocator
 
 // Methods
 
-// Ctor Parameters []
-explicit OcspObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xef2930 size 0x8 virtual false final false
  void _ctor() ;

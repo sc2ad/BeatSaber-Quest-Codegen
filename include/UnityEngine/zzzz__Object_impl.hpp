@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__HideFlags_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: UnityEngine::Object.GetInstanceID
 template<>
 
@@ -1442,8 +1442,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Object, false>(nullptr, ___internal_method, instanceID);
 }
-// Ctor Parameters []
- UnityEngine::Object::Object()  : UnityW(THROW_UNLESS(::il2cpp_utils::New<Object>())) {}
+ UnityEngine::Object UnityEngine::Object::New_ctor()  {
+UnityEngine::Object o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Object>())};
+return o;
+}
  void UnityEngine::Object::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Object>::get(),

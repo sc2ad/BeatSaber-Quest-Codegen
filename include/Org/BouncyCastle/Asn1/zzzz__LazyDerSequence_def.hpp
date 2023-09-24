@@ -6,11 +6,11 @@
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerOutputStream;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -74,8 +74,7 @@ constexpr ::ArrayW<uint8_t> __get_encoded() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoded", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit LazyDerSequence(::ArrayW<uint8_t> encoded) ;
+static Org::BouncyCastle::Asn1::LazyDerSequence New_ctor(::ArrayW<uint8_t> encoded) ;
 
 /// @brief Method .ctor addr 0x113b288 size 0x68 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoded) ;

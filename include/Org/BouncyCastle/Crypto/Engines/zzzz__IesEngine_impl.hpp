@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__IesEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KdfParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__IesParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBasicAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBasicAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__IesParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KdfParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::IesEngine._ctor
 template<>
 
@@ -180,8 +180,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::IesEngine::__set_param(Org::B
 constexpr Org::BouncyCastle::Crypto::Parameters::IesParameters Org::BouncyCastle::Crypto::Engines::IesEngine::__get_param() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::IesParameters, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "agree", ty: "Org::BouncyCastle::Crypto::IBasicAgreement", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::IesEngine::IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IesEngine>(agree, kdf, mac))) {}
+ Org::BouncyCastle::Crypto::Engines::IesEngine Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac)  {
+Org::BouncyCastle::Crypto::Engines::IesEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::IesEngine>(agree, kdf, mac))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::IesEngine>::get(),
@@ -191,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, agree, kdf, mac);
 }
-// Ctor Parameters [CppParam { name: "agree", ty: "Org::BouncyCastle::Crypto::IBasicAgreement", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }, CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }, CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::BufferedBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::IesEngine::IesEngine(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Crypto::BufferedBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IesEngine>(agree, kdf, mac, cipher))) {}
+ Org::BouncyCastle::Crypto::Engines::IesEngine Org::BouncyCastle::Crypto::Engines::IesEngine::New_ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Crypto::BufferedBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Engines::IesEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::IesEngine>(agree, kdf, mac, cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::IesEngine::_ctor(Org::BouncyCastle::Crypto::IBasicAgreement agree, Org::BouncyCastle::Crypto::IDerivationFunction kdf, Org::BouncyCastle::Crypto::IMac mac, Org::BouncyCastle::Crypto::BufferedBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::IesEngine>::get(),

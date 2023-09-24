@@ -43,8 +43,12 @@ constexpr void UnityEngine::ResourceManagement::Exceptions::ProviderException::_
 constexpr UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation UnityEngine::ResourceManagement::Exceptions::ProviderException::__get__Location_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: Some("csnull") }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ResourceManagement::Exceptions::ProviderException::ProviderException(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Exception innerException)  : UnityEngine::ResourceManagement::Exceptions::OperationException(THROW_UNLESS(::il2cpp_utils::New<ProviderException>(message, location, innerException))) {}
+/// @param location: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation (default: csnull)
+/// @param innerException: System::Exception (default: csnull)
+ UnityEngine::ResourceManagement::Exceptions::ProviderException UnityEngine::ResourceManagement::Exceptions::ProviderException::New_ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Exception innerException)  {
+UnityEngine::ResourceManagement::Exceptions::ProviderException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourceManagement::Exceptions::ProviderException>(message, location, innerException))};
+return o;
+}
 /// @param location: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation (default: csnull)
 /// @param innerException: System::Exception (default: csnull)
  void UnityEngine::ResourceManagement::Exceptions::ProviderException::_ctor(::StringW message, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Exception innerException)  {

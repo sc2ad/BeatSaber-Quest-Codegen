@@ -13,7 +13,7 @@ class MessageWithRoomUnderCurrentRoom;
 // Type: Oculus.Platform::MessageWithRoomUnderCurrentRoom
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13468)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 952 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13468)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 952 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13273))
 // CS Name: Oculus.Platform.MessageWithRoomUnderCurrentRoom
 class CORDL_TYPE MessageWithRoomUnderCurrentRoom : public Oculus::Platform::Message_1<Oculus::Platform::Models::Room> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithRoomUnderCurrentRoom(void* ptr) noexcept : Oculus:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithRoomUnderCurrentRoom(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithRoomUnderCurrentRoom New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f030 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

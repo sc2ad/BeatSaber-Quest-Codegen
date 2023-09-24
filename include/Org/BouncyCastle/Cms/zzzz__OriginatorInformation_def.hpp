@@ -62,8 +62,7 @@ constexpr Org::BouncyCastle::Asn1::Cms::OriginatorInfo __get_originatorInfo() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "originatorInfo", ty: "Org::BouncyCastle::Asn1::Cms::OriginatorInfo", modifiers: "", def_value: None }]
-explicit OriginatorInformation(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo) ;
+static Org::BouncyCastle::Cms::OriginatorInformation New_ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo) ;
 
 /// @brief Method .ctor addr 0x117b990 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::OriginatorInfo originatorInfo) ;

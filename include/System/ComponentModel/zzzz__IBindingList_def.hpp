@@ -2,20 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::ComponentModel {
+struct ListSortDirection;
+}
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
+}
+namespace System::Collections {
+class IList;
 }
 namespace System::ComponentModel {
 class PropertyDescriptor;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::ComponentModel {
-struct ListSortDirection;
-}
-namespace System::Collections {
-class IList;
+class ICollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {

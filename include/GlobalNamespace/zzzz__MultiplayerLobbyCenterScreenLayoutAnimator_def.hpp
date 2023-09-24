@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+namespace Tweening {
+class TimeTweeningManager;
+}
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace Tweening {
-class TimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,8 +99,7 @@ constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 /// @brief Method Move addr 0x214bd54 size 0x13c virtual false final false
  void Move(UnityEngine::Vector3 from, UnityEngine::Vector3 to, float_t duration) ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyCenterScreenLayoutAnimator() ;
+static GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x214bf30 size 0x8 virtual false final false
  void _ctor() ;

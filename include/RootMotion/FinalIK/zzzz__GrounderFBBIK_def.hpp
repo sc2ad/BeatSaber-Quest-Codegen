@@ -5,19 +5,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__Grounding__Leg;
+class RootMotion__FinalIK__GrounderFBBIK__SpineEffector;
+}
+namespace RootMotion::FinalIK {
+class FullBodyBipedIK;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class IKEffector;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace RootMotion::FinalIK {
-class IKEffector;
-}
-namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
+class RootMotion__FinalIK__Grounding__Leg;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
@@ -92,14 +95,12 @@ constexpr float_t __get_verticalWeight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__GrounderFBBIK__SpineEffector() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector New_ctor() ;
 
 /// @brief Method .ctor addr 0x11bd564 size 0x10 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "effectorType", ty: "RootMotion::FinalIK::FullBodyBipedEffector", modifiers: "", def_value: None }, CppParam { name: "horizontalWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "verticalWeight", ty: "float_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__GrounderFBBIK__SpineEffector(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__GrounderFBBIK__SpineEffector New_ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
 
 /// @brief Method .ctor addr 0x11bd574 size 0x44 virtual false final false
  void _ctor(RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight) ;
@@ -236,8 +237,7 @@ constexpr bool __get_firstSolve() const;
 /// @brief Method OnDestroy addr 0x11bd3c0 size 0x114 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit GrounderFBBIK() ;
+static RootMotion::FinalIK::GrounderFBBIK New_ctor() ;
 
 /// @brief Method .ctor addr 0x11bd4d4 size 0x90 virtual false final false
  void _ctor() ;

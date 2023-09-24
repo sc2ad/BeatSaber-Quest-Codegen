@@ -56,8 +56,7 @@ constexpr explicit PointerUpEvent(void* ptr) noexcept : UnityEngine::UIElements:
 /// @brief Method LocalInit addr 0x2cd88f8 size 0x104 virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit PointerUpEvent() ;
+static UnityEngine::UIElements::PointerUpEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd89fc size 0x50 virtual false final false
  void _ctor() ;

@@ -4,10 +4,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_StorageType;
+struct HAPI_AttributeOwner;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
+struct HAPI_StorageType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeTypeInfo;

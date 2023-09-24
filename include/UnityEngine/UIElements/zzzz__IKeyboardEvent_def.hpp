@@ -1,10 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 namespace UnityEngine {
-struct EventModifiers;
+struct KeyCode;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

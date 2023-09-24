@@ -67,8 +67,7 @@ static ::ArrayW<::StringW> __get_InternalExceptionKeys() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
-explicit MethodReturnDictionary(System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;
+static System::Runtime::Remoting::Messaging::MethodReturnDictionary New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;
 
 /// @brief Method .ctor addr 0x2344588 size 0xfc virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage message) ;

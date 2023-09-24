@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XCommentWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/Linq/zzzz__XComment_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::XCommentWrapper.get_Text
 template<>
 
@@ -97,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Linq::XComment, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "System::Xml::Linq::XComment", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XCommentWrapper::XCommentWrapper(System::Xml::Linq::XComment text)  : Newtonsoft::Json::Converters::XObjectWrapper(THROW_UNLESS(::il2cpp_utils::New<XCommentWrapper>(text))) {}
+ Newtonsoft::Json::Converters::XCommentWrapper Newtonsoft::Json::Converters::XCommentWrapper::New_ctor(System::Xml::Linq::XComment text)  {
+Newtonsoft::Json::Converters::XCommentWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XCommentWrapper>(text))};
+return o;
+}
  void Newtonsoft::Json::Converters::XCommentWrapper::_ctor(System::Xml::Linq::XComment text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XCommentWrapper>::get(),

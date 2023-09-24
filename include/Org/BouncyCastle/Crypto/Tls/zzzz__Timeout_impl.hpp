@@ -148,8 +148,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Timeout::__set_startMillis(int64_
 constexpr int64_t Org::BouncyCastle::Crypto::Tls::Timeout::__get_startMillis() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "durationMillis", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Timeout::Timeout(int64_t durationMillis)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Timeout>(durationMillis))) {}
+ Org::BouncyCastle::Crypto::Tls::Timeout Org::BouncyCastle::Crypto::Tls::Timeout::New_ctor(int64_t durationMillis)  {
+Org::BouncyCastle::Crypto::Tls::Timeout o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Timeout>(durationMillis))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Timeout::_ctor(int64_t durationMillis)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Timeout>::get(),
@@ -159,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, durationMillis);
 }
-// Ctor Parameters [CppParam { name: "durationMillis", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "currentTimeMillis", ty: "int64_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Timeout::Timeout(int64_t durationMillis, int64_t currentTimeMillis)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Timeout>(durationMillis, currentTimeMillis))) {}
+ Org::BouncyCastle::Crypto::Tls::Timeout Org::BouncyCastle::Crypto::Tls::Timeout::New_ctor(int64_t durationMillis, int64_t currentTimeMillis)  {
+Org::BouncyCastle::Crypto::Tls::Timeout o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Timeout>(durationMillis, currentTimeMillis))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Timeout::_ctor(int64_t durationMillis, int64_t currentTimeMillis)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Timeout>::get(),

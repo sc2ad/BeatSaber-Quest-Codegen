@@ -2,22 +2,23 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__IAssetSongPreviewAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IAssetSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IReferenceCountingCache_2_def.hpp"
-#include "GlobalNamespace/zzzz__IAssetSongPreviewAudioClipProvider_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "GlobalNamespace/zzzz__IMediaAsyncLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IAssetSongAudioClipProvider_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate._ctor
 template<>
 
@@ -86,8 +87,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate>::get(),
@@ -164,8 +167,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__Disp
 constexpr UnityEngine::AudioClip GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0::__get_audioClip() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AudioClip, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0>())) {}
+ GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0 GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0>::get(),
@@ -230,8 +235,10 @@ constexpr void GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__Disp
 constexpr ::StringW GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0::__get_audioClipFilePath() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0>())) {}
+ GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0 GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0>::get(),
@@ -296,8 +303,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Audio
  System::Action_1<UnityEngine::AudioClip> GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c::__get___9__19_0()  {
 return ::cordl_internals::getStaticField<System::Action_1<UnityEngine::AudioClip>, "<>9__19_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c::GlobalNamespace__AudioClipAsyncLoader____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AudioClipAsyncLoader____c>())) {}
+ GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c>::get(),
@@ -802,8 +811,10 @@ constexpr void GlobalNamespace::AudioClipAsyncLoader::__set__mediaAsyncLoader(Gl
 constexpr GlobalNamespace::IMediaAsyncLoader GlobalNamespace::AudioClipAsyncLoader::__get__mediaAsyncLoader() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::IMediaAsyncLoader, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cache", ty: "GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>>", modifiers: "", def_value: None }, CppParam { name: "mediaAsyncLoader", ty: "GlobalNamespace::IMediaAsyncLoader", modifiers: "", def_value: None }]
- GlobalNamespace::AudioClipAsyncLoader::AudioClipAsyncLoader(GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> cache, GlobalNamespace::IMediaAsyncLoader mediaAsyncLoader)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AudioClipAsyncLoader>(cache, mediaAsyncLoader))) {}
+ GlobalNamespace::AudioClipAsyncLoader GlobalNamespace::AudioClipAsyncLoader::New_ctor(GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> cache, GlobalNamespace::IMediaAsyncLoader mediaAsyncLoader)  {
+GlobalNamespace::AudioClipAsyncLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AudioClipAsyncLoader>(cache, mediaAsyncLoader))};
+return o;
+}
  void GlobalNamespace::AudioClipAsyncLoader::_ctor(GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> cache, GlobalNamespace::IMediaAsyncLoader mediaAsyncLoader)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AudioClipAsyncLoader>::get(),

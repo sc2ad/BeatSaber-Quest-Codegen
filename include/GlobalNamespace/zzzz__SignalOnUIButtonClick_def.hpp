@@ -77,8 +77,7 @@ constexpr UnityEngine::UI::Button __get__button() const;
 /// @brief Method OnDestroy addr 0x1f83730 size 0xd0 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit SignalOnUIButtonClick() ;
+static GlobalNamespace::SignalOnUIButtonClick New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83800 size 0x8 virtual false final false
  void _ctor() ;

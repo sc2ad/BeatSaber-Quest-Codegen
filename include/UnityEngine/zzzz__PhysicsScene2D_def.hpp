@@ -7,8 +7,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Ray;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 template<typename T>
@@ -17,12 +18,11 @@ class IEquatable_1;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine {
 struct RaycastHit2D;
+}
+namespace UnityEngine {
+struct Ray;
 }
 namespace UnityEngine {
 struct ContactFilter2D;

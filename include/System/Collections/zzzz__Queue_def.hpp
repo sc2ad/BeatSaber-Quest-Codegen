@@ -5,19 +5,25 @@
 #include <cmath>
 #include <cstdint>
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
+class System__Collections__Queue__QueueDebugView;
 }
 namespace System::Collections {
 class ICollection;
 }
+namespace System::Collections {
+class System__Collections__Queue__QueueEnumerator;
+}
 namespace System {
 class ICloneable;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class Array;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -109,8 +115,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__currentElement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "q", ty: "System::Collections::Queue", modifiers: "", def_value: None }]
-explicit System__Collections__Queue__QueueEnumerator(System::Collections::Queue q) ;
+static System::Collections::System__Collections__Queue__QueueEnumerator New_ctor(System::Collections::Queue q) ;
 
 /// @brief Method .ctor addr 0x2411a64 size 0x50 virtual false final false
  void _ctor(System::Collections::Queue q) ;
@@ -283,26 +288,22 @@ constexpr ::bs_hook::Il2CppWrapperType __get__syncRoot() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Queue() ;
+static System::Collections::Queue New_ctor() ;
 
 /// @brief Method .ctor addr 0x2411078 size 0xc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Queue(int32_t capacity) ;
+static System::Collections::Queue New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x2411244 size 0x8 virtual false final false
  void _ctor(int32_t capacity) ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "growFactor", ty: "float_t", modifiers: "", def_value: None }]
-explicit Queue(int32_t capacity, float_t growFactor) ;
+static System::Collections::Queue New_ctor(int32_t capacity, float_t growFactor) ;
 
 /// @brief Method .ctor addr 0x2411084 size 0x1c0 virtual false final false
  void _ctor(int32_t capacity, float_t growFactor) ;
 
-// Ctor Parameters [CppParam { name: "col", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit Queue(System::Collections::ICollection col) ;
+static System::Collections::Queue New_ctor(System::Collections::ICollection col) ;
 
 /// @brief Method .ctor addr 0x241124c size 0x26c virtual false final false
  void _ctor(System::Collections::ICollection col) ;

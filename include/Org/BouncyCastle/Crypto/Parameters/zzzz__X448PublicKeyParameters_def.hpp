@@ -67,14 +67,12 @@ constexpr ::ArrayW<uint8_t> __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "buf", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }]
-explicit X448PublicKeyParameters(::ArrayW<uint8_t> buf, int32_t off) ;
+static Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters New_ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
 /// @brief Method .ctor addr 0xeae3f4 size 0xbc virtual false final false
  void _ctor(::ArrayW<uint8_t> buf, int32_t off) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit X448PublicKeyParameters(System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0xeae674 size 0x108 virtual false final false
  void _ctor(System::IO::Stream input) ;

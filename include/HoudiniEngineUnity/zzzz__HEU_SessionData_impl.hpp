@@ -1,9 +1,9 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_SessionData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HAPI_Session_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_SessionType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_Session_def.hpp"
+#include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionSyncData_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_SessionData.GetOrCreateSessionSync
@@ -739,8 +739,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_SessionData::HEU_SessionData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_SessionData>())) {}
+ HoudiniEngineUnity::HEU_SessionData HoudiniEngineUnity::HEU_SessionData::New_ctor()  {
+HoudiniEngineUnity::HEU_SessionData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_SessionData>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_SessionData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_SessionData>::get(),

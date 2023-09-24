@@ -6,54 +6,54 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+class TerrainLayer;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace HoudiniEngineUnity {
+class HEU_PartData;
 }
 namespace HoudiniEngineUnity {
 class HEU_VolumeScatterTrees;
 }
 namespace HoudiniEngineUnity {
-template<typename T>
-class IEquivable_1;
+class HEU_DetailPrototype;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeLayer;
-}
-namespace UnityEngine {
-class TerrainLayer;
-}
-namespace UnityEngine {
-class TerrainData;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailProperties;
+class HEU_HoudiniAsset;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class HEU_VolumeLayer;
 }
 namespace HoudiniEngineUnity {
-class HEU_GeoNode;
+template<typename T>
+class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace UnityEngine {
+class TerrainData;
 }
 namespace UnityEngine {
 class Texture2D;
 }
 namespace HoudiniEngineUnity {
-class HEU_PartData;
+class HEU_VolumeCachePreset;
 }
 namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
+class HEU_DetailProperties;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -282,8 +282,7 @@ static UnityEngine::Texture2D LoadAssetTexture(::StringW path) ;
 /// @brief Method IsEquivalentTo addr 0x207bf1c size 0x31c virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeCache other) ;
 
-// Ctor Parameters []
-explicit HEU_VolumeCache() ;
+static HoudiniEngineUnity::HEU_VolumeCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x207c238 size 0x84 virtual false final false
  void _ctor() ;

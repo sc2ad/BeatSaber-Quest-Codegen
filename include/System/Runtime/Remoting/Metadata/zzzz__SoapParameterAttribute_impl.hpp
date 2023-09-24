@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::Remoting::Metadata::SoapParameterAttribute::SoapParameterAttribute()  : System::Runtime::Remoting::Metadata::SoapAttribute(THROW_UNLESS(::il2cpp_utils::New<SoapParameterAttribute>())) {}
+ System::Runtime::Remoting::Metadata::SoapParameterAttribute System::Runtime::Remoting::Metadata::SoapParameterAttribute::New_ctor()  {
+System::Runtime::Remoting::Metadata::SoapParameterAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Metadata::SoapParameterAttribute>())};
+return o;
+}
  void System::Runtime::Remoting::Metadata::SoapParameterAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Metadata::SoapParameterAttribute>::get(),

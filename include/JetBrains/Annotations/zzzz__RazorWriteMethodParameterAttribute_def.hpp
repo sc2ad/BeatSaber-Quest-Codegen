@@ -47,8 +47,7 @@ constexpr explicit RazorWriteMethodParameterAttribute(void* ptr) noexcept : Syst
 
 // Methods
 
-// Ctor Parameters []
-explicit RazorWriteMethodParameterAttribute() ;
+static JetBrains::Annotations::RazorWriteMethodParameterAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d414c4 size 0x8 virtual false final false
  void _ctor() ;

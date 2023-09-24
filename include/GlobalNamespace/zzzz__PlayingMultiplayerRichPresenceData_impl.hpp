@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "atMaxPartySize", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::PlayingMultiplayerRichPresenceData::PlayingMultiplayerRichPresenceData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize)  : GlobalNamespace::InMultiplayerRichPresenceData(THROW_UNLESS(::il2cpp_utils::New<PlayingMultiplayerRichPresenceData>(difficultyBeatmap, atMaxPartySize))) {}
+ GlobalNamespace::PlayingMultiplayerRichPresenceData GlobalNamespace::PlayingMultiplayerRichPresenceData::New_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize)  {
+GlobalNamespace::PlayingMultiplayerRichPresenceData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayingMultiplayerRichPresenceData>(difficultyBeatmap, atMaxPartySize))};
+return o;
+}
  void GlobalNamespace::PlayingMultiplayerRichPresenceData::_ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, bool atMaxPartySize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayingMultiplayerRichPresenceData>::get(),

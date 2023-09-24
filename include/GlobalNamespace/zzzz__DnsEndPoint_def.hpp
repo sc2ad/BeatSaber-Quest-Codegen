@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Net {
+class IPEndPoint;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace BGNet::Core {
-class ITaskUtility;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Net {
-class IPEndPoint;
+namespace BGNet::Core {
+class ITaskUtility;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,14 +95,12 @@ constexpr System::Threading::Tasks::Task_1<System::Net::IPEndPoint> __get__getEn
 /// @brief Method get_endPoint addr 0xda6c68 size 0x74 virtual false final false
  System::Net::IPEndPoint get_endPoint() ;
 
-// Ctor Parameters [CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DnsEndPoint(::StringW hostName, int32_t port) ;
+static GlobalNamespace::DnsEndPoint New_ctor(::StringW hostName, int32_t port) ;
 
 /// @brief Method .ctor addr 0xda5af8 size 0x30 virtual false final false
  void _ctor(::StringW hostName, int32_t port) ;
 
-// Ctor Parameters [CppParam { name: "endPoint", ty: "System::Net::IPEndPoint", modifiers: "", def_value: None }]
-explicit DnsEndPoint(System::Net::IPEndPoint endPoint) ;
+static GlobalNamespace::DnsEndPoint New_ctor(System::Net::IPEndPoint endPoint) ;
 
 /// @brief Method .ctor addr 0xda6cdc size 0xb4 virtual false final false
  void _ctor(System::Net::IPEndPoint endPoint) ;

@@ -5,14 +5,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Point;
+}
 namespace UnityEngine {
 class Transform;
 }
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone;
+}
 namespace UnityEngine {
 struct Quaternion;
-}
-namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Point;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -90,8 +93,7 @@ constexpr UnityEngine::Vector3 __get_defaultLocalBendNormal() const;
 /// @brief Method GetBendNormalFromCurrentRotation addr 0x11e080c size 0x30 virtual false final false
  UnityEngine::Vector3 GetBendNormalFromCurrentRotation() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKSolverTrigonometric__TrigonometricBone New_ctor() ;
 
 /// @brief Method .ctor addr 0x11e5b74 size 0x8 virtual false final false
  void _ctor() ;
@@ -267,8 +269,7 @@ static UnityEngine::Vector3 GetDirectionToBendPoint(UnityEngine::Vector3 directi
 /// @brief Method GetBendDirection addr 0x11e5918 size 0x1c0 virtual false final false
  UnityEngine::Vector3 GetBendDirection(UnityEngine::Vector3 IKPosition, UnityEngine::Vector3 bendNormal) ;
 
-// Ctor Parameters []
-explicit IKSolverTrigonometric() ;
+static RootMotion::FinalIK::IKSolverTrigonometric New_ctor() ;
 
 /// @brief Method .ctor addr 0x11e19b4 size 0x128 virtual false final false
  void _ctor() ;

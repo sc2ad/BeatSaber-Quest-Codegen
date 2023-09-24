@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__SimpleAttributeTableGenerator_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::SimpleAttributeTableGenerator._ctor
 template<>
 
@@ -47,8 +47,10 @@ constexpr void Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::__set_attr
 constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::__get_attributes() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::AttributeTable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::SimpleAttributeTableGenerator(Org::BouncyCastle::Asn1::Cms::AttributeTable attributes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleAttributeTableGenerator>(attributes))) {}
+ Org::BouncyCastle::Cms::SimpleAttributeTableGenerator Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::New_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributes)  {
+Org::BouncyCastle::Cms::SimpleAttributeTableGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SimpleAttributeTableGenerator>(attributes))};
+return o;
+}
  void Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SimpleAttributeTableGenerator>::get(),

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__AimPoser__Pose;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -102,8 +105,7 @@ constexpr float_t __get_angleBuffer() const;
 /// @brief Method SetAngleBuffer addr 0x12072c8 size 0x8 virtual false final false
  void SetAngleBuffer(float_t value) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__AimPoser__Pose() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose New_ctor() ;
 
 /// @brief Method .ctor addr 0x12072d0 size 0x1c virtual false final false
  void _ctor() ;
@@ -177,8 +179,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose> __g
 /// @brief Method SetPoseActive addr 0x1207208 size 0x60 virtual false final false
  void SetPoseActive(RootMotion::FinalIK::RootMotion__FinalIK__AimPoser__Pose pose) ;
 
-// Ctor Parameters []
-explicit AimPoser() ;
+static RootMotion::FinalIK::AimPoser New_ctor() ;
 
 /// @brief Method .ctor addr 0x1207268 size 0x60 virtual false final false
  void _ctor() ;

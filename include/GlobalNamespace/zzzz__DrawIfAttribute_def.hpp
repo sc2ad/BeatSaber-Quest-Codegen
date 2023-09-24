@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__DrawIfAttribute__DisablingType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 struct GlobalNamespace__DrawIfAttribute__DisablingType;
@@ -61,6 +64,8 @@ __DontDraw = 1,
 constexpr operator __GlobalNamespace__DrawIfAttribute__DisablingType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__DrawIfAttribute__DisablingType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -152,14 +157,12 @@ constexpr GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType __get
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "disablingType", ty: "GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType", modifiers: "", def_value: None }]
-explicit DrawIfAttribute(::StringW propertyName, ::bs_hook::Il2CppWrapperType value, GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType disablingType) ;
+static GlobalNamespace::DrawIfAttribute New_ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType value, GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType disablingType) ;
 
 /// @brief Method .ctor addr 0x1f8f2d0 size 0x3c virtual false final false
  void _ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType value, GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType disablingType) ;
 
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "orValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "disablingType", ty: "GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType", modifiers: "", def_value: None }]
-explicit DrawIfAttribute(::StringW propertyName, ::bs_hook::Il2CppWrapperType value, ::bs_hook::Il2CppWrapperType orValue, GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType disablingType) ;
+static GlobalNamespace::DrawIfAttribute New_ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType value, ::bs_hook::Il2CppWrapperType orValue, GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType disablingType) ;
 
 /// @brief Method .ctor addr 0x1f8f30c size 0x44 virtual false final false
  void _ctor(::StringW propertyName, ::bs_hook::Il2CppWrapperType value, ::bs_hook::Il2CppWrapperType orValue, GlobalNamespace::GlobalNamespace__DrawIfAttribute__DisablingType disablingType) ;

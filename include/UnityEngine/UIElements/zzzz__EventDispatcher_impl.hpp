@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ClickDetector_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerDispatchState_def.hpp"
-#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ClickDetector_def.hpp"
+#include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerDispatchState_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 // Ctor Parameters [CppParam { name: "m_Event", ty: "UnityEngine::UIElements::EventBase", modifiers: "", def_value: Some("csnull") }, CppParam { name: "m_Panel", ty: "UnityEngine::UIElements::IPanel", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__EventDispatcher__EventRecord::UnityEngine__UIElements__EventDispatcher__EventRecord(UnityEngine::UIElements::EventBase m_Event, UnityEngine::UIElements::IPanel m_Panel) noexcept : ::bs_hook::ValueTypeWrapper() {this->m_Event = m_Event;
 this->m_Panel = m_Panel;
@@ -309,8 +310,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::EventDispatcher, false>(nullptr, ___internal_method, strategies);
 }
-// Ctor Parameters [CppParam { name: "strategies", ty: "System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy>", modifiers: "", def_value: None }]
- UnityEngine::UIElements::EventDispatcher::EventDispatcher(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EventDispatcher>(strategies))) {}
+ UnityEngine::UIElements::EventDispatcher UnityEngine::UIElements::EventDispatcher::New_ctor(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies)  {
+UnityEngine::UIElements::EventDispatcher o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::EventDispatcher>(strategies))};
+return o;
+}
  void UnityEngine::UIElements::EventDispatcher::_ctor(System::Collections::Generic::IList_1<UnityEngine::UIElements::IEventDispatchingStrategy> strategies)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::EventDispatcher>::get(),

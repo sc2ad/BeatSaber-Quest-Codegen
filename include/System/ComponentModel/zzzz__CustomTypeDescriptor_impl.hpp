@@ -1,14 +1,14 @@
 #pragma once
 #include "System/ComponentModel/zzzz__CustomTypeDescriptor_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
-#include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
-#include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
 //  Writing Method size for method: System::ComponentModel::CustomTypeDescriptor._ctor
 template<>
 
@@ -240,8 +240,10 @@ constexpr void System::ComponentModel::CustomTypeDescriptor::__set__parent(Syste
 constexpr System::ComponentModel::ICustomTypeDescriptor System::ComponentModel::CustomTypeDescriptor::__get__parent() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::ICustomTypeDescriptor, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ComponentModel::CustomTypeDescriptor::CustomTypeDescriptor()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomTypeDescriptor>())) {}
+ System::ComponentModel::CustomTypeDescriptor System::ComponentModel::CustomTypeDescriptor::New_ctor()  {
+System::ComponentModel::CustomTypeDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::CustomTypeDescriptor>())};
+return o;
+}
  void System::ComponentModel::CustomTypeDescriptor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::CustomTypeDescriptor>::get(),

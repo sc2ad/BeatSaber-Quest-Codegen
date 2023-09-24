@@ -120,8 +120,7 @@ constexpr System::Collections::Hashtable __get__customProperties() const;
 /// @brief Method CopyFrom addr 0x231d660 size 0x940 virtual false final false
  void CopyFrom(System::Runtime::Remoting::ChannelData other) ;
 
-// Ctor Parameters []
-explicit ChannelData() ;
+static System::Runtime::Remoting::ChannelData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2322288 size 0xb4 virtual false final false
  void _ctor() ;

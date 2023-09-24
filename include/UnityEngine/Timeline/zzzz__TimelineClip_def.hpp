@@ -8,14 +8,23 @@
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__TimelineClip__ClipExtrapolation;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
 namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
-class AnimationClip;
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__TimelineClip__Versions;
 }
 namespace UnityEngine::Timeline {
-class ICurvesOwner;
+class TrackAsset;
+}
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__TimelineClip__BlendCurveMode;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -25,10 +34,13 @@ namespace UnityEngine {
 class AnimationCurve;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class UnityEngine__Timeline__TimelineClip__TimelineClipUpgrade;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class ICurvesOwner;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -95,6 +107,8 @@ __ClipInFromGlobalToLocal = 1,
 constexpr operator __UnityEngine__Timeline__TimelineClip__Versions_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__TimelineClip__Versions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -217,6 +231,8 @@ constexpr operator __UnityEngine__Timeline__TimelineClip__ClipExtrapolation_Unwr
 return std::bit_cast<__UnityEngine__Timeline__TimelineClip__ClipExtrapolation_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -294,6 +310,8 @@ __Manual = 1,
 constexpr operator __UnityEngine__Timeline__TimelineClip__BlendCurveMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__TimelineClip__BlendCurveMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -646,8 +664,7 @@ constexpr ::StringW __get_m_DisplayName() const;
 /// @brief Method UpgradeToLatestVersion addr 0x2abc914 size 0x38 virtual false final false
  void UpgradeToLatestVersion() ;
 
-// Ctor Parameters [CppParam { name: "parent", ty: "UnityEngine::Timeline::TrackAsset", modifiers: "", def_value: None }]
-explicit TimelineClip(UnityEngine::Timeline::TrackAsset parent) ;
+static UnityEngine::Timeline::TimelineClip New_ctor(UnityEngine::Timeline::TrackAsset parent) ;
 
 /// @brief Method .ctor addr 0x2abc988 size 0x3c virtual false final false
  void _ctor(UnityEngine::Timeline::TrackAsset parent) ;

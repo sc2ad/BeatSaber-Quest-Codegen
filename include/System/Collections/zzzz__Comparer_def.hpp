@@ -3,7 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Globalization {
-class CultureInfo;
+class CompareInfo;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -11,14 +14,11 @@ class ISerializable;
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Collections {
-class IComparer;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Globalization {
-class CompareInfo;
+class CultureInfo;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -93,14 +93,12 @@ static System::Collections::Comparer __get_DefaultInvariant() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit Comparer(System::Globalization::CultureInfo culture) ;
+static System::Collections::Comparer New_ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x240e26c size 0x88 virtual false final false
  void _ctor(System::Globalization::CultureInfo culture) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Comparer(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Comparer New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x240e2f4 size 0x174 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

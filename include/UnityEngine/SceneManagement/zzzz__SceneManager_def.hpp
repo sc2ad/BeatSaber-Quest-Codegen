@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::Events {
-template<typename T0>
-class UnityAction_1;
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneParameters;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
@@ -25,10 +24,11 @@ template<typename T0,typename T1>
 class UnityAction_2;
 }
 namespace UnityEngine::SceneManagement {
-struct LoadSceneParameters;
+struct UnloadSceneOptions;
 }
-namespace UnityEngine {
-class AsyncOperation;
+namespace UnityEngine::Events {
+template<typename T0>
+class UnityAction_1;
 }
 // Forward declare root types
 namespace UnityEngine::SceneManagement {

@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine {
-struct Vector4;
-}
 namespace Unity::XR::Oculus {
 struct SystemHeadset;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {

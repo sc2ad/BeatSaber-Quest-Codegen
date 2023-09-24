@@ -11,22 +11,31 @@ namespace Newtonsoft::Json::Utilities {
 template<typename T,typename TResult>
 class MethodCall_2;
 }
+namespace System::Reflection {
+class MethodBase;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionMember;
+}
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_0;
+}
 namespace Newtonsoft::Json::Serialization {
 template<typename T>
 class ObjectConstructor_1;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class IDictionary_2;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json::Utilities {
-class ReflectionMember;
+class Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_2;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IDictionary_2;
+}
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -92,8 +101,7 @@ constexpr System::Func_1<::bs_hook::Il2CppWrapperType> __get_ctor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_0() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e3374 size 0x8 virtual false final false
  void _ctor() ;
@@ -156,8 +164,7 @@ constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_1() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e3658 size 0x8 virtual false final false
  void _ctor() ;
@@ -220,8 +227,7 @@ constexpr Newtonsoft::Json::Utilities::MethodCall_2<::bs_hook::Il2CppWrapperType
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_2() ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__ReflectionObject____c__DisplayClass13_2 New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e3660 size 0x8 virtual false final false
  void _ctor() ;
@@ -315,8 +321,7 @@ constexpr System::Collections::Generic::IDictionary_2<::StringW,Newtonsoft::Json
 /// @brief Method set_Members addr 0x24e2758 size 0x8 virtual false final false
  void set_Members(System::Collections::Generic::IDictionary_2<::StringW,Newtonsoft::Json::Utilities::ReflectionMember> value) ;
 
-// Ctor Parameters []
-explicit ReflectionObject() ;
+static Newtonsoft::Json::Utilities::ReflectionObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e2760 size 0x80 virtual false final false
  void _ctor() ;

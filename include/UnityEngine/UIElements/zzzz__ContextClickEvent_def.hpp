@@ -47,8 +47,7 @@ constexpr explicit ContextClickEvent(void* ptr) noexcept : UnityEngine::UIElemen
 
 // Methods
 
-// Ctor Parameters []
-explicit ContextClickEvent() ;
+static UnityEngine::UIElements::ContextClickEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd9fe0 size 0x48 virtual false final false
  void _ctor() ;

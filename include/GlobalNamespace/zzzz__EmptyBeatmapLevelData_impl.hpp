@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__EmptyBeatmapLevelData_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EmptyBeatmapLevelData.get_audioClip
 template<>
@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EmptyBeatmapLevelData::EmptyBeatmapLevelData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EmptyBeatmapLevelData>())) {}
+ GlobalNamespace::EmptyBeatmapLevelData GlobalNamespace::EmptyBeatmapLevelData::New_ctor()  {
+GlobalNamespace::EmptyBeatmapLevelData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EmptyBeatmapLevelData>())};
+return o;
+}
  void GlobalNamespace::EmptyBeatmapLevelData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EmptyBeatmapLevelData>::get(),

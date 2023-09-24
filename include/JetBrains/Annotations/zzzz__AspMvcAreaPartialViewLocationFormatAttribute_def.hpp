@@ -62,8 +62,7 @@ constexpr ::StringW __get__Format_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AspMvcAreaPartialViewLocationFormatAttribute(::StringW format) ;
+static JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute New_ctor(::StringW format) ;
 
 /// @brief Method .ctor addr 0x2d40f38 size 0x28 virtual false final false
  void _ctor(::StringW format) ;

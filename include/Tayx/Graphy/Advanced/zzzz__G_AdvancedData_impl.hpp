@@ -1,16 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
-#include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Text_def.hpp"
 //  Writing Method size for method: Tayx::Graphy::Advanced::G_AdvancedData.OnEnable
 template<>
 
@@ -347,8 +345,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tayx::Graphy::Advanced::G_AdvancedData::G_AdvancedData()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<G_AdvancedData>())) {}
+ Tayx::Graphy::Advanced::G_AdvancedData Tayx::Graphy::Advanced::G_AdvancedData::New_ctor()  {
+Tayx::Graphy::Advanced::G_AdvancedData o{THROW_UNLESS(::il2cpp_utils::New<Tayx::Graphy::Advanced::G_AdvancedData>())};
+return o;
+}
  void Tayx::Graphy::Advanced::G_AdvancedData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tayx::Graphy::Advanced::G_AdvancedData>::get(),

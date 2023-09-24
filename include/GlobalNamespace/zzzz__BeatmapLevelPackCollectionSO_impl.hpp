@@ -1,10 +1,10 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapLevelPackCollectionSO.get_previewBeatmapLevelPack
 template<>
 
@@ -174,8 +174,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapLevelPackCollectionSO::BeatmapLevelPackCollectionSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelPackCollectionSO>())) {}
+ GlobalNamespace::BeatmapLevelPackCollectionSO GlobalNamespace::BeatmapLevelPackCollectionSO::New_ctor()  {
+GlobalNamespace::BeatmapLevelPackCollectionSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelPackCollectionSO>())};
+return o;
+}
  void GlobalNamespace::BeatmapLevelPackCollectionSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelPackCollectionSO>::get(),

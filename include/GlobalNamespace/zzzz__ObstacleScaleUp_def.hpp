@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class ObstacleControllerBase;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
-namespace GlobalNamespace {
-class ObstacleControllerBase;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,8 +93,7 @@ constexpr GlobalNamespace::ObstacleController __get__obstacleController() const;
 /// @brief Method HandleObstacleControllerDidInit addr 0x22461f0 size 0xd0 virtual false final false
  void HandleObstacleControllerDidInit(GlobalNamespace::ObstacleControllerBase obstacleController) ;
 
-// Ctor Parameters []
-explicit ObstacleScaleUp() ;
+static GlobalNamespace::ObstacleScaleUp New_ctor() ;
 
 /// @brief Method .ctor addr 0x22462c0 size 0x10 virtual false final false
  void _ctor() ;

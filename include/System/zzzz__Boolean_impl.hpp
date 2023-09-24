@@ -1,16 +1,16 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__Boolean_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
 #include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: System::Boolean.GetHashCode
 template<>
 

@@ -318,8 +318,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::CombinedHash::__set_mSha1(Org::Bo
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::Tls::CombinedHash::__get_mSha1() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::CombinedHash::CombinedHash()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CombinedHash>())) {}
+ Org::BouncyCastle::Crypto::Tls::CombinedHash Org::BouncyCastle::Crypto::Tls::CombinedHash::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::CombinedHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::CombinedHash>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::CombinedHash>::get(),
@@ -329,8 +331,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Tls::CombinedHash", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::CombinedHash::CombinedHash(Org::BouncyCastle::Crypto::Tls::CombinedHash t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CombinedHash>(t))) {}
+ Org::BouncyCastle::Crypto::Tls::CombinedHash Org::BouncyCastle::Crypto::Tls::CombinedHash::New_ctor(Org::BouncyCastle::Crypto::Tls::CombinedHash t)  {
+Org::BouncyCastle::Crypto::Tls::CombinedHash o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::CombinedHash>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor(Org::BouncyCastle::Crypto::Tls::CombinedHash t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::CombinedHash>::get(),

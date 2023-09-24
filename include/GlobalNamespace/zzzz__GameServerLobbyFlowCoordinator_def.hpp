@@ -6,101 +6,41 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace HMUI {
-struct HMUI__ViewController__AnimationType;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsViewController;
-}
-namespace GlobalNamespace {
-class PlayersMissingEntitlementsNetSerializable;
-}
-namespace GlobalNamespace {
-class LobbySetupViewController;
-}
-namespace GlobalNamespace {
-struct CannotStartGameReason;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class SelectModifiersViewController;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+struct GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType;
 }
 namespace HMUI {
 class ScreenModeSO;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelSelectionFlowCoordinator;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
 }
 namespace HMUI {
 class ViewController;
 }
 namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
-class LobbyGameStateModel;
-}
-namespace GlobalNamespace {
-class ConnectionErrorDialogViewController;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class GameplaySetupViewController;
-}
-namespace GlobalNamespace {
-class MultiplayerLobbyController;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class MultiplayerSettingsPanelController;
-}
-namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
-}
-namespace GlobalNamespace {
 struct MultiplayerLobbyState;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class ServerPlayerListViewController;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__LevelSelectionFlowCoordinator__State;
 }
 namespace GlobalNamespace {
-struct DisconnectedReason;
+class ILobbyPlayersDataModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
 }
 namespace System {
 class Action;
@@ -109,22 +49,91 @@ namespace GlobalNamespace {
 class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
 class CenterStageScreenController;
+}
+namespace GlobalNamespace {
+class PlayersMissingEntitlementsNetSerializable;
+}
+namespace GlobalNamespace {
+class MultiplayerSettingsPanelController;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class SelectModifiersViewController;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsViewController;
+}
+namespace GlobalNamespace {
+class LobbySetupViewController;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace GlobalNamespace {
+class ConnectionErrorDialogViewController;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class SimpleDialogPromptViewController;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct CannotStartGameReason;
+}
+namespace GlobalNamespace {
+class GameplaySetupViewController;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
-namespace System::Text {
-class StringBuilder;
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class ServerPlayerListViewController;
+}
+namespace HMUI {
+struct HMUI__ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class LobbyGameStateModel;
 }
 namespace HMUI {
 class ScreenModeController;
 }
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class MultiplayerLevelSelectionFlowCoordinator;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class MultiplayerLobbyController;
 }
 namespace UnityEngine::EventSystems {
 class EventSystem;
@@ -193,6 +202,8 @@ __Party = 3,
 constexpr operator __GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__GameServerLobbyFlowCoordinator__LobbyType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -282,8 +293,7 @@ constexpr UnityEngine::EventSystems::EventSystem __get_eventSystem() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0() ;
+static GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass70_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x213b830 size 0x8 virtual false final false
  void _ctor() ;
@@ -352,8 +362,7 @@ constexpr ::StringW __get_userId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0() ;
+static GlobalNamespace::GlobalNamespace__GameServerLobbyFlowCoordinator____c__DisplayClass85_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x213cb30 size 0x8 virtual false final false
  void _ctor() ;
@@ -851,8 +860,7 @@ constexpr bool __get__rejoinQuickPlay_k__BackingField() const;
 /// @brief Method DismissViewControllersAndCoordinators addr 0x213b838 size 0xf8 virtual false final false
  void DismissViewControllersAndCoordinators() ;
 
-// Ctor Parameters []
-explicit GameServerLobbyFlowCoordinator() ;
+static GlobalNamespace::GameServerLobbyFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x213e154 size 0x68 virtual false final false
  void _ctor() ;

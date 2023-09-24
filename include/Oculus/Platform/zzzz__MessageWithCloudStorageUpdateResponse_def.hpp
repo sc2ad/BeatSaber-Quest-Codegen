@@ -52,8 +52,7 @@ constexpr explicit MessageWithCloudStorageUpdateResponse(void* ptr) noexcept : O
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithCloudStorageUpdateResponse(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithCloudStorageUpdateResponse New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e530 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

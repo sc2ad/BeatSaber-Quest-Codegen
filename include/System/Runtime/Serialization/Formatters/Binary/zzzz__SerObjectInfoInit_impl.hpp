@@ -37,8 +37,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::SerObjectInfo
 constexpr System::Runtime::Serialization::Formatters::Binary::SerStack System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::__get_oiPool() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Formatters::Binary::SerStack, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::SerObjectInfoInit()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SerObjectInfoInit>())) {}
+ System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit>::get(),

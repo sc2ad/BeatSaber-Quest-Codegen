@@ -93,8 +93,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_InputHDAInfo::HEU_InputHDAInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_InputHDAInfo>())) {}
+ HoudiniEngineUnity::HEU_InputHDAInfo HoudiniEngineUnity::HEU_InputHDAInfo::New_ctor()  {
+HoudiniEngineUnity::HEU_InputHDAInfo o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_InputHDAInfo>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_InputHDAInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_InputHDAInfo>::get(),

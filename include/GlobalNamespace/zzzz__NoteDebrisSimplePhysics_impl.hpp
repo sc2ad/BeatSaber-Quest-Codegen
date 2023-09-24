@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSimplePhysics_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteDebrisSimplePhysics.get_position
 template<>
 
@@ -180,8 +180,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, force);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteDebrisSimplePhysics::NoteDebrisSimplePhysics()  : GlobalNamespace::NoteDebrisPhysics(THROW_UNLESS(::il2cpp_utils::New<NoteDebrisSimplePhysics>())) {}
+ GlobalNamespace::NoteDebrisSimplePhysics GlobalNamespace::NoteDebrisSimplePhysics::New_ctor()  {
+GlobalNamespace::NoteDebrisSimplePhysics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteDebrisSimplePhysics>())};
+return o;
+}
  void GlobalNamespace::NoteDebrisSimplePhysics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteDebrisSimplePhysics>::get(),

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Utilities/zzzz__Asn1Dump_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerApplicationSpecific_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerApplicationSpecific_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump._ctor
 template<>
 
@@ -146,8 +146,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
  ::StringW Org::BouncyCastle::Asn1::Utilities::Asn1Dump::__get_NewLine()  {
 return ::cordl_internals::getStaticField<::StringW, "NewLine", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Utilities::Asn1Dump>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Utilities::Asn1Dump::Asn1Dump()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1Dump>())) {}
+ Org::BouncyCastle::Asn1::Utilities::Asn1Dump Org::BouncyCastle::Asn1::Utilities::Asn1Dump::New_ctor()  {
+Org::BouncyCastle::Asn1::Utilities::Asn1Dump o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Utilities::Asn1Dump>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Utilities::Asn1Dump::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Utilities::Asn1Dump>::get(),

@@ -2,13 +2,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -87,14 +87,12 @@ constexpr GlobalNamespace::GameplayModifiers __get__gameplayModifiers() const;
 /// @brief Method get_gameplayModifiers addr 0x21f3160 size 0x8 virtual true final true
  GlobalNamespace::GameplayModifiers get_gameplayModifiers() ;
 
-// Ctor Parameters []
-explicit LevelGameplaySetupData() ;
+static GlobalNamespace::LevelGameplaySetupData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f3168 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::PreviewDifficultyBeatmap", modifiers: "", def_value: None }, CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }]
-explicit LevelGameplaySetupData(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers) ;
+static GlobalNamespace::LevelGameplaySetupData New_ctor(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
 /// @brief Method .ctor addr 0x21f31d0 size 0xa4 virtual false final false
  void _ctor(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel, GlobalNamespace::GameplayModifiers gameplayModifiers) ;

@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
 namespace Mono::Net::Security {
-class MobileAuthenticatedStream;
+struct AsyncOperationStatus;
 }
 namespace Mono::Net::Security {
-struct AsyncOperationStatus;
+class MobileAuthenticatedStream;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -53,8 +53,7 @@ constexpr explicit AsyncHandshakeRequest(void* ptr) noexcept : Mono::Net::Securi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }]
-explicit AsyncHandshakeRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync) ;
+static Mono::Net::Security::AsyncHandshakeRequest New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync) ;
 
 /// @brief Method .ctor addr 0x268dd08 size 0x8 virtual false final false
  void _ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync) ;

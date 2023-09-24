@@ -62,8 +62,7 @@ constexpr int32_t __get_versionAdded() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit OptionalFieldAttribute() ;
+static System::Runtime::Serialization::OptionalFieldAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2351c0c size 0x10 virtual false final false
  void _ctor() ;

@@ -62,8 +62,7 @@ constexpr UnityEngine::KeyCode __get__keyCode() const;
 /// @brief Method Update addr 0x1f79f9c size 0x28 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit ResetPlayerPrefsOnButton() ;
+static GlobalNamespace::ResetPlayerPrefsOnButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f79fc4 size 0x10 virtual false final false
  void _ctor() ;

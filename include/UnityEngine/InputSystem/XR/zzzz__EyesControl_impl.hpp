@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__EyesControl_def.hpp"
-#include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
+#include "UnityEngine/InputSystem/XR/zzzz__Eyes_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::XR::EyesControl.get_leftEyePosition
 template<>
 
@@ -506,8 +506,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, statePtr);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XR::EyesControl::EyesControl()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::InputSystem::XR::Eyes>(THROW_UNLESS(::il2cpp_utils::New<EyesControl>())) {}
+ UnityEngine::InputSystem::XR::EyesControl UnityEngine::InputSystem::XR::EyesControl::New_ctor()  {
+UnityEngine::InputSystem::XR::EyesControl o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XR::EyesControl>())};
+return o;
+}
  void UnityEngine::InputSystem::XR::EyesControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XR::EyesControl>::get(),

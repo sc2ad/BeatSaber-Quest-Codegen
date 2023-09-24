@@ -2,24 +2,25 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Image_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlChildElementDescription_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
-#include "UnityEngine/zzzz__ScaleMode_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/zzzz__ScaleMode_def.hpp"
+#include "UnityEngine/UIElements/zzzz__MeshGenerationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Image_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits.get_uxmlChildElementsDescription
 template<>
 
@@ -63,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits::UnityEngine__UIElements__Image__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__VisualElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Image__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits>::get(),
@@ -482,8 +485,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::Image::Image()  : UnityEngine::UIElements::VisualElement(THROW_UNLESS(::il2cpp_utils::New<Image>())) {}
+ UnityEngine::UIElements::Image UnityEngine::UIElements::Image::New_ctor()  {
+UnityEngine::UIElements::Image o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::Image>())};
+return o;
+}
  void UnityEngine::UIElements::Image::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::Image>::get(),
@@ -573,8 +578,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory::UnityEngine__UIElements__Image__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Image,UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Image__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlFactory>::get(),
@@ -764,8 +771,10 @@ constexpr void GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1::__get___4__this() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::UnityEngine__UIElements__Image__UxmlTraits, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1>(__1__state))) {}
+ GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1 GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1::New_ctor(int32_t __1__state)  {
+GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1>(__1__state))};
+return o;
+}
  void GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::UnityEngine__UIElements__Image__UxmlTraits___get_uxmlChildElementsDescription_d__1>::get(),

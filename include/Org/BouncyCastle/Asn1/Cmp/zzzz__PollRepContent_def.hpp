@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiFreeText;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiFreeText;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -90,8 +90,7 @@ constexpr Org::BouncyCastle::Asn1::Cmp::PkiFreeText __get_reason() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PollRepContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::PollRepContent New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde0928 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -99,14 +98,12 @@ explicit PollRepContent(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xddcf08 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::PollRepContent GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "checkAfter", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit PollRepContent(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::DerInteger checkAfter) ;
+static Org::BouncyCastle::Asn1::Cmp::PollRepContent New_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::DerInteger checkAfter) ;
 
 /// @brief Method .ctor addr 0xde09cc size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::DerInteger checkAfter) ;
 
-// Ctor Parameters [CppParam { name: "certReqId", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "checkAfter", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }, CppParam { name: "reason", ty: "Org::BouncyCastle::Asn1::Cmp::PkiFreeText", modifiers: "", def_value: None }]
-explicit PollRepContent(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::DerInteger checkAfter, Org::BouncyCastle::Asn1::Cmp::PkiFreeText reason) ;
+static Org::BouncyCastle::Asn1::Cmp::PollRepContent New_ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::DerInteger checkAfter, Org::BouncyCastle::Asn1::Cmp::PkiFreeText reason) ;
 
 /// @brief Method .ctor addr 0xde09fc size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger certReqId, Org::BouncyCastle::Asn1::DerInteger checkAfter, Org::BouncyCastle::Asn1::Cmp::PkiFreeText reason) ;

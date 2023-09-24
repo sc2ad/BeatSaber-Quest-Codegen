@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class PlayerTransforms;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -193,8 +193,7 @@ constexpr UnityEngine::Vector3 __get__localPosition() const;
 /// @brief Method ManualUpdate addr 0x2240da0 size 0x180 virtual false final false
  UnityEngine::Vector3 ManualUpdate() ;
 
-// Ctor Parameters []
-explicit NoteFloorMovement() ;
+static GlobalNamespace::NoteFloorMovement New_ctor() ;
 
 /// @brief Method .ctor addr 0x2240f20 size 0x8 virtual false final false
  void _ctor() ;

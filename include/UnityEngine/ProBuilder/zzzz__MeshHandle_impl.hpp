@@ -74,8 +74,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Mesh, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "mesh", ty: "UnityEngine::Mesh", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::MeshHandle::MeshHandle(UnityEngine::Transform transform, UnityEngine::Mesh mesh)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MeshHandle>(transform, mesh))) {}
+ UnityEngine::ProBuilder::MeshHandle UnityEngine::ProBuilder::MeshHandle::New_ctor(UnityEngine::Transform transform, UnityEngine::Mesh mesh)  {
+UnityEngine::ProBuilder::MeshHandle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshHandle>(transform, mesh))};
+return o;
+}
  void UnityEngine::ProBuilder::MeshHandle::_ctor(UnityEngine::Transform transform, UnityEngine::Mesh mesh)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshHandle>::get(),

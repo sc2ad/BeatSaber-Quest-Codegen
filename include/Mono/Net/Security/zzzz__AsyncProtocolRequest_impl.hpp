@@ -1,16 +1,17 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Mono/Net/Security/zzzz__AsyncProtocolResult_def.hpp"
-#include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncProtocolRequest_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncProtocolResult_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: Mono::Net::Security::Mono__Net__Security__AsyncProtocolRequest___StartOperation_d__23.MoveNext
@@ -635,8 +636,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "Mono::Net::Security::MobileAuthenticatedStream", modifiers: "", def_value: None }, CppParam { name: "sync", ty: "bool", modifiers: "", def_value: None }]
- Mono::Net::Security::AsyncProtocolRequest::AsyncProtocolRequest(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncProtocolRequest>(parent, sync))) {}
+ Mono::Net::Security::AsyncProtocolRequest Mono::Net::Security::AsyncProtocolRequest::New_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync)  {
+Mono::Net::Security::AsyncProtocolRequest o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::AsyncProtocolRequest>(parent, sync))};
+return o;
+}
  void Mono::Net::Security::AsyncProtocolRequest::_ctor(Mono::Net::Security::MobileAuthenticatedStream parent, bool sync)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::AsyncProtocolRequest>::get(),

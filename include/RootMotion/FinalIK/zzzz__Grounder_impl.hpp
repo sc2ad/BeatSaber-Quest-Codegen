@@ -2,7 +2,7 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounder_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Grounder_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -75,8 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate::RootMotion__FinalIK__Grounder__GrounderDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Grounder__GrounderDelegate>(object, method))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate>(object, method))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__Grounder__GrounderDelegate>::get(),
@@ -394,8 +396,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::Grounder::Grounder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Grounder>())) {}
+ RootMotion::FinalIK::Grounder RootMotion::FinalIK::Grounder::New_ctor()  {
+RootMotion::FinalIK::Grounder o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::Grounder>())};
+return o;
+}
  void RootMotion::FinalIK::Grounder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::Grounder>::get(),

@@ -81,8 +81,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::WTauNafPreCompInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WTauNafPreCompInfo>())) {}
+ Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::New_ctor()  {
+Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo>())};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo>::get(),

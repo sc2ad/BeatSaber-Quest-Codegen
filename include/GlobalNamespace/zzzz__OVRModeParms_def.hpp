@@ -68,8 +68,7 @@ constexpr GlobalNamespace::GlobalNamespace__OVRInput__RawButton __get_resetButto
 /// @brief Method TestPowerStateMode addr 0x2628f94 size 0xa4 virtual false final false
  void TestPowerStateMode() ;
 
-// Ctor Parameters []
-explicit OVRModeParms() ;
+static GlobalNamespace::OVRModeParms New_ctor() ;
 
 /// @brief Method .ctor addr 0x2629038 size 0x10 virtual false final false
  void _ctor() ;

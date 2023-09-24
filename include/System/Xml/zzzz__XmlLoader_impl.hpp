@@ -1,20 +1,20 @@
 #pragma once
 #include "System/Xml/zzzz__XmlLoader_def.hpp"
 #include "System/Xml/zzzz__XmlEntityReference_def.hpp"
-#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
-#include "System/Xml/zzzz__XmlElement_def.hpp"
-#include "System/Xml/zzzz__XmlAttribute_def.hpp"
-#include "System/Xml/zzzz__XmlParserContext_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlEntity_def.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
-#include "System/Xml/zzzz__XmlDeclaration_def.hpp"
+#include "System/Xml/zzzz__XmlElement_def.hpp"
+#include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/Xml/zzzz__XmlNode_def.hpp"
-#include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlDeclaration_def.hpp"
+#include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
+#include "System/Xml/zzzz__XmlEntity_def.hpp"
+#include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlParserContext_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__XmlAttribute_def.hpp"
 //  Writing Method size for method: System::Xml::XmlLoader._ctor
 template<>
 
@@ -475,8 +475,10 @@ constexpr void System::Xml::XmlLoader::__set_preserveWhitespace(bool value)  {
 constexpr bool System::Xml::XmlLoader::__get_preserveWhitespace() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::XmlLoader::XmlLoader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlLoader>())) {}
+ System::Xml::XmlLoader System::Xml::XmlLoader::New_ctor()  {
+System::Xml::XmlLoader o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlLoader>())};
+return o;
+}
  void System::Xml::XmlLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlLoader>::get(),

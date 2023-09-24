@@ -5,16 +5,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class Font;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
 struct TextAnchor;
 }
 namespace UnityEngine {
+class Font;
+}
+namespace UnityEngine {
 struct FontStyle;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

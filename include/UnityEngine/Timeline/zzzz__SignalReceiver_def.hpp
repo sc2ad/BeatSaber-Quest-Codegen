@@ -4,24 +4,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace UnityEngine::Timeline {
 class SignalAsset;
 }
-namespace UnityEngine::Events {
-class UnityEvent;
+namespace UnityEngine::Playables {
+class INotificationReceiver;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine::Playables {
-class INotification;
+struct Playable;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
 }
 namespace UnityEngine::Playables {
-class INotificationReceiver;
+class INotification;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__SignalReceiver__EventKeyValue;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -116,8 +119,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent> 
 /// @brief Method get_events addr 0x2ad14ec size 0x8 virtual false final false
  System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent> get_events() ;
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__SignalReceiver__EventKeyValue() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKeyValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad1424 size 0xc0 virtual false final false
  void _ctor() ;
@@ -221,8 +223,7 @@ constexpr UnityEngine::Timeline::UnityEngine__Timeline__SignalReceiver__EventKey
 /// @brief Method OnEnable addr 0x2ad13bc size 0x4 virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit SignalReceiver() ;
+static UnityEngine::Timeline::SignalReceiver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad13c0 size 0x64 virtual false final false
  void _ctor() ;

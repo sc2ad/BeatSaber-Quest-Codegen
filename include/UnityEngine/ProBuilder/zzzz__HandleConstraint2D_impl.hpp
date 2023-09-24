@@ -172,8 +172,10 @@ return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2Cp
  UnityEngine::ProBuilder::HandleConstraint2D UnityEngine::ProBuilder::HandleConstraint2D::__get_None()  {
 return ::cordl_internals::getStaticField<UnityEngine::ProBuilder::HandleConstraint2D, "None", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::HandleConstraint2D>::get>();
 }
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::HandleConstraint2D::HandleConstraint2D(int32_t x, int32_t y)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HandleConstraint2D>(x, y))) {}
+ UnityEngine::ProBuilder::HandleConstraint2D UnityEngine::ProBuilder::HandleConstraint2D::New_ctor(int32_t x, int32_t y)  {
+UnityEngine::ProBuilder::HandleConstraint2D o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::HandleConstraint2D>(x, y))};
+return o;
+}
  void UnityEngine::ProBuilder::HandleConstraint2D::_ctor(int32_t x, int32_t y)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::HandleConstraint2D>::get(),

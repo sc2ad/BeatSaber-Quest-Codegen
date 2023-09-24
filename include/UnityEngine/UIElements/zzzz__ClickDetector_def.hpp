@@ -5,15 +5,18 @@
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__ClickDetector__ButtonClickStatus;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -97,8 +100,7 @@ constexpr int32_t __get_m_ClickCount() const;
 /// @brief Method Reset addr 0x2c3a484 size 0x64 virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__ClickDetector__ButtonClickStatus() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ClickDetector__ButtonClickStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c3a214 size 0x8 virtual false final false
  void _ctor() ;
@@ -177,8 +179,7 @@ static int32_t get_s_DoubleClickTime() ;
 /// @brief Method set_s_DoubleClickTime addr 0x2c39f58 size 0x5c virtual false final false
 static void set_s_DoubleClickTime(int32_t value) ;
 
-// Ctor Parameters []
-explicit ClickDetector() ;
+static UnityEngine::UIElements::ClickDetector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c39fb4 size 0x260 virtual false final false
  void _ctor() ;

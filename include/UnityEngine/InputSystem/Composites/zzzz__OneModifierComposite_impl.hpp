@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__OneModifierComposite_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Composites::OneModifierComposite.get_valueType
 template<>
 
@@ -264,8 +264,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, context, part, valueType, valueSizeInBytes, isButton);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Composites::OneModifierComposite::OneModifierComposite()  : UnityEngine::InputSystem::InputBindingComposite(THROW_UNLESS(::il2cpp_utils::New<OneModifierComposite>())) {}
+ UnityEngine::InputSystem::Composites::OneModifierComposite UnityEngine::InputSystem::Composites::OneModifierComposite::New_ctor()  {
+UnityEngine::InputSystem::Composites::OneModifierComposite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Composites::OneModifierComposite>())};
+return o;
+}
  void UnityEngine::InputSystem::Composites::OneModifierComposite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Composites::OneModifierComposite>::get(),

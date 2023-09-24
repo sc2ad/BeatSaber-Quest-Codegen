@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class IEquatable_1;
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class IPlayableBehaviour;
@@ -20,10 +19,11 @@ namespace UnityEngine {
 class Object;
 }
 namespace System {
-class ICloneable;
+template<typename T>
+class IEquatable_1;
 }
-namespace UnityEngine::Playables {
-struct PlayableHandle;
+namespace System {
+class ICloneable;
 }
 namespace UnityEngine::Playables {
 struct Playable;

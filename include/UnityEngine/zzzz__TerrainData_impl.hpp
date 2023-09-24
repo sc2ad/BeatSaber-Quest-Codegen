@@ -3,11 +3,12 @@
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TerrainData_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
-#include "UnityEngine/zzzz__TreePrototype_def.hpp"
-#include "UnityEngine/zzzz__TreeInstance_def.hpp"
-#include "UnityEngine/zzzz__Terrain_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__DetailPrototype_def.hpp"
+#include "UnityEngine/zzzz__TerrainData_def.hpp"
+#include "UnityEngine/zzzz__Terrain_def.hpp"
+#include "UnityEngine/zzzz__TreePrototype_def.hpp"
+#include "UnityEngine/zzzz__TreeInstance_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__TerrainData__BoundaryValueType::UnityEngine__TerrainData__BoundaryValueType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -803,8 +804,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, type);
 }
-// Ctor Parameters []
- UnityEngine::TerrainData::TerrainData()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<TerrainData>())) {}
+ UnityEngine::TerrainData UnityEngine::TerrainData::New_ctor()  {
+UnityEngine::TerrainData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TerrainData>())};
+return o;
+}
  void UnityEngine::TerrainData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TerrainData>::get(),

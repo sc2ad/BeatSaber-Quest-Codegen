@@ -56,8 +56,7 @@ constexpr explicit DoubleAddMultiplier(void* ptr) noexcept : Org::BouncyCastle::
 /// @brief Method MultiplyPositive addr 0xfa8af4 size 0x1b4 virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
-// Ctor Parameters []
-explicit DoubleAddMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa8ca8 size 0x8 virtual false final false
  void _ctor() ;

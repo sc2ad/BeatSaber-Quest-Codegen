@@ -8,7 +8,7 @@ class TransitionEndEvent;
 // Type: UnityEngine.UIElements::TransitionEndEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7287)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 4984 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 4984 }), TypeDefinitionIndex(TypeDefinitionIndex(7287))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7290))
 // CS Name: UnityEngine.UIElements.TransitionEndEvent
 class CORDL_TYPE TransitionEndEvent : public UnityEngine::UIElements::TransitionEventBase_1<UnityEngine::UIElements::TransitionEndEvent> {
@@ -47,8 +47,7 @@ constexpr explicit TransitionEndEvent(void* ptr) noexcept : UnityEngine::UIEleme
 
 // Methods
 
-// Ctor Parameters []
-explicit TransitionEndEvent() ;
+static UnityEngine::UIElements::TransitionEndEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd7610 size 0x48 virtual false final false
  void _ctor() ;

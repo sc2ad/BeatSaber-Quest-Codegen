@@ -110,14 +110,12 @@ constexpr Org::BouncyCastle::Math::BigInteger __get_qInv() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "modulus", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "privateExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "dP", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "dQ", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "qInv", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaPrivateCrtKeyParameters(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger dP, Org::BouncyCastle::Math::BigInteger dQ, Org::BouncyCastle::Math::BigInteger qInv) ;
+static Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters New_ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger dP, Org::BouncyCastle::Math::BigInteger dQ, Org::BouncyCastle::Math::BigInteger qInv) ;
 
 /// @brief Method .ctor addr 0xeabadc size 0x22c virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger dP, Org::BouncyCastle::Math::BigInteger dQ, Org::BouncyCastle::Math::BigInteger qInv) ;
 
-// Ctor Parameters [CppParam { name: "rsaPrivateKey", ty: "Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure", modifiers: "", def_value: None }]
-explicit RsaPrivateCrtKeyParameters(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure rsaPrivateKey) ;
+static Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters New_ctor(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure rsaPrivateKey) ;
 
 /// @brief Method .ctor addr 0xeabdd8 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure rsaPrivateKey) ;

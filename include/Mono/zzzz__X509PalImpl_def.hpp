@@ -5,10 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
+class X509CertificateImpl;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
@@ -20,7 +17,10 @@ namespace System::Security::Cryptography::X509Certificates {
 struct X509ContentType;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
+class X509Certificate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
 }
 // Forward declare root types
 namespace Mono {
@@ -109,8 +109,7 @@ static ::ArrayW<uint8_t> ConvertData(::ArrayW<uint8_t> data) ;
 /// @brief Method GetCertContentType addr 0x26857e4 size 0x40c virtual false final false
  System::Security::Cryptography::X509Certificates::X509ContentType GetCertContentType(::ArrayW<uint8_t> rawData) ;
 
-// Ctor Parameters []
-explicit X509PalImpl() ;
+static Mono::X509PalImpl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2685594 size 0x8 virtual false final false
  void _ctor() ;

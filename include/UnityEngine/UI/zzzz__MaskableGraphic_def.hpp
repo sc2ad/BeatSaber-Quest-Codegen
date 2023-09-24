@@ -5,10 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace UnityEngine {
-struct Vector2;
+class Material;
+}
+namespace UnityEngine::UI {
+class IClippable;
 }
 namespace UnityEngine {
-class Material;
+struct Rect;
+}
+namespace UnityEngine::UI {
+class IMaskable;
+}
+namespace UnityEngine::UI {
+class IMaterialModifier;
 }
 namespace UnityEngine::UI {
 class RectMask2D;
@@ -17,19 +26,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::UI {
-class IClippable;
-}
-namespace UnityEngine::UI {
-class IMaterialModifier;
-}
-namespace UnityEngine::UI {
-class IMaskable;
-}
-namespace UnityEngine {
-struct Rect;
+class UnityEngine__UI__MaskableGraphic__CullStateChangedEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -41,7 +44,7 @@ class UnityEngine__UI__MaskableGraphic__CullStateChangedEvent;
 // Type: ::CullStateChangedEvent
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 99 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13037))
 // CS Name: UnityEngine.UI.MaskableGraphic::CullStateChangedEvent
 class CORDL_TYPE UnityEngine__UI__MaskableGraphic__CullStateChangedEvent : public UnityEngine::Events::UnityEvent_1<bool> {
@@ -80,8 +83,7 @@ constexpr explicit UnityEngine__UI__MaskableGraphic__CullStateChangedEvent(void*
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UI__MaskableGraphic__CullStateChangedEvent() ;
+static UnityEngine::UI::UnityEngine__UI__MaskableGraphic__CullStateChangedEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c0308c size 0x48 virtual false final false
  void _ctor() ;
@@ -277,8 +279,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get_m_Corners() const;
 /// @brief Method RecalculateMasking addr 0x2c02f4c size 0x7c virtual true final false
  void RecalculateMasking() ;
 
-// Ctor Parameters []
-explicit MaskableGraphic() ;
+static UnityEngine::UI::MaskableGraphic New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c02fc8 size 0xc4 virtual false final false
  void _ctor() ;

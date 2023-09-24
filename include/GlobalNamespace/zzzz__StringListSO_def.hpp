@@ -66,8 +66,7 @@ constexpr ::ArrayW<::StringW> __get__strings() const;
 /// @brief Method get_strings addr 0x1f83dfc size 0x8 virtual false final false
  ::ArrayW<::StringW> get_strings() ;
 
-// Ctor Parameters []
-explicit StringListSO() ;
+static GlobalNamespace::StringListSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83e04 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAudioClip_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "UnityEngine/zzzz__AudioType_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__AudioType_def.hpp"
 //  Writing Method size for method: UnityEngine::Networking::DownloadHandlerAudioClip.Create
 template<>
 
@@ -182,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, url, audioType);
 }
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "audioType", ty: "UnityEngine::AudioType", modifiers: "", def_value: None }]
- UnityEngine::Networking::DownloadHandlerAudioClip::DownloadHandlerAudioClip(::StringW url, UnityEngine::AudioType audioType)  : UnityEngine::Networking::DownloadHandler(THROW_UNLESS(::il2cpp_utils::New<DownloadHandlerAudioClip>(url, audioType))) {}
+ UnityEngine::Networking::DownloadHandlerAudioClip UnityEngine::Networking::DownloadHandlerAudioClip::New_ctor(::StringW url, UnityEngine::AudioType audioType)  {
+UnityEngine::Networking::DownloadHandlerAudioClip o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Networking::DownloadHandlerAudioClip>(url, audioType))};
+return o;
+}
  void UnityEngine::Networking::DownloadHandlerAudioClip::_ctor(::StringW url, UnityEngine::AudioType audioType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Networking::DownloadHandlerAudioClip>::get(),

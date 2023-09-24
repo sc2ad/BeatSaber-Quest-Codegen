@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements::UIR {
-class RenderChain;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-class UIRTextUpdatePainter;
-}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine::UIElements::UIR {
-class UIRenderDevice;
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct ClipMethod;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ChainBuilderStats;
+class UIRenderDevice;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace UnityEngine::UIElements::UIR::Implementation {
-struct ClipMethod;
+class UIRTextUpdatePainter;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine::UIElements::UIR {
+struct ChainBuilderStats;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChain;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {

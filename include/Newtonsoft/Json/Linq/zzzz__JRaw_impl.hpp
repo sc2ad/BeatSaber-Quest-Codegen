@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JValue_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JRaw_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JRaw._ctor
 template<>
 
@@ -71,8 +71,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Newtonsoft:
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JRaw", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JRaw::JRaw(Newtonsoft::Json::Linq::JRaw other)  : Newtonsoft::Json::Linq::JValue(THROW_UNLESS(::il2cpp_utils::New<JRaw>(other))) {}
+ Newtonsoft::Json::Linq::JRaw Newtonsoft::Json::Linq::JRaw::New_ctor(Newtonsoft::Json::Linq::JRaw other)  {
+Newtonsoft::Json::Linq::JRaw o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JRaw>(other))};
+return o;
+}
  void Newtonsoft::Json::Linq::JRaw::_ctor(Newtonsoft::Json::Linq::JRaw other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JRaw>::get(),
@@ -82,8 +84,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "rawJson", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JRaw::JRaw(::bs_hook::Il2CppWrapperType rawJson)  : Newtonsoft::Json::Linq::JValue(THROW_UNLESS(::il2cpp_utils::New<JRaw>(rawJson))) {}
+ Newtonsoft::Json::Linq::JRaw Newtonsoft::Json::Linq::JRaw::New_ctor(::bs_hook::Il2CppWrapperType rawJson)  {
+Newtonsoft::Json::Linq::JRaw o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JRaw>(rawJson))};
+return o;
+}
  void Newtonsoft::Json::Linq::JRaw::_ctor(::bs_hook::Il2CppWrapperType rawJson)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JRaw>::get(),

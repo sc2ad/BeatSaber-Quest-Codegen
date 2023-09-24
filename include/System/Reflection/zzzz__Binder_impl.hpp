@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__FieldInfo_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/Reflection/zzzz__ParameterModifier_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: System::Reflection::Binder._ctor
 template<>
 
@@ -126,8 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::Binder::Binder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Binder>())) {}
+ System::Reflection::Binder System::Reflection::Binder::New_ctor()  {
+System::Reflection::Binder o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::Binder>())};
+return o;
+}
  void System::Reflection::Binder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Binder>::get(),

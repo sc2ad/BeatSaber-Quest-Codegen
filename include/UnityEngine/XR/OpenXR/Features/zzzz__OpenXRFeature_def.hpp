@@ -5,18 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::XR::OpenXR {
-class OpenXRLoaderBase;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::XR::OpenXR {
+class OpenXRLoaderBase;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
 namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct XrEnvironmentBlendMode;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+struct UnityEngine__XR__OpenXR__Features__OpenXRFeature__LoaderEvent;
+}
+namespace UnityEngine::XR::OpenXR::Features {
+struct UnityEngine__XR__OpenXR__Features__OpenXRFeature__NativeEvent;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features {
@@ -79,6 +85,8 @@ __SubsystemStop = 3,
 constexpr operator __UnityEngine__XR__OpenXR__Features__OpenXRFeature__LoaderEvent_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__OpenXR__Features__OpenXRFeature__LoaderEvent_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -174,6 +182,8 @@ __XrRequestGetSystemLoop = 21,
 constexpr operator __UnityEngine__XR__OpenXR__Features__OpenXRFeature__NativeEvent_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__XR__OpenXR__Features__OpenXRFeature__NativeEvent_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -567,8 +577,7 @@ static ::cordl_internals::intptr_t Internal_GetProcAddressPtr(bool loaderDefault
 /// @brief Method Internal_SetProcAddressPtrAndLoadStage1 addr 0x2af08a8 size 0x7c virtual false final false
 static void Internal_SetProcAddressPtrAndLoadStage1(::cordl_internals::intptr_t func) ;
 
-// Ctor Parameters []
-explicit OpenXRFeature() ;
+static UnityEngine::XR::OpenXR::Features::OpenXRFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x2af097c size 0x8 virtual false final false
  void _ctor() ;

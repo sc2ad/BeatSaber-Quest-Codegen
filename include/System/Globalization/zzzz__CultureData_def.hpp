@@ -10,10 +10,13 @@ namespace System::Globalization {
 class CalendarData;
 }
 namespace System::Globalization {
-struct CalendarId;
+class NumberFormatInfo;
 }
 namespace System::Globalization {
-class NumberFormatInfo;
+struct System__Globalization__CultureData__NumberFormatEntryManaged;
+}
+namespace System::Globalization {
+struct CalendarId;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -413,8 +416,7 @@ static System::Globalization::CultureData __declspec(property(get=get_Invariant)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CultureData(::StringW name) ;
+static System::Globalization::CultureData New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x23fd000 size 0x28 virtual false final false
  void _ctor(::StringW name) ;

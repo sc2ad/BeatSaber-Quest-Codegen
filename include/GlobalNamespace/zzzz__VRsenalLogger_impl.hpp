@@ -2,10 +2,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRsenalLogger_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__StringSignal_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__VRsenalScoreLogger_def.hpp"
+#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__StringSignal_def.hpp"
 //  Writing Method size for method: GlobalNamespace::VRsenalLogger.Awake
 template<>
 
@@ -157,8 +157,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playerName);
 }
-// Ctor Parameters []
- GlobalNamespace::VRsenalLogger::VRsenalLogger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<VRsenalLogger>())) {}
+ GlobalNamespace::VRsenalLogger GlobalNamespace::VRsenalLogger::New_ctor()  {
+GlobalNamespace::VRsenalLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::VRsenalLogger>())};
+return o;
+}
  void GlobalNamespace::VRsenalLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::VRsenalLogger>::get(),

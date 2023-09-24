@@ -60,8 +60,7 @@ static System::DateTime __get_UnixEpoch() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit DateTimeUtilities() ;
+static Org::BouncyCastle::Utilities::Date::DateTimeUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cf590 size 0x8 virtual false final false
  void _ctor() ;

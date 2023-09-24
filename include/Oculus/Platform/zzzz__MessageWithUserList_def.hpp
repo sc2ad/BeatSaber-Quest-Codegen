@@ -13,7 +13,7 @@ class MessageWithUserList;
 // Type: Oculus.Platform::MessageWithUserList
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 956 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13481))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 956 }), TypeDefinitionIndex(TypeDefinitionIndex(13481))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13285))
 // CS Name: Oculus.Platform.MessageWithUserList
 class CORDL_TYPE MessageWithUserList : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserList> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithUserList(void* ptr) noexcept : Oculus::Platform::M
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithUserList(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithUserList New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f450 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -6,10 +6,13 @@
 #include <cmath>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct EVRTrackedCameraFrameType;
+struct HmdVector2_t;
 }
 namespace OVR::OpenVR {
-struct HmdVector2_t;
+struct CameraVideoStreamFrameHeader_t;
+}
+namespace OVR::OpenVR {
+struct EVRTrackedCameraFrameType;
 }
 namespace OVR::OpenVR {
 struct IVRTrackedCamera;
@@ -18,13 +21,10 @@ namespace OVR::OpenVR {
 struct EVRTrackedCameraError;
 }
 namespace OVR::OpenVR {
-struct CameraVideoStreamFrameHeader_t;
+struct HmdMatrix44_t;
 }
 namespace OVR::OpenVR {
 struct VRTextureBounds_t;
-}
-namespace OVR::OpenVR {
-struct HmdMatrix44_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -81,8 +81,7 @@ constexpr OVR::OpenVR::IVRTrackedCamera __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRTrackedCamera(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRTrackedCamera New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2664708 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

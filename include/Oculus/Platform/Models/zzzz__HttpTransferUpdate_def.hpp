@@ -70,8 +70,7 @@ constexpr bool __get_IsCompleted() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HttpTransferUpdate(::cordl_internals::intptr_t o) ;
+static Oculus::Platform::Models::HttpTransferUpdate New_ctor(::cordl_internals::intptr_t o) ;
 
 /// @brief Method .ctor addr 0x259ec9c size 0x158 virtual false final false
  void _ctor(::cordl_internals::intptr_t o) ;

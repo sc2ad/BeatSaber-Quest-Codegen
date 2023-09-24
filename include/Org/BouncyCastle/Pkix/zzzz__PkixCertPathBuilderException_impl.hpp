@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Pkix::PkixCertPathBuilderException::PkixCertPathBuilderException()  : Org::BouncyCastle::Security::GeneralSecurityException(THROW_UNLESS(::il2cpp_utils::New<PkixCertPathBuilderException>())) {}
+ Org::BouncyCastle::Pkix::PkixCertPathBuilderException Org::BouncyCastle::Pkix::PkixCertPathBuilderException::New_ctor()  {
+Org::BouncyCastle::Pkix::PkixCertPathBuilderException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPathBuilderException>())};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPathBuilderException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPathBuilderException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixCertPathBuilderException::PkixCertPathBuilderException(::StringW message)  : Org::BouncyCastle::Security::GeneralSecurityException(THROW_UNLESS(::il2cpp_utils::New<PkixCertPathBuilderException>(message))) {}
+ Org::BouncyCastle::Pkix::PkixCertPathBuilderException Org::BouncyCastle::Pkix::PkixCertPathBuilderException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Pkix::PkixCertPathBuilderException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPathBuilderException>(message))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPathBuilderException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPathBuilderException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkix::PkixCertPathBuilderException::PkixCertPathBuilderException(::StringW message, System::Exception exception)  : Org::BouncyCastle::Security::GeneralSecurityException(THROW_UNLESS(::il2cpp_utils::New<PkixCertPathBuilderException>(message, exception))) {}
+ Org::BouncyCastle::Pkix::PkixCertPathBuilderException Org::BouncyCastle::Pkix::PkixCertPathBuilderException::New_ctor(::StringW message, System::Exception exception)  {
+Org::BouncyCastle::Pkix::PkixCertPathBuilderException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkix::PkixCertPathBuilderException>(message, exception))};
+return o;
+}
  void Org::BouncyCastle::Pkix::PkixCertPathBuilderException::_ctor(::StringW message, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkix::PkixCertPathBuilderException>::get(),

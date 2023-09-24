@@ -150,8 +150,10 @@ constexpr void System::Globalization::Bootstring::__set_initial_n(int32_t value)
 constexpr int32_t System::Globalization::Bootstring::__get_initial_n() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "delimiter", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "baseNum", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tmin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tmax", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "skew", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "damp", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "initialBias", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "initialN", ty: "int32_t", modifiers: "", def_value: None }]
- System::Globalization::Bootstring::Bootstring(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Bootstring>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN))) {}
+ System::Globalization::Bootstring System::Globalization::Bootstring::New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN)  {
+System::Globalization::Bootstring o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::Bootstring>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN))};
+return o;
+}
  void System::Globalization::Bootstring::_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::Bootstring>::get(),

@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryMethodReturn_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn._ctor
 template<>
@@ -102,8 +102,10 @@ return ::cordl_internals::getInstanceField<System::Type, 0x38>(this->::bs_hook::
  ::bs_hook::Il2CppWrapperType System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__get_instanceOfVoid()  {
 return ::cordl_internals::getStaticField<::bs_hook::Il2CppWrapperType, "instanceOfVoid", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn>::get>();
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::BinaryMethodReturn()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BinaryMethodReturn>())) {}
+ System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn>::get(),

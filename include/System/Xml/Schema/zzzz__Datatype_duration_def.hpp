@@ -5,32 +5,32 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System {
 class Type;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+class XmlSchemaType;
 }
-namespace System {
-class Exception;
-}
-namespace System::Xml {
-class XmlNameTable;
+namespace System::Xml::Schema {
+class XmlValueConverter;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -130,8 +130,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method TryParseValue addr 0x27255b0 size 0x1c4 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_duration() ;
+static System::Xml::Schema::Datatype_duration New_ctor() ;
 
 /// @brief Method .ctor addr 0x2725848 size 0x54 virtual false final false
  void _ctor() ;

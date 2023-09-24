@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsProtocol_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsRecordLayer_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::DtlsProtocol._ctor
 template<>
 
@@ -130,8 +130,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::DtlsProtocol::__set_mSecureRandom
 constexpr Org::BouncyCastle::Security::SecureRandom Org::BouncyCastle::Crypto::Tls::DtlsProtocol::__get_mSecureRandom() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Security::SecureRandom, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::DtlsProtocol::DtlsProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DtlsProtocol>(secureRandom))) {}
+ Org::BouncyCastle::Crypto::Tls::DtlsProtocol Org::BouncyCastle::Crypto::Tls::DtlsProtocol::New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom)  {
+Org::BouncyCastle::Crypto::Tls::DtlsProtocol o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::DtlsProtocol>(secureRandom))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::DtlsProtocol::_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::DtlsProtocol>::get(),

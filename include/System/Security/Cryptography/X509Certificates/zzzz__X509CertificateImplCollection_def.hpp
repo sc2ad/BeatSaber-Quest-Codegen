@@ -2,15 +2,15 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
+}
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -77,14 +77,12 @@ constexpr System::Collections::Generic::List_1<System::Security::Cryptography::X
 
 // Methods
 
-// Ctor Parameters []
-explicit X509CertificateImplCollection() ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImplCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ebe34 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Security::Cryptography::X509Certificates::X509CertificateImplCollection", modifiers: "", def_value: None }]
-explicit X509CertificateImplCollection(System::Security::Cryptography::X509Certificates::X509CertificateImplCollection other) ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImplCollection New_ctor(System::Security::Cryptography::X509Certificates::X509CertificateImplCollection other) ;
 
 /// @brief Method .ctor addr 0x27ecc34 size 0x230 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::X509CertificateImplCollection other) ;

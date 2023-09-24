@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Reflection/zzzz__MethodImplAttributes_def.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/zzzz__RuntimeMethodHandle_def.hpp"
 #include "System/Reflection/zzzz__MethodAttributes_def.hpp"
-#include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__RuntimeMethodHandle_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__MethodImplAttributes_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/Reflection/zzzz__CallingConventions_def.hpp"
 //  Writing Method size for method: System::Reflection::MethodBase._ctor
 template<>
 
@@ -503,8 +503,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::MethodBase::MethodBase()  : System::Reflection::MemberInfo(THROW_UNLESS(::il2cpp_utils::New<MethodBase>())) {}
+ System::Reflection::MethodBase System::Reflection::MethodBase::New_ctor()  {
+System::Reflection::MethodBase o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::MethodBase>())};
+return o;
+}
  void System::Reflection::MethodBase::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::MethodBase>::get(),

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Scripting {
+struct UnityEngine__Scripting__GarbageCollector__Mode;
+}
 namespace System {
 template<typename T>
 class Action_1;
@@ -64,6 +67,8 @@ __Manual = 2,
 constexpr operator __UnityEngine__Scripting__GarbageCollector__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Scripting__GarbageCollector__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

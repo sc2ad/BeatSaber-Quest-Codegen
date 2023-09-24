@@ -1,14 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 struct Rect;
 }
-namespace System {
-class Action;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

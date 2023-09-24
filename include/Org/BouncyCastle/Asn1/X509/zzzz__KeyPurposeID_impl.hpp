@@ -90,8 +90,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X509::KeyPurpo
  Org::BouncyCastle::Asn1::X509::KeyPurposeID Org::BouncyCastle::Asn1::X509::KeyPurposeID::__get_IdKPMacAddress()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X509::KeyPurposeID, "IdKPMacAddress", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::KeyPurposeID>::get>();
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::KeyPurposeID::KeyPurposeID(::StringW id)  : Org::BouncyCastle::Asn1::DerObjectIdentifier(THROW_UNLESS(::il2cpp_utils::New<KeyPurposeID>(id))) {}
+ Org::BouncyCastle::Asn1::X509::KeyPurposeID Org::BouncyCastle::Asn1::X509::KeyPurposeID::New_ctor(::StringW id)  {
+Org::BouncyCastle::Asn1::X509::KeyPurposeID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::KeyPurposeID>(id))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::KeyPurposeID::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::KeyPurposeID>::get(),

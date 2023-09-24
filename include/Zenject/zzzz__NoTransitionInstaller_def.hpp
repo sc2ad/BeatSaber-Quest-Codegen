@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -59,8 +59,7 @@ constexpr explicit NoTransitionInstaller(void* ptr) noexcept : UnityEngine::Mono
 /// @brief Method PostInstall addr 0x2d8b770 size 0x4 virtual true final false
  void PostInstall(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit NoTransitionInstaller() ;
+static Zenject::NoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d8b774 size 0x8 virtual false final false
  void _ctor() ;

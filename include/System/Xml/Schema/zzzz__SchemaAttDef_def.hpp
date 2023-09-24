@@ -6,19 +6,22 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Xml {
-class IDtdDefaultAttributeInfo;
+class IValidationEventHandling;
 }
 namespace System::Xml {
-class IValidationEventHandling;
+class IDtdDefaultAttributeInfo;
 }
 namespace System::Xml {
 struct XmlTokenizedType;
 }
 namespace System::Xml {
-class IDtdAttributeInfo;
+class XmlQualifiedName;
+}
+namespace System::Xml::Schema {
+struct System__Xml__Schema__SchemaAttDef__Reserve;
 }
 namespace System::Xml {
-class XmlQualifiedName;
+class IDtdAttributeInfo;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -77,6 +80,8 @@ __XmlLang = 2,
 constexpr operator __System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped () const noexcept {
 return std::bit_cast<__System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -234,14 +239,12 @@ static System::Xml::Schema::SchemaAttDef __get_Empty() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SchemaAttDef(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+static System::Xml::Schema::SchemaAttDef New_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 /// @brief Method .ctor addr 0x27309ec size 0x4 virtual false final false
  void _ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
-// Ctor Parameters []
-explicit SchemaAttDef() ;
+static System::Xml::Schema::SchemaAttDef New_ctor() ;
 
 /// @brief Method .ctor addr 0x2730a78 size 0x4 virtual false final false
  void _ctor() ;

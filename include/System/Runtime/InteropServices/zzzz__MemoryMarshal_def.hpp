@@ -5,15 +5,15 @@
 #include <cstdint>
 namespace System {
 template<typename T>
-struct ReadOnlyMemory_1;
-}
-namespace System {
-template<typename T>
 struct Span_1;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System {
+template<typename T>
+struct ReadOnlyMemory_1;
 }
 namespace System {
 template<typename T>

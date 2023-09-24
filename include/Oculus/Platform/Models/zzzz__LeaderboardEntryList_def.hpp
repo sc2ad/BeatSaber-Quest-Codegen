@@ -58,8 +58,7 @@ constexpr uint64_t __get_TotalCount() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit LeaderboardEntryList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::LeaderboardEntryList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x259fa30 size 0x27c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

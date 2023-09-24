@@ -47,8 +47,7 @@ constexpr explicit PointerOverEvent(void* ptr) noexcept : UnityEngine::UIElement
 
 // Methods
 
-// Ctor Parameters []
-explicit PointerOverEvent() ;
+static UnityEngine::UIElements::PointerOverEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd94e0 size 0x48 virtual false final false
  void _ctor() ;

@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerGeneralizedTime.GetInstance
 template<>
 
@@ -318,8 +318,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerGeneralizedTime, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerGeneralizedTime::DerGeneralizedTime(::StringW time)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerGeneralizedTime>(time))) {}
+ Org::BouncyCastle::Asn1::DerGeneralizedTime Org::BouncyCastle::Asn1::DerGeneralizedTime::New_ctor(::StringW time)  {
+Org::BouncyCastle::Asn1::DerGeneralizedTime o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerGeneralizedTime>(time))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerGeneralizedTime::_ctor(::StringW time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerGeneralizedTime>::get(),
@@ -329,8 +331,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, time);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "System::DateTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerGeneralizedTime::DerGeneralizedTime(System::DateTime time)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerGeneralizedTime>(time))) {}
+ Org::BouncyCastle::Asn1::DerGeneralizedTime Org::BouncyCastle::Asn1::DerGeneralizedTime::New_ctor(System::DateTime time)  {
+Org::BouncyCastle::Asn1::DerGeneralizedTime o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerGeneralizedTime>(time))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerGeneralizedTime::_ctor(System::DateTime time)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerGeneralizedTime>::get(),
@@ -340,8 +344,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, time);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerGeneralizedTime::DerGeneralizedTime(::ArrayW<uint8_t> bytes)  : Org::BouncyCastle::Asn1::Asn1Object(THROW_UNLESS(::il2cpp_utils::New<DerGeneralizedTime>(bytes))) {}
+ Org::BouncyCastle::Asn1::DerGeneralizedTime Org::BouncyCastle::Asn1::DerGeneralizedTime::New_ctor(::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Asn1::DerGeneralizedTime o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerGeneralizedTime>(bytes))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerGeneralizedTime::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerGeneralizedTime>::get(),

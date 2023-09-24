@@ -2,10 +2,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BombCutSoundEffect.add_didFinishEvent
 template<>
 
@@ -171,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BombCutSoundEffect::BombCutSoundEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BombCutSoundEffect>())) {}
+ GlobalNamespace::BombCutSoundEffect GlobalNamespace::BombCutSoundEffect::New_ctor()  {
+GlobalNamespace::BombCutSoundEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BombCutSoundEffect>())};
+return o;
+}
  void GlobalNamespace::BombCutSoundEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BombCutSoundEffect>::get(),
@@ -199,8 +202,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool::GlobalNamespace__BombCutSoundEffect__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::BombCutSoundEffect>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BombCutSoundEffect__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BombCutSoundEffect__Pool>::get(),

@@ -58,8 +58,7 @@ constexpr explicit Datatype_yearMonth(void* ptr) noexcept : System::Xml::Schema:
 /// @brief Method get_TypeCode addr 0x27266e0 size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_yearMonth() ;
+static System::Xml::Schema::Datatype_yearMonth New_ctor() ;
 
 /// @brief Method .ctor addr 0x27266e8 size 0x58 virtual false final false
  void _ctor() ;

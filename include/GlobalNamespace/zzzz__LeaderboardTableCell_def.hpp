@@ -6,11 +6,11 @@
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -136,8 +136,7 @@ constexpr UnityEngine::UI::Image __get__separatorImage() const;
 /// @brief Method set_specialScore addr 0x212522c size 0xf8 virtual false final false
  void set_specialScore(bool value) ;
 
-// Ctor Parameters []
-explicit LeaderboardTableCell() ;
+static GlobalNamespace::LeaderboardTableCell New_ctor() ;
 
 /// @brief Method .ctor addr 0x2125324 size 0x8 virtual false final false
  void _ctor() ;

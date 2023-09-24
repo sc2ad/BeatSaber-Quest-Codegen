@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System {
 class Array;
 }
 namespace System {
 struct RuntimeFieldHandle;
+}
+namespace System {
+struct RuntimeTypeHandle;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

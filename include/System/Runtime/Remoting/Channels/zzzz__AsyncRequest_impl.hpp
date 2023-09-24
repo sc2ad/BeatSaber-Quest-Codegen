@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Channels/zzzz__AsyncRequest_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Channels::AsyncRequest._ctor
 template<>
 
@@ -31,8 +31,10 @@ constexpr void System::Runtime::Remoting::Channels::AsyncRequest::__set_MsgReque
 constexpr System::Runtime::Remoting::Messaging::IMessage System::Runtime::Remoting::Channels::AsyncRequest::__get_MsgRequest() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Messaging::IMessage, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "msgRequest", ty: "System::Runtime::Remoting::Messaging::IMessage", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Channels::AsyncRequest::AsyncRequest(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AsyncRequest>(msgRequest, replySink))) {}
+ System::Runtime::Remoting::Channels::AsyncRequest System::Runtime::Remoting::Channels::AsyncRequest::New_ctor(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink)  {
+System::Runtime::Remoting::Channels::AsyncRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Channels::AsyncRequest>(msgRequest, replySink))};
+return o;
+}
  void System::Runtime::Remoting::Channels::AsyncRequest::_ctor(System::Runtime::Remoting::Messaging::IMessage msgRequest, System::Runtime::Remoting::Messaging::IMessageSink replySink)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Channels::AsyncRequest>::get(),

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class UseSrtpData;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -67,8 +67,7 @@ static ::ArrayW<uint8_t> CreateUseSrtpExtension(Org::BouncyCastle::Crypto::Tls::
 /// @brief Method ReadUseSrtpExtension addr 0xf2bee0 size 0x18c virtual false final false
 static Org::BouncyCastle::Crypto::Tls::UseSrtpData ReadUseSrtpExtension(::ArrayW<uint8_t> extensionData) ;
 
-// Ctor Parameters []
-explicit TlsSRTPUtils() ;
+static Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils New_ctor() ;
 
 /// @brief Method .ctor addr 0xf2c224 size 0x8 virtual false final false
  void _ctor() ;

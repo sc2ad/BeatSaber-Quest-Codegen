@@ -4,10 +4,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct UnityEngine__InputSystem__LowLevel__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;

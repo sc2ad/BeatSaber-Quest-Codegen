@@ -6,11 +6,11 @@
 namespace System::IO {
 class Stream;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -113,14 +113,12 @@ constexpr bool __get_nomoreinput() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inp", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit ZInflaterInputStream(System::IO::Stream inp) ;
+static Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream New_ctor(System::IO::Stream inp) ;
 
 /// @brief Method .ctor addr 0x10dec08 size 0x8 virtual false final false
  void _ctor(System::IO::Stream inp) ;
 
-// Ctor Parameters [CppParam { name: "inp", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
-explicit ZInflaterInputStream(System::IO::Stream inp, bool nowrap) ;
+static Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream New_ctor(System::IO::Stream inp, bool nowrap) ;
 
 /// @brief Method .ctor addr 0x10dec10 size 0x108 virtual false final false
  void _ctor(System::IO::Stream inp, bool nowrap) ;

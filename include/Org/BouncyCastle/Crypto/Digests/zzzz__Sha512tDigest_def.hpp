@@ -118,14 +118,12 @@ constexpr uint64_t __get_H8t() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Sha512tDigest(int32_t bitLength) ;
+static Org::BouncyCastle::Crypto::Digests::Sha512tDigest New_ctor(int32_t bitLength) ;
 
 /// @brief Method .ctor addr 0xe17b08 size 0x168 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha512tDigest", modifiers: "", def_value: None }]
-explicit Sha512tDigest(Org::BouncyCastle::Crypto::Digests::Sha512tDigest t) ;
+static Org::BouncyCastle::Crypto::Digests::Sha512tDigest New_ctor(Org::BouncyCastle::Crypto::Digests::Sha512tDigest t) ;
 
 /// @brief Method .ctor addr 0xe17df8 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Sha512tDigest t) ;

@@ -60,6 +60,8 @@ constexpr operator __NodeStatePropertyType_Unwrapped () const noexcept {
 return std::bit_cast<__NodeStatePropertyType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

@@ -47,8 +47,7 @@ constexpr explicit IgnoreOnPlayableTrackAttribute(void* ptr) noexcept : System::
 
 // Methods
 
-// Ctor Parameters []
-explicit IgnoreOnPlayableTrackAttribute() ;
+static UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad5ddc size 0x8 virtual false final false
  void _ctor() ;

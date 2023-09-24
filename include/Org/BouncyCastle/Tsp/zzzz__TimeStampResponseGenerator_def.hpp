@@ -4,35 +4,38 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
-}
 namespace Org::BouncyCastle::Tsp {
-class TimeStampTokenGenerator;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
+class TimeStampRequest;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampResponse;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Tsp {
-class TimeStampRequest;
+class Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
 }
 namespace System {
 struct DateTime;
 }
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampTokenGenerator;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 struct PkiStatus;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -83,8 +86,7 @@ constexpr explicit Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "failInfoValue", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo(int32_t failInfoValue) ;
+static Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampResponseGenerator__FailInfo New_ctor(int32_t failInfoValue) ;
 
 /// @brief Method .ctor addr 0x10c5258 size 0x68 virtual false final false
  void _ctor(int32_t failInfoValue) ;
@@ -182,20 +184,17 @@ constexpr System::Collections::IList __get_acceptedExtensions() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tokenGenerator", ty: "Org::BouncyCastle::Tsp::TimeStampTokenGenerator", modifiers: "", def_value: None }, CppParam { name: "acceptedAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit TimeStampResponseGenerator(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms) ;
+static Org::BouncyCastle::Tsp::TimeStampResponseGenerator New_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms) ;
 
 /// @brief Method .ctor addr 0x10c4f08 size 0xc virtual false final false
  void _ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms) ;
 
-// Ctor Parameters [CppParam { name: "tokenGenerator", ty: "Org::BouncyCastle::Tsp::TimeStampTokenGenerator", modifiers: "", def_value: None }, CppParam { name: "acceptedAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "acceptedPolicy", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit TimeStampResponseGenerator(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicy) ;
+static Org::BouncyCastle::Tsp::TimeStampResponseGenerator New_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicy) ;
 
 /// @brief Method .ctor addr 0x10c4fa8 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicy) ;
 
-// Ctor Parameters [CppParam { name: "tokenGenerator", ty: "Org::BouncyCastle::Tsp::TimeStampTokenGenerator", modifiers: "", def_value: None }, CppParam { name: "acceptedAlgorithms", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "acceptedPolicies", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "acceptedExtensions", ty: "System::Collections::IList", modifiers: "", def_value: None }]
-explicit TimeStampResponseGenerator(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicies, System::Collections::IList acceptedExtensions) ;
+static Org::BouncyCastle::Tsp::TimeStampResponseGenerator New_ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicies, System::Collections::IList acceptedExtensions) ;
 
 /// @brief Method .ctor addr 0x10c4f14 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Tsp::TimeStampTokenGenerator tokenGenerator, System::Collections::IList acceptedAlgorithms, System::Collections::IList acceptedPolicies, System::Collections::IList acceptedExtensions) ;

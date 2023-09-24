@@ -70,8 +70,7 @@ constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get__nextScenesTransiti
 /// @brief Method set_nextScenesTransitionSetupData addr 0x21cfa2c size 0x8 virtual false final false
  void set_nextScenesTransitionSetupData(GlobalNamespace::ScenesTransitionSetupDataSO value) ;
 
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit ShaderWarmupSceneSetupData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+static GlobalNamespace::ShaderWarmupSceneSetupData New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21cfa34 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;

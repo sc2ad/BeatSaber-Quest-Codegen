@@ -61,8 +61,7 @@ constexpr ::StringW __get__formatString() const;
 /// @brief Method TextForValue addr 0x1faf294 size 0x70 virtual true final false
  ::StringW TextForValue(float_t value) ;
 
-// Ctor Parameters []
-explicit CustomFormatRangeValuesSlider() ;
+static HMUI::CustomFormatRangeValuesSlider New_ctor() ;
 
 /// @brief Method .ctor addr 0x1faf304 size 0xc virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerListDetailTableCell_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GameServerListDetailTableCell.add_joinServerButtonWasPressedEvent
 template<>
 
@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameServerListDetailTableCell::GameServerListDetailTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<GameServerListDetailTableCell>())) {}
+ GlobalNamespace::GameServerListDetailTableCell GlobalNamespace::GameServerListDetailTableCell::New_ctor()  {
+GlobalNamespace::GameServerListDetailTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameServerListDetailTableCell>())};
+return o;
+}
  void GlobalNamespace::GameServerListDetailTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameServerListDetailTableCell>::get(),

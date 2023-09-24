@@ -4,22 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct InlinedArray_1;
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct InlinedArray_1;
+}
+namespace UnityEngine::InputSystem::OnScreen {
+struct UnityEngine__InputSystem__OnScreen__OnScreenControl__OnScreenDeviceInfo;
+}
 namespace UnityEngine::InputSystem {
-class InputControl;
+class InputDevice;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -222,8 +225,7 @@ template<typename TValue>
 /// @brief Method OnDisable addr 0x2945d64 size 0x214 virtual true final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit OnScreenControl() ;
+static UnityEngine::InputSystem::OnScreen::OnScreenControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2945208 size 0x8 virtual false final false
  void _ctor() ;

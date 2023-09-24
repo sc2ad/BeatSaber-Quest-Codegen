@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace GlobalNamespace {
-class Signal;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace GlobalNamespace {
+class Signal;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::Signal __get__inputFieldClickedSignal() const;
 /// @brief Method OnPointerClick addr 0x1f8362c size 0x20 virtual true final true
  void OnPointerClick(UnityEngine::EventSystems::PointerEventData eventData) ;
 
-// Ctor Parameters []
-explicit SignalOnPointerClick() ;
+static GlobalNamespace::SignalOnPointerClick New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8364c size 0x8 virtual false final false
  void _ctor() ;

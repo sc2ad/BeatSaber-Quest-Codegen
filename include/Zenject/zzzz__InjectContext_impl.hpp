@@ -2,14 +2,15 @@
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__InjectContext___get_ParentContexts_d__52._ctor
 template<>
 
@@ -247,8 +248,10 @@ constexpr void Zenject::Zenject__InjectContext___get_ParentContexts_d__52::__set
 constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectContext> Zenject::Zenject__InjectContext___get_ParentContexts_d__52::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<Zenject::InjectContext>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__InjectContext___get_ParentContexts_d__52::Zenject__InjectContext___get_ParentContexts_d__52(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectContext___get_ParentContexts_d__52>(__1__state))) {}
+ Zenject::Zenject__InjectContext___get_ParentContexts_d__52 Zenject::Zenject__InjectContext___get_ParentContexts_d__52::New_ctor(int32_t __1__state)  {
+Zenject::Zenject__InjectContext___get_ParentContexts_d__52 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectContext___get_ParentContexts_d__52>(__1__state))};
+return o;
+}
  void Zenject::Zenject__InjectContext___get_ParentContexts_d__52::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectContext___get_ParentContexts_d__52>::get(),
@@ -585,8 +588,10 @@ constexpr void Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54
 constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectContext> Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<Zenject::InjectContext>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54::Zenject__InjectContext___get_ParentContextsAndSelf_d__54(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectContext___get_ParentContextsAndSelf_d__54>(__1__state))) {}
+ Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54 Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54::New_ctor(int32_t __1__state)  {
+Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54>(__1__state))};
+return o;
+}
  void Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectContext___get_ParentContextsAndSelf_d__54>::get(),
@@ -923,8 +928,10 @@ constexpr void Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56::__set
 constexpr System::Collections::Generic::IEnumerator_1<Zenject::InjectContext> Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<Zenject::InjectContext>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56::Zenject__InjectContext___get_AllObjectTypes_d__56(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__InjectContext___get_AllObjectTypes_d__56>(__1__state))) {}
+ Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56 Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56::New_ctor(int32_t __1__state)  {
+Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56>(__1__state))};
+return o;
+}
  void Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__InjectContext___get_AllObjectTypes_d__56>::get(),
@@ -1700,8 +1707,10 @@ constexpr void Zenject::InjectContext::__set__container(Zenject::DiContainer val
 constexpr Zenject::DiContainer Zenject::InjectContext::__get__container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::InjectContext::InjectContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InjectContext>())) {}
+ Zenject::InjectContext Zenject::InjectContext::New_ctor()  {
+Zenject::InjectContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectContext>())};
+return o;
+}
  void Zenject::InjectContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectContext>::get(),
@@ -1711,8 +1720,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }]
- Zenject::InjectContext::InjectContext(Zenject::DiContainer container, System::Type memberType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InjectContext>(container, memberType))) {}
+ Zenject::InjectContext Zenject::InjectContext::New_ctor(Zenject::DiContainer container, System::Type memberType)  {
+Zenject::InjectContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectContext>(container, memberType))};
+return o;
+}
  void Zenject::InjectContext::_ctor(Zenject::DiContainer container, System::Type memberType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectContext>::get(),
@@ -1722,8 +1733,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container, memberType);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Zenject::InjectContext::InjectContext(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InjectContext>(container, memberType, identifier))) {}
+ Zenject::InjectContext Zenject::InjectContext::New_ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier)  {
+Zenject::InjectContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectContext>(container, memberType, identifier))};
+return o;
+}
  void Zenject::InjectContext::_ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectContext>::get(),
@@ -1733,8 +1746,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container, memberType, identifier);
 }
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "memberType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "optional", ty: "bool", modifiers: "", def_value: None }]
- Zenject::InjectContext::InjectContext(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier, bool optional)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InjectContext>(container, memberType, identifier, optional))) {}
+ Zenject::InjectContext Zenject::InjectContext::New_ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier, bool optional)  {
+Zenject::InjectContext o{THROW_UNLESS(::il2cpp_utils::New<Zenject::InjectContext>(container, memberType, identifier, optional))};
+return o;
+}
  void Zenject::InjectContext::_ctor(Zenject::DiContainer container, System::Type memberType, ::bs_hook::Il2CppWrapperType identifier, bool optional)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::InjectContext>::get(),

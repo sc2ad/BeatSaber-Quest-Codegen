@@ -5,25 +5,10 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class FakeMirrorSettings;
+class MainEffectSO;
 }
 namespace GlobalNamespace {
-class LightmapLightsWithIds;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class BakedLightDataLoader;
-}
-namespace GlobalNamespace {
-class BloomPrePassGraphicsSettingsPresetsSO;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
-}
-namespace GlobalNamespace {
-class MirrorRendererGraphicsSettingsPresets;
+class MainEffectContainerSO;
 }
 namespace GlobalNamespace {
 class BakedReflectionProbe;
@@ -32,25 +17,40 @@ namespace GlobalNamespace {
 class MirrorRendererSO;
 }
 namespace GlobalNamespace {
-class MainEffectGraphicsSettingsPresetsSO;
+class BloomPrePassGraphicsSettingsPresetsSO;
 }
 namespace UnityEngine {
-class Material;
+struct Color;
 }
 namespace GlobalNamespace {
 class BloomPrePassEffectSO;
 }
 namespace GlobalNamespace {
-class MainEffectSO;
+class MainEffectGraphicsSettingsPresetsSO;
 }
 namespace GlobalNamespace {
-class FakeMirrorObjectsInstaller;
+class MirrorRendererGraphicsSettingsPresets;
+}
+namespace GlobalNamespace {
+class FakeMirrorSettings;
+}
+namespace GlobalNamespace {
+class LightmapLightsWithIds;
+}
+namespace GlobalNamespace {
+class BakedLightDataLoader;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class BloomPrePassEffectContainerSO;
 }
 namespace GlobalNamespace {
-class MainEffectContainerSO;
+class FakeMirrorObjectsInstaller;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -307,8 +307,7 @@ static constexpr bool  kDefaultScreenDisplacementEffectsEnabled{true};
 /// @brief Method IsToneMappingOn addr 0x219cb7c size 0x34 virtual false final false
  bool IsToneMappingOn() ;
 
-// Ctor Parameters []
-explicit LightBakingPersistentSettingsSO() ;
+static GlobalNamespace::LightBakingPersistentSettingsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x219cbb0 size 0xc0 virtual false final false
  void _ctor() ;

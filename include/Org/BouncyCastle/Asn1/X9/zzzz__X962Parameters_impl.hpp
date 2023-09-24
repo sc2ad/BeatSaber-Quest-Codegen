@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X962Parameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::X962Parameters.GetInstance
 template<>
 
@@ -178,8 +178,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X9::X962Parameters, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "ecParameters", ty: "Org::BouncyCastle::Asn1::X9::X9ECParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X962Parameters::X962Parameters(Org::BouncyCastle::Asn1::X9::X9ECParameters ecParameters)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X962Parameters>(ecParameters))) {}
+ Org::BouncyCastle::Asn1::X9::X962Parameters Org::BouncyCastle::Asn1::X9::X962Parameters::New_ctor(Org::BouncyCastle::Asn1::X9::X9ECParameters ecParameters)  {
+Org::BouncyCastle::Asn1::X9::X962Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X962Parameters>(ecParameters))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X962Parameters::_ctor(Org::BouncyCastle::Asn1::X9::X9ECParameters ecParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X962Parameters>::get(),
@@ -189,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ecParameters);
 }
-// Ctor Parameters [CppParam { name: "namedCurve", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X962Parameters::X962Parameters(Org::BouncyCastle::Asn1::DerObjectIdentifier namedCurve)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X962Parameters>(namedCurve))) {}
+ Org::BouncyCastle::Asn1::X9::X962Parameters Org::BouncyCastle::Asn1::X9::X962Parameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier namedCurve)  {
+Org::BouncyCastle::Asn1::X9::X962Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X962Parameters>(namedCurve))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X962Parameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier namedCurve)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X962Parameters>::get(),
@@ -200,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, namedCurve);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Null", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X962Parameters::X962Parameters(Org::BouncyCastle::Asn1::Asn1Null obj)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X962Parameters>(obj))) {}
+ Org::BouncyCastle::Asn1::X9::X962Parameters Org::BouncyCastle::Asn1::X9::X962Parameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Null obj)  {
+Org::BouncyCastle::Asn1::X9::X962Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X962Parameters>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X962Parameters::_ctor(Org::BouncyCastle::Asn1::Asn1Null obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X962Parameters>::get(),
@@ -211,8 +217,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X962Parameters::X962Parameters(Org::BouncyCastle::Asn1::Asn1Object obj)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X962Parameters>(obj))) {}
+ Org::BouncyCastle::Asn1::X9::X962Parameters Org::BouncyCastle::Asn1::X9::X962Parameters::New_ctor(Org::BouncyCastle::Asn1::Asn1Object obj)  {
+Org::BouncyCastle::Asn1::X9::X962Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X962Parameters>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X962Parameters::_ctor(Org::BouncyCastle::Asn1::Asn1Object obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X962Parameters>::get(),

@@ -52,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Diagnostics::CorrelationManager::CorrelationManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CorrelationManager>())) {}
+ System::Diagnostics::CorrelationManager System::Diagnostics::CorrelationManager::New_ctor()  {
+System::Diagnostics::CorrelationManager o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::CorrelationManager>())};
+return o;
+}
  void System::Diagnostics::CorrelationManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::CorrelationManager>::get(),

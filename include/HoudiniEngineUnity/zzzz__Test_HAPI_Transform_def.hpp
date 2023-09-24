@@ -66,8 +66,7 @@ constexpr HoudiniEngineUnity::HAPI_Transform __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_Transform", modifiers: "", def_value: None }]
-explicit Test_HAPI_Transform(HoudiniEngineUnity::HAPI_Transform self) ;
+static HoudiniEngineUnity::Test_HAPI_Transform New_ctor(HoudiniEngineUnity::HAPI_Transform self) ;
 
 /// @brief Method .ctor addr 0x2070630 size 0x34 virtual false final false
  void _ctor(HoudiniEngineUnity::HAPI_Transform self) ;

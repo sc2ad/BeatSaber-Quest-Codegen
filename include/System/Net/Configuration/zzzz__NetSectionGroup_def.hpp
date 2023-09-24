@@ -47,8 +47,7 @@ constexpr explicit NetSectionGroup(void* ptr) noexcept : System::Configuration::
 
 // Methods
 
-// Ctor Parameters []
-explicit NetSectionGroup() ;
+static System::Net::Configuration::NetSectionGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b24e4 size 0x38 virtual false final false
  void _ctor() ;

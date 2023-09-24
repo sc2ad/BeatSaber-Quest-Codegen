@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+struct BinaryTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+class __BinaryWriter;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryArrayTypeEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -121,14 +121,12 @@ constexpr System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnu
 
 // Methods
 
-// Ctor Parameters []
-explicit BinaryArray() ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x2356a60 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "binaryHeaderEnum", ty: "System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum", modifiers: "", def_value: None }]
-explicit BinaryArray(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
+static System::Runtime::Serialization::Formatters::Binary::BinaryArray New_ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;
 
 /// @brief Method .ctor addr 0x2356a68 size 0x28 virtual false final false
  void _ctor(System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) ;

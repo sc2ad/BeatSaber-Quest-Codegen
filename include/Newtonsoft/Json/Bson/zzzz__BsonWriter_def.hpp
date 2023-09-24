@@ -6,41 +6,41 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace Newtonsoft::Json {
+struct JsonToken;
+}
 namespace System {
 struct DateTimeKind;
 }
 namespace Newtonsoft::Json::Bson {
-struct BsonType;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace Newtonsoft::Json::Bson {
-class BsonBinaryWriter;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace System::IO {
-class BinaryWriter;
-}
-namespace Newtonsoft::Json::Bson {
 class BsonToken;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
+struct DateTimeOffset;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
 class Uri;
+}
+namespace System::IO {
+class BinaryWriter;
+}
+namespace System {
+struct DateTime;
+}
+namespace Newtonsoft::Json::Bson {
+class BsonBinaryWriter;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System {
 struct Guid;
@@ -129,14 +129,12 @@ constexpr ::StringW __get__propertyName() const;
 /// @brief Method set_DateTimeKindHandling addr 0x2550550 size 0x1c virtual false final false
  void set_DateTimeKindHandling(System::DateTimeKind value) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BsonWriter(System::IO::Stream stream) ;
+static Newtonsoft::Json::Bson::BsonWriter New_ctor(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x255056c size 0xfc virtual false final false
  void _ctor(System::IO::Stream stream) ;
 
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::BinaryWriter", modifiers: "", def_value: None }]
-explicit BsonWriter(System::IO::BinaryWriter writer) ;
+static Newtonsoft::Json::Bson::BsonWriter New_ctor(System::IO::BinaryWriter writer) ;
 
 /// @brief Method .ctor addr 0x2550668 size 0xcc virtual false final false
  void _ctor(System::IO::BinaryWriter writer) ;

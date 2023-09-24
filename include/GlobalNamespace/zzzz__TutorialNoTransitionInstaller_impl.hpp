@@ -1,9 +1,9 @@
 #pragma once
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoTransitionInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 //  Writing Method size for method: GlobalNamespace::TutorialNoTransitionInstaller.InstallBindings
 template<>
 
@@ -59,8 +59,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialNoTransitionInstaller::TutorialNoTransitionInstaller()  : Zenject::NoTransitionInstaller(THROW_UNLESS(::il2cpp_utils::New<TutorialNoTransitionInstaller>())) {}
+ GlobalNamespace::TutorialNoTransitionInstaller GlobalNamespace::TutorialNoTransitionInstaller::New_ctor()  {
+GlobalNamespace::TutorialNoTransitionInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialNoTransitionInstaller>())};
+return o;
+}
  void GlobalNamespace::TutorialNoTransitionInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialNoTransitionInstaller>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfTools_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Shelf_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HEU_ShelfTools.AreShelvesLoaded
 template<>
 
@@ -743,8 +743,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, tool, inPath);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_ShelfTools::HEU_ShelfTools()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_ShelfTools>())) {}
+ HoudiniEngineUnity::HEU_ShelfTools HoudiniEngineUnity::HEU_ShelfTools::New_ctor()  {
+HoudiniEngineUnity::HEU_ShelfTools o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_ShelfTools>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_ShelfTools::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_ShelfTools>::get(),

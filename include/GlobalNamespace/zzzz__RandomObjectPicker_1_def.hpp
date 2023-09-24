@@ -78,14 +78,12 @@ constexpr float_t __get__minimumPickInterval() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "obj", ty: "T", modifiers: "", def_value: None }, CppParam { name: "minimumPickInterval", ty: "float_t", modifiers: "", def_value: None }]
-explicit RandomObjectPicker_1(T obj, float_t minimumPickInterval) ;
+static GlobalNamespace::RandomObjectPicker_1<T> New_ctor(T obj, float_t minimumPickInterval) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(T obj, float_t minimumPickInterval) ;
 
-// Ctor Parameters [CppParam { name: "objects", ty: "::ArrayW<T>", modifiers: "", def_value: None }, CppParam { name: "minimumPickInterval", ty: "float_t", modifiers: "", def_value: None }]
-explicit RandomObjectPicker_1(::ArrayW<T> objects, float_t minimumPickInterval) ;
+static GlobalNamespace::RandomObjectPicker_1<T> New_ctor(::ArrayW<T> objects, float_t minimumPickInterval) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::ArrayW<T> objects, float_t minimumPickInterval) ;

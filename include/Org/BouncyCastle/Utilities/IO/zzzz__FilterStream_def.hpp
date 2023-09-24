@@ -77,8 +77,7 @@ constexpr System::IO::Stream __get_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit FilterStream(System::IO::Stream s) ;
+static Org::BouncyCastle::Utilities::IO::FilterStream New_ctor(System::IO::Stream s) ;
 
 /// @brief Method .ctor addr 0x1128bf8 size 0x6c virtual false final false
  void _ctor(System::IO::Stream s) ;

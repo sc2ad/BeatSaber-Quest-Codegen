@@ -69,8 +69,7 @@ constexpr ::ArrayW<UnityEngine::GameObject> __get__gameObjects() const;
 /// @brief Method OnBecameInvisible addr 0x1f749cc size 0x64 virtual false final false
  void OnBecameInvisible() ;
 
-// Ctor Parameters []
-explicit ActivateOnVisible() ;
+static GlobalNamespace::ActivateOnVisible New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f74a30 size 0x8 virtual false final false
  void _ctor() ;

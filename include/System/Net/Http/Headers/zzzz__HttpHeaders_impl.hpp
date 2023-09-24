@@ -1,19 +1,19 @@
 #pragma once
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Net/Http/Headers/zzzz__HttpHeaderValueCollection_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket._ctor
 template<>
 
@@ -117,8 +117,10 @@ constexpr void System::Net::Http::Headers::System__Net__Http__Headers__HttpHeade
 constexpr System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket::__get_CustomToString() const {
 return ::cordl_internals::getInstanceField<System::Func_2<::bs_hook::Il2CppWrapperType,::StringW>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parsed", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "converter", ty: "System::Func_2<::bs_hook::Il2CppWrapperType,::StringW>", modifiers: "", def_value: None }]
- System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket::System__Net__Http__Headers__HttpHeaders__HeaderBucket(::bs_hook::Il2CppWrapperType parsed, System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> converter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__Headers__HttpHeaders__HeaderBucket>(parsed, converter))) {}
+ System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket::New_ctor(::bs_hook::Il2CppWrapperType parsed, System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> converter)  {
+System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket>(parsed, converter))};
+return o;
+}
  void System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket::_ctor(::bs_hook::Il2CppWrapperType parsed, System::Func_2<::bs_hook::Il2CppWrapperType,::StringW> converter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket>::get(),
@@ -319,8 +321,10 @@ constexpr void System::Net::Http::Headers::System__Net__Http__Headers__HttpHeade
 constexpr System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket> System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19::__get___7__wrap1() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::System__Collections__Generic__Dictionary_2__Enumerator<::StringW,System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders__HeaderBucket>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19>(__1__state))) {}
+ System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19 System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19::New_ctor(int32_t __1__state)  {
+System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19>(__1__state))};
+return o;
+}
  void System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::System__Net__Http__Headers__HttpHeaders___GetEnumerator_d__19>::get(),
@@ -643,8 +647,10 @@ constexpr void System::Net::Http::Headers::HttpHeaders::__set_transferEncodingCh
 constexpr System::Nullable_1<bool> System::Net::Http::Headers::HttpHeaders::__get_transferEncodingChunked() const {
 return ::cordl_internals::getInstanceField<System::Nullable_1<bool>, 0x1e>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::Http::Headers::HttpHeaders::HttpHeaders()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpHeaders>())) {}
+ System::Net::Http::Headers::HttpHeaders System::Net::Http::Headers::HttpHeaders::New_ctor()  {
+System::Net::Http::Headers::HttpHeaders o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::HttpHeaders>())};
+return o;
+}
  void System::Net::Http::Headers::HttpHeaders::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::HttpHeaders>::get(),
@@ -654,8 +660,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "headerKind", ty: "System::Net::Http::Headers::HttpHeaderKind", modifiers: "", def_value: None }]
- System::Net::Http::Headers::HttpHeaders::HttpHeaders(System::Net::Http::Headers::HttpHeaderKind headerKind)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HttpHeaders>(headerKind))) {}
+ System::Net::Http::Headers::HttpHeaders System::Net::Http::Headers::HttpHeaders::New_ctor(System::Net::Http::Headers::HttpHeaderKind headerKind)  {
+System::Net::Http::Headers::HttpHeaders o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::Headers::HttpHeaders>(headerKind))};
+return o;
+}
  void System::Net::Http::Headers::HttpHeaders::_ctor(System::Net::Http::Headers::HttpHeaderKind headerKind)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::Headers::HttpHeaders>::get(),

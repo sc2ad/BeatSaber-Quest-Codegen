@@ -1,11 +1,11 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_def.hpp"
-#include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
-#include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
 #include "System/Diagnostics/zzzz__TraceFilter_def.hpp"
+#include "System/Diagnostics/zzzz__TraceOptions_def.hpp"
+#include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
+#include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Diagnostics::TraceListener._ctor
 template<>
 
@@ -352,8 +352,10 @@ constexpr void System::Diagnostics::TraceListener::__set_filter(System::Diagnost
 constexpr System::Diagnostics::TraceFilter System::Diagnostics::TraceListener::__get_filter() const {
 return ::cordl_internals::getInstanceField<System::Diagnostics::TraceFilter, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::TraceListener::TraceListener(::StringW name)  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<TraceListener>(name))) {}
+ System::Diagnostics::TraceListener System::Diagnostics::TraceListener::New_ctor(::StringW name)  {
+System::Diagnostics::TraceListener o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::TraceListener>(name))};
+return o;
+}
  void System::Diagnostics::TraceListener::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::TraceListener>::get(),

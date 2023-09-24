@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomNetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CustomNetworkConfig.get_maxPartySize
 template<>
 
@@ -370,8 +370,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::ServiceEnvironment, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fromNetworkConfig", ty: "GlobalNamespace::INetworkConfig", modifiers: "", def_value: None }, CppParam { name: "customServerHostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "forceGameLift", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::CustomNetworkConfig::CustomNetworkConfig(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CustomNetworkConfig>(fromNetworkConfig, customServerHostName, port, forceGameLift))) {}
+ GlobalNamespace::CustomNetworkConfig GlobalNamespace::CustomNetworkConfig::New_ctor(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift)  {
+GlobalNamespace::CustomNetworkConfig o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomNetworkConfig>(fromNetworkConfig, customServerHostName, port, forceGameLift))};
+return o;
+}
  void GlobalNamespace::CustomNetworkConfig::_ctor(GlobalNamespace::INetworkConfig fromNetworkConfig, ::StringW customServerHostName, int32_t port, bool forceGameLift)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomNetworkConfig>::get(),

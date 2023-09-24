@@ -71,6 +71,8 @@ constexpr operator __EVRApplicationProperty_Unwrapped () const noexcept {
 return std::bit_cast<__EVRApplicationProperty_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

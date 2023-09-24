@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "UnityEngine/zzzz__AnimationState_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__Animation_def.hpp"
+#include "UnityEngine/zzzz__AnimationState_def.hpp"
 #include "UnityEngine/zzzz__PlayMode_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__Animation__Enumerator._ctor
 template<>
 
@@ -90,8 +91,10 @@ constexpr void UnityEngine::UnityEngine__Animation__Enumerator::__set_m_CurrentI
 constexpr int32_t UnityEngine::UnityEngine__Animation__Enumerator::__get_m_CurrentIndex() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outer", ty: "UnityEngine::Animation", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Animation__Enumerator::UnityEngine__Animation__Enumerator(UnityEngine::Animation outer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Animation__Enumerator>(outer))) {}
+ UnityEngine::UnityEngine__Animation__Enumerator UnityEngine::UnityEngine__Animation__Enumerator::New_ctor(UnityEngine::Animation outer)  {
+UnityEngine::UnityEngine__Animation__Enumerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Animation__Enumerator>(outer))};
+return o;
+}
  void UnityEngine::UnityEngine__Animation__Enumerator::_ctor(UnityEngine::Animation outer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Animation__Enumerator>::get(),

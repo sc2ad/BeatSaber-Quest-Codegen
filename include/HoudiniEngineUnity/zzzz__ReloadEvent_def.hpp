@@ -11,7 +11,7 @@ class ReloadEvent;
 // Type: HoudiniEngineUnity::ReloadEvent
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10403)), TypeDefinitionIndex(TypeDefinitionIndex(9580)), TypeDefinitionIndex(TypeDefinitionIndex(3828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 298 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10403), inst: 5059 }), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9580)), TypeDefinitionIndex(TypeDefinitionIndex(10403)), TypeDefinitionIndex(TypeDefinitionIndex(3828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3828), inst: 298 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10403), inst: 5059 }), TypeDefinitionIndex(TypeDefinitionIndex(10138))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9541))
 // CS Name: HoudiniEngineUnity.ReloadEvent
 class CORDL_TYPE ReloadEvent : public UnityEngine::Events::UnityEvent_3<HoudiniEngineUnity::HEU_HoudiniAsset,bool,System::Collections::Generic::List_1<UnityEngine::GameObject>> {
@@ -50,8 +50,7 @@ constexpr explicit ReloadEvent(void* ptr) noexcept : UnityEngine::Events::UnityE
 
 // Methods
 
-// Ctor Parameters []
-explicit ReloadEvent() ;
+static HoudiniEngineUnity::ReloadEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fdab34 size 0x48 virtual false final false
  void _ctor() ;

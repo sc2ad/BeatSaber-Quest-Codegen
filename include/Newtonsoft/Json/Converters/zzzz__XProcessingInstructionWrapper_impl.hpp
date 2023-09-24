@@ -96,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Linq::XProcessingInstruction, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "processingInstruction", ty: "System::Xml::Linq::XProcessingInstruction", modifiers: "", def_value: None }]
- Newtonsoft::Json::Converters::XProcessingInstructionWrapper::XProcessingInstructionWrapper(System::Xml::Linq::XProcessingInstruction processingInstruction)  : Newtonsoft::Json::Converters::XObjectWrapper(THROW_UNLESS(::il2cpp_utils::New<XProcessingInstructionWrapper>(processingInstruction))) {}
+ Newtonsoft::Json::Converters::XProcessingInstructionWrapper Newtonsoft::Json::Converters::XProcessingInstructionWrapper::New_ctor(System::Xml::Linq::XProcessingInstruction processingInstruction)  {
+Newtonsoft::Json::Converters::XProcessingInstructionWrapper o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::XProcessingInstructionWrapper>(processingInstruction))};
+return o;
+}
  void Newtonsoft::Json::Converters::XProcessingInstructionWrapper::_ctor(System::Xml::Linq::XProcessingInstruction processingInstruction)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::XProcessingInstructionWrapper>::get(),

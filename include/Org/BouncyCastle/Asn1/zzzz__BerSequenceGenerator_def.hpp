@@ -51,14 +51,12 @@ constexpr explicit BerSequenceGenerator(void* ptr) noexcept : Org::BouncyCastle:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerSequenceGenerator(System::IO::Stream outStream) ;
+static Org::BouncyCastle::Asn1::BerSequenceGenerator New_ctor(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x11331a8 size 0x34 virtual false final false
  void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit BerSequenceGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+static Org::BouncyCastle::Asn1::BerSequenceGenerator New_ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method .ctor addr 0x11331dc size 0x54 virtual false final false
  void _ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;

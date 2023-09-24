@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::ScrollViewState::ScrollViewState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ScrollViewState>())) {}
+ UnityEngine::ScrollViewState UnityEngine::ScrollViewState::New_ctor()  {
+UnityEngine::ScrollViewState o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ScrollViewState>())};
+return o;
+}
  void UnityEngine::ScrollViewState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ScrollViewState>::get(),

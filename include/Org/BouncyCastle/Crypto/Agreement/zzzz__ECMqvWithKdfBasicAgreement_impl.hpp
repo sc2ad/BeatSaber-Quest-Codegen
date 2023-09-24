@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECMqvBasicAgreement_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECMqvWithKdfBasicAgreement_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement._ctor
 template<>
 
@@ -67,8 +67,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement:
 constexpr Org::BouncyCastle::Crypto::IDerivationFunction Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement::__get_kdf() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDerivationFunction, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "kdf", ty: "Org::BouncyCastle::Crypto::IDerivationFunction", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement::ECMqvWithKdfBasicAgreement(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf)  : Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement(THROW_UNLESS(::il2cpp_utils::New<ECMqvWithKdfBasicAgreement>(algorithm, kdf))) {}
+ Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement::New_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf)  {
+Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement>(algorithm, kdf))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement::_ctor(::StringW algorithm, Org::BouncyCastle::Crypto::IDerivationFunction kdf)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement>::get(),

@@ -80,8 +80,7 @@ constexpr ::StringW __get__EditorTypeName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "baseTypeName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EditorAttribute(::StringW typeName, ::StringW baseTypeName) ;
+static System::ComponentModel::EditorAttribute New_ctor(::StringW typeName, ::StringW baseTypeName) ;
 
 /// @brief Method .ctor addr 0x277c374 size 0x90 virtual false final false
  void _ctor(::StringW typeName, ::StringW baseTypeName) ;

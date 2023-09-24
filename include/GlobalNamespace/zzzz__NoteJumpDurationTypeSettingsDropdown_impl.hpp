@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
-#include "System/zzzz__Tuple_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/zzzz__Tuple_2_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteJumpDurationTypeSettingsDropdown.GetNamedValues
 template<>
@@ -47,8 +47,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::NoteJumpDurationTypeSettings,::StringW>>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::NoteJumpDurationTypeSettingsDropdown()  : GlobalNamespace::ValueDropdownController_1<GlobalNamespace::NoteJumpDurationTypeSettings>(THROW_UNLESS(::il2cpp_utils::New<NoteJumpDurationTypeSettingsDropdown>())) {}
+ GlobalNamespace::NoteJumpDurationTypeSettingsDropdown GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::New_ctor()  {
+GlobalNamespace::NoteJumpDurationTypeSettingsDropdown o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteJumpDurationTypeSettingsDropdown>())};
+return o;
+}
  void GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteJumpDurationTypeSettingsDropdown>::get(),

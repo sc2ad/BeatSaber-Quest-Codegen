@@ -59,8 +59,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_FRP256v1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit AnssiObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd5944 size 0x8 virtual false final false
  void _ctor() ;

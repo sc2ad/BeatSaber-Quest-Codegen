@@ -142,8 +142,10 @@ constexpr void Oculus::Platform::GroupPresenceOptions::__set_Handle(::cordl_inte
 constexpr ::cordl_internals::intptr_t Oculus::Platform::GroupPresenceOptions::__get_Handle() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Oculus::Platform::GroupPresenceOptions::GroupPresenceOptions()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GroupPresenceOptions>())) {}
+ Oculus::Platform::GroupPresenceOptions Oculus::Platform::GroupPresenceOptions::New_ctor()  {
+Oculus::Platform::GroupPresenceOptions o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::GroupPresenceOptions>())};
+return o;
+}
  void Oculus::Platform::GroupPresenceOptions::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::GroupPresenceOptions>::get(),

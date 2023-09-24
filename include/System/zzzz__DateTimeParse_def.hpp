@@ -9,44 +9,59 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-struct TimeSpan;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System {
-struct ParsingInfo;
-}
-namespace System {
-struct __DTString;
-}
-namespace System {
 struct DateTimeResult;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
-struct DateTime;
-}
-namespace System::Globalization {
-struct DateTimeStyles;
-}
-namespace System::Globalization {
-class DateTimeFormatInfo;
-}
-namespace System {
-struct DateTimeToken;
-}
-namespace System {
-struct DateTimeRawInfo;
+struct System__DateTimeParse__DS;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
+struct ParsingInfo;
+}
+namespace System::Globalization {
+struct DateTimeStyles;
+}
+namespace System {
+struct System__DateTimeParse__TM;
+}
+namespace System {
+struct DateTime;
+}
+namespace System {
+class System__DateTimeParse__MatchNumberDelegate;
+}
+namespace System {
+struct DateTimeToken;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace System::Globalization {
+class Calendar;
+}
+namespace System::Globalization {
+class DateTimeFormatInfo;
+}
+namespace System {
 class Exception;
+}
+namespace System {
+struct System__DateTimeParse__DTT;
+}
+namespace System {
+class System__DateTimeParse____c;
+}
+namespace System {
+struct DateTimeRawInfo;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+struct __DTString;
 }
 namespace System {
 template<typename TResult>
@@ -113,8 +128,7 @@ constexpr explicit System__DateTimeParse__MatchNumberDelegate(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__DateTimeParse__MatchNumberDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::System__DateTimeParse__MatchNumberDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2436e4c size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -194,6 +208,8 @@ __Max = 20,
 constexpr operator __System__DateTimeParse__DTT_Unwrapped () const noexcept {
 return std::bit_cast<__System__DateTimeParse__DTT_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -322,6 +338,8 @@ constexpr operator __System__DateTimeParse__TM_Unwrapped () const noexcept {
 return std::bit_cast<__System__DateTimeParse__TM_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -430,6 +448,8 @@ __DX_NNY = 38,
 constexpr operator __System__DateTimeParse__DS_Unwrapped () const noexcept {
 return std::bit_cast<__System__DateTimeParse__DS_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -618,8 +638,7 @@ static System::Func_1<System::System__DateTimeParse__MatchNumberDelegate> __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit System__DateTimeParse____c() ;
+static System::System__DateTimeParse____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2436f9c size 0x8 virtual false final false
  void _ctor() ;

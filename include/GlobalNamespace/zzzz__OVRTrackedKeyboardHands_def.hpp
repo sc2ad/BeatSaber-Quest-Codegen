@@ -6,30 +6,8 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
 namespace GlobalNamespace {
-class OVRSkeleton;
-}
-namespace GlobalNamespace {
-class OVRHand;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
-}
-namespace GlobalNamespace {
-class OVRMeshRenderer;
+class OVRCameraRig;
 }
 namespace UnityEngine {
 class Transform;
@@ -38,13 +16,41 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class OVRSkeletonRenderer;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
-}
-namespace GlobalNamespace {
 class OVRTrackedKeyboard;
+}
+namespace GlobalNamespace {
+class OVRSkeleton;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+}
+namespace GlobalNamespace {
+class OVRHand;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+class OVRMeshRenderer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboardHands__HandBoneMapping;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace UnityEngine {
+class SkinnedMeshRenderer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
+}
+namespace GlobalNamespace {
+class OVRSkeletonRenderer;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRSkeleton__BoneId;
@@ -514,8 +520,7 @@ constexpr int32_t __get_keyboardScaleID_() const;
 /// @brief Method TrackedKeyboardVisibilityChanged addr 0x2617618 size 0x1b0 virtual false final false
  void TrackedKeyboardVisibilityChanged(GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent e) ;
 
-// Ctor Parameters []
-explicit OVRTrackedKeyboardHands() ;
+static GlobalNamespace::OVRTrackedKeyboardHands New_ctor() ;
 
 /// @brief Method .ctor addr 0x26177c8 size 0x750 virtual false final false
  void _ctor() ;

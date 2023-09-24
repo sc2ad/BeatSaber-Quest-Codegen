@@ -3,20 +3,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
-}
-namespace UnityEngine::Playables {
 struct PlayableGraph;
-}
-namespace System {
-class Type;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace System {
+class Type;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

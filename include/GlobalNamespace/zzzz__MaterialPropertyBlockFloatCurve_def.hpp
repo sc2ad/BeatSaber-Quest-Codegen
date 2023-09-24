@@ -75,8 +75,7 @@ constexpr float_t __get__speedMultiplier() const;
 /// @brief Method SetProperty addr 0x1fa2638 size 0x98 virtual true final false
  void SetProperty() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockFloatCurve() ;
+static GlobalNamespace::MaterialPropertyBlockFloatCurve New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa26d0 size 0x10 virtual false final false
  void _ctor() ;

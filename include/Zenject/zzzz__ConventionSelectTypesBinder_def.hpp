@@ -6,6 +6,9 @@ namespace Zenject {
 class ConventionFilterTypesBinder;
 }
 namespace Zenject {
+class Zenject__ConventionSelectTypesBinder____c;
+}
+namespace Zenject {
 class ConventionBindInfo;
 }
 namespace Zenject {
@@ -100,8 +103,7 @@ static System::Func_2<System::Type,bool> __get___9__7_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ConventionSelectTypesBinder____c() ;
+static Zenject::Zenject__ConventionSelectTypesBinder____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d52024 size 0x8 virtual false final false
  void _ctor() ;
@@ -181,8 +183,7 @@ constexpr Zenject::ConventionBindInfo __get__bindInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::ConventionBindInfo", modifiers: "", def_value: None }]
-explicit ConventionSelectTypesBinder(Zenject::ConventionBindInfo bindInfo) ;
+static Zenject::ConventionSelectTypesBinder New_ctor(Zenject::ConventionBindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4dc2c size 0x28 virtual false final false
  void _ctor(Zenject::ConventionBindInfo bindInfo) ;

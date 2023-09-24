@@ -5,12 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
-}
-namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
 }
 // Forward declare root types
 namespace System {

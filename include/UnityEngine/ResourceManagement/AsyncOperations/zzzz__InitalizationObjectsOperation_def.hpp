@@ -2,12 +2,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::AddressableAssets::Initialization {
-class ResourceManagerRuntimeData;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::AddressableAssets {
+class AddressablesImpl;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -16,8 +12,12 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::AddressableAssets {
-class AddressablesImpl;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::AddressableAssets::Initialization {
+class ResourceManagerRuntimeData;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -26,7 +26,7 @@ class InitalizationObjectsOperation;
 // Type: UnityEngine.ResourceManagement.AsyncOperations::InitalizationObjectsOperation
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14328))
 // CS Name: UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation
 class CORDL_TYPE InitalizationObjectsOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
@@ -106,8 +106,7 @@ constexpr UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
 /// @brief Method Execute addr 0x287ddb4 size 0x6a0 virtual true final false
  void Execute() ;
 
-// Ctor Parameters []
-explicit InitalizationObjectsOperation() ;
+static UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation New_ctor() ;
 
 /// @brief Method .ctor addr 0x287e550 size 0x48 virtual false final false
  void _ctor() ;

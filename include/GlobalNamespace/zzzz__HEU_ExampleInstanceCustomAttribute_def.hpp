@@ -63,8 +63,7 @@ static void LogArray(::StringW name, ::ArrayW<T> arr, int32_t tupleSize) ;
 /// @brief Method LogAttr addr 0x1fd95e8 size 0x154 virtual false final false
 static void LogAttr(HoudiniEngineUnity::HEU_OutputAttribute outAttr) ;
 
-// Ctor Parameters []
-explicit HEU_ExampleInstanceCustomAttribute() ;
+static GlobalNamespace::HEU_ExampleInstanceCustomAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd973c size 0x8 virtual false final false
  void _ctor() ;

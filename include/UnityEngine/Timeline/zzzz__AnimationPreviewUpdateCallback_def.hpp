@@ -2,20 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::Animations {
-class IAnimationWindowPreview;
+struct AnimationPlayableOutput;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 class ITimelineEvaluateCallback;
-}
-namespace UnityEngine::Animations {
-struct AnimationPlayableOutput;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Animations {
+class IAnimationWindowPreview;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -87,8 +87,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Animations::IAnimati
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "output", ty: "UnityEngine::Animations::AnimationPlayableOutput", modifiers: "", def_value: None }]
-explicit AnimationPreviewUpdateCallback(UnityEngine::Animations::AnimationPlayableOutput output) ;
+static UnityEngine::Timeline::AnimationPreviewUpdateCallback New_ctor(UnityEngine::Animations::AnimationPlayableOutput output) ;
 
 /// @brief Method .ctor addr 0x2ab7f9c size 0xc8 virtual false final false
  void _ctor(UnityEngine::Animations::AnimationPlayableOutput output) ;

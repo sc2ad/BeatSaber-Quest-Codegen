@@ -2,6 +2,7 @@
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
+#include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Buffers::System__Buffers__ArrayPoolEventSource__BufferAllocatedReason::System__Buffers__ArrayPoolEventSource__BufferAllocatedReason(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -122,8 +123,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::Buffers::ArrayPoolEventSource System::Buffers::ArrayPoolEventSource::__get_Log()  {
 return ::cordl_internals::getStaticField<System::Buffers::ArrayPoolEventSource, "Log", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Buffers::ArrayPoolEventSource>::get>();
 }
-// Ctor Parameters []
- System::Buffers::ArrayPoolEventSource::ArrayPoolEventSource()  : System::Diagnostics::Tracing::EventSource(THROW_UNLESS(::il2cpp_utils::New<ArrayPoolEventSource>())) {}
+ System::Buffers::ArrayPoolEventSource System::Buffers::ArrayPoolEventSource::New_ctor()  {
+System::Buffers::ArrayPoolEventSource o{THROW_UNLESS(::il2cpp_utils::New<System::Buffers::ArrayPoolEventSource>())};
+return o;
+}
  void System::Buffers::ArrayPoolEventSource::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Buffers::ArrayPoolEventSource>::get(),

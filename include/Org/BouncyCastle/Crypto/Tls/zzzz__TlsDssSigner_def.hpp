@@ -3,10 +3,10 @@
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDsaSigner_def.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class IDsa;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDsa;
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -68,8 +68,7 @@ constexpr explicit TlsDssSigner(void* ptr) noexcept : Org::BouncyCastle::Crypto:
 /// @brief Method get_SignatureAlgorithm addr 0xf19ed0 size 0x8 virtual true final false
  uint8_t get_SignatureAlgorithm() ;
 
-// Ctor Parameters []
-explicit TlsDssSigner() ;
+static Org::BouncyCastle::Crypto::Tls::TlsDssSigner New_ctor() ;
 
 /// @brief Method .ctor addr 0xf16b58 size 0x8 virtual false final false
  void _ctor() ;

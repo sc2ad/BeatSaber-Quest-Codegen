@@ -5,12 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Oculus::Platform::Models {
-class User;
-}
 namespace Oculus::Platform {
 template<typename T>
 class Message_1;
+}
+namespace Oculus::Platform::Models {
+class User;
 }
 namespace GlobalNamespace {
 class UserInfo;
@@ -26,45 +26,69 @@ class IReadOnlyList_1;
 namespace Oculus::Platform::Models {
 class UserList;
 }
-namespace GlobalNamespace {
-class PlatformUserAuthTokenData;
-}
 namespace Oculus::Platform::Models {
 class UserProof;
 }
 namespace GlobalNamespace {
-struct PlatformEnvironment;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
+class PlatformUserAuthTokenData;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+class GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformUserModel___GetUserInfo_d__10;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformUserModel__OculusAccessTokenTaskState;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformUserModel___RequestXPlatformAccessToken_d__14;
+}
+namespace GlobalNamespace {
+struct PlatformEnvironment;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct TaskAwaiter_1;
+struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,6 +169,8 @@ __Failed = 3,
 constexpr operator __GlobalNamespace__OculusPlatformUserModel__OculusAccessTokenTaskState_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OculusPlatformUserModel__OculusAccessTokenTaskState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -228,8 +254,7 @@ constexpr GlobalNamespace::OculusPlatformUserModel __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x221d974 size 0x8 virtual false final false
  void _ctor() ;
@@ -393,8 +418,7 @@ constexpr GlobalNamespace::OculusPlatformUserModel __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass11_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x221d150 size 0x8 virtual false final false
  void _ctor() ;
@@ -457,8 +481,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::Plat
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x221d28c size 0x8 virtual false final false
  void _ctor() ;
@@ -539,8 +562,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<System::Collections::
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x221d4f0 size 0x8 virtual false final false
  void _ctor() ;
@@ -609,8 +631,7 @@ constexpr GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__Displa
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformUserModel____c__DisplayClass13_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x221e4c0 size 0x8 virtual false final false
  void _ctor() ;
@@ -847,8 +868,7 @@ constexpr System::Action_1<GlobalNamespace::UserInfo> __get_platformUserInfoDidC
 /// @brief Method OnCompleteLoadingOculusAccessToken addr 0x221d7f0 size 0x17c virtual false final false
  void OnCompleteLoadingOculusAccessToken(Oculus::Platform::Message_1<::StringW> message) ;
 
-// Ctor Parameters []
-explicit OculusPlatformUserModel() ;
+static GlobalNamespace::OculusPlatformUserModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221d96c size 0x8 virtual false final false
  void _ctor() ;

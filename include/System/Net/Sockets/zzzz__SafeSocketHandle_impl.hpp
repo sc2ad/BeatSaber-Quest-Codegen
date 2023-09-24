@@ -1,10 +1,10 @@
 #pragma once
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_impl.hpp"
 #include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
-#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/Diagnostics/zzzz__StackTrace_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::SafeSocketHandle._ctor
 template<>
 
@@ -97,8 +97,10 @@ return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWr
  bool System::Net::Sockets::SafeSocketHandle::__get_THROW_ON_ABORT_RETRIES()  {
 return ::cordl_internals::getStaticField<bool, "THROW_ON_ABORT_RETRIES", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SafeSocketHandle>::get>();
 }
-// Ctor Parameters [CppParam { name: "preexistingHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
- System::Net::Sockets::SafeSocketHandle::SafeSocketHandle(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle)  : Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid(THROW_UNLESS(::il2cpp_utils::New<SafeSocketHandle>(preexistingHandle, ownsHandle))) {}
+ System::Net::Sockets::SafeSocketHandle System::Net::Sockets::SafeSocketHandle::New_ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle)  {
+System::Net::Sockets::SafeSocketHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SafeSocketHandle>(preexistingHandle, ownsHandle))};
+return o;
+}
  void System::Net::Sockets::SafeSocketHandle::_ctor(::cordl_internals::intptr_t preexistingHandle, bool ownsHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SafeSocketHandle>::get(),

@@ -8,26 +8,41 @@ namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
+class LiteNetLib__NatPunchModule__NatIntroduceResponsePacket;
+}
+namespace LiteNetLib {
+class LiteNetLib__NatPunchModule__NatPunchPacket;
+}
+namespace LiteNetLib {
+class NetSocket;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib {
+struct LiteNetLib__NatPunchModule__SuccessEventData;
+}
+namespace LiteNetLib {
 class INatPunchListener;
+}
+namespace LiteNetLib {
+class LiteNetLib__NatPunchModule__NatIntroduceRequestPacket;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib::Utils {
+class NetPacketProcessor;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetPacketProcessor;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace LiteNetLib {
-class NetPacket;
-}
-namespace LiteNetLib {
-class NetSocket;
+struct LiteNetLib__NatPunchModule__RequestEventData;
 }
 namespace LiteNetLib {
 struct NatAddressType;
@@ -257,8 +272,7 @@ constexpr ::StringW __get__Token_k__BackingField() const;
 /// @brief Method set_Token addr 0x2088624 size 0x8 virtual false final false
  void set_Token(::StringW value) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__NatPunchModule__NatIntroduceRequestPacket() ;
+static LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceRequestPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2087eb8 size 0x8 virtual false final false
  void _ctor() ;
@@ -357,8 +371,7 @@ constexpr ::StringW __get__Token_k__BackingField() const;
 /// @brief Method set_Token addr 0x2088654 size 0x8 virtual false final false
  void set_Token(::StringW value) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__NatPunchModule__NatIntroduceResponsePacket() ;
+static LiteNetLib::LiteNetLib__NatPunchModule__NatIntroduceResponsePacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x20876e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -443,8 +456,7 @@ constexpr bool __get__IsExternal_k__BackingField() const;
 /// @brief Method set_IsExternal addr 0x2088674 size 0xc virtual false final false
  void set_IsExternal(bool value) ;
 
-// Ctor Parameters []
-explicit LiteNetLib__NatPunchModule__NatPunchPacket() ;
+static LiteNetLib::LiteNetLib__NatPunchModule__NatPunchPacket New_ctor() ;
 
 /// @brief Method .ctor addr 0x2088138 size 0x8 virtual false final false
  void _ctor() ;
@@ -553,8 +565,7 @@ static constexpr int32_t  MaxTokenLength{256};
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "socket", ty: "LiteNetLib::NetSocket", modifiers: "", def_value: None }]
-explicit NatPunchModule(LiteNetLib::NetSocket socket) ;
+static LiteNetLib::NatPunchModule New_ctor(LiteNetLib::NetSocket socket) ;
 
 /// @brief Method .ctor addr 0x2087218 size 0x2c4 virtual false final false
  void _ctor(LiteNetLib::NetSocket socket) ;

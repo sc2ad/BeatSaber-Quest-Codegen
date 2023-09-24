@@ -9,16 +9,25 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 class Texture2D;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Media__PlatformCameraMode;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Media__InputVideoBufferType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Media__MrcActivationMode;
 }
 namespace System {
 class Version;
@@ -32,31 +41,704 @@ struct Matrix4x4;
 namespace System {
 struct Guid;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_74_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BoneCapsule;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceLocationf;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Frustumf2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceStorageLocation;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_36_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BodyState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Step;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraAnchorType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_0_1_2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerDescInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceSemanticLabelInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerFlags;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Hand;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_82_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__AppPerfStats;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceComponentType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_34_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Skeleton;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_59_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_53_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceFilterInfoComponents;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EyeGazesState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__PoseStatef;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_37_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Skeleton2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_69_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Fovf;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__XrApi;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerSubmit;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceContainerInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraDeviceIntrinsicsParameters;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_71_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_18_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerLayout;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Sizei;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsPcmVibration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BoneId;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__InsightPassthroughKeyboardHandsIntensity;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryResult;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_29_0;
+}
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector4s;
+}
+namespace GlobalNamespace {
+class OVRNativeBuffer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_75_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__PassthroughCapabilityFlags;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_38_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackingOrigin;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_9_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Handedness;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__KeyboardDescription;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__ColorSpace;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Frustumf;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Node;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_30_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BoundaryGeometry;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SystemHeadset;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TiledMultiResLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HandFinger;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_21_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_32_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_48_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_45_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__RenderModelPropertiesInternal;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_1_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackingConfidence;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_7_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__Mesh;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_0_5_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraDeviceDepthSensingMode;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__RenderModelFlags;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__GUID;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_66_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_76_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsBuffer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HandFingerPinch;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__Ktx;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsConstants;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_0_1_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__InsightPassthroughStyleFlags;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EventType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Tracker;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__RoomLayout;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_52_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_72_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__PolygonalBoundary2DInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceLocationFlags;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_6_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceRegionConfidence;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__RenderModelProperties;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_40_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_63_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpatialAnchorCreateInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_10_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SceneCaptureRequestInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryInfo;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_62_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_42_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HandStatus;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_0_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_60_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BodyStateInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__ControllerState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BatteryStatus;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Size3f;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__ProcessorPerformanceLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Rectf;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsLocation;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BoundaryType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceFilterInfoIds;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector2i;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_31_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__RoomLayoutInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_11_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Bool;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__OverlayShape;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__OverlayFlag;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Skeleton2Internal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector4f;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__InsightPassthroughStyle;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SystemRegion;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_12_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_16_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BlendFactor;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_39_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BoundaryTestResult;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_67_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EyeGazeState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__ControllerState2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__ControllerState5;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_50_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EventDataBuffer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_58_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_79_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Result;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector2f;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsAmplitudeEnvelopeVibration;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__KeyboardState;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FeatureType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Colorf;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraIntrinsics;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__InsightPassthroughColorMapType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Posef;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_41_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__AppPerfFrameStats;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__LogCallback2DelegateType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_51_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_46_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_65_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__BodyJointLocation;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryFilterType;
+}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SkeletonType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_61_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraStatus;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_28_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__MeshConstants;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_49_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_78_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_81_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__KeyboardDescriptionConstants;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+template<typename T>
+struct GlobalNamespace__OVRPlugin__PinnedArray_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FixedFoveatedRenderingLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HapticsDesc;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceStoragePersistenceMode;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_44_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TrackedKeyboardFlags;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraDevice;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HandState;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__Media;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LogLevel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__ControllerState4;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_0_1_3;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Vector3f;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_8_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraExtrinsics;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_55_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_68_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SkeletonConstants;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Eye;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_2_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EyeGazesStateInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__EyeTextureFormat;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__InteractionProfile;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Boundsf;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_54_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__PerfMetrics;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_73_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_3_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_17_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_55_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Quatf;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_19_0;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
 namespace GlobalNamespace {
-class OVRNativeBuffer;
+class GlobalNamespace__OVRPlugin__OVRP_1_70_0;
 }
-namespace Unity::Collections {
-struct Allocator;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceExpression;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceExpressionStatus;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__PlatformUI;
 }
-namespace System::Runtime::InteropServices {
-struct GCHandle;
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Sizef;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_15_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_57_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__HandStateInternal;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_5_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceExpressionStatusInternal;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__UnityOpenXR;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__MeshType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Controller;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_56_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_47_0;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_64_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__LayerDesc;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceStateInternal;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__RecenterFlags;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__CameraDeviceDepthQuality;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Bone;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__Recti;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__FaceConstants;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_0_1_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__TextureRectMatrixf;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_35_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRPlugin__SpaceQueryActionType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRPlugin__OVRP_1_43_0;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
 }
 namespace System {
 template<typename T>
@@ -866,8 +1548,7 @@ constexpr uint8_t __get_d7() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPlugin__GUID() ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__GUID New_ctor() ;
 
 /// @brief Method .ctor addr 0x25f0bc4 size 0x8 virtual false final false
  void _ctor() ;
@@ -925,6 +1606,8 @@ __True = 1,
 constexpr operator __GlobalNamespace__OVRPlugin__Bool_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Bool_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1012,6 +1695,8 @@ __Failure_SpaceNetworkRequestFailed = -2004,
 constexpr operator __GlobalNamespace__OVRPlugin__Result_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1137,6 +1822,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__LogLevel_Unwrapped () const noe
 return std::bit_cast<__GlobalNamespace__OVRPlugin__LogLevel_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1201,8 +1888,7 @@ constexpr explicit GlobalNamespace__OVRPlugin__LogCallback2DelegateType(void* pt
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__OVRPlugin__LogCallback2DelegateType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__LogCallback2DelegateType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x25f0bcc size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1274,6 +1960,8 @@ __CameraStatus_EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__CameraStatus_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__CameraStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1361,6 +2049,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__CameraAnchorType_Unwrapped () c
 return std::bit_cast<__GlobalNamespace__OVRPlugin__CameraAnchorType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1438,6 +2128,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__XrApi_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__XrApi_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1519,6 +2211,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__Eye_Unwrapped () const noexcept
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Eye_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1597,6 +2291,8 @@ __Count = 4,
 constexpr operator __GlobalNamespace__OVRPlugin__Tracker_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Tracker_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1690,6 +2386,8 @@ __Count = 12,
 constexpr operator __GlobalNamespace__OVRPlugin__Node_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Node_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1805,6 +2503,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__Controller_Unwrapped () const n
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Controller_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1902,6 +2602,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__InteractionProfile_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__OVRPlugin__InteractionProfile_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -1974,6 +2676,8 @@ __RightHanded = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__Handedness_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Handedness_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2049,6 +2753,8 @@ __Count = 5,
 constexpr operator __GlobalNamespace__OVRPlugin__TrackingOrigin_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__TrackingOrigin_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2129,6 +2835,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__RecenterFlags_Unwrapped () cons
 return std::bit_cast<__GlobalNamespace__OVRPlugin__RecenterFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -2203,6 +2911,8 @@ __Unknown = 4,
 constexpr operator __GlobalNamespace__OVRPlugin__BatteryStatus_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__BatteryStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2288,6 +2998,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__EyeTextureFormat_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__EyeTextureFormat_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2380,6 +3092,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__PlatformUI_Unwrapped () const n
 return std::bit_cast<__GlobalNamespace__OVRPlugin__PlatformUI_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -2452,6 +3166,8 @@ __China = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__SystemRegion_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SystemRegion_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2542,6 +3258,8 @@ __PC_Placeholder_4107 = 4107,
 constexpr operator __GlobalNamespace__OVRPlugin__SystemHeadset_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SystemHeadset_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2674,6 +3392,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__OverlayShape_Unwrapped () const
 return std::bit_cast<__GlobalNamespace__OVRPlugin__OverlayShape_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -2767,6 +3487,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__Step_Unwrapped () const noexcep
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Step_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -2837,6 +3559,8 @@ __ZEDCamera = 300,
 constexpr operator __GlobalNamespace__OVRPlugin__CameraDevice_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__CameraDevice_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -2913,6 +3637,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__CameraDeviceDepthSensingMode_Un
 return std::bit_cast<__GlobalNamespace__OVRPlugin__CameraDeviceDepthSensingMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -2982,6 +3708,8 @@ __High = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__CameraDeviceDepthQuality_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__CameraDeviceDepthQuality_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -3058,6 +3786,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__FoveatedRenderingLevel_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__FoveatedRenderingLevel_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -3144,6 +3874,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__FixedFoveatedRenderingLevel_Unw
 return std::bit_cast<__GlobalNamespace__OVRPlugin__FixedFoveatedRenderingLevel_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -3228,6 +3960,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__TiledMultiResLevel_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__TiledMultiResLevel_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -3330,6 +4064,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__PerfMetrics_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__PerfMetrics_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -3466,6 +4202,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__ProcessorPerformanceLevel_Unwra
 return std::bit_cast<__GlobalNamespace__OVRPlugin__ProcessorPerformanceLevel_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -3550,6 +4288,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__FeatureType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__FeatureType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -3785,6 +4525,8 @@ __Hidden = 512,
 constexpr operator __GlobalNamespace__OVRPlugin__OverlayFlag_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__OverlayFlag_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -4529,6 +5271,8 @@ __Index = 4,
 constexpr operator __GlobalNamespace__OVRPlugin__HapticsLocation_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__HapticsLocation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -5693,6 +6437,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__HapticsConstants_Unwrapped () c
 return std::bit_cast<__GlobalNamespace__OVRPlugin__HapticsConstants_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -6555,6 +7301,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__BoundaryType_Unwrapped () const
 return std::bit_cast<__GlobalNamespace__OVRPlugin__BoundaryType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -7071,6 +7819,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__LayerLayout_Unwrapped () const 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__LayerLayout_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -7155,6 +7905,8 @@ __BicubicFiltering = 16384,
 constexpr operator __GlobalNamespace__OVRPlugin__LayerFlags_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__LayerFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -7539,6 +8291,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__BlendFactor_Unwrapped () const 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__BlendFactor_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -7697,6 +8451,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__TrackingConfidence_Unwrapped ()
 return std::bit_cast<__GlobalNamespace__OVRPlugin__TrackingConfidence_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -7766,6 +8522,8 @@ __HandRight = 1,
 constexpr operator __GlobalNamespace__OVRPlugin__Hand_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Hand_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -7841,6 +8599,8 @@ __MenuPressed = 256,
 constexpr operator __GlobalNamespace__OVRPlugin__HandStatus_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__HandStatus_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -8018,6 +8778,8 @@ __Max = 70,
 constexpr operator __GlobalNamespace__OVRPlugin__BoneId_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__BoneId_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -8389,6 +9151,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__HandFinger_Unwrapped () const n
 return std::bit_cast<__GlobalNamespace__OVRPlugin__HandFinger_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -8472,6 +9236,8 @@ __Pinky = 16,
 constexpr operator __GlobalNamespace__OVRPlugin__HandFingerPinch_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__HandFingerPinch_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -9101,6 +9867,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__SkeletonConstants_Unwrapped () 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SkeletonConstants_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -9177,6 +9945,8 @@ __Body = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__SkeletonType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SkeletonType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -10006,6 +10776,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__MeshConstants_Unwrapped () cons
 return std::bit_cast<__GlobalNamespace__OVRPlugin__MeshConstants_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -10075,6 +10847,8 @@ __HandRight = 1,
 constexpr operator __GlobalNamespace__OVRPlugin__MeshType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__MeshType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -10197,8 +10971,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__OVRPlugin__Vector4f> __get_
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPlugin__Mesh() ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__Mesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x25f2608 size 0x8 virtual false final false
  void _ctor() ;
@@ -10258,6 +11031,8 @@ __PositionTracked = 8u,
 constexpr operator __GlobalNamespace__OVRPlugin__SpaceLocationFlags_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceLocationFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint64_t;
 
 
 // Fields
@@ -11128,6 +11903,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__KeyboardDescriptionConstants_Un
 return std::bit_cast<__GlobalNamespace__OVRPlugin__KeyboardDescriptionConstants_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -11194,6 +11971,8 @@ __KeyLabel = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__TrackedKeyboardPresentationStyles_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -11269,6 +12048,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__TrackedKeyboardFlags_Unwrapped 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__TrackedKeyboardFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -11343,6 +12124,8 @@ __Remote = 4,
 constexpr operator __GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__TrackedKeyboardQueryFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -12135,6 +12918,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__FaceRegionConfidence_Unwrapped 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__FaceRegionConfidence_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -12269,6 +13054,8 @@ __Max = 63,
 constexpr operator __GlobalNamespace__OVRPlugin__FaceExpression_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__FaceExpression_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -12527,6 +13314,8 @@ __MaxFaceRegionConfidences = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__FaceConstants_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__FaceConstants_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -12804,6 +13593,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__ColorSpace_Unwrapped () const n
 return std::bit_cast<__GlobalNamespace__OVRPlugin__ColorSpace_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -12902,6 +13693,8 @@ __SceneCaptureComplete = 100,
 constexpr operator __GlobalNamespace__OVRPlugin__EventType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__EventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -13200,6 +13993,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__RenderModelFlags_Unwrapped () c
 return std::bit_cast<__GlobalNamespace__OVRPlugin__RenderModelFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -13270,6 +14065,8 @@ __BrightnessContrastSaturation = 4,
 constexpr operator __GlobalNamespace__OVRPlugin__InsightPassthroughColorMapType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__InsightPassthroughColorMapType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -13346,6 +14143,8 @@ __HasTextureColorMap = 4,
 constexpr operator __GlobalNamespace__OVRPlugin__InsightPassthroughStyleFlags_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__InsightPassthroughStyleFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -13562,6 +14361,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__PassthroughCapabilityFlags_Unwr
 return std::bit_cast<__GlobalNamespace__OVRPlugin__PassthroughCapabilityFlags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -13639,6 +14440,8 @@ __SpaceContainer = 7,
 constexpr operator __GlobalNamespace__OVRPlugin__SpaceComponentType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceComponentType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -13728,6 +14531,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__SpaceStorageLocation_Unwrapped 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceStorageLocation_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -13800,6 +14605,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__SpaceStoragePersistenceMode_Unw
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceStoragePersistenceMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -13868,6 +14675,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__SpaceQueryActionType_Unwrapped 
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceQueryActionType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -13932,6 +14741,8 @@ __Action = 0,
 constexpr operator __GlobalNamespace__OVRPlugin__SpaceQueryType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceQueryType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -13999,6 +14810,8 @@ __Components = 2,
 constexpr operator __GlobalNamespace__OVRPlugin__SpaceQueryFilterType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__SpaceQueryFilterType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -14410,6 +15223,8 @@ constexpr operator __GlobalNamespace__OVRPlugin__Media__MrcActivationMode_Unwrap
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Media__MrcActivationMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -14489,6 +15304,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__Media__PlatformCameraMode_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Media__PlatformCameraMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -14583,6 +15400,8 @@ __EnumSize = 2147483647,
 constexpr operator __GlobalNamespace__OVRPlugin__Media__InputVideoBufferType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__OVRPlugin__Media__InputVideoBufferType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -14741,8 +15560,7 @@ static bool SetMrcHeadsetControllerPose(GlobalNamespace::GlobalNamespace__OVRPlu
 /// @brief Method IsCastingToRemoteClient addr 0x25f4f98 size 0xd4 virtual false final false
 static bool IsCastingToRemoteClient() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPlugin__Media() ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__Media New_ctor() ;
 
 /// @brief Method .ctor addr 0x25f50e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -15211,8 +16029,7 @@ static bool GetKtxTextureData(::cordl_internals::intptr_t texture, ::cordl_inter
 /// @brief Method DestroyKtxTexture addr 0x25f5bd0 size 0x12c virtual false final false
 static bool DestroyKtxTexture(::cordl_internals::intptr_t texture) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPlugin__Ktx() ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__Ktx New_ctor() ;
 
 /// @brief Method .ctor addr 0x25f5d78 size 0x8 virtual false final false
  void _ctor() ;
@@ -15305,8 +16122,7 @@ static void OnSessionExiting(uint64_t xrSession) ;
 /// @brief Method OnSessionDestroy addr 0x25f6a48 size 0xc0 virtual false final false
 static void OnSessionDestroy(uint64_t xrSession) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRPlugin__UnityOpenXR() ;
+static GlobalNamespace::GlobalNamespace__OVRPlugin__UnityOpenXR New_ctor() ;
 
 /// @brief Method .ctor addr 0x25f6b84 size 0x8 virtual false final false
  void _ctor() ;

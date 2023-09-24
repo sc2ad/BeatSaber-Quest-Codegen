@@ -6,12 +6,25 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace HMUI {
+class ViewController;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace HMUI {
-class ViewController;
+struct HMUI__NavigationController__Alignment;
+}
+namespace HMUI {
+struct HMUI__NavigationController__Orientation;
+}
+namespace HMUI {
+class HMUI__NavigationController____c__DisplayClass8_0;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -19,9 +32,8 @@ struct Vector3;
 namespace System {
 class Action;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HMUI {
+class HMUI__NavigationController____c__DisplayClass10_0;
 }
 // Forward declare root types
 namespace HMUI {
@@ -88,6 +100,8 @@ __Vertical = 1,
 constexpr operator __HMUI__NavigationController__Orientation_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__NavigationController__Orientation_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -158,6 +172,8 @@ __End = 2,
 constexpr operator __HMUI__NavigationController__Alignment_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__NavigationController__Alignment_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -250,8 +266,7 @@ constexpr ::ArrayW<float_t> __get_endPositions() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__NavigationController____c__DisplayClass8_0() ;
+static HMUI::HMUI__NavigationController____c__DisplayClass8_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb7ca8 size 0x8 virtual false final false
  void _ctor() ;
@@ -332,8 +347,7 @@ constexpr float_t __get_moveOffset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__NavigationController____c__DisplayClass10_0() ;
+static HMUI::HMUI__NavigationController____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb7f60 size 0x8 virtual false final false
  void _ctor() ;
@@ -449,8 +463,7 @@ constexpr float_t __get__viewControllersSeparator() const;
 /// @brief Method GetNewPositionsForViewControllers addr 0x1fb6758 size 0x4f4 virtual false final false
  ::ArrayW<float_t> GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController> viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController> fixedViewControllers, float_t fixedEndPos) ;
 
-// Ctor Parameters []
-explicit NavigationController() ;
+static HMUI::NavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb6c9c size 0x100c virtual false final false
  void _ctor() ;

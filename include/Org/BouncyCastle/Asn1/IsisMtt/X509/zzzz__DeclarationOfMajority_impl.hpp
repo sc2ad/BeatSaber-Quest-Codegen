@@ -2,11 +2,12 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__DeclarationOfMajority_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__DeclarationOfMajority_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Org::BouncyCastle::Asn1::IsisMtt::X509::Org__BouncyCastle__Asn1__IsisMtt__X509__DeclarationOfMajority__Choice::Org__BouncyCastle__Asn1__IsisMtt__X509__DeclarationOfMajority__Choice(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -199,8 +200,10 @@ constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::__
 constexpr Org::BouncyCastle::Asn1::Asn1TaggedObject Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::__get_declaration() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1TaggedObject, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "notYoungerThan", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::DeclarationOfMajority(int32_t notYoungerThan)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DeclarationOfMajority>(notYoungerThan))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(int32_t notYoungerThan)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>(notYoungerThan))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(int32_t notYoungerThan)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>::get(),
@@ -210,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, notYoungerThan);
 }
-// Ctor Parameters [CppParam { name: "fullAge", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "country", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::DeclarationOfMajority(bool fullAge, ::StringW country)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DeclarationOfMajority>(fullAge, country))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(bool fullAge, ::StringW country)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>(fullAge, country))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(bool fullAge, ::StringW country)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>::get(),
@@ -221,8 +226,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, fullAge, country);
 }
-// Ctor Parameters [CppParam { name: "dateOfBirth", ty: "Org::BouncyCastle::Asn1::DerGeneralizedTime", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::DeclarationOfMajority(Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DeclarationOfMajority>(dateOfBirth))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>(dateOfBirth))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(Org::BouncyCastle::Asn1::DerGeneralizedTime dateOfBirth)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>::get(),
@@ -241,8 +248,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::DeclarationOfMajority(Org::BouncyCastle::Asn1::Asn1TaggedObject o)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<DeclarationOfMajority>(o))) {}
+ Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject o)  {
+Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>(o))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority>::get(),

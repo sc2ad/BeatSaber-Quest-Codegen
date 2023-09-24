@@ -6,65 +6,65 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-struct DateTime;
+struct Decimal;
 }
-namespace Newtonsoft::Json {
-struct FloatFormatHandling;
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class Type;
 }
 namespace Newtonsoft::Json {
 class JsonSerializerSettings;
 }
-namespace System {
-struct Decimal;
+namespace System::Xml::Linq {
+class XObject;
 }
-namespace Newtonsoft::Json {
-struct Formatting;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
+namespace System::Xml::Linq {
+class XDocument;
 }
 namespace System {
-class Uri;
+struct Guid;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
+struct DateFormatHandling;
 }
 namespace System {
-struct TimeSpan;
+class Uri;
 }
-namespace System::Xml::Linq {
-class XObject;
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace System {
+struct DateTime;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json {
 struct StringEscapeHandling;
 }
 namespace Newtonsoft::Json {
-struct DateFormatHandling;
+struct FloatFormatHandling;
+}
+namespace System::Xml {
+class XmlNode;
 }
 namespace System {
 struct DateTimeOffset;
 }
-namespace System {
-struct Guid;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml::Linq {
-class XDocument;
-}
-namespace System::Xml {
-class XmlNode;
+namespace Newtonsoft::Json {
+struct Formatting;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {

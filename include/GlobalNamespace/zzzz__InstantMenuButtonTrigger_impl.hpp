@@ -2,8 +2,8 @@
 #include "GlobalNamespace/zzzz__InstantMenuButtonTrigger_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 //  Writing Method size for method: GlobalNamespace::InstantMenuButtonTrigger.add_menuButtonTriggeredEvent
 template<>
 
@@ -119,8 +119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::InstantMenuButtonTrigger::InstantMenuButtonTrigger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InstantMenuButtonTrigger>())) {}
+ GlobalNamespace::InstantMenuButtonTrigger GlobalNamespace::InstantMenuButtonTrigger::New_ctor()  {
+GlobalNamespace::InstantMenuButtonTrigger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::InstantMenuButtonTrigger>())};
+return o;
+}
  void GlobalNamespace::InstantMenuButtonTrigger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::InstantMenuButtonTrigger>::get(),

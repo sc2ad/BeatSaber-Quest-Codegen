@@ -201,8 +201,10 @@ constexpr void System::Text::Encoder::__set__fallbackBuffer(System::Text::Encode
 constexpr System::Text::EncoderFallbackBuffer System::Text::Encoder::__get__fallbackBuffer() const {
 return ::cordl_internals::getInstanceField<System::Text::EncoderFallbackBuffer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::Encoder::Encoder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Encoder>())) {}
+ System::Text::Encoder System::Text::Encoder::New_ctor()  {
+System::Text::Encoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::Encoder>())};
+return o;
+}
  void System::Text::Encoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::Encoder>::get(),

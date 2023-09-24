@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaEncoding;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -82,8 +82,7 @@ static Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding __get_Instance() ;
 /// @brief Method EncodeValue addr 0xec5258 size 0x124 virtual true final false
  void EncodeValue(Org::BouncyCastle::Math::BigInteger n, Org::BouncyCastle::Math::BigInteger x, ::ArrayW<uint8_t> buf, int32_t off, int32_t len) ;
 
-// Ctor Parameters []
-explicit PlainDsaEncoding() ;
+static Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding New_ctor() ;
 
 /// @brief Method .ctor addr 0xec53e0 size 0x8 virtual false final false
  void _ctor() ;

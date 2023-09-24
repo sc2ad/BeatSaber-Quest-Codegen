@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__SceneSelection_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::SceneSelection.get_vertexes
 template<>
 
@@ -520,8 +520,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::GameObject gameObject)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(gameObject))) {}
+/// @param gameObject: UnityEngine::GameObject (default: csnull)
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::GameObject gameObject)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(gameObject))};
+return o;
+}
 /// @param gameObject: UnityEngine::GameObject (default: csnull)
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::GameObject gameObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -532,8 +535,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, gameObject);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "vertex", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(mesh, vertex))) {}
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(mesh, vertex))};
+return o;
+}
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SceneSelection>::get(),
@@ -543,8 +548,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mesh, vertex);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "edge", ty: "UnityEngine::ProBuilder::Edge", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Edge edge)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(mesh, edge))) {}
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Edge edge)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(mesh, edge))};
+return o;
+}
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Edge edge)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SceneSelection>::get(),
@@ -554,8 +561,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mesh, edge);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "face", ty: "UnityEngine::ProBuilder::Face", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Face face)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(mesh, face))) {}
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Face face)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(mesh, face))};
+return o;
+}
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Face face)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SceneSelection>::get(),
@@ -565,8 +574,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mesh, face);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "vertexes", ty: "System::Collections::Generic::List_1<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<int32_t> vertexes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(mesh, vertexes))) {}
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<int32_t> vertexes)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(mesh, vertexes))};
+return o;
+}
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<int32_t> vertexes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SceneSelection>::get(),
@@ -576,8 +587,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mesh, vertexes);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "edges", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge> edges)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(mesh, edges))) {}
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge> edges)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(mesh, edges))};
+return o;
+}
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge> edges)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SceneSelection>::get(),
@@ -587,8 +600,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mesh, edges);
 }
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "faces", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::SceneSelection::SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneSelection>(mesh, faces))) {}
+ UnityEngine::ProBuilder::SceneSelection UnityEngine::ProBuilder::SceneSelection::New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces)  {
+UnityEngine::ProBuilder::SceneSelection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SceneSelection>(mesh, faces))};
+return o;
+}
  void UnityEngine::ProBuilder::SceneSelection::_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SceneSelection>::get(),

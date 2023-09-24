@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -146,8 +146,7 @@ constexpr GlobalNamespace::IBeatmapLevelCollection __get__beatmapLevelCollection
 /// @brief Method get_beatmapLevelCollection addr 0x21e4e18 size 0x8 virtual true final true
  GlobalNamespace::IBeatmapLevelCollection get_beatmapLevelCollection() ;
 
-// Ctor Parameters [CppParam { name: "levelPackID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "packName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "shortPackName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "coverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "smallCoverImage", ty: "UnityEngine::Sprite", modifiers: "", def_value: None }, CppParam { name: "levelCollection", ty: "GlobalNamespace::IBeatmapLevelCollection", modifiers: "", def_value: None }]
-explicit BeatmapLevelPack(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::IBeatmapLevelCollection levelCollection) ;
+static GlobalNamespace::BeatmapLevelPack New_ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::IBeatmapLevelCollection levelCollection) ;
 
 /// @brief Method .ctor addr 0x21e4e20 size 0x54 virtual false final false
  void _ctor(::StringW levelPackID, ::StringW packName, ::StringW shortPackName, UnityEngine::Sprite coverImage, UnityEngine::Sprite smallCoverImage, GlobalNamespace::IBeatmapLevelCollection levelCollection) ;

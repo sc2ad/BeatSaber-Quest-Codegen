@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Audio/zzzz__AudioPlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: UnityEngine::Audio::AudioPlayableBinding.Create
 template<>
 

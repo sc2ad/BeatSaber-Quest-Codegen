@@ -2,8 +2,8 @@
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__DecoderReplacementFallback_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: System::Text::DecoderReplacementFallback._ctor
 template<>
@@ -168,8 +168,10 @@ constexpr void System::Text::DecoderReplacementFallback::__set__strDefault(::Str
 constexpr ::StringW System::Text::DecoderReplacementFallback::__get__strDefault() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::DecoderReplacementFallback::DecoderReplacementFallback()  : System::Text::DecoderFallback(THROW_UNLESS(::il2cpp_utils::New<DecoderReplacementFallback>())) {}
+ System::Text::DecoderReplacementFallback System::Text::DecoderReplacementFallback::New_ctor()  {
+System::Text::DecoderReplacementFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderReplacementFallback>())};
+return o;
+}
  void System::Text::DecoderReplacementFallback::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderReplacementFallback>::get(),
@@ -179,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Text::DecoderReplacementFallback::DecoderReplacementFallback(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Text::DecoderFallback(THROW_UNLESS(::il2cpp_utils::New<DecoderReplacementFallback>(info, context))) {}
+ System::Text::DecoderReplacementFallback System::Text::DecoderReplacementFallback::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Text::DecoderReplacementFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderReplacementFallback>(info, context))};
+return o;
+}
  void System::Text::DecoderReplacementFallback::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderReplacementFallback>::get(),
@@ -199,8 +203,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters [CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }]
- System::Text::DecoderReplacementFallback::DecoderReplacementFallback(::StringW replacement)  : System::Text::DecoderFallback(THROW_UNLESS(::il2cpp_utils::New<DecoderReplacementFallback>(replacement))) {}
+ System::Text::DecoderReplacementFallback System::Text::DecoderReplacementFallback::New_ctor(::StringW replacement)  {
+System::Text::DecoderReplacementFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::DecoderReplacementFallback>(replacement))};
+return o;
+}
  void System::Text::DecoderReplacementFallback::_ctor(::StringW replacement)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::DecoderReplacementFallback>::get(),

@@ -61,8 +61,7 @@ constexpr explicit NormalizeVector3Processor(void* ptr) noexcept : UnityEngine::
 /// @brief Method ToString addr 0x2967108 size 0x40 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit NormalizeVector3Processor() ;
+static UnityEngine::InputSystem::Processors::NormalizeVector3Processor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2967148 size 0x48 virtual false final false
  void _ctor() ;

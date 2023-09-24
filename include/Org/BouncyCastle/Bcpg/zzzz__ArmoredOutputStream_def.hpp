@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct HashAlgorithmTag;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Crc24;
@@ -182,14 +182,12 @@ constexpr System::Collections::IDictionary __get_headers() const;
 /// @brief Method Encode addr 0x114054c size 0x2f4 virtual false final false
 static void Encode(System::IO::Stream outStream, ::ArrayW<int32_t> data, int32_t len) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit ArmoredOutputStream(System::IO::Stream outStream) ;
+static Org::BouncyCastle::Bcpg::ArmoredOutputStream New_ctor(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1140840 size 0x12c virtual false final false
  void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "headers", ty: "System::Collections::IDictionary", modifiers: "", def_value: None }]
-explicit ArmoredOutputStream(System::IO::Stream outStream, System::Collections::IDictionary headers) ;
+static Org::BouncyCastle::Bcpg::ArmoredOutputStream New_ctor(System::IO::Stream outStream, System::Collections::IDictionary headers) ;
 
 /// @brief Method .ctor addr 0x1140c20 size 0x548 virtual false final false
  void _ctor(System::IO::Stream outStream, System::Collections::IDictionary headers) ;

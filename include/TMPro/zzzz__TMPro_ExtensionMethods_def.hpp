@@ -6,6 +6,12 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Color32;
 }
 namespace System::Collections::Generic {
@@ -14,12 +20,6 @@ class List_1;
 }
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace TMPro {

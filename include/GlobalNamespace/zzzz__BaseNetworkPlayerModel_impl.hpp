@@ -1,21 +1,22 @@
 #pragma once
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig._ctor
 template<>
@@ -52,8 +53,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyCo
 constexpr GlobalNamespace::INetworkPlayerModel GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig::__get_partyManager() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::INetworkPlayerModel, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BaseNetworkPlayerModel__PartyConfig>())) {}
+ GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel__PartyConfig>::get(),
@@ -237,8 +240,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPar
 constexpr int32_t GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55::__get___l__initialThreadId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55 GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetPartyPlayers_d__55>::get(),
@@ -485,8 +490,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOth
 constexpr int32_t GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56::__get___l__initialThreadId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56 GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BaseNetworkPlayerModel___GetOtherPlayers_d__56>::get(),
@@ -1768,8 +1775,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters []
- GlobalNamespace::BaseNetworkPlayerModel::BaseNetworkPlayerModel()  : GlobalNamespace::StandaloneMonobehavior(THROW_UNLESS(::il2cpp_utils::New<BaseNetworkPlayerModel>())) {}
+ GlobalNamespace::BaseNetworkPlayerModel GlobalNamespace::BaseNetworkPlayerModel::New_ctor()  {
+GlobalNamespace::BaseNetworkPlayerModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BaseNetworkPlayerModel>())};
+return o;
+}
  void GlobalNamespace::BaseNetworkPlayerModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BaseNetworkPlayerModel>::get(),

@@ -10,19 +10,22 @@ class IAsyncResult;
 namespace System {
 class AsyncCallback;
 }
-namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
 namespace Oculus::Platform {
 struct InitConfigOptions;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__StandalonePlatform__UnityLogDelegate;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -73,8 +76,7 @@ constexpr explicit Oculus__Platform__StandalonePlatform__UnityLogDelegate(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Oculus__Platform__StandalonePlatform__UnityLogDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Oculus::Platform::Oculus__Platform__StandalonePlatform__UnityLogDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x259a1f4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -145,8 +147,7 @@ constexpr explicit StandalonePlatform(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method AsyncInitializeWithAccessTokenAndOptions addr 0x259a0a4 size 0x150 virtual false final false
  Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> AsyncInitializeWithAccessTokenAndOptions(::StringW appId, ::StringW accessToken, System::Collections::Generic::Dictionary_2<Oculus::Platform::InitConfigOptions,bool> initConfigOptions) ;
 
-// Ctor Parameters []
-explicit StandalonePlatform() ;
+static Oculus::Platform::StandalonePlatform New_ctor() ;
 
 /// @brief Method .ctor addr 0x2598ae4 size 0x8 virtual false final false
  void _ctor() ;

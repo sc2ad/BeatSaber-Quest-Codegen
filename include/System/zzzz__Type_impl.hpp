@@ -1,31 +1,31 @@
 #pragma once
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__Module_def.hpp"
-#include "System/zzzz__RuntimeTypeHandle_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
+#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
-#include "System/Reflection/zzzz__MemberTypes_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
 #include "System/Reflection/zzzz__MemberFilter_def.hpp"
-#include "System/Reflection/zzzz__AssemblyName_def.hpp"
+#include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__TypeAttributes_def.hpp"
+#include "System/zzzz__RuntimeTypeHandle_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__ParameterModifier_def.hpp"
-#include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Reflection/zzzz__EventInfo_def.hpp"
 #include "System/Reflection/zzzz__CallingConventions_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberTypes_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Reflection/zzzz__AssemblyName_def.hpp"
+#include "System/zzzz__Array_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__EventInfo_def.hpp"
 //  Writing Method size for method: System::Type.IsEnumDefined
 template<>
 
@@ -2795,8 +2795,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, m, filterCriteria);
 }
-// Ctor Parameters []
- System::Type::Type()  : System::Reflection::MemberInfo(THROW_UNLESS(::il2cpp_utils::New<Type>())) {}
+ System::Type System::Type::New_ctor()  {
+System::Type o{THROW_UNLESS(::il2cpp_utils::New<System::Type>())};
+return o;
+}
  void System::Type::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Type>::get(),

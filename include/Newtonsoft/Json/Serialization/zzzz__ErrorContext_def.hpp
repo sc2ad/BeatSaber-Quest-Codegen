@@ -105,8 +105,7 @@ constexpr bool __get__Handled_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "originalObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "member", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "error", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ErrorContext(::bs_hook::Il2CppWrapperType originalObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error) ;
+static Newtonsoft::Json::Serialization::ErrorContext New_ctor(::bs_hook::Il2CppWrapperType originalObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error) ;
 
 /// @brief Method .ctor addr 0x24ff86c size 0x40 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType originalObject, ::bs_hook::Il2CppWrapperType member, ::StringW path, System::Exception error) ;

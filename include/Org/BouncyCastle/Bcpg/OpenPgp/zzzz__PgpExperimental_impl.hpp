@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpExperimental_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ExperimentalPacket_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental._ctor
 template<>
 
@@ -26,8 +26,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::__set_p(Org::B
 constexpr Org::BouncyCastle::Bcpg::ExperimentalPacket Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::__get_p() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::ExperimentalPacket, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::PgpExperimental(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpObject(THROW_UNLESS(::il2cpp_utils::New<PgpExperimental>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpExperimental>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworksItemPoolInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
 #include "GlobalNamespace/zzzz__FireworksController_def.hpp"
+#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FireworksItemPoolInstaller.InstallBindings
 template<>
 
@@ -58,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FireworksItemPoolInstaller::FireworksItemPoolInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<FireworksItemPoolInstaller>())) {}
+ GlobalNamespace::FireworksItemPoolInstaller GlobalNamespace::FireworksItemPoolInstaller::New_ctor()  {
+GlobalNamespace::FireworksItemPoolInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FireworksItemPoolInstaller>())};
+return o;
+}
  void GlobalNamespace::FireworksItemPoolInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FireworksItemPoolInstaller>::get(),

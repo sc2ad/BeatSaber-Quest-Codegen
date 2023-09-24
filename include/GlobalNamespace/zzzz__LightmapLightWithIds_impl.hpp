@@ -2,11 +2,12 @@
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
+#include "GlobalNamespace/zzzz__LightmapLightWithIds_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__BakedLightsNormalizer_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LightmapLightWithIds__MixType::GlobalNamespace__LightmapLightWithIds__MixType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -99,8 +100,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "probeMultiplier", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity, float_t probeMultiplier)  : GlobalNamespace::GlobalNamespace__LightWithIds__LightWithId(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId>(lightId, lightIntensity, probeMultiplier))) {}
+ GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId::New_ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier)  {
+GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId>(lightId, lightIntensity, probeMultiplier))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId::_ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId>::get(),
@@ -517,8 +520,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LightmapLightWithIds::LightmapLightWithIds()  : GlobalNamespace::LightWithIds(THROW_UNLESS(::il2cpp_utils::New<LightmapLightWithIds>())) {}
+ GlobalNamespace::LightmapLightWithIds GlobalNamespace::LightmapLightWithIds::New_ctor()  {
+GlobalNamespace::LightmapLightWithIds o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightmapLightWithIds>())};
+return o;
+}
  void GlobalNamespace::LightmapLightWithIds::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightmapLightWithIds>::get(),

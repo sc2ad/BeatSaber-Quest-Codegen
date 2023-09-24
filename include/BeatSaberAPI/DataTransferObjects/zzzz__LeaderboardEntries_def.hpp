@@ -60,8 +60,7 @@ constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::LeaderboardEntry> __get_en
 
 // Methods
 
-// Ctor Parameters []
-explicit LeaderboardEntries() ;
+static BeatSaberAPI::DataTransferObjects::LeaderboardEntries New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d733c size 0x8 virtual false final false
  void _ctor() ;

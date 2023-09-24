@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace HMUI {
+class ButtonBinder;
+}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace HMUI {
-class ButtonBinder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -105,8 +105,7 @@ constexpr bool __get__codeIsShown() const;
 /// @brief Method RefreshText addr 0x218f448 size 0xa0 virtual false final false
  void RefreshText(bool showCode) ;
 
-// Ctor Parameters []
-explicit ServerCodeView() ;
+static GlobalNamespace::ServerCodeView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218f5ac size 0x68 virtual false final false
  void _ctor() ;

@@ -102,8 +102,7 @@ constexpr UnityEngine::UI::Button __get__buyPackButton() const;
 /// @brief Method RefreshView addr 0x218f62c size 0x78 virtual false final false
  void RefreshView(::StringW infoText, bool canBuyPack) ;
 
-// Ctor Parameters []
-explicit StandardLevelBuyInfoView() ;
+static GlobalNamespace::StandardLevelBuyInfoView New_ctor() ;
 
 /// @brief Method .ctor addr 0x218f6a4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerBadgesModelSO.get_positiveBadges
 template<>
@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerBadgesModelSO::MultiplayerBadgesModelSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBadgesModelSO>())) {}
+ GlobalNamespace::MultiplayerBadgesModelSO GlobalNamespace::MultiplayerBadgesModelSO::New_ctor()  {
+GlobalNamespace::MultiplayerBadgesModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBadgesModelSO>())};
+return o;
+}
  void GlobalNamespace::MultiplayerBadgesModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBadgesModelSO>::get(),

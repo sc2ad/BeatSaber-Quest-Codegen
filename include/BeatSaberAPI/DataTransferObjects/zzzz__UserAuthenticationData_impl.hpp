@@ -61,8 +61,10 @@ constexpr void BeatSaberAPI::DataTransferObjects::UserAuthenticationData::__set_
 constexpr ::StringW BeatSaberAPI::DataTransferObjects::UserAuthenticationData::__get_publicUserDisplayName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- BeatSaberAPI::DataTransferObjects::UserAuthenticationData::UserAuthenticationData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UserAuthenticationData>())) {}
+ BeatSaberAPI::DataTransferObjects::UserAuthenticationData BeatSaberAPI::DataTransferObjects::UserAuthenticationData::New_ctor()  {
+BeatSaberAPI::DataTransferObjects::UserAuthenticationData o{THROW_UNLESS(::il2cpp_utils::New<BeatSaberAPI::DataTransferObjects::UserAuthenticationData>())};
+return o;
+}
  void BeatSaberAPI::DataTransferObjects::UserAuthenticationData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<BeatSaberAPI::DataTransferObjects::UserAuthenticationData>::get(),

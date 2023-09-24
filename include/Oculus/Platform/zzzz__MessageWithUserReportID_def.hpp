@@ -13,7 +13,7 @@ class MessageWithUserReportID;
 // Type: Oculus.Platform::MessageWithUserReportID
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4480 }), TypeDefinitionIndex(TypeDefinitionIndex(13488))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4480 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13488))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13289))
 // CS Name: Oculus.Platform.MessageWithUserReportID
 class CORDL_TYPE MessageWithUserReportID : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserReportID> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithUserReportID(void* ptr) noexcept : Oculus::Platfor
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithUserReportID(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithUserReportID New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x2584308 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

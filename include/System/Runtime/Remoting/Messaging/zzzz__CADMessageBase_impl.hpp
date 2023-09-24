@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMessageBase_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
-#include "System/Reflection/zzzz__MethodBase_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
+#include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::CADMessageBase._ctor
 template<>
 
@@ -241,8 +241,10 @@ constexpr void System::Runtime::Remoting::Messaging::CADMessageBase::__set_seria
 constexpr ::ArrayW<uint8_t> System::Runtime::Remoting::Messaging::CADMessageBase::__get_serializedMethod() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::CADMessageBase::CADMessageBase(System::Runtime::Remoting::Messaging::IMethodMessage msg)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CADMessageBase>(msg))) {}
+ System::Runtime::Remoting::Messaging::CADMessageBase System::Runtime::Remoting::Messaging::CADMessageBase::New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg)  {
+System::Runtime::Remoting::Messaging::CADMessageBase o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CADMessageBase>(msg))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CADMessageBase::_ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CADMessageBase>::get(),

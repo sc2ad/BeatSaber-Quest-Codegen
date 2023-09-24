@@ -1,10 +1,11 @@
 #pragma once
 #include "Mono/Globalization/Unicode/zzzz__MSCompatUnicodeTable_def.hpp"
-#include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__MSCompatUnicodeTable_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__TailoringInfo_def.hpp"
-#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Level2Map_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
+#include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 //  Writing Method size for method: Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c._ctor
 template<>
@@ -52,8 +53,10 @@ return ::cordl_internals::getStaticField<Mono::Globalization::Unicode::Mono__Glo
  System::Comparison_1<Mono::Globalization::Unicode::Level2Map> Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c::__get___9__17_0()  {
 return ::cordl_internals::getStaticField<System::Comparison_1<Mono::Globalization::Unicode::Level2Map>, "<>9__17_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c>::get>();
 }
-// Ctor Parameters []
- Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c::Mono__Globalization__Unicode__MSCompatUnicodeTable____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Mono__Globalization__Unicode__MSCompatUnicodeTable____c>())) {}
+ Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c::New_ctor()  {
+Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c>())};
+return o;
+}
  void Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::Mono__Globalization__Unicode__MSCompatUnicodeTable____c>::get(),

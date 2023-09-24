@@ -47,8 +47,7 @@ constexpr explicit AndroidGyroscope(void* ptr) noexcept : UnityEngine::InputSyst
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidGyroscope() ;
+static UnityEngine::InputSystem::Android::AndroidGyroscope New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953068 size 0x8 virtual false final false
  void _ctor() ;

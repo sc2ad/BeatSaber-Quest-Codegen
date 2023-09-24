@@ -9,16 +9,15 @@ namespace Oculus::Platform {
 template<typename T>
 class Message_1;
 }
+namespace Oculus::Platform::Models {
+class Purchase;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
-namespace Oculus::Platform::Models {
-class Purchase;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Oculus__Platform__Message_1__Callback;
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -26,22 +25,22 @@ struct CancellationToken;
 namespace Oculus::Platform::Models {
 class PurchaseList;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
-}
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
 }
-namespace System::Collections::Generic {
+namespace Oculus::Platform {
 template<typename T>
-class HashSet_1;
+class Oculus__Platform__Message_1__Callback;
 }
-namespace System::Threading {
-class SemaphoreSlim;
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___CheckForNewEntitlementsAsync_d__12;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
@@ -50,10 +49,45 @@ namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__6;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__5;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___DataIsValidAsync_d__7;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__11;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___LaunchCheckoutFlow_d__10;
 }
 namespace GlobalNamespace {
 class OculusLevelProductsModelSO;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__9;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -61,10 +95,6 @@ struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -641,8 +671,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<Oculus::Platform::Mes
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass10_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c9e90 size 0x8 virtual false final false
  void _ctor() ;
@@ -883,8 +912,7 @@ constexpr Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platfo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0() ;
+static GlobalNamespace::GlobalNamespace__OculusPlatformAdditionalContentModel____c__DisplayClass12_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ca4b8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1110,8 +1138,7 @@ constexpr bool __get__isDataValid() const;
 /// @brief Method HasLevelPackEntitlement addr 0x20c8a60 size 0xcc virtual false final false
  bool HasLevelPackEntitlement(::StringW levelPackId) ;
 
-// Ctor Parameters []
-explicit OculusPlatformAdditionalContentModel() ;
+static GlobalNamespace::OculusPlatformAdditionalContentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c8b2c size 0xb4 virtual false final false
  void _ctor() ;

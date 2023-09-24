@@ -1,12 +1,12 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace System::Collections::Generic {
 template<typename T>
-class Stack_1;
+class List_1;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
 class Material;
@@ -19,7 +19,7 @@ struct Matrix4x4;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class Stack_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -109,8 +109,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Material> __get_defa
 /// @brief Method Reset addr 0x2c5ad18 size 0x1cc virtual false final false
  void Reset() ;
 
-// Ctor Parameters []
-explicit DrawParams() ;
+static UnityEngine::UIElements::UIR::DrawParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c55a1c size 0x158 virtual false final false
  void _ctor() ;

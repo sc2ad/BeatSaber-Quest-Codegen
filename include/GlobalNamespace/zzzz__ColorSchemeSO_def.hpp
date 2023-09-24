@@ -70,8 +70,7 @@ constexpr GlobalNamespace::ColorScheme __get__colorScheme() const;
 /// @brief Method LogColorScheme addr 0x11a3308 size 0x2a4 virtual false final false
  void LogColorScheme() ;
 
-// Ctor Parameters []
-explicit ColorSchemeSO() ;
+static GlobalNamespace::ColorSchemeSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a35ac size 0x8 virtual false final false
  void _ctor() ;

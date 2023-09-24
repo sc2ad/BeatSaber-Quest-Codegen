@@ -62,8 +62,7 @@ constexpr ::StringW __get__FormatParameterName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "formatParameterName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StringFormatMethodAttribute(::StringW formatParameterName) ;
+static JetBrains::Annotations::StringFormatMethodAttribute New_ctor(::StringW formatParameterName) ;
 
 /// @brief Method .ctor addr 0x2d40a7c size 0x28 virtual false final false
  void _ctor(::StringW formatParameterName) ;

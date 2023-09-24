@@ -3,34 +3,34 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 class Shader;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_MaterialInfo;
 }
 namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+template<typename T>
+class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
 }
 namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__HEU_MaterialData__Source;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

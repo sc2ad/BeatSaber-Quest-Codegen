@@ -57,8 +57,7 @@ constexpr ::StringW __get_version() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit VersionSaveData() ;
+static GlobalNamespace::VersionSaveData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2226f64 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,8 +2,9 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfoPool_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfoPool_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c._ctor
 template<>
 
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Func_1<UnityEngine::UIElements:
  System::Action_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo> UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c::__get___9__0_1()  {
 return ::cordl_internals::getStaticField<System::Action_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo>, "<>9__0_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c>())) {}
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c::New_ctor()  {
+UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__VectorImageRenderInfoPool____c>::get(),
@@ -119,8 +122,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::VectorImageRenderInfoPool()  : UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo>(THROW_UNLESS(::il2cpp_utils::New<VectorImageRenderInfoPool>())) {}
+ UnityEngine::UIElements::UIR::VectorImageRenderInfoPool UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::New_ctor()  {
+UnityEngine::UIElements::UIR::VectorImageRenderInfoPool o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::VectorImageRenderInfoPool>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::VectorImageRenderInfoPool>::get(),

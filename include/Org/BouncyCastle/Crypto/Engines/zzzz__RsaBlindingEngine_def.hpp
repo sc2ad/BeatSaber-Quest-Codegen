@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class RsaKeyParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto {
 class IRsa;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class RsaKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -100,14 +100,12 @@ constexpr bool __get_forEncryption() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RsaBlindingEngine() ;
+static Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe540d0 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "rsa", ty: "Org::BouncyCastle::Crypto::IRsa", modifiers: "", def_value: None }]
-explicit RsaBlindingEngine(Org::BouncyCastle::Crypto::IRsa rsa) ;
+static Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine New_ctor(Org::BouncyCastle::Crypto::IRsa rsa) ;
 
 /// @brief Method .ctor addr 0xe5413c size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IRsa rsa) ;

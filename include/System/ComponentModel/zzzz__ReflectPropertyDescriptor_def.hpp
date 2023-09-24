@@ -5,26 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::Collections::Specialized {
-struct BitVector32;
+namespace System {
+class EventArgs;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System::ComponentModel {
-class IExtenderProvider;
-}
-namespace System::Diagnostics {
-class TraceSwitch;
-}
-namespace System::Reflection {
-class PropertyInfo;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -32,11 +17,26 @@ class MethodInfo;
 namespace System {
 class Type;
 }
-namespace System {
-class EventArgs;
+namespace System::Collections::Specialized {
+struct BitVector32;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System::ComponentModel {
+class IExtenderProvider;
 }
 namespace System {
 class Attribute;
+}
+namespace System::Diagnostics {
+class TraceSwitch;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace System::Reflection {
+class PropertyInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -266,20 +266,17 @@ constexpr System::Type __get_receiverType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit ReflectPropertyDescriptor(System::Type componentClass, ::StringW name, System::Type type, ::ArrayW<System::Attribute> attributes) ;
+static System::ComponentModel::ReflectPropertyDescriptor New_ctor(System::Type componentClass, ::StringW name, System::Type type, ::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x278c478 size 0x2f0 virtual false final false
  void _ctor(System::Type componentClass, ::StringW name, System::Type type, ::ArrayW<System::Attribute> attributes) ;
 
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "propInfo", ty: "System::Reflection::PropertyInfo", modifiers: "", def_value: None }, CppParam { name: "getMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "setMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit ReflectPropertyDescriptor(System::Type componentClass, ::StringW name, System::Type type, System::Reflection::PropertyInfo propInfo, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs) ;
+static System::ComponentModel::ReflectPropertyDescriptor New_ctor(System::Type componentClass, ::StringW name, System::Type type, System::Reflection::PropertyInfo propInfo, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs) ;
 
 /// @brief Method .ctor addr 0x278c768 size 0x120 virtual false final false
  void _ctor(System::Type componentClass, ::StringW name, System::Type type, System::Reflection::PropertyInfo propInfo, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs) ;
 
-// Ctor Parameters [CppParam { name: "componentClass", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "receiverType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "getMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "setMethod", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit ReflectPropertyDescriptor(System::Type componentClass, ::StringW name, System::Type type, System::Type receiverType, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs) ;
+static System::ComponentModel::ReflectPropertyDescriptor New_ctor(System::Type componentClass, ::StringW name, System::Type type, System::Type receiverType, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs) ;
 
 /// @brief Method .ctor addr 0x278c888 size 0xcc virtual false final false
  void _ctor(System::Type componentClass, ::StringW name, System::Type type, System::Type receiverType, System::Reflection::MethodInfo getMethod, System::Reflection::MethodInfo setMethod, ::ArrayW<System::Attribute> attrs) ;

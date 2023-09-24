@@ -2,18 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -82,8 +82,7 @@ constexpr System::Type __get_m_DesiredType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "location", ty: "UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation", modifiers: "", def_value: None }, CppParam { name: "desiredType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit LocationCacheKey(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Type desiredType) ;
+static UnityEngine::ResourceManagement::Util::LocationCacheKey New_ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Type desiredType) ;
 
 /// @brief Method .ctor addr 0x2a34284 size 0xf8 virtual false final false
  void _ctor(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation location, System::Type desiredType) ;

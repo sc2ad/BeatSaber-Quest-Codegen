@@ -69,8 +69,7 @@ static constexpr int32_t  Unauthorized{6};
 
 // Methods
 
-// Ctor Parameters []
-explicit OcspRespStatus() ;
+static Org::BouncyCastle::Ocsp::OcspRespStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0x10163c0 size 0x8 virtual false final false
  void _ctor() ;

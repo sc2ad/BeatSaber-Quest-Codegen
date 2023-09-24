@@ -110,8 +110,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::PrivateKeyUsagePeriod(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PrivateKeyUsagePeriod>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod>::get(),

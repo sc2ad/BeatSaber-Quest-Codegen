@@ -97,8 +97,7 @@ constexpr UnityEngine::Timeline::TrackAsset __get__parent_k__BackingField() cons
 /// @brief Method OnInitialize addr 0x2acfe5c size 0x4 virtual true final false
  void OnInitialize(UnityEngine::Timeline::TrackAsset aPent) ;
 
-// Ctor Parameters []
-explicit Marker() ;
+static UnityEngine::Timeline::Marker New_ctor() ;
 
 /// @brief Method .ctor addr 0x2acfe60 size 0x8 virtual false final false
  void _ctor() ;

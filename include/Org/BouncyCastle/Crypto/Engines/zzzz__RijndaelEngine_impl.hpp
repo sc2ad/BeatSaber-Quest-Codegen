@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__RijndaelEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine.Mul0x2
 template<>
 
@@ -700,8 +700,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<::ArrayW<int64_t>>, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Engines::RijndaelEngine::RijndaelEngine()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RijndaelEngine>())) {}
+ Org::BouncyCastle::Crypto::Engines::RijndaelEngine Org::BouncyCastle::Crypto::Engines::RijndaelEngine::New_ctor()  {
+Org::BouncyCastle::Crypto::Engines::RijndaelEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::RijndaelEngine>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::RijndaelEngine::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::RijndaelEngine>::get(),
@@ -711,8 +713,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "blockBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::RijndaelEngine::RijndaelEngine(int32_t blockBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RijndaelEngine>(blockBits))) {}
+ Org::BouncyCastle::Crypto::Engines::RijndaelEngine Org::BouncyCastle::Crypto::Engines::RijndaelEngine::New_ctor(int32_t blockBits)  {
+Org::BouncyCastle::Crypto::Engines::RijndaelEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::RijndaelEngine>(blockBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::RijndaelEngine::_ctor(int32_t blockBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::RijndaelEngine>::get(),

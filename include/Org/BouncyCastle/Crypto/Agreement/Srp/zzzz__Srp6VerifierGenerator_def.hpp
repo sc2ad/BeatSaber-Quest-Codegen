@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
@@ -79,8 +79,7 @@ constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Srp6VerifierGenerator() ;
+static Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x118e130 size 0x8 virtual false final false
  void _ctor() ;

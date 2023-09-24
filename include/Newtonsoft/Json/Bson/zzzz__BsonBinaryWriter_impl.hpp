@@ -1,8 +1,8 @@
 #pragma once
 #include "Newtonsoft/Json/Bson/zzzz__BsonBinaryWriter_def.hpp"
-#include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
+#include "Newtonsoft/Json/Bson/zzzz__BsonToken_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__DateTimeKind_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Bson::BsonBinaryWriter.get_DateTimeKindHandling
@@ -251,8 +251,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::BinaryWriter", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonBinaryWriter::BsonBinaryWriter(System::IO::BinaryWriter writer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BsonBinaryWriter>(writer))) {}
+ Newtonsoft::Json::Bson::BsonBinaryWriter Newtonsoft::Json::Bson::BsonBinaryWriter::New_ctor(System::IO::BinaryWriter writer)  {
+Newtonsoft::Json::Bson::BsonBinaryWriter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonBinaryWriter>(writer))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonBinaryWriter::_ctor(System::IO::BinaryWriter writer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonBinaryWriter>::get(),

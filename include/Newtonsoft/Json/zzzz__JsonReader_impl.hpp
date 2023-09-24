@@ -1,21 +1,22 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
-#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateParseHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonContainerType_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
+#include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Newtonsoft::Json::Newtonsoft__Json__JsonReader__State::Newtonsoft__Json__JsonReader__State(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1462,8 +1463,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Newtonsoft::Json::JsonPosition, false>(const_cast<void*>(instance), ___internal_method, depth);
 }
-// Ctor Parameters []
- Newtonsoft::Json::JsonReader::JsonReader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JsonReader>())) {}
+ Newtonsoft::Json::JsonReader Newtonsoft::Json::JsonReader::New_ctor()  {
+Newtonsoft::Json::JsonReader o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonReader>())};
+return o;
+}
  void Newtonsoft::Json::JsonReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonReader>::get(),

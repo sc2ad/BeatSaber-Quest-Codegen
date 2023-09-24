@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__TimeZone_impl.hpp"
 #include "System/zzzz__CurrentSystemTimeZone_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Globalization/zzzz__DaylightTime_def.hpp"
 //  Writing Method size for method: System::CurrentSystemTimeZone._ctor
 template<>
@@ -131,8 +131,10 @@ constexpr void System::CurrentSystemTimeZone::__set_m_CachedDaylightChanges(Syst
 constexpr System::Collections::Hashtable System::CurrentSystemTimeZone::__get_m_CachedDaylightChanges() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::CurrentSystemTimeZone::CurrentSystemTimeZone()  : System::TimeZone(THROW_UNLESS(::il2cpp_utils::New<CurrentSystemTimeZone>())) {}
+ System::CurrentSystemTimeZone System::CurrentSystemTimeZone::New_ctor()  {
+System::CurrentSystemTimeZone o{THROW_UNLESS(::il2cpp_utils::New<System::CurrentSystemTimeZone>())};
+return o;
+}
  void System::CurrentSystemTimeZone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CurrentSystemTimeZone>::get(),

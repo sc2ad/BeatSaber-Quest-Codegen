@@ -5,7 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Text {
 class EncoderFallbackBuffer;
@@ -14,7 +14,7 @@ namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Text {
@@ -81,14 +81,12 @@ constexpr ::StringW __get__strDefault() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit EncoderReplacementFallback() ;
+static System::Text::EncoderReplacementFallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x22c97ac size 0x48 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit EncoderReplacementFallback(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Text::EncoderReplacementFallback New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22c999c size 0x104 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
@@ -96,8 +94,7 @@ explicit EncoderReplacementFallback(System::Runtime::Serialization::Serializatio
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x22c9aa0 size 0x5c virtual true final true
  void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "replacement", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EncoderReplacementFallback(::StringW replacement) ;
+static System::Text::EncoderReplacementFallback New_ctor(::StringW replacement) ;
 
 /// @brief Method .ctor addr 0x22c97f4 size 0x1a8 virtual false final false
  void _ctor(::StringW replacement) ;

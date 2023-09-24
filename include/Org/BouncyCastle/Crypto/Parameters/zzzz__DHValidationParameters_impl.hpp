@@ -114,8 +114,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::__
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::__get_counter() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "counter", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::DHValidationParameters(::ArrayW<uint8_t> seed, int32_t counter)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DHValidationParameters>(seed, counter))) {}
+ Org::BouncyCastle::Crypto::Parameters::DHValidationParameters Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::New_ctor(::ArrayW<uint8_t> seed, int32_t counter)  {
+Org::BouncyCastle::Crypto::Parameters::DHValidationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DHValidationParameters>(seed, counter))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::_ctor(::ArrayW<uint8_t> seed, int32_t counter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DHValidationParameters>::get(),

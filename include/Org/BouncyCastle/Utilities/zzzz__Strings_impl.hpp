@@ -303,8 +303,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, s);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Strings::Strings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Strings>())) {}
+ Org::BouncyCastle::Utilities::Strings Org::BouncyCastle::Utilities::Strings::New_ctor()  {
+Org::BouncyCastle::Utilities::Strings o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Strings>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Strings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Strings>::get(),

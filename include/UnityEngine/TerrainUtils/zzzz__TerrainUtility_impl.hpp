@@ -1,5 +1,6 @@
 #pragma once
 #include "UnityEngine/TerrainUtils/zzzz__TerrainUtility_def.hpp"
+#include "UnityEngine/TerrainUtils/zzzz__TerrainUtility_def.hpp"
 #include "UnityEngine/TerrainUtils/zzzz__TerrainMap_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__Terrain_def.hpp"
@@ -26,8 +27,10 @@ constexpr void UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtil
 constexpr bool UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0::__get_onlyAutoConnectedTerrains() const {
 return ::cordl_internals::getInstanceField<bool, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0>())) {}
+ UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0::New_ctor()  {
+UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0>())};
+return o;
+}
  void UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0>::get(),
@@ -83,8 +86,10 @@ constexpr void UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtil
 constexpr UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0 UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1>())) {}
+ UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1::New_ctor()  {
+UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1>())};
+return o;
+}
  void UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TerrainUtils::UnityEngine__TerrainUtils__TerrainUtility____c__DisplayClass2_1>::get(),

@@ -6,18 +6,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__Allocator2D__Alloc2D;
+}
 namespace UnityEngine {
 struct Vector2Int;
+}
+namespace UnityEngine::UIElements::UIR {
+class UnityEngine__UIElements__UIR__Allocator2D__Row;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements::UIR {
-class BestFitAllocator;
+class UnityEngine__UIElements__UIR__Allocator2D__Area;
 }
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine::UIElements::UIR {
+class BestFitAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
 template<typename T>
@@ -96,8 +105,7 @@ constexpr UnityEngine::UIElements::UIR::BestFitAllocator __get_allocator() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rect", ty: "UnityEngine::RectInt", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UIR__Allocator2D__Area(UnityEngine::RectInt rect) ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Area New_ctor(UnityEngine::RectInt rect) ;
 
 /// @brief Method .ctor addr 0x2c53954 size 0x94 virtual false final false
  void _ctor(UnityEngine::RectInt rect) ;
@@ -193,8 +201,7 @@ static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__
 /// @brief Method Reset addr 0x2c53a88 size 0x28 virtual false final false
 static void Reset(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row row) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__UIR__Allocator2D__Row() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Allocator2D__Row New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c53a40 size 0x48 virtual false final false
  void _ctor() ;
@@ -361,8 +368,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::Uni
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "minSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "rowHeightBias", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Allocator2D(UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) ;
+static UnityEngine::UIElements::UIR::Allocator2D New_ctor(UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) ;
 
 /// @brief Method .ctor addr 0x2c5273c size 0x218 virtual false final false
  void _ctor(UnityEngine::Vector2Int minSize, UnityEngine::Vector2Int maxSize, int32_t rowHeightBias) ;

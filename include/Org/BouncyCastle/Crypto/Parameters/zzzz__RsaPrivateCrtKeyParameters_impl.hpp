@@ -226,8 +226,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::__get_qInv() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "modulus", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "privateExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "dP", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "dQ", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "qInv", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::RsaPrivateCrtKeyParameters(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger dP, Org::BouncyCastle::Math::BigInteger dQ, Org::BouncyCastle::Math::BigInteger qInv)  : Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters(THROW_UNLESS(::il2cpp_utils::New<RsaPrivateCrtKeyParameters>(modulus, publicExponent, privateExponent, p, q, dP, dQ, qInv))) {}
+ Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger dP, Org::BouncyCastle::Math::BigInteger dQ, Org::BouncyCastle::Math::BigInteger qInv)  {
+Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters>(modulus, publicExponent, privateExponent, p, q, dP, dQ, qInv))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger dP, Org::BouncyCastle::Math::BigInteger dQ, Org::BouncyCastle::Math::BigInteger qInv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters>::get(),
@@ -237,8 +239,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, modulus, publicExponent, privateExponent, p, q, dP, dQ, qInv);
 }
-// Ctor Parameters [CppParam { name: "rsaPrivateKey", ty: "Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::RsaPrivateCrtKeyParameters(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure rsaPrivateKey)  : Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters(THROW_UNLESS(::il2cpp_utils::New<RsaPrivateCrtKeyParameters>(rsaPrivateKey))) {}
+ Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::New_ctor(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure rsaPrivateKey)  {
+Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters>(rsaPrivateKey))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters::_ctor(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure rsaPrivateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters>::get(),

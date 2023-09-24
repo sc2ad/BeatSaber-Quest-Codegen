@@ -8,24 +8,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Text {
+class EncoderNLS;
+}
+namespace System::Text {
+class DecoderNLS;
+}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System::Text {
-class DecoderNLS;
+class System__Text__UTF8Encoding__UTF8EncodingSealed;
 }
 namespace System::Text {
-class DecoderFallbackBuffer;
-}
-namespace System::Text {
-class EncoderNLS;
+class System__Text__UTF8Encoding__UTF8Encoder;
 }
 namespace System::Text {
 class Decoder;
 }
 namespace System::Text {
 class Encoder;
+}
+namespace System::Text {
+class DecoderFallbackBuffer;
+}
+namespace System::Text {
+class System__Text__UTF8Encoding__UTF8Decoder;
 }
 // Forward declare root types
 namespace System::Text {
@@ -35,11 +44,150 @@ namespace System::Text {
 class System__Text__UTF8Encoding__UTF8Encoder;
 }
 namespace System::Text {
-class System__Text__UTF8Encoding__UTF8EncodingSealed;
-}
-namespace System::Text {
 class UTF8Encoding;
 }
+// Type: ::UTF8Encoder
+namespace System::Text {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2842))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2859))
+// CS Name: System.Text.UTF8Encoding::UTF8Encoder
+class CORDL_TYPE System__Text__UTF8Encoding__UTF8Encoder : public System::Text::EncoderNLS {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
+
+virtual ~System__Text__UTF8Encoding__UTF8Encoder() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Encoder", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF8Encoding__UTF8Encoder(System__Text__UTF8Encoding__UTF8Encoder const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Encoder", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF8Encoding__UTF8Encoder(System__Text__UTF8Encoding__UTF8Encoder&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Text__UTF8Encoding__UTF8Encoder(void* ptr) noexcept : System::Text::EncoderNLS(ptr) {
+}
+
+
+  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(System__Text__UTF8Encoding__UTF8Encoder&& o) noexcept = default;
+  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(System__Text__UTF8Encoding__UTF8Encoder const& o) noexcept = default;
+                
+
+
+// Fields
+
+ int32_t __declspec(property(get=__get_surrogateChar, put=__set_surrogateChar))  surrogateChar;
+
+constexpr void __set_surrogateChar(int32_t value) ;
+
+constexpr int32_t __get_surrogateChar() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_HasState))  HasState;
+
+
+// Methods
+
+static System::Text::System__Text__UTF8Encoding__UTF8Encoder New_ctor(System::Text::UTF8Encoding encoding) ;
+
+/// @brief Method .ctor addr 0x22d7ba4 size 0x8 virtual false final false
+ void _ctor(System::Text::UTF8Encoding encoding) ;
+
+/// @brief Method Reset addr 0x22d833c size 0x20 virtual true final false
+ void Reset() ;
+
+/// @brief Method get_HasState addr 0x22d835c size 0x10 virtual true final false
+ bool get_HasState() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Text
+// Type: ::UTF8Decoder
+namespace System::Text {
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2831))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2860))
+// CS Name: System.Text.UTF8Encoding::UTF8Decoder
+class CORDL_TYPE System__Text__UTF8Encoding__UTF8Decoder : public System::Text::DecoderNLS {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
+
+virtual ~System__Text__UTF8Encoding__UTF8Decoder() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Decoder", modifiers: " const&", def_value: None }]
+constexpr System__Text__UTF8Encoding__UTF8Decoder(System__Text__UTF8Encoding__UTF8Decoder const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Decoder", modifiers: "&&", def_value: None }]
+constexpr System__Text__UTF8Encoding__UTF8Decoder(System__Text__UTF8Encoding__UTF8Decoder&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Text__UTF8Encoding__UTF8Decoder(void* ptr) noexcept : System::Text::DecoderNLS(ptr) {
+}
+
+
+  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(System__Text__UTF8Encoding__UTF8Decoder&& o) noexcept = default;
+  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(System__Text__UTF8Encoding__UTF8Decoder const& o) noexcept = default;
+                
+
+
+// Fields
+
+ int32_t __declspec(property(get=__get_bits, put=__set_bits))  bits;
+
+constexpr void __set_bits(int32_t value) ;
+
+constexpr int32_t __get_bits() const;
+
+
+// Properties
+
+ bool __declspec(property(get=get_HasState))  HasState;
+
+
+// Methods
+
+static System::Text::System__Text__UTF8Encoding__UTF8Decoder New_ctor(System::Text::UTF8Encoding encoding) ;
+
+/// @brief Method .ctor addr 0x22d7b38 size 0x8 virtual false final false
+ void _ctor(System::Text::UTF8Encoding encoding) ;
+
+/// @brief Method Reset addr 0x22d836c size 0x20 virtual true final false
+ void Reset() ;
+
+/// @brief Method get_HasState addr 0x22d838c size 0x10 virtual true final false
+ bool get_HasState() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Text
 // Type: System.Text::UTF8Encoding
 namespace System::Text {
 // Is value type: false
@@ -120,20 +268,17 @@ constexpr bool __get__isThrowException() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UTF8Encoding() ;
+static System::Text::UTF8Encoding New_ctor() ;
 
 /// @brief Method .ctor addr 0x22d4c00 size 0x20 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encoderShouldEmitUTF8Identifier", ty: "bool", modifiers: "", def_value: None }]
-explicit UTF8Encoding(bool encoderShouldEmitUTF8Identifier) ;
+static System::Text::UTF8Encoding New_ctor(bool encoderShouldEmitUTF8Identifier) ;
 
 /// @brief Method .ctor addr 0x22d4c20 size 0x30 virtual false final false
  void _ctor(bool encoderShouldEmitUTF8Identifier) ;
 
-// Ctor Parameters [CppParam { name: "encoderShouldEmitUTF8Identifier", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnInvalidBytes", ty: "bool", modifiers: "", def_value: None }]
-explicit UTF8Encoding(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes) ;
+static System::Text::UTF8Encoding New_ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes) ;
 
 /// @brief Method .ctor addr 0x22d4c50 size 0x60 virtual false final false
  void _ctor(bool encoderShouldEmitUTF8Identifier, bool throwOnInvalidBytes) ;
@@ -232,215 +377,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-// Type: ::UTF8EncodingSealed
-namespace System::Text {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2861))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2858))
-// CS Name: System.Text.UTF8Encoding::UTF8EncodingSealed
-class CORDL_TYPE System__Text__UTF8Encoding__UTF8EncodingSealed : public System::Text::UTF8Encoding {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~System__Text__UTF8Encoding__UTF8EncodingSealed() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8EncodingSealed", modifiers: " const&", def_value: None }]
-constexpr System__Text__UTF8Encoding__UTF8EncodingSealed(System__Text__UTF8Encoding__UTF8EncodingSealed const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8EncodingSealed", modifiers: "&&", def_value: None }]
-constexpr System__Text__UTF8Encoding__UTF8EncodingSealed(System__Text__UTF8Encoding__UTF8EncodingSealed&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Text__UTF8Encoding__UTF8EncodingSealed(void* ptr) noexcept : System::Text::UTF8Encoding(ptr) {
-}
-
-
-  constexpr System__Text__UTF8Encoding__UTF8EncodingSealed& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Text__UTF8Encoding__UTF8EncodingSealed& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Text__UTF8Encoding__UTF8EncodingSealed& operator=(System__Text__UTF8Encoding__UTF8EncodingSealed&& o) noexcept = default;
-  constexpr System__Text__UTF8Encoding__UTF8EncodingSealed& operator=(System__Text__UTF8Encoding__UTF8EncodingSealed const& o) noexcept = default;
-                
-
-
-// Properties
-
- System::ReadOnlySpan_1<uint8_t> __declspec(property(get=get_Preamble))  Preamble;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "encoderShouldEmitUTF8Identifier", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Text__UTF8Encoding__UTF8EncodingSealed(bool encoderShouldEmitUTF8Identifier) ;
-
-/// @brief Method .ctor addr 0x22d81f0 size 0x78 virtual false final false
- void _ctor(bool encoderShouldEmitUTF8Identifier) ;
-
-/// @brief Method get_Preamble addr 0x22d8268 size 0xd4 virtual true final false
- System::ReadOnlySpan_1<uint8_t> get_Preamble() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Text
-// Type: ::UTF8Encoder
-namespace System::Text {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2842))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2859))
-// CS Name: System.Text.UTF8Encoding::UTF8Encoder
-class CORDL_TYPE System__Text__UTF8Encoding__UTF8Encoder : public System::Text::EncoderNLS {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
-
-virtual ~System__Text__UTF8Encoding__UTF8Encoder() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Encoder", modifiers: " const&", def_value: None }]
-constexpr System__Text__UTF8Encoding__UTF8Encoder(System__Text__UTF8Encoding__UTF8Encoder const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Encoder", modifiers: "&&", def_value: None }]
-constexpr System__Text__UTF8Encoding__UTF8Encoder(System__Text__UTF8Encoding__UTF8Encoder&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Text__UTF8Encoding__UTF8Encoder(void* ptr) noexcept : System::Text::EncoderNLS(ptr) {
-}
-
-
-  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(System__Text__UTF8Encoding__UTF8Encoder&& o) noexcept = default;
-  constexpr System__Text__UTF8Encoding__UTF8Encoder& operator=(System__Text__UTF8Encoding__UTF8Encoder const& o) noexcept = default;
-                
-
-
-// Fields
-
- int32_t __declspec(property(get=__get_surrogateChar, put=__set_surrogateChar))  surrogateChar;
-
-constexpr void __set_surrogateChar(int32_t value) ;
-
-constexpr int32_t __get_surrogateChar() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_HasState))  HasState;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF8Encoding", modifiers: "", def_value: None }]
-explicit System__Text__UTF8Encoding__UTF8Encoder(System::Text::UTF8Encoding encoding) ;
-
-/// @brief Method .ctor addr 0x22d7ba4 size 0x8 virtual false final false
- void _ctor(System::Text::UTF8Encoding encoding) ;
-
-/// @brief Method Reset addr 0x22d833c size 0x20 virtual true final false
- void Reset() ;
-
-/// @brief Method get_HasState addr 0x22d835c size 0x10 virtual true final false
- bool get_HasState() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Text
-// Type: ::UTF8Decoder
-namespace System::Text {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2831))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2860))
-// CS Name: System.Text.UTF8Encoding::UTF8Decoder
-class CORDL_TYPE System__Text__UTF8Encoding__UTF8Decoder : public System::Text::DecoderNLS {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
-
-virtual ~System__Text__UTF8Encoding__UTF8Decoder() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Decoder", modifiers: " const&", def_value: None }]
-constexpr System__Text__UTF8Encoding__UTF8Decoder(System__Text__UTF8Encoding__UTF8Decoder const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Text__UTF8Encoding__UTF8Decoder", modifiers: "&&", def_value: None }]
-constexpr System__Text__UTF8Encoding__UTF8Decoder(System__Text__UTF8Encoding__UTF8Decoder&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Text__UTF8Encoding__UTF8Decoder(void* ptr) noexcept : System::Text::DecoderNLS(ptr) {
-}
-
-
-  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(System__Text__UTF8Encoding__UTF8Decoder&& o) noexcept = default;
-  constexpr System__Text__UTF8Encoding__UTF8Decoder& operator=(System__Text__UTF8Encoding__UTF8Decoder const& o) noexcept = default;
-                
-
-
-// Fields
-
- int32_t __declspec(property(get=__get_bits, put=__set_bits))  bits;
-
-constexpr void __set_bits(int32_t value) ;
-
-constexpr int32_t __get_bits() const;
-
-
-// Properties
-
- bool __declspec(property(get=get_HasState))  HasState;
-
-
-// Methods
-
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UTF8Encoding", modifiers: "", def_value: None }]
-explicit System__Text__UTF8Encoding__UTF8Decoder(System::Text::UTF8Encoding encoding) ;
-
-/// @brief Method .ctor addr 0x22d7b38 size 0x8 virtual false final false
- void _ctor(System::Text::UTF8Encoding encoding) ;
-
-/// @brief Method Reset addr 0x22d836c size 0x20 virtual true final false
- void Reset() ;
-
-/// @brief Method get_HasState addr 0x22d838c size 0x10 virtual true final false
- bool get_HasState() ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Text
 NEED_NO_BOX(System::Text::System__Text__UTF8Encoding__UTF8Decoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF8Encoding__UTF8Decoder, "System.Text", "UTF8Encoding/UTF8Decoder");
 NEED_NO_BOX(System::Text::System__Text__UTF8Encoding__UTF8Encoder);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF8Encoding__UTF8Encoder, "System.Text", "UTF8Encoding/UTF8Encoder");
-NEED_NO_BOX(System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed);
-DEFINE_IL2CPP_ARG_TYPE(System::Text::System__Text__UTF8Encoding__UTF8EncodingSealed, "System.Text", "UTF8Encoding/UTF8EncodingSealed");
 NEED_NO_BOX(System::Text::UTF8Encoding);
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding, "System.Text", "UTF8Encoding");

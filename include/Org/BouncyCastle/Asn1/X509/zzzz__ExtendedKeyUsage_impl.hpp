@@ -1,15 +1,15 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ExtendedKeyUsage_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__KeyPurposeID_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__KeyPurposeID_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage.GetInstance
 template<>
 
@@ -253,8 +253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage, false>(nullptr, ___internal_method, extensions);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ExtendedKeyUsage(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ExtendedKeyUsage>(seq))) {}
+ Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>::get(),
@@ -264,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "usages", ty: "::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ExtendedKeyUsage(::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID> usages)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ExtendedKeyUsage>(usages))) {}
+ Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID> usages)  {
+Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>(usages))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(::ArrayW<Org::BouncyCastle::Asn1::X509::KeyPurposeID> usages)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>::get(),
@@ -275,8 +279,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, usages);
 }
-// Ctor Parameters [CppParam { name: "usages", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ExtendedKeyUsage(System::Collections::ArrayList usages)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ExtendedKeyUsage>(usages))) {}
+ Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(System::Collections::ArrayList usages)  {
+Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>(usages))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(System::Collections::ArrayList usages)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>::get(),
@@ -286,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, usages);
 }
-// Ctor Parameters [CppParam { name: "usages", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ExtendedKeyUsage(System::Collections::IEnumerable usages)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<ExtendedKeyUsage>(usages))) {}
+ Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(System::Collections::IEnumerable usages)  {
+Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>(usages))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(System::Collections::IEnumerable usages)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage>::get(),

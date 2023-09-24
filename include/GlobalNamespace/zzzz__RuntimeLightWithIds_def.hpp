@@ -5,6 +5,12 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__RuntimeLightWithIds__MixType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -74,6 +80,8 @@ __Sum = 1,
 constexpr operator __GlobalNamespace__RuntimeLightWithIds__MixType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__RuntimeLightWithIds__MixType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -156,8 +164,7 @@ constexpr float_t __get__intensity() const;
 /// @brief Method set_intensity addr 0x1fa01a4 size 0x8 virtual false final false
  void set_intensity(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity) ;
+static GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__LightIntensitiesWithId New_ctor(int32_t lightId, float_t lightIntensity) ;
 
 /// @brief Method .ctor addr 0x1fa01ac size 0x38 virtual false final false
  void _ctor(int32_t lightId, float_t lightIntensity) ;
@@ -257,8 +264,7 @@ constexpr GlobalNamespace::GlobalNamespace__RuntimeLightWithIds__MixType __get__
 /// @brief Method ProcessColor addr 0x1fa015c size 0x38 virtual false final false
  UnityEngine::Color ProcessColor(UnityEngine::Color color, float_t intensity) ;
 
-// Ctor Parameters []
-explicit RuntimeLightWithIds() ;
+static GlobalNamespace::RuntimeLightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9c574 size 0x18 virtual false final false
  void _ctor() ;

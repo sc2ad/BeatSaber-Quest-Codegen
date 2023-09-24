@@ -81,8 +81,7 @@ constexpr UnityEngine::UI::Button __get__button() const;
 /// @brief Method get_button addr 0x2127a28 size 0x8 virtual false final false
  UnityEngine::UI::Button get_button() ;
 
-// Ctor Parameters []
-explicit TextMeshProButton() ;
+static GlobalNamespace::TextMeshProButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127a30 size 0x8 virtual false final false
  void _ctor() ;

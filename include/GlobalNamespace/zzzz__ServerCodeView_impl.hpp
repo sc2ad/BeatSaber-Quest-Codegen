@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
+#include "HMUI/zzzz__ButtonBinder_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "HMUI/zzzz__ButtonBinder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ServerCodeView.SetCode
 template<>
 
@@ -181,8 +181,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, showCode);
 }
-// Ctor Parameters []
- GlobalNamespace::ServerCodeView::ServerCodeView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ServerCodeView>())) {}
+ GlobalNamespace::ServerCodeView GlobalNamespace::ServerCodeView::New_ctor()  {
+GlobalNamespace::ServerCodeView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ServerCodeView>())};
+return o;
+}
  void GlobalNamespace::ServerCodeView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ServerCodeView>::get(),

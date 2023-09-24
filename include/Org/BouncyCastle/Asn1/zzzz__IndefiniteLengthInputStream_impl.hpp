@@ -116,8 +116,10 @@ constexpr void Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__set__eofO
 constexpr bool Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::__get__eofOn00() const {
 return ::cordl_internals::getInstanceField<bool, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::IndefiniteLengthInputStream(System::IO::Stream inStream, int32_t limit)  : Org::BouncyCastle::Asn1::LimitedInputStream(THROW_UNLESS(::il2cpp_utils::New<IndefiniteLengthInputStream>(inStream, limit))) {}
+ Org::BouncyCastle::Asn1::IndefiniteLengthInputStream Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::New_ctor(System::IO::Stream inStream, int32_t limit)  {
+Org::BouncyCastle::Asn1::IndefiniteLengthInputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::IndefiniteLengthInputStream>(inStream, limit))};
+return o;
+}
  void Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::_ctor(System::IO::Stream inStream, int32_t limit)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::IndefiniteLengthInputStream>::get(),

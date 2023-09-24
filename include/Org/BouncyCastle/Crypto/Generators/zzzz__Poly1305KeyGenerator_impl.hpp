@@ -149,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, b, mask);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::Poly1305KeyGenerator()  : Org::BouncyCastle::Crypto::CipherKeyGenerator(THROW_UNLESS(::il2cpp_utils::New<Poly1305KeyGenerator>())) {}
+ Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator>::get(),

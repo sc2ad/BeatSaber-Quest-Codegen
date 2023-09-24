@@ -3,11 +3,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Playables {
-struct Playable;
-}
 namespace UnityEngine {
 class AvatarMask;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
@@ -17,10 +20,7 @@ template<typename T>
 class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct PlayableHandle;
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {

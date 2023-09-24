@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__ScreenCaptureCache__ScreenshotType;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -67,6 +70,8 @@ __Other = 2,
 constexpr operator __GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__ScreenCaptureCache__ScreenshotType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -149,8 +154,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::GlobalName
 /// @brief Method StoreScreenshot addr 0x267a2d4 size 0xac virtual false final false
  void StoreScreenshot(GlobalNamespace::GlobalNamespace__ScreenCaptureCache__ScreenshotType screenshotType, UnityEngine::Texture2D texture) ;
 
-// Ctor Parameters []
-explicit ScreenCaptureCache() ;
+static GlobalNamespace::ScreenCaptureCache New_ctor() ;
 
 /// @brief Method .ctor addr 0x267a690 size 0x7c virtual false final false
  void _ctor() ;

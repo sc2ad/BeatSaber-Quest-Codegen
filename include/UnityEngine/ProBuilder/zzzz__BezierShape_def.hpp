@@ -3,15 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace UnityEngine::ProBuilder {
 struct BezierPoint;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -135,8 +135,7 @@ constexpr UnityEngine::ProBuilder::ProBuilderMesh __get_m_Mesh() const;
 /// @brief Method Refresh addr 0x29a4ac0 size 0xc0 virtual false final false
  void Refresh() ;
 
-// Ctor Parameters []
-explicit BezierShape() ;
+static UnityEngine::ProBuilder::BezierShape New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a4b80 size 0x98 virtual false final false
  void _ctor() ;

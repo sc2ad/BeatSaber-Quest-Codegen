@@ -2,6 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
@@ -11,10 +15,6 @@ class List_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -82,8 +82,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get__playersWithoutE
 /// @brief Method Obtain addr 0x1218d64 size 0x64 virtual false final false
 static GlobalNamespace::PlayersMissingEntitlementsNetSerializable Obtain() ;
 
-// Ctor Parameters []
-explicit PlayersMissingEntitlementsNetSerializable() ;
+static GlobalNamespace::PlayersMissingEntitlementsNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1218dc8 size 0xa0 virtual false final false
  void _ctor() ;

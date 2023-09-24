@@ -47,8 +47,7 @@ constexpr explicit ExitGUIException(void* ptr) noexcept : System::Exception(ptr)
 
 // Methods
 
-// Ctor Parameters []
-explicit ExitGUIException() ;
+static UnityEngine::ExitGUIException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b95e70 size 0x94 virtual false final false
  void _ctor() ;

@@ -4,8 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System {
+class Type;
+}
 namespace System::Runtime::Remoting::Messaging {
-class CADArgHolder;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
@@ -13,14 +16,11 @@ class IMethodReturnMessage;
 namespace System {
 class Exception;
 }
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Runtime::Remoting::Messaging {
+class CADArgHolder;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -97,8 +97,7 @@ constexpr ::ArrayW<System::Type> __get__sig() const;
 /// @brief Method Create addr 0x233e2c8 size 0x90 virtual false final false
 static System::Runtime::Remoting::Messaging::CADMethodReturnMessage Create(System::Runtime::Remoting::Messaging::IMessage callMsg) ;
 
-// Ctor Parameters [CppParam { name: "retMsg", ty: "System::Runtime::Remoting::Messaging::IMethodReturnMessage", modifiers: "", def_value: None }]
-explicit CADMethodReturnMessage(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;
+static System::Runtime::Remoting::Messaging::CADMethodReturnMessage New_ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;
 
 /// @brief Method .ctor addr 0x233e358 size 0x37c virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodReturnMessage retMsg) ;

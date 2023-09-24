@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StretchableCube_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StretchableCube.Awake
 template<>
 
@@ -265,8 +265,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StretchableCube::StretchableCube()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StretchableCube>())) {}
+ GlobalNamespace::StretchableCube GlobalNamespace::StretchableCube::New_ctor()  {
+GlobalNamespace::StretchableCube o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StretchableCube>())};
+return o;
+}
  void GlobalNamespace::StretchableCube::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StretchableCube>::get(),

@@ -57,8 +57,7 @@ constexpr explicit BaseVertexEffect(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 /// @brief Method ModifyVertices addr 0x0 size 0xffffffffffffffff virtual true final false
  void ModifyVertices(System::Collections::Generic::List_1<UnityEngine::UIVertex> vertices) ;
 
-// Ctor Parameters []
-explicit BaseVertexEffect() ;
+static UnityEngine::UI::BaseVertexEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c17358 size 0x8 virtual false final false
  void _ctor() ;

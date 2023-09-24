@@ -66,8 +66,7 @@ static constexpr uint8_t  pow2_12{4u};
 /// @brief Method IsValid addr 0xf04d38 size 0x14 virtual false final false
 static bool IsValid(uint8_t maxFragmentLength) ;
 
-// Ctor Parameters []
-explicit MaxFragmentLength() ;
+static Org::BouncyCastle::Crypto::Tls::MaxFragmentLength New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04d4c size 0x8 virtual false final false
  void _ctor() ;

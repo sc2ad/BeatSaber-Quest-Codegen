@@ -67,8 +67,7 @@ constexpr explicit TnepresEngine(void* ptr) noexcept : Org::BouncyCastle::Crypto
 /// @brief Method DecryptBlock addr 0xe64cd0 size 0x1738 virtual true final false
  void DecryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff) ;
 
-// Ctor Parameters []
-explicit TnepresEngine() ;
+static Org::BouncyCastle::Crypto::Engines::TnepresEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe66408 size 0x58 virtual false final false
  void _ctor() ;

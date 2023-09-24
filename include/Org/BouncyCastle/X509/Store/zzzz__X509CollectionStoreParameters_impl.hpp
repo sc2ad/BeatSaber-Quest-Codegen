@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CollectionStoreParameters_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::Store::X509CollectionStoreParameters._ctor
 template<>
 
@@ -64,8 +64,10 @@ constexpr void Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::__
 constexpr System::Collections::IList Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::__get_collection() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::X509CollectionStoreParameters(System::Collections::ICollection collection)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509CollectionStoreParameters>(collection))) {}
+ Org::BouncyCastle::X509::Store::X509CollectionStoreParameters Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::New_ctor(System::Collections::ICollection collection)  {
+Org::BouncyCastle::X509::Store::X509CollectionStoreParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::Store::X509CollectionStoreParameters>(collection))};
+return o;
+}
  void Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::_ctor(System::Collections::ICollection collection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::Store::X509CollectionStoreParameters>::get(),

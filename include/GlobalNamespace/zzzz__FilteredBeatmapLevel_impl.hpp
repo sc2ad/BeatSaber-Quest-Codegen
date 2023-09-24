@@ -1,22 +1,23 @@
 #pragma once
 #include "GlobalNamespace/zzzz__FilteredBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IAssetSongPreviewAudioClipProvider_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "GlobalNamespace/zzzz__IAssetSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewDifficultyBeatmapSet_def.hpp"
+#include "GlobalNamespace/zzzz__FilteredBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "GlobalNamespace/zzzz__IAssetSongPreviewAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IAssetSongAudioClipProvider_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmapSet_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData.get_audioClip
 template<>
@@ -103,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevelData", ty: "GlobalNamespace::IBeatmapLevelData", modifiers: "", def_value: None }, CppParam { name: "allowedBeatmapDifficultyMask", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "notAllowedCharacteristics", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData>(beatmapLevelData, allowedBeatmapDifficultyMask, notAllowedCharacteristics))) {}
+ GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData::New_ctor(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics)  {
+GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData>(beatmapLevelData, allowedBeatmapDifficultyMask, notAllowedCharacteristics))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData::_ctor(GlobalNamespace::IBeatmapLevelData beatmapLevelData, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FilteredBeatmapLevel__FilteredBeatmapLevelData>::get(),
@@ -771,8 +774,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "GlobalNamespace::IBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "allowedBeatmapDifficultyMask", ty: "GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "notAllowedCharacteristics", ty: "System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }]
- GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevel(GlobalNamespace::IBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FilteredBeatmapLevel>(beatmapLevel, allowedBeatmapDifficultyMask, notAllowedCharacteristics))) {}
+ GlobalNamespace::FilteredBeatmapLevel GlobalNamespace::FilteredBeatmapLevel::New_ctor(GlobalNamespace::IBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics)  {
+GlobalNamespace::FilteredBeatmapLevel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FilteredBeatmapLevel>(beatmapLevel, allowedBeatmapDifficultyMask, notAllowedCharacteristics))};
+return o;
+}
  void GlobalNamespace::FilteredBeatmapLevel::_ctor(GlobalNamespace::IBeatmapLevel beatmapLevel, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapCharacteristicSO> notAllowedCharacteristics)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FilteredBeatmapLevel>::get(),

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class IDisposable;
+}
 namespace System::Diagnostics::Tracing {
 struct EventKeywords;
 }
@@ -14,8 +17,8 @@ struct Guid;
 namespace System::Diagnostics::Tracing {
 struct EventLevel;
 }
-namespace System {
-class IDisposable;
+namespace System::Diagnostics::Tracing {
+struct System__Diagnostics__Tracing__EventSource__EventData;
 }
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
@@ -171,20 +174,17 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit EventSource() ;
+static System::Diagnostics::Tracing::EventSource New_ctor() ;
 
 /// @brief Method .ctor addr 0x240dc3c size 0x3c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "eventSourceName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EventSource(::StringW eventSourceName) ;
+static System::Diagnostics::Tracing::EventSource New_ctor(::StringW eventSourceName) ;
 
 /// @brief Method .ctor addr 0x240dc78 size 0x28 virtual false final false
  void _ctor(::StringW eventSourceName) ;
 
-// Ctor Parameters [CppParam { name: "eventSourceGuid", ty: "System::Guid", modifiers: "", def_value: None }, CppParam { name: "eventSourceName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EventSource(System::Guid eventSourceGuid, ::StringW eventSourceName) ;
+static System::Diagnostics::Tracing::EventSource New_ctor(System::Guid eventSourceGuid, ::StringW eventSourceName) ;
 
 /// @brief Method .ctor addr 0x240dca0 size 0x28 virtual false final false
  void _ctor(System::Guid eventSourceGuid, ::StringW eventSourceName) ;

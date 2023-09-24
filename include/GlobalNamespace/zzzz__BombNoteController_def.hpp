@@ -4,22 +4,25 @@
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Vector3;
+class GameObject;
 }
 namespace GlobalNamespace {
 class Saber;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class NoteData;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-class GameObject;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class CuttableBySaber;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__BombNoteController__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -114,8 +117,7 @@ constexpr UnityEngine::GameObject __get__wrapperGO() const;
 /// @brief Method Pause addr 0x22392a0 size 0x10 virtual true final false
  void Pause(bool pause) ;
 
-// Ctor Parameters []
-explicit BombNoteController() ;
+static GlobalNamespace::BombNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x22392b0 size 0x8 virtual false final false
  void _ctor() ;
@@ -127,7 +129,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2706 }), TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2706 }), TypeDefinitionIndex(TypeDefinitionIndex(4852))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4851))
 // CS Name: BombNoteController::Pool
 class CORDL_TYPE GlobalNamespace__BombNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::BombNoteController> {
@@ -166,8 +168,7 @@ constexpr explicit GlobalNamespace__BombNoteController__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BombNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__BombNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x22392b8 size 0x48 virtual false final false
  void _ctor() ;

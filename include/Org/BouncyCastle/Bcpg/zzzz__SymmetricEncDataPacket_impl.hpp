@@ -19,8 +19,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::SymmetricEncDataPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  : Org::BouncyCastle::Bcpg::InputStreamPacket(THROW_UNLESS(::il2cpp_utils::New<SymmetricEncDataPacket>(bcpgIn))) {}
+ Org::BouncyCastle::Bcpg::SymmetricEncDataPacket Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::New_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
+Org::BouncyCastle::Bcpg::SymmetricEncDataPacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SymmetricEncDataPacket>(bcpgIn))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::_ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SymmetricEncDataPacket>::get(),

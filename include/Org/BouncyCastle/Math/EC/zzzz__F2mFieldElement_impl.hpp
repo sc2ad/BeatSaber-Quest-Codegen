@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__F2mFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__LongArray_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__LongArray_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Math::EC::F2mFieldElement._ctor
 template<>
 
@@ -589,8 +589,10 @@ constexpr void Org::BouncyCastle::Math::EC::F2mFieldElement::__set_x(Org::Bouncy
 constexpr Org::BouncyCastle::Math::EC::LongArray Org::BouncyCastle::Math::EC::F2mFieldElement::__get_x() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::LongArray, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mFieldElement::F2mFieldElement(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger x)  : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(THROW_UNLESS(::il2cpp_utils::New<F2mFieldElement>(m, k1, k2, k3, x))) {}
+ Org::BouncyCastle::Math::EC::F2mFieldElement Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger x)  {
+Org::BouncyCastle::Math::EC::F2mFieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mFieldElement>(m, k1, k2, k3, x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mFieldElement::_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, Org::BouncyCastle::Math::BigInteger x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mFieldElement>::get(),
@@ -600,8 +602,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k1, k2, k3, x);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "k", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mFieldElement::F2mFieldElement(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger x)  : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(THROW_UNLESS(::il2cpp_utils::New<F2mFieldElement>(m, k, x))) {}
+ Org::BouncyCastle::Math::EC::F2mFieldElement Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger x)  {
+Org::BouncyCastle::Math::EC::F2mFieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mFieldElement>(m, k, x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mFieldElement::_ctor(int32_t m, int32_t k, Org::BouncyCastle::Math::BigInteger x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mFieldElement>::get(),
@@ -611,8 +615,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, m, k, x);
 }
-// Ctor Parameters [CppParam { name: "m", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ks", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "x", ty: "Org::BouncyCastle::Math::EC::LongArray", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::F2mFieldElement::F2mFieldElement(int32_t m, ::ArrayW<int32_t> ks, Org::BouncyCastle::Math::EC::LongArray x)  : Org::BouncyCastle::Math::EC::AbstractF2mFieldElement(THROW_UNLESS(::il2cpp_utils::New<F2mFieldElement>(m, ks, x))) {}
+ Org::BouncyCastle::Math::EC::F2mFieldElement Org::BouncyCastle::Math::EC::F2mFieldElement::New_ctor(int32_t m, ::ArrayW<int32_t> ks, Org::BouncyCastle::Math::EC::LongArray x)  {
+Org::BouncyCastle::Math::EC::F2mFieldElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::F2mFieldElement>(m, ks, x))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::F2mFieldElement::_ctor(int32_t m, ::ArrayW<int32_t> ks, Org::BouncyCastle::Math::EC::LongArray x)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::F2mFieldElement>::get(),

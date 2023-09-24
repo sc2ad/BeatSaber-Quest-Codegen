@@ -13,7 +13,7 @@ class MessageWithPartyUnderCurrentParty;
 // Type: Oculus.Platform::MessageWithPartyUnderCurrentParty
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4466 }), TypeDefinitionIndex(TypeDefinitionIndex(13456)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4466 }), TypeDefinitionIndex(TypeDefinitionIndex(13456))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13264))
 // CS Name: Oculus.Platform.MessageWithPartyUnderCurrentParty
 class CORDL_TYPE MessageWithPartyUnderCurrentParty : public Oculus::Platform::Message_1<Oculus::Platform::Models::Party> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithPartyUnderCurrentParty(void* ptr) noexcept : Oculu
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithPartyUnderCurrentParty(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithPartyUnderCurrentParty New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257ed70 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

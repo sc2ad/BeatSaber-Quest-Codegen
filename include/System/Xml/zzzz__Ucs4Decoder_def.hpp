@@ -80,8 +80,7 @@ constexpr int32_t __get_lastBytesCount() const;
 /// @brief Method Ucs4ToUTF16 addr 0x2712cc8 size 0x58 virtual false final false
  void Ucs4ToUTF16(uint32_t code, ::ArrayW<char16_t> chars, int32_t charIndex) ;
 
-// Ctor Parameters []
-explicit Ucs4Decoder() ;
+static System::Xml::Ucs4Decoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2712d20 size 0x58 virtual false final false
  void _ctor() ;

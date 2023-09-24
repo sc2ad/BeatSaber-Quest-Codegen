@@ -54,8 +54,7 @@ constexpr explicit NamedValueChecker(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method Check addr 0x21a3bc4 size 0xb0 virtual false final false
 static bool Check(::StringW fieldName, ::bs_hook::Il2CppWrapperType value, ::bs_hook::Il2CppWrapperType expectedValue, System::Text::StringBuilder assertMessageSb) ;
 
-// Ctor Parameters []
-explicit NamedValueChecker() ;
+static GlobalNamespace::NamedValueChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a3c74 size 0x8 virtual false final false
  void _ctor() ;

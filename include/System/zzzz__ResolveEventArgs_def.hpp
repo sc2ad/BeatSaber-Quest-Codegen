@@ -66,14 +66,12 @@ constexpr System::Reflection::Assembly __get__RequestingAssembly_k__BackingField
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ResolveEventArgs(::StringW name) ;
+static System::ResolveEventArgs New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2451ed0 size 0x6c virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "requestingAssembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
-explicit ResolveEventArgs(::StringW name, System::Reflection::Assembly requestingAssembly) ;
+static System::ResolveEventArgs New_ctor(::StringW name, System::Reflection::Assembly requestingAssembly) ;
 
 /// @brief Method .ctor addr 0x2451f3c size 0x70 virtual false final false
  void _ctor(::StringW name, System::Reflection::Assembly requestingAssembly) ;

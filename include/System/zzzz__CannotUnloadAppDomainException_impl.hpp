@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::CannotUnloadAppDomainException::CannotUnloadAppDomainException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CannotUnloadAppDomainException>())) {}
+ System::CannotUnloadAppDomainException System::CannotUnloadAppDomainException::New_ctor()  {
+System::CannotUnloadAppDomainException o{THROW_UNLESS(::il2cpp_utils::New<System::CannotUnloadAppDomainException>())};
+return o;
+}
  void System::CannotUnloadAppDomainException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CannotUnloadAppDomainException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::CannotUnloadAppDomainException::CannotUnloadAppDomainException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CannotUnloadAppDomainException>(message))) {}
+ System::CannotUnloadAppDomainException System::CannotUnloadAppDomainException::New_ctor(::StringW message)  {
+System::CannotUnloadAppDomainException o{THROW_UNLESS(::il2cpp_utils::New<System::CannotUnloadAppDomainException>(message))};
+return o;
+}
  void System::CannotUnloadAppDomainException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CannotUnloadAppDomainException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::CannotUnloadAppDomainException::CannotUnloadAppDomainException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<CannotUnloadAppDomainException>(info, context))) {}
+ System::CannotUnloadAppDomainException System::CannotUnloadAppDomainException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::CannotUnloadAppDomainException o{THROW_UNLESS(::il2cpp_utils::New<System::CannotUnloadAppDomainException>(info, context))};
+return o;
+}
  void System::CannotUnloadAppDomainException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::CannotUnloadAppDomainException>::get(),

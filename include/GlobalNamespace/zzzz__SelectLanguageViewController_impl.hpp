@@ -2,8 +2,8 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLanguageViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "GlobalNamespace/zzzz__LanguageSettingsController_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SelectLanguageViewController.add_didChangeLanguageEvent
 template<>
 
@@ -244,8 +244,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SelectLanguageViewController::SelectLanguageViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<SelectLanguageViewController>())) {}
+ GlobalNamespace::SelectLanguageViewController GlobalNamespace::SelectLanguageViewController::New_ctor()  {
+GlobalNamespace::SelectLanguageViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectLanguageViewController>())};
+return o;
+}
  void GlobalNamespace::SelectLanguageViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectLanguageViewController>::get(),

@@ -5,7 +5,7 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -14,10 +14,10 @@ namespace Org::BouncyCastle::Asn1 {
 class DerPrintableString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -98,14 +98,12 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_exponent() const;
 /// @brief Method GetInstance addr 0xeea37c size 0x168 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit MonetaryLimit(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xeea4e4 size 0x130 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "currency", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "amount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "exponent", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MonetaryLimit(::StringW currency, int32_t amount, int32_t exponent) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit New_ctor(::StringW currency, int32_t amount, int32_t exponent) ;
 
 /// @brief Method .ctor addr 0xeea614 size 0xe4 virtual false final false
  void _ctor(::StringW currency, int32_t amount, int32_t exponent) ;

@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm::KeyExchangeAlgorithm()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyExchangeAlgorithm>())) {}
+ Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm>::get(),

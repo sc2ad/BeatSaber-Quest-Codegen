@@ -88,8 +88,7 @@ constexpr int32_t __get_m_skipSize() const;
 /// @brief Method get_SkipSize addr 0x22efdd4 size 0x8 virtual false final false
  int32_t get_SkipSize() ;
 
-// Ctor Parameters [CppParam { name: "minSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "skipSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeySizes(int32_t minSize, int32_t maxSize, int32_t skipSize) ;
+static System::Security::Cryptography::KeySizes New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize) ;
 
 /// @brief Method .ctor addr 0x22efb70 size 0x3c virtual false final false
  void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize) ;

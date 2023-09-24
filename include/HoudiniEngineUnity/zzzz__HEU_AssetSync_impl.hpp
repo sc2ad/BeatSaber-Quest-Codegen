@@ -3,11 +3,10 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetSync_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_AssetSync_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback._ctor
@@ -78,8 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback>(object, method))) {}
+ HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback>(object, method))};
+return o;
+}
  void HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HoudiniEngineUnity__HEU_AssetSync__AssetSyncCallback>::get(),
@@ -353,8 +354,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_AssetSync::HEU_AssetSync()  : HoudiniEngineUnity::HEU_BaseSync(THROW_UNLESS(::il2cpp_utils::New<HEU_AssetSync>())) {}
+ HoudiniEngineUnity::HEU_AssetSync HoudiniEngineUnity::HEU_AssetSync::New_ctor()  {
+HoudiniEngineUnity::HEU_AssetSync o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_AssetSync>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_AssetSync::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_AssetSync>::get(),

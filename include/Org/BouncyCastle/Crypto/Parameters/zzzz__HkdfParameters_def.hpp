@@ -87,14 +87,12 @@ constexpr ::ArrayW<uint8_t> __get_info() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ikm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "skip", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HkdfParameters(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;
+static Org::BouncyCastle::Crypto::Parameters::HkdfParameters New_ctor(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;
 
 /// @brief Method .ctor addr 0xea97d8 size 0x160 virtual false final false
  void _ctor(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;
 
-// Ctor Parameters [CppParam { name: "ikm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "info", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit HkdfParameters(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;
+static Org::BouncyCastle::Crypto::Parameters::HkdfParameters New_ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;
 
 /// @brief Method .ctor addr 0xea9938 size 0x10 virtual false final false
  void _ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info) ;

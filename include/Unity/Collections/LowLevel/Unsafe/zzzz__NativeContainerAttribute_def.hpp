@@ -47,8 +47,7 @@ constexpr explicit NativeContainerAttribute(void* ptr) noexcept : System::Attrib
 
 // Methods
 
-// Ctor Parameters []
-explicit NativeContainerAttribute() ;
+static Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b28ac0 size 0x8 virtual false final false
  void _ctor() ;

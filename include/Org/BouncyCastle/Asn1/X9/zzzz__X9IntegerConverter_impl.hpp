@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9IntegerConverter_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::X9IntegerConverter.GetByteLength
 template<>
 
@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, s, qLength);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::X9::X9IntegerConverter::X9IntegerConverter()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X9IntegerConverter>())) {}
+ Org::BouncyCastle::Asn1::X9::X9IntegerConverter Org::BouncyCastle::Asn1::X9::X9IntegerConverter::New_ctor()  {
+Org::BouncyCastle::Asn1::X9::X9IntegerConverter o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9IntegerConverter>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9IntegerConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9IntegerConverter>::get(),

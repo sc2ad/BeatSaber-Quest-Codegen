@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "includeLength", ty: "bool", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonString::BsonString(::bs_hook::Il2CppWrapperType value, bool includeLength)  : Newtonsoft::Json::Bson::BsonValue(THROW_UNLESS(::il2cpp_utils::New<BsonString>(value, includeLength))) {}
+ Newtonsoft::Json::Bson::BsonString Newtonsoft::Json::Bson::BsonString::New_ctor(::bs_hook::Il2CppWrapperType value, bool includeLength)  {
+Newtonsoft::Json::Bson::BsonString o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonString>(value, includeLength))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonString::_ctor(::bs_hook::Il2CppWrapperType value, bool includeLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonString>::get(),

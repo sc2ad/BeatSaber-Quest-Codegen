@@ -59,8 +59,7 @@ constexpr explicit Sensor(void* ptr) noexcept : UnityEngine::InputSystem::InputD
 /// @brief Method set_samplingFrequency addr 0x29151bc size 0xa0 virtual false final false
  void set_samplingFrequency(float_t value) ;
 
-// Ctor Parameters []
-explicit Sensor() ;
+static UnityEngine::InputSystem::Sensor New_ctor() ;
 
 /// @brief Method .ctor addr 0x291525c size 0x8 virtual false final false
  void _ctor() ;

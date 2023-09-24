@@ -3,6 +3,7 @@
 #include "System/Security/Util/zzzz__Tokenizer_def.hpp"
 #include "System/IO/zzzz__StreamReader_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Security/Util/zzzz__Tokenizer_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Security/Util/zzzz__TokenizerStream_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -160,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, a, l);
 }
-// Ctor Parameters []
- System::Security::Util::System__Security__Util__Tokenizer__StringMaker::System__Security__Util__Tokenizer__StringMaker()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__Util__Tokenizer__StringMaker>())) {}
+ System::Security::Util::System__Security__Util__Tokenizer__StringMaker System::Security::Util::System__Security__Util__Tokenizer__StringMaker::New_ctor()  {
+System::Security::Util::System__Security__Util__Tokenizer__StringMaker o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::System__Security__Util__Tokenizer__StringMaker>())};
+return o;
+}
  void System::Security::Util::System__Security__Util__Tokenizer__StringMaker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::System__Security__Util__Tokenizer__StringMaker>::get(),
@@ -282,8 +285,10 @@ constexpr void System::Security::Util::System__Security__Util__Tokenizer__Stream
 constexpr int32_t System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader::__get__numCharRead() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::StreamReader", modifiers: "", def_value: None }]
- System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader::System__Security__Util__Tokenizer__StreamTokenReader(System::IO::StreamReader input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Security__Util__Tokenizer__StreamTokenReader>(input))) {}
+ System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader::New_ctor(System::IO::StreamReader input)  {
+System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader>(input))};
+return o;
+}
  void System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader::_ctor(System::IO::StreamReader input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::System__Security__Util__Tokenizer__StreamTokenReader>::get(),
@@ -527,8 +532,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Util::Tokenizer::Tokenizer(::StringW input)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Tokenizer>(input))) {}
+ System::Security::Util::Tokenizer System::Security::Util::Tokenizer::New_ctor(::StringW input)  {
+System::Security::Util::Tokenizer o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Util::Tokenizer>(input))};
+return o;
+}
  void System::Security::Util::Tokenizer::_ctor(::StringW input)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Util::Tokenizer>::get(),

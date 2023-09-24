@@ -4,17 +4,17 @@
 namespace Org::BouncyCastle::Asn1 {
 class DerTaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerUtcTime;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+class Time;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -22,8 +22,8 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerUtcTime;
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -122,8 +122,7 @@ constexpr Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __get_subjectPubli
 
 // Methods
 
-// Ctor Parameters []
-explicit V1TbsCertificateGenerator() ;
+static Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1110758 size 0xa0 virtual false final false
  void _ctor() ;

@@ -6,52 +6,52 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Remoting::Messaging {
-class MCMDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System {
-class Type;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Runtime::Remoting::Messaging {
-struct CallType;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IInternalMessage;
 }
 namespace System::Reflection {
-class MethodBase;
+class MethodInfo;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodReturnMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
 namespace System::Reflection {
 class RuntimeMethodInfo;
+}
+namespace System {
+class Exception;
+}
+namespace System::Runtime::Remoting::Messaging {
+struct CallType;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MCMDictionary;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class AsyncResult;
+}
+namespace System::Runtime::Remoting {
+class Identity;
+}
+namespace System::Reflection {
+class MethodBase;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -233,14 +233,12 @@ constexpr ::ArrayW<System::Type> __get_methodSignature() const;
 /// @brief Method InitMessage addr 0x2344edc size 0x294 virtual false final false
  void InitMessage(System::Reflection::RuntimeMethodInfo method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Reflection::MethodBase", modifiers: "", def_value: None }, CppParam { name: "out_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit MonoMethodMessage(System::Reflection::MethodBase method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
+static System::Runtime::Remoting::Messaging::MonoMethodMessage New_ctor(System::Reflection::MethodBase method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
 
 /// @brief Method .ctor addr 0x2345170 size 0xc8 virtual false final false
  void _ctor(System::Reflection::MethodBase method, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
 
-// Ctor Parameters [CppParam { name: "minfo", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }, CppParam { name: "in_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }, CppParam { name: "out_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit MonoMethodMessage(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
+static System::Runtime::Remoting::Messaging::MonoMethodMessage New_ctor(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
 
 /// @brief Method .ctor addr 0x232a744 size 0x138 virtual false final false
  void _ctor(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args, ::ArrayW<::bs_hook::Il2CppWrapperType> out_args) ;
@@ -248,8 +246,7 @@ explicit MonoMethodMessage(System::Reflection::MethodInfo minfo, ::ArrayW<::bs_h
 /// @brief Method GetMethodInfo addr 0x2345238 size 0xb4 virtual false final false
 static System::Reflection::MethodInfo GetMethodInfo(System::Type type, ::StringW methodName) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "methodName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "in_args", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit MonoMethodMessage(System::Type type, ::StringW methodName, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args) ;
+static System::Runtime::Remoting::Messaging::MonoMethodMessage New_ctor(System::Type type, ::StringW methodName, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args) ;
 
 /// @brief Method .ctor addr 0x23452ec size 0x38 virtual false final false
  void _ctor(System::Type type, ::StringW methodName, ::ArrayW<::bs_hook::Il2CppWrapperType> in_args) ;

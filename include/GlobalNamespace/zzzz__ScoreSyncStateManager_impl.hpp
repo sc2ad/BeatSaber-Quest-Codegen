@@ -1,14 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerSyncStateManager_5_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncStateNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__IScoreSyncStateManager_def.hpp"
+#include "GlobalNamespace/zzzz__IScoreSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__StandardScoreSyncStateNetSerializable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ScoreSyncStateManager.get_deltaUpdateFrequency
 template<>
 
@@ -268,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, prev, prevTime, curr, currTime, time);
 }
-// Ctor Parameters []
- GlobalNamespace::ScoreSyncStateManager::ScoreSyncStateManager()  : GlobalNamespace::MultiplayerSyncStateManager_5<GlobalNamespace::StandardScoreSyncState,GlobalNamespace::GlobalNamespace__StandardScoreSyncState__Score,int32_t,GlobalNamespace::StandardScoreSyncStateNetSerializable,GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable>(THROW_UNLESS(::il2cpp_utils::New<ScoreSyncStateManager>())) {}
+ GlobalNamespace::ScoreSyncStateManager GlobalNamespace::ScoreSyncStateManager::New_ctor()  {
+GlobalNamespace::ScoreSyncStateManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ScoreSyncStateManager>())};
+return o;
+}
  void GlobalNamespace::ScoreSyncStateManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ScoreSyncStateManager>::get(),

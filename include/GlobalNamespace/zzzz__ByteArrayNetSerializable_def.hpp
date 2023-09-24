@@ -6,13 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,14 +118,12 @@ constexpr int32_t __get__maxLength() const;
 /// @brief Method set_data addr 0xd9cf00 size 0x4 virtual false final false
  void set_data(::ArrayW<uint8_t> value) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "minLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowEmpty", ty: "bool", modifiers: "", def_value: None }]
-explicit ByteArrayNetSerializable(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty) ;
+static GlobalNamespace::ByteArrayNetSerializable New_ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty) ;
 
 /// @brief Method .ctor addr 0xd9cf2c size 0x48 virtual false final false
  void _ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowEmpty", ty: "bool", modifiers: "", def_value: None }]
-explicit ByteArrayNetSerializable(::StringW name, int32_t size, bool allowEmpty) ;
+static GlobalNamespace::ByteArrayNetSerializable New_ctor(::StringW name, int32_t size, bool allowEmpty) ;
 
 /// @brief Method .ctor addr 0xd9cf74 size 0x44 virtual false final false
  void _ctor(::StringW name, int32_t size, bool allowEmpty) ;

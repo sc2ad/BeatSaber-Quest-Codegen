@@ -1,10 +1,10 @@
 #pragma once
 #include "System/ComponentModel/zzzz__ReferenceConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ComponentConverter_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ComponentConverter._ctor
 template<>
 
@@ -56,8 +56,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::ComponentConverter::ComponentConverter(System::Type type)  : System::ComponentModel::ReferenceConverter(THROW_UNLESS(::il2cpp_utils::New<ComponentConverter>(type))) {}
+ System::ComponentModel::ComponentConverter System::ComponentModel::ComponentConverter::New_ctor(System::Type type)  {
+System::ComponentModel::ComponentConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ComponentConverter>(type))};
+return o;
+}
  void System::ComponentModel::ComponentConverter::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ComponentConverter>::get(),

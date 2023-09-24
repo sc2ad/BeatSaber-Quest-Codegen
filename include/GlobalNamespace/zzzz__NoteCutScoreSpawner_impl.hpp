@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"
-#include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
+#include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NoteCutScoreSpawner.Start
 template<>
 
@@ -111,8 +111,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, scoringElement);
 }
-// Ctor Parameters []
- GlobalNamespace::NoteCutScoreSpawner::NoteCutScoreSpawner()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<NoteCutScoreSpawner>())) {}
+ GlobalNamespace::NoteCutScoreSpawner GlobalNamespace::NoteCutScoreSpawner::New_ctor()  {
+GlobalNamespace::NoteCutScoreSpawner o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NoteCutScoreSpawner>())};
+return o;
+}
  void GlobalNamespace::NoteCutScoreSpawner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NoteCutScoreSpawner>::get(),

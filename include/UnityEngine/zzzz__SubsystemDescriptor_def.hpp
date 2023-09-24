@@ -80,8 +80,7 @@ constexpr ::StringW __get__id_k__BackingField() const;
 /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
  UnityEngine::ISubsystem CreateImpl() ;
 
-// Ctor Parameters []
-explicit SubsystemDescriptor() ;
+static UnityEngine::SubsystemDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba3028 size 0x8 virtual false final false
  void _ctor() ;

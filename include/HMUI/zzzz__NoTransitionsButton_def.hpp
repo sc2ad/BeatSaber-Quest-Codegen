@@ -3,12 +3,15 @@
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UI {
-struct UnityEngine__UI__Selectable__SelectionState;
+namespace HMUI {
+struct HMUI__NoTransitionsButton__SelectionState;
 }
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Selectable__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -68,6 +71,8 @@ __Disabled = 3,
 constexpr operator __HMUI__NoTransitionsButton__SelectionState_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__NoTransitionsButton__SelectionState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -170,8 +175,7 @@ constexpr HMUI::HMUI__NoTransitionsButton__SelectionState __get__selectionState(
 /// @brief Method DoStateTransition addr 0x1fbd264 size 0x40 virtual true final false
  void DoStateTransition(UnityEngine::UI::UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
 
-// Ctor Parameters []
-explicit NoTransitionsButton() ;
+static HMUI::NoTransitionsButton New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbd2a4 size 0x8 virtual false final false
  void _ctor() ;

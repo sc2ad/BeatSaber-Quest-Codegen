@@ -6,10 +6,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -77,8 +77,7 @@ static Org::BouncyCastle::Asn1::X9::DHPublicKey GetInstance(Org::BouncyCastle::A
 /// @brief Method GetInstance addr 0x111e4b8 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X9::DHPublicKey GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "y", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit DHPublicKey(Org::BouncyCastle::Asn1::DerInteger y) ;
+static Org::BouncyCastle::Asn1::X9::DHPublicKey New_ctor(Org::BouncyCastle::Asn1::DerInteger y) ;
 
 /// @brief Method .ctor addr 0x111e640 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerInteger y) ;

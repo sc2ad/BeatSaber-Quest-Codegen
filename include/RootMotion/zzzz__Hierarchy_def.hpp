@@ -86,8 +86,7 @@ static UnityEngine::Transform GetFirstCommonAncestorRecursive(UnityEngine::Trans
 /// @brief Method IsCommonAncestor addr 0x11b2db0 size 0x208 virtual false final false
 static bool IsCommonAncestor(UnityEngine::Transform transform, ::ArrayW<UnityEngine::Transform> transforms) ;
 
-// Ctor Parameters []
-explicit Hierarchy() ;
+static RootMotion::Hierarchy New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b3140 size 0x8 virtual false final false
  void _ctor() ;

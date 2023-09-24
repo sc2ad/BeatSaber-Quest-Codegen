@@ -48,8 +48,10 @@ constexpr void System::Runtime::Serialization::SurrogateKey::__set_m_context(Sys
 constexpr System::Runtime::Serialization::StreamingContext System::Runtime::Serialization::SurrogateKey::__get_m_context() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::StreamingContext, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::Serialization::SurrogateKey::SurrogateKey(System::Type type, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SurrogateKey>(type, context))) {}
+ System::Runtime::Serialization::SurrogateKey System::Runtime::Serialization::SurrogateKey::New_ctor(System::Type type, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::Serialization::SurrogateKey o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::SurrogateKey>(type, context))};
+return o;
+}
  void System::Runtime::Serialization::SurrogateKey::_ctor(System::Type type, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::SurrogateKey>::get(),

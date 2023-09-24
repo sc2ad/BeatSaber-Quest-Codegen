@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__ExtenderProvidedPropertyAttribute_def.hpp"
-#include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::ComponentModel::ExtenderProvidedPropertyAttribute.Create
 template<>
@@ -218,8 +218,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::ComponentModel::ExtenderProvidedPropertyAttribute, false>(nullptr, ___internal_method, extenderProperty, receiverType, provider);
 }
-// Ctor Parameters []
- System::ComponentModel::ExtenderProvidedPropertyAttribute::ExtenderProvidedPropertyAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExtenderProvidedPropertyAttribute>())) {}
+ System::ComponentModel::ExtenderProvidedPropertyAttribute System::ComponentModel::ExtenderProvidedPropertyAttribute::New_ctor()  {
+System::ComponentModel::ExtenderProvidedPropertyAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ExtenderProvidedPropertyAttribute>())};
+return o;
+}
  void System::ComponentModel::ExtenderProvidedPropertyAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ExtenderProvidedPropertyAttribute>::get(),

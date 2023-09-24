@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "eventSystem", ty: "UnityEngine::EventSystems::EventSystem", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::UI::ExtendedAxisEventData::ExtendedAxisEventData(UnityEngine::EventSystems::EventSystem eventSystem)  : UnityEngine::EventSystems::AxisEventData(THROW_UNLESS(::il2cpp_utils::New<ExtendedAxisEventData>(eventSystem))) {}
+ UnityEngine::InputSystem::UI::ExtendedAxisEventData UnityEngine::InputSystem::UI::ExtendedAxisEventData::New_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
+UnityEngine::InputSystem::UI::ExtendedAxisEventData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UI::ExtendedAxisEventData>(eventSystem))};
+return o;
+}
  void UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor(UnityEngine::EventSystems::EventSystem eventSystem)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UI::ExtendedAxisEventData>::get(),

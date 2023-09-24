@@ -5,35 +5,41 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class VideoProjectionDataModelSO;
+struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
 class SongTimeSyncedVideoPlayer;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class VideoProjectionDataModelSO;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class IReadonlyBeatmapData;
+}
+namespace UnityEngine::Video {
+class VideoClip;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::Video {
-class VideoClip;
+namespace GlobalNamespace {
+class GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId;
@@ -41,14 +47,26 @@ class GlobalNamespace__VideoProjectionDataModelSO__VideoClipWithId;
 namespace GlobalNamespace {
 struct EnvironmentContext;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__VideoProjectionEffect__InitData;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
 namespace UnityEngine {
 class Sprite;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -127,8 +145,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VideoProjectionEffect__InitData(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+static GlobalNamespace::GlobalNamespace__VideoProjectionEffect__InitData New_ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 /// @brief Method .ctor addr 0x2268318 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
@@ -188,8 +205,7 @@ constexpr int32_t __get_eventValue() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0() ;
+static GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x22686a8 size 0x8 virtual false final false
  void _ctor() ;
@@ -363,8 +379,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get__previewBeatmapLevel() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dataModel", ty: "GlobalNamespace::VideoProjectionDataModelSO", modifiers: "", def_value: None }, CppParam { name: "videoPlayer", ty: "GlobalNamespace::SongTimeSyncedVideoPlayer", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior(GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+static GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjectionBehavior New_ctor(GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 /// @brief Method .ctor addr 0x2268340 size 0x3c virtual false final false
  void _ctor(GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
@@ -439,8 +454,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__callbackWrapper() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::IReadonlyBeatmapData", modifiers: "", def_value: None }, CppParam { name: "dataModel", ty: "GlobalNamespace::VideoProjectionDataModelSO", modifiers: "", def_value: None }, CppParam { name: "videoPlayer", ty: "GlobalNamespace::SongTimeSyncedVideoPlayer", modifiers: "", def_value: None }, CppParam { name: "videoEventType", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "beatmapCallbacksController", ty: "GlobalNamespace::BeatmapCallbacksController", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+static GlobalNamespace::GlobalNamespace__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior New_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 /// @brief Method .ctor addr 0x22680cc size 0x22c virtual false final false
  void _ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::BeatmapCallbacksController beatmapCallbacksController, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
@@ -497,8 +511,7 @@ constexpr explicit GlobalNamespace__VideoProjectionEffect__GameplayVideoProjecti
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "beatmapData", ty: "GlobalNamespace::IReadonlyBeatmapData", modifiers: "", def_value: None }, CppParam { name: "dataModel", ty: "GlobalNamespace::VideoProjectionDataModelSO", modifiers: "", def_value: None }, CppParam { name: "videoPlayer", ty: "GlobalNamespace::SongTimeSyncedVideoPlayer", modifiers: "", def_value: None }, CppParam { name: "videoEventType", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+static GlobalNamespace::GlobalNamespace__VideoProjectionEffect__GameplayVideoProjectionBehavior New_ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 /// @brief Method .ctor addr 0x2267f94 size 0x138 virtual false final false
  void _ctor(GlobalNamespace::IReadonlyBeatmapData beatmapData, GlobalNamespace::VideoProjectionDataModelSO dataModel, GlobalNamespace::SongTimeSyncedVideoPlayer videoPlayer, GlobalNamespace::BasicBeatmapEventType videoEventType, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
@@ -614,8 +627,7 @@ constexpr GlobalNamespace::GlobalNamespace__VideoProjectionEffect__VideoProjecti
 /// @brief Method OnDestroy addr 0x22682f8 size 0x18 virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit VideoProjectionEffect() ;
+static GlobalNamespace::VideoProjectionEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2268310 size 0x8 virtual false final false
  void _ctor() ;

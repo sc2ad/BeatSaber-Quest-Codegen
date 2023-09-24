@@ -7,53 +7,65 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Action;
-}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename T>
 class UnityEngine__InputSystem__Utilities__SavedStructState_1__TypedRestore;
 }
-namespace UnityEngine::InputSystem {
-class Touchscreen;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-struct TouchHistory;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
-namespace UnityEngine::InputSystem::EnhancedTouch {
-class Finger;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-template<typename TValue>
-struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record;
-}
 namespace System {
-template<typename T>
-class IEquatable_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
+class Action;
 }
 namespace UnityEngine::InputSystem {
 struct TouchPhase;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct UnityEngine__InputSystem__EnhancedTouch__Touch__GlobalState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template<typename TValue>
+struct UnityEngine__InputSystem__LowLevel__InputStateHistory_1__Record;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class UnityEngine__InputSystem__EnhancedTouch__Touch____c;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem {
+class Touchscreen;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct UnityEngine__InputSystem__EnhancedTouch__Touch__FingerAndTouchState;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+class Finger;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct UnityEngine__InputSystem__EnhancedTouch__Touch__ExtraDataPerTouchState;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::InputSystem::EnhancedTouch {
+struct TouchHistory;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 template<typename TValue>
@@ -422,8 +434,7 @@ static System::Action __get___9__78_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__EnhancedTouch__Touch____c() ;
+static UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__Touch____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2950e1c size 0x8 virtual false final false
  void _ctor() ;

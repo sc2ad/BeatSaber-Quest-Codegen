@@ -817,8 +817,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path, buffer);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_Platform::HEU_Platform()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_Platform>())) {}
+ HoudiniEngineUnity::HEU_Platform HoudiniEngineUnity::HEU_Platform::New_ctor()  {
+HoudiniEngineUnity::HEU_Platform o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_Platform>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_Platform::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_Platform>::get(),

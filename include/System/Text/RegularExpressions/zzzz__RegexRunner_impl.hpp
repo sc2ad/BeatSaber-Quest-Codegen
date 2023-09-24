@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__RegexRunner_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::RegexRunner._ctor
 template<>
 
@@ -536,8 +536,10 @@ constexpr void System::Text::RegularExpressions::RegexRunner::__set__timeoutChec
 constexpr int32_t System::Text::RegularExpressions::RegexRunner::__get__timeoutChecksToSkip() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x7c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::RegexRunner::RegexRunner()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RegexRunner>())) {}
+ System::Text::RegularExpressions::RegexRunner System::Text::RegularExpressions::RegexRunner::New_ctor()  {
+System::Text::RegularExpressions::RegexRunner o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::RegexRunner>())};
+return o;
+}
  void System::Text::RegularExpressions::RegexRunner::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::RegexRunner>::get(),

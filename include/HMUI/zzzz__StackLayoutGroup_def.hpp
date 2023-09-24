@@ -82,8 +82,7 @@ constexpr bool __get_m_ChildForceExpandHeight() const;
 /// @brief Method set_childForceExpandHeight addr 0x1fb1308 size 0x5c virtual false final false
  void set_childForceExpandHeight(bool value) ;
 
-// Ctor Parameters []
-explicit StackLayoutGroup() ;
+static HMUI::StackLayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb1364 size 0x10 virtual false final false
  void _ctor() ;

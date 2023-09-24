@@ -66,8 +66,7 @@ constexpr System::Security::Util::System__Security__Util__Tokenizer__StringMaker
 
 // Methods
 
-// Ctor Parameters []
-explicit SharedStatics() ;
+static System::SharedStatics New_ctor() ;
 
 /// @brief Method .ctor addr 0x24834c0 size 0x4 virtual false final false
  void _ctor() ;

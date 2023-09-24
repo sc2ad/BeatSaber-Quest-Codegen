@@ -1,19 +1,20 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelDetailViewController_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
-#include "GlobalNamespace/zzzz__ObjectiveListItem_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
-#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__ObjectiveListItemsList_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierInfoListItemsList_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__ObjectiveListItem_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__MissionLevelDetailViewController_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierInfoListItemsList_def.hpp"
 #include "GlobalNamespace/zzzz__LevelBar_def.hpp"
+#include "GlobalNamespace/zzzz__ObjectiveListItemsList_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__MissionNode_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0._ctor
 template<>
 
@@ -77,8 +78,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MissionLevelDetailViewControlle
 constexpr System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO> GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0::__get_modifierParamsList() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0>())) {}
+ GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0 GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MissionLevelDetailViewController____c__DisplayClass14_0>::get(),
@@ -353,8 +356,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MissionLevelDetailViewController::MissionLevelDetailViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<MissionLevelDetailViewController>())) {}
+ GlobalNamespace::MissionLevelDetailViewController GlobalNamespace::MissionLevelDetailViewController::New_ctor()  {
+GlobalNamespace::MissionLevelDetailViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionLevelDetailViewController>())};
+return o;
+}
  void GlobalNamespace::MissionLevelDetailViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionLevelDetailViewController>::get(),

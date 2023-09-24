@@ -3,6 +3,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
+class IOVRSceneComponent;
+}
+namespace GlobalNamespace {
 class OVRSceneAnchor;
 }
 namespace UnityEngine {
@@ -10,9 +13,6 @@ struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace GlobalNamespace {
-class IOVRSceneComponent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,8 +145,7 @@ constexpr GlobalNamespace::OVRSceneAnchor __get__sceneAnchor() const;
 /// @brief Method SetChildScale addr 0x260c554 size 0x90 virtual false final false
 static void SetChildScale(UnityEngine::Transform parentTransform, UnityEngine::Vector3 dimensions) ;
 
-// Ctor Parameters []
-explicit OVRSceneVolume() ;
+static GlobalNamespace::OVRSceneVolume New_ctor() ;
 
 /// @brief Method .ctor addr 0x260c780 size 0x10 virtual false final false
  void _ctor() ;

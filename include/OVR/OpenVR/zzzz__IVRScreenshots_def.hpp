@@ -8,23 +8,44 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class IAsyncResult;
-}
 namespace OVR::OpenVR {
 struct EVRScreenshotPropertyFilenames;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace OVR::OpenVR {
-struct EVRScreenshotError;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
+struct EVRScreenshotError;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace OVR::OpenVR {
 struct EVRScreenshotType;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___HookScreenshot;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___RequestScreenshot;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___SubmitScreenshot;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -93,8 +114,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___RequestScreenshot(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___RequestScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___RequestScreenshot New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265e9f0 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -154,8 +174,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___HookScreenshot(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___HookScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___HookScreenshot New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265ebd4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -215,8 +234,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyType New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265ed7c size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -276,8 +294,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___GetScreenshotPropertyFilename New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265ef38 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -337,8 +354,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___UpdateScreenshotProgress New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f140 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -398,8 +414,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___TakeStereoScreenshot New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f2f8 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -459,8 +474,7 @@ constexpr explicit OVR__OpenVR__IVRScreenshots___SubmitScreenshot(void* ptr) noe
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRScreenshots___SubmitScreenshot(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRScreenshots___SubmitScreenshot New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x265f4b0 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

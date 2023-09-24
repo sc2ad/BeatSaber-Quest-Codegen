@@ -8,12 +8,18 @@
 namespace TMPro {
 class ITweenValue;
 }
-namespace UnityEngine {
-struct Color;
+namespace TMPro {
+struct TMPro__ColorTween__ColorTweenMode;
+}
+namespace TMPro {
+class TMPro__ColorTween__ColorTweenCallback;
 }
 namespace UnityEngine::Events {
 template<typename T0>
 class UnityAction_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace TMPro {
@@ -75,6 +81,8 @@ __Alpha = 2,
 constexpr operator __TMPro__ColorTween__ColorTweenMode_Unwrapped () const noexcept {
 return std::bit_cast<__TMPro__ColorTween__ColorTweenMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -140,8 +148,7 @@ constexpr explicit TMPro__ColorTween__ColorTweenCallback(void* ptr) noexcept : U
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__ColorTween__ColorTweenCallback() ;
+static TMPro::TMPro__ColorTween__ColorTweenCallback New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6a930 size 0x48 virtual false final false
  void _ctor() ;

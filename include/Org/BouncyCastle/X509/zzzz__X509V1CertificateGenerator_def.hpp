@@ -4,29 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class V1TbsCertificateGenerator;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class V1TbsCertificateGenerator;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace System {
 struct DateTime;
@@ -34,8 +34,8 @@ struct DateTime;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -118,8 +118,7 @@ constexpr ::StringW __get_signatureAlgorithm() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509V1CertificateGenerator() ;
+static Org::BouncyCastle::X509::X509V1CertificateGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10f8188 size 0x6c virtual false final false
  void _ctor() ;

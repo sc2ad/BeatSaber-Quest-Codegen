@@ -65,8 +65,7 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 /// @brief Method set_Name addr 0x2ba11bc size 0x8 virtual true final true
  void set_Name(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit NativeNameAttribute(::StringW name) ;
+static UnityEngine::Bindings::NativeNameAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2ba11c4 size 0x104 virtual false final false
  void _ctor(::StringW name) ;

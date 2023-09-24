@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__ArgumentCache_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 //  Writing Method size for method: UnityEngine::Events::ArgumentCache.get_unityObjectArgument
 template<>
 
@@ -267,8 +267,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Events::ArgumentCache::ArgumentCache()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ArgumentCache>())) {}
+ UnityEngine::Events::ArgumentCache UnityEngine::Events::ArgumentCache::New_ctor()  {
+UnityEngine::Events::ArgumentCache o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Events::ArgumentCache>())};
+return o;
+}
  void UnityEngine::Events::ArgumentCache::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Events::ArgumentCache>::get(),

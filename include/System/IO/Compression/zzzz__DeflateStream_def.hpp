@@ -5,14 +5,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
 namespace System::IO {
 class Stream;
 }
+namespace System::Threading::Tasks {
+template<typename TResult>
+struct ValueTask_1;
+}
+namespace System::IO::Compression {
+class System__IO__Compression__DeflateStream__WriteMethod;
+}
 namespace System::IO::Compression {
 struct CompressionMode;
+}
+namespace System::IO::Compression {
+class DeflateStreamNative;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+template<typename T>
+struct ReadOnlyMemory_1;
 }
 namespace System {
 template<typename T>
@@ -20,34 +37,23 @@ struct Span_1;
 }
 namespace System {
 template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System {
-template<typename T>
 struct Memory_1;
 }
 namespace System {
 template<typename T>
-struct ReadOnlyMemory_1;
-}
-namespace System {
-class AsyncCallback;
+struct ReadOnlySpan_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-struct ValueTask_1;
+namespace System {
+class AsyncCallback;
 }
 namespace System::IO::Compression {
-class DeflateStreamNative;
+class System__IO__Compression__DeflateStream__ReadMethod;
 }
-namespace System {
-class IAsyncResult;
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace System::IO::Compression {
@@ -101,8 +107,7 @@ constexpr explicit System__IO__Compression__DeflateStream__ReadMethod(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__Compression__DeflateStream__ReadMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::Compression::System__IO__Compression__DeflateStream__ReadMethod New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x27b0d18 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -162,8 +167,7 @@ constexpr explicit System__IO__Compression__DeflateStream__WriteMethod(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__Compression__DeflateStream__WriteMethod(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::Compression::System__IO__Compression__DeflateStream__WriteMethod New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x27b1118 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -273,20 +277,17 @@ constexpr System::IO::Compression::DeflateStreamNative __get_native() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }]
-explicit DeflateStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode) ;
+static System::IO::Compression::DeflateStream New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode) ;
 
 /// @brief Method .ctor addr 0x27aff2c size 0xc virtual false final false
  void _ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "windowsBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit DeflateStream(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits) ;
+static System::IO::Compression::DeflateStream New_ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits) ;
 
 /// @brief Method .ctor addr 0x27af408 size 0xc virtual false final false
  void _ctor(System::IO::Stream stream, System::IO::Compression::CompressionMode mode, bool leaveOpen, int32_t windowsBits) ;
 
-// Ctor Parameters [CppParam { name: "compressedStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::IO::Compression::CompressionMode", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gzip", ty: "bool", modifiers: "", def_value: None }]
-explicit DeflateStream(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip) ;
+static System::IO::Compression::DeflateStream New_ctor(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip) ;
 
 /// @brief Method .ctor addr 0x27aff38 size 0x16c virtual false final false
  void _ctor(System::IO::Stream compressedStream, System::IO::Compression::CompressionMode mode, bool leaveOpen, bool gzip) ;

@@ -90,20 +90,17 @@ constexpr int32_t __get_lcid() const;
 /// @brief Method Compare addr 0x23fc9e0 size 0x174 virtual false final false
 static int32_t Compare(System::Globalization::SortKey sortkey1, System::Globalization::SortKey sortkey2) ;
 
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "opt", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }]
-explicit SortKey(int32_t lcid, ::StringW source, System::Globalization::CompareOptions opt) ;
+static System::Globalization::SortKey New_ctor(int32_t lcid, ::StringW source, System::Globalization::CompareOptions opt) ;
 
 /// @brief Method .ctor addr 0x23fcb54 size 0xd4 virtual false final false
  void _ctor(int32_t lcid, ::StringW source, System::Globalization::CompareOptions opt) ;
 
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "opt", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }, CppParam { name: "lv1Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lv2Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lv3Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kanaSmallLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "markTypeLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "katakanaLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "kanaWidthLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "identLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SortKey(int32_t lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength) ;
+static System::Globalization::SortKey New_ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength) ;
 
 /// @brief Method .ctor addr 0x23fcc28 size 0x40 virtual false final false
  void _ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t> buffer, System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength) ;
 
-// Ctor Parameters [CppParam { name: "localeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "str", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }, CppParam { name: "keyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SortKey(::StringW localeName, ::StringW str, System::Globalization::CompareOptions options, ::ArrayW<uint8_t> keyData) ;
+static System::Globalization::SortKey New_ctor(::StringW localeName, ::StringW str, System::Globalization::CompareOptions options, ::ArrayW<uint8_t> keyData) ;
 
 /// @brief Method .ctor addr 0x23fcc68 size 0x48 virtual false final false
  void _ctor(::StringW localeName, ::StringW str, System::Globalization::CompareOptions options, ::ArrayW<uint8_t> keyData) ;
@@ -123,8 +120,7 @@ explicit SortKey(::StringW localeName, ::StringW str, System::Globalization::Com
 /// @brief Method ToString addr 0x23fcdd8 size 0x1f0 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit SortKey() ;
+static System::Globalization::SortKey New_ctor() ;
 
 /// @brief Method .ctor addr 0x23fcfc8 size 0x38 virtual false final false
  void _ctor() ;

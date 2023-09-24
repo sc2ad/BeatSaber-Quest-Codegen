@@ -25,8 +25,10 @@ constexpr void System::AssemblyLoadEventArgs::__set__LoadedAssembly_k__BackingFi
 constexpr System::Reflection::Assembly System::AssemblyLoadEventArgs::__get__LoadedAssembly_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Reflection::Assembly, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "loadedAssembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
- System::AssemblyLoadEventArgs::AssemblyLoadEventArgs(System::Reflection::Assembly loadedAssembly)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<AssemblyLoadEventArgs>(loadedAssembly))) {}
+ System::AssemblyLoadEventArgs System::AssemblyLoadEventArgs::New_ctor(System::Reflection::Assembly loadedAssembly)  {
+System::AssemblyLoadEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::AssemblyLoadEventArgs>(loadedAssembly))};
+return o;
+}
  void System::AssemblyLoadEventArgs::_ctor(System::Reflection::Assembly loadedAssembly)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::AssemblyLoadEventArgs>::get(),

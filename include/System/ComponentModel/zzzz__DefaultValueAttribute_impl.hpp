@@ -109,8 +109,10 @@ constexpr void System::ComponentModel::DefaultValueAttribute::__set__value(::bs_
 constexpr ::bs_hook::Il2CppWrapperType System::ComponentModel::DefaultValueAttribute::__get__value() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
- System::ComponentModel::DefaultValueAttribute::DefaultValueAttribute(bool value)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultValueAttribute>(value))) {}
+ System::ComponentModel::DefaultValueAttribute System::ComponentModel::DefaultValueAttribute::New_ctor(bool value)  {
+System::ComponentModel::DefaultValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DefaultValueAttribute>(value))};
+return o;
+}
  void System::ComponentModel::DefaultValueAttribute::_ctor(bool value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultValueAttribute>::get(),
@@ -120,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::DefaultValueAttribute::DefaultValueAttribute(::StringW value)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultValueAttribute>(value))) {}
+ System::ComponentModel::DefaultValueAttribute System::ComponentModel::DefaultValueAttribute::New_ctor(::StringW value)  {
+System::ComponentModel::DefaultValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DefaultValueAttribute>(value))};
+return o;
+}
  void System::ComponentModel::DefaultValueAttribute::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultValueAttribute>::get(),
@@ -131,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::ComponentModel::DefaultValueAttribute::DefaultValueAttribute(::bs_hook::Il2CppWrapperType value)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultValueAttribute>(value))) {}
+ System::ComponentModel::DefaultValueAttribute System::ComponentModel::DefaultValueAttribute::New_ctor(::bs_hook::Il2CppWrapperType value)  {
+System::ComponentModel::DefaultValueAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DefaultValueAttribute>(value))};
+return o;
+}
  void System::ComponentModel::DefaultValueAttribute::_ctor(::bs_hook::Il2CppWrapperType value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DefaultValueAttribute>::get(),

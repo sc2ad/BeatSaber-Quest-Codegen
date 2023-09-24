@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::SignalSenderAttribute::SignalSenderAttribute()  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<SignalSenderAttribute>())) {}
+ GlobalNamespace::SignalSenderAttribute GlobalNamespace::SignalSenderAttribute::New_ctor()  {
+GlobalNamespace::SignalSenderAttribute o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SignalSenderAttribute>())};
+return o;
+}
  void GlobalNamespace::SignalSenderAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SignalSenderAttribute>::get(),

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignedData_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::SignedData.GetInstance
 template<>
 
@@ -292,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cms::SignedData, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "digestAlgorithms", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }, CppParam { name: "certificates", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "crls", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "signerInfos", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::SignedData::SignedData(Org::BouncyCastle::Asn1::Asn1Set digestAlgorithms, Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo, Org::BouncyCastle::Asn1::Asn1Set certificates, Org::BouncyCastle::Asn1::Asn1Set crls, Org::BouncyCastle::Asn1::Asn1Set signerInfos)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignedData>(digestAlgorithms, contentInfo, certificates, crls, signerInfos))) {}
+ Org::BouncyCastle::Asn1::Cms::SignedData Org::BouncyCastle::Asn1::Cms::SignedData::New_ctor(Org::BouncyCastle::Asn1::Asn1Set digestAlgorithms, Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo, Org::BouncyCastle::Asn1::Asn1Set certificates, Org::BouncyCastle::Asn1::Asn1Set crls, Org::BouncyCastle::Asn1::Asn1Set signerInfos)  {
+Org::BouncyCastle::Asn1::Cms::SignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::SignedData>(digestAlgorithms, contentInfo, certificates, crls, signerInfos))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::SignedData::_ctor(Org::BouncyCastle::Asn1::Asn1Set digestAlgorithms, Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo, Org::BouncyCastle::Asn1::Asn1Set certificates, Org::BouncyCastle::Asn1::Asn1Set crls, Org::BouncyCastle::Asn1::Asn1Set signerInfos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::SignedData>::get(),
@@ -321,8 +323,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, signerInfs);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::SignedData::SignedData(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<SignedData>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::SignedData Org::BouncyCastle::Asn1::Cms::SignedData::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::SignedData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::SignedData>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::SignedData::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::SignedData>::get(),

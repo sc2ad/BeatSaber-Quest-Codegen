@@ -76,8 +76,10 @@ constexpr void Org::BouncyCastle::Crypto::IO::MacSink::__set_mMac(Org::BouncyCas
 constexpr Org::BouncyCastle::Crypto::IMac Org::BouncyCastle::Crypto::IO::MacSink::__get_mMac() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IMac, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::IO::MacSink::MacSink(Org::BouncyCastle::Crypto::IMac mac)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<MacSink>(mac))) {}
+ Org::BouncyCastle::Crypto::IO::MacSink Org::BouncyCastle::Crypto::IO::MacSink::New_ctor(Org::BouncyCastle::Crypto::IMac mac)  {
+Org::BouncyCastle::Crypto::IO::MacSink o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::IO::MacSink>(mac))};
+return o;
+}
  void Org::BouncyCastle::Crypto::IO::MacSink::_ctor(Org::BouncyCastle::Crypto::IMac mac)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::IO::MacSink>::get(),

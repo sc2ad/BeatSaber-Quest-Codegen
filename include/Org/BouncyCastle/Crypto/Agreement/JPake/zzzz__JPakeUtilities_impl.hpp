@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeUtilities_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities.GenerateX1
 template<>
 
@@ -787,8 +787,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(nullptr, ___internal_method, value);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities::JPakeUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JPakeUtilities>())) {}
+ Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::JPake::JPakeUtilities>::get(),

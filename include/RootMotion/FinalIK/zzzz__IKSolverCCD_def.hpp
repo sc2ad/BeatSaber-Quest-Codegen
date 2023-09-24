@@ -74,8 +74,7 @@ constexpr RootMotion::FinalIK::RootMotion__FinalIK__IKSolver__IterationDelegate 
 /// @brief Method Solve addr 0x11d7754 size 0x690 virtual false final false
  void Solve(UnityEngine::Vector3 targetPosition) ;
 
-// Ctor Parameters []
-explicit IKSolverCCD() ;
+static RootMotion::FinalIK::IKSolverCCD New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d7de4 size 0x4 virtual false final false
  void _ctor() ;

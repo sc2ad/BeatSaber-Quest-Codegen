@@ -79,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::IKeyUnwrapper, false>(nullptr, ___internal_method, algorithm, parameters);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil::KeyWrapperUtil()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<KeyWrapperUtil>())) {}
+ Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil::New_ctor()  {
+Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil>::get(),

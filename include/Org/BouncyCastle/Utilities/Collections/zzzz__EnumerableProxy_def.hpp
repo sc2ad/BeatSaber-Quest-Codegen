@@ -2,10 +2,10 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -65,8 +65,7 @@ constexpr System::Collections::IEnumerable __get_inner() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inner", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit EnumerableProxy(System::Collections::IEnumerable inner) ;
+static Org::BouncyCastle::Utilities::Collections::EnumerableProxy New_ctor(System::Collections::IEnumerable inner) ;
 
 /// @brief Method .ctor addr 0x10cb9d0 size 0x78 virtual false final false
  void _ctor(System::Collections::IEnumerable inner) ;

@@ -26,6 +26,66 @@ struct HmdQuad_t;
 namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaRect;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetLiveSeatedZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___SetWorkingSeatedZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___ExportLiveToBuffer;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___RevertWorkingCopy;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsTagsInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetWorkingCollisionBoundsInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___SetWorkingPlayAreaSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___ImportFromBufferToWorking;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetWorkingSeatedZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetLivePhysicalBoundsInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaSize;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___CommitWorkingCopy;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetWorkingStandingZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___ReloadFromDisk;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsTagsInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___SetWorkingPhysicalBoundsInfo;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___SetWorkingStandingZeroPoseToRawTrackingPose;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsInfo;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 class OVR__OpenVR__IVRChaperoneSetup___CommitWorkingCopy;
@@ -132,8 +192,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___CommitWorkingCopy(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___CommitWorkingCopy(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___CommitWorkingCopy New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ba08 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -193,8 +252,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___RevertWorkingCopy(void* ptr)
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___RevertWorkingCopy(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___RevertWorkingCopy New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264bb8c size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -254,8 +312,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaSize(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264bc88 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -315,8 +372,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaRect(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaRect(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetWorkingPlayAreaRect New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264be4c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -376,8 +432,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingCollisionBoundsInf
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingCollisionBoundsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetWorkingCollisionBoundsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264bfec size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -437,8 +492,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsInfo(v
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264c198 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -498,8 +552,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingSeatedZeroPoseToRa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingSeatedZeroPoseToRawTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetWorkingSeatedZeroPoseToRawTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264c344 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -559,8 +612,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingStandingZeroPoseTo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetWorkingStandingZeroPoseToRawTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetWorkingStandingZeroPoseToRawTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264c4e4 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -620,8 +672,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingPlayAreaSize(void*
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingPlayAreaSize(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___SetWorkingPlayAreaSize New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264c684 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -681,8 +732,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsInf
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264c800 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -742,8 +792,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingSeatedZeroPoseToRa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingSeatedZeroPoseToRawTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___SetWorkingSeatedZeroPoseToRawTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264c98c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -803,8 +852,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingStandingZeroPoseTo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingStandingZeroPoseToRawTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___SetWorkingStandingZeroPoseToRawTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264cb1c size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -864,8 +912,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___ReloadFromDisk(void* ptr) no
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___ReloadFromDisk(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___ReloadFromDisk New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ccac size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -925,8 +972,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetLiveSeatedZeroPoseToRawTr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetLiveSeatedZeroPoseToRawTrackingPose(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetLiveSeatedZeroPoseToRawTrackingPose New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264ce14 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -986,8 +1032,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsTag
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsTagsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___SetWorkingCollisionBoundsTagsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264cfb4 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1047,8 +1092,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsTagsIn
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsTagsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetLiveCollisionBoundsTagsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264d140 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1108,8 +1152,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingPhysicalBoundsInfo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___SetWorkingPhysicalBoundsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___SetWorkingPhysicalBoundsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264d2ec size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1169,8 +1212,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___GetLivePhysicalBoundsInfo(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___GetLivePhysicalBoundsInfo(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___GetLivePhysicalBoundsInfo New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264d494 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1230,8 +1272,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___ExportLiveToBuffer(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___ExportLiveToBuffer(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___ExportLiveToBuffer New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264d640 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -1291,8 +1332,7 @@ constexpr explicit OVR__OpenVR__IVRChaperoneSetup___ImportFromBufferToWorking(vo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__IVRChaperoneSetup___ImportFromBufferToWorking(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__IVRChaperoneSetup___ImportFromBufferToWorking New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x264d7ec size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

@@ -2,6 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
+namespace System {
+class Type;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
@@ -10,12 +16,6 @@ class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
-}
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
-namespace System {
-class Type;
 }
 namespace System {
 class MarshalByRefObject;
@@ -66,8 +66,7 @@ constexpr explicit SingletonIdentity(void* ptr) noexcept : System::Runtime::Remo
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectUri", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Remoting::Contexts::Context", modifiers: "", def_value: None }, CppParam { name: "objectType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit SingletonIdentity(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;
+static System::Runtime::Remoting::SingletonIdentity New_ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;
 
 /// @brief Method .ctor addr 0x2327944 size 0x30 virtual false final false
  void _ctor(::StringW objectUri, System::Runtime::Remoting::Contexts::Context context, System::Type objectType) ;

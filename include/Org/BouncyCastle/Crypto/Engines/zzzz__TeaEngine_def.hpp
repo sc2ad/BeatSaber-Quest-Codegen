@@ -117,8 +117,7 @@ constexpr bool __get__forEncryption() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TeaEngine() ;
+static Org::BouncyCastle::Crypto::Engines::TeaEngine New_ctor() ;
 
 /// @brief Method .ctor addr 0xe5e264 size 0x1c virtual false final false
  void _ctor() ;

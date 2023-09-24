@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace DataModels::PlayerAvatar {
-class RandomizeAvatarColorMap;
-}
 namespace GlobalNamespace {
 class AvatarData;
+}
+namespace DataModels::PlayerAvatar {
+class RandomizeAvatarColorMap;
 }
 namespace GlobalNamespace {
 class AvatarPartsModel;

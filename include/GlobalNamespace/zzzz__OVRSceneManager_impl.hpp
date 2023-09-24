@@ -6,24 +6,24 @@
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRScenePlane_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSceneManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRScenePrefabOverride_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "GlobalNamespace/zzzz__OVRScenePrefabOverride_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRSceneManager__Classification.get_List
 template<>
 
@@ -91,8 +91,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInfo
 constexpr System::Collections::Generic::List_1<GlobalNamespace::OVRScenePlane> GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation::__get_Walls() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<GlobalNamespace::OVRScenePlane>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation::GlobalNamespace__OVRSceneManager__RoomLayoutInformation()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSceneManager__RoomLayoutInformation>())) {}
+ GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSceneManager__RoomLayoutInformation>::get(),
@@ -452,8 +454,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayCl
 constexpr GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0____ProcessQueryResult_g__EnabledComponents_0_d>::get(),
@@ -584,8 +588,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayCl
 constexpr bool GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0::__get_roomLayoutEnabled() const {
 return ::cordl_internals::getInstanceField<bool, 0x1a>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSceneManager____c__DisplayClass47_0>())) {}
+ GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSceneManager____c__DisplayClass47_0>::get(),
@@ -1327,8 +1333,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, queryResult);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRSceneManager::OVRSceneManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRSceneManager>())) {}
+ GlobalNamespace::OVRSceneManager GlobalNamespace::OVRSceneManager::New_ctor()  {
+GlobalNamespace::OVRSceneManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSceneManager>())};
+return o;
+}
  void GlobalNamespace::OVRSceneManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSceneManager>::get(),

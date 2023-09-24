@@ -87,8 +87,7 @@ constexpr int32_t __get_usage() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
-explicit X509KeyUsage(int32_t usage) ;
+static Org::BouncyCastle::X509::X509KeyUsage New_ctor(int32_t usage) ;
 
 /// @brief Method .ctor addr 0x10f4d10 size 0x28 virtual false final false
  void _ctor(int32_t usage) ;

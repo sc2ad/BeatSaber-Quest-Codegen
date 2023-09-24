@@ -116,8 +116,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaSimpleTypeList::XmlSchemaSimpleTypeList()  : System::Xml::Schema::XmlSchemaSimpleTypeContent(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaSimpleTypeList>())) {}
+ System::Xml::Schema::XmlSchemaSimpleTypeList System::Xml::Schema::XmlSchemaSimpleTypeList::New_ctor()  {
+System::Xml::Schema::XmlSchemaSimpleTypeList o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaSimpleTypeList>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaSimpleTypeList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaSimpleTypeList>::get(),

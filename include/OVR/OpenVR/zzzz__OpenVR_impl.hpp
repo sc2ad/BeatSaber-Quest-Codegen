@@ -1,20 +1,21 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__OpenVR_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRChaperoneSetup_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRSettings_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRApplications_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRInput_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRScreenshots_def.hpp"
 #include "OVR/OpenVR/zzzz__CVRTrackedCamera_def.hpp"
-#include "OVR/OpenVR/zzzz__CVRExtendedDisplay_def.hpp"
 #include "OVR/OpenVR/zzzz__CVRCompositor_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRInput_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSettings_def.hpp"
 #include "OVR/OpenVR/zzzz__CVRChaperone_def.hpp"
-#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRApplications_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRScreenshots_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
 #include "OVR/OpenVR/zzzz__CVRSystem_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRExtendedDisplay_def.hpp"
+#include "OVR/OpenVR/zzzz__CVROverlay_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRRenderModels_def.hpp"
+#include "OVR/OpenVR/zzzz__CVRChaperoneSetup_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRInitError_def.hpp"
+#include "OVR/OpenVR/zzzz__OpenVR_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRApplicationType_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext._ctor
 template<>
 
@@ -365,8 +366,10 @@ constexpr void OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext::__set_m_pVRSpat
 constexpr OVR::OpenVR::CVRSpatialAnchors OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext::__get_m_pVRSpatialAnchors() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::CVRSpatialAnchors, 0x70>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext::OVR__OpenVR__OpenVR__COpenVRContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__OpenVR__COpenVRContext>())) {}
+ OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext::New_ctor()  {
+OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext>())};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__OpenVR__COpenVRContext>::get(),
@@ -1244,8 +1247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- OVR::OpenVR::OpenVR::OpenVR()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OpenVR>())) {}
+ OVR::OpenVR::OpenVR OVR::OpenVR::OpenVR::New_ctor()  {
+OVR::OpenVR::OpenVR o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OpenVR>())};
+return o;
+}
  void OVR::OpenVR::OpenVR::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OpenVR>::get(),

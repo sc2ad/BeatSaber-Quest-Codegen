@@ -7,149 +7,172 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Version;
-}
 namespace System::Net {
-class IWebProxy;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4>
-struct ValueTuple_4;
+struct System__Net__HttpWebRequest__NtlmAuthState;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Net {
-class WebCompletionSource;
-}
-namespace System {
-class Action;
-}
-namespace System::Net {
-class ServerCertValidationCallback;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Net {
-struct HttpStatusCode;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System {
-class AsyncCallback;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net {
-class WebRequestStream;
-}
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Net {
-class HttpWebResponse;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System::Net {
-class BufferOffsetSize;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+class ISerializable;
 }
 namespace System::Net {
 struct DecompressionMethods;
 }
 namespace System::Net {
-class WebException;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace Mono::Net::Security {
-class MobileTlsProvider;
-}
-namespace System {
-template<typename T1,typename T2,typename T3,typename T4,typename T5>
-struct ValueTuple_5;
+template<typename T>
+struct System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1;
 }
 namespace System::Net {
-class WebOperation;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::Net {
-class HttpContinueDelegate;
-}
-namespace Mono::Security::Interface {
-class MonoTlsSettings;
+class WebResponse;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Net {
-class WebResponse;
+class HttpContinueDelegate;
+}
+namespace Mono::Net::Security {
+class MobileTlsProvider;
+}
+namespace System::Net {
+struct System__Net__HttpWebRequest__AuthorizationState;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System::Net {
+class BufferOffsetSize;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System {
+class Version;
+}
+namespace Mono::Security::Interface {
+class MonoTlsSettings;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System {
+class Uri;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Net {
+class ServicePoint;
+}
+namespace System::Net {
+struct System__Net__HttpWebRequest___MyGetResponseAsync_d__243;
+}
+namespace System::Net {
+struct System__Net__HttpWebRequest____GetRewriteHandler_b__271_0_d;
 }
 namespace System::Net {
 class ICredentials;
 }
 namespace System::Net {
-class CookieContainer;
+class WebCompletionSource;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4,typename T5>
+struct ValueTuple_5;
+}
+namespace System {
+class Exception;
 }
 namespace System::Net {
-class WebResponseStream;
+class WebOperation;
 }
 namespace System::Net {
-class ServicePoint;
+class WebHeaderCollection;
+}
+namespace System::Net {
+class WebRequestStream;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
+namespace System::Net {
+class WebException;
+}
+namespace System {
+class Action;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Net {
+struct HttpStatusCode;
+}
+namespace System::Net {
+template<typename T>
+class System__Net__HttpWebRequest____c__241_1;
+}
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
+}
+namespace System::Net {
+class ServerCertValidationCallback;
+}
+namespace System {
+template<typename T1,typename T2,typename T3,typename T4>
+struct ValueTuple_4;
+}
+namespace System::Net {
+class HttpWebResponse;
+}
+namespace System::Net {
+struct System__Net__HttpWebRequest___GetResponseFromData_d__244;
+}
+namespace System::Net {
+class WebResponseStream;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net {
+class CookieContainer;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -170,12 +193,12 @@ namespace System::Net {
 class HttpWebRequest;
 }
 namespace System::Net {
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
 class System__Net__HttpWebRequest____c__241_1<T>;
 }
 namespace System::Net {
-template<>
-class System__Net__HttpWebRequest____c__241_1<int32_t>;
+template<::cordl_internals::il2cpp_reference_type T>
+class System__Net__HttpWebRequest____c__241_1<T>;
 }
 namespace System::Net {
 template<typename T>
@@ -195,8 +218,8 @@ template<::cordl_internals::il2cpp_reference_type T>
 struct System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>;
 }
 namespace System::Net {
-template<>
-struct System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t>;
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+struct System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T>;
 }
 namespace System::Net {
 struct System__Net__HttpWebRequest____GetRewriteHandler_b__271_0_d;
@@ -251,6 +274,8 @@ __Response = 2,
 constexpr operator __System__Net__HttpWebRequest__NtlmAuthState_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__HttpWebRequest__NtlmAuthState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1244,14 +1269,12 @@ static int32_t __declspec(property(get=get_DefaultMaximumResponseHeadersLength))
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit HttpWebRequest(System::Uri uri) ;
+static System::Net::HttpWebRequest New_ctor(System::Uri uri) ;
 
 /// @brief Method .ctor addr 0x2839158 size 0x1a8 virtual false final false
  void _ctor(System::Uri uri) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit HttpWebRequest(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Net::HttpWebRequest New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x28395bc size 0x138 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
@@ -1527,11 +1550,81 @@ template<typename T>
 /// @brief Method <GetRewriteHandler>b__271_0 addr 0x283d640 size 0xec virtual false final false
  System::Threading::Tasks::Task_1<System::Net::BufferOffsetSize> _GetRewriteHandler_b__271_0() ;
 
-// Ctor Parameters []
-explicit HttpWebRequest() ;
+static System::Net::HttpWebRequest New_ctor() ;
 
 /// @brief Method .ctor addr 0x283d72c size 0x38 virtual false final false
  void _ctor() ;
+
+static constexpr bool __CORDL_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace end def System::Net
+// Type: ::<>c__241`1
+namespace System::Net {
+// cpp template
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
+// Is value type: false
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8032))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8032), inst: 92 })
+// CS Name: System.Net.HttpWebRequest::<>c__241`1
+class CORDL_TYPE System__Net__HttpWebRequest____c__241_1<T> : public ::bs_hook::Il2CppWrapperType {
+public:
+// Declarations
+/// @brief The size of the true reference type
+static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
+
+virtual ~System__Net__HttpWebRequest____c__241_1() = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__HttpWebRequest____c__241_1", modifiers: " const&", def_value: None }]
+constexpr System__Net__HttpWebRequest____c__241_1(System__Net__HttpWebRequest____c__241_1 const& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__HttpWebRequest____c__241_1", modifiers: "&&", def_value: None }]
+constexpr System__Net__HttpWebRequest____c__241_1(System__Net__HttpWebRequest____c__241_1&& ) noexcept = default;
+
+// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
+constexpr explicit System__Net__HttpWebRequest____c__241_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+}
+
+
+  constexpr System__Net__HttpWebRequest____c__241_1& operator=(std::nullptr_t) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
+    return *this;
+  };
+
+  constexpr System__Net__HttpWebRequest____c__241_1& operator=(void* o) noexcept {
+    this->::bs_hook::Il2CppWrapperType::instance = o;
+    return *this;
+  };
+
+  constexpr System__Net__HttpWebRequest____c__241_1& operator=(System__Net__HttpWebRequest____c__241_1&& o) noexcept = default;
+  constexpr System__Net__HttpWebRequest____c__241_1& operator=(System__Net__HttpWebRequest____c__241_1 const& o) noexcept = default;
+                
+
+
+// Fields
+
+static System::Net::System__Net__HttpWebRequest____c__241_1<T> __declspec(property(get=__get___9, put=__set___9))  __9;
+
+static void __set___9(System::Net::System__Net__HttpWebRequest____c__241_1<T> value) ;
+
+static System::Net::System__Net__HttpWebRequest____c__241_1<T> __get___9() ;
+
+static System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> __declspec(property(get=__get___9__241_0, put=__set___9__241_0))  __9__241_0;
+
+static void __set___9__241_0(System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> value) ;
+
+static System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int32_t>> __get___9__241_0() ;
+
+
+// Methods
+
+static System::Net::System__Net__HttpWebRequest____c__241_1<T> New_ctor() ;
+
+/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+ void _ctor() ;
+
+/// @brief Method <RunWithTimeoutWorker>b__241_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+ System::Nullable_1<int32_t> _RunWithTimeoutWorker_b__241_0(System::Threading::Tasks::Task_1<T> t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -1596,8 +1689,7 @@ static System::Func_2<System::Threading::Tasks::Task_1<T>,System::Nullable_1<int
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__HttpWebRequest____c__241_1() ;
+static System::Net::System__Net__HttpWebRequest____c__241_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -1609,85 +1701,13 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-// Type: ::<>c__241`1
-namespace System::Net {
-// cpp template
-template<>
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8032))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8032), inst: 92 })
-// CS Name: System.Net.HttpWebRequest::<>c__241`1
-class CORDL_TYPE System__Net__HttpWebRequest____c__241_1<int32_t> : public ::bs_hook::Il2CppWrapperType {
-public:
-// Declarations
-/// @brief The size of the true reference type
-static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
-
-virtual ~System__Net__HttpWebRequest____c__241_1() = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Net__HttpWebRequest____c__241_1", modifiers: " const&", def_value: None }]
-constexpr System__Net__HttpWebRequest____c__241_1(System__Net__HttpWebRequest____c__241_1 const& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "", ty: "System__Net__HttpWebRequest____c__241_1", modifiers: "&&", def_value: None }]
-constexpr System__Net__HttpWebRequest____c__241_1(System__Net__HttpWebRequest____c__241_1&& ) noexcept = default;
-
-// Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit System__Net__HttpWebRequest____c__241_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
-}
-
-
-  constexpr System__Net__HttpWebRequest____c__241_1& operator=(std::nullptr_t) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = nullptr;
-    return *this;
-  };
-
-  constexpr System__Net__HttpWebRequest____c__241_1& operator=(void* o) noexcept {
-    this->::bs_hook::Il2CppWrapperType::instance = o;
-    return *this;
-  };
-
-  constexpr System__Net__HttpWebRequest____c__241_1& operator=(System__Net__HttpWebRequest____c__241_1&& o) noexcept = default;
-  constexpr System__Net__HttpWebRequest____c__241_1& operator=(System__Net__HttpWebRequest____c__241_1 const& o) noexcept = default;
-                
-
-
-// Fields
-
-static System::Net::System__Net__HttpWebRequest____c__241_1<int32_t> __declspec(property(get=__get___9, put=__set___9))  __9;
-
-static void __set___9(System::Net::System__Net__HttpWebRequest____c__241_1<int32_t> value) ;
-
-static System::Net::System__Net__HttpWebRequest____c__241_1<int32_t> __get___9() ;
-
-static System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>> __declspec(property(get=__get___9__241_0, put=__set___9__241_0))  __9__241_0;
-
-static void __set___9__241_0(System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>> value) ;
-
-static System::Func_2<System::Threading::Tasks::Task_1<int32_t>,System::Nullable_1<int32_t>> __get___9__241_0() ;
-
-
-// Methods
-
-// Ctor Parameters []
-explicit System__Net__HttpWebRequest____c__241_1() ;
-
-/// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor() ;
-
-/// @brief Method <RunWithTimeoutWorker>b__241_0 addr 0x0 size 0xffffffffffffffff virtual false final false
- System::Nullable_1<int32_t> _RunWithTimeoutWorker_b__241_0(System::Threading::Tasks::Task_1<int32_t> t) ;
-
-static constexpr bool __CORDL_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace end def System::Net
 // Type: ::<RunWithTimeoutWorker>d__241`1
 namespace System::Net {
 // cpp template
-template<::cordl_internals::il2cpp_reference_type T>
+template<::cordl_internals::is_or_is_backed_by<int32_t> T>
 // Is value type: true
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8033)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8033), inst: 2 })
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8033), inst: 92 })
 // CS Name: System.Net.HttpWebRequest::<RunWithTimeoutWorker>d__241`1
 struct CORDL_TYPE System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
@@ -1793,19 +1813,19 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: ::<RunWithTimeoutWorker>d__241`1
 namespace System::Net {
 // cpp template
-template<>
+template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8033)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
-// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8033), inst: 92 })
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(8033))}
+// Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8033), inst: 2 })
 // CS Name: System.Net.HttpWebRequest::<RunWithTimeoutWorker>d__241`1
-struct CORDL_TYPE System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<int32_t> : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1<T> : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 /// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
 constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "workerTask", ty: "System::Threading::Tasks::Task_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cts", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: None }, CppParam { name: "abort", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "aborted", ty: "System::Func_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
-constexpr System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, System::Threading::Tasks::Task_1<int32_t> workerTask, int32_t timeout, System::Threading::CancellationTokenSource cts, System::Action abort, System::Func_1<bool> aborted, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "workerTask", ty: "System::Threading::Tasks::Task_1<T>", modifiers: "", def_value: None }, CppParam { name: "timeout", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cts", ty: "System::Threading::CancellationTokenSource", modifiers: "", def_value: None }, CppParam { name: "abort", ty: "System::Action", modifiers: "", def_value: None }, CppParam { name: "aborted", ty: "System::Func_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+constexpr System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, System::Threading::Tasks::Task_1<T> workerTask, int32_t timeout, System::Threading::CancellationTokenSource cts, System::Action abort, System::Func_1<bool> aborted, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
 
                     constexpr System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1(System__Net__HttpWebRequest___RunWithTimeoutWorker_d__241_1 const&) = default;
@@ -1844,17 +1864,17 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> value) ;
 
-constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __get___t__builder() const;
 
- System::Threading::Tasks::Task_1<int32_t> __declspec(property(get=__get_workerTask, put=__set_workerTask))  workerTask;
+ System::Threading::Tasks::Task_1<T> __declspec(property(get=__get_workerTask, put=__set_workerTask))  workerTask;
 
-constexpr void __set_workerTask(System::Threading::Tasks::Task_1<int32_t> value) ;
+constexpr void __set_workerTask(System::Threading::Tasks::Task_1<T> value) ;
 
-constexpr System::Threading::Tasks::Task_1<int32_t> __get_workerTask() const;
+constexpr System::Threading::Tasks::Task_1<T> __get_workerTask() const;
 
  int32_t __declspec(property(get=__get_timeout, put=__set_timeout))  timeout;
 

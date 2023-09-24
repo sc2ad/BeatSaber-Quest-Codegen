@@ -3,6 +3,7 @@
 #include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
 #include "HMUI/zzzz__IValueChanger_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair.get_localizedText
 template<>
 
@@ -58,8 +59,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair::GlobalNamespace__NamedIntListController__TextValuePair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__NamedIntListController__TextValuePair>())) {}
+ GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__NamedIntListController__TextValuePair>::get(),
@@ -290,8 +293,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::NamedIntListController::NamedIntListController()  : GlobalNamespace::ListSettingsController(THROW_UNLESS(::il2cpp_utils::New<NamedIntListController>())) {}
+ GlobalNamespace::NamedIntListController GlobalNamespace::NamedIntListController::New_ctor()  {
+GlobalNamespace::NamedIntListController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NamedIntListController>())};
+return o;
+}
  void GlobalNamespace::NamedIntListController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NamedIntListController>::get(),

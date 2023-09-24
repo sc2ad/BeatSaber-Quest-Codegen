@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainPolicy_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainElementCollection_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Chain.get_Impl
 template<>
@@ -263,8 +263,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Security::Cryptography::X509Certificates::X509ChainImpl, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Security::Cryptography::X509Certificates::X509Chain::X509Chain()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Chain>())) {}
+ System::Security::Cryptography::X509Certificates::X509Chain System::Security::Cryptography::X509Certificates::X509Chain::New_ctor()  {
+System::Security::Cryptography::X509Certificates::X509Chain o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Chain>())};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Chain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Chain>::get(),
@@ -274,8 +276,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "useMachineContext", ty: "bool", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Chain::X509Chain(bool useMachineContext)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Chain>(useMachineContext))) {}
+ System::Security::Cryptography::X509Certificates::X509Chain System::Security::Cryptography::X509Certificates::X509Chain::New_ctor(bool useMachineContext)  {
+System::Security::Cryptography::X509Certificates::X509Chain o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Chain>(useMachineContext))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Chain::_ctor(bool useMachineContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Chain>::get(),
@@ -285,8 +289,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, useMachineContext);
 }
-// Ctor Parameters [CppParam { name: "impl", ty: "System::Security::Cryptography::X509Certificates::X509ChainImpl", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Chain::X509Chain(System::Security::Cryptography::X509Certificates::X509ChainImpl impl)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Chain>(impl))) {}
+ System::Security::Cryptography::X509Certificates::X509Chain System::Security::Cryptography::X509Certificates::X509Chain::New_ctor(System::Security::Cryptography::X509Certificates::X509ChainImpl impl)  {
+System::Security::Cryptography::X509Certificates::X509Chain o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Chain>(impl))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Chain::_ctor(System::Security::Cryptography::X509Certificates::X509ChainImpl impl)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Chain>::get(),
@@ -296,8 +302,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, impl);
 }
-// Ctor Parameters [CppParam { name: "chainContext", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Chain::X509Chain(::cordl_internals::intptr_t chainContext)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Chain>(chainContext))) {}
+ System::Security::Cryptography::X509Certificates::X509Chain System::Security::Cryptography::X509Certificates::X509Chain::New_ctor(::cordl_internals::intptr_t chainContext)  {
+System::Security::Cryptography::X509Certificates::X509Chain o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Chain>(chainContext))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Chain::_ctor(::cordl_internals::intptr_t chainContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Chain>::get(),

@@ -2,13 +2,13 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Mono::Security::X509 {
+class X509Certificate;
+}
+namespace Mono::Security::X509 {
 struct X509ChainStatusFlags;
 }
 namespace Mono::Security::X509 {
 class X509CertificateCollection;
-}
-namespace Mono::Security::X509 {
-class X509Certificate;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -94,8 +94,7 @@ constexpr Mono::Security::X509::X509ChainStatusFlags __get__status() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509Chain() ;
+static Mono::Security::X509::X509Chain New_ctor() ;
 
 /// @brief Method .ctor addr 0x228e864 size 0x6c virtual false final false
  void _ctor() ;

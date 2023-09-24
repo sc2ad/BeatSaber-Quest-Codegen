@@ -285,8 +285,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, skip, needFileInfo, method, iloffset, native_offset, file, line, column);
 }
-// Ctor Parameters []
- System::Diagnostics::StackFrame::StackFrame()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackFrame>())) {}
+ System::Diagnostics::StackFrame System::Diagnostics::StackFrame::New_ctor()  {
+System::Diagnostics::StackFrame o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackFrame>())};
+return o;
+}
  void System::Diagnostics::StackFrame::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackFrame>::get(),
@@ -296,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "skipFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fNeedFileInfo", ty: "bool", modifiers: "", def_value: None }]
- System::Diagnostics::StackFrame::StackFrame(int32_t skipFrames, bool fNeedFileInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackFrame>(skipFrames, fNeedFileInfo))) {}
+ System::Diagnostics::StackFrame System::Diagnostics::StackFrame::New_ctor(int32_t skipFrames, bool fNeedFileInfo)  {
+System::Diagnostics::StackFrame o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::StackFrame>(skipFrames, fNeedFileInfo))};
+return o;
+}
  void System::Diagnostics::StackFrame::_ctor(int32_t skipFrames, bool fNeedFileInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::StackFrame>::get(),

@@ -4,37 +4,37 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class ILobbyStateDataModel;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -191,8 +191,7 @@ constexpr System::Action_1<GlobalNamespace::IConnectedPlayer> __get_playerDiscon
 /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected addr 0x21fe6d4 size 0x120 virtual false final false
  void HandleMultiplayerSessionManagerPlayerDisconnected(GlobalNamespace::IConnectedPlayer player) ;
 
-// Ctor Parameters []
-explicit LobbyStateDataModel() ;
+static GlobalNamespace::LobbyStateDataModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x21fe7f4 size 0x8 virtual false final false
  void _ctor() ;

@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class Material;
+class Camera;
 }
 namespace UnityEngine {
-class Camera;
+class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -108,8 +108,7 @@ static int32_t __get__cubePropertyId() ;
 /// @brief Method Update addr 0x219bff4 size 0x210 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit CubemapTest() ;
+static GlobalNamespace::CubemapTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x219c204 size 0x8 virtual false final false
  void _ctor() ;

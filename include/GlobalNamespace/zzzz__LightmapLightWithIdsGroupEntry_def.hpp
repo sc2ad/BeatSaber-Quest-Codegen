@@ -10,6 +10,15 @@ namespace GlobalNamespace {
 class LightGroupSO;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightsWeighting;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId;
+}
+namespace GlobalNamespace {
 class LightmapLightWithIds;
 }
 // Forward declare root types
@@ -74,6 +83,8 @@ __LinearFraction = 1,
 constexpr operator __GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -175,8 +186,7 @@ constexpr float_t __get__groupProbeHighlightsIntensityMultiplier() const;
 /// @brief Method get_groupProbeHighlightsIntensityMultiplier addr 0x1f9d868 size 0x8 virtual false final false
  float_t get_groupProbeHighlightsIntensityMultiplier() ;
 
-// Ctor Parameters [CppParam { name: "lightGroup", ty: "GlobalNamespace::LightGroupSO", modifiers: "", def_value: None }, CppParam { name: "groupIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupProbeHighlightsIntensityMultiplier", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData(GlobalNamespace::LightGroupSO lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier) ;
+static GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__GroupLightData New_ctor(GlobalNamespace::LightGroupSO lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier) ;
 
 /// @brief Method .ctor addr 0x1f9d870 size 0x3c virtual false final false
  void _ctor(GlobalNamespace::LightGroupSO lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier) ;
@@ -266,8 +276,7 @@ constexpr float_t __get__probeHighlightsIntensityMultiplier() const;
 /// @brief Method get_probeHighlightsIntensityMultiplier addr 0x1f9d8bc size 0x8 virtual false final false
  float_t get_probeHighlightsIntensityMultiplier() ;
 
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "intensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "probeHighlightsIntensityMultiplier", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier) ;
+static GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId New_ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier) ;
 
 /// @brief Method .ctor addr 0x1f9d8c4 size 0x44 virtual false final false
  void _ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier) ;
@@ -365,8 +374,7 @@ constexpr GlobalNamespace::GlobalNamespace__LightmapLightWithIdsGroupEntry__Grou
 /// @brief Method get_lightmapLightWithIds addr 0x1f9d848 size 0x8 virtual false final false
  GlobalNamespace::LightmapLightWithIds get_lightmapLightWithIds() ;
 
-// Ctor Parameters []
-explicit LightmapLightWithIdsGroupEntry() ;
+static GlobalNamespace::LightmapLightWithIdsGroupEntry New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9d850 size 0x8 virtual false final false
  void _ctor() ;

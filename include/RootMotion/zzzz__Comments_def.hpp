@@ -57,8 +57,7 @@ constexpr ::StringW __get_text() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Comments() ;
+static RootMotion::Comments New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b2a48 size 0x8 virtual false final false
  void _ctor() ;

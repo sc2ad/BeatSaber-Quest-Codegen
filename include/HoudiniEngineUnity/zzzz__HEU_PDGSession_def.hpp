@@ -7,32 +7,35 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_TOPNodeData;
+class HEU_TOPNetworkData;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PDG_EventInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_PDGAssetLink;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HoudiniEngineUnity {
-struct HAPI_PDG_EventInfo;
-}
 namespace System::Text {
 class StringBuilder;
-}
-namespace HoudiniEngineUnity {
-class HEU_PDGAssetLink;
-}
-namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__HEU_TOPNodeData__PDGState;
-}
-namespace HoudiniEngineUnity {
-class HEU_TOPNetworkData;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_PDGSession__EventMessageColor;
+}
+namespace HoudiniEngineUnity {
 struct HAPI_PDG_State;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_TOPNodeData__PDGState;
+}
+namespace HoudiniEngineUnity {
+class HEU_TOPNodeData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -91,6 +94,8 @@ __ERROR = 2,
 constexpr operator __HoudiniEngineUnity__HEU_PDGSession__EventMessageColor_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_PDGSession__EventMessageColor_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -230,8 +235,7 @@ constexpr ::ArrayW<::StringW> __get__eventMessageColorCode() const;
 /// @brief Method GetPDGSession addr 0x2027c4c size 0x7c virtual false final false
 static HoudiniEngineUnity::HEU_PDGSession GetPDGSession() ;
 
-// Ctor Parameters []
-explicit HEU_PDGSession() ;
+static HoudiniEngineUnity::HEU_PDGSession New_ctor() ;
 
 /// @brief Method .ctor addr 0x202b2b4 size 0x1b4 virtual false final false
  void _ctor() ;

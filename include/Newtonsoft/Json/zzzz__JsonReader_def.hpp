@@ -6,52 +6,55 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace Newtonsoft::Json {
-struct JsonToken;
-}
-namespace Newtonsoft::Json {
-struct DateParseHandling;
-}
-namespace Newtonsoft::Json {
-class JsonReaderException;
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace Newtonsoft::Json {
 struct JsonPosition;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-struct DateTimeOffset;
-}
-namespace Newtonsoft::Json {
-struct JsonContainerType;
-}
-namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Newtonsoft::Json {
+struct Newtonsoft__Json__JsonReader__State;
+}
+namespace Newtonsoft::Json {
+struct DateParseHandling;
+}
+namespace Newtonsoft::Json {
+struct JsonContainerType;
+}
 namespace System {
-struct Decimal;
+class IDisposable;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct DateTime;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
 }
 namespace Newtonsoft::Json {
 struct FloatParseHandling;
 }
 namespace System {
-class Type;
+template<typename T>
+struct Nullable_1;
+}
+namespace System {
+struct Decimal;
+}
+namespace Newtonsoft::Json {
+class JsonReaderException;
+}
+namespace System {
+struct DateTimeOffset;
+}
+namespace Newtonsoft::Json {
+struct JsonToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -120,6 +123,8 @@ __Finished = 12,
 constexpr operator __Newtonsoft__Json__JsonReader__State_Unwrapped () const noexcept {
 return std::bit_cast<__Newtonsoft__Json__JsonReader__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -421,8 +426,7 @@ constexpr bool __get__SupportMultipleContent_k__BackingField() const;
 /// @brief Method GetPosition addr 0x24d3960 size 0xa4 virtual false final false
  Newtonsoft::Json::JsonPosition GetPosition(int32_t depth) ;
 
-// Ctor Parameters []
-explicit JsonReader() ;
+static Newtonsoft::Json::JsonReader New_ctor() ;
 
 /// @brief Method .ctor addr 0x24c98e8 size 0x38 virtual false final false
  void _ctor() ;

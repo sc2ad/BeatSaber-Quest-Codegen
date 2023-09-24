@@ -8,6 +8,9 @@
 namespace System {
 class FormattableString;
 }
+namespace System::Runtime::CompilerServices {
+class System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString;
+}
 namespace System {
 class IFormatProvider;
 }
@@ -82,8 +85,7 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__arguments() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
+static System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString New_ctor(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
 
 /// @brief Method .ctor addr 0x236e02c size 0x2c virtual false final false
  void _ctor(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;

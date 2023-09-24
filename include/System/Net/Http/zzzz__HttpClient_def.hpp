@@ -4,27 +4,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net::Http {
+class HttpMessageHandler;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Net::Http {
+struct HttpCompletionOption;
+}
+namespace System::Net::Http {
+struct System__Net__Http__HttpClient___GetStringAsync_d__53;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Net::Http {
-struct HttpCompletionOption;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net::Http {
 class HttpRequestMessage;
-}
-namespace System::Net::Http {
-class HttpMessageHandler;
 }
 namespace System::Net::Http::Headers {
 class HttpRequestHeaders;
 }
-namespace System::Threading {
-class CancellationTokenSource;
+namespace System::Net::Http {
+struct System__Net__Http__HttpClient___SendAsyncWorker_d__47;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
@@ -33,18 +39,18 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-struct TimeSpan;
+class Uri;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
@@ -377,14 +383,12 @@ constexpr System::TimeSpan __get_timeout() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpClient() ;
+static System::Net::Http::HttpClient New_ctor() ;
 
 /// @brief Method .ctor addr 0x269f284 size 0x64 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "handler", ty: "System::Net::Http::HttpMessageHandler", modifiers: "", def_value: None }, CppParam { name: "disposeHandler", ty: "bool", modifiers: "", def_value: None }]
-explicit HttpClient(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
+static System::Net::Http::HttpClient New_ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;
 
 /// @brief Method .ctor addr 0x269f2e8 size 0xbc virtual false final false
  void _ctor(System::Net::Http::HttpMessageHandler handler, bool disposeHandler) ;

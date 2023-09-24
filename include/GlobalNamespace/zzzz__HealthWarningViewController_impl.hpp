@@ -1,15 +1,16 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningViewController_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SafeAreaRectChecker_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15._ctor
 template<>
 
@@ -142,8 +143,10 @@ constexpr void GlobalNamespace::GlobalNamespace__HealthWarningViewController___D
 constexpr GlobalNamespace::HealthWarningViewController GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::HealthWarningViewController, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15 GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__HealthWarningViewController___DismissHealthAndSafety_d__15>::get(),
@@ -448,8 +451,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HealthWarningViewController::HealthWarningViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<HealthWarningViewController>())) {}
+ GlobalNamespace::HealthWarningViewController GlobalNamespace::HealthWarningViewController::New_ctor()  {
+GlobalNamespace::HealthWarningViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HealthWarningViewController>())};
+return o;
+}
  void GlobalNamespace::HealthWarningViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HealthWarningViewController>::get(),

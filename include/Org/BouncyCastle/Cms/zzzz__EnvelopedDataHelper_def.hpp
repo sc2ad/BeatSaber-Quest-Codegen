@@ -1,23 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
+}
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
@@ -92,8 +92,7 @@ static ::bs_hook::Il2CppWrapperType CreateContentCipher(bool forEncryption, Org:
 /// @brief Method CreateKeyGenerator addr 0x1176698 size 0x10 virtual false final false
  Org::BouncyCastle::Crypto::CipherKeyGenerator CreateKeyGenerator(Org::BouncyCastle::Asn1::DerObjectIdentifier algorithm, Org::BouncyCastle::Security::SecureRandom random) ;
 
-// Ctor Parameters []
-explicit EnvelopedDataHelper() ;
+static Org::BouncyCastle::Cms::EnvelopedDataHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x11766a8 size 0x8 virtual false final false
  void _ctor() ;

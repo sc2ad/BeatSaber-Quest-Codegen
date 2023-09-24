@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class ISaveData;
-}
-namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class LocalLeaderboardsModel;
+class ISaveData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class LocalLeaderboardsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr GlobalNamespace::ISaveData __get__saveData() const;
 /// @brief Method HandlePlatformHelperDidGoToBackgroundExecution addr 0x221c268 size 0x48 virtual false final false
  void HandlePlatformHelperDidGoToBackgroundExecution() ;
 
-// Ctor Parameters []
-explicit SonyOnGoingToBackgroundSaveHandler() ;
+static GlobalNamespace::SonyOnGoingToBackgroundSaveHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a6ec size 0x8 virtual false final false
  void _ctor() ;

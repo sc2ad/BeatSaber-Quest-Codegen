@@ -1,23 +1,26 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class DistributionPoint;
+namespace System {
+struct DateTime;
 }
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathValidatorResult;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::Pkix {
-class CertStatus;
+class PkixParameters;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509AttributeCertificate;
 }
 namespace Org::BouncyCastle::Pkix {
-class PkixCertPathValidatorResult;
+class CertStatus;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
@@ -25,11 +28,8 @@ class PkixCertPath;
 namespace Org::BouncyCastle::Pkix {
 class ReasonsMask;
 }
-namespace Org::BouncyCastle::X509 {
-class IX509AttributeCertificate;
-}
-namespace System {
-struct DateTime;
+namespace Org::BouncyCastle::Asn1::X509 {
+class DistributionPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -104,8 +104,7 @@ static Org::BouncyCastle::Pkix::PkixCertPath ProcessAttrCert1(Org::BouncyCastle:
 /// @brief Method CheckCrl addr 0x108ed78 size 0x800 virtual false final false
 static void CheckCrl(Org::BouncyCastle::Asn1::X509::DistributionPoint dp, Org::BouncyCastle::X509::IX509AttributeCertificate attrCert, Org::BouncyCastle::Pkix::PkixParameters paramsPKIX, System::DateTime validDate, Org::BouncyCastle::X509::X509Certificate issuerCert, Org::BouncyCastle::Pkix::CertStatus certStatus, Org::BouncyCastle::Pkix::ReasonsMask reasonMask, System::Collections::IList certPathCerts) ;
 
-// Ctor Parameters []
-explicit Rfc3281CertPathUtilities() ;
+static Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1091224 size 0x8 virtual false final false
  void _ctor() ;

@@ -6,29 +6,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-struct DateTime;
-}
 namespace UnityEngine {
 struct Matrix4x4;
 }
-namespace UnityEngine {
-class GUIStyle;
-}
-namespace UnityEngine {
-class GUISkin;
+namespace UnityEngineInternal {
+class GenericStack;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-class GUIContent;
-}
-namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngineInternal {
-class GenericStack;
+namespace UnityEngine {
+class GUISkin;
+}
+namespace System {
+struct DateTime;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace UnityEngine {
+class UnityEngine__GUI__WindowFunction;
+}
+namespace UnityEngine {
+class GUIContent;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -79,8 +82,7 @@ constexpr explicit UnityEngine__GUI__WindowFunction(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__GUI__WindowFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__GUI__WindowFunction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b85f70 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

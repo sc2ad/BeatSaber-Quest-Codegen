@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Threading {
+class System__Threading__SpinLock__SystemThreading_SpinLockDebugView;
+}
 // Forward declare root types
 namespace System::Threading {
 class System__Threading__SpinLock__SystemThreading_SpinLockDebugView;

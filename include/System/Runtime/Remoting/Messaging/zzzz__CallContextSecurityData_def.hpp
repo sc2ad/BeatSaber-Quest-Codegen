@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Security::Principal {
-class IPrincipal;
-}
 namespace System {
 class ICloneable;
+}
+namespace System::Security::Principal {
+class IPrincipal;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -76,8 +76,7 @@ constexpr System::Security::Principal::IPrincipal __get__principal() const;
 /// @brief Method Clone addr 0x233b164 size 0x68 virtual true final true
  ::bs_hook::Il2CppWrapperType Clone() ;
 
-// Ctor Parameters []
-explicit CallContextSecurityData() ;
+static System::Runtime::Remoting::Messaging::CallContextSecurityData New_ctor() ;
 
 /// @brief Method .ctor addr 0x233b338 size 0x8 virtual false final false
  void _ctor() ;

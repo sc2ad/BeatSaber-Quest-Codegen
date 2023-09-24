@@ -10,6 +10,9 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace UnityEngine::InputSystem::Utilities {
+class UnityEngine__InputSystem__Utilities__TypeTable____c;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -85,8 +88,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::InternedString,::Stri
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__TypeTable____c() ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__TypeTable____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c8120 size 0x8 virtual false final false
  void _ctor() ;

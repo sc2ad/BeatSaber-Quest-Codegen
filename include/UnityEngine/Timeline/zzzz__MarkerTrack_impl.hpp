@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::MarkerTrack::MarkerTrack()  : UnityEngine::Timeline::TrackAsset(THROW_UNLESS(::il2cpp_utils::New<MarkerTrack>())) {}
+ UnityEngine::Timeline::MarkerTrack UnityEngine::Timeline::MarkerTrack::New_ctor()  {
+UnityEngine::Timeline::MarkerTrack o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::MarkerTrack>())};
+return o;
+}
  void UnityEngine::Timeline::MarkerTrack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::MarkerTrack>::get(),

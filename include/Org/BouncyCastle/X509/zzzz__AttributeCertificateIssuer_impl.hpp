@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/X509/zzzz__AttributeCertificateIssuer_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttCertIssuer_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralNames_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::X509::AttributeCertificateIssuer._ctor
 template<>
 
@@ -191,8 +191,10 @@ constexpr void Org::BouncyCastle::X509::AttributeCertificateIssuer::__set_form(O
 constexpr Org::BouncyCastle::Asn1::Asn1Encodable Org::BouncyCastle::X509::AttributeCertificateIssuer::__get_form() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1Encodable, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "issuer", ty: "Org::BouncyCastle::Asn1::X509::AttCertIssuer", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateIssuer::AttributeCertificateIssuer(Org::BouncyCastle::Asn1::X509::AttCertIssuer issuer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateIssuer>(issuer))) {}
+ Org::BouncyCastle::X509::AttributeCertificateIssuer Org::BouncyCastle::X509::AttributeCertificateIssuer::New_ctor(Org::BouncyCastle::Asn1::X509::AttCertIssuer issuer)  {
+Org::BouncyCastle::X509::AttributeCertificateIssuer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateIssuer>(issuer))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateIssuer::_ctor(Org::BouncyCastle::Asn1::X509::AttCertIssuer issuer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateIssuer>::get(),
@@ -202,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, issuer);
 }
-// Ctor Parameters [CppParam { name: "principal", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
- Org::BouncyCastle::X509::AttributeCertificateIssuer::AttributeCertificateIssuer(Org::BouncyCastle::Asn1::X509::X509Name principal)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AttributeCertificateIssuer>(principal))) {}
+ Org::BouncyCastle::X509::AttributeCertificateIssuer Org::BouncyCastle::X509::AttributeCertificateIssuer::New_ctor(Org::BouncyCastle::Asn1::X509::X509Name principal)  {
+Org::BouncyCastle::X509::AttributeCertificateIssuer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::X509::AttributeCertificateIssuer>(principal))};
+return o;
+}
  void Org::BouncyCastle::X509::AttributeCertificateIssuer::_ctor(Org::BouncyCastle::Asn1::X509::X509Name principal)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::X509::AttributeCertificateIssuer>::get(),

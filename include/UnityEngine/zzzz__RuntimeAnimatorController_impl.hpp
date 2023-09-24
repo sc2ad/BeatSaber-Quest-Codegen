@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::RuntimeAnimatorController::RuntimeAnimatorController()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<RuntimeAnimatorController>())) {}
+ UnityEngine::RuntimeAnimatorController UnityEngine::RuntimeAnimatorController::New_ctor()  {
+UnityEngine::RuntimeAnimatorController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RuntimeAnimatorController>())};
+return o;
+}
  void UnityEngine::RuntimeAnimatorController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RuntimeAnimatorController>::get(),

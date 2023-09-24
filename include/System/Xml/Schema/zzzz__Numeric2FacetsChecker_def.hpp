@@ -9,11 +9,11 @@ class XmlSchemaDatatype;
 namespace System::Xml::Schema {
 class XmlValueConverter;
 }
-namespace System::Collections {
-class ArrayList;
-}
 namespace System {
 class Exception;
+}
+namespace System::Collections {
+class ArrayList;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -76,8 +76,7 @@ constexpr explicit Numeric2FacetsChecker(void* ptr) noexcept : System::Xml::Sche
 /// @brief Method MatchEnumeration addr 0x272e19c size 0xb8 virtual false final false
  bool MatchEnumeration(double_t value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlValueConverter valueConverter) ;
 
-// Ctor Parameters []
-explicit Numeric2FacetsChecker() ;
+static System::Xml::Schema::Numeric2FacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272e2dc size 0x8 virtual false final false
  void _ctor() ;

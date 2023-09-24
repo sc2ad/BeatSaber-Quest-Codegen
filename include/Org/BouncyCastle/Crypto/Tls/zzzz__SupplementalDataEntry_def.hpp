@@ -71,8 +71,7 @@ constexpr ::ArrayW<uint8_t> __get_mData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dataType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SupplementalDataEntry(int32_t dataType, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry New_ctor(int32_t dataType, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0xf0b6a0 size 0x30 virtual false final false
  void _ctor(int32_t dataType, ::ArrayW<uint8_t> data) ;

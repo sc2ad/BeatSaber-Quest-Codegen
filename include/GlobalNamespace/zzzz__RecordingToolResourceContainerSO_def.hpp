@@ -1,18 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class BeatmapLevelPackCollectionSO;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+class BeatmapLevelPackCollectionSO;
+}
+namespace GlobalNamespace {
 class EnvironmentsListSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -103,8 +103,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::IBeatmapLevelPac
 /// @brief Method OnEnable addr 0x21abfa8 size 0xcc virtual true final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit RecordingToolResourceContainerSO() ;
+static GlobalNamespace::RecordingToolResourceContainerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ac074 size 0x8 virtual false final false
  void _ctor() ;

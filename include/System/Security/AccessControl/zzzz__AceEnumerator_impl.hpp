@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__AceEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
+#include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::AceEnumerator._ctor
 template<>
 
@@ -104,8 +104,10 @@ constexpr void System::Security::AccessControl::AceEnumerator::__set_current(int
 constexpr int32_t System::Security::AccessControl::AceEnumerator::__get_current() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "owner", ty: "System::Security::AccessControl::GenericAcl", modifiers: "", def_value: None }]
- System::Security::AccessControl::AceEnumerator::AceEnumerator(System::Security::AccessControl::GenericAcl owner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AceEnumerator>(owner))) {}
+ System::Security::AccessControl::AceEnumerator System::Security::AccessControl::AceEnumerator::New_ctor(System::Security::AccessControl::GenericAcl owner)  {
+System::Security::AccessControl::AceEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::AceEnumerator>(owner))};
+return o;
+}
  void System::Security::AccessControl::AceEnumerator::_ctor(System::Security::AccessControl::GenericAcl owner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::AceEnumerator>::get(),

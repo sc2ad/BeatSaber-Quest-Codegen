@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
@@ -91,8 +91,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1TaggedObjectParser __get__encryptedConten
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
-explicit EncryptedContentInfoParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
+static Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
 
 /// @brief Method .ctor addr 0xde7c78 size 0x2b8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;

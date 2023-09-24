@@ -3,17 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__QueryKeyNameCommand___nameBuffer_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem {
 struct Key;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

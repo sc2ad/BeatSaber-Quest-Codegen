@@ -2,24 +2,21 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class MultiplayerController;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
+class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerFacade;
 }
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
+class GlobalNamespace__MultiplayerScoreProvider__RankedPlayer;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
@@ -27,6 +24,9 @@ class MultiplayerLayoutProvider;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayersManager;
@@ -170,8 +170,7 @@ constexpr float_t __get__lastFrameBaseScore() const;
 /// @brief Method HandleStateChanged addr 0x21045d4 size 0x10 virtual false final false
  void HandleStateChanged(GlobalNamespace::GlobalNamespace__MultiplayerController__State state) ;
 
-// Ctor Parameters []
-explicit MultiplayerVerticalPlayerMovementManager() ;
+static GlobalNamespace::MultiplayerVerticalPlayerMovementManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2104e9c size 0xe0 virtual false final false
  void _ctor() ;

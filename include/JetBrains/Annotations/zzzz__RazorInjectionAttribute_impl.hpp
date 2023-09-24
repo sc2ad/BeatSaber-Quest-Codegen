@@ -98,8 +98,10 @@ constexpr void JetBrains::Annotations::RazorInjectionAttribute::__set__FieldName
 constexpr ::StringW JetBrains::Annotations::RazorInjectionAttribute::__get__FieldName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fieldName", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::RazorInjectionAttribute::RazorInjectionAttribute(::StringW type, ::StringW fieldName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RazorInjectionAttribute>(type, fieldName))) {}
+ JetBrains::Annotations::RazorInjectionAttribute JetBrains::Annotations::RazorInjectionAttribute::New_ctor(::StringW type, ::StringW fieldName)  {
+JetBrains::Annotations::RazorInjectionAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::RazorInjectionAttribute>(type, fieldName))};
+return o;
+}
  void JetBrains::Annotations::RazorInjectionAttribute::_ctor(::StringW type, ::StringW fieldName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::RazorInjectionAttribute>::get(),

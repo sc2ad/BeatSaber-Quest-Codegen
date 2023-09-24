@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/Kdf/zzzz__ECDHKekGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator._ctor
 template<>
 
@@ -100,8 +100,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::__se
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::__get_z() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::ECDHKekGenerator(Org::BouncyCastle::Crypto::IDigest digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ECDHKekGenerator>(digest))) {}
+ Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::New_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
+Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator>(digest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::_ctor(Org::BouncyCastle::Crypto::IDigest digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator>::get(),

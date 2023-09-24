@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
-class VisualTreeAsset;
-}
-namespace System {
-template<typename T>
-class IEquatable_1;
+struct UnityEngine__UIElements__TemplateAsset__AttributeOverride;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__TemplateAsset__AttributeOverride;
+class VisualTreeAsset;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -1,13 +1,14 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SimpleTextureLoader_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
-#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
+#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
+#include "GlobalNamespace/zzzz__SimpleTextureLoader_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3._ctor
 template<>
 
@@ -181,8 +182,10 @@ constexpr void GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextu
 constexpr UnityEngine::Networking::UnityWebRequest GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3::__get__uwr_5__2() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Networking::UnityWebRequest, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SimpleTextureLoader___LoadTextureCoroutine_d__3>::get(),
@@ -327,8 +330,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method, filePath, useCache, finishedCallback);
 }
-// Ctor Parameters []
- GlobalNamespace::SimpleTextureLoader::SimpleTextureLoader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SimpleTextureLoader>())) {}
+ GlobalNamespace::SimpleTextureLoader GlobalNamespace::SimpleTextureLoader::New_ctor()  {
+GlobalNamespace::SimpleTextureLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SimpleTextureLoader>())};
+return o;
+}
  void GlobalNamespace::SimpleTextureLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SimpleTextureLoader>::get(),

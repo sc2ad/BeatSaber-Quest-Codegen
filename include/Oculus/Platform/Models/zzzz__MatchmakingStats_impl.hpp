@@ -53,8 +53,10 @@ constexpr void Oculus::Platform::Models::MatchmakingStats::__set_WinCount(uint32
 constexpr uint32_t Oculus::Platform::Models::MatchmakingStats::__get_WinCount() const {
 return ::cordl_internals::getInstanceField<uint32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::MatchmakingStats::MatchmakingStats(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MatchmakingStats>(o))) {}
+ Oculus::Platform::Models::MatchmakingStats Oculus::Platform::Models::MatchmakingStats::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::MatchmakingStats o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::MatchmakingStats>(o))};
+return o;
+}
  void Oculus::Platform::Models::MatchmakingStats::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::MatchmakingStats>::get(),

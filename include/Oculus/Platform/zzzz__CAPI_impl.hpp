@@ -2,56 +2,57 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "Oculus/Platform/zzzz__CAPI_def.hpp"
-#include "Oculus/Platform/zzzz__RichPresenceExtraContext_def.hpp"
-#include "Oculus/Platform/zzzz__AbuseReportVideoMode_def.hpp"
-#include "Oculus/Platform/zzzz__LogEventName_def.hpp"
-#include "Oculus/Platform/zzzz__LaunchResult_def.hpp"
-#include "Oculus/Platform/zzzz__SystemVoipStatus_def.hpp"
-#include "Oculus/Platform/zzzz__MediaContentType_def.hpp"
-#include "Oculus/Platform/zzzz__VoipBitrate_def.hpp"
-#include "Oculus/Platform/zzzz__NetSyncVoipMicSource_def.hpp"
-#include "Oculus/Platform/zzzz__LeaderboardFilterType_def.hpp"
-#include "Oculus/Platform/zzzz__RoomJoinPolicy_def.hpp"
-#include "Oculus/Platform/zzzz__LivestreamingAudience_def.hpp"
-#include "Oculus/Platform/zzzz__CloudStorageDataStatus_def.hpp"
-#include "Oculus/Platform/zzzz__ChallengeVisibility_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
-#include "Oculus/Platform/zzzz__NetSyncConnectionStatus_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Oculus/Platform/zzzz__SendPolicy_def.hpp"
-#include "Oculus/Platform/zzzz__RoomType_def.hpp"
-#include "Oculus/Platform/zzzz__SdkAccountType_def.hpp"
-#include "Oculus/Platform/zzzz__UserPresenceStatus_def.hpp"
-#include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
-#include "Oculus/Platform/zzzz__LeaderboardStartAt_def.hpp"
-#include "Oculus/Platform/zzzz__PartyUpdateAction_def.hpp"
-#include "Oculus/Platform/zzzz__UserOrdering_def.hpp"
-#include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
-#include "Oculus/Platform/zzzz__CloudStorageUpdateStatus_def.hpp"
-#include "Oculus/Platform/zzzz__RoomMembershipLockStatus_def.hpp"
-#include "Oculus/Platform/zzzz__InitConfigOptions_def.hpp"
-#include "Oculus/Platform/zzzz__AbuseReportType_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "Oculus/Platform/zzzz__NetSyncVoipStreamMode_def.hpp"
-#include "Oculus/Platform/zzzz__ReportRequestResponse_def.hpp"
-#include "Oculus/Platform/zzzz__MatchmakingStatApproach_def.hpp"
-#include "Oculus/Platform/zzzz__ChallengeViewerFilter_def.hpp"
 #include "Oculus/Platform/zzzz__MultiplayerErrorErrorKey_def.hpp"
-#include "Oculus/Platform/zzzz__LivestreamingStartStatus_def.hpp"
-#include "Oculus/Platform/zzzz__RoomJoinability_def.hpp"
-#include "Oculus/Platform/zzzz__LivestreamingMicrophoneStatus_def.hpp"
-#include "Oculus/Platform/zzzz__ChallengeCreationType_def.hpp"
-#include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
-#include "Oculus/Platform/zzzz__NetSyncDisconnectReason_def.hpp"
+#include "Oculus/Platform/zzzz__LeaderboardFilterType_def.hpp"
+#include "Oculus/Platform/zzzz__ChallengeVisibility_def.hpp"
+#include "Oculus/Platform/zzzz__ReportRequestResponse_def.hpp"
+#include "Oculus/Platform/zzzz__LivestreamingAudience_def.hpp"
+#include "Oculus/Platform/zzzz__CAPI_def.hpp"
 #include "Oculus/Platform/zzzz__VoipMuteState_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Oculus/Platform/zzzz__SystemVoipStatus_def.hpp"
+#include "Oculus/Platform/zzzz__RoomType_def.hpp"
+#include "Oculus/Platform/zzzz__VoipDtxState_def.hpp"
+#include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
+#include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "Oculus/Platform/zzzz__MatchmakingStatApproach_def.hpp"
+#include "Oculus/Platform/zzzz__RichPresenceExtraContext_def.hpp"
+#include "Oculus/Platform/zzzz__LeaderboardStartAt_def.hpp"
+#include "Oculus/Platform/zzzz__RoomMembershipLockStatus_def.hpp"
 #include "Oculus/Platform/zzzz__PeerConnectionState_def.hpp"
 #include "Oculus/Platform/zzzz__ShareMediaStatus_def.hpp"
-#include "Oculus/Platform/zzzz__AchievementType_def.hpp"
+#include "Oculus/Platform/zzzz__LogEventName_def.hpp"
+#include "Oculus/Platform/zzzz__ChallengeViewerFilter_def.hpp"
+#include "Oculus/Platform/zzzz__UserPresenceStatus_def.hpp"
+#include "Oculus/Platform/zzzz__LaunchResult_def.hpp"
+#include "Oculus/Platform/zzzz__NetSyncVoipMicSource_def.hpp"
+#include "Oculus/Platform/zzzz__UserOrdering_def.hpp"
+#include "Oculus/Platform/zzzz__CloudStorageDataStatus_def.hpp"
+#include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
+#include "Oculus/Platform/zzzz__AbuseReportVideoMode_def.hpp"
+#include "Oculus/Platform/zzzz__SendPolicy_def.hpp"
 #include "System/Text/zzzz__UTF8Encoding_def.hpp"
+#include "Oculus/Platform/zzzz__PartyUpdateAction_def.hpp"
+#include "Oculus/Platform/zzzz__InitConfigOptions_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "Oculus/Platform/zzzz__RoomJoinPolicy_def.hpp"
+#include "Oculus/Platform/zzzz__RoomJoinability_def.hpp"
 #include "Oculus/Platform/zzzz__LaunchType_def.hpp"
+#include "Oculus/Platform/zzzz__NetSyncDisconnectReason_def.hpp"
+#include "Oculus/Platform/zzzz__SdkAccountType_def.hpp"
+#include "Oculus/Platform/zzzz__NetSyncVoipStreamMode_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "Oculus/Platform/zzzz__CloudStorageUpdateStatus_def.hpp"
+#include "Oculus/Platform/zzzz__LivestreamingStartStatus_def.hpp"
+#include "Oculus/Platform/zzzz__MediaContentType_def.hpp"
+#include "Oculus/Platform/zzzz__ChallengeCreationType_def.hpp"
+#include "Oculus/Platform/zzzz__AchievementType_def.hpp"
 #include "Oculus/Platform/zzzz__PlatformInitializeResult_def.hpp"
-#include "Oculus/Platform/zzzz__VoipDtxState_def.hpp"
+#include "Oculus/Platform/zzzz__VoipBitrate_def.hpp"
+#include "Oculus/Platform/zzzz__NetSyncConnectionStatus_def.hpp"
+#include "Oculus/Platform/zzzz__AbuseReportType_def.hpp"
+#include "Oculus/Platform/zzzz__LivestreamingMicrophoneStatus_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "Oculus/Platform/zzzz__KeyValuePairType_def.hpp"
@@ -385,8 +386,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Oculus__Platform__CAPI__FilterCallback::Oculus__Platform__CAPI__FilterCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<Oculus__Platform__CAPI__FilterCallback>(object, method))) {}
+ Oculus::Platform::Oculus__Platform__CAPI__FilterCallback Oculus::Platform::Oculus__Platform__CAPI__FilterCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+Oculus::Platform::Oculus__Platform__CAPI__FilterCallback o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Oculus__Platform__CAPI__FilterCallback>(object, method))};
+return o;
+}
  void Oculus::Platform::Oculus__Platform__CAPI__FilterCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Oculus__Platform__CAPI__FilterCallback>::get(),
@@ -31516,8 +31519,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, value);
 }
-// Ctor Parameters []
- Oculus::Platform::CAPI::CAPI()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CAPI>())) {}
+ Oculus::Platform::CAPI Oculus::Platform::CAPI::New_ctor()  {
+Oculus::Platform::CAPI o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::CAPI>())};
+return o;
+}
  void Oculus::Platform::CAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::CAPI>::get(),

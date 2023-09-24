@@ -244,8 +244,7 @@ constexpr UnityEngine::Color __get__obstaclesColor() const;
 /// @brief Method set_obstaclesColor addr 0x20ef9f0 size 0xc virtual false final false
  void set_obstaclesColor(UnityEngine::Color value) ;
 
-// Ctor Parameters []
-explicit MockPlayerSettings() ;
+static GlobalNamespace::MockPlayerSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x20ef9fc size 0x8 virtual false final false
  void _ctor() ;

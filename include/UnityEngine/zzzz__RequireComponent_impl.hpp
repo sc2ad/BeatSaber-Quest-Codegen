@@ -54,8 +54,10 @@ constexpr void UnityEngine::RequireComponent::__set_m_Type2(System::Type value) 
 constexpr System::Type UnityEngine::RequireComponent::__get_m_Type2() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "requiredComponent", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::RequireComponent::RequireComponent(System::Type requiredComponent)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RequireComponent>(requiredComponent))) {}
+ UnityEngine::RequireComponent UnityEngine::RequireComponent::New_ctor(System::Type requiredComponent)  {
+UnityEngine::RequireComponent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RequireComponent>(requiredComponent))};
+return o;
+}
  void UnityEngine::RequireComponent::_ctor(System::Type requiredComponent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RequireComponent>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, requiredComponent);
 }
-// Ctor Parameters [CppParam { name: "requiredComponent", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "requiredComponent2", ty: "System::Type", modifiers: "", def_value: None }]
- UnityEngine::RequireComponent::RequireComponent(System::Type requiredComponent, System::Type requiredComponent2)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RequireComponent>(requiredComponent, requiredComponent2))) {}
+ UnityEngine::RequireComponent UnityEngine::RequireComponent::New_ctor(System::Type requiredComponent, System::Type requiredComponent2)  {
+UnityEngine::RequireComponent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RequireComponent>(requiredComponent, requiredComponent2))};
+return o;
+}
  void UnityEngine::RequireComponent::_ctor(System::Type requiredComponent, System::Type requiredComponent2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RequireComponent>::get(),

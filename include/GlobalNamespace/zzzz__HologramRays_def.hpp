@@ -4,45 +4,48 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+struct EaseType;
 }
 namespace UnityEngine {
-class MeshRenderer;
-}
-namespace Tweening {
-class TimeTweeningManager;
+class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Vector3;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__HologramRays___FadingCoroutine_d__28;
+}
+namespace Tweening {
+class TimeTweeningManager;
 }
 namespace Tweening {
 class FloatTween;
+}
+namespace UnityEngine {
+class MeshRenderer;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
-}
-namespace UnityEngine {
-class Mesh;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -148,8 +151,7 @@ constexpr float_t __get_duration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__HologramRays___FadingCoroutine_d__28(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__HologramRays___FadingCoroutine_d__28 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20dc070 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -373,8 +375,7 @@ static void RuntimeInit() ;
 /// @brief Method UpdateBounds addr 0x20dbf94 size 0xdc virtual false final false
  void UpdateBounds() ;
 
-// Ctor Parameters []
-explicit HologramRays() ;
+static GlobalNamespace::HologramRays New_ctor() ;
 
 /// @brief Method .ctor addr 0x20dc098 size 0x20 virtual false final false
  void _ctor() ;

@@ -2,14 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
@@ -82,8 +82,7 @@ constexpr Org::BouncyCastle::Asn1::Cmp::PkiBody __get_body() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ProtectedPart(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::ProtectedPart New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde1070 size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -91,8 +90,7 @@ explicit ProtectedPart(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xde111c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::ProtectedPart GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "header", ty: "Org::BouncyCastle::Asn1::Cmp::PkiHeader", modifiers: "", def_value: None }, CppParam { name: "body", ty: "Org::BouncyCastle::Asn1::Cmp::PkiBody", modifiers: "", def_value: None }]
-explicit ProtectedPart(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body) ;
+static Org::BouncyCastle::Asn1::Cmp::ProtectedPart New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body) ;
 
 /// @brief Method .ctor addr 0xde12a4 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::PkiHeader header, Org::BouncyCastle::Asn1::Cmp::PkiBody body) ;

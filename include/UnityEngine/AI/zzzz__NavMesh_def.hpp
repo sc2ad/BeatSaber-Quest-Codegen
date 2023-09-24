@@ -5,14 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::AI {
+class UnityEngine__AI__NavMesh__OnNavMeshPreUpdate;
+}
+namespace UnityEngine::AI {
+struct NavMeshHit;
 }
 namespace UnityEngine::AI {
 class NavMeshPath;
 }
-namespace UnityEngine::AI {
-struct NavMeshHit;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::AI {
@@ -63,8 +66,7 @@ constexpr explicit UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__AI__NavMesh__OnNavMeshPreUpdate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::AI::UnityEngine__AI__NavMesh__OnNavMeshPreUpdate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b07dcc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyGenerationParameters_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalParameters_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters._ctor
 template<>
 
@@ -60,8 +60,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParame
 constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalParameters Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::ElGamalParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::ElGamalKeyGenerationParameters(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<ElGamalKeyGenerationParameters>(random, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::New_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters>(random, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters::_ctor(Org::BouncyCastle::Security::SecureRandom random, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters>::get(),

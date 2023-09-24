@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -136,14 +136,12 @@ static Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure GetInstance(Org::Bo
 /// @brief Method GetInstance addr 0xf001e8 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "modulus", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "publicExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "privateExponent", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "prime1", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "prime2", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "exponent1", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "exponent2", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "coefficient", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit RsaPrivateKeyStructure(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger prime1, Org::BouncyCastle::Math::BigInteger prime2, Org::BouncyCastle::Math::BigInteger exponent1, Org::BouncyCastle::Math::BigInteger exponent2, Org::BouncyCastle::Math::BigInteger coefficient) ;
+static Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure New_ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger prime1, Org::BouncyCastle::Math::BigInteger prime2, Org::BouncyCastle::Math::BigInteger exponent1, Org::BouncyCastle::Math::BigInteger exponent2, Org::BouncyCastle::Math::BigInteger coefficient) ;
 
 /// @brief Method .ctor addr 0xf00610 size 0x68 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger modulus, Org::BouncyCastle::Math::BigInteger publicExponent, Org::BouncyCastle::Math::BigInteger privateExponent, Org::BouncyCastle::Math::BigInteger prime1, Org::BouncyCastle::Math::BigInteger prime2, Org::BouncyCastle::Math::BigInteger exponent1, Org::BouncyCastle::Math::BigInteger exponent2, Org::BouncyCastle::Math::BigInteger coefficient) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RsaPrivateKeyStructure(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xf0028c size 0x384 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

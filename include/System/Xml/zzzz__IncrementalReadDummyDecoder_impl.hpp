@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, chars, startPos, len);
 }
-// Ctor Parameters []
- System::Xml::IncrementalReadDummyDecoder::IncrementalReadDummyDecoder()  : System::Xml::IncrementalReadDecoder(THROW_UNLESS(::il2cpp_utils::New<IncrementalReadDummyDecoder>())) {}
+ System::Xml::IncrementalReadDummyDecoder System::Xml::IncrementalReadDummyDecoder::New_ctor()  {
+System::Xml::IncrementalReadDummyDecoder o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::IncrementalReadDummyDecoder>())};
+return o;
+}
  void System::Xml::IncrementalReadDummyDecoder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::IncrementalReadDummyDecoder>::get(),

@@ -73,8 +73,7 @@ static UnityEngine::ProBuilder::HandleConstraint2D __get_None() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HandleConstraint2D(int32_t x, int32_t y) ;
+static UnityEngine::ProBuilder::HandleConstraint2D New_ctor(int32_t x, int32_t y) ;
 
 /// @brief Method .ctor addr 0x29aead0 size 0x2c virtual false final false
  void _ctor(int32_t x, int32_t y) ;

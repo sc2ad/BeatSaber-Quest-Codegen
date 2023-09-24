@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__AnimationEvent_def.hpp"
-#include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
-#include "UnityEngine/zzzz__AnimatorClipInfo_def.hpp"
+#include "UnityEngine/zzzz__AnimationEventSource_def.hpp"
 #include "UnityEngine/zzzz__AnimationState_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AnimationEventSource_def.hpp"
+#include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
+#include "UnityEngine/zzzz__AnimatorClipInfo_def.hpp"
 //  Writing Method size for method: UnityEngine::AnimationEvent._ctor
 template<>
 
@@ -88,8 +88,10 @@ constexpr void UnityEngine::AnimationEvent::__set_m_AnimatorClipInfo(UnityEngine
 constexpr UnityEngine::AnimatorClipInfo UnityEngine::AnimationEvent::__get_m_AnimatorClipInfo() const {
 return ::cordl_internals::getInstanceField<UnityEngine::AnimatorClipInfo, 0x6c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::AnimationEvent::AnimationEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnimationEvent>())) {}
+ UnityEngine::AnimationEvent UnityEngine::AnimationEvent::New_ctor()  {
+UnityEngine::AnimationEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AnimationEvent>())};
+return o;
+}
  void UnityEngine::AnimationEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AnimationEvent>::get(),

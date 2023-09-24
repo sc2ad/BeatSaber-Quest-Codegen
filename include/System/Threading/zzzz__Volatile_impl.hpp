@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"
+#include "System/Threading/zzzz__Volatile_def.hpp"
 // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr System::Threading::System__Threading__Volatile__VolatileBoolean::System__Threading__Volatile__VolatileBoolean(bool Value) noexcept : ::bs_hook::ValueTypeWrapper() {this->Value = Value;
 }

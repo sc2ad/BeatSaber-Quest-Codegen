@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/zzzz__XmlCharacterData_impl.hpp"
 #include "System/Xml/zzzz__XmlSignificantWhitespace_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 //  Writing Method size for method: System::Xml::XmlSignificantWhitespace._ctor
 template<>
@@ -157,8 +157,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "strData", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlSignificantWhitespace::XmlSignificantWhitespace(::StringW strData, System::Xml::XmlDocument doc)  : System::Xml::XmlCharacterData(THROW_UNLESS(::il2cpp_utils::New<XmlSignificantWhitespace>(strData, doc))) {}
+ System::Xml::XmlSignificantWhitespace System::Xml::XmlSignificantWhitespace::New_ctor(::StringW strData, System::Xml::XmlDocument doc)  {
+System::Xml::XmlSignificantWhitespace o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlSignificantWhitespace>(strData, doc))};
+return o;
+}
  void System::Xml::XmlSignificantWhitespace::_ctor(::StringW strData, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlSignificantWhitespace>::get(),

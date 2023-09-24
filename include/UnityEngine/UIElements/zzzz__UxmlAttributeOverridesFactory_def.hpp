@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,7 +20,7 @@ class UxmlAttributeOverridesFactory;
 // Type: UnityEngine.UIElements::UxmlAttributeOverridesFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5113 }), TypeDefinitionIndex(TypeDefinitionIndex(6828))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5113 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7066))
 // CS Name: UnityEngine.UIElements.UxmlAttributeOverridesFactory
 class CORDL_TYPE UxmlAttributeOverridesFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::VisualElement,UnityEngine::UIElements::UxmlAttributeOverridesTraits> {
@@ -75,8 +75,7 @@ constexpr explicit UxmlAttributeOverridesFactory(void* ptr) noexcept : UnityEngi
 /// @brief Method Create addr 0x2c96224 size 0x8 virtual true final false
  UnityEngine::UIElements::VisualElement Create(UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UxmlAttributeOverridesFactory() ;
+static UnityEngine::UIElements::UxmlAttributeOverridesFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9622c size 0x48 virtual false final false
  void _ctor() ;

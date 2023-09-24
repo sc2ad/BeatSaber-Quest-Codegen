@@ -7,43 +7,40 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
-class Type;
+class ISpanFormattable;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-struct TypeCode;
-}
-namespace System {
-template<typename T>
-class IComparable_1;
-}
-namespace System::Globalization {
-class NumberFormatInfo;
+class IConvertible;
 }
 namespace System {
 template<typename T>
 struct Span_1;
 }
 namespace System {
-class IComparable;
-}
-namespace System {
-class ISpanFormattable;
+template<typename T>
+class IComparable_1;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
-struct Decimal;
-}
-namespace System {
 class IFormattable;
 }
 namespace System {
-struct DateTime;
+class IComparable;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct TypeCode;
 }
 namespace System {
 template<typename T>
@@ -53,7 +50,10 @@ namespace System::Globalization {
 struct NumberStyles;
 }
 namespace System {
-class IConvertible;
+struct Decimal;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace System {

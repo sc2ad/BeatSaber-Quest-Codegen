@@ -63,8 +63,7 @@ constexpr ::StringW __get_publicPlatformDisplayName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UserInfo() ;
+static BeatSaberAPI::DataTransferObjects::UserInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d738c size 0x8 virtual false final false
  void _ctor() ;

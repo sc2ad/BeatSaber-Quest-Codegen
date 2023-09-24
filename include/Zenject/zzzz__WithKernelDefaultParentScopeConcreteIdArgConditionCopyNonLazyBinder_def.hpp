@@ -5,10 +5,10 @@ namespace Zenject {
 class SubContainerCreatorBindInfo;
 }
 namespace Zenject {
-class DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {
@@ -56,8 +56,7 @@ constexpr explicit WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "subContainerBindInfo", ty: "Zenject::SubContainerCreatorBindInfo", modifiers: "", def_value: None }, CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo) ;
+static Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder New_ctor(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d62324 size 0x8 virtual false final false
  void _ctor(Zenject::SubContainerCreatorBindInfo subContainerBindInfo, Zenject::BindInfo bindInfo) ;

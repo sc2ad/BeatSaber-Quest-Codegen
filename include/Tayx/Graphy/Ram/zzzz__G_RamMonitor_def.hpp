@@ -99,8 +99,7 @@ constexpr float_t __get__MonoRam_k__BackingField() const;
 /// @brief Method Update addr 0x2874f64 size 0x5c virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit G_RamMonitor() ;
+static Tayx::Graphy::Ram::G_RamMonitor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2874fc0 size 0x8 virtual false final false
  void _ctor() ;

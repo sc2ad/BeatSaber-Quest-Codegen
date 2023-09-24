@@ -8,16 +8,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
-class PoseObject;
+class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
 class PosesRecordingData;
+}
+namespace GlobalNamespace {
+class PoseObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -113,8 +113,7 @@ constexpr int32_t __get__keyframeIndex() const;
 /// @brief Method StopPlayback addr 0x21a4ce0 size 0xc virtual false final false
  void StopPlayback() ;
 
-// Ctor Parameters []
-explicit PosesPlayback() ;
+static GlobalNamespace::PosesPlayback New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a68a4 size 0x8 virtual false final false
  void _ctor() ;

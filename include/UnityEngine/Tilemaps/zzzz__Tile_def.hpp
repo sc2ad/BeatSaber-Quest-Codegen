@@ -5,28 +5,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::Tilemaps {
-struct TileFlags;
-}
-namespace UnityEngine {
-struct Vector3Int;
-}
-namespace UnityEngine::Tilemaps {
-class ITilemap;
+class GameObject;
 }
 namespace UnityEngine::Tilemaps {
 struct TileData;
 }
 namespace UnityEngine {
-struct Color;
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector3Int;
 }
 namespace UnityEngine {
 class Sprite;
 }
+namespace UnityEngine::Tilemaps {
+struct UnityEngine__Tilemaps__Tile__ColliderType;
+}
 namespace UnityEngine {
-class GameObject;
+struct Color;
+}
+namespace UnityEngine::Tilemaps {
+struct TileFlags;
+}
+namespace UnityEngine::Tilemaps {
+class ITilemap;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -85,6 +88,8 @@ __Grid = 2,
 constexpr operator __UnityEngine__Tilemaps__Tile__ColliderType_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Tilemaps__Tile__ColliderType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -245,8 +250,7 @@ constexpr UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType __get
 /// @brief Method GetTileData addr 0x2bd73c0 size 0x5c virtual true final false
  void GetTileData(UnityEngine::Vector3Int position, UnityEngine::Tilemaps::ITilemap tilemap, ByRef<UnityEngine::Tilemaps::TileData> tileData) ;
 
-// Ctor Parameters []
-explicit Tile() ;
+static UnityEngine::Tilemaps::Tile New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd741c size 0x70 virtual false final false
  void _ctor() ;

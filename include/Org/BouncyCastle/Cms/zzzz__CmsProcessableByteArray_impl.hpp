@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableByteArray_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::CmsProcessableByteArray._ctor
 template<>
 
@@ -126,8 +126,10 @@ constexpr void Org::BouncyCastle::Cms::CmsProcessableByteArray::__set_bytes(::Ar
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Cms::CmsProcessableByteArray::__get_bytes() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsProcessableByteArray::CmsProcessableByteArray(::ArrayW<uint8_t> bytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsProcessableByteArray>(bytes))) {}
+ Org::BouncyCastle::Cms::CmsProcessableByteArray Org::BouncyCastle::Cms::CmsProcessableByteArray::New_ctor(::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Cms::CmsProcessableByteArray o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsProcessableByteArray>(bytes))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsProcessableByteArray::_ctor(::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsProcessableByteArray>::get(),
@@ -137,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bytes);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsProcessableByteArray::CmsProcessableByteArray(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CmsProcessableByteArray>(type, bytes))) {}
+ Org::BouncyCastle::Cms::CmsProcessableByteArray Org::BouncyCastle::Cms::CmsProcessableByteArray::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes)  {
+Org::BouncyCastle::Cms::CmsProcessableByteArray o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsProcessableByteArray>(type, bytes))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsProcessableByteArray::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier type, ::ArrayW<uint8_t> bytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsProcessableByteArray>::get(),

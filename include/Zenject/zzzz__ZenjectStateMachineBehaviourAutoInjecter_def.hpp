@@ -7,10 +7,10 @@ namespace UnityEngine {
 class Animator;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -79,8 +79,7 @@ constexpr UnityEngine::Animator __get__animator() const;
 /// @brief Method Start addr 0x2da7950 size 0xe8 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit ZenjectStateMachineBehaviourAutoInjecter() ;
+static Zenject::ZenjectStateMachineBehaviourAutoInjecter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da7a38 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,18 +5,6 @@
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Component;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -25,7 +13,19 @@ namespace System {
 class Type;
 }
 namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {

@@ -2,14 +2,14 @@
 #include "RootMotion/FinalIK/zzzz__Grounder_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__GrounderQuadruped_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
+#include "RootMotion/FinalIK/zzzz__GrounderQuadruped_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__Grounding_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__GrounderQuadruped__Foot._ctor
 template<>
 
@@ -699,8 +699,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ikComponents);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::GrounderQuadruped::GrounderQuadruped()  : RootMotion::FinalIK::Grounder(THROW_UNLESS(::il2cpp_utils::New<GrounderQuadruped>())) {}
+ RootMotion::FinalIK::GrounderQuadruped RootMotion::FinalIK::GrounderQuadruped::New_ctor()  {
+RootMotion::FinalIK::GrounderQuadruped o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::GrounderQuadruped>())};
+return o;
+}
  void RootMotion::FinalIK::GrounderQuadruped::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::GrounderQuadruped>::get(),

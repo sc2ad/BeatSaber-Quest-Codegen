@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
+}
 namespace Org::BouncyCastle::Ocsp {
 class CertificateID;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class Request;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -70,8 +70,7 @@ constexpr Org::BouncyCastle::Asn1::Ocsp::Request __get_req() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "req", ty: "Org::BouncyCastle::Asn1::Ocsp::Request", modifiers: "", def_value: None }]
-explicit Req(Org::BouncyCastle::Asn1::Ocsp::Request req) ;
+static Org::BouncyCastle::Ocsp::Req New_ctor(Org::BouncyCastle::Asn1::Ocsp::Request req) ;
 
 /// @brief Method .ctor addr 0x1013990 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ocsp::Request req) ;

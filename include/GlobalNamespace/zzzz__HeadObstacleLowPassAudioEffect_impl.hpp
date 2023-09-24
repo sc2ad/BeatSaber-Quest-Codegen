@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadObstacleLowPassAudioEffect_def.hpp"
-#include "GlobalNamespace/zzzz__MainAudioEffects_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__MainAudioEffects_def.hpp"
 //  Writing Method size for method: GlobalNamespace::HeadObstacleLowPassAudioEffect.Update
 template<>
 
@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::HeadObstacleLowPassAudioEffect::HeadObstacleLowPassAudioEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<HeadObstacleLowPassAudioEffect>())) {}
+ GlobalNamespace::HeadObstacleLowPassAudioEffect GlobalNamespace::HeadObstacleLowPassAudioEffect::New_ctor()  {
+GlobalNamespace::HeadObstacleLowPassAudioEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::HeadObstacleLowPassAudioEffect>())};
+return o;
+}
  void GlobalNamespace::HeadObstacleLowPassAudioEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::HeadObstacleLowPassAudioEffect>::get(),

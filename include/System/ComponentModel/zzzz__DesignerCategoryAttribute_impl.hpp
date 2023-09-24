@@ -150,8 +150,10 @@ constexpr void System::ComponentModel::DesignerCategoryAttribute::__set__Categor
 constexpr ::StringW System::ComponentModel::DesignerCategoryAttribute::__get__Category_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::ComponentModel::DesignerCategoryAttribute::DesignerCategoryAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DesignerCategoryAttribute>())) {}
+ System::ComponentModel::DesignerCategoryAttribute System::ComponentModel::DesignerCategoryAttribute::New_ctor()  {
+System::ComponentModel::DesignerCategoryAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DesignerCategoryAttribute>())};
+return o;
+}
  void System::ComponentModel::DesignerCategoryAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignerCategoryAttribute>::get(),
@@ -161,8 +163,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "category", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::DesignerCategoryAttribute::DesignerCategoryAttribute(::StringW category)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DesignerCategoryAttribute>(category))) {}
+ System::ComponentModel::DesignerCategoryAttribute System::ComponentModel::DesignerCategoryAttribute::New_ctor(::StringW category)  {
+System::ComponentModel::DesignerCategoryAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DesignerCategoryAttribute>(category))};
+return o;
+}
  void System::ComponentModel::DesignerCategoryAttribute::_ctor(::StringW category)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DesignerCategoryAttribute>::get(),

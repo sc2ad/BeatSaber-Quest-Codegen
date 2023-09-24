@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -68,8 +68,7 @@ constexpr Org::BouncyCastle::Asn1::Cms::AttributeTable __get_attributes() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Cms::AttributeTable", modifiers: "", def_value: None }]
-explicit SimpleAttributeTableGenerator(Org::BouncyCastle::Asn1::Cms::AttributeTable attributes) ;
+static Org::BouncyCastle::Cms::SimpleAttributeTableGenerator New_ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributes) ;
 
 /// @brief Method .ctor addr 0x1182ba0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::AttributeTable attributes) ;

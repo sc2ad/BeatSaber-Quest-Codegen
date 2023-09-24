@@ -8,18 +8,21 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace GlobalNamespace {
+class SongPackMaskModelSO;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
-class SongPackMaskModelSO;
+class GlobalNamespace__SongPacksDropdown____c;
 }
 namespace HMUI {
 class SimpleTextDropdown;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
 }
 namespace HMUI {
 class DropdownWithTableView;
@@ -92,8 +95,7 @@ static System::Func_2<::StringW,::StringW> __get___9__7_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SongPacksDropdown____c() ;
+static GlobalNamespace::GlobalNamespace__SongPacksDropdown____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x214f0e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -212,8 +214,7 @@ constexpr System::Collections::Generic::List_1<::StringW> __get__songPackSeriali
 /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx addr 0x214f050 size 0x24 virtual false final false
  void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
-// Ctor Parameters []
-explicit SongPacksDropdown() ;
+static GlobalNamespace::SongPacksDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x214f074 size 0x8 virtual false final false
  void _ctor() ;

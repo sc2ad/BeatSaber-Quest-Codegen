@@ -1,8 +1,8 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__DateTimeOffsetConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 //  Writing Method size for method: System::ComponentModel::DateTimeOffsetConverter.CanConvertFrom
 template<>
@@ -125,8 +125,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, context, culture, value, destinationType);
 }
-// Ctor Parameters []
- System::ComponentModel::DateTimeOffsetConverter::DateTimeOffsetConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<DateTimeOffsetConverter>())) {}
+ System::ComponentModel::DateTimeOffsetConverter System::ComponentModel::DateTimeOffsetConverter::New_ctor()  {
+System::ComponentModel::DateTimeOffsetConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::DateTimeOffsetConverter>())};
+return o;
+}
  void System::ComponentModel::DateTimeOffsetConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::DateTimeOffsetConverter>::get(),

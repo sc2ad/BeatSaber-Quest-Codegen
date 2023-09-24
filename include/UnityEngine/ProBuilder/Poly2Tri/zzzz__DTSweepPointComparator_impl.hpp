@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepPointComparator_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator.Compare
 template<>
 
@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, p1, p2);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::DTSweepPointComparator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DTSweepPointComparator>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator>::get(),

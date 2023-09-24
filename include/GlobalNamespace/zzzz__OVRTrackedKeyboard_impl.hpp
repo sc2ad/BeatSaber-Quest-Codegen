@@ -4,27 +4,27 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__OVRKeyboard_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
-#include "UnityEngine/zzzz__BoxCollider_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
-#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
-#include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
+#include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
+#include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__BoxCollider_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardState::GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -269,8 +269,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__8
 constexpr GlobalNamespace::OVRTrackedKeyboard GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRTrackedKeyboard, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88::GlobalNamespace__OVRTrackedKeyboard___Start_d__88(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboard___Start_d__88>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88 GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Start_d__88>::get(),
@@ -457,8 +459,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___Initialize
 constexpr GlobalNamespace::OVRTrackedKeyboard GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRTrackedKeyboard, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89 GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___InitializeHandPresenceData_d__89>::get(),
@@ -651,8 +655,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrac
 constexpr GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95::__get__keyboardInfo_5__2() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__OVRKeyboard__TrackedKeyboardInfo, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95>::get(),
@@ -839,8 +845,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeybo
 constexpr GlobalNamespace::OVRTrackedKeyboard GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRTrackedKeyboard, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96 GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96>::get(),
@@ -1027,8 +1035,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyb
 constexpr GlobalNamespace::OVRTrackedKeyboard GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRTrackedKeyboard, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98 GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard___UpdateKeyboardPose_d__98>::get(),
@@ -1152,8 +1162,10 @@ return ::cordl_internals::getStaticField<System::Action_1<GlobalNamespace::Globa
  System::Action_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent> GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c::__get___9__113_1()  {
 return ::cordl_internals::getStaticField<System::Action_1<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>, "<>9__113_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c::GlobalNamespace__OVRTrackedKeyboard____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboard____c>())) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboard____c>::get(),
@@ -2674,8 +2686,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, timeOut);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRTrackedKeyboard::OVRTrackedKeyboard()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRTrackedKeyboard>())) {}
+ GlobalNamespace::OVRTrackedKeyboard GlobalNamespace::OVRTrackedKeyboard::New_ctor()  {
+GlobalNamespace::OVRTrackedKeyboard o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRTrackedKeyboard>())};
+return o;
+}
  void GlobalNamespace::OVRTrackedKeyboard::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRTrackedKeyboard>::get(),

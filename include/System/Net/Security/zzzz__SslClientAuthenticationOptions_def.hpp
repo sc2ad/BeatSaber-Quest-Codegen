@@ -5,17 +5,17 @@
 namespace System::Net::Security {
 struct EncryptionPolicy;
 }
+namespace System::Net::Security {
+class LocalCertificateSelectionCallback;
+}
 namespace System::Security::Cryptography::X509Certificates {
 struct X509RevocationMode;
-}
-namespace System::Security::Authentication {
-struct SslProtocols;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateCollection;
 }
-namespace System::Net::Security {
-class LocalCertificateSelectionCallback;
+namespace System::Security::Authentication {
+struct SslProtocols;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -150,8 +150,7 @@ constexpr System::Security::Cryptography::X509Certificates::X509CertificateColle
 /// @brief Method set_EnabledSslProtocols addr 0x276cc58 size 0x8 virtual false final false
  void set_EnabledSslProtocols(System::Security::Authentication::SslProtocols value) ;
 
-// Ctor Parameters []
-explicit SslClientAuthenticationOptions() ;
+static System::Net::Security::SslClientAuthenticationOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x276cc60 size 0x10 virtual false final false
  void _ctor() ;

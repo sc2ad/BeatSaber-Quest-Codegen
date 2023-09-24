@@ -3,22 +3,23 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/UI/zzzz__Scrollbar_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
-#include "UnityEngine/zzzz__RectTransform_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__Scrollbar_def.hpp"
+#include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
+#include "UnityEngine/zzzz__RectTransform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -51,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent::UnityEngine__UI__Scrollbar__ScrollEvent()  : UnityEngine::Events::UnityEvent_1<float_t>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__Scrollbar__ScrollEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__Scrollbar__ScrollEvent>::get(),
@@ -217,8 +220,10 @@ constexpr void UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58::
 constexpr UnityEngine::Camera UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58::__get_camera() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Camera, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58::UnityEngine__UI__Scrollbar___ClickRepeat_d__58(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__Scrollbar___ClickRepeat_d__58>(__1__state))) {}
+ UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58 UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58::New_ctor(int32_t __1__state)  {
+UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58>(__1__state))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__Scrollbar___ClickRepeat_d__58>::get(),
@@ -1149,8 +1154,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UI::Scrollbar::Scrollbar()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<Scrollbar>())) {}
+ UnityEngine::UI::Scrollbar UnityEngine::UI::Scrollbar::New_ctor()  {
+UnityEngine::UI::Scrollbar o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::Scrollbar>())};
+return o;
+}
  void UnityEngine::UI::Scrollbar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::Scrollbar>::get(),

@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, shaderWarmupSceneSetupData);
 }
-// Ctor Parameters []
- GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::ShaderWarmupScenesTransitionSetupDataSO()  : GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO(THROW_UNLESS(::il2cpp_utils::New<ShaderWarmupScenesTransitionSetupDataSO>())) {}
+ GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::New_ctor()  {
+GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>())};
+return o;
+}
  void GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>::get(),

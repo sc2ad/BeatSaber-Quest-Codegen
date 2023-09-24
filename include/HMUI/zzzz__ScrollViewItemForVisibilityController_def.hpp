@@ -54,8 +54,7 @@ constexpr explicit ScrollViewItemForVisibilityController(void* ptr) noexcept : U
 /// @brief Method GetWorldCorners addr 0x1fd15c0 size 0x68 virtual false final false
  void GetWorldCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray) ;
 
-// Ctor Parameters []
-explicit ScrollViewItemForVisibilityController() ;
+static HMUI::ScrollViewItemForVisibilityController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fd1628 size 0x8 virtual false final false
  void _ctor() ;

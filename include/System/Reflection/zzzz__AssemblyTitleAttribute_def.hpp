@@ -57,8 +57,7 @@ constexpr ::StringW __get__Title_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "title", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssemblyTitleAttribute(::StringW title) ;
+static System::Reflection::AssemblyTitleAttribute New_ctor(::StringW title) ;
 
 /// @brief Method .ctor addr 0x2378e60 size 0x28 virtual false final false
  void _ctor(::StringW title) ;

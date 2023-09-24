@@ -2,12 +2,12 @@
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Net::WebResponse._ctor
 template<>
 
@@ -209,8 +209,10 @@ constexpr void System::Net::WebResponse::__set_m_IsFromCache(bool value)  {
 constexpr bool System::Net::WebResponse::__get_m_IsFromCache() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::WebResponse::WebResponse()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<WebResponse>())) {}
+ System::Net::WebResponse System::Net::WebResponse::New_ctor()  {
+System::Net::WebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebResponse>())};
+return o;
+}
  void System::Net::WebResponse::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebResponse>::get(),
@@ -220,8 +222,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::WebResponse::WebResponse(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<WebResponse>(serializationInfo, streamingContext))) {}
+ System::Net::WebResponse System::Net::WebResponse::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::WebResponse o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebResponse>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::WebResponse::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebResponse>::get(),

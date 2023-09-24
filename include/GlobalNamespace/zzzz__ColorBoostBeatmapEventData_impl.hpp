@@ -66,8 +66,10 @@ return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWr
  GlobalNamespace::ColorBoostBeatmapEventData GlobalNamespace::ColorBoostBeatmapEventData::__get__defaultCopy()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::ColorBoostBeatmapEventData, "_defaultCopy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorBoostBeatmapEventData>::get>();
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "boostColorsAreOn", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::ColorBoostBeatmapEventData::ColorBoostBeatmapEventData(float_t time, bool boostColorsAreOn)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<ColorBoostBeatmapEventData>(time, boostColorsAreOn))) {}
+ GlobalNamespace::ColorBoostBeatmapEventData GlobalNamespace::ColorBoostBeatmapEventData::New_ctor(float_t time, bool boostColorsAreOn)  {
+GlobalNamespace::ColorBoostBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorBoostBeatmapEventData>(time, boostColorsAreOn))};
+return o;
+}
  void GlobalNamespace::ColorBoostBeatmapEventData::_ctor(float_t time, bool boostColorsAreOn)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorBoostBeatmapEventData>::get(),

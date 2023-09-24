@@ -60,6 +60,8 @@ constexpr operator __ProcessingState_Unwrapped () const noexcept {
 return std::bit_cast<__ProcessingState_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

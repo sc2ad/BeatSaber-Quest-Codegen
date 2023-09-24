@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerTransforms.get_headWorldPos
 template<>
 
@@ -507,8 +507,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, noteInverseWorldRotation);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerTransforms::PlayerTransforms()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerTransforms>())) {}
+ GlobalNamespace::PlayerTransforms GlobalNamespace::PlayerTransforms::New_ctor()  {
+GlobalNamespace::PlayerTransforms o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerTransforms>())};
+return o;
+}
  void GlobalNamespace::PlayerTransforms::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerTransforms>::get(),

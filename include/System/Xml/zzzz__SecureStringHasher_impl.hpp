@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__SecureStringHasher_def.hpp"
+#include "System/Xml/zzzz__SecureStringHasher_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 //  Writing Method size for method: System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate._ctor
 template<>
@@ -36,8 +37,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate::System__Xml__SecureStringHasher__HashCodeOfStringDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Xml__SecureStringHasher__HashCodeOfStringDelegate>(object, method))) {}
+ System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate>(object, method))};
+return o;
+}
  void System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::System__Xml__SecureStringHasher__HashCodeOfStringDelegate>::get(),
@@ -157,8 +160,10 @@ constexpr void System::Xml::SecureStringHasher::__set_hashCodeRandomizer(int32_t
 constexpr int32_t System::Xml::SecureStringHasher::__get_hashCodeRandomizer() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::SecureStringHasher::SecureStringHasher()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SecureStringHasher>())) {}
+ System::Xml::SecureStringHasher System::Xml::SecureStringHasher::New_ctor()  {
+System::Xml::SecureStringHasher o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::SecureStringHasher>())};
+return o;
+}
  void System::Xml::SecureStringHasher::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::SecureStringHasher>::get(),

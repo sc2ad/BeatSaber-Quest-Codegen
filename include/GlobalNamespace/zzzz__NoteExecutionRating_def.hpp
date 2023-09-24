@@ -5,6 +5,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__NoteExecutionRating__Rating;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__NoteData__ScoringType;
 }
 // Forward declare root types
@@ -64,6 +67,8 @@ __BadCut = 2,
 constexpr operator __GlobalNamespace__NoteExecutionRating__Rating_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__NoteExecutionRating__Rating_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -170,8 +175,7 @@ constexpr GlobalNamespace::GlobalNamespace__NoteData__ScoringType __get_scoringT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scoringType", ty: "GlobalNamespace::GlobalNamespace__NoteData__ScoringType", modifiers: "", def_value: None }, CppParam { name: "rating", ty: "GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating", modifiers: "", def_value: None }, CppParam { name: "cutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "beforeCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "centerDistanceCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "afterCutScore", ty: "int32_t", modifiers: "", def_value: None }]
-explicit NoteExecutionRating(float_t time, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore) ;
+static GlobalNamespace::NoteExecutionRating New_ctor(float_t time, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore) ;
 
 /// @brief Method .ctor addr 0x2215f94 size 0x54 virtual false final false
  void _ctor(float_t time, GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, GlobalNamespace::GlobalNamespace__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore) ;

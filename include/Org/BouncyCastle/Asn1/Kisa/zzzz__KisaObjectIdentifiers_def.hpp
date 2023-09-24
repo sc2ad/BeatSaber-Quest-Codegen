@@ -65,8 +65,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdNpkiAppCmsSeedWrap()
 
 // Methods
 
-// Ctor Parameters []
-explicit KisaObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::Kisa::KisaObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xeed990 size 0x8 virtual false final false
  void _ctor() ;

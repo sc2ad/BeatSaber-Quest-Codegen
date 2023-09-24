@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnd_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryWriter_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::MessageEnd._ctor
 template<>
 
@@ -88,8 +88,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::MessageEnd::MessageEnd()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MessageEnd>())) {}
+ System::Runtime::Serialization::Formatters::Binary::MessageEnd System::Runtime::Serialization::Formatters::Binary::MessageEnd::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::MessageEnd o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::MessageEnd>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::MessageEnd::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::MessageEnd>::get(),

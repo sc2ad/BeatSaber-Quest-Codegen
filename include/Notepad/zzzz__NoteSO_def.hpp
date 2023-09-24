@@ -73,8 +73,7 @@ constexpr ::ArrayW<Notepad::NoteURL> __get_urls() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NoteSO() ;
+static Notepad::NoteSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2551ba8 size 0x7c virtual false final false
  void _ctor() ;

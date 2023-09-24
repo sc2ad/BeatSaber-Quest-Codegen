@@ -62,8 +62,7 @@ constexpr GlobalNamespace::StandardGameplaySceneSetupData __get__standardSceneSe
 /// @brief Method InstallBindings addr 0x211b1e8 size 0x370 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit StandardGameplayInstaller() ;
+static GlobalNamespace::StandardGameplayInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211b558 size 0x8 virtual false final false
  void _ctor() ;

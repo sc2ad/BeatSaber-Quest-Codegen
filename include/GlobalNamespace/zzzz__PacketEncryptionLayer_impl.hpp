@@ -2,22 +2,23 @@
 #include "LiteNetLib/Layers/zzzz__PacketLayerBase_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
-#include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__PacketEncryptionLayer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
-#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__ExpiringDictionary_2_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics.get_packetsReceivedPlaintext
 template<>
@@ -500,8 +501,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, time);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics>())) {}
+ GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__EncryptionStatistics>::get(),
@@ -551,8 +554,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingE
 constexpr int32_t GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::__get_port() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0>())) {}
+ GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0>::get(),
@@ -617,8 +622,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Packe
  System::Func_2<System::Collections::Generic::KeyValuePair_2<int32_t,GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState>,GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState> GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c::__get___9__4_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<System::Collections::Generic::KeyValuePair_2<int32_t,GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState>,GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState>, "<>9__4_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c>())) {}
+ GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c>::get(),
@@ -677,8 +684,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingE
 constexpr GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::__get_encryptionState() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__EncryptionUtility__IEncryptionState, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0>())) {}
+ GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0 GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0>::get(),
@@ -906,8 +915,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, port, encryptionState);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList>())) {}
+ GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PacketEncryptionLayer__PendingEncryptionStateList>::get(),
@@ -1634,8 +1645,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "timeProvider", ty: "BGNet::Core::ITimeProvider", modifiers: "", def_value: None }, CppParam { name: "taskUtility", ty: "BGNet::Core::ITaskUtility", modifiers: "", def_value: None }]
- GlobalNamespace::PacketEncryptionLayer::PacketEncryptionLayer(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  : LiteNetLib::Layers::PacketLayerBase(THROW_UNLESS(::il2cpp_utils::New<PacketEncryptionLayer>(timeProvider, taskUtility))) {}
+ GlobalNamespace::PacketEncryptionLayer GlobalNamespace::PacketEncryptionLayer::New_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  {
+GlobalNamespace::PacketEncryptionLayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PacketEncryptionLayer>(timeProvider, taskUtility))};
+return o;
+}
  void GlobalNamespace::PacketEncryptionLayer::_ctor(BGNet::Core::ITimeProvider timeProvider, BGNet::Core::ITaskUtility taskUtility)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PacketEncryptionLayer>::get(),

@@ -1,11 +1,11 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Chacha20Poly1305_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ChaCha7539Engine_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305._ctor
 template<>
 
@@ -233,8 +233,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::__set_decryptIV
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::__get_decryptIV() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::Chacha20Poly1305(Org::BouncyCastle::Crypto::Tls::TlsContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Chacha20Poly1305>(context))) {}
+ Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305 Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context)  {
+Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305>(context))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305::_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305>::get(),

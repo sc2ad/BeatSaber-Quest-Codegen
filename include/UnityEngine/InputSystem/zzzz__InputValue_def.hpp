@@ -1,12 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputAction__CallbackContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -78,8 +78,7 @@ template<typename TValue>
 /// @brief Method get_isPressed addr 0x2929724 size 0x7c virtual false final false
  bool get_isPressed() ;
 
-// Ctor Parameters []
-explicit InputValue() ;
+static UnityEngine::InputSystem::InputValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x29297a0 size 0x8 virtual false final false
  void _ctor() ;

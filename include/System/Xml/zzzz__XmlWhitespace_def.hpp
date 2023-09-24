@@ -3,13 +3,13 @@
 #include "System/Xml/zzzz__XmlCharacterData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-struct XmlNodeType;
+class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -72,8 +72,7 @@ constexpr explicit XmlWhitespace(void* ptr) noexcept : System::Xml::XmlCharacter
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "strData", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlWhitespace(::StringW strData, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlWhitespace New_ctor(::StringW strData, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f9558 size 0xa4 virtual false final false
  void _ctor(::StringW strData, System::Xml::XmlDocument doc) ;

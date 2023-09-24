@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__SequencedChannel_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 //  Writing Method size for method: LiteNetLib::SequencedChannel._ctor
 template<>
 
@@ -102,8 +102,10 @@ constexpr void LiteNetLib::SequencedChannel::__set__lastPacketSendTime(int64_t v
 constexpr int64_t LiteNetLib::SequencedChannel::__get__lastPacketSendTime() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }, CppParam { name: "reliable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "id", ty: "uint8_t", modifiers: "", def_value: None }]
- LiteNetLib::SequencedChannel::SequencedChannel(LiteNetLib::NetPeer peer, bool reliable, uint8_t id)  : LiteNetLib::BaseChannel(THROW_UNLESS(::il2cpp_utils::New<SequencedChannel>(peer, reliable, id))) {}
+ LiteNetLib::SequencedChannel LiteNetLib::SequencedChannel::New_ctor(LiteNetLib::NetPeer peer, bool reliable, uint8_t id)  {
+LiteNetLib::SequencedChannel o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::SequencedChannel>(peer, reliable, id))};
+return o;
+}
  void LiteNetLib::SequencedChannel::_ctor(LiteNetLib::NetPeer peer, bool reliable, uint8_t id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::SequencedChannel>::get(),

@@ -4,21 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
 namespace UnityEngine {
 class MeshRenderer;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 class NoteControllerBase;
@@ -26,11 +16,21 @@ class NoteControllerBase;
 namespace GlobalNamespace {
 class ColorManager;
 }
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -178,8 +178,7 @@ constexpr UnityEngine::Color __get__noteColor() const;
 /// @brief Method HandleNoteControllerNoteDidStartDissolving addr 0x223b7d4 size 0x20 virtual true final true
  void HandleNoteControllerNoteDidStartDissolving(GlobalNamespace::NoteControllerBase noteController, float_t duration) ;
 
-// Ctor Parameters []
-explicit ColorNoteVisuals() ;
+static GlobalNamespace::ColorNoteVisuals New_ctor() ;
 
 /// @brief Method .ctor addr 0x223b7f4 size 0x10 virtual false final false
  void _ctor() ;

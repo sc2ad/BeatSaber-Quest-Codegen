@@ -1,29 +1,29 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfoParser;
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfoParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SequenceParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -103,8 +103,7 @@ constexpr bool __get_originatorInfoCalled() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
-explicit AuthenticatedDataParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
+static Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;
 
 /// @brief Method .ctor addr 0xde5c90 size 0x124 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq) ;

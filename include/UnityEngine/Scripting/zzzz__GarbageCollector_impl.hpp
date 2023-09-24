@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Scripting/zzzz__GarbageCollector_def.hpp"
+#include "UnityEngine/Scripting/zzzz__GarbageCollector_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Scripting::UnityEngine__Scripting__GarbageCollector__Mode::UnityEngine__Scripting__GarbageCollector__Mode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;

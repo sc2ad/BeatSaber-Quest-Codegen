@@ -67,8 +67,7 @@ constexpr GlobalNamespace::SaberType __get__saberType() const;
 /// @brief Method get_saberType addr 0x210c9d8 size 0x8 virtual false final false
  GlobalNamespace::SaberType get_saberType() ;
 
-// Ctor Parameters []
-explicit SaberTypeObject() ;
+static GlobalNamespace::SaberTypeObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c9e0 size 0x8 virtual false final false
  void _ctor() ;

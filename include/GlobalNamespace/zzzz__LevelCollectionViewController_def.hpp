@@ -8,14 +8,20 @@
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace GlobalNamespace {
-class AdditionalContentModel;
+namespace UnityEngine {
+class Sprite;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class AudioClipAsyncLoader;
+class PerceivedLoudnessPerLevelModel;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 template<typename T>
@@ -25,39 +31,39 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0;
+}
+namespace GlobalNamespace {
 class LevelCollectionTableView;
+}
+namespace GlobalNamespace {
+class AudioClipAsyncLoader;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class AdditionalContentModel;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace GlobalNamespace {
-class SongPreviewPlayer;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace UnityEngine {
-class AudioClip;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace UnityEngine {
+class AudioClip;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -129,8 +135,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get_level() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0() ;
+static GlobalNamespace::GlobalNamespace__LevelCollectionViewController____c__DisplayClass24_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2166574 size 0x8 virtual false final false
  void _ctor() ;
@@ -409,8 +414,7 @@ constexpr GlobalNamespace::IPreviewBeatmapLevel __get__previewBeatmapLevelToBeSe
 /// @brief Method HandleAdditionalContentModelDidInvalidateData addr 0x2166548 size 0x1c virtual false final false
  void HandleAdditionalContentModelDidInvalidateData() ;
 
-// Ctor Parameters []
-explicit LevelCollectionViewController() ;
+static GlobalNamespace::LevelCollectionViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2166564 size 0x10 virtual false final false
  void _ctor() ;

@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
+#include "System/Threading/zzzz__SpinLock_def.hpp"
 //  Writing Method size for method: System::Threading::SpinLock._ctor
 template<>
 

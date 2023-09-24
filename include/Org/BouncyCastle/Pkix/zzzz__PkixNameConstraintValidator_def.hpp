@@ -14,16 +14,16 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
+class GeneralSubtree;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralSubtree;
+class OtherName;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class OtherName;
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -152,8 +152,7 @@ constexpr Org::BouncyCastle::Utilities::Collections::ISet __get_permittedSubtree
 
 // Methods
 
-// Ctor Parameters []
-explicit PkixNameConstraintValidator() ;
+static Org::BouncyCastle::Pkix::PkixNameConstraintValidator New_ctor() ;
 
 /// @brief Method .ctor addr 0x106aa54 size 0xf4 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidCompensateRotationProcessor_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor.Process
 template<>
 
@@ -46,8 +46,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Quaternion, false>(const_cast<void*>(instance), ___internal_method, value, control);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::AndroidCompensateRotationProcessor()  : UnityEngine::InputSystem::Processors::CompensateRotationProcessor(THROW_UNLESS(::il2cpp_utils::New<AndroidCompensateRotationProcessor>())) {}
+ UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::New_ctor()  {
+UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor>::get(),

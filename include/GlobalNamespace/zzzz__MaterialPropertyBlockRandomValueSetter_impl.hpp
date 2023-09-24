@@ -160,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MaterialPropertyBlockRandomValueSetter::MaterialPropertyBlockRandomValueSetter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MaterialPropertyBlockRandomValueSetter>())) {}
+ GlobalNamespace::MaterialPropertyBlockRandomValueSetter GlobalNamespace::MaterialPropertyBlockRandomValueSetter::New_ctor()  {
+GlobalNamespace::MaterialPropertyBlockRandomValueSetter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MaterialPropertyBlockRandomValueSetter>())};
+return o;
+}
  void GlobalNamespace::MaterialPropertyBlockRandomValueSetter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MaterialPropertyBlockRandomValueSetter>::get(),

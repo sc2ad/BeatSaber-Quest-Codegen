@@ -80,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pow, output);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator::BasicGcmExponentiator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicGcmExponentiator>())) {}
+ Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator::New_ctor()  {
+Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator>::get(),

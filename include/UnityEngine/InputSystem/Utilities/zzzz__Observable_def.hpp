@@ -2,30 +2,34 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System {
-class IDisposable;
+template<typename T>
+class IObservable_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace System {
-template<typename T>
-class IObservable_1;
+class IDisposable;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+class UnityEngine__InputSystem__Utilities__Observable____c__DisplayClass6_0_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -173,8 +177,7 @@ constexpr System::IDisposable __get_subscription() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__Observable____c__DisplayClass6_0_1() ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__Observable____c__DisplayClass6_0_1<TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::TooltipEvent::TooltipEvent()  : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::TooltipEvent>(THROW_UNLESS(::il2cpp_utils::New<TooltipEvent>())) {}
+ UnityEngine::UIElements::TooltipEvent UnityEngine::UIElements::TooltipEvent::New_ctor()  {
+UnityEngine::UIElements::TooltipEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TooltipEvent>())};
+return o;
+}
  void UnityEngine::UIElements::TooltipEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TooltipEvent>::get(),

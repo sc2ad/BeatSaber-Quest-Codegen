@@ -106,8 +106,10 @@ constexpr void System::Text::InternalDecoderBestFitFallback::__set__cReplacement
 constexpr char16_t System::Text::InternalDecoderBestFitFallback::__get__cReplacement() const {
 return ::cordl_internals::getInstanceField<char16_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Text::InternalDecoderBestFitFallback::InternalDecoderBestFitFallback(System::Text::Encoding encoding)  : System::Text::DecoderFallback(THROW_UNLESS(::il2cpp_utils::New<InternalDecoderBestFitFallback>(encoding))) {}
+ System::Text::InternalDecoderBestFitFallback System::Text::InternalDecoderBestFitFallback::New_ctor(System::Text::Encoding encoding)  {
+System::Text::InternalDecoderBestFitFallback o{THROW_UNLESS(::il2cpp_utils::New<System::Text::InternalDecoderBestFitFallback>(encoding))};
+return o;
+}
  void System::Text::InternalDecoderBestFitFallback::_ctor(System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::InternalDecoderBestFitFallback>::get(),

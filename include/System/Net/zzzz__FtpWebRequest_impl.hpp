@@ -3,33 +3,32 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Net/zzzz__FtpWebRequest_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Net/zzzz__ContextAwareResult_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Net/zzzz__FtpWebResponse_def.hpp"
-#include "System/Net/zzzz__TimerThread_def.hpp"
-#include "System/Net/zzzz__FtpMethodInfo_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Net/zzzz__CloseExState_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
-#include "System/Net/zzzz__NetworkCredential_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/zzzz__LazyAsyncResult_def.hpp"
-#include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Net/zzzz__FtpControlStream_def.hpp"
+#include "System/Net/zzzz__TimerThread_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/zzzz__TimerThread_def.hpp"
-#include "System/Net/zzzz__TimerThread_def.hpp"
+#include "System/Net/zzzz__CloseExState_def.hpp"
+#include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/Net/zzzz__FtpWebRequest_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
+#include "System/Net/zzzz__ContextAwareResult_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__FtpWebResponse_def.hpp"
+#include "System/Net/zzzz__FtpMethodInfo_def.hpp"
+#include "System/Net/zzzz__LazyAsyncResult_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/Net/zzzz__WebResponse_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/Net/zzzz__FtpControlStream_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr System::Net::System__Net__FtpWebRequest__RequestStage::System__Net__FtpWebRequest__RequestStage(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -183,8 +182,10 @@ return ::cordl_internals::getStaticField<System::Net::System__Net__FtpWebRequest
  System::Func_1<System::Security::Cryptography::X509Certificates::X509CertificateCollection> System::Net::System__Net__FtpWebRequest____c::__get___9__114_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<System::Security::Cryptography::X509Certificates::X509CertificateCollection>, "<>9__114_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__FtpWebRequest____c>::get>();
 }
-// Ctor Parameters []
- System::Net::System__Net__FtpWebRequest____c::System__Net__FtpWebRequest____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__FtpWebRequest____c>())) {}
+ System::Net::System__Net__FtpWebRequest____c System::Net::System__Net__FtpWebRequest____c::New_ctor()  {
+System::Net::System__Net__FtpWebRequest____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__FtpWebRequest____c>())};
+return o;
+}
  void System::Net::System__Net__FtpWebRequest____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__FtpWebRequest____c>::get(),
@@ -1425,8 +1426,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::Net::FtpWebRequest::FtpWebRequest(System::Uri uri)  : System::Net::WebRequest(THROW_UNLESS(::il2cpp_utils::New<FtpWebRequest>(uri))) {}
+ System::Net::FtpWebRequest System::Net::FtpWebRequest::New_ctor(System::Uri uri)  {
+System::Net::FtpWebRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FtpWebRequest>(uri))};
+return o;
+}
  void System::Net::FtpWebRequest::_ctor(System::Uri uri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FtpWebRequest>::get(),

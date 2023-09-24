@@ -47,8 +47,7 @@ constexpr explicit AbstractFpFieldElement(void* ptr) noexcept : Org::BouncyCastl
 
 // Methods
 
-// Ctor Parameters []
-explicit AbstractFpFieldElement() ;
+static Org::BouncyCastle::Math::EC::AbstractFpFieldElement New_ctor() ;
 
 /// @brief Method .ctor addr 0xf416d0 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
-#include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedKey_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions.GetInstance
 template<>
 
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::PkiArchiveOptions(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiArchiveOptions>(tagged))) {}
+ Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
+Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>(tagged))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>::get(),
@@ -173,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tagged);
 }
-// Ctor Parameters [CppParam { name: "encKey", ty: "Org::BouncyCastle::Asn1::Crmf::EncryptedKey", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::PkiArchiveOptions(Org::BouncyCastle::Asn1::Crmf::EncryptedKey encKey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiArchiveOptions>(encKey))) {}
+ Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::New_ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedKey encKey)  {
+Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>(encKey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedKey encKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>::get(),
@@ -184,8 +188,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encKey);
 }
-// Ctor Parameters [CppParam { name: "keyGenParameters", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::PkiArchiveOptions(Org::BouncyCastle::Asn1::Asn1OctetString keyGenParameters)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiArchiveOptions>(keyGenParameters))) {}
+ Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString keyGenParameters)  {
+Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>(keyGenParameters))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor(Org::BouncyCastle::Asn1::Asn1OctetString keyGenParameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>::get(),
@@ -195,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyGenParameters);
 }
-// Ctor Parameters [CppParam { name: "archiveRemGenPrivKey", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::PkiArchiveOptions(bool archiveRemGenPrivKey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiArchiveOptions>(archiveRemGenPrivKey))) {}
+ Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::New_ctor(bool archiveRemGenPrivKey)  {
+Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>(archiveRemGenPrivKey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor(bool archiveRemGenPrivKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions>::get(),

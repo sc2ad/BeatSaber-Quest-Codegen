@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetBlocksBladeSaberGlowColor_def.hpp"
-#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
+#include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__BlocksBlade_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SetBlocksBladeSaberGlowColor.Start
 template<>
@@ -65,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SetBlocksBladeSaberGlowColor::SetBlocksBladeSaberGlowColor()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SetBlocksBladeSaberGlowColor>())) {}
+ GlobalNamespace::SetBlocksBladeSaberGlowColor GlobalNamespace::SetBlocksBladeSaberGlowColor::New_ctor()  {
+GlobalNamespace::SetBlocksBladeSaberGlowColor o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SetBlocksBladeSaberGlowColor>())};
+return o;
+}
  void GlobalNamespace::SetBlocksBladeSaberGlowColor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SetBlocksBladeSaberGlowColor>::get(),

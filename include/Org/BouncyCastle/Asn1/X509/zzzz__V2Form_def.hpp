@@ -3,22 +3,22 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class ObjectDigestInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
+class ObjectDigestInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class IssuerSerial;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -102,32 +102,27 @@ static Org::BouncyCastle::Asn1::X509::V2Form GetInstance(Org::BouncyCastle::Asn1
 /// @brief Method GetInstance addr 0x11110b4 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::X509::V2Form GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "issuerName", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
-explicit V2Form(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName) ;
+static Org::BouncyCastle::Asn1::X509::V2Form New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName) ;
 
 /// @brief Method .ctor addr 0x1111388 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName) ;
 
-// Ctor Parameters [CppParam { name: "issuerName", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "baseCertificateID", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }]
-explicit V2Form(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID) ;
+static Org::BouncyCastle::Asn1::X509::V2Form New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID) ;
 
 /// @brief Method .ctor addr 0x11113f0 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID) ;
 
-// Ctor Parameters [CppParam { name: "issuerName", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "objectDigestInfo", ty: "Org::BouncyCastle::Asn1::X509::ObjectDigestInfo", modifiers: "", def_value: None }]
-explicit V2Form(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
+static Org::BouncyCastle::Asn1::X509::V2Form New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
 
 /// @brief Method .ctor addr 0x1111420 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
 
-// Ctor Parameters [CppParam { name: "issuerName", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }, CppParam { name: "baseCertificateID", ty: "Org::BouncyCastle::Asn1::X509::IssuerSerial", modifiers: "", def_value: None }, CppParam { name: "objectDigestInfo", ty: "Org::BouncyCastle::Asn1::X509::ObjectDigestInfo", modifiers: "", def_value: None }]
-explicit V2Form(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
+static Org::BouncyCastle::Asn1::X509::V2Form New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
 
 /// @brief Method .ctor addr 0x11113b4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames issuerName, Org::BouncyCastle::Asn1::X509::IssuerSerial baseCertificateID, Org::BouncyCastle::Asn1::X509::ObjectDigestInfo objectDigestInfo) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit V2Form(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::V2Form New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x1111158 size 0x230 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

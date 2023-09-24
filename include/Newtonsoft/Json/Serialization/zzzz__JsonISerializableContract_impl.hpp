@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonISerializableContract::JsonISerializableContract(System::Type underlyingType)  : Newtonsoft::Json::Serialization::JsonContainerContract(THROW_UNLESS(::il2cpp_utils::New<JsonISerializableContract>(underlyingType))) {}
+ Newtonsoft::Json::Serialization::JsonISerializableContract Newtonsoft::Json::Serialization::JsonISerializableContract::New_ctor(System::Type underlyingType)  {
+Newtonsoft::Json::Serialization::JsonISerializableContract o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonISerializableContract>(underlyingType))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonISerializableContract::_ctor(System::Type underlyingType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonISerializableContract>::get(),

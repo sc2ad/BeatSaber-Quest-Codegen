@@ -243,8 +243,10 @@ constexpr void System::Threading::ReaderWriterLock::__set_reader_locks(System::C
 constexpr System::Collections::Hashtable System::Threading::ReaderWriterLock::__get_reader_locks() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::ReaderWriterLock::ReaderWriterLock()  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<ReaderWriterLock>())) {}
+ System::Threading::ReaderWriterLock System::Threading::ReaderWriterLock::New_ctor()  {
+System::Threading::ReaderWriterLock o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ReaderWriterLock>())};
+return o;
+}
  void System::Threading::ReaderWriterLock::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ReaderWriterLock>::get(),

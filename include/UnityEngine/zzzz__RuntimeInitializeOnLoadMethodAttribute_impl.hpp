@@ -59,8 +59,10 @@ constexpr void UnityEngine::RuntimeInitializeOnLoadMethodAttribute::__set_m_Load
 constexpr UnityEngine::RuntimeInitializeLoadType UnityEngine::RuntimeInitializeOnLoadMethodAttribute::__get_m_LoadType() const {
 return ::cordl_internals::getInstanceField<UnityEngine::RuntimeInitializeLoadType, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::RuntimeInitializeOnLoadMethodAttribute::RuntimeInitializeOnLoadMethodAttribute()  : UnityEngine::Scripting::PreserveAttribute(THROW_UNLESS(::il2cpp_utils::New<RuntimeInitializeOnLoadMethodAttribute>())) {}
+ UnityEngine::RuntimeInitializeOnLoadMethodAttribute UnityEngine::RuntimeInitializeOnLoadMethodAttribute::New_ctor()  {
+UnityEngine::RuntimeInitializeOnLoadMethodAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RuntimeInitializeOnLoadMethodAttribute>())};
+return o;
+}
  void UnityEngine::RuntimeInitializeOnLoadMethodAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RuntimeInitializeOnLoadMethodAttribute>::get(),
@@ -70,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "loadType", ty: "UnityEngine::RuntimeInitializeLoadType", modifiers: "", def_value: None }]
- UnityEngine::RuntimeInitializeOnLoadMethodAttribute::RuntimeInitializeOnLoadMethodAttribute(UnityEngine::RuntimeInitializeLoadType loadType)  : UnityEngine::Scripting::PreserveAttribute(THROW_UNLESS(::il2cpp_utils::New<RuntimeInitializeOnLoadMethodAttribute>(loadType))) {}
+ UnityEngine::RuntimeInitializeOnLoadMethodAttribute UnityEngine::RuntimeInitializeOnLoadMethodAttribute::New_ctor(UnityEngine::RuntimeInitializeLoadType loadType)  {
+UnityEngine::RuntimeInitializeOnLoadMethodAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RuntimeInitializeOnLoadMethodAttribute>(loadType))};
+return o;
+}
  void UnityEngine::RuntimeInitializeOnLoadMethodAttribute::_ctor(UnityEngine::RuntimeInitializeLoadType loadType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RuntimeInitializeOnLoadMethodAttribute>::get(),

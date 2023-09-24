@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::OcspException::OcspException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<OcspException>())) {}
+ Org::BouncyCastle::Ocsp::OcspException Org::BouncyCastle::Ocsp::OcspException::New_ctor()  {
+Org::BouncyCastle::Ocsp::OcspException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspException>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspException::OcspException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<OcspException>(message))) {}
+ Org::BouncyCastle::Ocsp::OcspException Org::BouncyCastle::Ocsp::OcspException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Ocsp::OcspException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspException>(message))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Ocsp::OcspException::OcspException(::StringW message, System::Exception e)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<OcspException>(message, e))) {}
+ Org::BouncyCastle::Ocsp::OcspException Org::BouncyCastle::Ocsp::OcspException::New_ctor(::StringW message, System::Exception e)  {
+Org::BouncyCastle::Ocsp::OcspException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::OcspException>(message, e))};
+return o;
+}
  void Org::BouncyCastle::Ocsp::OcspException::_ctor(::StringW message, System::Exception e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::OcspException>::get(),

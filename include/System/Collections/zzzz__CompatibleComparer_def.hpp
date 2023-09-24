@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections {
 class IEqualityComparer;
 }
 namespace System::Collections {
 class IHashCodeProvider;
-}
-namespace System::Collections {
-class IComparer;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -82,8 +82,7 @@ constexpr System::Collections::IComparer __get__comparer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "hashCodeProvider", ty: "System::Collections::IHashCodeProvider", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::IComparer", modifiers: "", def_value: None }]
-explicit CompatibleComparer(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer) ;
+static System::Collections::CompatibleComparer New_ctor(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer) ;
 
 /// @brief Method .ctor addr 0x240fd70 size 0x2c virtual false final false
  void _ctor(System::Collections::IHashCodeProvider hashCodeProvider, System::Collections::IComparer comparer) ;

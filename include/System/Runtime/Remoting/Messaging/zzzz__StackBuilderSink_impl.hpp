@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Remoting/Messaging/zzzz__StackBuilderSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
+#include "System/zzzz__MarshalByRefObject_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::Messaging::StackBuilderSink._ctor
 template<>
 
@@ -123,8 +123,10 @@ constexpr void System::Runtime::Remoting::Messaging::StackBuilderSink::__set__rp
 constexpr System::Runtime::Remoting::Proxies::RealProxy System::Runtime::Remoting::Messaging::StackBuilderSink::__get__rp() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Remoting::Proxies::RealProxy, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "System::MarshalByRefObject", modifiers: "", def_value: None }, CppParam { name: "forceInternalExecute", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::StackBuilderSink::StackBuilderSink(System::MarshalByRefObject obj, bool forceInternalExecute)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<StackBuilderSink>(obj, forceInternalExecute))) {}
+ System::Runtime::Remoting::Messaging::StackBuilderSink System::Runtime::Remoting::Messaging::StackBuilderSink::New_ctor(System::MarshalByRefObject obj, bool forceInternalExecute)  {
+System::Runtime::Remoting::Messaging::StackBuilderSink o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::StackBuilderSink>(obj, forceInternalExecute))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::StackBuilderSink::_ctor(System::MarshalByRefObject obj, bool forceInternalExecute)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::StackBuilderSink>::get(),

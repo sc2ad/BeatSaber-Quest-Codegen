@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpSignatureSubpacketVector_def.hpp"
+#include "Org/BouncyCastle/Bcpg/Sig/zzzz__NotationData_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__Features_def.hpp"
-#include "Org/BouncyCastle/Bcpg/Sig/zzzz__NotationData_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector._ctor
 template<>
 
@@ -385,8 +385,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::__
 constexpr ::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::__get_packets() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "packets", ty: "::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::PgpSignatureSubpacketVector(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpSignatureSubpacketVector>(packets))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::New_ctor(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector>(packets))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector::_ctor(::ArrayW<Org::BouncyCastle::Bcpg::SignatureSubpacket> packets)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector>::get(),

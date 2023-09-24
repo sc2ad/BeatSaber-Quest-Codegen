@@ -3,10 +3,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace TMPro {
-struct TagValueType;
+struct TagUnitType;
 }
 namespace TMPro {
-struct TagUnitType;
+struct TagValueType;
 }
 // Forward declare root types
 namespace TMPro {

@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__AnimationPreviewUpdateCallback_def.hpp"
-#include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::AnimationPreviewUpdateCallback._ctor
 template<>
 
@@ -78,8 +78,10 @@ constexpr void UnityEngine::Timeline::AnimationPreviewUpdateCallback::__set_m_Pr
 constexpr System::Collections::Generic::List_1<UnityEngine::Animations::IAnimationWindowPreview> UnityEngine::Timeline::AnimationPreviewUpdateCallback::__get_m_PreviewComponents() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<UnityEngine::Animations::IAnimationWindowPreview>, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "output", ty: "UnityEngine::Animations::AnimationPlayableOutput", modifiers: "", def_value: None }]
- UnityEngine::Timeline::AnimationPreviewUpdateCallback::AnimationPreviewUpdateCallback(UnityEngine::Animations::AnimationPlayableOutput output)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnimationPreviewUpdateCallback>(output))) {}
+ UnityEngine::Timeline::AnimationPreviewUpdateCallback UnityEngine::Timeline::AnimationPreviewUpdateCallback::New_ctor(UnityEngine::Animations::AnimationPlayableOutput output)  {
+UnityEngine::Timeline::AnimationPreviewUpdateCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AnimationPreviewUpdateCallback>(output))};
+return o;
+}
  void UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor(UnityEngine::Animations::AnimationPlayableOutput output)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AnimationPreviewUpdateCallback>::get(),

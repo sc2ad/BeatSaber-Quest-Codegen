@@ -4,16 +4,16 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
 class Rigidbody;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Bounds;
 }
 namespace UnityEngine {
 struct RaycastHit;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Ray;

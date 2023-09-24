@@ -77,8 +77,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, mesh);
 }
-// Ctor Parameters []
- HoudiniEngineUnity::HEU_MeshIndexFormat::HEU_MeshIndexFormat()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_MeshIndexFormat>())) {}
+ HoudiniEngineUnity::HEU_MeshIndexFormat HoudiniEngineUnity::HEU_MeshIndexFormat::New_ctor()  {
+HoudiniEngineUnity::HEU_MeshIndexFormat o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_MeshIndexFormat>())};
+return o;
+}
  void HoudiniEngineUnity::HEU_MeshIndexFormat::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_MeshIndexFormat>::get(),

@@ -3,19 +3,19 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
+class XmlSchemaAnyAttribute;
+}
+namespace System::Xml::Schema {
 struct XmlSchemaDerivationMethod;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaContentProcessing;
 }
 namespace System::Xml::Schema {
-class XmlSchemaParticle;
-}
-namespace System::Xml::Schema {
-class XmlSchemaAnyAttribute;
-}
-namespace System::Xml::Schema {
 class ContentValidator;
+}
+namespace System::Xml::Schema {
+class XmlSchemaParticle;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -122,8 +122,7 @@ static System::Xml::Schema::ContentValidator __declspec(property(get=get_AnyType
 /// @brief Method CreateAnyType addr 0x2733b44 size 0x2e4 virtual false final false
 static System::Xml::Schema::XmlSchemaComplexType CreateAnyType(System::Xml::Schema::XmlSchemaContentProcessing processContents) ;
 
-// Ctor Parameters []
-explicit XmlSchemaComplexType() ;
+static System::Xml::Schema::XmlSchemaComplexType New_ctor() ;
 
 /// @brief Method .ctor addr 0x2733e28 size 0x6c virtual false final false
  void _ctor() ;

@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionSetupExtensions_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputActionType_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionSetupExtensions_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionType_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions__BindingSyntax.get_valid
 template<>
 
@@ -1184,8 +1184,10 @@ constexpr void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSe
 constexpr UnityEngine::InputSystem::InputBinding UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0::__get_binding() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::InputBinding, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0>())) {}
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0 UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0::New_ctor()  {
+UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0>())};
+return o;
+}
  void UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0>::get(),

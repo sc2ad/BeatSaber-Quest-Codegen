@@ -55,8 +55,7 @@ constexpr explicit ConnectionManagementSection(void* ptr) noexcept : System::Con
 
 // Methods
 
-// Ctor Parameters []
-explicit ConnectionManagementSection() ;
+static System::Net::Configuration::ConnectionManagementSection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b227c size 0x38 virtual false final false
  void _ctor() ;

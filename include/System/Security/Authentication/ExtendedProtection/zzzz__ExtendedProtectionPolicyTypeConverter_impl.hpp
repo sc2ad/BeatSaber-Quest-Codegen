@@ -1,9 +1,9 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicyTypeConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter.CanConvertTo
 template<>
 
@@ -73,8 +73,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, context, culture, value, destinationType);
 }
-// Ctor Parameters []
- System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::ExtendedProtectionPolicyTypeConverter()  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<ExtendedProtectionPolicyTypeConverter>())) {}
+ System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::New_ctor()  {
+System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter>())};
+return o;
+}
  void System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter>::get(),

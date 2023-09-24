@@ -3,11 +3,11 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Apache::Bzip2 {
-class CRC;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Apache::Bzip2 {
+class CRC;
 }
 namespace System::IO {
 struct SeekOrigin;
@@ -332,8 +332,7 @@ static void CompressedStreamEOF() ;
 /// @brief Method MakeMaps addr 0x10fd508 size 0x8c virtual false final false
  void MakeMaps() ;
 
-// Ctor Parameters [CppParam { name: "zStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CBZip2InputStream(System::IO::Stream zStream) ;
+static Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream New_ctor(System::IO::Stream zStream) ;
 
 /// @brief Method .ctor addr 0x10fd594 size 0x1bc virtual false final false
  void _ctor(System::IO::Stream zStream) ;

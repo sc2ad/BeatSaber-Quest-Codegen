@@ -6,10 +6,10 @@
 #include <cstddef>
 #include <cstdint>
 namespace ENet {
-struct PeerState;
+struct Packet;
 }
 namespace ENet {
-struct Packet;
+struct PeerState;
 }
 // Forward declare root types
 namespace ENet {

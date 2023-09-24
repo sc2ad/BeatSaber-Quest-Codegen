@@ -113,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fullTypeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hasTypeForwardedFrom", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::Serialization::Formatters::Binary::TypeInformation::TypeInformation(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TypeInformation>(fullTypeName, assemblyString, hasTypeForwardedFrom))) {}
+ System::Runtime::Serialization::Formatters::Binary::TypeInformation System::Runtime::Serialization::Formatters::Binary::TypeInformation::New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom)  {
+System::Runtime::Serialization::Formatters::Binary::TypeInformation o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::TypeInformation>(fullTypeName, assemblyString, hasTypeForwardedFrom))};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::TypeInformation::_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::TypeInformation>::get(),

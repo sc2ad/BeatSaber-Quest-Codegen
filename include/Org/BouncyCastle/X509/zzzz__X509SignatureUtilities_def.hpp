@@ -2,9 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Null;
-}
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
 }
@@ -12,10 +9,13 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Null;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -81,8 +81,7 @@ static ::StringW GetSignatureName(Org::BouncyCastle::Asn1::X509::AlgorithmIdenti
 /// @brief Method GetDigestAlgName addr 0x10f4e1c size 0x370 virtual false final false
 static ::StringW GetDigestAlgName(Org::BouncyCastle::Asn1::DerObjectIdentifier digestAlgOID) ;
 
-// Ctor Parameters []
-explicit X509SignatureUtilities() ;
+static Org::BouncyCastle::X509::X509SignatureUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10f5204 size 0x8 virtual false final false
  void _ctor() ;

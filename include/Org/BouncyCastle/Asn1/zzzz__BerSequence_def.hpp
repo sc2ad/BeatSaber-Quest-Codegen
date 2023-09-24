@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequence_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1EncodableVector;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -69,26 +69,22 @@ static Org::BouncyCastle::Asn1::BerSequence __get_Empty() ;
 /// @brief Method FromVector addr 0x112f394 size 0x8c virtual false final false
 static Org::BouncyCastle::Asn1::BerSequence FromVector(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
-// Ctor Parameters []
-explicit BerSequence() ;
+static Org::BouncyCastle::Asn1::BerSequence New_ctor() ;
 
 /// @brief Method .ctor addr 0x1132ca4 size 0x54 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "element", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit BerSequence(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
+static Org::BouncyCastle::Asn1::BerSequence New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
 /// @brief Method .ctor addr 0x112d214 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Encodable element) ;
 
-// Ctor Parameters [CppParam { name: "elements", ty: "::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable>", modifiers: "", def_value: None }]
-explicit BerSequence(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
+static Org::BouncyCastle::Asn1::BerSequence New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
 /// @brief Method .ctor addr 0x1132cf8 size 0x64 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable> elements) ;
 
-// Ctor Parameters [CppParam { name: "elementVector", ty: "Org::BouncyCastle::Asn1::Asn1EncodableVector", modifiers: "", def_value: None }]
-explicit BerSequence(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
+static Org::BouncyCastle::Asn1::BerSequence New_ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;
 
 /// @brief Method .ctor addr 0x1132c40 size 0x64 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1EncodableVector elementVector) ;

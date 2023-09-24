@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRDeserialize_def.hpp"
+#include "GlobalNamespace/zzzz__OVRDeserialize_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 // Ctor Parameters [CppParam { name: "FromRefreshRate", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ToRefreshRate", ty: "float_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__OVRDeserialize__DisplayRefreshRateChangedData::GlobalNamespace__OVRDeserialize__DisplayRefreshRateChangedData(float_t FromRefreshRate, float_t ToRefreshRate) noexcept : ::bs_hook::ValueTypeWrapper() {this->FromRefreshRate = FromRefreshRate;

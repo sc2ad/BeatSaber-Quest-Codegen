@@ -1,12 +1,12 @@
 #pragma once
 #include "HMUI/zzzz__SegmentedControl_impl.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
+#include "HMUI/zzzz__TextSegmentedControlCell_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "HMUI/zzzz__TextSegmentedControlCell_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "HMUI/zzzz__SegmentedControlCell_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "HMUI/zzzz__SegmentedControlCell_def.hpp"
 //  Writing Method size for method: HMUI::TextSegmentedControl.SetTexts
 template<>
 
@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HMUI::TextSegmentedControlCell, false>(const_cast<void*>(instance), ___internal_method, prefab);
 }
-// Ctor Parameters []
- HMUI::TextSegmentedControl::TextSegmentedControl()  : HMUI::SegmentedControl(THROW_UNLESS(::il2cpp_utils::New<TextSegmentedControl>())) {}
+ HMUI::TextSegmentedControl HMUI::TextSegmentedControl::New_ctor()  {
+HMUI::TextSegmentedControl o{THROW_UNLESS(::il2cpp_utils::New<HMUI::TextSegmentedControl>())};
+return o;
+}
  void HMUI::TextSegmentedControl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::TextSegmentedControl>::get(),

@@ -5,15 +5,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::Net {
+struct System__Net__WebRequestStream___ProcessWrite_d__34;
 }
-namespace System::IO {
-class MemoryStream;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Net {
 class WebCompletionSource;
+}
+namespace System::IO {
+class MemoryStream;
 }
 namespace System::Net {
 class BufferOffsetSize;
@@ -25,25 +30,44 @@ namespace System::IO {
 class Stream;
 }
 namespace System::Net {
-class WebConnectionTunnel;
+struct System__Net__WebRequestStream___WriteChunkTrailer_d__40;
+}
+namespace System::Net {
+struct System__Net__WebRequestStream___Initialize_d__36;
+}
+namespace System::Net {
+struct System__Net__WebRequestStream___FinishWriting_d__31;
 }
 namespace System::Net {
 class WebConnection;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Net {
+struct System__Net__WebRequestStream___WriteRequestAsync_d__38;
+}
+namespace System::Net {
+struct System__Net__WebRequestStream___SetHeadersAsync_d__37;
+}
+namespace System::Net {
+struct System__Net__WebRequestStream___WriteAsyncInner_d__33;
+}
+namespace System::Net {
+struct System__Net__WebRequestStream___WriteChunkTrailer_inner_d__39;
 }
 namespace System::Threading::Tasks {
-class Task;
+template<typename TResult>
+class Task_1;
+}
+namespace System::Net {
+class WebConnectionTunnel;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -1033,8 +1057,7 @@ constexpr bool __get__KeepAlive_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connection", ty: "System::Net::WebConnection", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tunnel", ty: "System::Net::WebConnectionTunnel", modifiers: "", def_value: None }]
-explicit WebRequestStream(System::Net::WebConnection connection, System::Net::WebOperation operation, System::IO::Stream stream, System::Net::WebConnectionTunnel tunnel) ;
+static System::Net::WebRequestStream New_ctor(System::Net::WebConnection connection, System::Net::WebOperation operation, System::IO::Stream stream, System::Net::WebConnectionTunnel tunnel) ;
 
 /// @brief Method .ctor addr 0x284ce14 size 0x160 virtual false final false
  void _ctor(System::Net::WebConnection connection, System::Net::WebOperation operation, System::IO::Stream stream, System::Net::WebConnectionTunnel tunnel) ;

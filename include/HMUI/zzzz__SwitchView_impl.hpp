@@ -2,9 +2,9 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SwitchView_def.hpp"
-#include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
+#include "HMUI/zzzz__SwitchView_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__SwitchView__AnimationType::HMUI__SwitchView__AnimationType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -249,8 +249,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::SwitchView::SwitchView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SwitchView>())) {}
+ HMUI::SwitchView HMUI::SwitchView::New_ctor()  {
+HMUI::SwitchView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::SwitchView>())};
+return o;
+}
  void HMUI::SwitchView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::SwitchView>::get(),

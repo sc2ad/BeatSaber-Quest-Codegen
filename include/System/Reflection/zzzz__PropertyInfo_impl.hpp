@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Reflection/zzzz__Binder_def.hpp"
-#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__ParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/Reflection/zzzz__MemberTypes_def.hpp"
 //  Writing Method size for method: System::Reflection::PropertyInfo._ctor
 template<>
 
@@ -331,8 +331,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::PropertyInfo::PropertyInfo()  : System::Reflection::MemberInfo(THROW_UNLESS(::il2cpp_utils::New<PropertyInfo>())) {}
+ System::Reflection::PropertyInfo System::Reflection::PropertyInfo::New_ctor()  {
+System::Reflection::PropertyInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::PropertyInfo>())};
+return o;
+}
  void System::Reflection::PropertyInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::PropertyInfo>::get(),

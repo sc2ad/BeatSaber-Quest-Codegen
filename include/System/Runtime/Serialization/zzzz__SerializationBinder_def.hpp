@@ -58,8 +58,7 @@ constexpr explicit SerializationBinder(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method BindToType addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Type BindToType(::StringW assemblyName, ::StringW typeName) ;
 
-// Ctor Parameters []
-explicit SerializationBinder() ;
+static System::Runtime::Serialization::SerializationBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2348d38 size 0x8 virtual false final false
  void _ctor() ;

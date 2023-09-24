@@ -68,8 +68,7 @@ constexpr ::StringW __get__proof_k__BackingField() const;
 /// @brief Method set_proof addr 0x21d7364 size 0x8 virtual false final false
  void set_proof(::StringW value) ;
 
-// Ctor Parameters []
-explicit ResultProof() ;
+static BeatSaberAPI::DataTransferObjects::ResultProof New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d736c size 0x8 virtual false final false
  void _ctor() ;

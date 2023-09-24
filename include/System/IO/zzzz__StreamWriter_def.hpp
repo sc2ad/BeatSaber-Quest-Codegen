@@ -4,8 +4,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
+namespace System::Text {
+class Encoding;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -14,11 +14,11 @@ namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
-namespace System::Text {
-class Encoder;
+namespace System::IO {
+class Stream;
 }
 namespace System::Text {
-class Encoding;
+class Encoder;
 }
 // Forward declare root types
 namespace System::IO {
@@ -161,50 +161,42 @@ static void ThrowAsyncIOInProgress() ;
 /// @brief Method get_UTF8NoBOM addr 0x239563c size 0x50 virtual false final false
 static System::Text::Encoding get_UTF8NoBOM() ;
 
-// Ctor Parameters []
-explicit StreamWriter() ;
+static System::IO::StreamWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x239568c size 0xbc virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit StreamWriter(System::IO::Stream stream) ;
+static System::IO::StreamWriter New_ctor(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x23957d0 size 0x74 virtual false final false
  void _ctor(System::IO::Stream stream) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
-explicit StreamWriter(System::IO::Stream stream, System::Text::Encoding encoding) ;
+static System::IO::StreamWriter New_ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x2395a5c size 0xc virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize) ;
+static System::IO::StreamWriter New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x2395a68 size 0x8 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize, bool leaveOpen) ;
+static System::IO::StreamWriter New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize, bool leaveOpen) ;
 
 /// @brief Method .ctor addr 0x2395844 size 0x218 virtual false final false
  void _ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize, bool leaveOpen) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
-explicit StreamWriter(::StringW path) ;
+static System::IO::StreamWriter New_ctor(::StringW path) ;
 
 /// @brief Method .ctor addr 0x2395ba8 size 0x74 virtual false final false
  void _ctor(::StringW path) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None }]
-explicit StreamWriter(::StringW path, bool append) ;
+static System::IO::StreamWriter New_ctor(::StringW path, bool append) ;
 
 /// @brief Method .ctor addr 0x2395e6c size 0x78 virtual false final false
  void _ctor(::StringW path, bool append) ;
 
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit StreamWriter(::StringW path, bool append, System::Text::Encoding encoding, int32_t bufferSize) ;
+static System::IO::StreamWriter New_ctor(::StringW path, bool append, System::Text::Encoding encoding, int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x2395c1c size 0x250 virtual false final false
  void _ctor(::StringW path, bool append, System::Text::Encoding encoding, int32_t bufferSize) ;

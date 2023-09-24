@@ -4,30 +4,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::InputSystem::Haptics {
+class IHaptics;
+}
+namespace UnityEngine::InputSystem::Controls {
+class ButtonControl;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
-}
-namespace UnityEngine::InputSystem::Controls {
-class StickControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class DpadControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct GamepadButton;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class DpadControl;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
+class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Haptics {
 struct DualMotorRumble;
 }
-namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+namespace UnityEngine::InputSystem::Controls {
+class StickControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -403,8 +403,7 @@ static UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<UnityEngine::InputSy
 /// @brief Method SetMotorSpeeds addr 0x28d760c size 0x10 virtual true final false
  void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency) ;
 
-// Ctor Parameters []
-explicit Gamepad() ;
+static UnityEngine::InputSystem::Gamepad New_ctor() ;
 
 /// @brief Method .ctor addr 0x28d761c size 0x2c virtual false final false
  void _ctor() ;

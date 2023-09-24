@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 //  Writing Method size for method: UnityEngine::RectOffset._ctor
 template<>
 
@@ -376,8 +376,10 @@ constexpr void UnityEngine::RectOffset::__set_m_SourceStyle(::bs_hook::Il2CppWra
 constexpr ::bs_hook::Il2CppWrapperType UnityEngine::RectOffset::__get_m_SourceStyle() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::RectOffset::RectOffset()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RectOffset>())) {}
+ UnityEngine::RectOffset UnityEngine::RectOffset::New_ctor()  {
+UnityEngine::RectOffset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RectOffset>())};
+return o;
+}
  void UnityEngine::RectOffset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RectOffset>::get(),
@@ -387,8 +389,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sourceStyle", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::RectOffset::RectOffset(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals::intptr_t source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RectOffset>(sourceStyle, source))) {}
+ UnityEngine::RectOffset UnityEngine::RectOffset::New_ctor(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals::intptr_t source)  {
+UnityEngine::RectOffset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RectOffset>(sourceStyle, source))};
+return o;
+}
  void UnityEngine::RectOffset::_ctor(::bs_hook::Il2CppWrapperType sourceStyle, ::cordl_internals::intptr_t source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RectOffset>::get(),
@@ -407,8 +411,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "left", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "top", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bottom", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::RectOffset::RectOffset(int32_t left, int32_t right, int32_t top, int32_t bottom)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RectOffset>(left, right, top, bottom))) {}
+ UnityEngine::RectOffset UnityEngine::RectOffset::New_ctor(int32_t left, int32_t right, int32_t top, int32_t bottom)  {
+UnityEngine::RectOffset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RectOffset>(left, right, top, bottom))};
+return o;
+}
  void UnityEngine::RectOffset::_ctor(int32_t left, int32_t right, int32_t top, int32_t bottom)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RectOffset>::get(),

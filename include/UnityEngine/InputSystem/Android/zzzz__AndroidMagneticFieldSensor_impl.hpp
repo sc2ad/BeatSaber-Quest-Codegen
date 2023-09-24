@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor::AndroidMagneticFieldSensor()  : UnityEngine::InputSystem::MagneticFieldSensor(THROW_UNLESS(::il2cpp_utils::New<AndroidMagneticFieldSensor>())) {}
+ UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor::New_ctor()  {
+UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor>())};
+return o;
+}
  void UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor>::get(),

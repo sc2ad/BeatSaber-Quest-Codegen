@@ -60,8 +60,7 @@ static constexpr uint8_t  heartbeat_response{2u};
 /// @brief Method IsValid addr 0xf04890 size 0x14 virtual false final false
 static bool IsValid(uint8_t heartbeatMessageType) ;
 
-// Ctor Parameters []
-explicit HeartbeatMessageType() ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatMessageType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04d18 size 0x8 virtual false final false
  void _ctor() ;

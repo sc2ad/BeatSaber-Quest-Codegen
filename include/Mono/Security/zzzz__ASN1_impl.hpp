@@ -6,7 +6,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(uint8_t)>(&Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x227f510;
+  constexpr static std::size_t addrs = 0x22b0394;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(uint8_t, ::ArrayW<uint8_t>)>(&Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x227f53c;
+  constexpr static std::size_t addrs = 0x22b03c0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x227f56c;
+  constexpr static std::size_t addrs = 0x22b03f0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::get_Count)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x227f808;
+  constexpr static std::size_t addrs = 0x22b068c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,46 +69,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Mo
     return ___internal_method;
   }
 };
-//  Writing Method size for method: Mono::Security::ASN1.get_Tag
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::get_Tag)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227f824;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "get_Tag",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Mono::Security::ASN1.get_Length
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::get_Length)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x227f82c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "get_Length",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: Mono::Security::ASN1.get_Value
 template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::get_Value)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x227f844;
+  constexpr static std::size_t addrs = 0x22b06a8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,63 +86,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-//  Writing Method size for method: Mono::Security::ASN1.set_Value
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&Mono::Security::ASN1::set_Value)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x227f8d4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "set_Value",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Mono::Security::ASN1.CompareArray
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::ASN1::CompareArray)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x227f97c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "CompareArray",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Mono::Security::ASN1.CompareValue
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&Mono::Security::ASN1::CompareValue)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x227f9f0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "CompareValue",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: Mono::Security::ASN1.Add
 template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1 (Mono::Security::ASN1::*)(Mono::Security::ASN1)>(&Mono::Security::ASN1::Add)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x227fa00;
+  constexpr static std::size_t addrs = 0x22b0738;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +108,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::GetBytes)> {
   constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x227fa8c;
+  constexpr static std::size_t addrs = 0x22b07c4;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -210,7 +125,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ByRef<int32_t>, int32_t)>(&Mono::Security::ASN1::Decode)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x227f6e4;
+  constexpr static std::size_t addrs = 0x22b0568;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +142,7 @@ template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ByRef<int32_t>, ByRef<uint8_t>, ByRef<int32_t>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::ASN1::DecodeTLV)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2280124;
+  constexpr static std::size_t addrs = 0x22b0e5c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,46 +154,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
     return ___internal_method;
   }
 };
-//  Writing Method size for method: Mono::Security::ASN1.get_Item
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1 (Mono::Security::ASN1::*)(int32_t)>(&Mono::Security::ASN1::get_Item)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2280248;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "get_Item",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: Mono::Security::ASN1.Element
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1 (Mono::Security::ASN1::*)(int32_t, uint8_t)>(&Mono::Security::ASN1::Element)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2280378;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "Element",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                        )));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: Mono::Security::ASN1.ToString
 template<>
 
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::ToString)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x22804cc;
+  constexpr static std::size_t addrs = 0x22b0f80;
 
   inline static const ::MethodInfo* methodInfo() {
     
@@ -308,8 +189,10 @@ constexpr void Mono::Security::ASN1::__set_elist(System::Collections::ArrayList 
 constexpr System::Collections::ArrayList Mono::Security::ASN1::__get_elist() const {
 return ::cordl_internals::getInstanceField<System::Collections::ArrayList, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tag", ty: "uint8_t", modifiers: "", def_value: None }]
- Mono::Security::ASN1::ASN1(uint8_t tag)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ASN1>(tag))) {}
+ Mono::Security::ASN1 Mono::Security::ASN1::New_ctor(uint8_t tag)  {
+Mono::Security::ASN1 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::ASN1>(tag))};
+return o;
+}
  void Mono::Security::ASN1::_ctor(uint8_t tag)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
@@ -319,8 +202,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tag);
 }
-// Ctor Parameters [CppParam { name: "tag", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::ASN1::ASN1(uint8_t tag, ::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ASN1>(tag, data))) {}
+ Mono::Security::ASN1 Mono::Security::ASN1::New_ctor(uint8_t tag, ::ArrayW<uint8_t> data)  {
+Mono::Security::ASN1 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::ASN1>(tag, data))};
+return o;
+}
  void Mono::Security::ASN1::_ctor(uint8_t tag, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
@@ -330,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, tag, data);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Mono::Security::ASN1::ASN1(::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ASN1>(data))) {}
+ Mono::Security::ASN1 Mono::Security::ASN1::New_ctor(::ArrayW<uint8_t> data)  {
+Mono::Security::ASN1 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::ASN1>(data))};
+return o;
+}
  void Mono::Security::ASN1::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
@@ -350,24 +237,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
- uint8_t Mono::Security::ASN1::get_Tag()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "get_Tag",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<uint8_t, false>(const_cast<void*>(instance), ___internal_method);
-}
- int32_t Mono::Security::ASN1::get_Length()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "get_Length",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
-}
  ::ArrayW<uint8_t> Mono::Security::ASN1::get_Value()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
@@ -376,33 +245,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{}
                         )));
 return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>, false>(const_cast<void*>(instance), ___internal_method);
-}
- void Mono::Security::ASN1::set_Value(::ArrayW<uint8_t> value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "set_Value",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
-}
- bool Mono::Security::ASN1::CompareArray(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "CompareArray",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, array1, array2);
-}
- bool Mono::Security::ASN1::CompareValue(::ArrayW<uint8_t> value)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "CompareValue",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, value);
 }
  Mono::Security::ASN1 Mono::Security::ASN1::Add(Mono::Security::ASN1 asn1)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,24 +281,6 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<uint8_t>>>::get()}
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, asn1, pos, tag, length, content);
-}
- Mono::Security::ASN1 Mono::Security::ASN1::get_Item(int32_t index)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "get_Item",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<Mono::Security::ASN1, false>(const_cast<void*>(instance), ___internal_method, index);
-}
- Mono::Security::ASN1 Mono::Security::ASN1::Element(int32_t index, uint8_t anTag)  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::ASN1>::get(),
-                            "Element",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get()}
-                        )));
-return ::cordl_internals::RunMethodRethrow<Mono::Security::ASN1, false>(const_cast<void*>(instance), ___internal_method, index, anTag);
 }
  ::StringW Mono::Security::ASN1::ToString()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

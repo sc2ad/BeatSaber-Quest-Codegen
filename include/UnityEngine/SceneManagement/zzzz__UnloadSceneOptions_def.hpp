@@ -56,6 +56,8 @@ constexpr operator __UnloadSceneOptions_Unwrapped () const noexcept {
 return std::bit_cast<__UnloadSceneOptions_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

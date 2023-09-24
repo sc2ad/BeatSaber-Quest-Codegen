@@ -10,109 +10,133 @@
 namespace UnityEngine::InputSystem {
 struct InputControlScheme;
 }
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputActionMap__BindingOverrideJson;
-}
-namespace System::Collections::Generic {
+namespace System {
 template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
+struct Nullable_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation;
 }
 namespace UnityEngine::InputSystem {
-class InputActionMap;
+class UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterEnumerator;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct PrimitiveValue;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterOverride;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection2;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__Parameter;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
 }
 namespace System::Linq::Expressions {
 template<typename TDelegate>
 class Expression_1;
 }
 namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
+class InputControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct PrimitiveValue;
-}
-namespace UnityEngine::InputSystem {
-class IInputActionCollection2;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputActionState;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__ParameterEnumerable;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionMap__BindingOverrideJson;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
 namespace UnityEngine::InputSystem {
 class InputAction;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputActionAsset;
 }
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
 namespace System {
 class IDisposable;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct InternedString;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
-}
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct UnityEngine__InputSystem__Layouts__InputControlLayout__Cache;
 }
 namespace System {
-class Action;
+class Type;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace GlobalNamespace {
+class UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0;
 }
 namespace System::Text {
 class StringBuilder;
 }
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace UnityEngine::InputSystem {
-template<typename TControl>
-struct InputControlList_1;
+namespace UnityEngine::InputSystem::Utilities {
+struct InternedString;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 template<typename T1,typename T2,typename TResult>
 class Func_3;
 }
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+template<typename TControl>
+struct InputControlList_1;
+}
+namespace GlobalNamespace {
+struct UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation__Flags;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
 namespace System::Reflection {
 class FieldInfo;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -120,6 +144,9 @@ class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -655,6 +682,8 @@ constexpr operator __UnityEngine__InputSystem__InputActionRebindingExtensions__R
 return std::bit_cast<__UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation__Flags_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -746,8 +775,7 @@ constexpr ::StringW __get_group() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0() ;
+static GlobalNamespace::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation____c__DisplayClass32_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x28b33ec size 0x8 virtual false final false
  void _ctor() ;
@@ -1199,8 +1227,7 @@ static bool HavePathMatch(UnityEngine::InputSystem::InputControl control, ::Arra
 /// @brief Method GeneratePathForControl addr 0x28b4c50 size 0x104 virtual false final false
  ::StringW GeneratePathForControl(UnityEngine::InputSystem::InputControl control) ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__RebindingOperation New_ctor() ;
 
 /// @brief Method .ctor addr 0x28b179c size 0x90 virtual false final false
  void _ctor() ;
@@ -1260,8 +1287,7 @@ constexpr explicit UnityEngine__InputSystem__InputActionRebindingExtensions__Def
 /// @brief Method Dispose addr 0x28b4e88 size 0x6c virtual true final true
  void Dispose() ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions__DeferBindingResolutionWrapper New_ctor() ;
 
 /// @brief Method .ctor addr 0x28b209c size 0x8 virtual false final false
  void _ctor() ;
@@ -1339,8 +1365,7 @@ constexpr int32_t __get_partCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionRebindingExtensions____c__DisplayClass25_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x28aebdc size 0x8 virtual false final false
  void _ctor() ;

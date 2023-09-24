@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Threading/zzzz__ThreadHelper_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 //  Writing Method size for method: System::Threading::ThreadHelper._ctor
 template<>
@@ -112,8 +112,10 @@ return ::cordl_internals::getInstanceField<System::Threading::ExecutionContext, 
  System::Threading::ContextCallback System::Threading::ThreadHelper::__get__ccb()  {
 return ::cordl_internals::getStaticField<System::Threading::ContextCallback, "_ccb", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ThreadHelper>::get>();
 }
-// Ctor Parameters [CppParam { name: "start", ty: "System::Delegate", modifiers: "", def_value: None }]
- System::Threading::ThreadHelper::ThreadHelper(System::Delegate start)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ThreadHelper>(start))) {}
+ System::Threading::ThreadHelper System::Threading::ThreadHelper::New_ctor(System::Delegate start)  {
+System::Threading::ThreadHelper o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ThreadHelper>(start))};
+return o;
+}
  void System::Threading::ThreadHelper::_ctor(System::Delegate start)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ThreadHelper>::get(),

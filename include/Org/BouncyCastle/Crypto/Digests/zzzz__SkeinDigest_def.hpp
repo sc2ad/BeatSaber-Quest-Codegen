@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Digests {
-class SkeinEngine;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class SkeinParameters;
+namespace Org::BouncyCastle::Crypto::Digests {
+class SkeinEngine;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class SkeinParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -91,14 +91,12 @@ constexpr Org::BouncyCastle::Crypto::Digests::SkeinEngine __get_engine() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stateSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "digestSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SkeinDigest(int32_t stateSizeBits, int32_t digestSizeBits) ;
+static Org::BouncyCastle::Crypto::Digests::SkeinDigest New_ctor(int32_t stateSizeBits, int32_t digestSizeBits) ;
 
 /// @brief Method .ctor addr 0xe18f44 size 0x88 virtual false final false
  void _ctor(int32_t stateSizeBits, int32_t digestSizeBits) ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::SkeinDigest", modifiers: "", def_value: None }]
-explicit SkeinDigest(Org::BouncyCastle::Crypto::Digests::SkeinDigest digest) ;
+static Org::BouncyCastle::Crypto::Digests::SkeinDigest New_ctor(Org::BouncyCastle::Crypto::Digests::SkeinDigest digest) ;
 
 /// @brief Method .ctor addr 0xe19174 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::SkeinDigest digest) ;

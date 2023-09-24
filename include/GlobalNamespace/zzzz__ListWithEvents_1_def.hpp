@@ -3,8 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -12,7 +20,10 @@ class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IList_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -21,17 +32,6 @@ class List_1;
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -189,8 +189,7 @@ constexpr System::Action_1<T> __get_OnElementRemoved() const;
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
  System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
-// Ctor Parameters []
-explicit ListWithEvents_1() ;
+static GlobalNamespace::ListWithEvents_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

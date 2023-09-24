@@ -62,8 +62,7 @@ constexpr GlobalNamespace::EnvironmentSceneSetupData __get__sceneSetupData() con
 /// @brief Method InstallBindings addr 0x2268b64 size 0xc4 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit VideoProjectionInstaller() ;
+static GlobalNamespace::VideoProjectionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2268c28 size 0x8 virtual false final false
  void _ctor() ;

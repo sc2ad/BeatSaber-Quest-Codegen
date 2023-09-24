@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__OidEnumerator_def.hpp"
-#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Security/Cryptography/zzzz__OidCollection_def.hpp"
+#include "System/Security/Cryptography/zzzz__Oid_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::OidEnumerator._ctor
 template<>
 
@@ -104,8 +104,10 @@ constexpr void System::Security::Cryptography::OidEnumerator::__set__current(int
 constexpr int32_t System::Security::Cryptography::OidEnumerator::__get__current() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "oids", ty: "System::Security::Cryptography::OidCollection", modifiers: "", def_value: None }]
- System::Security::Cryptography::OidEnumerator::OidEnumerator(System::Security::Cryptography::OidCollection oids)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OidEnumerator>(oids))) {}
+ System::Security::Cryptography::OidEnumerator System::Security::Cryptography::OidEnumerator::New_ctor(System::Security::Cryptography::OidCollection oids)  {
+System::Security::Cryptography::OidEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::OidEnumerator>(oids))};
+return o;
+}
  void System::Security::Cryptography::OidEnumerator::_ctor(System::Security::Cryptography::OidCollection oids)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::OidEnumerator>::get(),

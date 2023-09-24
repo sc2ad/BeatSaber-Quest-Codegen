@@ -7,11 +7,11 @@ class IFactory;
 }
 namespace Zenject {
 template<typename TParam1,typename TValue>
-class IFactory_2;
+class IMemoryPool_2;
 }
 namespace Zenject {
 template<typename TParam1,typename TValue>
-class IMemoryPool_2;
+class IFactory_2;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -85,8 +85,7 @@ constexpr Zenject::IMemoryPool_2<TParam1,TValue> __get__pool() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pool", ty: "Zenject::IMemoryPool_2<TParam1,TValue>", modifiers: "", def_value: None }]
-explicit PoolWrapperFactory_2(Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
+static Zenject::PoolWrapperFactory_2<TParam1,TValue> New_ctor(Zenject::IMemoryPool_2<TParam1,TValue> pool) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::IMemoryPool_2<TParam1,TValue> pool) ;

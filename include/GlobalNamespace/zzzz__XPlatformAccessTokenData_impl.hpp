@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
- GlobalNamespace::XPlatformAccessTokenData::XPlatformAccessTokenData(::StringW token, GlobalNamespace::PlatformEnvironment platformEnvironment)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XPlatformAccessTokenData>(token, platformEnvironment))) {}
+ GlobalNamespace::XPlatformAccessTokenData GlobalNamespace::XPlatformAccessTokenData::New_ctor(::StringW token, GlobalNamespace::PlatformEnvironment platformEnvironment)  {
+GlobalNamespace::XPlatformAccessTokenData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::XPlatformAccessTokenData>(token, platformEnvironment))};
+return o;
+}
  void GlobalNamespace::XPlatformAccessTokenData::_ctor(::StringW token, GlobalNamespace::PlatformEnvironment platformEnvironment)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::XPlatformAccessTokenData>::get(),

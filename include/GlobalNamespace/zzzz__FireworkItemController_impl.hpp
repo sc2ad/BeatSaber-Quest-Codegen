@@ -2,19 +2,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
-#include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-#include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__Gradient_def.hpp"
+#include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
+#include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem._ctor
 template<>
 
@@ -68,8 +69,10 @@ constexpr void GlobalNamespace::GlobalNamespace__FireworkItemController__Firewor
 constexpr bool GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem::__get__randomizeSpeed() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FireworkItemController__FireworkItemParticleSystem>())) {}
+ GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem::New_ctor()  {
+GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FireworkItemController__FireworkItemParticleSystem>::get(),
@@ -490,8 +493,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FireworkItemController::FireworkItemController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FireworkItemController>())) {}
+ GlobalNamespace::FireworkItemController GlobalNamespace::FireworkItemController::New_ctor()  {
+GlobalNamespace::FireworkItemController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FireworkItemController>())};
+return o;
+}
  void GlobalNamespace::FireworkItemController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FireworkItemController>::get(),
@@ -518,8 +523,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__FireworkItemController__Pool::GlobalNamespace__FireworkItemController__Pool()  : Zenject::MonoMemoryPool_1<GlobalNamespace::FireworkItemController>(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FireworkItemController__Pool>())) {}
+ GlobalNamespace::GlobalNamespace__FireworkItemController__Pool GlobalNamespace::GlobalNamespace__FireworkItemController__Pool::New_ctor()  {
+GlobalNamespace::GlobalNamespace__FireworkItemController__Pool o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FireworkItemController__Pool>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FireworkItemController__Pool::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FireworkItemController__Pool>::get(),
@@ -679,8 +686,10 @@ constexpr void GlobalNamespace::GlobalNamespace__FireworkItemController___FireCo
 constexpr bool GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29::__get__explosionSoundFired_5__4() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29::GlobalNamespace__FireworkItemController___FireCoroutine_d__29(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__FireworkItemController___FireCoroutine_d__29>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29 GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__FireworkItemController___FireCoroutine_d__29>::get(),

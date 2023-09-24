@@ -10,11 +10,11 @@ class Stream;
 namespace System {
 class Uri;
 }
-namespace System::Collections {
-class Hashtable;
+namespace System::Xml {
+class System__Xml__XmlDownloadManager____c__DisplayClass4_0;
 }
-namespace System::Net::Cache {
-class RequestCachePolicy;
+namespace System::Xml {
+struct System__Xml__XmlDownloadManager___GetNonFileStreamAsync_d__5;
 }
 namespace System::Net {
 class ICredentials;
@@ -23,18 +23,20 @@ namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
 namespace System::Net {
 class IWebProxy;
 }
-namespace System::Net {
-class WebRequest;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Net {
 class WebResponse;
 }
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+namespace System::Net {
+class WebRequest;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -42,6 +44,10 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -104,8 +110,7 @@ constexpr System::Uri __get_uri() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Xml__XmlDownloadManager____c__DisplayClass4_0() ;
+static System::Xml::System__Xml__XmlDownloadManager____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2710da8 size 0x8 virtual false final false
  void _ctor() ;
@@ -300,8 +305,7 @@ constexpr System::Collections::Hashtable __get_connections() const;
 /// @brief Method GetNonFileStreamAsync addr 0x2710db0 size 0x118 virtual false final false
  System::Threading::Tasks::Task_1<System::IO::Stream> GetNonFileStreamAsync(System::Uri uri, System::Net::ICredentials credentials, System::Net::IWebProxy proxy, System::Net::Cache::RequestCachePolicy cachePolicy) ;
 
-// Ctor Parameters []
-explicit XmlDownloadManager() ;
+static System::Xml::XmlDownloadManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2710ec8 size 0x8 virtual false final false
  void _ctor() ;

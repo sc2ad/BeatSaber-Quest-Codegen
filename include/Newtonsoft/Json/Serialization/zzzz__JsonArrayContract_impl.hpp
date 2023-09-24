@@ -2,11 +2,11 @@
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonArrayContract_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::JsonArrayContract.get_CollectionItemType
 template<>
 
@@ -552,8 +552,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonArrayContract::JsonArrayContract(System::Type underlyingType)  : Newtonsoft::Json::Serialization::JsonContainerContract(THROW_UNLESS(::il2cpp_utils::New<JsonArrayContract>(underlyingType))) {}
+ Newtonsoft::Json::Serialization::JsonArrayContract Newtonsoft::Json::Serialization::JsonArrayContract::New_ctor(System::Type underlyingType)  {
+Newtonsoft::Json::Serialization::JsonArrayContract o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonArrayContract>(underlyingType))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonArrayContract::_ctor(System::Type underlyingType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonArrayContract>::get(),

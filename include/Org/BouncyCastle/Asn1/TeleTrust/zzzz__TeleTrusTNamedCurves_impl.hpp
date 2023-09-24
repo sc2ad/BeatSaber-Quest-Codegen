@@ -3,11 +3,12 @@
 #include "Org/BouncyCastle/Asn1/TeleTrust/zzzz__TeleTrusTNamedCurves_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/TeleTrust/zzzz__TeleTrusTNamedCurves_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder._ctor
 template<>
@@ -49,8 +50,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160r1Holder>::get(),
@@ -109,8 +112,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP160t1Holder>::get(),
@@ -169,8 +174,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192r1Holder>::get(),
@@ -229,8 +236,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP192t1Holder>::get(),
@@ -289,8 +298,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224r1Holder>::get(),
@@ -349,8 +360,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP224t1Holder>::get(),
@@ -409,8 +422,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256r1Holder>::get(),
@@ -469,8 +484,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP256t1Holder>::get(),
@@ -529,8 +546,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320r1Holder>::get(),
@@ -589,8 +608,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP320t1Holder>::get(),
@@ -649,8 +670,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384r1Holder>::get(),
@@ -709,8 +732,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP384t1Holder>::get(),
@@ -769,8 +794,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512r1Holder>::get(),
@@ -829,8 +856,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  Org::BouncyCastle::Asn1::X9::X9ECParametersHolder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder::__get_Instance()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder()  : Org::BouncyCastle::Asn1::X9::X9ECParametersHolder(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::Org__BouncyCastle__Asn1__TeleTrust__TeleTrusTNamedCurves__BrainpoolP512t1Holder>::get(),
@@ -1144,8 +1173,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerObjectIdentifier, false>(nullptr, ___internal_method, curvesize, twisted);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::TeleTrusTNamedCurves()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TeleTrusTNamedCurves>())) {}
+ Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::New_ctor()  {
+Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves>::get(),

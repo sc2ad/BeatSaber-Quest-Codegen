@@ -2,9 +2,10 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator._ctor
 template<>
 
@@ -89,8 +90,10 @@ constexpr void GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__
 constexpr int32_t GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator::__get_position() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator(::bs_hook::Il2CppWrapperType value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator>(value))) {}
+ GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator::New_ctor(::bs_hook::Il2CppWrapperType value)  {
+GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator>(value))};
+return o;
+}
  void GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator::_ctor(::bs_hook::Il2CppWrapperType value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Xml__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator>::get(),
@@ -512,8 +515,10 @@ constexpr void System::Xml::XmlNamedNodeMap::__set_nodes(System::Xml::System__Xm
 constexpr System::Xml::System__Xml__XmlNamedNodeMap__SmallXmlNodeList System::Xml::XmlNamedNodeMap::__get_nodes() const {
 return ::cordl_internals::getInstanceField<System::Xml::System__Xml__XmlNamedNodeMap__SmallXmlNodeList, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "parent", ty: "System::Xml::XmlNode", modifiers: "", def_value: None }]
- System::Xml::XmlNamedNodeMap::XmlNamedNodeMap(System::Xml::XmlNode parent)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlNamedNodeMap>(parent))) {}
+ System::Xml::XmlNamedNodeMap System::Xml::XmlNamedNodeMap::New_ctor(System::Xml::XmlNode parent)  {
+System::Xml::XmlNamedNodeMap o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlNamedNodeMap>(parent))};
+return o;
+}
  void System::Xml::XmlNamedNodeMap::_ctor(System::Xml::XmlNode parent)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlNamedNodeMap>::get(),

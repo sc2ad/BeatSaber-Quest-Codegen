@@ -2,27 +2,28 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONArray_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONContainerType_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONObject_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__RectOffset_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONTextMode_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONObject_def.hpp"
+#include "UnityEngine/zzzz__RectOffset_def.hpp"
+#include "OVRSimpleJSON/zzzz__JSONContainerType_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::OVRSimpleJSON__JSONNode__Enumerator__Type::OVRSimpleJSON__JSONNode__Enumerator__Type(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -686,8 +687,10 @@ constexpr void OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator::__set_m_E
 constexpr OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator::__get_m_Enumerator() const {
 return ::cordl_internals::getInstanceField<OVRSimpleJSON::OVRSimpleJSON__JSONNode__Enumerator, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "aNode", ty: "OVRSimpleJSON::JSONNode", modifiers: "", def_value: None }]
- OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator::OVRSimpleJSON__JSONNode__LinqEnumerator(OVRSimpleJSON::JSONNode aNode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON__JSONNode__LinqEnumerator>(aNode))) {}
+ OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator::New_ctor(OVRSimpleJSON::JSONNode aNode)  {
+OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator>(aNode))};
+return o;
+}
  void OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator::_ctor(OVRSimpleJSON::JSONNode aNode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::OVRSimpleJSON__JSONNode__LinqEnumerator>::get(),
@@ -934,8 +937,10 @@ constexpr void OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40::__se
 constexpr int32_t OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40::__get___l__initialThreadId() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40::OVRSimpleJSON__JSONNode___get_Children_d__40(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON__JSONNode___get_Children_d__40>(__1__state))) {}
+ OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40 OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40::New_ctor(int32_t __1__state)  {
+OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40 o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40>(__1__state))};
+return o;
+}
  void OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_Children_d__40>::get(),
@@ -1234,8 +1239,10 @@ constexpr void OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42::
 constexpr System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode> OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42::__get___7__wrap2() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode>, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON__JSONNode___get_DeepChildren_d__42>(__1__state))) {}
+ OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42 OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42::New_ctor(int32_t __1__state)  {
+OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42 o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42>(__1__state))};
+return o;
+}
  void OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::OVRSimpleJSON__JSONNode___get_DeepChildren_d__42>::get(),
@@ -3932,8 +3939,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<OVRSimpleJSON::JSONNode, false>(const_cast<void*>(instance), ___internal_method, aMatrix);
 }
-// Ctor Parameters []
- OVRSimpleJSON::JSONNode::JSONNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<JSONNode>())) {}
+ OVRSimpleJSON::JSONNode OVRSimpleJSON::JSONNode::New_ctor()  {
+OVRSimpleJSON::JSONNode o{THROW_UNLESS(::il2cpp_utils::New<OVRSimpleJSON::JSONNode>())};
+return o;
+}
  void OVRSimpleJSON::JSONNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVRSimpleJSON::JSONNode>::get(),

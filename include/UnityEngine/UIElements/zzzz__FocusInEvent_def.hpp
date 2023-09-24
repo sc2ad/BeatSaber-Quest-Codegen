@@ -53,8 +53,7 @@ constexpr explicit FocusInEvent(void* ptr) noexcept : UnityEngine::UIElements::F
 /// @brief Method LocalInit addr 0x2cdadb0 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit FocusInEvent() ;
+static UnityEngine::UIElements::FocusInEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdadbc size 0x54 virtual false final false
  void _ctor() ;

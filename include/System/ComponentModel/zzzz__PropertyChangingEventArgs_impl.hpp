@@ -58,8 +58,10 @@ constexpr void System::ComponentModel::PropertyChangingEventArgs::__set__Propert
 constexpr ::StringW System::ComponentModel::PropertyChangingEventArgs::__get__PropertyName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "propertyName", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::PropertyChangingEventArgs::PropertyChangingEventArgs(::StringW propertyName)  : System::EventArgs(THROW_UNLESS(::il2cpp_utils::New<PropertyChangingEventArgs>(propertyName))) {}
+ System::ComponentModel::PropertyChangingEventArgs System::ComponentModel::PropertyChangingEventArgs::New_ctor(::StringW propertyName)  {
+System::ComponentModel::PropertyChangingEventArgs o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::PropertyChangingEventArgs>(propertyName))};
+return o;
+}
  void System::ComponentModel::PropertyChangingEventArgs::_ctor(::StringW propertyName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::PropertyChangingEventArgs>::get(),

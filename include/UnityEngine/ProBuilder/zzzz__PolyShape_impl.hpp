@@ -2,10 +2,11 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::ProBuilder::UnityEngine__ProBuilder__PolyShape__PolyEditMode::UnityEngine__ProBuilder__PolyShape__PolyEditMode(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -359,8 +360,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::PolyShape::PolyShape()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PolyShape>())) {}
+ UnityEngine::ProBuilder::PolyShape UnityEngine::ProBuilder::PolyShape::New_ctor()  {
+UnityEngine::ProBuilder::PolyShape o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::PolyShape>())};
+return o;
+}
  void UnityEngine::ProBuilder::PolyShape::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::PolyShape>::get(),

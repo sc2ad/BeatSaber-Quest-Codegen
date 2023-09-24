@@ -5,26 +5,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine {
-class Component;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 class Mesh;
+}
+namespace UnityEngine::ProBuilder {
+class UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Color;
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -87,8 +90,7 @@ constexpr ::StringW __get_valid() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0() ;
+static UnityEngine::ProBuilder::UnityEngine__ProBuilder__InternalUtility____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x29b2ac4 size 0x8 virtual false final false
  void _ctor() ;

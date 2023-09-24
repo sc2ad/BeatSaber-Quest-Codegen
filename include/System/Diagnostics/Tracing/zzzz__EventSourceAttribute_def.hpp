@@ -76,8 +76,7 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 /// @brief Method set_Name addr 0x240e254 size 0x8 virtual false final false
  void set_Name(::StringW value) ;
 
-// Ctor Parameters []
-explicit EventSourceAttribute() ;
+static System::Diagnostics::Tracing::EventSourceAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x240e25c size 0x8 virtual false final false
  void _ctor() ;

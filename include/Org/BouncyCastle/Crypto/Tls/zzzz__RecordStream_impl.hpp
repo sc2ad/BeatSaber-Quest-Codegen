@@ -1,15 +1,16 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__RecordStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__RecordStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
-#include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream._ctor
 template<>
 
@@ -50,8 +51,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__R
 constexpr Org::BouncyCastle::Crypto::Tls::RecordStream Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream::__get_mOuter() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::RecordStream, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mOuter", ty: "Org::BouncyCastle::Crypto::Tls::RecordStream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream(Org::BouncyCastle::Crypto::Tls::RecordStream mOuter)  : Org::BouncyCastle::Utilities::IO::BaseOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream>(mOuter))) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream::New_ctor(Org::BouncyCastle::Crypto::Tls::RecordStream mOuter)  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream>(mOuter))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream::_ctor(Org::BouncyCastle::Crypto::Tls::RecordStream mOuter)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__HandshakeHashUpdateStream>::get(),
@@ -125,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int64_t, false>(const_cast<void*>(instance), ___internal_method, alertDescription);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber>())) {}
+ Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__RecordStream__SequenceNumber>::get(),
@@ -681,8 +686,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::RecordStream::__set_mCiphertextLi
 constexpr int32_t Org::BouncyCastle::Crypto::Tls::RecordStream::__get_mCiphertextLimit() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x9c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "handler", ty: "Org::BouncyCastle::Crypto::Tls::TlsProtocol", modifiers: "", def_value: None }, CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::RecordStream::RecordStream(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler, System::IO::Stream input, System::IO::Stream output)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RecordStream>(handler, input, output))) {}
+ Org::BouncyCastle::Crypto::Tls::RecordStream Org::BouncyCastle::Crypto::Tls::RecordStream::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler, System::IO::Stream input, System::IO::Stream output)  {
+Org::BouncyCastle::Crypto::Tls::RecordStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::RecordStream>(handler, input, output))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::RecordStream::_ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler, System::IO::Stream input, System::IO::Stream output)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::RecordStream>::get(),

@@ -8,12 +8,8 @@
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
-namespace UnityEngine {
-class AssetBundle;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp;
 }
 namespace UnityEngine {
 class Object;
@@ -23,6 +19,13 @@ class AssetBundleRequest;
 }
 namespace UnityEngine {
 class AsyncOperation;
+}
+namespace UnityEngine {
+class AssetBundle;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -146,8 +149,7 @@ static T LoadBundleFromDependecies(System::Collections::Generic::IList_1<::bs_ho
 /// @brief Method ProgressCallback addr 0x2a3f394 size 0x18 virtual false final false
  float_t ProgressCallback() ;
 
-// Ctor Parameters []
-explicit UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp() ;
+static UnityEngine::ResourceManagement::ResourceProviders::UnityEngine__ResourceManagement__ResourceProviders__BundledAssetProvider__InternalOp New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3e58c size 0x8 virtual false final false
  void _ctor() ;
@@ -206,8 +208,7 @@ constexpr explicit BundledAssetProvider(void* ptr) noexcept : UnityEngine::Resou
 /// @brief Method Provide addr 0x2a3e50c size 0x80 virtual true final false
  void Provide(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle) ;
 
-// Ctor Parameters []
-explicit BundledAssetProvider() ;
+static UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a3e95c size 0x8 virtual false final false
  void _ctor() ;

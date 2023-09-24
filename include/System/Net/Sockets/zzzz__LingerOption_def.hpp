@@ -70,8 +70,7 @@ constexpr int32_t __get_lingerTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "enable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LingerOption(bool enable, int32_t seconds) ;
+static System::Net::Sockets::LingerOption New_ctor(bool enable, int32_t seconds) ;
 
 /// @brief Method .ctor addr 0x2769cc4 size 0x34 virtual false final false
  void _ctor(bool enable, int32_t seconds) ;

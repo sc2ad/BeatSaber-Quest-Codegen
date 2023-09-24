@@ -3,20 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crmf {
-class IControl;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertTemplate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertReqMsg;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class Controls;
+namespace Org::BouncyCastle::Crmf {
+class IControl;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKey;
@@ -26,6 +20,12 @@ class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class AttributeTypeAndValue;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertReqMsg;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class Controls;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -126,14 +126,12 @@ constexpr Org::BouncyCastle::Asn1::Crmf::Controls __get_controls() const;
 /// @brief Method ParseBytes addr 0x1182d4c size 0x8 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::CertReqMsg ParseBytes(::ArrayW<uint8_t> encoding) ;
 
-// Ctor Parameters [CppParam { name: "encoded", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CertificateRequestMessage(::ArrayW<uint8_t> encoded) ;
+static Org::BouncyCastle::Crmf::CertificateRequestMessage New_ctor(::ArrayW<uint8_t> encoded) ;
 
 /// @brief Method .ctor addr 0x1182d54 size 0x24 virtual false final false
  void _ctor(::ArrayW<uint8_t> encoded) ;
 
-// Ctor Parameters [CppParam { name: "certReqMsg", ty: "Org::BouncyCastle::Asn1::Crmf::CertReqMsg", modifiers: "", def_value: None }]
-explicit CertificateRequestMessage(Org::BouncyCastle::Asn1::Crmf::CertReqMsg certReqMsg) ;
+static Org::BouncyCastle::Crmf::CertificateRequestMessage New_ctor(Org::BouncyCastle::Asn1::Crmf::CertReqMsg certReqMsg) ;
 
 /// @brief Method .ctor addr 0x1182d78 size 0x54 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::CertReqMsg certReqMsg) ;

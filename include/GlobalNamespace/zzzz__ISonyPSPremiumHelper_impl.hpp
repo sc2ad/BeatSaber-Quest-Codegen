@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__ISonyPSPremiumHelper_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISonyPSPremiumHelper_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;

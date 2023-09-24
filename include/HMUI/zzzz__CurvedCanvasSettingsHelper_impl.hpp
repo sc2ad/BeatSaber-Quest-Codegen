@@ -1,8 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: HMUI::CurvedCanvasSettingsHelper.Reset
 template<>
 
@@ -128,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<HMUI::CurvedCanvasSettings, false>(nullptr, ___internal_method, canvas);
 }
-// Ctor Parameters []
- HMUI::CurvedCanvasSettingsHelper::CurvedCanvasSettingsHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CurvedCanvasSettingsHelper>())) {}
+ HMUI::CurvedCanvasSettingsHelper HMUI::CurvedCanvasSettingsHelper::New_ctor()  {
+HMUI::CurvedCanvasSettingsHelper o{THROW_UNLESS(::il2cpp_utils::New<HMUI::CurvedCanvasSettingsHelper>())};
+return o;
+}
  void HMUI::CurvedCanvasSettingsHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::CurvedCanvasSettingsHelper>::get(),

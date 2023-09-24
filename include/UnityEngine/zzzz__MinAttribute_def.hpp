@@ -57,8 +57,7 @@ constexpr float_t __get_min() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }]
-explicit MinAttribute(float_t min) ;
+static UnityEngine::MinAttribute New_ctor(float_t min) ;
 
 /// @brief Method .ctor addr 0x2b54ed0 size 0x28 virtual false final false
  void _ctor(float_t min) ;

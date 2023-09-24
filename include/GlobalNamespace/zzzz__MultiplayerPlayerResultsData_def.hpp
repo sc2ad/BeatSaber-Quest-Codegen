@@ -5,14 +5,14 @@
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
-namespace System {
-class IComparable;
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace System {
+class IComparable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,8 +84,7 @@ constexpr GlobalNamespace::MultiplayerBadgeAwardData __get_badge() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "connectedPlayer", ty: "GlobalNamespace::IConnectedPlayer", modifiers: "", def_value: None }, CppParam { name: "multiplayerLevelCompletionResults", ty: "GlobalNamespace::MultiplayerLevelCompletionResults", modifiers: "", def_value: None }]
-explicit MultiplayerPlayerResultsData(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;
+static GlobalNamespace::MultiplayerPlayerResultsData New_ctor(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;
 
 /// @brief Method .ctor addr 0x20ffaa4 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::MultiplayerLevelCompletionResults multiplayerLevelCompletionResults) ;

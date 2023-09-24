@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Reflection {
-struct GenericParameterAttributes;
-}
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+struct GenericParameterAttributes;
 }
 // Forward declare root types
 namespace Mono {

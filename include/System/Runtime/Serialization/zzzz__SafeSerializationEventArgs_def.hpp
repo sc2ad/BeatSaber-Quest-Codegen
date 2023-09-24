@@ -79,8 +79,7 @@ constexpr System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> __g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit SafeSerializationEventArgs(System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Runtime::Serialization::SafeSerializationEventArgs New_ctor(System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x2350b58 size 0xb8 virtual false final false
  void _ctor(System::Runtime::Serialization::StreamingContext streamingContext) ;

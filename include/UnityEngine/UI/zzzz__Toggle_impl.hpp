@@ -3,16 +3,17 @@
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
-#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/UI/zzzz__ToggleGroup_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UI::UnityEngine__UI__Toggle__ToggleTransition::UnityEngine__UI__Toggle__ToggleTransition(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -41,8 +42,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent::UnityEngine__UI__Toggle__ToggleEvent()  : UnityEngine::Events::UnityEvent_1<bool>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__Toggle__ToggleEvent>())) {}
+ UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__Toggle__ToggleEvent>::get(),
@@ -473,8 +476,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UI::Toggle::Toggle()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<Toggle>())) {}
+ UnityEngine::UI::Toggle UnityEngine::UI::Toggle::New_ctor()  {
+UnityEngine::UI::Toggle o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::Toggle>())};
+return o;
+}
  void UnityEngine::UI::Toggle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::Toggle>::get(),

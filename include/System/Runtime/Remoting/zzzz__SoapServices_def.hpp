@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Reflection {
 class MethodBase;
 }
@@ -14,6 +11,12 @@ class Type;
 }
 namespace System::Reflection {
 class Assembly;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Remoting {
+class System__Runtime__Remoting__SoapServices__TypeInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -79,8 +82,7 @@ constexpr System::Collections::Hashtable __get_Elements() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Runtime__Remoting__SoapServices__TypeInfo() ;
+static System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x23292e0 size 0x8 virtual false final false
  void _ctor() ;

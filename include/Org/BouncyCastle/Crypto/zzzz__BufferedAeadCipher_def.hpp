@@ -70,8 +70,7 @@ constexpr Org::BouncyCastle::Crypto::Modes::IAeadCipher __get_cipher() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadCipher", modifiers: "", def_value: None }]
-explicit BufferedAeadCipher(Org::BouncyCastle::Crypto::Modes::IAeadCipher cipher) ;
+static Org::BouncyCastle::Crypto::BufferedAeadCipher New_ctor(Org::BouncyCastle::Crypto::Modes::IAeadCipher cipher) ;
 
 /// @brief Method .ctor addr 0xf366b0 size 0xbc virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Modes::IAeadCipher cipher) ;

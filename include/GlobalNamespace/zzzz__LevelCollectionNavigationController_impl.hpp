@@ -3,25 +3,25 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionNavigationController_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelDetailViewController_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "Tweening/zzzz__FloatTween_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelDetailViewController_def.hpp"
-#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "GlobalNamespace/zzzz__LevelPackDetailViewController_def.hpp"
-#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
-#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
-#include "GlobalNamespace/zzzz__LevelCollectionViewController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCollectionNavigationController_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
+#include "Tweening/zzzz__FloatTween_def.hpp"
+#include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCollectionViewController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelPackDetailViewController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
+#include "GlobalNamespace/zzzz__StandardLevelDetailViewController_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController__AlphaAnimationType::GlobalNamespace__LevelCollectionNavigationController__AlphaAnimationType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -79,8 +79,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LevelCollectionNavigationContro
 constexpr HMUI::ViewController GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0::__get_viewController() const {
 return ::cordl_internals::getInstanceField<HMUI::ViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0>())) {}
+ GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0 GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LevelCollectionNavigationController____c__DisplayClass54_0>::get(),
@@ -1238,8 +1240,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, viewController, favoriteStatus);
 }
-// Ctor Parameters []
- GlobalNamespace::LevelCollectionNavigationController::LevelCollectionNavigationController()  : HMUI::NavigationController(THROW_UNLESS(::il2cpp_utils::New<LevelCollectionNavigationController>())) {}
+ GlobalNamespace::LevelCollectionNavigationController GlobalNamespace::LevelCollectionNavigationController::New_ctor()  {
+GlobalNamespace::LevelCollectionNavigationController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LevelCollectionNavigationController>())};
+return o;
+}
  void GlobalNamespace::LevelCollectionNavigationController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LevelCollectionNavigationController>::get(),

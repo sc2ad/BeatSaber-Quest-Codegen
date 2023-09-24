@@ -65,8 +65,7 @@ constexpr GlobalNamespace::BoolSO __get__settingsValue() const;
 /// @brief Method ApplyValue addr 0x2152400 size 0x58 virtual true final false
  void ApplyValue(bool value) ;
 
-// Ctor Parameters []
-explicit BoolSettingsController() ;
+static GlobalNamespace::BoolSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2152458 size 0x8 virtual false final false
  void _ctor() ;

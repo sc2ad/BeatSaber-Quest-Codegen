@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_def.hpp"
-#include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::UnixIPInterfaceProperties._ctor
 template<>
 
@@ -64,8 +64,10 @@ return ::cordl_internals::getStaticField<System::Text::RegularExpressions::Regex
  System::Text::RegularExpressions::Regex System::Net::NetworkInformation::UnixIPInterfaceProperties::__get_search()  {
 return ::cordl_internals::getStaticField<System::Text::RegularExpressions::Regex, "search", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnixIPInterfaceProperties>::get>();
 }
-// Ctor Parameters [CppParam { name: "iface", ty: "System::Net::NetworkInformation::UnixNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "System::Collections::Generic::List_1<System::Net::IPAddress>", modifiers: "", def_value: None }]
- System::Net::NetworkInformation::UnixIPInterfaceProperties::UnixIPInterfaceProperties(System::Net::NetworkInformation::UnixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses)  : System::Net::NetworkInformation::IPInterfaceProperties(THROW_UNLESS(::il2cpp_utils::New<UnixIPInterfaceProperties>(iface, addresses))) {}
+ System::Net::NetworkInformation::UnixIPInterfaceProperties System::Net::NetworkInformation::UnixIPInterfaceProperties::New_ctor(System::Net::NetworkInformation::UnixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses)  {
+System::Net::NetworkInformation::UnixIPInterfaceProperties o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnixIPInterfaceProperties>(iface, addresses))};
+return o;
+}
  void System::Net::NetworkInformation::UnixIPInterfaceProperties::_ctor(System::Net::NetworkInformation::UnixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnixIPInterfaceProperties>::get(),

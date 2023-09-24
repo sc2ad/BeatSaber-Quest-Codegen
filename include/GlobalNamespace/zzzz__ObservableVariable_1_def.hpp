@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
+template<typename T>
+class IValue_1;
+}
+namespace GlobalNamespace {
 class IObservableChange;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-template<typename T>
-class IValue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,8 +106,7 @@ constexpr T __get__value() const;
 /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
 static T op_Implicit_T(GlobalNamespace::ObservableVariable_1<T> obj) ;
 
-// Ctor Parameters []
-explicit ObservableVariable_1() ;
+static GlobalNamespace::ObservableVariable_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

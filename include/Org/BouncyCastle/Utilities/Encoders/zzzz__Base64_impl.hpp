@@ -171,8 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Encoders::Base64::Base64()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Base64>())) {}
+ Org::BouncyCastle::Utilities::Encoders::Base64 Org::BouncyCastle::Utilities::Encoders::Base64::New_ctor()  {
+Org::BouncyCastle::Utilities::Encoders::Base64 o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Encoders::Base64>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Encoders::Base64::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Encoders::Base64>::get(),

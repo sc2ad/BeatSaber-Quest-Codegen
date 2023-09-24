@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::PrePrepareMethodAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PrePrepareMethodAttribute>())) {}
+ System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::New_ctor()  {
+System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute>())};
+return o;
+}
  void System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute>::get(),

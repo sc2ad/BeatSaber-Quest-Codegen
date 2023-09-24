@@ -1,19 +1,19 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PracticeViewController_def.hpp"
+#include "HMUI/zzzz__TimeSlider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
+#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
-#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__PercentSlider_def.hpp"
-#include "HMUI/zzzz__TimeSlider_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
-#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__SongPreviewPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PracticeViewController.add_didPressPlayButtonEvent
 template<>
 
@@ -401,8 +401,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PracticeViewController::PracticeViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<PracticeViewController>())) {}
+ GlobalNamespace::PracticeViewController GlobalNamespace::PracticeViewController::New_ctor()  {
+GlobalNamespace::PracticeViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PracticeViewController>())};
+return o;
+}
  void GlobalNamespace::PracticeViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PracticeViewController>::get(),

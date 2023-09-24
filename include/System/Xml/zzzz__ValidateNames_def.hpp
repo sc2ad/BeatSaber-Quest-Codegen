@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Exception;
-}
 namespace System::Xml {
 struct XmlCharType;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml {

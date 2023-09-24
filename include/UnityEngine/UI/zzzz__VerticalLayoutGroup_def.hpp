@@ -47,8 +47,7 @@ constexpr explicit VerticalLayoutGroup(void* ptr) noexcept : UnityEngine::UI::Ho
 
 // Methods
 
-// Ctor Parameters []
-explicit VerticalLayoutGroup() ;
+static UnityEngine::UI::VerticalLayoutGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c013d8 size 0xc virtual false final false
  void _ctor() ;

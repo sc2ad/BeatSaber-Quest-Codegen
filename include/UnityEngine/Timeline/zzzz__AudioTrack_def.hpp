@@ -3,41 +3,47 @@
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::Timeline {
-class TimelineClip;
-}
 namespace UnityEngine::Playables {
 struct Playable;
 }
-namespace UnityEngine::Playables {
-struct PlayableBinding;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__AudioTrack___get_outputs_d__4;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
+class AudioMixerProperties;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
 class IEnumerable_1;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::Timeline {
-class RuntimeElement;
 }
 namespace UnityEngine::Timeline {
 template<typename T>
 class IntervalTree_1;
 }
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
 namespace UnityEngine::Timeline {
-class AudioMixerProperties;
+class RuntimeElement;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -48,9 +54,6 @@ class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -150,8 +153,7 @@ constexpr UnityEngine::Timeline::AudioTrack __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Timeline__AudioTrack___get_outputs_d__4(int32_t __1__state) ;
+static UnityEngine::Timeline::UnityEngine__Timeline__AudioTrack___get_outputs_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2aca120 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -251,8 +253,7 @@ constexpr UnityEngine::Timeline::AudioMixerProperties __get_m_TrackProperties() 
 /// @brief Method OnValidate addr 0x2aca154 size 0x58 virtual false final false
  void OnValidate() ;
 
-// Ctor Parameters []
-explicit AudioTrack() ;
+static UnityEngine::Timeline::AudioTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aca1ac size 0x90 virtual false final false
  void _ctor() ;

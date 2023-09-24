@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace GlobalNamespace {
-class LevelCompletionResults;
+class MissionObjectiveResult;
 }
 namespace GlobalNamespace {
-class MissionObjectiveResult;
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr ::ArrayW<GlobalNamespace::MissionObjectiveResult> __get_missionObjecti
 /// @brief Method get_IsMissionComplete addr 0x21f08fc size 0x68 virtual false final false
  bool get_IsMissionComplete() ;
 
-// Ctor Parameters [CppParam { name: "levelCompletionResults", ty: "GlobalNamespace::LevelCompletionResults", modifiers: "", def_value: None }, CppParam { name: "missionObjectiveResults", ty: "::ArrayW<GlobalNamespace::MissionObjectiveResult>", modifiers: "", def_value: None }]
-explicit MissionCompletionResults(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;
+static GlobalNamespace::MissionCompletionResults New_ctor(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;
 
 /// @brief Method .ctor addr 0x21f0964 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::LevelCompletionResults levelCompletionResults, ::ArrayW<GlobalNamespace::MissionObjectiveResult> missionObjectiveResults) ;

@@ -9,23 +9,32 @@
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace RootMotion::FinalIK {
-class AimIK;
+struct RootMotion__FinalIK__Recoil__Handedness;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class AimIK;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__Recoil__RecoilOffset;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
@@ -100,8 +109,7 @@ constexpr float_t __get_weight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink() ;
+static GlobalNamespace::RootMotion__FinalIK__Recoil__RecoilOffset__EffectorLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x120d0e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -199,8 +207,7 @@ constexpr UnityEngine::Vector3 __get_lastOffset() const;
 /// @brief Method Apply addr 0x120ca90 size 0x1cc virtual false final false
  void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped solver, UnityEngine::Quaternion rotation, float_t masterWeight, float_t length, float_t timeLeft) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Recoil__RecoilOffset() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__Recoil__RecoilOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x120d0d0 size 0x14 virtual false final false
  void _ctor() ;
@@ -258,6 +265,8 @@ __Left = 1,
 constexpr operator __RootMotion__FinalIK__Recoil__Handedness_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__Recoil__Handedness_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -511,8 +520,7 @@ constexpr UnityEngine::Vector3 __get_aimIKAxis() const;
 /// @brief Method OnDestroy addr 0x120ce74 size 0x1d0 virtual true final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit Recoil() ;
+static RootMotion::FinalIK::Recoil New_ctor() ;
 
 /// @brief Method .ctor addr 0x120d044 size 0x8c virtual false final false
  void _ctor() ;

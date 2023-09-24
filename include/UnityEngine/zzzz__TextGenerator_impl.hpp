@@ -1,22 +1,22 @@
 #pragma once
 #include "UnityEngine/zzzz__TextGenerator_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__UICharInfo_def.hpp"
+#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__UIVertex_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__UILineInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__TextGenerationError_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__UILineInfo_def.hpp"
+#include "UnityEngine/zzzz__UIVertex_def.hpp"
+#include "UnityEngine/zzzz__TextGenerationError_def.hpp"
 //  Writing Method size for method: UnityEngine::TextGenerator._ctor
 template<>
 
@@ -614,8 +614,10 @@ constexpr void UnityEngine::TextGenerator::__set_m_CachedLines(bool value)  {
 constexpr bool UnityEngine::TextGenerator::__get_m_CachedLines() const {
 return ::cordl_internals::getInstanceField<bool, 0xa2>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TextGenerator::TextGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextGenerator>())) {}
+ UnityEngine::TextGenerator UnityEngine::TextGenerator::New_ctor()  {
+UnityEngine::TextGenerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextGenerator>())};
+return o;
+}
  void UnityEngine::TextGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextGenerator>::get(),
@@ -625,8 +627,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::TextGenerator::TextGenerator(int32_t initialCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextGenerator>(initialCapacity))) {}
+ UnityEngine::TextGenerator UnityEngine::TextGenerator::New_ctor(int32_t initialCapacity)  {
+UnityEngine::TextGenerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextGenerator>(initialCapacity))};
+return o;
+}
  void UnityEngine::TextGenerator::_ctor(int32_t initialCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextGenerator>::get(),

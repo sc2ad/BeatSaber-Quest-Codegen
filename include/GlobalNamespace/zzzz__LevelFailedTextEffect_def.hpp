@@ -62,8 +62,7 @@ constexpr UnityEngine::Animator __get__animator() const;
 /// @brief Method ShowEffect addr 0x225207c size 0x3c virtual false final false
  void ShowEffect() ;
 
-// Ctor Parameters []
-explicit LevelFailedTextEffect() ;
+static GlobalNamespace::LevelFailedTextEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x22520b8 size 0x8 virtual false final false
  void _ctor() ;

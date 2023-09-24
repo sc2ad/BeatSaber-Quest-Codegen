@@ -6,17 +6,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Exception;
+namespace System::IO {
+class Stream;
 }
 namespace System::IO::Compression {
-struct CompressionMode;
+class System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
-namespace System::IO {
-class Stream;
+namespace System::IO::Compression {
+class System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite;
+}
+namespace System::IO::Compression {
+struct CompressionMode;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::IO::Compression {
@@ -70,8 +76,7 @@ constexpr explicit System__IO__Compression__DeflateStreamNative__UnmanagedReadOr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static System::IO::Compression::System__IO__Compression__DeflateStreamNative__UnmanagedReadOrWrite New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x27b18c4 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -133,8 +138,7 @@ constexpr explicit System__IO__Compression__DeflateStreamNative__SafeDeflateStre
 /// @brief Method get_IsInvalid addr 0x27b2130 size 0x54 virtual true final false
  bool get_IsInvalid() ;
 
-// Ctor Parameters []
-explicit System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle() ;
+static System::IO::Compression::System__IO__Compression__DeflateStreamNative__SafeDeflateStreamHandle New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b20c0 size 0x58 virtual false final false
  void _ctor() ;
@@ -237,8 +241,7 @@ constexpr System::Exception __get_last_error() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DeflateStreamNative() ;
+static System::IO::Compression::DeflateStreamNative New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b18bc size 0x8 virtual false final false
  void _ctor() ;

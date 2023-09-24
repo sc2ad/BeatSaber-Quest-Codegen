@@ -16,7 +16,7 @@ class Vector2Control;
 // Type: UnityEngine.InputSystem.Controls::Vector2Control
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184)), TypeDefinitionIndex(TypeDefinitionIndex(6299))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6299)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6299), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6727))
 // CS Name: UnityEngine.InputSystem.Controls.Vector2Control
 class CORDL_TYPE Vector2Control : public UnityEngine::InputSystem::InputControl_1<UnityEngine::Vector2> {
@@ -89,8 +89,7 @@ constexpr UnityEngine::InputSystem::Controls::AxisControl __get__y_k__BackingFie
 /// @brief Method set_y addr 0x2979608 size 0x8 virtual false final false
  void set_y(UnityEngine::InputSystem::Controls::AxisControl value) ;
 
-// Ctor Parameters []
-explicit Vector2Control() ;
+static UnityEngine::InputSystem::Controls::Vector2Control New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977b84 size 0x88 virtual false final false
  void _ctor() ;

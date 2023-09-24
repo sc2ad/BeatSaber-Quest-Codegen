@@ -1,14 +1,15 @@
 #pragma once
 #include "UnityEngine/InputSystem/LowLevel/zzzz__NativeInputRuntime_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__NativeInputRuntime_def.hpp"
+#include "UnityEngine/zzzz__ScreenOrientation_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateDelegate_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputRuntime_def.hpp"
-#include "UnityEngine/zzzz__ScreenOrientation_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputUpdateType_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0._ctor
 template<>
@@ -50,8 +51,10 @@ constexpr void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__Low
 constexpr UnityEngine::InputSystem::LowLevel::InputUpdateDelegate UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0::__get_value() const {
 return ::cordl_internals::getInstanceField<UnityEngine::InputSystem::LowLevel::InputUpdateDelegate, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0>())) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0 UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass7_0>::get(),
@@ -110,8 +113,10 @@ constexpr void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__Low
 constexpr System::Action_1<UnityEngine::InputSystem::LowLevel::InputUpdateType> UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0::__get_value() const {
 return ::cordl_internals::getInstanceField<System::Action_1<UnityEngine::InputSystem::LowLevel::InputUpdateType>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0>())) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0 UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass10_0>::get(),
@@ -170,8 +175,10 @@ constexpr void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__Low
 constexpr System::Func_2<UnityEngine::InputSystem::LowLevel::InputUpdateType,bool> UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0::__get_value() const {
 return ::cordl_internals::getInstanceField<System::Func_2<UnityEngine::InputSystem::LowLevel::InputUpdateType,bool>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0>())) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0 UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__NativeInputRuntime____c__DisplayClass13_0>::get(),
@@ -1091,8 +1098,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, data);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::NativeInputRuntime::NativeInputRuntime()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NativeInputRuntime>())) {}
+ UnityEngine::InputSystem::LowLevel::NativeInputRuntime UnityEngine::InputSystem::LowLevel::NativeInputRuntime::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::NativeInputRuntime o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::NativeInputRuntime>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::NativeInputRuntime::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::NativeInputRuntime>::get(),

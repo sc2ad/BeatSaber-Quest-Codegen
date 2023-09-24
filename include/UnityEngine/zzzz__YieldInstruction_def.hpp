@@ -47,8 +47,7 @@ constexpr explicit YieldInstruction(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Methods
 
-// Ctor Parameters []
-explicit YieldInstruction() ;
+static UnityEngine::YieldInstruction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b55fc4 size 0x8 virtual false final false
  void _ctor() ;

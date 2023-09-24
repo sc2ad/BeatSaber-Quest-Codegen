@@ -2,17 +2,17 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Asn1::Cms {
-class KeyAgreeRecipientIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class KeyAgreeRecipientIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -85,8 +85,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_encryptedKey() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit RecipientEncryptedKey(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdef3f4 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -97,8 +96,7 @@ static Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey GetInstance(Org::Boun
 /// @brief Method GetInstance addr 0xdef4f0 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit RecipientEncryptedKey(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier id, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
+static Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey New_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier id, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;
 
 /// @brief Method .ctor addr 0xdef678 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier id, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey) ;

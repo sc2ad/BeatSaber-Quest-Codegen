@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__GetFromPrefabComponentProvider_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
-#include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: Zenject::GetFromPrefabComponentProvider._ctor
 template<>
 
@@ -114,8 +114,10 @@ constexpr void Zenject::GetFromPrefabComponentProvider::__set__matchSingle(bool 
 constexpr bool Zenject::GetFromPrefabComponentProvider::__get__matchSingle() const {
 return ::cordl_internals::getInstanceField<bool, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "prefabInstantiator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }, CppParam { name: "matchSingle", ty: "bool", modifiers: "", def_value: None }]
- Zenject::GetFromPrefabComponentProvider::GetFromPrefabComponentProvider(System::Type componentType, Zenject::IPrefabInstantiator prefabInstantiator, bool matchSingle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GetFromPrefabComponentProvider>(componentType, prefabInstantiator, matchSingle))) {}
+ Zenject::GetFromPrefabComponentProvider Zenject::GetFromPrefabComponentProvider::New_ctor(System::Type componentType, Zenject::IPrefabInstantiator prefabInstantiator, bool matchSingle)  {
+Zenject::GetFromPrefabComponentProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::GetFromPrefabComponentProvider>(componentType, prefabInstantiator, matchSingle))};
+return o;
+}
  void Zenject::GetFromPrefabComponentProvider::_ctor(System::Type componentType, Zenject::IPrefabInstantiator prefabInstantiator, bool matchSingle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::GetFromPrefabComponentProvider>::get(),

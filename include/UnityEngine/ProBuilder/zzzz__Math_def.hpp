@@ -5,30 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
 namespace UnityEngine {
 struct Ray;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder {
+struct Normal;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
-struct Normal;
 }
 namespace UnityEngine::ProBuilder {
 class Bounds2D;
@@ -37,16 +21,32 @@ namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Rect;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Vector4;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

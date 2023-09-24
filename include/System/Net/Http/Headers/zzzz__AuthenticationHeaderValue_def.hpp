@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net::Http::Headers {
-class Lexer;
-}
 namespace System {
 class ICloneable;
 }
@@ -16,6 +13,9 @@ struct Token;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -88,14 +88,12 @@ constexpr ::StringW __get__Scheme_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scheme", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "parameter", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AuthenticationHeaderValue(::StringW scheme, ::StringW parameter) ;
+static System::Net::Http::Headers::AuthenticationHeaderValue New_ctor(::StringW scheme, ::StringW parameter) ;
 
 /// @brief Method .ctor addr 0x26a2fa0 size 0x34 virtual false final false
  void _ctor(::StringW scheme, ::StringW parameter) ;
 
-// Ctor Parameters []
-explicit AuthenticationHeaderValue() ;
+static System::Net::Http::Headers::AuthenticationHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26a2fd4 size 0x8 virtual false final false
  void _ctor() ;

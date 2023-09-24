@@ -47,8 +47,7 @@ constexpr explicit ParamArrayAttribute(void* ptr) noexcept : System::Attribute(p
 
 // Methods
 
-// Ctor Parameters []
-explicit ParamArrayAttribute() ;
+static System::ParamArrayAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x244fd84 size 0x8 virtual false final false
  void _ctor() ;

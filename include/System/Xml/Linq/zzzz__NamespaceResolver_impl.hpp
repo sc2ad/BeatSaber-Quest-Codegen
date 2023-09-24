@@ -2,6 +2,7 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
+#include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 //  Writing Method size for method: System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration._ctor
 template<>
 
@@ -43,8 +44,10 @@ constexpr void System::Xml::Linq::System__Xml__Linq__NamespaceResolver__Namespac
 constexpr System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration::__get_prev() const {
 return ::cordl_internals::getInstanceField<System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Linq__NamespaceResolver__NamespaceDeclaration>())) {}
+ System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration::New_ctor()  {
+System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration>())};
+return o;
+}
  void System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Linq::System__Xml__Linq__NamespaceResolver__NamespaceDeclaration>::get(),

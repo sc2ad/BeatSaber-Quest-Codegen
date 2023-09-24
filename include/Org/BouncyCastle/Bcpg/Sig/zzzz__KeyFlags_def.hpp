@@ -81,14 +81,12 @@ static constexpr int32_t  Shared{128};
 /// @brief Method IntToByteArray addr 0x113db78 size 0xcc virtual false final false
 static ::ArrayW<uint8_t> IntToByteArray(int32_t v) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit KeyFlags(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::KeyFlags New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113dc44 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeyFlags(bool critical, int32_t flags) ;
+static Org::BouncyCastle::Bcpg::Sig::KeyFlags New_ctor(bool critical, int32_t flags) ;
 
 /// @brief Method .ctor addr 0x113dc8c size 0x4c virtual false final false
  void _ctor(bool critical, int32_t flags) ;

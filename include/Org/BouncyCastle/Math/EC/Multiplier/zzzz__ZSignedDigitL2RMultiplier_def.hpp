@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -56,8 +56,7 @@ constexpr explicit ZSignedDigitL2RMultiplier(void* ptr) noexcept : Org::BouncyCa
 /// @brief Method MultiplyPositive addr 0xfadc54 size 0xf0 virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
-// Ctor Parameters []
-explicit ZSignedDigitL2RMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitL2RMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfadd44 size 0x8 virtual false final false
  void _ctor() ;

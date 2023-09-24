@@ -29,8 +29,10 @@ constexpr void Oculus::Platform::Models::SupplementaryMetric::__set_Metric(int64
 constexpr int64_t Oculus::Platform::Models::SupplementaryMetric::__get_Metric() const {
 return ::cordl_internals::getInstanceField<int64_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::SupplementaryMetric::SupplementaryMetric(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SupplementaryMetric>(o))) {}
+ Oculus::Platform::Models::SupplementaryMetric Oculus::Platform::Models::SupplementaryMetric::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::SupplementaryMetric o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::SupplementaryMetric>(o))};
+return o;
+}
  void Oculus::Platform::Models::SupplementaryMetric::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::SupplementaryMetric>::get(),

@@ -4,16 +4,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Vector2;
 }
 namespace UnityEngine {
 class RectTransform;
 }
 namespace UnityEngine {
-struct Vector2;
+class Camera;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HMUI {
@@ -97,8 +97,7 @@ constexpr UnityEngine::RectTransform __get__containerRect() const;
 /// @brief Method DrawGizmoCircle addr 0x1fb198c size 0xe0 virtual false final false
  void DrawGizmoCircle(UnityEngine::Vector3 center, float_t radius, int32_t steps) ;
 
-// Ctor Parameters []
-explicit CircleTouchable() ;
+static HMUI::CircleTouchable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb1a6c size 0x10 virtual false final false
  void _ctor() ;

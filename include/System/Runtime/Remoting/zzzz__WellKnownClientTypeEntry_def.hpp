@@ -81,8 +81,7 @@ constexpr ::StringW __get_app_url() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "objectUrl", ty: "::StringW", modifiers: "", def_value: None }]
-explicit WellKnownClientTypeEntry(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl) ;
+static System::Runtime::Remoting::WellKnownClientTypeEntry New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl) ;
 
 /// @brief Method .ctor addr 0x232968c size 0x134 virtual false final false
  void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl) ;

@@ -2,14 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -121,8 +121,10 @@ constexpr void System::Xml::Schema::SchemaNotation::__set_pubid(::StringW value)
 constexpr ::StringW System::Xml::Schema::SchemaNotation::__get_pubid() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }]
- System::Xml::Schema::SchemaNotation::SchemaNotation(System::Xml::XmlQualifiedName name)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SchemaNotation>(name))) {}
+ System::Xml::Schema::SchemaNotation System::Xml::Schema::SchemaNotation::New_ctor(System::Xml::XmlQualifiedName name)  {
+System::Xml::Schema::SchemaNotation o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaNotation>(name))};
+return o;
+}
  void System::Xml::Schema::SchemaNotation::_ctor(System::Xml::XmlQualifiedName name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaNotation>::get(),

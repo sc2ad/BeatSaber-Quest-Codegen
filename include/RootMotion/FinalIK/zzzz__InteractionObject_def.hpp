@@ -7,26 +7,41 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class InteractionTarget;
 }
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class RootMotion__FinalIK__InteractionObject__WeightCurve;
+}
+namespace RootMotion::FinalIK {
+class InteractionSystem;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionObject__Multiplier;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionObject__AnimatorEvent;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionObject__Message;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace RootMotion::FinalIK {
-class InteractionTarget;
-}
-namespace RootMotion::FinalIK {
-class InteractionSystem;
+struct FullBodyBipedEffector;
 }
 namespace UnityEngine {
-class Animator;
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionObject__InteractionEvent;
 }
 namespace UnityEngine {
 class Animation;
+}
+namespace UnityEngine {
+class Animator;
 }
 namespace UnityEngine::Events {
 class UnityEvent;
@@ -36,6 +51,9 @@ class GameObject;
 }
 namespace UnityEngine {
 class AnimationCurve;
+}
+namespace GlobalNamespace {
+struct RootMotion__FinalIK__InteractionObject__WeightCurve__Type;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -143,8 +161,7 @@ constexpr UnityEngine::Events::UnityEvent __get_unityEvent() const;
 /// @brief Method Activate addr 0x11f9bcc size 0xc4 virtual false final false
  void Activate(UnityEngine::Transform t) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionObject__InteractionEvent() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fb454 size 0x8 virtual false final false
  void _ctor() ;
@@ -216,8 +233,7 @@ static constexpr ::ConstString  empty{u""};
 /// @brief Method Send addr 0x11fb35c size 0xf8 virtual false final false
  void Send(UnityEngine::Transform t) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionObject__Message() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fb45c size 0x8 virtual false final false
  void _ctor() ;
@@ -319,8 +335,7 @@ static constexpr ::ConstString  empty{u""};
 /// @brief Method Activate addr 0x11fb514 size 0xd8 virtual false final false
  void Activate(UnityEngine::Animation animation) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionObject__AnimatorEvent() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fb5ec size 0x14 virtual false final false
  void _ctor() ;
@@ -388,6 +403,8 @@ __BendGoalWeight = 11,
 constexpr operator __RootMotion__FinalIK__InteractionObject__WeightCurve__Type_Unwrapped () const noexcept {
 return std::bit_cast<__RootMotion__FinalIK__InteractionObject__WeightCurve__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -500,8 +517,7 @@ constexpr UnityEngine::AnimationCurve __get_curve() const;
 /// @brief Method GetValue addr 0x11fab90 size 0x1c virtual false final false
  float_t GetValue(float_t timer) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionObject__WeightCurve() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fb600 size 0x8 virtual false final false
  void _ctor() ;
@@ -576,8 +592,7 @@ constexpr GlobalNamespace::RootMotion__FinalIK__InteractionObject__WeightCurve__
 /// @brief Method GetValue addr 0x11fb198 size 0x30 virtual false final false
  float_t GetValue(RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve weightCurve, float_t timer) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionObject__Multiplier() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fb608 size 0x10 virtual false final false
  void _ctor() ;
@@ -787,8 +802,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::InteractionTarget> __get_targets() const
 /// @brief Method GetMultiplierIndex addr 0x11fb1cc size 0x5c virtual false final false
  int32_t GetMultiplierIndex(GlobalNamespace::RootMotion__FinalIK__InteractionObject__WeightCurve__Type weightCurveType) ;
 
-// Ctor Parameters []
-explicit InteractionObject() ;
+static RootMotion::FinalIK::InteractionObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fb228 size 0x58 virtual false final false
  void _ctor() ;

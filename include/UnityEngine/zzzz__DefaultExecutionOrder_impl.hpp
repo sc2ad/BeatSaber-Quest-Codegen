@@ -41,8 +41,10 @@ constexpr void UnityEngine::DefaultExecutionOrder::__set_m_Order(int32_t value) 
 constexpr int32_t UnityEngine::DefaultExecutionOrder::__get_m_Order() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::DefaultExecutionOrder::DefaultExecutionOrder(int32_t order)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DefaultExecutionOrder>(order))) {}
+ UnityEngine::DefaultExecutionOrder UnityEngine::DefaultExecutionOrder::New_ctor(int32_t order)  {
+UnityEngine::DefaultExecutionOrder o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::DefaultExecutionOrder>(order))};
+return o;
+}
  void UnityEngine::DefaultExecutionOrder::_ctor(int32_t order)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::DefaultExecutionOrder>::get(),

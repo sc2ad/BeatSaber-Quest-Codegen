@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class System__DateTimeParse__MatchNumberDelegate;
-}
 namespace System::Globalization {
 class Calendar;
 }
 namespace System {
 struct System__DateTimeParse__TM;
+}
+namespace System {
+class System__DateTimeParse__MatchNumberDelegate;
 }
 // Forward declare root types
 namespace System {

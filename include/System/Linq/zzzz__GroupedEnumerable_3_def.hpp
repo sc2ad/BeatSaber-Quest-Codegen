@@ -1,31 +1,31 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Linq {
+template<typename TKey,typename TElement>
+class IGrouping_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Linq {
-template<typename TKey,typename TElement>
-class IGrouping_2;
-}
-namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -114,8 +114,7 @@ constexpr System::Collections::Generic::IEqualityComparer_1<TKey> __get_comparer
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "source", ty: "System::Collections::Generic::IEnumerable_1<TSource>", modifiers: "", def_value: None }, CppParam { name: "keySelector", ty: "System::Func_2<TSource,TKey>", modifiers: "", def_value: None }, CppParam { name: "elementSelector", ty: "System::Func_2<TSource,TElement>", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit GroupedEnumerable_3(System::Collections::Generic::IEnumerable_1<TSource> source, System::Func_2<TSource,TKey> keySelector, System::Func_2<TSource,TElement> elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+static System::Linq::GroupedEnumerable_3<TSource,TKey,TElement> New_ctor(System::Collections::Generic::IEnumerable_1<TSource> source, System::Func_2<TSource,TKey> keySelector, System::Func_2<TSource,TElement> elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEnumerable_1<TSource> source, System::Func_2<TSource,TKey> keySelector, System::Func_2<TSource,TElement> elementSelector, System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;

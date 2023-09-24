@@ -7,14 +7,14 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::UIElements::StyleSheets::Syntax {
+class Expression;
+}
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyValue;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResult;
-}
-namespace UnityEngine::UIElements::StyleSheets::Syntax {
-class Expression;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -130,8 +130,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::StyleShe
 /// @brief Method MatchAngle addr 0x2c78e60 size 0xfc virtual true final false
  bool MatchAngle() ;
 
-// Ctor Parameters []
-explicit StylePropertyValueMatcher() ;
+static UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c78f5c size 0x54 virtual false final false
  void _ctor() ;

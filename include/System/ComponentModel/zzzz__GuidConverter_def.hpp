@@ -69,8 +69,7 @@ constexpr explicit GuidConverter(void* ptr) noexcept : System::ComponentModel::T
 /// @brief Method ConvertTo addr 0x277e1a8 size 0x328 virtual true final false
  ::bs_hook::Il2CppWrapperType ConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, System::Type destinationType) ;
 
-// Ctor Parameters []
-explicit GuidConverter() ;
+static System::ComponentModel::GuidConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x277e4d0 size 0x8 virtual false final false
  void _ctor() ;

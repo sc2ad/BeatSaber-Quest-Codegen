@@ -5,21 +5,21 @@
 namespace UnityEngine {
 struct Vector3;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace GlobalNamespace {
 class SaberManager;
+}
+namespace GlobalNamespace {
+class AveragingValueRecorder;
 }
 namespace GlobalNamespace {
 class MovementHistoryRecorder;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace GlobalNamespace {
-class AveragingValueRecorder;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -238,8 +238,7 @@ constexpr GlobalNamespace::MovementHistoryRecorder __get__handMovementHistoryRec
 /// @brief Method Update addr 0x210ba10 size 0x414 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit SaberActivityCounter() ;
+static GlobalNamespace::SaberActivityCounter New_ctor() ;
 
 /// @brief Method .ctor addr 0x210be24 size 0x20 virtual false final false
  void _ctor() ;

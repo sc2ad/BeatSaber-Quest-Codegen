@@ -302,8 +302,10 @@ constexpr void System::Runtime::InteropServices::SafeHandle::__set__fullyInitial
 constexpr bool System::Runtime::InteropServices::SafeHandle::__get__fullyInitialized() const {
 return ::cordl_internals::getInstanceField<bool, 0x1d>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "invalidHandleValue", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "ownsHandle", ty: "bool", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::SafeHandle::SafeHandle(::cordl_internals::intptr_t invalidHandleValue, bool ownsHandle)  : System::Runtime::ConstrainedExecution::CriticalFinalizerObject(THROW_UNLESS(::il2cpp_utils::New<SafeHandle>(invalidHandleValue, ownsHandle))) {}
+ System::Runtime::InteropServices::SafeHandle System::Runtime::InteropServices::SafeHandle::New_ctor(::cordl_internals::intptr_t invalidHandleValue, bool ownsHandle)  {
+System::Runtime::InteropServices::SafeHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::SafeHandle>(invalidHandleValue, ownsHandle))};
+return o;
+}
  void System::Runtime::InteropServices::SafeHandle::_ctor(::cordl_internals::intptr_t invalidHandleValue, bool ownsHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::SafeHandle>::get(),

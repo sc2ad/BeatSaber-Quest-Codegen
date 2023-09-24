@@ -46,8 +46,10 @@ constexpr void HoudiniEngineUnity::Test_HAPI_TransformEuler::__set_self(HoudiniE
 constexpr HoudiniEngineUnity::HAPI_TransformEuler HoudiniEngineUnity::Test_HAPI_TransformEuler::__get_self() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HAPI_TransformEuler, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_TransformEuler", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_HAPI_TransformEuler::Test_HAPI_TransformEuler(HoudiniEngineUnity::HAPI_TransformEuler self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_HAPI_TransformEuler>(self))) {}
+ HoudiniEngineUnity::Test_HAPI_TransformEuler HoudiniEngineUnity::Test_HAPI_TransformEuler::New_ctor(HoudiniEngineUnity::HAPI_TransformEuler self)  {
+HoudiniEngineUnity::Test_HAPI_TransformEuler o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_HAPI_TransformEuler>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_HAPI_TransformEuler::_ctor(HoudiniEngineUnity::HAPI_TransformEuler self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_HAPI_TransformEuler>::get(),

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -93,14 +93,12 @@ constexpr int32_t __get_ResourceId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TypeLoadException() ;
+static System::TypeLoadException New_ctor() ;
 
 /// @brief Method .ctor addr 0x2483e5c size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeLoadException(::StringW message) ;
+static System::TypeLoadException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x2483ebc size 0x28 virtual false final false
  void _ctor(::StringW message) ;
@@ -111,20 +109,17 @@ explicit TypeLoadException(::StringW message) ;
 /// @brief Method SetMessageField addr 0x2483efc size 0xf0 virtual false final false
  void SetMessageField() ;
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeLoadException(::StringW className, ::StringW assemblyName) ;
+static System::TypeLoadException New_ctor(::StringW className, ::StringW assemblyName) ;
 
 /// @brief Method .ctor addr 0x2483fec size 0xc virtual false final false
  void _ctor(::StringW className, ::StringW assemblyName) ;
 
-// Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "messageArg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "resourceId", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TypeLoadException(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId) ;
+static System::TypeLoadException New_ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId) ;
 
 /// @brief Method .ctor addr 0x2483ff8 size 0x60 virtual false final false
  void _ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit TypeLoadException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::TypeLoadException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2484058 size 0x148 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

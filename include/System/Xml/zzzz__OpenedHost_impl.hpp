@@ -23,8 +23,10 @@ constexpr void System::Xml::OpenedHost::__set_nonCachedConnectionsCount(int32_t 
 constexpr int32_t System::Xml::OpenedHost::__get_nonCachedConnectionsCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::OpenedHost::OpenedHost()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OpenedHost>())) {}
+ System::Xml::OpenedHost System::Xml::OpenedHost::New_ctor()  {
+System::Xml::OpenedHost o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::OpenedHost>())};
+return o;
+}
  void System::Xml::OpenedHost::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::OpenedHost>::get(),

@@ -3,31 +3,30 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
-#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
-#include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelDataLoader_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionSO_def.hpp"
+#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataLoader_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPackCollection_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelPackCollectionContainerSO_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelPack_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
+#include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__HMCache_2_def.hpp"
+#include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "UnityEngine/zzzz__AudioClip_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelLoader_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData._ctor
 template<>
 
@@ -51,8 +50,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData::_
 constexpr int32_t GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData::__get_maxCachedBeatmapLevels() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "maxCachedBeatmapLevels", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData::GlobalNamespace__BeatmapLevelsModel__InitData(int32_t maxCachedBeatmapLevels)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelsModel__InitData>(maxCachedBeatmapLevels))) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData::New_ctor(int32_t maxCachedBeatmapLevels)  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData>(maxCachedBeatmapLevels))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData::_ctor(int32_t maxCachedBeatmapLevels)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel__InitData>::get(),
@@ -291,8 +292,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__Displa
 constexpr ::StringW GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0::__get_levelId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0 GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c__DisplayClass36_0>::get(),
@@ -357,8 +360,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Beatm
  System::Func_2<GlobalNamespace::IBeatmapLevelPack,System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel>> GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c::__get___9__36_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::IBeatmapLevelPack,System::Collections::Generic::IEnumerable_1<GlobalNamespace::IPreviewBeatmapLevel>>, "<>9__36_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c::GlobalNamespace__BeatmapLevelsModel____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapLevelsModel____c>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapLevelsModel____c>::get(),
@@ -1178,8 +1183,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapLevelsModel::BeatmapLevelsModel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapLevelsModel>())) {}
+ GlobalNamespace::BeatmapLevelsModel GlobalNamespace::BeatmapLevelsModel::New_ctor()  {
+GlobalNamespace::BeatmapLevelsModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapLevelsModel>())};
+return o;
+}
  void GlobalNamespace::BeatmapLevelsModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapLevelsModel>::get(),

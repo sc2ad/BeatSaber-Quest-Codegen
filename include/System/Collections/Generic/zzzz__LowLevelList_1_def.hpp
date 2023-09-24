@@ -104,14 +104,12 @@ static ::ArrayW<T> __get_s_emptyArray() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit LowLevelList_1() ;
+static System::Collections::Generic::LowLevelList_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit LowLevelList_1(int32_t capacity) ;
+static System::Collections::Generic::LowLevelList_1<T> New_ctor(int32_t capacity) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t capacity) ;

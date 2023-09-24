@@ -89,8 +89,10 @@ return ::cordl_internals::getStaticField<System::Collections::Generic::List_1<Sy
  int32_t System::Diagnostics::Switch::__get_s_LastCollectionCount()  {
 return ::cordl_internals::getStaticField<int32_t, "s_LastCollectionCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Switch>::get>();
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::Switch::Switch(::StringW displayName, ::StringW description)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Switch>(displayName, description))) {}
+ System::Diagnostics::Switch System::Diagnostics::Switch::New_ctor(::StringW displayName, ::StringW description)  {
+System::Diagnostics::Switch o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Switch>(displayName, description))};
+return o;
+}
  void System::Diagnostics::Switch::_ctor(::StringW displayName, ::StringW description)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Switch>::get(),
@@ -100,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, displayName, description);
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "defaultSwitchValue", ty: "::StringW", modifiers: "", def_value: None }]
- System::Diagnostics::Switch::Switch(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Switch>(displayName, description, defaultSwitchValue))) {}
+ System::Diagnostics::Switch System::Diagnostics::Switch::New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue)  {
+System::Diagnostics::Switch o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Switch>(displayName, description, defaultSwitchValue))};
+return o;
+}
  void System::Diagnostics::Switch::_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Switch>::get(),

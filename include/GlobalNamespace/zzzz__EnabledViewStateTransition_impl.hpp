@@ -364,8 +364,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnabledViewStateTransition::EnabledViewStateTransition()  : GlobalNamespace::BaseStateTransition_1<UnityEngine::Behaviour>(THROW_UNLESS(::il2cpp_utils::New<EnabledViewStateTransition>())) {}
+ GlobalNamespace::EnabledViewStateTransition GlobalNamespace::EnabledViewStateTransition::New_ctor()  {
+GlobalNamespace::EnabledViewStateTransition o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnabledViewStateTransition>())};
+return o;
+}
  void GlobalNamespace::EnabledViewStateTransition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnabledViewStateTransition>::get(),

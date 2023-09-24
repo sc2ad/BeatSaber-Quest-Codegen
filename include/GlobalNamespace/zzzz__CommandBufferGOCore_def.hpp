@@ -1,18 +1,18 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace UnityEngine::Rendering {
-class CommandBuffer;
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine::Rendering {
-struct CameraEvent;
+class CommandBuffer;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
+namespace UnityEngine {
+class Camera;
 }
 namespace UnityEngine {
 class Mesh;
@@ -20,8 +20,8 @@ class Mesh;
 namespace GlobalNamespace {
 class CommandBufferOwners;
 }
-namespace UnityEngine {
-class Camera;
+namespace UnityEngine::Rendering {
+struct CameraEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +108,7 @@ constexpr UnityEngine::Mesh __get__mesh() const;
 /// @brief Method CamerasDict addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Collections::Generic::Dictionary_2<UnityEngine::Camera,GlobalNamespace::CommandBufferOwners> CamerasDict() ;
 
-// Ctor Parameters []
-explicit CommandBufferGOCore() ;
+static GlobalNamespace::CommandBufferGOCore New_ctor() ;
 
 /// @brief Method .ctor addr 0x2675040 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class RuntimeType;
+}
 namespace System::Reflection {
 class FieldInfo;
 }
 namespace System {
 struct RuntimeTypeHandle;
-}
-namespace System {
-class RuntimeType;
 }
 // Forward declare root types
 namespace System {

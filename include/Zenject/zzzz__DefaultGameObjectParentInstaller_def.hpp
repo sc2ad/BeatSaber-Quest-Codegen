@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Zenject {
+class Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace UnityEngine {
@@ -74,8 +77,7 @@ constexpr UnityEngine::GameObject __get__gameObject() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
-explicit Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer(UnityEngine::GameObject gameObject) ;
+static Zenject::Zenject__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer New_ctor(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method .ctor addr 0x2da3fe0 size 0x28 virtual false final false
  void _ctor(UnityEngine::GameObject gameObject) ;
@@ -146,8 +148,7 @@ constexpr ::StringW __get__name() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DefaultGameObjectParentInstaller(::StringW name) ;
+static Zenject::DefaultGameObjectParentInstaller New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2da3b20 size 0x5c virtual false final false
  void _ctor(::StringW name) ;

@@ -3,30 +3,30 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IPoolablePacket;
+template<typename T>
+class ISyncStateSerializable_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
 namespace GlobalNamespace {
 template<typename T>
-class ISyncStateSerializable_1;
+class PacketPool_1;
 }
 namespace GlobalNamespace {
 struct NodePoseSyncState;
 }
 namespace GlobalNamespace {
 struct SyncStateId;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-template<typename T>
-class PacketPool_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -145,8 +145,7 @@ static GlobalNamespace::PacketPool_1<GlobalNamespace::NodePoseSyncStateNetSerial
 /// @brief Method Release addr 0xdccea8 size 0x54 virtual true final true
  void Release() ;
 
-// Ctor Parameters []
-explicit NodePoseSyncStateNetSerializable() ;
+static GlobalNamespace::NodePoseSyncStateNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0xdccefc size 0x8 virtual false final false
  void _ctor() ;

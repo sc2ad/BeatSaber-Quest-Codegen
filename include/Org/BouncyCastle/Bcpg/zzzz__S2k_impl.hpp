@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::S2k._ctor
 template<>
 
@@ -221,8 +221,10 @@ constexpr void Org::BouncyCastle::Bcpg::S2k::__set_protectionMode(int32_t value)
 constexpr int32_t Org::BouncyCastle::Bcpg::S2k::__get_protectionMode() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::S2k::S2k(System::IO::Stream inStr)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<S2k>(inStr))) {}
+ Org::BouncyCastle::Bcpg::S2k Org::BouncyCastle::Bcpg::S2k::New_ctor(System::IO::Stream inStr)  {
+Org::BouncyCastle::Bcpg::S2k o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::S2k>(inStr))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::S2k::_ctor(System::IO::Stream inStr)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::S2k>::get(),
@@ -232,8 +234,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, inStr);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::S2k::S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<S2k>(algorithm))) {}
+ Org::BouncyCastle::Bcpg::S2k Org::BouncyCastle::Bcpg::S2k::New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm)  {
+Org::BouncyCastle::Bcpg::S2k o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::S2k>(algorithm))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::S2k::_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::S2k>::get(),
@@ -243,8 +247,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::S2k::S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<S2k>(algorithm, iv))) {}
+ Org::BouncyCastle::Bcpg::S2k Org::BouncyCastle::Bcpg::S2k::New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv)  {
+Org::BouncyCastle::Bcpg::S2k o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::S2k>(algorithm, iv))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::S2k::_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::S2k>::get(),
@@ -254,8 +260,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm, iv);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::HashAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "itCount", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::S2k::S2k(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount)  : Org::BouncyCastle::Bcpg::BcpgObject(THROW_UNLESS(::il2cpp_utils::New<S2k>(algorithm, iv, itCount))) {}
+ Org::BouncyCastle::Bcpg::S2k Org::BouncyCastle::Bcpg::S2k::New_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount)  {
+Org::BouncyCastle::Bcpg::S2k o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::S2k>(algorithm, iv, itCount))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::S2k::_ctor(Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::S2k>::get(),

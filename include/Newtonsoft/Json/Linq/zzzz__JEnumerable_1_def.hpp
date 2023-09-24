@@ -7,22 +7,22 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IJEnumerable_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace Newtonsoft::Json::Linq {
-template<typename T>
-class IJEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -39,7 +39,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(11931))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11931)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11931), inst: 2 })
 // CS Name: Newtonsoft.Json.Linq.JEnumerable`1
 struct CORDL_TYPE JEnumerable_1<T> : public ::bs_hook::ValueTypeWrapper {

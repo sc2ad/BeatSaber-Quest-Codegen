@@ -5,10 +5,7 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct AnimatorStateInfo;
-}
-namespace UnityEngine {
-struct AnimatorClipInfo;
+struct AnimationEventSource;
 }
 namespace UnityEngine {
 class AnimationState;
@@ -17,7 +14,10 @@ namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
-struct AnimationEventSource;
+struct AnimatorStateInfo;
+}
+namespace UnityEngine {
+struct AnimatorClipInfo;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -134,8 +134,7 @@ constexpr UnityEngine::AnimatorClipInfo __get_m_AnimatorClipInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit AnimationEvent() ;
+static UnityEngine::AnimationEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b1aa98 size 0x64 virtual false final false
  void _ctor() ;

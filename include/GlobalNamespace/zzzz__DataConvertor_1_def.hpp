@@ -1,16 +1,16 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace GlobalNamespace {
-template<typename TOut>
-class DataItemConvertor_1;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System {
 class Type;
+}
+namespace GlobalNamespace {
+template<typename TOut>
+class DataItemConvertor_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,8 +81,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::Type,GlobalNamespac
 /// @brief Method AddConvertor addr 0x0 size 0xffffffffffffffff virtual false final false
  void AddConvertor(GlobalNamespace::DataItemConvertor_1<T> dataItemConvertor) ;
 
-// Ctor Parameters []
-explicit DataConvertor_1() ;
+static GlobalNamespace::DataConvertor_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

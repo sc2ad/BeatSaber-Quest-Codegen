@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__INotifyValueChangedExtensions_def.hpp"
-#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 template<typename T>
  bool UnityEngine::UIElements::INotifyValueChangedExtensions::RegisterValueChangedCallback(UnityEngine::UIElements::INotifyValueChanged_1<T> control, UnityEngine::UIElements::EventCallback_1<UnityEngine::UIElements::ChangeEvent_1<T>> callback)  {

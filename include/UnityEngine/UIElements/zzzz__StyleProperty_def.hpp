@@ -99,8 +99,7 @@ constexpr bool __get_requireVariableResolve() const;
 /// @brief Method get_values addr 0x2cf24bc size 0x8 virtual false final false
  ::ArrayW<UnityEngine::UIElements::StyleValueHandle> get_values() ;
 
-// Ctor Parameters []
-explicit StyleProperty() ;
+static UnityEngine::UIElements::StyleProperty New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cf24c4 size 0x8 virtual false final false
  void _ctor() ;

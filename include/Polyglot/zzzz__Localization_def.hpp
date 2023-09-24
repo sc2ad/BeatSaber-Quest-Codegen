@@ -6,23 +6,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Polyglot {
+class LocalizationDocument;
+}
+namespace Polyglot {
 struct Language;
+}
+namespace UnityEngine {
+struct SystemLanguage;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::Events {
-class UnityEvent;
-}
-namespace Polyglot {
-class LocalizationDocument;
-}
-namespace Polyglot {
-struct LanguageDirection;
-}
-namespace System::Globalization {
-class CultureInfo;
 }
 namespace Polyglot {
 class LocalizationAsset;
@@ -30,8 +24,14 @@ class LocalizationAsset;
 namespace Polyglot {
 class ILocalize;
 }
-namespace UnityEngine {
-struct SystemLanguage;
+namespace UnityEngine::Events {
+class UnityEvent;
+}
+namespace Polyglot {
+struct LanguageDirection;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -252,8 +252,7 @@ static ::StringW GetFormat(::StringW key, ::ArrayW<::bs_hook::Il2CppWrapperType>
 /// @brief Method InputFilesContains addr 0x26729c4 size 0x1c4 virtual false final false
  bool InputFilesContains(Polyglot::LocalizationDocument doc) ;
 
-// Ctor Parameters []
-explicit Localization() ;
+static Polyglot::Localization New_ctor() ;
 
 /// @brief Method .ctor addr 0x2672b88 size 0x98 virtual false final false
  void _ctor() ;

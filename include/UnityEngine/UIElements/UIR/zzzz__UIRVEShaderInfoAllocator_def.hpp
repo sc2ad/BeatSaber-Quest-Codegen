@@ -5,6 +5,34 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements::UIR {
+class BaseShaderInfoStorage;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine::UIElements::UIR {
+struct BitmapAllocator32;
+}
+namespace UnityEngine::UIElements::UIR {
+struct TextCoreSettings;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct RectInt;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements::UIR {
+struct Transform3x4;
+}
+namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
 }
 namespace Unity::Collections {
@@ -15,38 +43,10 @@ namespace UnityEngine {
 struct Vector2Int;
 }
 namespace UnityEngine {
-struct RectInt;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
-}
-namespace UnityEngine::UIElements::UIR {
-struct Transform3x4;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
 struct Color32;
-}
-namespace UnityEngine::UIElements::UIR {
-struct TextCoreSettings;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UIElements::UIR {
-struct BitmapAllocator32;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine {
 struct Matrix4x4;
-}
-namespace UnityEngine::UIElements::UIR {
-class BaseShaderInfoStorage;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

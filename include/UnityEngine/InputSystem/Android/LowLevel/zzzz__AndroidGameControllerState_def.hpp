@@ -4,17 +4,26 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState___axis_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidAxis;
+}
+namespace UnityEngine::InputSystem::Android::LowLevel {
+class UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants;
+}
+namespace UnityEngine::InputSystem::Android::LowLevel {
+struct UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState___buttons_e__FixedBuffer;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidKeyCode;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -86,8 +95,7 @@ static constexpr ::ConstString  DPadButtons{u"DpadButtons"};
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants() ;
+static UnityEngine::InputSystem::Android::LowLevel::UnityEngine__InputSystem__Android__LowLevel__AndroidGameControllerState__Variants New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953dec size 0x8 virtual false final false
  void _ctor() ;

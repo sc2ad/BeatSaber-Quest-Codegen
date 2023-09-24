@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightColorBaseData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightColorBaseData._ctor
 template<>
 
@@ -49,8 +49,10 @@ constexpr void GlobalNamespace::LightColorBaseData::__set_strobeBeatFrequency(in
 constexpr int32_t GlobalNamespace::LightColorBaseData::__get_strobeBeatFrequency() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "beat", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "GlobalNamespace::BeatmapEventTransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeBeatFrequency", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::LightColorBaseData::LightColorBaseData(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LightColorBaseData>(beat, transitionType, colorType, brightness, strobeBeatFrequency))) {}
+ GlobalNamespace::LightColorBaseData GlobalNamespace::LightColorBaseData::New_ctor(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency)  {
+GlobalNamespace::LightColorBaseData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightColorBaseData>(beat, transitionType, colorType, brightness, strobeBeatFrequency))};
+return o;
+}
  void GlobalNamespace::LightColorBaseData::_ctor(float_t beat, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorBaseData>::get(),

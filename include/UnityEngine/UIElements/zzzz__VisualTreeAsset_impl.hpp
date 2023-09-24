@@ -4,21 +4,20 @@
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntry._ctor
 template<>
 
@@ -121,8 +120,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, x, y);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset__UsingEntryComparer>::get(),
@@ -385,8 +386,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset
 constexpr UnityEngine::UIElements::VisualTreeAsset UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17::__get__vta_5__4() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::VisualTreeAsset, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17>(__1__state))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17 UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17::New_ctor(int32_t __1__state)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17>(__1__state))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_templateDependencies_d__17>::get(),
@@ -747,8 +750,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset
 constexpr UnityEngine::UIElements::StyleSheet UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21::__get__stylesheet_5__8() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::StyleSheet, 0x98>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21>(__1__state))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21 UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21::New_ctor(int32_t __1__state)  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21>(__1__state))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset___get_stylesheets_d__21>::get(),
@@ -888,8 +893,10 @@ constexpr void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset
 constexpr UnityEngine::UIElements::VisualElementAsset UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0::__get_childVea() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UIElements::VisualElementAsset, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0 UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeAsset____c__DisplayClass45_0>::get(),
@@ -1823,8 +1830,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualTreeAsset::VisualTreeAsset()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<VisualTreeAsset>())) {}
+ UnityEngine::UIElements::VisualTreeAsset UnityEngine::UIElements::VisualTreeAsset::New_ctor()  {
+UnityEngine::UIElements::VisualTreeAsset o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualTreeAsset>())};
+return o;
+}
  void UnityEngine::UIElements::VisualTreeAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualTreeAsset>::get(),

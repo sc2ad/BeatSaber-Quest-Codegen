@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine {
+struct TreeInstance;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace UnityEngine {
-struct TreeInstance;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -66,8 +66,7 @@ constexpr UnityEngine::TreeInstance __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::TreeInstance", modifiers: "", def_value: None }]
-explicit Test_TreeInstance(UnityEngine::TreeInstance self) ;
+static HoudiniEngineUnity::Test_TreeInstance New_ctor(UnityEngine::TreeInstance self) ;
 
 /// @brief Method .ctor addr 0x2075940 size 0x34 virtual false final false
  void _ctor(UnityEngine::TreeInstance self) ;

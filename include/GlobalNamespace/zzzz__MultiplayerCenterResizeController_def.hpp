@@ -8,10 +8,10 @@ template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+struct MultiplayerPlayerLayout;
 }
 namespace GlobalNamespace {
-struct MultiplayerPlayerLayout;
+class MultiplayerLayoutProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -126,8 +126,7 @@ constexpr float_t __get__edgeDistanceFromCenter_k__BackingField() const;
 /// @brief Method HandlePlayersLayoutWasCalculated addr 0x20f0a38 size 0x78 virtual false final false
  void HandlePlayersLayoutWasCalculated(GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers) ;
 
-// Ctor Parameters []
-explicit MultiplayerCenterResizeController() ;
+static GlobalNamespace::MultiplayerCenterResizeController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20f0ca4 size 0x8 virtual false final false
  void _ctor() ;

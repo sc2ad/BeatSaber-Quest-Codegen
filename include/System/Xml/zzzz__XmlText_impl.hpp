@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Xml/zzzz__XmlCharacterData_impl.hpp"
 #include "System/Xml/zzzz__XmlText_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
 //  Writing Method size for method: System::Xml::XmlText._ctor
 template<>
 
@@ -174,8 +174,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "strData", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::XmlText::XmlText(::StringW strData)  : System::Xml::XmlCharacterData(THROW_UNLESS(::il2cpp_utils::New<XmlText>(strData))) {}
+ System::Xml::XmlText System::Xml::XmlText::New_ctor(::StringW strData)  {
+System::Xml::XmlText o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlText>(strData))};
+return o;
+}
  void System::Xml::XmlText::_ctor(::StringW strData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlText>::get(),
@@ -185,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, strData);
 }
-// Ctor Parameters [CppParam { name: "strData", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
- System::Xml::XmlText::XmlText(::StringW strData, System::Xml::XmlDocument doc)  : System::Xml::XmlCharacterData(THROW_UNLESS(::il2cpp_utils::New<XmlText>(strData, doc))) {}
+ System::Xml::XmlText System::Xml::XmlText::New_ctor(::StringW strData, System::Xml::XmlDocument doc)  {
+System::Xml::XmlText o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlText>(strData, doc))};
+return o;
+}
  void System::Xml::XmlText::_ctor(::StringW strData, System::Xml::XmlDocument doc)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlText>::get(),

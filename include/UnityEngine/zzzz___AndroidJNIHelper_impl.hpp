@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz___AndroidJNIHelper_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "UnityEngine/zzzz__jvalue_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 //  Writing Method size for method: UnityEngine::_AndroidJNIHelper.CreateJavaProxy
 template<>
@@ -520,8 +520,10 @@ static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod
                         ));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, args);
 }
-// Ctor Parameters []
- UnityEngine::_AndroidJNIHelper::_AndroidJNIHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<_AndroidJNIHelper>())) {}
+ UnityEngine::_AndroidJNIHelper UnityEngine::_AndroidJNIHelper::New_ctor()  {
+UnityEngine::_AndroidJNIHelper o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::_AndroidJNIHelper>())};
+return o;
+}
  void UnityEngine::_AndroidJNIHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::_AndroidJNIHelper>::get(),

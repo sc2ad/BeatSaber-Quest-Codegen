@@ -63,8 +63,7 @@ constexpr ::ArrayW<TMPro::TMP_Text> __get__texts() const;
 /// @brief Method Start addr 0x1fa33d4 size 0x108 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit TextMeshProAutosizeGroup() ;
+static GlobalNamespace::TextMeshProAutosizeGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa34dc size 0x8 virtual false final false
  void _ctor() ;

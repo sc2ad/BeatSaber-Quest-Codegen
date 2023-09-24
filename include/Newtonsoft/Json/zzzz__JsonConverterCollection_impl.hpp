@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Newto
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Newtonsoft::Json::JsonConverterCollection::JsonConverterCollection()  : System::Collections::ObjectModel::Collection_1<Newtonsoft::Json::JsonConverter>(THROW_UNLESS(::il2cpp_utils::New<JsonConverterCollection>())) {}
+ Newtonsoft::Json::JsonConverterCollection Newtonsoft::Json::JsonConverterCollection::New_ctor()  {
+Newtonsoft::Json::JsonConverterCollection o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::JsonConverterCollection>())};
+return o;
+}
  void Newtonsoft::Json::JsonConverterCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::JsonConverterCollection>::get(),

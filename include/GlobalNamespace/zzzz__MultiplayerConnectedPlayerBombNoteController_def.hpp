@@ -9,6 +9,9 @@ class NoteData;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool;
@@ -63,8 +66,7 @@ constexpr explicit MultiplayerConnectedPlayerBombNoteController(void* ptr) noexc
 /// @brief Method Init addr 0x20de1cc size 0x58 virtual false final false
  void Init(GlobalNamespace::NoteData noteData, float_t worldRotation, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float_t moveDuration, float_t jumpDuration, float_t jumpGravity) ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerBombNoteController() ;
+static GlobalNamespace::MultiplayerConnectedPlayerBombNoteController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2104 size 0x8 virtual false final false
  void _ctor() ;
@@ -76,7 +78,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(5234)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2715 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2715 }), TypeDefinitionIndex(TypeDefinitionIndex(5234)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5233))
 // CS Name: MultiplayerConnectedPlayerBombNoteController::Pool
 class CORDL_TYPE GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController> {
@@ -115,8 +117,7 @@ constexpr explicit GlobalNamespace__MultiplayerConnectedPlayerBombNoteController
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerBombNoteController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e2114 size 0x48 virtual false final false
  void _ctor() ;

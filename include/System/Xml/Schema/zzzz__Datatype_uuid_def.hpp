@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
 namespace System {
 class Exception;
+}
+namespace System::Xml {
+class XmlNameTable;
 }
 namespace System {
 class Type;
 }
 namespace System::Xml {
-class XmlNameTable;
+class IXmlNamespaceResolver;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -100,8 +100,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method TryParseValue addr 0x272c94c size 0xb4 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_uuid() ;
+static System::Xml::Schema::Datatype_uuid New_ctor() ;
 
 /// @brief Method .ctor addr 0x272ca00 size 0x54 virtual false final false
  void _ctor() ;

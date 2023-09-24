@@ -192,8 +192,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "missionObjective", ty: "GlobalNamespace::MissionObjective", modifiers: "", def_value: None }, CppParam { name: "cleared", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::MissionObjectiveResult::MissionObjectiveResult(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MissionObjectiveResult>(missionObjective, cleared, value))) {}
+ GlobalNamespace::MissionObjectiveResult GlobalNamespace::MissionObjectiveResult::New_ctor(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value)  {
+GlobalNamespace::MissionObjectiveResult o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MissionObjectiveResult>(missionObjective, cleared, value))};
+return o;
+}
  void GlobalNamespace::MissionObjectiveResult::_ctor(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MissionObjectiveResult>::get(),

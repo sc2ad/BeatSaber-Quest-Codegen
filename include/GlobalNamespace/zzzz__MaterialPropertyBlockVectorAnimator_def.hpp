@@ -62,8 +62,7 @@ constexpr UnityEngine::Vector4 __get__vector() const;
 /// @brief Method SetProperty addr 0x1fa29fc size 0x34 virtual true final false
  void SetProperty() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockVectorAnimator() ;
+static GlobalNamespace::MaterialPropertyBlockVectorAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2a30 size 0x58 virtual false final false
  void _ctor() ;

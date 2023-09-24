@@ -2,18 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+class BeatmapCharacteristicsTableView;
+}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicsTableView;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +119,7 @@ constexpr int32_t __get__selectedBeatmapCharacteristicNum() const;
 /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic addr 0x2160fe8 size 0x1c0 virtual false final false
  void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic) ;
 
-// Ctor Parameters []
-explicit BeatmapCharacteristicsViewController() ;
+static GlobalNamespace::BeatmapCharacteristicsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21611a8 size 0x8 virtual false final false
  void _ctor() ;

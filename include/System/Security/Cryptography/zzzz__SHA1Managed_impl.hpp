@@ -178,8 +178,10 @@ constexpr void System::Security::Cryptography::SHA1Managed::__set__expandedBuffe
 constexpr ::ArrayW<uint32_t> System::Security::Cryptography::SHA1Managed::__get__expandedBuffer() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint32_t>, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::SHA1Managed::SHA1Managed()  : System::Security::Cryptography::SHA1(THROW_UNLESS(::il2cpp_utils::New<SHA1Managed>())) {}
+ System::Security::Cryptography::SHA1Managed System::Security::Cryptography::SHA1Managed::New_ctor()  {
+System::Security::Cryptography::SHA1Managed o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SHA1Managed>())};
+return o;
+}
  void System::Security::Cryptography::SHA1Managed::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA1Managed>::get(),

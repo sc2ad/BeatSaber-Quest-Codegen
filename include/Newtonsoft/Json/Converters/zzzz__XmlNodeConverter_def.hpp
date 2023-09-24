@@ -4,37 +4,37 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace System::Xml {
 class XmlNamespaceManager;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlElement;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
-}
-namespace Newtonsoft::Json::Converters {
-class IXmlDocument;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class JsonReader;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace Newtonsoft::Json::Converters {
-class IXmlElement;
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlNode;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlDocument;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -226,8 +226,7 @@ static void AddAttribute(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::
 /// @brief Method CanConvert addr 0x254c868 size 0xf8 virtual true final false
  bool CanConvert(System::Type valueType) ;
 
-// Ctor Parameters []
-explicit XmlNodeConverter() ;
+static Newtonsoft::Json::Converters::XmlNodeConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x254c960 size 0x8 virtual false final false
  void _ctor() ;

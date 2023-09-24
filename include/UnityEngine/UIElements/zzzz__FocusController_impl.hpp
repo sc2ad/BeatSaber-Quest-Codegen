@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 // Ctor Parameters [CppParam { name: "m_SubTreeRoot", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: Some("csnull") }, CppParam { name: "m_FocusedElement", ty: "UnityEngine::UIElements::Focusable", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::UIElements::UnityEngine__UIElements__FocusController__FocusedElement::UnityEngine__UIElements__FocusController__FocusedElement(UnityEngine::UIElements::VisualElement m_SubTreeRoot, UnityEngine::UIElements::Focusable m_FocusedElement) noexcept : ::bs_hook::ValueTypeWrapper() {this->m_SubTreeRoot = m_SubTreeRoot;
 this->m_FocusedElement = m_FocusedElement;
@@ -485,8 +486,10 @@ constexpr void UnityEngine::UIElements::FocusController::__set__imguiKeyboardCon
 constexpr int32_t UnityEngine::UIElements::FocusController::__get__imguiKeyboardControl_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "focusRing", ty: "UnityEngine::UIElements::IFocusRing", modifiers: "", def_value: None }]
- UnityEngine::UIElements::FocusController::FocusController(UnityEngine::UIElements::IFocusRing focusRing)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FocusController>(focusRing))) {}
+ UnityEngine::UIElements::FocusController UnityEngine::UIElements::FocusController::New_ctor(UnityEngine::UIElements::IFocusRing focusRing)  {
+UnityEngine::UIElements::FocusController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::FocusController>(focusRing))};
+return o;
+}
  void UnityEngine::UIElements::FocusController::_ctor(UnityEngine::UIElements::IFocusRing focusRing)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::FocusController>::get(),

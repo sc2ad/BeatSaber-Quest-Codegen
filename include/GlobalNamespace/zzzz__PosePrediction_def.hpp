@@ -66,8 +66,7 @@ static GlobalNamespace::PoseSerializable PredictPoseSerializable(GlobalNamespace
 /// @brief Method InterpolatePoseSerializable addr 0xdcd364 size 0xf0 virtual false final false
 static GlobalNamespace::PoseSerializable InterpolatePoseSerializable(GlobalNamespace::PoseSerializable a, GlobalNamespace::PoseSerializable b, float_t t) ;
 
-// Ctor Parameters []
-explicit PosePrediction() ;
+static GlobalNamespace::PosePrediction New_ctor() ;
 
 /// @brief Method .ctor addr 0xdcd454 size 0x8 virtual false final false
  void _ctor() ;

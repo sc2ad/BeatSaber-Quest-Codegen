@@ -14,6 +14,9 @@ namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
 namespace Oculus::Platform {
+class Oculus__Platform__WindowsPlatform__UnityLogDelegate;
+}
+namespace Oculus::Platform {
 template<typename T>
 class Request_1;
 }
@@ -66,8 +69,7 @@ constexpr explicit Oculus__Platform__WindowsPlatform__UnityLogDelegate(void* ptr
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit Oculus__Platform__WindowsPlatform__UnityLogDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Oculus::Platform::Oculus__Platform__WindowsPlatform__UnityLogDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x259ba84 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -141,8 +143,7 @@ constexpr explicit WindowsPlatform(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 /// @brief Method AsyncInitialize addr 0x259b938 size 0x144 virtual false final false
  Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW appId) ;
 
-// Ctor Parameters []
-explicit WindowsPlatform() ;
+static Oculus::Platform::WindowsPlatform New_ctor() ;
 
 /// @brief Method .ctor addr 0x259ba7c size 0x8 virtual false final false
  void _ctor() ;

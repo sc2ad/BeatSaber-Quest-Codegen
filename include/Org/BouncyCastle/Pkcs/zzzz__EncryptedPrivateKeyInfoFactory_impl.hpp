@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Pkcs/zzzz__EncryptedPrivateKeyInfoFactory_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptedPrivateKeyInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory._ctor
 template<>
 
@@ -107,8 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::EncryptedPrivateKeyInfoFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EncryptedPrivateKeyInfoFactory>())) {}
+ Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::New_ctor()  {
+Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory>())};
+return o;
+}
  void Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory>::get(),

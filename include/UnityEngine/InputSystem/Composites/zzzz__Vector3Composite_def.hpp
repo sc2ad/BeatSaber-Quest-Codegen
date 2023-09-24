@@ -5,11 +5,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
+namespace UnityEngine::InputSystem::Composites {
+struct UnityEngine__InputSystem__Composites__Vector3Composite__Mode;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -68,6 +71,8 @@ __Digital = 2,
 constexpr operator __UnityEngine__InputSystem__Composites__Vector3Composite__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Composites__Vector3Composite__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -183,8 +188,7 @@ constexpr UnityEngine::InputSystem::Composites::UnityEngine__InputSystem__Compos
 /// @brief Method ReadValue addr 0x28c92bc size 0x254 virtual true final false
  UnityEngine::Vector3 ReadValue(ByRef<UnityEngine::InputSystem::InputBindingCompositeContext> context) ;
 
-// Ctor Parameters []
-explicit Vector3Composite() ;
+static UnityEngine::InputSystem::Composites::Vector3Composite New_ctor() ;
 
 /// @brief Method .ctor addr 0x28c9510 size 0x48 virtual false final false
  void _ctor() ;

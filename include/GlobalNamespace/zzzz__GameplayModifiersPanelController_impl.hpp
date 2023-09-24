@@ -1,17 +1,18 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierToggle_def.hpp"
 #include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierToggle_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0._ctor
 template<>
 
@@ -58,8 +59,10 @@ constexpr void GlobalNamespace::GlobalNamespace__GameplayModifiersPanelControlle
 constexpr GlobalNamespace::GameplayModifiersPanelController GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GameplayModifiersPanelController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0>())) {}
+ GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0 GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplayModifiersPanelController____c__DisplayClass16_0>::get(),
@@ -425,8 +428,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayModifiersPanelController::GameplayModifiersPanelController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GameplayModifiersPanelController>())) {}
+ GlobalNamespace::GameplayModifiersPanelController GlobalNamespace::GameplayModifiersPanelController::New_ctor()  {
+GlobalNamespace::GameplayModifiersPanelController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifiersPanelController>())};
+return o;
+}
  void GlobalNamespace::GameplayModifiersPanelController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifiersPanelController>::get(),

@@ -60,8 +60,7 @@ constexpr ::ArrayW<GlobalNamespace::ProgressActivitySubtaskSO> __get_subtasks() 
 
 // Methods
 
-// Ctor Parameters []
-explicit ProgressActivitySO() ;
+static GlobalNamespace::ProgressActivitySO New_ctor() ;
 
 /// @brief Method .ctor addr 0x221a7ac size 0x8 virtual false final false
  void _ctor() ;

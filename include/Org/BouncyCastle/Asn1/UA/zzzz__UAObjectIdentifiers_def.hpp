@@ -287,8 +287,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_dstu7624kw_512() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UAObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xfedf5c size 0x8 virtual false final false
  void _ctor() ;

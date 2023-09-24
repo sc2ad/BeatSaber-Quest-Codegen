@@ -47,8 +47,7 @@ constexpr explicit ExcludeFromCodeCoverageAttribute(void* ptr) noexcept : System
 
 // Methods
 
-// Ctor Parameters []
-explicit ExcludeFromCodeCoverageAttribute() ;
+static System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e1bac size 0x8 virtual false final false
  void _ctor() ;

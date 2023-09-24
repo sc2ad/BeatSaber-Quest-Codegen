@@ -1,9 +1,9 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__FloorAdjustViewController_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: GlobalNamespace::FloorAdjustViewController.DidActivate
 template<>
@@ -144,8 +144,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::FloorAdjustViewController::FloorAdjustViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<FloorAdjustViewController>())) {}
+ GlobalNamespace::FloorAdjustViewController GlobalNamespace::FloorAdjustViewController::New_ctor()  {
+GlobalNamespace::FloorAdjustViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::FloorAdjustViewController>())};
+return o;
+}
  void GlobalNamespace::FloorAdjustViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::FloorAdjustViewController>::get(),

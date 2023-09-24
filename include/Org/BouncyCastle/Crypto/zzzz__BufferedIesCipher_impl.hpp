@@ -2,8 +2,8 @@
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedCipherBase_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedIesCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__IesEngine_def.hpp"
-#include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "System/IO/zzzz__MemoryStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::BufferedIesCipher._ctor
 template<>
 
@@ -209,8 +209,10 @@ constexpr void Org::BouncyCastle::Crypto::BufferedIesCipher::__set_buffer(System
 constexpr System::IO::MemoryStream Org::BouncyCastle::Crypto::BufferedIesCipher::__get_buffer() const {
 return ::cordl_internals::getInstanceField<System::IO::MemoryStream, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "engine", ty: "Org::BouncyCastle::Crypto::Engines::IesEngine", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::BufferedIesCipher::BufferedIesCipher(Org::BouncyCastle::Crypto::Engines::IesEngine engine)  : Org::BouncyCastle::Crypto::BufferedCipherBase(THROW_UNLESS(::il2cpp_utils::New<BufferedIesCipher>(engine))) {}
+ Org::BouncyCastle::Crypto::BufferedIesCipher Org::BouncyCastle::Crypto::BufferedIesCipher::New_ctor(Org::BouncyCastle::Crypto::Engines::IesEngine engine)  {
+Org::BouncyCastle::Crypto::BufferedIesCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::BufferedIesCipher>(engine))};
+return o;
+}
  void Org::BouncyCastle::Crypto::BufferedIesCipher::_ctor(Org::BouncyCastle::Crypto::Engines::IesEngine engine)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::BufferedIesCipher>::get(),

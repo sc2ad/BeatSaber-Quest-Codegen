@@ -5,16 +5,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Timeline {
-struct ClipCaps;
+struct Playable;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16;
+}
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableGraph;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace UnityEngine::Playables {
 struct PlayableBinding;
@@ -22,25 +25,25 @@ struct PlayableBinding;
 namespace UnityEngine::Timeline {
 class AudioClipProperties;
 }
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Timeline {
+struct ClipCaps;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -143,8 +146,7 @@ constexpr UnityEngine::Timeline::AudioPlayableAsset __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16(int32_t __1__state) ;
+static UnityEngine::Timeline::UnityEngine__Timeline__AudioPlayableAsset___get_outputs_d__16 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2ac94f8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -293,8 +295,7 @@ constexpr UnityEngine::Timeline::AudioClipProperties __get_m_ClipProperties() co
 /// @brief Method get_clipCaps addr 0x2ac9648 size 0xc virtual true final true
  UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
-// Ctor Parameters []
-explicit AudioPlayableAsset() ;
+static UnityEngine::Timeline::AudioPlayableAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ac9654 size 0x7c virtual false final false
  void _ctor() ;

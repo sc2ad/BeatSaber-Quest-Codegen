@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
+#include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomFogParamsBehaviour.ProcessFrame
 template<>
 
@@ -98,8 +98,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomFogParamsBehaviour::BloomFogParamsBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<BloomFogParamsBehaviour>())) {}
+ GlobalNamespace::BloomFogParamsBehaviour GlobalNamespace::BloomFogParamsBehaviour::New_ctor()  {
+GlobalNamespace::BloomFogParamsBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomFogParamsBehaviour>())};
+return o;
+}
  void GlobalNamespace::BloomFogParamsBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomFogParamsBehaviour>::get(),

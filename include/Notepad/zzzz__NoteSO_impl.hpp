@@ -37,8 +37,10 @@ constexpr void Notepad::NoteSO::__set_urls(::ArrayW<Notepad::NoteURL> value)  {
 constexpr ::ArrayW<Notepad::NoteURL> Notepad::NoteSO::__get_urls() const {
 return ::cordl_internals::getInstanceField<::ArrayW<Notepad::NoteURL>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Notepad::NoteSO::NoteSO()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<NoteSO>())) {}
+ Notepad::NoteSO Notepad::NoteSO::New_ctor()  {
+Notepad::NoteSO o{THROW_UNLESS(::il2cpp_utils::New<Notepad::NoteSO>())};
+return o;
+}
  void Notepad::NoteSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Notepad::NoteSO>::get(),

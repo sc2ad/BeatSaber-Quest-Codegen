@@ -1,12 +1,13 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UI/zzzz__DefaultControls_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/UI/zzzz__DefaultControls_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__DefaultControls__IFactoryControls.CreateGameObject
 template<>
@@ -87,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::GameObject, false>(const_cast<void*>(instance), ___internal_method, name, components);
 }
-// Ctor Parameters []
- UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__DefaultControls__DefaultRuntimeFactory>())) {}
+ UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory::New_ctor()  {
+UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory>())};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__DefaultControls__DefaultRuntimeFactory>::get(),

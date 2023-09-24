@@ -2,14 +2,17 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_def.hpp"
-namespace UnityEngine::XR::OpenXR::Input {
-class PoseControl;
+namespace UnityEngine::XR::OpenXR::Features::Interactions {
+class UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftHandInteraction__HoloLensHand;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
+namespace UnityEngine::XR::OpenXR::Input {
+class PoseControl;
+}
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
@@ -18,7 +21,7 @@ namespace UnityEngine::InputSystem::Controls {
 class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class ButtonControl;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::Interactions {
@@ -246,8 +249,7 @@ constexpr UnityEngine::InputSystem::Controls::QuaternionControl __get__pointerRo
 /// @brief Method FinishSetup addr 0x2afa604 size 0x2b0 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftHandInteraction__HoloLensHand() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::UnityEngine__XR__OpenXR__Features__Interactions__MicrosoftHandInteraction__HoloLensHand New_ctor() ;
 
 /// @brief Method .ctor addr 0x2afa8b4 size 0x8 virtual false final false
  void _ctor() ;
@@ -336,8 +338,7 @@ static constexpr ::ConstString  kDeviceLocalizedName{u"HoloLens Hand OpenXR"};
 /// @brief Method RegisterActionMapsWithRuntime addr 0x2af9584 size 0xfb8 virtual true final false
  void RegisterActionMapsWithRuntime() ;
 
-// Ctor Parameters []
-explicit MicrosoftHandInteraction() ;
+static UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction New_ctor() ;
 
 /// @brief Method .ctor addr 0x2afa53c size 0x8 virtual false final false
  void _ctor() ;

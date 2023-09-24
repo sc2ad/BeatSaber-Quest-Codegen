@@ -3,43 +3,46 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
 namespace System::Reflection {
 class EventInfo;
 }
 namespace System::Reflection {
-class RuntimePropertyInfo;
+class ICustomAttributeProvider;
 }
 namespace System::Reflection {
 class CustomAttributeData;
 }
+namespace System::Reflection {
+class RuntimeEventInfo;
+}
 namespace System {
-class AttributeUsageAttribute;
+class System__MonoCustomAttrs__AttributeInfo;
+}
+namespace System {
+class Attribute;
+}
+namespace System::Reflection {
+class Assembly;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
 namespace System::Reflection {
-class ICustomAttributeProvider;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System {
-class Attribute;
-}
-namespace System::Reflection {
 class PropertyInfo;
 }
+namespace System {
+class AttributeUsageAttribute;
+}
 namespace System::Reflection {
-class RuntimeEventInfo;
+class RuntimePropertyInfo;
 }
 // Forward declare root types
 namespace System {
@@ -112,8 +115,7 @@ constexpr int32_t __get__inheritanceLevel() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "usage", ty: "System::AttributeUsageAttribute", modifiers: "", def_value: None }, CppParam { name: "inheritanceLevel", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__MonoCustomAttrs__AttributeInfo(System::AttributeUsageAttribute usage, int32_t inheritanceLevel) ;
+static System::System__MonoCustomAttrs__AttributeInfo New_ctor(System::AttributeUsageAttribute usage, int32_t inheritanceLevel) ;
 
 /// @brief Method .ctor addr 0x248d770 size 0xc virtual false final false
  void _ctor(System::AttributeUsageAttribute usage, int32_t inheritanceLevel) ;

@@ -4,25 +4,25 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-struct UnityEngine__ParticleSystem__MainModule;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct UnityEngine__ParticleSystem__ShapeModule;
-}
-namespace UnityEngine {
 struct UnityEngine__ParticleSystem__MinMaxCurve;
 }
 namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__MainModule;
+}
+namespace UnityEngine {
 struct UnityEngine__ParticleSystem__EmitParams;
+}
+namespace UnityEngine {
+struct UnityEngine__ParticleSystem__ShapeModule;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -157,8 +157,7 @@ constexpr UnityEngine::UnityEngine__ParticleSystem__ShapeModule __get__explosion
 /// @brief Method SpawnParticles addr 0x22528d8 size 0x4b0 virtual false final false
  void SpawnParticles(UnityEngine::Vector3 cutPoint, UnityEngine::Vector3 cutNormal, UnityEngine::Vector3 saberDir, float_t saberSpeed, UnityEngine::Vector3 noteMovementVec, UnityEngine::Color32 color, int32_t sparkleParticlesCount, int32_t explosionParticlesCount, float_t lifetimeMultiplier) ;
 
-// Ctor Parameters []
-explicit NoteCutParticlesEffect() ;
+static GlobalNamespace::NoteCutParticlesEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x2252d88 size 0x8 virtual false final false
  void _ctor() ;

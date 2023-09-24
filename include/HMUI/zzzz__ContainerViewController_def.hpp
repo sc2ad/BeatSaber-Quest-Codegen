@@ -5,43 +5,49 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace HMUI {
+class Screen;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace HMUI {
+class HMUI__ContainerViewController___AddViewControllerCoroutine_d__15;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace System {
+class Action;
+}
+namespace HMUI {
+class HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 namespace System {
-class Action;
+template<typename T1,typename T2,typename T3>
+class Action_3;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
-class Screen;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace HMUI {
@@ -174,8 +180,7 @@ constexpr float_t __get__elapsedTime_5__4() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ContainerViewController___AddViewControllerCoroutine_d__15(int32_t __1__state) ;
+static HMUI::HMUI__ContainerViewController___AddViewControllerCoroutine_d__15 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fb2c94 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -326,8 +331,7 @@ constexpr float_t __get__elapsedTime_5__5() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17(int32_t __1__state) ;
+static HMUI::HMUI__ContainerViewController___RemoveViewControllersCoroutine_d__17 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fb2d94 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -464,8 +468,7 @@ constexpr System::Collections::Generic::List_1<HMUI::ViewController> __get__view
 /// @brief Method GetNewXPositionsForViewControllers addr 0x1fb2dbc size 0x234 virtual false final false
  ::ArrayW<float_t> GetNewXPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController> viewControllers, int32_t exludeFromEndCount) ;
 
-// Ctor Parameters []
-explicit ContainerViewController() ;
+static HMUI::ContainerViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb2ff0 size 0x7c virtual false final false
  void _ctor() ;

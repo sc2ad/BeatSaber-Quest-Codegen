@@ -126,8 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
  ::ArrayW<uint8_t> Org::BouncyCastle::Crypto::Parameters::DesParameters::__get_DES_weak_keys()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "DES_weak_keys", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DesParameters>::get>();
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DesParameters::DesParameters(::ArrayW<uint8_t> key)  : Org::BouncyCastle::Crypto::Parameters::KeyParameter(THROW_UNLESS(::il2cpp_utils::New<DesParameters>(key))) {}
+ Org::BouncyCastle::Crypto::Parameters::DesParameters Org::BouncyCastle::Crypto::Parameters::DesParameters::New_ctor(::ArrayW<uint8_t> key)  {
+Org::BouncyCastle::Crypto::Parameters::DesParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DesParameters>(key))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DesParameters::_ctor(::ArrayW<uint8_t> key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DesParameters>::get(),
@@ -137,8 +139,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DesParameters::DesParameters(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen)  : Org::BouncyCastle::Crypto::Parameters::KeyParameter(THROW_UNLESS(::il2cpp_utils::New<DesParameters>(key, keyOff, keyLen))) {}
+ Org::BouncyCastle::Crypto::Parameters::DesParameters Org::BouncyCastle::Crypto::Parameters::DesParameters::New_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen)  {
+Org::BouncyCastle::Crypto::Parameters::DesParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DesParameters>(key, keyOff, keyLen))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DesParameters::_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DesParameters>::get(),

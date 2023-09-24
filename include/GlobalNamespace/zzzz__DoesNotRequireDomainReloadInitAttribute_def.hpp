@@ -47,8 +47,7 @@ constexpr explicit DoesNotRequireDomainReloadInitAttribute(void* ptr) noexcept :
 
 // Methods
 
-// Ctor Parameters []
-explicit DoesNotRequireDomainReloadInitAttribute() ;
+static GlobalNamespace::DoesNotRequireDomainReloadInitAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f8f2c8 size 0x8 virtual false final false
  void _ctor() ;

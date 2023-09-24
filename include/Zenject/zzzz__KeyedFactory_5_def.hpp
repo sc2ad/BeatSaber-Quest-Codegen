@@ -28,7 +28,7 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TBase,::cordl_internals::il2cpp_reference_type TKey,::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10937)), TypeDefinitionIndex(TypeDefinitionIndex(10941)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10937), inst: 3808 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10937), inst: 3808 }), TypeDefinitionIndex(TypeDefinitionIndex(10941))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10941), inst: 5938 })
 // CS Name: Zenject.KeyedFactory`5
 class CORDL_TYPE KeyedFactory_5<TBase,TKey,TParam1,TParam2,TParam3> : public Zenject::KeyedFactoryBase_2<TBase,TKey> {
@@ -78,8 +78,7 @@ constexpr explicit KeyedFactory_5(void* ptr) noexcept : Zenject::KeyedFactoryBas
 /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
  TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3) ;
 
-// Ctor Parameters []
-explicit KeyedFactory_5() ;
+static Zenject::KeyedFactory_5<TBase,TKey,TParam1,TParam2,TParam3> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

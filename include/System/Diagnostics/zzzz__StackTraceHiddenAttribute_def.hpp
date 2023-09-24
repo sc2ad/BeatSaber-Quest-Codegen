@@ -47,8 +47,7 @@ constexpr explicit StackTraceHiddenAttribute(void* ptr) noexcept : System::Attri
 
 // Methods
 
-// Ctor Parameters []
-explicit StackTraceHiddenAttribute() ;
+static System::Diagnostics::StackTraceHiddenAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x240bf30 size 0x8 virtual false final false
  void _ctor() ;

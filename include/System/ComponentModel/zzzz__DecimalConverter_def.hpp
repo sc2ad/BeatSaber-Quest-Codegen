@@ -4,17 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System {
+class Type;
+}
 namespace System::Globalization {
 class NumberFormatInfo;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System {
-class Type;
-}
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -90,8 +90,7 @@ constexpr explicit DecimalConverter(void* ptr) noexcept : System::ComponentModel
 /// @brief Method ToString addr 0x277ba10 size 0xd8 virtual true final false
  ::StringW ToString(::bs_hook::Il2CppWrapperType value, System::Globalization::NumberFormatInfo formatInfo) ;
 
-// Ctor Parameters []
-explicit DecimalConverter() ;
+static System::ComponentModel::DecimalConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x277bae8 size 0x8 virtual false final false
  void _ctor() ;

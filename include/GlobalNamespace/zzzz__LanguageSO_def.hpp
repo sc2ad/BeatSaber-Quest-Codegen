@@ -9,7 +9,7 @@ class LanguageSO;
 // Type: ::LanguageSO
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 3717 }), TypeDefinitionIndex(TypeDefinitionIndex(13904)), TypeDefinitionIndex(TypeDefinitionIndex(15530))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15530)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13904), inst: 3717 }), TypeDefinitionIndex(TypeDefinitionIndex(13904))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5935))
 // CS Name: LanguageSO
 class CORDL_TYPE LanguageSO : public GlobalNamespace::ObservableVariableSO_1<Polyglot::Language> {
@@ -48,8 +48,7 @@ constexpr explicit LanguageSO(void* ptr) noexcept : GlobalNamespace::ObservableV
 
 // Methods
 
-// Ctor Parameters []
-explicit LanguageSO() ;
+static GlobalNamespace::LanguageSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2198674 size 0x48 virtual false final false
  void _ctor() ;

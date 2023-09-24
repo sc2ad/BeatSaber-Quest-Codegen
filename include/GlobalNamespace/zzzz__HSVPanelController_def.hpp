@@ -2,27 +2,27 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace GlobalNamespace {
-class ColorSaturationValueSlider;
-}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+class ColorSaturationValueSlider;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class ColorHueSlider;
 }
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ constexpr UnityEngine::Vector3 __get__hsvColor() const;
 /// @brief Method RefreshSlidersColors addr 0x2120a58 size 0x30 virtual false final false
  void RefreshSlidersColors() ;
 
-// Ctor Parameters []
-explicit HSVPanelController() ;
+static GlobalNamespace::HSVPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2120dec size 0x8 virtual false final false
  void _ctor() ;

@@ -68,14 +68,12 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get_channelData() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ChannelInfo() ;
+static System::Runtime::Remoting::ChannelInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x2319a40 size 0x68 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "remoteChannelData", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit ChannelInfo(::bs_hook::Il2CppWrapperType remoteChannelData) ;
+static System::Runtime::Remoting::ChannelInfo New_ctor(::bs_hook::Il2CppWrapperType remoteChannelData) ;
 
 /// @brief Method .ctor addr 0x2319aa8 size 0xa8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType remoteChannelData) ;

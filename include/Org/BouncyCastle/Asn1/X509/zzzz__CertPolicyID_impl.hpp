@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::CertPolicyID::CertPolicyID(::StringW id)  : Org::BouncyCastle::Asn1::DerObjectIdentifier(THROW_UNLESS(::il2cpp_utils::New<CertPolicyID>(id))) {}
+ Org::BouncyCastle::Asn1::X509::CertPolicyID Org::BouncyCastle::Asn1::X509::CertPolicyID::New_ctor(::StringW id)  {
+Org::BouncyCastle::Asn1::X509::CertPolicyID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::CertPolicyID>(id))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::CertPolicyID::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::CertPolicyID>::get(),

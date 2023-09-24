@@ -3,23 +3,23 @@
 #include "UnityEngine/UIElements/zzzz__EventCallbackFunctorBase_def.hpp"
 #include <cstdint>
 namespace UnityEngine::UIElements {
-struct CallbackPhase;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
 template<typename TEventType>
 class EventCallback_1;
 }
-namespace System {
-class Delegate;
+namespace UnityEngine::UIElements {
+struct CallbackPhase;
+}
+namespace UnityEngine::UIElements {
+struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
 struct PropagationPhase;
+}
+namespace System {
+class Delegate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -90,8 +90,7 @@ constexpr int64_t __get_m_EventTypeId() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "UnityEngine::UIElements::EventCallback_1<TEventType>", modifiers: "", def_value: None }, CppParam { name: "phase", ty: "UnityEngine::UIElements::CallbackPhase", modifiers: "", def_value: None }, CppParam { name: "invokePolicy", ty: "UnityEngine::UIElements::InvokePolicy", modifiers: "", def_value: None }]
-explicit EventCallbackFunctor_1(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
+static UnityEngine::UIElements::EventCallbackFunctor_1<TEventType> New_ctor(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(UnityEngine::UIElements::EventCallback_1<TEventType> callback, UnityEngine::UIElements::CallbackPhase phase, UnityEngine::UIElements::InvokePolicy invokePolicy) ;

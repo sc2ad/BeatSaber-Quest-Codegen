@@ -1,11 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {

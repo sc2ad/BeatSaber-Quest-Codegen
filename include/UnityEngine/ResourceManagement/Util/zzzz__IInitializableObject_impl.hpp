@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/zzzz__IInitializableObject_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourceManagement::Util::IInitializableObject.Initialize
 template<>
 

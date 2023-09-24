@@ -2,14 +2,15 @@
 #include "System/Reflection/zzzz__Assembly_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/InteropServices/zzzz___Assembly_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Security/Policy/zzzz__Evidence_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: System::Reflection::System__Reflection__Assembly__ResolveEventHolder._ctor
 template<>
 
@@ -27,8 +28,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Reflection::System__Reflection__Assembly__ResolveEventHolder::System__Reflection__Assembly__ResolveEventHolder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Reflection__Assembly__ResolveEventHolder>())) {}
+ System::Reflection::System__Reflection__Assembly__ResolveEventHolder System::Reflection::System__Reflection__Assembly__ResolveEventHolder::New_ctor()  {
+System::Reflection::System__Reflection__Assembly__ResolveEventHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::System__Reflection__Assembly__ResolveEventHolder>())};
+return o;
+}
  void System::Reflection::System__Reflection__Assembly__ResolveEventHolder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::System__Reflection__Assembly__ResolveEventHolder>::get(),
@@ -899,8 +902,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
-// Ctor Parameters []
- System::Reflection::Assembly::Assembly()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Assembly>())) {}
+ System::Reflection::Assembly System::Reflection::Assembly::New_ctor()  {
+System::Reflection::Assembly o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::Assembly>())};
+return o;
+}
  void System::Reflection::Assembly::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::Assembly>::get(),

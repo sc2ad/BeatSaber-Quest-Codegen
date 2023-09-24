@@ -84,8 +84,7 @@ constexpr UnityEngine::Color __get_m_SelectionColor() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GUISettings() ;
+static UnityEngine::GUISettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b903bc size 0x2c virtual false final false
  void _ctor() ;

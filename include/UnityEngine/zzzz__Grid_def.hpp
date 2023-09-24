@@ -59,8 +59,7 @@ constexpr explicit Grid(void* ptr) noexcept : UnityEngine::GridLayout(ptr) {
 /// @brief Method get_cellSize addr 0x2b82da4 size 0x5c virtual false final false
  UnityEngine::Vector3 get_cellSize() ;
 
-// Ctor Parameters []
-explicit Grid() ;
+static UnityEngine::Grid New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b82e44 size 0x8 virtual false final false
  void _ctor() ;

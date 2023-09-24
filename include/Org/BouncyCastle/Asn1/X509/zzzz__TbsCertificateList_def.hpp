@@ -10,32 +10,38 @@ class IEnumerator;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace GlobalNamespace {
+class Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class CrlEntry;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+class Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class CrlEntry;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -106,8 +112,7 @@ constexpr System::Collections::IEnumerator __get_e() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "e", ty: "System::Collections::IEnumerator", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator(System::Collections::IEnumerator e) ;
+static GlobalNamespace::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator New_ctor(System::Collections::IEnumerator e) ;
 
 /// @brief Method .ctor addr 0x110fac8 size 0x28 virtual false final false
  void _ctor(System::Collections::IEnumerator e) ;
@@ -181,8 +186,7 @@ constexpr System::Collections::IEnumerable __get_en() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "en", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration(System::Collections::IEnumerable en) ;
+static Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__TbsCertificateList__RevokedCertificatesEnumeration New_ctor(System::Collections::IEnumerable en) ;
 
 /// @brief Method .ctor addr 0x110f9b0 size 0x28 virtual false final false
  void _ctor(System::Collections::IEnumerable en) ;
@@ -312,8 +316,7 @@ static Org::BouncyCastle::Asn1::X509::TbsCertificateList GetInstance(Org::Bouncy
 /// @brief Method GetInstance addr 0x110f104 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::TbsCertificateList GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit TbsCertificateList(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X509::TbsCertificateList New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x110f28c size 0x4ec virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

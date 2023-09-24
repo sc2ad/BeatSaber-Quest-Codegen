@@ -76,8 +76,7 @@ static ::ArrayW<uint8_t> __get_hexTable() ;
 /// @brief Method Decode addr 0x10d2a98 size 0xc8 virtual true final true
  int32_t Decode(::ArrayW<uint8_t> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t> outBytes, int32_t outOff) ;
 
-// Ctor Parameters []
-explicit HexTranslator() ;
+static Org::BouncyCastle::Utilities::Encoders::HexTranslator New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d2bf4 size 0x8 virtual false final false
  void _ctor() ;

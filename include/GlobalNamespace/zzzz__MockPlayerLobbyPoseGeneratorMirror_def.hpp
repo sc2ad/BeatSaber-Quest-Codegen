@@ -62,8 +62,7 @@ constexpr GlobalNamespace::NodePoseSyncStateManager __get__nodePoseSyncStateMana
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }, CppParam { name: "nodePoseSyncStateManager", ty: "GlobalNamespace::NodePoseSyncStateManager", modifiers: "", def_value: None }]
-explicit MockPlayerLobbyPoseGeneratorMirror(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+static GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror New_ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method .ctor addr 0x20ed958 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;

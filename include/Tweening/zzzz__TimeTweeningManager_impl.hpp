@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Tweening::TimeTweeningManager::TimeTweeningManager()  : Tweening::TweeningManager(THROW_UNLESS(::il2cpp_utils::New<TimeTweeningManager>())) {}
+ Tweening::TimeTweeningManager Tweening::TimeTweeningManager::New_ctor()  {
+Tweening::TimeTweeningManager o{THROW_UNLESS(::il2cpp_utils::New<Tweening::TimeTweeningManager>())};
+return o;
+}
  void Tweening::TimeTweeningManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tweening::TimeTweeningManager>::get(),

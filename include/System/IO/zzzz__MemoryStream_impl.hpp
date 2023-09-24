@@ -1,17 +1,17 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
-#include "System/zzzz__Span_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: System::IO::MemoryStream._ctor
 template<>
 
@@ -769,8 +769,10 @@ constexpr void System::IO::MemoryStream::__set__lastReadTask(System::Threading::
 constexpr System::Threading::Tasks::Task_1<int32_t> System::IO::MemoryStream::__get__lastReadTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task_1<int32_t>, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::IO::MemoryStream::MemoryStream()  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>())) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor()  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>())};
+return o;
+}
  void System::IO::MemoryStream::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),
@@ -780,8 +782,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "capacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::MemoryStream::MemoryStream(int32_t capacity)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>(capacity))) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor(int32_t capacity)  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>(capacity))};
+return o;
+}
  void System::IO::MemoryStream::_ctor(int32_t capacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),
@@ -791,8 +795,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, capacity);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::IO::MemoryStream::MemoryStream(::ArrayW<uint8_t> buffer)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>(buffer))) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor(::ArrayW<uint8_t> buffer)  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>(buffer))};
+return o;
+}
  void System::IO::MemoryStream::_ctor(::ArrayW<uint8_t> buffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),
@@ -802,8 +808,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "writable", ty: "bool", modifiers: "", def_value: None }]
- System::IO::MemoryStream::MemoryStream(::ArrayW<uint8_t> buffer, bool writable)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>(buffer, writable))) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor(::ArrayW<uint8_t> buffer, bool writable)  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>(buffer, writable))};
+return o;
+}
  void System::IO::MemoryStream::_ctor(::ArrayW<uint8_t> buffer, bool writable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),
@@ -813,8 +821,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, writable);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::MemoryStream::MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>(buffer, index, count))) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count)  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>(buffer, index, count))};
+return o;
+}
  void System::IO::MemoryStream::_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),
@@ -824,8 +834,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, index, count);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "writable", ty: "bool", modifiers: "", def_value: None }]
- System::IO::MemoryStream::MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>(buffer, index, count, writable))) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable)  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>(buffer, index, count, writable))};
+return o;
+}
  void System::IO::MemoryStream::_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),
@@ -835,8 +847,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, index, count, writable);
 }
-// Ctor Parameters [CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "writable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "publiclyVisible", ty: "bool", modifiers: "", def_value: None }]
- System::IO::MemoryStream::MemoryStream(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable, bool publiclyVisible)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<MemoryStream>(buffer, index, count, writable, publiclyVisible))) {}
+ System::IO::MemoryStream System::IO::MemoryStream::New_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable, bool publiclyVisible)  {
+System::IO::MemoryStream o{THROW_UNLESS(::il2cpp_utils::New<System::IO::MemoryStream>(buffer, index, count, writable, publiclyVisible))};
+return o;
+}
  void System::IO::MemoryStream::_ctor(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, bool writable, bool publiclyVisible)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::MemoryStream>::get(),

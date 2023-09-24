@@ -15,7 +15,7 @@ class MessageWithDataStoreUnderPublicUserDataStore;
 // Type: Oculus.Platform::MessageWithDataStoreUnderPublicUserDataStore
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4422 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 587 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3809)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3809), inst: 587 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4422 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13234))
 // CS Name: Oculus.Platform.MessageWithDataStoreUnderPublicUserDataStore
 class CORDL_TYPE MessageWithDataStoreUnderPublicUserDataStore : public Oculus::Platform::Message_1<System::Collections::Generic::Dictionary_2<::StringW,::StringW>> {
@@ -54,8 +54,7 @@ constexpr explicit MessageWithDataStoreUnderPublicUserDataStore(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithDataStoreUnderPublicUserDataStore(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e5e0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

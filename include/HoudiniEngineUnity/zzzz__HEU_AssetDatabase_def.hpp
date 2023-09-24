@@ -10,10 +10,13 @@ namespace System {
 class Type;
 }
 namespace UnityEngine {
-class GameObject;
+class Object;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_AssetDatabase__HEU_ImportAssetOptions;
 }
 namespace UnityEngine {
-class Object;
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -75,6 +78,8 @@ __ForceUncompressedImport = 16384,
 constexpr operator __HoudiniEngineUnity__HEU_AssetDatabase__HEU_ImportAssetOptions_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_AssetDatabase__HEU_ImportAssetOptions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

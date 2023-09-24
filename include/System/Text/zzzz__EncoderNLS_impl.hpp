@@ -236,8 +236,10 @@ constexpr void System::Text::EncoderNLS::__set__charsUsed(int32_t value)  {
 constexpr int32_t System::Text::EncoderNLS::__get__charsUsed() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Text::EncoderNLS::EncoderNLS(System::Text::Encoding encoding)  : System::Text::Encoder(THROW_UNLESS(::il2cpp_utils::New<EncoderNLS>(encoding))) {}
+ System::Text::EncoderNLS System::Text::EncoderNLS::New_ctor(System::Text::Encoding encoding)  {
+System::Text::EncoderNLS o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderNLS>(encoding))};
+return o;
+}
  void System::Text::EncoderNLS::_ctor(System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderNLS>::get(),

@@ -4,6 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -11,19 +20,10 @@ namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::Icao {
-class DataGroupHash;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Icao {
 class LdsVersionInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1::Icao {
+class DataGroupHash;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -113,20 +113,17 @@ constexpr Org::BouncyCastle::Asn1::Icao::LdsVersionInfo __get_versionInfo() cons
 /// @brief Method GetInstance addr 0xee6c28 size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Icao::LdsSecurityObject GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit LdsSecurityObject(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Icao::LdsSecurityObject New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee6ccc size 0x570 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "datagroupHash", ty: "::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash>", modifiers: "", def_value: None }]
-explicit LdsSecurityObject(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash) ;
+static Org::BouncyCastle::Asn1::Icao::LdsSecurityObject New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash) ;
 
 /// @brief Method .ctor addr 0xee7430 size 0xac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash) ;
 
-// Ctor Parameters [CppParam { name: "digestAlgorithmIdentifier", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "datagroupHash", ty: "::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash>", modifiers: "", def_value: None }, CppParam { name: "versionInfo", ty: "Org::BouncyCastle::Asn1::Icao::LdsVersionInfo", modifiers: "", def_value: None }]
-explicit LdsSecurityObject(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash, Org::BouncyCastle::Asn1::Icao::LdsVersionInfo versionInfo) ;
+static Org::BouncyCastle::Asn1::Icao::LdsSecurityObject New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash, Org::BouncyCastle::Asn1::Icao::LdsVersionInfo versionInfo) ;
 
 /// @brief Method .ctor addr 0xee74dc size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digestAlgorithmIdentifier, ::ArrayW<Org::BouncyCastle::Asn1::Icao::DataGroupHash> datagroupHash, Org::BouncyCastle::Asn1::Icao::LdsVersionInfo versionInfo) ;

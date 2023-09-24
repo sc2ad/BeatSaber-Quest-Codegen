@@ -2,14 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System {
+class Type;
+}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
-}
-namespace System {
-class Type;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
@@ -69,8 +69,7 @@ constexpr explicit SongPackMaskConverter(void* ptr) noexcept : Newtonsoft::Json:
 /// @brief Method WriteJson addr 0x121cd8c size 0xac virtual true final false
  void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
-// Ctor Parameters []
-explicit SongPackMaskConverter() ;
+static GlobalNamespace::SongPackMaskConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x121ce38 size 0x8 virtual false final false
  void _ctor() ;

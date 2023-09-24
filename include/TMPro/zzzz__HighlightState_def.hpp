@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace TMPro {
-struct TMP_Offset;
-}
 namespace UnityEngine {
 struct Color32;
+}
+namespace TMPro {
+struct TMP_Offset;
 }
 // Forward declare root types
 namespace TMPro {

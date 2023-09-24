@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__UnauthorizedAccessException_impl.hpp"
 #include "System/Security/AccessControl/zzzz__PrivilegeNotHeldException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::PrivilegeNotHeldException._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void System::Security::AccessControl::PrivilegeNotHeldException::__set
 constexpr ::StringW System::Security::AccessControl::PrivilegeNotHeldException::__get__privilegeName() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::AccessControl::PrivilegeNotHeldException::PrivilegeNotHeldException()  : System::UnauthorizedAccessException(THROW_UNLESS(::il2cpp_utils::New<PrivilegeNotHeldException>())) {}
+ System::Security::AccessControl::PrivilegeNotHeldException System::Security::AccessControl::PrivilegeNotHeldException::New_ctor()  {
+System::Security::AccessControl::PrivilegeNotHeldException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::PrivilegeNotHeldException>())};
+return o;
+}
  void System::Security::AccessControl::PrivilegeNotHeldException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::PrivilegeNotHeldException>::get(),
@@ -76,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Security::AccessControl::PrivilegeNotHeldException::PrivilegeNotHeldException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::UnauthorizedAccessException(THROW_UNLESS(::il2cpp_utils::New<PrivilegeNotHeldException>(info, context))) {}
+ System::Security::AccessControl::PrivilegeNotHeldException System::Security::AccessControl::PrivilegeNotHeldException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Security::AccessControl::PrivilegeNotHeldException o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::PrivilegeNotHeldException>(info, context))};
+return o;
+}
  void System::Security::AccessControl::PrivilegeNotHeldException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::PrivilegeNotHeldException>::get(),

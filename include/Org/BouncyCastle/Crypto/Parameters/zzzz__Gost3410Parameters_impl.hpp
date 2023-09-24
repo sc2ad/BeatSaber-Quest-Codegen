@@ -184,8 +184,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::__set_
 constexpr Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::__get_validation() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::Gost3410Parameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410Parameters>(p, q, a))) {}
+ Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a)  {
+Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters>(p, q, a))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters>::get(),
@@ -195,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, q, a);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "q", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "validation", ty: "Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::Gost3410Parameters(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Gost3410Parameters>(p, q, a, validation))) {}
+ Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::New_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation)  {
+Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters>(p, q, a, validation))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters::_ctor(Org::BouncyCastle::Math::BigInteger p, Org::BouncyCastle::Math::BigInteger q, Org::BouncyCastle::Math::BigInteger a, Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters validation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters>::get(),

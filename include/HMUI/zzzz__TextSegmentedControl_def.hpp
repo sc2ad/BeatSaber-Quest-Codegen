@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
+namespace HMUI {
+class TextSegmentedControlCell;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
@@ -11,17 +14,14 @@ class IReadOnlyList_1;
 namespace Zenject {
 class DiContainer;
 }
-namespace HMUI {
-class TextSegmentedControlCell;
-}
 namespace UnityEngine {
 class Object;
 }
 namespace HMUI {
-class SegmentedControlCell;
+class HMUI__SegmentedControl__IDataSource;
 }
 namespace HMUI {
-class HMUI__SegmentedControl__IDataSource;
+class SegmentedControlCell;
 }
 // Forward declare root types
 namespace HMUI {
@@ -147,8 +147,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<::StringW> __get__texts(
 /// @brief Method InstantiateCell addr 0x1fad4b0 size 0x180 virtual false final false
  HMUI::TextSegmentedControlCell InstantiateCell(UnityEngine::Object prefab) ;
 
-// Ctor Parameters []
-explicit TextSegmentedControl() ;
+static HMUI::TextSegmentedControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fad6b8 size 0x10 virtual false final false
  void _ctor() ;

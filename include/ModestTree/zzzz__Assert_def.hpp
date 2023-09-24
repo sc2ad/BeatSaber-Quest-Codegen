@@ -4,9 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace System {
 class Exception;
@@ -14,19 +14,19 @@ class Exception;
 namespace System {
 class Action;
 }
-namespace System {
-template<typename TResult>
-class Func_1;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class ZenjectException;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
 }
-namespace Zenject {
-class ZenjectException;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace ModestTree {

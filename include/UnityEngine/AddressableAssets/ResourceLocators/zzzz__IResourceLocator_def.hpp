@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System {
 class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IList_1;
+class IEnumerable_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class IList_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {

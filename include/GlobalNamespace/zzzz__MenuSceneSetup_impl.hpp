@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuSceneSetup_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "HMUI/zzzz__FlowCoordinator_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuSceneSetup_def.hpp"
+#include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "HMUI/zzzz__HierarchyManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3._ctor
 template<>
@@ -139,8 +140,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3::__
 constexpr GlobalNamespace::MenuSceneSetup GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MenuSceneSetup, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3::GlobalNamespace__MenuSceneSetup___Start_d__3(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuSceneSetup___Start_d__3>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3 GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuSceneSetup___Start_d__3>::get(),
@@ -256,8 +259,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuSceneSetup::MenuSceneSetup()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuSceneSetup>())) {}
+ GlobalNamespace::MenuSceneSetup GlobalNamespace::MenuSceneSetup::New_ctor()  {
+GlobalNamespace::MenuSceneSetup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuSceneSetup>())};
+return o;
+}
  void GlobalNamespace::MenuSceneSetup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuSceneSetup>::get(),

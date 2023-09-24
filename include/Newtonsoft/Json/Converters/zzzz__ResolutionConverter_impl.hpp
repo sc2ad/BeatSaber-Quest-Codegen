@@ -1,10 +1,10 @@
 #pragma once
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__ResolutionConverter_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Converters::ResolutionConverter.WriteJson
 template<>
 
@@ -126,8 +126,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Newtonsoft::Json::Converters::ResolutionConverter::ResolutionConverter()  : Newtonsoft::Json::JsonConverter(THROW_UNLESS(::il2cpp_utils::New<ResolutionConverter>())) {}
+ Newtonsoft::Json::Converters::ResolutionConverter Newtonsoft::Json::Converters::ResolutionConverter::New_ctor()  {
+Newtonsoft::Json::Converters::ResolutionConverter o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Converters::ResolutionConverter>())};
+return o;
+}
  void Newtonsoft::Json::Converters::ResolutionConverter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Converters::ResolutionConverter>::get(),

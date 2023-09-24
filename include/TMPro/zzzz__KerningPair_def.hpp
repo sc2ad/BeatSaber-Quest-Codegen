@@ -131,20 +131,17 @@ constexpr bool __get_m_IgnoreSpacingAdjustments() const;
 /// @brief Method get_ignoreSpacingAdjustments addr 0x2a78a28 size 0x8 virtual false final false
  bool get_ignoreSpacingAdjustments() ;
 
-// Ctor Parameters []
-explicit KerningPair() ;
+static TMPro::KerningPair New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a78a30 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "float_t", modifiers: "", def_value: None }]
-explicit KerningPair(uint32_t left, uint32_t right, float_t offset) ;
+static TMPro::KerningPair New_ctor(uint32_t left, uint32_t right, float_t offset) ;
 
 /// @brief Method .ctor addr 0x2a78a54 size 0x40 virtual false final false
  void _ctor(uint32_t left, uint32_t right, float_t offset) ;
 
-// Ctor Parameters [CppParam { name: "firstGlyph", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "firstGlyphAdjustments", ty: "TMPro::GlyphValueRecord_Legacy", modifiers: "", def_value: None }, CppParam { name: "secondGlyph", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secondGlyphAdjustments", ty: "TMPro::GlyphValueRecord_Legacy", modifiers: "", def_value: None }]
-explicit KerningPair(uint32_t firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) ;
+static TMPro::KerningPair New_ctor(uint32_t firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) ;
 
 /// @brief Method .ctor addr 0x2a78a94 size 0x80 virtual false final false
  void _ctor(uint32_t firstGlyph, TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) ;

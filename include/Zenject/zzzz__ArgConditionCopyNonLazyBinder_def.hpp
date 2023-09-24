@@ -3,18 +3,18 @@
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace Zenject {
+struct TypeValuePair;
+}
+namespace Zenject {
 class InstantiateCallbackConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -62,8 +62,7 @@ constexpr explicit ArgConditionCopyNonLazyBinder(void* ptr) noexcept : Zenject::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }]
-explicit ArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo) ;
+static Zenject::ArgConditionCopyNonLazyBinder New_ctor(Zenject::BindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4d238 size 0x8 virtual false final false
  void _ctor(Zenject::BindInfo bindInfo) ;

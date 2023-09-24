@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/zzzz__QueueUserWorkItemCallback_def.hpp"
+#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
-#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
-#include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
+#include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 //  Writing Method size for method: System::Threading::QueueUserWorkItemCallback._ctor
 template<>
 
@@ -102,8 +102,10 @@ return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(t
  System::Threading::ContextCallback System::Threading::QueueUserWorkItemCallback::__get_ccb()  {
 return ::cordl_internals::getStaticField<System::Threading::ContextCallback, "ccb", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::QueueUserWorkItemCallback>::get>();
 }
-// Ctor Parameters [CppParam { name: "waitCallback", ty: "System::Threading::WaitCallback", modifiers: "", def_value: None }, CppParam { name: "stateObj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "compressStack", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stackMark", ty: "ByRef<System::Threading::StackCrawlMark>", modifiers: "", def_value: None }]
- System::Threading::QueueUserWorkItemCallback::QueueUserWorkItemCallback(System::Threading::WaitCallback waitCallback, ::bs_hook::Il2CppWrapperType stateObj, bool compressStack, ByRef<System::Threading::StackCrawlMark> stackMark)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<QueueUserWorkItemCallback>(waitCallback, stateObj, compressStack, stackMark))) {}
+ System::Threading::QueueUserWorkItemCallback System::Threading::QueueUserWorkItemCallback::New_ctor(System::Threading::WaitCallback waitCallback, ::bs_hook::Il2CppWrapperType stateObj, bool compressStack, ByRef<System::Threading::StackCrawlMark> stackMark)  {
+System::Threading::QueueUserWorkItemCallback o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::QueueUserWorkItemCallback>(waitCallback, stateObj, compressStack, stackMark))};
+return o;
+}
  void System::Threading::QueueUserWorkItemCallback::_ctor(System::Threading::WaitCallback waitCallback, ::bs_hook::Il2CppWrapperType stateObj, bool compressStack, ByRef<System::Threading::StackCrawlMark> stackMark)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::QueueUserWorkItemCallback>::get(),

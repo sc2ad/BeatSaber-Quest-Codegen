@@ -75,8 +75,7 @@ constexpr bool __get_isReady() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "suggestedLevel", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "suggestedModifiers", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isReady", ty: "bool", modifiers: "", def_value: None }]
-explicit GameServerPlayerTableItem(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) ;
+static GlobalNamespace::GameServerPlayerTableItem New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) ;
 
 /// @brief Method .ctor addr 0x21f2fdc size 0x44 virtual false final false
  void _ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady) ;

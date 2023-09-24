@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerTableCell_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::NetworkPlayerTableCell.get_showSeparator
 template<>
 
@@ -271,8 +271,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Color, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::NetworkPlayerTableCell::NetworkPlayerTableCell()  : HMUI::TableCell(THROW_UNLESS(::il2cpp_utils::New<NetworkPlayerTableCell>())) {}
+ GlobalNamespace::NetworkPlayerTableCell GlobalNamespace::NetworkPlayerTableCell::New_ctor()  {
+GlobalNamespace::NetworkPlayerTableCell o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NetworkPlayerTableCell>())};
+return o;
+}
  void GlobalNamespace::NetworkPlayerTableCell::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NetworkPlayerTableCell>::get(),

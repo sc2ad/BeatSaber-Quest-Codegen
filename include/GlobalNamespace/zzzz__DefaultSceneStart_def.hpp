@@ -4,23 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace HMUI {
-class HierarchyManager;
+class GlobalNamespace__DefaultSceneStart___Start_d__3;
 }
 namespace HMUI {
 class FlowCoordinator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace HMUI {
+class HierarchyManager;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -108,8 +111,7 @@ constexpr GlobalNamespace::DefaultSceneStart __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__DefaultSceneStart___Start_d__3(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__DefaultSceneStart___Start_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21b3e8c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -201,8 +203,7 @@ constexpr HMUI::HierarchyManager __get__hierarchyManager() const;
 /// @brief Method Start addr 0x21b3e24 size 0x68 virtual false final false
  System::Collections::IEnumerator Start() ;
 
-// Ctor Parameters []
-explicit DefaultSceneStart() ;
+static GlobalNamespace::DefaultSceneStart New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b3eb4 size 0x8 virtual false final false
  void _ctor() ;

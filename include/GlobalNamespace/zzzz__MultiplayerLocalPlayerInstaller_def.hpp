@@ -80,8 +80,7 @@ constexpr GlobalNamespace::MultiplayerPlayerStartState __get__startState() const
 /// @brief Method InstallBindings addr 0x211acd8 size 0x238 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalPlayerInstaller() ;
+static GlobalNamespace::MultiplayerLocalPlayerInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x211af10 size 0x8 virtual false final false
  void _ctor() ;

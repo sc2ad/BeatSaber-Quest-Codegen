@@ -71,8 +71,7 @@ constexpr ::ArrayW<uint8_t> __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "alg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit CounterSignatureDigestCalculator(::StringW alg, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Cms::CounterSignatureDigestCalculator New_ctor(::StringW alg, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x1175010 size 0x2c virtual false final false
  void _ctor(::StringW alg, ::ArrayW<uint8_t> data) ;

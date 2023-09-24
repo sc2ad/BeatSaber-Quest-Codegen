@@ -7,37 +7,52 @@
 #include <cstddef>
 #include <cstdint>
 namespace System {
+class UriParser;
+}
+namespace System {
 struct UriIdnScope;
 }
 namespace System {
-struct UriHostNameType;
-}
-namespace System {
-class UriParser;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System {
-struct UriKind;
-}
-namespace System {
 struct UriFormat;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System {
 class UriFormatException;
 }
 namespace System {
+struct System__Uri__Offset;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System {
 struct ParsingError;
+}
+namespace System {
+struct System__Uri__Flags;
+}
+namespace System {
+struct UriKind;
+}
+namespace System {
+class System__Uri__UriInfo;
+}
+namespace System {
+class System__Uri__MoreInfo;
+}
+namespace System {
+struct UriHostNameType;
 }
 namespace System {
 struct UriComponents;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+struct System__Uri__Check;
 }
 // Forward declare root types
 namespace System {
@@ -160,6 +175,8 @@ __CompressedSlashes = 17592186044416u,
 constexpr operator __System__Uri__Flags_Unwrapped () const noexcept {
 return std::bit_cast<__System__Uri__Flags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint64_t;
 
 
 // Fields
@@ -420,8 +437,7 @@ constexpr System::System__Uri__MoreInfo __get_MoreInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Uri__UriInfo() ;
+static System::System__Uri__UriInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b8014 size 0x8 virtual false final false
  void _ctor() ;
@@ -606,8 +622,7 @@ constexpr ::StringW __get_RemoteUrl() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Uri__MoreInfo() ;
+static System::System__Uri__MoreInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b801c size 0x8 virtual false final false
  void _ctor() ;
@@ -672,6 +687,8 @@ __FoundNonAscii = 8,
 constexpr operator __System__Uri__Check_Unwrapped () const noexcept {
 return std::bit_cast<__System__Uri__Check_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -1102,20 +1119,17 @@ static bool StaticInFact(System::System__Uri__Flags allFlags, System::System__Ur
 /// @brief Method EnsureHostString addr 0x2759390 size 0x60 virtual false final false
  void EnsureHostString(bool allowDnsOptimization) ;
 
-// Ctor Parameters [CppParam { name: "uriString", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Uri(::StringW uriString) ;
+static System::Uri New_ctor(::StringW uriString) ;
 
 /// @brief Method .ctor addr 0x27597ec size 0x84 virtual false final false
  void _ctor(::StringW uriString) ;
 
-// Ctor Parameters [CppParam { name: "uriString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "uriKind", ty: "System::UriKind", modifiers: "", def_value: None }]
-explicit Uri(::StringW uriString, System::UriKind uriKind) ;
+static System::Uri New_ctor(::StringW uriString, System::UriKind uriKind) ;
 
 /// @brief Method .ctor addr 0x2759a30 size 0x88 virtual false final false
  void _ctor(::StringW uriString, System::UriKind uriKind) ;
 
-// Ctor Parameters [CppParam { name: "baseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Uri(System::Uri baseUri, ::StringW relativeUri) ;
+static System::Uri New_ctor(System::Uri baseUri, ::StringW relativeUri) ;
 
 /// @brief Method .ctor addr 0x2759ab8 size 0xc8 virtual false final false
  void _ctor(System::Uri baseUri, ::StringW relativeUri) ;
@@ -1123,8 +1137,7 @@ explicit Uri(System::Uri baseUri, ::StringW relativeUri) ;
 /// @brief Method CreateUri addr 0x2759b90 size 0x188 virtual false final false
  void CreateUri(System::Uri baseUri, ::StringW relativeUri, bool dontEscape) ;
 
-// Ctor Parameters [CppParam { name: "baseUri", ty: "System::Uri", modifiers: "", def_value: None }, CppParam { name: "relativeUri", ty: "System::Uri", modifiers: "", def_value: None }]
-explicit Uri(System::Uri baseUri, System::Uri relativeUri) ;
+static System::Uri New_ctor(System::Uri baseUri, System::Uri relativeUri) ;
 
 /// @brief Method .ctor addr 0x275a33c size 0x224 virtual false final false
  void _ctor(System::Uri baseUri, System::Uri relativeUri) ;
@@ -1135,8 +1148,7 @@ static System::ParsingError GetCombinedString(System::Uri baseUri, ::StringW rel
 /// @brief Method GetException addr 0x275b380 size 0x1a0 virtual false final false
 static System::UriFormatException GetException(System::ParsingError err) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit Uri(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Uri New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x275b520 size 0x104 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
@@ -1405,8 +1417,7 @@ static ::StringW UnescapeDataString(::StringW stringToUnescape) ;
 /// @brief Method EscapeUnescapeIri addr 0x27627a8 size 0x50 virtual false final false
  ::StringW EscapeUnescapeIri(::StringW input, int32_t start, int32_t end, System::UriComponents component) ;
 
-// Ctor Parameters [CppParam { name: "flags", ty: "System::System__Uri__Flags", modifiers: "", def_value: None }, CppParam { name: "uriParser", ty: "System::UriParser", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Uri(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri) ;
+static System::Uri New_ctor(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri) ;
 
 /// @brief Method .ctor addr 0x2764db0 size 0x40 virtual false final false
  void _ctor(System::System__Uri__Flags flags, System::UriParser uriParser, ::StringW uri) ;

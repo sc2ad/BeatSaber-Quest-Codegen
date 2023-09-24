@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Controls::Vector2Control::Vector2Control()  : UnityEngine::InputSystem::InputControl_1<UnityEngine::Vector2>(THROW_UNLESS(::il2cpp_utils::New<Vector2Control>())) {}
+ UnityEngine::InputSystem::Controls::Vector2Control UnityEngine::InputSystem::Controls::Vector2Control::New_ctor()  {
+UnityEngine::InputSystem::Controls::Vector2Control o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Controls::Vector2Control>())};
+return o;
+}
  void UnityEngine::InputSystem::Controls::Vector2Control::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Controls::Vector2Control>::get(),

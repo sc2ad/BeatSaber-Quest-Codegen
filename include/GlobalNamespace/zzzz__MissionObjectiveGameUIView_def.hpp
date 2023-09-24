@@ -2,23 +2,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine {
-struct Color;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
-class Sprite;
+struct Color;
+}
+namespace GlobalNamespace {
+class MissionObjectiveChecker;
 }
 namespace UnityEngine {
 class ParticleSystem;
 }
-namespace GlobalNamespace {
-class MissionObjectiveChecker;
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -168,8 +168,7 @@ constexpr GlobalNamespace::MissionObjectiveChecker __get__missionObjectiveChecke
 /// @brief Method RefreshValue addr 0x2275e84 size 0x58 virtual false final false
  void RefreshValue() ;
 
-// Ctor Parameters []
-explicit MissionObjectiveGameUIView() ;
+static GlobalNamespace::MissionObjectiveGameUIView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2275ee4 size 0x10 virtual false final false
  void _ctor() ;

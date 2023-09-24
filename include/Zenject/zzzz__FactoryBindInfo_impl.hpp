@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::FactoryBindInfo._ctor
 template<>
 
@@ -143,8 +143,10 @@ constexpr void Zenject::FactoryBindInfo::__set__Arguments_k__BackingField(System
 constexpr System::Collections::Generic::List_1<Zenject::TypeValuePair> Zenject::FactoryBindInfo::__get__Arguments_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<Zenject::TypeValuePair>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "factoryType", ty: "System::Type", modifiers: "", def_value: None }]
- Zenject::FactoryBindInfo::FactoryBindInfo(System::Type factoryType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FactoryBindInfo>(factoryType))) {}
+ Zenject::FactoryBindInfo Zenject::FactoryBindInfo::New_ctor(System::Type factoryType)  {
+Zenject::FactoryBindInfo o{THROW_UNLESS(::il2cpp_utils::New<Zenject::FactoryBindInfo>(factoryType))};
+return o;
+}
  void Zenject::FactoryBindInfo::_ctor(System::Type factoryType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::FactoryBindInfo>::get(),

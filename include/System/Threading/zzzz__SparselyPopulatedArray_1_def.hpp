@@ -4,11 +4,11 @@
 #include <cstdint>
 namespace System::Threading {
 template<typename T>
-struct SparselyPopulatedArrayAddInfo_1;
+class SparselyPopulatedArrayFragment_1;
 }
 namespace System::Threading {
 template<typename T>
-class SparselyPopulatedArrayFragment_1;
+struct SparselyPopulatedArrayAddInfo_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -84,8 +84,7 @@ constexpr System::Threading::SparselyPopulatedArrayFragment_1<T> __get__tail() c
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SparselyPopulatedArray_1(int32_t initialSize) ;
+static System::Threading::SparselyPopulatedArray_1<T> New_ctor(int32_t initialSize) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t initialSize) ;

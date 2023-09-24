@@ -3,62 +3,62 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace LIV::SDK::Unity {
-struct SDKPose;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::Rendering {
-struct CameraEvent;
-}
-namespace System {
-class IDisposable;
-}
-namespace LIV::SDK::Unity {
-struct SDKOutputFrame;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace LIV::SDK::Unity {
-struct SDKInputFrame;
-}
-namespace UnityEngine {
-struct Plane;
-}
-namespace LIV::SDK::Unity {
-class LIV;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine::Rendering {
-struct ColorWriteMask;
+class Camera;
 }
 namespace LIV::SDK::Unity {
 struct SDKResolution;
 }
 namespace UnityEngine {
-struct Vector3;
+class Mesh;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace LIV::SDK::Unity {
+class LIV;
+}
+namespace LIV::SDK::Unity {
+struct SDKPose;
+}
+namespace UnityEngine {
+struct Plane;
+}
+namespace UnityEngine::Rendering {
+struct ColorWriteMask;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
+namespace UnityEngine {
+class Material;
+}
 namespace LIV::SDK::Unity {
 struct TEXTURE_ID;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
-class Camera;
+class Transform;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace LIV::SDK::Unity {
+struct SDKOutputFrame;
+}
+namespace LIV::SDK::Unity {
+struct SDKInputFrame;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -336,8 +336,7 @@ constexpr int32_t __get__requestedPoseFrameIndex() const;
 /// @brief Method get_canRenderOptimized addr 0x209d65c size 0x78 virtual false final false
  bool get_canRenderOptimized() ;
 
-// Ctor Parameters [CppParam { name: "liv", ty: "LIV::SDK::Unity::LIV", modifiers: "", def_value: None }]
-explicit SDKRender(LIV::SDK::Unity::LIV liv) ;
+static LIV::SDK::Unity::SDKRender New_ctor(LIV::SDK::Unity::LIV liv) ;
 
 /// @brief Method .ctor addr 0x209bac4 size 0x17c virtual false final false
  void _ctor(LIV::SDK::Unity::LIV liv) ;

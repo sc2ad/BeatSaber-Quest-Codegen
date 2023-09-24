@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::ResultObjectiveListItemsList::ResultObjectiveListItemsList()  : HMUI::UIItemsList_1<GlobalNamespace::ResultObjectiveListItem>(THROW_UNLESS(::il2cpp_utils::New<ResultObjectiveListItemsList>())) {}
+ GlobalNamespace::ResultObjectiveListItemsList GlobalNamespace::ResultObjectiveListItemsList::New_ctor()  {
+GlobalNamespace::ResultObjectiveListItemsList o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResultObjectiveListItemsList>())};
+return o;
+}
  void GlobalNamespace::ResultObjectiveListItemsList::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResultObjectiveListItemsList>::get(),

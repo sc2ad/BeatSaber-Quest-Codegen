@@ -5,21 +5,27 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LightConstants__BakeId;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__LightmapLightWithIds__MixType;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__LightWithIds__LightWithId;
 }
 namespace GlobalNamespace {
 class BakedLightsNormalizer;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__LightConstants__BakeId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,6 +86,8 @@ __Sum = 1,
 constexpr operator __GlobalNamespace__LightmapLightWithIds__MixType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__LightmapLightWithIds__MixType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -170,8 +178,7 @@ constexpr float_t __get__probeHighlightsIntensityMultiplier() const;
 /// @brief Method get_probeHighlightsIntensityMultiplier addr 0x1f9d7fc size 0x8 virtual false final false
  float_t get_probeHighlightsIntensityMultiplier() ;
 
-// Ctor Parameters [CppParam { name: "lightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lightIntensity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "probeMultiplier", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId(int32_t lightId, float_t lightIntensity, float_t probeMultiplier) ;
+static GlobalNamespace::GlobalNamespace__LightmapLightWithIds__LightIntensitiesWithId New_ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier) ;
 
 /// @brief Method .ctor addr 0x1f9d804 size 0x44 virtual false final false
  void _ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier) ;
@@ -354,8 +361,7 @@ constexpr UnityEngine::Color __get__calculatedColorPreNormalization() const;
 /// @brief Method GetBakedLightsNormalizer addr 0x1f9d270 size 0x8c virtual false final false
  void GetBakedLightsNormalizer() ;
 
-// Ctor Parameters []
-explicit LightmapLightWithIds() ;
+static GlobalNamespace::LightmapLightWithIds New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9d7dc size 0x18 virtual false final false
  void _ctor() ;

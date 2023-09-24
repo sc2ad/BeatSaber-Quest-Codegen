@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStream_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::TlsStream._ctor
 template<>
 
@@ -264,8 +264,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::TlsStream::__set_handler(Org::Bou
 constexpr Org::BouncyCastle::Crypto::Tls::TlsProtocol Org::BouncyCastle::Crypto::Tls::TlsStream::__get_handler() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Tls::TlsProtocol, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "handler", ty: "Org::BouncyCastle::Crypto::Tls::TlsProtocol", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::TlsStream::TlsStream(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<TlsStream>(handler))) {}
+ Org::BouncyCastle::Crypto::Tls::TlsStream Org::BouncyCastle::Crypto::Tls::TlsStream::New_ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler)  {
+Org::BouncyCastle::Crypto::Tls::TlsStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::TlsStream>(handler))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::TlsStream::_ctor(Org::BouncyCastle::Crypto::Tls::TlsProtocol handler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::TlsStream>::get(),

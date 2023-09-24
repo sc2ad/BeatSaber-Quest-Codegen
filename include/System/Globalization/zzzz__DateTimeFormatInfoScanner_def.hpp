@@ -6,19 +6,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System::Globalization {
-struct FORMATFLAGS;
+struct System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern;
 }
 namespace System::Globalization {
 class DateTimeFormatInfo;
 }
+namespace System::Globalization {
+struct FORMATFLAGS;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -79,6 +82,8 @@ __FoundYMDPatternFlag = 7,
 constexpr operator __System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped () const noexcept {
 return std::bit_cast<__System__Globalization__DateTimeFormatInfoScanner__FoundDatePattern_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -223,8 +228,7 @@ static bool ArrayElementsHaveSpace(::ArrayW<::StringW> array) ;
 /// @brief Method ArrayElementsBeginWithDigit addr 0x23e4e54 size 0x25c virtual false final false
 static bool ArrayElementsBeginWithDigit(::ArrayW<::StringW> array) ;
 
-// Ctor Parameters []
-explicit DateTimeFormatInfoScanner() ;
+static System::Globalization::DateTimeFormatInfoScanner New_ctor() ;
 
 /// @brief Method .ctor addr 0x23e2d98 size 0x7c virtual false final false
  void _ctor() ;

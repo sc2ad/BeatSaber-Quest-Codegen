@@ -6,11 +6,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion::FinalIK {
-class FABRIK;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class FABRIK;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -100,8 +100,7 @@ constexpr ::ArrayW<int32_t> __get_children() const;
 /// @brief Method GetCentroid addr 0x11c6c9c size 0x194 virtual false final false
  UnityEngine::Vector3 GetCentroid(::ArrayW<RootMotion::FinalIK::FABRIKChain> chain) ;
 
-// Ctor Parameters []
-explicit FABRIKChain() ;
+static RootMotion::FinalIK::FABRIKChain New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c6f14 size 0x60 virtual false final false
  void _ctor() ;

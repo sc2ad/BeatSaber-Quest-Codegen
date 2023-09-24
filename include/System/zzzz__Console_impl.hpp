@@ -1,13 +1,14 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Console_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/IO/zzzz__FileAccess_def.hpp"
+#include "System/zzzz__Console_def.hpp"
 #include "System/zzzz__ConsoleCancelEventHandler_def.hpp"
-#include "System/zzzz__ConsoleKeyInfo_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/zzzz__ConsoleKeyInfo_def.hpp"
+#include "System/IO/zzzz__FileAccess_def.hpp"
 //  Writing Method size for method: GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler._ctor
 template<>
 
@@ -42,8 +43,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler::System__Console__WindowsConsole__WindowsCancelHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__Console__WindowsConsole__WindowsCancelHandler>(object, method))) {}
+ GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler>(object, method))};
+return o;
+}
  void GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::System__Console__WindowsConsole__WindowsCancelHandler>::get(),

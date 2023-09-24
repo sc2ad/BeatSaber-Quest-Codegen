@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Resources/zzzz__ResourceSet_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Resources/zzzz__IResourceReader_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Resources::ResourceSet._ctor
 template<>
 
@@ -270,8 +270,10 @@ constexpr void System::Resources::ResourceSet::__set__caseInsensitiveTable(Syste
 constexpr System::Collections::Hashtable System::Resources::ResourceSet::__get__caseInsensitiveTable() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Resources::ResourceSet::ResourceSet()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceSet>())) {}
+ System::Resources::ResourceSet System::Resources::ResourceSet::New_ctor()  {
+System::Resources::ResourceSet o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::ResourceSet>())};
+return o;
+}
  void System::Resources::ResourceSet::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::ResourceSet>::get(),
@@ -281,8 +283,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "junk", ty: "bool", modifiers: "", def_value: None }]
- System::Resources::ResourceSet::ResourceSet(bool junk)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceSet>(junk))) {}
+ System::Resources::ResourceSet System::Resources::ResourceSet::New_ctor(bool junk)  {
+System::Resources::ResourceSet o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::ResourceSet>(junk))};
+return o;
+}
  void System::Resources::ResourceSet::_ctor(bool junk)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::ResourceSet>::get(),

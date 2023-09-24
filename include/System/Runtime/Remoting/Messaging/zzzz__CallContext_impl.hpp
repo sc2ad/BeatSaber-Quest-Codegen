@@ -86,8 +86,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::CallContext::CallContext()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CallContext>())) {}
+ System::Runtime::Remoting::Messaging::CallContext System::Runtime::Remoting::Messaging::CallContext::New_ctor()  {
+System::Runtime::Remoting::Messaging::CallContext o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CallContext>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CallContext::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CallContext>::get(),

@@ -3,19 +3,19 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -91,14 +91,12 @@ static Org::BouncyCastle::Asn1::X9::DHValidationParms GetInstance(Org::BouncyCas
 /// @brief Method GetInstance addr 0x111e124 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X9::DHValidationParms GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seed", ty: "Org::BouncyCastle::Asn1::DerBitString", modifiers: "", def_value: None }, CppParam { name: "pgenCounter", ty: "Org::BouncyCastle::Asn1::DerInteger", modifiers: "", def_value: None }]
-explicit DHValidationParms(Org::BouncyCastle::Asn1::DerBitString seed, Org::BouncyCastle::Asn1::DerInteger pgenCounter) ;
+static Org::BouncyCastle::Asn1::X9::DHValidationParms New_ctor(Org::BouncyCastle::Asn1::DerBitString seed, Org::BouncyCastle::Asn1::DerInteger pgenCounter) ;
 
 /// @brief Method .ctor addr 0x111e850 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerBitString seed, Org::BouncyCastle::Asn1::DerInteger pgenCounter) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit DHValidationParms(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::DHValidationParms New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x111e6e0 size 0x170 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

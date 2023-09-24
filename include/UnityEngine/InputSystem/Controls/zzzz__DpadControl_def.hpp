@@ -5,11 +5,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem::Controls {
+class UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl;
+}
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::Controls {
+struct UnityEngine__InputSystem__Controls__DpadControl__ButtonBits;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
@@ -89,8 +95,7 @@ constexpr int32_t __get__component_k__BackingField() const;
 /// @brief Method ReadUnprocessedValueFromState addr 0x2978570 size 0x118 virtual true final false
  float_t ReadUnprocessedValueFromState(void* statePtr) ;
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl() ;
+static UnityEngine::InputSystem::Controls::UnityEngine__InputSystem__Controls__DpadControl__DpadAxisControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2978688 size 0x4 virtual false final false
  void _ctor() ;
@@ -150,6 +155,8 @@ __Right = 3,
 constexpr operator __UnityEngine__InputSystem__Controls__DpadControl__ButtonBits_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Controls__DpadControl__ButtonBits_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -284,8 +291,7 @@ constexpr UnityEngine::InputSystem::Controls::ButtonControl __get__right_k__Back
 /// @brief Method set_right addr 0x2977f20 size 0x8 virtual false final false
  void set_right(UnityEngine::InputSystem::Controls::ButtonControl value) ;
 
-// Ctor Parameters []
-explicit DpadControl() ;
+static UnityEngine::InputSystem::Controls::DpadControl New_ctor() ;
 
 /// @brief Method .ctor addr 0x2977f28 size 0x70 virtual false final false
  void _ctor() ;

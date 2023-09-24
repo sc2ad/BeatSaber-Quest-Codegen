@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__DigestStream_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::IO::DigestStream._ctor
 template<>
 
@@ -311,8 +311,10 @@ constexpr void Org::BouncyCastle::Crypto::IO::DigestStream::__set_outDigest(Org:
 constexpr Org::BouncyCastle::Crypto::IDigest Org::BouncyCastle::Crypto::IO::DigestStream::__get_outDigest() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IDigest, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "writeDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::IO::DigestStream::DigestStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::IDigest readDigest, Org::BouncyCastle::Crypto::IDigest writeDigest)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<DigestStream>(stream, readDigest, writeDigest))) {}
+ Org::BouncyCastle::Crypto::IO::DigestStream Org::BouncyCastle::Crypto::IO::DigestStream::New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IDigest readDigest, Org::BouncyCastle::Crypto::IDigest writeDigest)  {
+Org::BouncyCastle::Crypto::IO::DigestStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::IO::DigestStream>(stream, readDigest, writeDigest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::IO::DigestStream::_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::IDigest readDigest, Org::BouncyCastle::Crypto::IDigest writeDigest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::IO::DigestStream>::get(),

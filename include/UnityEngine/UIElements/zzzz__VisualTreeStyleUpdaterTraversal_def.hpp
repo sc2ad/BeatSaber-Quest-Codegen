@@ -5,21 +5,21 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine::UIElements::StyleSheets {
+struct SelectorMatchRecord;
+}
 namespace System {
 template<typename T>
 class Comparison_1;
 }
-namespace UnityEngine::UIElements::StyleSheets {
-struct SelectorMatchRecord;
+namespace UnityEngine::UIElements {
+struct ComputedStyle;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class StyleVariableContext;
 }
 namespace UnityEngine::UIElements::StyleSheets {
-struct MatchResultInfo;
-}
-namespace UnityEngine::UIElements {
-class StyleSheet;
+struct StylePropertyId;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -29,23 +29,26 @@ namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
-class StyleMatchingContext;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
-namespace UnityEngine::UIElements::StyleSheets {
-class StylePropertyReader;
+class UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c;
 }
 namespace UnityEngine::UIElements {
-class StyleVariableContext;
+class StyleMatchingContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace UnityEngine::UIElements::StyleSheets {
+class StylePropertyReader;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct MatchResultInfo;
+}
 namespace UnityEngine::UIElements {
-struct ComputedStyle;
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
 class StyleRule;
@@ -114,8 +117,7 @@ static System::Comparison_1<UnityEngine::UIElements::StyleSheets::SelectorMatchR
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__VisualTreeStyleUpdaterTraversal____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4a7e8 size 0x8 virtual false final false
  void _ctor() ;
@@ -272,8 +274,7 @@ static void OnProcessMatchResult(UnityEngine::UIElements::VisualElement current,
 /// @brief Method ProcessMatchedVariables addr 0x2c4a688 size 0xfc virtual false final false
  void ProcessMatchedVariables(UnityEngine::UIElements::StyleSheet sheet, UnityEngine::UIElements::StyleRule rule) ;
 
-// Ctor Parameters []
-explicit VisualTreeStyleUpdaterTraversal() ;
+static UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c48dc8 size 0x208 virtual false final false
  void _ctor() ;

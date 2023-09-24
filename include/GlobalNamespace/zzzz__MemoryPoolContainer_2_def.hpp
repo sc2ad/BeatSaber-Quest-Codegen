@@ -5,13 +5,13 @@ namespace GlobalNamespace {
 template<typename T>
 class LazyCopyHashSet_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 namespace Zenject {
 template<typename TValue>
 class IMemoryPool_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -90,8 +90,7 @@ constexpr Zenject::IMemoryPool_1<T0> __get__memoryPool() const;
 /// @brief Method get_activeItems addr 0x0 size 0xffffffffffffffff virtual false final false
  System::Collections::Generic::List_1<T1> get_activeItems() ;
 
-// Ctor Parameters [CppParam { name: "memoryPool", ty: "Zenject::IMemoryPool_1<T0>", modifiers: "", def_value: None }]
-explicit MemoryPoolContainer_2(Zenject::IMemoryPool_1<T0> memoryPool) ;
+static GlobalNamespace::MemoryPoolContainer_2<T0,T1> New_ctor(Zenject::IMemoryPool_1<T0> memoryPool) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::IMemoryPool_1<T0> memoryPool) ;

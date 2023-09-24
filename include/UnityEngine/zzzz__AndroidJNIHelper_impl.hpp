@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__AndroidJNIHelper_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
+#include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "UnityEngine/zzzz__jvalue_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
-#include "UnityEngine/zzzz__AndroidJavaProxy_def.hpp"
 //  Writing Method size for method: UnityEngine::AndroidJNIHelper.get_debug
 template<>
 

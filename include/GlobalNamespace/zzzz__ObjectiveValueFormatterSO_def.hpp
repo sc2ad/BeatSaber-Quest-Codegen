@@ -52,8 +52,7 @@ constexpr explicit ObjectiveValueFormatterSO(void* ptr) noexcept : GlobalNamespa
 /// @brief Method FormatValue addr 0x21f12a4 size 0x1c virtual true final false
  ::StringW FormatValue(int32_t value) ;
 
-// Ctor Parameters []
-explicit ObjectiveValueFormatterSO() ;
+static GlobalNamespace::ObjectiveValueFormatterSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f0df8 size 0x8 virtual false final false
  void _ctor() ;

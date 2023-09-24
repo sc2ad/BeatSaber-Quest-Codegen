@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
 namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
+struct ClipCaps;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class ITimelineClipAsset;
 }
 namespace GlobalNamespace {
 class AvatarColorBehaviour;
@@ -76,8 +76,7 @@ constexpr GlobalNamespace::AvatarColorBehaviour __get__template() const;
 /// @brief Method get_clipCaps addr 0x21b1d60 size 0x8 virtual true final true
  UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
-// Ctor Parameters []
-explicit CustomControlPlayableAsset() ;
+static GlobalNamespace::CustomControlPlayableAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b1d68 size 0x58 virtual false final false
  void _ctor() ;

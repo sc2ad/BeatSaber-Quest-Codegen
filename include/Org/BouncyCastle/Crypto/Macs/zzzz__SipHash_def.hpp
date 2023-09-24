@@ -5,10 +5,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -133,14 +133,12 @@ constexpr int32_t __get_wordCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SipHash() ;
+static Org::BouncyCastle::Crypto::Macs::SipHash New_ctor() ;
 
 /// @brief Method .ctor addr 0xe846a8 size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SipHash(int32_t c, int32_t d) ;
+static Org::BouncyCastle::Crypto::Macs::SipHash New_ctor(int32_t c, int32_t d) ;
 
 /// @brief Method .ctor addr 0xe846d0 size 0x30 virtual false final false
  void _ctor(int32_t c, int32_t d) ;

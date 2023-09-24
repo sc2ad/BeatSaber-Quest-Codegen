@@ -79,8 +79,7 @@ constexpr float_t __get__verticalOffset() const;
 /// @brief Method get_verticalOffset addr 0x20c2f78 size 0x8 virtual false final false
  float_t get_verticalOffset() ;
 
-// Ctor Parameters []
-explicit HeadBodyOffsetSO() ;
+static GlobalNamespace::HeadBodyOffsetSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20c2f80 size 0x14 virtual false final false
  void _ctor() ;

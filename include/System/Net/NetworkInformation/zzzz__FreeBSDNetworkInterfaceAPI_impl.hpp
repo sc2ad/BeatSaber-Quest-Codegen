@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::FreeBSDNetworkInterfaceAPI()  : System::Net::NetworkInformation::MacOsNetworkInterfaceAPI(THROW_UNLESS(::il2cpp_utils::New<FreeBSDNetworkInterfaceAPI>())) {}
+ System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::New_ctor()  {
+System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI>())};
+return o;
+}
  void System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI>::get(),

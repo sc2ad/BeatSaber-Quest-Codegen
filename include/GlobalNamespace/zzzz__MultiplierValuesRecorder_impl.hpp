@@ -2,9 +2,10 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplierValuesRecorder_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplierValuesRecorder_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplierValuesRecorder__MultiplierValue._ctor
 template<>
 
@@ -186,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, multiplier, multiplierProgress);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplierValuesRecorder::MultiplierValuesRecorder()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplierValuesRecorder>())) {}
+ GlobalNamespace::MultiplierValuesRecorder GlobalNamespace::MultiplierValuesRecorder::New_ctor()  {
+GlobalNamespace::MultiplierValuesRecorder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplierValuesRecorder>())};
+return o;
+}
  void GlobalNamespace::MultiplierValuesRecorder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplierValuesRecorder>::get(),

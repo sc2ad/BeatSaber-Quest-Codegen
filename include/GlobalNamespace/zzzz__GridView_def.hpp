@@ -4,22 +4,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+class MonoBehaviour;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace System {
+class IDisposable;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template<typename T>
+struct System__Collections__Generic__List_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace GlobalNamespace {
 template<typename TKey,typename TValue>
@@ -27,22 +41,17 @@ struct System__Collections__Generic__Dictionary_2__KeyCollection__Enumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
-struct System__Collections__Generic__List_1__Enumerator;
+class Queue_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+class GlobalNamespace__GridView__GridViewCellsEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
+namespace GlobalNamespace {
+class GlobalNamespace__GridView__IDataSource;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -185,8 +194,7 @@ constexpr System::Collections::Generic::System__Collections__Generic__List_1__En
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator___GetEnumerator_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2188d8c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -281,8 +289,7 @@ constexpr GlobalNamespace::GridView __get__gridView() const;
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2188db4 size 0x4 virtual true final true
  System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
-// Ctor Parameters [CppParam { name: "gridView", ty: "GlobalNamespace::GridView", modifiers: "", def_value: None }]
-explicit GlobalNamespace__GridView__GridViewCellsEnumerator(GlobalNamespace::GridView gridView) ;
+static GlobalNamespace::GlobalNamespace__GridView__GridViewCellsEnumerator New_ctor(GlobalNamespace::GridView gridView) ;
 
 /// @brief Method .ctor addr 0x21883e0 size 0x28 virtual false final false
  void _ctor(GlobalNamespace::GridView gridView) ;
@@ -421,8 +428,7 @@ constexpr System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour,
 template<typename T>
  T GetReusableCellView(UnityEngine::MonoBehaviour prefab) ;
 
-// Ctor Parameters []
-explicit GridView() ;
+static GlobalNamespace::GridView New_ctor() ;
 
 /// @brief Method .ctor addr 0x2188c64 size 0xc0 virtual false final false
  void _ctor() ;

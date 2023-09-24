@@ -87,8 +87,10 @@ constexpr void System::Runtime::Remoting::Metadata::SoapAttribute::__set_Reflect
 constexpr ::bs_hook::Il2CppWrapperType System::Runtime::Remoting::Metadata::SoapAttribute::__get_ReflectInfo() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Metadata::SoapAttribute::SoapAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<SoapAttribute>())) {}
+ System::Runtime::Remoting::Metadata::SoapAttribute System::Runtime::Remoting::Metadata::SoapAttribute::New_ctor()  {
+System::Runtime::Remoting::Metadata::SoapAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Metadata::SoapAttribute>())};
+return o;
+}
  void System::Runtime::Remoting::Metadata::SoapAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Metadata::SoapAttribute>::get(),

@@ -2,14 +2,15 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneLoader_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/zzzz__AssetBundle_def.hpp"
-#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
-#include "UnityEngine/zzzz__Canvas_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__AssetBundle_def.hpp"
+#include "GlobalNamespace/zzzz__OVRSceneLoader_def.hpp"
+#include "UnityEngine/zzzz__Canvas_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRSceneLoader__SceneInfo._ctor
 template<>
 
@@ -184,8 +185,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPos
 constexpr GlobalNamespace::OVRSceneLoader GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRSceneLoader, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSceneLoader___DelayCanvasPosUpdate_d__24>::get(),
@@ -372,8 +375,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCo
 constexpr GlobalNamespace::OVRSceneLoader GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::OVRSceneLoader, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRSceneLoader___onCheckSceneCoroutine_d__25>::get(),
@@ -783,8 +788,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRSceneLoader::OVRSceneLoader()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRSceneLoader>())) {}
+ GlobalNamespace::OVRSceneLoader GlobalNamespace::OVRSceneLoader::New_ctor()  {
+GlobalNamespace::OVRSceneLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRSceneLoader>())};
+return o;
+}
  void GlobalNamespace::OVRSceneLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRSceneLoader>::get(),

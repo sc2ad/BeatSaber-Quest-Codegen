@@ -87,8 +87,10 @@ constexpr void System::Runtime::Serialization::ValueTypeFixupInfo::__set__parent
 constexpr ::ArrayW<int32_t> System::Runtime::Serialization::ValueTypeFixupInfo::__get__parentIndex() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int32_t>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "containerID", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::FieldInfo", modifiers: "", def_value: None }, CppParam { name: "parentIndex", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
- System::Runtime::Serialization::ValueTypeFixupInfo::ValueTypeFixupInfo(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ValueTypeFixupInfo>(containerID, member, parentIndex))) {}
+ System::Runtime::Serialization::ValueTypeFixupInfo System::Runtime::Serialization::ValueTypeFixupInfo::New_ctor(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex)  {
+System::Runtime::Serialization::ValueTypeFixupInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::ValueTypeFixupInfo>(containerID, member, parentIndex))};
+return o;
+}
  void System::Runtime::Serialization::ValueTypeFixupInfo::_ctor(int64_t containerID, System::Reflection::FieldInfo member, ::ArrayW<int32_t> parentIndex)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::ValueTypeFixupInfo>::get(),

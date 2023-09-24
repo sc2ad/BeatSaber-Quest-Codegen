@@ -1,8 +1,8 @@
 #pragma once
 #include "Oculus/Platform/zzzz__ApplicationLifecycle_def.hpp"
+#include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
 #include "Oculus/Platform/zzzz__LaunchResult_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
 //  Writing Method size for method: Oculus::Platform::ApplicationLifecycle.GetLaunchDetails
 template<>
 

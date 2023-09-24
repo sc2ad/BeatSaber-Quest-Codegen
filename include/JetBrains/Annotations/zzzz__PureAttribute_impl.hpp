@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::PureAttribute::PureAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PureAttribute>())) {}
+ JetBrains::Annotations::PureAttribute JetBrains::Annotations::PureAttribute::New_ctor()  {
+JetBrains::Annotations::PureAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::PureAttribute>())};
+return o;
+}
  void JetBrains::Annotations::PureAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::PureAttribute>::get(),

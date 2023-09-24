@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__LeafNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__LeafRangeNode_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::LeafRangeNode.get_Max
 template<>
 

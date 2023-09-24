@@ -127,8 +127,10 @@ constexpr void LiteNetLib::Layers::XorEncryptLayer::__set__byteKey(::ArrayW<uint
 constexpr ::ArrayW<uint8_t> LiteNetLib::Layers::XorEncryptLayer::__get__byteKey() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- LiteNetLib::Layers::XorEncryptLayer::XorEncryptLayer()  : LiteNetLib::Layers::PacketLayerBase(THROW_UNLESS(::il2cpp_utils::New<XorEncryptLayer>())) {}
+ LiteNetLib::Layers::XorEncryptLayer LiteNetLib::Layers::XorEncryptLayer::New_ctor()  {
+LiteNetLib::Layers::XorEncryptLayer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Layers::XorEncryptLayer>())};
+return o;
+}
  void LiteNetLib::Layers::XorEncryptLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Layers::XorEncryptLayer>::get(),
@@ -138,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- LiteNetLib::Layers::XorEncryptLayer::XorEncryptLayer(::ArrayW<uint8_t> key)  : LiteNetLib::Layers::PacketLayerBase(THROW_UNLESS(::il2cpp_utils::New<XorEncryptLayer>(key))) {}
+ LiteNetLib::Layers::XorEncryptLayer LiteNetLib::Layers::XorEncryptLayer::New_ctor(::ArrayW<uint8_t> key)  {
+LiteNetLib::Layers::XorEncryptLayer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Layers::XorEncryptLayer>(key))};
+return o;
+}
  void LiteNetLib::Layers::XorEncryptLayer::_ctor(::ArrayW<uint8_t> key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Layers::XorEncryptLayer>::get(),
@@ -149,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, key);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: None }]
- LiteNetLib::Layers::XorEncryptLayer::XorEncryptLayer(::StringW key)  : LiteNetLib::Layers::PacketLayerBase(THROW_UNLESS(::il2cpp_utils::New<XorEncryptLayer>(key))) {}
+ LiteNetLib::Layers::XorEncryptLayer LiteNetLib::Layers::XorEncryptLayer::New_ctor(::StringW key)  {
+LiteNetLib::Layers::XorEncryptLayer o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Layers::XorEncryptLayer>(key))};
+return o;
+}
  void LiteNetLib::Layers::XorEncryptLayer::_ctor(::StringW key)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Layers::XorEncryptLayer>::get(),

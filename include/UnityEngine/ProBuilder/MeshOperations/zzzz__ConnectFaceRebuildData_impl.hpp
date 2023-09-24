@@ -31,8 +31,10 @@ constexpr void UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::
 constexpr System::Collections::Generic::List_1<int32_t> UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::__get_newVertexIndexes() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<int32_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "faceRebuildData", ty: "UnityEngine::ProBuilder::FaceRebuildData", modifiers: "", def_value: None }, CppParam { name: "newVertexIndexes", ty: "System::Collections::Generic::List_1<int32_t>", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::ConnectFaceRebuildData(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ConnectFaceRebuildData>(faceRebuildData, newVertexIndexes))) {}
+ UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::New_ctor(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes)  {
+UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData>(faceRebuildData, newVertexIndexes))};
+return o;
+}
  void UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::_ctor(UnityEngine::ProBuilder::FaceRebuildData faceRebuildData, System::Collections::Generic::List_1<int32_t> newVertexIndexes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData>::get(),

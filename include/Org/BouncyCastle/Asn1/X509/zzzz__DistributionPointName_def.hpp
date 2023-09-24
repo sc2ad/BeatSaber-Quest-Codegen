@@ -7,17 +7,17 @@
 namespace System::Text {
 class StringBuilder;
 }
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -105,14 +105,12 @@ static Org::BouncyCastle::Asn1::X509::DistributionPointName GetInstance(Org::Bou
 /// @brief Method GetInstance addr 0x1102290 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::DistributionPointName GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit DistributionPointName(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
+static Org::BouncyCastle::Asn1::X509::DistributionPointName New_ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
 
 /// @brief Method .ctor addr 0x1102470 size 0x30 virtual false final false
  void _ctor(int32_t type, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralNames", modifiers: "", def_value: None }]
-explicit DistributionPointName(Org::BouncyCastle::Asn1::X509::GeneralNames name) ;
+static Org::BouncyCastle::Asn1::X509::DistributionPointName New_ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name) ;
 
 /// @brief Method .ctor addr 0x11024a0 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralNames name) ;
@@ -123,8 +121,7 @@ explicit DistributionPointName(Org::BouncyCastle::Asn1::X509::GeneralNames name)
 /// @brief Method get_Name addr 0x11024d4 size 0x8 virtual false final false
  Org::BouncyCastle::Asn1::Asn1Encodable get_Name() ;
 
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit DistributionPointName(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;
+static Org::BouncyCastle::Asn1::X509::DistributionPointName New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;
 
 /// @brief Method .ctor addr 0x1102418 size 0x58 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject obj) ;

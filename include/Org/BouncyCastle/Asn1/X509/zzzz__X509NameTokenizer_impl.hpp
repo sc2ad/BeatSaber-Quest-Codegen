@@ -93,8 +93,10 @@ constexpr void Org::BouncyCastle::Asn1::X509::X509NameTokenizer::__set_buffer(Sy
 constexpr System::Text::StringBuilder Org::BouncyCastle::Asn1::X509::X509NameTokenizer::__get_buffer() const {
 return ::cordl_internals::getInstanceField<System::Text::StringBuilder, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509NameTokenizer::X509NameTokenizer(::StringW oid)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509NameTokenizer>(oid))) {}
+ Org::BouncyCastle::Asn1::X509::X509NameTokenizer Org::BouncyCastle::Asn1::X509::X509NameTokenizer::New_ctor(::StringW oid)  {
+Org::BouncyCastle::Asn1::X509::X509NameTokenizer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509NameTokenizer>(oid))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor(::StringW oid)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509NameTokenizer>::get(),
@@ -104,8 +106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, oid);
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "separator", ty: "char16_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::X509NameTokenizer::X509NameTokenizer(::StringW oid, char16_t separator)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509NameTokenizer>(oid, separator))) {}
+ Org::BouncyCastle::Asn1::X509::X509NameTokenizer Org::BouncyCastle::Asn1::X509::X509NameTokenizer::New_ctor(::StringW oid, char16_t separator)  {
+Org::BouncyCastle::Asn1::X509::X509NameTokenizer o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::X509NameTokenizer>(oid, separator))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor(::StringW oid, char16_t separator)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::X509NameTokenizer>::get(),

@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Exception;
-}
 namespace System::Net {
 class IPAddress;
+}
+namespace System {
+class Exception;
 }
 namespace System::Net {
 class IPHostEntry;

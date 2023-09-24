@@ -1,20 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
-#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
+#include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
-#include "Oculus/Platform/zzzz__Message_def.hpp"
+#include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
-#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
+#include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
+#include "GlobalNamespace/zzzz__LeaderboardIdsModelSO_def.hpp"
+#include "Oculus/Platform/zzzz__Message_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c._ctor
 template<>
 
@@ -61,8 +59,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Oculu
  Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::LeaderboardEntryList> GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c::__get___9__3_0()  {
 return ::cordl_internals::getStaticField<Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::LeaderboardEntryList>, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c::GlobalNamespace__OculusPlatformLeaderboardsHandler____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformLeaderboardsHandler____c>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c>::get(),
@@ -127,8 +127,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandl
 constexpr Oculus::Platform::Request GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::__get_oculusRequest() const {
 return ::cordl_internals::getInstanceField<Oculus::Platform::Request, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0 GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0>::get(),
@@ -199,8 +201,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandl
 constexpr ::StringW GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::__get_referencePlayerId() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0 GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0>::get(),
@@ -265,8 +269,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandl
 constexpr GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::__get_completionHandler() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0>())) {}
+ GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0 GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0>::get(),
@@ -388,8 +394,10 @@ constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler::__set__leader
 constexpr GlobalNamespace::LeaderboardIdsModelSO GlobalNamespace::OculusPlatformLeaderboardsHandler::__get__leaderboardIdsModel() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::LeaderboardIdsModelSO, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusPlatformLeaderboardsHandler::OculusPlatformLeaderboardsHandler()  : GlobalNamespace::PlatformLeaderboardsHandler(THROW_UNLESS(::il2cpp_utils::New<OculusPlatformLeaderboardsHandler>())) {}
+ GlobalNamespace::OculusPlatformLeaderboardsHandler GlobalNamespace::OculusPlatformLeaderboardsHandler::New_ctor()  {
+GlobalNamespace::OculusPlatformLeaderboardsHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusPlatformLeaderboardsHandler>())};
+return o;
+}
  void GlobalNamespace::OculusPlatformLeaderboardsHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusPlatformLeaderboardsHandler>::get(),

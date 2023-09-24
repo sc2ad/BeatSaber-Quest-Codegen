@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCoreInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreSyncStateManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerCoreInstaller.InstallBindings
 template<>
 
@@ -72,8 +72,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerCoreInstaller::MultiplayerCoreInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<MultiplayerCoreInstaller>())) {}
+ GlobalNamespace::MultiplayerCoreInstaller GlobalNamespace::MultiplayerCoreInstaller::New_ctor()  {
+GlobalNamespace::MultiplayerCoreInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerCoreInstaller>())};
+return o;
+}
  void GlobalNamespace::MultiplayerCoreInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerCoreInstaller>::get(),

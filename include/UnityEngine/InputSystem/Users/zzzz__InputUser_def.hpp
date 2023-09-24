@@ -13,15 +13,8 @@ class UnityEngine__InputSystem__Utilities__SavedStructState_1__TypedRestore;
 namespace System {
 class Action;
 }
-namespace System {
-template<typename T1,typename T2,typename T3>
-class Action_3;
-}
 namespace UnityEngine::InputSystem {
-class IInputActionCollection;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class InputControl;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -30,52 +23,80 @@ class Action_2;
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
+namespace UnityEngine::InputSystem::Users {
+struct UnityEngine__InputSystem__Users__InputUser__CompareDevicesByUserAccount;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace UnityEngine::InputSystem::Users {
-struct InputUserChange;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
 namespace UnityEngine::InputSystem::Users {
-struct InputUserAccountHandle;
+struct UnityEngine__InputSystem__Users__InputUser__ControlSchemeChangeSyntax;
+}
+namespace UnityEngine::InputSystem::Users {
+struct UnityEngine__InputSystem__Users__InputUser__GlobalState;
 }
 namespace System {
-template<typename T1,typename T2,typename TResult>
-class Func_3;
+template<typename T1,typename T2,typename T3>
+class Action_3;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
+namespace UnityEngine::InputSystem::Users {
+struct UnityEngine__InputSystem__Users__InputUser__OngoingAccountSelection;
 }
 namespace UnityEngine::InputSystem {
 template<typename TControl>
 struct InputControlList_1;
 }
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
+namespace UnityEngine::InputSystem::Users {
+struct UnityEngine__InputSystem__Users__InputUser__UserFlags;
+}
+namespace UnityEngine::InputSystem::Users {
+struct InputUserChange;
+}
+namespace System {
+template<typename T1,typename T2,typename TResult>
+class Func_3;
+}
+namespace UnityEngine::InputSystem::Users {
+struct UnityEngine__InputSystem__Users__InputUser__UserData;
 }
 namespace UnityEngine::InputSystem::Users {
 struct InputUserPairingOptions;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace UnityEngine::InputSystem {
-struct UnityEngine__InputSystem__InputControlScheme__MatchResult;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionChange;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
+class IInputActionCollection;
+}
+namespace UnityEngine::InputSystem::Users {
+struct InputUserAccountHandle;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputControlScheme__MatchResult;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem::Users {
+class UnityEngine__InputSystem__Users__InputUser____c;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -222,6 +243,8 @@ __UserAccountSelectionInProgress = 2,
 constexpr operator __UnityEngine__InputSystem__Users__InputUser__UserFlags_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__Users__InputUser__UserFlags_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -709,8 +732,7 @@ static System::Action __get___9__86_1() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Users__InputUser____c() ;
+static UnityEngine::InputSystem::Users::UnityEngine__InputSystem__Users__InputUser____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x293b944 size 0x8 virtual false final false
  void _ctor() ;

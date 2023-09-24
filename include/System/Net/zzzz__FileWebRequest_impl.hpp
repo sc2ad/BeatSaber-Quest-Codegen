@@ -1,21 +1,21 @@
 #pragma once
 #include "System/Net/zzzz__WebRequest_impl.hpp"
 #include "System/Net/zzzz__FileWebRequest_def.hpp"
-#include "System/Net/zzzz__ICredentials_def.hpp"
-#include "System/Net/zzzz__IWebProxy_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/zzzz__Uri_def.hpp"
-#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Net/zzzz__IWebProxy_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/Net/zzzz__WebResponse_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Net/zzzz__WebHeaderCollection_def.hpp"
+#include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: System::Net::FileWebRequest._ctor
 template<>
 
@@ -662,8 +662,10 @@ constexpr void System::Net::FileWebRequest::__set_m_Aborted(int32_t value)  {
 constexpr int32_t System::Net::FileWebRequest::__get_m_Aborted() const {
 return ::cordl_internals::getInstanceField<int32_t, 0xc0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "uri", ty: "System::Uri", modifiers: "", def_value: None }]
- System::Net::FileWebRequest::FileWebRequest(System::Uri uri)  : System::Net::WebRequest(THROW_UNLESS(::il2cpp_utils::New<FileWebRequest>(uri))) {}
+ System::Net::FileWebRequest System::Net::FileWebRequest::New_ctor(System::Uri uri)  {
+System::Net::FileWebRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FileWebRequest>(uri))};
+return o;
+}
  void System::Net::FileWebRequest::_ctor(System::Uri uri)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FileWebRequest>::get(),
@@ -673,8 +675,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, uri);
 }
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Net::FileWebRequest::FileWebRequest(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  : System::Net::WebRequest(THROW_UNLESS(::il2cpp_utils::New<FileWebRequest>(serializationInfo, streamingContext))) {}
+ System::Net::FileWebRequest System::Net::FileWebRequest::New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
+System::Net::FileWebRequest o{THROW_UNLESS(::il2cpp_utils::New<System::Net::FileWebRequest>(serializationInfo, streamingContext))};
+return o;
+}
  void System::Net::FileWebRequest::_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::FileWebRequest>::get(),

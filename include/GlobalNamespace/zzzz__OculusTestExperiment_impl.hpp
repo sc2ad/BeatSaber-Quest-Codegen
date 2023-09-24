@@ -2,10 +2,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentData_def.hpp"
+#include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData.get_experimentPlatformKey
 template<>
 
@@ -59,8 +60,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "experimentPlatformKey", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData::GlobalNamespace__OculusTestExperiment__ExperimentData(::StringW experimentPlatformKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OculusTestExperiment__ExperimentData>(experimentPlatformKey))) {}
+ GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData::New_ctor(::StringW experimentPlatformKey)  {
+GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData>(experimentPlatformKey))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData::_ctor(::StringW experimentPlatformKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OculusTestExperiment__ExperimentData>::get(),
@@ -205,8 +208,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OculusTestExperiment::OculusTestExperiment()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OculusTestExperiment>())) {}
+ GlobalNamespace::OculusTestExperiment GlobalNamespace::OculusTestExperiment::New_ctor()  {
+GlobalNamespace::OculusTestExperiment o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OculusTestExperiment>())};
+return o;
+}
  void GlobalNamespace::OculusTestExperiment::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OculusTestExperiment>::get(),

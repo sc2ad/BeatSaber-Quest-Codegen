@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::VectorImageRenderInfo.Reset
 template<>
 
@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UIR::VectorImageRenderInfo::VectorImageRenderInfo()  : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::VectorImageRenderInfo>(THROW_UNLESS(::il2cpp_utils::New<VectorImageRenderInfo>())) {}
+ UnityEngine::UIElements::UIR::VectorImageRenderInfo UnityEngine::UIElements::UIR::VectorImageRenderInfo::New_ctor()  {
+UnityEngine::UIElements::UIR::VectorImageRenderInfo o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::VectorImageRenderInfo>())};
+return o;
+}
  void UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::VectorImageRenderInfo>::get(),

@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class DiContainer;
+struct TypeValuePair;
 }
 namespace System {
 class Type;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System {
 class Action;
 }
 namespace Zenject {
-struct TypeValuePair;
+class DiContainer;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
@@ -98,8 +98,7 @@ constexpr Zenject::GameObjectCreationParameters __get__gameObjectBindInfo() cons
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
-explicit EmptyGameObjectProvider(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
+static Zenject::EmptyGameObjectProvider New_ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;
 
 /// @brief Method .ctor addr 0x2d8e0a8 size 0x2c virtual false final false
  void _ctor(Zenject::DiContainer container, Zenject::GameObjectCreationParameters gameObjectBindInfo) ;

@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace System::Threading {
+class ContextCallback;
+}
+namespace System::Threading {
 class WaitCallback;
 }
 namespace System::Threading {
 class IThreadPoolWorkItem;
 }
 namespace System::Threading {
-class ThreadAbortException;
-}
-namespace System::Threading {
-class ContextCallback;
-}
-namespace System::Threading {
 class ExecutionContext;
 }
 namespace System::Threading {
 struct StackCrawlMark;
+}
+namespace System::Threading {
+class ThreadAbortException;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -96,8 +96,7 @@ static System::Threading::ContextCallback __get_ccb() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "waitCallback", ty: "System::Threading::WaitCallback", modifiers: "", def_value: None }, CppParam { name: "stateObj", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "compressStack", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "stackMark", ty: "ByRef<System::Threading::StackCrawlMark>", modifiers: "", def_value: None }]
-explicit QueueUserWorkItemCallback(System::Threading::WaitCallback waitCallback, ::bs_hook::Il2CppWrapperType stateObj, bool compressStack, ByRef<System::Threading::StackCrawlMark> stackMark) ;
+static System::Threading::QueueUserWorkItemCallback New_ctor(System::Threading::WaitCallback waitCallback, ::bs_hook::Il2CppWrapperType stateObj, bool compressStack, ByRef<System::Threading::StackCrawlMark> stackMark) ;
 
 /// @brief Method .ctor addr 0x24aee00 size 0xb8 virtual false final false
  void _ctor(System::Threading::WaitCallback waitCallback, ::bs_hook::Il2CppWrapperType stateObj, bool compressStack, ByRef<System::Threading::StackCrawlMark> stackMark) ;

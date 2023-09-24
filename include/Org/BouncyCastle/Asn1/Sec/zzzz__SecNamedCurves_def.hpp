@@ -10,26 +10,125 @@ class X9ECParameters;
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParametersHolder;
 }
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp192k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect131r1Holder;
+}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Math::EC::Endo {
-class GlvTypeBParameters;
-}
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163r1Holder;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect239k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect409r1Holder;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect283k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect193r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect409k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp224r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp256k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp256r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect113r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect193r1Holder;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect113r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect233r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect233k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect571r1Holder;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp384r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect571k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163r2Holder;
+}
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp128r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp224k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect283r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp192r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp521r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect131r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160k1Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp112r2Holder;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp112r1Holder;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class GlvTypeBParameters;
+}
+namespace Org::BouncyCastle::Asn1::Sec {
+class Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp128r2Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Sec {
@@ -185,8 +284,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp112r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp112r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfdfd60 size 0x8 virtual false final false
  void _ctor() ;
@@ -249,8 +347,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp112r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp112r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfdffec size 0x8 virtual false final false
  void _ctor() ;
@@ -313,8 +410,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp128r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp128r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe0280 size 0x8 virtual false final false
  void _ctor() ;
@@ -377,8 +473,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp128r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp128r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe050c size 0x8 virtual false final false
  void _ctor() ;
@@ -441,8 +536,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe07a0 size 0x8 virtual false final false
  void _ctor() ;
@@ -505,8 +599,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe0cb4 size 0x8 virtual false final false
  void _ctor() ;
@@ -569,8 +662,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp160r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe0f40 size 0x8 virtual false final false
  void _ctor() ;
@@ -633,8 +725,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp192k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp192k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe11cc size 0x8 virtual false final false
  void _ctor() ;
@@ -697,8 +788,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp192r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp192r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe16e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -761,8 +851,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp224k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp224k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe196c size 0x8 virtual false final false
  void _ctor() ;
@@ -825,8 +914,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp224r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp224r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe1e80 size 0x8 virtual false final false
  void _ctor() ;
@@ -889,8 +977,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp256k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp256k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe210c size 0x8 virtual false final false
  void _ctor() ;
@@ -953,8 +1040,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp256r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp256r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe2620 size 0x8 virtual false final false
  void _ctor() ;
@@ -1017,8 +1103,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp384r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp384r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe28ac size 0x8 virtual false final false
  void _ctor() ;
@@ -1081,8 +1166,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp521r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Secp521r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe2b38 size 0x8 virtual false final false
  void _ctor() ;
@@ -1151,8 +1235,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect113r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect113r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe2dc4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1221,8 +1304,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect113r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect113r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe3038 size 0x8 virtual false final false
  void _ctor() ;
@@ -1297,8 +1379,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect131r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect131r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe32ac size 0x8 virtual false final false
  void _ctor() ;
@@ -1373,8 +1454,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect131r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect131r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe352c size 0x8 virtual false final false
  void _ctor() ;
@@ -1449,8 +1529,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe37ac size 0x8 virtual false final false
  void _ctor() ;
@@ -1525,8 +1604,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe399c size 0x8 virtual false final false
  void _ctor() ;
@@ -1601,8 +1679,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect163r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe3c1c size 0x8 virtual false final false
  void _ctor() ;
@@ -1671,8 +1748,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect193r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect193r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe3e84 size 0x8 virtual false final false
  void _ctor() ;
@@ -1741,8 +1817,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect193r2Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect193r2Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe40f8 size 0x8 virtual false final false
  void _ctor() ;
@@ -1811,8 +1886,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect233k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect233k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe436c size 0x8 virtual false final false
  void _ctor() ;
@@ -1881,8 +1955,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect233r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect233r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe4550 size 0x8 virtual false final false
  void _ctor() ;
@@ -1951,8 +2024,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect239k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect239k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe47ac size 0x8 virtual false final false
  void _ctor() ;
@@ -2027,8 +2099,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect283k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect283k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe4990 size 0x8 virtual false final false
  void _ctor() ;
@@ -2103,8 +2174,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect283r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect283r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe4b80 size 0x8 virtual false final false
  void _ctor() ;
@@ -2173,8 +2243,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect409k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect409k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe4de8 size 0x8 virtual false final false
  void _ctor() ;
@@ -2243,8 +2312,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect409r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect409r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe4fcc size 0x8 virtual false final false
  void _ctor() ;
@@ -2319,8 +2387,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect571k1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect571k1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe5228 size 0x8 virtual false final false
  void _ctor() ;
@@ -2395,8 +2462,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect571r1Holder() ;
+static Org::BouncyCastle::Asn1::Sec::Org__BouncyCastle__Asn1__Sec__SecNamedCurves__Sect571r1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xfe5418 size 0x8 virtual false final false
  void _ctor() ;
@@ -2542,8 +2608,7 @@ static System::Collections::IEnumerable __declspec(property(get=get_Names))  Nam
 
 // Methods
 
-// Ctor Parameters []
-explicit SecNamedCurves() ;
+static Org::BouncyCastle::Asn1::Sec::SecNamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0xfde75c size 0x8 virtual false final false
  void _ctor() ;

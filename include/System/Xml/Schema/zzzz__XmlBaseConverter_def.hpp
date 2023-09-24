@@ -7,37 +7,37 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-struct Decimal;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System {
 struct DateTimeOffset;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System {
-class Exception;
-}
-namespace System {
-struct TimeSpan;
-}
-namespace System {
-class Uri;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
 }
 namespace System {
 class Type;
 }
 namespace System {
+struct TimeSpan;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+struct Decimal;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System {
 struct DateTime;
 }
 namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
 class XmlQualifiedName;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -291,26 +291,22 @@ static System::Type __get_XPathNavigatorType() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlBaseConverter(System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlBaseConverter New_ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x27359f0 size 0xdc virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
-// Ctor Parameters [CppParam { name: "typeCode", ty: "System::Xml::Schema::XmlTypeCode", modifiers: "", def_value: None }]
-explicit XmlBaseConverter(System::Xml::Schema::XmlTypeCode typeCode) ;
+static System::Xml::Schema::XmlBaseConverter New_ctor(System::Xml::Schema::XmlTypeCode typeCode) ;
 
 /// @brief Method .ctor addr 0x2735acc size 0xc8 virtual false final false
  void _ctor(System::Xml::Schema::XmlTypeCode typeCode) ;
 
-// Ctor Parameters [CppParam { name: "converterAtomic", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }]
-explicit XmlBaseConverter(System::Xml::Schema::XmlBaseConverter converterAtomic) ;
+static System::Xml::Schema::XmlBaseConverter New_ctor(System::Xml::Schema::XmlBaseConverter converterAtomic) ;
 
 /// @brief Method .ctor addr 0x2735b94 size 0x5c virtual false final false
  void _ctor(System::Xml::Schema::XmlBaseConverter converterAtomic) ;
 
-// Ctor Parameters [CppParam { name: "converterAtomic", ty: "System::Xml::Schema::XmlBaseConverter", modifiers: "", def_value: None }, CppParam { name: "clrTypeDefault", ty: "System::Type", modifiers: "", def_value: None }]
-explicit XmlBaseConverter(System::Xml::Schema::XmlBaseConverter converterAtomic, System::Type clrTypeDefault) ;
+static System::Xml::Schema::XmlBaseConverter New_ctor(System::Xml::Schema::XmlBaseConverter converterAtomic, System::Type clrTypeDefault) ;
 
 /// @brief Method .ctor addr 0x2735bf0 size 0x44 virtual false final false
  void _ctor(System::Xml::Schema::XmlBaseConverter converterAtomic, System::Type clrTypeDefault) ;

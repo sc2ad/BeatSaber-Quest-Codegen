@@ -25,8 +25,10 @@ constexpr void System::Diagnostics::DebuggerBrowsableAttribute::__set_state(Syst
 constexpr System::Diagnostics::DebuggerBrowsableState System::Diagnostics::DebuggerBrowsableAttribute::__get_state() const {
 return ::cordl_internals::getInstanceField<System::Diagnostics::DebuggerBrowsableState, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "state", ty: "System::Diagnostics::DebuggerBrowsableState", modifiers: "", def_value: None }]
- System::Diagnostics::DebuggerBrowsableAttribute::DebuggerBrowsableAttribute(System::Diagnostics::DebuggerBrowsableState state)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<DebuggerBrowsableAttribute>(state))) {}
+ System::Diagnostics::DebuggerBrowsableAttribute System::Diagnostics::DebuggerBrowsableAttribute::New_ctor(System::Diagnostics::DebuggerBrowsableState state)  {
+System::Diagnostics::DebuggerBrowsableAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DebuggerBrowsableAttribute>(state))};
+return o;
+}
  void System::Diagnostics::DebuggerBrowsableAttribute::_ctor(System::Diagnostics::DebuggerBrowsableState state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DebuggerBrowsableAttribute>::get(),

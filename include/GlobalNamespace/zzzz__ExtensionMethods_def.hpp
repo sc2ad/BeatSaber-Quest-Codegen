@@ -5,45 +5,45 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct LayerMask;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template<typename TResult>
+class Func_1;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
-class Coroutine;
-}
-namespace System::Collections {
-class IEnumerator;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector3;
+class Coroutine;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector2;
+class Transform;
 }
 namespace UnityEngine {
 struct TextureFormat;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace System {
-template<typename TResult>
-class Func_1;
+class RenderTexture;
 }
 // Forward declare root types
 namespace GlobalNamespace {

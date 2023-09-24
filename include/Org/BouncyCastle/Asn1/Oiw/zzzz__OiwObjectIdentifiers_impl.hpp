@@ -90,8 +90,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::__get_ElGamalAlgorithm()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "ElGamalAlgorithm", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::OiwObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<OiwObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Oiw::OiwObjectIdentifiers>::get(),

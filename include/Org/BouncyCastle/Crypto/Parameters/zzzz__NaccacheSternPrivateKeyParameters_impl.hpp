@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternPrivateKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters._ctor
 template<>
@@ -101,8 +101,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyPar
 constexpr System::Collections::IList Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::__get_smallPrimes() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lowerSigmaBound", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "smallPrimes", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }, CppParam { name: "phiN", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::NaccacheSternPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::ArrayList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN)  : Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters(THROW_UNLESS(::il2cpp_utils::New<NaccacheSternPrivateKeyParameters>(g, n, lowerSigmaBound, smallPrimes, phiN))) {}
+ Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::ArrayList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN)  {
+Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters>(g, n, lowerSigmaBound, smallPrimes, phiN))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::ArrayList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters>::get(),
@@ -112,8 +114,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, g, n, lowerSigmaBound, smallPrimes, phiN);
 }
-// Ctor Parameters [CppParam { name: "g", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "n", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "lowerSigmaBound", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "smallPrimes", ty: "System::Collections::IList", modifiers: "", def_value: None }, CppParam { name: "phiN", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::NaccacheSternPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::IList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN)  : Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters(THROW_UNLESS(::il2cpp_utils::New<NaccacheSternPrivateKeyParameters>(g, n, lowerSigmaBound, smallPrimes, phiN))) {}
+ Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::IList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN)  {
+Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters>(g, n, lowerSigmaBound, smallPrimes, phiN))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger g, Org::BouncyCastle::Math::BigInteger n, int32_t lowerSigmaBound, System::Collections::IList smallPrimes, Org::BouncyCastle::Math::BigInteger phiN)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters>::get(),

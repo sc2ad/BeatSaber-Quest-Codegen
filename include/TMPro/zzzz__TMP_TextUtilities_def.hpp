@@ -8,25 +8,28 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct Vector3;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace TMPro {
-struct CaretPosition;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 class RectTransform;
+}
+namespace TMPro {
+struct TMPro__TMP_TextUtilities__LineSegment;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace TMPro {
+class TMP_Text;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace TMPro {
+struct CaretPosition;
 }
 // Forward declare root types
 namespace TMPro {

@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
 namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Security::Authentication {
@@ -57,26 +57,22 @@ constexpr explicit AuthenticationException(void* ptr) noexcept : System::SystemE
 
 // Methods
 
-// Ctor Parameters []
-explicit AuthenticationException() ;
+static System::Security::Authentication::AuthenticationException New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e1bb4 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AuthenticationException(::StringW message) ;
+static System::Security::Authentication::AuthenticationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x27e1c0c size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit AuthenticationException(::StringW message, System::Exception innerException) ;
+static System::Security::Authentication::AuthenticationException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x27e1c14 size 0x8 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "serializationInfo", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "streamingContext", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit AuthenticationException(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
+static System::Security::Authentication::AuthenticationException New_ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;
 
 /// @brief Method .ctor addr 0x27e1c1c size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext) ;

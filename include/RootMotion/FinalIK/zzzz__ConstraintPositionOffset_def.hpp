@@ -88,14 +88,12 @@ constexpr bool __get_initiated() const;
 /// @brief Method UpdateConstraint addr 0x11b852c size 0x104 virtual true final false
  void UpdateConstraint() ;
 
-// Ctor Parameters []
-explicit ConstraintPositionOffset() ;
+static RootMotion::FinalIK::ConstraintPositionOffset New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b868c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }]
-explicit ConstraintPositionOffset(UnityEngine::Transform transform) ;
+static RootMotion::FinalIK::ConstraintPositionOffset New_ctor(UnityEngine::Transform transform) ;
 
 /// @brief Method .ctor addr 0x11b8694 size 0x28 virtual false final false
  void _ctor(UnityEngine::Transform transform) ;

@@ -10,7 +10,7 @@ class AssetReferenceGameObject;
 // Type: UnityEngine.AddressableAssets::AssetReferenceGameObject
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14363)), TypeDefinitionIndex(TypeDefinitionIndex(10138)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 298 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10138)), TypeDefinitionIndex(TypeDefinitionIndex(14363)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 298 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14364))
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceGameObject
 class CORDL_TYPE AssetReferenceGameObject : public UnityEngine::AddressableAssets::AssetReferenceT_1<UnityEngine::GameObject> {
@@ -49,8 +49,7 @@ constexpr explicit AssetReferenceGameObject(void* ptr) noexcept : UnityEngine::A
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AssetReferenceGameObject(::StringW guid) ;
+static UnityEngine::AddressableAssets::AssetReferenceGameObject New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x2892154 size 0x58 virtual false final false
  void _ctor(::StringW guid) ;

@@ -1,14 +1,13 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__NullableConverter_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: System::ComponentModel::NullableConverter._ctor
 template<>
 
@@ -299,8 +298,10 @@ constexpr void System::ComponentModel::NullableConverter::__set__UnderlyingTypeC
 constexpr System::ComponentModel::TypeConverter System::ComponentModel::NullableConverter::__get__UnderlyingTypeConverter_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::ComponentModel::TypeConverter, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::NullableConverter::NullableConverter(System::Type type)  : System::ComponentModel::TypeConverter(THROW_UNLESS(::il2cpp_utils::New<NullableConverter>(type))) {}
+ System::ComponentModel::NullableConverter System::ComponentModel::NullableConverter::New_ctor(System::Type type)  {
+System::ComponentModel::NullableConverter o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::NullableConverter>(type))};
+return o;
+}
  void System::ComponentModel::NullableConverter::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::NullableConverter>::get(),

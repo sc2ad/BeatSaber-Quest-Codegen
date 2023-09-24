@@ -47,8 +47,10 @@ constexpr void System::Threading::ReaderWriterCount::__set_next(System::Threadin
 constexpr System::Threading::ReaderWriterCount System::Threading::ReaderWriterCount::__get_next() const {
 return ::cordl_internals::getInstanceField<System::Threading::ReaderWriterCount, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Threading::ReaderWriterCount::ReaderWriterCount()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReaderWriterCount>())) {}
+ System::Threading::ReaderWriterCount System::Threading::ReaderWriterCount::New_ctor()  {
+System::Threading::ReaderWriterCount o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ReaderWriterCount>())};
+return o;
+}
  void System::Threading::ReaderWriterCount::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ReaderWriterCount>::get(),

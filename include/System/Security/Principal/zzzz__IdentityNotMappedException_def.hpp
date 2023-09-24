@@ -3,10 +3,10 @@
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -54,14 +54,12 @@ constexpr explicit IdentityNotMappedException(void* ptr) noexcept : System::Syst
 
 // Methods
 
-// Ctor Parameters []
-explicit IdentityNotMappedException() ;
+static System::Security::Principal::IdentityNotMappedException New_ctor() ;
 
 /// @brief Method .ctor addr 0x230bb84 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit IdentityNotMappedException(::StringW message) ;
+static System::Security::Principal::IdentityNotMappedException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x230bbdc size 0x8 virtual false final false
  void _ctor(::StringW message) ;

@@ -7,14 +7,14 @@ class InjectTypeInfo;
 }
 namespace Zenject {
 template<typename TValue>
-class IFactory_1;
+class IMemoryPool_1;
 }
 namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
 template<typename TValue>
-class IMemoryPool_1;
+class IFactory_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -85,8 +85,7 @@ constexpr Zenject::IMemoryPool_1<T> __get__pool() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pool", ty: "Zenject::IMemoryPool_1<T>", modifiers: "", def_value: None }]
-explicit PoolWrapperFactory_1(Zenject::IMemoryPool_1<T> pool) ;
+static Zenject::PoolWrapperFactory_1<T> New_ctor(Zenject::IMemoryPool_1<T> pool) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::IMemoryPool_1<T> pool) ;

@@ -1,13 +1,13 @@
 #pragma once
 #include "System/ComponentModel/zzzz__MemberDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/ComponentModel/zzzz__MemberDescriptor_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__MemberDescriptor_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: System::ComponentModel::PropertyDescriptor._ctor
 template<>
 
@@ -293,8 +293,10 @@ constexpr void System::ComponentModel::PropertyDescriptor::__set__editorCount(in
 constexpr int32_t System::ComponentModel::PropertyDescriptor::__get__editorCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::PropertyDescriptor::PropertyDescriptor(::StringW name, ::ArrayW<System::Attribute> attrs)  : System::ComponentModel::MemberDescriptor(THROW_UNLESS(::il2cpp_utils::New<PropertyDescriptor>(name, attrs))) {}
+ System::ComponentModel::PropertyDescriptor System::ComponentModel::PropertyDescriptor::New_ctor(::StringW name, ::ArrayW<System::Attribute> attrs)  {
+System::ComponentModel::PropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::PropertyDescriptor>(name, attrs))};
+return o;
+}
  void System::ComponentModel::PropertyDescriptor::_ctor(::StringW name, ::ArrayW<System::Attribute> attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::PropertyDescriptor>::get(),
@@ -304,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, attrs);
 }
-// Ctor Parameters [CppParam { name: "descr", ty: "System::ComponentModel::MemberDescriptor", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
- System::ComponentModel::PropertyDescriptor::PropertyDescriptor(System::ComponentModel::MemberDescriptor descr, ::ArrayW<System::Attribute> attrs)  : System::ComponentModel::MemberDescriptor(THROW_UNLESS(::il2cpp_utils::New<PropertyDescriptor>(descr, attrs))) {}
+ System::ComponentModel::PropertyDescriptor System::ComponentModel::PropertyDescriptor::New_ctor(System::ComponentModel::MemberDescriptor descr, ::ArrayW<System::Attribute> attrs)  {
+System::ComponentModel::PropertyDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::PropertyDescriptor>(descr, attrs))};
+return o;
+}
  void System::ComponentModel::PropertyDescriptor::_ctor(System::ComponentModel::MemberDescriptor descr, ::ArrayW<System::Attribute> attrs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::PropertyDescriptor>::get(),

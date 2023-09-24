@@ -3,33 +3,33 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
+namespace System::Collections::Generic {
 template<typename T>
-struct Span_1;
+struct ValueListBuilder_1;
 }
 namespace System::Text::RegularExpressions {
 class RegexNode;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Text::RegularExpressions {
-class RegexTree;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Text::RegularExpressions {
-class RegexCode;
-}
-namespace System::Collections::Generic {
-template<typename T>
-struct ValueListBuilder_1;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace System {
+template<typename T>
+struct Span_1;
+}
+namespace System::Text::RegularExpressions {
+class RegexTree;
+}
+namespace System::Text::RegularExpressions {
+class RegexCode;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {

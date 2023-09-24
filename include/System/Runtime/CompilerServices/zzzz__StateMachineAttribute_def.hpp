@@ -64,8 +64,7 @@ constexpr System::Type __get__StateMachineType_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stateMachineType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit StateMachineAttribute(System::Type stateMachineType) ;
+static System::Runtime::CompilerServices::StateMachineAttribute New_ctor(System::Type stateMachineType) ;
 
 /// @brief Method .ctor addr 0x236d9dc size 0x28 virtual false final false
  void _ctor(System::Type stateMachineType) ;

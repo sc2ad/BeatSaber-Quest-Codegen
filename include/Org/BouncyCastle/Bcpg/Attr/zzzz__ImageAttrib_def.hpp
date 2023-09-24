@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Org::BouncyCastle::Bcpg::Attr {
+struct Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::Attr {
 struct Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format;
@@ -59,6 +62,8 @@ __Jpeg = 1u,
 constexpr operator __Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
 
 // Fields
@@ -160,20 +165,17 @@ constexpr ::ArrayW<uint8_t> __get_imageData() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ImageAttrib(::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Attr::ImageAttrib New_ctor(::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113cd1c size 0xc virtual false final false
  void _ctor(::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "forceLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ImageAttrib(bool forceLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Attr::ImageAttrib New_ctor(bool forceLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113cd28 size 0xdc virtual false final false
  void _ctor(bool forceLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "imageType", ty: "Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format", modifiers: "", def_value: None }, CppParam { name: "imageData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ImageAttrib(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
+static Org::BouncyCastle::Bcpg::Attr::ImageAttrib New_ctor(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;
 
 /// @brief Method .ctor addr 0x113ce04 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::Attr::Org__BouncyCastle__Bcpg__Attr__ImageAttrib__Format imageType, ::ArrayW<uint8_t> imageData) ;

@@ -75,8 +75,7 @@ constexpr bool __get__Bindable_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindable", ty: "bool", modifiers: "", def_value: None }]
-explicit SettingsBindableAttribute(bool bindable) ;
+static System::ComponentModel::SettingsBindableAttribute New_ctor(bool bindable) ;
 
 /// @brief Method .ctor addr 0x278589c size 0x28 virtual false final false
  void _ctor(bool bindable) ;

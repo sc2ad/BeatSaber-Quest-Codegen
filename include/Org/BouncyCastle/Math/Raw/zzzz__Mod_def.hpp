@@ -80,8 +80,7 @@ static void InversionResult(::ArrayW<uint32_t> p, int32_t ac, ::ArrayW<uint32_t>
 /// @brief Method InversionStep addr 0xfcf374 size 0x110 virtual false final false
 static void InversionStep(::ArrayW<uint32_t> p, ::ArrayW<uint32_t> u, int32_t uLen, ::ArrayW<uint32_t> x, ByRef<int32_t> xc) ;
 
-// Ctor Parameters []
-explicit Mod() ;
+static Org::BouncyCastle::Math::Raw::Mod New_ctor() ;
 
 /// @brief Method .ctor addr 0xfcfae0 size 0x8 virtual false final false
  void _ctor() ;

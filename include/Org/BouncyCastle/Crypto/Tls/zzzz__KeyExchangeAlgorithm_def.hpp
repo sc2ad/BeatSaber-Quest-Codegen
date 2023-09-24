@@ -126,8 +126,7 @@ static constexpr int32_t  ECDHE_PSK{24};
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyExchangeAlgorithm() ;
+static Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04d28 size 0x8 virtual false final false
  void _ctor() ;

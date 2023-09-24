@@ -6,19 +6,19 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityOpus {
+struct NumChannels;
+}
+namespace UnityOpus {
 struct ErrorCode;
+}
+namespace UnityOpus {
+struct OpusApplication;
 }
 namespace UnityOpus {
 struct OpusSignal;
 }
 namespace UnityOpus {
-struct NumChannels;
-}
-namespace UnityOpus {
 struct SamplingFrequency;
-}
-namespace UnityOpus {
-struct OpusApplication;
 }
 // Forward declare root types
 namespace UnityOpus {
@@ -111,8 +111,7 @@ static void OpusDecoderDestroy(::cordl_internals::intptr_t decoder) ;
 /// @brief Method OpusPcmSoftClip addr 0x21d6528 size 0xac virtual false final false
 static void OpusPcmSoftClip(::ArrayW<float_t> pcm, int32_t frameSize, UnityOpus::NumChannels channels, ::ArrayW<float_t> softclipMem) ;
 
-// Ctor Parameters []
-explicit Library() ;
+static UnityOpus::Library New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d70c0 size 0x8 virtual false final false
  void _ctor() ;

@@ -5,10 +5,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+struct GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,6 +69,8 @@ __Late = 2,
 constexpr operator __GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -173,8 +178,7 @@ static GlobalNamespace::BeatmapEventData __get__defaultCopy() ;
 /// @brief Method set_rotation addr 0xd927cc size 0x8 virtual false final false
  void set_rotation(float_t value) ;
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "spawnRotationEventType", ty: "GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType", modifiers: "", def_value: None }, CppParam { name: "deltaRotation", ty: "float_t", modifiers: "", def_value: None }]
-explicit SpawnRotationBeatmapEventData(float_t time, GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation) ;
+static GlobalNamespace::SpawnRotationBeatmapEventData New_ctor(float_t time, GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation) ;
 
 /// @brief Method .ctor addr 0xd927d4 size 0x58 virtual false final false
  void _ctor(float_t time, GlobalNamespace::GlobalNamespace__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation) ;

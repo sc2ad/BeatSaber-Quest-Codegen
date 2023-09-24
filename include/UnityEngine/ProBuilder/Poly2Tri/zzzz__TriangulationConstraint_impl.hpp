@@ -30,8 +30,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::__set
 constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::__get_Q() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::TriangulationConstraint()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TriangulationConstraint>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint>::get(),

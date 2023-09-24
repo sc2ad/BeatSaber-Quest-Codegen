@@ -98,8 +98,7 @@ constexpr System::Collections::Hashtable __get_reader_locks() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ReaderWriterLock() ;
+static System::Threading::ReaderWriterLock New_ctor() ;
 
 /// @brief Method .ctor addr 0x24b100c size 0xd4 virtual false final false
  void _ctor() ;

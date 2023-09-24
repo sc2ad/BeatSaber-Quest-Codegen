@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Nist/zzzz__NistNamedCurves_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves._ctor
 template<>
@@ -135,8 +135,10 @@ return ::cordl_internals::getStaticField<System::Collections::IDictionary, "objI
  System::Collections::IDictionary Org::BouncyCastle::Asn1::Nist::NistNamedCurves::__get_names()  {
 return ::cordl_internals::getStaticField<System::Collections::IDictionary, "names", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Nist::NistNamedCurves>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Nist::NistNamedCurves::NistNamedCurves()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NistNamedCurves>())) {}
+ Org::BouncyCastle::Asn1::Nist::NistNamedCurves Org::BouncyCastle::Asn1::Nist::NistNamedCurves::New_ctor()  {
+Org::BouncyCastle::Asn1::Nist::NistNamedCurves o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Nist::NistNamedCurves>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Nist::NistNamedCurves>::get(),

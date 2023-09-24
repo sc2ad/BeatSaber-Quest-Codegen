@@ -60,8 +60,7 @@ constexpr float_t __get__value() const;
 /// @brief Method SetProperty addr 0x1fa2600 size 0x30 virtual true final false
  void SetProperty() ;
 
-// Ctor Parameters []
-explicit MaterialPropertyBlockFloatAnimator() ;
+static GlobalNamespace::MaterialPropertyBlockFloatAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa2630 size 0x8 virtual false final false
  void _ctor() ;

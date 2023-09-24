@@ -4,38 +4,38 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
 namespace System::Xml {
-class IXmlNamespaceResolver;
+struct XmlTokenizedType;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaDatatypeVariety;
 }
 namespace System::Xml::Schema {
-class RestrictionFacets;
+class FacetsChecker;
 }
-namespace System::Xml {
-struct XmlTokenizedType;
+namespace System::Xml::Schema {
+class RestrictionFacets;
 }
 namespace System::Xml::Schema {
 struct XmlSchemaWhiteSpace;
 }
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System {
-class Type;
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System {
 class Exception;
 }
+namespace System {
+class Type;
+}
 namespace System::Xml::Schema {
-class XmlValueConverter;
+struct XmlTypeCode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -149,8 +149,7 @@ constexpr explicit XmlSchemaDatatype(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method FromXmlTokenizedType addr 0x2730cec size 0x58 virtual false final false
 static System::Xml::Schema::XmlSchemaDatatype FromXmlTokenizedType(System::Xml::XmlTokenizedType token) ;
 
-// Ctor Parameters []
-explicit XmlSchemaDatatype() ;
+static System::Xml::Schema::XmlSchemaDatatype New_ctor() ;
 
 /// @brief Method .ctor addr 0x27348cc size 0x8 virtual false final false
  void _ctor() ;

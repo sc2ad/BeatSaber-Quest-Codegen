@@ -5,14 +5,17 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
 class IScoreController;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MultiplierValuesRecorder__MultiplierValue;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -168,8 +171,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace_
 /// @brief Method HandleScoreControllerMultiplierDidChange addr 0x2108200 size 0xfc virtual false final false
  void HandleScoreControllerMultiplierDidChange(int32_t multiplier, float_t multiplierProgress) ;
 
-// Ctor Parameters []
-explicit MultiplierValuesRecorder() ;
+static GlobalNamespace::MultiplierValuesRecorder New_ctor() ;
 
 /// @brief Method .ctor addr 0x2108308 size 0x80 virtual false final false
  void _ctor() ;

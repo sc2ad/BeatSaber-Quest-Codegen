@@ -62,8 +62,7 @@ constexpr int32_t __get_ExtraPacketSizeForLayer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "extraPacketSizeForLayer", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PacketLayerBase(int32_t extraPacketSizeForLayer) ;
+static LiteNetLib::Layers::PacketLayerBase New_ctor(int32_t extraPacketSizeForLayer) ;
 
 /// @brief Method .ctor addr 0x209a98c size 0x28 virtual false final false
  void _ctor(int32_t extraPacketSizeForLayer) ;

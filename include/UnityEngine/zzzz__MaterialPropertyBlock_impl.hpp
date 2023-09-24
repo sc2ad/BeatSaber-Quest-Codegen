@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 //  Writing Method size for method: UnityEngine::MaterialPropertyBlock.SetFloatArray
 template<>
 
@@ -718,8 +718,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name, values, count);
 }
-// Ctor Parameters []
- UnityEngine::MaterialPropertyBlock::MaterialPropertyBlock()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MaterialPropertyBlock>())) {}
+ UnityEngine::MaterialPropertyBlock UnityEngine::MaterialPropertyBlock::New_ctor()  {
+UnityEngine::MaterialPropertyBlock o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::MaterialPropertyBlock>())};
+return o;
+}
  void UnityEngine::MaterialPropertyBlock::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::MaterialPropertyBlock>::get(),

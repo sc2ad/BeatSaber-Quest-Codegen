@@ -70,8 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::EventResetMode", modifiers: "", def_value: None }]
- System::Threading::EventWaitHandle::EventWaitHandle(bool initialState, System::Threading::EventResetMode mode)  : System::Threading::WaitHandle(THROW_UNLESS(::il2cpp_utils::New<EventWaitHandle>(initialState, mode))) {}
+ System::Threading::EventWaitHandle System::Threading::EventWaitHandle::New_ctor(bool initialState, System::Threading::EventResetMode mode)  {
+System::Threading::EventWaitHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::EventWaitHandle>(initialState, mode))};
+return o;
+}
  void System::Threading::EventWaitHandle::_ctor(bool initialState, System::Threading::EventResetMode mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::EventWaitHandle>::get(),
@@ -81,8 +83,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialState, mode);
 }
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::EventResetMode", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- System::Threading::EventWaitHandle::EventWaitHandle(bool initialState, System::Threading::EventResetMode mode, ::StringW name)  : System::Threading::WaitHandle(THROW_UNLESS(::il2cpp_utils::New<EventWaitHandle>(initialState, mode, name))) {}
+ System::Threading::EventWaitHandle System::Threading::EventWaitHandle::New_ctor(bool initialState, System::Threading::EventResetMode mode, ::StringW name)  {
+System::Threading::EventWaitHandle o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::EventWaitHandle>(initialState, mode, name))};
+return o;
+}
  void System::Threading::EventWaitHandle::_ctor(bool initialState, System::Threading::EventResetMode mode, ::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::EventWaitHandle>::get(),

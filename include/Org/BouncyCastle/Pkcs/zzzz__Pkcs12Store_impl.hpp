@@ -1,22 +1,23 @@
 #pragma once
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Store_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptedPrivateKeyInfo_def.hpp"
+#include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Store_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__X509CertificateEntry_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_def.hpp"
-#include "Org/BouncyCastle/Pkcs/zzzz__AsymmetricKeyEntry_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptedPrivateKeyInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Pkcs/zzzz__AsymmetricKeyEntry_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId._ctor
 template<>
 
@@ -108,8 +109,10 @@ constexpr void Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__Ce
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::__get_id() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pubKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Pkcs__Pkcs12Store__CertId>(pubKey))) {}
+ Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::New_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  {
+Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId>(pubKey))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::_ctor(Org::BouncyCastle::Crypto::AsymmetricKeyParameter pubKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId>::get(),
@@ -119,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pubKey);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId(::ArrayW<uint8_t> id)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Pkcs__Pkcs12Store__CertId>(id))) {}
+ Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::New_ctor(::ArrayW<uint8_t> id)  {
+Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId>(id))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId::_ctor(::ArrayW<uint8_t> id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__CertId>::get(),
@@ -398,8 +403,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable>())) {}
+ Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable::New_ctor()  {
+Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable>())};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Org__BouncyCastle__Pkcs__Pkcs12Store__IgnoresCaseHashtable>::get(),
@@ -926,8 +933,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier, false>(nullptr, ___internal_method, pubKey);
 }
-// Ctor Parameters [CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "useDerEncoding", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs12Store::Pkcs12Store(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, bool useDerEncoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12Store>(keyAlgorithm, certAlgorithm, useDerEncoding))) {}
+ Org::BouncyCastle::Pkcs::Pkcs12Store Org::BouncyCastle::Pkcs::Pkcs12Store::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, bool useDerEncoding)  {
+Org::BouncyCastle::Pkcs::Pkcs12Store o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12Store>(keyAlgorithm, certAlgorithm, useDerEncoding))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, bool useDerEncoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12Store>::get(),
@@ -937,8 +946,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyAlgorithm, certAlgorithm, useDerEncoding);
 }
-// Ctor Parameters [CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "keyPrfAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "certPrfAlgorithm", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "useDerEncoding", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs12Store::Pkcs12Store(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier keyPrfAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certPrfAlgorithm, bool useDerEncoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12Store>(keyAlgorithm, keyPrfAlgorithm, certAlgorithm, certPrfAlgorithm, useDerEncoding))) {}
+ Org::BouncyCastle::Pkcs::Pkcs12Store Org::BouncyCastle::Pkcs::Pkcs12Store::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier keyPrfAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certPrfAlgorithm, bool useDerEncoding)  {
+Org::BouncyCastle::Pkcs::Pkcs12Store o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12Store>(keyAlgorithm, keyPrfAlgorithm, certAlgorithm, certPrfAlgorithm, useDerEncoding))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier keyAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier keyPrfAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certAlgorithm, Org::BouncyCastle::Asn1::DerObjectIdentifier certPrfAlgorithm, bool useDerEncoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12Store>::get(),
@@ -948,8 +959,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyAlgorithm, keyPrfAlgorithm, certAlgorithm, certPrfAlgorithm, useDerEncoding);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Pkcs::Pkcs12Store::Pkcs12Store()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12Store>())) {}
+ Org::BouncyCastle::Pkcs::Pkcs12Store Org::BouncyCastle::Pkcs::Pkcs12Store::New_ctor()  {
+Org::BouncyCastle::Pkcs::Pkcs12Store o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12Store>())};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12Store>::get(),
@@ -959,8 +972,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Pkcs::Pkcs12Store::Pkcs12Store(System::IO::Stream input, ::ArrayW<char16_t> password)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Pkcs12Store>(input, password))) {}
+ Org::BouncyCastle::Pkcs::Pkcs12Store Org::BouncyCastle::Pkcs::Pkcs12Store::New_ctor(System::IO::Stream input, ::ArrayW<char16_t> password)  {
+Org::BouncyCastle::Pkcs::Pkcs12Store o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Pkcs::Pkcs12Store>(input, password))};
+return o;
+}
  void Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor(System::IO::Stream input, ::ArrayW<char16_t> password)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Pkcs::Pkcs12Store>::get(),

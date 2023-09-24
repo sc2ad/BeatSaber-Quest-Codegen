@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GuestNameButtonsListItem_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GuestNameButtonsListItem.set_nameText
 template<>
 
@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GuestNameButtonsListItem::GuestNameButtonsListItem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<GuestNameButtonsListItem>())) {}
+ GlobalNamespace::GuestNameButtonsListItem GlobalNamespace::GuestNameButtonsListItem::New_ctor()  {
+GlobalNamespace::GuestNameButtonsListItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GuestNameButtonsListItem>())};
+return o;
+}
  void GlobalNamespace::GuestNameButtonsListItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GuestNameButtonsListItem>::get(),

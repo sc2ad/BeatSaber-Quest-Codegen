@@ -74,8 +74,7 @@ constexpr GlobalNamespace::RecordingToolScenesTransitionSetupDataSO __get__scene
 /// @brief Method InstallBindings addr 0x21b66c4 size 0x44 virtual true final false
  void InstallBindings(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit RecordingToolSettingsNoTransitionInstaller() ;
+static GlobalNamespace::RecordingToolSettingsNoTransitionInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b6708 size 0x8 virtual false final false
  void _ctor() ;

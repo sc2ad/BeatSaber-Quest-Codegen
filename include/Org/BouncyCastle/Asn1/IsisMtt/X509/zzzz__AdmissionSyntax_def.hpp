@@ -3,6 +3,9 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
+class Admissions;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -11,9 +14,6 @@ class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
-class Admissions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -84,14 +84,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_contentsOfAdmissions() con
 /// @brief Method GetInstance addr 0xee97d0 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AdmissionSyntax(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xee9958 size 0x154 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "admissionAuthority", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "contentsOfAdmissions", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit AdmissionSyntax(Org::BouncyCastle::Asn1::X509::GeneralName admissionAuthority, Org::BouncyCastle::Asn1::Asn1Sequence contentsOfAdmissions) ;
+static Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName admissionAuthority, Org::BouncyCastle::Asn1::Asn1Sequence contentsOfAdmissions) ;
 
 /// @brief Method .ctor addr 0xee9aac size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName admissionAuthority, Org::BouncyCastle::Asn1::Asn1Sequence contentsOfAdmissions) ;

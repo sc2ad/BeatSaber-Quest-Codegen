@@ -2,37 +2,37 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 namespace GlobalNamespace {
-class BeatLineManager;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelModel;
+class MissedNoteEffectSpawner;
 }
 namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace GlobalNamespace {
 class BadNoteCutEffectSpawner;
 }
 namespace GlobalNamespace {
-class MissedNoteEffectSpawner;
+class RelativeSfxVolumePerLevelModel;
 }
 namespace GlobalNamespace {
-class NoteCutScoreSpawner;
+class EffectPoolsManualInstaller;
+}
+namespace GlobalNamespace {
+class BeatLineManager;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
+class NoteCutScoreSpawner;
+}
+namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class EffectPoolsManualInstaller;
+class PerceivedLoudnessPerLevelModel;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,8 +152,7 @@ constexpr GlobalNamespace::RelativeSfxVolumePerLevelModel __get__relativeSfxVolu
 /// @brief Method InstallBindings addr 0x21180c0 size 0x1b28 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit GameplayCoreInstaller() ;
+static GlobalNamespace::GameplayCoreInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2119be8 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,11 +1,11 @@
 #pragma once
 #include "Zenject/zzzz__SceneContextRegistry_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "Zenject/zzzz__SceneContext_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__SceneContext_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: Zenject::SceneContextRegistry.get_SceneContexts
 template<>
 
@@ -297,8 +297,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- Zenject::SceneContextRegistry::SceneContextRegistry()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SceneContextRegistry>())) {}
+ Zenject::SceneContextRegistry Zenject::SceneContextRegistry::New_ctor()  {
+Zenject::SceneContextRegistry o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SceneContextRegistry>())};
+return o;
+}
  void Zenject::SceneContextRegistry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SceneContextRegistry>::get(),

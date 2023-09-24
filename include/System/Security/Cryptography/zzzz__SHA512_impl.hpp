@@ -35,8 +35,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Security::Cryptography::SHA512::SHA512()  : System::Security::Cryptography::HashAlgorithm(THROW_UNLESS(::il2cpp_utils::New<SHA512>())) {}
+ System::Security::Cryptography::SHA512 System::Security::Cryptography::SHA512::New_ctor()  {
+System::Security::Cryptography::SHA512 o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SHA512>())};
+return o;
+}
  void System::Security::Cryptography::SHA512::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA512>::get(),

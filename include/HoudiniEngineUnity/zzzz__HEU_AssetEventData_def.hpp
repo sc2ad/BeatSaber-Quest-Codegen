@@ -8,11 +8,11 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace HoudiniEngineUnity {
-struct HEU_AssetEventType;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+struct HEU_AssetEventType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -87,8 +87,7 @@ constexpr HoudiniEngineUnity::HEU_AssetEventType __get_EventType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "successful", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "outputObjects", ty: "System::Collections::Generic::List_1<UnityEngine::GameObject>", modifiers: "", def_value: None }]
-explicit HEU_AssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects) ;
+static HoudiniEngineUnity::HEU_AssetEventData New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects) ;
 
 /// @brief Method .ctor addr 0x1fda9c8 size 0x40 virtual false final false
  void _ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, bool successful, System::Collections::Generic::List_1<UnityEngine::GameObject> outputObjects) ;

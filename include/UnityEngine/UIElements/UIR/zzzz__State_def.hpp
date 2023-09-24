@@ -3,14 +3,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class Material;
-}
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine {
 class Texture;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {

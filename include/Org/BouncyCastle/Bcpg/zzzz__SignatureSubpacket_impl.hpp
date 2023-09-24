@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::SignatureSubpacket._ctor
 template<>
 
@@ -128,8 +128,10 @@ constexpr void Org::BouncyCastle::Bcpg::SignatureSubpacket::__set_data(::ArrayW<
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Bcpg::SignatureSubpacket::__get_data() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::SignatureSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::SignatureSubpacket::SignatureSubpacket(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignatureSubpacket>(type, critical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::SignatureSubpacket Org::BouncyCastle::Bcpg::SignatureSubpacket::New_ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::SignatureSubpacket o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::SignatureSubpacket>(type, critical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::SignatureSubpacket::_ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::SignatureSubpacket>::get(),

@@ -65,8 +65,7 @@ constexpr explicit IMGUIEventDispatchingStrategy(void* ptr) noexcept : ::bs_hook
 /// @brief Method DispatchEvent addr 0x2cdb70c size 0xc0 virtual true final true
  void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit IMGUIEventDispatchingStrategy() ;
+static UnityEngine::UIElements::IMGUIEventDispatchingStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdb7cc size 0x8 virtual false final false
  void _ctor() ;

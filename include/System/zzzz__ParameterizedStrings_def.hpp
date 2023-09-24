@@ -6,6 +6,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System {
+class System__ParameterizedStrings__LowLevelStack;
+}
+namespace System {
+struct System__ParameterizedStrings__FormatParam;
+}
 // Forward declare root types
 namespace System {
 class ParameterizedStrings;
@@ -162,8 +168,7 @@ constexpr int32_t __get__count() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__ParameterizedStrings__LowLevelStack() ;
+static System::System__ParameterizedStrings__LowLevelStack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2496ea4 size 0x50 virtual false final false
  void _ctor() ;

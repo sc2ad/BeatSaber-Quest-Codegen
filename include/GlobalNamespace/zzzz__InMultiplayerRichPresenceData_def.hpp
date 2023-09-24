@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IRichPresenceData;
+class IMultiplayerRichPresenceData;
 }
 namespace GlobalNamespace {
-class IMultiplayerRichPresenceData;
+class IRichPresenceData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -144,8 +144,7 @@ static constexpr ::ConstString  kInMultiplayerLobbyRichPresenceLocalizationKey{u
 /// @brief Method get_isJoinable addr 0x2229c70 size 0x38 virtual true final true
  bool get_isJoinable() ;
 
-// Ctor Parameters [CppParam { name: "multiplayerSecret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "canInvite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "atMaxPartySize", ty: "bool", modifiers: "", def_value: None }]
-explicit InMultiplayerRichPresenceData(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize) ;
+static GlobalNamespace::InMultiplayerRichPresenceData New_ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize) ;
 
 /// @brief Method .ctor addr 0x2229ca8 size 0xa4 virtual false final false
  void _ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize) ;

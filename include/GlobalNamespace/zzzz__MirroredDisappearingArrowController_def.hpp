@@ -68,8 +68,7 @@ constexpr GlobalNamespace::MirroredGameNoteController __get__mirroredGameNoteCon
 /// @brief Method get_gameNoteController addr 0x223d544 size 0x8 virtual true final false
  GlobalNamespace::MirroredGameNoteController get_gameNoteController() ;
 
-// Ctor Parameters []
-explicit MirroredDisappearingArrowController() ;
+static GlobalNamespace::MirroredDisappearingArrowController New_ctor() ;
 
 /// @brief Method .ctor addr 0x223d54c size 0x6c virtual false final false
  void _ctor() ;

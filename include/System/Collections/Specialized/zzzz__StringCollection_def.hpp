@@ -11,13 +11,13 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Array;
@@ -175,8 +175,7 @@ constexpr System::Collections::ArrayList __get_data() const;
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x27ad240 size 0x24 virtual true final true
  System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
-// Ctor Parameters []
-explicit StringCollection() ;
+static System::Collections::Specialized::StringCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27ad264 size 0x68 virtual false final false
  void _ctor() ;

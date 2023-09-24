@@ -47,8 +47,7 @@ constexpr explicit OpenXRLoader(void* ptr) noexcept : UnityEngine::XR::OpenXR::O
 
 // Methods
 
-// Ctor Parameters []
-explicit OpenXRLoader() ;
+static UnityEngine::XR::OpenXR::OpenXRLoader New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae5774 size 0x54 virtual false final false
  void _ctor() ;

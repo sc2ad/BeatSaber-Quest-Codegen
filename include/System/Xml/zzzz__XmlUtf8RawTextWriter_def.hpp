@@ -6,10 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml {
-struct XmlStandalone;
+struct XmlCharType;
 }
 namespace System::Xml {
-struct XmlCharType;
+class XmlWriterSettings;
+}
+namespace System::Xml {
+struct NewLineHandling;
 }
 namespace System::IO {
 class Stream;
@@ -21,10 +24,7 @@ namespace System::Xml {
 struct XmlOutputMethod;
 }
 namespace System::Xml {
-struct NewLineHandling;
-}
-namespace System::Xml {
-class XmlWriterSettings;
+struct XmlStandalone;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -218,14 +218,12 @@ constexpr bool __get_mergeCDataSections() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlUtf8RawTextWriter(System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlUtf8RawTextWriter New_ctor(System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e1a84 size 0xdc virtual false final false
  void _ctor(System::Xml::XmlWriterSettings settings) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit XmlUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
+static System::Xml::XmlUtf8RawTextWriter New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26e1ec0 size 0x144 virtual false final false
  void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;

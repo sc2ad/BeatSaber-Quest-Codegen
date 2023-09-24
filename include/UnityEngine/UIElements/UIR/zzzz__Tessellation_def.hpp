@@ -6,6 +6,22 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
+}
+namespace UnityEngine::UIElements {
+struct ColorPage;
+}
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine::UIElements::UIR {
+struct UnityEngine__UIElements__UIR__Tessellation__Edges;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -13,17 +29,19 @@ namespace UnityEngine::UIElements {
 struct UnityEngine__UIElements__MeshGenerationContextUtils__RectangleParams;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class MeshWriteData;
 }
-namespace UnityEngine::UIElements {
-struct ColorPage;
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine {
 struct Color32;
@@ -31,23 +49,8 @@ struct Color32;
 namespace UnityEngine::UIElements::UIR {
 struct UnityEngine__UIElements__UIR__MeshBuilder__AllocMeshData;
 }
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
 namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__MeshGenerationContextUtils__BorderParams;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine {
-struct Vector2;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -109,6 +112,8 @@ __All = 15,
 constexpr operator __UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__UIR__Tessellation__Edges_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -3,17 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Reflection {
-class MemberInfo;
+namespace System {
+class Delegate;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
 namespace System::Reflection {
-struct MemberTypes;
+class MemberInfo;
 }
-namespace System {
-class Delegate;
+namespace System::Reflection {
+struct MemberTypes;
 }
 namespace System {
 class Type;

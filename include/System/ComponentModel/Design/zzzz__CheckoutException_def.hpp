@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design {
@@ -64,20 +64,17 @@ static System::ComponentModel::Design::CheckoutException __get_Canceled() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit CheckoutException() ;
+static System::ComponentModel::Design::CheckoutException New_ctor() ;
 
 /// @brief Method .ctor addr 0x27a817c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "errorCode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CheckoutException(::StringW message, int32_t errorCode) ;
+static System::ComponentModel::Design::CheckoutException New_ctor(::StringW message, int32_t errorCode) ;
 
 /// @brief Method .ctor addr 0x27a8184 size 0x8 virtual false final false
  void _ctor(::StringW message, int32_t errorCode) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CheckoutException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::ComponentModel::Design::CheckoutException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x27a818c size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

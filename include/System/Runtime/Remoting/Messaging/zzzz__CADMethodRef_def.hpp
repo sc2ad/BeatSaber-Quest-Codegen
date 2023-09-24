@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Reflection {
-class MethodBase;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System {
-class Type;
+namespace System::Reflection {
+class MethodBase;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -97,8 +97,7 @@ constexpr ::ArrayW<::StringW> __get_generic_arg_names() const;
 /// @brief Method Resolve addr 0x233bb38 size 0x524 virtual false final false
  System::Reflection::MethodBase Resolve() ;
 
-// Ctor Parameters [CppParam { name: "msg", ty: "System::Runtime::Remoting::Messaging::IMethodMessage", modifiers: "", def_value: None }]
-explicit CADMethodRef(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
+static System::Runtime::Remoting::Messaging::CADMethodRef New_ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;
 
 /// @brief Method .ctor addr 0x233c05c size 0x2d0 virtual false final false
  void _ctor(System::Runtime::Remoting::Messaging::IMethodMessage msg) ;

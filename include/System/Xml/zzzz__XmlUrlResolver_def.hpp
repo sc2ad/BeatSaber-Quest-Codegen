@@ -5,38 +5,41 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Net {
-class ICredentials;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
+namespace System::Xml {
+class XmlDownloadManager;
 }
 namespace System {
 class Uri;
 }
+namespace System::Net {
+class ICredentials;
+}
 namespace System {
 class Type;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
 namespace System::Xml {
-class XmlDownloadManager;
+struct System__Xml__XmlUrlResolver___GetEntityAsync_d__15;
+}
+namespace System::Net {
+class IWebProxy;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -222,8 +225,7 @@ static System::Xml::XmlDownloadManager __declspec(property(get=get_DownloadManag
 /// @brief Method get_DownloadManager addr 0x2715cc8 size 0xd4 virtual false final false
 static System::Xml::XmlDownloadManager get_DownloadManager() ;
 
-// Ctor Parameters []
-explicit XmlUrlResolver() ;
+static System::Xml::XmlUrlResolver New_ctor() ;
 
 /// @brief Method .ctor addr 0x2715d9c size 0x8 virtual false final false
  void _ctor() ;

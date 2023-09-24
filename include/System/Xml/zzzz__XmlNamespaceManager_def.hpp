@@ -5,21 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerator;
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System::Xml {
+struct System__Xml__XmlNamespaceManager__NamespaceDeclaration;
 }
 namespace System::Xml {
 class XmlNameTable;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -213,14 +216,12 @@ constexpr ::StringW __get_xmlNs() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlNamespaceManager() ;
+static System::Xml::XmlNamespaceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x27143e8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "nameTable", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
-explicit XmlNamespaceManager(System::Xml::XmlNameTable nameTable) ;
+static System::Xml::XmlNamespaceManager New_ctor(System::Xml::XmlNameTable nameTable) ;
 
 /// @brief Method .ctor addr 0x27143f0 size 0x1bc virtual false final false
  void _ctor(System::Xml::XmlNameTable nameTable) ;

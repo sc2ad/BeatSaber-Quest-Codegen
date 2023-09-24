@@ -55,8 +55,7 @@ constexpr explicit SignerID(void* ptr) noexcept : Org::BouncyCastle::X509::Store
 /// @brief Method Equals addr 0x117d8f4 size 0x12c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters []
-explicit SignerID() ;
+static Org::BouncyCastle::Cms::SignerID New_ctor() ;
 
 /// @brief Method .ctor addr 0x117da20 size 0x10 virtual false final false
  void _ctor() ;

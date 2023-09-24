@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__Collision_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__ContactPoint_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
+#include "UnityEngine/zzzz__ContactPoint_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 constexpr void UnityEngine::Collision::__set_m_Impulse(UnityEngine::Vector3 value)  {
 ::cordl_internals::setInstanceField<UnityEngine::Vector3, 0x10>(this->::bs_hook::Il2CppWrapperType::instance, std::forward<UnityEngine::Vector3>(value));
 }

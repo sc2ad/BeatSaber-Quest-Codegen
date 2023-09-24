@@ -5,16 +5,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+struct Org__BouncyCastle__Asn1__X509__Target__Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -72,6 +75,8 @@ __Group = 1,
 constexpr operator __Org__BouncyCastle__Asn1__X509__Target__Choice_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__Asn1__X509__Target__Choice_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -164,14 +169,12 @@ constexpr Org::BouncyCastle::Asn1::X509::GeneralName __get_targetGroup() const;
 /// @brief Method GetInstance addr 0x110d924 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::X509::Target GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "tagObj", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit Target(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj) ;
+static Org::BouncyCastle::Asn1::X509::Target New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj) ;
 
 /// @brief Method .ctor addr 0x110daac size 0x114 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagObj) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }]
-explicit Target(Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice type, Org::BouncyCastle::Asn1::X509::GeneralName name) ;
+static Org::BouncyCastle::Asn1::X509::Target New_ctor(Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice type, Org::BouncyCastle::Asn1::X509::GeneralName name) ;
 
 /// @brief Method .ctor addr 0x110dbc0 size 0x7c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::Org__BouncyCastle__Asn1__X509__Target__Choice type, Org::BouncyCastle::Asn1::X509::GeneralName name) ;

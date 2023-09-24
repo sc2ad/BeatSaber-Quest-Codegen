@@ -70,14 +70,12 @@ static ::ArrayW<uint8_t> __get_IV() ;
 /// @brief Method get_AlgorithmName addr 0x1199fac size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
 
-// Ctor Parameters []
-explicit Gost3411_2012_512Digest() ;
+static Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0x1199fec size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest", modifiers: "", def_value: None }]
-explicit Gost3411_2012_512Digest(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;
+static Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest New_ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;
 
 /// @brief Method .ctor addr 0x119a078 size 0xa4 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;

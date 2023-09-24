@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace System {
-class Type;
-}
 namespace UnityEngine::Timeline {
 struct TrackBindingFlags;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -68,14 +68,12 @@ constexpr UnityEngine::Timeline::TrackBindingFlags __get_flags() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
-explicit TrackBindingTypeAttribute(System::Type type) ;
+static UnityEngine::Timeline::TrackBindingTypeAttribute New_ctor(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2ad5d4c size 0x30 virtual false final false
  void _ctor(System::Type type) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "UnityEngine::Timeline::TrackBindingFlags", modifiers: "", def_value: None }]
-explicit TrackBindingTypeAttribute(System::Type type, UnityEngine::Timeline::TrackBindingFlags flags) ;
+static UnityEngine::Timeline::TrackBindingTypeAttribute New_ctor(System::Type type, UnityEngine::Timeline::TrackBindingFlags flags) ;
 
 /// @brief Method .ctor addr 0x2ad5d7c size 0x30 virtual false final false
  void _ctor(System::Type type, UnityEngine::Timeline::TrackBindingFlags flags) ;

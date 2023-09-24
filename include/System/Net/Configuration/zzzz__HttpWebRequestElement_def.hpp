@@ -55,8 +55,7 @@ constexpr explicit HttpWebRequestElement(void* ptr) noexcept : System::Configura
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpWebRequestElement() ;
+static System::Net::Configuration::HttpWebRequestElement New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b2404 size 0x38 virtual false final false
  void _ctor() ;

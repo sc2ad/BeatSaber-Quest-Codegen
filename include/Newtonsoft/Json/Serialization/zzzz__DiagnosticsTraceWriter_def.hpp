@@ -5,14 +5,14 @@
 namespace System::Diagnostics {
 struct TraceEventType;
 }
-namespace System {
-class Exception;
-}
 namespace System::Diagnostics {
 struct TraceLevel;
 }
 namespace Newtonsoft::Json::Serialization {
 class ITraceWriter;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -89,8 +89,7 @@ constexpr System::Diagnostics::TraceLevel __get__LevelFilter_k__BackingField() c
 /// @brief Method Trace addr 0x24f23ac size 0x470 virtual true final true
  void Trace(System::Diagnostics::TraceLevel level, ::StringW message, System::Exception ex) ;
 
-// Ctor Parameters []
-explicit DiagnosticsTraceWriter() ;
+static Newtonsoft::Json::Serialization::DiagnosticsTraceWriter New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f281c size 0x8 virtual false final false
  void _ctor() ;

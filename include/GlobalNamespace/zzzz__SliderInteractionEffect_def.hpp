@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class SliderInteractionManager;
+struct ColorType;
 }
 namespace GlobalNamespace {
-struct ColorType;
+class SliderInteractionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -94,8 +94,7 @@ constexpr GlobalNamespace::SliderInteractionManager __get__sliderInteractionMana
 /// @brief Method HandleAllSliderWereRemovedFromActiveSliders addr 0x224b1a8 size 0xc virtual false final false
  void HandleAllSliderWereRemovedFromActiveSliders() ;
 
-// Ctor Parameters []
-explicit SliderInteractionEffect() ;
+static GlobalNamespace::SliderInteractionEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x224a2ac size 0x8 virtual false final false
  void _ctor() ;

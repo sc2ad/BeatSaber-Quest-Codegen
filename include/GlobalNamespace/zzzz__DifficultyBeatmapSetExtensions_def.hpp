@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
 }
 // Forward declare root types
 namespace GlobalNamespace {

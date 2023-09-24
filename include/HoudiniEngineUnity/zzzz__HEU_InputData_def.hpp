@@ -59,8 +59,7 @@ constexpr UnityEngine::GameObject __get__inputObject() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputData() ;
+static HoudiniEngineUnity::HEU_InputData New_ctor() ;
 
 /// @brief Method .ctor addr 0x20549f0 size 0x8 virtual false final false
  void _ctor() ;

@@ -155,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLobbyCenterStageManager::MultiplayerLobbyCenterStageManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLobbyCenterStageManager>())) {}
+ GlobalNamespace::MultiplayerLobbyCenterStageManager GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor()  {
+GlobalNamespace::MultiplayerLobbyCenterStageManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLobbyCenterStageManager>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLobbyCenterStageManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLobbyCenterStageManager>::get(),

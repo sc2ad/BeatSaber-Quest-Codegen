@@ -1,16 +1,16 @@
 #pragma once
 #include "System/Reflection/zzzz__EventInfo_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeEventInfo_def.hpp"
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/zzzz__RuntimeType_def.hpp"
 #include "System/Reflection/zzzz__RuntimeModule_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/Reflection/zzzz__MonoEventInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/Reflection/zzzz__BindingFlags_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__RuntimeType_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Reflection/zzzz__MonoEventInfo_def.hpp"
 //  Writing Method size for method: System::Reflection::RuntimeEventInfo.get_event_info
 template<>
 
@@ -590,8 +590,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, monoEvent);
 }
-// Ctor Parameters []
- System::Reflection::RuntimeEventInfo::RuntimeEventInfo()  : System::Reflection::EventInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeEventInfo>())) {}
+ System::Reflection::RuntimeEventInfo System::Reflection::RuntimeEventInfo::New_ctor()  {
+System::Reflection::RuntimeEventInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeEventInfo>())};
+return o;
+}
  void System::Reflection::RuntimeEventInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeEventInfo>::get(),

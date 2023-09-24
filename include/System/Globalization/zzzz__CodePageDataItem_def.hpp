@@ -88,8 +88,7 @@ static ::ArrayW<char16_t> __get_sep() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "dataIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CodePageDataItem(int32_t dataIndex) ;
+static System::Globalization::CodePageDataItem New_ctor(int32_t dataIndex) ;
 
 /// @brief Method .ctor addr 0x23fddcc size 0xa4 virtual false final false
  void _ctor(int32_t dataIndex) ;

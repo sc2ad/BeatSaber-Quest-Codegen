@@ -6,15 +6,51 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__EnabledObstacleType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__SongSpeed;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__EnergyType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
+struct GlobalNamespace__RankModel__Rank;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__RankModel__Rank;
+class GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__AchievementsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__GuestPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerMissionStatsData;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__LocalPlayer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlayerSaveDataV1_0_1__PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,6 +143,8 @@ constexpr operator __GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__E
 return std::bit_cast<__GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__EnabledObstacleType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -179,6 +217,8 @@ constexpr operator __GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__E
 return std::bit_cast<__GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__EnergyType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -248,6 +288,8 @@ __Slower = 2,
 constexpr operator __GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__SongSpeed_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers__SongSpeed_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -382,8 +424,7 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifi
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__GameplayModifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0x2220014 size 0x8 virtual false final false
  void _ctor() ;
@@ -485,8 +526,7 @@ constexpr bool __get_noTextsAndHuds() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerSpecificSettings() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerSpecificSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x222001c size 0x8 virtual false final false
  void _ctor() ;
@@ -558,14 +598,12 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallS
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2220024 size 0xa4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "campaignOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "soloFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData", modifiers: "", def_value: None }, CppParam { name: "partyFreePlayOverallStatsData", ty: "GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData(GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData partyFreePlayOverallStatsData) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData New_ctor(GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData partyFreePlayOverallStatsData) ;
 
 /// @brief Method .ctor addr 0x22200d0 size 0x3c virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData campaignOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData soloFreePlayOverallStatsData, GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData partyFreePlayOverallStatsData) ;
@@ -685,14 +723,12 @@ constexpr int64_t __get_cummulativeCutScoreWithoutMultiplier() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22200c8 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalScore", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "playedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cleardLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "failedLevelsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fullComboCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timePlayed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "handDistanceTravelled", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cummulativeCutScoreWithoutMultiplier", ty: "int64_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerOverallStatsData New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
 
 /// @brief Method .ctor addr 0x222010c size 0xb0 virtual false final false
  void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier) ;
@@ -794,8 +830,7 @@ constexpr int32_t __get_playCount() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerLevelStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerLevelStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22201bc size 0x8 virtual false final false
  void _ctor() ;
@@ -861,8 +896,7 @@ constexpr bool __get_cleared() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__PlayerMissionStatsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerMissionStatsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22201c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -928,8 +962,7 @@ constexpr ::ArrayW<::StringW> __get_unlockedAchievementsToUpload() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__AchievementsData() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__AchievementsData New_ctor() ;
 
 /// @brief Method .ctor addr 0x22201cc size 0x8 virtual false final false
  void _ctor() ;
@@ -1043,8 +1076,7 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__AchievementsDa
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__LocalPlayer() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__LocalPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x22201d4 size 0x10 virtual false final false
  void _ctor() ;
@@ -1110,8 +1142,7 @@ constexpr GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__PlayerSpecific
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PlayerSaveDataV1_0_1__GuestPlayer() ;
+static GlobalNamespace::GlobalNamespace__PlayerSaveDataV1_0_1__GuestPlayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x22201e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -1213,8 +1244,7 @@ constexpr GlobalNamespace::BeatmapDifficulty __get_lastSelectedBeatmapDifficulty
 
 // Methods
 
-// Ctor Parameters []
-explicit PlayerSaveDataV1_0_1() ;
+static GlobalNamespace::PlayerSaveDataV1_0_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2220004 size 0x10 virtual false final false
  void _ctor() ;

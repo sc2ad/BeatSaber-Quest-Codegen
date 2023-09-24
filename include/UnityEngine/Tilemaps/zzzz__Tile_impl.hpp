@@ -2,14 +2,15 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TileBase_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__Tile_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/Tilemaps/zzzz__TileFlags_def.hpp"
-#include "UnityEngine/zzzz__Vector3Int_def.hpp"
-#include "UnityEngine/Tilemaps/zzzz__ITilemap_def.hpp"
-#include "UnityEngine/Tilemaps/zzzz__TileData_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/Tilemaps/zzzz__TileData_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Vector3Int_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "UnityEngine/Tilemaps/zzzz__Tile_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/Tilemaps/zzzz__TileFlags_def.hpp"
+#include "UnityEngine/Tilemaps/zzzz__ITilemap_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType::UnityEngine__Tilemaps__Tile__ColliderType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -413,8 +414,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, position, tilemap, tileData);
 }
-// Ctor Parameters []
- UnityEngine::Tilemaps::Tile::Tile()  : UnityEngine::Tilemaps::TileBase(THROW_UNLESS(::il2cpp_utils::New<Tile>())) {}
+ UnityEngine::Tilemaps::Tile UnityEngine::Tilemaps::Tile::New_ctor()  {
+UnityEngine::Tilemaps::Tile o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Tilemaps::Tile>())};
+return o;
+}
  void UnityEngine::Tilemaps::Tile::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Tilemaps::Tile>::get(),

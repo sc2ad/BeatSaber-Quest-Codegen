@@ -1,15 +1,15 @@
 #pragma once
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/Xml/zzzz__XmlTextReader_def.hpp"
-#include "System/Xml/zzzz__XmlNodeType_def.hpp"
-#include "System/Xml/zzzz__XmlNameTable_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
-#include "System/Xml/zzzz__IDtdInfo_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
-#include "System/Xml/zzzz__EntityHandling_def.hpp"
-#include "System/Xml/zzzz__XmlResolver_def.hpp"
 #include "System/Xml/zzzz__ReadState_def.hpp"
+#include "System/Xml/zzzz__XmlResolver_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
+#include "System/Xml/zzzz__XmlNodeType_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/Xml/zzzz__XmlNameTable_def.hpp"
+#include "System/Xml/zzzz__EntityHandling_def.hpp"
 #include "System/Xml/zzzz__XmlTextReaderImpl_def.hpp"
+#include "System/Xml/zzzz__IDtdInfo_def.hpp"
 //  Writing Method size for method: System::Xml::XmlTextReader._ctor
 template<>
 
@@ -513,8 +513,10 @@ constexpr void System::Xml::XmlTextReader::__set_impl(System::Xml::XmlTextReader
 constexpr System::Xml::XmlTextReaderImpl System::Xml::XmlTextReader::__get_impl() const {
 return ::cordl_internals::getInstanceField<System::Xml::XmlTextReaderImpl, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::TextReader", modifiers: "", def_value: None }, CppParam { name: "nt", ty: "System::Xml::XmlNameTable", modifiers: "", def_value: None }]
- System::Xml::XmlTextReader::XmlTextReader(System::IO::TextReader input, System::Xml::XmlNameTable nt)  : System::Xml::XmlReader(THROW_UNLESS(::il2cpp_utils::New<XmlTextReader>(input, nt))) {}
+ System::Xml::XmlTextReader System::Xml::XmlTextReader::New_ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt)  {
+System::Xml::XmlTextReader o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlTextReader>(input, nt))};
+return o;
+}
  void System::Xml::XmlTextReader::_ctor(System::IO::TextReader input, System::Xml::XmlNameTable nt)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlTextReader>::get(),

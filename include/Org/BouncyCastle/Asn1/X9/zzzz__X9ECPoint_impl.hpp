@@ -3,8 +3,8 @@
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::X9ECPoint._ctor
 template<>
 
@@ -159,8 +159,10 @@ constexpr void Org::BouncyCastle::Asn1::X9::X9ECPoint::__set_p(Org::BouncyCastle
 constexpr Org::BouncyCastle::Math::EC::ECPoint Org::BouncyCastle::Asn1::X9::X9ECPoint::__get_p() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::EC::ECPoint, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECPoint::X9ECPoint(Org::BouncyCastle::Math::EC::ECPoint p)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECPoint>(p))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECPoint Org::BouncyCastle::Asn1::X9::X9ECPoint::New_ctor(Org::BouncyCastle::Math::EC::ECPoint p)  {
+Org::BouncyCastle::Asn1::X9::X9ECPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECPoint>(p))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor(Org::BouncyCastle::Math::EC::ECPoint p)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECPoint>::get(),
@@ -170,8 +172,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p);
 }
-// Ctor Parameters [CppParam { name: "p", ty: "Org::BouncyCastle::Math::EC::ECPoint", modifiers: "", def_value: None }, CppParam { name: "compressed", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECPoint::X9ECPoint(Org::BouncyCastle::Math::EC::ECPoint p, bool compressed)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECPoint>(p, compressed))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECPoint Org::BouncyCastle::Asn1::X9::X9ECPoint::New_ctor(Org::BouncyCastle::Math::EC::ECPoint p, bool compressed)  {
+Org::BouncyCastle::Asn1::X9::X9ECPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECPoint>(p, compressed))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor(Org::BouncyCastle::Math::EC::ECPoint p, bool compressed)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECPoint>::get(),
@@ -181,8 +185,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, p, compressed);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECPoint::X9ECPoint(Org::BouncyCastle::Math::EC::ECCurve c, ::ArrayW<uint8_t> encoding)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECPoint>(c, encoding))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECPoint Org::BouncyCastle::Asn1::X9::X9ECPoint::New_ctor(Org::BouncyCastle::Math::EC::ECCurve c, ::ArrayW<uint8_t> encoding)  {
+Org::BouncyCastle::Asn1::X9::X9ECPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECPoint>(c, encoding))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor(Org::BouncyCastle::Math::EC::ECCurve c, ::ArrayW<uint8_t> encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECPoint>::get(),
@@ -192,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, c, encoding);
 }
-// Ctor Parameters [CppParam { name: "c", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "s", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::X9ECPoint::X9ECPoint(Org::BouncyCastle::Math::EC::ECCurve c, Org::BouncyCastle::Asn1::Asn1OctetString s)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<X9ECPoint>(c, s))) {}
+ Org::BouncyCastle::Asn1::X9::X9ECPoint Org::BouncyCastle::Asn1::X9::X9ECPoint::New_ctor(Org::BouncyCastle::Math::EC::ECCurve c, Org::BouncyCastle::Asn1::Asn1OctetString s)  {
+Org::BouncyCastle::Asn1::X9::X9ECPoint o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::X9ECPoint>(c, s))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::X9ECPoint::_ctor(Org::BouncyCastle::Math::EC::ECCurve c, Org::BouncyCastle::Asn1::Asn1OctetString s)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::X9ECPoint>::get(),

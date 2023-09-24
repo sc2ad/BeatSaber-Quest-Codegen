@@ -6,6 +6,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace Org::BouncyCastle::OpenSsl {
+struct Org__BouncyCastle__OpenSsl__PemUtilities__PemBaseAlg;
+}
+namespace Org::BouncyCastle::OpenSsl {
+struct Org__BouncyCastle__OpenSsl__PemUtilities__PemMode;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -76,6 +82,8 @@ __RC2_64 = 9,
 constexpr operator __Org__BouncyCastle__OpenSsl__PemUtilities__PemBaseAlg_Unwrapped () const noexcept {
 return std::bit_cast<__Org__BouncyCastle__OpenSsl__PemUtilities__PemBaseAlg_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,6 +180,8 @@ constexpr operator __Org__BouncyCastle__OpenSsl__PemUtilities__PemMode_Unwrapped
 return std::bit_cast<__Org__BouncyCastle__OpenSsl__PemUtilities__PemMode_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -252,8 +262,7 @@ static ::ArrayW<uint8_t> Crypt(bool encrypt, ::ArrayW<uint8_t> bytes, ::ArrayW<c
 /// @brief Method GetCipherParameters addr 0x1047d94 size 0x140 virtual false final false
 static Org::BouncyCastle::Crypto::ICipherParameters GetCipherParameters(::ArrayW<char16_t> password, Org::BouncyCastle::OpenSsl::Org__BouncyCastle__OpenSsl__PemUtilities__PemBaseAlg baseAlg, ::ArrayW<uint8_t> salt) ;
 
-// Ctor Parameters []
-explicit PemUtilities() ;
+static Org::BouncyCastle::OpenSsl::PemUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1047ed4 size 0x8 virtual false final false
  void _ctor() ;

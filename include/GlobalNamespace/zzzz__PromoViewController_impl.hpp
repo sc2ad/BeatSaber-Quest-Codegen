@@ -1,13 +1,14 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PromoViewController_def.hpp"
-#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__PreviewBeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__IAnnotatedBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
+#include "GlobalNamespace/zzzz__PromoViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair.get_annotatedBeatmapLevelCollection
 template<>
 
@@ -81,8 +82,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::IAnnotatedBeatmapLevelCollection, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair::GlobalNamespace__PromoViewController__ButtonPromoTypePair()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PromoViewController__ButtonPromoTypePair>())) {}
+ GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PromoViewController__ButtonPromoTypePair>::get(),
@@ -138,8 +141,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PromoViewController____c__Displ
 constexpr GlobalNamespace::PromoViewController GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::PromoViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0::GlobalNamespace__PromoViewController____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PromoViewController____c__DisplayClass5_0>())) {}
+ GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0 GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PromoViewController____c__DisplayClass5_0>::get(),
@@ -265,8 +270,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::PromoViewController::PromoViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<PromoViewController>())) {}
+ GlobalNamespace::PromoViewController GlobalNamespace::PromoViewController::New_ctor()  {
+GlobalNamespace::PromoViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PromoViewController>())};
+return o;
+}
  void GlobalNamespace::PromoViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PromoViewController>::get(),

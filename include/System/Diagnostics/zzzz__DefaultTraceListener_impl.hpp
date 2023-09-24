@@ -221,8 +221,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, var, target);
 }
-// Ctor Parameters []
- System::Diagnostics::DefaultTraceListener::DefaultTraceListener()  : System::Diagnostics::TraceListener(THROW_UNLESS(::il2cpp_utils::New<DefaultTraceListener>())) {}
+ System::Diagnostics::DefaultTraceListener System::Diagnostics::DefaultTraceListener::New_ctor()  {
+System::Diagnostics::DefaultTraceListener o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::DefaultTraceListener>())};
+return o;
+}
  void System::Diagnostics::DefaultTraceListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::DefaultTraceListener>::get(),

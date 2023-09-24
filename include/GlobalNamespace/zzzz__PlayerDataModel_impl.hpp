@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataFileManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerDataModel.get_playerDataFileManager
 template<>
 
@@ -254,8 +254,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerDataModel::PlayerDataModel()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PlayerDataModel>())) {}
+ GlobalNamespace::PlayerDataModel GlobalNamespace::PlayerDataModel::New_ctor()  {
+GlobalNamespace::PlayerDataModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerDataModel>())};
+return o;
+}
  void GlobalNamespace::PlayerDataModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerDataModel>::get(),

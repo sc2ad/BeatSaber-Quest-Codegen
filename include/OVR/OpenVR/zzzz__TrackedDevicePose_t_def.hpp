@@ -5,10 +5,10 @@ namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct HmdVector3_t;
+struct ETrackingResult;
 }
 namespace OVR::OpenVR {
-struct ETrackingResult;
+struct HmdVector3_t;
 }
 // Forward declare root types
 namespace OVR::OpenVR {

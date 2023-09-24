@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-template<typename T>
-struct UQueryState_1;
-}
-namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 struct UQueryBuilder_1;
+}
+namespace UnityEngine::UIElements {
+template<typename T>
+struct UQueryState_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerOctetString._ctor
 template<>
 
@@ -89,8 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "str", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerOctetString::DerOctetString(::ArrayW<uint8_t> str)  : Org::BouncyCastle::Asn1::Asn1OctetString(THROW_UNLESS(::il2cpp_utils::New<DerOctetString>(str))) {}
+ Org::BouncyCastle::Asn1::DerOctetString Org::BouncyCastle::Asn1::DerOctetString::New_ctor(::ArrayW<uint8_t> str)  {
+Org::BouncyCastle::Asn1::DerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerOctetString>(str))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerOctetString::_ctor(::ArrayW<uint8_t> str)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerOctetString>::get(),
@@ -100,8 +102,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::IAsn1Convertible", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerOctetString::DerOctetString(Org::BouncyCastle::Asn1::IAsn1Convertible obj)  : Org::BouncyCastle::Asn1::Asn1OctetString(THROW_UNLESS(::il2cpp_utils::New<DerOctetString>(obj))) {}
+ Org::BouncyCastle::Asn1::DerOctetString Org::BouncyCastle::Asn1::DerOctetString::New_ctor(Org::BouncyCastle::Asn1::IAsn1Convertible obj)  {
+Org::BouncyCastle::Asn1::DerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerOctetString>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerOctetString::_ctor(Org::BouncyCastle::Asn1::IAsn1Convertible obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerOctetString>::get(),
@@ -111,8 +115,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerOctetString::DerOctetString(Org::BouncyCastle::Asn1::Asn1Encodable obj)  : Org::BouncyCastle::Asn1::Asn1OctetString(THROW_UNLESS(::il2cpp_utils::New<DerOctetString>(obj))) {}
+ Org::BouncyCastle::Asn1::DerOctetString Org::BouncyCastle::Asn1::DerOctetString::New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
+Org::BouncyCastle::Asn1::DerOctetString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerOctetString>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerOctetString::_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerOctetString>::get(),

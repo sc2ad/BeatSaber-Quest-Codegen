@@ -1,11 +1,11 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__BipedIKSolvers_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverAim_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverLookAt_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverLimb_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFABRIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverAim_def.hpp"
 #include "RootMotion/FinalIK/zzzz__Constraints_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverLookAt_def.hpp"
 #include "RootMotion/zzzz__BipedReferences_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::BipedIKSolvers.get_limbs
 template<>
@@ -162,8 +162,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, references);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::BipedIKSolvers::BipedIKSolvers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BipedIKSolvers>())) {}
+ RootMotion::FinalIK::BipedIKSolvers RootMotion::FinalIK::BipedIKSolvers::New_ctor()  {
+RootMotion::FinalIK::BipedIKSolvers o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::BipedIKSolvers>())};
+return o;
+}
  void RootMotion::FinalIK::BipedIKSolvers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::BipedIKSolvers>::get(),

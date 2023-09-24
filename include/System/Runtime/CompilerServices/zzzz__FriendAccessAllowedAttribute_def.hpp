@@ -47,8 +47,7 @@ constexpr explicit FriendAccessAllowedAttribute(void* ptr) noexcept : System::At
 
 // Methods
 
-// Ctor Parameters []
-explicit FriendAccessAllowedAttribute() ;
+static System::Runtime::CompilerServices::FriendAccessAllowedAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2370a98 size 0x8 virtual false final false
  void _ctor() ;

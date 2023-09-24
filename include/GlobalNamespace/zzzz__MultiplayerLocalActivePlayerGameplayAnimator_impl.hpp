@@ -2,11 +2,11 @@
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerGameplayAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPositionHUDController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
-#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator.OnDestroy
 template<>
 
@@ -227,8 +227,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, levelCompletionResults);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::MultiplayerLocalActivePlayerGameplayAnimator()  : GlobalNamespace::MultiplayerGameplayAnimator(THROW_UNLESS(::il2cpp_utils::New<MultiplayerLocalActivePlayerGameplayAnimator>())) {}
+ GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::New_ctor()  {
+GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator>())};
+return o;
+}
  void GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator>::get(),

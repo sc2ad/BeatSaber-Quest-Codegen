@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::XR::Management {
+struct UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent;
+}
 // Forward declare root types
 namespace UnityEngine::XR::Management {
 class XRManagementAnalytics;

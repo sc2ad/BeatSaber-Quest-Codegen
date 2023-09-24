@@ -121,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, hashAlgorithm);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Tls::HashAlgorithm::HashAlgorithm()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HashAlgorithm>())) {}
+ Org::BouncyCastle::Crypto::Tls::HashAlgorithm Org::BouncyCastle::Crypto::Tls::HashAlgorithm::New_ctor()  {
+Org::BouncyCastle::Crypto::Tls::HashAlgorithm o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::HashAlgorithm>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::HashAlgorithm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::HashAlgorithm>::get(),

@@ -9,14 +9,22 @@
 namespace System::IO {
 class EnumerationOptions;
 }
-namespace GlobalNamespace {
-struct GlobalNamespace__Interop__Sys__DirectoryEntry;
-}
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
 }
+namespace System {
+template<typename T>
+struct ReadOnlySpan_1;
+}
 namespace GlobalNamespace {
 struct GlobalNamespace__Interop__ErrorInfo;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -25,16 +33,8 @@ class IEnumerator_1;
 namespace System {
 class IDisposable;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-template<typename T>
-struct ReadOnlySpan_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__Interop__Sys__DirectoryEntry;
 }
 // Forward declare root types
 namespace System::IO::Enumeration {
@@ -181,8 +181,7 @@ constexpr ::ArrayW<uint8_t> __get__entryBuffer() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "directory", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::IO::EnumerationOptions", modifiers: "", def_value: None }]
-explicit FileSystemEnumerator_1(::StringW directory, System::IO::EnumerationOptions options) ;
+static System::IO::Enumeration::FileSystemEnumerator_1<TResult> New_ctor(::StringW directory, System::IO::EnumerationOptions options) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::StringW directory, System::IO::EnumerationOptions options) ;

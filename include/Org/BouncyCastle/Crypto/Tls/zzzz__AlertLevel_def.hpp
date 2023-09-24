@@ -64,8 +64,7 @@ static ::StringW GetName(uint8_t alertDescription) ;
 /// @brief Method GetText addr 0xecdee8 size 0x17c virtual false final false
 static ::StringW GetText(uint8_t alertDescription) ;
 
-// Ctor Parameters []
-explicit AlertLevel() ;
+static Org::BouncyCastle::Crypto::Tls::AlertLevel New_ctor() ;
 
 /// @brief Method .ctor addr 0xece064 size 0x8 virtual false final false
  void _ctor() ;

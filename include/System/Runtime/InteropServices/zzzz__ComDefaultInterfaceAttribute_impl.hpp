@@ -25,8 +25,10 @@ constexpr void System::Runtime::InteropServices::ComDefaultInterfaceAttribute::_
 constexpr System::Type System::Runtime::InteropServices::ComDefaultInterfaceAttribute::__get__val() const {
 return ::cordl_internals::getInstanceField<System::Type, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "defaultInterface", ty: "System::Type", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::ComDefaultInterfaceAttribute::ComDefaultInterfaceAttribute(System::Type defaultInterface)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ComDefaultInterfaceAttribute>(defaultInterface))) {}
+ System::Runtime::InteropServices::ComDefaultInterfaceAttribute System::Runtime::InteropServices::ComDefaultInterfaceAttribute::New_ctor(System::Type defaultInterface)  {
+System::Runtime::InteropServices::ComDefaultInterfaceAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::ComDefaultInterfaceAttribute>(defaultInterface))};
+return o;
+}
  void System::Runtime::InteropServices::ComDefaultInterfaceAttribute::_ctor(System::Type defaultInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::ComDefaultInterfaceAttribute>::get(),

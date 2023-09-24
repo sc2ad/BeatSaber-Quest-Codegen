@@ -1,21 +1,22 @@
 #pragma once
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__ReflectTypeDescriptionProvider_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
+#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
+#include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/ComponentModel/zzzz__ReflectTypeDescriptionProvider_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"
-#include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
-#include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
+#include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "System/Reflection/zzzz__MemberInfo_def.hpp"
-#include "System/zzzz__Attribute_def.hpp"
-#include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/ComponentModel/zzzz__EditorAttribute_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData._ctor
 template<>
@@ -303,8 +304,10 @@ constexpr void System::ComponentModel::System__ComponentModel__ReflectTypeDescri
 constexpr int32_t System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData::__get__editorCount() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
- System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData(System::Type type)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData>(type))) {}
+ System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData::New_ctor(System::Type type)  {
+System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData>(type))};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData::_ctor(System::Type type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__ReflectTypeDescriptionProvider__ReflectedTypeData>::get(),
@@ -1207,8 +1210,10 @@ return ::cordl_internals::getStaticField<::ArrayW<System::Type>, "_skipInterface
  ::bs_hook::Il2CppWrapperType System::ComponentModel::ReflectTypeDescriptionProvider::__get__internalSyncObject()  {
 return ::cordl_internals::getStaticField<::bs_hook::Il2CppWrapperType, "_internalSyncObject", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReflectTypeDescriptionProvider>::get>();
 }
-// Ctor Parameters []
- System::ComponentModel::ReflectTypeDescriptionProvider::ReflectTypeDescriptionProvider()  : System::ComponentModel::TypeDescriptionProvider(THROW_UNLESS(::il2cpp_utils::New<ReflectTypeDescriptionProvider>())) {}
+ System::ComponentModel::ReflectTypeDescriptionProvider System::ComponentModel::ReflectTypeDescriptionProvider::New_ctor()  {
+System::ComponentModel::ReflectTypeDescriptionProvider o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::ReflectTypeDescriptionProvider>())};
+return o;
+}
  void System::ComponentModel::ReflectTypeDescriptionProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::ReflectTypeDescriptionProvider>::get(),

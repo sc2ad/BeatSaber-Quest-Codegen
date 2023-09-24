@@ -8,13 +8,13 @@ namespace UnityEngine {
 class AssetBundleCreateRequest;
 }
 namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine {
 class Object;
 }
 namespace System {
 class Type;
+}
+namespace UnityEngine {
+class AssetBundleRequest;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -62,8 +62,7 @@ constexpr explicit AssetBundle(void* ptr) noexcept : UnityEngine::Object(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit AssetBundle() ;
+static UnityEngine::AssetBundle New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b23a98 size 0x58 virtual false final false
  void _ctor() ;

@@ -69,8 +69,7 @@ constexpr explicit DataItemConvertor_2(void* ptr) noexcept : ::bs_hook::Il2CppWr
 /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
  System::Type get_inputDataType() ;
 
-// Ctor Parameters []
-explicit DataItemConvertor_2() ;
+static GlobalNamespace::DataItemConvertor_2<TOut,TParam> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

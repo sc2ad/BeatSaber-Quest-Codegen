@@ -62,8 +62,7 @@ constexpr TMPro::TextMeshPro __get__versionText() const;
 /// @brief Method Start addr 0x20cd8e8 size 0x48 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SetApplicationVersionText() ;
+static GlobalNamespace::SetApplicationVersionText New_ctor() ;
 
 /// @brief Method .ctor addr 0x20cd930 size 0x8 virtual false final false
  void _ctor() ;

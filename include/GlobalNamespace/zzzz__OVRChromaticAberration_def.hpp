@@ -71,8 +71,7 @@ constexpr bool __get_chromatic() const;
 /// @brief Method Update addr 0x261958c size 0xf0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRChromaticAberration() ;
+static GlobalNamespace::OVRChromaticAberration New_ctor() ;
 
 /// @brief Method .ctor addr 0x261967c size 0x10 virtual false final false
  void _ctor() ;

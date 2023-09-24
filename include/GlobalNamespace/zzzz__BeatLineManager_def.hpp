@@ -5,28 +5,28 @@
 namespace UnityEngine {
 struct Vector4;
 }
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class NoteController;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class BeatLine;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__BeatLine__Pool;
 }
 namespace GlobalNamespace {
-class BeatLine;
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -161,8 +161,7 @@ constexpr float_t __get__rotationRange() const;
 /// @brief Method HandleNoteWasSpawned addr 0x222dcd0 size 0x1a0 virtual false final false
  void HandleNoteWasSpawned(GlobalNamespace::NoteController noteController) ;
 
-// Ctor Parameters []
-explicit BeatLineManager() ;
+static GlobalNamespace::BeatLineManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222de70 size 0xc8 virtual false final false
  void _ctor() ;

@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_integer_def.hpp"
 namespace System::Xml::Schema {
-class FacetsChecker;
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
-struct XmlTypeCode;
+class FacetsChecker;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -75,8 +75,7 @@ static System::Xml::Schema::FacetsChecker __get_numeric10FacetsChecker() ;
 /// @brief Method get_TypeCode addr 0x27284fc size 0x8 virtual true final false
  System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
-// Ctor Parameters []
-explicit Datatype_nonPositiveInteger() ;
+static System::Xml::Schema::Datatype_nonPositiveInteger New_ctor() ;
 
 /// @brief Method .ctor addr 0x2728504 size 0x4 virtual false final false
  void _ctor() ;

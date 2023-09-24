@@ -1,8 +1,9 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-struct Guid;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_Task;
@@ -10,9 +11,8 @@ class HEU_Task;
 namespace HoudiniEngineUnity {
 struct HoudiniEngineUnity__HEU_Task__TaskResult;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace System {
+struct Guid;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -108,8 +108,7 @@ static void CompleteTask(HoudiniEngineUnity::HEU_Task task, HoudiniEngineUnity::
 /// @brief Method InternalCompleteTask addr 0x203a2fc size 0x60 virtual false final false
 static void InternalCompleteTask(HoudiniEngineUnity::HEU_Task task) ;
 
-// Ctor Parameters []
-explicit HEU_TaskManager() ;
+static HoudiniEngineUnity::HEU_TaskManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x203a35c size 0x8 virtual false final false
  void _ctor() ;

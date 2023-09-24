@@ -6,19 +6,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -118,26 +118,22 @@ constexpr int32_t __get_tag() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "directoryName", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit GeneralName(Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
+static Org::BouncyCastle::Asn1::X509::GeneralName New_ctor(Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
 
 /// @brief Method .ctor addr 0x1103c04 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name directoryName) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::Asn1Object", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GeneralName(Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
+static Org::BouncyCastle::Asn1::X509::GeneralName New_ctor(Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
 
 /// @brief Method .ctor addr 0x1103c34 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Object name, int32_t tag) ;
 
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit GeneralName(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
+static Org::BouncyCastle::Asn1::X509::GeneralName New_ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
 
 /// @brief Method .ctor addr 0x1103c64 size 0x30 virtual false final false
  void _ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1Encodable name) ;
 
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GeneralName(int32_t tag, ::StringW name) ;
+static Org::BouncyCastle::Asn1::X509::GeneralName New_ctor(int32_t tag, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x1103c94 size 0x23c virtual false final false
  void _ctor(int32_t tag, ::StringW name) ;

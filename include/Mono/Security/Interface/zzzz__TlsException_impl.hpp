@@ -43,8 +43,10 @@ constexpr void Mono::Security::Interface::TlsException::__set_alert(Mono::Securi
 constexpr Mono::Security::Interface::Alert Mono::Security::Interface::TlsException::__get_alert() const {
 return ::cordl_internals::getInstanceField<Mono::Security::Interface::Alert, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "alert", ty: "Mono::Security::Interface::Alert", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Mono::Security::Interface::TlsException::TlsException(Mono::Security::Interface::Alert alert, ::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<TlsException>(alert, message))) {}
+ Mono::Security::Interface::TlsException Mono::Security::Interface::TlsException::New_ctor(Mono::Security::Interface::Alert alert, ::StringW message)  {
+Mono::Security::Interface::TlsException o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::TlsException>(alert, message))};
+return o;
+}
  void Mono::Security::Interface::TlsException::_ctor(Mono::Security::Interface::Alert alert, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::TlsException>::get(),
@@ -54,8 +56,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, alert, message);
 }
-// Ctor Parameters [CppParam { name: "description", ty: "Mono::Security::Interface::AlertDescription", modifiers: "", def_value: None }, CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Mono::Security::Interface::TlsException::TlsException(Mono::Security::Interface::AlertDescription description, ::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<TlsException>(description, message))) {}
+ Mono::Security::Interface::TlsException Mono::Security::Interface::TlsException::New_ctor(Mono::Security::Interface::AlertDescription description, ::StringW message)  {
+Mono::Security::Interface::TlsException o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Interface::TlsException>(description, message))};
+return o;
+}
  void Mono::Security::Interface::TlsException::_ctor(Mono::Security::Interface::AlertDescription description, ::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Interface::TlsException>::get(),

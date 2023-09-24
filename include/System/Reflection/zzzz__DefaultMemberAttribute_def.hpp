@@ -62,8 +62,7 @@ constexpr ::StringW __get__MemberName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "memberName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DefaultMemberAttribute(::StringW memberName) ;
+static System::Reflection::DefaultMemberAttribute New_ctor(::StringW memberName) ;
 
 /// @brief Method .ctor addr 0x2379110 size 0x28 virtual false final false
  void _ctor(::StringW memberName) ;

@@ -5,6 +5,12 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+}
+namespace GlobalNamespace {
 class MockPlayersModel;
 }
 // Forward declare root types
@@ -68,6 +74,8 @@ __MultiSceneEditor = 3,
 constexpr operator __GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -170,8 +178,7 @@ constexpr GlobalNamespace::MockPlayersModel __get__overrideMockPlayersModel_k__B
 /// @brief Method set_overrideMockPlayersModel addr 0x21cfcb4 size 0x8 virtual false final false
  void set_overrideMockPlayersModel(GlobalNamespace::MockPlayersModel value) ;
 
-// Ctor Parameters [CppParam { name: "appInitOverrideStartType", ty: "GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType", modifiers: "", def_value: None }, CppParam { name: "overrideMockPlayersModel", ty: "GlobalNamespace::MockPlayersModel", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel overrideMockPlayersModel) ;
+static GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData New_ctor(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel overrideMockPlayersModel) ;
 
 /// @brief Method .ctor addr 0x21cfb70 size 0x30 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel overrideMockPlayersModel) ;
@@ -235,8 +242,7 @@ constexpr explicit AppInitScenesTransitionSetupDataSO(void* ptr) noexcept : Glob
 /// @brief Method __Init addr 0x21cfc14 size 0x80 virtual false final false
  void __Init(GlobalNamespace::GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType, GlobalNamespace::MockPlayersModel mockPlayersModel) ;
 
-// Ctor Parameters []
-explicit AppInitScenesTransitionSetupDataSO() ;
+static GlobalNamespace::AppInitScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21cfc94 size 0x8 virtual false final false
  void _ctor() ;

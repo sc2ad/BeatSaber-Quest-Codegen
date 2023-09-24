@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
-namespace UnityEngine {
-struct Color;
-}
 namespace Ice {
 class NoteCutFloorLightStreakTileEffectSpawner;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace Ice {
@@ -65,8 +65,7 @@ constexpr Ice::NoteCutFloorLightStreakTileEffectSpawner __get__noteCutFloorLight
 /// @brief Method ColorWasSet addr 0x1211dc4 size 0x20 virtual true final false
  void ColorWasSet(UnityEngine::Color color) ;
 
-// Ctor Parameters []
-explicit NoteCutFloorLightStreakTileEffectSpawnerLightWithId() ;
+static Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId New_ctor() ;
 
 /// @brief Method .ctor addr 0x1211de4 size 0x1008 virtual false final false
  void _ctor() ;

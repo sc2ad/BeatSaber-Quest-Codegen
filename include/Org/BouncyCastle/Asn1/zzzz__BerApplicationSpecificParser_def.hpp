@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1ApplicationSpecificParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1StreamParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -81,8 +81,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1StreamParser __get_parser() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
-explicit BerApplicationSpecificParser(int32_t tag, Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
+static Org::BouncyCastle::Asn1::BerApplicationSpecificParser New_ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;
 
 /// @brief Method .ctor addr 0x112b268 size 0x30 virtual false final false
  void _ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1StreamParser parser) ;

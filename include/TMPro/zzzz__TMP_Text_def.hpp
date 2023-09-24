@@ -8,35 +8,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace TMPro {
-struct VertexGradient;
+namespace UnityEngine::UI {
+class LayoutElement;
+}
+namespace System {
+struct Decimal;
 }
 namespace TMPro {
-class TMP_FontAsset;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace TMPro {
-class TMP_Style;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace TMPro {
-struct WordWrapState;
-}
-namespace TMPro {
-struct TMP_FontStyleStack;
-}
-namespace TMPro {
-class ITextPreprocessor;
+struct FontWeight;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -44,78 +23,13 @@ struct Vector3;
 namespace TMPro {
 struct TextOverflowModes;
 }
-namespace UnityEngine {
-class RectTransform;
-}
-namespace TMPro {
-struct TMP_VertexDataUpdateFlags;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace TMPro {
-struct ColorMode;
-}
-namespace TMPro {
-class TMP_StyleSheet;
-}
-namespace TMPro {
-struct TextRenderFlags;
-}
-namespace UnityEngine::UI {
-class LayoutElement;
-}
-namespace TMPro {
-struct VerticalAlignmentOptions;
-}
-namespace TMPro {
-struct MaterialReference;
-}
-namespace TMPro {
-class TMP_SpriteAsset;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
-namespace TMPro {
-struct Extents;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace TMPro {
-struct TextAlignmentOptions;
-}
-namespace TMPro {
-struct RichTextTagAttribute;
-}
-namespace TMPro {
-struct HighlightState;
-}
-namespace UnityEngine {
-struct Color32;
-}
-namespace TMPro {
-struct TMP_TextElementType;
+namespace System {
+template<typename T1,typename T2,typename TResult>
+class Func_3;
 }
 namespace System {
-struct Decimal;
-}
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace TMPro {
-struct FontStyles;
+template<typename T>
+class Action_1;
 }
 namespace TMPro {
 class TMP_ColorGradient;
@@ -125,39 +39,143 @@ template<typename T>
 struct TMP_TextProcessingStack_1;
 }
 namespace TMPro {
-struct VertexSortingOrder;
-}
-namespace System {
-template<typename T>
-class Action_1;
+struct TextAlignmentOptions;
 }
 namespace TMPro {
-struct TMP_CharacterInfo;
+struct MaterialReference;
 }
 namespace TMPro {
-class TMP_TextInfo;
+struct VerticalAlignmentOptions;
+}
+namespace TMPro {
+struct TMPro__TMP_Text__TextInputSources;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace TMPro {
-struct FontWeight;
-}
-namespace TMPro {
-struct TextureMappingOptions;
-}
-namespace System {
-template<typename T1,typename T2,typename TResult>
-class Func_3;
+struct Vector4;
 }
 namespace TMPro {
 class TMP_TextElement;
 }
 namespace TMPro {
+struct TMPro__TMP_Text__SpecialCharacter;
+}
+namespace TMPro {
+struct RichTextTagAttribute;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+struct Color32;
+}
+namespace TMPro {
+class TMP_Style;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace TMPro {
+struct Extents;
+}
+namespace TMPro {
 class TMP_SpriteAnimator;
+}
+namespace TMPro {
+struct HorizontalAlignmentOptions;
+}
+namespace TMPro {
+struct TMPro__TMP_Text__CharacterSubstitution;
+}
+namespace TMPro {
+struct TMPro__TMP_Text__TextBackingContainer;
+}
+namespace TMPro {
+struct TextureMappingOptions;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace TMPro {
+class ITextPreprocessor;
+}
+namespace TMPro {
+struct WordWrapState;
+}
+namespace TMPro {
+struct VertexGradient;
+}
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+struct HighlightState;
+}
+namespace TMPro {
+class TMPro__TMP_Text____c;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace TMPro {
+struct TextRenderFlags;
+}
+namespace TMPro {
+struct VertexSortingOrder;
+}
+namespace TMPro {
+struct FontStyles;
+}
+namespace TMPro {
+struct ColorMode;
+}
+namespace TMPro {
+class TMP_SpriteAsset;
+}
+namespace TMPro {
+class TMP_TextInfo;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace TMPro {
+struct TMP_TextElementType;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
+namespace UnityEngine {
+struct Bounds;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace TMPro {
+struct TMP_CharacterInfo;
+}
+namespace TMPro {
+struct TMP_VertexDataUpdateFlags;
+}
+namespace TMPro {
+struct TMP_FontStyleStack;
+}
+namespace TMPro {
+struct TMPro__TMP_Text__UnicodeChar;
+}
+namespace System::Text {
+class StringBuilder;
+}
+namespace TMPro {
+class TMP_StyleSheet;
 }
 namespace TMPro {
 class TMP_Character;
@@ -300,6 +318,8 @@ __TextString = 3,
 constexpr operator __TMPro__TMP_Text__TextInputSources_Unwrapped () const noexcept {
 return std::bit_cast<__TMPro__TMP_Text__TextInputSources_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -617,8 +637,7 @@ static System::Action_1<TMPro::TMP_TextInfo> __get___9__622_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__TMP_Text____c() ;
+static TMPro::TMPro__TMP_Text____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab0468 size 0x8 virtual false final false
  void _ctor() ;
@@ -3140,8 +3159,7 @@ template<typename T>
 /// @brief Method ValidateHtmlTag addr 0x2a8fb18 size 0x6080 virtual false final false
  bool ValidateHtmlTag(::ArrayW<TMPro::TMPro__TMP_Text__UnicodeChar> chars, int32_t startIndex, ByRef<int32_t> endIndex) ;
 
-// Ctor Parameters []
-explicit TMP_Text() ;
+static TMPro::TMP_Text New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aa051c size 0xd30 virtual false final false
  void _ctor() ;

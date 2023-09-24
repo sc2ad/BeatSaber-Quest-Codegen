@@ -526,8 +526,10 @@ constexpr void System::Xml::XmlAsyncCheckWriter::__set_lastTask(System::Threadin
 constexpr System::Threading::Tasks::Task System::Xml::XmlAsyncCheckWriter::__get_lastTask() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::Task, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlWriter", modifiers: "", def_value: None }]
- System::Xml::XmlAsyncCheckWriter::XmlAsyncCheckWriter(System::Xml::XmlWriter writer)  : System::Xml::XmlWriter(THROW_UNLESS(::il2cpp_utils::New<XmlAsyncCheckWriter>(writer))) {}
+ System::Xml::XmlAsyncCheckWriter System::Xml::XmlAsyncCheckWriter::New_ctor(System::Xml::XmlWriter writer)  {
+System::Xml::XmlAsyncCheckWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlAsyncCheckWriter>(writer))};
+return o;
+}
  void System::Xml::XmlAsyncCheckWriter::_ctor(System::Xml::XmlWriter writer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlAsyncCheckWriter>::get(),

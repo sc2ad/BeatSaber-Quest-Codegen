@@ -1,13 +1,13 @@
 #pragma once
 #include "HMUI/zzzz__CircleSlider_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorHueSlider_def.hpp"
-#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "System/zzzz__Action_3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
+#include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 #include "HMUI/zzzz__CircleSlider_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
-#include "System/zzzz__Action_3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ColorHueSlider.add_colorHueDidChangeEvent
 template<>
 
@@ -233,8 +233,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, eventData);
 }
-// Ctor Parameters []
- GlobalNamespace::ColorHueSlider::ColorHueSlider()  : HMUI::CircleSlider(THROW_UNLESS(::il2cpp_utils::New<ColorHueSlider>())) {}
+ GlobalNamespace::ColorHueSlider GlobalNamespace::ColorHueSlider::New_ctor()  {
+GlobalNamespace::ColorHueSlider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ColorHueSlider>())};
+return o;
+}
  void GlobalNamespace::ColorHueSlider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ColorHueSlider>::get(),

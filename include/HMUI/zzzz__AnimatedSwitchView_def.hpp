@@ -6,11 +6,20 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+class RectTransform;
+}
 namespace HMUI {
 struct HMUI__ToggleWithCallbacks__SelectionState;
 }
 namespace HMUI {
 class ImageView;
+}
+namespace HMUI {
+struct HMUI__AnimatedSwitchView__AnimationState;
+}
+namespace HMUI {
+class ToggleWithCallbacks;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -19,16 +28,19 @@ namespace UnityEngine {
 struct Color;
 }
 namespace HMUI {
-class ToggleWithCallbacks;
+class HMUI__AnimatedSwitchView__GetColorDelegate;
 }
-namespace UnityEngine {
-class RectTransform;
+namespace HMUI {
+class HMUI__AnimatedSwitchView____c;
 }
-namespace System {
-class AsyncCallback;
+namespace HMUI {
+class HMUI__AnimatedSwitchView__ColorBlock;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace HMUI {
@@ -127,8 +139,7 @@ constexpr UnityEngine::Color __get_backgroundColor1() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__AnimatedSwitchView__ColorBlock() ;
+static HMUI::HMUI__AnimatedSwitchView__ColorBlock New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbc87c size 0x18 virtual false final false
  void _ctor() ;
@@ -191,6 +202,8 @@ __DisablingOff = 32,
 constexpr operator __HMUI__AnimatedSwitchView__AnimationState_Unwrapped () const noexcept {
 return std::bit_cast<__HMUI__AnimatedSwitchView__AnimationState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -268,8 +281,7 @@ constexpr explicit HMUI__AnimatedSwitchView__GetColorDelegate(void* ptr) noexcep
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit HMUI__AnimatedSwitchView__GetColorDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static HMUI::HMUI__AnimatedSwitchView__GetColorDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x1fbc4bc size 0x12c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -374,8 +386,7 @@ static HMUI::HMUI__AnimatedSwitchView__GetColorDelegate __get___9__31_5() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__AnimatedSwitchView____c() ;
+static HMUI::HMUI__AnimatedSwitchView____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbc958 size 0x8 virtual false final false
  void _ctor() ;
@@ -617,8 +628,7 @@ constexpr HMUI::ToggleWithCallbacks __get__toggle() const;
 /// @brief Method HandleStateDidChange addr 0x1fbc7fc size 0x60 virtual false final false
  void HandleStateDidChange(HMUI::HMUI__ToggleWithCallbacks__SelectionState selectionState) ;
 
-// Ctor Parameters []
-explicit AnimatedSwitchView() ;
+static HMUI::AnimatedSwitchView New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbc85c size 0x20 virtual false final false
  void _ctor() ;

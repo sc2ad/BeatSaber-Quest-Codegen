@@ -37,8 +37,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::__set_C(
 constexpr UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::__get_C() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint, 0xa0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "a", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "b", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }, CppParam { name: "c", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::PointOnEdgeException(::StringW message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint c)  : System::NotImplementedException(THROW_UNLESS(::il2cpp_utils::New<PointOnEdgeException>(message, a, b, c))) {}
+ UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::New_ctor(::StringW message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint c)  {
+UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException>(message, a, b, c))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::_ctor(::StringW message, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint a, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint b, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint c)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException>::get(),

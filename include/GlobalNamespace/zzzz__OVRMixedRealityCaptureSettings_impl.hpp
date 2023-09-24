@@ -1,15 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureSettings_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "UnityEngine/zzzz__LayerMask_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::OVRMixedRealityCaptureSettings.OVRMixedRealityCaptureConfiguration_get_enableMixedReality
 template<>
 
@@ -1655,8 +1650,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureSettings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<OVRMixedRealityCaptureSettings>())) {}
+ GlobalNamespace::OVRMixedRealityCaptureSettings GlobalNamespace::OVRMixedRealityCaptureSettings::New_ctor()  {
+GlobalNamespace::OVRMixedRealityCaptureSettings o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRMixedRealityCaptureSettings>())};
+return o;
+}
  void GlobalNamespace::OVRMixedRealityCaptureSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRMixedRealityCaptureSettings>::get(),

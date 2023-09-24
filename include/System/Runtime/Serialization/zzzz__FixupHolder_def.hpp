@@ -69,8 +69,7 @@ constexpr int32_t __get_m_fixupType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "fixupInfo", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "fixupType", ty: "int32_t", modifiers: "", def_value: None }]
-explicit FixupHolder(int64_t id, ::bs_hook::Il2CppWrapperType fixupInfo, int32_t fixupType) ;
+static System::Runtime::Serialization::FixupHolder New_ctor(int64_t id, ::bs_hook::Il2CppWrapperType fixupInfo, int32_t fixupType) ;
 
 /// @brief Method .ctor addr 0x234ff20 size 0x3c virtual false final false
  void _ctor(int64_t id, ::bs_hook::Il2CppWrapperType fixupInfo, int32_t fixupType) ;

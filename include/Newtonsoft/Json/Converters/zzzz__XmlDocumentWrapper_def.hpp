@@ -3,10 +3,10 @@
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Newtonsoft::Json::Converters {
-class IXmlNode;
+class IXmlDocument;
 }
 namespace Newtonsoft::Json::Converters {
-class IXmlDocument;
+class IXmlNode;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlElement;
@@ -80,8 +80,7 @@ constexpr System::Xml::XmlDocument __get__document() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "document", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlDocumentWrapper(System::Xml::XmlDocument document) ;
+static Newtonsoft::Json::Converters::XmlDocumentWrapper New_ctor(System::Xml::XmlDocument document) ;
 
 /// @brief Method .ctor addr 0x2541794 size 0x2c virtual false final false
  void _ctor(System::Xml::XmlDocument document) ;

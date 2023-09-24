@@ -5,31 +5,31 @@
 #include <cmath>
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
-class IConvertible;
-}
-namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System {
 struct Decimal;
 }
 namespace System {
-class IFormatProvider;
+class IConvertible;
 }
 namespace System {
 struct TypeCode;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class IFormatProvider;
 }
 // Forward declare root types
 namespace System {
@@ -92,14 +92,12 @@ static System::DBNull __get_Value() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit DBNull() ;
+static System::DBNull New_ctor() ;
 
 /// @brief Method .ctor addr 0x24201b0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit DBNull(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::DBNull New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24201b8 size 0x58 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

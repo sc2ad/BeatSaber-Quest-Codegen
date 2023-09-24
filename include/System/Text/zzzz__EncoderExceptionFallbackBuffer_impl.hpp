@@ -103,8 +103,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Sy
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Text::EncoderExceptionFallbackBuffer::EncoderExceptionFallbackBuffer()  : System::Text::EncoderFallbackBuffer(THROW_UNLESS(::il2cpp_utils::New<EncoderExceptionFallbackBuffer>())) {}
+ System::Text::EncoderExceptionFallbackBuffer System::Text::EncoderExceptionFallbackBuffer::New_ctor()  {
+System::Text::EncoderExceptionFallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::EncoderExceptionFallbackBuffer>())};
+return o;
+}
  void System::Text::EncoderExceptionFallbackBuffer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::EncoderExceptionFallbackBuffer>::get(),

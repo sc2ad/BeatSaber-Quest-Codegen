@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__LocalDataStore_def.hpp"
-#include "System/zzzz__LocalDataStoreMgr_def.hpp"
-#include "System/zzzz__LocalDataStoreElement_def.hpp"
 #include "System/zzzz__LocalDataStoreSlot_def.hpp"
+#include "System/zzzz__LocalDataStoreElement_def.hpp"
+#include "System/zzzz__LocalDataStoreMgr_def.hpp"
 //  Writing Method size for method: System::LocalDataStore._ctor
 template<>
 
@@ -117,8 +117,10 @@ constexpr void System::LocalDataStore::__set_m_Manager(System::LocalDataStoreMgr
 constexpr System::LocalDataStoreMgr System::LocalDataStore::__get_m_Manager() const {
 return ::cordl_internals::getInstanceField<System::LocalDataStoreMgr, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mgr", ty: "System::LocalDataStoreMgr", modifiers: "", def_value: None }, CppParam { name: "InitialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
- System::LocalDataStore::LocalDataStore(System::LocalDataStoreMgr mgr, int32_t InitialCapacity)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LocalDataStore>(mgr, InitialCapacity))) {}
+ System::LocalDataStore System::LocalDataStore::New_ctor(System::LocalDataStoreMgr mgr, int32_t InitialCapacity)  {
+System::LocalDataStore o{THROW_UNLESS(::il2cpp_utils::New<System::LocalDataStore>(mgr, InitialCapacity))};
+return o;
+}
  void System::LocalDataStore::_ctor(System::LocalDataStoreMgr mgr, int32_t InitialCapacity)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::LocalDataStore>::get(),

@@ -8,31 +8,37 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-struct LayerMask;
-}
-namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class Shader;
+struct LayerMask;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+struct GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 class Material;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PlaybackRenderer__PlaybackScreenshot;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__PosesRecordingData__ExternalCameraCalibration;
@@ -96,6 +102,8 @@ __Background = 2,
 constexpr operator __GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -235,8 +243,7 @@ constexpr UnityEngine::Color __get__backgroundColor() const;
 /// @brief Method get_backgroundColor addr 0x21a600c size 0xc virtual false final false
  UnityEngine::Color get_backgroundColor() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty: "UnityEngine::LayerMask", modifiers: "", def_value: None }, CppParam { name: "type", ty: "GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type", modifiers: "", def_value: None }, CppParam { name: "backgroundColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit GlobalNamespace__PlaybackRenderer__PlaybackScreenshot(::StringW name, UnityEngine::LayerMask layerMask, GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type type, UnityEngine::Color backgroundColor) ;
+static GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot New_ctor(::StringW name, UnityEngine::LayerMask layerMask, GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type type, UnityEngine::Color backgroundColor) ;
 
 /// @brief Method .ctor addr 0x21a6018 size 0x68 virtual false final false
  void _ctor(::StringW name, UnityEngine::LayerMask layerMask, GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackScreenshot__Type type, UnityEngine::Color backgroundColor) ;
@@ -390,8 +397,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__PlaybackRenderer__PlaybackS
 /// @brief Method LateUpdate addr 0x21a5f30 size 0xa4 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit PlaybackRenderer() ;
+static GlobalNamespace::PlaybackRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a5fd4 size 0x8 virtual false final false
  void _ctor() ;

@@ -58,8 +58,7 @@ constexpr ::ArrayW<::StringW> __get__transformNames() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "transformNames", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }]
-explicit TupleElementNamesAttribute(::ArrayW<::StringW> transformNames) ;
+static System::Runtime::CompilerServices::TupleElementNamesAttribute New_ctor(::ArrayW<::StringW> transformNames) ;
 
 /// @brief Method .ctor addr 0x236e3d8 size 0x78 virtual false final false
  void _ctor(::ArrayW<::StringW> transformNames) ;

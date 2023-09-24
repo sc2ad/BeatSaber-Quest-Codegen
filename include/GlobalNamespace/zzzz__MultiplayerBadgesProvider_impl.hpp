@@ -2,10 +2,11 @@
 #include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgesModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c._ctor
 template<>
 
@@ -75,8 +76,10 @@ return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::Multipl
  System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,int32_t> GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c::__get___9__7_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,int32_t>, "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c::GlobalNamespace__MultiplayerBadgesProvider____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MultiplayerBadgesProvider____c>())) {}
+ GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c>::get(),
@@ -165,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playerResults);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerBadgesProvider::MultiplayerBadgesProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MultiplayerBadgesProvider>())) {}
+ GlobalNamespace::MultiplayerBadgesProvider GlobalNamespace::MultiplayerBadgesProvider::New_ctor()  {
+GlobalNamespace::MultiplayerBadgesProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerBadgesProvider>())};
+return o;
+}
  void GlobalNamespace::MultiplayerBadgesProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerBadgesProvider>::get(),

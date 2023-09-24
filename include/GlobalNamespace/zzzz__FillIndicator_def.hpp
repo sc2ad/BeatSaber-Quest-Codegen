@@ -77,8 +77,7 @@ constexpr UnityEngine::UI::Image __get__image() const;
 /// @brief Method get_fillAmount addr 0x2122f08 size 0x1c virtual false final false
  float_t get_fillAmount() ;
 
-// Ctor Parameters []
-explicit FillIndicator() ;
+static GlobalNamespace::FillIndicator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2122f24 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,5 +1,6 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__FontFeatureTable_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__FontFeatureTable_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphPairAdjustmentRecord_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -73,8 +74,10 @@ return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::TextCore::L
  System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t> UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c::__get___9__6_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord,uint32_t>, "<>9__6_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c::UnityEngine__TextCore__Text__FontFeatureTable____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__TextCore__Text__FontFeatureTable____c>())) {}
+ UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c::New_ctor()  {
+UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c>())};
+return o;
+}
  void UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::UnityEngine__TextCore__Text__FontFeatureTable____c>::get(),
@@ -174,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::FontFeatureTable::FontFeatureTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<FontFeatureTable>())) {}
+ UnityEngine::TextCore::Text::FontFeatureTable UnityEngine::TextCore::Text::FontFeatureTable::New_ctor()  {
+UnityEngine::TextCore::Text::FontFeatureTable o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::FontFeatureTable>())};
+return o;
+}
  void UnityEngine::TextCore::Text::FontFeatureTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::FontFeatureTable>::get(),

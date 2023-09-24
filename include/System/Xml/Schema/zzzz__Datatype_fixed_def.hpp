@@ -7,11 +7,11 @@
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System {
-class Exception;
-}
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -65,8 +65,7 @@ constexpr explicit Datatype_fixed(void* ptr) noexcept : System::Xml::Schema::Dat
 /// @brief Method TryParseValue addr 0x272c480 size 0x158 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_fixed() ;
+static System::Xml::Schema::Datatype_fixed New_ctor() ;
 
 /// @brief Method .ctor addr 0x272c5d8 size 0x54 virtual false final false
  void _ctor() ;

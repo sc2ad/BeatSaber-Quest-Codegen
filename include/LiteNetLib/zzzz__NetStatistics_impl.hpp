@@ -411,8 +411,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- LiteNetLib::NetStatistics::NetStatistics()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetStatistics>())) {}
+ LiteNetLib::NetStatistics LiteNetLib::NetStatistics::New_ctor()  {
+LiteNetLib::NetStatistics o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::NetStatistics>())};
+return o;
+}
  void LiteNetLib::NetStatistics::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::NetStatistics>::get(),

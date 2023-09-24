@@ -6,6 +6,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Net {
+struct System__Net__CookieTokenizer__RecognizedAttribute;
+}
+namespace System::Net {
 struct CookieToken;
 }
 // Forward declare root types
@@ -225,8 +228,7 @@ static ::ArrayW<System::Net::System__Net__CookieTokenizer__RecognizedAttribute> 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tokenStream", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CookieTokenizer(::StringW tokenStream) ;
+static System::Net::CookieTokenizer New_ctor(::StringW tokenStream) ;
 
 /// @brief Method .ctor addr 0x281b544 size 0x38 virtual false final false
  void _ctor(::StringW tokenStream) ;

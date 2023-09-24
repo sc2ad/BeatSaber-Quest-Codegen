@@ -2,23 +2,23 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Collections {
+class IDictionary;
+}
+namespace System {
+class Type;
+}
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Type;
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -87,8 +87,7 @@ static ::bs_hook::Il2CppWrapperType RequireNext(System::Collections::IEnumerator
 /// @brief Method ToString addr 0x10cb530 size 0x30c virtual false final false
 static ::StringW ToString(System::Collections::IEnumerable c) ;
 
-// Ctor Parameters []
-explicit CollectionUtilities() ;
+static Org::BouncyCastle::Utilities::Collections::CollectionUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x10cb83c size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/zzzz__SemVer_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::SemVer.get_major
 template<>
 
@@ -605,8 +605,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ProBuilder::SemVer, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::SemVer::SemVer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SemVer>())) {}
+ UnityEngine::ProBuilder::SemVer UnityEngine::ProBuilder::SemVer::New_ctor()  {
+UnityEngine::ProBuilder::SemVer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SemVer>())};
+return o;
+}
  void UnityEngine::ProBuilder::SemVer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::SemVer>::get(),
@@ -616,8 +618,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "formatted", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "date", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ProBuilder::SemVer::SemVer(::StringW formatted, ::StringW date)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SemVer>(formatted, date))) {}
+/// @param date: ::StringW (default: csnull)
+ UnityEngine::ProBuilder::SemVer UnityEngine::ProBuilder::SemVer::New_ctor(::StringW formatted, ::StringW date)  {
+UnityEngine::ProBuilder::SemVer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SemVer>(formatted, date))};
+return o;
+}
 /// @param date: ::StringW (default: csnull)
  void UnityEngine::ProBuilder::SemVer::_ctor(::StringW formatted, ::StringW date)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -628,8 +633,14 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, formatted, date);
 }
-// Ctor Parameters [CppParam { name: "major", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "patch", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "int32_t", modifiers: "", def_value: Some("-1") }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "date", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "metadata", ty: "::StringW", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::ProBuilder::SemVer::SemVer(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SemVer>(major, minor, patch, build, type, date, metadata))) {}
+/// @param build: int32_t (default: -1)
+/// @param type: ::StringW (default: csnull)
+/// @param date: ::StringW (default: csnull)
+/// @param metadata: ::StringW (default: csnull)
+ UnityEngine::ProBuilder::SemVer UnityEngine::ProBuilder::SemVer::New_ctor(int32_t major, int32_t minor, int32_t patch, int32_t build, ::StringW type, ::StringW date, ::StringW metadata)  {
+UnityEngine::ProBuilder::SemVer o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::SemVer>(major, minor, patch, build, type, date, metadata))};
+return o;
+}
 /// @param build: int32_t (default: -1)
 /// @param type: ::StringW (default: csnull)
 /// @param date: ::StringW (default: csnull)

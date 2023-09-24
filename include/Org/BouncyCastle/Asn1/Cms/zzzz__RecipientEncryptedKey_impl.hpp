@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientEncryptedKey_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientIdentifier_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey._ctor
 template<>
@@ -137,8 +137,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::__set_encryp
 constexpr Org::BouncyCastle::Asn1::Asn1OctetString Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::__get_encryptedKey() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1OctetString, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::RecipientEncryptedKey(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientEncryptedKey>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey>::get(),
@@ -166,8 +168,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedKey", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::RecipientEncryptedKey(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier id, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<RecipientEncryptedKey>(id, encryptedKey))) {}
+ Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::New_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier id, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey)  {
+Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey>(id, encryptedKey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::_ctor(Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier id, Org::BouncyCastle::Asn1::Asn1OctetString encryptedKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey>::get(),

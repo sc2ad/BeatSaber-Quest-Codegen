@@ -1,6 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SecureRandomProvider_def.hpp"
 #include "System/Security/Cryptography/zzzz__RNGCryptoServiceProvider_def.hpp"
+#include "GlobalNamespace/zzzz__SecureRandomProvider_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState.GetBytes
 template<>
 
@@ -120,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState::GlobalNamespace__SecureRandomProvider__SecureRandomState()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SecureRandomProvider__SecureRandomState>())) {}
+ GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SecureRandomProvider__SecureRandomState>::get(),

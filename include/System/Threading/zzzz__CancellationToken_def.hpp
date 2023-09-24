@@ -4,17 +4,20 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Threading {
-class CancellationTokenSource;
+class System__Threading__CancellationToken____c;
+}
+namespace System::Threading {
+struct CancellationTokenRegistration;
 }
 namespace System {
 class Action;
 }
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace System::Threading {
-struct CancellationTokenRegistration;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -74,8 +77,7 @@ static System::Threading::System__Threading__CancellationToken____c __get___9() 
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__CancellationToken____c() ;
+static System::Threading::System__Threading__CancellationToken____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24a38ac size 0x8 virtual false final false
  void _ctor() ;

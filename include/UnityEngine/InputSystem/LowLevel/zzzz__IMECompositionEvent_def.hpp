@@ -5,6 +5,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem::LowLevel {
+struct IMECompositionString;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
@@ -12,9 +15,6 @@ struct InputEvent;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct IMECompositionString;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

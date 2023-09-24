@@ -13,7 +13,7 @@ class MessageWithUserDataStoreUpdateResponse;
 // Type: Oculus.Platform::MessageWithUserDataStoreUpdateResponse
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13486)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4478 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4478 }), TypeDefinitionIndex(TypeDefinitionIndex(13486)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13287))
 // CS Name: Oculus.Platform.MessageWithUserDataStoreUpdateResponse
 class CORDL_TYPE MessageWithUserDataStoreUpdateResponse : public Oculus::Platform::Message_1<Oculus::Platform::Models::UserDataStoreUpdateResponse> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithUserDataStoreUpdateResponse(void* ptr) noexcept : 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithUserDataStoreUpdateResponse(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithUserDataStoreUpdateResponse New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257f500 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

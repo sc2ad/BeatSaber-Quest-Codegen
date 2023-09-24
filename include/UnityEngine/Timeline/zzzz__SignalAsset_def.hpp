@@ -69,8 +69,7 @@ static void remove_OnEnableCallback(System::Action_1<UnityEngine::Timeline::Sign
 /// @brief Method OnEnable addr 0x2ad05a0 size 0x6c virtual false final false
  void OnEnable() ;
 
-// Ctor Parameters []
-explicit SignalAsset() ;
+static UnityEngine::Timeline::SignalAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ad060c size 0x8 virtual false final false
  void _ctor() ;

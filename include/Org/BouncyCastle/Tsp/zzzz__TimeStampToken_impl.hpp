@@ -1,17 +1,18 @@
 #pragma once
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__IssuerSerial_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertID_def.hpp"
-#include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertIDv2_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
-#include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertIDv2_def.hpp"
+#include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertID_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__IssuerSerial_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformation_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
+#include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenInfo_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedData_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID._ctor
 template<>
 
@@ -126,8 +127,10 @@ constexpr void Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__C
 constexpr Org::BouncyCastle::Asn1::Ess::EssCertIDv2 Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::__get_certIDv2() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Ess::EssCertIDv2, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "certID", ty: "Org::BouncyCastle::Asn1::Ess::EssCertID", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::Org__BouncyCastle__Tsp__TimeStampToken__CertID(Org::BouncyCastle::Asn1::Ess::EssCertID certID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Tsp__TimeStampToken__CertID>(certID))) {}
+ Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::New_ctor(Org::BouncyCastle::Asn1::Ess::EssCertID certID)  {
+Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID>(certID))};
+return o;
+}
  void Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::_ctor(Org::BouncyCastle::Asn1::Ess::EssCertID certID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID>::get(),
@@ -137,8 +140,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, certID);
 }
-// Ctor Parameters [CppParam { name: "certID", ty: "Org::BouncyCastle::Asn1::Ess::EssCertIDv2", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::Org__BouncyCastle__Tsp__TimeStampToken__CertID(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 certID)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Tsp__TimeStampToken__CertID>(certID))) {}
+ Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::New_ctor(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 certID)  {
+Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID>(certID))};
+return o;
+}
  void Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID::_ctor(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 certID)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID>::get(),
@@ -429,8 +434,10 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampToken::__set_certID(Org::BouncyC
 constexpr Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID Org::BouncyCastle::Tsp::TimeStampToken::__get_certID() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampToken::TimeStampToken(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampToken>(contentInfo))) {}
+ Org::BouncyCastle::Tsp::TimeStampToken Org::BouncyCastle::Tsp::TimeStampToken::New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
+Org::BouncyCastle::Tsp::TimeStampToken o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampToken>(contentInfo))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampToken::_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampToken>::get(),
@@ -440,8 +447,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, contentInfo);
 }
-// Ctor Parameters [CppParam { name: "signedData", ty: "Org::BouncyCastle::Cms::CmsSignedData", modifiers: "", def_value: None }]
- Org::BouncyCastle::Tsp::TimeStampToken::TimeStampToken(Org::BouncyCastle::Cms::CmsSignedData signedData)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TimeStampToken>(signedData))) {}
+ Org::BouncyCastle::Tsp::TimeStampToken Org::BouncyCastle::Tsp::TimeStampToken::New_ctor(Org::BouncyCastle::Cms::CmsSignedData signedData)  {
+Org::BouncyCastle::Tsp::TimeStampToken o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Tsp::TimeStampToken>(signedData))};
+return o;
+}
  void Org::BouncyCastle::Tsp::TimeStampToken::_ctor(Org::BouncyCastle::Cms::CmsSignedData signedData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Tsp::TimeStampToken>::get(),

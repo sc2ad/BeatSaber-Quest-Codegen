@@ -62,8 +62,7 @@ constexpr UnityEngine::Animation __get__animation() const;
 /// @brief Method Start addr 0x1f799f4 size 0x2e4 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit RandomAnimationStartTime() ;
+static GlobalNamespace::RandomAnimationStartTime New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f79cd8 size 0x8 virtual false final false
  void _ctor() ;

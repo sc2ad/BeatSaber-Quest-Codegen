@@ -57,8 +57,7 @@ constexpr ::StringW __get__val() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "guid", ty: "::StringW", modifiers: "", def_value: None }]
-explicit GuidAttribute(::StringW guid) ;
+static System::Runtime::InteropServices::GuidAttribute New_ctor(::StringW guid) ;
 
 /// @brief Method .ctor addr 0x236ac70 size 0x28 virtual false final false
  void _ctor(::StringW guid) ;

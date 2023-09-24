@@ -5,6 +5,9 @@
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System::Threading::Tasks {
+class System__Threading__Tasks__ThreadPoolTaskScheduler____c;
+}
 namespace System::Threading {
 class ParameterizedThreadStart;
 }
@@ -66,8 +69,7 @@ static System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskSchedul
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Threading__Tasks__ThreadPoolTaskScheduler____c() ;
+static System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bf8c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -137,8 +139,7 @@ static System::Threading::ParameterizedThreadStart __get_s_longRunningThreadWork
 
 // Methods
 
-// Ctor Parameters []
-explicit ThreadPoolTaskScheduler() ;
+static System::Threading::Tasks::ThreadPoolTaskScheduler New_ctor() ;
 
 /// @brief Method .ctor addr 0x24bf47c size 0x58 virtual false final false
  void _ctor() ;

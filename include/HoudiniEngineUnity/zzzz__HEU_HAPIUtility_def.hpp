@@ -7,68 +7,68 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_CookOptions;
-}
-namespace HoudiniEngineUnity {
 class HEU_HoudiniAssetRoot;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeInfo;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_ObjectInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_TransformEuler;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Viewport;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace HoudiniEngineUnity {
-struct HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
+class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_SessionSyncInfo;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_PartType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Viewport;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_HoudiniAsset__HEU_AssetType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_TransformEuler;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_NodeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_CookOptions;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

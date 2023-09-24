@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "TMPro/zzzz__RichTextTagAttribute_def.hpp"
-#include "TMPro/zzzz__TagValueType_def.hpp"
 #include "TMPro/zzzz__TagUnitType_def.hpp"
+#include "TMPro/zzzz__TagValueType_def.hpp"
 // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueType", ty: "TMPro::TagValueType", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unitType", ty: "TMPro::TagUnitType", modifiers: "", def_value: Some("{}") }]
 constexpr TMPro::RichTextTagAttribute::RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, TMPro::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, TMPro::TagUnitType unitType) noexcept : ::bs_hook::ValueTypeWrapper() {this->nameHashCode = nameHashCode;
 this->valueHashCode = valueHashCode;

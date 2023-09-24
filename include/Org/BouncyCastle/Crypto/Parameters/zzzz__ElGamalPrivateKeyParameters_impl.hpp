@@ -94,8 +94,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameter
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::__get_x() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::ElGamalParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::ElGamalPrivateKeyParameters(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  : Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters(THROW_UNLESS(::il2cpp_utils::New<ElGamalPrivateKeyParameters>(x, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::New_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters>(x, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::_ctor(Org::BouncyCastle::Math::BigInteger x, Org::BouncyCastle::Crypto::Parameters::ElGamalParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters>::get(),

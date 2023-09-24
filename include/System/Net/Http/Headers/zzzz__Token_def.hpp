@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace System::Net::Http::Headers {
+struct System__Net__Http__Headers__Token__Type;
+}
 // Forward declare root types
 namespace System::Net::Http::Headers {
 struct System__Net__Http__Headers__Token__Type;
@@ -67,6 +70,8 @@ __OpenParens = 9,
 constexpr operator __System__Net__Http__Headers__Token__Type_Unwrapped () const noexcept {
 return std::bit_cast<__System__Net__Http__Headers__Token__Type_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

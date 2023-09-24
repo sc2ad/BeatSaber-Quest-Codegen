@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Security/Principal/zzzz__IdentityReference_impl.hpp"
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
+#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
 //  Writing Method size for method: System::Security::Principal::SecurityIdentifier._ctor
 template<>
 
@@ -349,8 +349,10 @@ return ::cordl_internals::getStaticField<int32_t, "MaxBinaryLength", ::il2cpp_ut
  int32_t System::Security::Principal::SecurityIdentifier::__get_MinBinaryLength()  {
 return ::cordl_internals::getStaticField<int32_t, "MinBinaryLength", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::SecurityIdentifier>::get>();
 }
-// Ctor Parameters [CppParam { name: "sddlForm", ty: "::StringW", modifiers: "", def_value: None }]
- System::Security::Principal::SecurityIdentifier::SecurityIdentifier(::StringW sddlForm)  : System::Security::Principal::IdentityReference(THROW_UNLESS(::il2cpp_utils::New<SecurityIdentifier>(sddlForm))) {}
+ System::Security::Principal::SecurityIdentifier System::Security::Principal::SecurityIdentifier::New_ctor(::StringW sddlForm)  {
+System::Security::Principal::SecurityIdentifier o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::SecurityIdentifier>(sddlForm))};
+return o;
+}
  void System::Security::Principal::SecurityIdentifier::_ctor(::StringW sddlForm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::SecurityIdentifier>::get(),
@@ -360,8 +362,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sddlForm);
 }
-// Ctor Parameters [CppParam { name: "binaryForm", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- System::Security::Principal::SecurityIdentifier::SecurityIdentifier(::ArrayW<uint8_t> binaryForm, int32_t offset)  : System::Security::Principal::IdentityReference(THROW_UNLESS(::il2cpp_utils::New<SecurityIdentifier>(binaryForm, offset))) {}
+ System::Security::Principal::SecurityIdentifier System::Security::Principal::SecurityIdentifier::New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
+System::Security::Principal::SecurityIdentifier o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Principal::SecurityIdentifier>(binaryForm, offset))};
+return o;
+}
  void System::Security::Principal::SecurityIdentifier::_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Principal::SecurityIdentifier>::get(),

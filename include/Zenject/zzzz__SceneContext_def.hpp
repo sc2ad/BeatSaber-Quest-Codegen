@@ -4,25 +4,36 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Zenject {
-class DiContainer;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace Zenject {
+class Zenject__SceneContext____c__DisplayClass49_0;
+}
+namespace Zenject {
+class Zenject__SceneContext____c;
+}
+namespace Zenject {
+class Zenject__SceneContext____c__DisplayClass51_0;
 }
 namespace System {
-template<typename T>
-class Action_1;
+class Action;
+}
+namespace Zenject {
+class SceneDecoratorContext;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -31,18 +42,16 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace Zenject {
-class SceneDecoratorContext;
-}
-namespace UnityEngine::Events {
-class UnityEvent;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 // Forward declare root types
 namespace Zenject {
@@ -114,8 +123,7 @@ constexpr System::Func_2<::StringW,bool> __get___9__4() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SceneContext____c__DisplayClass49_0() ;
+static Zenject::Zenject__SceneContext____c__DisplayClass49_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d79480 size 0x8 virtual false final false
  void _ctor() ;
@@ -217,8 +225,7 @@ static System::Func_2<UnityEngine::GameObject,System::Collections::Generic::IEnu
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SceneContext____c() ;
+static Zenject::Zenject__SceneContext____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7a934 size 0x8 virtual false final false
  void _ctor() ;
@@ -299,8 +306,7 @@ constexpr System::Collections::Generic::IEnumerable_1<Zenject::DiContainer> __ge
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__SceneContext____c__DisplayClass51_0() ;
+static Zenject::Zenject__SceneContext____c__DisplayClass51_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d79798 size 0x8 virtual false final false
  void _ctor() ;
@@ -593,8 +599,7 @@ constexpr bool __get__hasResolved() const;
 /// @brief Method Create addr 0x2d7a200 size 0xb0 virtual false final false
 static Zenject::SceneContext Create() ;
 
-// Ctor Parameters []
-explicit SceneContext() ;
+static Zenject::SceneContext New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d7a2b0 size 0x10c virtual false final false
  void _ctor() ;

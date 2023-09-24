@@ -47,8 +47,7 @@ constexpr explicit Datatype_dateTime(void* ptr) noexcept : System::Xml::Schema::
 
 // Methods
 
-// Ctor Parameters []
-explicit Datatype_dateTime() ;
+static System::Xml::Schema::Datatype_dateTime New_ctor() ;
 
 /// @brief Method .ctor addr 0x2726518 size 0x58 virtual false final false
  void _ctor() ;

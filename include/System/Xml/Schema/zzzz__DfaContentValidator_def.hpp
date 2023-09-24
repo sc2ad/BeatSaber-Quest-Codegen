@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
-struct XmlSchemaContentType;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+struct XmlSchemaContentType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -70,8 +70,7 @@ constexpr System::Xml::Schema::SymbolsDictionary __get_symbols() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "transitionTable", ty: "::ArrayW<::ArrayW<int32_t>>", modifiers: "", def_value: None }, CppParam { name: "symbols", ty: "System::Xml::Schema::SymbolsDictionary", modifiers: "", def_value: None }, CppParam { name: "contentType", ty: "System::Xml::Schema::XmlSchemaContentType", modifiers: "", def_value: None }, CppParam { name: "isOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isEmptiable", ty: "bool", modifiers: "", def_value: None }]
-explicit DfaContentValidator(::ArrayW<::ArrayW<int32_t>> transitionTable, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;
+static System::Xml::Schema::DfaContentValidator New_ctor(::ArrayW<::ArrayW<int32_t>> transitionTable, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;
 
 /// @brief Method .ctor addr 0x271d0a4 size 0xa0 virtual false final false
  void _ctor(::ArrayW<::ArrayW<int32_t>> transitionTable, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable) ;

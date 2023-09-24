@@ -75,8 +75,7 @@ constexpr int32_t __get__priority() const;
 /// @brief Method get_Priority addr 0x20549f8 size 0x8 virtual false final false
  int32_t get_Priority() ;
 
-// Ctor Parameters [CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HEU_InputInterface(int32_t priority) ;
+static HoudiniEngineUnity::HEU_InputInterface New_ctor(int32_t priority) ;
 
 /// @brief Method .ctor addr 0x2054a00 size 0x28 virtual false final false
  void _ctor(int32_t priority) ;

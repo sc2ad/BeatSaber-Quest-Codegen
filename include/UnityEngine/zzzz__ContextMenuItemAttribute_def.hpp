@@ -63,8 +63,7 @@ constexpr ::StringW __get_function() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "function", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ContextMenuItemAttribute(::StringW name, ::StringW function) ;
+static UnityEngine::ContextMenuItemAttribute New_ctor(::StringW name, ::StringW function) ;
 
 /// @brief Method .ctor addr 0x2b54db8 size 0x2c virtual false final false
  void _ctor(::StringW name, ::StringW function) ;

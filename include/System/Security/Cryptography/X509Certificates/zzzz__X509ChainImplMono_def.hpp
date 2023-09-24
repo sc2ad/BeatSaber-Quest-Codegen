@@ -4,50 +4,50 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
-}
 namespace Mono::Security::X509 {
-class X509Extension;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Store;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElement;
+class X509Crl;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+class X509ChainElementCollection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
-namespace Mono::Security::X509 {
-class X509Crl;
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElement;
 }
 namespace Mono::Security::X509 {
-class X509Store;
+class X509Extension;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
 }
 namespace Mono::Security::X509 {
 class Mono__Security__X509__X509Crl__X509CrlEntry;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct StoreLocation;
+}
+namespace Mono::Security::X509 {
+class X509Store;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainPolicy;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Store;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatus;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ChainStatusFlags;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -219,8 +219,7 @@ constexpr System::Security::Cryptography::X509Certificates::X509Certificate2Coll
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "useMachineContext", ty: "bool", modifiers: "", def_value: None }]
-explicit X509ChainImplMono(bool useMachineContext) ;
+static System::Security::Cryptography::X509Certificates::X509ChainImplMono New_ctor(bool useMachineContext) ;
 
 /// @brief Method .ctor addr 0x27ee310 size 0xb8 virtual false final false
  void _ctor(bool useMachineContext) ;

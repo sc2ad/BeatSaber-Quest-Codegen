@@ -3,40 +3,61 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine::Yoga {
-class MeasureFunction;
+struct YogaAlign;
+}
+namespace UnityEngine::Yoga {
+class YogaConfig;
 }
 namespace UnityEngine::Yoga {
 struct YogaOverflow;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaWrap;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace UnityEngine::Yoga {
 class BaselineFunction;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IEnumerable_1;
+}
+namespace UnityEngine::Yoga {
+struct YogaMeasureMode;
+}
+namespace UnityEngine::Yoga {
+struct YogaSize;
+}
+namespace System {
+class WeakReference;
+}
+namespace UnityEngine::Yoga {
+class MeasureFunction;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::Yoga {
+struct YogaJustify;
+}
+namespace UnityEngine::Yoga {
+struct YogaFlexDirection;
+}
+namespace UnityEngine::Yoga {
+struct YogaPositionType;
 }
 namespace UnityEngine::Yoga {
 struct YogaValue;
 }
 namespace UnityEngine::Yoga {
-struct YogaAlign;
+struct YogaWrap;
 }
 namespace UnityEngine::Yoga {
 struct YogaEdge;
 }
 namespace UnityEngine::Yoga {
-struct YogaSize;
+struct YogaDisplay;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -44,27 +65,6 @@ class IEnumerator;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace UnityEngine::Yoga {
-class YogaConfig;
-}
-namespace UnityEngine::Yoga {
-struct YogaDisplay;
-}
-namespace UnityEngine::Yoga {
-struct YogaPositionType;
-}
-namespace System {
-class WeakReference;
-}
-namespace UnityEngine::Yoga {
-struct YogaFlexDirection;
-}
-namespace UnityEngine::Yoga {
-struct YogaJustify;
-}
-namespace UnityEngine::Yoga {
-struct YogaMeasureMode;
 }
 // Forward declare root types
 namespace UnityEngine::Yoga {
@@ -377,8 +377,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__data() const;
 /// @brief Method get_LayoutBorderBottom addr 0x2d2b6ec size 0x40 virtual false final false
  float_t get_LayoutBorderBottom() ;
 
-// Ctor Parameters [CppParam { name: "config", ty: "UnityEngine::Yoga::YogaConfig", modifiers: "", def_value: None }]
-explicit YogaNode(UnityEngine::Yoga::YogaConfig config) ;
+static UnityEngine::Yoga::YogaNode New_ctor(UnityEngine::Yoga::YogaConfig config) ;
 
 /// @brief Method .ctor addr 0x2d2b72c size 0x130 virtual false final false
  void _ctor(UnityEngine::Yoga::YogaConfig config) ;

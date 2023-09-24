@@ -61,8 +61,7 @@ constexpr explicit DynamicBonePlaneCollider(void* ptr) noexcept : GlobalNamespac
 /// @brief Method OnDrawGizmosSelected addr 0x11a67e4 size 0x160 virtual false final false
  void OnDrawGizmosSelected() ;
 
-// Ctor Parameters []
-explicit DynamicBonePlaneCollider() ;
+static GlobalNamespace::DynamicBonePlaneCollider New_ctor() ;
 
 /// @brief Method .ctor addr 0x11a6944 size 0x4 virtual false final false
  void _ctor() ;

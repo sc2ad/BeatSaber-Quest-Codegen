@@ -75,8 +75,7 @@ constexpr ::ArrayW<uint8_t> __get_sBox() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::ICipherParameters", modifiers: "", def_value: None }, CppParam { name: "sBox", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ParametersWithSBox(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> sBox) ;
+static Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox New_ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> sBox) ;
 
 /// @brief Method .ctor addr 0xeab22c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::ICipherParameters parameters, ::ArrayW<uint8_t> sBox) ;

@@ -3,11 +3,11 @@
 #include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Polyglot {
-struct LanguageDirection;
-}
 namespace UnityEngine::UI {
 class Text;
+}
+namespace Polyglot {
+struct LanguageDirection;
 }
 namespace UnityEngine {
 struct TextAnchor;
@@ -19,7 +19,7 @@ class LocalizedText;
 // Type: Polyglot::LocalizedText
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15541)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 2506 }), TypeDefinitionIndex(TypeDefinitionIndex(13067))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 2506 }), TypeDefinitionIndex(TypeDefinitionIndex(13067)), TypeDefinitionIndex(TypeDefinitionIndex(15541))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15540))
 // CS Name: Polyglot.LocalizedText
 class CORDL_TYPE LocalizedText : public Polyglot::LocalizedTextComponent_1<UnityEngine::UI::Text> {
@@ -73,8 +73,7 @@ constexpr explicit LocalizedText(void* ptr) noexcept : Polyglot::LocalizedTextCo
 /// @brief Method IsAlignmentLeft addr 0x267457c size 0x28 virtual false final false
  bool IsAlignmentLeft(UnityEngine::TextAnchor alignment) ;
 
-// Ctor Parameters []
-explicit LocalizedText() ;
+static Polyglot::LocalizedText New_ctor() ;
 
 /// @brief Method .ctor addr 0x26745a4 size 0x48 virtual false final false
  void _ctor() ;

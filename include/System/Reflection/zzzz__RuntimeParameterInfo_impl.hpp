@@ -1,13 +1,13 @@
 #pragma once
 #include "System/Reflection/zzzz__ParameterInfo_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeParameterInfo_def.hpp"
+#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__MarshalAsAttribute_def.hpp"
 #include "System/Reflection/zzzz__CallingConventions_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_def.hpp"
-#include "System/Reflection/zzzz__CustomAttributeData_def.hpp"
 //  Writing Method size for method: System::Reflection::RuntimeParameterInfo._ctor
 template<>
 
@@ -235,8 +235,10 @@ constexpr void System::Reflection::RuntimeParameterInfo::__set_marshalAs(System:
 constexpr System::Runtime::InteropServices::MarshalAsAttribute System::Reflection::RuntimeParameterInfo::__get_marshalAs() const {
 return ::cordl_internals::getInstanceField<System::Runtime::InteropServices::MarshalAsAttribute, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "position", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "attrs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "marshalAs", ty: "System::Runtime::InteropServices::MarshalAsAttribute", modifiers: "", def_value: None }]
- System::Reflection::RuntimeParameterInfo::RuntimeParameterInfo(::StringW name, System::Type type, int32_t position, int32_t attrs, ::bs_hook::Il2CppWrapperType defaultValue, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs)  : System::Reflection::ParameterInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeParameterInfo>(name, type, position, attrs, defaultValue, member, marshalAs))) {}
+ System::Reflection::RuntimeParameterInfo System::Reflection::RuntimeParameterInfo::New_ctor(::StringW name, System::Type type, int32_t position, int32_t attrs, ::bs_hook::Il2CppWrapperType defaultValue, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs)  {
+System::Reflection::RuntimeParameterInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeParameterInfo>(name, type, position, attrs, defaultValue, member, marshalAs))};
+return o;
+}
  void System::Reflection::RuntimeParameterInfo::_ctor(::StringW name, System::Type type, int32_t position, int32_t attrs, ::bs_hook::Il2CppWrapperType defaultValue, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeParameterInfo>::get(),
@@ -255,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sb, p, callingConvention, serialization);
 }
-// Ctor Parameters [CppParam { name: "pinfo", ty: "System::Reflection::ParameterInfo", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }]
- System::Reflection::RuntimeParameterInfo::RuntimeParameterInfo(System::Reflection::ParameterInfo pinfo, System::Reflection::MemberInfo member)  : System::Reflection::ParameterInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeParameterInfo>(pinfo, member))) {}
+ System::Reflection::RuntimeParameterInfo System::Reflection::RuntimeParameterInfo::New_ctor(System::Reflection::ParameterInfo pinfo, System::Reflection::MemberInfo member)  {
+System::Reflection::RuntimeParameterInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeParameterInfo>(pinfo, member))};
+return o;
+}
  void System::Reflection::RuntimeParameterInfo::_ctor(System::Reflection::ParameterInfo pinfo, System::Reflection::MemberInfo member)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeParameterInfo>::get(),
@@ -266,8 +270,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pinfo, member);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "marshalAs", ty: "System::Runtime::InteropServices::MarshalAsAttribute", modifiers: "", def_value: None }]
- System::Reflection::RuntimeParameterInfo::RuntimeParameterInfo(System::Type type, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs)  : System::Reflection::ParameterInfo(THROW_UNLESS(::il2cpp_utils::New<RuntimeParameterInfo>(type, member, marshalAs))) {}
+ System::Reflection::RuntimeParameterInfo System::Reflection::RuntimeParameterInfo::New_ctor(System::Type type, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs)  {
+System::Reflection::RuntimeParameterInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::RuntimeParameterInfo>(type, member, marshalAs))};
+return o;
+}
  void System::Reflection::RuntimeParameterInfo::_ctor(System::Type type, System::Reflection::MemberInfo member, System::Runtime::InteropServices::MarshalAsAttribute marshalAs)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::RuntimeParameterInfo>::get(),

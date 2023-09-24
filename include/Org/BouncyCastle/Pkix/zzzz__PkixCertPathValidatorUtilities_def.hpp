@@ -4,86 +4,86 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class CrlDistPoint;
 }
-namespace Org::BouncyCastle::X509 {
-class IX509Extension;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixBuilderParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Crl;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCrlUtilities;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
 }
-namespace Org::BouncyCastle::Pkix {
-class CertStatus;
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class DistributionPoint;
 }
-namespace Org::BouncyCastle::X509::Store {
-class X509AttrCertStoreSelector;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
 }
 namespace Org::BouncyCastle::X509::Store {
-class X509CrlStoreSelector;
+class X509AttrCertStoreSelector;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixBuilderParameters;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::X509 {
+class IX509Extension;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace System {
+struct DateTime;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCrlUtilities;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Crl;
+}
+namespace Org::BouncyCastle::Pkix {
+class CertStatus;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixParameters;
+}
 namespace Org::BouncyCastle::X509::Store {
 class X509CertStoreSelector;
 }
-namespace System {
-struct DateTime;
+namespace System::Collections {
+class ICollection;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CrlStoreSelector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -257,8 +257,7 @@ static System::Collections::ICollection FindIssuerCerts(Org::BouncyCastle::X509:
 /// @brief Method GetExtensionValue addr 0x10760f8 size 0xc0 virtual false final false
 static Org::BouncyCastle::Asn1::Asn1Object GetExtensionValue(Org::BouncyCastle::X509::IX509Extension ext, Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 
-// Ctor Parameters []
-explicit PkixCertPathValidatorUtilities() ;
+static Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0x1078ecc size 0x8 virtual false final false
  void _ctor() ;

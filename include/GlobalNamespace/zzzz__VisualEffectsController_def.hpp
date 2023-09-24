@@ -87,8 +87,7 @@ static constexpr ::ConstString  kDepthTextureEnabledKeyword{u"DEPTH_TEXTURE_ENAB
 /// @brief Method SetShaderKeyword addr 0x267b048 size 0x14 virtual false final false
  void SetShaderKeyword(::StringW keyword, bool value) ;
 
-// Ctor Parameters []
-explicit VisualEffectsController() ;
+static GlobalNamespace::VisualEffectsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x267b05c size 0x8 virtual false final false
  void _ctor() ;

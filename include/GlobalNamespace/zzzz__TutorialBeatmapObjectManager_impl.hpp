@@ -1,22 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialBeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
+#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
+#include "GlobalNamespace/zzzz__TutorialBeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
-#include "GlobalNamespace/zzzz__SliderController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData._ctor
 template<>
 
@@ -40,8 +36,10 @@ constexpr void GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__I
 constexpr float_t GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData::__get_cutAngleTolerance() const {
 return ::cordl_internals::getInstanceField<float_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cutAngleTolerance", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData::GlobalNamespace__TutorialBeatmapObjectManager__InitData(float_t cutAngleTolerance)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__TutorialBeatmapObjectManager__InitData>(cutAngleTolerance))) {}
+ GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData::New_ctor(float_t cutAngleTolerance)  {
+GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData>(cutAngleTolerance))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData::_ctor(float_t cutAngleTolerance)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__TutorialBeatmapObjectManager__InitData>::get(),
@@ -300,8 +298,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sliderNoteController);
 }
-// Ctor Parameters []
- GlobalNamespace::TutorialBeatmapObjectManager::TutorialBeatmapObjectManager()  : GlobalNamespace::BeatmapObjectManager(THROW_UNLESS(::il2cpp_utils::New<TutorialBeatmapObjectManager>())) {}
+ GlobalNamespace::TutorialBeatmapObjectManager GlobalNamespace::TutorialBeatmapObjectManager::New_ctor()  {
+GlobalNamespace::TutorialBeatmapObjectManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TutorialBeatmapObjectManager>())};
+return o;
+}
  void GlobalNamespace::TutorialBeatmapObjectManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TutorialBeatmapObjectManager>::get(),

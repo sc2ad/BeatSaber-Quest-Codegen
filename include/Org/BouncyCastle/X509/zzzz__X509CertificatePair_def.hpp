@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class CertificatePair;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -77,14 +77,12 @@ constexpr Org::BouncyCastle::X509::X509Certificate __get_reverse() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "forward", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "reverse", ty: "Org::BouncyCastle::X509::X509Certificate", modifiers: "", def_value: None }]
-explicit X509CertificatePair(Org::BouncyCastle::X509::X509Certificate forward, Org::BouncyCastle::X509::X509Certificate reverse) ;
+static Org::BouncyCastle::X509::X509CertificatePair New_ctor(Org::BouncyCastle::X509::X509Certificate forward, Org::BouncyCastle::X509::X509Certificate reverse) ;
 
 /// @brief Method .ctor addr 0x10efb58 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::X509::X509Certificate forward, Org::BouncyCastle::X509::X509Certificate reverse) ;
 
-// Ctor Parameters [CppParam { name: "pair", ty: "Org::BouncyCastle::Asn1::X509::CertificatePair", modifiers: "", def_value: None }]
-explicit X509CertificatePair(Org::BouncyCastle::Asn1::X509::CertificatePair pair) ;
+static Org::BouncyCastle::X509::X509CertificatePair New_ctor(Org::BouncyCastle::Asn1::X509::CertificatePair pair) ;
 
 /// @brief Method .ctor addr 0x10efb84 size 0xa8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::CertificatePair pair) ;

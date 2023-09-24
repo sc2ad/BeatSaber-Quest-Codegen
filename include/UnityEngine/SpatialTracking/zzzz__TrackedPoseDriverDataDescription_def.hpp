@@ -8,6 +8,9 @@ template<typename T>
 class List_1;
 }
 namespace UnityEngine::SpatialTracking {
+struct UnityEngine__SpatialTracking__TrackedPoseDriverDataDescription__PoseData;
+}
+namespace UnityEngine::SpatialTracking {
 struct UnityEngine__SpatialTracking__TrackedPoseDriver__TrackedPose;
 }
 // Forward declare root types
@@ -129,8 +132,7 @@ static System::Collections::Generic::List_1<UnityEngine::SpatialTracking::UnityE
 
 // Methods
 
-// Ctor Parameters []
-explicit TrackedPoseDriverDataDescription() ;
+static UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba182c size 0x8 virtual false final false
  void _ctor() ;

@@ -7,11 +7,11 @@
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
-namespace Org::BouncyCastle::Crypto::Modes {
-class GcmBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class GcmBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -82,14 +82,12 @@ constexpr int32_t __get_macSizeBits() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }]
-explicit GMac(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Macs::GMac New_ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe80a6c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Modes::GcmBlockCipher", modifiers: "", def_value: None }, CppParam { name: "macSizeBits", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GMac(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;
+static Org::BouncyCastle::Crypto::Macs::GMac New_ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;
 
 /// @brief Method .ctor addr 0xe80a9c size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Modes::GcmBlockCipher cipher, int32_t macSizeBits) ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformationCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformation_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 //  Writing Method size for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection._ctor
 template<>
 
@@ -212,8 +212,10 @@ constexpr void System::Net::NetworkInformation::UnicastIPAddressInformationColle
 constexpr System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation> System::Net::NetworkInformation::UnicastIPAddressInformationCollection::__get_addresses() const {
 return ::cordl_internals::getInstanceField<System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::UnicastIPAddressInformationCollection::UnicastIPAddressInformationCollection()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnicastIPAddressInformationCollection>())) {}
+ System::Net::NetworkInformation::UnicastIPAddressInformationCollection System::Net::NetworkInformation::UnicastIPAddressInformationCollection::New_ctor()  {
+System::Net::NetworkInformation::UnicastIPAddressInformationCollection o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::UnicastIPAddressInformationCollection>())};
+return o;
+}
  void System::Net::NetworkInformation::UnicastIPAddressInformationCollection::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::UnicastIPAddressInformationCollection>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioMixerProperties_def.hpp"
-#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 //  Writing Method size for method: UnityEngine::Timeline::AudioMixerProperties.PrepareFrame
 template<>
 
@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable, info);
 }
-// Ctor Parameters []
- UnityEngine::Timeline::AudioMixerProperties::AudioMixerProperties()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<AudioMixerProperties>())) {}
+ UnityEngine::Timeline::AudioMixerProperties UnityEngine::Timeline::AudioMixerProperties::New_ctor()  {
+UnityEngine::Timeline::AudioMixerProperties o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Timeline::AudioMixerProperties>())};
+return o;
+}
  void UnityEngine::Timeline::AudioMixerProperties::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Timeline::AudioMixerProperties>::get(),

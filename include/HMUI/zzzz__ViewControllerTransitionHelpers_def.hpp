@@ -4,24 +4,45 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace HMUI {
 struct HMUI__ViewController__AnimationDirection;
 }
 namespace HMUI {
 class ViewController;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6;
+}
+namespace HMUI {
+class HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8;
 }
 // Forward declare root types
 namespace HMUI {
@@ -145,8 +166,7 @@ constexpr float_t __get_moveOffsetMultiplier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3(int32_t __1__state) ;
+static HMUI::HMUI__ViewControllerTransitionHelpers___DoPresentTransition_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fbaeac size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -267,8 +287,7 @@ constexpr float_t __get_moveOffsetMultiplier() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4(int32_t __1__state) ;
+static HMUI::HMUI__ViewControllerTransitionHelpers___DoDismissTransition_d__4 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fbaed4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -361,8 +380,7 @@ constexpr float_t __get_baseCanvasGroupAlpha() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0() ;
+static HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbb2bc size 0x8 virtual false final false
  void _ctor() ;
@@ -471,8 +489,7 @@ constexpr HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass5_0 __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5(int32_t __1__state) ;
+static HMUI::HMUI__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fbaf80 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -565,8 +582,7 @@ constexpr HMUI::ViewController __get_toDismissViewController() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0() ;
+static HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbb540 size 0x8 virtual false final false
  void _ctor() ;
@@ -675,8 +691,7 @@ constexpr HMUI::HMUI__ViewControllerTransitionHelpers____c__DisplayClass6_0 __ge
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6(int32_t __1__state) ;
+static HMUI::HMUI__ViewControllerTransitionHelpers___DoVerticalTransition_d__6 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fbb02c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -785,8 +800,7 @@ constexpr float_t __get__elapsedTime_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8(int32_t __1__state) ;
+static HMUI::HMUI__ViewControllerTransitionHelpers___AnimationCoroutine_d__8 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1fbb0bc size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -896,8 +910,7 @@ static void ImmediateTransition(HMUI::ViewController toPresentViewController, HM
 /// @brief Method AnimationCoroutine addr 0x1fbb054 size 0x68 virtual false final false
 static System::Collections::IEnumerator AnimationCoroutine(System::Action_1<float_t> transitionAnimation) ;
 
-// Ctor Parameters []
-explicit ViewControllerTransitionHelpers() ;
+static HMUI::ViewControllerTransitionHelpers New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fbb0e4 size 0x8 virtual false final false
  void _ctor() ;

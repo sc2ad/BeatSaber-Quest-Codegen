@@ -3,9 +3,8 @@
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T>
-class Action_1;
+namespace UnityEngine {
+struct UnityEngine__ReflectionProbe__ReflectionProbeEvent;
 }
 namespace System {
 template<typename T1,typename T2>
@@ -13,6 +12,10 @@ class Action_2;
 }
 namespace UnityEngine {
 class Texture;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -70,6 +73,8 @@ __ReflectionProbeRemoved = 1,
 constexpr operator __UnityEngine__ReflectionProbe__ReflectionProbeEvent_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__ReflectionProbe__ReflectionProbeEvent_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

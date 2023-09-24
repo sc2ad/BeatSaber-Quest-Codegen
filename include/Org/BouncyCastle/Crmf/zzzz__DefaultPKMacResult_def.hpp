@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IBlockResult;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockResult;
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -67,8 +67,7 @@ constexpr Org::BouncyCastle::Crypto::IMac __get_mac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit DefaultPKMacResult(Org::BouncyCastle::Crypto::IMac mac) ;
+static Org::BouncyCastle::Crmf::DefaultPKMacResult New_ctor(Org::BouncyCastle::Crypto::IMac mac) ;
 
 /// @brief Method .ctor addr 0x1186e00 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IMac mac) ;

@@ -108,8 +108,10 @@ constexpr void Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__set_s(uin
 constexpr uint8_t Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::__get_s() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::VmpcRandomGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VmpcRandomGenerator>())) {}
+ Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator>::get(),

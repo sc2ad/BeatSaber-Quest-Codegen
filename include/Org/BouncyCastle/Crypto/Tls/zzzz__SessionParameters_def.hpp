@@ -10,6 +10,9 @@ class Certificate;
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder;
@@ -110,8 +113,7 @@ constexpr bool __get_mExtendedMasterSecret() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder() ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder New_ctor() ;
 
 /// @brief Method .ctor addr 0xf0911c size 0x28 virtual false final false
  void _ctor() ;
@@ -262,8 +264,7 @@ constexpr bool __get_mExtendedMasterSecret() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipherSuite", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "compressionAlgorithm", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "masterSecret", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "peerCertificate", ty: "Org::BouncyCastle::Crypto::Tls::Certificate", modifiers: "", def_value: None }, CppParam { name: "pskIdentity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "srpIdentity", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "encodedServerExtensions", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "extendedMasterSecret", ty: "bool", modifiers: "", def_value: None }]
-explicit SessionParameters(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, Org::BouncyCastle::Crypto::Tls::Certificate peerCertificate, ::ArrayW<uint8_t> pskIdentity, ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret) ;
+static Org::BouncyCastle::Crypto::Tls::SessionParameters New_ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, Org::BouncyCastle::Crypto::Tls::Certificate peerCertificate, ::ArrayW<uint8_t> pskIdentity, ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret) ;
 
 /// @brief Method .ctor addr 0xf08b4c size 0xdc virtual false final false
  void _ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, Org::BouncyCastle::Crypto::Tls::Certificate peerCertificate, ::ArrayW<uint8_t> pskIdentity, ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret) ;

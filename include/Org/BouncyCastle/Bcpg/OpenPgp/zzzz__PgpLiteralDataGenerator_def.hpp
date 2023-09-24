@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class IStreamGenerator;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System {
 struct DateTime;
@@ -95,14 +95,12 @@ constexpr bool __get_oldFormat() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpLiteralDataGenerator() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x1023f94 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit PgpLiteralDataGenerator(bool oldFormat) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator New_ctor(bool oldFormat) ;
 
 /// @brief Method .ctor addr 0x1023f9c size 0x28 virtual false final false
  void _ctor(bool oldFormat) ;

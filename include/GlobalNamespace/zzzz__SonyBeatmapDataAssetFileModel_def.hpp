@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct LevelDataAssetDownloadUpdate;
+struct GlobalNamespace__SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+struct LevelDataAssetDownloadUpdate;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -26,16 +26,19 @@ struct CancellationToken;
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
 }
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
+}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -189,8 +192,7 @@ constexpr System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate> __get_
 /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync addr 0x221b6c8 size 0x68 virtual true final true
  System::Threading::Tasks::Task_1<bool> TryDeleteAssetBundleFileForPreviewLevelAsync(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, System::Threading::CancellationToken cancellationToken) ;
 
-// Ctor Parameters []
-explicit SonyBeatmapDataAssetFileModel() ;
+static GlobalNamespace::SonyBeatmapDataAssetFileModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x221b730 size 0x8 virtual false final false
  void _ctor() ;

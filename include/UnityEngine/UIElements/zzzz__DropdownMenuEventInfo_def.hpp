@@ -2,16 +2,16 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine {
-struct EventModifiers;
+struct KeyCode;
 }
 namespace UnityEngine {
-struct Vector2;
+struct EventModifiers;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -92,8 +92,7 @@ constexpr UnityEngine::KeyCode __get__keyCode_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "e", ty: "UnityEngine::UIElements::EventBase", modifiers: "", def_value: None }]
-explicit DropdownMenuEventInfo(UnityEngine::UIElements::EventBase e) ;
+static UnityEngine::UIElements::DropdownMenuEventInfo New_ctor(UnityEngine::UIElements::EventBase e) ;
 
 /// @brief Method .ctor addr 0x2c8f93c size 0x31c virtual false final false
  void _ctor(UnityEngine::UIElements::EventBase e) ;

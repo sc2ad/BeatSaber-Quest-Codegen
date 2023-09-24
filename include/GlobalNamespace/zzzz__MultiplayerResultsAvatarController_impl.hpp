@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsAvatarController_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarPoseController_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarVisualController_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerAvatarPoseController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerResultsAvatarController.SetScale
 template<>
 
@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, connectedPlayer);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerResultsAvatarController::MultiplayerResultsAvatarController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerResultsAvatarController>())) {}
+ GlobalNamespace::MultiplayerResultsAvatarController GlobalNamespace::MultiplayerResultsAvatarController::New_ctor()  {
+GlobalNamespace::MultiplayerResultsAvatarController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerResultsAvatarController>())};
+return o;
+}
  void GlobalNamespace::MultiplayerResultsAvatarController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerResultsAvatarController>::get(),

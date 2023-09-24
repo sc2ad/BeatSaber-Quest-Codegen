@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::IO {
-class Stream;
-}
 namespace System {
 class IAsyncResult;
 }
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace System {
 class AsyncCallback;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace System::Net {
@@ -115,14 +115,12 @@ constexpr System::IO::Stream __get_stream() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RequestStream(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
+static System::Net::RequestStream New_ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
 
 /// @brief Method .ctor addr 0x2843050 size 0x8 virtual false final false
  void _ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "contentlength", ty: "int64_t", modifiers: "", def_value: None }]
-explicit RequestStream(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;
+static System::Net::RequestStream New_ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;
 
 /// @brief Method .ctor addr 0x2843058 size 0x98 virtual false final false
  void _ctor(System::IO::Stream stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength) ;

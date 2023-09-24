@@ -47,8 +47,7 @@ constexpr explicit RequestCacheProtocol(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "arg1", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "arg2", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit RequestCacheProtocol(::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2) ;
+static System::Net::Cache::RequestCacheProtocol New_ctor(::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2) ;
 
 /// @brief Method .ctor addr 0x285ee44 size 0x48 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2) ;

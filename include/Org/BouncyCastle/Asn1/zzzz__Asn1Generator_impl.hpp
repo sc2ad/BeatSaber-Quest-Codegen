@@ -93,8 +93,10 @@ constexpr void Org::BouncyCastle::Asn1::Asn1Generator::__set__out(System::IO::St
 constexpr System::IO::Stream Org::BouncyCastle::Asn1::Asn1Generator::__get__out() const {
 return ::cordl_internals::getInstanceField<System::IO::Stream, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Asn1Generator::Asn1Generator(System::IO::Stream outStream)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Asn1Generator>(outStream))) {}
+ Org::BouncyCastle::Asn1::Asn1Generator Org::BouncyCastle::Asn1::Asn1Generator::New_ctor(System::IO::Stream outStream)  {
+Org::BouncyCastle::Asn1::Asn1Generator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Asn1Generator>(outStream))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Asn1Generator::_ctor(System::IO::Stream outStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Asn1Generator>::get(),

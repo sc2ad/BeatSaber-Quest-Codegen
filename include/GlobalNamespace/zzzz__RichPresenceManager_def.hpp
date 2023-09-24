@@ -3,55 +3,55 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 namespace GlobalNamespace {
-class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class PlayingCampaignRichPresenceData;
-}
-namespace GlobalNamespace {
 class InMultiplayerRichPresenceData;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
+class PlayingCampaignRichPresenceData;
+}
+namespace GlobalNamespace {
 class IRichPresenceData;
-}
-namespace GlobalNamespace {
-struct MultiplayerGameState;
-}
-namespace GlobalNamespace {
-class LobbyGameStateModel;
 }
 namespace GlobalNamespace {
 class IRichPresencePlatformHandler;
 }
 namespace GlobalNamespace {
+class IUnifiedNetworkPlayerModel;
+}
+namespace GlobalNamespace {
 class PlayingTutorialPresenceData;
 }
 namespace GlobalNamespace {
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+struct MultiplayerGameState;
+}
+namespace GlobalNamespace {
 class BrowsingMenusRichPresenceData;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MenuScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class LobbyGameStateModel;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class MultiplayerLevelScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -231,8 +231,7 @@ constexpr GlobalNamespace::IRichPresenceData __get__currentPresenceData() const;
 /// @brief Method Clear addr 0x222b4cc size 0xa8 virtual false final false
  void Clear() ;
 
-// Ctor Parameters []
-explicit RichPresenceManager() ;
+static GlobalNamespace::RichPresenceManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x222b898 size 0x8 virtual false final false
  void _ctor() ;

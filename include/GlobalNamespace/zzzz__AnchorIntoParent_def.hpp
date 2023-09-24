@@ -71,8 +71,7 @@ constexpr UnityEngine::Vector3 __get__positionOffset() const;
 /// @brief Method Start addr 0x21140f8 size 0x100 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit AnchorIntoParent() ;
+static GlobalNamespace::AnchorIntoParent New_ctor() ;
 
 /// @brief Method .ctor addr 0x21141f8 size 0x8 virtual false final false
  void _ctor() ;

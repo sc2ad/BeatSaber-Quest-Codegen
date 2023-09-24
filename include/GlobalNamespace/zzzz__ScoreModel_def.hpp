@@ -3,26 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-struct GlobalNamespace__NoteData__ScoringType;
-}
 namespace System {
 template<typename T>
 class IComparable_1;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__NoteData__ScoringType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScoreModel__NoteScoreDefinition;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ScoreModel__MaxScoreCounterElement;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
 namespace GlobalNamespace {
-class ScoreMultiplierCounter;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class ScoreMultiplierCounter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -128,8 +134,7 @@ constexpr int32_t __get_fixedCutScore() const;
 /// @brief Method get_executionOrder addr 0x222c800 size 0x1c virtual false final false
  int32_t get_executionOrder() ;
 
-// Ctor Parameters [CppParam { name: "maxCenterDistanceCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minBeforeCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxBeforeCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minAfterCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxAfterCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fixedCutScore", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ScoreModel__NoteScoreDefinition(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore) ;
+static GlobalNamespace::GlobalNamespace__ScoreModel__NoteScoreDefinition New_ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore) ;
 
 /// @brief Method .ctor addr 0x222c7ac size 0x54 virtual false final false
  void _ctor(int32_t maxCenterDistanceCutScore, int32_t minBeforeCutScore, int32_t maxBeforeCutScore, int32_t minAfterCutScore, int32_t maxAfterCutScore, int32_t fixedCutScore) ;
@@ -198,8 +203,7 @@ constexpr float_t __get_time() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "scoringType", ty: "GlobalNamespace::GlobalNamespace__NoteData__ScoringType", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ScoreModel__MaxScoreCounterElement(GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
+static GlobalNamespace::GlobalNamespace__ScoreModel__MaxScoreCounterElement New_ctor(GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
 
 /// @brief Method .ctor addr 0x222c388 size 0x84 virtual false final false
  void _ctor(GlobalNamespace::GlobalNamespace__NoteData__ScoringType scoringType, float_t time) ;
@@ -302,8 +306,7 @@ static int32_t ComputeMaxMultipliedScoreForBeatmap(GlobalNamespace::IReadonlyBea
 /// @brief Method GetModifiedScoreForGameplayModifiersScoreMultiplier addr 0x222c428 size 0x74 virtual false final false
 static int32_t GetModifiedScoreForGameplayModifiersScoreMultiplier(int32_t multipliedScore, float_t gameplayModifiersScoreMultiplier) ;
 
-// Ctor Parameters []
-explicit ScoreModel() ;
+static GlobalNamespace::ScoreModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x222c49c size 0x8 virtual false final false
  void _ctor() ;

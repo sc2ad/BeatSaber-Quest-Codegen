@@ -2,11 +2,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Security::Cryptography::X509Certificates {
-struct StoreName;
+namespace System {
+class IDisposable;
 }
 namespace Mono::Security::X509 {
 class X509Store;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct OpenFlags;
@@ -15,10 +18,7 @@ namespace System::Security::Cryptography::X509Certificates {
 struct StoreLocation;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace System {
-class IDisposable;
+struct StoreName;
 }
 namespace Mono::Security::X509 {
 class X509Stores;
@@ -114,8 +114,7 @@ constexpr Mono::Security::X509::X509Store __get_store() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "storeName", ty: "System::Security::Cryptography::X509Certificates::StoreName", modifiers: "", def_value: None }, CppParam { name: "storeLocation", ty: "System::Security::Cryptography::X509Certificates::StoreLocation", modifiers: "", def_value: None }]
-explicit X509Store(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) ;
+static System::Security::Cryptography::X509Certificates::X509Store New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) ;
 
 /// @brief Method .ctor addr 0x27f4a9c size 0x138 virtual false final false
  void _ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation) ;

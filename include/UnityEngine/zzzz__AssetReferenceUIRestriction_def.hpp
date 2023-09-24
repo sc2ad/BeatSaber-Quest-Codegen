@@ -57,8 +57,7 @@ constexpr explicit AssetReferenceUIRestriction(void* ptr) noexcept : System::Att
 /// @brief Method ValidateAsset addr 0x287d69c size 0x8 virtual true final false
  bool ValidateAsset(::StringW path) ;
 
-// Ctor Parameters []
-explicit AssetReferenceUIRestriction() ;
+static UnityEngine::AssetReferenceUIRestriction New_ctor() ;
 
 /// @brief Method .ctor addr 0x287d6a4 size 0x8 virtual false final false
  void _ctor() ;

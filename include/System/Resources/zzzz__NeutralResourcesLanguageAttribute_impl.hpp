@@ -65,8 +65,10 @@ constexpr void System::Resources::NeutralResourcesLanguageAttribute::__set__Loca
 constexpr System::Resources::UltimateResourceFallbackLocation System::Resources::NeutralResourcesLanguageAttribute::__get__Location_k__BackingField() const {
 return ::cordl_internals::getInstanceField<System::Resources::UltimateResourceFallbackLocation, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cultureName", ty: "::StringW", modifiers: "", def_value: None }]
- System::Resources::NeutralResourcesLanguageAttribute::NeutralResourcesLanguageAttribute(::StringW cultureName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<NeutralResourcesLanguageAttribute>(cultureName))) {}
+ System::Resources::NeutralResourcesLanguageAttribute System::Resources::NeutralResourcesLanguageAttribute::New_ctor(::StringW cultureName)  {
+System::Resources::NeutralResourcesLanguageAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Resources::NeutralResourcesLanguageAttribute>(cultureName))};
+return o;
+}
  void System::Resources::NeutralResourcesLanguageAttribute::_ctor(::StringW cultureName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Resources::NeutralResourcesLanguageAttribute>::get(),

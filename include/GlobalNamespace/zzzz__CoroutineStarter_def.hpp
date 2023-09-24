@@ -1,14 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace GlobalNamespace {
+class ICoroutineStarter;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
 class Coroutine;
-}
-namespace GlobalNamespace {
-class ICoroutineStarter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -65,8 +65,7 @@ constexpr explicit CoroutineStarter(void* ptr) noexcept : UnityEngine::MonoBehav
 /// @brief Method ICoroutineStarter.StopCoroutine addr 0x1f76684 size 0xcc virtual true final true
  void ICoroutineStarter_StopCoroutine(UnityEngine::Coroutine routine) ;
 
-// Ctor Parameters []
-explicit CoroutineStarter() ;
+static GlobalNamespace::CoroutineStarter New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f76750 size 0x8 virtual false final false
  void _ctor() ;

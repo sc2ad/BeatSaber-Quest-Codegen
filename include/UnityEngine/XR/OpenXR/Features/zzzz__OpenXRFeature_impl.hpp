@@ -2,10 +2,11 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
-#include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/XR/OpenXR/zzzz__OpenXRLoaderBase_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrEnvironmentBlendMode_def.hpp"
+#include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::XR::OpenXR::Features::UnityEngine__XR__OpenXR__Features__OpenXRFeature__LoaderEvent::UnityEngine__XR__OpenXR__Features__OpenXRFeature__LoaderEvent(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -1645,8 +1646,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, func);
 }
-// Ctor Parameters []
- UnityEngine::XR::OpenXR::Features::OpenXRFeature::OpenXRFeature()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<OpenXRFeature>())) {}
+ UnityEngine::XR::OpenXR::Features::OpenXRFeature UnityEngine::XR::OpenXR::Features::OpenXRFeature::New_ctor()  {
+UnityEngine::XR::OpenXR::Features::OpenXRFeature o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::XR::OpenXR::Features::OpenXRFeature>())};
+return o;
+}
  void UnityEngine::XR::OpenXR::Features::OpenXRFeature::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::XR::OpenXR::Features::OpenXRFeature>::get(),

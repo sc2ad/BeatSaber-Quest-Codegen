@@ -2,8 +2,8 @@
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_7_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: Tweening::ColorTween._ctor
 template<>
@@ -62,8 +62,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
  Zenject::StaticMemoryPool_7<UnityEngine::Color,UnityEngine::Color,System::Action_1<UnityEngine::Color>,float_t,GlobalNamespace::EaseType,float_t,Tweening::ColorTween> Tweening::ColorTween::__get_Pool()  {
 return ::cordl_internals::getStaticField<Zenject::StaticMemoryPool_7<UnityEngine::Color,UnityEngine::Color,System::Action_1<UnityEngine::Color>,float_t,GlobalNamespace::EaseType,float_t,Tweening::ColorTween>, "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tweening::ColorTween>::get>();
 }
-// Ctor Parameters []
- Tweening::ColorTween::ColorTween()  : Tweening::Tween_1<UnityEngine::Color>(THROW_UNLESS(::il2cpp_utils::New<ColorTween>())) {}
+ Tweening::ColorTween Tweening::ColorTween::New_ctor()  {
+Tweening::ColorTween o{THROW_UNLESS(::il2cpp_utils::New<Tweening::ColorTween>())};
+return o;
+}
  void Tweening::ColorTween::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Tweening::ColorTween>::get(),
@@ -73,8 +75,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fromValue", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "toValue", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "onUpdate", ty: "System::Action_1<UnityEngine::Color>", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "easeType", ty: "GlobalNamespace::EaseType", modifiers: "", def_value: None }, CppParam { name: "delay", ty: "float_t", modifiers: "", def_value: Some("0") }]
- Tweening::ColorTween::ColorTween(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay)  : Tweening::Tween_1<UnityEngine::Color>(THROW_UNLESS(::il2cpp_utils::New<ColorTween>(fromValue, toValue, onUpdate, duration, easeType, delay))) {}
+/// @param delay: float_t (default: 0)
+ Tweening::ColorTween Tweening::ColorTween::New_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay)  {
+Tweening::ColorTween o{THROW_UNLESS(::il2cpp_utils::New<Tweening::ColorTween>(fromValue, toValue, onUpdate, duration, easeType, delay))};
+return o;
+}
 /// @param delay: float_t (default: 0)
  void Tweening::ColorTween::_ctor(UnityEngine::Color fromValue, UnityEngine::Color toValue, System::Action_1<UnityEngine::Color> onUpdate, float_t duration, GlobalNamespace::EaseType easeType, float_t delay)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

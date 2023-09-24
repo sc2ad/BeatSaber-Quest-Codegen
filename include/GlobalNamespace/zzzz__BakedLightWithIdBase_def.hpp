@@ -60,8 +60,7 @@ constexpr explicit BakedLightWithIdBase(void* ptr) noexcept : UnityEngine::MonoB
 /// @brief Method SetupLightSource addr 0x0 size 0xffffffffffffffff virtual true final false
  void SetupLightSource(float_t intensityMultiplier) ;
 
-// Ctor Parameters []
-explicit BakedLightWithIdBase() ;
+static GlobalNamespace::BakedLightWithIdBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2674ec8 size 0x8 virtual false final false
  void _ctor() ;

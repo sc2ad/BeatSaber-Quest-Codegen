@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::BootConfigData, false>(nullptr, ___internal_method, nativeHandle);
 }
-// Ctor Parameters [CppParam { name: "nativeHandle", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::BootConfigData::BootConfigData(::cordl_internals::intptr_t nativeHandle)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BootConfigData>(nativeHandle))) {}
+ UnityEngine::BootConfigData UnityEngine::BootConfigData::New_ctor(::cordl_internals::intptr_t nativeHandle)  {
+UnityEngine::BootConfigData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::BootConfigData>(nativeHandle))};
+return o;
+}
  void UnityEngine::BootConfigData::_ctor(::cordl_internals::intptr_t nativeHandle)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::BootConfigData>::get(),

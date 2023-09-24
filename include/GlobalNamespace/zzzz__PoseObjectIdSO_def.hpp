@@ -65,8 +65,7 @@ constexpr ::StringW __get__serializedId() const;
 /// @brief Method get_id addr 0x21a64d8 size 0x8 virtual false final false
  ::StringW get_id() ;
 
-// Ctor Parameters []
-explicit PoseObjectIdSO() ;
+static GlobalNamespace::PoseObjectIdSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a64e0 size 0x8 virtual false final false
  void _ctor() ;

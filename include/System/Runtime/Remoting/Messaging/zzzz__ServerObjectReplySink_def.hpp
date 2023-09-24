@@ -5,13 +5,13 @@ namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessage;
 }
 namespace System::Runtime::Remoting {
 class ServerIdentity;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageCtrl;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -77,8 +77,7 @@ constexpr System::Runtime::Remoting::ServerIdentity __get__identity() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "identity", ty: "System::Runtime::Remoting::ServerIdentity", modifiers: "", def_value: None }, CppParam { name: "replySink", ty: "System::Runtime::Remoting::Messaging::IMessageSink", modifiers: "", def_value: None }]
-explicit ServerObjectReplySink(System::Runtime::Remoting::ServerIdentity identity, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
+static System::Runtime::Remoting::Messaging::ServerObjectReplySink New_ctor(System::Runtime::Remoting::ServerIdentity identity, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;
 
 /// @brief Method .ctor addr 0x23476b8 size 0x2c virtual false final false
  void _ctor(System::Runtime::Remoting::ServerIdentity identity, System::Runtime::Remoting::Messaging::IMessageSink replySink) ;

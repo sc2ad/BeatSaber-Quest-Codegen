@@ -244,8 +244,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method, context);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Composites::TwoModifiersComposite::TwoModifiersComposite()  : UnityEngine::InputSystem::InputBindingComposite(THROW_UNLESS(::il2cpp_utils::New<TwoModifiersComposite>())) {}
+ UnityEngine::InputSystem::Composites::TwoModifiersComposite UnityEngine::InputSystem::Composites::TwoModifiersComposite::New_ctor()  {
+UnityEngine::InputSystem::Composites::TwoModifiersComposite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Composites::TwoModifiersComposite>())};
+return o;
+}
  void UnityEngine::InputSystem::Composites::TwoModifiersComposite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Composites::TwoModifiersComposite>::get(),

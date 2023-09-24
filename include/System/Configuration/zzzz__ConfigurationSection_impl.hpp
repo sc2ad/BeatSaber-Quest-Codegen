@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Configuration/zzzz__ConfigurationElement_impl.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
-#include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationSaveMode_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 //  Writing Method size for method: System::Configuration::ConfigurationSection.DeserializeSection
 template<>
 

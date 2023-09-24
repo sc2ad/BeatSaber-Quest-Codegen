@@ -69,8 +69,7 @@ constexpr explicit TimeSpanConverter(void* ptr) noexcept : System::ComponentMode
 /// @brief Method ConvertTo addr 0x2786158 size 0x2fc virtual true final false
  ::bs_hook::Il2CppWrapperType ConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, System::Type destinationType) ;
 
-// Ctor Parameters []
-explicit TimeSpanConverter() ;
+static System::ComponentModel::TimeSpanConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2786454 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapDataStrobeFilterTransform_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentIntensityReductionOptions_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataStrobeFilterTransform_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData.StartPotentialStrobe
 template<>
@@ -121,8 +122,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, basicBeatmapEventData);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData>())) {}
+ GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BeatmapDataStrobeFilterTransform__StrobeStreakData>::get(),

@@ -6,18 +6,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace HoudiniEngineUnity {
-class HEU_TreePrototypeInfo;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_VolumeScatterTrees;
 }
 namespace HoudiniEngineUnity {
+class HEU_DetailPrototype;
+}
+namespace HoudiniEngineUnity {
+struct HFLayerType;
+}
+namespace UnityEngine {
+class Terrain;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_VolumeInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_TreePrototypeInfo;
+}
+namespace HoudiniEngineUnity {
 class HEU_DetailProperties;
+}
+namespace UnityEngine {
+class TerrainLayer;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class TerrainData;
@@ -25,26 +42,9 @@ class TerrainData;
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Terrain;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
-}
-namespace UnityEngine {
-class TerrainLayer;
-}
-namespace HoudiniEngineUnity {
-struct HFLayerType;
-}
-namespace HoudiniEngineUnity {
-class HEU_DetailPrototype;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {

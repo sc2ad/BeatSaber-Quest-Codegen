@@ -4,9 +4,9 @@
 #include "Org/BouncyCastle/Asn1/zzzz__DerBoolean_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerIA5String_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__Attributes_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerUtf8String_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__Attributes_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::MetaData._ctor
 template<>
 
@@ -167,8 +167,10 @@ constexpr void Org::BouncyCastle::Asn1::Cms::MetaData::__set_otherMetaData(Org::
 constexpr Org::BouncyCastle::Asn1::Cms::Attributes Org::BouncyCastle::Asn1::Cms::MetaData::__get_otherMetaData() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::Attributes, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "hashProtected", ty: "Org::BouncyCastle::Asn1::DerBoolean", modifiers: "", def_value: None }, CppParam { name: "fileName", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }, CppParam { name: "mediaType", ty: "Org::BouncyCastle::Asn1::DerIA5String", modifiers: "", def_value: None }, CppParam { name: "otherMetaData", ty: "Org::BouncyCastle::Asn1::Cms::Attributes", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::MetaData::MetaData(Org::BouncyCastle::Asn1::DerBoolean hashProtected, Org::BouncyCastle::Asn1::DerUtf8String fileName, Org::BouncyCastle::Asn1::DerIA5String mediaType, Org::BouncyCastle::Asn1::Cms::Attributes otherMetaData)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<MetaData>(hashProtected, fileName, mediaType, otherMetaData))) {}
+ Org::BouncyCastle::Asn1::Cms::MetaData Org::BouncyCastle::Asn1::Cms::MetaData::New_ctor(Org::BouncyCastle::Asn1::DerBoolean hashProtected, Org::BouncyCastle::Asn1::DerUtf8String fileName, Org::BouncyCastle::Asn1::DerIA5String mediaType, Org::BouncyCastle::Asn1::Cms::Attributes otherMetaData)  {
+Org::BouncyCastle::Asn1::Cms::MetaData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::MetaData>(hashProtected, fileName, mediaType, otherMetaData))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::MetaData::_ctor(Org::BouncyCastle::Asn1::DerBoolean hashProtected, Org::BouncyCastle::Asn1::DerUtf8String fileName, Org::BouncyCastle::Asn1::DerIA5String mediaType, Org::BouncyCastle::Asn1::Cms::Attributes otherMetaData)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::MetaData>::get(),
@@ -178,8 +180,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, hashProtected, fileName, mediaType, otherMetaData);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::MetaData::MetaData(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<MetaData>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::MetaData Org::BouncyCastle::Asn1::Cms::MetaData::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Cms::MetaData o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::MetaData>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::MetaData::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::MetaData>::get(),

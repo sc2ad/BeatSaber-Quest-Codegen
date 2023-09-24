@@ -115,8 +115,10 @@ constexpr void JetBrains::Annotations::ContractAnnotationAttribute::__set__Force
 constexpr bool JetBrains::Annotations::ContractAnnotationAttribute::__get__ForceFullStates_k__BackingField() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "contract", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::ContractAnnotationAttribute::ContractAnnotationAttribute(::StringW contract)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ContractAnnotationAttribute>(contract))) {}
+ JetBrains::Annotations::ContractAnnotationAttribute JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract)  {
+JetBrains::Annotations::ContractAnnotationAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::ContractAnnotationAttribute>(contract))};
+return o;
+}
  void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(::StringW contract)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::ContractAnnotationAttribute>::get(),
@@ -126,8 +128,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, contract);
 }
-// Ctor Parameters [CppParam { name: "contract", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "forceFullStates", ty: "bool", modifiers: "", def_value: None }]
- JetBrains::Annotations::ContractAnnotationAttribute::ContractAnnotationAttribute(::StringW contract, bool forceFullStates)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ContractAnnotationAttribute>(contract, forceFullStates))) {}
+ JetBrains::Annotations::ContractAnnotationAttribute JetBrains::Annotations::ContractAnnotationAttribute::New_ctor(::StringW contract, bool forceFullStates)  {
+JetBrains::Annotations::ContractAnnotationAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::ContractAnnotationAttribute>(contract, forceFullStates))};
+return o;
+}
  void JetBrains::Annotations::ContractAnnotationAttribute::_ctor(::StringW contract, bool forceFullStates)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::ContractAnnotationAttribute>::get(),

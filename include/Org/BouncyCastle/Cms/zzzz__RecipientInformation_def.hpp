@@ -4,14 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Cms {
-class RecipientID;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
@@ -19,11 +16,14 @@ class CmsSecureReadable;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Cms {
+class RecipientID;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -109,8 +109,7 @@ constexpr ::ArrayW<uint8_t> __get_resultMac() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyEncAlg", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
-explicit RecipientInformation(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncAlg, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
+static Org::BouncyCastle::Cms::RecipientInformation New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncAlg, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;
 
 /// @brief Method .ctor addr 0x1176ebc size 0x88 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyEncAlg, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable) ;

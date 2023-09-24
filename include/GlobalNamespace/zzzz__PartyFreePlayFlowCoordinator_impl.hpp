@@ -1,17 +1,18 @@
 #pragma once
 #include "GlobalNamespace/zzzz__SinglePlayerLevelSelectionFlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__PartyFreePlayFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__EnterPlayerGuestNameViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "GlobalNamespace/zzzz__ResultsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
+#include "GlobalNamespace/zzzz__PartyFreePlayFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardViewController_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
-#include "GlobalNamespace/zzzz__ISaveData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0._ctor
 template<>
 
@@ -82,8 +83,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator___
 constexpr bool GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::__get_practice() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0>())) {}
+ GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0 GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass18_0>::get(),
@@ -148,8 +151,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator___
 constexpr GlobalNamespace::ResultsViewController GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::__get_resultsViewController() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::ResultsViewController, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0>())) {}
+ GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0 GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::New_ctor()  {
+GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PartyFreePlayFlowCoordinator____c__DisplayClass23_0>::get(),
@@ -545,8 +550,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, resultsViewController);
 }
-// Ctor Parameters []
- GlobalNamespace::PartyFreePlayFlowCoordinator::PartyFreePlayFlowCoordinator()  : GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator(THROW_UNLESS(::il2cpp_utils::New<PartyFreePlayFlowCoordinator>())) {}
+ GlobalNamespace::PartyFreePlayFlowCoordinator GlobalNamespace::PartyFreePlayFlowCoordinator::New_ctor()  {
+GlobalNamespace::PartyFreePlayFlowCoordinator o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PartyFreePlayFlowCoordinator>())};
+return o;
+}
  void GlobalNamespace::PartyFreePlayFlowCoordinator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PartyFreePlayFlowCoordinator>::get(),

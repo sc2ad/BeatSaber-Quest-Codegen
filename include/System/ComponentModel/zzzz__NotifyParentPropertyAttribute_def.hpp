@@ -81,8 +81,7 @@ constexpr bool __get_notifyParent() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "notifyParent", ty: "bool", modifiers: "", def_value: None }]
-explicit NotifyParentPropertyAttribute(bool notifyParent) ;
+static System::ComponentModel::NotifyParentPropertyAttribute New_ctor(bool notifyParent) ;
 
 /// @brief Method .ctor addr 0x27a7d58 size 0x28 virtual false final false
  void _ctor(bool notifyParent) ;

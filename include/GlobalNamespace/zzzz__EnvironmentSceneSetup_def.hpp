@@ -69,8 +69,7 @@ static int32_t __get_trackLaneYPositionPropertyId() ;
 /// @brief Method InstallBindings addr 0x21b3f88 size 0x168 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit EnvironmentSceneSetup() ;
+static GlobalNamespace::EnvironmentSceneSetup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21b40f0 size 0x8 virtual false final false
  void _ctor() ;

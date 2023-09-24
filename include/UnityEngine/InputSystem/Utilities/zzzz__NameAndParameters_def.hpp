@@ -14,15 +14,18 @@ struct NamedValue;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
+class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
+namespace UnityEngine::InputSystem::Utilities {
+class UnityEngine__InputSystem__Utilities__NameAndParameters____c;
+}
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerable_1;
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -88,8 +91,7 @@ static System::Func_2<UnityEngine::InputSystem::Utilities::NamedValue,::StringW>
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__Utilities__NameAndParameters____c() ;
+static UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2981f90 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CustomBeatmapLevel.get_beatmapLevelData
 template<>
 
@@ -129,8 +129,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::StringW, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "customPreviewBeatmapLevel", ty: "GlobalNamespace::CustomPreviewBeatmapLevel", modifiers: "", def_value: None }]
- GlobalNamespace::CustomBeatmapLevel::CustomBeatmapLevel(GlobalNamespace::CustomPreviewBeatmapLevel customPreviewBeatmapLevel)  : GlobalNamespace::CustomPreviewBeatmapLevel(THROW_UNLESS(::il2cpp_utils::New<CustomBeatmapLevel>(customPreviewBeatmapLevel))) {}
+ GlobalNamespace::CustomBeatmapLevel GlobalNamespace::CustomBeatmapLevel::New_ctor(GlobalNamespace::CustomPreviewBeatmapLevel customPreviewBeatmapLevel)  {
+GlobalNamespace::CustomBeatmapLevel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomBeatmapLevel>(customPreviewBeatmapLevel))};
+return o;
+}
  void GlobalNamespace::CustomBeatmapLevel::_ctor(GlobalNamespace::CustomPreviewBeatmapLevel customPreviewBeatmapLevel)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomBeatmapLevel>::get(),

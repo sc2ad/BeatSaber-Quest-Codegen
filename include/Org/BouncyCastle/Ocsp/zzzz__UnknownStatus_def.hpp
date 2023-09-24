@@ -47,8 +47,7 @@ constexpr explicit UnknownStatus(void* ptr) noexcept : Org::BouncyCastle::Ocsp::
 
 // Methods
 
-// Ctor Parameters []
-explicit UnknownStatus() ;
+static Org::BouncyCastle::Ocsp::UnknownStatus New_ctor() ;
 
 /// @brief Method .ctor addr 0x1018fbc size 0x58 virtual false final false
  void _ctor() ;

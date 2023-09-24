@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UnityEngineModuleAssembly::UnityEngineModuleAssembly()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<UnityEngineModuleAssembly>())) {}
+ UnityEngine::UnityEngineModuleAssembly UnityEngine::UnityEngineModuleAssembly::New_ctor()  {
+UnityEngine::UnityEngineModuleAssembly o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngineModuleAssembly>())};
+return o;
+}
  void UnityEngine::UnityEngineModuleAssembly::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngineModuleAssembly>::get(),

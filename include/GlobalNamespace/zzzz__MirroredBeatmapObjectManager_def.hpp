@@ -1,59 +1,59 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
-namespace GlobalNamespace {
-class GlobalNamespace__MirroredBombNoteController__Pool;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-template<typename T>
-class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
-class MirroredSliderController;
-}
-namespace GlobalNamespace {
-class MirroredBombNoteController;
-}
-namespace GlobalNamespace {
-class IGameNoteMirrorable;
-}
 namespace GlobalNamespace {
 class ObstacleController;
-}
-namespace GlobalNamespace {
-class SliderController;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class MirroredObstacleController;
-}
-namespace GlobalNamespace {
-class INoteMirrorable;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__MirroredGameNoteController__Pool;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__MirroredSliderController__Pool;
+class NoteController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class IGameNoteMirrorable;
 }
 namespace GlobalNamespace {
 class MirroredGameNoteController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MirroredSliderController__Pool;
+}
+namespace GlobalNamespace {
+class MirroredBombNoteController;
+}
+namespace GlobalNamespace {
+class SliderController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MirroredObstacleController__Pool;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
+}
+namespace GlobalNamespace {
+class MirroredObstacleController;
+}
+namespace GlobalNamespace {
+class MirroredSliderController;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MirroredBombNoteController__Pool;
+}
+namespace GlobalNamespace {
+template<typename T>
+class MemoryPoolContainer_1;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__MirroredObstacleController__Pool;
+class INoteMirrorable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -203,8 +203,7 @@ constexpr System::Collections::Generic::Dictionary_2<GlobalNamespace::SliderCont
 /// @brief Method HandleDidHideAllBeatmapObjects addr 0x223811c size 0x7cc virtual false final false
  void HandleDidHideAllBeatmapObjects(bool hide) ;
 
-// Ctor Parameters []
-explicit MirroredBeatmapObjectManager() ;
+static GlobalNamespace::MirroredBeatmapObjectManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x22388e8 size 0x148 virtual false final false
  void _ctor() ;

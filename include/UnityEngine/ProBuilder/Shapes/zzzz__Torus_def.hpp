@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Bounds;
+struct Vector3;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -119,8 +119,7 @@ static ::ArrayW<UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t 
 /// @brief Method GetCirclePoints addr 0x29fc958 size 0x298 virtual false final false
 static ::ArrayW<UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, UnityEngine::Quaternion rotation, UnityEngine::Vector3 offset) ;
 
-// Ctor Parameters []
-explicit Torus() ;
+static UnityEngine::ProBuilder::Shapes::Torus New_ctor() ;
 
 /// @brief Method .ctor addr 0x29fcbf0 size 0x2c virtual false final false
  void _ctor() ;

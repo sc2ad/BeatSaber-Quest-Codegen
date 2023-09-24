@@ -1,21 +1,21 @@
 #pragma once
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__AppDomain_def.hpp"
-#include "System/Runtime/ExceptionServices/zzzz__FirstChanceExceptionEventArgs_def.hpp"
-#include "System/zzzz__AssemblyLoadEventHandler_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
-#include "System/Security/Policy/zzzz__Evidence_def.hpp"
-#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
-#include "System/zzzz__EventHandler_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Reflection/zzzz__Assembly_def.hpp"
-#include "System/Reflection/zzzz__MethodInfo_def.hpp"
-#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/zzzz__ResolveEventHandler_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
-#include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
+#include "System/Runtime/ExceptionServices/zzzz__FirstChanceExceptionEventArgs_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodReturnMessage_def.hpp"
+#include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/zzzz__EventHandler_def.hpp"
+#include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "System/zzzz__EventHandler_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
+#include "System/zzzz__AssemblyLoadEventHandler_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Security/Policy/zzzz__Evidence_def.hpp"
 //  Writing Method size for method: System::AppDomain.IsAppXModel
 template<>
 
@@ -763,8 +763,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::AppDomain::AppDomain()  : System::MarshalByRefObject(THROW_UNLESS(::il2cpp_utils::New<AppDomain>())) {}
+ System::AppDomain System::AppDomain::New_ctor()  {
+System::AppDomain o{THROW_UNLESS(::il2cpp_utils::New<System::AppDomain>())};
+return o;
+}
  void System::AppDomain::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::AppDomain>::get(),

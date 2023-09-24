@@ -1,6 +1,7 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentShaderWarmup_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentShaderWarmup_def.hpp"
 #include "GlobalNamespace/zzzz__MainCamera_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -140,8 +141,10 @@ constexpr void GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start
 constexpr GlobalNamespace::EnvironmentShaderWarmup GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::EnvironmentShaderWarmup, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__EnvironmentShaderWarmup___Start_d__6>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6 GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__EnvironmentShaderWarmup___Start_d__6>::get(),
@@ -263,8 +266,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerator, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentShaderWarmup::EnvironmentShaderWarmup()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnvironmentShaderWarmup>())) {}
+ GlobalNamespace::EnvironmentShaderWarmup GlobalNamespace::EnvironmentShaderWarmup::New_ctor()  {
+GlobalNamespace::EnvironmentShaderWarmup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentShaderWarmup>())};
+return o;
+}
  void GlobalNamespace::EnvironmentShaderWarmup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentShaderWarmup>::get(),

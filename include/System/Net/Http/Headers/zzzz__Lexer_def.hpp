@@ -10,11 +10,11 @@ namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System {
-struct DateTimeOffset;
-}
 namespace System::Net::Http::Headers {
 struct Token;
+}
+namespace System {
+struct DateTimeOffset;
 }
 namespace System {
 struct TimeSpan;
@@ -103,8 +103,7 @@ constexpr int32_t __get_pos() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::StringW", modifiers: "", def_value: None }]
-explicit Lexer(::StringW stream) ;
+static System::Net::Http::Headers::Lexer New_ctor(::StringW stream) ;
 
 /// @brief Method .ctor addr 0x26a3204 size 0x28 virtual false final false
  void _ctor(::StringW stream) ;

@@ -2,16 +2,17 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
-#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
-#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__ColorSO_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__ImageView__GradientDirection::HMUI__ImageView__GradientDirection(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -892,8 +893,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector4, false>(const_cast<void*>(instance), ___internal_method, shouldPreserveAspect);
 }
-// Ctor Parameters []
- HMUI::ImageView::ImageView()  : UnityEngine::UI::Image(THROW_UNLESS(::il2cpp_utils::New<ImageView>())) {}
+ HMUI::ImageView HMUI::ImageView::New_ctor()  {
+HMUI::ImageView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ImageView>())};
+return o;
+}
  void HMUI::ImageView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ImageView>::get(),

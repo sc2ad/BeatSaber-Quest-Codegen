@@ -41,8 +41,10 @@ constexpr void UnityEngine::AndroidJavaException::__set_mJavaStackTrace(::String
 constexpr ::StringW UnityEngine::AndroidJavaException::__get_mJavaStackTrace() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "javaStackTrace", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::AndroidJavaException::AndroidJavaException(::StringW message, ::StringW javaStackTrace)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<AndroidJavaException>(message, javaStackTrace))) {}
+ UnityEngine::AndroidJavaException UnityEngine::AndroidJavaException::New_ctor(::StringW message, ::StringW javaStackTrace)  {
+UnityEngine::AndroidJavaException o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AndroidJavaException>(message, javaStackTrace))};
+return o;
+}
  void UnityEngine::AndroidJavaException::_ctor(::StringW message, ::StringW javaStackTrace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AndroidJavaException>::get(),

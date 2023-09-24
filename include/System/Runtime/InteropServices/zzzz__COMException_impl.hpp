@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__COMException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::Runtime::InteropServices::COMException._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::InteropServices::COMException::COMException()  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<COMException>())) {}
+ System::Runtime::InteropServices::COMException System::Runtime::InteropServices::COMException::New_ctor()  {
+System::Runtime::InteropServices::COMException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::COMException>())};
+return o;
+}
  void System::Runtime::InteropServices::COMException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::COMException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::COMException::COMException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Runtime::InteropServices::ExternalException(THROW_UNLESS(::il2cpp_utils::New<COMException>(info, context))) {}
+ System::Runtime::InteropServices::COMException System::Runtime::InteropServices::COMException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::InteropServices::COMException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::COMException>(info, context))};
+return o;
+}
  void System::Runtime::InteropServices::COMException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::COMException>::get(),

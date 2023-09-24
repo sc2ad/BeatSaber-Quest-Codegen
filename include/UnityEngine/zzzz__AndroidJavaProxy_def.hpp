@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace UnityEngine {
-class AndroidJavaObject;
+class GlobalJavaObjectRef;
 }
 namespace UnityEngine {
 class AndroidJavaClass;
 }
 namespace UnityEngine {
-class GlobalJavaObjectRef;
+class AndroidJavaObject;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -86,14 +86,12 @@ static ::cordl_internals::intptr_t __get_s_HashCodeMethodID() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "javaInterface", ty: "::StringW", modifiers: "", def_value: None }]
-explicit AndroidJavaProxy(::StringW javaInterface) ;
+static UnityEngine::AndroidJavaProxy New_ctor(::StringW javaInterface) ;
 
 /// @brief Method .ctor addr 0x2b0e370 size 0x7c virtual false final false
  void _ctor(::StringW javaInterface) ;
 
-// Ctor Parameters [CppParam { name: "javaInterface", ty: "UnityEngine::AndroidJavaClass", modifiers: "", def_value: None }]
-explicit AndroidJavaProxy(UnityEngine::AndroidJavaClass javaInterface) ;
+static UnityEngine::AndroidJavaProxy New_ctor(UnityEngine::AndroidJavaClass javaInterface) ;
 
 /// @brief Method .ctor addr 0x2b0e43c size 0x6c virtual false final false
  void _ctor(UnityEngine::AndroidJavaClass javaInterface) ;

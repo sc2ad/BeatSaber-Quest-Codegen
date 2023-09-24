@@ -180,8 +180,10 @@ constexpr void System::Xml::HtmlUtf8RawTextWriterIndent::__set_newLineOnAttribut
 constexpr bool System::Xml::HtmlUtf8RawTextWriterIndent::__get_newLineOnAttributes() const {
 return ::cordl_internals::getInstanceField<bool, 0xc8>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::HtmlUtf8RawTextWriterIndent::HtmlUtf8RawTextWriterIndent(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::HtmlUtf8RawTextWriter(THROW_UNLESS(::il2cpp_utils::New<HtmlUtf8RawTextWriterIndent>(stream, settings))) {}
+ System::Xml::HtmlUtf8RawTextWriterIndent System::Xml::HtmlUtf8RawTextWriterIndent::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::HtmlUtf8RawTextWriterIndent o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::HtmlUtf8RawTextWriterIndent>(stream, settings))};
+return o;
+}
  void System::Xml::HtmlUtf8RawTextWriterIndent::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::HtmlUtf8RawTextWriterIndent>::get(),

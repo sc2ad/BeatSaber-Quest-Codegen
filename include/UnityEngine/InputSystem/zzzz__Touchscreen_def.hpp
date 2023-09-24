@@ -5,17 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class ICustomDeviceReset;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateCallbackReceiver;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
 }
 namespace UnityEngine::InputSystem::Controls {
 class TouchControl;
@@ -24,11 +15,20 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IEventMerger;
+struct TouchState;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateCallbackReceiver;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IEventMerger;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -195,8 +195,7 @@ static bool MergeForward(UnityEngine::InputSystem::LowLevel::InputEventPtr curre
 /// @brief Method TriggerTap addr 0x2917930 size 0xcc virtual false final false
 static void TriggerTap(UnityEngine::InputSystem::Controls::TouchControl control, ByRef<UnityEngine::InputSystem::LowLevel::TouchState> state, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) ;
 
-// Ctor Parameters []
-explicit Touchscreen() ;
+static UnityEngine::InputSystem::Touchscreen New_ctor() ;
 
 /// @brief Method .ctor addr 0x29181d8 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,6 +2,7 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -102,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, layout, playersCount);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerConditionalActiveByLayout::MultiplayerConditionalActiveByLayout()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerConditionalActiveByLayout>())) {}
+ GlobalNamespace::MultiplayerConditionalActiveByLayout GlobalNamespace::MultiplayerConditionalActiveByLayout::New_ctor()  {
+GlobalNamespace::MultiplayerConditionalActiveByLayout o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerConditionalActiveByLayout>())};
+return o;
+}
  void GlobalNamespace::MultiplayerConditionalActiveByLayout::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerConditionalActiveByLayout>::get(),

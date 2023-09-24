@@ -47,8 +47,7 @@ constexpr explicit CriticalFinalizerObject(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Methods
 
-// Ctor Parameters []
-explicit CriticalFinalizerObject() ;
+static System::Runtime::ConstrainedExecution::CriticalFinalizerObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x236b07c size 0x8 virtual false final false
  void _ctor() ;

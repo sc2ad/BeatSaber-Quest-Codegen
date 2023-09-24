@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Net {
-class ICredentials;
-}
-namespace System::Net {
-class WebRequest;
+class Authorization;
 }
 namespace Mono::Security::Protocol::Ntlm {
 class MessageBase;
 }
 namespace System::Net {
-class Authorization;
+class ICredentials;
+}
+namespace System::Net {
+class WebRequest;
 }
 // Forward declare root types
 namespace Mono::Http {
@@ -69,8 +69,7 @@ constexpr Mono::Security::Protocol::Ntlm::MessageBase __get_message() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit NtlmSession() ;
+static Mono::Http::NtlmSession New_ctor() ;
 
 /// @brief Method .ctor addr 0x269457c size 0x8 virtual false final false
  void _ctor() ;

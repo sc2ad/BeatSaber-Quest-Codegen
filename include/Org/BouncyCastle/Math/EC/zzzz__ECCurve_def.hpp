@@ -5,20 +5,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
 }
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class IPreCompCallback;
+namespace Org::BouncyCastle::Math::EC {
+class Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
+class ECMultiplier;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC {
+class Org__BouncyCastle__Math__EC__ECCurve__Config;
 }
 namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
@@ -26,11 +29,14 @@ class IFiniteField;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
+class IPreCompCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECLookupTable;
@@ -114,8 +120,7 @@ constexpr Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier __get_multiplier
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "coord", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "endomorphism", ty: "Org::BouncyCastle::Math::EC::Endo::ECEndomorphism", modifiers: "", def_value: None }, CppParam { name: "multiplier", ty: "Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__ECCurve__Config(Org::BouncyCastle::Math::EC::ECCurve outer, int32_t coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier multiplier) ;
+static Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__Config New_ctor(Org::BouncyCastle::Math::EC::ECCurve outer, int32_t coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier multiplier) ;
 
 /// @brief Method .ctor addr 0xf3cc54 size 0x44 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve outer, int32_t coord, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism endomorphism, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier multiplier) ;
@@ -204,8 +209,7 @@ constexpr int32_t __get_m_size() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outer", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "table", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable(Org::BouncyCastle::Math::EC::ECCurve outer, ::ArrayW<uint8_t> table, int32_t size) ;
+static Org::BouncyCastle::Math::EC::Org__BouncyCastle__Math__EC__ECCurve__DefaultLookupTable New_ctor(Org::BouncyCastle::Math::EC::ECCurve outer, ::ArrayW<uint8_t> table, int32_t size) ;
 
 /// @brief Method .ctor addr 0xf3daf4 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve outer, ::ArrayW<uint8_t> table, int32_t size) ;
@@ -369,8 +373,7 @@ constexpr Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier __get_m_multipli
 /// @brief Method GetAllCoordinateSystems addr 0xf3cb38 size 0x70 virtual false final false
 static ::ArrayW<int32_t> GetAllCoordinateSystems() ;
 
-// Ctor Parameters [CppParam { name: "field", ty: "Org::BouncyCastle::Math::Field::IFiniteField", modifiers: "", def_value: None }]
-explicit ECCurve(Org::BouncyCastle::Math::Field::IFiniteField field) ;
+static Org::BouncyCastle::Math::EC::ECCurve New_ctor(Org::BouncyCastle::Math::Field::IFiniteField field) ;
 
 /// @brief Method .ctor addr 0xf3cba8 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Math::Field::IFiniteField field) ;

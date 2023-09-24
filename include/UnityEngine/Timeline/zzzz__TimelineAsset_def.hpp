@@ -9,72 +9,90 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class MarkerTrack;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Timeline {
-class IPropertyPreview;
+struct UnityEngine__Timeline__TimelineAsset__DurationMode;
 }
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
+namespace UnityEngine::Playables {
+class PlayableDirector;
+}
+namespace UnityEngine::Timeline {
+struct DiscreteTime;
+}
+namespace UnityEngine::Timeline {
+class IPropertyPreview;
 }
 namespace UnityEngine {
 class ScriptableObject;
 }
-namespace UnityEngine::Timeline {
-class MarkerTrack;
-}
 namespace UnityEngine::Playables {
 struct PlayableBinding;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace UnityEngine::Timeline {
-class IPropertyCollector;
+struct UnityEngine__Timeline__TimelineAsset__MediaType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::Timeline {
-class TimelineClip;
-}
-namespace UnityEngine::Timeline {
-struct DiscreteTime;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+class IPropertyCollector;
 }
 namespace System {
 class Type;
 }
 namespace UnityEngine::Timeline {
-struct ClipCaps;
+class UnityEngine__Timeline__TimelineAsset__TimelineAssetUpgrade;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine::Timeline {
+struct UnityEngine__Timeline__TimelineAsset__Versions;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__TimelineAsset__EditorSettings;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
+namespace UnityEngine::Timeline {
+class UnityEngine__Timeline__TimelineAsset___get_outputs_d__27;
+}
+namespace UnityEngine::Timeline {
+class TrackAsset;
 }
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
 namespace UnityEngine::Timeline {
-struct StandardFrameRates;
+struct ClipCaps;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+struct StandardFrameRates;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -150,6 +168,8 @@ __Initial = 0,
 constexpr operator __UnityEngine__Timeline__TimelineAsset__Versions_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__TimelineAsset__Versions_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -265,6 +285,8 @@ constexpr operator __UnityEngine__Timeline__TimelineAsset__MediaType_Unwrapped (
 return std::bit_cast<__UnityEngine__Timeline__TimelineAsset__MediaType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -348,6 +370,8 @@ __FixedLength = 1,
 constexpr operator __UnityEngine__Timeline__TimelineAsset__DurationMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__TimelineAsset__DurationMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -473,8 +497,7 @@ constexpr bool __get_m_ScenePreview() const;
 /// @brief Method set_scenePreview addr 0x2ac213c size 0xc virtual false final false
  void set_scenePreview(bool value) ;
 
-// Ctor Parameters []
-explicit UnityEngine__Timeline__TimelineAsset__EditorSettings() ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset__EditorSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ac1f0c size 0x70 virtual false final false
  void _ctor() ;
@@ -586,8 +609,7 @@ constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::Pl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Timeline__TimelineAsset___get_outputs_d__27(int32_t __1__state) ;
+static UnityEngine::Timeline::UnityEngine__Timeline__TimelineAsset___get_outputs_d__27 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2abee94 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -906,8 +928,7 @@ template<typename T>
 /// @brief Method DeleteRecordedAnimation addr 0x2ac13e4 size 0x158 virtual false final false
  void DeleteRecordedAnimation(UnityEngine::Timeline::TimelineClip clip) ;
 
-// Ctor Parameters []
-explicit TimelineAsset() ;
+static UnityEngine::Timeline::TimelineAsset New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ac1ea8 size 0x64 virtual false final false
  void _ctor() ;

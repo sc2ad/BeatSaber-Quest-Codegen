@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Cms::CmsException::CmsException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CmsException>())) {}
+ Org::BouncyCastle::Cms::CmsException Org::BouncyCastle::Cms::CmsException::New_ctor()  {
+Org::BouncyCastle::Cms::CmsException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsException>())};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsException::CmsException(::StringW msg)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CmsException>(msg))) {}
+ Org::BouncyCastle::Cms::CmsException Org::BouncyCastle::Cms::CmsException::New_ctor(::StringW msg)  {
+Org::BouncyCastle::Cms::CmsException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsException>(msg))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsException::_ctor(::StringW msg)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, msg);
 }
-// Ctor Parameters [CppParam { name: "msg", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::CmsException::CmsException(::StringW msg, System::Exception e)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<CmsException>(msg, e))) {}
+ Org::BouncyCastle::Cms::CmsException Org::BouncyCastle::Cms::CmsException::New_ctor(::StringW msg, System::Exception e)  {
+Org::BouncyCastle::Cms::CmsException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::CmsException>(msg, e))};
+return o;
+}
  void Org::BouncyCastle::Cms::CmsException::_ctor(::StringW msg, System::Exception e)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::CmsException>::get(),

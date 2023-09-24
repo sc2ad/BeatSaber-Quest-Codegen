@@ -1,38 +1,38 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace System::Collections {
-class IList;
+class ICollection;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorPublicKey;
 }
 namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace System::Collections {
-class ICollection;
+class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class RecipientInfo;
 }
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -127,8 +127,7 @@ constexpr Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair __get_senderKeyPair
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyAgreeRecipientInfoGenerator() ;
+static Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x11778c0 size 0x8 virtual false final false
  void _ctor() ;

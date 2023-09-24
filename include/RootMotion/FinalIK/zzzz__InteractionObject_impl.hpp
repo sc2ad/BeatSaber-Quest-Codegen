@@ -2,13 +2,14 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTarget_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionSystem_def.hpp"
-#include "UnityEngine/zzzz__Animator_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
+#include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
@@ -91,8 +92,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent::RootMotion__FinalIK__InteractionObject__InteractionEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionObject__InteractionEvent>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__InteractionEvent>::get(),
@@ -157,8 +160,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, t);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message::RootMotion__FinalIK__InteractionObject__Message()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionObject__Message>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Message>::get(),
@@ -299,8 +304,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, animation);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent::RootMotion__FinalIK__InteractionObject__AnimatorEvent()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionObject__AnimatorEvent>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__AnimatorEvent>::get(),
@@ -386,8 +393,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, timer);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve::RootMotion__FinalIK__InteractionObject__WeightCurve()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionObject__WeightCurve>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__WeightCurve>::get(),
@@ -458,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, weightCurve, timer);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier::RootMotion__FinalIK__InteractionObject__Multiplier()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionObject__Multiplier>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionObject__Multiplier>::get(),
@@ -1242,8 +1253,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, weightCurveType);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::InteractionObject::InteractionObject()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<InteractionObject>())) {}
+ RootMotion::FinalIK::InteractionObject RootMotion::FinalIK::InteractionObject::New_ctor()  {
+RootMotion::FinalIK::InteractionObject o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::InteractionObject>())};
+return o;
+}
  void RootMotion::FinalIK::InteractionObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::InteractionObject>::get(),

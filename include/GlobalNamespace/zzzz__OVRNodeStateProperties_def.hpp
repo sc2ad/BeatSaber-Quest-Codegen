@@ -2,18 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace GlobalNamespace {
+struct NodeStatePropertyType;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Node;
 }
-namespace UnityEngine::XR {
-struct XRNodeState;
-}
-namespace UnityEngine {
-struct Quaternion;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::XR {
 struct XRNode;
@@ -21,11 +18,14 @@ struct XRNode;
 namespace GlobalNamespace {
 struct GlobalNamespace__OVRPlugin__Step;
 }
-namespace GlobalNamespace {
-struct NodeStatePropertyType;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::XR {
+struct XRNodeState;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {

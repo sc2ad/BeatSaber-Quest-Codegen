@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Touch_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator._ctor
 template<>
 
@@ -138,8 +139,10 @@ constexpr void UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem
 constexpr int32_t UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator::__get_m_Index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "owner", ty: "UnityEngine::InputSystem::EnhancedTouch::TouchHistory", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator(UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator>(owner))) {}
+ UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator::New_ctor(UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner)  {
+UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator>(owner))};
+return o;
+}
  void UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator::_ctor(UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::EnhancedTouch::UnityEngine__InputSystem__EnhancedTouch__TouchHistory__Enumerator>::get(),

@@ -13,8 +13,8 @@ class SequentialSearchPrimeGeneratorBase;
 // Type: Mono.Math.Prime.Generator::SequentialSearchPrimeGeneratorBase
 namespace Mono::Math::Prime::Generator {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14022))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14023))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2294))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2295))
 // CS Name: Mono.Math.Prime.Generator.SequentialSearchPrimeGeneratorBase
 class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public Mono::Math::Prime::Generator::PrimeGeneratorBase {
 public:
@@ -52,22 +52,21 @@ constexpr explicit SequentialSearchPrimeGeneratorBase(void* ptr) noexcept : Mono
 
 // Methods
 
-/// @brief Method GenerateSearchBase addr 0x22a2df0 size 0x74 virtual true final false
+/// @brief Method GenerateSearchBase addr 0x22be480 size 0x74 virtual true final false
  Mono::Math::BigInteger GenerateSearchBase(int32_t bits, ::bs_hook::Il2CppWrapperType context) ;
 
-/// @brief Method GenerateNewPrime addr 0x22a2e64 size 0x10 virtual true final false
+/// @brief Method GenerateNewPrime addr 0x22be4f4 size 0x10 virtual true final false
  Mono::Math::BigInteger GenerateNewPrime(int32_t bits) ;
 
-/// @brief Method GenerateNewPrime addr 0x22a2e74 size 0x2e4 virtual true final false
+/// @brief Method GenerateNewPrime addr 0x22be504 size 0x2e4 virtual true final false
  Mono::Math::BigInteger GenerateNewPrime(int32_t bits, ::bs_hook::Il2CppWrapperType context) ;
 
-/// @brief Method IsPrimeAcceptable addr 0x22a3158 size 0x8 virtual true final false
+/// @brief Method IsPrimeAcceptable addr 0x22be7e8 size 0x8 virtual true final false
  bool IsPrimeAcceptable(Mono::Math::BigInteger bi, ::bs_hook::Il2CppWrapperType context) ;
 
-// Ctor Parameters []
-explicit SequentialSearchPrimeGeneratorBase() ;
+static Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase New_ctor() ;
 
-/// @brief Method .ctor addr 0x22a1ad8 size 0x8 virtual false final false
+/// @brief Method .ctor addr 0x22bcf9c size 0x8 virtual false final false
  void _ctor() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;

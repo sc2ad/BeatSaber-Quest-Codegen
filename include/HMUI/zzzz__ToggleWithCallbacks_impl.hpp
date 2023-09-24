@@ -2,8 +2,9 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__ToggleWithCallbacks__SelectionState::HMUI__ToggleWithCallbacks__SelectionState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -145,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, state, instant);
 }
-// Ctor Parameters []
- HMUI::ToggleWithCallbacks::ToggleWithCallbacks()  : UnityEngine::UI::Toggle(THROW_UNLESS(::il2cpp_utils::New<ToggleWithCallbacks>())) {}
+ HMUI::ToggleWithCallbacks HMUI::ToggleWithCallbacks::New_ctor()  {
+HMUI::ToggleWithCallbacks o{THROW_UNLESS(::il2cpp_utils::New<HMUI::ToggleWithCallbacks>())};
+return o;
+}
  void HMUI::ToggleWithCallbacks::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::ToggleWithCallbacks>::get(),

@@ -4,13 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsAgreementCredentials;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -67,8 +67,7 @@ constexpr explicit AbstractTlsAgreementCredentials(void* ptr) noexcept : Org::Bo
 /// @brief Method GenerateAgreement addr 0x0 size 0xffffffffffffffff virtual true final false
  ::ArrayW<uint8_t> GenerateAgreement(Org::BouncyCastle::Crypto::AsymmetricKeyParameter peerPublicKey) ;
 
-// Ctor Parameters []
-explicit AbstractTlsAgreementCredentials() ;
+static Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials New_ctor() ;
 
 /// @brief Method .ctor addr 0xecb1a0 size 0x8 virtual false final false
  void _ctor() ;

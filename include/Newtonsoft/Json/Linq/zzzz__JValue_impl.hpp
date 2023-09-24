@@ -1,23 +1,23 @@
 #pragma once
 #include "Newtonsoft/Json/Linq/zzzz__JToken_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JValue_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
-#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenType_def.hpp"
+#include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__DateTimeOffset_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Linq::JValue._ctor
 template<>
 
@@ -1028,8 +1028,10 @@ constexpr void Newtonsoft::Json::Linq::JValue::__set__value(::bs_hook::Il2CppWra
 constexpr ::bs_hook::Il2CppWrapperType Newtonsoft::Json::Linq::JValue::__get__value() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "Newtonsoft::Json::Linq::JTokenType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Linq::JTokenType type)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value, type))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Linq::JTokenType type)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value, type))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Linq::JTokenType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1039,8 +1041,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value, type);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JValue", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(Newtonsoft::Json::Linq::JValue other)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(other))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(Newtonsoft::Json::Linq::JValue other)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(other))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(Newtonsoft::Json::Linq::JValue other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1050,8 +1054,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "int64_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(int64_t value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(int64_t value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(int64_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1061,8 +1067,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::Decimal", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(System::Decimal value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(System::Decimal value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(System::Decimal value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1072,8 +1080,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(char16_t value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(char16_t value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(char16_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1083,8 +1093,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "uint64_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(uint64_t value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(uint64_t value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(uint64_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1094,8 +1106,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "double_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(double_t value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(double_t value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(double_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1105,8 +1119,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(float_t value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(float_t value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(float_t value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1116,8 +1132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::DateTime", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(System::DateTime value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(System::DateTime value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(System::DateTime value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1127,8 +1145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::DateTimeOffset", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(System::DateTimeOffset value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(System::DateTimeOffset value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(System::DateTimeOffset value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1138,8 +1158,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "bool", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(bool value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(bool value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(bool value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1149,8 +1171,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(::StringW value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(::StringW value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(::StringW value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1160,8 +1184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::Guid", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(System::Guid value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(System::Guid value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(System::Guid value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1171,8 +1197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::Uri", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(System::Uri value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(System::Uri value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(System::Uri value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1182,8 +1210,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "System::TimeSpan", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(System::TimeSpan value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(System::TimeSpan value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(System::TimeSpan value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),
@@ -1193,8 +1223,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Linq::JValue::JValue(::bs_hook::Il2CppWrapperType value)  : Newtonsoft::Json::Linq::JToken(THROW_UNLESS(::il2cpp_utils::New<JValue>(value))) {}
+ Newtonsoft::Json::Linq::JValue Newtonsoft::Json::Linq::JValue::New_ctor(::bs_hook::Il2CppWrapperType value)  {
+Newtonsoft::Json::Linq::JValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Linq::JValue>(value))};
+return o;
+}
  void Newtonsoft::Json::Linq::JValue::_ctor(::bs_hook::Il2CppWrapperType value)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Linq::JValue>::get(),

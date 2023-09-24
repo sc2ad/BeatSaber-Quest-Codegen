@@ -135,8 +135,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalizationProvider::LocalizationProvider()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<LocalizationProvider>())) {}
+ GlobalNamespace::LocalizationProvider GlobalNamespace::LocalizationProvider::New_ctor()  {
+GlobalNamespace::LocalizationProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalizationProvider>())};
+return o;
+}
  void GlobalNamespace::LocalizationProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalizationProvider>::get(),

@@ -62,8 +62,7 @@ constexpr UnityEngine::DepthTextureMode __get__depthTextureMode() const;
 /// @brief Method Awake addr 0x1f751bc size 0x5c virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit CameraDepthTextureMode() ;
+static GlobalNamespace::CameraDepthTextureMode New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f75218 size 0x8 virtual false final false
  void _ctor() ;

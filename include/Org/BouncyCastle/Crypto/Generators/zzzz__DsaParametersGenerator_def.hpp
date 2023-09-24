@@ -4,19 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class DsaParameterGenerationParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaParameterGenerationParameters;
+class DsaParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -109,14 +109,12 @@ constexpr int32_t __get_usageIndex() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DsaParametersGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe6c3d4 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DsaParametersGenerator(Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator New_ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe6c440 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;

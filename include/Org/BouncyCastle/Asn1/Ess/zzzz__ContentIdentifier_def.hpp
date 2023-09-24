@@ -73,14 +73,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_value() const;
 /// @brief Method GetInstance addr 0xe0bb2c size 0x194 virtual false final false
 static Org::BouncyCastle::Asn1::Ess::ContentIdentifier GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit ContentIdentifier(Org::BouncyCastle::Asn1::Asn1OctetString value) ;
+static Org::BouncyCastle::Asn1::Ess::ContentIdentifier New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
 /// @brief Method .ctor addr 0xe0bcc0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit ContentIdentifier(::ArrayW<uint8_t> value) ;
+static Org::BouncyCastle::Asn1::Ess::ContentIdentifier New_ctor(::ArrayW<uint8_t> value) ;
 
 /// @brief Method .ctor addr 0xe0bce8 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> value) ;

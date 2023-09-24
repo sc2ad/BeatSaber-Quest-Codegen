@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateDelegate_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventBuffer_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::InputUpdateDelegate._ctor
@@ -73,8 +73,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::InputUpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<InputUpdateDelegate>(object, method))) {}
+ UnityEngine::InputSystem::LowLevel::InputUpdateDelegate UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::InputSystem::LowLevel::InputUpdateDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::InputUpdateDelegate>(object, method))};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::InputUpdateDelegate>::get(),

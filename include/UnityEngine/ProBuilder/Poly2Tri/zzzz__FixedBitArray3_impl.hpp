@@ -2,10 +2,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__FixedBitArray3_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/ProBuilder/Poly2Tri/zzzz__FixedBitArray3_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10._ctor
 template<>
 
@@ -198,8 +199,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2
 constexpr int32_t UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10::__get__i_5__2() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10>(__1__state))) {}
+ UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10::New_ctor(int32_t __1__state)  {
+UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10 o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10>(__1__state))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::UnityEngine__ProBuilder__Poly2Tri__FixedBitArray3___Enumerate_d__10>::get(),

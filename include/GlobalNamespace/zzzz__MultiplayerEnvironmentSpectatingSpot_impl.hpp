@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentSpectatingSpot_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerActivePlayersTimeOffsetAverage_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerActivePlayersTimeOffsetAverage_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerEnvironmentSpectatingSpot.add_hasBeenRemovedEvent
 template<>
 
@@ -289,8 +289,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isObserved);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::MultiplayerEnvironmentSpectatingSpot()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerEnvironmentSpectatingSpot>())) {}
+ GlobalNamespace::MultiplayerEnvironmentSpectatingSpot GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::New_ctor()  {
+GlobalNamespace::MultiplayerEnvironmentSpectatingSpot o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerEnvironmentSpectatingSpot>())};
+return o;
+}
  void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerEnvironmentSpectatingSpot>::get(),

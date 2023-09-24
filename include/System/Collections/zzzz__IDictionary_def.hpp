@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class IEnumerable;
+class ICollection;
 }
 // Forward declare root types
 namespace System::Collections {

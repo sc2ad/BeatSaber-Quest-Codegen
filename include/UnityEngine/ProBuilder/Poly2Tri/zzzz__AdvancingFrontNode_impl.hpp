@@ -83,8 +83,10 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__set_Tria
 constexpr UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__get_Triangle() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "point", ty: "UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::AdvancingFrontNode(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AdvancingFrontNode>(point))) {}
+ UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::New_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point)  {
+UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode>(point))};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::_ctor(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint point)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode>::get(),

@@ -3,15 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace UnityEngine {
+struct LogType;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
 }
 namespace UnityEngine::ProBuilder {
 struct LogOutput;
-}
-namespace UnityEngine {
-struct LogType;
 }
 namespace UnityEngine::ProBuilder {
 struct LogLevel;

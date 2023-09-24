@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlow_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RectangleFakeGlow.set_color
 template<>
 
@@ -213,8 +213,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::RectangleFakeGlow::RectangleFakeGlow()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RectangleFakeGlow>())) {}
+ GlobalNamespace::RectangleFakeGlow GlobalNamespace::RectangleFakeGlow::New_ctor()  {
+GlobalNamespace::RectangleFakeGlow o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RectangleFakeGlow>())};
+return o;
+}
  void GlobalNamespace::RectangleFakeGlow::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RectangleFakeGlow>::get(),

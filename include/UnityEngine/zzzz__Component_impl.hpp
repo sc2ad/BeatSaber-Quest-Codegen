@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__SendMessageOptions_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::Component.get_transform
 template<>
 
@@ -687,8 +687,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, methodName, parameter, options);
 }
-// Ctor Parameters []
- UnityEngine::Component::Component()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Component>())) {}
+ UnityEngine::Component UnityEngine::Component::New_ctor()  {
+UnityEngine::Component o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Component>())};
+return o;
+}
  void UnityEngine::Component::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Component>::get(),

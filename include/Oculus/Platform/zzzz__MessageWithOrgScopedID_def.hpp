@@ -13,7 +13,7 @@ class MessageWithOrgScopedID;
 // Type: Oculus.Platform::MessageWithOrgScopedID
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13455)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4465 }), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4465 }), TypeDefinitionIndex(TypeDefinitionIndex(13455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13262))
 // CS Name: Oculus.Platform.MessageWithOrgScopedID
 class CORDL_TYPE MessageWithOrgScopedID : public Oculus::Platform::Message_1<Oculus::Platform::Models::OrgScopedID> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithOrgScopedID(void* ptr) noexcept : Oculus::Platform
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithOrgScopedID(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithOrgScopedID New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257ed18 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

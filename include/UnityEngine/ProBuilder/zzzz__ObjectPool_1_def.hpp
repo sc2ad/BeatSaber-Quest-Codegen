@@ -5,6 +5,10 @@
 namespace System {
 class IDisposable;
 }
+namespace System {
+template<typename T>
+class Action_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class Queue_1;
@@ -12,10 +16,6 @@ class Queue_1;
 namespace System {
 template<typename TResult>
 class Func_1;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -107,8 +107,7 @@ constexpr System::Action_1<T> __get_destructor() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "desiredSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "constructor", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "destructor", ty: "System::Action_1<T>", modifiers: "", def_value: None }, CppParam { name: "lazyInitialization", ty: "bool", modifiers: "", def_value: None }]
-explicit ObjectPool_1(int32_t initialSize, int32_t desiredSize, System::Func_1<T> constructor, System::Action_1<T> destructor, bool lazyInitialization) ;
+static UnityEngine::ProBuilder::ObjectPool_1<T> New_ctor(int32_t initialSize, int32_t desiredSize, System::Func_1<T> constructor, System::Action_1<T> destructor, bool lazyInitialization) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t initialSize, int32_t desiredSize, System::Func_1<T> constructor, System::Action_1<T> destructor, bool lazyInitialization) ;

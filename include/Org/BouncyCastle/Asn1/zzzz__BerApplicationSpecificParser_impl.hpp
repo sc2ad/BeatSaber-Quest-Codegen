@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__BerApplicationSpecificParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1ApplicationSpecificParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1ApplicationSpecificParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::BerApplicationSpecificParser._ctor
 template<>
 
@@ -75,8 +75,10 @@ constexpr void Org::BouncyCastle::Asn1::BerApplicationSpecificParser::__set_pars
 constexpr Org::BouncyCastle::Asn1::Asn1StreamParser Org::BouncyCastle::Asn1::BerApplicationSpecificParser::__get_parser() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1StreamParser, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parser", ty: "Org::BouncyCastle::Asn1::Asn1StreamParser", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::BerApplicationSpecificParser::BerApplicationSpecificParser(int32_t tag, Org::BouncyCastle::Asn1::Asn1StreamParser parser)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BerApplicationSpecificParser>(tag, parser))) {}
+ Org::BouncyCastle::Asn1::BerApplicationSpecificParser Org::BouncyCastle::Asn1::BerApplicationSpecificParser::New_ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1StreamParser parser)  {
+Org::BouncyCastle::Asn1::BerApplicationSpecificParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::BerApplicationSpecificParser>(tag, parser))};
+return o;
+}
  void Org::BouncyCastle::Asn1::BerApplicationSpecificParser::_ctor(int32_t tag, Org::BouncyCastle::Asn1::Asn1StreamParser parser)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::BerApplicationSpecificParser>::get(),

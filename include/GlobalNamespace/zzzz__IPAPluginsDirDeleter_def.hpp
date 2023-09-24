@@ -47,8 +47,7 @@ constexpr explicit IPAPluginsDirDeleter(void* ptr) noexcept : UnityEngine::MonoB
 
 // Methods
 
-// Ctor Parameters []
-explicit IPAPluginsDirDeleter() ;
+static GlobalNamespace::IPAPluginsDirDeleter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2115f88 size 0x8 virtual false final false
  void _ctor() ;

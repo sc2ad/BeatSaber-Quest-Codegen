@@ -55,8 +55,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::ConsoleKeyInfo, false>(const_cast<void*>(instance), ___internal_method, intercept);
 }
-// Ctor Parameters []
- System::NullConsoleDriver::NullConsoleDriver()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NullConsoleDriver>())) {}
+ System::NullConsoleDriver System::NullConsoleDriver::New_ctor()  {
+System::NullConsoleDriver o{THROW_UNLESS(::il2cpp_utils::New<System::NullConsoleDriver>())};
+return o;
+}
  void System::NullConsoleDriver::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::NullConsoleDriver>::get(),

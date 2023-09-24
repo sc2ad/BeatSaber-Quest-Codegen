@@ -47,8 +47,7 @@ constexpr explicit PSSortingLayer(void* ptr) noexcept : UnityEngine::MonoBehavio
 
 // Methods
 
-// Ctor Parameters []
-explicit PSSortingLayer() ;
+static GlobalNamespace::PSSortingLayer New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83858 size 0x8 virtual false final false
  void _ctor() ;

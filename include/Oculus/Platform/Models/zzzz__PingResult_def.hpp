@@ -76,8 +76,7 @@ constexpr System::Nullable_1<uint64_t> __get_pingTimeUsec() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "id", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pingTimeUsec", ty: "System::Nullable_1<uint64_t>", modifiers: "", def_value: None }]
-explicit PingResult(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) ;
+static Oculus::Platform::Models::PingResult New_ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) ;
 
 /// @brief Method .ctor addr 0x25a2294 size 0x3c virtual false final false
  void _ctor(uint64_t id, System::Nullable_1<uint64_t> pingTimeUsec) ;

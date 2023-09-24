@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
-#include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::ListViewController.add_itemsSourceSizeChanged
 template<>
 
@@ -589,8 +589,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::ListViewController::ListViewController()  : UnityEngine::UIElements::CollectionViewController(THROW_UNLESS(::il2cpp_utils::New<ListViewController>())) {}
+ UnityEngine::UIElements::ListViewController UnityEngine::UIElements::ListViewController::New_ctor()  {
+UnityEngine::UIElements::ListViewController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::ListViewController>())};
+return o;
+}
  void UnityEngine::UIElements::ListViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::ListViewController>::get(),

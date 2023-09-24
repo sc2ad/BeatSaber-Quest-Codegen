@@ -24,10 +24,6 @@ static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
 // Methods
 
-// Ctor Parameters []
-constexpr explicit ValueType()  : ::bs_hook::ValueTypeWrapper() {
-}
-
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

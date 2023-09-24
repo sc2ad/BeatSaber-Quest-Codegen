@@ -1,7 +1,7 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Shapes::Shape.UpdateBounds
@@ -99,8 +99,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, shape);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Shapes::Shape::Shape()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Shape>())) {}
+ UnityEngine::ProBuilder::Shapes::Shape UnityEngine::ProBuilder::Shapes::Shape::New_ctor()  {
+UnityEngine::ProBuilder::Shapes::Shape o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Shapes::Shape>())};
+return o;
+}
  void UnityEngine::ProBuilder::Shapes::Shape::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Shapes::Shape>::get(),

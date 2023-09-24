@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlSchemaType_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaComplexType_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaAnyAttribute_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaDerivationMethod_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaAnyAttribute_def.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::XmlSchemaComplexType.CreateAnyType
 template<>
 
@@ -193,8 +193,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Xml::Schema::XmlSchemaComplexType, false>(nullptr, ___internal_method, processContents);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaComplexType::XmlSchemaComplexType()  : System::Xml::Schema::XmlSchemaType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaComplexType>())) {}
+ System::Xml::Schema::XmlSchemaComplexType System::Xml::Schema::XmlSchemaComplexType::New_ctor()  {
+System::Xml::Schema::XmlSchemaComplexType o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaComplexType>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaComplexType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaComplexType>::get(),

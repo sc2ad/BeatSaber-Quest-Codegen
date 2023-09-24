@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class BeatmapIdentifierNetSerializable;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {

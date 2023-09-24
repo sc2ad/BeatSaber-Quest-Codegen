@@ -3,54 +3,23 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class ContextualMenuManager;
-}
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-struct Vector2;
+class ScriptableObject;
 }
 namespace UnityEngine::UIElements {
-class IGroupBox;
-}
-namespace System {
-template<typename T>
-class Action_1;
-}
-namespace UnityEngine::Yoga {
-class YogaConfig;
-}
-namespace UnityEngine::UIElements {
-struct VisualTreeUpdatePhase;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class ElementUnderPointer;
-}
-namespace UnityEngine::UIElements {
-class SavePersistentViewData;
-}
-namespace UnityEngine::UIElements {
-class IStylePropertyAnimationSystem;
-}
-namespace UnityEngine::UIElements {
-class GetViewDataDictionary;
+class IMGUIContainer;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine::UIElements {
-class IVisualTreeUpdater;
-}
-namespace UnityEngine {
-class ScriptableObject;
+struct DispatchMode;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class ICursorManager;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct HierarchyChangeType;
@@ -58,57 +27,88 @@ struct HierarchyChangeType;
 namespace UnityEngine::UIElements {
 struct PanelClearSettings;
 }
+namespace UnityEngine::Yoga {
+class YogaConfig;
+}
 namespace UnityEngine::UIElements {
-class VisualElement;
+class ContextualMenuManager;
+}
+namespace UnityEngine::UIElements {
+class IStylePropertyAnimationSystem;
 }
 namespace UnityEngine {
 struct EventInterests;
-}
-namespace UnityEngine::UIElements {
-class HierarchyEvent;
-}
-namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine::UIElements {
-class IMGUIContainer;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class IScheduler;
-}
-namespace UnityEngine::UIElements {
-struct DispatchMode;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
+class ElementUnderPointer;
+}
+namespace UnityEngine::UIElements {
+class IScheduler;
+}
+namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
-class AtlasBase;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class FocusController;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class ICursorManager;
+class GetViewDataDictionary;
+}
+namespace UnityEngine {
+class Shader;
 }
 namespace UnityEngine::UIElements {
-class EventDispatcher;
+struct VisualTreeUpdatePhase;
+}
+namespace System {
+template<typename T>
+class Action_1;
+}
+namespace UnityEngine::UIElements {
+class IVisualTreeUpdater;
 }
 namespace UnityEngine::UIElements {
 class RepaintData;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class VisualElement;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+class AtlasBase;
+}
+namespace UnityEngine::UIElements {
+class HierarchyEvent;
+}
+namespace UnityEngine::UIElements {
+class SavePersistentViewData;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class FocusController;
+}
+namespace UnityEngine::UIElements {
+struct VersionChangeType;
+}
+namespace UnityEngine::UIElements {
+class IGroupBox;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -364,8 +364,7 @@ constexpr System::Action_1<UnityEngine::UIElements::IPanel> __get_beforeUpdate()
 /// @brief Method remove_panelDisposed addr 0x2c4fe40 size 0xb0 virtual false final false
  void remove_panelDisposed(System::Action_1<UnityEngine::UIElements::BaseVisualElementPanel> value) ;
 
-// Ctor Parameters []
-explicit BaseVisualElementPanel() ;
+static UnityEngine::UIElements::BaseVisualElementPanel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4fef0 size 0xe8 virtual false final false
  void _ctor() ;

@@ -3,29 +3,29 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace Tweening {
-class Vector3Tween;
-}
-namespace UnityEngine {
-class Transform;
-}
 namespace Tweening {
 class SongTimeTweeningManager;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
+namespace Tweening {
+class Vector3Tween;
+}
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 struct BasicBeatmapEventType;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -166,8 +166,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method SetPosition addr 0x226785c size 0x48 virtual false final false
  void SetPosition(UnityEngine::Vector3 position) ;
 
-// Ctor Parameters []
-explicit SmoothStepPositionEventEffect() ;
+static GlobalNamespace::SmoothStepPositionEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x22678a4 size 0x70 virtual false final false
  void _ctor() ;

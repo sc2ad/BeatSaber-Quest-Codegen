@@ -63,8 +63,10 @@ constexpr void System::Net::Sockets::LingerOption::__set_lingerTime(int32_t valu
 constexpr int32_t System::Net::Sockets::LingerOption::__get_lingerTime() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "enable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "seconds", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::Sockets::LingerOption::LingerOption(bool enable, int32_t seconds)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LingerOption>(enable, seconds))) {}
+ System::Net::Sockets::LingerOption System::Net::Sockets::LingerOption::New_ctor(bool enable, int32_t seconds)  {
+System::Net::Sockets::LingerOption o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::LingerOption>(enable, seconds))};
+return o;
+}
  void System::Net::Sockets::LingerOption::_ctor(bool enable, int32_t seconds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::LingerOption>::get(),

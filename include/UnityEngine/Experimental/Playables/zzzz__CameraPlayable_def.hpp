@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 namespace UnityEngine::Playables {
+struct PlayableHandle;
+}
+namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::Playables {
-struct PlayableHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Playables {

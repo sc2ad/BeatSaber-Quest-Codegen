@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__RaycastUITopLevelChecker_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
 //  Writing Method size for method: HMUI::RaycastUITopLevelChecker.Awake
 template<>
@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::RaycastUITopLevelChecker::RaycastUITopLevelChecker()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RaycastUITopLevelChecker>())) {}
+ HMUI::RaycastUITopLevelChecker HMUI::RaycastUITopLevelChecker::New_ctor()  {
+HMUI::RaycastUITopLevelChecker o{THROW_UNLESS(::il2cpp_utils::New<HMUI::RaycastUITopLevelChecker>())};
+return o;
+}
  void HMUI::RaycastUITopLevelChecker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::RaycastUITopLevelChecker>::get(),

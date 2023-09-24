@@ -3,15 +3,15 @@
 #include <cmath>
 #include <cstdint>
 namespace System {
-template<typename T>
-class Action_1;
-}
-namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
 class ScoringElement;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {

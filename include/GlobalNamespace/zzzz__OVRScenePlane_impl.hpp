@@ -2,15 +2,16 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRScenePlane_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "GlobalNamespace/zzzz__OVRScenePlane_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRScenePlane__GetBoundaryLengthJob.Execute
@@ -661,8 +662,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRScenePlane::OVRScenePlane()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRScenePlane>())) {}
+ GlobalNamespace::OVRScenePlane GlobalNamespace::OVRScenePlane::New_ctor()  {
+GlobalNamespace::OVRScenePlane o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRScenePlane>())};
+return o;
+}
  void GlobalNamespace::OVRScenePlane::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRScenePlane>::get(),

@@ -81,8 +81,7 @@ constexpr ::cordl_internals::intptr_t __get_m_Ptr() const;
 /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
  UnityEngine::ISubsystem CreateImpl() ;
 
-// Ctor Parameters []
-explicit IntegratedSubsystemDescriptor() ;
+static UnityEngine::IntegratedSubsystemDescriptor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ba2fd0 size 0x8 virtual false final false
  void _ctor() ;

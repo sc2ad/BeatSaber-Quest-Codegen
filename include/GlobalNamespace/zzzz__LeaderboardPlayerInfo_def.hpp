@@ -144,8 +144,7 @@ constexpr bool __get__succeeded_k__BackingField() const;
 /// @brief Method set_succeeded addr 0x21c3ad0 size 0xc virtual false final false
  void set_succeeded(bool value) ;
 
-// Ctor Parameters [CppParam { name: "succeeded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "authType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "playerFriends", ty: "::StringW", modifiers: "", def_value: None }]
-explicit LeaderboardPlayerInfo(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends) ;
+static GlobalNamespace::LeaderboardPlayerInfo New_ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends) ;
 
 /// @brief Method .ctor addr 0x21c3adc size 0x5c virtual false final false
  void _ctor(bool succeeded, ::StringW playerId, ::StringW playerName, ::StringW playerKey, ::StringW authType, ::StringW playerFriends) ;

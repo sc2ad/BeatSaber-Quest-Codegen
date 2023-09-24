@@ -66,8 +66,7 @@ constexpr int32_t __get_levels() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "childType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "levels", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SupportsChildTracksAttribute(System::Type childType, int32_t levels) ;
+static UnityEngine::Timeline::SupportsChildTracksAttribute New_ctor(System::Type childType, int32_t levels) ;
 
 /// @brief Method .ctor addr 0x2ad5dac size 0x30 virtual false final false
  void _ctor(System::Type childType, int32_t levels) ;

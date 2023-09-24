@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyTrademarkAttribute::__set__Trademark_
 constexpr ::StringW System::Reflection::AssemblyTrademarkAttribute::__get__Trademark_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "trademark", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyTrademarkAttribute::AssemblyTrademarkAttribute(::StringW trademark)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyTrademarkAttribute>(trademark))) {}
+ System::Reflection::AssemblyTrademarkAttribute System::Reflection::AssemblyTrademarkAttribute::New_ctor(::StringW trademark)  {
+System::Reflection::AssemblyTrademarkAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyTrademarkAttribute>(trademark))};
+return o;
+}
  void System::Reflection::AssemblyTrademarkAttribute::_ctor(::StringW trademark)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyTrademarkAttribute>::get(),

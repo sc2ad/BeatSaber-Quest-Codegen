@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+namespace HMUI {
+struct UISelectionState;
+}
 namespace UnityEngine::UI {
 struct UnityEngine__UI__Selectable__SelectionState;
 }
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace HMUI {
-struct UISelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -92,8 +92,7 @@ constexpr HMUI::UISelectionState __get__selectionState() const;
 /// @brief Method DoStateTransition addr 0x1fcf4d8 size 0x54 virtual true final false
  void DoStateTransition(UnityEngine::UI::UnityEngine__UI__Selectable__SelectionState state, bool instant) ;
 
-// Ctor Parameters []
-explicit NoTransitionsToggle() ;
+static HMUI::NoTransitionsToggle New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fcf52c size 0x8 virtual false final false
  void _ctor() ;

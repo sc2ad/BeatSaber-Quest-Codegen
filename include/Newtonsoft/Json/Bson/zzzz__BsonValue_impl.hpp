@@ -65,8 +65,10 @@ constexpr void Newtonsoft::Json::Bson::BsonValue::__set__type(Newtonsoft::Json::
 constexpr Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonValue::__get__type() const {
 return ::cordl_internals::getInstanceField<Newtonsoft::Json::Bson::BsonType, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "type", ty: "Newtonsoft::Json::Bson::BsonType", modifiers: "", def_value: None }]
- Newtonsoft::Json::Bson::BsonValue::BsonValue(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Bson::BsonType type)  : Newtonsoft::Json::Bson::BsonToken(THROW_UNLESS(::il2cpp_utils::New<BsonValue>(value, type))) {}
+ Newtonsoft::Json::Bson::BsonValue Newtonsoft::Json::Bson::BsonValue::New_ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Bson::BsonType type)  {
+Newtonsoft::Json::Bson::BsonValue o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Bson::BsonValue>(value, type))};
+return o;
+}
  void Newtonsoft::Json::Bson::BsonValue::_ctor(::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::Bson::BsonType type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Bson::BsonValue>::get(),

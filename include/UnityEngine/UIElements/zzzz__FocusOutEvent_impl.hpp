@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::FocusOutEvent::FocusOutEvent()  : UnityEngine::UIElements::FocusEventBase_1<UnityEngine::UIElements::FocusOutEvent>(THROW_UNLESS(::il2cpp_utils::New<FocusOutEvent>())) {}
+ UnityEngine::UIElements::FocusOutEvent UnityEngine::UIElements::FocusOutEvent::New_ctor()  {
+UnityEngine::UIElements::FocusOutEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::FocusOutEvent>())};
+return o;
+}
  void UnityEngine::UIElements::FocusOutEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::FocusOutEvent>::get(),

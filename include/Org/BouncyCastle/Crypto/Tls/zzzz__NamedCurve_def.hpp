@@ -147,8 +147,7 @@ static bool IsValid(int32_t namedCurve) ;
 /// @brief Method RefersToASpecificNamedCurve addr 0xf04d7c size 0x14 virtual false final false
 static bool RefersToASpecificNamedCurve(int32_t namedCurve) ;
 
-// Ctor Parameters []
-explicit NamedCurve() ;
+static Org::BouncyCastle::Crypto::Tls::NamedCurve New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04d90 size 0x8 virtual false final false
  void _ctor() ;

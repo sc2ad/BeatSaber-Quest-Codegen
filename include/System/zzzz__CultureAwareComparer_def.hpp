@@ -5,19 +5,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Globalization {
-class CultureInfo;
+struct CompareOptions;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Globalization {
-struct CompareOptions;
+class CultureInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Globalization {
 class CompareInfo;
@@ -86,20 +86,17 @@ constexpr System::Globalization::CompareOptions __get__options() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }]
-explicit CultureAwareComparer(System::Globalization::CultureInfo culture, System::Globalization::CompareOptions options) ;
+static System::CultureAwareComparer New_ctor(System::Globalization::CultureInfo culture, System::Globalization::CompareOptions options) ;
 
 /// @brief Method .ctor addr 0x2456f4c size 0x44 virtual false final false
  void _ctor(System::Globalization::CultureInfo culture, System::Globalization::CompareOptions options) ;
 
-// Ctor Parameters [CppParam { name: "compareInfo", ty: "System::Globalization::CompareInfo", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Globalization::CompareOptions", modifiers: "", def_value: None }]
-explicit CultureAwareComparer(System::Globalization::CompareInfo compareInfo, System::Globalization::CompareOptions options) ;
+static System::CultureAwareComparer New_ctor(System::Globalization::CompareInfo compareInfo, System::Globalization::CompareOptions options) ;
 
 /// @brief Method .ctor addr 0x2456fa0 size 0xe4 virtual false final false
  void _ctor(System::Globalization::CompareInfo compareInfo, System::Globalization::CompareOptions options) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CultureAwareComparer(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::CultureAwareComparer New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2457084 size 0x20c virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

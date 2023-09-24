@@ -59,8 +59,10 @@ constexpr void System::Xml::Schema::XmlSchemaSimpleType::__set_content(System::X
 constexpr System::Xml::Schema::XmlSchemaSimpleTypeContent System::Xml::Schema::XmlSchemaSimpleType::__get_content() const {
 return ::cordl_internals::getInstanceField<System::Xml::Schema::XmlSchemaSimpleTypeContent, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaSimpleType::XmlSchemaSimpleType()  : System::Xml::Schema::XmlSchemaType(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaSimpleType>())) {}
+ System::Xml::Schema::XmlSchemaSimpleType System::Xml::Schema::XmlSchemaSimpleType::New_ctor()  {
+System::Xml::Schema::XmlSchemaSimpleType o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaSimpleType>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaSimpleType::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaSimpleType>::get(),

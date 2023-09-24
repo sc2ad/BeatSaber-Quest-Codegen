@@ -118,14 +118,12 @@ static ::ArrayW<uint8_t> __get_S() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MD2Digest() ;
+static Org::BouncyCastle::Crypto::Digests::MD2Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119c140 size 0x80 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::MD2Digest", modifiers: "", def_value: None }]
-explicit MD2Digest(Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::MD2Digest New_ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;
 
 /// @brief Method .ctor addr 0x119c278 size 0x90 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::MD2Digest t) ;

@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::AspMvcControllerAttribute::__set__Anonymo
 constexpr ::StringW JetBrains::Annotations::AspMvcControllerAttribute::__get__AnonymousProperty_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::AspMvcControllerAttribute::AspMvcControllerAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcControllerAttribute>())) {}
+ JetBrains::Annotations::AspMvcControllerAttribute JetBrains::Annotations::AspMvcControllerAttribute::New_ctor()  {
+JetBrains::Annotations::AspMvcControllerAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcControllerAttribute>())};
+return o;
+}
  void JetBrains::Annotations::AspMvcControllerAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcControllerAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "anonymousProperty", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspMvcControllerAttribute::AspMvcControllerAttribute(::StringW anonymousProperty)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcControllerAttribute>(anonymousProperty))) {}
+ JetBrains::Annotations::AspMvcControllerAttribute JetBrains::Annotations::AspMvcControllerAttribute::New_ctor(::StringW anonymousProperty)  {
+JetBrains::Annotations::AspMvcControllerAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcControllerAttribute>(anonymousProperty))};
+return o;
+}
  void JetBrains::Annotations::AspMvcControllerAttribute::_ctor(::StringW anonymousProperty)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcControllerAttribute>::get(),

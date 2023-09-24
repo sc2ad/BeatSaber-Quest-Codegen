@@ -52,8 +52,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::OVROnCompleteListener::OVROnCompleteListener()  : UnityEngine::AndroidJavaProxy(THROW_UNLESS(::il2cpp_utils::New<OVROnCompleteListener>())) {}
+ GlobalNamespace::OVROnCompleteListener GlobalNamespace::OVROnCompleteListener::New_ctor()  {
+GlobalNamespace::OVROnCompleteListener o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVROnCompleteListener>())};
+return o;
+}
  void GlobalNamespace::OVROnCompleteListener::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVROnCompleteListener>::get(),

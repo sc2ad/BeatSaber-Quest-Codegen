@@ -30,8 +30,10 @@ constexpr void UnityEngine::RangeAttribute::__set_max(float_t value)  {
 constexpr float_t UnityEngine::RangeAttribute::__get_max() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }]
- UnityEngine::RangeAttribute::RangeAttribute(float_t min, float_t max)  : UnityEngine::PropertyAttribute(THROW_UNLESS(::il2cpp_utils::New<RangeAttribute>(min, max))) {}
+ UnityEngine::RangeAttribute UnityEngine::RangeAttribute::New_ctor(float_t min, float_t max)  {
+UnityEngine::RangeAttribute o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::RangeAttribute>(min, max))};
+return o;
+}
  void UnityEngine::RangeAttribute::_ctor(float_t min, float_t max)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::RangeAttribute>::get(),

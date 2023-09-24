@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagementAnalytics_def.hpp"
+#include "UnityEngine/XR/Management/zzzz__XRManagementAnalytics_def.hpp"
 // Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: Some("csnull") }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("csnull") }]
 constexpr UnityEngine::XR::Management::UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent::UnityEngine__XR__Management__XRManagementAnalytics__BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup, ::ArrayW<::StringW> assigned_loaders) noexcept : ::bs_hook::ValueTypeWrapper() {this->buildGuid = buildGuid;
 this->buildTarget = buildTarget;

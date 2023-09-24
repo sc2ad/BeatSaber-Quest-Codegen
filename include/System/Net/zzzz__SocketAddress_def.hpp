@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net {
-class IPEndPoint;
-}
 namespace System::Net::Sockets {
 struct AddressFamily;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 namespace System::Net {
 class IPAddress;
@@ -104,20 +104,17 @@ constexpr int32_t __get_m_hash() const;
 /// @brief Method get_Item addr 0x280d5e0 size 0x7c virtual false final false
  uint8_t get_Item(int32_t offset) ;
 
-// Ctor Parameters [CppParam { name: "family", ty: "System::Net::Sockets::AddressFamily", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SocketAddress(System::Net::Sockets::AddressFamily family, int32_t size) ;
+static System::Net::SocketAddress New_ctor(System::Net::Sockets::AddressFamily family, int32_t size) ;
 
 /// @brief Method .ctor addr 0x280d65c size 0x120 virtual false final false
  void _ctor(System::Net::Sockets::AddressFamily family, int32_t size) ;
 
-// Ctor Parameters [CppParam { name: "ipAddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }]
-explicit SocketAddress(System::Net::IPAddress ipAddress) ;
+static System::Net::SocketAddress New_ctor(System::Net::IPAddress ipAddress) ;
 
 /// @brief Method .ctor addr 0x280d77c size 0x288 virtual false final false
  void _ctor(System::Net::IPAddress ipAddress) ;
 
-// Ctor Parameters [CppParam { name: "ipaddress", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SocketAddress(System::Net::IPAddress ipaddress, int32_t port) ;
+static System::Net::SocketAddress New_ctor(System::Net::IPAddress ipaddress, int32_t port) ;
 
 /// @brief Method .ctor addr 0x280da04 size 0x5c virtual false final false
  void _ctor(System::Net::IPAddress ipaddress, int32_t port) ;

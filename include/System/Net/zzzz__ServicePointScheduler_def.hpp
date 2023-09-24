@@ -9,55 +9,70 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace System::Net {
+class WebOperation;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedList_1;
 }
 namespace System::Net {
-class ServicePoint;
+class System__Net__ServicePointScheduler__AsyncManualResetEvent;
 }
 namespace System::Net {
-class WebOperation;
-}
-namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
-}
-namespace System {
-struct DateTime;
+struct System__Net__ServicePointScheduler___RunScheduler_d__32;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
+}
 namespace System::Net {
-class WebConnection;
+class ServicePoint;
+}
+namespace System {
+struct DateTime;
+}
+namespace System::Net {
+struct System__Net__ServicePointScheduler___WaitAsync_d__46;
+}
+namespace System::Net {
+class System__Net__ServicePointScheduler__ConnectionGroup;
 }
 namespace System::Threading::Tasks {
 class Task;
+}
+namespace System {
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
+namespace System::Net {
+class WebConnection;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class TaskCompletionSource_1;
 }
+namespace GlobalNamespace {
+class System__Net__ServicePointScheduler__AsyncManualResetEvent____c;
+}
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template<typename TResult>
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -177,8 +192,7 @@ constexpr System::Collections::Generic::LinkedList_1<System::Net::WebOperation> 
 /// @brief Method get_Scheduler addr 0x2848900 size 0x8 virtual false final false
  System::Net::ServicePointScheduler get_Scheduler() ;
 
-// Ctor Parameters [CppParam { name: "scheduler", ty: "System::Net::ServicePointScheduler", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit System__Net__ServicePointScheduler__ConnectionGroup(System::Net::ServicePointScheduler scheduler, ::StringW name) ;
+static System::Net::System__Net__ServicePointScheduler__ConnectionGroup New_ctor(System::Net::ServicePointScheduler scheduler, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x2846e54 size 0x10c virtual false final false
  void _ctor(System::Net::ServicePointScheduler scheduler, ::StringW name) ;
@@ -268,8 +282,7 @@ static System::Func_2<::bs_hook::Il2CppWrapperType,bool> __get___9__4_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit System__Net__ServicePointScheduler__AsyncManualResetEvent____c() ;
+static GlobalNamespace::System__Net__ServicePointScheduler__AsyncManualResetEvent____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x28493c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -343,8 +356,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<bool> __get_m_tcs() c
 /// @brief Method Reset addr 0x28476e8 size 0xc4 virtual false final false
  void Reset() ;
 
-// Ctor Parameters [CppParam { name: "state", ty: "bool", modifiers: "", def_value: None }]
-explicit System__Net__ServicePointScheduler__AsyncManualResetEvent(bool state) ;
+static System::Net::System__Net__ServicePointScheduler__AsyncManualResetEvent New_ctor(bool state) ;
 
 /// @brief Method .ctor addr 0x2846dac size 0xa8 virtual false final false
  void _ctor(bool state) ;
@@ -714,8 +726,7 @@ constexpr int32_t __get_ID() const;
 /// @brief Method get_MaxIdleTime addr 0x2846da4 size 0x8 virtual false final false
  int32_t get_MaxIdleTime() ;
 
-// Ctor Parameters [CppParam { name: "servicePoint", ty: "System::Net::ServicePoint", modifiers: "", def_value: None }, CppParam { name: "connectionLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxIdleTime", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ServicePointScheduler(System::Net::ServicePoint servicePoint, int32_t connectionLimit, int32_t maxIdleTime) ;
+static System::Net::ServicePointScheduler New_ctor(System::Net::ServicePoint servicePoint, int32_t connectionLimit, int32_t maxIdleTime) ;
 
 /// @brief Method .ctor addr 0x2844c5c size 0x1d8 virtual false final false
  void _ctor(System::Net::ServicePoint servicePoint, int32_t connectionLimit, int32_t maxIdleTime) ;

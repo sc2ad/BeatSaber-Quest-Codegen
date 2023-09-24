@@ -3,20 +3,20 @@
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include <cmath>
 #include <cstdint>
+namespace UnityEngine {
+struct Vector3;
+}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace GlobalNamespace {
 struct Vector3Serializable;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -157,8 +157,7 @@ static GlobalNamespace::ObstacleSpawnInfoNetSerializable Obtain() ;
 /// @brief Method Init addr 0x12181ac size 0x120 virtual false final false
  GlobalNamespace::ObstacleSpawnInfoNetSerializable Init(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height, UnityEngine::Vector3 moveStartPos, UnityEngine::Vector3 moveEndPos, UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation) ;
 
-// Ctor Parameters []
-explicit ObstacleSpawnInfoNetSerializable() ;
+static GlobalNamespace::ObstacleSpawnInfoNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x12182cc size 0x58 virtual false final false
  void _ctor() ;

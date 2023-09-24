@@ -464,8 +464,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__set__state
 constexpr ::ArrayW<int64_t> Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::__get__state() const {
 return ::cordl_internals::getInstanceField<::ArrayW<int64_t>, 0x50>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::WhirlpoolDigest()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WhirlpoolDigest>())) {}
+ Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::New_ctor()  {
+Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest>::get(),
@@ -493,8 +495,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, input);
 }
-// Ctor Parameters [CppParam { name: "originalDigest", ty: "Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::WhirlpoolDigest(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<WhirlpoolDigest>(originalDigest))) {}
+ Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest)  {
+Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest>(originalDigest))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::_ctor(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest originalDigest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest>::get(),

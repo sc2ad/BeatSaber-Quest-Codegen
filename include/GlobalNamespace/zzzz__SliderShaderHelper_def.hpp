@@ -4,16 +4,16 @@
 #include <cmath>
 #include <cstdint>
 namespace UnityEngine {
-class MaterialPropertyBlock;
+struct Color;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace GlobalNamespace {
 class SliderController;
 }
 namespace UnityEngine {
-struct Vector3;
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {

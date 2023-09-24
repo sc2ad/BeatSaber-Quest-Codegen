@@ -7,11 +7,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Diagnostics {
-class ProcessInfo;
-}
-namespace System::Threading {
-class RegisteredWaitHandle;
+namespace System {
+class EventHandler;
 }
 namespace System::ComponentModel {
 class ISynchronizeInvoke;
@@ -19,35 +16,47 @@ class ISynchronizeInvoke;
 namespace System::Diagnostics {
 class ProcessModuleCollection;
 }
+namespace System::Diagnostics {
+class ProcessThreadTimes;
+}
+namespace System::Diagnostics {
+class ProcessThreadCollection;
+}
+namespace System::Diagnostics {
+class ProcessStartInfo;
+}
+namespace System::Threading {
+class RegisteredWaitHandle;
+}
+namespace System::Diagnostics {
+struct System__Diagnostics__Process__ProcInfo;
+}
+namespace System::Diagnostics {
+struct System__Diagnostics__Process__State;
+}
 namespace System::IO {
 class StreamReader;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafeProcessHandle;
+}
+namespace System::Diagnostics {
+class AsyncStreamReader;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System::Diagnostics {
+struct System__Diagnostics__Process__StreamReadMode;
+}
+namespace System::Diagnostics {
+class ProcessInfo;
 }
 namespace System::Threading {
 class WaitHandle;
 }
 namespace System::IO {
 class StreamWriter;
-}
-namespace System {
-class EventHandler;
-}
-namespace System::Diagnostics {
-class ProcessStartInfo;
-}
-namespace System::Diagnostics {
-class AsyncStreamReader;
-}
-namespace System::Diagnostics {
-class ProcessThreadTimes;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafeProcessHandle;
-}
-namespace System::Diagnostics {
-class ProcessThreadCollection;
-}
-namespace System {
-struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -112,6 +121,8 @@ __asyncMode = 2,
 constexpr operator __System__Diagnostics__Process__StreamReadMode_Unwrapped () const noexcept {
 return std::bit_cast<__System__Diagnostics__Process__StreamReadMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -190,6 +201,8 @@ __HaveNtProcessInfo = 12,
 constexpr operator __System__Diagnostics__Process__State_Unwrapped () const noexcept {
 return std::bit_cast<__System__Diagnostics__Process__State_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -587,14 +600,12 @@ static bool __declspec(property(get=get_IsWindows))  IsWindows;
 
 // Methods
 
-// Ctor Parameters []
-explicit Process() ;
+static System::Diagnostics::Process New_ctor() ;
 
 /// @brief Method .ctor addr 0x27dca14 size 0x88 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "machineName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "isRemoteMachine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "processId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "processInfo", ty: "System::Diagnostics::ProcessInfo", modifiers: "", def_value: None }]
-explicit Process(::StringW machineName, bool isRemoteMachine, int32_t processId, System::Diagnostics::ProcessInfo processInfo) ;
+static System::Diagnostics::Process New_ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, System::Diagnostics::ProcessInfo processInfo) ;
 
 /// @brief Method .ctor addr 0x27dca9c size 0x9c virtual false final false
  void _ctor(::StringW machineName, bool isRemoteMachine, int32_t processId, System::Diagnostics::ProcessInfo processInfo) ;
@@ -677,8 +688,7 @@ static System::Diagnostics::Process GetCurrentProcess() ;
 /// @brief Method ToString addr 0x27e0038 size 0x16c virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters [CppParam { name: "handle", ty: "Microsoft::Win32::SafeHandles::SafeProcessHandle", modifiers: "", def_value: None }, CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Process(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, int32_t id) ;
+static System::Diagnostics::Process New_ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, int32_t id) ;
 
 /// @brief Method .ctor addr 0x27e01a4 size 0x90 virtual false final false
  void _ctor(Microsoft::Win32::SafeHandles::SafeProcessHandle handle, int32_t id) ;

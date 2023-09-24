@@ -4,32 +4,35 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Unity::Collections {
-struct Allocator;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace Unity::Collections {
+struct Allocator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
+}
+namespace System {
+class ICloneable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System {
-class ICloneable;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+struct UnityEngine__InputSystem__LowLevel__InputEventBuffer__Enumerator;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;

@@ -5,28 +5,40 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
+class InputAction;
 }
 namespace System {
 struct Guid;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionType;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
 class InputActionAsset;
 }
 namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
+namespace UnityEngine::InputSystem {
+class UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionSetupExtensions__BindingSyntax;
+}
+namespace UnityEngine::InputSystem {
+struct InputActionType;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionSetupExtensions__ControlSchemeSyntax;
+}
+namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputActionSetupExtensions__CompositeSyntax;
 }
 namespace GlobalNamespace {
 struct UnityEngine__InputSystem__InputControlScheme__DeviceRequirement__Flags;
@@ -455,8 +467,7 @@ constexpr UnityEngine::InputSystem::InputBinding __get_binding() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputActionSetupExtensions____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x28baa1c size 0x8 virtual false final false
  void _ctor() ;

@@ -64,8 +64,7 @@ constexpr ::ArrayW<uint8_t> __get_seed() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seed", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Iso18033KdfParameters(::ArrayW<uint8_t> seed) ;
+static Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters New_ctor(::ArrayW<uint8_t> seed) ;
 
 /// @brief Method .ctor addr 0xea9be4 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint8_t> seed) ;

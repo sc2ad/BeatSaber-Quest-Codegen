@@ -3,23 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace System::Collections::Concurrent {
-template<typename T>
-class IProducerConsumerCollection_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyCollection_1;
+namespace System {
+class Array;
 }
 namespace System {
 class IDisposable;
@@ -28,20 +13,35 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyCollection_1;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading {
 class SemaphoreSlim;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class Array;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace System::Collections::Concurrent {
+template<typename T>
+class IProducerConsumerCollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections::Concurrent {
@@ -191,14 +191,12 @@ constexpr int32_t __get__currentAdders() const;
 /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
  ::bs_hook::Il2CppWrapperType System_Collections_ICollection_get_SyncRoot() ;
 
-// Ctor Parameters []
-explicit BlockingCollection_1() ;
+static System::Collections::Concurrent::BlockingCollection_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "collection", ty: "System::Collections::Concurrent::IProducerConsumerCollection_1<T>", modifiers: "", def_value: None }]
-explicit BlockingCollection_1(System::Collections::Concurrent::IProducerConsumerCollection_1<T> collection) ;
+static System::Collections::Concurrent::BlockingCollection_1<T> New_ctor(System::Collections::Concurrent::IProducerConsumerCollection_1<T> collection) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Concurrent::IProducerConsumerCollection_1<T> collection) ;

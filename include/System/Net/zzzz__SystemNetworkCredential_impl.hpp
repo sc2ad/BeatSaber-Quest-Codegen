@@ -24,8 +24,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::Net::SystemNetworkCredential System::Net::SystemNetworkCredential::__get_defaultCredential()  {
 return ::cordl_internals::getStaticField<System::Net::SystemNetworkCredential, "defaultCredential", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::SystemNetworkCredential>::get>();
 }
-// Ctor Parameters []
- System::Net::SystemNetworkCredential::SystemNetworkCredential()  : System::Net::NetworkCredential(THROW_UNLESS(::il2cpp_utils::New<SystemNetworkCredential>())) {}
+ System::Net::SystemNetworkCredential System::Net::SystemNetworkCredential::New_ctor()  {
+System::Net::SystemNetworkCredential o{THROW_UNLESS(::il2cpp_utils::New<System::Net::SystemNetworkCredential>())};
+return o;
+}
  void System::Net::SystemNetworkCredential::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::SystemNetworkCredential>::get(),

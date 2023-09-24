@@ -1,17 +1,18 @@
 #pragma once
 #include "System/zzzz__IOAsyncResult_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
-#include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
 #include "System/Net/zzzz__EndPoint_def.hpp"
-#include "System/Net/Sockets/zzzz__Socket_def.hpp"
-#include "System/zzzz__Memory_1_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__Memory_1_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketOperation_def.hpp"
+#include "System/Net/Sockets/zzzz__Socket_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketFlags_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Net/Sockets/zzzz__SocketAsyncResult_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
 //  Writing Method size for method: System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c._ctor
 template<>
@@ -59,8 +60,10 @@ return ::cordl_internals::getStaticField<System::Net::Sockets::System__Net__Sock
  System::Threading::WaitCallback System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c::__get___9__27_0()  {
 return ::cordl_internals::getStaticField<System::Threading::WaitCallback, "<>9__27_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c>::get>();
 }
-// Ctor Parameters []
- System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c::System__Net__Sockets__SocketAsyncResult____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__Sockets__SocketAsyncResult____c>())) {}
+ System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c::New_ctor()  {
+System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c>())};
+return o;
+}
  void System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::System__Net__Sockets__SocketAsyncResult____c>::get(),
@@ -434,8 +437,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::cordl_internals::intptr_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::Sockets::SocketAsyncResult::SocketAsyncResult()  : System::IOAsyncResult(THROW_UNLESS(::il2cpp_utils::New<SocketAsyncResult>())) {}
+ System::Net::Sockets::SocketAsyncResult System::Net::Sockets::SocketAsyncResult::New_ctor()  {
+System::Net::Sockets::SocketAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketAsyncResult>())};
+return o;
+}
  void System::Net::Sockets::SocketAsyncResult::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketAsyncResult>::get(),
@@ -454,8 +459,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, socket, callback, state, operation);
 }
-// Ctor Parameters [CppParam { name: "socket", ty: "System::Net::Sockets::Socket", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "System::AsyncCallback", modifiers: "", def_value: None }, CppParam { name: "state", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "System::Net::Sockets::SocketOperation", modifiers: "", def_value: None }]
- System::Net::Sockets::SocketAsyncResult::SocketAsyncResult(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation)  : System::IOAsyncResult(THROW_UNLESS(::il2cpp_utils::New<SocketAsyncResult>(socket, callback, state, operation))) {}
+ System::Net::Sockets::SocketAsyncResult System::Net::Sockets::SocketAsyncResult::New_ctor(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation)  {
+System::Net::Sockets::SocketAsyncResult o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Sockets::SocketAsyncResult>(socket, callback, state, operation))};
+return o;
+}
  void System::Net::Sockets::SocketAsyncResult::_ctor(System::Net::Sockets::Socket socket, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType state, System::Net::Sockets::SocketOperation operation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Sockets::SocketAsyncResult>::get(),

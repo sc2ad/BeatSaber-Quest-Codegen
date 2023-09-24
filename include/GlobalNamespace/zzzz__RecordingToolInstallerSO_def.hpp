@@ -1,17 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
-class ProgramArguments;
+class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 class RecordingToolResourceContainerSO;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
-}
-namespace Zenject {
-class DiContainer;
+class ProgramArguments;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -71,8 +71,7 @@ constexpr GlobalNamespace::RecordingToolResourceContainerSO __get__recordingTool
 /// @brief Method InstallDependencies addr 0x21ab928 size 0x368 virtual false final false
  void InstallDependencies(Zenject::DiContainer container, GlobalNamespace::ProgramArguments programArguments, GlobalNamespace::BeatmapCharacteristicCollection beatmapCharacteristicCollection) ;
 
-// Ctor Parameters []
-explicit RecordingToolInstallerSO() ;
+static GlobalNamespace::RecordingToolInstallerSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21abf48 size 0x8 virtual false final false
  void _ctor() ;

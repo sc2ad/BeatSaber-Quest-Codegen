@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/RegularExpressions/zzzz__Group_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
-#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
+#include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: System::Text::RegularExpressions::Match._ctor
 template<>
@@ -319,8 +319,10 @@ return ::cordl_internals::getInstanceField<bool, 0x70>(this->::bs_hook::Il2CppWr
  System::Text::RegularExpressions::Match System::Text::RegularExpressions::Match::__get__Empty_k__BackingField()  {
 return ::cordl_internals::getStaticField<System::Text::RegularExpressions::Match, "<Empty>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Match>::get>();
 }
-// Ctor Parameters [CppParam { name: "regex", ty: "System::Text::RegularExpressions::Regex", modifiers: "", def_value: None }, CppParam { name: "capcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "begpos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startpos", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::Match::Match(System::Text::RegularExpressions::Regex regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos)  : System::Text::RegularExpressions::Group(THROW_UNLESS(::il2cpp_utils::New<Match>(regex, capcount, text, begpos, len, startpos))) {}
+ System::Text::RegularExpressions::Match System::Text::RegularExpressions::Match::New_ctor(System::Text::RegularExpressions::Regex regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos)  {
+System::Text::RegularExpressions::Match o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Match>(regex, capcount, text, begpos, len, startpos))};
+return o;
+}
  void System::Text::RegularExpressions::Match::_ctor(System::Text::RegularExpressions::Regex regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Match>::get(),
@@ -447,8 +449,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, textpos);
 }
-// Ctor Parameters []
- System::Text::RegularExpressions::Match::Match()  : System::Text::RegularExpressions::Group(THROW_UNLESS(::il2cpp_utils::New<Match>())) {}
+ System::Text::RegularExpressions::Match System::Text::RegularExpressions::Match::New_ctor()  {
+System::Text::RegularExpressions::Match o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::Match>())};
+return o;
+}
  void System::Text::RegularExpressions::Match::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::Match>::get(),

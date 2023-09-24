@@ -3,22 +3,31 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
+namespace System {
+class Type;
+}
 namespace Zenject {
 class IGuiRenderable;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class Zenject__GuiRenderableManager__RenderableInfo;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class Zenject__GuiRenderableManager____c;
 }
 namespace ModestTree::Util {
 template<typename T1,typename T2>
 class ValuePair_2;
+}
+namespace Zenject {
+class Zenject__GuiRenderableManager____c__DisplayClass1_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -94,8 +103,7 @@ constexpr int32_t __get_Priority() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "renderable", ty: "Zenject::IGuiRenderable", modifiers: "", def_value: None }, CppParam { name: "priority", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Zenject__GuiRenderableManager__RenderableInfo(Zenject::IGuiRenderable renderable, int32_t priority) ;
+static Zenject::Zenject__GuiRenderableManager__RenderableInfo New_ctor(Zenject::IGuiRenderable renderable, int32_t priority) ;
 
 /// @brief Method .ctor addr 0x2d9895c size 0x30 virtual false final false
  void _ctor(Zenject::IGuiRenderable renderable, int32_t priority) ;
@@ -161,8 +169,7 @@ constexpr Zenject::IGuiRenderable __get_renderable() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__GuiRenderableManager____c__DisplayClass1_0() ;
+static Zenject::Zenject__GuiRenderableManager____c__DisplayClass1_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d98954 size 0x8 virtual false final false
  void _ctor() ;
@@ -243,8 +250,7 @@ static System::Func_2<Zenject::Zenject__GuiRenderableManager__RenderableInfo,int
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__GuiRenderableManager____c() ;
+static Zenject::Zenject__GuiRenderableManager____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d997ec size 0x8 virtual false final false
  void _ctor() ;
@@ -322,8 +328,7 @@ constexpr System::Collections::Generic::List_1<Zenject::Zenject__GuiRenderableMa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "renderables", ty: "System::Collections::Generic::List_1<Zenject::IGuiRenderable>", modifiers: "", def_value: None }, CppParam { name: "priorities", ty: "System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>>", modifiers: "", def_value: None }]
-explicit GuiRenderableManager(System::Collections::Generic::List_1<Zenject::IGuiRenderable> renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;
+static Zenject::GuiRenderableManager New_ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable> renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;
 
 /// @brief Method .ctor addr 0x2d983b4 size 0x5a0 virtual false final false
  void _ctor(System::Collections::Generic::List_1<Zenject::IGuiRenderable> renderables, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type,int32_t>> priorities) ;

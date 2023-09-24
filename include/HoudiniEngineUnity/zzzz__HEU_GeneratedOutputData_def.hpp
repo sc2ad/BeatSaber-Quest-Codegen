@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+class Material;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine {
-class Material;
 }
 namespace UnityEngine {
 class Collider;
@@ -92,8 +92,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::Collider> __get__col
 /// @brief Method IsEquivalentTo addr 0x1fe38e0 size 0x1ec virtual true final true
  bool IsEquivalentTo(HoudiniEngineUnity::HEU_GeneratedOutputData other) ;
 
-// Ctor Parameters []
-explicit HEU_GeneratedOutputData() ;
+static HoudiniEngineUnity::HEU_GeneratedOutputData New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fe3864 size 0x7c virtual false final false
  void _ctor() ;

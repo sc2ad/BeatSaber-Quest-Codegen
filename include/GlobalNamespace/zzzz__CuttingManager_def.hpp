@@ -5,10 +5,10 @@ namespace GlobalNamespace {
 class NoteCutter;
 }
 namespace GlobalNamespace {
-class SaberManager;
+class Saber;
 }
 namespace GlobalNamespace {
-class Saber;
+class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::NoteCutter __get__noteCutter() const;
 /// @brief Method HandleSaberManagerDidUpdateSaberPositions addr 0x210ac58 size 0x44 virtual false final false
  void HandleSaberManagerDidUpdateSaberPositions(GlobalNamespace::Saber leftSaber, GlobalNamespace::Saber rightSaber) ;
 
-// Ctor Parameters []
-explicit CuttingManager() ;
+static GlobalNamespace::CuttingManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x210b1c0 size 0x8 virtual false final false
  void _ctor() ;

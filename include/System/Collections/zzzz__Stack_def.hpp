@@ -4,19 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System {
-class Array;
+class IEnumerator;
 }
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IEnumerator;
+class System__Collections__Stack__StackDebugView;
+}
+namespace System::Collections {
+class System__Collections__Stack__StackEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class ICloneable;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -108,8 +114,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get__currentElement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stack", ty: "System::Collections::Stack", modifiers: "", def_value: None }]
-explicit System__Collections__Stack__StackEnumerator(System::Collections::Stack stack) ;
+static System::Collections::System__Collections__Stack__StackEnumerator New_ctor(System::Collections::Stack stack) ;
 
 /// @brief Method .ctor addr 0x2415804 size 0x40 virtual false final false
  void _ctor(System::Collections::Stack stack) ;
@@ -267,14 +272,12 @@ static constexpr int32_t  _defaultCapacity{10};
 
 // Methods
 
-// Ctor Parameters []
-explicit Stack() ;
+static System::Collections::Stack New_ctor() ;
 
 /// @brief Method .ctor addr 0x241527c size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "initialCapacity", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Stack(int32_t initialCapacity) ;
+static System::Collections::Stack New_ctor(int32_t initialCapacity) ;
 
 /// @brief Method .ctor addr 0x24152d8 size 0xcc virtual false final false
  void _ctor(int32_t initialCapacity) ;

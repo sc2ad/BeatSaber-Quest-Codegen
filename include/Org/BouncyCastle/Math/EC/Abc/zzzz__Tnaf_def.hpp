@@ -4,22 +4,22 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mPoint;
-}
-namespace Org::BouncyCastle::Math::EC {
-class AbstractF2mCurve;
 }
 namespace Org::BouncyCastle::Math::EC::Abc {
 class ZTauElement;
 }
 namespace Org::BouncyCastle::Math::EC::Abc {
 class SimpleBigDecimal;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class AbstractF2mCurve;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Abc {
@@ -184,8 +184,7 @@ static ::ArrayW<int8_t> TauAdicWNaf(int8_t mu, Org::BouncyCastle::Math::EC::Abc:
 /// @brief Method GetPreComp addr 0xf3c280 size 0x1a4 virtual false final false
 static ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint> GetPreComp(Org::BouncyCastle::Math::EC::AbstractF2mPoint p, int8_t a) ;
 
-// Ctor Parameters []
-explicit Tnaf() ;
+static Org::BouncyCastle::Math::EC::Abc::Tnaf New_ctor() ;
 
 /// @brief Method .ctor addr 0xf3cb30 size 0x8 virtual false final false
  void _ctor() ;

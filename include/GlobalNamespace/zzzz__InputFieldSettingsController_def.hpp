@@ -80,8 +80,7 @@ constexpr GlobalNamespace::StringSO __get__settingsValue() const;
 /// @brief Method HandleInputFieldDidChange addr 0x215343c size 0x5c virtual true final false
  void HandleInputFieldDidChange(HMUI::InputFieldView inputFieldView) ;
 
-// Ctor Parameters []
-explicit InputFieldSettingsController() ;
+static GlobalNamespace::InputFieldSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2153498 size 0x8 virtual false final false
  void _ctor() ;

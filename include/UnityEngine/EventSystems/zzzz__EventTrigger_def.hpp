@@ -5,16 +5,16 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
+class IBeginDragHandler;
 }
 namespace UnityEngine::EventSystems {
-class IDragHandler;
+class IDropHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
 class IDeselectHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISelectHandler;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -24,55 +24,61 @@ namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEndDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__EventTrigger__TriggerEvent;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class UnityEngine__EventSystems__EventTrigger__Entry;
+}
+namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IScrollHandler;
 }
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-struct EventTriggerType;
-}
-namespace UnityEngine::EventSystems {
 class IUpdateSelectedHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDropHandler;
-}
-namespace UnityEngine::EventSystems {
-class IMoveHandler;
 }
 namespace UnityEngine::EventSystems {
 class ICancelHandler;
 }
 namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
+class IMoveHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class AxisEventData;
+struct EventTriggerType;
 }
 namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEndDragHandler;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IDragHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -87,7 +93,7 @@ class UnityEngine__EventSystems__EventTrigger__TriggerEvent;
 // Type: ::TriggerEvent
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13104)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5061 }), TypeDefinitionIndex(TypeDefinitionIndex(10401))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13104)), TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 5061 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13131))
 // CS Name: UnityEngine.EventSystems.EventTrigger::TriggerEvent
 class CORDL_TYPE UnityEngine__EventSystems__EventTrigger__TriggerEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::EventSystems::BaseEventData> {
@@ -126,8 +132,7 @@ constexpr explicit UnityEngine__EventSystems__EventTrigger__TriggerEvent(void* p
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__EventTrigger__TriggerEvent() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__TriggerEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1f744 size 0x48 virtual false final false
  void _ctor() ;
@@ -193,8 +198,7 @@ constexpr UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Tr
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__EventSystems__EventTrigger__Entry() ;
+static UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1f78c size 0x6c virtual false final false
  void _ctor() ;
@@ -325,8 +329,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::EventSystems::UnityE
 /// @brief Method set_delegates addr 0x2c1f574 size 0x8 virtual false final false
  void set_delegates(System::Collections::Generic::List_1<UnityEngine::EventSystems::UnityEngine__EventSystems__EventTrigger__Entry> value) ;
 
-// Ctor Parameters []
-explicit EventTrigger() ;
+static UnityEngine::EventSystems::EventTrigger New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c1f57c size 0x8 virtual false final false
  void _ctor() ;

@@ -29,8 +29,10 @@ constexpr void Oculus::Platform::Models::LaunchBlockFlowResult::__set_DidCancel(
 constexpr bool Oculus::Platform::Models::LaunchBlockFlowResult::__get_DidCancel() const {
 return ::cordl_internals::getInstanceField<bool, 0x11>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::LaunchBlockFlowResult::LaunchBlockFlowResult(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<LaunchBlockFlowResult>(o))) {}
+ Oculus::Platform::Models::LaunchBlockFlowResult Oculus::Platform::Models::LaunchBlockFlowResult::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::LaunchBlockFlowResult o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::LaunchBlockFlowResult>(o))};
+return o;
+}
  void Oculus::Platform::Models::LaunchBlockFlowResult::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::LaunchBlockFlowResult>::get(),

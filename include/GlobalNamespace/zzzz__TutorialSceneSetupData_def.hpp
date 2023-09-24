@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 namespace GlobalNamespace {
-class ColorScheme;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,8 +68,7 @@ constexpr GlobalNamespace::PlayerSpecificSettings __get_playerSpecificSettings()
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "colorScheme", ty: "GlobalNamespace::ColorScheme", modifiers: "", def_value: None }, CppParam { name: "playerSpecificSettings", ty: "GlobalNamespace::PlayerSpecificSettings", modifiers: "", def_value: None }]
-explicit TutorialSceneSetupData(GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
+static GlobalNamespace::TutorialSceneSetupData New_ctor(GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
 /// @brief Method .ctor addr 0x21cfac8 size 0x2c virtual false final false
  void _ctor(GlobalNamespace::ColorScheme colorScheme, GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;

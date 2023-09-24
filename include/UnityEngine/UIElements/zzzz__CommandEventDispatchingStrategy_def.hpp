@@ -2,13 +2,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class IEventDispatchingStrategy;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -65,8 +65,7 @@ constexpr explicit CommandEventDispatchingStrategy(void* ptr) noexcept : ::bs_ho
 /// @brief Method DispatchEvent addr 0x2cdbf94 size 0x35c virtual true final true
  void DispatchEvent(UnityEngine::UIElements::EventBase evt, UnityEngine::UIElements::IPanel panel) ;
 
-// Ctor Parameters []
-explicit CommandEventDispatchingStrategy() ;
+static UnityEngine::UIElements::CommandEventDispatchingStrategy New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdc2f0 size 0x8 virtual false final false
  void _ctor() ;

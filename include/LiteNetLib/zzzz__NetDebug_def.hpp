@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace LiteNetLib {
-struct NetLogLevel;
+class INetLogger;
 }
 namespace LiteNetLib {
-class INetLogger;
+struct NetLogLevel;
 }
 // Forward declare root types
 namespace LiteNetLib {

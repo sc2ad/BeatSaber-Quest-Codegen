@@ -248,8 +248,10 @@ constexpr void Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::__set_mo
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::__get_modulus() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::ISO9796d1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ISO9796d1Encoding>(cipher))) {}
+ Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
+Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding>(cipher))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding>::get(),

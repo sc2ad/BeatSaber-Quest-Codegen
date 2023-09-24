@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__OtherInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/X9/zzzz__KeySpecificInfo_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/X9/zzzz__KeySpecificInfo_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::X9::OtherInfo._ctor
 template<>
 
@@ -125,8 +125,10 @@ constexpr void Org::BouncyCastle::Asn1::X9::OtherInfo::__set_suppPubInfo(Org::Bo
 constexpr Org::BouncyCastle::Asn1::Asn1OctetString Org::BouncyCastle::Asn1::X9::OtherInfo::__get_suppPubInfo() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Asn1OctetString, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "keyInfo", ty: "Org::BouncyCastle::Asn1::X9::KeySpecificInfo", modifiers: "", def_value: None }, CppParam { name: "partyAInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "suppPubInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::OtherInfo::OtherInfo(Org::BouncyCastle::Asn1::X9::KeySpecificInfo keyInfo, Org::BouncyCastle::Asn1::Asn1OctetString partyAInfo, Org::BouncyCastle::Asn1::Asn1OctetString suppPubInfo)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherInfo>(keyInfo, partyAInfo, suppPubInfo))) {}
+ Org::BouncyCastle::Asn1::X9::OtherInfo Org::BouncyCastle::Asn1::X9::OtherInfo::New_ctor(Org::BouncyCastle::Asn1::X9::KeySpecificInfo keyInfo, Org::BouncyCastle::Asn1::Asn1OctetString partyAInfo, Org::BouncyCastle::Asn1::Asn1OctetString suppPubInfo)  {
+Org::BouncyCastle::Asn1::X9::OtherInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::OtherInfo>(keyInfo, partyAInfo, suppPubInfo))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::OtherInfo::_ctor(Org::BouncyCastle::Asn1::X9::KeySpecificInfo keyInfo, Org::BouncyCastle::Asn1::Asn1OctetString partyAInfo, Org::BouncyCastle::Asn1::Asn1OctetString suppPubInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::OtherInfo>::get(),
@@ -136,8 +138,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, keyInfo, partyAInfo, suppPubInfo);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X9::OtherInfo::OtherInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<OtherInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::X9::OtherInfo Org::BouncyCastle::Asn1::X9::OtherInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::X9::OtherInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X9::OtherInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X9::OtherInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X9::OtherInfo>::get(),

@@ -82,8 +82,7 @@ constexpr ::ArrayW<Org::BouncyCastle::Math::BigInteger> __get_knowledgeProofForX
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "participantId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "a", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "knowledgeProofForX2s", ty: "::ArrayW<Org::BouncyCastle::Math::BigInteger>", modifiers: "", def_value: None }]
-explicit JPakeRound2Payload(::StringW participantId, Org::BouncyCastle::Math::BigInteger a, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2s) ;
+static Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload New_ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger a, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2s) ;
 
 /// @brief Method .ctor addr 0x11892e4 size 0x120 virtual false final false
  void _ctor(::StringW participantId, Org::BouncyCastle::Math::BigInteger a, ::ArrayW<Org::BouncyCastle::Math::BigInteger> knowledgeProofForX2s) ;

@@ -5,32 +5,41 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
-class AppInitSetupData;
+class GameScenesManager;
 }
 namespace GlobalNamespace {
-class MockPlayersModel;
+struct GlobalNamespace__AppInit__AppStartType;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+class AppInitSetupData;
+}
+namespace GlobalNamespace {
+class MockPlayersModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AppInit___StartCoroutine_d__11;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__AppInit____c;
 }
 namespace GlobalNamespace {
 class MultiplayerMockSettings;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class GlobalNamespace__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template<typename TResult>
@@ -99,6 +108,8 @@ __MultiSceneEditor = 2,
 constexpr operator __GlobalNamespace__AppInit__AppStartType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__AppInit__AppStartType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -179,8 +190,7 @@ static System::Func_1<bool> __get___9__11_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AppInit____c() ;
+static GlobalNamespace::GlobalNamespace__AppInit____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b4468 size 0x8 virtual false final false
  void _ctor() ;
@@ -277,8 +287,7 @@ constexpr GlobalNamespace::GlobalNamespace__AppInit__AppStartType __get__startTy
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AppInit___StartCoroutine_d__11(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__AppInit___StartCoroutine_d__11 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20b41c4 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -423,8 +432,7 @@ constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 /// @brief Method TransitionToNextScene addr 0x0 size 0xffffffffffffffff virtual true final false
  void TransitionToNextScene() ;
 
-// Ctor Parameters []
-explicit AppInit() ;
+static GlobalNamespace::AppInit New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b4394 size 0x70 virtual false final false
  void _ctor() ;

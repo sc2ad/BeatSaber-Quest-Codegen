@@ -40,8 +40,10 @@ constexpr void System::Xml::TernaryTreeReadOnly::__set_nodeBuffer(::ArrayW<uint8
 constexpr ::ArrayW<uint8_t> System::Xml::TernaryTreeReadOnly::__get_nodeBuffer() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "nodeBuffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- System::Xml::TernaryTreeReadOnly::TernaryTreeReadOnly(::ArrayW<uint8_t> nodeBuffer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TernaryTreeReadOnly>(nodeBuffer))) {}
+ System::Xml::TernaryTreeReadOnly System::Xml::TernaryTreeReadOnly::New_ctor(::ArrayW<uint8_t> nodeBuffer)  {
+System::Xml::TernaryTreeReadOnly o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::TernaryTreeReadOnly>(nodeBuffer))};
+return o;
+}
  void System::Xml::TernaryTreeReadOnly::_ctor(::ArrayW<uint8_t> nodeBuffer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::TernaryTreeReadOnly>::get(),

@@ -59,8 +59,7 @@ constexpr explicit StartMiddleEndButtonsGroup(void* ptr) noexcept : UnityEngine:
 /// @brief Method SetLayoutVertical addr 0x21274e4 size 0x4 virtual true final true
  void SetLayoutVertical() ;
 
-// Ctor Parameters []
-explicit StartMiddleEndButtonsGroup() ;
+static GlobalNamespace::StartMiddleEndButtonsGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x21274e8 size 0x8 virtual false final false
  void _ctor() ;

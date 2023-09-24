@@ -89,8 +89,7 @@ constexpr System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> __g
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "trusted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "user_denied", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "error_code", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "policy_errors", ty: "System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>", modifiers: "", def_value: None }]
-explicit ValidationResult(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;
+static Mono::Security::Interface::ValidationResult New_ctor(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;
 
 /// @brief Method .ctor addr 0x2295440 size 0x48 virtual false final false
  void _ctor(bool trusted, bool user_denied, int32_t error_code, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors) ;

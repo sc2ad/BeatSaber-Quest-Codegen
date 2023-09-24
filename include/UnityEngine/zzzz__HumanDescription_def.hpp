@@ -5,10 +5,10 @@
 #include <cmath>
 #include <cstddef>
 namespace UnityEngine {
-struct SkeletonBone;
+struct HumanBone;
 }
 namespace UnityEngine {
-struct HumanBone;
+struct SkeletonBone;
 }
 // Forward declare root types
 namespace UnityEngine {

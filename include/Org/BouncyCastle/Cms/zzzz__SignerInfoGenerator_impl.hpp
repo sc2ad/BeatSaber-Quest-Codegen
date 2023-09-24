@@ -108,8 +108,10 @@ constexpr void Org::BouncyCastle::Cms::SignerInfoGenerator::__set_isDirectSignat
 constexpr bool Org::BouncyCastle::Cms::SignerInfoGenerator::__get_isDirectSignature() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "sigId", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "signerFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInfoGenerator::SignerInfoGenerator(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInfoGenerator>(sigId, signerFactory))) {}
+ Org::BouncyCastle::Cms::SignerInfoGenerator Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory)  {
+Org::BouncyCastle::Cms::SignerInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInfoGenerator>(sigId, signerFactory))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInfoGenerator>::get(),
@@ -119,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigId, signerFactory);
 }
-// Ctor Parameters [CppParam { name: "sigId", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "signerFactory", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "isDirectSignature", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInfoGenerator::SignerInfoGenerator(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, bool isDirectSignature)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInfoGenerator>(sigId, signerFactory, isDirectSignature))) {}
+ Org::BouncyCastle::Cms::SignerInfoGenerator Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, bool isDirectSignature)  {
+Org::BouncyCastle::Cms::SignerInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInfoGenerator>(sigId, signerFactory, isDirectSignature))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, bool isDirectSignature)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInfoGenerator>::get(),
@@ -130,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, sigId, signerFactory, isDirectSignature);
 }
-// Ctor Parameters [CppParam { name: "sigId", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "contentSigner", ty: "Org::BouncyCastle::Crypto::ISignatureFactory", modifiers: "", def_value: None }, CppParam { name: "signedGen", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }, CppParam { name: "unsignedGen", ty: "Org::BouncyCastle::Cms::CmsAttributeTableGenerator", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::SignerInfoGenerator::SignerInfoGenerator(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignerInfoGenerator>(sigId, contentSigner, signedGen, unsignedGen))) {}
+ Org::BouncyCastle::Cms::SignerInfoGenerator Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen)  {
+Org::BouncyCastle::Cms::SignerInfoGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::SignerInfoGenerator>(sigId, contentSigner, signedGen, unsignedGen))};
+return o;
+}
  void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId, Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen, Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::SignerInfoGenerator>::get(),

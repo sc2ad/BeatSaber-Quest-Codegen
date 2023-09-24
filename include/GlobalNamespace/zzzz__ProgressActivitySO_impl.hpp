@@ -25,8 +25,10 @@ constexpr void GlobalNamespace::ProgressActivitySO::__set_subtasks(::ArrayW<Glob
 constexpr ::ArrayW<GlobalNamespace::ProgressActivitySubtaskSO> GlobalNamespace::ProgressActivitySO::__get_subtasks() const {
 return ::cordl_internals::getInstanceField<::ArrayW<GlobalNamespace::ProgressActivitySubtaskSO>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::ProgressActivitySO::ProgressActivitySO()  : GlobalNamespace::PS5ActivityDataSO(THROW_UNLESS(::il2cpp_utils::New<ProgressActivitySO>())) {}
+ GlobalNamespace::ProgressActivitySO GlobalNamespace::ProgressActivitySO::New_ctor()  {
+GlobalNamespace::ProgressActivitySO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ProgressActivitySO>())};
+return o;
+}
  void GlobalNamespace::ProgressActivitySO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ProgressActivitySO>::get(),

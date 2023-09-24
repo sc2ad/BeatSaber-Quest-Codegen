@@ -1,12 +1,12 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__X509Utilities_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
+#include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::X509Utilities.GetDigestAlgName
 template<>
 
@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::IEnumerable, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Operators::X509Utilities::X509Utilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Utilities>())) {}
+ Org::BouncyCastle::Crypto::Operators::X509Utilities Org::BouncyCastle::Crypto::Operators::X509Utilities::New_ctor()  {
+Org::BouncyCastle::Crypto::Operators::X509Utilities o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::X509Utilities>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::X509Utilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::X509Utilities>::get(),

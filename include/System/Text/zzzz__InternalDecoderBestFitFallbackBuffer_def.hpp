@@ -96,8 +96,7 @@ static ::bs_hook::Il2CppWrapperType __declspec(property(get=get_InternalSyncObje
 /// @brief Method get_InternalSyncObject addr 0x24c2858 size 0x9c virtual false final false
 static ::bs_hook::Il2CppWrapperType get_InternalSyncObject() ;
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::InternalDecoderBestFitFallback", modifiers: "", def_value: None }]
-explicit InternalDecoderBestFitFallbackBuffer(System::Text::InternalDecoderBestFitFallback fallback) ;
+static System::Text::InternalDecoderBestFitFallbackBuffer New_ctor(System::Text::InternalDecoderBestFitFallback fallback) ;
 
 /// @brief Method .ctor addr 0x24c265c size 0x128 virtual false final false
  void _ctor(System::Text::InternalDecoderBestFitFallback fallback) ;

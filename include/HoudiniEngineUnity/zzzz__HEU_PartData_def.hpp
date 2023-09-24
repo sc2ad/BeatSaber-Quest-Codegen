@@ -8,28 +8,16 @@
 #include <cstddef>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+struct HAPI_PartType;
 }
 namespace UnityEngine {
-class GameObject;
+class TerrainData;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-class HEU_MaterialData;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_AttributesStore;
+class HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0;
 }
 namespace UnityEngine {
-class Object;
-}
-namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace UnityEngine {
 class Material;
@@ -37,50 +25,77 @@ class Material;
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace HoudiniEngineUnity {
+class HEU_ObjectInstanceInfo;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutput;
 }
 namespace HoudiniEngineUnity {
-class HEU_ObjectNode;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-class TerrainData;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PartType;
+class HEU_HoudiniAsset;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace HoudiniEngineUnity {
-class HEU_ObjectInstanceInfo;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeoNode;
-}
-namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
 }
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_PartData____c;
+}
 namespace UnityEngine {
-class Transform;
+class Object;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_PartInfo;
+class HEU_ObjectNode;
 }
 namespace HoudiniEngineUnity {
 class HEU_Curve;
 }
 namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeoNode;
+}
+namespace HoudiniEngineUnity {
+struct HoudiniEngineUnity__HEU_PartData__PartOutputType;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0;
+}
+namespace HoudiniEngineUnity {
+class HEU_AttributesStore;
+}
+namespace HoudiniEngineUnity {
+class HEU_SessionBase;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_PartInfo;
+}
+namespace HoudiniEngineUnity {
 struct TransformData;
+}
+namespace HoudiniEngineUnity {
+class HEU_MaterialData;
 }
 namespace UnityEngine {
 struct LOD;
@@ -160,6 +175,8 @@ __INSTANCER = 4,
 constexpr operator __HoudiniEngineUnity__HEU_PartData__PartOutputType_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_PartData__PartOutputType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -246,8 +263,7 @@ static System::Comparison_1<UnityEngine::LOD> __get___9__85_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_PartData____c() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x200bbfc size 0x8 virtual false final false
  void _ctor() ;
@@ -310,8 +326,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass86_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x20099c4 size 0x8 virtual false final false
  void _ctor() ;
@@ -374,8 +389,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x200a434 size 0x8 virtual false final false
  void _ctor() ;
@@ -438,8 +452,7 @@ constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_PartData____c__DisplayClass88_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x200a43c size 0x8 virtual false final false
  void _ctor() ;
@@ -720,8 +733,7 @@ constexpr ::StringW __get__volumeLayerName() const;
 /// @brief Method get_OutputGameObject addr 0x2005068 size 0x24 virtual false final false
  UnityEngine::GameObject get_OutputGameObject() ;
 
-// Ctor Parameters []
-explicit HEU_PartData() ;
+static HoudiniEngineUnity::HEU_PartData New_ctor() ;
 
 /// @brief Method .ctor addr 0x200508c size 0x80 virtual false final false
  void _ctor() ;

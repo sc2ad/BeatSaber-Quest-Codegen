@@ -3,18 +3,18 @@
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-template<typename T>
-class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
-}
-namespace GlobalNamespace {
-class IRemoteProcedureCall;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace GlobalNamespace {
+class IRemoteProcedureCall;
+}
+namespace GlobalNamespace {
+template<typename T>
+class GlobalNamespace__RemoteProcedureCall__TypeWrapper_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12879)), TypeDefinitionIndex(TypeDefinitionIndex(12875))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12875)), TypeDefinitionIndex(TypeDefinitionIndex(12879))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12879), inst: 5937 })
 // CS Name: RemoteProcedureCall`4
 class CORDL_TYPE RemoteProcedureCall_4<T0,T1,T2,T3> : public GlobalNamespace::RemoteProcedureCall {
@@ -132,8 +132,7 @@ constexpr GlobalNamespace::GlobalNamespace__RemoteProcedureCall__TypeWrapper_1<T
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release() ;
 
-// Ctor Parameters []
-explicit RemoteProcedureCall_4() ;
+static GlobalNamespace::RemoteProcedureCall_4<T0,T1,T2,T3> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

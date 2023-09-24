@@ -3,11 +3,14 @@
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
+namespace UnityEngine::InputSystem::Controls {
+class AxisControl;
+}
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
@@ -15,14 +18,11 @@ class ButtonControl;
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateCallbackReceiver;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
-namespace UnityEngine::InputSystem::Controls {
-class DeltaControl;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -187,8 +187,7 @@ static void set_current(UnityEngine::InputSystem::Pointer value) ;
 /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.GetStateOffsetForEvent addr 0x28dc170 size 0x8 virtual true final true
  bool UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_GetStateOffsetForEvent(UnityEngine::InputSystem::InputControl control, UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ByRef<uint32_t> offset) ;
 
-// Ctor Parameters []
-explicit Pointer() ;
+static UnityEngine::InputSystem::Pointer New_ctor() ;
 
 /// @brief Method .ctor addr 0x28dbb1c size 0x2c virtual false final false
  void _ctor() ;

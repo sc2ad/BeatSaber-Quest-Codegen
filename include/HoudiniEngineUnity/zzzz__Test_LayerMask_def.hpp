@@ -66,8 +66,7 @@ constexpr UnityEngine::LayerMask __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::LayerMask", modifiers: "", def_value: None }]
-explicit Test_LayerMask(UnityEngine::LayerMask self) ;
+static HoudiniEngineUnity::Test_LayerMask New_ctor(UnityEngine::LayerMask self) ;
 
 /// @brief Method .ctor addr 0x20740cc size 0x28 virtual false final false
  void _ctor(UnityEngine::LayerMask self) ;

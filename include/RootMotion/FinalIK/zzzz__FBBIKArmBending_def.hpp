@@ -116,8 +116,7 @@ constexpr bool __get_initiated() const;
 /// @brief Method OnDestroy addr 0x11c75a4 size 0x10c virtual false final false
  void OnDestroy() ;
 
-// Ctor Parameters []
-explicit FBBIKArmBending() ;
+static RootMotion::FinalIK::FBBIKArmBending New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c76b0 size 0x8 virtual false final false
  void _ctor() ;

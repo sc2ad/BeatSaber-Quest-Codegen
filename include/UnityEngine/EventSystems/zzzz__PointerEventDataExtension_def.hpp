@@ -5,10 +5,10 @@ namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
-struct Ray;
+struct Vector2;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Ray;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

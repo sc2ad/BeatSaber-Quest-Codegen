@@ -3,9 +3,10 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__NameAndParameters_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NamedValue_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__NameAndParameters_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c._ctor
 template<>
 
@@ -52,8 +53,10 @@ return ::cordl_internals::getStaticField<UnityEngine::InputSystem::Utilities::Un
  System::Func_2<UnityEngine::InputSystem::Utilities::NamedValue,::StringW> UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c::__get___9__8_0()  {
 return ::cordl_internals::getStaticField<System::Func_2<UnityEngine::InputSystem::Utilities::NamedValue,::StringW>, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c>::get>();
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c::UnityEngine__InputSystem__Utilities__NameAndParameters____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__Utilities__NameAndParameters____c>())) {}
+ UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c::New_ctor()  {
+UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c>())};
+return o;
+}
  void UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Utilities::UnityEngine__InputSystem__Utilities__NameAndParameters____c>::get(),

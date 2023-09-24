@@ -2,10 +2,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace UnityEngine::UIElements {
-class IManipulator;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IManipulator;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -82,8 +82,7 @@ constexpr UnityEngine::UIElements::VisualElement __get_m_Target() const;
 /// @brief Method set_target addr 0x2c863d0 size 0x54 virtual true final true
  void set_target(UnityEngine::UIElements::VisualElement value) ;
 
-// Ctor Parameters []
-explicit Manipulator() ;
+static UnityEngine::UIElements::Manipulator New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c86424 size 0x8 virtual false final false
  void _ctor() ;

@@ -47,8 +47,7 @@ constexpr explicit SerializeReference(void* ptr) noexcept : System::Attribute(pt
 
 // Methods
 
-// Ctor Parameters []
-explicit SerializeReference() ;
+static UnityEngine::SerializeReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2b644 size 0x8 virtual false final false
  void _ctor() ;

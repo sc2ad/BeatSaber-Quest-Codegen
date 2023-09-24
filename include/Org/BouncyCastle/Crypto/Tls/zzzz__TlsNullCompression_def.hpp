@@ -62,8 +62,7 @@ constexpr explicit TlsNullCompression(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method Decompress addr 0xf224c0 size 0x8 virtual true final false
  System::IO::Stream Decompress(System::IO::Stream output) ;
 
-// Ctor Parameters []
-explicit TlsNullCompression() ;
+static Org::BouncyCastle::Crypto::Tls::TlsNullCompression New_ctor() ;
 
 /// @brief Method .ctor addr 0xf224c8 size 0x8 virtual false final false
  void _ctor() ;

@@ -71,8 +71,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Xml::Schema::QmarkNode::QmarkNode()  : System::Xml::Schema::InteriorNode(THROW_UNLESS(::il2cpp_utils::New<QmarkNode>())) {}
+ System::Xml::Schema::QmarkNode System::Xml::Schema::QmarkNode::New_ctor()  {
+System::Xml::Schema::QmarkNode o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::QmarkNode>())};
+return o;
+}
  void System::Xml::Schema::QmarkNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::QmarkNode>::get(),

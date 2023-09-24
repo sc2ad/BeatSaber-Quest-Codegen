@@ -8,19 +8,25 @@
 #include <cmath>
 #include <cstdint>
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+class InteractionObject;
 }
 namespace RootMotion::FinalIK {
-class InteractionObject;
+struct FullBodyBipedEffector;
 }
 namespace UnityEngine {
 struct RaycastHit;
 }
-namespace UnityEngine {
-class Transform;
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionTrigger__Range;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionTrigger__CameraPosition;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__InteractionTrigger__CharacterPosition;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace UnityEngine {
 class Collider;
@@ -29,7 +35,13 @@ namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__InteractionTrigger__Range__Interaction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,8 +162,7 @@ constexpr bool __get_fixYAxis() const;
 /// @brief Method IsInRange addr 0x11ff854 size 0x764 virtual false final false
  bool IsInRange(UnityEngine::Transform character, UnityEngine::Transform trigger, ByRef<float_t> error) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionTrigger__CharacterPosition() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition New_ctor() ;
 
 /// @brief Method .ctor addr 0x11fffb8 size 0x14 virtual false final false
  void _ctor() ;
@@ -241,8 +252,7 @@ constexpr bool __get_fixYAxis() const;
 /// @brief Method IsInRange addr 0x1200144 size 0x308 virtual false final false
  bool IsInRange(UnityEngine::Transform raycastFrom, UnityEngine::RaycastHit hit, UnityEngine::Transform trigger, ByRef<float_t> error) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionTrigger__CameraPosition() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition New_ctor() ;
 
 /// @brief Method .ctor addr 0x120044c size 0x74 virtual false final false
  void _ctor() ;
@@ -308,8 +318,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector> __get_effectors()
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionTrigger__Range__Interaction() ;
+static GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction New_ctor() ;
 
 /// @brief Method .ctor addr 0x12004d0 size 0x8 virtual false final false
  void _ctor() ;
@@ -398,8 +407,7 @@ constexpr ::ArrayW<GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Ran
 /// @brief Method IsInRange addr 0x11ff680 size 0xb0 virtual false final false
  bool IsInRange(UnityEngine::Transform character, UnityEngine::Transform raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform trigger, ByRef<float_t> maxError) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__InteractionTrigger__Range() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range New_ctor() ;
 
 /// @brief Method .ctor addr 0x12004c0 size 0x10 virtual false final false
  void _ctor() ;
@@ -486,8 +494,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger_
 /// @brief Method GetBestRangeIndex addr 0x11fdfc0 size 0x1b4 virtual false final false
  int32_t GetBestRangeIndex(UnityEngine::Transform character, UnityEngine::Transform raycastFrom, UnityEngine::RaycastHit raycastHit) ;
 
-// Ctor Parameters []
-explicit InteractionTrigger() ;
+static RootMotion::FinalIK::InteractionTrigger New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ff730 size 0x58 virtual false final false
  void _ctor() ;

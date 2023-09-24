@@ -2,13 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigateFocusRing_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigateFocusRing_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IFocusRing_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection._ctor
 template<>
@@ -27,8 +28,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection(int32_t i)  : UnityEngine::UIElements::FocusChangeDirection(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__NavigateFocusRing__ChangeDirection>(i))) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection::New_ctor(int32_t i)  {
+UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection>(i))};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection::_ctor(int32_t i)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__NavigateFocusRing__ChangeDirection>::get(),
@@ -516,8 +519,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::UIElements::FocusController, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "root", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
- UnityEngine::UIElements::NavigateFocusRing::NavigateFocusRing(UnityEngine::UIElements::VisualElement root)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NavigateFocusRing>(root))) {}
+ UnityEngine::UIElements::NavigateFocusRing UnityEngine::UIElements::NavigateFocusRing::New_ctor(UnityEngine::UIElements::VisualElement root)  {
+UnityEngine::UIElements::NavigateFocusRing o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::NavigateFocusRing>(root))};
+return o;
+}
  void UnityEngine::UIElements::NavigateFocusRing::_ctor(UnityEngine::UIElements::VisualElement root)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::NavigateFocusRing>::get(),

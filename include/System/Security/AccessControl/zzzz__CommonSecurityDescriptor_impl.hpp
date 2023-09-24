@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__GenericSecurityDescriptor_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonSecurityDescriptor_def.hpp"
-#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_def.hpp"
-#include "System/Security/AccessControl/zzzz__ControlFlags_def.hpp"
 #include "System/Security/AccessControl/zzzz__DiscretionaryAcl_def.hpp"
 #include "System/Security/AccessControl/zzzz__SystemAcl_def.hpp"
+#include "System/Security/AccessControl/zzzz__ControlFlags_def.hpp"
+#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 //  Writing Method size for method: System::Security::AccessControl::CommonSecurityDescriptor._ctor
 template<>
 
@@ -218,8 +218,10 @@ constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_
 constexpr System::Security::AccessControl::DiscretionaryAcl System::Security::AccessControl::CommonSecurityDescriptor::__get_discretionary_acl() const {
 return ::cordl_internals::getInstanceField<System::Security::AccessControl::DiscretionaryAcl, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isContainer", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isDS", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "System::Security::AccessControl::ControlFlags", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "group", ty: "System::Security::Principal::SecurityIdentifier", modifiers: "", def_value: None }, CppParam { name: "systemAcl", ty: "System::Security::AccessControl::SystemAcl", modifiers: "", def_value: None }, CppParam { name: "discretionaryAcl", ty: "System::Security::AccessControl::DiscretionaryAcl", modifiers: "", def_value: None }]
- System::Security::AccessControl::CommonSecurityDescriptor::CommonSecurityDescriptor(bool isContainer, bool isDS, System::Security::AccessControl::ControlFlags flags, System::Security::Principal::SecurityIdentifier owner, System::Security::Principal::SecurityIdentifier group, System::Security::AccessControl::SystemAcl systemAcl, System::Security::AccessControl::DiscretionaryAcl discretionaryAcl)  : System::Security::AccessControl::GenericSecurityDescriptor(THROW_UNLESS(::il2cpp_utils::New<CommonSecurityDescriptor>(isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl))) {}
+ System::Security::AccessControl::CommonSecurityDescriptor System::Security::AccessControl::CommonSecurityDescriptor::New_ctor(bool isContainer, bool isDS, System::Security::AccessControl::ControlFlags flags, System::Security::Principal::SecurityIdentifier owner, System::Security::Principal::SecurityIdentifier group, System::Security::AccessControl::SystemAcl systemAcl, System::Security::AccessControl::DiscretionaryAcl discretionaryAcl)  {
+System::Security::AccessControl::CommonSecurityDescriptor o{THROW_UNLESS(::il2cpp_utils::New<System::Security::AccessControl::CommonSecurityDescriptor>(isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl))};
+return o;
+}
  void System::Security::AccessControl::CommonSecurityDescriptor::_ctor(bool isContainer, bool isDS, System::Security::AccessControl::ControlFlags flags, System::Security::Principal::SecurityIdentifier owner, System::Security::Principal::SecurityIdentifier group, System::Security::AccessControl::SystemAcl systemAcl, System::Security::AccessControl::DiscretionaryAcl discretionaryAcl)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::AccessControl::CommonSecurityDescriptor>::get(),

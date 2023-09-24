@@ -5,20 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace RootMotion {
-class BakerHumanoidQT;
-}
 namespace UnityEngine {
-class HumanPoseHandler;
-}
-namespace UnityEngine {
-struct Quaternion;
+class AnimationClip;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 namespace UnityEngine {
 struct HumanPose;
@@ -26,8 +17,17 @@ struct HumanPose;
 namespace RootMotion {
 class BakerMuscle;
 }
+namespace RootMotion {
+class BakerHumanoidQT;
+}
 namespace UnityEngine {
-class AnimationClip;
+struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class HumanPoseHandler;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -195,8 +195,7 @@ constexpr UnityEngine::Quaternion __get_lastBodyRotation() const;
 /// @brief Method UpdateHumanPose addr 0x11ab120 size 0xd8 virtual false final false
  void UpdateHumanPose() ;
 
-// Ctor Parameters []
-explicit HumanoidBaker() ;
+static RootMotion::HumanoidBaker New_ctor() ;
 
 /// @brief Method .ctor addr 0x11ab1f8 size 0xa4 virtual false final false
  void _ctor() ;

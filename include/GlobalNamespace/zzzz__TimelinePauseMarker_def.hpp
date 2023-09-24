@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
-namespace UnityEngine::Playables {
-class INotification;
-}
 namespace UnityEngine {
 struct PropertyName;
+}
+namespace UnityEngine::Playables {
+class INotification;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,8 +73,7 @@ constexpr UnityEngine::PropertyName __get__id_k__BackingField() const;
 /// @brief Method get_id addr 0x1f83a3c size 0x8 virtual true final true
  UnityEngine::PropertyName get_id() ;
 
-// Ctor Parameters []
-explicit TimelinePauseMarker() ;
+static GlobalNamespace::TimelinePauseMarker New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f83a44 size 0x8 virtual false final false
  void _ctor() ;

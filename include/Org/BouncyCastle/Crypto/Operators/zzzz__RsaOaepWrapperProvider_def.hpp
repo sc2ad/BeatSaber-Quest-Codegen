@@ -1,14 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace Org::BouncyCastle::Crypto::Operators {
-class WrapperProvider;
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace Org::BouncyCastle::Crypto::Operators {
+class WrapperProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -68,8 +68,7 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_digestOid() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digestOid", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit RsaOaepWrapperProvider(Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
+static Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;
 
 /// @brief Method .ctor addr 0xe9bf30 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier digestOid) ;

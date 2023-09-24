@@ -87,8 +87,7 @@ constexpr Newtonsoft::Json::Bson::BsonToken __get__Value_k__BackingField() const
 /// @brief Method set_Value addr 0x255052c size 0x8 virtual false final false
  void set_Value(Newtonsoft::Json::Bson::BsonToken value) ;
 
-// Ctor Parameters []
-explicit BsonProperty() ;
+static Newtonsoft::Json::Bson::BsonProperty New_ctor() ;
 
 /// @brief Method .ctor addr 0x2550180 size 0x8 virtual false final false
  void _ctor() ;

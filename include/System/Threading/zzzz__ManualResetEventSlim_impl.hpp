@@ -1,9 +1,9 @@
 #pragma once
 #include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: System::Threading::ManualResetEventSlim.get_WaitHandle
 template<>
@@ -470,8 +470,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }]
- System::Threading::ManualResetEventSlim::ManualResetEventSlim(bool initialState)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ManualResetEventSlim>(initialState))) {}
+ System::Threading::ManualResetEventSlim System::Threading::ManualResetEventSlim::New_ctor(bool initialState)  {
+System::Threading::ManualResetEventSlim o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ManualResetEventSlim>(initialState))};
+return o;
+}
  void System::Threading::ManualResetEventSlim::_ctor(bool initialState)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ManualResetEventSlim>::get(),
@@ -481,8 +483,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, initialState);
 }
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "spinCount", ty: "int32_t", modifiers: "", def_value: None }]
- System::Threading::ManualResetEventSlim::ManualResetEventSlim(bool initialState, int32_t spinCount)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ManualResetEventSlim>(initialState, spinCount))) {}
+ System::Threading::ManualResetEventSlim System::Threading::ManualResetEventSlim::New_ctor(bool initialState, int32_t spinCount)  {
+System::Threading::ManualResetEventSlim o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::ManualResetEventSlim>(initialState, spinCount))};
+return o;
+}
  void System::Threading::ManualResetEventSlim::_ctor(bool initialState, int32_t spinCount)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::ManualResetEventSlim>::get(),

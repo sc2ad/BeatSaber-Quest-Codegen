@@ -1,11 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
-namespace GlobalNamespace {
-class ColorSO;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class ColorSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -191,8 +191,7 @@ constexpr GlobalNamespace::ColorSO __get__selectedAndHighlightedColor2() const;
 /// @brief Method get_selectedAndHighlightedColor2 addr 0x2129650 size 0xc virtual false final false
  UnityEngine::Color get_selectedAndHighlightedColor2() ;
 
-// Ctor Parameters []
-explicit GradientTransitionSO() ;
+static GlobalNamespace::GradientTransitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2129ce0 size 0x8 virtual false final false
  void _ctor() ;

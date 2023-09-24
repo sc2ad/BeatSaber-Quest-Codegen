@@ -5,7 +5,7 @@
 #include <cstddef>
 #include <cstdint>
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -15,7 +15,7 @@ template<typename T>
 class IEquatable_1;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {

@@ -110,8 +110,7 @@ constexpr System::Globalization::CultureInfo __get__culture() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegexBoyerMoore(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture) ;
+static System::Text::RegularExpressions::RegexBoyerMoore New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x27c1ba8 size 0x4b4 virtual false final false
  void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture) ;

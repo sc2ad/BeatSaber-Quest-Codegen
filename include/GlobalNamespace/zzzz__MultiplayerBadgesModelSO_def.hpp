@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+namespace GlobalNamespace {
+class MultiplayerBadgeDataSO;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace GlobalNamespace {
-class MultiplayerBadgeDataSO;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -86,8 +86,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadge
 /// @brief Method get_negativeBadges addr 0x20da2f4 size 0x8 virtual false final false
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO> get_negativeBadges() ;
 
-// Ctor Parameters []
-explicit MultiplayerBadgesModelSO() ;
+static GlobalNamespace::MultiplayerBadgesModelSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x20da2fc size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,10 @@
 #pragma once
 #include "System/Runtime/Remoting/zzzz__SoapServices_def.hpp"
-#include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Runtime/Remoting/zzzz__SoapServices_def.hpp"
 //  Writing Method size for method: System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo._ctor
 template<>
 
@@ -33,8 +34,10 @@ constexpr void System::Runtime::Remoting::System__Runtime__Remoting__SoapService
 constexpr System::Collections::Hashtable System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo::__get_Elements() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo::System__Runtime__Remoting__SoapServices__TypeInfo()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Runtime__Remoting__SoapServices__TypeInfo>())) {}
+ System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo::New_ctor()  {
+System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo>())};
+return o;
+}
  void System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::System__Runtime__Remoting__SoapServices__TypeInfo>::get(),

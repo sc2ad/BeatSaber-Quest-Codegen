@@ -1,5 +1,7 @@
 #pragma once
 #include "System/Collections/ArrayList.hpp"
+#include "System/Collections/ArrayList_IListWrapper.hpp"
+#include "System/Collections/ArrayList_ReadOnlyArrayList.hpp"
 #include "System/Collections/CaseInsensitiveComparer.hpp"
 #include "System/Collections/CaseInsensitiveHashCodeProvider.hpp"
 #include "System/Collections/CollectionBase.hpp"
@@ -9,6 +11,7 @@
 #include "System/Collections/HashHelpers.hpp"
 #include "System/Collections/Hashtable.hpp"
 #include "System/Collections/HashtableExtensions.hpp"
+#include "System/Collections/Hashtable_SyncHashtable.hpp"
 #include "System/Collections/ICollection.hpp"
 #include "System/Collections/IComparer.hpp"
 #include "System/Collections/IDictionary.hpp"
@@ -24,4 +27,5 @@
 #include "System/Collections/Queue.hpp"
 #include "System/Collections/ReadOnlyCollectionBase.hpp"
 #include "System/Collections/SortedList.hpp"
+#include "System/Collections/SortedList_SyncSortedList.hpp"
 #include "System/Collections/Stack.hpp"

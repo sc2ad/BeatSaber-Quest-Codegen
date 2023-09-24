@@ -3,13 +3,13 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -120,8 +120,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method LateUpdate addr 0x1f77e9c size 0x13c virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit FlexyFollow() ;
+static GlobalNamespace::FlexyFollow New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f77fd8 size 0x10 virtual false final false
  void _ctor() ;

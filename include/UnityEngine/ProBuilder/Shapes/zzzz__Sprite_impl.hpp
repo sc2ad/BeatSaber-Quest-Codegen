@@ -4,8 +4,8 @@
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Shapes::Sprite.CopyShape
 template<>
 
@@ -75,8 +75,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Bounds, false>(const_cast<void*>(instance), ___internal_method, mesh, size, rotation);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Shapes::Sprite::Sprite()  : UnityEngine::ProBuilder::Shapes::Shape(THROW_UNLESS(::il2cpp_utils::New<Sprite>())) {}
+ UnityEngine::ProBuilder::Shapes::Sprite UnityEngine::ProBuilder::Shapes::Sprite::New_ctor()  {
+UnityEngine::ProBuilder::Shapes::Sprite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Shapes::Sprite>())};
+return o;
+}
  void UnityEngine::ProBuilder::Shapes::Sprite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Shapes::Sprite>::get(),

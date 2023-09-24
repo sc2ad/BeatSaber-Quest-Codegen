@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorResult_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
+class TrustAnchor;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
 }
 namespace Org::BouncyCastle::Pkix {
-class TrustAnchor;
+class PkixCertPath;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
@@ -74,8 +74,7 @@ constexpr Org::BouncyCastle::Pkix::PkixCertPath __get_certPath() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certPath", ty: "Org::BouncyCastle::Pkix::PkixCertPath", modifiers: "", def_value: None }, CppParam { name: "trustAnchor", ty: "Org::BouncyCastle::Pkix::TrustAnchor", modifiers: "", def_value: None }, CppParam { name: "policyTree", ty: "Org::BouncyCastle::Pkix::PkixPolicyNode", modifiers: "", def_value: None }, CppParam { name: "subjectPublicKey", ty: "Org::BouncyCastle::Crypto::AsymmetricKeyParameter", modifiers: "", def_value: None }]
-explicit PkixCertPathBuilderResult(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey) ;
+static Org::BouncyCastle::Pkix::PkixCertPathBuilderResult New_ctor(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey) ;
 
 /// @brief Method .ctor addr 0x105f294 size 0x80 virtual false final false
  void _ctor(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::TrustAnchor trustAnchor, Org::BouncyCastle::Pkix::PkixPolicyNode policyTree, Org::BouncyCastle::Crypto::AsymmetricKeyParameter subjectPublicKey) ;

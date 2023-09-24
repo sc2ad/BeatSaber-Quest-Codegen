@@ -300,8 +300,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::UnwrapParameters::UnwrapParameters()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnwrapParameters>())) {}
+ UnityEngine::ProBuilder::UnwrapParameters UnityEngine::ProBuilder::UnwrapParameters::New_ctor()  {
+UnityEngine::ProBuilder::UnwrapParameters o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnwrapParameters>())};
+return o;
+}
  void UnityEngine::ProBuilder::UnwrapParameters::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnwrapParameters>::get(),
@@ -311,8 +313,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::ProBuilder::UnwrapParameters", modifiers: "", def_value: None }]
- UnityEngine::ProBuilder::UnwrapParameters::UnwrapParameters(UnityEngine::ProBuilder::UnwrapParameters other)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnwrapParameters>(other))) {}
+ UnityEngine::ProBuilder::UnwrapParameters UnityEngine::ProBuilder::UnwrapParameters::New_ctor(UnityEngine::ProBuilder::UnwrapParameters other)  {
+UnityEngine::ProBuilder::UnwrapParameters o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::UnwrapParameters>(other))};
+return o;
+}
  void UnityEngine::ProBuilder::UnwrapParameters::_ctor(UnityEngine::ProBuilder::UnwrapParameters other)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::UnwrapParameters>::get(),

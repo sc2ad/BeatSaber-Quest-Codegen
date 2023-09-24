@@ -1,12 +1,12 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsStream_def.hpp"
-#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
-#include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Mono::Unity::UnityTlsStream._ctor
 template<>
 
@@ -41,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "System::Net::Security::SslStream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "Mono::Security::Interface::MonoTlsSettings", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "Mono::Net::Security::MobileTlsProvider", modifiers: "", def_value: None }]
- Mono::Unity::UnityTlsStream::UnityTlsStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider)  : Mono::Net::Security::MobileAuthenticatedStream(THROW_UNLESS(::il2cpp_utils::New<UnityTlsStream>(innerStream, leaveInnerStreamOpen, owner, settings, provider))) {}
+ Mono::Unity::UnityTlsStream Mono::Unity::UnityTlsStream::New_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider)  {
+Mono::Unity::UnityTlsStream o{THROW_UNLESS(::il2cpp_utils::New<Mono::Unity::UnityTlsStream>(innerStream, leaveInnerStreamOpen, owner, settings, provider))};
+return o;
+}
  void Mono::Unity::UnityTlsStream::_ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen, System::Net::Security::SslStream owner, Mono::Security::Interface::MonoTlsSettings settings, Mono::Net::Security::MobileTlsProvider provider)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Unity::UnityTlsStream>::get(),

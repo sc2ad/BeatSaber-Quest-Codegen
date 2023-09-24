@@ -3,20 +3,23 @@
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine::Timeline {
-class TimelineClip;
+struct UnityEngine__Timeline__ActivationTrack__PostPlaybackState;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
 }
 namespace UnityEngine::Timeline {
 class ActivationMixerPlayable;
@@ -82,6 +85,8 @@ __LeaveAsIs = 3,
 constexpr operator __UnityEngine__Timeline__ActivationTrack__PostPlaybackState_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Timeline__ActivationTrack__PostPlaybackState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -193,8 +198,7 @@ constexpr UnityEngine::Timeline::ActivationMixerPlayable __get_m_ActivationMixer
 /// @brief Method OnCreateClip addr 0x2ab685c size 0x50 virtual true final false
  void OnCreateClip(UnityEngine::Timeline::TimelineClip clip) ;
 
-// Ctor Parameters []
-explicit ActivationTrack() ;
+static UnityEngine::Timeline::ActivationTrack New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab68b0 size 0x5c virtual false final false
  void _ctor() ;

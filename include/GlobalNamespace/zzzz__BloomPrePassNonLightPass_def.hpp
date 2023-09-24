@@ -3,12 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Matrix4x4;
+namespace GlobalNamespace {
+struct GlobalNamespace__BloomPrePassNonLightPass__ExecutionTimeType;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -70,6 +73,8 @@ __AfterBlur = 2,
 constexpr operator __GlobalNamespace__BloomPrePassNonLightPass__ExecutionTimeType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__BloomPrePassNonLightPass__ExecutionTimeType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -200,8 +205,7 @@ static System::Collections::Generic::List_1<GlobalNamespace::BloomPrePassNonLigh
 /// @brief Method Render addr 0x0 size 0xffffffffffffffff virtual true final false
  void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
-// Ctor Parameters []
-explicit BloomPrePassNonLightPass() ;
+static GlobalNamespace::BloomPrePassNonLightPass New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f920c4 size 0x8 virtual false final false
  void _ctor() ;

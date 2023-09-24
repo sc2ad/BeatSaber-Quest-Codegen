@@ -5,11 +5,11 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class Dictionary_2;
+class IDictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class IDictionary_2;
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -109,20 +109,17 @@ constexpr int32_t __get_threshold() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit KeyedCollection_2() ;
+static System::Collections::ObjectModel::KeyedCollection_2<TKey,TItem> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit KeyedCollection_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
+static System::Collections::ObjectModel::KeyedCollection_2<TKey,TItem> New_ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer) ;
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IEqualityComparer_1<TKey>", modifiers: "", def_value: None }, CppParam { name: "dictionaryCreationThreshold", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeyedCollection_2(System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;
+static System::Collections::ObjectModel::KeyedCollection_2<TKey,TItem> New_ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IEqualityComparer_1<TKey> comparer, int32_t dictionaryCreationThreshold) ;

@@ -6,11 +6,11 @@
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace Polyglot {
-struct LanguageDirection;
-}
 namespace TMPro {
 struct TextAlignmentOptions;
+}
+namespace Polyglot {
+struct LanguageDirection;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -19,7 +19,7 @@ class LocalizedTextMeshProUGUI;
 // Type: Polyglot::LocalizedTextMeshProUGUI
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 4156 }), TypeDefinitionIndex(TypeDefinitionIndex(15541))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15541)), TypeDefinitionIndex(TypeDefinitionIndex(12252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 4156 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15544))
 // CS Name: Polyglot.LocalizedTextMeshProUGUI
 class CORDL_TYPE LocalizedTextMeshProUGUI : public Polyglot::LocalizedTextComponent_1<TMPro::TextMeshProUGUI> {
@@ -73,8 +73,7 @@ constexpr explicit LocalizedTextMeshProUGUI(void* ptr) noexcept : Polyglot::Loca
 /// @brief Method IsAlignmentLeft addr 0x2674b58 size 0x28 virtual false final false
  bool IsAlignmentLeft(TMPro::TextAlignmentOptions alignment) ;
 
-// Ctor Parameters []
-explicit LocalizedTextMeshProUGUI() ;
+static Polyglot::LocalizedTextMeshProUGUI New_ctor() ;
 
 /// @brief Method .ctor addr 0x2674b80 size 0x48 virtual false final false
  void _ctor() ;

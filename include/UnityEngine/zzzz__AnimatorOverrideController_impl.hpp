@@ -2,10 +2,11 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"
-#include "UnityEngine/zzzz__AnimationClip_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_def.hpp"
+#include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"
+#include "UnityEngine/zzzz__AnimationClip_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback._ctor
 template<>
 
@@ -40,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback>(object, method))) {}
+ UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback>::get(),
@@ -168,8 +171,10 @@ constexpr void UnityEngine::AnimatorOverrideController::__set_OnOverrideControll
 constexpr UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback UnityEngine::AnimatorOverrideController::__get_OnOverrideControllerDirty() const {
 return ::cordl_internals::getInstanceField<UnityEngine::UnityEngine__AnimatorOverrideController__OnOverrideControllerDirtyCallback, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "controller", ty: "UnityEngine::RuntimeAnimatorController", modifiers: "", def_value: None }]
- UnityEngine::AnimatorOverrideController::AnimatorOverrideController(UnityEngine::RuntimeAnimatorController controller)  : UnityEngine::RuntimeAnimatorController(THROW_UNLESS(::il2cpp_utils::New<AnimatorOverrideController>(controller))) {}
+ UnityEngine::AnimatorOverrideController UnityEngine::AnimatorOverrideController::New_ctor(UnityEngine::RuntimeAnimatorController controller)  {
+UnityEngine::AnimatorOverrideController o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AnimatorOverrideController>(controller))};
+return o;
+}
  void UnityEngine::AnimatorOverrideController::_ctor(UnityEngine::RuntimeAnimatorController controller)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AnimatorOverrideController>::get(),

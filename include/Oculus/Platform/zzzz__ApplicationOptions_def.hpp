@@ -58,8 +58,7 @@ constexpr ::cordl_internals::intptr_t __get_Handle() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ApplicationOptions() ;
+static Oculus::Platform::ApplicationOptions New_ctor() ;
 
 /// @brief Method .ctor addr 0x2553068 size 0x64 virtual false final false
  void _ctor() ;

@@ -104,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-// Ctor Parameters []
- GlobalNamespace::SelectModifiersViewController::SelectModifiersViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<SelectModifiersViewController>())) {}
+ GlobalNamespace::SelectModifiersViewController GlobalNamespace::SelectModifiersViewController::New_ctor()  {
+GlobalNamespace::SelectModifiersViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectModifiersViewController>())};
+return o;
+}
  void GlobalNamespace::SelectModifiersViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectModifiersViewController>::get(),

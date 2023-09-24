@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class IAsymmetricCipherKeyPairGenerator;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -15,14 +15,14 @@ class BigInteger;
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
-}
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class NaccacheSternKeyGenerationParameters;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -103,8 +103,7 @@ static System::Collections::IList permuteList(System::Collections::IList arr, Or
 /// @brief Method findFirstPrimes addr 0xe74944 size 0x184 virtual false final false
 static System::Collections::IList findFirstPrimes(int32_t count) ;
 
-// Ctor Parameters []
-explicit NaccacheSternKeyPairGenerator() ;
+static Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0xe7507c size 0x8 virtual false final false
  void _ctor() ;

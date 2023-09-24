@@ -1,11 +1,11 @@
 #pragma once
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__StreamWriter_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 //  Writing Method size for method: System::IO::StreamWriter.CheckAsyncTaskInProgress
 template<>
 
@@ -530,8 +530,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Text::Encoding, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::IO::StreamWriter::StreamWriter()  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>())) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor()  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>())};
+return o;
+}
  void System::IO::StreamWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -541,8 +543,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(System::IO::Stream stream)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(stream))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(System::IO::Stream stream)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(stream))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(System::IO::Stream stream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -552,8 +556,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(System::IO::Stream stream, System::Text::Encoding encoding)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(stream, encoding))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(stream, encoding))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -563,8 +569,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, encoding);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(stream, encoding, bufferSize))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(stream, encoding, bufferSize))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -574,8 +582,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, encoding, bufferSize);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "leaveOpen", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize, bool leaveOpen)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(stream, encoding, bufferSize, leaveOpen))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize, bool leaveOpen)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(stream, encoding, bufferSize, leaveOpen))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(System::IO::Stream stream, System::Text::Encoding encoding, int32_t bufferSize, bool leaveOpen)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -585,8 +595,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, stream, encoding, bufferSize, leaveOpen);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(::StringW path)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(path))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(::StringW path)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(path))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(::StringW path)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -596,8 +608,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(::StringW path, bool append)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(path, append))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(::StringW path, bool append)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(path, append))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(::StringW path, bool append)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),
@@ -607,8 +621,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, path, append);
 }
-// Ctor Parameters [CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }, CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
- System::IO::StreamWriter::StreamWriter(::StringW path, bool append, System::Text::Encoding encoding, int32_t bufferSize)  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<StreamWriter>(path, append, encoding, bufferSize))) {}
+ System::IO::StreamWriter System::IO::StreamWriter::New_ctor(::StringW path, bool append, System::Text::Encoding encoding, int32_t bufferSize)  {
+System::IO::StreamWriter o{THROW_UNLESS(::il2cpp_utils::New<System::IO::StreamWriter>(path, append, encoding, bufferSize))};
+return o;
+}
  void System::IO::StreamWriter::_ctor(::StringW path, bool append, System::Text::Encoding encoding, int32_t bufferSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::StreamWriter>::get(),

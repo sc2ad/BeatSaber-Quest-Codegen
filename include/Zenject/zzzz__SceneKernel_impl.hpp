@@ -36,8 +36,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::SceneKernel::SceneKernel()  : Zenject::MonoKernel(THROW_UNLESS(::il2cpp_utils::New<SceneKernel>())) {}
+ Zenject::SceneKernel Zenject::SceneKernel::New_ctor()  {
+Zenject::SceneKernel o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SceneKernel>())};
+return o;
+}
  void Zenject::SceneKernel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SceneKernel>::get(),

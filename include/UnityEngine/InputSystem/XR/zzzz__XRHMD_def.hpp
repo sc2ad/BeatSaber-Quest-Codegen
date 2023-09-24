@@ -2,10 +2,10 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class QuaternionControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -146,8 +146,7 @@ constexpr UnityEngine::InputSystem::Controls::QuaternionControl __get__centerEye
 /// @brief Method FinishSetup addr 0x2932ed0 size 0x170 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit XRHMD() ;
+static UnityEngine::InputSystem::XR::XRHMD New_ctor() ;
 
 /// @brief Method .ctor addr 0x2933040 size 0x8 virtual false final false
  void _ctor() ;

@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Diagnostics::Tracing {
-struct EventLevel;
+struct EventKeywords;
 }
 namespace System::Diagnostics::Tracing {
-struct EventKeywords;
+struct EventLevel;
 }
 // Forward declare root types
 namespace System::Diagnostics::Tracing {
@@ -93,8 +93,7 @@ constexpr ::StringW __get__Message_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "eventId", ty: "int32_t", modifiers: "", def_value: None }]
-explicit EventAttribute(int32_t eventId) ;
+static System::Diagnostics::Tracing::EventAttribute New_ctor(int32_t eventId) ;
 
 /// @brief Method .ctor addr 0x240dbf4 size 0x28 virtual false final false
  void _ctor(int32_t eventId) ;

@@ -95,20 +95,17 @@ static UnityEngine::Color __get_k_DefaultColor() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit TMP_ColorGradient() ;
+static TMPro::TMP_ColorGradient New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a6a53c size 0x9c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit TMP_ColorGradient(UnityEngine::Color color) ;
+static TMPro::TMP_ColorGradient New_ctor(UnityEngine::Color color) ;
 
 /// @brief Method .ctor addr 0x2a6a5d8 size 0x6c virtual false final false
  void _ctor(UnityEngine::Color color) ;
 
-// Ctor Parameters [CppParam { name: "color0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color2", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color3", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
-explicit TMP_ColorGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3) ;
+static TMPro::TMP_ColorGradient New_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3) ;
 
 /// @brief Method .ctor addr 0x2a6a644 size 0xa4 virtual false final false
  void _ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3) ;

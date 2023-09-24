@@ -4,6 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Newtonsoft::Json::Utilities {
+class Newtonsoft__Json__Utilities__PropertyNameTable__Entry;
+}
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
 class Newtonsoft__Json__Utilities__PropertyNameTable__Entry;
@@ -74,8 +77,7 @@ constexpr Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyName
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Utilities__PropertyNameTable__Entry(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
+static Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry New_ctor(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
 
 /// @brief Method .ctor addr 0x24e2340 size 0x40 virtual false final false
  void _ctor(::StringW value, int32_t hashCode, Newtonsoft::Json::Utilities::Newtonsoft__Json__Utilities__PropertyNameTable__Entry next) ;
@@ -155,8 +157,7 @@ constexpr int32_t __get__mask() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PropertyNameTable() ;
+static Newtonsoft::Json::Utilities::PropertyNameTable New_ctor() ;
 
 /// @brief Method .ctor addr 0x24e1de0 size 0x68 virtual false final false
  void _ctor() ;

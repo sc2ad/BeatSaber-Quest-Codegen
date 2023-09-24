@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PlayerHeightToJumpOffsetYProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PlayerHeightToJumpOffsetYProvider.get_jumpOffsetY
 template<>
 
@@ -175,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, playerHeight);
 }
-// Ctor Parameters []
- GlobalNamespace::PlayerHeightToJumpOffsetYProvider::PlayerHeightToJumpOffsetYProvider()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PlayerHeightToJumpOffsetYProvider>())) {}
+ GlobalNamespace::PlayerHeightToJumpOffsetYProvider GlobalNamespace::PlayerHeightToJumpOffsetYProvider::New_ctor()  {
+GlobalNamespace::PlayerHeightToJumpOffsetYProvider o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PlayerHeightToJumpOffsetYProvider>())};
+return o;
+}
  void GlobalNamespace::PlayerHeightToJumpOffsetYProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PlayerHeightToJumpOffsetYProvider>::get(),

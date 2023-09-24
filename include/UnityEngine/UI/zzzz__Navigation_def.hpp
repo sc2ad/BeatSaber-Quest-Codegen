@@ -2,12 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UI {
-class Selectable;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UI {
+class Selectable;
+}
+namespace UnityEngine::UI {
+struct UnityEngine__UI__Navigation__Mode;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -68,6 +71,8 @@ __Explicit = 4,
 constexpr operator __UnityEngine__UI__Navigation__Mode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UI__Navigation__Mode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

@@ -2,11 +2,12 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusLoader_def.hpp"
-#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
+#include "Unity/XR/Oculus/zzzz__OculusLoader_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystemDescriptor_def.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr Unity::XR::Oculus::Unity__XR__Oculus__OculusLoader__DeviceSupportedResult::Unity__XR__Oculus__OculusLoader__DeviceSupportedResult(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
@@ -335,8 +336,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::Oculus::OculusLoader::OculusLoader()  : UnityEngine::XR::Management::XRLoaderHelper(THROW_UNLESS(::il2cpp_utils::New<OculusLoader>())) {}
+ Unity::XR::Oculus::OculusLoader Unity::XR::Oculus::OculusLoader::New_ctor()  {
+Unity::XR::Oculus::OculusLoader o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::Oculus::OculusLoader>())};
+return o;
+}
  void Unity::XR::Oculus::OculusLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::Oculus::OculusLoader>::get(),

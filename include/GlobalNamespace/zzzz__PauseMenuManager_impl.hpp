@@ -1,18 +1,19 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PauseMenuManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "GlobalNamespace/zzzz__PauseAnimationController_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentSpawnRotation_def.hpp"
+#include "GlobalNamespace/zzzz__PauseMenuManager_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
-#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentSpawnRotation_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData._ctor
 template<>
 
@@ -66,8 +67,10 @@ constexpr void GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData::__s
 constexpr bool GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData::__get_showLevelBar() const {
 return ::cordl_internals::getInstanceField<bool, 0x31>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "backButtonText", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "showRestartButton", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "showLevelBar", ty: "bool", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData::GlobalNamespace__PauseMenuManager__InitData(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showRestartButton, bool showLevelBar)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__PauseMenuManager__InitData>(backButtonText, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, showRestartButton, showLevelBar))) {}
+ GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData::New_ctor(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showRestartButton, bool showLevelBar)  {
+GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData>(backButtonText, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, showRestartButton, showLevelBar))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData::_ctor(::StringW backButtonText, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, bool showRestartButton, bool showLevelBar)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__PauseMenuManager__InitData>::get(),
@@ -658,8 +661,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PauseMenuManager::PauseMenuManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<PauseMenuManager>())) {}
+ GlobalNamespace::PauseMenuManager GlobalNamespace::PauseMenuManager::New_ctor()  {
+GlobalNamespace::PauseMenuManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PauseMenuManager>())};
+return o;
+}
  void GlobalNamespace::PauseMenuManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PauseMenuManager>::get(),

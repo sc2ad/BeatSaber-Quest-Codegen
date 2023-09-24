@@ -132,8 +132,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Messaging::CallContextRemotingData::CallContextRemotingData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CallContextRemotingData>())) {}
+ System::Runtime::Remoting::Messaging::CallContextRemotingData System::Runtime::Remoting::Messaging::CallContextRemotingData::New_ctor()  {
+System::Runtime::Remoting::Messaging::CallContextRemotingData o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CallContextRemotingData>())};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CallContextRemotingData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CallContextRemotingData>::get(),

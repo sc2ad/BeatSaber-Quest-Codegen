@@ -71,8 +71,7 @@ constexpr float_t __get__skew() const;
 /// @brief Method OnPopulateMesh addr 0x1fb2280 size 0x18 virtual true final false
  void OnPopulateMesh(UnityEngine::UI::VertexHelper vh) ;
 
-// Ctor Parameters []
-explicit Touchable() ;
+static HMUI::Touchable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb1a7c size 0x58 virtual false final false
  void _ctor() ;

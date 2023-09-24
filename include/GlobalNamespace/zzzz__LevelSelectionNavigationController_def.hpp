@@ -4,54 +4,54 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class LevelFilteringNavigationController;
+class IDifficultyBeatmap;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
-class LevelCollectionNavigationController;
+class IAnnotatedBeatmapLevelCollection;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
+}
+namespace GlobalNamespace {
+class LevelCollectionNavigationController;
+}
+namespace GlobalNamespace {
+struct SongPackMask;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
-}
-namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class LevelFilteringNavigationController;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__SelectLevelCategoryViewController__LevelCategory;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__StandardLevelDetailViewController__ContentType;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -281,8 +281,7 @@ constexpr ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO> __get__notAllowedCh
 /// @brief Method LevelFilteringNavigationControllerDidPressAllSongs addr 0x2170f30 size 0x18 virtual false final false
  void LevelFilteringNavigationControllerDidPressAllSongs(GlobalNamespace::LevelFilteringNavigationController controller) ;
 
-// Ctor Parameters []
-explicit LevelSelectionNavigationController() ;
+static GlobalNamespace::LevelSelectionNavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2170f48 size 0x8 virtual false final false
  void _ctor() ;

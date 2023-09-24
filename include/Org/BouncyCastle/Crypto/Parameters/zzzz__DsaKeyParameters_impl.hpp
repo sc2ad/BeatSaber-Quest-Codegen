@@ -93,8 +93,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::__set_pa
 constexpr Org::BouncyCastle::Crypto::Parameters::DsaParameters Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::__get_parameters() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::DsaParameters, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "isPrivate", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Crypto::Parameters::DsaParameters", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::DsaKeyParameters(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  : Org::BouncyCastle::Crypto::AsymmetricKeyParameter(THROW_UNLESS(::il2cpp_utils::New<DsaKeyParameters>(isPrivate, parameters))) {}
+ Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::New_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  {
+Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters>(isPrivate, parameters))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::_ctor(bool isPrivate, Org::BouncyCastle::Crypto::Parameters::DsaParameters parameters)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters>::get(),

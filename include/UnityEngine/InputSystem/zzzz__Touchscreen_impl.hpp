@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__Pointer_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Touchscreen_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__ICustomDeviceReset_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateCallbackReceiver_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IEventMerger_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateCallbackReceiver_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IEventMerger_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Touchscreen.get_primaryTouch
 template<>
 
@@ -594,8 +594,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, control, state, eventPtr);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Touchscreen::Touchscreen()  : UnityEngine::InputSystem::Pointer(THROW_UNLESS(::il2cpp_utils::New<Touchscreen>())) {}
+ UnityEngine::InputSystem::Touchscreen UnityEngine::InputSystem::Touchscreen::New_ctor()  {
+UnityEngine::InputSystem::Touchscreen o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Touchscreen>())};
+return o;
+}
  void UnityEngine::InputSystem::Touchscreen::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Touchscreen>::get(),

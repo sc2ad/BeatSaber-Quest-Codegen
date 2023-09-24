@@ -3,7 +3,7 @@
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class IntSO;
+class MirroredBombNoteController;
 }
 namespace GlobalNamespace {
 class MirroredGameNoteController;
@@ -12,20 +12,23 @@ namespace GlobalNamespace {
 class MirroredObstacleController;
 }
 namespace GlobalNamespace {
-class MirrorRendererGraphicsSettingsPresets;
+class IntSO;
 }
 namespace GlobalNamespace {
-class MirroredBombNoteController;
+class MirrorRendererGraphicsSettingsPresets;
 }
 namespace GlobalNamespace {
 class MirroredSliderController;
 }
-namespace Zenject {
-struct BindingId;
+namespace GlobalNamespace {
+class GlobalNamespace__FakeMirrorObjectsInstaller____c;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
+}
+namespace Zenject {
+struct BindingId;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +94,7 @@ static System::Func_2<Zenject::BindingId,bool> __get___9__11_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__FakeMirrorObjectsInstaller____c() ;
+static GlobalNamespace::GlobalNamespace__FakeMirrorObjectsInstaller____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2118024 size 0x8 virtual false final false
  void _ctor() ;
@@ -216,8 +218,7 @@ constexpr GlobalNamespace::MirrorRendererGraphicsSettingsPresets __get__mirrorRe
 /// @brief Method InstallBindings addr 0x2117a38 size 0x580 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit FakeMirrorObjectsInstaller() ;
+static GlobalNamespace::FakeMirrorObjectsInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x2117fb8 size 0x8 virtual false final false
  void _ctor() ;

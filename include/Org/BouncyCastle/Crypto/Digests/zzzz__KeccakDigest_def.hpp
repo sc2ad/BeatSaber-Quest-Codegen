@@ -112,20 +112,17 @@ constexpr bool __get_squeezing() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit KeccakDigest() ;
+static Org::BouncyCastle::Crypto::Digests::KeccakDigest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119a1ec size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeccakDigest(int32_t bitLength) ;
+static Org::BouncyCastle::Crypto::Digests::KeccakDigest New_ctor(int32_t bitLength) ;
 
 /// @brief Method .ctor addr 0x119a1f4 size 0x94 virtual false final false
  void _ctor(int32_t bitLength) ;
 
-// Ctor Parameters [CppParam { name: "source", ty: "Org::BouncyCastle::Crypto::Digests::KeccakDigest", modifiers: "", def_value: None }]
-explicit KeccakDigest(Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
+static Org::BouncyCastle::Crypto::Digests::KeccakDigest New_ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;
 
 /// @brief Method .ctor addr 0x119a338 size 0x94 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::KeccakDigest source) ;

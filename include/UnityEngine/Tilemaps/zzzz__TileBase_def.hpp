@@ -3,19 +3,19 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace UnityEngine {
-struct Vector3Int;
+class GameObject;
 }
 namespace UnityEngine::Tilemaps {
 struct TileData;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine::Tilemaps {
 class ITilemap;
 }
 namespace UnityEngine::Tilemaps {
 struct TileAnimationData;
+}
+namespace UnityEngine {
+struct Vector3Int;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -87,8 +87,7 @@ constexpr explicit TileBase(void* ptr) noexcept : UnityEngine::ScriptableObject(
 /// @brief Method StartUpRef addr 0x2bd76c8 size 0x28 virtual false final false
  void StartUpRef(UnityEngine::Vector3Int position, UnityEngine::Tilemaps::ITilemap tilemap, UnityEngine::GameObject go, ByRef<bool> startUpInvokedByUser) ;
 
-// Ctor Parameters []
-explicit TileBase() ;
+static UnityEngine::Tilemaps::TileBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd748c size 0x8 virtual false final false
  void _ctor() ;

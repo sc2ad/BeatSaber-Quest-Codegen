@@ -3,41 +3,41 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
-class XmlWriter;
-}
-namespace System::IO {
-class TextWriter;
+struct ConformanceLevel;
 }
 namespace System::Text {
 class Encoding;
 }
 namespace System::Xml {
-struct ConformanceLevel;
+struct NamespaceHandling;
 }
 namespace System::Xml {
 struct XmlOutputMethod;
 }
 namespace System::Xml {
-class XmlQualifiedName;
-}
-namespace System::Xml {
-struct NewLineHandling;
-}
-namespace System::Xml {
 struct XmlStandalone;
-}
-namespace System::Xml {
-struct NamespaceHandling;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System::Xml {
+class XmlWriter;
+}
+namespace System::IO {
+class TextWriter;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Xml {
+class XmlQualifiedName;
+}
+namespace System::Xml {
 struct TriState;
+}
+namespace System::Xml {
+struct NewLineHandling;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -279,8 +279,7 @@ constexpr bool __get_isReadOnly() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit XmlWriterSettings() ;
+static System::Xml::XmlWriterSettings New_ctor() ;
 
 /// @brief Method .ctor addr 0x26ecc30 size 0x84 virtual false final false
  void _ctor() ;

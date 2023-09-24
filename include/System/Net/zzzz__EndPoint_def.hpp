@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Net {
-class SocketAddress;
-}
 namespace System::Net::Sockets {
 struct AddressFamily;
+}
+namespace System::Net {
+class SocketAddress;
 }
 // Forward declare root types
 namespace System::Net {
@@ -67,8 +67,7 @@ constexpr explicit EndPoint(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 /// @brief Method Create addr 0x280a05c size 0x28 virtual true final false
  System::Net::EndPoint Create(System::Net::SocketAddress socketAddress) ;
 
-// Ctor Parameters []
-explicit EndPoint() ;
+static System::Net::EndPoint New_ctor() ;
 
 /// @brief Method .ctor addr 0x27fb050 size 0x8 virtual false final false
  void _ctor() ;

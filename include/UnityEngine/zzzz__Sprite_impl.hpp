@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__SpritePackingRotation_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__SpritePackingMode_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__SpriteMeshType_def.hpp"
-#include "UnityEngine/zzzz__SpritePackingRotation_def.hpp"
+#include "UnityEngine/zzzz__SpritePackingMode_def.hpp"
 //  Writing Method size for method: UnityEngine::Sprite._ctor
 template<>
 
@@ -570,8 +570,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::Sprite::Sprite()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<Sprite>())) {}
+ UnityEngine::Sprite UnityEngine::Sprite::New_ctor()  {
+UnityEngine::Sprite o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Sprite>())};
+return o;
+}
  void UnityEngine::Sprite::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Sprite>::get(),

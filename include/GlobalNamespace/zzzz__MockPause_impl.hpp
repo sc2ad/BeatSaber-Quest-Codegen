@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MockPause_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MockPause.get_isPaused
 template<>
 
@@ -301,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MockPause::MockPause()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MockPause>())) {}
+ GlobalNamespace::MockPause GlobalNamespace::MockPause::New_ctor()  {
+GlobalNamespace::MockPause o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MockPause>())};
+return o;
+}
  void GlobalNamespace::MockPause::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MockPause>::get(),

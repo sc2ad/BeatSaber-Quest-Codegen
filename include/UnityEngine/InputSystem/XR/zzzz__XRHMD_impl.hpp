@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::XR::XRHMD.get_leftEyePosition
 template<>
 
@@ -394,8 +394,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::XR::XRHMD::XRHMD()  : UnityEngine::InputSystem::TrackedDevice(THROW_UNLESS(::il2cpp_utils::New<XRHMD>())) {}
+ UnityEngine::InputSystem::XR::XRHMD UnityEngine::InputSystem::XR::XRHMD::New_ctor()  {
+UnityEngine::InputSystem::XR::XRHMD o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::XR::XRHMD>())};
+return o;
+}
  void UnityEngine::InputSystem::XR::XRHMD::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::XR::XRHMD>::get(),

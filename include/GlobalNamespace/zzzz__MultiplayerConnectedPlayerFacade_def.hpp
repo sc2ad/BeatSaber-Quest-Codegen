@@ -6,31 +6,34 @@
 #include "Zenject/zzzz__PlaceholderFactory_3_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerSongTimeSyncController;
+class MultiplayerScoreDiffText;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
+class MultiplayerConnectedPlayerSongTimeSyncController;
+}
+namespace GlobalNamespace {
 class MultiplayerConnectedPlayerIntroAnimator;
-}
-namespace GlobalNamespace {
-class MultiplayerScoreDiffText;
-}
-namespace GlobalNamespace {
-class AvatarPoseController;
-}
-namespace GlobalNamespace {
-struct EaseType;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class IConnectedPlayerBeatmapObjectEventManager;
 }
 namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
 class MultiplayerBigAvatarAnimator;
+}
+namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class AvatarPoseController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -176,8 +179,7 @@ constexpr GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager __get__beat
 /// @brief Method __GetPlayerAvatar addr 0x20df884 size 0x4c virtual false final false
  GlobalNamespace::AvatarPoseController __GetPlayerAvatar() ;
 
-// Ctor Parameters []
-explicit MultiplayerConnectedPlayerFacade() ;
+static GlobalNamespace::MultiplayerConnectedPlayerFacade New_ctor() ;
 
 /// @brief Method .ctor addr 0x20df8d0 size 0x14 virtual false final false
  void _ctor() ;
@@ -189,7 +191,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Factory
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10950)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10950), inst: 3383 }), TypeDefinitionIndex(TypeDefinitionIndex(5328)), TypeDefinitionIndex(TypeDefinitionIndex(5222))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5328)), TypeDefinitionIndex(TypeDefinitionIndex(10950)), TypeDefinitionIndex(TypeDefinitionIndex(12720)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10950), inst: 3383 }), TypeDefinitionIndex(TypeDefinitionIndex(5222))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5221))
 // CS Name: MultiplayerConnectedPlayerFacade::Factory
 class CORDL_TYPE GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory : public Zenject::PlaceholderFactory_3<GlobalNamespace::IConnectedPlayer,GlobalNamespace::MultiplayerPlayerStartState,GlobalNamespace::MultiplayerConnectedPlayerFacade> {
@@ -228,8 +230,7 @@ constexpr explicit GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory(vo
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerConnectedPlayerFacade__Factory New_ctor() ;
 
 /// @brief Method .ctor addr 0x20df8e4 size 0x48 virtual false final false
  void _ctor() ;

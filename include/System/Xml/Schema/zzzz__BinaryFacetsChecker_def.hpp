@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace System::Collections {
-class ArrayList;
-}
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
+}
+namespace System::Collections {
+class ArrayList;
 }
 namespace System {
 class Exception;
@@ -71,8 +71,7 @@ constexpr explicit BinaryFacetsChecker(void* ptr) noexcept : System::Xml::Schema
 /// @brief Method MatchEnumeration addr 0x272fb1c size 0x114 virtual false final false
  bool MatchEnumeration(::ArrayW<uint8_t> value, System::Collections::ArrayList enumeration, System::Xml::Schema::XmlSchemaDatatype datatype) ;
 
-// Ctor Parameters []
-explicit BinaryFacetsChecker() ;
+static System::Xml::Schema::BinaryFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272fcb4 size 0x8 virtual false final false
  void _ctor() ;

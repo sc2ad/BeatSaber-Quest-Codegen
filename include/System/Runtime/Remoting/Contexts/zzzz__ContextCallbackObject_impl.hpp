@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, deleg);
 }
-// Ctor Parameters []
- System::Runtime::Remoting::Contexts::ContextCallbackObject::ContextCallbackObject()  : System::ContextBoundObject(THROW_UNLESS(::il2cpp_utils::New<ContextCallbackObject>())) {}
+ System::Runtime::Remoting::Contexts::ContextCallbackObject System::Runtime::Remoting::Contexts::ContextCallbackObject::New_ctor()  {
+System::Runtime::Remoting::Contexts::ContextCallbackObject o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Contexts::ContextCallbackObject>())};
+return o;
+}
  void System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Contexts::ContextCallbackObject>::get(),

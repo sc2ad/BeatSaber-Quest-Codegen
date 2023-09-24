@@ -4,29 +4,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
-}
 namespace System {
 template<typename T>
 class Action_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__GameplayModifiersDropdown____c;
 }
 namespace System {
 template<typename T1,typename T2>
 class Tuple_2;
 }
+namespace GlobalNamespace {
+struct GameplayModifierMask;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace HMUI {
 class DropdownWithTableView;
 }
 namespace GlobalNamespace {
-struct GameplayModifierMask;
+class GameplayModifiersModelSO;
 }
 namespace HMUI {
 class SimpleTextDropdown;
-}
-namespace GlobalNamespace {
-class GameplayModifiersModelSO;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -96,8 +99,7 @@ static System::Func_2<System::Tuple_2<GlobalNamespace::GameplayModifierMask,::St
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__GameplayModifiersDropdown____c() ;
+static GlobalNamespace::GlobalNamespace__GameplayModifiersDropdown____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x214dd64 size 0x8 virtual false final false
  void _ctor() ;
@@ -212,8 +214,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNa
 /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx addr 0x214db74 size 0x24 virtual false final false
  void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI::DropdownWithTableView dropdownWithTableView, int32_t idx) ;
 
-// Ctor Parameters []
-explicit GameplayModifiersDropdown() ;
+static GlobalNamespace::GameplayModifiersDropdown New_ctor() ;
 
 /// @brief Method .ctor addr 0x214db98 size 0x8 virtual false final false
  void _ctor() ;

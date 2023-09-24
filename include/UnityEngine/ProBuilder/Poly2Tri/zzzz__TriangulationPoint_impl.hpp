@@ -214,8 +214,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("-1") }]
- UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::TriangulationPoint(double_t x, double_t y, int32_t index)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TriangulationPoint>(x, y, index))) {}
+/// @param index: int32_t (default: -1)
+ UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::New_ctor(double_t x, double_t y, int32_t index)  {
+UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint>(x, y, index))};
+return o;
+}
 /// @param index: int32_t (default: -1)
  void UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::_ctor(double_t x, double_t y, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class DerUtf8String;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerUtf8String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -85,20 +85,17 @@ constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier __get_contentType() const
 /// @brief Method GetInstance addr 0xe0b698 size 0x190 virtual false final false
 static Org::BouncyCastle::Asn1::Ess::ContentHints GetInstance(::bs_hook::Il2CppWrapperType o) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit ContentHints(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Ess::ContentHints New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0b828 size 0x188 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "contentType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit ContentHints(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType) ;
+static Org::BouncyCastle::Asn1::Ess::ContentHints New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType) ;
 
 /// @brief Method .ctor addr 0xe0b9b0 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType) ;
 
-// Ctor Parameters [CppParam { name: "contentType", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "contentDescription", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
-explicit ContentHints(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::DerUtf8String contentDescription) ;
+static Org::BouncyCastle::Asn1::Ess::ContentHints New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::DerUtf8String contentDescription) ;
 
 /// @brief Method .ctor addr 0xe0b9d8 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier contentType, Org::BouncyCastle::Asn1::DerUtf8String contentDescription) ;

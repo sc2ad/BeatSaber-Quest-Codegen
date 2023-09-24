@@ -6,11 +6,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -20,34 +20,28 @@ namespace GlobalNamespace {
 class StretchableObstacle;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectController;
-}
-namespace UnityEngine {
-struct Color;
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
 }
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace GlobalNamespace {
-class IAudioTimeSource;
-}
 namespace GlobalNamespace {
 class ObstacleData;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController__Pool;
 }
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class GlobalNamespace__ObstacleController___DissolveCoroutine_d__65;
 }
 namespace GlobalNamespace {
-class ColorManager;
+class IBeatmapObjectController;
 }
 namespace System {
 template<typename T>
@@ -56,6 +50,18 @@ class Action_1;
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -410,8 +416,7 @@ constexpr UnityEngine::Quaternion __get__inverseWorldRotation() const;
 /// @brief Method Pause addr 0x224590c size 0x10 virtual true final true
  void Pause(bool pause) ;
 
-// Ctor Parameters []
-explicit ObstacleController() ;
+static GlobalNamespace::ObstacleController New_ctor() ;
 
 /// @brief Method .ctor addr 0x224591c size 0x10 virtual false final false
  void _ctor() ;
@@ -423,7 +428,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::Pool
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4908)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 356 }), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 356 }), TypeDefinitionIndex(TypeDefinitionIndex(4908)), TypeDefinitionIndex(TypeDefinitionIndex(10992))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4906))
 // CS Name: ObstacleController::Pool
 class CORDL_TYPE GlobalNamespace__ObstacleController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::ObstacleController> {
@@ -462,8 +467,7 @@ constexpr explicit GlobalNamespace__ObstacleController__Pool(void* ptr) noexcept
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__ObstacleController__Pool() ;
+static GlobalNamespace::GlobalNamespace__ObstacleController__Pool New_ctor() ;
 
 /// @brief Method .ctor addr 0x224592c size 0x48 virtual false final false
  void _ctor() ;
@@ -557,8 +561,7 @@ constexpr float_t __get_duration() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__ObstacleController___DissolveCoroutine_d__65(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__ObstacleController___DissolveCoroutine_d__65 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2245840 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;

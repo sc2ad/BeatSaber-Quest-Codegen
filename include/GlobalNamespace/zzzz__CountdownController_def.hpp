@@ -4,18 +4,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class Queue_1;
-}
 namespace GlobalNamespace {
 class CountdownElementController;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 namespace GlobalNamespace {
 class ITimeProvider;
 }
-namespace UnityEngine {
-class AudioSource;
+namespace System::Collections::Generic {
+template<typename T>
+class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -132,8 +132,7 @@ constexpr System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElemen
 /// @brief Method StopCountdown addr 0x214bbcc size 0x78 virtual false final false
  void StopCountdown() ;
 
-// Ctor Parameters []
-explicit CountdownController() ;
+static GlobalNamespace::CountdownController New_ctor() ;
 
 /// @brief Method .ctor addr 0x214bc44 size 0x84 virtual false final false
  void _ctor() ;

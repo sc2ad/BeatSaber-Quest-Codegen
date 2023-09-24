@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelReturnToMenuController_def.hpp"
-#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardLevelReturnToMenuController.ReturnToMenu
 template<>
 
@@ -63,8 +63,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelReturnToMenuController::StandardLevelReturnToMenuController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelReturnToMenuController>())) {}
+ GlobalNamespace::StandardLevelReturnToMenuController GlobalNamespace::StandardLevelReturnToMenuController::New_ctor()  {
+GlobalNamespace::StandardLevelReturnToMenuController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelReturnToMenuController>())};
+return o;
+}
  void GlobalNamespace::StandardLevelReturnToMenuController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelReturnToMenuController>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__IK_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__AimIK_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverAim_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::AimIK.OpenUserManual
 template<>
 
@@ -182,8 +182,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<RootMotion::FinalIK::IKSolver, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::AimIK::AimIK()  : RootMotion::FinalIK::IK(THROW_UNLESS(::il2cpp_utils::New<AimIK>())) {}
+ RootMotion::FinalIK::AimIK RootMotion::FinalIK::AimIK::New_ctor()  {
+RootMotion::FinalIK::AimIK o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::AimIK>())};
+return o;
+}
  void RootMotion::FinalIK::AimIK::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::AimIK>::get(),

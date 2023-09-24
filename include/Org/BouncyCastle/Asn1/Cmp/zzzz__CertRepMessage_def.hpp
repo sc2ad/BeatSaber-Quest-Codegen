@@ -3,17 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Asn1::Cmp {
-class CmpCertificate;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class CmpCertificate;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertResponse;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -76,8 +76,7 @@ constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_response() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertRepMessage(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cmp::CertRepMessage New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdd7f14 size 0xf8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -85,8 +84,7 @@ explicit CertRepMessage(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdd800c size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::CertRepMessage GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "caPubs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse>", modifiers: "", def_value: None }]
-explicit CertRepMessage(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;
+static Org::BouncyCastle::Asn1::Cmp::CertRepMessage New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;
 
 /// @brief Method .ctor addr 0xdd8194 size 0xf4 virtual false final false
  void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;

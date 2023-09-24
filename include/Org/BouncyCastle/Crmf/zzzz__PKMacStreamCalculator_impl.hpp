@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacStreamCalculator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
-#include "Org/BouncyCastle/Crypto/IO/zzzz__MacSink_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
+#include "Org/BouncyCastle/Crypto/IO/zzzz__MacSink_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crmf::PKMacStreamCalculator._ctor
 template<>
 
@@ -65,8 +65,10 @@ constexpr void Org::BouncyCastle::Crmf::PKMacStreamCalculator::__set__stream(Org
 constexpr Org::BouncyCastle::Crypto::IO::MacSink Org::BouncyCastle::Crmf::PKMacStreamCalculator::__get__stream() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::IO::MacSink, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mac", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crmf::PKMacStreamCalculator::PKMacStreamCalculator(Org::BouncyCastle::Crypto::IMac mac)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PKMacStreamCalculator>(mac))) {}
+ Org::BouncyCastle::Crmf::PKMacStreamCalculator Org::BouncyCastle::Crmf::PKMacStreamCalculator::New_ctor(Org::BouncyCastle::Crypto::IMac mac)  {
+Org::BouncyCastle::Crmf::PKMacStreamCalculator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crmf::PKMacStreamCalculator>(mac))};
+return o;
+}
  void Org::BouncyCastle::Crmf::PKMacStreamCalculator::_ctor(Org::BouncyCastle::Crypto::IMac mac)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crmf::PKMacStreamCalculator>::get(),

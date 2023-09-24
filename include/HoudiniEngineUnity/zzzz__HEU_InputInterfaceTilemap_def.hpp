@@ -4,9 +4,6 @@
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterface_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
 }
@@ -15,6 +12,12 @@ class HEU_InputInterfaceTilemapSettings;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputData;
+}
+namespace HoudiniEngineUnity {
+class HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::Tilemaps {
 class Tilemap;
@@ -86,8 +89,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTilemap__HEU_InputDataTilemap New_ctor() ;
 
 /// @brief Method .ctor addr 0x205c594 size 0x8 virtual false final false
  void _ctor() ;
@@ -149,8 +151,7 @@ constexpr HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings __get_settings()
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputInterfaceTilemap() ;
+static HoudiniEngineUnity::HEU_InputInterfaceTilemap New_ctor() ;
 
 /// @brief Method .ctor addr 0x2059d00 size 0xc virtual false final false
  void _ctor() ;

@@ -6,31 +6,31 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
+class FacetsChecker;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
+namespace System {
+class Type;
+}
+namespace System::Xml {
+class XmlNameTable;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 class Exception;
 }
 namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml {
-class XmlNameTable;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -130,8 +130,7 @@ static System::Type __get_listValueType() ;
 /// @brief Method TryParseValue addr 0x27273f4 size 0x16c virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_anyURI() ;
+static System::Xml::Schema::Datatype_anyURI New_ctor() ;
 
 /// @brief Method .ctor addr 0x2727760 size 0x54 virtual false final false
  void _ctor() ;

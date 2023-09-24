@@ -68,8 +68,10 @@ constexpr void HoudiniEngineUnity::Test_Collider::__set_self(UnityEngine::Collid
 constexpr UnityEngine::Collider HoudiniEngineUnity::Test_Collider::__get_self() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Collider, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::Collider", modifiers: "", def_value: None }]
- HoudiniEngineUnity::Test_Collider::Test_Collider(UnityEngine::Collider self)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Test_Collider>(self))) {}
+ HoudiniEngineUnity::Test_Collider HoudiniEngineUnity::Test_Collider::New_ctor(UnityEngine::Collider self)  {
+HoudiniEngineUnity::Test_Collider o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::Test_Collider>(self))};
+return o;
+}
  void HoudiniEngineUnity::Test_Collider::_ctor(UnityEngine::Collider self)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::Test_Collider>::get(),

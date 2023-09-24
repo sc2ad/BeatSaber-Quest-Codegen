@@ -1,11 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__Screen_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "HMUI/zzzz__ViewController_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "HMUI/zzzz__Screen_def.hpp"
 //  Writing Method size for method: HMUI::HMUI__Screen___TransitionCoroutine_d__5._ctor
 template<>
 
@@ -168,8 +168,10 @@ constexpr void HMUI::HMUI__Screen___TransitionCoroutine_d__5::__set__elapsedTime
 constexpr float_t HMUI::HMUI__Screen___TransitionCoroutine_d__5::__get__elapsedTime_5__4() const {
 return ::cordl_internals::getInstanceField<float_t, 0x44>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__Screen___TransitionCoroutine_d__5::HMUI__Screen___TransitionCoroutine_d__5(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__Screen___TransitionCoroutine_d__5>(__1__state))) {}
+ HMUI::HMUI__Screen___TransitionCoroutine_d__5 HMUI::HMUI__Screen___TransitionCoroutine_d__5::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__Screen___TransitionCoroutine_d__5 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__Screen___TransitionCoroutine_d__5>(__1__state))};
+return o;
+}
  void HMUI::HMUI__Screen___TransitionCoroutine_d__5::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__Screen___TransitionCoroutine_d__5>::get(),
@@ -357,8 +359,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::Screen::Screen()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<Screen>())) {}
+ HMUI::Screen HMUI::Screen::New_ctor()  {
+HMUI::Screen o{THROW_UNLESS(::il2cpp_utils::New<HMUI::Screen>())};
+return o;
+}
  void HMUI::Screen::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::Screen>::get(),

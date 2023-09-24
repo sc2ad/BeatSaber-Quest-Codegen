@@ -1,14 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/zzzz__Array_def.hpp"
-#include "UnityEngine/zzzz__PrimitiveType_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__SendMessageOptions_def.hpp"
+#include "UnityEngine/zzzz__PrimitiveType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
+#include "System/zzzz__Array_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: UnityEngine::GameObject.CreatePrimitive
 template<>
 
@@ -1738,8 +1738,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, methodName);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::GameObject::GameObject(::StringW name)  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<GameObject>(name))) {}
+ UnityEngine::GameObject UnityEngine::GameObject::New_ctor(::StringW name)  {
+UnityEngine::GameObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GameObject>(name))};
+return o;
+}
  void UnityEngine::GameObject::_ctor(::StringW name)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GameObject>::get(),
@@ -1749,8 +1751,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, name);
 }
-// Ctor Parameters []
- UnityEngine::GameObject::GameObject()  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<GameObject>())) {}
+ UnityEngine::GameObject UnityEngine::GameObject::New_ctor()  {
+UnityEngine::GameObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GameObject>())};
+return o;
+}
  void UnityEngine::GameObject::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GameObject>::get(),
@@ -1760,8 +1764,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "components", ty: "::ArrayW<System::Type>", modifiers: "", def_value: None }]
- UnityEngine::GameObject::GameObject(::StringW name, ::ArrayW<System::Type> components)  : UnityEngine::Object(THROW_UNLESS(::il2cpp_utils::New<GameObject>(name, components))) {}
+ UnityEngine::GameObject UnityEngine::GameObject::New_ctor(::StringW name, ::ArrayW<System::Type> components)  {
+UnityEngine::GameObject o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GameObject>(name, components))};
+return o;
+}
  void UnityEngine::GameObject::_ctor(::StringW name, ::ArrayW<System::Type> components)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GameObject>::get(),

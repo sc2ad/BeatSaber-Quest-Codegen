@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ObjectProgress_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalObjectTypeE_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalMemberTypeE_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryTypeEnum_def.hpp"
+#include "System/Runtime/Serialization/Formatters/Binary/zzzz__ParseRecord_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalMemberValueE_def.hpp"
 //  Writing Method size for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress._ctor
 template<>
@@ -194,8 +194,10 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::ObjectProgres
 constexpr System::Runtime::Serialization::Formatters::Binary::ParseRecord System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__get_pr() const {
 return ::cordl_internals::getInstanceField<System::Runtime::Serialization::Formatters::Binary::ParseRecord, 0x80>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Runtime::Serialization::Formatters::Binary::ObjectProgress::ObjectProgress()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ObjectProgress>())) {}
+ System::Runtime::Serialization::Formatters::Binary::ObjectProgress System::Runtime::Serialization::Formatters::Binary::ObjectProgress::New_ctor()  {
+System::Runtime::Serialization::Formatters::Binary::ObjectProgress o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Serialization::Formatters::Binary::ObjectProgress>())};
+return o;
+}
  void System::Runtime::Serialization::Formatters::Binary::ObjectProgress::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Serialization::Formatters::Binary::ObjectProgress>::get(),

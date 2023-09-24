@@ -2,16 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
-}
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
+}
 namespace GlobalNamespace {
 class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__TestAnalyticsModel____c;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -81,8 +84,7 @@ static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,::S
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__TestAnalyticsModel____c() ;
+static GlobalNamespace::GlobalNamespace__TestAnalyticsModel____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b3f38 size 0x8 virtual false final false
  void _ctor() ;
@@ -167,8 +169,7 @@ constexpr explicit TestAnalyticsModel(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Method LogExposure addr 0x20b3dec size 0xe0 virtual true final true
  void LogExposure(::StringW exposureType, System::Collections::Generic::Dictionary_2<::StringW,::StringW> exposureData) ;
 
-// Ctor Parameters []
-explicit TestAnalyticsModel() ;
+static GlobalNamespace::TestAnalyticsModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b3ecc size 0x8 virtual false final false
  void _ctor() ;

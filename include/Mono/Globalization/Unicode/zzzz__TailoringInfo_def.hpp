@@ -75,8 +75,7 @@ constexpr bool __get_FrenchSort() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "lcid", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailoringIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "tailoringCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "frenchSort", ty: "bool", modifiers: "", def_value: None }]
-explicit TailoringInfo(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) ;
+static Mono::Globalization::Unicode::TailoringInfo New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) ;
 
 /// @brief Method .ctor addr 0x22a7f14 size 0x44 virtual false final false
  void _ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) ;

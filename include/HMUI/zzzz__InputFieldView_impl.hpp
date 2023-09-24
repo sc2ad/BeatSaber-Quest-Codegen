@@ -6,17 +6,18 @@
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
-#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__UIKeyboard_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
-#include "HMUI/zzzz__ImageView_def.hpp"
-#include "UnityEngine/zzzz__YieldInstruction_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "HMUI/zzzz__InputFieldView_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "UnityEngine/zzzz__YieldInstruction_def.hpp"
+#include "UnityEngine/UI/zzzz__Selectable_def.hpp"
+#include "HMUI/zzzz__ImageView_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__CanvasGroup_def.hpp"
+#include "HMUI/zzzz__UIKeyboard_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr HMUI::HMUI__InputFieldView__SelectionState::HMUI__InputFieldView__SelectionState(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -739,8 +740,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- HMUI::InputFieldView::InputFieldView()  : UnityEngine::UI::Selectable(THROW_UNLESS(::il2cpp_utils::New<InputFieldView>())) {}
+ HMUI::InputFieldView HMUI::InputFieldView::New_ctor()  {
+HMUI::InputFieldView o{THROW_UNLESS(::il2cpp_utils::New<HMUI::InputFieldView>())};
+return o;
+}
  void HMUI::InputFieldView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::InputFieldView>::get(),
@@ -776,8 +779,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- HMUI::HMUI__InputFieldView__InputFieldChanged::HMUI__InputFieldView__InputFieldChanged()  : UnityEngine::Events::UnityEvent_1<HMUI::InputFieldView>(THROW_UNLESS(::il2cpp_utils::New<HMUI__InputFieldView__InputFieldChanged>())) {}
+ HMUI::HMUI__InputFieldView__InputFieldChanged HMUI::HMUI__InputFieldView__InputFieldChanged::New_ctor()  {
+HMUI::HMUI__InputFieldView__InputFieldChanged o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__InputFieldView__InputFieldChanged>())};
+return o;
+}
  void HMUI::HMUI__InputFieldView__InputFieldChanged::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__InputFieldView__InputFieldChanged>::get(),
@@ -919,8 +924,10 @@ constexpr void HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43::__set_
 constexpr HMUI::InputFieldView HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43::__get___4__this() const {
 return ::cordl_internals::getInstanceField<HMUI::InputFieldView, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HMUI__InputFieldView___BlinkingCaretCoroutine_d__43>(__1__state))) {}
+ HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43 HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43::New_ctor(int32_t __1__state)  {
+HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43 o{THROW_UNLESS(::il2cpp_utils::New<HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43>(__1__state))};
+return o;
+}
  void HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::HMUI__InputFieldView___BlinkingCaretCoroutine_d__43>::get(),

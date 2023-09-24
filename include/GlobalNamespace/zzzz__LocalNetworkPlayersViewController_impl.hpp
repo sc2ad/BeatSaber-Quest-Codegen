@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalNetworkPlayersViewController_def.hpp"
-#include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__LocalNetworkPlayerModel_def.hpp"
+#include "HMUI/zzzz__ToggleBinder_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LocalNetworkPlayersViewController.get_myPartyTitle
 template<>
 
@@ -300,8 +300,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, overrideHide);
 }
-// Ctor Parameters []
- GlobalNamespace::LocalNetworkPlayersViewController::LocalNetworkPlayersViewController()  : GlobalNamespace::NetworkPlayersViewController(THROW_UNLESS(::il2cpp_utils::New<LocalNetworkPlayersViewController>())) {}
+ GlobalNamespace::LocalNetworkPlayersViewController GlobalNamespace::LocalNetworkPlayersViewController::New_ctor()  {
+GlobalNamespace::LocalNetworkPlayersViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LocalNetworkPlayersViewController>())};
+return o;
+}
  void GlobalNamespace::LocalNetworkPlayersViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LocalNetworkPlayersViewController>::get(),

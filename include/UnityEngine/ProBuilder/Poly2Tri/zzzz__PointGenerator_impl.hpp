@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointGenerator_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
 #include "System/zzzz__Random_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: UnityEngine::ProBuilder::Poly2Tri::PointGenerator.UniformDistribution
 template<>
 
@@ -78,8 +78,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint>, false>(nullptr, ___internal_method, n, scale);
 }
-// Ctor Parameters []
- UnityEngine::ProBuilder::Poly2Tri::PointGenerator::PointGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PointGenerator>())) {}
+ UnityEngine::ProBuilder::Poly2Tri::PointGenerator UnityEngine::ProBuilder::Poly2Tri::PointGenerator::New_ctor()  {
+UnityEngine::ProBuilder::Poly2Tri::PointGenerator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::PointGenerator>())};
+return o;
+}
  void UnityEngine::ProBuilder::Poly2Tri::PointGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ProBuilder::Poly2Tri::PointGenerator>::get(),

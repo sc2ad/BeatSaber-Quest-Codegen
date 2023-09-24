@@ -5,17 +5,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
 namespace System {
 class Type;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System {
 class Exception;
@@ -119,8 +119,7 @@ static System::Xml::Schema::FacetsChecker __get_numeric10FacetsChecker() ;
 /// @brief Method TryParseValue addr 0x272a6d8 size 0x140 virtual true final false
  System::Exception TryParseValue(::StringW s, System::Xml::XmlNameTable nameTable, System::Xml::IXmlNamespaceResolver nsmgr, ByRef<::bs_hook::Il2CppWrapperType> typedValue) ;
 
-// Ctor Parameters []
-explicit Datatype_unsignedShort() ;
+static System::Xml::Schema::Datatype_unsignedShort New_ctor() ;
 
 /// @brief Method .ctor addr 0x272a818 size 0x54 virtual false final false
  void _ctor() ;

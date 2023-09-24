@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Security::AccessControl {
+class DirectorySecurity;
+}
 namespace System::IO {
 class DirectoryInfo;
 }
 namespace System::IO {
 class EnumerationOptions;
-}
-namespace System::IO {
-struct SearchOption;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -22,8 +22,8 @@ struct AccessControlSections;
 namespace System::IO {
 struct SearchTarget;
 }
-namespace System::Security::AccessControl {
-class DirectorySecurity;
+namespace System::IO {
+struct SearchOption;
 }
 // Forward declare root types
 namespace System::IO {

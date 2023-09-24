@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System {
-class Type;
-}
-namespace System {
 template<typename T>
 struct Nullable_1;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Layouts {
@@ -216,8 +216,7 @@ constexpr bool __get__hideInUI_k__BackingField() const;
 /// @brief Method set_hideInUI addr 0x2970e58 size 0xc virtual false final false
  void set_hideInUI(bool value) ;
 
-// Ctor Parameters []
-explicit InputControlLayoutAttribute() ;
+static UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2970e64 size 0x8 virtual false final false
  void _ctor() ;

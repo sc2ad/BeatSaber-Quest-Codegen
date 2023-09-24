@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusChangeTarget_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::VisualElementFocusChangeTarget.GetPooled
 template<>
 
@@ -145,8 +145,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, focusController, f);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::VisualElementFocusChangeTarget::VisualElementFocusChangeTarget()  : UnityEngine::UIElements::FocusChangeDirection(THROW_UNLESS(::il2cpp_utils::New<VisualElementFocusChangeTarget>())) {}
+ UnityEngine::UIElements::VisualElementFocusChangeTarget UnityEngine::UIElements::VisualElementFocusChangeTarget::New_ctor()  {
+UnityEngine::UIElements::VisualElementFocusChangeTarget o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::VisualElementFocusChangeTarget>())};
+return o;
+}
  void UnityEngine::UIElements::VisualElementFocusChangeTarget::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::VisualElementFocusChangeTarget>::get(),

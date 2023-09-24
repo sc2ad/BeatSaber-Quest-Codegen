@@ -47,8 +47,7 @@ constexpr explicit OVRGearVrControllerTest(void* ptr) noexcept : UnityEngine::Mo
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRGearVrControllerTest() ;
+static GlobalNamespace::OVRGearVrControllerTest New_ctor() ;
 
 /// @brief Method .ctor addr 0x2621234 size 0x8 virtual false final false
  void _ctor() ;

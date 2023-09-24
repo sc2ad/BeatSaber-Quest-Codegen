@@ -2,8 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInfoGenerator;
@@ -11,14 +17,8 @@ class RecipientInfoGenerator;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -105,8 +105,7 @@ constexpr ::StringW __get_keyEncryptionKeyOID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PasswordRecipientInfoGenerator() ;
+static Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x117c3d8 size 0x8 virtual false final false
  void _ctor() ;

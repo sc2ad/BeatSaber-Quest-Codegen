@@ -44,8 +44,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::IPAddress, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- System::Net::NetworkInformation::IPAddressInformation::IPAddressInformation()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IPAddressInformation>())) {}
+ System::Net::NetworkInformation::IPAddressInformation System::Net::NetworkInformation::IPAddressInformation::New_ctor()  {
+System::Net::NetworkInformation::IPAddressInformation o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkInformation::IPAddressInformation>())};
+return o;
+}
  void System::Net::NetworkInformation::IPAddressInformation::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkInformation::IPAddressInformation>::get(),

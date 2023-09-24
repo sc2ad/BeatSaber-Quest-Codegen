@@ -5,32 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-class Exception;
+namespace System::IO {
+struct MonoIOError;
+}
+namespace System::Runtime::InteropServices {
+class SafeHandle;
 }
 namespace System::IO {
 struct FileMode;
 }
-namespace System::IO {
-struct MonoIOError;
+namespace System {
+class Exception;
 }
 namespace System::IO {
-struct SeekOrigin;
+struct FileOptions;
 }
 namespace System::IO {
 struct FileShare;
 }
 namespace System::IO {
-struct FileOptions;
+struct SeekOrigin;
 }
 namespace System::IO {
 struct FileAccess;
 }
 namespace System::IO {
 struct MonoFileType;
-}
-namespace System::Runtime::InteropServices {
-class SafeHandle;
 }
 // Forward declare root types
 namespace System::IO {

@@ -58,8 +58,10 @@ constexpr void JetBrains::Annotations::RazorDirectiveAttribute::__set__Directive
 constexpr ::StringW JetBrains::Annotations::RazorDirectiveAttribute::__get__Directive_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "directive", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::RazorDirectiveAttribute::RazorDirectiveAttribute(::StringW directive)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<RazorDirectiveAttribute>(directive))) {}
+ JetBrains::Annotations::RazorDirectiveAttribute JetBrains::Annotations::RazorDirectiveAttribute::New_ctor(::StringW directive)  {
+JetBrains::Annotations::RazorDirectiveAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::RazorDirectiveAttribute>(directive))};
+return o;
+}
  void JetBrains::Annotations::RazorDirectiveAttribute::_ctor(::StringW directive)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::RazorDirectiveAttribute>::get(),

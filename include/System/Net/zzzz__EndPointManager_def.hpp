@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Net {
-class IPEndPoint;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Net {
 class EndPointListener;
@@ -12,8 +12,8 @@ class EndPointListener;
 namespace System::Net {
 class HttpListener;
 }
-namespace System::Collections {
-class Hashtable;
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace System::Net {

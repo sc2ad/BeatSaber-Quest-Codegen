@@ -5,16 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace Oculus::Platform::Models {
-class HttpTransferUpdate;
-}
 namespace Oculus::Platform {
 template<typename T>
 class Oculus__Platform__Message_1__Callback;
 }
-namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+namespace Oculus::Platform::Models {
+class HttpTransferUpdate;
 }
 namespace Oculus::Platform::Models {
 class LinkedAccountList;
@@ -23,13 +19,26 @@ namespace Oculus::Platform {
 struct ServiceProvider;
 }
 namespace Oculus::Platform {
+template<typename T>
+class Request_1;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__PlatformInternal__HTTP;
+}
+namespace Oculus::Platform {
+class Message;
+}
+namespace Oculus::Platform {
+class Oculus__Platform__PlatformInternal__Users;
+}
+namespace Oculus::Platform {
 struct Oculus__Platform__Message__MessageType;
 }
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
 namespace Oculus::Platform {
-class Message;
+struct Oculus__Platform__PlatformInternal__MessageTypeInternal;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -156,6 +165,8 @@ __Voip_ReportAppVoipSessions = 408048078u,
 constexpr operator __Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped () const noexcept {
 return std::bit_cast<__Oculus__Platform__PlatformInternal__MessageTypeInternal_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = uint32_t;
 
 
 // Fields

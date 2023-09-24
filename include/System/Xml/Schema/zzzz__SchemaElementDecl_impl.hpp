@@ -1,18 +1,18 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__SchemaDeclBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaElementDecl_def.hpp"
-#include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaAttDef_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnyAttribute_def.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
-#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__IDtdAttributeListInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaDatatype_def.hpp"
 #include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
+#include "System/Xml/Schema/zzzz__ContentValidator_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Xml/zzzz__IDtdDefaultAttributeInfo_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 //  Writing Method size for method: System::Xml::Schema::SchemaElementDecl._ctor
 template<>
 
@@ -417,8 +417,10 @@ return ::cordl_internals::getInstanceField<System::Xml::Schema::XmlSchemaAnyAttr
  System::Xml::Schema::SchemaElementDecl System::Xml::Schema::SchemaElementDecl::__get_Empty()  {
 return ::cordl_internals::getStaticField<System::Xml::Schema::SchemaElementDecl, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaElementDecl>::get>();
 }
-// Ctor Parameters []
- System::Xml::Schema::SchemaElementDecl::SchemaElementDecl()  : System::Xml::Schema::SchemaDeclBase(THROW_UNLESS(::il2cpp_utils::New<SchemaElementDecl>())) {}
+ System::Xml::Schema::SchemaElementDecl System::Xml::Schema::SchemaElementDecl::New_ctor()  {
+System::Xml::Schema::SchemaElementDecl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaElementDecl>())};
+return o;
+}
  void System::Xml::Schema::SchemaElementDecl::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaElementDecl>::get(),
@@ -428,8 +430,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "dtype", ty: "System::Xml::Schema::XmlSchemaDatatype", modifiers: "", def_value: None }]
- System::Xml::Schema::SchemaElementDecl::SchemaElementDecl(System::Xml::Schema::XmlSchemaDatatype dtype)  : System::Xml::Schema::SchemaDeclBase(THROW_UNLESS(::il2cpp_utils::New<SchemaElementDecl>(dtype))) {}
+ System::Xml::Schema::SchemaElementDecl System::Xml::Schema::SchemaElementDecl::New_ctor(System::Xml::Schema::XmlSchemaDatatype dtype)  {
+System::Xml::Schema::SchemaElementDecl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaElementDecl>(dtype))};
+return o;
+}
  void System::Xml::Schema::SchemaElementDecl::_ctor(System::Xml::Schema::XmlSchemaDatatype dtype)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaElementDecl>::get(),
@@ -439,8 +443,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dtype);
 }
-// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
- System::Xml::Schema::SchemaElementDecl::SchemaElementDecl(System::Xml::XmlQualifiedName name, ::StringW prefix)  : System::Xml::Schema::SchemaDeclBase(THROW_UNLESS(::il2cpp_utils::New<SchemaElementDecl>(name, prefix))) {}
+ System::Xml::Schema::SchemaElementDecl System::Xml::Schema::SchemaElementDecl::New_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix)  {
+System::Xml::Schema::SchemaElementDecl o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::SchemaElementDecl>(name, prefix))};
+return o;
+}
  void System::Xml::Schema::SchemaElementDecl::_ctor(System::Xml::XmlQualifiedName name, ::StringW prefix)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::SchemaElementDecl>::get(),

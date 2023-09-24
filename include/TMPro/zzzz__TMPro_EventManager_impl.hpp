@@ -1,13 +1,13 @@
 #pragma once
 #include "TMPro/zzzz__TMPro_EventManager_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "TMPro/zzzz__FastAction_1_def.hpp"
 #include "TMPro/zzzz__FastAction_2_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "TMPro/zzzz__FastAction_1_def.hpp"
-#include "TMPro/zzzz__FastAction_def.hpp"
-#include "TMPro/zzzz__FastAction_3_def.hpp"
-#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "TMPro/zzzz__Compute_DT_EventArgs_def.hpp"
+#include "TMPro/zzzz__FastAction_3_def.hpp"
+#include "TMPro/zzzz__FastAction_def.hpp"
 //  Writing Method size for method: TMPro::TMPro_EventManager.ON_MATERIAL_PROPERTY_CHANGED
 template<>
 

@@ -11,21 +11,27 @@
 namespace System {
 struct DateTimeKind;
 }
-namespace System::IO {
-class Stream;
+namespace Newtonsoft::Json::Bson {
+struct Newtonsoft__Json__Bson__BsonReader__BsonReaderState;
 }
 namespace Newtonsoft::Json::Bson {
-struct BsonBinaryType;
-}
-namespace Newtonsoft::Json::Bson {
-struct BsonType;
+class Newtonsoft__Json__Bson__BsonReader__ContainerContext;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::IO {
+class Stream;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonType;
+}
+namespace System::IO {
 class BinaryReader;
+}
+namespace Newtonsoft::Json::Bson {
+struct BsonBinaryType;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -93,6 +99,8 @@ __CodeWScopeScopeEnd = 8,
 constexpr operator __Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped () const noexcept {
 return std::bit_cast<__Newtonsoft__Json__Bson__BsonReader__BsonReaderState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -197,8 +205,7 @@ constexpr int32_t __get_Position() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "Newtonsoft::Json::Bson::BsonType", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Bson__BsonReader__ContainerContext(Newtonsoft::Json::Bson::BsonType type) ;
+static Newtonsoft::Json::Bson::Newtonsoft__Json__Bson__BsonReader__ContainerContext New_ctor(Newtonsoft::Json::Bson::BsonType type) ;
 
 /// @brief Method .ctor addr 0x254f174 size 0x28 virtual false final false
  void _ctor(Newtonsoft::Json::Bson::BsonType type) ;
@@ -370,26 +377,22 @@ constexpr System::DateTimeKind __get__dateTimeKindHandling() const;
 /// @brief Method set_DateTimeKindHandling addr 0x254e4c4 size 0x8 virtual false final false
  void set_DateTimeKindHandling(System::DateTimeKind value) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit BsonReader(System::IO::Stream stream) ;
+static Newtonsoft::Json::Bson::BsonReader New_ctor(System::IO::Stream stream) ;
 
 /// @brief Method .ctor addr 0x254e4cc size 0xc virtual false final false
  void _ctor(System::IO::Stream stream) ;
 
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::BinaryReader", modifiers: "", def_value: None }]
-explicit BsonReader(System::IO::BinaryReader reader) ;
+static Newtonsoft::Json::Bson::BsonReader New_ctor(System::IO::BinaryReader reader) ;
 
 /// @brief Method .ctor addr 0x254e5d8 size 0xc virtual false final false
  void _ctor(System::IO::BinaryReader reader) ;
 
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "System::DateTimeKind", modifiers: "", def_value: None }]
-explicit BsonReader(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
+static Newtonsoft::Json::Bson::BsonReader New_ctor(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
 /// @brief Method .ctor addr 0x254e4d8 size 0x100 virtual false final false
  void _ctor(System::IO::Stream stream, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
-// Ctor Parameters [CppParam { name: "reader", ty: "System::IO::BinaryReader", modifiers: "", def_value: None }, CppParam { name: "readRootValueAsArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dateTimeKindHandling", ty: "System::DateTimeKind", modifiers: "", def_value: None }]
-explicit BsonReader(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
+static Newtonsoft::Json::Bson::BsonReader New_ctor(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;
 
 /// @brief Method .ctor addr 0x254e5e4 size 0xd0 virtual false final false
  void _ctor(System::IO::BinaryReader reader, bool readRootValueAsArray, System::DateTimeKind dateTimeKindHandling) ;

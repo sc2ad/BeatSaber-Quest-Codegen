@@ -146,8 +146,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::PointerMoveEvent::PointerMoveEvent()  : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerMoveEvent>(THROW_UNLESS(::il2cpp_utils::New<PointerMoveEvent>())) {}
+ UnityEngine::UIElements::PointerMoveEvent UnityEngine::UIElements::PointerMoveEvent::New_ctor()  {
+UnityEngine::UIElements::PointerMoveEvent o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::PointerMoveEvent>())};
+return o;
+}
  void UnityEngine::UIElements::PointerMoveEvent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::PointerMoveEvent>::get(),

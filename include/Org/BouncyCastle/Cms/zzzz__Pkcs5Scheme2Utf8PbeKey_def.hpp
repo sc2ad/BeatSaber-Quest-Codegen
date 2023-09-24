@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -56,26 +56,22 @@ constexpr explicit Pkcs5Scheme2Utf8PbeKey(void* ptr) noexcept : Org::BouncyCastl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pkcs5Scheme2Utf8PbeKey(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
+static Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey New_ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
 /// @brief Method .ctor addr 0x117d070 size 0x44 virtual false final false
  void _ctor(::StringW password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit Pkcs5Scheme2Utf8PbeKey(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
+static Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey New_ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
 /// @brief Method .ctor addr 0x117d0b8 size 0x3c virtual false final false
  void _ctor(::StringW password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pkcs5Scheme2Utf8PbeKey(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
+static Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey New_ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
 /// @brief Method .ctor addr 0x117d0b4 size 0x4 virtual false final false
  void _ctor(::ArrayW<char16_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
-// Ctor Parameters [CppParam { name: "password", ty: "::ArrayW<char16_t>", modifiers: "", def_value: None }, CppParam { name: "keyDerivationAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }]
-explicit Pkcs5Scheme2Utf8PbeKey(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
+static Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey New_ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;
 
 /// @brief Method .ctor addr 0x117d0f4 size 0x4 virtual false final false
  void _ctor(::ArrayW<char16_t> password, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier keyDerivationAlgorithm) ;

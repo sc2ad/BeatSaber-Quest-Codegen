@@ -24,8 +24,10 @@ constexpr void System::Reflection::AssemblyDefaultAliasAttribute::__set__Default
 constexpr ::StringW System::Reflection::AssemblyDefaultAliasAttribute::__get__DefaultAlias_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "defaultAlias", ty: "::StringW", modifiers: "", def_value: None }]
- System::Reflection::AssemblyDefaultAliasAttribute::AssemblyDefaultAliasAttribute(::StringW defaultAlias)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AssemblyDefaultAliasAttribute>(defaultAlias))) {}
+ System::Reflection::AssemblyDefaultAliasAttribute System::Reflection::AssemblyDefaultAliasAttribute::New_ctor(::StringW defaultAlias)  {
+System::Reflection::AssemblyDefaultAliasAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Reflection::AssemblyDefaultAliasAttribute>(defaultAlias))};
+return o;
+}
  void System::Reflection::AssemblyDefaultAliasAttribute::_ctor(::StringW defaultAlias)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Reflection::AssemblyDefaultAliasAttribute>::get(),

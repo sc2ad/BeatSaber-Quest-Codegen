@@ -2,8 +2,8 @@
 #include "System/Threading/Tasks/zzzz__TaskContinuation_impl.hpp"
 #include "System/Threading/Tasks/zzzz__StandardTaskContinuation_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: System::Threading::Tasks::StandardTaskContinuation._ctor
 template<>
 
@@ -56,8 +56,10 @@ constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_taskS
 constexpr System::Threading::Tasks::TaskScheduler System::Threading::Tasks::StandardTaskContinuation::__get_m_taskScheduler() const {
 return ::cordl_internals::getInstanceField<System::Threading::Tasks::TaskScheduler, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "task", ty: "System::Threading::Tasks::Task", modifiers: "", def_value: None }, CppParam { name: "options", ty: "System::Threading::Tasks::TaskContinuationOptions", modifiers: "", def_value: None }, CppParam { name: "scheduler", ty: "System::Threading::Tasks::TaskScheduler", modifiers: "", def_value: None }]
- System::Threading::Tasks::StandardTaskContinuation::StandardTaskContinuation(System::Threading::Tasks::Task task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler scheduler)  : System::Threading::Tasks::TaskContinuation(THROW_UNLESS(::il2cpp_utils::New<StandardTaskContinuation>(task, options, scheduler))) {}
+ System::Threading::Tasks::StandardTaskContinuation System::Threading::Tasks::StandardTaskContinuation::New_ctor(System::Threading::Tasks::Task task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler scheduler)  {
+System::Threading::Tasks::StandardTaskContinuation o{THROW_UNLESS(::il2cpp_utils::New<System::Threading::Tasks::StandardTaskContinuation>(task, options, scheduler))};
+return o;
+}
  void System::Threading::Tasks::StandardTaskContinuation::_ctor(System::Threading::Tasks::Task task, System::Threading::Tasks::TaskContinuationOptions options, System::Threading::Tasks::TaskScheduler scheduler)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Threading::Tasks::StandardTaskContinuation>::get(),

@@ -10,16 +10,31 @@ template<typename T>
 class Comparison_1;
 }
 namespace UnityEngine {
-class GameObject;
+struct Ray;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRRaycaster____c;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
+}
+namespace UnityEngine {
+class Canvas;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
 class Camera;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -28,23 +43,14 @@ class List_1;
 namespace UnityEngine {
 class RectTransform;
 }
+namespace GlobalNamespace {
+struct GlobalNamespace__OVRRaycaster__RaycastHit;
+}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
-}
-namespace UnityEngine {
-class Canvas;
 }
 namespace UnityEngine::UI {
 class Graphic;
@@ -181,8 +187,7 @@ static System::Comparison_1<GlobalNamespace::GlobalNamespace__OVRRaycaster__Rayc
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__OVRRaycaster____c() ;
+static GlobalNamespace::GlobalNamespace__OVRRaycaster____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x262f38c size 0x8 virtual false final false
  void _ctor() ;
@@ -288,8 +293,7 @@ static System::Collections::Generic::List_1<GlobalNamespace::GlobalNamespace__OV
 
 // Methods
 
-// Ctor Parameters []
-explicit OVRRaycaster() ;
+static GlobalNamespace::OVRRaycaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x262db40 size 0xa0 virtual false final false
  void _ctor() ;

@@ -62,8 +62,7 @@ constexpr GlobalNamespace::GameplayCoreSceneSetupData __get__sceneSetupData() co
 /// @brief Method InstallBindings addr 0x20e8044 size 0x100 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit MultiplayerLocalActivePlayerInstaller() ;
+static GlobalNamespace::MultiplayerLocalActivePlayerInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e8144 size 0x8 virtual false final false
  void _ctor() ;

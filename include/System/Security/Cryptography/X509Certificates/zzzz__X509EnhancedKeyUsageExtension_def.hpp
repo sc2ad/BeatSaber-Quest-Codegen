@@ -5,13 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Security::Cryptography {
+class AsnEncodedData;
+}
+namespace System::Security::Cryptography {
 class OidCollection;
 }
 namespace System::Security::Cryptography {
 struct AsnDecodeStatus;
-}
-namespace System::Security::Cryptography {
-class AsnEncodedData;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -74,20 +74,17 @@ constexpr System::Security::Cryptography::AsnDecodeStatus __get__status() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509EnhancedKeyUsageExtension() ;
+static System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension New_ctor() ;
 
 /// @brief Method .ctor addr 0x27e8da8 size 0xa8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "encodedEnhancedKeyUsages", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509EnhancedKeyUsageExtension(System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension New_ctor(System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
 
 /// @brief Method .ctor addr 0x27e505c size 0xd8 virtual false final false
  void _ctor(System::Security::Cryptography::AsnEncodedData encodedEnhancedKeyUsages, bool critical) ;
 
-// Ctor Parameters [CppParam { name: "enhancedKeyUsages", ty: "System::Security::Cryptography::OidCollection", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509EnhancedKeyUsageExtension(System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension New_ctor(System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f1800 size 0x188 virtual false final false
  void _ctor(System::Security::Cryptography::OidCollection enhancedKeyUsages, bool critical) ;

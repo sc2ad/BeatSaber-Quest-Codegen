@@ -68,8 +68,7 @@ constexpr GlobalNamespace::AudioManagerSO __get__audioManager() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "gameplayLevelSceneTransitionEvents", ty: "GlobalNamespace::GameplayLevelSceneTransitionEvents", modifiers: "", def_value: None }, CppParam { name: "audioManager", ty: "GlobalNamespace::AudioManagerSO", modifiers: "", def_value: None }]
-explicit ResetPitchOnGameplayFinished(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager) ;
+static GlobalNamespace::ResetPitchOnGameplayFinished New_ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager) ;
 
 /// @brief Method .ctor addr 0x20bd958 size 0xa8 virtual false final false
  void _ctor(GlobalNamespace::GameplayLevelSceneTransitionEvents gameplayLevelSceneTransitionEvents, GlobalNamespace::AudioManagerSO audioManager) ;

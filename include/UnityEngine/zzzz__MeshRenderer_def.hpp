@@ -61,8 +61,7 @@ constexpr explicit MeshRenderer(void* ptr) noexcept : UnityEngine::Renderer(ptr)
 /// @brief Method get_additionalVertexStreams addr 0x2b2e554 size 0x3c virtual false final false
  UnityEngine::Mesh get_additionalVertexStreams() ;
 
-// Ctor Parameters []
-explicit MeshRenderer() ;
+static UnityEngine::MeshRenderer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b2e590 size 0x8 virtual false final false
  void _ctor() ;

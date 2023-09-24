@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__GregorianCalendar_def.hpp"
-#include "System/zzzz__DayOfWeek_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/Globalization/zzzz__GregorianCalendarTypes_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Globalization/zzzz__GregorianCalendarTypes_def.hpp"
+#include "System/zzzz__DayOfWeek_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
 //  Writing Method size for method: System::Globalization::GregorianCalendar.OnDeserialized
 template<>
 
@@ -474,8 +474,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Globalization::Calendar, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Globalization::GregorianCalendar::GregorianCalendar()  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<GregorianCalendar>())) {}
+ System::Globalization::GregorianCalendar System::Globalization::GregorianCalendar::New_ctor()  {
+System::Globalization::GregorianCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::GregorianCalendar>())};
+return o;
+}
  void System::Globalization::GregorianCalendar::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::GregorianCalendar>::get(),
@@ -485,8 +487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "System::Globalization::GregorianCalendarTypes", modifiers: "", def_value: None }]
- System::Globalization::GregorianCalendar::GregorianCalendar(System::Globalization::GregorianCalendarTypes type)  : System::Globalization::Calendar(THROW_UNLESS(::il2cpp_utils::New<GregorianCalendar>(type))) {}
+ System::Globalization::GregorianCalendar System::Globalization::GregorianCalendar::New_ctor(System::Globalization::GregorianCalendarTypes type)  {
+System::Globalization::GregorianCalendar o{THROW_UNLESS(::il2cpp_utils::New<System::Globalization::GregorianCalendar>(type))};
+return o;
+}
  void System::Globalization::GregorianCalendar::_ctor(System::Globalization::GregorianCalendarTypes type)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Globalization::GregorianCalendar>::get(),

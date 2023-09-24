@@ -29,8 +29,10 @@ constexpr void Mono::Globalization::Unicode::Level2Map::__set_Replace(uint8_t va
 constexpr uint8_t Mono::Globalization::Unicode::Level2Map::__get_Replace() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x11>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "replace", ty: "uint8_t", modifiers: "", def_value: None }]
- Mono::Globalization::Unicode::Level2Map::Level2Map(uint8_t source, uint8_t replace)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Level2Map>(source, replace))) {}
+ Mono::Globalization::Unicode::Level2Map Mono::Globalization::Unicode::Level2Map::New_ctor(uint8_t source, uint8_t replace)  {
+Mono::Globalization::Unicode::Level2Map o{THROW_UNLESS(::il2cpp_utils::New<Mono::Globalization::Unicode::Level2Map>(source, replace))};
+return o;
+}
  void Mono::Globalization::Unicode::Level2Map::_ctor(uint8_t source, uint8_t replace)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Globalization::Unicode::Level2Map>::get(),

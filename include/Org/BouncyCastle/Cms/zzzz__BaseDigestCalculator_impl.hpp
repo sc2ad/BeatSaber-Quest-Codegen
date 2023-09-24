@@ -45,8 +45,10 @@ constexpr void Org::BouncyCastle::Cms::BaseDigestCalculator::__set_digest(::Arra
 constexpr ::ArrayW<uint8_t> Org::BouncyCastle::Cms::BaseDigestCalculator::__get_digest() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "digest", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::BaseDigestCalculator::BaseDigestCalculator(::ArrayW<uint8_t> digest)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseDigestCalculator>(digest))) {}
+ Org::BouncyCastle::Cms::BaseDigestCalculator Org::BouncyCastle::Cms::BaseDigestCalculator::New_ctor(::ArrayW<uint8_t> digest)  {
+Org::BouncyCastle::Cms::BaseDigestCalculator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::BaseDigestCalculator>(digest))};
+return o;
+}
  void Org::BouncyCastle::Cms::BaseDigestCalculator::_ctor(::ArrayW<uint8_t> digest)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::BaseDigestCalculator>::get(),

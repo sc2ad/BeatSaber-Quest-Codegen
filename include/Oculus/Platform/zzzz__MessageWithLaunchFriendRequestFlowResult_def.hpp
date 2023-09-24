@@ -13,7 +13,7 @@ class MessageWithLaunchFriendRequestFlowResult;
 // Type: Oculus.Platform::MessageWithLaunchFriendRequestFlowResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13423)), TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4448 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4448 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13241))
 // CS Name: Oculus.Platform.MessageWithLaunchFriendRequestFlowResult
 class CORDL_TYPE MessageWithLaunchFriendRequestFlowResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::LaunchFriendRequestFlowResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithLaunchFriendRequestFlowResult(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithLaunchFriendRequestFlowResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithLaunchFriendRequestFlowResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e7f0 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

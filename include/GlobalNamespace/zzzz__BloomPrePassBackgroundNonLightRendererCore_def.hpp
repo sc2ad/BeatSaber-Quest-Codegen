@@ -3,13 +3,13 @@
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cstdint>
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 class Renderer;
 }
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -123,8 +123,7 @@ constexpr UnityEngine::Rendering::CommandBuffer __get__commandBuffer() const;
 /// @brief Method Render addr 0x1f93bcc size 0x238 virtual true final false
  void Render(UnityEngine::RenderTexture dest, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix) ;
 
-// Ctor Parameters []
-explicit BloomPrePassBackgroundNonLightRendererCore() ;
+static GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f93b64 size 0x58 virtual false final false
  void _ctor() ;

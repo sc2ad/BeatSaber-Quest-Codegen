@@ -1,12 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System {
+class Action;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -69,8 +69,7 @@ constexpr System::Collections::Generic::List_1<System::Action> __get__unsubscrib
 /// @brief Method ClearAllBindings addr 0x1f7777c size 0x18c virtual false final false
  void ClearAllBindings() ;
 
-// Ctor Parameters []
-explicit EventBinder() ;
+static GlobalNamespace::EventBinder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f77908 size 0x7c virtual false final false
  void _ctor() ;

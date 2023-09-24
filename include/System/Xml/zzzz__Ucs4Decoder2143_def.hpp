@@ -52,8 +52,7 @@ constexpr explicit Ucs4Decoder2143(void* ptr) noexcept : System::Xml::Ucs4Decode
 /// @brief Method GetFullChars addr 0x27131a0 size 0x214 virtual true final false
  int32_t GetFullChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex) ;
 
-// Ctor Parameters []
-explicit Ucs4Decoder2143() ;
+static System::Xml::Ucs4Decoder2143 New_ctor() ;
 
 /// @brief Method .ctor addr 0x27127cc size 0x4 virtual false final false
  void _ctor() ;

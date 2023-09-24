@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- JetBrains::Annotations::XamlItemsControlAttribute::XamlItemsControlAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<XamlItemsControlAttribute>())) {}
+ JetBrains::Annotations::XamlItemsControlAttribute JetBrains::Annotations::XamlItemsControlAttribute::New_ctor()  {
+JetBrains::Annotations::XamlItemsControlAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::XamlItemsControlAttribute>())};
+return o;
+}
  void JetBrains::Annotations::XamlItemsControlAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::XamlItemsControlAttribute>::get(),

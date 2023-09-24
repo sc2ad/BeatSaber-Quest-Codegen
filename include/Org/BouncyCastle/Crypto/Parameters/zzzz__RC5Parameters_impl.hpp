@@ -41,8 +41,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::RC5Parameters::__set_round
 constexpr int32_t Org::BouncyCastle::Crypto::Parameters::RC5Parameters::__get_rounds() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "rounds", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::RC5Parameters::RC5Parameters(::ArrayW<uint8_t> key, int32_t rounds)  : Org::BouncyCastle::Crypto::Parameters::KeyParameter(THROW_UNLESS(::il2cpp_utils::New<RC5Parameters>(key, rounds))) {}
+ Org::BouncyCastle::Crypto::Parameters::RC5Parameters Org::BouncyCastle::Crypto::Parameters::RC5Parameters::New_ctor(::ArrayW<uint8_t> key, int32_t rounds)  {
+Org::BouncyCastle::Crypto::Parameters::RC5Parameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::RC5Parameters>(key, rounds))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::RC5Parameters::_ctor(::ArrayW<uint8_t> key, int32_t rounds)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::RC5Parameters>::get(),

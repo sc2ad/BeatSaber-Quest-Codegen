@@ -1,11 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
+#include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4._ctor
 template<>
@@ -139,8 +140,10 @@ constexpr void GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4:
 constexpr GlobalNamespace::MenuLightsManager GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4::__get___4__this() const {
 return ::cordl_internals::getInstanceField<GlobalNamespace::MenuLightsManager, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4::GlobalNamespace__MenuLightsManager___Start_d__4(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__MenuLightsManager___Start_d__4>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4 GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__MenuLightsManager___Start_d__4>::get(),
@@ -471,8 +474,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::MenuLightsManager::MenuLightsManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MenuLightsManager>())) {}
+ GlobalNamespace::MenuLightsManager GlobalNamespace::MenuLightsManager::New_ctor()  {
+GlobalNamespace::MenuLightsManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MenuLightsManager>())};
+return o;
+}
  void GlobalNamespace::MenuLightsManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MenuLightsManager>::get(),

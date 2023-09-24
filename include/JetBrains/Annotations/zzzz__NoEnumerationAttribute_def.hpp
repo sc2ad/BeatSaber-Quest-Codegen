@@ -47,8 +47,7 @@ constexpr explicit NoEnumerationAttribute(void* ptr) noexcept : System::Attribut
 
 // Methods
 
-// Ctor Parameters []
-explicit NoEnumerationAttribute() ;
+static JetBrains::Annotations::NoEnumerationAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d41270 size 0x8 virtual false final false
  void _ctor() ;

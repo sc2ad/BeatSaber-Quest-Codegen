@@ -5,8 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace UnityEngine::UI {
+class Toggle;
+}
 namespace GlobalNamespace {
-class IRefreshable;
+class IAnalyticsModel;
 }
 namespace UnityEngine {
 class GameObject;
@@ -15,35 +18,38 @@ namespace GlobalNamespace {
 class EnvironmentsListSO;
 }
 namespace GlobalNamespace {
-class IAnalyticsModel;
+class IRefreshable;
 }
-namespace HMUI {
-class DropdownWithTableView;
+namespace GlobalNamespace {
+class GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements;
 }
-namespace UnityEngine::UI {
-class Toggle;
+namespace GlobalNamespace {
+class GlobalNamespace__EnvironmentOverrideSettingsPanelController____c;
 }
 namespace GlobalNamespace {
 class OverrideEnvironmentSettings;
 }
 namespace HMUI {
-class PanelAnimationSO;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class DropdownWithTableView;
 }
 namespace HMUI {
-class SimpleTextDropdown;
+class PanelAnimationSO;
 }
 namespace GlobalNamespace {
 class EnvironmentTypeSO;
 }
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace HMUI {
+class SimpleTextDropdown;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -139,8 +145,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoS
 /// @brief Method set_environmentInfos addr 0x2130568 size 0x8 virtual false final false
  void set_environmentInfos(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO> value) ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements() ;
+static GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController__Elements New_ctor() ;
 
 /// @brief Method .ctor addr 0x2130570 size 0x8 virtual false final false
  void _ctor() ;
@@ -206,8 +211,7 @@ static System::Func_2<GlobalNamespace::EnvironmentInfoSO,::StringW> __get___9__1
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EnvironmentOverrideSettingsPanelController____c() ;
+static GlobalNamespace::GlobalNamespace__EnvironmentOverrideSettingsPanelController____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21305dc size 0x8 virtual false final false
  void _ctor() ;
@@ -348,8 +352,7 @@ constexpr bool __get__initialized() const;
 /// @brief Method HandleOverrideEnvironmentsToggleValueChanged addr 0x213030c size 0x22c virtual false final false
  void HandleOverrideEnvironmentsToggleValueChanged(bool isOn) ;
 
-// Ctor Parameters []
-explicit EnvironmentOverrideSettingsPanelController() ;
+static GlobalNamespace::EnvironmentOverrideSettingsPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2130538 size 0x8 virtual false final false
  void _ctor() ;

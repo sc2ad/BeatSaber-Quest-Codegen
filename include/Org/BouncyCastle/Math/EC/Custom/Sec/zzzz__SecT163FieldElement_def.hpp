@@ -89,20 +89,17 @@ constexpr ::ArrayW<uint64_t> __get_x() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
-explicit SecT163FieldElement(Org::BouncyCastle::Math::BigInteger x) ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecT163FieldElement New_ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
 /// @brief Method .ctor addr 0xf81b8c size 0xf4 virtual false final false
  void _ctor(Org::BouncyCastle::Math::BigInteger x) ;
 
-// Ctor Parameters []
-explicit SecT163FieldElement() ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecT163FieldElement New_ctor() ;
 
 /// @brief Method .ctor addr 0xf81c80 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "x", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
-explicit SecT163FieldElement(::ArrayW<uint64_t> x) ;
+static Org::BouncyCastle::Math::EC::Custom::Sec::SecT163FieldElement New_ctor(::ArrayW<uint64_t> x) ;
 
 /// @brief Method .ctor addr 0xf81ca4 size 0x28 virtual false final false
  void _ctor(::ArrayW<uint64_t> x) ;

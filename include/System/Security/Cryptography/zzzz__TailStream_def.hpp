@@ -94,8 +94,7 @@ constexpr bool __get__BufferFull() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bufferSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TailStream(int32_t bufferSize) ;
+static System::Security::Cryptography::TailStream New_ctor(int32_t bufferSize) ;
 
 /// @brief Method .ctor addr 0x22f44c0 size 0x90 virtual false final false
  void _ctor(int32_t bufferSize) ;

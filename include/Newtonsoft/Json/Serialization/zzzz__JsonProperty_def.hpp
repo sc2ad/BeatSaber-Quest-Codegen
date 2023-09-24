@@ -3,53 +3,53 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace Newtonsoft::Json {
+struct NullValueHandling;
+}
 namespace System {
 class Type;
-}
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System {
-template<typename T>
-class Predicate_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonContract;
-}
-namespace Newtonsoft::Json {
-struct ObjectCreationHandling;
-}
-namespace Newtonsoft::Json {
-struct Required;
-}
-namespace Newtonsoft::Json {
-struct DefaultValueHandling;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-struct TypeNameHandling;
 }
 namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
-namespace Newtonsoft::Json {
-struct NullValueHandling;
+namespace Newtonsoft::Json::Serialization {
+class JsonContract;
 }
 namespace Newtonsoft::Json {
 struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
 }
 namespace Newtonsoft::Json::Serialization {
 class IValueProvider;
 }
 namespace Newtonsoft::Json::Serialization {
 class IAttributeProvider;
+}
+namespace System {
+template<typename T>
+class Predicate_1;
+}
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace Newtonsoft::Json {
+struct ObjectCreationHandling;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json {
+struct Required;
+}
+namespace Newtonsoft::Json {
+struct DefaultValueHandling;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -550,8 +550,7 @@ constexpr System::Nullable_1<Newtonsoft::Json::ReferenceLoopHandling> __get__Ite
 /// @brief Method WritePropertyName addr 0x2502a94 size 0x4c virtual false final false
  void WritePropertyName(Newtonsoft::Json::JsonWriter writer) ;
 
-// Ctor Parameters []
-explicit JsonProperty() ;
+static Newtonsoft::Json::Serialization::JsonProperty New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f9e68 size 0x8 virtual false final false
  void _ctor() ;

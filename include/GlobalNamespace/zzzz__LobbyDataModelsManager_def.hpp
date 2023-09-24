@@ -2,19 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
-}
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
+class ILobbyPlayersDataModel;
 }
 namespace GlobalNamespace {
 class ILobbyGameStateController;
 }
 namespace GlobalNamespace {
+class ILobbyStateDataModel;
+}
+namespace GlobalNamespace {
 class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
+class INodePoseSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -101,8 +101,7 @@ constexpr GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermiss
 /// @brief Method Deactivate addr 0x21f3660 size 0x1a0 virtual false final false
  void Deactivate() ;
 
-// Ctor Parameters []
-explicit LobbyDataModelsManager() ;
+static GlobalNamespace::LobbyDataModelsManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f38f0 size 0x8 virtual false final false
  void _ctor() ;

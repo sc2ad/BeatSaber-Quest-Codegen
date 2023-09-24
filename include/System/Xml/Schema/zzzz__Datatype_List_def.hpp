@@ -6,7 +6,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System {
+class Type;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
+namespace System {
+class Exception;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System::Xml::Schema {
+class DatatypeImplementation;
 }
 namespace System::Xml {
 struct XmlTokenizedType;
@@ -14,26 +32,8 @@ struct XmlTokenizedType;
 namespace System::Xml::Schema {
 struct XmlTypeCode;
 }
-namespace System {
-class Type;
-}
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-class DatatypeImplementation;
-}
 namespace System::Xml {
 class XmlNameTable;
-}
-namespace System::Xml {
-class IXmlNamespaceResolver;
-}
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -112,8 +112,7 @@ constexpr int32_t __get_minListSize() const;
 /// @brief Method CreateValueConverter addr 0x2722074 size 0x2a4 virtual true final false
  System::Xml::Schema::XmlValueConverter CreateValueConverter(System::Xml::Schema::XmlSchemaType schemaType) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "System::Xml::Schema::DatatypeImplementation", modifiers: "", def_value: None }, CppParam { name: "minListSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Datatype_List(System::Xml::Schema::DatatypeImplementation type, int32_t minListSize) ;
+static System::Xml::Schema::Datatype_List New_ctor(System::Xml::Schema::DatatypeImplementation type, int32_t minListSize) ;
 
 /// @brief Method .ctor addr 0x2721b44 size 0x74 virtual false final false
  void _ctor(System::Xml::Schema::DatatypeImplementation type, int32_t minListSize) ;

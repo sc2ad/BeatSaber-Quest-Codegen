@@ -2,22 +2,22 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class Vector3Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class IntegerControl;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {
@@ -368,8 +368,7 @@ constexpr UnityEngine::InputSystem::Controls::Vector3Control __get__deviceAngula
 /// @brief Method FinishSetup addr 0x2ae3b2c size 0x418 virtual true final false
  void FinishSetup() ;
 
-// Ctor Parameters []
-explicit OculusTouchController() ;
+static Unity::XR::Oculus::Input::OculusTouchController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ae3f44 size 0x8 virtual false final false
  void _ctor() ;

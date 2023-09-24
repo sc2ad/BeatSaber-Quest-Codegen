@@ -8,24 +8,27 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System {
-class Delegate;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedList_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::ResourceManagement::Util {
+struct UnityEngine__ResourceManagement__Util__DelayedActionManager__DelegateInfo;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class Stack_1;
 }
+namespace System {
+class Delegate;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedList_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -137,7 +140,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 // Type: UnityEngine.ResourceManagement.Util::DelayedActionManager
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14247)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14247), inst: 1025 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14247), inst: 1025 }), TypeDefinitionIndex(TypeDefinitionIndex(14247))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14249))
 // CS Name: UnityEngine.ResourceManagement.Util.DelayedActionManager
 class CORDL_TYPE DelayedActionManager : public UnityEngine::ResourceManagement::Util::ComponentSingleton_1<UnityEngine::ResourceManagement::Util::DelayedActionManager> {
@@ -246,8 +249,7 @@ static bool Wait(float_t timeout, float_t timeAdvanceAmount) ;
 /// @brief Method OnApplicationQuit addr 0x2a395ec size 0xb4 virtual false final false
  void OnApplicationQuit() ;
 
-// Ctor Parameters []
-explicit DelayedActionManager() ;
+static UnityEngine::ResourceManagement::Util::DelayedActionManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a396a0 size 0x1bc virtual false final false
  void _ctor() ;

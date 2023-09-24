@@ -1,14 +1,14 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__GameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
-#include "GlobalNamespace/zzzz__SliderController_def.hpp"
-#include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLine_def.hpp"
+#include "GlobalNamespace/zzzz__NoteLineConnectionController_def.hpp"
+#include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__BombNoteController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapObjectsInstaller.InstallBindings
 template<>
 
@@ -130,8 +130,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapObjectsInstaller::BeatmapObjectsInstaller()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<BeatmapObjectsInstaller>())) {}
+ GlobalNamespace::BeatmapObjectsInstaller GlobalNamespace::BeatmapObjectsInstaller::New_ctor()  {
+GlobalNamespace::BeatmapObjectsInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapObjectsInstaller>())};
+return o;
+}
  void GlobalNamespace::BeatmapObjectsInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapObjectsInstaller>::get(),

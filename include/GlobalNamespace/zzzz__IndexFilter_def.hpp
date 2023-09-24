@@ -4,34 +4,46 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
 namespace System {
-template<typename T1,typename T2,typename T3>
-struct ValueTuple_3;
+class IDisposable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
+template<typename T1,typename T2,typename T3>
+struct ValueTuple_3;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
+template<typename T1,typename T2>
+struct ValueTuple_2;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IndexFilter__IndexFilterRandomType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IndexFilter___GetValues_d__20;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyCollection_1;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__IndexFilter___GetEnumerator_d__19;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,6 +111,8 @@ __RandomElements = 2,
 constexpr operator __GlobalNamespace__IndexFilter__IndexFilterRandomType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__IndexFilter__IndexFilterRandomType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -172,6 +186,8 @@ __Distribution = 2,
 constexpr operator __GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -316,8 +332,7 @@ constexpr int32_t __get__localChunkIndex_5__8() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__IndexFilter___GetEnumerator_d__19(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__IndexFilter___GetEnumerator_d__19 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21dd850 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -447,8 +462,7 @@ constexpr int32_t __get__i_5__3() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__IndexFilter___GetValues_d__20(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__IndexFilter___GetValues_d__20 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21dd8f0 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -612,14 +626,12 @@ constexpr int32_t __get__count() const;
 /// @brief Method get_limitAlsoAffectType addr 0x21dd760 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType get_limitAlsoAffectType() ;
 
-// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "step", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "groupSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "limitAlsoAffectType", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType", modifiers: "", def_value: None }]
-explicit IndexFilter(int32_t start, int32_t step, int32_t count, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType) ;
+static GlobalNamespace::IndexFilter New_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType) ;
 
 /// @brief Method .ctor addr 0x21dd768 size 0xe8 virtual false final false
  void _ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType) ;
 
-// Ctor Parameters [CppParam { name: "start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "groupSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "random", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "seed", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "chunkSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "limitAlsoAffectType", ty: "GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType", modifiers: "", def_value: None }]
-explicit IndexFilter(int32_t start, int32_t end, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType) ;
+static GlobalNamespace::IndexFilter New_ctor(int32_t start, int32_t end, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType) ;
 
 /// @brief Method .ctor addr 0x21db8d4 size 0xe0 virtual false final false
  void _ctor(int32_t start, int32_t end, int32_t groupSize, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit, GlobalNamespace::GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType) ;

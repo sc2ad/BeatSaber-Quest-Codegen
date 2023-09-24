@@ -3,9 +3,6 @@
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
 class AnimationCurve;
 }
 namespace System {
@@ -13,6 +10,9 @@ class Action;
 }
 namespace UnityEngine {
 class CanvasGroup;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HMUI {
@@ -105,8 +105,7 @@ constexpr UnityEngine::AnimationCurve __get__parentAlphaAnimationCurve() const;
 /// @brief Method ExecuteAnimation addr 0x1fa57a0 size 0xcc virtual false final false
  void ExecuteAnimation(UnityEngine::GameObject go, UnityEngine::CanvasGroup parentCanvasGroup, bool instant, System::Action finishedCallback) ;
 
-// Ctor Parameters []
-explicit PanelAnimationSO() ;
+static HMUI::PanelAnimationSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa5888 size 0x94 virtual false final false
  void _ctor() ;

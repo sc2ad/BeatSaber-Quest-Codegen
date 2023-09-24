@@ -161,8 +161,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Unity::XR::OpenVR::ViveTracker::ViveTracker()  : UnityEngine::InputSystem::TrackedDevice(THROW_UNLESS(::il2cpp_utils::New<ViveTracker>())) {}
+ Unity::XR::OpenVR::ViveTracker Unity::XR::OpenVR::ViveTracker::New_ctor()  {
+Unity::XR::OpenVR::ViveTracker o{THROW_UNLESS(::il2cpp_utils::New<Unity::XR::OpenVR::ViveTracker>())};
+return o;
+}
  void Unity::XR::OpenVR::ViveTracker::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Unity::XR::OpenVR::ViveTracker>::get(),

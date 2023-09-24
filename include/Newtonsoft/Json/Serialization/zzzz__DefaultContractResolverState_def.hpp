@@ -4,15 +4,15 @@
 namespace Newtonsoft::Json::Serialization {
 struct ResolverContractKey;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-class Dictionary_2;
-}
 namespace Newtonsoft::Json::Utilities {
 class PropertyNameTable;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -75,8 +75,7 @@ constexpr Newtonsoft::Json::Utilities::PropertyNameTable __get_NameTable() const
 
 // Methods
 
-// Ctor Parameters []
-explicit DefaultContractResolverState() ;
+static Newtonsoft::Json::Serialization::DefaultContractResolverState New_ctor() ;
 
 /// @brief Method .ctor addr 0x24f6d80 size 0x68 virtual false final false
  void _ctor() ;

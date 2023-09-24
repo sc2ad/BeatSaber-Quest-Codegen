@@ -201,6 +201,8 @@ constexpr operator __GraphicsFormat_Unwrapped () const noexcept {
 return std::bit_cast<__GraphicsFormat_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

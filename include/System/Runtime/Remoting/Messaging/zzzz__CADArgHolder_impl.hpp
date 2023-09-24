@@ -23,8 +23,10 @@ constexpr void System::Runtime::Remoting::Messaging::CADArgHolder::__set_index(i
 constexpr int32_t System::Runtime::Remoting::Messaging::CADArgHolder::__get_index() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }]
- System::Runtime::Remoting::Messaging::CADArgHolder::CADArgHolder(int32_t i)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CADArgHolder>(i))) {}
+ System::Runtime::Remoting::Messaging::CADArgHolder System::Runtime::Remoting::Messaging::CADArgHolder::New_ctor(int32_t i)  {
+System::Runtime::Remoting::Messaging::CADArgHolder o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::Remoting::Messaging::CADArgHolder>(i))};
+return o;
+}
  void System::Runtime::Remoting::Messaging::CADArgHolder::_ctor(int32_t i)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::Remoting::Messaging::CADArgHolder>::get(),

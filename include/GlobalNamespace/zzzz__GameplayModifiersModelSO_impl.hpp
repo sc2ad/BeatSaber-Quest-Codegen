@@ -2,15 +2,15 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter._ctor
 template<>
 
@@ -79,8 +79,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter>::get(),
@@ -508,8 +510,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Gamep
  GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c::__get___9__18_15()  {
 return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO__GameplayModifierBoolGetter, "<>9__18_15", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c::GlobalNamespace__GameplayModifiersModelSO____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__GameplayModifiersModelSO____c>())) {}
+ GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__GameplayModifiersModelSO____c>::get(),
@@ -1042,8 +1046,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::GlobalNamespace__GameplayModifiers__SongSpeed, false>(const_cast<void*>(instance), ___internal_method, valueGetter);
 }
-// Ctor Parameters []
- GlobalNamespace::GameplayModifiersModelSO::GameplayModifiersModelSO()  : GlobalNamespace::PersistentScriptableObject(THROW_UNLESS(::il2cpp_utils::New<GameplayModifiersModelSO>())) {}
+ GlobalNamespace::GameplayModifiersModelSO GlobalNamespace::GameplayModifiersModelSO::New_ctor()  {
+GlobalNamespace::GameplayModifiersModelSO o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GameplayModifiersModelSO>())};
+return o;
+}
  void GlobalNamespace::GameplayModifiersModelSO::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GameplayModifiersModelSO>::get(),

@@ -107,8 +107,7 @@ constexpr UnityEngine::Event __get__repaintEvent_k__BackingField() const;
 /// @brief Method set_repaintEvent addr 0x2c4fbe4 size 0x8 virtual false final false
  void set_repaintEvent(UnityEngine::Event value) ;
 
-// Ctor Parameters []
-explicit RepaintData() ;
+static UnityEngine::UIElements::RepaintData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c4fbec size 0x60 virtual false final false
  void _ctor() ;

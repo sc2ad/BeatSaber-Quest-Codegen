@@ -2,11 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Exception;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -71,38 +71,32 @@ constexpr ::StringW __get__paramName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit ArgumentException() ;
+static System::ArgumentException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23b3eb4 size 0x5c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ArgumentException(::StringW message) ;
+static System::ArgumentException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x23b2ca4 size 0x24 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ArgumentException(::StringW message, System::Exception innerException) ;
+static System::ArgumentException New_ctor(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x23b3f10 size 0x24 virtual false final false
  void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit ArgumentException(::StringW message, ::StringW paramName, System::Exception innerException) ;
+static System::ArgumentException New_ctor(::StringW message, ::StringW paramName, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x23b3f34 size 0x38 virtual false final false
  void _ctor(::StringW message, ::StringW paramName, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "paramName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit ArgumentException(::StringW message, ::StringW paramName) ;
+static System::ArgumentException New_ctor(::StringW message, ::StringW paramName) ;
 
 /// @brief Method .ctor addr 0x23ac97c size 0x34 virtual false final false
  void _ctor(::StringW message, ::StringW paramName) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ArgumentException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::ArgumentException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x23b3f6c size 0x88 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

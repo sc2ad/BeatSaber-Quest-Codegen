@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Utilities/zzzz__CipherFactory_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Utilities::CipherFactory._ctor
 template<>
 
@@ -61,8 +61,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
  ::ArrayW<int16_t> Org::BouncyCastle::Crypto::Utilities::CipherFactory::__get_rc2Ekb()  {
 return ::cordl_internals::getStaticField<::ArrayW<int16_t>, "rc2Ekb", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Utilities::CipherFactory>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Utilities::CipherFactory::CipherFactory()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CipherFactory>())) {}
+ Org::BouncyCastle::Crypto::Utilities::CipherFactory Org::BouncyCastle::Crypto::Utilities::CipherFactory::New_ctor()  {
+Org::BouncyCastle::Crypto::Utilities::CipherFactory o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Utilities::CipherFactory>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Utilities::CipherFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Utilities::CipherFactory>::get(),

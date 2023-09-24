@@ -2,9 +2,10 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/Video/zzzz__VideoPlayer_def.hpp"
+#include "UnityEngine/Video/zzzz__VideoPlayer_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
 #include "UnityEngine/Video/zzzz__VideoTimeReference_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler._ctor
 template<>
 
@@ -39,8 +40,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler::UnityEngine__Video__VideoPlayer__EventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Video__VideoPlayer__EventHandler>(object, method))) {}
+ UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler>(object, method))};
+return o;
+}
  void UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Video::UnityEngine__Video__VideoPlayer__EventHandler>::get(),
@@ -93,8 +96,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler::UnityEngine__Video__VideoPlayer__ErrorEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Video__VideoPlayer__ErrorEventHandler>(object, method))) {}
+ UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler>(object, method))};
+return o;
+}
  void UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Video::UnityEngine__Video__VideoPlayer__ErrorEventHandler>::get(),
@@ -147,8 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Video__VideoPlayer__FrameReadyEventHandler>(object, method))) {}
+ UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler>(object, method))};
+return o;
+}
  void UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Video::UnityEngine__Video__VideoPlayer__FrameReadyEventHandler>::get(),
@@ -201,8 +208,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler::UnityEngine__Video__VideoPlayer__TimeEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Video__VideoPlayer__TimeEventHandler>(object, method))) {}
+ UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler>(object, method))};
+return o;
+}
  void UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Video::UnityEngine__Video__VideoPlayer__TimeEventHandler>::get(),

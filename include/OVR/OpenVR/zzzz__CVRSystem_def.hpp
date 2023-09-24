@@ -9,16 +9,55 @@
 #include <cstddef>
 #include <cstdint>
 namespace OVR::OpenVR {
+class OVR__OpenVR__CVRSystem___PollNextEventPacked;
+}
+namespace OVR::OpenVR {
 struct HmdMatrix34_t;
 }
 namespace OVR::OpenVR {
-struct HmdMatrix44_t;
+struct OVR__OpenVR__CVRSystem__GetControllerStateWithPoseUnion;
 }
 namespace OVR::OpenVR {
-struct EVREye;
+struct ETrackedDeviceClass;
+}
+namespace OVR::OpenVR {
+struct ETrackedPropertyError;
+}
+namespace OVR::OpenVR {
+struct TrackedDevicePose_t;
+}
+namespace OVR::OpenVR {
+struct HiddenAreaMesh_t;
+}
+namespace OVR::OpenVR {
+struct VRControllerState_t;
+}
+namespace OVR::OpenVR {
+class OVR__OpenVR__CVRSystem___GetControllerStatePacked;
+}
+namespace OVR::OpenVR {
+struct ETextureType;
+}
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
+}
+namespace OVR::OpenVR {
+struct OVR__OpenVR__CVRSystem__PollNextEventUnion;
+}
+namespace OVR::OpenVR {
+struct ETrackedControllerRole;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace OVR::OpenVR {
 struct VREvent_t;
+}
+namespace OVR::OpenVR {
+struct IVRSystem;
+}
+namespace OVR::OpenVR {
+struct EVREventType;
 }
 namespace OVR::OpenVR {
 struct EHiddenAreaMeshType;
@@ -27,61 +66,40 @@ namespace OVR::OpenVR {
 struct EVRControllerAxisType;
 }
 namespace OVR::OpenVR {
-struct ETextureType;
-}
-namespace OVR::OpenVR {
 struct EVRButtonId;
 }
 namespace OVR::OpenVR {
-struct VRControllerState_t;
-}
-namespace OVR::OpenVR {
 struct EVRFirmwareError;
-}
-namespace System::Text {
-class StringBuilder;
-}
-namespace OVR::OpenVR {
-struct IVRSystem;
-}
-namespace OVR::OpenVR {
-struct ETrackedPropertyError;
-}
-namespace OVR::OpenVR {
-struct EVREventType;
-}
-namespace OVR::OpenVR {
-struct ETrackedDeviceProperty;
-}
-namespace OVR::OpenVR {
-struct DistortionCoordinates_t;
-}
-namespace OVR::OpenVR {
-struct ETrackedControllerRole;
 }
 namespace OVR::OpenVR {
 struct EDeviceActivityLevel;
 }
 namespace OVR::OpenVR {
-struct ETrackedDeviceClass;
+struct ETrackedDeviceProperty;
 }
 namespace OVR::OpenVR {
-struct HiddenAreaMesh_t;
+class OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked;
 }
 namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
+struct DistortionCoordinates_t;
 }
 namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
+struct EVREye;
+}
+namespace OVR::OpenVR {
+struct HmdMatrix44_t;
+}
+namespace OVR::OpenVR {
+struct OVR__OpenVR__CVRSystem__GetControllerStateUnion;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t_Packed;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace OVR::OpenVR {
 struct VREvent_t_Packed;
@@ -159,8 +177,7 @@ constexpr explicit OVR__OpenVR__CVRSystem___PollNextEventPacked(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__CVRSystem___PollNextEventPacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__CVRSystem___PollNextEventPacked New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2663f80 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -279,8 +296,7 @@ constexpr explicit OVR__OpenVR__CVRSystem___GetControllerStatePacked(void* ptr) 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__CVRSystem___GetControllerStatePacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStatePacked New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2664150 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -399,8 +415,7 @@ constexpr explicit OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__CVRSystem___GetControllerStateWithPosePacked New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2664320 size 0xc4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -540,8 +555,7 @@ constexpr OVR::OpenVR::IVRSystem __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRSystem(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRSystem New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x266303c size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

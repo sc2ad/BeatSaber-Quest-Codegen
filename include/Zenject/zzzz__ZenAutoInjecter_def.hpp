@@ -6,10 +6,13 @@
 #include <cstddef>
 #include <cstdint>
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+struct Zenject__ZenAutoInjecter__ContainerSources;
 }
 // Forward declare root types
 namespace Zenject {
@@ -68,6 +71,8 @@ __SearchHierarchy = 2,
 constexpr operator __Zenject__ZenAutoInjecter__ContainerSources_Unwrapped () const noexcept {
 return std::bit_cast<__Zenject__ZenAutoInjecter__ContainerSources_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -173,8 +178,7 @@ constexpr bool __get__hasInjected() const;
 /// @brief Method GetContainerForCurrentScene addr 0x2da691c size 0x90 virtual false final false
  Zenject::DiContainer GetContainerForCurrentScene() ;
 
-// Ctor Parameters []
-explicit ZenAutoInjecter() ;
+static Zenject::ZenAutoInjecter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2da69ac size 0x10 virtual false final false
  void _ctor() ;

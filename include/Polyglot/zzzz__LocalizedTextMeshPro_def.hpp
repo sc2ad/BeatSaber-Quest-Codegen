@@ -4,13 +4,13 @@
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace TMPro {
-struct TextAlignmentOptions;
+class TextMeshPro;
 }
 namespace Polyglot {
 struct LanguageDirection;
 }
 namespace TMPro {
-class TextMeshPro;
+struct TextAlignmentOptions;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -19,7 +19,7 @@ class LocalizedTextMeshPro;
 // Type: Polyglot::LocalizedTextMeshPro
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 4317 }), TypeDefinitionIndex(TypeDefinitionIndex(15541)), TypeDefinitionIndex(TypeDefinitionIndex(12249))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12249)), TypeDefinitionIndex(TypeDefinitionIndex(15541)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15541), inst: 4317 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15543))
 // CS Name: Polyglot.LocalizedTextMeshPro
 class CORDL_TYPE LocalizedTextMeshPro : public Polyglot::LocalizedTextComponent_1<TMPro::TextMeshPro> {
@@ -73,8 +73,7 @@ constexpr explicit LocalizedTextMeshPro(void* ptr) noexcept : Polyglot::Localize
 /// @brief Method IsAlignmentLeft addr 0x2674948 size 0x28 virtual false final false
  bool IsAlignmentLeft(TMPro::TextAlignmentOptions alignment) ;
 
-// Ctor Parameters []
-explicit LocalizedTextMeshPro() ;
+static Polyglot::LocalizedTextMeshPro New_ctor() ;
 
 /// @brief Method .ctor addr 0x2674970 size 0x48 virtual false final false
  void _ctor() ;

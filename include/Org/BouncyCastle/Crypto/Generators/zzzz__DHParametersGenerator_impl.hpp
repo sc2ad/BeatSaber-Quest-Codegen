@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__DHParametersGenerator_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Generators::DHParametersGenerator.Init
 template<>
 
@@ -89,8 +89,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Crypto::Parameters::DHParameters, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::DHParametersGenerator()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DHParametersGenerator>())) {}
+ Org::BouncyCastle::Crypto::Generators::DHParametersGenerator Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::DHParametersGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::DHParametersGenerator>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::DHParametersGenerator>::get(),

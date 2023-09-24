@@ -76,8 +76,7 @@ constexpr bool __get__startAudioListenerPauseState() const;
 /// @brief Method Resume addr 0x20b8a1c size 0xc virtual false final false
  void Resume() ;
 
-// Ctor Parameters []
-explicit AudioListenerController() ;
+static GlobalNamespace::AudioListenerController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20b8a28 size 0x8 virtual false final false
  void _ctor() ;

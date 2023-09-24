@@ -100,8 +100,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::VertexPath, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "numberOfFixedVertexPathSegments", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "updateVertexPath", ty: "bool", modifiers: "", def_value: Some("true") }]
- GlobalNamespace::PathsHolder::PathsHolder(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PathsHolder>(numberOfFixedVertexPathSegments, updateVertexPath))) {}
+/// @param updateVertexPath: bool (default: true)
+ GlobalNamespace::PathsHolder GlobalNamespace::PathsHolder::New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath)  {
+GlobalNamespace::PathsHolder o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PathsHolder>(numberOfFixedVertexPathSegments, updateVertexPath))};
+return o;
+}
 /// @param updateVertexPath: bool (default: true)
  void GlobalNamespace::PathsHolder::_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

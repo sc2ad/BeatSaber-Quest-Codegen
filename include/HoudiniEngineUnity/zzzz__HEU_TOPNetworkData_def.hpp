@@ -4,15 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace HoudiniEngineUnity {
 class HEU_TOPNodeData;
 }
 namespace HoudiniEngineUnity {
 class TOPNodeTags;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -105,8 +105,7 @@ constexpr HoudiniEngineUnity::TOPNodeTags __get__tags() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_TOPNetworkData() ;
+static HoudiniEngineUnity::HEU_TOPNetworkData New_ctor() ;
 
 /// @brief Method .ctor addr 0x20290f8 size 0xd8 virtual false final false
  void _ctor() ;

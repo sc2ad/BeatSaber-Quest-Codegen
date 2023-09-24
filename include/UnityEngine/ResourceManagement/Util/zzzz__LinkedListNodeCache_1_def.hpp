@@ -98,8 +98,7 @@ constexpr System::Collections::Generic::LinkedList_1<T> __get_m_NodeCache() cons
 /// @brief Method get_CachedNodeCount addr 0x0 size 0xffffffffffffffff virtual false final false
  int32_t get_CachedNodeCount() ;
 
-// Ctor Parameters []
-explicit LinkedListNodeCache_1() ;
+static UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

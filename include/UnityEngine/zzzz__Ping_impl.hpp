@@ -142,8 +142,10 @@ constexpr void UnityEngine::Ping::__set_m_Ptr(::cordl_internals::intptr_t value)
 constexpr ::cordl_internals::intptr_t UnityEngine::Ping::__get_m_Ptr() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::Ping::Ping(::StringW address)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Ping>(address))) {}
+ UnityEngine::Ping UnityEngine::Ping::New_ctor(::StringW address)  {
+UnityEngine::Ping o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Ping>(address))};
+return o;
+}
  void UnityEngine::Ping::_ctor(::StringW address)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Ping>::get(),

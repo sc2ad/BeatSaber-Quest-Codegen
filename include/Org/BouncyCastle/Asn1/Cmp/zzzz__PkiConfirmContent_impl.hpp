@@ -62,8 +62,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::PkiConfirmContent()  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PkiConfirmContent>())) {}
+ Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::New_ctor()  {
+Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent>::get(),

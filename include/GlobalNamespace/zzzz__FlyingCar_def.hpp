@@ -93,8 +93,7 @@ constexpr UnityEngine::Vector3 __get__pos() const;
 /// @brief Method UpdatePos addr 0x22695e8 size 0x44 virtual false final false
  void UpdatePos() ;
 
-// Ctor Parameters []
-explicit FlyingCar() ;
+static GlobalNamespace::FlyingCar New_ctor() ;
 
 /// @brief Method .ctor addr 0x226968c size 0x1c virtual false final false
  void _ctor() ;

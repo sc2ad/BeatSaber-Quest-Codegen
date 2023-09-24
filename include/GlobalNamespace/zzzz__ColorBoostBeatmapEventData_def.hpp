@@ -69,8 +69,7 @@ static GlobalNamespace::ColorBoostBeatmapEventData __get__defaultCopy() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "boostColorsAreOn", ty: "bool", modifiers: "", def_value: None }]
-explicit ColorBoostBeatmapEventData(float_t time, bool boostColorsAreOn) ;
+static GlobalNamespace::ColorBoostBeatmapEventData New_ctor(float_t time, bool boostColorsAreOn) ;
 
 /// @brief Method .ctor addr 0xd91b04 size 0x4c virtual false final false
  void _ctor(float_t time, bool boostColorsAreOn) ;

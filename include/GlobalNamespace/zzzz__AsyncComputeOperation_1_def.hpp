@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622)), TypeDefinitionIndex(TypeDefinitionIndex(12621))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12621)), TypeDefinitionIndex(TypeDefinitionIndex(12622))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12622), inst: 2 })
 // CS Name: AsyncComputeOperation`1
 class CORDL_TYPE AsyncComputeOperation_1<T> : public GlobalNamespace::AsyncComputeOperation {
@@ -84,8 +84,7 @@ constexpr System::Threading::Tasks::TaskCompletionSource_1<T> __get__tcs() const
 /// @brief Method get_task addr 0x0 size 0xffffffffffffffff virtual false final false
  System::Threading::Tasks::Task_1<T> get_task() ;
 
-// Ctor Parameters [CppParam { name: "timeoutMs", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AsyncComputeOperation_1(int32_t timeoutMs) ;
+static GlobalNamespace::AsyncComputeOperation_1<T> New_ctor(int32_t timeoutMs) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(int32_t timeoutMs) ;

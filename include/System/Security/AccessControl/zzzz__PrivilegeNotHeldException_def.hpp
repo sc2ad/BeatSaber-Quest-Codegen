@@ -3,13 +3,13 @@
 #include "System/zzzz__UnauthorizedAccessException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -69,14 +69,12 @@ constexpr ::StringW __get__privilegeName() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit PrivilegeNotHeldException() ;
+static System::Security::AccessControl::PrivilegeNotHeldException New_ctor() ;
 
 /// @brief Method .ctor addr 0x23152f4 size 0x4c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit PrivilegeNotHeldException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::AccessControl::PrivilegeNotHeldException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2315340 size 0x88 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

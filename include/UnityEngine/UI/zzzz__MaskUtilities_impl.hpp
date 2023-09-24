@@ -1,10 +1,10 @@
 #pragma once
 #include "UnityEngine/UI/zzzz__MaskUtilities_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 #include "UnityEngine/UI/zzzz__IClippable_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::MaskUtilities.Notify2DMaskStateChanged
 template<>
 
@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clipper, masks);
 }
-// Ctor Parameters []
- UnityEngine::UI::MaskUtilities::MaskUtilities()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MaskUtilities>())) {}
+ UnityEngine::UI::MaskUtilities UnityEngine::UI::MaskUtilities::New_ctor()  {
+UnityEngine::UI::MaskUtilities o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::MaskUtilities>())};
+return o;
+}
  void UnityEngine::UI::MaskUtilities::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::MaskUtilities>::get(),

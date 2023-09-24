@@ -56,8 +56,7 @@ constexpr explicit MontgomeryLadderMultiplier(void* ptr) noexcept : Org::BouncyC
 /// @brief Method MultiplyPositive addr 0xfaa028 size 0x1fc virtual true final false
  Org::BouncyCastle::Math::EC::ECPoint MultiplyPositive(Org::BouncyCastle::Math::EC::ECPoint p, Org::BouncyCastle::Math::BigInteger k) ;
 
-// Ctor Parameters []
-explicit MontgomeryLadderMultiplier() ;
+static Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier New_ctor() ;
 
 /// @brief Method .ctor addr 0xfaa224 size 0x8 virtual false final false
  void _ctor() ;

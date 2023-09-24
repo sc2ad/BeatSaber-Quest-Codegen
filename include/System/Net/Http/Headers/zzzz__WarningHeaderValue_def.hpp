@@ -4,25 +4,25 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Net::Http::Headers {
+struct Token;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System::Net::Http::Headers {
-class Lexer;
+namespace System {
+template<typename T>
+struct Nullable_1;
 }
 namespace System {
 struct DateTimeOffset;
 }
-namespace System::Net::Http::Headers {
-struct Token;
-}
 namespace System {
 class ICloneable;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace System::Net::Http::Headers {
+class Lexer;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -111,8 +111,7 @@ constexpr ::StringW __get__Text_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit WarningHeaderValue() ;
+static System::Net::Http::Headers::WarningHeaderValue New_ctor() ;
 
 /// @brief Method .ctor addr 0x26b1348 size 0x8 virtual false final false
  void _ctor() ;

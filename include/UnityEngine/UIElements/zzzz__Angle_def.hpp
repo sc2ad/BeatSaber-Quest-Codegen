@@ -6,6 +6,9 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__Angle__Unit;
+}
+namespace UnityEngine::UIElements {
 struct AngleUnit;
 }
 namespace System {
@@ -71,6 +74,8 @@ __None = 4,
 constexpr operator __UnityEngine__UIElements__Angle__Unit_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__UIElements__Angle__Unit_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields

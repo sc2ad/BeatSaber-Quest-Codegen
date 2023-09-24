@@ -47,8 +47,7 @@ constexpr explicit AndroidGamepad(void* ptr) noexcept : UnityEngine::InputSystem
 
 // Methods
 
-// Ctor Parameters []
-explicit AndroidGamepad() ;
+static UnityEngine::InputSystem::Android::AndroidGamepad New_ctor() ;
 
 /// @brief Method .ctor addr 0x2953028 size 0x8 virtual false final false
  void _ctor() ;

@@ -57,14 +57,12 @@ constexpr explicit SignatureExpirationTime(void* ptr) noexcept : Org::BouncyCast
 /// @brief Method TimeToBytes addr 0x113eca0 size 0x94 virtual false final false
 static ::ArrayW<uint8_t> TimeToBytes(int64_t t) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SignatureExpirationTime(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113ed34 size 0x48 virtual false final false
  void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "seconds", ty: "int64_t", modifiers: "", def_value: None }]
-explicit SignatureExpirationTime(bool critical, int64_t seconds) ;
+static Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime New_ctor(bool critical, int64_t seconds) ;
 
 /// @brief Method .ctor addr 0x113ed7c size 0x4c virtual false final false
  void _ctor(bool critical, int64_t seconds) ;

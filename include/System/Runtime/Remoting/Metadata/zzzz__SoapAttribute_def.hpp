@@ -77,8 +77,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_ReflectInfo() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SoapAttribute() ;
+static System::Runtime::Remoting::Metadata::SoapAttribute New_ctor() ;
 
 /// @brief Method .ctor addr 0x2339a50 size 0x8 virtual false final false
  void _ctor() ;

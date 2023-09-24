@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelBuyView_def.hpp"
-#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelBar_def.hpp"
 //  Writing Method size for method: GlobalNamespace::StandardLevelBuyView.get_buyButton
 template<>
 
@@ -85,8 +85,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, previewBeatmapLevel);
 }
-// Ctor Parameters []
- GlobalNamespace::StandardLevelBuyView::StandardLevelBuyView()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<StandardLevelBuyView>())) {}
+ GlobalNamespace::StandardLevelBuyView GlobalNamespace::StandardLevelBuyView::New_ctor()  {
+GlobalNamespace::StandardLevelBuyView o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::StandardLevelBuyView>())};
+return o;
+}
  void GlobalNamespace::StandardLevelBuyView::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::StandardLevelBuyView>::get(),

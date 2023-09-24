@@ -67,8 +67,7 @@ static int32_t __get__baseColorBoostThresholdID() ;
 /// @brief Method SetGlobalShaderValues addr 0x26769f0 size 0x88 virtual false final false
 static void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold) ;
 
-// Ctor Parameters []
-explicit MainEffectCore() ;
+static GlobalNamespace::MainEffectCore New_ctor() ;
 
 /// @brief Method .ctor addr 0x2677404 size 0x8 virtual false final false
  void _ctor() ;

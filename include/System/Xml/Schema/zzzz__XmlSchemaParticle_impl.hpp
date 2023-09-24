@@ -1,7 +1,8 @@
 #pragma once
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/zzzz__Enum_impl.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
+#include "System/Xml/Schema/zzzz__XmlSchemaParticle_EmptyParticle_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -109,39 +110,13 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- System::Xml::Schema::XmlSchemaParticle::XmlSchemaParticle()  : System::Xml::Schema::XmlSchemaAnnotated(THROW_UNLESS(::il2cpp_utils::New<XmlSchemaParticle>())) {}
+ System::Xml::Schema::XmlSchemaParticle System::Xml::Schema::XmlSchemaParticle::New_ctor()  {
+System::Xml::Schema::XmlSchemaParticle o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::Schema::XmlSchemaParticle>())};
+return o;
+}
  void System::Xml::Schema::XmlSchemaParticle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::XmlSchemaParticle>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
-}
-//  Writing Method size for method: System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle._ctor
-template<>
-
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle::*)()>(&System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x27353e8;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle>::get(),
-                            ".ctor",
-                            std::vector<Il2CppClass*>{},
-                            ::std::vector<const Il2CppType*>{}
-                        )));
-    return ___internal_method;
-  }
-};
-// Ctor Parameters []
- System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle::System__Xml__Schema__XmlSchemaParticle__EmptyParticle()  : System::Xml::Schema::XmlSchemaParticle(THROW_UNLESS(::il2cpp_utils::New<System__Xml__Schema__XmlSchemaParticle__EmptyParticle>())) {}
- void System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle::_ctor()  {
-static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::Schema::System__Xml__Schema__XmlSchemaParticle__EmptyParticle>::get(),
                             ".ctor",
                             std::vector<Il2CppClass*>{},
                             ::std::vector<const Il2CppType*>{}

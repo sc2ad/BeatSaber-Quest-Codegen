@@ -1,6 +1,7 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__ParameterizedStrings_def.hpp"
+#include "System/zzzz__ParameterizedStrings_def.hpp"
 //  Writing Method size for method: System::System__ParameterizedStrings__FormatParam._ctor
 template<>
 
@@ -253,8 +254,10 @@ constexpr void System::System__ParameterizedStrings__LowLevelStack::__set__count
 constexpr int32_t System::System__ParameterizedStrings__LowLevelStack::__get__count() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::System__ParameterizedStrings__LowLevelStack::System__ParameterizedStrings__LowLevelStack()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ParameterizedStrings__LowLevelStack>())) {}
+ System::System__ParameterizedStrings__LowLevelStack System::System__ParameterizedStrings__LowLevelStack::New_ctor()  {
+System::System__ParameterizedStrings__LowLevelStack o{THROW_UNLESS(::il2cpp_utils::New<System::System__ParameterizedStrings__LowLevelStack>())};
+return o;
+}
  void System::System__ParameterizedStrings__LowLevelStack::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__ParameterizedStrings__LowLevelStack>::get(),

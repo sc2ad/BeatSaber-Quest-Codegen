@@ -2,29 +2,29 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class Attributes;
+}
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class Attributes;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -137,20 +137,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_unauthenticatedAttributes() con
 /// @brief Method GetInstance addr 0xdf2b10 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::SignerInfo GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "sid", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "digAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "authenticatedAttributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "digEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedDigest", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "unauthenticatedAttributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit SignerInfo(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Asn1Set authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Asn1Set unauthenticatedAttributes) ;
+static Org::BouncyCastle::Asn1::Cms::SignerInfo New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Asn1Set authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Asn1Set unauthenticatedAttributes) ;
 
 /// @brief Method .ctor addr 0xdf3344 size 0xc8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Asn1Set authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Asn1Set unauthenticatedAttributes) ;
 
-// Ctor Parameters [CppParam { name: "sid", ty: "Org::BouncyCastle::Asn1::Cms::SignerIdentifier", modifiers: "", def_value: None }, CppParam { name: "digAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "authenticatedAttributes", ty: "Org::BouncyCastle::Asn1::Cms::Attributes", modifiers: "", def_value: None }, CppParam { name: "digEncryptionAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "encryptedDigest", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "unauthenticatedAttributes", ty: "Org::BouncyCastle::Asn1::Cms::Attributes", modifiers: "", def_value: None }]
-explicit SignerInfo(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Cms::Attributes authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Cms::Attributes unauthenticatedAttributes) ;
+static Org::BouncyCastle::Asn1::Cms::SignerInfo New_ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Cms::Attributes authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Cms::Attributes unauthenticatedAttributes) ;
 
 /// @brief Method .ctor addr 0xdf3498 size 0xe4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::SignerIdentifier sid, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digAlgorithm, Org::BouncyCastle::Asn1::Cms::Attributes authenticatedAttributes, Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier digEncryptionAlgorithm, Org::BouncyCastle::Asn1::Asn1OctetString encryptedDigest, Org::BouncyCastle::Asn1::Cms::Attributes unauthenticatedAttributes) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit SignerInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::SignerInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf2c98 size 0x6ac virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -69,8 +69,7 @@ constexpr ::StringW __get_m_DispatchingFieldName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "url", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HelpURLAttribute(::StringW url) ;
+static UnityEngine::HelpURLAttribute New_ctor(::StringW url) ;
 
 /// @brief Method .ctor addr 0x2b5b370 size 0x68 virtual false final false
  void _ctor(::StringW url) ;

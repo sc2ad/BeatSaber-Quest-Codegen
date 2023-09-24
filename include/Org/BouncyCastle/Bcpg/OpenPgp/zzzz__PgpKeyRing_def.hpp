@@ -3,13 +3,13 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 namespace Org::BouncyCastle::Bcpg {
+class TrustPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace System::Collections {
 class IList;
-}
-namespace Org::BouncyCastle::Bcpg {
-class TrustPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -57,8 +57,7 @@ constexpr explicit PgpKeyRing(void* ptr) noexcept : Org::BouncyCastle::Bcpg::Ope
 
 // Methods
 
-// Ctor Parameters []
-explicit PgpKeyRing() ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing New_ctor() ;
 
 /// @brief Method .ctor addr 0x1021d4c size 0x8 virtual false final false
  void _ctor() ;

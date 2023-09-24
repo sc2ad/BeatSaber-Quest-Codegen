@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardEntry_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LeaderboardEntry.SetScore
 template<>
 
@@ -70,8 +70,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, score, playerName, rank, highlighted, showSeparator);
 }
-// Ctor Parameters []
- GlobalNamespace::LeaderboardEntry::LeaderboardEntry()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LeaderboardEntry>())) {}
+ GlobalNamespace::LeaderboardEntry GlobalNamespace::LeaderboardEntry::New_ctor()  {
+GlobalNamespace::LeaderboardEntry o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LeaderboardEntry>())};
+return o;
+}
  void GlobalNamespace::LeaderboardEntry::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LeaderboardEntry>::get(),

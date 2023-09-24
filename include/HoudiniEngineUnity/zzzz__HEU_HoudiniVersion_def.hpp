@@ -96,8 +96,7 @@ static constexpr ::ConstString  HARC_LIBRARY{u"/opt/hfs18.5.633/dsolib/libHARC.s
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_HoudiniVersion() ;
+static HoudiniEngineUnity::HEU_HoudiniVersion New_ctor() ;
 
 /// @brief Method .ctor addr 0x201f7f0 size 0x8 virtual false final false
  void _ctor() ;

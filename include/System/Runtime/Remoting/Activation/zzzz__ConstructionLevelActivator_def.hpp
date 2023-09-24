@@ -70,8 +70,7 @@ constexpr explicit ConstructionLevelActivator(void* ptr) noexcept : ::bs_hook::I
 /// @brief Method Activate addr 0x2338d50 size 0xf0 virtual true final true
  System::Runtime::Remoting::Activation::IConstructionReturnMessage Activate(System::Runtime::Remoting::Activation::IConstructionCallMessage msg) ;
 
-// Ctor Parameters []
-explicit ConstructionLevelActivator() ;
+static System::Runtime::Remoting::Activation::ConstructionLevelActivator New_ctor() ;
 
 /// @brief Method .ctor addr 0x23380e8 size 0x8 virtual false final false
  void _ctor() ;

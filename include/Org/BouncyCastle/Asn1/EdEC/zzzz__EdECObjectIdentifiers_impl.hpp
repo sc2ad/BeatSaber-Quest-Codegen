@@ -48,8 +48,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::__get_id_Ed448()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "id_Ed448", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::EdECObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EdECObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers>::get(),

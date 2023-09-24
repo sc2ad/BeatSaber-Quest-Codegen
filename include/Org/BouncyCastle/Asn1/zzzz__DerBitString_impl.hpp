@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::DerBitString.GetInstance
 template<>
 
@@ -296,8 +296,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::DerBitString, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "padBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerBitString::DerBitString(::ArrayW<uint8_t> data, int32_t padBits)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerBitString>(data, padBits))) {}
+ Org::BouncyCastle::Asn1::DerBitString Org::BouncyCastle::Asn1::DerBitString::New_ctor(::ArrayW<uint8_t> data, int32_t padBits)  {
+Org::BouncyCastle::Asn1::DerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerBitString>(data, padBits))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerBitString::_ctor(::ArrayW<uint8_t> data, int32_t padBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerBitString>::get(),
@@ -307,8 +309,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data, padBits);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerBitString::DerBitString(::ArrayW<uint8_t> data)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerBitString>(data))) {}
+ Org::BouncyCastle::Asn1::DerBitString Org::BouncyCastle::Asn1::DerBitString::New_ctor(::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Asn1::DerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerBitString>(data))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerBitString::_ctor(::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerBitString>::get(),
@@ -318,8 +322,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "namedBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerBitString::DerBitString(int32_t namedBits)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerBitString>(namedBits))) {}
+ Org::BouncyCastle::Asn1::DerBitString Org::BouncyCastle::Asn1::DerBitString::New_ctor(int32_t namedBits)  {
+Org::BouncyCastle::Asn1::DerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerBitString>(namedBits))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerBitString::_ctor(int32_t namedBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerBitString>::get(),
@@ -329,8 +335,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, namedBits);
 }
-// Ctor Parameters [CppParam { name: "obj", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::DerBitString::DerBitString(Org::BouncyCastle::Asn1::Asn1Encodable obj)  : Org::BouncyCastle::Asn1::DerStringBase(THROW_UNLESS(::il2cpp_utils::New<DerBitString>(obj))) {}
+ Org::BouncyCastle::Asn1::DerBitString Org::BouncyCastle::Asn1::DerBitString::New_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
+Org::BouncyCastle::Asn1::DerBitString o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::DerBitString>(obj))};
+return o;
+}
  void Org::BouncyCastle::Asn1::DerBitString::_ctor(Org::BouncyCastle::Asn1::Asn1Encodable obj)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::DerBitString>::get(),

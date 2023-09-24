@@ -94,8 +94,7 @@ static ::ArrayW<char16_t> __get_wsChars() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "procDir", ty: "::StringW", modifiers: "", def_value: None }]
-explicit MibIPGlobalProperties(::StringW procDir) ;
+static System::Net::NetworkInformation::MibIPGlobalProperties New_ctor(::StringW procDir) ;
 
 /// @brief Method .ctor addr 0x285df68 size 0x168 virtual false final false
  void _ctor(::StringW procDir) ;

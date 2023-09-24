@@ -121,8 +121,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Math::BigInteger, false>(nullptr, ___internal_method, p, q, random);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Crypto::Generators::DHParametersHelper::DHParametersHelper()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DHParametersHelper>())) {}
+ Org::BouncyCastle::Crypto::Generators::DHParametersHelper Org::BouncyCastle::Crypto::Generators::DHParametersHelper::New_ctor()  {
+Org::BouncyCastle::Crypto::Generators::DHParametersHelper o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Generators::DHParametersHelper>())};
+return o;
+}
  void Org::BouncyCastle::Crypto::Generators::DHParametersHelper::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Generators::DHParametersHelper>::get(),

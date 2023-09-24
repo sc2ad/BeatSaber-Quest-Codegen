@@ -64,8 +64,7 @@ constexpr explicit JTokenEqualityComparer(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method GetHashCode addr 0x2519498 size 0x24 virtual true final true
  int32_t GetHashCode(Newtonsoft::Json::Linq::JToken obj) ;
 
-// Ctor Parameters []
-explicit JTokenEqualityComparer() ;
+static Newtonsoft::Json::Linq::JTokenEqualityComparer New_ctor() ;
 
 /// @brief Method .ctor addr 0x25194bc size 0x8 virtual false final false
  void _ctor() ;

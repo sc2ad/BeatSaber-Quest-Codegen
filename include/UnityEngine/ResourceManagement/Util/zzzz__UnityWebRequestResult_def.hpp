@@ -101,8 +101,7 @@ constexpr ::StringW __get__Url_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "request", ty: "UnityEngine::Networking::UnityWebRequest", modifiers: "", def_value: None }]
-explicit UnityWebRequestResult(UnityEngine::Networking::UnityWebRequest request) ;
+static UnityEngine::ResourceManagement::Util::UnityWebRequestResult New_ctor(UnityEngine::Networking::UnityWebRequest request) ;
 
 /// @brief Method .ctor addr 0x2a3b92c size 0x108 virtual false final false
  void _ctor(UnityEngine::Networking::UnityWebRequest request) ;

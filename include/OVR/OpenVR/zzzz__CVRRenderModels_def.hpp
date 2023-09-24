@@ -7,22 +7,28 @@
 #include <cstddef>
 #include <cstdint>
 namespace OVR::OpenVR {
-struct RenderModel_ComponentState_t;
+struct RenderModel_ControllerMode_State_t;
 }
 namespace OVR::OpenVR {
 struct EVRRenderModelError;
 }
 namespace OVR::OpenVR {
-struct VRControllerState_t;
+class OVR__OpenVR__CVRRenderModels___GetComponentStatePacked;
 }
 namespace OVR::OpenVR {
-struct RenderModel_ControllerMode_State_t;
+struct OVR__OpenVR__CVRRenderModels__GetComponentStateUnion;
+}
+namespace OVR::OpenVR {
+struct IVRRenderModels;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-struct IVRRenderModels;
+struct RenderModel_ComponentState_t;
+}
+namespace OVR::OpenVR {
+struct VRControllerState_t;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t_Packed;
@@ -88,8 +94,7 @@ constexpr explicit OVR__OpenVR__CVRRenderModels___GetComponentStatePacked(void* 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit OVR__OpenVR__CVRRenderModels___GetComponentStatePacked(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static OVR::OpenVR::OVR__OpenVR__CVRRenderModels___GetComponentStatePacked New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2667654 size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -221,8 +226,7 @@ constexpr OVR::OpenVR::IVRRenderModels __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRRenderModels(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRRenderModels New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x2667120 size 0x114 virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

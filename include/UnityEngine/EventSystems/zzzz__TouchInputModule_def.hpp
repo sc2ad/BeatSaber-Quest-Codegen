@@ -2,11 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace UnityEngine {
-struct Vector2;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -88,8 +88,7 @@ constexpr bool __get_m_ForceModuleActive() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit TouchInputModule() ;
+static UnityEngine::EventSystems::TouchInputModule New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c25e2c size 0x4 virtual false final false
  void _ctor() ;

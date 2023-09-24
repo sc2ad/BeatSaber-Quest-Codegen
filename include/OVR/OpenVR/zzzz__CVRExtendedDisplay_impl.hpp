@@ -1,7 +1,7 @@
 #pragma once
 #include "OVR/OpenVR/zzzz__CVRExtendedDisplay_def.hpp"
-#include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
 #include "OVR/OpenVR/zzzz__EVREye_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::CVRExtendedDisplay._ctor
 template<>
 
@@ -76,8 +76,10 @@ constexpr void OVR::OpenVR::CVRExtendedDisplay::__set_FnTable(OVR::OpenVR::IVREx
 constexpr OVR::OpenVR::IVRExtendedDisplay OVR::OpenVR::CVRExtendedDisplay::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRExtendedDisplay, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRExtendedDisplay::CVRExtendedDisplay(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRExtendedDisplay>(pInterface))) {}
+ OVR::OpenVR::CVRExtendedDisplay OVR::OpenVR::CVRExtendedDisplay::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRExtendedDisplay o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRExtendedDisplay>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRExtendedDisplay::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRExtendedDisplay>::get(),

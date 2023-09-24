@@ -3,13 +3,13 @@
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace System::Xml {
+struct XmlNodeType;
+}
+namespace System::Xml {
 class XmlWriter;
 }
 namespace System::Xml::Linq {
 class XNode;
-}
-namespace System::Xml {
-struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml::Linq {
@@ -97,14 +97,12 @@ constexpr ::StringW __get__internalSubset() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }]
-explicit XDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) ;
+static System::Xml::Linq::XDocumentType New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) ;
 
 /// @brief Method .ctor addr 0x26cbfcc size 0x90 virtual false final false
  void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XDocumentType", modifiers: "", def_value: None }]
-explicit XDocumentType(System::Xml::Linq::XDocumentType other) ;
+static System::Xml::Linq::XDocumentType New_ctor(System::Xml::Linq::XDocumentType other) ;
 
 /// @brief Method .ctor addr 0x26cc05c size 0x84 virtual false final false
  void _ctor(System::Xml::Linq::XDocumentType other) ;

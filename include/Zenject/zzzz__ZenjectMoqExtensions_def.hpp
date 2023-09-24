@@ -6,14 +6,14 @@ template<typename TContract>
 class FromBinderGeneric_1;
 }
 namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 template<typename TContract>
 class FactoryFromBinder_1;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
 }
 // Forward declare root types
 namespace Zenject {

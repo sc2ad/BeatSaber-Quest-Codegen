@@ -201,8 +201,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, buffer, index, count);
 }
-// Ctor Parameters []
- UnityEngine::UnityLogWriter::UnityLogWriter()  : System::IO::TextWriter(THROW_UNLESS(::il2cpp_utils::New<UnityLogWriter>())) {}
+ UnityEngine::UnityLogWriter UnityEngine::UnityLogWriter::New_ctor()  {
+UnityEngine::UnityLogWriter o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityLogWriter>())};
+return o;
+}
  void UnityEngine::UnityLogWriter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityLogWriter>::get(),

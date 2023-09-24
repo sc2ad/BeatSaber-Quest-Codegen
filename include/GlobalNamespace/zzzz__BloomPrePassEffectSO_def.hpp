@@ -4,13 +4,13 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
-class IBloomPrePassParams;
-}
-namespace GlobalNamespace {
 struct ToneMapping;
 }
 namespace GlobalNamespace {
 class TextureEffectSO;
+}
+namespace GlobalNamespace {
+class IBloomPrePassParams;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -124,8 +124,7 @@ constexpr float_t __get__linesWidth() const;
 /// @brief Method get_toneMapping addr 0x1f94644 size 0x8 virtual true final false
  GlobalNamespace::ToneMapping get_toneMapping() ;
 
-// Ctor Parameters []
-explicit BloomPrePassEffectSO() ;
+static GlobalNamespace::BloomPrePassEffectSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f9464c size 0x20 virtual false final false
  void _ctor() ;

@@ -55,8 +55,7 @@ constexpr explicit WebRequestModulesSection(void* ptr) noexcept : System::Config
 
 // Methods
 
-// Ctor Parameters []
-explicit WebRequestModulesSection() ;
+static System::Net::Configuration::WebRequestModulesSection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b274c size 0x38 virtual false final false
  void _ctor() ;

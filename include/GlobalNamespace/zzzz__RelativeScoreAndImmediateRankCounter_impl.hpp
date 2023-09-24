@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RelativeScoreAndImmediateRankCounter_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter.add_relativeScoreOrImmediateRankDidChangeEvent
@@ -319,8 +319,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, score, modifiedScore, maxPossibleScore, maxPossibleModifiedScore);
 }
-// Ctor Parameters []
- GlobalNamespace::RelativeScoreAndImmediateRankCounter::RelativeScoreAndImmediateRankCounter()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<RelativeScoreAndImmediateRankCounter>())) {}
+ GlobalNamespace::RelativeScoreAndImmediateRankCounter GlobalNamespace::RelativeScoreAndImmediateRankCounter::New_ctor()  {
+GlobalNamespace::RelativeScoreAndImmediateRankCounter o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RelativeScoreAndImmediateRankCounter>())};
+return o;
+}
  void GlobalNamespace::RelativeScoreAndImmediateRankCounter::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RelativeScoreAndImmediateRankCounter>::get(),

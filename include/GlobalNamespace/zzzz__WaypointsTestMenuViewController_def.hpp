@@ -5,48 +5,45 @@
 #include <cstdint>
 namespace System::Collections::Generic {
 template<typename T>
-class List_1;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace System::Collections::Generic {
-template<typename T>
-struct System__Collections__Generic__List_1__Enumerator;
+class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace System::Collections::Generic {
 template<typename T>
-class IEnumerator_1;
+struct System__Collections__Generic__List_1__Enumerator;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace GlobalNamespace {
-class ICoroutineStarter;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
-class PlayerDataModel;
+class ICoroutineStarter;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -54,8 +51,14 @@ class ButtonBinder;
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -197,8 +200,7 @@ constexpr GlobalNamespace::BeatmapDifficulty __get__difficulty_5__9() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__WaypointsTestMenuViewController___CheckBeatmaps_d__14 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x20acb88 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -362,8 +364,7 @@ constexpr bool __get__waitingForLevelFinish() const;
 /// @brief Method HandleMainGameSceneDidFinish addr 0x20acbb0 size 0x94 virtual false final false
  void HandleMainGameSceneDidFinish(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO data, GlobalNamespace::LevelCompletionResults results) ;
 
-// Ctor Parameters []
-explicit WaypointsTestMenuViewController() ;
+static GlobalNamespace::WaypointsTestMenuViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x20acc44 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BasicBeatmapEventData.get_previousSameTypeEventData
 template<>
@@ -241,8 +241,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "basicBeatmapEventType", ty: "GlobalNamespace::BasicBeatmapEventType", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "floatValue", ty: "float_t", modifiers: "", def_value: None }]
- GlobalNamespace::BasicBeatmapEventData::BasicBeatmapEventData(float_t time, GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<BasicBeatmapEventData>(time, basicBeatmapEventType, value, floatValue))) {}
+ GlobalNamespace::BasicBeatmapEventData GlobalNamespace::BasicBeatmapEventData::New_ctor(float_t time, GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue)  {
+GlobalNamespace::BasicBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BasicBeatmapEventData>(time, basicBeatmapEventType, value, floatValue))};
+return o;
+}
  void GlobalNamespace::BasicBeatmapEventData::_ctor(float_t time, GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BasicBeatmapEventData>::get(),

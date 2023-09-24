@@ -86,8 +86,7 @@ constexpr bool __get_useDerEncoding() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Pkcs12StoreBuilder() ;
+static Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder New_ctor() ;
 
 /// @brief Method .ctor addr 0x1059fe8 size 0x78 virtual false final false
  void _ctor() ;

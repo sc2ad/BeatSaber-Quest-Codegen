@@ -60,8 +60,7 @@ static constexpr uint8_t  peer_not_allowed_to_send{2u};
 /// @brief Method IsValid addr 0xf045f4 size 0x14 virtual false final false
 static bool IsValid(uint8_t heartbeatMode) ;
 
-// Ctor Parameters []
-explicit HeartbeatMode() ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatMode New_ctor() ;
 
 /// @brief Method .ctor addr 0xf04d20 size 0x8 virtual false final false
  void _ctor() ;

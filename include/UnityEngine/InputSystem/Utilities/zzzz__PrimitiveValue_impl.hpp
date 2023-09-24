@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/zzzz__TypeCode_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__TypeCode_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::Utilities::PrimitiveValue.get_valuePtr
 template<>
 

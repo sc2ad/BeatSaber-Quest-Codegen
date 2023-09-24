@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class DigestInputBuffer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsHandshakeHash;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DigestInputBuffer;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -106,14 +106,12 @@ constexpr int32_t __get_mPrfHashAlgorithm() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DeferredHash() ;
+static Org::BouncyCastle::Crypto::Tls::DeferredHash New_ctor() ;
 
 /// @brief Method .ctor addr 0xed77f8 size 0xa4 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "prfHashAlgorithm", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "prfHash", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit DeferredHash(uint8_t prfHashAlgorithm, Org::BouncyCastle::Crypto::IDigest prfHash) ;
+static Org::BouncyCastle::Crypto::Tls::DeferredHash New_ctor(uint8_t prfHashAlgorithm, Org::BouncyCastle::Crypto::IDigest prfHash) ;
 
 /// @brief Method .ctor addr 0xed78a4 size 0x138 virtual false final false
  void _ctor(uint8_t prfHashAlgorithm, Org::BouncyCastle::Crypto::IDigest prfHash) ;

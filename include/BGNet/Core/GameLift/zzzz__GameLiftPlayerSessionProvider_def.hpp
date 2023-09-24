@@ -5,91 +5,103 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-class RollingAverage;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 struct KeyValuePair_2;
 }
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
 namespace GlobalNamespace {
-class INetworkConfig;
-}
-namespace GlobalNamespace {
-class IPollable;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+class RollingAverage;
 }
 namespace BGNet::Core::GameLift {
 class IGameLiftPlayerSessionProvider;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class XPlatformAccessTokenData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class GraphAPIClient;
-}
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
-}
-namespace GlobalNamespace {
-class XPlatformAuthFeatureFlag;
-}
-namespace System {
-template<typename T1,typename T2>
-struct ValueTuple_2;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+class INetworkConfig;
+}
+namespace BGNet::Core::GameLift {
+struct BGNet__Core__GameLift__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15;
+}
+namespace BGNet::Core::GameLift {
+struct BGNet__Core__GameLift__GameLiftPlayerSessionProvider___PingRegionAsync_d__17;
+}
+namespace GlobalNamespace {
+class XPlatformAuthFeatureFlag;
+}
+namespace BGNet::Core::GameLift {
+struct BGNet__Core__GameLift__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
+}
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
+}
+namespace BGNet::Core::GameLift {
+class BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c;
+}
+namespace System {
+template<typename T1,typename T2>
+struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class XPlatformAccessTokenData;
 }
-namespace System::Diagnostics {
-class Stopwatch;
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
 }
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace GlobalNamespace {
+class GraphAPIClient;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IPollable;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AuthenticationToken__Platform;
 }
 namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
+struct TaskAwaiter;
 }
 namespace BGNet::Core::GameLift {
 struct GetMultiplayerInstanceResponse;
 }
+namespace System::Diagnostics {
+class Stopwatch;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
+}
 namespace GlobalNamespace {
 struct AuthenticationToken;
 }
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
 namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
+class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -465,8 +477,7 @@ static System::Func_2<System::Collections::Generic::KeyValuePair_2<::StringW,Glo
 
 // Methods
 
-// Ctor Parameters []
-explicit BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c() ;
+static BGNet::Core::GameLift::BGNet__Core__GameLift__GameLiftPlayerSessionProvider____c New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd3970 size 0x8 virtual false final false
  void _ctor() ;
@@ -683,8 +694,7 @@ constexpr int64_t __get__lastPingTime() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "networkConfig", ty: "GlobalNamespace::INetworkConfig", modifiers: "", def_value: None }, CppParam { name: "xPlatformAuthFeatureFlag", ty: "GlobalNamespace::XPlatformAuthFeatureFlag", modifiers: "", def_value: None }]
-explicit GameLiftPlayerSessionProvider(GlobalNamespace::INetworkConfig networkConfig, GlobalNamespace::XPlatformAuthFeatureFlag xPlatformAuthFeatureFlag) ;
+static BGNet::Core::GameLift::GameLiftPlayerSessionProvider New_ctor(GlobalNamespace::INetworkConfig networkConfig, GlobalNamespace::XPlatformAuthFeatureFlag xPlatformAuthFeatureFlag) ;
 
 /// @brief Method .ctor addr 0xdd1090 size 0x1a4 virtual false final false
  void _ctor(GlobalNamespace::INetworkConfig networkConfig, GlobalNamespace::XPlatformAuthFeatureFlag xPlatformAuthFeatureFlag) ;

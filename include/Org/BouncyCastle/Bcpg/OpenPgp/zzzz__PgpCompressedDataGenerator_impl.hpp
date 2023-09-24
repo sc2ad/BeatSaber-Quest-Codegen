@@ -3,8 +3,9 @@
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpCompressedDataGenerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__CompressionAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__IStreamGenerator_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__CompressionAlgorithmTag_def.hpp"
+#include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpCompressedDataGenerator_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream._ctor
 template<>
@@ -40,8 +41,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream(System::IO::Stream output)  : Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream>(output))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream::New_ctor(System::IO::Stream output)  {
+Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream>(output))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream::_ctor(System::IO::Stream output)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeCBZip2OutputStream>::get(),
@@ -94,8 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "output", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "level", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nowrap", ty: "bool", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream(System::IO::Stream output, int32_t level, bool nowrap)  : Org::BouncyCastle::Utilities::Zlib::ZOutputStream(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream>(output, level, nowrap))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream::New_ctor(System::IO::Stream output, int32_t level, bool nowrap)  {
+Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream>(output, level, nowrap))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream::_ctor(System::IO::Stream output, int32_t level, bool nowrap)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpCompressedDataGenerator__SafeZOutputStream>::get(),
@@ -244,8 +249,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::__s
 constexpr Org::BouncyCastle::Bcpg::BcpgOutputStream Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::__get_pkOut() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Bcpg::BcpgOutputStream, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::CompressionAlgorithmTag", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::PgpCompressedDataGenerator(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpCompressedDataGenerator>(algorithm))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::New_ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator>(algorithm))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::_ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator>::get(),
@@ -255,8 +262,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, algorithm);
 }
-// Ctor Parameters [CppParam { name: "algorithm", ty: "Org::BouncyCastle::Bcpg::CompressionAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "compression", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::PgpCompressedDataGenerator(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PgpCompressedDataGenerator>(algorithm, compression))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::New_ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator>(algorithm, compression))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator::_ctor(Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator>::get(),

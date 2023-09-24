@@ -98,8 +98,11 @@ constexpr void UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::__set__Previous_
 constexpr UnityEngine::ProBuilder::Poly2Tri::PolygonPoint UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::__get__Previous_k__BackingField() const {
 return ::cordl_internals::getInstanceField<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("-1") }]
- UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::PolygonPoint(double_t x, double_t y, int32_t index)  : UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint(THROW_UNLESS(::il2cpp_utils::New<PolygonPoint>(x, y, index))) {}
+/// @param index: int32_t (default: -1)
+ UnityEngine::ProBuilder::Poly2Tri::PolygonPoint UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::New_ctor(double_t x, double_t y, int32_t index)  {
+UnityEngine::ProBuilder::Poly2Tri::PolygonPoint o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ProBuilder::Poly2Tri::PolygonPoint>(x, y, index))};
+return o;
+}
 /// @param index: int32_t (default: -1)
  void UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::_ctor(double_t x, double_t y, int32_t index)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

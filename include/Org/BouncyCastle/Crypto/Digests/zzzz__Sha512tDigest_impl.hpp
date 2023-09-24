@@ -243,8 +243,10 @@ constexpr void Org::BouncyCastle::Crypto::Digests::Sha512tDigest::__set_H8t(uint
 constexpr uint64_t Org::BouncyCastle::Crypto::Digests::Sha512tDigest::__get_H8t() const {
 return ::cordl_internals::getInstanceField<uint64_t, 0xc0>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bitLength", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Sha512tDigest::Sha512tDigest(int32_t bitLength)  : Org::BouncyCastle::Crypto::Digests::LongDigest(THROW_UNLESS(::il2cpp_utils::New<Sha512tDigest>(bitLength))) {}
+ Org::BouncyCastle::Crypto::Digests::Sha512tDigest Org::BouncyCastle::Crypto::Digests::Sha512tDigest::New_ctor(int32_t bitLength)  {
+Org::BouncyCastle::Crypto::Digests::Sha512tDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Sha512tDigest>(bitLength))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Sha512tDigest::_ctor(int32_t bitLength)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Sha512tDigest>::get(),
@@ -254,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bitLength);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha512tDigest", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Digests::Sha512tDigest::Sha512tDigest(Org::BouncyCastle::Crypto::Digests::Sha512tDigest t)  : Org::BouncyCastle::Crypto::Digests::LongDigest(THROW_UNLESS(::il2cpp_utils::New<Sha512tDigest>(t))) {}
+ Org::BouncyCastle::Crypto::Digests::Sha512tDigest Org::BouncyCastle::Crypto::Digests::Sha512tDigest::New_ctor(Org::BouncyCastle::Crypto::Digests::Sha512tDigest t)  {
+Org::BouncyCastle::Crypto::Digests::Sha512tDigest o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Digests::Sha512tDigest>(t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Digests::Sha512tDigest::_ctor(Org::BouncyCastle::Crypto::Digests::Sha512tDigest t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Digests::Sha512tDigest>::get(),

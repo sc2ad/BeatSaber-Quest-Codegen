@@ -4,11 +4,11 @@
 #include "GlobalNamespace/zzzz__LightGroupTranslationYTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupTranslationZTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_def.hpp"
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 class IEditTimeValidated;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,7 +17,7 @@ class LightTranslationGroup;
 // Type: ::LightTranslationGroup
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 3819 }), TypeDefinitionIndex(TypeDefinitionIndex(5036)), TypeDefinitionIndex(TypeDefinitionIndex(5038)), TypeDefinitionIndex(TypeDefinitionIndex(5043))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5043), inst: 3819 }), TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5038)), TypeDefinitionIndex(TypeDefinitionIndex(5037)), TypeDefinitionIndex(TypeDefinitionIndex(5036))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5044))
 // CS Name: LightTranslationGroup
 class CORDL_TYPE LightTranslationGroup : public GlobalNamespace::LightTransformGroup_3<GlobalNamespace::LightGroupTranslationXTransform,GlobalNamespace::LightGroupTranslationYTransform,GlobalNamespace::LightGroupTranslationZTransform> {
@@ -134,8 +134,7 @@ constexpr UnityEngine::Vector2 __get__zDistributionLimits() const;
 /// @brief Method __Validate addr 0x225f60c size 0x21c virtual false final false
  bool __Validate() ;
 
-// Ctor Parameters []
-explicit LightTranslationGroup() ;
+static GlobalNamespace::LightTranslationGroup New_ctor() ;
 
 /// @brief Method .ctor addr 0x225f828 size 0x48 virtual false final false
  void _ctor() ;

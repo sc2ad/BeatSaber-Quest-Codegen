@@ -58,8 +58,7 @@ constexpr explicit InvertProcessor(void* ptr) noexcept : UnityEngine::InputSyste
 /// @brief Method ToString addr 0x29669e0 size 0x40 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters []
-explicit InvertProcessor() ;
+static UnityEngine::InputSystem::Processors::InvertProcessor New_ctor() ;
 
 /// @brief Method .ctor addr 0x2966a20 size 0x48 virtual false final false
  void _ctor() ;

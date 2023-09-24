@@ -77,8 +77,10 @@ constexpr void System::Runtime::CompilerServices::RuntimeWrappedException::__set
 constexpr ::bs_hook::Il2CppWrapperType System::Runtime::CompilerServices::RuntimeWrappedException::__get__wrappedException() const {
 return ::cordl_internals::getInstanceField<::bs_hook::Il2CppWrapperType, 0x90>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "thrownObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::RuntimeWrappedException::RuntimeWrappedException(::bs_hook::Il2CppWrapperType thrownObject)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<RuntimeWrappedException>(thrownObject))) {}
+ System::Runtime::CompilerServices::RuntimeWrappedException System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor(::bs_hook::Il2CppWrapperType thrownObject)  {
+System::Runtime::CompilerServices::RuntimeWrappedException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::RuntimeWrappedException>(thrownObject))};
+return o;
+}
  void System::Runtime::CompilerServices::RuntimeWrappedException::_ctor(::bs_hook::Il2CppWrapperType thrownObject)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::RuntimeWrappedException>::get(),
@@ -88,8 +90,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, thrownObject);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::CompilerServices::RuntimeWrappedException::RuntimeWrappedException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<RuntimeWrappedException>(info, context))) {}
+ System::Runtime::CompilerServices::RuntimeWrappedException System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::CompilerServices::RuntimeWrappedException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::RuntimeWrappedException>(info, context))};
+return o;
+}
  void System::Runtime::CompilerServices::RuntimeWrappedException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::RuntimeWrappedException>::get(),
@@ -108,8 +112,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, info, context);
 }
-// Ctor Parameters []
- System::Runtime::CompilerServices::RuntimeWrappedException::RuntimeWrappedException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<RuntimeWrappedException>())) {}
+ System::Runtime::CompilerServices::RuntimeWrappedException System::Runtime::CompilerServices::RuntimeWrappedException::New_ctor()  {
+System::Runtime::CompilerServices::RuntimeWrappedException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::CompilerServices::RuntimeWrappedException>())};
+return o;
+}
  void System::Runtime::CompilerServices::RuntimeWrappedException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::CompilerServices::RuntimeWrappedException>::get(),

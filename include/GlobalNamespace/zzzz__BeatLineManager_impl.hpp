@@ -2,13 +2,12 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__BeatLine_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__BeatLine_def.hpp"
-#include "GlobalNamespace/zzzz__BeatLine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatLineManager.get_isMidRotationValid
 template<>
 
@@ -262,8 +261,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, noteController);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatLineManager::BeatLineManager()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatLineManager>())) {}
+ GlobalNamespace::BeatLineManager GlobalNamespace::BeatLineManager::New_ctor()  {
+GlobalNamespace::BeatLineManager o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatLineManager>())};
+return o;
+}
  void GlobalNamespace::BeatLineManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatLineManager>::get(),

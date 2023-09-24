@@ -7,11 +7,11 @@
 namespace System {
 class IFormatProvider;
 }
-namespace System {
-class IFormattable;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace System {
+class IFormattable;
 }
 // Forward declare root types
 namespace UnityEngine {

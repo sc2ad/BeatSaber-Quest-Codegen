@@ -45,8 +45,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::AssetBundle, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::AssetBundleCreateRequest::AssetBundleCreateRequest()  : UnityEngine::AsyncOperation(THROW_UNLESS(::il2cpp_utils::New<AssetBundleCreateRequest>())) {}
+ UnityEngine::AssetBundleCreateRequest UnityEngine::AssetBundleCreateRequest::New_ctor()  {
+UnityEngine::AssetBundleCreateRequest o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AssetBundleCreateRequest>())};
+return o;
+}
  void UnityEngine::AssetBundleCreateRequest::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::AssetBundleCreateRequest>::get(),

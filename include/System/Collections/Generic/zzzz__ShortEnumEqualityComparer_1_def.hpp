@@ -3,10 +3,10 @@
 #include "System/Collections/Generic/zzzz__EnumEqualityComparer_1_def.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -21,7 +21,7 @@ namespace System::Collections::Generic {
 // cpp template
 template<typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3859)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3859), inst: 1591 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3859), inst: 1591 }), TypeDefinitionIndex(TypeDefinitionIndex(3859))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3861))
 // CS Name: System.Collections.Generic.ShortEnumEqualityComparer`1
 class CORDL_TYPE ShortEnumEqualityComparer_1 : public System::Collections::Generic::EnumEqualityComparer_1<T> {
@@ -63,14 +63,12 @@ constexpr explicit ShortEnumEqualityComparer_1(void* ptr) noexcept : System::Col
 
 // Methods
 
-// Ctor Parameters []
-explicit ShortEnumEqualityComparer_1() ;
+static System::Collections::Generic::ShortEnumEqualityComparer_1 New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "information", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit ShortEnumEqualityComparer_1(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;
+static System::Collections::Generic::ShortEnumEqualityComparer_1 New_ctor(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo information, System::Runtime::Serialization::StreamingContext context) ;

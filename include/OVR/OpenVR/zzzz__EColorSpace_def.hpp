@@ -57,6 +57,8 @@ constexpr operator __EColorSpace_Unwrapped () const noexcept {
 return std::bit_cast<__EColorSpace_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

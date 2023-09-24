@@ -2,11 +2,12 @@
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
 #include "System/Text/zzzz__Encoding_impl.hpp"
 #include "System/Text/zzzz__UnicodeEncoding_def.hpp"
-#include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__Decoder_def.hpp"
-#include "System/Text/zzzz__Encoder_def.hpp"
+#include "System/Text/zzzz__UnicodeEncoding_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/Text/zzzz__DecoderNLS_def.hpp"
+#include "System/Text/zzzz__Encoder_def.hpp"
 //  Writing Method size for method: System::Text::System__Text__UnicodeEncoding__Decoder._ctor
 template<>
 
@@ -70,8 +71,10 @@ constexpr void System::Text::System__Text__UnicodeEncoding__Decoder::__set_lastC
 constexpr char16_t System::Text::System__Text__UnicodeEncoding__Decoder::__get_lastChar() const {
 return ::cordl_internals::getInstanceField<char16_t, 0x34>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::UnicodeEncoding", modifiers: "", def_value: None }]
- System::Text::System__Text__UnicodeEncoding__Decoder::System__Text__UnicodeEncoding__Decoder(System::Text::UnicodeEncoding encoding)  : System::Text::DecoderNLS(THROW_UNLESS(::il2cpp_utils::New<System__Text__UnicodeEncoding__Decoder>(encoding))) {}
+ System::Text::System__Text__UnicodeEncoding__Decoder System::Text::System__Text__UnicodeEncoding__Decoder::New_ctor(System::Text::UnicodeEncoding encoding)  {
+System::Text::System__Text__UnicodeEncoding__Decoder o{THROW_UNLESS(::il2cpp_utils::New<System::Text::System__Text__UnicodeEncoding__Decoder>(encoding))};
+return o;
+}
  void System::Text::System__Text__UnicodeEncoding__Decoder::_ctor(System::Text::UnicodeEncoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::System__Text__UnicodeEncoding__Decoder>::get(),
@@ -606,8 +609,10 @@ return ::cordl_internals::getInstanceField<bool, 0x3a>(this->::bs_hook::Il2CppWr
  uint64_t System::Text::UnicodeEncoding::__get_highLowPatternMask()  {
 return ::cordl_internals::getStaticField<uint64_t, "highLowPatternMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UnicodeEncoding>::get>();
 }
-// Ctor Parameters []
- System::Text::UnicodeEncoding::UnicodeEncoding()  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UnicodeEncoding>())) {}
+ System::Text::UnicodeEncoding System::Text::UnicodeEncoding::New_ctor()  {
+System::Text::UnicodeEncoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UnicodeEncoding>())};
+return o;
+}
  void System::Text::UnicodeEncoding::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UnicodeEncoding>::get(),
@@ -617,8 +622,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "byteOrderMark", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UnicodeEncoding::UnicodeEncoding(bool bigEndian, bool byteOrderMark)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UnicodeEncoding>(bigEndian, byteOrderMark))) {}
+ System::Text::UnicodeEncoding System::Text::UnicodeEncoding::New_ctor(bool bigEndian, bool byteOrderMark)  {
+System::Text::UnicodeEncoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UnicodeEncoding>(bigEndian, byteOrderMark))};
+return o;
+}
  void System::Text::UnicodeEncoding::_ctor(bool bigEndian, bool byteOrderMark)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UnicodeEncoding>::get(),
@@ -628,8 +635,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, bigEndian, byteOrderMark);
 }
-// Ctor Parameters [CppParam { name: "bigEndian", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "byteOrderMark", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "throwOnInvalidBytes", ty: "bool", modifiers: "", def_value: None }]
- System::Text::UnicodeEncoding::UnicodeEncoding(bool bigEndian, bool byteOrderMark, bool throwOnInvalidBytes)  : System::Text::Encoding(THROW_UNLESS(::il2cpp_utils::New<UnicodeEncoding>(bigEndian, byteOrderMark, throwOnInvalidBytes))) {}
+ System::Text::UnicodeEncoding System::Text::UnicodeEncoding::New_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidBytes)  {
+System::Text::UnicodeEncoding o{THROW_UNLESS(::il2cpp_utils::New<System::Text::UnicodeEncoding>(bigEndian, byteOrderMark, throwOnInvalidBytes))};
+return o;
+}
  void System::Text::UnicodeEncoding::_ctor(bool bigEndian, bool byteOrderMark, bool throwOnInvalidBytes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::UnicodeEncoding>::get(),

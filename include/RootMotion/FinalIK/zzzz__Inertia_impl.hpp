@@ -3,6 +3,7 @@
 #include "RootMotion/FinalIK/zzzz__Inertia_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetModifier_def.hpp"
+#include "RootMotion/FinalIK/zzzz__Inertia_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKSolverFullBodyBiped_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -35,8 +36,10 @@ constexpr void GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink
 constexpr float_t GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink::__get_weight() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink::RootMotion__FinalIK__Inertia__Body__EffectorLink()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Inertia__Body__EffectorLink>())) {}
+ GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink::New_ctor()  {
+GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink>())};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__Inertia__Body__EffectorLink>::get(),
@@ -181,8 +184,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, solver, weight, deltaTime);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body::RootMotion__FinalIK__Inertia__Body()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__Inertia__Body>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__Inertia__Body>::get(),
@@ -273,8 +278,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::Inertia::Inertia()  : RootMotion::FinalIK::OffsetModifier(THROW_UNLESS(::il2cpp_utils::New<Inertia>())) {}
+ RootMotion::FinalIK::Inertia RootMotion::FinalIK::Inertia::New_ctor()  {
+RootMotion::FinalIK::Inertia o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::Inertia>())};
+return o;
+}
  void RootMotion::FinalIK::Inertia::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::Inertia>::get(),

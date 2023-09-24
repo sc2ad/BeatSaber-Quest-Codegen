@@ -1,10 +1,10 @@
 #pragma once
 #include "RootMotion/zzzz__BakerTransform_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: RootMotion::BakerTransform._ctor
 template<>
 
@@ -219,8 +219,10 @@ constexpr void RootMotion::BakerTransform::__set_relativeRotation(UnityEngine::Q
 constexpr UnityEngine::Quaternion RootMotion::BakerTransform::__get_relativeRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x6c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "root", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "recordPosition", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRootNode", ty: "bool", modifiers: "", def_value: None }]
- RootMotion::BakerTransform::BakerTransform(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BakerTransform>(transform, root, recordPosition, isRootNode))) {}
+ RootMotion::BakerTransform RootMotion::BakerTransform::New_ctor(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode)  {
+RootMotion::BakerTransform o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::BakerTransform>(transform, root, recordPosition, isRootNode))};
+return o;
+}
  void RootMotion::BakerTransform::_ctor(UnityEngine::Transform transform, UnityEngine::Transform root, bool recordPosition, bool isRootNode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::BakerTransform>::get(),

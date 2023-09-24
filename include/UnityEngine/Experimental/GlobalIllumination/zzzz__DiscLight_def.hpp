@@ -4,19 +4,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
-namespace UnityEngine {
-struct Vector3;
+struct LinearColor;
 }
 namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
+struct LightMode;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+struct FalloffType;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {

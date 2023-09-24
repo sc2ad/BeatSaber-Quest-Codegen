@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightPairSinMoveEventEffect_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__LightPairSinMoveEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData._ctor
 template<>
 
@@ -67,8 +68,10 @@ constexpr void GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__Mo
 constexpr float_t GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData::__get_side() const {
 return ::cordl_internals::getInstanceField<float_t, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData::GlobalNamespace__LightPairSinMoveEventEffect__MovementData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__LightPairSinMoveEventEffect__MovementData>())) {}
+ GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData::New_ctor()  {
+GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__LightPairSinMoveEventEffect__MovementData>::get(),
@@ -321,8 +324,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, beatmapEventDataValue, movementData, movementValueOffset);
 }
-// Ctor Parameters []
- GlobalNamespace::LightPairSinMoveEventEffect::LightPairSinMoveEventEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<LightPairSinMoveEventEffect>())) {}
+ GlobalNamespace::LightPairSinMoveEventEffect GlobalNamespace::LightPairSinMoveEventEffect::New_ctor()  {
+GlobalNamespace::LightPairSinMoveEventEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightPairSinMoveEventEffect>())};
+return o;
+}
  void GlobalNamespace::LightPairSinMoveEventEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightPairSinMoveEventEffect>::get(),

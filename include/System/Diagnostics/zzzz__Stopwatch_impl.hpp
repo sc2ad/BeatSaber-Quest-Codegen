@@ -219,8 +219,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Diagnostics::Stopwatch, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- System::Diagnostics::Stopwatch::Stopwatch()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Stopwatch>())) {}
+ System::Diagnostics::Stopwatch System::Diagnostics::Stopwatch::New_ctor()  {
+System::Diagnostics::Stopwatch o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::Stopwatch>())};
+return o;
+}
  void System::Diagnostics::Stopwatch::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::Stopwatch>::get(),

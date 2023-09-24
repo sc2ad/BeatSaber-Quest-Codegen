@@ -6,6 +6,15 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__StylePropertyNameCollection__Enumerator;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -13,12 +22,6 @@ class List_1;
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
 }
 namespace System::Collections {
 class IEnumerator;

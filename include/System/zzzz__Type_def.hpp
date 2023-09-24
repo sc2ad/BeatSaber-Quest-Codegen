@@ -6,46 +6,36 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
 namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class Module;
-}
-namespace System {
-struct RuntimeTypeHandle;
-}
-namespace System::Reflection {
-struct BindingFlags;
+class MethodBase;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename TResult>
 class Func_4;
 }
+namespace System::Reflection {
+struct GenericParameterAttributes;
+}
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System {
-struct Guid;
-}
-namespace System::Reflection {
-struct TypeAttributes;
-}
-namespace System::Reflection {
-struct MemberTypes;
-}
-namespace System {
-struct TypeCode;
 }
 namespace System::Reflection {
 class MemberFilter;
 }
 namespace System::Reflection {
-class AssemblyName;
+class Module;
+}
+namespace System::Reflection {
+struct TypeAttributes;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Reflection {
+class Binder;
+}
+namespace System {
+struct Guid;
 }
 namespace System::Reflection {
 class MemberInfo;
@@ -54,34 +44,44 @@ namespace System::Reflection {
 struct ParameterModifier;
 }
 namespace System::Reflection {
-struct GenericParameterAttributes;
+struct CallingConventions;
+}
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Reflection {
 class MethodInfo;
 }
+namespace System::Reflection {
+struct MemberTypes;
+}
 namespace System {
-class Array;
+struct TypeCode;
 }
 namespace System::Reflection {
-class Binder;
+struct BindingFlags;
 }
 namespace System::Reflection {
 class PropertyInfo;
 }
-namespace System::Reflection {
-class MethodBase;
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System::Reflection {
-class EventInfo;
+class AssemblyName;
 }
-namespace System::Reflection {
-struct CallingConventions;
+namespace System {
+class Array;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Reflection {
 class FieldInfo;
+}
+namespace System::Reflection {
+class EventInfo;
 }
 // Forward declare root types
 namespace System {
@@ -346,8 +346,7 @@ static bool FilterNameImpl(System::Reflection::MemberInfo m, ::bs_hook::Il2CppWr
 /// @brief Method FilterNameIgnoreCaseImpl addr 0x245ae00 size 0x194 virtual false final false
 static bool FilterNameIgnoreCaseImpl(System::Reflection::MemberInfo m, ::bs_hook::Il2CppWrapperType filterCriteria) ;
 
-// Ctor Parameters []
-explicit Type() ;
+static System::Type New_ctor() ;
 
 /// @brief Method .ctor addr 0x245af94 size 0x8 virtual false final false
  void _ctor() ;

@@ -31,8 +31,10 @@ constexpr void HoudiniEngineUnity::HEU_PreAssetEventData::__set_AssetType(Houdin
 constexpr HoudiniEngineUnity::HEU_AssetEventType HoudiniEngineUnity::HEU_PreAssetEventData::__get_AssetType() const {
 return ::cordl_internals::getInstanceField<HoudiniEngineUnity::HEU_AssetEventType, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "asset", ty: "HoudiniEngineUnity::HEU_HoudiniAsset", modifiers: "", def_value: None }, CppParam { name: "assetType", ty: "HoudiniEngineUnity::HEU_AssetEventType", modifiers: "", def_value: None }]
- HoudiniEngineUnity::HEU_PreAssetEventData::HEU_PreAssetEventData(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HEU_PreAssetEventData>(asset, assetType))) {}
+ HoudiniEngineUnity::HEU_PreAssetEventData HoudiniEngineUnity::HEU_PreAssetEventData::New_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType)  {
+HoudiniEngineUnity::HEU_PreAssetEventData o{THROW_UNLESS(::il2cpp_utils::New<HoudiniEngineUnity::HEU_PreAssetEventData>(asset, assetType))};
+return o;
+}
  void HoudiniEngineUnity::HEU_PreAssetEventData::_ctor(HoudiniEngineUnity::HEU_HoudiniAsset asset, HoudiniEngineUnity::HEU_AssetEventType assetType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HoudiniEngineUnity::HEU_PreAssetEventData>::get(),

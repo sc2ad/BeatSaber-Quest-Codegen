@@ -8,6 +8,9 @@
 namespace System {
 struct DateTime;
 }
+namespace System::Globalization {
+struct System__Globalization__UmAlQuraCalendar__DateMapping;
+}
 namespace System {
 struct DayOfWeek;
 }
@@ -172,8 +175,7 @@ static ::ArrayW<System::Globalization::System__Globalization__UmAlQuraCalendar__
 /// @brief Method get_MaxSupportedDateTime addr 0x23fb560 size 0x58 virtual true final false
  System::DateTime get_MaxSupportedDateTime() ;
 
-// Ctor Parameters []
-explicit UmAlQuraCalendar() ;
+static System::Globalization::UmAlQuraCalendar New_ctor() ;
 
 /// @brief Method .ctor addr 0x23fb5b8 size 0x8 virtual false final false
  void _ctor() ;

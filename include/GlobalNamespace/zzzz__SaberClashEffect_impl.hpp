@@ -1,11 +1,10 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberClashEffect_def.hpp"
-#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "GlobalNamespace/zzzz__SaberClashChecker_def.hpp"
+#include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
+#include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 //  Writing Method size for method: GlobalNamespace::SaberClashEffect.Start
 template<>
@@ -156,8 +155,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::SaberClashEffect::SaberClashEffect()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<SaberClashEffect>())) {}
+ GlobalNamespace::SaberClashEffect GlobalNamespace::SaberClashEffect::New_ctor()  {
+GlobalNamespace::SaberClashEffect o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SaberClashEffect>())};
+return o;
+}
  void GlobalNamespace::SaberClashEffect::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SaberClashEffect>::get(),

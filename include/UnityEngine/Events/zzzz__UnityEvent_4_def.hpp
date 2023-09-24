@@ -28,7 +28,7 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10397)), TypeDefinitionIndex(TypeDefinitionIndex(10405))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10405)), TypeDefinitionIndex(TypeDefinitionIndex(10397))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10405), inst: 5937 })
 // CS Name: UnityEngine.Events.UnityEvent`4
 class CORDL_TYPE UnityEvent_4<T0,T1,T2,T3> : public UnityEngine::Events::UnityEventBase {
@@ -76,8 +76,7 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get_m_InvokeArray() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEvent_4() ;
+static UnityEngine::Events::UnityEvent_4<T0,T1,T2,T3> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

@@ -1,12 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {

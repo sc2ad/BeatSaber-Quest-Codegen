@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 namespace GlobalNamespace {
-class SceneInfo;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class SceneInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ constexpr GlobalNamespace::SceneInfo __get__gameCoreSceneInfo() const;
 /// @brief Method Init addr 0x21d0064 size 0x1e0 virtual false final false
  void Init() ;
 
-// Ctor Parameters []
-explicit EventsTestScenesTransitionSetupDataSO() ;
+static GlobalNamespace::EventsTestScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21d0244 size 0x8 virtual false final false
  void _ctor() ;

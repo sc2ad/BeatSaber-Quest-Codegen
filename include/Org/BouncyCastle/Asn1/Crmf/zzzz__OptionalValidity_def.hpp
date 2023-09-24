@@ -79,8 +79,7 @@ constexpr Org::BouncyCastle::Asn1::X509::Time __get_notAfter() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OptionalValidity(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::OptionalValidity New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdf8550 size 0x30c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -88,8 +87,7 @@ explicit OptionalValidity(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdf720c size 0xa4 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::OptionalValidity GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "notBefore", ty: "Org::BouncyCastle::Asn1::X509::Time", modifiers: "", def_value: None }, CppParam { name: "notAfter", ty: "Org::BouncyCastle::Asn1::X509::Time", modifiers: "", def_value: None }]
-explicit OptionalValidity(Org::BouncyCastle::Asn1::X509::Time notBefore, Org::BouncyCastle::Asn1::X509::Time notAfter) ;
+static Org::BouncyCastle::Asn1::Crmf::OptionalValidity New_ctor(Org::BouncyCastle::Asn1::X509::Time notBefore, Org::BouncyCastle::Asn1::X509::Time notAfter) ;
 
 /// @brief Method .ctor addr 0xdf885c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::Time notBefore, Org::BouncyCastle::Asn1::X509::Time notAfter) ;

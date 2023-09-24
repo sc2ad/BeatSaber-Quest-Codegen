@@ -10,6 +10,9 @@ class Stream;
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
 }
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream;
@@ -95,8 +98,7 @@ constexpr int32_t __get_bufEnd() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "inStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream(System::IO::Stream inStr) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__PgpEncryptedData__TruncatedStream New_ctor(System::IO::Stream inStr) ;
 
 /// @brief Method .ctor addr 0x101d7a8 size 0xd8 virtual false final false
  void _ctor(System::IO::Stream inStr) ;
@@ -182,8 +184,7 @@ constexpr Org::BouncyCastle::Bcpg::OpenPgp::Org__BouncyCastle__Bcpg__OpenPgp__Pg
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encData", ty: "Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
-explicit PgpEncryptedData(Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData New_ctor(Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
 
 /// @brief Method .ctor addr 0x101d414 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;

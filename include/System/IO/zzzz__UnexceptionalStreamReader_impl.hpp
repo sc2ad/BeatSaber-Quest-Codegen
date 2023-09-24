@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__UnexceptionalStreamReader_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: System::IO::UnexceptionalStreamReader._ctor
 template<>
 
@@ -134,8 +134,10 @@ return ::cordl_internals::getStaticField<::ArrayW<bool>, "newline", ::il2cpp_uti
  char16_t System::IO::UnexceptionalStreamReader::__get_newlineChar()  {
 return ::cordl_internals::getStaticField<char16_t, "newlineChar", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::UnexceptionalStreamReader>::get>();
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::IO::UnexceptionalStreamReader::UnexceptionalStreamReader(System::IO::Stream stream, System::Text::Encoding encoding)  : System::IO::StreamReader(THROW_UNLESS(::il2cpp_utils::New<UnexceptionalStreamReader>(stream, encoding))) {}
+ System::IO::UnexceptionalStreamReader System::IO::UnexceptionalStreamReader::New_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
+System::IO::UnexceptionalStreamReader o{THROW_UNLESS(::il2cpp_utils::New<System::IO::UnexceptionalStreamReader>(stream, encoding))};
+return o;
+}
  void System::IO::UnexceptionalStreamReader::_ctor(System::IO::Stream stream, System::Text::Encoding encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::UnexceptionalStreamReader>::get(),

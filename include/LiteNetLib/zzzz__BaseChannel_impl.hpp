@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/zzzz__BaseChannel_def.hpp"
+#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetPeer_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
-#include "LiteNetLib/zzzz__NetPacket_def.hpp"
 //  Writing Method size for method: LiteNetLib::BaseChannel._ctor
 template<>
 
@@ -106,8 +106,10 @@ constexpr void LiteNetLib::BaseChannel::__set_OutgoingQueue(System::Collections:
 constexpr System::Collections::Generic::Queue_1<LiteNetLib::NetPacket> LiteNetLib::BaseChannel::__get_OutgoingQueue() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Queue_1<LiteNetLib::NetPacket>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "peer", ty: "LiteNetLib::NetPeer", modifiers: "", def_value: None }]
- LiteNetLib::BaseChannel::BaseChannel(LiteNetLib::NetPeer peer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BaseChannel>(peer))) {}
+ LiteNetLib::BaseChannel LiteNetLib::BaseChannel::New_ctor(LiteNetLib::NetPeer peer)  {
+LiteNetLib::BaseChannel o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::BaseChannel>(peer))};
+return o;
+}
  void LiteNetLib::BaseChannel::_ctor(LiteNetLib::NetPeer peer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::BaseChannel>::get(),

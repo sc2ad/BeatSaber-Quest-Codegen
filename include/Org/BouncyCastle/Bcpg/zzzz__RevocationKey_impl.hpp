@@ -105,8 +105,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::RevocationKey::RevocationKey(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<RevocationKey>(isCritical, isLongLength, data))) {}
+ Org::BouncyCastle::Bcpg::RevocationKey Org::BouncyCastle::Bcpg::RevocationKey::New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data)  {
+Org::BouncyCastle::Bcpg::RevocationKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::RevocationKey>(isCritical, isLongLength, data))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::RevocationKey::_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::RevocationKey>::get(),
@@ -116,8 +118,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, isCritical, isLongLength, data);
 }
-// Ctor Parameters [CppParam { name: "isCritical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "signatureClass", ty: "Org::BouncyCastle::Bcpg::RevocationKeyTag", modifiers: "", def_value: None }, CppParam { name: "keyAlgorithm", ty: "Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "fingerprint", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::RevocationKey::RevocationKey(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint)  : Org::BouncyCastle::Bcpg::SignatureSubpacket(THROW_UNLESS(::il2cpp_utils::New<RevocationKey>(isCritical, signatureClass, keyAlgorithm, fingerprint))) {}
+ Org::BouncyCastle::Bcpg::RevocationKey Org::BouncyCastle::Bcpg::RevocationKey::New_ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint)  {
+Org::BouncyCastle::Bcpg::RevocationKey o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::RevocationKey>(isCritical, signatureClass, keyAlgorithm, fingerprint))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::RevocationKey::_ctor(bool isCritical, Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t> fingerprint)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::RevocationKey>::get(),

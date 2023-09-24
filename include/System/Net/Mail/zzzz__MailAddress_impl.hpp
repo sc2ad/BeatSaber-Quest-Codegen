@@ -185,8 +185,10 @@ return ::cordl_internals::getInstanceField<::StringW, 0x28>(this->::bs_hook::Il2
  System::Net::Mime::EncodedStreamFactory System::Net::Mail::MailAddress::__get_s_encoderFactory()  {
 return ::cordl_internals::getStaticField<System::Net::Mime::EncodedStreamFactory, "s_encoderFactory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Mail::MailAddress>::get>();
 }
-// Ctor Parameters [CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "userName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "domain", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Mail::MailAddress::MailAddress(::StringW displayName, ::StringW userName, ::StringW domain)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MailAddress>(displayName, userName, domain))) {}
+ System::Net::Mail::MailAddress System::Net::Mail::MailAddress::New_ctor(::StringW displayName, ::StringW userName, ::StringW domain)  {
+System::Net::Mail::MailAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Mail::MailAddress>(displayName, userName, domain))};
+return o;
+}
  void System::Net::Mail::MailAddress::_ctor(::StringW displayName, ::StringW userName, ::StringW domain)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Mail::MailAddress>::get(),
@@ -196,8 +198,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, displayName, userName, domain);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Mail::MailAddress::MailAddress(::StringW address)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MailAddress>(address))) {}
+ System::Net::Mail::MailAddress System::Net::Mail::MailAddress::New_ctor(::StringW address)  {
+System::Net::Mail::MailAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Mail::MailAddress>(address))};
+return o;
+}
  void System::Net::Mail::MailAddress::_ctor(::StringW address)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Mail::MailAddress>::get(),
@@ -207,8 +211,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, address);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "displayNameEncoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
- System::Net::Mail::MailAddress::MailAddress(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<MailAddress>(address, displayName, displayNameEncoding))) {}
+ System::Net::Mail::MailAddress System::Net::Mail::MailAddress::New_ctor(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding)  {
+System::Net::Mail::MailAddress o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Mail::MailAddress>(address, displayName, displayNameEncoding))};
+return o;
+}
  void System::Net::Mail::MailAddress::_ctor(::StringW address, ::StringW displayName, System::Text::Encoding displayNameEncoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Mail::MailAddress>::get(),

@@ -2,12 +2,13 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
-#include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
-#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationType_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
+#include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification._ctor
 template<>
 
@@ -76,8 +77,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification::OVR__OpenVR__IVRNotifications___CreateNotification(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRNotifications___CreateNotification>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRNotifications___CreateNotification>::get(),
@@ -182,8 +185,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification::OVR__OpenVR__IVRNotifications___RemoveNotification(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRNotifications___RemoveNotification>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRNotifications___RemoveNotification>::get(),

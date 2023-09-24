@@ -561,8 +561,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, child, axis, controlSize, childForceExpand, min, preferred, flexible);
 }
-// Ctor Parameters []
- UnityEngine::UI::HorizontalOrVerticalLayoutGroup::HorizontalOrVerticalLayoutGroup()  : UnityEngine::UI::LayoutGroup(THROW_UNLESS(::il2cpp_utils::New<HorizontalOrVerticalLayoutGroup>())) {}
+ UnityEngine::UI::HorizontalOrVerticalLayoutGroup UnityEngine::UI::HorizontalOrVerticalLayoutGroup::New_ctor()  {
+UnityEngine::UI::HorizontalOrVerticalLayoutGroup o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::HorizontalOrVerticalLayoutGroup>())};
+return o;
+}
  void UnityEngine::UI::HorizontalOrVerticalLayoutGroup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::HorizontalOrVerticalLayoutGroup>::get(),

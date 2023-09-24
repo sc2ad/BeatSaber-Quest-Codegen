@@ -3,36 +3,36 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Security::Cryptography::X509Certificates {
+struct X509NameType;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X500DistinguishedName;
+}
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography {
+class RSA;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
-}
 namespace System::Text {
 class StringBuilder;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
+class X509Certificate2;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateImpl;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
 }
-namespace System::Security::Cryptography {
-class RSA;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImplCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -133,8 +133,7 @@ constexpr explicit X509Certificate2Impl(void* ptr) noexcept : System::Security::
 /// @brief Method CopyWithPrivateKey addr 0x27eab68 size 0xac virtual true final true
  System::Security::Cryptography::X509Certificates::X509CertificateImpl CopyWithPrivateKey(System::Security::Cryptography::RSA privateKey) ;
 
-// Ctor Parameters []
-explicit X509Certificate2Impl() ;
+static System::Security::Cryptography::X509Certificates::X509Certificate2Impl New_ctor() ;
 
 /// @brief Method .ctor addr 0x27eac14 size 0x8 virtual false final false
  void _ctor() ;

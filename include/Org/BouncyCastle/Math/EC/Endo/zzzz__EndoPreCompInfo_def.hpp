@@ -93,8 +93,7 @@ constexpr Org::BouncyCastle::Math::EC::ECPoint __get_m_mappedPoint() const;
 /// @brief Method set_MappedPoint addr 0xfa7ad4 size 0x8 virtual true final false
  void set_MappedPoint(Org::BouncyCastle::Math::EC::ECPoint value) ;
 
-// Ctor Parameters []
-explicit EndoPreCompInfo() ;
+static Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0xfa7adc size 0x8 virtual false final false
  void _ctor() ;

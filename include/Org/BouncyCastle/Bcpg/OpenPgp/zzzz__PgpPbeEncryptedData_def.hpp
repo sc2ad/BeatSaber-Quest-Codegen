@@ -3,11 +3,11 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpEncryptedData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class SymmetricKeyEncSessionPacket;
+struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
@@ -15,8 +15,8 @@ class InputStreamPacket;
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Bcpg {
+class SymmetricKeyEncSessionPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -73,8 +73,7 @@ constexpr Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket __get_keyData() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyData", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket", modifiers: "", def_value: None }, CppParam { name: "encData", ty: "Org::BouncyCastle::Bcpg::InputStreamPacket", modifiers: "", def_value: None }]
-explicit PgpPbeEncryptedData(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
+static Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData New_ctor(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;
 
 /// @brief Method .ctor addr 0x1021214 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket keyData, Org::BouncyCastle::Bcpg::InputStreamPacket encData) ;

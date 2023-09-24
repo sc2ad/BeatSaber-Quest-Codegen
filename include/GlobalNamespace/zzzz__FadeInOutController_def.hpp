@@ -7,11 +7,14 @@
 namespace System::Collections {
 class IEnumerator;
 }
+namespace GlobalNamespace {
+class FloatSO;
+}
 namespace UnityEngine {
 class AnimationCurve;
 }
 namespace GlobalNamespace {
-class FloatSO;
+class GlobalNamespace__FadeInOutController___Fade_d__15;
 }
 namespace System {
 class Action;
@@ -151,8 +154,7 @@ constexpr float_t __get__elapsedTime_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__FadeInOutController___Fade_d__15(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__FadeInOutController___Fade_d__15 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f77bf0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -289,8 +291,7 @@ constexpr float_t __get__defaultFadeInDuration() const;
 /// @brief Method Fade addr 0x1f77b44 size 0xac virtual false final false
  System::Collections::IEnumerator Fade(float_t fromValue, float_t toValue, float_t duration, float_t startDelay, UnityEngine::AnimationCurve curve, System::Action fadeFinishedCallback) ;
 
-// Ctor Parameters []
-explicit FadeInOutController() ;
+static GlobalNamespace::FadeInOutController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f77c18 size 0x1c virtual false final false
  void _ctor() ;

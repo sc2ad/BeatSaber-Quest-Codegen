@@ -86,8 +86,7 @@ constexpr int64_t __get_user() const;
 /// @brief Method get_TotalProcessorTime addr 0x27ddd64 size 0xc virtual false final false
  System::TimeSpan get_TotalProcessorTime() ;
 
-// Ctor Parameters []
-explicit ProcessThreadTimes() ;
+static System::Diagnostics::ProcessThreadTimes New_ctor() ;
 
 /// @brief Method .ctor addr 0x27dd9c0 size 0x8 virtual false final false
  void _ctor() ;

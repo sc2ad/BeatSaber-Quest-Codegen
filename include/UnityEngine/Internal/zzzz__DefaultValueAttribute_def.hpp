@@ -64,8 +64,7 @@ constexpr ::bs_hook::Il2CppWrapperType __get_DefaultValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }]
-explicit DefaultValueAttribute(::StringW value) ;
+static UnityEngine::Internal::DefaultValueAttribute New_ctor(::StringW value) ;
 
 /// @brief Method .ctor addr 0x2b71c48 size 0x28 virtual false final false
  void _ctor(::StringW value) ;

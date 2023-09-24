@@ -5,25 +5,31 @@
 #include <cstddef>
 #include <cstdint>
 namespace GlobalNamespace {
+struct GlobalNamespace__ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace GlobalNamespace {
 class SceneSetupData;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
-namespace System::Threading::Tasks {
-class Task;
+namespace GlobalNamespace {
+struct GlobalNamespace__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -308,8 +314,7 @@ constexpr bool __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(
 /// @brief Method InstallBindings addr 0x1f81020 size 0x12c virtual false final false
  void InstallBindings(Zenject::DiContainer container) ;
 
-// Ctor Parameters []
-explicit ScenesTransitionSetupDataSO() ;
+static GlobalNamespace::ScenesTransitionSetupDataSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f82a28 size 0x8 virtual false final false
  void _ctor() ;

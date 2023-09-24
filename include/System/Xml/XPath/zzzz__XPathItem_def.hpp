@@ -4,9 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
 namespace System {
 class Type;
 }
@@ -15,6 +12,9 @@ struct DateTime;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 // Forward declare root types
 namespace System::Xml::XPath {
@@ -116,8 +116,7 @@ constexpr explicit XPathItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Method ValueAs addr 0x0 size 0xffffffffffffffff virtual true final false
  ::bs_hook::Il2CppWrapperType ValueAs(System::Type returnType, System::Xml::IXmlNamespaceResolver nsResolver) ;
 
-// Ctor Parameters []
-explicit XPathItem() ;
+static System::Xml::XPath::XPathItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x271650c size 0x8 virtual false final false
  void _ctor() ;

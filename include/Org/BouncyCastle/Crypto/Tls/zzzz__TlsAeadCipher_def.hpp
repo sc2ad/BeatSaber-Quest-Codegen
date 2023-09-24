@@ -6,11 +6,11 @@
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
 }
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace Org::BouncyCastle::Crypto::Modes {
 class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -118,14 +118,12 @@ constexpr int32_t __get_nonceMode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsAeadCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
+static Org::BouncyCastle::Crypto::Tls::TlsAeadCipher New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
 
 /// @brief Method .ctor addr 0xf0baa0 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize) ;
 
-// Ctor Parameters [CppParam { name: "context", ty: "Org::BouncyCastle::Crypto::Tls::TlsContext", modifiers: "", def_value: None }, CppParam { name: "clientWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "serverWriteCipher", ty: "Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher", modifiers: "", def_value: None }, CppParam { name: "cipherKeySize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "macSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nonceMode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TlsAeadCipher(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;
+static Org::BouncyCastle::Crypto::Tls::TlsAeadCipher New_ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;
 
 /// @brief Method .ctor addr 0xf0baa8 size 0x4c8 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Tls::TlsContext context, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher clientWriteCipher, Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode) ;

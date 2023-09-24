@@ -47,8 +47,7 @@ constexpr explicit ConnectionManagementElementCollection(void* ptr) noexcept : S
 
 // Methods
 
-// Ctor Parameters []
-explicit ConnectionManagementElementCollection() ;
+static System::Net::Configuration::ConnectionManagementElementCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b2244 size 0x38 virtual false final false
  void _ctor() ;

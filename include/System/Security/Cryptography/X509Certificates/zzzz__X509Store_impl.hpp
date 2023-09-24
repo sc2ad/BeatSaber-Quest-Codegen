@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Store_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__StoreName_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Store_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__OpenFlags_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_def.hpp"
-#include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/Security/Cryptography/X509Certificates/zzzz__StoreName_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Stores_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509Store._ctor
 template<>
@@ -160,8 +160,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509Store::__se
 constexpr Mono::Security::X509::X509Store System::Security::Cryptography::X509Certificates::X509Store::__get_store() const {
 return ::cordl_internals::getInstanceField<Mono::Security::X509::X509Store, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "storeName", ty: "System::Security::Cryptography::X509Certificates::StoreName", modifiers: "", def_value: None }, CppParam { name: "storeLocation", ty: "System::Security::Cryptography::X509Certificates::StoreLocation", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509Store::X509Store(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509Store>(storeName, storeLocation))) {}
+ System::Security::Cryptography::X509Certificates::X509Store System::Security::Cryptography::X509Certificates::X509Store::New_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation)  {
+System::Security::Cryptography::X509Certificates::X509Store o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509Store>(storeName, storeLocation))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509Store::_ctor(System::Security::Cryptography::X509Certificates::StoreName storeName, System::Security::Cryptography::X509Certificates::StoreLocation storeLocation)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509Store>::get(),

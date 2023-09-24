@@ -6,10 +6,13 @@ namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
+class RecordingToolConfigViewController;
+}
+namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class RecordingToolConfigViewController;
+class GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
 class RecordingToolLoggingViewController;
@@ -75,8 +78,7 @@ constexpr GlobalNamespace::ScenesTransitionSetupDataSO __get_nextScenesTransitio
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nextScenesTransitionSetupData", ty: "GlobalNamespace::ScenesTransitionSetupDataSO", modifiers: "", def_value: None }]
-explicit GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
+static GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator__InitData New_ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
 
 /// @brief Method .ctor addr 0x21449bc size 0x28 virtual false final false
  void _ctor(GlobalNamespace::ScenesTransitionSetupDataSO nextScenesTransitionSetupData) ;
@@ -177,8 +179,7 @@ constexpr GlobalNamespace::GlobalNamespace__RecordingToolSettingsFlowCoordinator
 /// @brief Method GoToNextScene addr 0x2144978 size 0x3c virtual false final false
  void GoToNextScene() ;
 
-// Ctor Parameters []
-explicit RecordingToolSettingsFlowCoordinator() ;
+static GlobalNamespace::RecordingToolSettingsFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21449b4 size 0x8 virtual false final false
  void _ctor() ;

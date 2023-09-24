@@ -97,8 +97,7 @@ static ::ArrayW<uint8_t> __get_pitable() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rc2Algo", ty: "System::Security::Cryptography::RC2", modifiers: "", def_value: None }, CppParam { name: "encryption", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit RC2Transform(System::Security::Cryptography::RC2 rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
+static System::Security::Cryptography::RC2Transform New_ctor(System::Security::Cryptography::RC2 rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;
 
 /// @brief Method .ctor addr 0x2306b84 size 0x548 virtual false final false
  void _ctor(System::Security::Cryptography::RC2 rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) ;

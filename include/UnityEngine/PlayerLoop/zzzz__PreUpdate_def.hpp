@@ -1,6 +1,33 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__Physics2DUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__CheckTexFieldInput;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__IMGUISendQueuedEvents;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__SendMouseEvents;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__UpdateVideo;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__NewInputUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__AIUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__WindUpdate;
+}
+namespace UnityEngine::PlayerLoop {
+struct UnityEngine__PlayerLoop__PreUpdate__PhysicsUpdate;
+}
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct PreUpdate;

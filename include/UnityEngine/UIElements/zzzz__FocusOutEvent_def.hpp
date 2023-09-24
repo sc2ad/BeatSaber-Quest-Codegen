@@ -53,8 +53,7 @@ constexpr explicit FocusOutEvent(void* ptr) noexcept : UnityEngine::UIElements::
 /// @brief Method LocalInit addr 0x2cdac38 size 0xc virtual false final false
  void LocalInit() ;
 
-// Ctor Parameters []
-explicit FocusOutEvent() ;
+static UnityEngine::UIElements::FocusOutEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cdac44 size 0x54 virtual false final false
  void _ctor() ;

@@ -2,11 +2,12 @@
 #include "UnityEngine/UIElements/zzzz__BindableElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__GroupBox_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GroupBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits.Init
 template<>
@@ -57,8 +58,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, ve, bag, cc);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits::UnityEngine__UIElements__GroupBox__UxmlTraits()  : UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__GroupBox__UxmlTraits>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits>::get(),
@@ -150,8 +153,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::GroupBox::GroupBox()  : UnityEngine::UIElements::BindableElement(THROW_UNLESS(::il2cpp_utils::New<GroupBox>())) {}
+ UnityEngine::UIElements::GroupBox UnityEngine::UIElements::GroupBox::New_ctor()  {
+UnityEngine::UIElements::GroupBox o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::GroupBox>())};
+return o;
+}
  void UnityEngine::UIElements::GroupBox::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::GroupBox>::get(),
@@ -161,8 +166,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::UIElements::GroupBox::GroupBox(::StringW text)  : UnityEngine::UIElements::BindableElement(THROW_UNLESS(::il2cpp_utils::New<GroupBox>(text))) {}
+ UnityEngine::UIElements::GroupBox UnityEngine::UIElements::GroupBox::New_ctor(::StringW text)  {
+UnityEngine::UIElements::GroupBox o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::GroupBox>(text))};
+return o;
+}
  void UnityEngine::UIElements::GroupBox::_ctor(::StringW text)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::GroupBox>::get(),
@@ -189,8 +196,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory::UnityEngine__UIElements__GroupBox__UxmlFactory()  : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::GroupBox,UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlTraits>(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__GroupBox__UxmlFactory>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__GroupBox__UxmlFactory>::get(),

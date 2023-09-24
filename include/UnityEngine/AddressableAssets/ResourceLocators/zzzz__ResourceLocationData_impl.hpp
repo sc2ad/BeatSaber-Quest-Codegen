@@ -243,8 +243,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "keys", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "provider", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<::StringW>", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::ResourceLocationData(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourceLocationData>(keys, id, provider, t, dependencies))) {}
+/// @param dependencies: ::ArrayW<::StringW> (default: csnull)
+ UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::New_ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies)  {
+UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData>(keys, id, provider, t, dependencies))};
+return o;
+}
 /// @param dependencies: ::ArrayW<::StringW> (default: csnull)
  void UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData::_ctor(::ArrayW<::StringW> keys, ::StringW id, System::Type provider, System::Type t, ::ArrayW<::StringW> dependencies)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

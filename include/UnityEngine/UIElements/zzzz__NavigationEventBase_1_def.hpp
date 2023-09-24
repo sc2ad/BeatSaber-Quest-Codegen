@@ -19,7 +19,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1632 }), TypeDefinitionIndex(TypeDefinitionIndex(7347))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1632 }), TypeDefinitionIndex(TypeDefinitionIndex(7347)), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 2 })
 // CS Name: UnityEngine.UIElements.NavigationEventBase`1
 class CORDL_TYPE NavigationEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
@@ -61,8 +61,7 @@ constexpr explicit NavigationEventBase_1(void* ptr) noexcept : UnityEngine::UIEl
 
 // Methods
 
-// Ctor Parameters []
-explicit NavigationEventBase_1() ;
+static UnityEngine::UIElements::NavigationEventBase_1<T> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;

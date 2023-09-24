@@ -5,7 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
@@ -13,14 +19,8 @@ class Asn1Encodable;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -88,14 +88,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1Encodable __get_id() const;
 /// @brief Method GetInstance addr 0xef43b4 size 0x1ec virtual false final false
 static Org::BouncyCastle::Asn1::Ocsp::ResponderID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit ResponderID(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
+static Org::BouncyCastle::Asn1::Ocsp::ResponderID New_ctor(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
 
 /// @brief Method .ctor addr 0xef45a0 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1OctetString id) ;
 
-// Ctor Parameters [CppParam { name: "id", ty: "Org::BouncyCastle::Asn1::X509::X509Name", modifiers: "", def_value: None }]
-explicit ResponderID(Org::BouncyCastle::Asn1::X509::X509Name id) ;
+static Org::BouncyCastle::Asn1::Ocsp::ResponderID New_ctor(Org::BouncyCastle::Asn1::X509::X509Name id) ;
 
 /// @brief Method .ctor addr 0xef4618 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::X509Name id) ;

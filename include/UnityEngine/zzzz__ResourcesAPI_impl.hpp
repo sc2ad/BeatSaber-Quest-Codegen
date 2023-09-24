@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__ResourcesAPI_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
 //  Writing Method size for method: UnityEngine::ResourcesAPI.get_ActiveAPI
 template<>
@@ -187,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::ResourcesAPI, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::ResourcesAPI::ResourcesAPI()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ResourcesAPI>())) {}
+ UnityEngine::ResourcesAPI UnityEngine::ResourcesAPI::New_ctor()  {
+UnityEngine::ResourcesAPI o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::ResourcesAPI>())};
+return o;
+}
  void UnityEngine::ResourcesAPI::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::ResourcesAPI>::get(),

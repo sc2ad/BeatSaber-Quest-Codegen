@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Modes
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- ModestTree::Util::PreserveAttribute::PreserveAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<PreserveAttribute>())) {}
+ ModestTree::Util::PreserveAttribute ModestTree::Util::PreserveAttribute::New_ctor()  {
+ModestTree::Util::PreserveAttribute o{THROW_UNLESS(::il2cpp_utils::New<ModestTree::Util::PreserveAttribute>())};
+return o;
+}
  void ModestTree::Util::PreserveAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ModestTree::Util::PreserveAttribute>::get(),

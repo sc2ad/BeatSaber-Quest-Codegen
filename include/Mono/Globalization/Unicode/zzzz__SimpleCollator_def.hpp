@@ -6,8 +6,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Globalization {
-struct CompareOptions;
+namespace Mono::Globalization::Unicode {
+class Contraction;
 }
 namespace Mono::Globalization::Unicode {
 class Level2Map;
@@ -16,22 +16,34 @@ namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Globalization {
+struct CompareOptions;
+}
+namespace Mono::Globalization::Unicode {
+struct Mono__Globalization__Unicode__SimpleCollator__Escape;
+}
+namespace Mono::Globalization::Unicode {
+struct Mono__Globalization__Unicode__SimpleCollator__ExtenderType;
+}
+namespace System::Globalization {
 class ISimpleCollator;
 }
 namespace System::Globalization {
 class SortKey;
 }
-namespace System::Globalization {
-class TextInfo;
+namespace Mono::Globalization::Unicode {
+class SortKeyBuffer;
 }
 namespace Mono::Globalization::Unicode {
 class CodePointIndexer;
 }
 namespace Mono::Globalization::Unicode {
-class Contraction;
+struct Mono__Globalization__Unicode__SimpleCollator__PreviousInfo;
+}
+namespace System::Globalization {
+class TextInfo;
 }
 namespace Mono::Globalization::Unicode {
-class SortKeyBuffer;
+struct Mono__Globalization__Unicode__SimpleCollator__Context;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -339,6 +351,8 @@ constexpr operator __Mono__Globalization__Unicode__SimpleCollator__ExtenderType_
 return std::bit_cast<__Mono__Globalization__Unicode__SimpleCollator__ExtenderType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -495,8 +509,7 @@ constexpr bool __get_frenchSort() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit SimpleCollator(System::Globalization::CultureInfo culture) ;
+static Mono::Globalization::Unicode::SimpleCollator New_ctor(System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x22aa7c4 size 0x32c virtual false final false
  void _ctor(System::Globalization::CultureInfo culture) ;

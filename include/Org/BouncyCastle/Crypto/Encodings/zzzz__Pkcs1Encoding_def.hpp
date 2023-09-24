@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -138,20 +138,17 @@ static bool get_StrictLengthEnabled() ;
 /// @brief Method set_StrictLengthEnabled addr 0xe2805c size 0x78 virtual false final false
 static void set_StrictLengthEnabled(bool value) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }]
-explicit Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
+static Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
 /// @brief Method .ctor addr 0xe281ec size 0x84 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "pLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
+static Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
 
 /// @brief Method .ctor addr 0xe28270 size 0x8c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, int32_t pLen) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "fallback", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit Pkcs1Encoding(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;
+static Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;
 
 /// @brief Method .ctor addr 0xe282fc size 0x9c virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::ArrayW<uint8_t> fallback) ;

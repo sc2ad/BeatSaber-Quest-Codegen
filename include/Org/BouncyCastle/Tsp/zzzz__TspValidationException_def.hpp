@@ -63,14 +63,12 @@ constexpr int32_t __get_failureCode() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TspValidationException(::StringW message) ;
+static Org::BouncyCastle::Tsp::TspValidationException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x10c4e30 size 0x1c virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "failureCode", ty: "int32_t", modifiers: "", def_value: None }]
-explicit TspValidationException(::StringW message, int32_t failureCode) ;
+static Org::BouncyCastle::Tsp::TspValidationException New_ctor(::StringW message, int32_t failureCode) ;
 
 /// @brief Method .ctor addr 0x10c39b4 size 0x24 virtual false final false
  void _ctor(::StringW message, int32_t failureCode) ;

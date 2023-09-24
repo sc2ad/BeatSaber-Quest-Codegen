@@ -1,15 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
+namespace GlobalNamespace {
+class IBeatmapLevelData;
 }
 namespace UnityEngine {
 class AudioClip;
 }
-namespace GlobalNamespace {
-class IBeatmapLevelData;
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
@@ -76,8 +76,7 @@ constexpr explicit EmptyBeatmapLevelData(void* ptr) noexcept : ::bs_hook::Il2Cpp
 /// @brief Method get_difficultyBeatmapSets addr 0x21ea9c8 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters []
-explicit EmptyBeatmapLevelData() ;
+static GlobalNamespace::EmptyBeatmapLevelData New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ea9b8 size 0x8 virtual false final false
  void _ctor() ;

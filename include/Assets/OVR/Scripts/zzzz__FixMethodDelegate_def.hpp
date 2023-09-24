@@ -6,11 +6,11 @@
 namespace System {
 class IAsyncResult;
 }
-namespace System {
-class AsyncCallback;
-}
 namespace UnityEngine {
 class Object;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace Assets::OVR::Scripts {
@@ -58,8 +58,7 @@ constexpr explicit FixMethodDelegate(void* ptr) noexcept : System::MulticastDele
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit FixMethodDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static Assets::OVR::Scripts::FixMethodDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x266a998 size 0x130 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;

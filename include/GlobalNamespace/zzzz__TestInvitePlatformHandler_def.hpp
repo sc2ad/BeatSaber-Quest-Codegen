@@ -64,8 +64,7 @@ constexpr explicit TestInvitePlatformHandler(void* ptr) noexcept : ::bs_hook::Il
 /// @brief Method OpenInvitePanel addr 0x21f30e8 size 0x68 virtual true final true
  void OpenInvitePanel() ;
 
-// Ctor Parameters []
-explicit TestInvitePlatformHandler() ;
+static GlobalNamespace::TestInvitePlatformHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x21f3150 size 0x8 virtual false final false
  void _ctor() ;

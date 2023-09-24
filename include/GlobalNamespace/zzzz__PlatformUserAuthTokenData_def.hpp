@@ -85,8 +85,7 @@ constexpr GlobalNamespace::PlatformEnvironment __get__validPlatformEnvironment_k
 /// @brief Method set_validPlatformEnvironment addr 0x221cd24 size 0x8 virtual false final false
  void set_validPlatformEnvironment(GlobalNamespace::PlatformEnvironment value) ;
 
-// Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "validPlatformEnvironment", ty: "GlobalNamespace::PlatformEnvironment", modifiers: "", def_value: None }]
-explicit PlatformUserAuthTokenData(::StringW token, GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;
+static GlobalNamespace::PlatformUserAuthTokenData New_ctor(::StringW token, GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;
 
 /// @brief Method .ctor addr 0x221cd2c size 0x30 virtual false final false
  void _ctor(::StringW token, GlobalNamespace::PlatformEnvironment validPlatformEnvironment) ;

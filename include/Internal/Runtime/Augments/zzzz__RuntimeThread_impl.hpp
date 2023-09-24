@@ -1,7 +1,7 @@
 #pragma once
 #include "Internal/Runtime/Augments/zzzz__RuntimeThread_def.hpp"
-#include "System/Threading/zzzz__Thread_def.hpp"
 #include "System/Threading/zzzz__ParameterizedThreadStart_def.hpp"
+#include "System/Threading/zzzz__Thread_def.hpp"
 //  Writing Method size for method: Internal::Runtime::Augments::RuntimeThread._ctor
 template<>
 
@@ -150,8 +150,10 @@ constexpr void Internal::Runtime::Augments::RuntimeThread::__set_thread(System::
 constexpr System::Threading::Thread Internal::Runtime::Augments::RuntimeThread::__get_thread() const {
 return ::cordl_internals::getInstanceField<System::Threading::Thread, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "t", ty: "System::Threading::Thread", modifiers: "", def_value: None }]
- Internal::Runtime::Augments::RuntimeThread::RuntimeThread(System::Threading::Thread t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RuntimeThread>(t))) {}
+ Internal::Runtime::Augments::RuntimeThread Internal::Runtime::Augments::RuntimeThread::New_ctor(System::Threading::Thread t)  {
+Internal::Runtime::Augments::RuntimeThread o{THROW_UNLESS(::il2cpp_utils::New<Internal::Runtime::Augments::RuntimeThread>(t))};
+return o;
+}
  void Internal::Runtime::Augments::RuntimeThread::_ctor(System::Threading::Thread t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Internal::Runtime::Augments::RuntimeThread>::get(),

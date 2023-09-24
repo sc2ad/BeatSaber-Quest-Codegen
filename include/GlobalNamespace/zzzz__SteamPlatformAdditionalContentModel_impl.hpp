@@ -2,19 +2,17 @@
 #include "GlobalNamespace/zzzz__AdditionalContentModel_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__SteamPlatformAdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__SteamLevelProductsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "GlobalNamespace/zzzz__SteamPlatformAdditionalContentModel_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__6.MoveNext
 template<>
@@ -940,8 +938,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, levelPackId);
 }
-// Ctor Parameters []
- GlobalNamespace::SteamPlatformAdditionalContentModel::SteamPlatformAdditionalContentModel()  : GlobalNamespace::AdditionalContentModel(THROW_UNLESS(::il2cpp_utils::New<SteamPlatformAdditionalContentModel>())) {}
+ GlobalNamespace::SteamPlatformAdditionalContentModel GlobalNamespace::SteamPlatformAdditionalContentModel::New_ctor()  {
+GlobalNamespace::SteamPlatformAdditionalContentModel o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SteamPlatformAdditionalContentModel>())};
+return o;
+}
  void GlobalNamespace::SteamPlatformAdditionalContentModel::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SteamPlatformAdditionalContentModel>::get(),

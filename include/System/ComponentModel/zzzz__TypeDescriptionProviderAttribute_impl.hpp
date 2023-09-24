@@ -41,8 +41,10 @@ constexpr void System::ComponentModel::TypeDescriptionProviderAttribute::__set__
 constexpr ::StringW System::ComponentModel::TypeDescriptionProviderAttribute::__get__TypeName_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
- System::ComponentModel::TypeDescriptionProviderAttribute::TypeDescriptionProviderAttribute(::StringW typeName)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<TypeDescriptionProviderAttribute>(typeName))) {}
+ System::ComponentModel::TypeDescriptionProviderAttribute System::ComponentModel::TypeDescriptionProviderAttribute::New_ctor(::StringW typeName)  {
+System::ComponentModel::TypeDescriptionProviderAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::TypeDescriptionProviderAttribute>(typeName))};
+return o;
+}
  void System::ComponentModel::TypeDescriptionProviderAttribute::_ctor(::StringW typeName)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::TypeDescriptionProviderAttribute>::get(),

@@ -1,14 +1,15 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BlocksBlade_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "GlobalNamespace/zzzz__BlocksBlade_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__BlocksBlade__Element._ctor
 template<>
 
@@ -38,8 +39,10 @@ constexpr void GlobalNamespace::GlobalNamespace__BlocksBlade__Element::__set_vel
 constexpr float_t GlobalNamespace::GlobalNamespace__BlocksBlade__Element::__get_velocity() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__BlocksBlade__Element::GlobalNamespace__BlocksBlade__Element()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__BlocksBlade__Element>())) {}
+ GlobalNamespace::GlobalNamespace__BlocksBlade__Element GlobalNamespace::GlobalNamespace__BlocksBlade__Element::New_ctor()  {
+GlobalNamespace::GlobalNamespace__BlocksBlade__Element o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__BlocksBlade__Element>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__BlocksBlade__Element::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__BlocksBlade__Element>::get(),
@@ -354,8 +357,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Vector2, false>(const_cast<void*>(instance), ___internal_method, radius);
 }
-// Ctor Parameters []
- GlobalNamespace::BlocksBlade::BlocksBlade()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BlocksBlade>())) {}
+ GlobalNamespace::BlocksBlade GlobalNamespace::BlocksBlade::New_ctor()  {
+GlobalNamespace::BlocksBlade o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BlocksBlade>())};
+return o;
+}
  void GlobalNamespace::BlocksBlade::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BlocksBlade>::get(),

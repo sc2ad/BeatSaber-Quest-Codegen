@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/zzzz__Enums_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Enums.GetEnumValue
 template<>
 
@@ -123,8 +123,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, t);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Enums::Enums()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Enums>())) {}
+ Org::BouncyCastle::Utilities::Enums Org::BouncyCastle::Utilities::Enums::New_ctor()  {
+Org::BouncyCastle::Utilities::Enums o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Enums>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Enums::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Enums>::get(),

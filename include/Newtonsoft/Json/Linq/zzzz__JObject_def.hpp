@@ -6,27 +6,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace System::ComponentModel {
+class AttributeCollection;
 }
-namespace System::Collections::Generic {
-template<typename TKey,typename TValue>
-struct KeyValuePair_2;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class ICollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
+namespace System::ComponentModel {
+class EventDescriptor;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
+class JsonReader;
+}
+namespace System {
+class Attribute;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
+namespace Newtonsoft::Json::Linq {
+class JToken;
 }
 namespace System {
 class Type;
@@ -34,60 +37,24 @@ class Type;
 namespace System::ComponentModel {
 class PropertyChangingEventHandler;
 }
-namespace System {
-struct StringComparison;
-}
-namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
-class IDictionary_2;
+struct KeyValuePair_2;
 }
 namespace System::ComponentModel {
 class INotifyPropertyChanging;
 }
-namespace System {
-class Attribute;
-}
 namespace Newtonsoft::Json::Linq {
-class JToken;
+class Newtonsoft__Json__Linq__JObject____c;
 }
 namespace System::ComponentModel {
 class PropertyChangedEventHandler;
 }
-namespace Newtonsoft::Json {
-class JsonWriter;
-}
-namespace System::ComponentModel {
-class ICustomTypeDescriptor;
-}
-namespace System::ComponentModel {
-class TypeConverter;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonMergeSettings;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
 namespace Newtonsoft::Json::Linq {
 class JPropertyKeyedCollection;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace Newtonsoft::Json {
-class JsonConverter;
-}
 namespace System::ComponentModel {
 class INotifyPropertyChanged;
-}
-namespace Newtonsoft::Json::Linq {
-class JProperty;
 }
 namespace Newtonsoft::Json::Linq {
 struct JTokenType;
@@ -96,24 +63,63 @@ namespace Newtonsoft::Json::Linq {
 template<typename T>
 struct JEnumerable_1;
 }
-namespace System::ComponentModel {
-class AttributeCollection;
-}
-namespace Newtonsoft::Json::Linq {
-class JsonLoadSettings;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::ComponentModel {
-class EventDescriptor;
+class EventDescriptorCollection;
 }
 namespace System {
-class IDisposable;
+struct StringComparison;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace Newtonsoft::Json {
+class JsonWriter;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonMergeSettings;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class ICollection_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace System::Collections::Generic {
+template<typename TKey,typename TValue>
+class IDictionary_2;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json::Linq {
+class Newtonsoft__Json__Linq__JObject___GetEnumerator_d__58;
+}
+namespace System::ComponentModel {
+class TypeConverter;
+}
+namespace Newtonsoft::Json {
+class JsonConverter;
+}
+namespace Newtonsoft::Json::Linq {
+class JsonLoadSettings;
+}
+namespace Newtonsoft::Json::Linq {
+class JProperty;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -186,8 +192,7 @@ static System::Func_2<Newtonsoft::Json::Linq::JProperty,Newtonsoft::Json::Linq::
 
 // Methods
 
-// Ctor Parameters []
-explicit Newtonsoft__Json__Linq__JObject____c() ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JObject____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2522a58 size 0x8 virtual false final false
  void _ctor() ;
@@ -284,8 +289,7 @@ constexpr System::Collections::Generic::IEnumerator_1<Newtonsoft::Json::Linq::JT
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Newtonsoft__Json__Linq__JObject___GetEnumerator_d__58(int32_t __1__state) ;
+static Newtonsoft::Json::Linq::Newtonsoft__Json__Linq__JObject___GetEnumerator_d__58 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x252236c size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -432,26 +436,22 @@ constexpr System::ComponentModel::PropertyChangingEventHandler __get_PropertyCha
 /// @brief Method remove_PropertyChanging addr 0x252003c size 0x9c virtual true final true
  void remove_PropertyChanging(System::ComponentModel::PropertyChangingEventHandler value) ;
 
-// Ctor Parameters []
-explicit JObject() ;
+static Newtonsoft::Json::Linq::JObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x251ecf0 size 0x60 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "Newtonsoft::Json::Linq::JObject", modifiers: "", def_value: None }]
-explicit JObject(Newtonsoft::Json::Linq::JObject other) ;
+static Newtonsoft::Json::Linq::JObject New_ctor(Newtonsoft::Json::Linq::JObject other) ;
 
 /// @brief Method .ctor addr 0x25200d8 size 0x70 virtual false final false
  void _ctor(Newtonsoft::Json::Linq::JObject other) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit JObject(::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
+static Newtonsoft::Json::Linq::JObject New_ctor(::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
 /// @brief Method .ctor addr 0x2520148 size 0x4 virtual false final false
  void _ctor(::ArrayW<::bs_hook::Il2CppWrapperType> content) ;
 
-// Ctor Parameters [CppParam { name: "content", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
-explicit JObject(::bs_hook::Il2CppWrapperType content) ;
+static Newtonsoft::Json::Linq::JObject New_ctor(::bs_hook::Il2CppWrapperType content) ;
 
 /// @brief Method .ctor addr 0x252014c size 0x84 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType content) ;

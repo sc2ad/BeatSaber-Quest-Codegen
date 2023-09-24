@@ -2,14 +2,14 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo.GetInstance
 template<>
 
@@ -339,8 +339,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, version);
 }
-// Ctor Parameters [CppParam { name: "privateKeyAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::PrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PrivateKeyInfo>(privateKeyAlgorithm, privateKey))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey)  {
+Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>(privateKeyAlgorithm, privateKey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>::get(),
@@ -350,8 +352,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, privateKeyAlgorithm, privateKey);
 }
-// Ctor Parameters [CppParam { name: "privateKeyAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::PrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PrivateKeyInfo>(privateKeyAlgorithm, privateKey, attributes))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes)  {
+Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>(privateKeyAlgorithm, privateKey, attributes))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>::get(),
@@ -361,8 +365,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, privateKeyAlgorithm, privateKey, attributes);
 }
-// Ctor Parameters [CppParam { name: "privateKeyAlgorithm", ty: "Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier", modifiers: "", def_value: None }, CppParam { name: "privateKey", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }, CppParam { name: "publicKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::PrivateKeyInfo(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes, ::ArrayW<uint8_t> publicKey)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PrivateKeyInfo>(privateKeyAlgorithm, privateKey, attributes, publicKey))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes, ::ArrayW<uint8_t> publicKey)  {
+Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>(privateKeyAlgorithm, privateKey, attributes, publicKey))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable privateKey, Org::BouncyCastle::Asn1::Asn1Set attributes, ::ArrayW<uint8_t> publicKey)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>::get(),
@@ -372,8 +378,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, privateKeyAlgorithm, privateKey, attributes, publicKey);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::PrivateKeyInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<PrivateKeyInfo>(seq))) {}
+ Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo>::get(),

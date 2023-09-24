@@ -980,8 +980,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarData::AvatarData()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarData>())) {}
+ GlobalNamespace::AvatarData GlobalNamespace::AvatarData::New_ctor()  {
+GlobalNamespace::AvatarData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarData>())};
+return o;
+}
  void GlobalNamespace::AvatarData::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarData>::get(),
@@ -991,8 +993,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "headTopId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "headTopPrimaryColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "headTopSecondaryColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "glassesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "glassesColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "facialHairId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "facialHairColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "handsId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "handsColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "clothesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "clothesPrimaryColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "clothesSecondaryColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "clothesDetailColor", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "skinColorId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "eyesId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "mouthId", ty: "::StringW", modifiers: "", def_value: None }]
- GlobalNamespace::AvatarData::AvatarData(::StringW headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color glassesColor, ::StringW facialHairId, UnityEngine::Color facialHairColor, ::StringW handsId, UnityEngine::Color handsColor, ::StringW clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AvatarData>(headTopId, headTopPrimaryColor, headTopSecondaryColor, glassesId, glassesColor, facialHairId, facialHairColor, handsId, handsColor, clothesId, clothesPrimaryColor, clothesSecondaryColor, clothesDetailColor, skinColorId, eyesId, mouthId))) {}
+ GlobalNamespace::AvatarData GlobalNamespace::AvatarData::New_ctor(::StringW headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color glassesColor, ::StringW facialHairId, UnityEngine::Color facialHairColor, ::StringW handsId, UnityEngine::Color handsColor, ::StringW clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId)  {
+GlobalNamespace::AvatarData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarData>(headTopId, headTopPrimaryColor, headTopSecondaryColor, glassesId, glassesColor, facialHairId, facialHairColor, handsId, handsColor, clothesId, clothesPrimaryColor, clothesSecondaryColor, clothesDetailColor, skinColorId, eyesId, mouthId))};
+return o;
+}
  void GlobalNamespace::AvatarData::_ctor(::StringW headTopId, UnityEngine::Color headTopPrimaryColor, UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, UnityEngine::Color glassesColor, ::StringW facialHairId, UnityEngine::Color facialHairColor, ::StringW handsId, UnityEngine::Color handsColor, ::StringW clothesId, UnityEngine::Color clothesPrimaryColor, UnityEngine::Color clothesSecondaryColor, UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarData>::get(),

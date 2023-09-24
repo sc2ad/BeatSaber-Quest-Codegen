@@ -83,8 +83,10 @@ constexpr void Org::BouncyCastle::Cmp::CertificateConfirmationContent::__set_con
 constexpr Org::BouncyCastle::Asn1::Cmp::CertConfirmContent Org::BouncyCastle::Cmp::CertificateConfirmationContent::__get_content() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cmp::CertConfirmContent, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Cmp::CertConfirmContent", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::CertificateConfirmationContent::CertificateConfirmationContent(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateConfirmationContent>(content))) {}
+ Org::BouncyCastle::Cmp::CertificateConfirmationContent Org::BouncyCastle::Cmp::CertificateConfirmationContent::New_ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content)  {
+Org::BouncyCastle::Cmp::CertificateConfirmationContent o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::CertificateConfirmationContent>(content))};
+return o;
+}
  void Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::CertificateConfirmationContent>::get(),
@@ -94,8 +96,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, content);
 }
-// Ctor Parameters [CppParam { name: "content", ty: "Org::BouncyCastle::Asn1::Cmp::CertConfirmContent", modifiers: "", def_value: None }, CppParam { name: "digestAlgFinder", ty: "Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::CertificateConfirmationContent::CertificateConfirmationContent(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content, Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CertificateConfirmationContent>(content, digestAlgFinder))) {}
+ Org::BouncyCastle::Cmp::CertificateConfirmationContent Org::BouncyCastle::Cmp::CertificateConfirmationContent::New_ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content, Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder)  {
+Org::BouncyCastle::Cmp::CertificateConfirmationContent o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::CertificateConfirmationContent>(content, digestAlgFinder))};
+return o;
+}
  void Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor(Org::BouncyCastle::Asn1::Cmp::CertConfirmContent content, Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder digestAlgFinder)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::CertificateConfirmationContent>::get(),

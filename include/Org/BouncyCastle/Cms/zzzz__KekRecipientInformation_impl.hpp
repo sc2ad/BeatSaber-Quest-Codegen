@@ -1,10 +1,10 @@
 #pragma once
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__KekRecipientInformation_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__KekRecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__KekRecipientInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cms::KekRecipientInformation._ctor
 template<>
 
@@ -45,8 +45,10 @@ constexpr void Org::BouncyCastle::Cms::KekRecipientInformation::__set_info(Org::
 constexpr Org::BouncyCastle::Asn1::Cms::KekRecipientInfo Org::BouncyCastle::Cms::KekRecipientInformation::__get_info() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cms::KekRecipientInfo, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "Org::BouncyCastle::Asn1::Cms::KekRecipientInfo", modifiers: "", def_value: None }, CppParam { name: "secureReadable", ty: "Org::BouncyCastle::Cms::CmsSecureReadable", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cms::KekRecipientInformation::KekRecipientInformation(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  : Org::BouncyCastle::Cms::RecipientInformation(THROW_UNLESS(::il2cpp_utils::New<KekRecipientInformation>(info, secureReadable))) {}
+ Org::BouncyCastle::Cms::KekRecipientInformation Org::BouncyCastle::Cms::KekRecipientInformation::New_ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
+Org::BouncyCastle::Cms::KekRecipientInformation o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cms::KekRecipientInformation>(info, secureReadable))};
+return o;
+}
  void Org::BouncyCastle::Cms::KekRecipientInformation::_ctor(Org::BouncyCastle::Asn1::Cms::KekRecipientInfo info, Org::BouncyCastle::Cms::CmsSecureReadable secureReadable)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cms::KekRecipientInformation>::get(),

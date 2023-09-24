@@ -56,8 +56,7 @@ constexpr explicit LeaderboardViewController(void* ptr) noexcept : HMUI::ViewCon
 /// @brief Method RefreshLevelStats addr 0x2160020 size 0x4 virtual true final false
  void RefreshLevelStats() ;
 
-// Ctor Parameters []
-explicit LeaderboardViewController() ;
+static GlobalNamespace::LeaderboardViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2160024 size 0x8 virtual false final false
  void _ctor() ;

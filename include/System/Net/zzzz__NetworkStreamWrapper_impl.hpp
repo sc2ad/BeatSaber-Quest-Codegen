@@ -1,16 +1,16 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__NetworkStreamWrapper_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/IO/zzzz__SeekOrigin_def.hpp"
 #include "System/Net/Sockets/zzzz__Socket_def.hpp"
 #include "System/Net/Sockets/zzzz__TcpClient_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/IO/zzzz__SeekOrigin_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: System::Net::NetworkStreamWrapper._ctor
 template<>
 
@@ -584,8 +584,10 @@ constexpr void System::Net::NetworkStreamWrapper::__set__networkStream(System::N
 constexpr System::Net::Sockets::NetworkStream System::Net::NetworkStreamWrapper::__get__networkStream() const {
 return ::cordl_internals::getInstanceField<System::Net::Sockets::NetworkStream, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "client", ty: "System::Net::Sockets::TcpClient", modifiers: "", def_value: None }]
- System::Net::NetworkStreamWrapper::NetworkStreamWrapper(System::Net::Sockets::TcpClient client)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<NetworkStreamWrapper>(client))) {}
+ System::Net::NetworkStreamWrapper System::Net::NetworkStreamWrapper::New_ctor(System::Net::Sockets::TcpClient client)  {
+System::Net::NetworkStreamWrapper o{THROW_UNLESS(::il2cpp_utils::New<System::Net::NetworkStreamWrapper>(client))};
+return o;
+}
  void System::Net::NetworkStreamWrapper::_ctor(System::Net::Sockets::TcpClient client)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::NetworkStreamWrapper>::get(),

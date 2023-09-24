@@ -5,14 +5,14 @@
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PKMacValue;
@@ -93,8 +93,7 @@ constexpr Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo __get_publicKey() 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PopoSigningKeyInput(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdfa29c size 0x174 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
@@ -102,14 +101,12 @@ explicit PopoSigningKeyInput(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 /// @brief Method GetInstance addr 0xdf9e58 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "sender", ty: "Org::BouncyCastle::Asn1::X509::GeneralName", modifiers: "", def_value: None }, CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
-explicit PopoSigningKeyInput(Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput New_ctor(Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
 
 /// @brief Method .ctor addr 0xdfa410 size 0x30 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X509::GeneralName sender, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
 
-// Ctor Parameters [CppParam { name: "pkmac", ty: "Org::BouncyCastle::Asn1::Crmf::PKMacValue", modifiers: "", def_value: None }, CppParam { name: "spki", ty: "Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo", modifiers: "", def_value: None }]
-explicit PopoSigningKeyInput(Org::BouncyCastle::Asn1::Crmf::PKMacValue pkmac, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
+static Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput New_ctor(Org::BouncyCastle::Asn1::Crmf::PKMacValue pkmac, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;
 
 /// @brief Method .ctor addr 0xdfa440 size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::PKMacValue pkmac, Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo spki) ;

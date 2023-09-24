@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Ocsp::UnknownStatus::UnknownStatus()  : Org::BouncyCastle::Ocsp::CertificateStatus(THROW_UNLESS(::il2cpp_utils::New<UnknownStatus>())) {}
+ Org::BouncyCastle::Ocsp::UnknownStatus Org::BouncyCastle::Ocsp::UnknownStatus::New_ctor()  {
+Org::BouncyCastle::Ocsp::UnknownStatus o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Ocsp::UnknownStatus>())};
+return o;
+}
  void Org::BouncyCastle::Ocsp::UnknownStatus::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Ocsp::UnknownStatus>::get(),

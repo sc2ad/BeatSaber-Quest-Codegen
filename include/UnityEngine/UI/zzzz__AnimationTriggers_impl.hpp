@@ -307,8 +307,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::UI::AnimationTriggers::AnimationTriggers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<AnimationTriggers>())) {}
+ UnityEngine::UI::AnimationTriggers UnityEngine::UI::AnimationTriggers::New_ctor()  {
+UnityEngine::UI::AnimationTriggers o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::AnimationTriggers>())};
+return o;
+}
  void UnityEngine::UI::AnimationTriggers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::AnimationTriggers>::get(),

@@ -4,11 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-template<typename T>
-struct Nullable_1;
+class ICloneable;
 }
 namespace System {
-class ICloneable;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -81,8 +81,7 @@ constexpr System::Nullable_1<int64_t> __get__To_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "from", ty: "System::Nullable_1<int64_t>", modifiers: "", def_value: None }, CppParam { name: "to", ty: "System::Nullable_1<int64_t>", modifiers: "", def_value: None }]
-explicit RangeItemHeaderValue(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) ;
+static System::Net::Http::Headers::RangeItemHeaderValue New_ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) ;
 
 /// @brief Method .ctor addr 0x26af124 size 0x15c virtual false final false
  void _ctor(System::Nullable_1<int64_t> from, System::Nullable_1<int64_t> to) ;

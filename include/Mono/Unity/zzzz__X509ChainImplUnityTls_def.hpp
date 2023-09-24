@@ -3,26 +3,26 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
+struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509ChainStatusFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainElementCollection;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+class X509Certificate2;
 }
 namespace Mono::Unity {
 struct Mono__Unity__UnityTls__unitytls_x509list_ref;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509ChainPolicy;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -116,8 +116,7 @@ constexpr bool __get_reverseOrder() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "nativeCertificateChain", ty: "Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref", modifiers: "", def_value: None }, CppParam { name: "reverseOrder", ty: "bool", modifiers: "", def_value: None }]
-explicit X509ChainImplUnityTls(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder) ;
+static Mono::Unity::X509ChainImplUnityTls New_ctor(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder) ;
 
 /// @brief Method .ctor addr 0x268a8fc size 0x88 virtual false final false
  void _ctor(Mono::Unity::Mono__Unity__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder) ;

@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DroneHover_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__DroneHover_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Cloth_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__DroneHover__SineLayer._ctor
 template<>
 
@@ -34,8 +35,10 @@ constexpr void GlobalNamespace::GlobalNamespace__DroneHover__SineLayer::__set_of
 constexpr float_t GlobalNamespace::GlobalNamespace__DroneHover__SineLayer::__get_offset() const {
 return ::cordl_internals::getInstanceField<float_t, 0x14>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__DroneHover__SineLayer::GlobalNamespace__DroneHover__SineLayer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__DroneHover__SineLayer>())) {}
+ GlobalNamespace::GlobalNamespace__DroneHover__SineLayer GlobalNamespace::GlobalNamespace__DroneHover__SineLayer::New_ctor()  {
+GlobalNamespace::GlobalNamespace__DroneHover__SineLayer o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__DroneHover__SineLayer>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__DroneHover__SineLayer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__DroneHover__SineLayer>::get(),
@@ -253,8 +256,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::DroneHover::DroneHover()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<DroneHover>())) {}
+ GlobalNamespace::DroneHover GlobalNamespace::DroneHover::New_ctor()  {
+GlobalNamespace::DroneHover o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::DroneHover>())};
+return o;
+}
  void GlobalNamespace::DroneHover::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::DroneHover>::get(),

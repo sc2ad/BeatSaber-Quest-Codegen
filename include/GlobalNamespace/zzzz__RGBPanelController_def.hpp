@@ -4,15 +4,15 @@
 namespace GlobalNamespace {
 struct ColorChangeUIEventType;
 }
-namespace UnityEngine {
-struct Color;
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace HMUI {
 class ColorGradientSlider;
 }
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -125,8 +125,7 @@ constexpr UnityEngine::Color __get__color() const;
 /// @brief Method RefreshSlidersColors addr 0x2120f1c size 0x178 virtual false final false
  void RefreshSlidersColors() ;
 
-// Ctor Parameters []
-explicit RGBPanelController() ;
+static GlobalNamespace::RGBPanelController New_ctor() ;
 
 /// @brief Method .ctor addr 0x21213cc size 0x8 virtual false final false
  void _ctor() ;

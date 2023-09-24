@@ -47,8 +47,7 @@ constexpr explicit ExecuteAlways(void* ptr) noexcept : System::Attribute(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit ExecuteAlways() ;
+static UnityEngine::ExecuteAlways New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b5b360 size 0x8 virtual false final false
  void _ctor() ;

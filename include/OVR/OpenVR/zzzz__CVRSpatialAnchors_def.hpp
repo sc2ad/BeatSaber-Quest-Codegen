@@ -4,20 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Text {
-class StringBuilder;
+namespace OVR::OpenVR {
+struct ETrackingUniverseOrigin;
 }
 namespace OVR::OpenVR {
 struct EVRSpatialAnchorError;
 }
 namespace OVR::OpenVR {
-struct ETrackingUniverseOrigin;
+struct IVRSpatialAnchors;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace OVR::OpenVR {
 struct SpatialAnchorPose_t;
-}
-namespace OVR::OpenVR {
-struct IVRSpatialAnchors;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -74,8 +74,7 @@ constexpr OVR::OpenVR::IVRSpatialAnchors __get_FnTable() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit CVRSpatialAnchors(::cordl_internals::intptr_t pInterface) ;
+static OVR::OpenVR::CVRSpatialAnchors New_ctor(::cordl_internals::intptr_t pInterface) ;
 
 /// @brief Method .ctor addr 0x26687a8 size 0x10c virtual false final false
  void _ctor(::cordl_internals::intptr_t pInterface) ;

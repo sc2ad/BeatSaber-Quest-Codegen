@@ -47,8 +47,7 @@ constexpr explicit GaussianSeparableBlurRendererSO(void* ptr) noexcept : GlobalN
 
 // Methods
 
-// Ctor Parameters []
-explicit GaussianSeparableBlurRendererSO() ;
+static GlobalNamespace::GaussianSeparableBlurRendererSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f99d98 size 0x8 virtual false final false
  void _ctor() ;

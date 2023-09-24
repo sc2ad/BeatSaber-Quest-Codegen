@@ -66,8 +66,10 @@ constexpr void Oculus::Platform::Models::CloudStorageMetadata::__set_VersionHand
 constexpr ::StringW Oculus::Platform::Models::CloudStorageMetadata::__get_VersionHandle() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "o", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- Oculus::Platform::Models::CloudStorageMetadata::CloudStorageMetadata(::cordl_internals::intptr_t o)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CloudStorageMetadata>(o))) {}
+ Oculus::Platform::Models::CloudStorageMetadata Oculus::Platform::Models::CloudStorageMetadata::New_ctor(::cordl_internals::intptr_t o)  {
+Oculus::Platform::Models::CloudStorageMetadata o{THROW_UNLESS(::il2cpp_utils::New<Oculus::Platform::Models::CloudStorageMetadata>(o))};
+return o;
+}
  void Oculus::Platform::Models::CloudStorageMetadata::_ctor(::cordl_internals::intptr_t o)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Oculus::Platform::Models::CloudStorageMetadata>::get(),

@@ -2,13 +2,14 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
-#include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "GlobalNamespace/zzzz__CachedMediaAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__ISpriteAsyncLoader_def.hpp"
-#include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "GlobalNamespace/zzzz__AsyncCachedLoader_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__CachedMediaAsyncLoader___LoadSpriteAsync_d__3.MoveNext
 template<>
@@ -195,8 +196,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Threading::Tasks::Task_1<UnityEngine::Sprite>, false>(const_cast<void*>(instance), ___internal_method, path, cancellationToken);
 }
-// Ctor Parameters []
- GlobalNamespace::CachedMediaAsyncLoader::CachedMediaAsyncLoader()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<CachedMediaAsyncLoader>())) {}
+ GlobalNamespace::CachedMediaAsyncLoader GlobalNamespace::CachedMediaAsyncLoader::New_ctor()  {
+GlobalNamespace::CachedMediaAsyncLoader o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CachedMediaAsyncLoader>())};
+return o;
+}
  void GlobalNamespace::CachedMediaAsyncLoader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CachedMediaAsyncLoader>::get(),

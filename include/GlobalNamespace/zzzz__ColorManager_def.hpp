@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace GlobalNamespace {
-struct SaberType;
-}
-namespace GlobalNamespace {
 class ColorScheme;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+struct SaberType;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
 struct ColorType;
@@ -97,8 +97,7 @@ constexpr GlobalNamespace::ColorScheme __get__colorScheme() const;
 /// @brief Method GetObstacleEffectColor addr 0x2191f40 size 0x5c virtual false final false
  UnityEngine::Color GetObstacleEffectColor() ;
 
-// Ctor Parameters []
-explicit ColorManager() ;
+static GlobalNamespace::ColorManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2191f9c size 0x8 virtual false final false
  void _ctor() ;

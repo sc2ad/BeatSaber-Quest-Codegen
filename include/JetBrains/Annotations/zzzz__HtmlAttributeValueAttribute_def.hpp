@@ -62,8 +62,7 @@ constexpr ::StringW __get__Name_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit HtmlAttributeValueAttribute(::StringW name) ;
+static JetBrains::Annotations::HtmlAttributeValueAttribute New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x2d411a8 size 0x28 virtual false final false
  void _ctor(::StringW name) ;

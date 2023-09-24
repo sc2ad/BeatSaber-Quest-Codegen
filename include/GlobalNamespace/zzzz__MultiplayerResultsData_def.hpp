@@ -6,21 +6,21 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class MultiplayerBadgesProvider;
-}
-namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
+class MultiplayerPlayerResultsData;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class MultiplayerBadgesProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +118,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::Multipl
 /// @brief Method get_allPlayersSortedData addr 0x2100f44 size 0x8 virtual false final false
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> get_allPlayersSortedData() ;
 
-// Ctor Parameters [CppParam { name: "gameId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "localPlayerResultData", ty: "GlobalNamespace::MultiplayerLevelCompletionResults", modifiers: "", def_value: None }, CppParam { name: "otherPlayersResultData", ty: "System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults>", modifiers: "", def_value: None }, CppParam { name: "badgesProvider", ty: "GlobalNamespace::MultiplayerBadgesProvider", modifiers: "", def_value: None }, CppParam { name: "multiplayerSessionManager", ty: "GlobalNamespace::IMultiplayerSessionManager", modifiers: "", def_value: None }]
-explicit MultiplayerResultsData(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider badgesProvider, GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
+static GlobalNamespace::MultiplayerResultsData New_ctor(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider badgesProvider, GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;
 
 /// @brief Method .ctor addr 0x20f2abc size 0x54c virtual false final false
  void _ctor(::StringW gameId, GlobalNamespace::MultiplayerLevelCompletionResults localPlayerResultData, System::Collections::Generic::Dictionary_2<::StringW,GlobalNamespace::MultiplayerLevelCompletionResults> otherPlayersResultData, GlobalNamespace::MultiplayerBadgesProvider badgesProvider, GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager) ;

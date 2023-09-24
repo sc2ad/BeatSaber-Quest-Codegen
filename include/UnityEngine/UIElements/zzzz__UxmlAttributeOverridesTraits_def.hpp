@@ -3,19 +3,6 @@
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -24,7 +11,23 @@ template<typename T>
 class IEnumerator_1;
 }
 namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__UxmlAttributeOverridesTraits___get_uxmlChildElementsDescription_d__3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -124,8 +127,7 @@ constexpr UnityEngine::UIElements::UxmlAttributeOverridesTraits __get___4__this(
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__UxmlAttributeOverridesTraits___get_uxmlChildElementsDescription_d__3(int32_t __1__state) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__UxmlAttributeOverridesTraits___get_uxmlChildElementsDescription_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c962d8 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -216,8 +218,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Elemen
 /// @brief Method get_uxmlChildElementsDescription addr 0x2c96274 size 0x64 virtual true final false
  System::Collections::Generic::IEnumerable_1<UnityEngine::UIElements::UxmlChildElementDescription> get_uxmlChildElementsDescription() ;
 
-// Ctor Parameters []
-explicit UxmlAttributeOverridesTraits() ;
+static UnityEngine::UIElements::UxmlAttributeOverridesTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9631c size 0x8c virtual false final false
  void _ctor() ;

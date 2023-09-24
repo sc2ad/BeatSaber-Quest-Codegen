@@ -7,8 +7,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+template<typename TValueType>
+class UnityEngine__UIElements__TextInputBaseField_1__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
+namespace System {
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -16,49 +27,55 @@ class EventBase;
 namespace UnityEngine::UIElements {
 class ITextHandle;
 }
-namespace System {
-template<typename T>
-class Action_1;
-}
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
+template<typename TValueType>
+class UnityEngine__UIElements__TextInputBaseField_1__TextInputBase;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 struct CustomStyleProperty_1;
 }
-namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
+class ITextInputField;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEventHandler;
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
 }
 namespace UnityEngine::UIElements {
 class ITextElement;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenuAction;
+class TextEditorEngine;
+}
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+class DropdownMenuAction;
 }
 namespace UnityEngine::UIElements {
 class ContextualMenuPopulateEvent;
 }
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualElement__MeasureMode;
-}
 namespace UnityEngine {
 class RectOffset;
+}
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__DropdownMenuAction__Status;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEventHandler;
+}
+namespace UnityEngine {
+class GUIStyle;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
@@ -67,31 +84,22 @@ namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
-class ITextInputField;
-}
-namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__DropdownMenuAction__Status;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine {
-class GUIStyle;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class UxmlBoolAttributeDescription;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class UxmlBoolAttributeDescription;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -126,7 +134,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 887 }), TypeDefinitionIndex(TypeDefinitionIndex(7194)), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7194)), TypeDefinitionIndex(TypeDefinitionIndex(7229)), TypeDefinitionIndex(TypeDefinitionIndex(7075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 887 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7194), inst: 2 })
 // CS Name: UnityEngine.UIElements.TextInputBaseField`1::UxmlTraits
 class CORDL_TYPE UnityEngine__UIElements__TextInputBaseField_1__UxmlTraits<TValueType> : public UnityEngine::UIElements::BaseFieldTraits_2<::StringW,UnityEngine::UIElements::UxmlStringAttributeDescription> {
@@ -207,8 +215,7 @@ constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_IsDelaye
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextInputBaseField_1__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__UxmlTraits<TValueType> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -222,7 +229,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7195)), TypeDefinitionIndex(TypeDefinitionIndex(6828))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6828)), TypeDefinitionIndex(TypeDefinitionIndex(7195))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7195), inst: 2 })
 // CS Name: UnityEngine.UIElements.TextInputBaseField`1::TextInputBase
 class CORDL_TYPE UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<TValueType> : public UnityEngine::UIElements::VisualElement {
@@ -517,8 +524,7 @@ constexpr ::StringW __get_m_Text() const;
 /// @brief Method set_text addr 0x0 size 0xffffffffffffffff virtual true final true
  void set_text(::StringW value) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TextInputBaseField_1__TextInputBase() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<TValueType> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -643,7 +649,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TValueType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 889 }), TypeDefinitionIndex(TypeDefinitionIndex(7196)), TypeDefinitionIndex(TypeDefinitionIndex(7228))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7228), inst: 889 }), TypeDefinitionIndex(TypeDefinitionIndex(7196))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7196), inst: 2 })
 // CS Name: UnityEngine.UIElements.TextInputBaseField`1
 class CORDL_TYPE TextInputBaseField_1<TValueType> : public UnityEngine::UIElements::BaseField_1<TValueType> {
@@ -807,8 +813,7 @@ constexpr System::Action_1<bool> __get_onIsReadOnlyChanged() const;
 /// @brief Method set_maskChar addr 0x0 size 0xffffffffffffffff virtual false final false
  void set_maskChar(char16_t value) ;
 
-// Ctor Parameters [CppParam { name: "label", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "maxLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maskChar", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "textInputBase", ty: "UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<TValueType>", modifiers: "", def_value: None }]
-explicit TextInputBaseField_1(::StringW label, int32_t maxLength, char16_t maskChar, UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<TValueType> textInputBase) ;
+static UnityEngine::UIElements::TextInputBaseField_1<TValueType> New_ctor(::StringW label, int32_t maxLength, char16_t maskChar, UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<TValueType> textInputBase) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(::StringW label, int32_t maxLength, char16_t maskChar, UnityEngine::UIElements::UnityEngine__UIElements__TextInputBaseField_1__TextInputBase<TValueType> textInputBase) ;

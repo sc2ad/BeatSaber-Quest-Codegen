@@ -4,6 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extension;
+}
 namespace Org::BouncyCastle::Asn1::Tsp {
 class TimeStampReq;
 }
@@ -12,15 +21,6 @@ class Asn1InputStream;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extension;
-}
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace System::Collections {
 class IList;
@@ -106,26 +106,22 @@ constexpr Org::BouncyCastle::Asn1::X509::X509Extensions __get_extensions() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "req", ty: "Org::BouncyCastle::Asn1::Tsp::TimeStampReq", modifiers: "", def_value: None }]
-explicit TimeStampRequest(Org::BouncyCastle::Asn1::Tsp::TimeStampReq req) ;
+static Org::BouncyCastle::Tsp::TimeStampRequest New_ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampReq req) ;
 
 /// @brief Method .ctor addr 0x10c3030 size 0x38 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Tsp::TimeStampReq req) ;
 
-// Ctor Parameters [CppParam { name: "req", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit TimeStampRequest(::ArrayW<uint8_t> req) ;
+static Org::BouncyCastle::Tsp::TimeStampRequest New_ctor(::ArrayW<uint8_t> req) ;
 
 /// @brief Method .ctor addr 0x10c3068 size 0x74 virtual false final false
  void _ctor(::ArrayW<uint8_t> req) ;
 
-// Ctor Parameters [CppParam { name: "input", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit TimeStampRequest(System::IO::Stream input) ;
+static Org::BouncyCastle::Tsp::TimeStampRequest New_ctor(System::IO::Stream input) ;
 
 /// @brief Method .ctor addr 0x10c3210 size 0x74 virtual false final false
  void _ctor(System::IO::Stream input) ;
 
-// Ctor Parameters [CppParam { name: "str", ty: "Org::BouncyCastle::Asn1::Asn1InputStream", modifiers: "", def_value: None }]
-explicit TimeStampRequest(Org::BouncyCastle::Asn1::Asn1InputStream str) ;
+static Org::BouncyCastle::Tsp::TimeStampRequest New_ctor(Org::BouncyCastle::Asn1::Asn1InputStream str) ;
 
 /// @brief Method .ctor addr 0x10c30dc size 0x134 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1InputStream str) ;

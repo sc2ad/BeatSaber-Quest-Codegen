@@ -4,21 +4,22 @@
 #include "System/Net/zzzz__WebResponseStream_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Net/zzzz__HttpStatusCode_def.hpp"
-#include "System/Net/zzzz__WebException_def.hpp"
+#include "System/Net/zzzz__WebResponseStream_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 #include "System/Net/zzzz__ReadState_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/Net/zzzz__WebReadStream_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "System/Net/zzzz__WebRequestStream_def.hpp"
-#include "System/Net/zzzz__WebCompletionSource_def.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Net/zzzz__WebRequestStream_def.hpp"
+#include "System/Net/zzzz__WebException_def.hpp"
+#include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/Net/zzzz__WebCompletionSource_def.hpp"
+#include "System/Net/zzzz__WebReadStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -256,8 +257,10 @@ constexpr void System::Net::System__Net__WebResponseStream____c__DisplayClass41_
 constexpr int32_t System::Net::System__Net__WebResponseStream____c__DisplayClass41_0::__get_size() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x24>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Net::System__Net__WebResponseStream____c__DisplayClass41_0::System__Net__WebResponseStream____c__DisplayClass41_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__WebResponseStream____c__DisplayClass41_0>())) {}
+ System::Net::System__Net__WebResponseStream____c__DisplayClass41_0 System::Net::System__Net__WebResponseStream____c__DisplayClass41_0::New_ctor()  {
+System::Net::System__Net__WebResponseStream____c__DisplayClass41_0 o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__WebResponseStream____c__DisplayClass41_0>())};
+return o;
+}
  void System::Net::System__Net__WebResponseStream____c__DisplayClass41_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__WebResponseStream____c__DisplayClass41_0>::get(),
@@ -1309,8 +1312,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "System::Net::WebRequestStream", modifiers: "", def_value: None }]
- System::Net::WebResponseStream::WebResponseStream(System::Net::WebRequestStream request)  : System::Net::WebConnectionStream(THROW_UNLESS(::il2cpp_utils::New<WebResponseStream>(request))) {}
+ System::Net::WebResponseStream System::Net::WebResponseStream::New_ctor(System::Net::WebRequestStream request)  {
+System::Net::WebResponseStream o{THROW_UNLESS(::il2cpp_utils::New<System::Net::WebResponseStream>(request))};
+return o;
+}
  void System::Net::WebResponseStream::_ctor(System::Net::WebRequestStream request)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::WebResponseStream>::get(),

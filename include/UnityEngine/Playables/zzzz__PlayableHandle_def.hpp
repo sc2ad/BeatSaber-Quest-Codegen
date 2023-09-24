@@ -6,10 +6,19 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine::Playables {
-struct Playable;
+struct DirectorWrapMode;
+}
+namespace UnityEngine::Playables {
+struct PlayState;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace System {
 template<typename T>
@@ -17,15 +26,6 @@ class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 struct PlayableTraversalMode;
-}
-namespace UnityEngine::Playables {
-struct DirectorWrapMode;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::Playables {
-struct PlayState;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {

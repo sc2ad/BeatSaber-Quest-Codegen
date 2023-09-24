@@ -1,13 +1,13 @@
 #pragma once
 #include "Org/BouncyCastle/Cmp/zzzz__ProtectedPkiMessage_def.hpp"
-#include "Org/BouncyCastle/Cmp/zzzz__GeneralPkiMessage_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiBody_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiHeader_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacBuilder_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiMessage_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiHeader_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiBody_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiMessage_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactory_def.hpp"
+#include "Org/BouncyCastle/Cmp/zzzz__GeneralPkiMessage_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Cmp::ProtectedPkiMessage._ctor
 template<>
 
@@ -184,8 +184,10 @@ constexpr void Org::BouncyCastle::Cmp::ProtectedPkiMessage::__set_pkiMessage(Org
 constexpr Org::BouncyCastle::Asn1::Cmp::PkiMessage Org::BouncyCastle::Cmp::ProtectedPkiMessage::__get_pkiMessage() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::Cmp::PkiMessage, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Cmp::GeneralPkiMessage", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::ProtectedPkiMessage::ProtectedPkiMessage(Org::BouncyCastle::Cmp::GeneralPkiMessage pkiMessage)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProtectedPkiMessage>(pkiMessage))) {}
+ Org::BouncyCastle::Cmp::ProtectedPkiMessage Org::BouncyCastle::Cmp::ProtectedPkiMessage::New_ctor(Org::BouncyCastle::Cmp::GeneralPkiMessage pkiMessage)  {
+Org::BouncyCastle::Cmp::ProtectedPkiMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::ProtectedPkiMessage>(pkiMessage))};
+return o;
+}
  void Org::BouncyCastle::Cmp::ProtectedPkiMessage::_ctor(Org::BouncyCastle::Cmp::GeneralPkiMessage pkiMessage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::ProtectedPkiMessage>::get(),
@@ -195,8 +197,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pkiMessage);
 }
-// Ctor Parameters [CppParam { name: "pkiMessage", ty: "Org::BouncyCastle::Asn1::Cmp::PkiMessage", modifiers: "", def_value: None }]
- Org::BouncyCastle::Cmp::ProtectedPkiMessage::ProtectedPkiMessage(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ProtectedPkiMessage>(pkiMessage))) {}
+ Org::BouncyCastle::Cmp::ProtectedPkiMessage Org::BouncyCastle::Cmp::ProtectedPkiMessage::New_ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage)  {
+Org::BouncyCastle::Cmp::ProtectedPkiMessage o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Cmp::ProtectedPkiMessage>(pkiMessage))};
+return o;
+}
  void Org::BouncyCastle::Cmp::ProtectedPkiMessage::_ctor(Org::BouncyCastle::Asn1::Cmp::PkiMessage pkiMessage)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Cmp::ProtectedPkiMessage>::get(),

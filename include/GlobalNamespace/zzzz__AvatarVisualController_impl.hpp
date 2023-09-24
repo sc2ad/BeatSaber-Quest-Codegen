@@ -2,15 +2,16 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarVisualController_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarVisualController_def.hpp"
+#include "UnityEngine/zzzz__MeshFilter_def.hpp"
+#include "GlobalNamespace/zzzz__AvatarPropertyBlockColorSetter_def.hpp"
 #include "GlobalNamespace/zzzz__MulticolorAvatarPartPropertyBlockSetter_def.hpp"
+#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarData_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarPartsModel_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "GlobalNamespace/zzzz__EditAvatarViewController_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__AvatarPropertyBlockColorSetter_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate._ctor
@@ -81,8 +82,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate::GlobalNamespace__AvatarVisualController__HighlighterDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__AvatarVisualController__HighlighterDelegate>(object, method))) {}
+ GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate>(object, method))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__AvatarVisualController__HighlighterDelegate>::get(),
@@ -464,8 +467,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, highlighted, uvSegment);
 }
-// Ctor Parameters []
- GlobalNamespace::AvatarVisualController::AvatarVisualController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<AvatarVisualController>())) {}
+ GlobalNamespace::AvatarVisualController GlobalNamespace::AvatarVisualController::New_ctor()  {
+GlobalNamespace::AvatarVisualController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::AvatarVisualController>())};
+return o;
+}
  void GlobalNamespace::AvatarVisualController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::AvatarVisualController>::get(),

@@ -2,11 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System {
-class Array;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -16,9 +19,6 @@ class ICollection;
 }
 namespace System::Collections {
 class IList;
-}
-namespace System::Collections {
-class ArrayList;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -103,8 +103,7 @@ constexpr System::Collections::ArrayList __get__list() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit CollectionBase() ;
+static System::Collections::CollectionBase New_ctor() ;
 
 /// @brief Method .ctor addr 0x2410460 size 0x68 virtual false final false
  void _ctor() ;

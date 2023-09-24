@@ -44,8 +44,10 @@ constexpr void System::Text::RegularExpressions::MatchSparse::__set__caps(System
 constexpr System::Collections::Hashtable System::Text::RegularExpressions::MatchSparse::__get__caps() const {
 return ::cordl_internals::getInstanceField<System::Collections::Hashtable, 0x78>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "regex", ty: "System::Text::RegularExpressions::Regex", modifiers: "", def_value: None }, CppParam { name: "caps", ty: "System::Collections::Hashtable", modifiers: "", def_value: None }, CppParam { name: "capcount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "begpos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "startpos", ty: "int32_t", modifiers: "", def_value: None }]
- System::Text::RegularExpressions::MatchSparse::MatchSparse(System::Text::RegularExpressions::Regex regex, System::Collections::Hashtable caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos)  : System::Text::RegularExpressions::Match(THROW_UNLESS(::il2cpp_utils::New<MatchSparse>(regex, caps, capcount, text, begpos, len, startpos))) {}
+ System::Text::RegularExpressions::MatchSparse System::Text::RegularExpressions::MatchSparse::New_ctor(System::Text::RegularExpressions::Regex regex, System::Collections::Hashtable caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos)  {
+System::Text::RegularExpressions::MatchSparse o{THROW_UNLESS(::il2cpp_utils::New<System::Text::RegularExpressions::MatchSparse>(regex, caps, capcount, text, begpos, len, startpos))};
+return o;
+}
  void System::Text::RegularExpressions::MatchSparse::_ctor(System::Text::RegularExpressions::Regex regex, System::Collections::Hashtable caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::RegularExpressions::MatchSparse>::get(),

@@ -4,51 +4,51 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class BeatmapDifficultySegmentedControlController;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class LevelParamsPanel;
-}
 namespace GlobalNamespace {
 class IBeatmapLevel;
 }
 namespace GlobalNamespace {
 class PlayerData;
 }
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace GlobalNamespace {
+class BeatmapDifficultySegmentedControlController;
+}
 namespace GlobalNamespace {
 class LevelBar;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSegmentedControlController;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
 }
 namespace HMUI {
 class ToggleBinder;
 }
 namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class LevelParamsPanel;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace UnityEngine::UI {
 class Button;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSegmentedControlController;
 }
 namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
@@ -59,6 +59,9 @@ struct AsyncVoidMethodBuilder;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -351,8 +354,7 @@ constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 /// @brief Method ClearContent addr 0x21903f0 size 0x8 virtual false final false
  void ClearContent() ;
 
-// Ctor Parameters []
-explicit StandardLevelDetailView() ;
+static GlobalNamespace::StandardLevelDetailView New_ctor() ;
 
 /// @brief Method .ctor addr 0x21903f8 size 0x8 virtual false final false
  void _ctor() ;

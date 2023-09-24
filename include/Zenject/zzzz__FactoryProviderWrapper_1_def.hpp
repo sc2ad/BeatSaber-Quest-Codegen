@@ -3,20 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
-class InjectTypeInfo;
+template<typename TValue>
+class IFactory_1;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-template<typename TValue>
-class IFactory_1;
+class InjectContext;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class IFactory;
 }
 // Forward declare root types
 namespace Zenject {
@@ -93,8 +93,7 @@ constexpr Zenject::InjectContext __get__injectContext() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "provider", ty: "Zenject::IProvider", modifiers: "", def_value: None }, CppParam { name: "injectContext", ty: "Zenject::InjectContext", modifiers: "", def_value: None }]
-explicit FactoryProviderWrapper_1(Zenject::IProvider provider, Zenject::InjectContext injectContext) ;
+static Zenject::FactoryProviderWrapper_1<TContract> New_ctor(Zenject::IProvider provider, Zenject::InjectContext injectContext) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(Zenject::IProvider provider, Zenject::InjectContext injectContext) ;

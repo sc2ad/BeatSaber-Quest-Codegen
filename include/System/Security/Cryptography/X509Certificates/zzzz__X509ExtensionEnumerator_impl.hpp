@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ExtensionEnumerator_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator._ctor
 template<>
 
@@ -98,8 +98,10 @@ constexpr void System::Security::Cryptography::X509Certificates::X509ExtensionEn
 constexpr System::Collections::IEnumerator System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::__get_enumerator() const {
 return ::cordl_internals::getInstanceField<System::Collections::IEnumerator, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "list", ty: "System::Collections::ArrayList", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::X509ExtensionEnumerator(System::Collections::ArrayList list)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<X509ExtensionEnumerator>(list))) {}
+ System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::New_ctor(System::Collections::ArrayList list)  {
+System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator>(list))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::_ctor(System::Collections::ArrayList list)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator>::get(),

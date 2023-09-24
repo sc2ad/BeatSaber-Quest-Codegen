@@ -1,31 +1,31 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace UnityEngine::InputSystem {
-struct InputBinding;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlScheme;
-}
-namespace System {
-template<typename T>
-struct Nullable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct ReadOnlyArray_1;
 }
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlScheme;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System {
+template<typename T>
+struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+struct InputBinding;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {

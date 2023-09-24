@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5AppInit_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
-#include "GlobalNamespace/zzzz__PS5SharedPackageSKUsSO_def.hpp"
+#include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__PS5SharedPackageSKUsSO_def.hpp"
+#include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
+#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
 //  Writing Method size for method: GlobalNamespace::PS5AppInit.AppStartAndMultiSceneEditorSetup
 template<>
@@ -204,8 +204,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::PS5AppInit::PS5AppInit()  : GlobalNamespace::AppInit(THROW_UNLESS(::il2cpp_utils::New<PS5AppInit>())) {}
+ GlobalNamespace::PS5AppInit GlobalNamespace::PS5AppInit::New_ctor()  {
+GlobalNamespace::PS5AppInit o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::PS5AppInit>())};
+return o;
+}
  void GlobalNamespace::PS5AppInit::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::PS5AppInit>::get(),

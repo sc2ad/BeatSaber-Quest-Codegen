@@ -5,44 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__GenericDropdownMenu____c__DisplayClass25_0;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class PointerUpEvent;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__GenericDropdownMenu__MenuItem;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
-}
-namespace UnityEngine::UIElements {
-class FocusOutEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
+class PointerMoveEvent;
 }
 namespace UnityEngine::UIElements {
 class KeyboardNavigationManipulator;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class IGenericMenu;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+struct KeyboardNavigationOperation;
 }
 namespace UnityEngine::UIElements {
 class ScrollView;
@@ -52,6 +40,24 @@ class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class IGenericMenu;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace UnityEngine::UIElements {
+class FocusOutEvent;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace System {
+class Action;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -140,8 +146,7 @@ constexpr System::Action_1<::bs_hook::Il2CppWrapperType> __get_actionUserData() 
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__GenericDropdownMenu__MenuItem() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__GenericDropdownMenu__MenuItem New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb95e0 size 0x8 virtual false final false
  void _ctor() ;
@@ -365,8 +370,7 @@ constexpr UnityEngine::Vector2 __get_m_MousePosition() const;
 /// @brief Method get_contentContainer addr 0x2cb7cf0 size 0x24 virtual false final false
  UnityEngine::UIElements::VisualElement get_contentContainer() ;
 
-// Ctor Parameters []
-explicit GenericDropdownMenu() ;
+static UnityEngine::UIElements::GenericDropdownMenu New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cb18f0 size 0x2d4 virtual false final false
  void _ctor() ;

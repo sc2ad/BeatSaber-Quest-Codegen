@@ -2,18 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System {
-class Action;
-}
 namespace Zenject {
-class DiContainer;
+class IProvider;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -26,7 +16,17 @@ template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6
 class Func_8;
 }
 namespace Zenject {
-class IProvider;
+class DiContainer;
+}
+namespace System {
+class Type;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -101,8 +101,7 @@ constexpr System::Func_8<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TP
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "method", ty: "System::Func_8<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>", modifiers: "", def_value: None }]
-explicit MethodProviderWithContainer_7(System::Func_8<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> method) ;
+static Zenject::MethodProviderWithContainer_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> New_ctor(System::Func_8<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> method) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Func_8<Zenject::DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue> method) ;

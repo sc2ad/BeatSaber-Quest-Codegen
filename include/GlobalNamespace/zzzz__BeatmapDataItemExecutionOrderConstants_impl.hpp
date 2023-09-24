@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- GlobalNamespace::BeatmapDataItemExecutionOrderConstants::BeatmapDataItemExecutionOrderConstants()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BeatmapDataItemExecutionOrderConstants>())) {}
+ GlobalNamespace::BeatmapDataItemExecutionOrderConstants GlobalNamespace::BeatmapDataItemExecutionOrderConstants::New_ctor()  {
+GlobalNamespace::BeatmapDataItemExecutionOrderConstants o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDataItemExecutionOrderConstants>())};
+return o;
+}
  void GlobalNamespace::BeatmapDataItemExecutionOrderConstants::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDataItemExecutionOrderConstants>::get(),

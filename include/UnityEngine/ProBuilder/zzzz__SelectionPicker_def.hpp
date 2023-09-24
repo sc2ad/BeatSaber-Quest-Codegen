@@ -3,28 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
 namespace UnityEngine {
 struct Vector3;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
-}
-namespace UnityEngine::ProBuilder {
-struct Edge;
+namespace UnityEngine {
+struct Rect;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::ProBuilder {
+struct PickerOptions;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
+class ProBuilderMesh;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine {
 class Camera;
@@ -34,7 +31,10 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-struct PickerOptions;
+class Face;
+}
+namespace UnityEngine::ProBuilder {
+struct Edge;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {

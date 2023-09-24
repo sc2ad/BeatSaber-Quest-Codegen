@@ -2,11 +2,11 @@
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpKeyRing_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKeyRing_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpPublicKey_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing._ctor
 template<>
 
@@ -217,8 +217,10 @@ constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::__set_keys(Sy
 constexpr System::Collections::IList Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::__get_keys() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "encoding", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::PgpPublicKeyRing(::ArrayW<uint8_t> encoding)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKeyRing>(encoding))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::New_ctor(::ArrayW<uint8_t> encoding)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing>(encoding))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::_ctor(::ArrayW<uint8_t> encoding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing>::get(),
@@ -228,8 +230,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, encoding);
 }
-// Ctor Parameters [CppParam { name: "pubKeys", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::PgpPublicKeyRing(System::Collections::IList pubKeys)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKeyRing>(pubKeys))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::New_ctor(System::Collections::IList pubKeys)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing>(pubKeys))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::_ctor(System::Collections::IList pubKeys)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing>::get(),
@@ -239,8 +243,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, pubKeys);
 }
-// Ctor Parameters [CppParam { name: "inputStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::PgpPublicKeyRing(System::IO::Stream inputStream)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing(THROW_UNLESS(::il2cpp_utils::New<PgpPublicKeyRing>(inputStream))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::New_ctor(System::IO::Stream inputStream)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing>(inputStream))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing::_ctor(System::IO::Stream inputStream)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing>::get(),

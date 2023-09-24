@@ -5,29 +5,8 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Reflection {
-class Module;
-}
-namespace System::Reflection {
-struct GenericParameterAttributes;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class EventInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System::Reflection {
-class MethodBase;
-}
 namespace System {
-class Type;
-}
-namespace System::Reflection {
-struct BindingFlags;
+struct Guid;
 }
 namespace System::Reflection {
 struct MemberTypes;
@@ -35,41 +14,62 @@ struct MemberTypes;
 namespace System::Reflection {
 class Binder;
 }
-namespace System::Reflection {
-struct ParameterModifier;
-}
-namespace System::Reflection {
-struct TypeAttributes;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
-struct Guid;
-}
-namespace System {
-class Array;
-}
-namespace System::Reflection {
-class MethodInfo;
+struct TypeCode;
 }
 namespace System::Reflection {
 struct CallingConventions;
 }
 namespace System::Reflection {
-class MemberInfo;
+class Assembly;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class Module;
+}
+namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System {
+class Array;
+}
+namespace System::Reflection {
+struct GenericParameterAttributes;
+}
+namespace System {
+struct RuntimeTypeHandle;
+}
+namespace System::Reflection {
+struct TypeAttributes;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class ConstructorInfo;
 }
 namespace System::Reflection {
-class PropertyInfo;
+class EventInfo;
 }
-namespace System {
-struct RuntimeTypeHandle;
+namespace System::Reflection {
+class MethodBase;
 }
-namespace System {
-struct TypeCode;
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::Reflection {
+struct ParameterModifier;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -417,8 +417,7 @@ constexpr explicit SignatureType(void* ptr) noexcept : System::Type(ptr) {
 /// @brief Method get_TypeHandle addr 0x237e8bc size 0x50 virtual true final true
  System::RuntimeTypeHandle get_TypeHandle() ;
 
-// Ctor Parameters []
-explicit SignatureType() ;
+static System::Reflection::SignatureType New_ctor() ;
 
 /// @brief Method .ctor addr 0x237d064 size 0x58 virtual false final false
  void _ctor() ;

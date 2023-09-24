@@ -1,11 +1,11 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventData_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventTransitionType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 //  Writing Method size for method: GlobalNamespace::LightColorBeatmapEventData.get_colorType
 template<>
 
@@ -306,8 +306,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "groupId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "transitionType", ty: "GlobalNamespace::BeatmapEventTransitionType", modifiers: "", def_value: None }, CppParam { name: "colorType", ty: "GlobalNamespace::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "brightness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "strobeBeatFrequency", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::LightColorBeatmapEventData::LightColorBeatmapEventData(float_t time, int32_t groupId, int32_t elementId, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency)  : GlobalNamespace::BeatmapEventData(THROW_UNLESS(::il2cpp_utils::New<LightColorBeatmapEventData>(time, groupId, elementId, transitionType, colorType, brightness, strobeBeatFrequency))) {}
+ GlobalNamespace::LightColorBeatmapEventData GlobalNamespace::LightColorBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency)  {
+GlobalNamespace::LightColorBeatmapEventData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::LightColorBeatmapEventData>(time, groupId, elementId, transitionType, colorType, brightness, strobeBeatFrequency))};
+return o;
+}
  void GlobalNamespace::LightColorBeatmapEventData::_ctor(float_t time, int32_t groupId, int32_t elementId, GlobalNamespace::BeatmapEventTransitionType transitionType, GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::LightColorBeatmapEventData>::get(),

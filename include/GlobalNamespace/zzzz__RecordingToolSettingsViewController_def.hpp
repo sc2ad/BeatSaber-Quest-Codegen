@@ -7,11 +7,11 @@ class TextPageScrollView;
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class RecordingToolManager;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class RecordingToolManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr System::Action __get_didFinishEvent() const;
 /// @brief Method DidActivate addr 0x217f010 size 0x120 virtual true final false
  void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) ;
 
-// Ctor Parameters []
-explicit RecordingToolSettingsViewController() ;
+static GlobalNamespace::RecordingToolSettingsViewController New_ctor() ;
 
 /// @brief Method .ctor addr 0x217f130 size 0x8 virtual false final false
  void _ctor() ;

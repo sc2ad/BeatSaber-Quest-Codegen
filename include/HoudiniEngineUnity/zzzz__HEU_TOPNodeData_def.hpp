@@ -4,21 +4,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+class GameObject;
+}
 namespace HoudiniEngineUnity {
 class TOPNodeTags;
+}
+namespace HoudiniEngineUnity {
+class HEU_WorkItemTally;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace HoudiniEngineUnity {
-class HEU_TOPWorkResult;
+struct HoudiniEngineUnity__HEU_TOPNodeData__PDGState;
 }
 namespace HoudiniEngineUnity {
-class HEU_WorkItemTally;
-}
-namespace UnityEngine {
-class GameObject;
+class HEU_TOPWorkResult;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -80,6 +83,8 @@ __COOK_FAILED = 5,
 constexpr operator __HoudiniEngineUnity__HEU_TOPNodeData__PDGState_Unwrapped () const noexcept {
 return std::bit_cast<__HoudiniEngineUnity__HEU_TOPNodeData__PDGState_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -225,8 +230,7 @@ constexpr HoudiniEngineUnity::HEU_WorkItemTally __get__workItemTally() const;
 /// @brief Method AnyWorkItemsPending addr 0x202b16c size 0x58 virtual false final false
  bool AnyWorkItemsPending() ;
 
-// Ctor Parameters []
-explicit HEU_TOPNodeData() ;
+static HoudiniEngineUnity::HEU_TOPNodeData New_ctor() ;
 
 /// @brief Method .ctor addr 0x2029684 size 0xe4 virtual false final false
  void _ctor() ;

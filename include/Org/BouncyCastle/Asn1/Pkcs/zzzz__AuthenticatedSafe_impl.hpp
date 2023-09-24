@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__AuthenticatedSafe_def.hpp"
-#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__ContentInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/Pkcs/zzzz__ContentInfo_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe.Copy
 template<>
 
@@ -136,8 +136,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe, false>(nullptr, ___internal_method, obj);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::AuthenticatedSafe(Org::BouncyCastle::Asn1::Asn1Sequence seq)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthenticatedSafe>(seq))) {}
+ Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
+Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe>::get(),
@@ -147,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, seq);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "::ArrayW<Org::BouncyCastle::Asn1::Pkcs::ContentInfo>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::AuthenticatedSafe(::ArrayW<Org::BouncyCastle::Asn1::Pkcs::ContentInfo> info)  : Org::BouncyCastle::Asn1::Asn1Encodable(THROW_UNLESS(::il2cpp_utils::New<AuthenticatedSafe>(info))) {}
+ Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Pkcs::ContentInfo> info)  {
+Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe>(info))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::_ctor(::ArrayW<Org::BouncyCastle::Asn1::Pkcs::ContentInfo> info)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe>::get(),

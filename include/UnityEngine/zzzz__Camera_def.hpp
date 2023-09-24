@@ -9,53 +9,71 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::Rendering {
-struct CameraEvent;
-}
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct DepthTextureMode;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct CameraClearFlags;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Ray;
-}
-namespace UnityEngine {
-class Shader;
+struct UnityEngine__Camera__MonoOrStereoscopicEye;
 }
 namespace UnityEngine {
 struct RenderingPath;
 }
 namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine {
+struct Ray;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine {
+struct UnityEngine__Camera__RenderRequestOutputSpace;
+}
+namespace UnityEngine {
+struct UnityEngine__Camera__RenderRequest;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct DepthTextureMode;
+}
+namespace UnityEngine::Rendering {
+struct CameraEvent;
+}
+namespace UnityEngine {
 struct StereoTargetEyeMask;
+}
+namespace UnityEngine {
+class Shader;
+}
+namespace UnityEngine {
+struct UnityEngine__Camera__RenderRequestMode;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+class UnityEngine__Camera__CameraCallback;
 }
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Vector3;
+}
+namespace UnityEngine {
+class Texture;
+}
+namespace UnityEngine {
+struct CameraClearFlags;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+struct UnityEngine__Camera__StereoscopicEye;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -129,6 +147,8 @@ constexpr operator __UnityEngine__Camera__StereoscopicEye_Unwrapped () const noe
 return std::bit_cast<__UnityEngine__Camera__StereoscopicEye_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 
@@ -198,6 +218,8 @@ __Mono = 2,
 constexpr operator __UnityEngine__Camera__MonoOrStereoscopicEye_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Camera__MonoOrStereoscopicEye_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -282,6 +304,8 @@ __DiffuseColor = 13,
 constexpr operator __UnityEngine__Camera__RenderRequestMode_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Camera__RenderRequestMode_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -395,6 +419,8 @@ __UV8 = 8,
 constexpr operator __UnityEngine__Camera__RenderRequestOutputSpace_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__Camera__RenderRequestOutputSpace_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -546,8 +572,7 @@ constexpr explicit UnityEngine__Camera__CameraCallback(void* ptr) noexcept : Sys
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__Camera__CameraCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UnityEngine__Camera__CameraCallback New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b51354 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -699,8 +724,7 @@ static int32_t __declspec(property(get=get_allCamerasCount))  allCamerasCount;
 
 // Methods
 
-// Ctor Parameters []
-explicit Camera() ;
+static UnityEngine::Camera New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b4f78c size 0x4 virtual false final false
  void _ctor() ;

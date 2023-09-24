@@ -7,13 +7,13 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class HeartbeatExtension;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class ServerNameList;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatusRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class HeartbeatExtension;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -202,8 +202,7 @@ static Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest ReadStatusReques
 /// @brief Method ReadTruncatedHMacExtension addr 0xf20954 size 0x14 virtual false final false
 static bool ReadTruncatedHMacExtension(::ArrayW<uint8_t> extensionData) ;
 
-// Ctor Parameters []
-explicit TlsExtensionsUtilities() ;
+static Org::BouncyCastle::Crypto::Tls::TlsExtensionsUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xf20e5c size 0x8 virtual false final false
  void _ctor() ;

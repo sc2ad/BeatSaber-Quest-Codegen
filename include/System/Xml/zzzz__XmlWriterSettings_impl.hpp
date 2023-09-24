@@ -1,17 +1,17 @@
 #pragma once
 #include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Xml/zzzz__NamespaceHandling_def.hpp"
+#include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/Xml/zzzz__ConformanceLevel_def.hpp"
-#include "System/Xml/zzzz__XmlOutputMethod_def.hpp"
-#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
-#include "System/Xml/zzzz__NewLineHandling_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
-#include "System/Xml/zzzz__NamespaceHandling_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__TriState_def.hpp"
+#include "System/Xml/zzzz__NewLineHandling_def.hpp"
 //  Writing Method size for method: System::Xml::XmlWriterSettings._ctor
 template<>
 
@@ -762,8 +762,10 @@ constexpr void System::Xml::XmlWriterSettings::__set_isReadOnly(bool value)  {
 constexpr bool System::Xml::XmlWriterSettings::__get_isReadOnly() const {
 return ::cordl_internals::getInstanceField<bool, 0x85>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Xml::XmlWriterSettings::XmlWriterSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<XmlWriterSettings>())) {}
+ System::Xml::XmlWriterSettings System::Xml::XmlWriterSettings::New_ctor()  {
+System::Xml::XmlWriterSettings o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::XmlWriterSettings>())};
+return o;
+}
  void System::Xml::XmlWriterSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::XmlWriterSettings>::get(),

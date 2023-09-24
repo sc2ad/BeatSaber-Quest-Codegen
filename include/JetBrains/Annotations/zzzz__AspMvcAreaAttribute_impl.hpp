@@ -75,8 +75,10 @@ constexpr void JetBrains::Annotations::AspMvcAreaAttribute::__set__AnonymousProp
 constexpr ::StringW JetBrains::Annotations::AspMvcAreaAttribute::__get__AnonymousProperty_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- JetBrains::Annotations::AspMvcAreaAttribute::AspMvcAreaAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcAreaAttribute>())) {}
+ JetBrains::Annotations::AspMvcAreaAttribute JetBrains::Annotations::AspMvcAreaAttribute::New_ctor()  {
+JetBrains::Annotations::AspMvcAreaAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcAreaAttribute>())};
+return o;
+}
  void JetBrains::Annotations::AspMvcAreaAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcAreaAttribute>::get(),
@@ -86,8 +88,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "anonymousProperty", ty: "::StringW", modifiers: "", def_value: None }]
- JetBrains::Annotations::AspMvcAreaAttribute::AspMvcAreaAttribute(::StringW anonymousProperty)  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<AspMvcAreaAttribute>(anonymousProperty))) {}
+ JetBrains::Annotations::AspMvcAreaAttribute JetBrains::Annotations::AspMvcAreaAttribute::New_ctor(::StringW anonymousProperty)  {
+JetBrains::Annotations::AspMvcAreaAttribute o{THROW_UNLESS(::il2cpp_utils::New<JetBrains::Annotations::AspMvcAreaAttribute>(anonymousProperty))};
+return o;
+}
  void JetBrains::Annotations::AspMvcAreaAttribute::_ctor(::StringW anonymousProperty)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<JetBrains::Annotations::AspMvcAreaAttribute>::get(),

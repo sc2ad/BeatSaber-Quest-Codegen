@@ -86,8 +86,7 @@ constexpr bool __get__on() const;
 /// @brief Method HandleToggleValueDidChange addr 0x2153c98 size 0x10 virtual false final false
  void HandleToggleValueDidChange(bool value) ;
 
-// Ctor Parameters []
-explicit SwitchSettingsController() ;
+static GlobalNamespace::SwitchSettingsController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2152460 size 0x8 virtual false final false
  void _ctor() ;

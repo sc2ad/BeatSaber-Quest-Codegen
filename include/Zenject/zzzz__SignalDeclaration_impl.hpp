@@ -1,16 +1,16 @@
 #pragma once
 #include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
 #include "Zenject/zzzz__SignalDeclaration_def.hpp"
+#include "Zenject/zzzz__ZenjectSettings_def.hpp"
 #include "Zenject/zzzz__SignalSubscription_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__BindingId_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "Zenject/zzzz__ZenjectSettings_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
 #include "Zenject/zzzz__SignalMissingHandlerResponses_def.hpp"
+#include "Zenject/zzzz__BindingId_def.hpp"
+#include "Zenject/zzzz__SignalDeclaration_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__SignalDeclarationBindInfo_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: Zenject::SignalDeclaration._ctor
 template<>
 
@@ -282,8 +282,10 @@ constexpr void Zenject::SignalDeclaration::__set__TickPriority_k__BackingField(i
 constexpr int32_t Zenject::SignalDeclaration::__get__TickPriority_k__BackingField() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::SignalDeclarationBindInfo", modifiers: "", def_value: None }, CppParam { name: "zenjectSettings", ty: "Zenject::ZenjectSettings", modifiers: "", def_value: None }]
- Zenject::SignalDeclaration::SignalDeclaration(Zenject::SignalDeclarationBindInfo bindInfo, Zenject::ZenjectSettings zenjectSettings)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignalDeclaration>(bindInfo, zenjectSettings))) {}
+ Zenject::SignalDeclaration Zenject::SignalDeclaration::New_ctor(Zenject::SignalDeclarationBindInfo bindInfo, Zenject::ZenjectSettings zenjectSettings)  {
+Zenject::SignalDeclaration o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SignalDeclaration>(bindInfo, zenjectSettings))};
+return o;
+}
  void Zenject::SignalDeclaration::_ctor(Zenject::SignalDeclarationBindInfo bindInfo, Zenject::ZenjectSettings zenjectSettings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SignalDeclaration>::get(),
@@ -452,8 +454,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Zenject::Zenject__SignalDeclaration__Factory::Zenject__SignalDeclaration__Factory()  : Zenject::PlaceholderFactory_2<Zenject::SignalDeclarationBindInfo,Zenject::SignalDeclaration>(THROW_UNLESS(::il2cpp_utils::New<Zenject__SignalDeclaration__Factory>())) {}
+ Zenject::Zenject__SignalDeclaration__Factory Zenject::Zenject__SignalDeclaration__Factory::New_ctor()  {
+Zenject::Zenject__SignalDeclaration__Factory o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__SignalDeclaration__Factory>())};
+return o;
+}
  void Zenject::Zenject__SignalDeclaration__Factory::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__SignalDeclaration__Factory>::get(),

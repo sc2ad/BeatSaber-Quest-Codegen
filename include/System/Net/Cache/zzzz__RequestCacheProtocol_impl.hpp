@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "arg1", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "arg2", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }]
- System::Net::Cache::RequestCacheProtocol::RequestCacheProtocol(::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RequestCacheProtocol>(arg1, arg2))) {}
+ System::Net::Cache::RequestCacheProtocol System::Net::Cache::RequestCacheProtocol::New_ctor(::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2)  {
+System::Net::Cache::RequestCacheProtocol o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Cache::RequestCacheProtocol>(arg1, arg2))};
+return o;
+}
  void System::Net::Cache::RequestCacheProtocol::_ctor(::bs_hook::Il2CppWrapperType arg1, ::bs_hook::Il2CppWrapperType arg2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Cache::RequestCacheProtocol>::get(),

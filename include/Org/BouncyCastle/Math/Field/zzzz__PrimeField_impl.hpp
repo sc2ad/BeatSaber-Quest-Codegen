@@ -97,8 +97,10 @@ constexpr void Org::BouncyCastle::Math::Field::PrimeField::__set_characteristic(
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::Field::PrimeField::__get_characteristic() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "characteristic", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::Field::PrimeField::PrimeField(Org::BouncyCastle::Math::BigInteger characteristic)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PrimeField>(characteristic))) {}
+ Org::BouncyCastle::Math::Field::PrimeField Org::BouncyCastle::Math::Field::PrimeField::New_ctor(Org::BouncyCastle::Math::BigInteger characteristic)  {
+Org::BouncyCastle::Math::Field::PrimeField o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::Field::PrimeField>(characteristic))};
+return o;
+}
  void Org::BouncyCastle::Math::Field::PrimeField::_ctor(Org::BouncyCastle::Math::BigInteger characteristic)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::Field::PrimeField>::get(),

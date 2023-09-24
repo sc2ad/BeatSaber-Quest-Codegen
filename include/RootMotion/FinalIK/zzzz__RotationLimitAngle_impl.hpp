@@ -187,8 +187,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Quaternion, false>(const_cast<void*>(instance), ___internal_method, rotation);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RotationLimitAngle::RotationLimitAngle()  : RootMotion::FinalIK::RotationLimit(THROW_UNLESS(::il2cpp_utils::New<RotationLimitAngle>())) {}
+ RootMotion::FinalIK::RotationLimitAngle RootMotion::FinalIK::RotationLimitAngle::New_ctor()  {
+RootMotion::FinalIK::RotationLimitAngle o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RotationLimitAngle>())};
+return o;
+}
  void RootMotion::FinalIK::RotationLimitAngle::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RotationLimitAngle>::get(),

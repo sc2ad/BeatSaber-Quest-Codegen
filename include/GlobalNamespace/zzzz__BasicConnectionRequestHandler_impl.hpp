@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BasicConnectionRequestHandler_def.hpp"
-#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
+#include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BasicConnectionRequestHandler.get_secret
 template<>
 
@@ -134,8 +134,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, reader, userId, userName, isConnectionOwner);
 }
-// Ctor Parameters []
- GlobalNamespace::BasicConnectionRequestHandler::BasicConnectionRequestHandler()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<BasicConnectionRequestHandler>())) {}
+ GlobalNamespace::BasicConnectionRequestHandler GlobalNamespace::BasicConnectionRequestHandler::New_ctor()  {
+GlobalNamespace::BasicConnectionRequestHandler o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BasicConnectionRequestHandler>())};
+return o;
+}
  void GlobalNamespace::BasicConnectionRequestHandler::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BasicConnectionRequestHandler>::get(),

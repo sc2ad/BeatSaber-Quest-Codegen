@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECKeyGenerationParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters._ctor
 template<>
@@ -84,8 +84,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters:
 constexpr Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::__get_publicKeyParamSet() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Asn1::DerObjectIdentifier, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "domainParameters", ty: "Org::BouncyCastle::Crypto::Parameters::ECDomainParameters", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::ECKeyGenerationParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters domainParameters, Org::BouncyCastle::Security::SecureRandom random)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<ECKeyGenerationParameters>(domainParameters, random))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters domainParameters, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters>(domainParameters, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters domainParameters, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters>::get(),
@@ -95,8 +97,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, domainParameters, random);
 }
-// Ctor Parameters [CppParam { name: "publicKeyParamSet", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "random", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::ECKeyGenerationParameters(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Security::SecureRandom random)  : Org::BouncyCastle::Crypto::KeyGenerationParameters(THROW_UNLESS(::il2cpp_utils::New<ECKeyGenerationParameters>(publicKeyParamSet, random))) {}
+ Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Security::SecureRandom random)  {
+Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters>(publicKeyParamSet, random))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters::_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier publicKeyParamSet, Org::BouncyCastle::Security::SecureRandom random)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters>::get(),

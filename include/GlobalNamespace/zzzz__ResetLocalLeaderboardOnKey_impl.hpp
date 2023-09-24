@@ -2,8 +2,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResetLocalLeaderboardOnKey_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 //  Writing Method size for method: GlobalNamespace::ResetLocalLeaderboardOnKey.Update
 template<>
 
@@ -65,8 +65,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::ResetLocalLeaderboardOnKey::ResetLocalLeaderboardOnKey()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ResetLocalLeaderboardOnKey>())) {}
+ GlobalNamespace::ResetLocalLeaderboardOnKey GlobalNamespace::ResetLocalLeaderboardOnKey::New_ctor()  {
+GlobalNamespace::ResetLocalLeaderboardOnKey o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::ResetLocalLeaderboardOnKey>())};
+return o;
+}
  void GlobalNamespace::ResetLocalLeaderboardOnKey::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::ResetLocalLeaderboardOnKey>::get(),

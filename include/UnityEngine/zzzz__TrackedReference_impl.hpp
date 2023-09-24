@@ -74,8 +74,10 @@ constexpr void UnityEngine::TrackedReference::__set_m_Ptr(::cordl_internals::int
 constexpr ::cordl_internals::intptr_t UnityEngine::TrackedReference::__get_m_Ptr() const {
 return ::cordl_internals::getInstanceField<::cordl_internals::intptr_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- UnityEngine::TrackedReference::TrackedReference()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TrackedReference>())) {}
+ UnityEngine::TrackedReference UnityEngine::TrackedReference::New_ctor()  {
+UnityEngine::TrackedReference o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TrackedReference>())};
+return o;
+}
  void UnityEngine::TrackedReference::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TrackedReference>::get(),

@@ -3,16 +3,16 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-class IVerboseLogger;
-}
-namespace UnityEngine::XR {
-struct XRNode;
+class IVRPlatformHelper;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class IVerboseLogger;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 // Forward declare root types
 namespace GlobalNamespace {

@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 namespace UnityEngine {
-class Transform;
+class SpriteRenderer;
 }
 namespace UnityEngine {
-class SpriteRenderer;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -111,8 +111,7 @@ constexpr UnityEngine::Transform __get__transform() const;
 /// @brief Method LateUpdate addr 0x1f7b5e8 size 0xf8 virtual false final false
  void LateUpdate() ;
 
-// Ctor Parameters []
-explicit SimpleShadowController() ;
+static GlobalNamespace::SimpleShadowController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f7b6e0 size 0x10 virtual false final false
  void _ctor() ;

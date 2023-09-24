@@ -6,27 +6,27 @@
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace UnityEngine {
 struct Vector2;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -140,14 +140,12 @@ constexpr bool __get__EnableVector4_k__BackingField() const;
 /// @brief Method set_EnableVector4 addr 0x253fa10 size 0xc virtual false final false
  void set_EnableVector4(bool value) ;
 
-// Ctor Parameters []
-explicit VectorConverter() ;
+static Newtonsoft::Json::Converters::VectorConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x253fa1c size 0x28 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "enableVector2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableVector3", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableVector4", ty: "bool", modifiers: "", def_value: None }]
-explicit VectorConverter(bool enableVector2, bool enableVector3, bool enableVector4) ;
+static Newtonsoft::Json::Converters::VectorConverter New_ctor(bool enableVector2, bool enableVector3, bool enableVector4) ;
 
 /// @brief Method .ctor addr 0x253fa44 size 0x4c virtual false final false
  void _ctor(bool enableVector2, bool enableVector3, bool enableVector4) ;

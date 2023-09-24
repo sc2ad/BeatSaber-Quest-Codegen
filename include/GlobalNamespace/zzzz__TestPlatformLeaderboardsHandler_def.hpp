@@ -7,19 +7,19 @@ namespace GlobalNamespace {
 class GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
-}
-namespace GlobalNamespace {
-class HMAsyncRequest;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
-class GlobalNamespace__LeaderboardScoreUploader__ScoreData;
+class GlobalNamespace__PlatformLeaderboardsModel__GetScoresCompletionHandler;
+}
+namespace GlobalNamespace {
+class HMAsyncRequest;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,8 +73,7 @@ constexpr explicit TestPlatformLeaderboardsHandler(void* ptr) noexcept : GlobalN
 /// @brief Method UploadScore addr 0x21c7680 size 0x5c virtual true final false
  GlobalNamespace::HMAsyncRequest UploadScore(GlobalNamespace::GlobalNamespace__LeaderboardScoreUploader__ScoreData scoreData, GlobalNamespace::GlobalNamespace__PlatformLeaderboardsModel__UploadScoreCompletionHandler completionHandler) ;
 
-// Ctor Parameters []
-explicit TestPlatformLeaderboardsHandler() ;
+static GlobalNamespace::TestPlatformLeaderboardsHandler New_ctor() ;
 
 /// @brief Method .ctor addr 0x21c76dc size 0x8 virtual false final false
  void _ctor() ;

@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 namespace System::Reflection {
+class Assembly;
+}
+namespace System::Reflection {
 struct BindingFlags;
 }
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System {
 class Type;

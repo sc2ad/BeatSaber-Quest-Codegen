@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Text/zzzz__EncodingProvider_def.hpp"
-#include "System/Text/zzzz__EncoderFallback_def.hpp"
-#include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Text/zzzz__DecoderFallback_def.hpp"
+#include "System/Text/zzzz__Encoding_def.hpp"
+#include "System/Text/zzzz__EncoderFallback_def.hpp"
 //  Writing Method size for method: System::Text::EncodingProvider.GetEncoding
 template<>
 

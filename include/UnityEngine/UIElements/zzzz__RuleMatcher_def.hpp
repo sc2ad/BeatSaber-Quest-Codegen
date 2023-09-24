@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 namespace UnityEngine::UIElements {
-class StyleSheet;
+class StyleComplexSelector;
 }
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

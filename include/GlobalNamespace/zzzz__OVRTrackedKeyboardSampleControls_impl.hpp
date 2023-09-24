@@ -4,12 +4,13 @@
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "UnityEngine/UI/zzzz__InputField_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
+#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
+#include "GlobalNamespace/zzzz__OVRTrackedKeyboardSampleControls_def.hpp"
+#include "UnityEngine/UI/zzzz__InputField_def.hpp"
 //  Writing Method size for method: GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19._ctor
 template<>
 
@@ -154,8 +155,10 @@ constexpr void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControl
 constexpr bool GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19::__get__trackingWasEnabled_5__2() const {
 return ::cordl_internals::getInstanceField<bool, 0x30>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19>(__1__state))) {}
+ GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19::New_ctor(int32_t __1__state)  {
+GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19>(__1__state))};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19>::get(),
@@ -556,8 +559,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- GlobalNamespace::OVRTrackedKeyboardSampleControls::OVRTrackedKeyboardSampleControls()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OVRTrackedKeyboardSampleControls>())) {}
+ GlobalNamespace::OVRTrackedKeyboardSampleControls GlobalNamespace::OVRTrackedKeyboardSampleControls::New_ctor()  {
+GlobalNamespace::OVRTrackedKeyboardSampleControls o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::OVRTrackedKeyboardSampleControls>())};
+return o;
+}
  void GlobalNamespace::OVRTrackedKeyboardSampleControls::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::OVRTrackedKeyboardSampleControls>::get(),

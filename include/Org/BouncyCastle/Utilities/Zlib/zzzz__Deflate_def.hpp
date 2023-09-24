@@ -8,6 +8,9 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
+class Org__BouncyCastle__Utilities__Zlib__Deflate__Config;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
 class Tree;
 }
 // Forward declare root types
@@ -92,8 +95,7 @@ constexpr int32_t __get_func() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "good_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_lazy", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nice_length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max_chain", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "func", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Utilities__Zlib__Deflate__Config(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func) ;
+static Org::BouncyCastle::Utilities::Zlib::Org__BouncyCastle__Utilities__Zlib__Deflate__Config New_ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func) ;
 
 /// @brief Method .ctor addr 0x10d9358 size 0x50 virtual false final false
  void _ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func) ;
@@ -659,8 +661,7 @@ constexpr int32_t __get_bi_valid() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Deflate() ;
+static Org::BouncyCastle::Utilities::Zlib::Deflate New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d538c size 0x148 virtual false final false
  void _ctor() ;

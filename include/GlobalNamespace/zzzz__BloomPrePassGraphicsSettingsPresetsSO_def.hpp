@@ -7,6 +7,9 @@ namespace GlobalNamespace {
 class NamedPreset;
 }
 namespace GlobalNamespace {
+class GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset;
+}
+namespace GlobalNamespace {
 class BloomPrePassEffectSO;
 }
 // Forward declare root types
@@ -67,8 +70,7 @@ constexpr GlobalNamespace::BloomPrePassEffectSO __get_bloomPrePassEffect() const
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset() ;
+static GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSettingsPresetsSO__Preset New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef660 size 0x8 virtual false final false
  void _ctor() ;
@@ -143,8 +145,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__BloomPrePassGraphicsSetting
 /// @brief Method get_namedPresets addr 0x21ef650 size 0x8 virtual true final false
  ::ArrayW<GlobalNamespace::NamedPreset> get_namedPresets() ;
 
-// Ctor Parameters []
-explicit BloomPrePassGraphicsSettingsPresetsSO() ;
+static GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x21ef658 size 0x8 virtual false final false
  void _ctor() ;

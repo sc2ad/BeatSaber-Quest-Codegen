@@ -1,14 +1,14 @@
 #pragma once
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_impl.hpp"
 #include "System/Xml/zzzz__HtmlEncodedRawTextWriter_def.hpp"
-#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
-#include "System/IO/zzzz__TextWriter_def.hpp"
-#include "System/Xml/zzzz__ByteStack_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Xml/zzzz__AttributeProperties_def.hpp"
+#include "System/Xml/zzzz__XmlStandalone_def.hpp"
 #include "System/Xml/zzzz__ElementProperties_def.hpp"
 #include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Xml/zzzz__XmlStandalone_def.hpp"
+#include "System/IO/zzzz__TextWriter_def.hpp"
+#include "System/Xml/zzzz__XmlWriterSettings_def.hpp"
+#include "System/Xml/zzzz__ByteStack_def.hpp"
 //  Writing Method size for method: System::Xml::HtmlEncodedRawTextWriter._ctor
 template<>
 
@@ -471,8 +471,10 @@ return ::cordl_internals::getStaticField<System::Xml::TernaryTreeReadOnly, "elem
  System::Xml::TernaryTreeReadOnly System::Xml::HtmlEncodedRawTextWriter::__get_attributePropertySearch()  {
 return ::cordl_internals::getStaticField<System::Xml::TernaryTreeReadOnly, "attributePropertySearch", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::HtmlEncodedRawTextWriter>::get>();
 }
-// Ctor Parameters [CppParam { name: "writer", ty: "System::IO::TextWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::HtmlEncodedRawTextWriter::HtmlEncodedRawTextWriter(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlEncodedRawTextWriter(THROW_UNLESS(::il2cpp_utils::New<HtmlEncodedRawTextWriter>(writer, settings))) {}
+ System::Xml::HtmlEncodedRawTextWriter System::Xml::HtmlEncodedRawTextWriter::New_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  {
+System::Xml::HtmlEncodedRawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::HtmlEncodedRawTextWriter>(writer, settings))};
+return o;
+}
  void System::Xml::HtmlEncodedRawTextWriter::_ctor(System::IO::TextWriter writer, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::HtmlEncodedRawTextWriter>::get(),
@@ -482,8 +484,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, writer, settings);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
- System::Xml::HtmlEncodedRawTextWriter::HtmlEncodedRawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  : System::Xml::XmlEncodedRawTextWriter(THROW_UNLESS(::il2cpp_utils::New<HtmlEncodedRawTextWriter>(stream, settings))) {}
+ System::Xml::HtmlEncodedRawTextWriter System::Xml::HtmlEncodedRawTextWriter::New_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
+System::Xml::HtmlEncodedRawTextWriter o{THROW_UNLESS(::il2cpp_utils::New<System::Xml::HtmlEncodedRawTextWriter>(stream, settings))};
+return o;
+}
  void System::Xml::HtmlEncodedRawTextWriter::_ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Xml::HtmlEncodedRawTextWriter>::get(),

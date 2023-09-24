@@ -49,8 +49,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, level, str, args);
 }
-// Ctor Parameters []
- GlobalNamespace::NetLogger::NetLogger()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetLogger>())) {}
+ GlobalNamespace::NetLogger GlobalNamespace::NetLogger::New_ctor()  {
+GlobalNamespace::NetLogger o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::NetLogger>())};
+return o;
+}
  void GlobalNamespace::NetLogger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::NetLogger>::get(),

@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class BloomPrePassBackgroundTextureGradient;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundTextureGradient;
+class ColorBoostBeatmapEventData;
+}
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -95,8 +95,7 @@ constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallback
 /// @brief Method HandleBeatmapEvent addr 0x225bc34 size 0x50 virtual false final false
  void HandleBeatmapEvent(GlobalNamespace::ColorBoostBeatmapEventData eventData) ;
 
-// Ctor Parameters []
-explicit BackgroundTextureGradientSwitchEventEffect() ;
+static GlobalNamespace::BackgroundTextureGradientSwitchEventEffect New_ctor() ;
 
 /// @brief Method .ctor addr 0x225bc84 size 0x8 virtual false final false
  void _ctor() ;

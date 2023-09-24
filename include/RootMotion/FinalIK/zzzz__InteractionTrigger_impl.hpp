@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "RootMotion/FinalIK/zzzz__InteractionObject_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
+#include "RootMotion/FinalIK/zzzz__InteractionTrigger_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition.get_offset3D
 template<>
@@ -146,8 +147,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, character, trigger, error);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition::RootMotion__FinalIK__InteractionTrigger__CharacterPosition()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionTrigger__CharacterPosition>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CharacterPosition>::get(),
@@ -256,8 +259,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, raycastFrom, hit, trigger, error);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition::RootMotion__FinalIK__InteractionTrigger__CameraPosition()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionTrigger__CameraPosition>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__CameraPosition>::get(),
@@ -296,8 +301,10 @@ constexpr void GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__
 constexpr ::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector> GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction::__get_effectors() const {
 return ::cordl_internals::getInstanceField<::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction::RootMotion__FinalIK__InteractionTrigger__Range__Interaction()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionTrigger__Range__Interaction>())) {}
+ GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction::New_ctor()  {
+GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction>())};
+return o;
+}
  void GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::RootMotion__FinalIK__InteractionTrigger__Range__Interaction>::get(),
@@ -380,8 +387,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method, character, raycastFrom, raycastHit, trigger, maxError);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range::RootMotion__FinalIK__InteractionTrigger__Range()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__InteractionTrigger__Range>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__InteractionTrigger__Range>::get(),
@@ -596,8 +605,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, character, raycastFrom, raycastHit);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::InteractionTrigger::InteractionTrigger()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<InteractionTrigger>())) {}
+ RootMotion::FinalIK::InteractionTrigger RootMotion::FinalIK::InteractionTrigger::New_ctor()  {
+RootMotion::FinalIK::InteractionTrigger o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::InteractionTrigger>())};
+return o;
+}
  void RootMotion::FinalIK::InteractionTrigger::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::InteractionTrigger>::get(),

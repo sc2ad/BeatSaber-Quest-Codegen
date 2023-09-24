@@ -2,17 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
-namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+namespace System::Threading {
+class WaitCallback;
 }
 namespace System {
 class Action;
 }
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
 namespace System::Threading {
 class SendOrPostCallback;
 }
-namespace System::Threading {
-class WaitCallback;
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__YieldAwaitable__YieldAwaiter;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

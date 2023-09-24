@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace System {
-class IDisposable;
-}
 namespace UnityOpus {
 struct NumChannels;
 }
 namespace UnityOpus {
 struct SamplingFrequency;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityOpus {
@@ -92,8 +92,7 @@ constexpr bool __get_disposedValue() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "samplingFrequency", ty: "UnityOpus::SamplingFrequency", modifiers: "", def_value: None }, CppParam { name: "channels", ty: "UnityOpus::NumChannels", modifiers: "", def_value: None }]
-explicit Decoder(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels) ;
+static UnityOpus::Decoder New_ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels) ;
 
 /// @brief Method .ctor addr 0x21d61b0 size 0x154 virtual false final false
  void _ctor(UnityOpus::SamplingFrequency samplingFrequency, UnityOpus::NumChannels channels) ;

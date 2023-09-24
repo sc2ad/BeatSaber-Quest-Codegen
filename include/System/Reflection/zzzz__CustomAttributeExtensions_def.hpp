@@ -1,21 +1,21 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace System::Reflection {
+class Assembly;
 }
 namespace System::Reflection {
 class MemberInfo;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
 class Attribute;
 }
 namespace System {
 class Type;
-}
-namespace System::Reflection {
-class Assembly;
 }
 // Forward declare root types
 namespace System::Reflection {

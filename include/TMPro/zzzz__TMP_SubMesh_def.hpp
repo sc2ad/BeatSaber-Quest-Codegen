@@ -2,32 +2,32 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace UnityEngine {
-class Material;
-}
-namespace TMPro {
-class TMP_FontAsset;
-}
-namespace UnityEngine {
-class MeshFilter;
-}
 namespace TMPro {
 class TextMeshPro;
-}
-namespace TMPro {
-class TMP_Text;
-}
-namespace TMPro {
-struct MaterialReference;
 }
 namespace UnityEngine {
 class Renderer;
 }
+namespace UnityEngine {
+class Mesh;
+}
+namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace TMPro {
+struct MaterialReference;
+}
 namespace TMPro {
 class TMP_SpriteAsset;
 }
-namespace UnityEngine {
-class Mesh;
+namespace TMPro {
+class TMP_FontAsset;
+}
+namespace TMPro {
+class TMP_Text;
 }
 // Forward declare root types
 namespace TMPro {
@@ -288,8 +288,7 @@ static TMPro::TMP_SubMesh AddSubTextObject(TMPro::TextMeshPro textComponent, TMP
 /// @brief Method UpdateMaterial addr 0x2aaebd0 size 0x170 virtual false final false
  void UpdateMaterial() ;
 
-// Ctor Parameters []
-explicit TMP_SubMesh() ;
+static TMPro::TMP_SubMesh New_ctor() ;
 
 /// @brief Method .ctor addr 0x2aaed40 size 0x8 virtual false final false
  void _ctor() ;

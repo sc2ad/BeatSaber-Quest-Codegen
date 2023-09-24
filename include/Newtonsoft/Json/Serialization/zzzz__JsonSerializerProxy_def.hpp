@@ -4,91 +4,40 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace Newtonsoft::Json {
-class JsonWriter;
+namespace System {
+template<typename TEventArgs>
+class EventHandler_1;
+}
+namespace System::Collections {
+class IEqualityComparer;
 }
 namespace Newtonsoft::Json {
-struct TypeNameHandling;
+class JsonWriter;
 }
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace Newtonsoft::Json {
-struct NullValueHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalBase;
-}
-namespace Newtonsoft::Json::Serialization {
-class ErrorEventArgs;
-}
-namespace Newtonsoft::Json {
-struct PreserveReferencesHandling;
-}
-namespace Newtonsoft::Json {
-struct FloatParseHandling;
-}
-namespace Newtonsoft::Json {
-struct DateParseHandling;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalReader;
-}
-namespace Newtonsoft::Json {
-struct StringEscapeHandling;
-}
-namespace System {
-template<typename TEventArgs>
-class EventHandler_1;
-}
-namespace Newtonsoft::Json::Serialization {
-class ITraceWriter;
-}
 namespace System::Runtime::Serialization::Formatters {
 struct FormatterAssemblyStyle;
 }
 namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
-}
-namespace Newtonsoft::Json {
-class JsonConverterCollection;
-}
-namespace System::Runtime::Serialization {
-class SerializationBinder;
-}
-namespace Newtonsoft::Json {
-struct ConstructorHandling;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
+class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 struct DefaultValueHandling;
 }
 namespace Newtonsoft::Json {
-struct ObjectCreationHandling;
-}
-namespace System::Collections {
-class IEqualityComparer;
-}
-namespace Newtonsoft::Json::Serialization {
-class IContractResolver;
+struct StringEscapeHandling;
 }
 namespace Newtonsoft::Json {
-struct Formatting;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalWriter;
+struct MetadataPropertyHandling;
 }
 namespace Newtonsoft::Json {
-struct DateFormatHandling;
+struct ConstructorHandling;
+}
+namespace System {
+class Type;
 }
 namespace Newtonsoft::Json {
 struct MissingMemberHandling;
@@ -96,20 +45,71 @@ struct MissingMemberHandling;
 namespace Newtonsoft::Json {
 struct FloatFormatHandling;
 }
-namespace Newtonsoft::Json {
-struct MetadataPropertyHandling;
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
+namespace System::Runtime::Serialization {
+class SerializationBinder;
+}
+namespace Newtonsoft::Json::Serialization {
+class IContractResolver;
+}
+namespace Newtonsoft::Json::Serialization {
+class ErrorEventArgs;
 }
 namespace Newtonsoft::Json {
-class JsonReader;
-}
-namespace System {
-class Type;
+struct DateParseHandling;
 }
 namespace Newtonsoft::Json::Serialization {
 class IReferenceResolver;
 }
 namespace Newtonsoft::Json {
-class JsonSerializer;
+struct Formatting;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace Newtonsoft::Json {
+struct TypeNameHandling;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
+}
+namespace Newtonsoft::Json {
+struct DateFormatHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalBase;
+}
+namespace Newtonsoft::Json {
+struct NullValueHandling;
+}
+namespace Newtonsoft::Json {
+struct ObjectCreationHandling;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalWriter;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
+}
+namespace Newtonsoft::Json {
+struct FloatParseHandling;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
+namespace Newtonsoft::Json {
+struct PreserveReferencesHandling;
+}
+namespace Newtonsoft::Json {
+class JsonConverterCollection;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -411,14 +411,12 @@ constexpr Newtonsoft::Json::JsonSerializer __get__serializer() const;
 /// @brief Method GetInternalSerializer addr 0x2515fdc size 0x1c virtual false final false
  Newtonsoft::Json::Serialization::JsonSerializerInternalBase GetInternalSerializer() ;
 
-// Ctor Parameters [CppParam { name: "serializerReader", ty: "Newtonsoft::Json::Serialization::JsonSerializerInternalReader", modifiers: "", def_value: None }]
-explicit JsonSerializerProxy(Newtonsoft::Json::Serialization::JsonSerializerInternalReader serializerReader) ;
+static Newtonsoft::Json::Serialization::JsonSerializerProxy New_ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader serializerReader) ;
 
 /// @brief Method .ctor addr 0x2515ff8 size 0x7c virtual false final false
  void _ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader serializerReader) ;
 
-// Ctor Parameters [CppParam { name: "serializerWriter", ty: "Newtonsoft::Json::Serialization::JsonSerializerInternalWriter", modifiers: "", def_value: None }]
-explicit JsonSerializerProxy(Newtonsoft::Json::Serialization::JsonSerializerInternalWriter serializerWriter) ;
+static Newtonsoft::Json::Serialization::JsonSerializerProxy New_ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalWriter serializerWriter) ;
 
 /// @brief Method .ctor addr 0x2510824 size 0x7c virtual false final false
  void _ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalWriter serializerWriter) ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__DriveNotFoundException_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 //  Writing Method size for method: System::IO::DriveNotFoundException._ctor
 template<>
 
@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::IO::DriveNotFoundException::DriveNotFoundException()  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<DriveNotFoundException>())) {}
+ System::IO::DriveNotFoundException System::IO::DriveNotFoundException::New_ctor()  {
+System::IO::DriveNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::DriveNotFoundException>())};
+return o;
+}
  void System::IO::DriveNotFoundException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::DriveNotFoundException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::IO::DriveNotFoundException::DriveNotFoundException(::StringW message)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<DriveNotFoundException>(message))) {}
+ System::IO::DriveNotFoundException System::IO::DriveNotFoundException::New_ctor(::StringW message)  {
+System::IO::DriveNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::DriveNotFoundException>(message))};
+return o;
+}
  void System::IO::DriveNotFoundException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::DriveNotFoundException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::IO::DriveNotFoundException::DriveNotFoundException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::IO::IOException(THROW_UNLESS(::il2cpp_utils::New<DriveNotFoundException>(info, context))) {}
+ System::IO::DriveNotFoundException System::IO::DriveNotFoundException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::IO::DriveNotFoundException o{THROW_UNLESS(::il2cpp_utils::New<System::IO::DriveNotFoundException>(info, context))};
+return o;
+}
  void System::IO::DriveNotFoundException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::IO::DriveNotFoundException>::get(),

@@ -5,14 +5,14 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventBuffer;
 }
 namespace UnityEngineInternal::Input {
 struct NativeInputEvent;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventBuffer;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {

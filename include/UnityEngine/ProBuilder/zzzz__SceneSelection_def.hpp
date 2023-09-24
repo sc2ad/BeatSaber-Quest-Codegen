@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::ProBuilder {
+class Face;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
 }
 namespace System {
 template<typename T>
@@ -20,8 +19,9 @@ class IEquatable_1;
 namespace UnityEngine::ProBuilder {
 struct Edge;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -150,44 +150,37 @@ constexpr UnityEngine::ProBuilder::Face __get_face() const;
 /// @brief Method set_faces addr 0x29d55c8 size 0x8 virtual false final false
  void set_faces(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> value) ;
 
-// Ctor Parameters [CppParam { name: "gameObject", ty: "UnityEngine::GameObject", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::GameObject gameObject) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::GameObject gameObject) ;
 
 /// @brief Method .ctor addr 0x29d55d0 size 0x118 virtual false final false
  void _ctor(UnityEngine::GameObject gameObject) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "vertex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex) ;
 
 /// @brief Method .ctor addr 0x29d56e8 size 0xf8 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "edge", ty: "UnityEngine::ProBuilder::Edge", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Edge edge) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Edge edge) ;
 
 /// @brief Method .ctor addr 0x29d5904 size 0xf8 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Edge edge) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "face", ty: "UnityEngine::ProBuilder::Face", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Face face) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Face face) ;
 
 /// @brief Method .ctor addr 0x29d5b20 size 0xf8 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::ProBuilder::Face face) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "vertexes", ty: "System::Collections::Generic::List_1<int32_t>", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<int32_t> vertexes) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<int32_t> vertexes) ;
 
 /// @brief Method .ctor addr 0x29d57e0 size 0x124 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<int32_t> vertexes) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "edges", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge> edges) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge> edges) ;
 
 /// @brief Method .ctor addr 0x29d59fc size 0x124 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge> edges) ;
 
-// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "faces", ty: "System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face>", modifiers: "", def_value: None }]
-explicit SceneSelection(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces) ;
+static UnityEngine::ProBuilder::SceneSelection New_ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces) ;
 
 /// @brief Method .ctor addr 0x29d5c18 size 0x124 virtual false final false
  void _ctor(UnityEngine::ProBuilder::ProBuilderMesh mesh, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face> faces) ;

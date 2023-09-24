@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class UIDocument;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class UIDocument;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -73,8 +73,7 @@ constexpr System::Collections::Generic::List_1<UnityEngine::UIElements::UIDocume
 /// @brief Method AddToListAndToVisualTree addr 0x2c9e118 size 0x354 virtual false final false
  void AddToListAndToVisualTree(UnityEngine::UIElements::UIDocument uiDocument, UnityEngine::UIElements::VisualElement visualTree, int32_t firstInsertIndex) ;
 
-// Ctor Parameters []
-explicit UIDocumentList() ;
+static UnityEngine::UIElements::UIDocumentList New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c9e46c size 0x7c virtual false final false
  void _ctor() ;

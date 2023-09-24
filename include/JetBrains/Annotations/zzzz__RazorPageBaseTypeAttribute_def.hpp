@@ -70,14 +70,12 @@ constexpr ::StringW __get__PageName_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "baseType", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RazorPageBaseTypeAttribute(::StringW baseType) ;
+static JetBrains::Annotations::RazorPageBaseTypeAttribute New_ctor(::StringW baseType) ;
 
 /// @brief Method .ctor addr 0x2d41430 size 0x28 virtual false final false
  void _ctor(::StringW baseType) ;
 
-// Ctor Parameters [CppParam { name: "baseType", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "pageName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit RazorPageBaseTypeAttribute(::StringW baseType, ::StringW pageName) ;
+static JetBrains::Annotations::RazorPageBaseTypeAttribute New_ctor(::StringW baseType, ::StringW pageName) ;
 
 /// @brief Method .ctor addr 0x2d41458 size 0x2c virtual false final false
  void _ctor(::StringW baseType, ::StringW pageName) ;

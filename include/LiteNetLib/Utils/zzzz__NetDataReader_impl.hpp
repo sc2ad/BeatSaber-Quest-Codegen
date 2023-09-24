@@ -1,8 +1,8 @@
 #pragma once
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/Net/zzzz__IPEndPoint_def.hpp"
 //  Writing Method size for method: LiteNetLib::Utils::NetDataReader.get_RawData
 template<>
 
@@ -1487,8 +1487,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source, offset, maxSize);
 }
-// Ctor Parameters []
- LiteNetLib::Utils::NetDataReader::NetDataReader()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataReader>())) {}
+ LiteNetLib::Utils::NetDataReader LiteNetLib::Utils::NetDataReader::New_ctor()  {
+LiteNetLib::Utils::NetDataReader o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataReader>())};
+return o;
+}
  void LiteNetLib::Utils::NetDataReader::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataReader>::get(),
@@ -1498,8 +1500,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NetDataReader::NetDataReader(::ArrayW<uint8_t> source)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataReader>(source))) {}
+ LiteNetLib::Utils::NetDataReader LiteNetLib::Utils::NetDataReader::New_ctor(::ArrayW<uint8_t> source)  {
+LiteNetLib::Utils::NetDataReader o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataReader>(source))};
+return o;
+}
  void LiteNetLib::Utils::NetDataReader::_ctor(::ArrayW<uint8_t> source)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataReader>::get(),
@@ -1509,8 +1513,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NetDataReader::NetDataReader(::ArrayW<uint8_t> source, int32_t offset)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataReader>(source, offset))) {}
+ LiteNetLib::Utils::NetDataReader LiteNetLib::Utils::NetDataReader::New_ctor(::ArrayW<uint8_t> source, int32_t offset)  {
+LiteNetLib::Utils::NetDataReader o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataReader>(source, offset))};
+return o;
+}
  void LiteNetLib::Utils::NetDataReader::_ctor(::ArrayW<uint8_t> source, int32_t offset)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataReader>::get(),
@@ -1520,8 +1526,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, source, offset);
 }
-// Ctor Parameters [CppParam { name: "source", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxSize", ty: "int32_t", modifiers: "", def_value: None }]
- LiteNetLib::Utils::NetDataReader::NetDataReader(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<NetDataReader>(source, offset, maxSize))) {}
+ LiteNetLib::Utils::NetDataReader LiteNetLib::Utils::NetDataReader::New_ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize)  {
+LiteNetLib::Utils::NetDataReader o{THROW_UNLESS(::il2cpp_utils::New<LiteNetLib::Utils::NetDataReader>(source, offset, maxSize))};
+return o;
+}
  void LiteNetLib::Utils::NetDataReader::_ctor(::ArrayW<uint8_t> source, int32_t offset, int32_t maxSize)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<LiteNetLib::Utils::NetDataReader>::get(),

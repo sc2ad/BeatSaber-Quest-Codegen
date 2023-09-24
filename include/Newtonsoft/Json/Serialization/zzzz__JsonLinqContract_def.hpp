@@ -50,8 +50,7 @@ constexpr explicit JsonLinqContract(void* ptr) noexcept : Newtonsoft::Json::Seri
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
-explicit JsonLinqContract(System::Type underlyingType) ;
+static Newtonsoft::Json::Serialization::JsonLinqContract New_ctor(System::Type underlyingType) ;
 
 /// @brief Method .ctor addr 0x24f6170 size 0x1c virtual false final false
  void _ctor(System::Type underlyingType) ;

@@ -91,8 +91,10 @@ constexpr TMPro::ColorMode  TMPro::TMP_ColorGradient::k_DefaultColorMode{3};
  UnityEngine::Color TMPro::TMP_ColorGradient::__get_k_DefaultColor()  {
 return ::cordl_internals::getStaticField<UnityEngine::Color, "k_DefaultColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_ColorGradient>::get>();
 }
-// Ctor Parameters []
- TMPro::TMP_ColorGradient::TMP_ColorGradient()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TMP_ColorGradient>())) {}
+ TMPro::TMP_ColorGradient TMPro::TMP_ColorGradient::New_ctor()  {
+TMPro::TMP_ColorGradient o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_ColorGradient>())};
+return o;
+}
  void TMPro::TMP_ColorGradient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_ColorGradient>::get(),
@@ -102,8 +104,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- TMPro::TMP_ColorGradient::TMP_ColorGradient(UnityEngine::Color color)  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TMP_ColorGradient>(color))) {}
+ TMPro::TMP_ColorGradient TMPro::TMP_ColorGradient::New_ctor(UnityEngine::Color color)  {
+TMPro::TMP_ColorGradient o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_ColorGradient>(color))};
+return o;
+}
  void TMPro::TMP_ColorGradient::_ctor(UnityEngine::Color color)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_ColorGradient>::get(),
@@ -113,8 +117,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters [CppParam { name: "color0", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color1", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color2", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "color3", ty: "UnityEngine::Color", modifiers: "", def_value: None }]
- TMPro::TMP_ColorGradient::TMP_ColorGradient(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TMP_ColorGradient>(color0, color1, color2, color3))) {}
+ TMPro::TMP_ColorGradient TMPro::TMP_ColorGradient::New_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)  {
+TMPro::TMP_ColorGradient o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_ColorGradient>(color0, color1, color2, color3))};
+return o;
+}
  void TMPro::TMP_ColorGradient::_ctor(UnityEngine::Color color0, UnityEngine::Color color1, UnityEngine::Color color2, UnityEngine::Color color3)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_ColorGradient>::get(),

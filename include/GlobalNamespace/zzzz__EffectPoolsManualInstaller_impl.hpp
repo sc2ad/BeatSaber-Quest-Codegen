@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EffectPoolsManualInstaller.ManualInstallBindings
 template<>
 
@@ -93,8 +93,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, container, shortBeatEffect);
 }
-// Ctor Parameters []
- GlobalNamespace::EffectPoolsManualInstaller::EffectPoolsManualInstaller()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EffectPoolsManualInstaller>())) {}
+ GlobalNamespace::EffectPoolsManualInstaller GlobalNamespace::EffectPoolsManualInstaller::New_ctor()  {
+GlobalNamespace::EffectPoolsManualInstaller o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EffectPoolsManualInstaller>())};
+return o;
+}
  void GlobalNamespace::EffectPoolsManualInstaller::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EffectPoolsManualInstaller>::get(),

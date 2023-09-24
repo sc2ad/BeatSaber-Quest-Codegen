@@ -4,35 +4,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::InteropServices {
+class _Module;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class ICustomAttributeProvider;
+}
+namespace System::Reflection {
+class TypeFilter;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Reflection {
+class Assembly;
+}
 namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Reflection {
-class Assembly;
-}
-namespace System::Reflection {
-class TypeFilter;
-}
-namespace System::Reflection {
-class ICustomAttributeProvider;
-}
-namespace System::Reflection {
-struct BindingFlags;
-}
 namespace System {
 struct Guid;
-}
-namespace System::Runtime::InteropServices {
-class _Module;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -116,8 +116,7 @@ static System::Reflection::BindingFlags const DefaultLookup;
 
 // Methods
 
-// Ctor Parameters []
-explicit Module() ;
+static System::Reflection::Module New_ctor() ;
 
 /// @brief Method .ctor addr 0x237b960 size 0x8 virtual false final false
  void _ctor() ;

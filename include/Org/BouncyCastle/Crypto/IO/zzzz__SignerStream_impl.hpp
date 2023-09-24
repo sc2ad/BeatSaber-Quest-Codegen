@@ -1,9 +1,9 @@
 #pragma once
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__SignerStream_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::IO::SignerStream._ctor
 template<>
 
@@ -311,8 +311,10 @@ constexpr void Org::BouncyCastle::Crypto::IO::SignerStream::__set_outSigner(Org:
 constexpr Org::BouncyCastle::Crypto::ISigner Org::BouncyCastle::Crypto::IO::SignerStream::__get_outSigner() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ISigner, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "readSigner", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }, CppParam { name: "writeSigner", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::IO::SignerStream::SignerStream(System::IO::Stream stream, Org::BouncyCastle::Crypto::ISigner readSigner, Org::BouncyCastle::Crypto::ISigner writeSigner)  : System::IO::Stream(THROW_UNLESS(::il2cpp_utils::New<SignerStream>(stream, readSigner, writeSigner))) {}
+ Org::BouncyCastle::Crypto::IO::SignerStream Org::BouncyCastle::Crypto::IO::SignerStream::New_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::ISigner readSigner, Org::BouncyCastle::Crypto::ISigner writeSigner)  {
+Org::BouncyCastle::Crypto::IO::SignerStream o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::IO::SignerStream>(stream, readSigner, writeSigner))};
+return o;
+}
  void Org::BouncyCastle::Crypto::IO::SignerStream::_ctor(System::IO::Stream stream, Org::BouncyCastle::Crypto::ISigner readSigner, Org::BouncyCastle::Crypto::ISigner writeSigner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::IO::SignerStream>::get(),

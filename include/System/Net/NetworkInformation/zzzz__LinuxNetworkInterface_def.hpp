@@ -85,8 +85,7 @@ constexpr ::StringW __get_iface_flags_path() const;
 /// @brief Method get_IfacePath addr 0x285c5a8 size 0x8 virtual false final false
  ::StringW get_IfacePath() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit LinuxNetworkInterface(::StringW name) ;
+static System::Net::NetworkInformation::LinuxNetworkInterface New_ctor(::StringW name) ;
 
 /// @brief Method .ctor addr 0x285c4c8 size 0xd8 virtual false final false
  void _ctor(::StringW name) ;

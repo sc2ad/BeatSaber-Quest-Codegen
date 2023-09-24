@@ -57,8 +57,7 @@ constexpr ::StringW __get_typeName() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "typeName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TypeDependencyAttribute(::StringW typeName) ;
+static System::Runtime::CompilerServices::TypeDependencyAttribute New_ctor(::StringW typeName) ;
 
 /// @brief Method .ctor addr 0x2370aa0 size 0x78 virtual false final false
  void _ctor(::StringW typeName) ;

@@ -51,20 +51,17 @@ constexpr explicit OcspException(void* ptr) noexcept : System::Exception(ptr) {
 
 // Methods
 
-// Ctor Parameters []
-explicit OcspException() ;
+static Org::BouncyCastle::Ocsp::OcspException New_ctor() ;
 
 /// @brief Method .ctor addr 0x10133dc size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit OcspException(::StringW message) ;
+static Org::BouncyCastle::Ocsp::OcspException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x1013434 size 0x68 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "e", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit OcspException(::StringW message, System::Exception e) ;
+static Org::BouncyCastle::Ocsp::OcspException New_ctor(::StringW message, System::Exception e) ;
 
 /// @brief Method .ctor addr 0x100fc38 size 0x70 virtual false final false
  void _ctor(::StringW message, System::Exception e) ;

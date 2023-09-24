@@ -3,21 +3,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::UIElements {
-class IMouseEvent;
-}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine {
-struct EventModifiers;
 }
 namespace UnityEngine::UIElements {
 struct MouseButton;
 }
 namespace UnityEngine::UIElements {
+class IMouseEvent;
+}
+namespace UnityEngine::UIElements {
 class IPointerEvent;
+}
+namespace UnityEngine {
+struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {

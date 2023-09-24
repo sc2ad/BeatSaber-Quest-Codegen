@@ -73,8 +73,7 @@ constexpr ::StringW __get__elementNamespace_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }]
-explicit UxmlChildElementDescription(System::Type t) ;
+static UnityEngine::UIElements::UxmlChildElementDescription New_ctor(System::Type t) ;
 
 /// @brief Method .ctor addr 0x2c9db78 size 0xa0 virtual false final false
  void _ctor(System::Type t) ;

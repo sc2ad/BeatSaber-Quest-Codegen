@@ -64,14 +64,12 @@ constexpr ::ArrayW<uint8_t> __get_key() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit KeyParameter(::ArrayW<uint8_t> key) ;
+static Org::BouncyCastle::Crypto::Parameters::KeyParameter New_ctor(::ArrayW<uint8_t> key) ;
 
 /// @brief Method .ctor addr 0xe9b1bc size 0x100 virtual false final false
  void _ctor(::ArrayW<uint8_t> key) ;
 
-// Ctor Parameters [CppParam { name: "key", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "keyOff", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "keyLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit KeyParameter(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
+static Org::BouncyCastle::Crypto::Parameters::KeyParameter New_ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;
 
 /// @brief Method .ctor addr 0xea2560 size 0x150 virtual false final false
  void _ctor(::ArrayW<uint8_t> key, int32_t keyOff, int32_t keyLen) ;

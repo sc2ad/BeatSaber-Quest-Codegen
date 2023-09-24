@@ -6,15 +6,21 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace System::Text {
-struct ValueStringBuilder;
-}
 namespace System::Globalization {
-class NumberFormatInfo;
+class System__Globalization__FormatProvider__Number;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System::Globalization {
+class NumberFormatInfo;
+}
+namespace System::Text {
+struct ValueStringBuilder;
+}
+namespace GlobalNamespace {
+struct System__Globalization__FormatProvider__Number__NumberBuffer;
 }
 // Forward declare root types
 namespace System::Globalization {

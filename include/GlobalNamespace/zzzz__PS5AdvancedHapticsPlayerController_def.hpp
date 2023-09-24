@@ -10,6 +10,12 @@ class HapticPresetSO;
 namespace GlobalNamespace {
 class HapticsAudioClipPlayer;
 }
+namespace GlobalNamespace {
+class ICoroutineStarter;
+}
+namespace GlobalNamespace {
+class IHapticFeedbackPlayer;
+}
 namespace Zenject {
 class IInitializable;
 }
@@ -18,14 +24,14 @@ template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace GlobalNamespace {
-class ICoroutineStarter;
-}
-namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
+class GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0;
 }
 namespace System {
 template<typename T1,typename T2>
 struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0;
 }
 namespace GlobalNamespace {
 class GlobalNamespace__HapticsAudioClipPlayer__Pool;
@@ -103,8 +109,7 @@ constexpr Libraries::HM::HMLib::VR::HapticPresetSO __get_hapticPreset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0() ;
+static GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass6_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f88be0 size 0x8 virtual false final false
  void _ctor() ;
@@ -179,8 +184,7 @@ constexpr Libraries::HM::HMLib::VR::HapticPresetSO __get_hapticPreset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0() ;
+static GlobalNamespace::GlobalNamespace__PS5AdvancedHapticsPlayerController____c__DisplayClass7_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f88be8 size 0x8 virtual false final false
  void _ctor() ;
@@ -283,8 +287,7 @@ constexpr System::Collections::Generic::Dictionary_2<System::ValueTuple_2<UnityE
 /// @brief Method OnHapticPlayFinishedCallback addr 0x1f88bf0 size 0x58 virtual false final false
  void OnHapticPlayFinishedCallback(GlobalNamespace::HapticsAudioClipPlayer player) ;
 
-// Ctor Parameters []
-explicit PS5AdvancedHapticsPlayerController() ;
+static GlobalNamespace::PS5AdvancedHapticsPlayerController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f88c48 size 0x7c virtual false final false
  void _ctor() ;

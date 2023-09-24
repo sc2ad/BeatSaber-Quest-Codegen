@@ -747,8 +747,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, actions);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::Users::InputUserSettings::InputUserSettings()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputUserSettings>())) {}
+ UnityEngine::InputSystem::Users::InputUserSettings UnityEngine::InputSystem::Users::InputUserSettings::New_ctor()  {
+UnityEngine::InputSystem::Users::InputUserSettings o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::Users::InputUserSettings>())};
+return o;
+}
  void UnityEngine::InputSystem::Users::InputUserSettings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::Users::InputUserSettings>::get(),

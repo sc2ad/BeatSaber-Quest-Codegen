@@ -6,10 +6,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -65,20 +65,17 @@ constexpr explicit EncryptionScheme(void* ptr) noexcept : Org::BouncyCastle::Asn
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }]
-explicit EncryptionScheme(Org::BouncyCastle::Asn1::DerObjectIdentifier objectID) ;
+static Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier objectID) ;
 
 /// @brief Method .ctor addr 0xefa4f4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier objectID) ;
 
-// Ctor Parameters [CppParam { name: "objectID", ty: "Org::BouncyCastle::Asn1::DerObjectIdentifier", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Asn1::Asn1Encodable", modifiers: "", def_value: None }]
-explicit EncryptionScheme(Org::BouncyCastle::Asn1::DerObjectIdentifier objectID, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
+static Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier objectID, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
 /// @brief Method .ctor addr 0xefa51c size 0x2c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier objectID, Org::BouncyCastle::Asn1::Asn1Encodable parameters) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit EncryptionScheme(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefa548 size 0xc4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -96,8 +96,7 @@ static constexpr uint8_t  session_ticket{4u};
 
 // Methods
 
-// Ctor Parameters []
-explicit HandshakeType() ;
+static Org::BouncyCastle::Crypto::Tls::HandshakeType New_ctor() ;
 
 /// @brief Method .ctor addr 0xf042f4 size 0x8 virtual false final false
  void _ctor() ;

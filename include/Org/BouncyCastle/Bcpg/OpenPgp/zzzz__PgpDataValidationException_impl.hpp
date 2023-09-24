@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::PgpDataValidationException()  : Org::BouncyCastle::Bcpg::OpenPgp::PgpException(THROW_UNLESS(::il2cpp_utils::New<PgpDataValidationException>())) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::New_ctor()  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException>())};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::PgpDataValidationException(::StringW message)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpException(THROW_UNLESS(::il2cpp_utils::New<PgpDataValidationException>(message))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::New_ctor(::StringW message)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException>(message))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "exception", ty: "System::Exception", modifiers: "", def_value: None }]
- Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::PgpDataValidationException(::StringW message, System::Exception exception)  : Org::BouncyCastle::Bcpg::OpenPgp::PgpException(THROW_UNLESS(::il2cpp_utils::New<PgpDataValidationException>(message, exception))) {}
+ Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::New_ctor(::StringW message, System::Exception exception)  {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException>(message, exception))};
+return o;
+}
  void Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::_ctor(::StringW message, System::Exception exception)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException>::get(),

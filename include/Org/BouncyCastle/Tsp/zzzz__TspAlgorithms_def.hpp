@@ -138,8 +138,7 @@ static System::Collections::IList __get_Allowed() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit TspAlgorithms() ;
+static Org::BouncyCastle::Tsp::TspAlgorithms New_ctor() ;
 
 /// @brief Method .ctor addr 0x10c8390 size 0x8 virtual false final false
  void _ctor() ;

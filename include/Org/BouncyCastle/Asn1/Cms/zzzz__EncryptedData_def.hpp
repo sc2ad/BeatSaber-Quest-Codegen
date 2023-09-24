@@ -3,16 +3,16 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class EncryptedContentInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
@@ -96,20 +96,17 @@ constexpr Org::BouncyCastle::Asn1::Asn1Set __get_unprotectedAttrs() const;
 /// @brief Method GetInstance addr 0xde95fc size 0x178 virtual false final false
 static Org::BouncyCastle::Asn1::Cms::EncryptedData GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "encInfo", ty: "Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo", modifiers: "", def_value: None }]
-explicit EncryptedData(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo) ;
+static Org::BouncyCastle::Asn1::Cms::EncryptedData New_ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo) ;
 
 /// @brief Method .ctor addr 0xde99a8 size 0x8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo) ;
 
-// Ctor Parameters [CppParam { name: "encInfo", ty: "Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo", modifiers: "", def_value: None }, CppParam { name: "unprotectedAttrs", ty: "Org::BouncyCastle::Asn1::Asn1Set", modifiers: "", def_value: None }]
-explicit EncryptedData(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs) ;
+static Org::BouncyCastle::Asn1::Cms::EncryptedData New_ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs) ;
 
 /// @brief Method .ctor addr 0xde99b0 size 0xe0 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo encInfo, Org::BouncyCastle::Asn1::Asn1Set unprotectedAttrs) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit EncryptedData(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Cms::EncryptedData New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xde9774 size 0x234 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

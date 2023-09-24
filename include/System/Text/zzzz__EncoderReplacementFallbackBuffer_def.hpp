@@ -78,8 +78,7 @@ constexpr int32_t __get__fallbackIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::EncoderReplacementFallback", modifiers: "", def_value: None }]
-explicit EncoderReplacementFallbackBuffer(System::Text::EncoderReplacementFallback fallback) ;
+static System::Text::EncoderReplacementFallbackBuffer New_ctor(System::Text::EncoderReplacementFallback fallback) ;
 
 /// @brief Method .ctor addr 0x22c9b64 size 0x48 virtual false final false
  void _ctor(System::Text::EncoderReplacementFallback fallback) ;

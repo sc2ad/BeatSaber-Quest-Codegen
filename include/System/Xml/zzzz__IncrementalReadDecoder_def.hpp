@@ -60,8 +60,7 @@ constexpr explicit IncrementalReadDecoder(void* ptr) noexcept : ::bs_hook::Il2Cp
 /// @brief Method Decode addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t Decode(::ArrayW<char16_t> chars, int32_t startPos, int32_t len) ;
 
-// Ctor Parameters []
-explicit IncrementalReadDecoder() ;
+static System::Xml::IncrementalReadDecoder New_ctor() ;
 
 /// @brief Method .ctor addr 0x26c1150 size 0x8 virtual false final false
  void _ctor() ;

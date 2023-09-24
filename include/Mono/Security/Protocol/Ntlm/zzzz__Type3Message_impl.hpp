@@ -210,8 +210,10 @@ constexpr void Mono::Security::Protocol::Ntlm::Type3Message::__set__nt(::ArrayW<
 constexpr ::ArrayW<uint8_t> Mono::Security::Protocol::Ntlm::Type3Message::__get__nt() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint8_t>, 0x58>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "type2", ty: "Mono::Security::Protocol::Ntlm::Type2Message", modifiers: "", def_value: None }]
- Mono::Security::Protocol::Ntlm::Type3Message::Type3Message(Mono::Security::Protocol::Ntlm::Type2Message type2)  : Mono::Security::Protocol::Ntlm::MessageBase(THROW_UNLESS(::il2cpp_utils::New<Type3Message>(type2))) {}
+ Mono::Security::Protocol::Ntlm::Type3Message Mono::Security::Protocol::Ntlm::Type3Message::New_ctor(Mono::Security::Protocol::Ntlm::Type2Message type2)  {
+Mono::Security::Protocol::Ntlm::Type3Message o{THROW_UNLESS(::il2cpp_utils::New<Mono::Security::Protocol::Ntlm::Type3Message>(type2))};
+return o;
+}
  void Mono::Security::Protocol::Ntlm::Type3Message::_ctor(Mono::Security::Protocol::Ntlm::Type2Message type2)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Security::Protocol::Ntlm::Type3Message>::get(),

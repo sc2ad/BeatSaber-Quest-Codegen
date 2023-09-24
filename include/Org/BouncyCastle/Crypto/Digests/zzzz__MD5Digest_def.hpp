@@ -196,14 +196,12 @@ static int32_t __get_S44() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit MD5Digest() ;
+static Org::BouncyCastle::Crypto::Digests::MD5Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0x119d5e0 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::MD5Digest", modifiers: "", def_value: None }]
-explicit MD5Digest(Org::BouncyCastle::Crypto::Digests::MD5Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::MD5Digest New_ctor(Org::BouncyCastle::Crypto::Digests::MD5Digest t) ;
 
 /// @brief Method .ctor addr 0x119d64c size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::MD5Digest t) ;

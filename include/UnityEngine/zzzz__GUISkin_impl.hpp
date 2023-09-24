@@ -2,11 +2,12 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__GUISkin_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__GUISettings_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/zzzz__GUIStyle_def.hpp"
+#include "UnityEngine/zzzz__GUISkin_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 //  Writing Method size for method: UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate._ctor
 template<>
 
@@ -41,8 +42,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate::UnityEngine__GUISkin__SkinChangedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__GUISkin__SkinChangedDelegate>(object, method))) {}
+ UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__GUISkin__SkinChangedDelegate>::get(),
@@ -1278,8 +1281,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UnityEngine__GUISkin__Skin
  UnityEngine::GUISkin UnityEngine::GUISkin::__get_current()  {
 return ::cordl_internals::getStaticField<UnityEngine::GUISkin, "current", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUISkin>::get>();
 }
-// Ctor Parameters []
- UnityEngine::GUISkin::GUISkin()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<GUISkin>())) {}
+ UnityEngine::GUISkin UnityEngine::GUISkin::New_ctor()  {
+UnityEngine::GUISkin o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::GUISkin>())};
+return o;
+}
  void UnityEngine::GUISkin::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::GUISkin>::get(),

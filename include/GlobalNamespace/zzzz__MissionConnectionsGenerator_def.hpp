@@ -1,21 +1,21 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+namespace GlobalNamespace {
+class MissionNodesManager;
+}
+namespace GlobalNamespace {
+class MissionNodeConnection;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class MissionNodeConnection;
-}
-namespace GlobalNamespace {
 class MissionNode;
-}
-namespace GlobalNamespace {
-class MissionNodesManager;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -110,8 +110,7 @@ constexpr System::Collections::Generic::List_1<GlobalNamespace::MissionNode> __g
 /// @brief Method CreateConnectionBetweenNodes addr 0x21478d8 size 0xd0 virtual false final false
  GlobalNamespace::MissionNodeConnection CreateConnectionBetweenNodes(GlobalNamespace::MissionNode parentMissionNode, GlobalNamespace::MissionNode childMissionNode) ;
 
-// Ctor Parameters []
-explicit MissionConnectionsGenerator() ;
+static GlobalNamespace::MissionConnectionsGenerator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21479d4 size 0x8 virtual false final false
  void _ctor() ;

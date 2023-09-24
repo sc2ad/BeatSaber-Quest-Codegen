@@ -3,6 +3,9 @@
 #include "HMUI/zzzz__NavigationController_def.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace GlobalNamespace {
+struct GlobalNamespace__SettingsNavigationController__FinishAction;
+}
 namespace UnityEngine::UI {
 class Button;
 }
@@ -67,6 +70,8 @@ __Apply = 2,
 constexpr operator __GlobalNamespace__SettingsNavigationController__FinishAction_Unwrapped () const noexcept {
 return std::bit_cast<__GlobalNamespace__SettingsNavigationController__FinishAction_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
 
 // Fields
@@ -173,8 +178,7 @@ constexpr System::Action_1<GlobalNamespace::GlobalNamespace__SettingsNavigationC
 /// @brief Method HandleFinishButton addr 0x2181a28 size 0x1c virtual false final false
  void HandleFinishButton(GlobalNamespace::GlobalNamespace__SettingsNavigationController__FinishAction finishAction) ;
 
-// Ctor Parameters []
-explicit SettingsNavigationController() ;
+static GlobalNamespace::SettingsNavigationController New_ctor() ;
 
 /// @brief Method .ctor addr 0x2181a44 size 0x8 virtual false final false
  void _ctor() ;

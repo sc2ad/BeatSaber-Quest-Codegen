@@ -2,15 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
 #include <cstdint>
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace Unity::Collections {
 template<typename T>
 struct NativeArray_1;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -96,8 +96,7 @@ static ::cordl_internals::intptr_t Create(UnityEngine::Networking::DownloadHandl
 /// @brief Method InternalCreateTexture addr 0x2d3797c size 0x4c virtual false final false
  void InternalCreateTexture(bool readable) ;
 
-// Ctor Parameters [CppParam { name: "readable", ty: "bool", modifiers: "", def_value: None }]
-explicit DownloadHandlerTexture(bool readable) ;
+static UnityEngine::Networking::DownloadHandlerTexture New_ctor(bool readable) ;
 
 /// @brief Method .ctor addr 0x2d378d8 size 0x60 virtual false final false
  void _ctor(bool readable) ;

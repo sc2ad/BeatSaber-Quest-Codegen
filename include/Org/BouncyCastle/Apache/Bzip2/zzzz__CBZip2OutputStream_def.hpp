@@ -5,13 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Apache::Bzip2 {
+class Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem;
+}
+namespace Org::BouncyCastle::Apache::Bzip2 {
 class CRC;
 }
 namespace System::IO {
-class Stream;
+struct SeekOrigin;
 }
 namespace System::IO {
-struct SeekOrigin;
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {
@@ -83,8 +86,7 @@ constexpr int32_t __get_dd() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem() ;
+static Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem New_ctor() ;
 
 /// @brief Method .ctor addr 0x101c938 size 0x8 virtual false final false
  void _ctor() ;
@@ -393,14 +395,12 @@ static void Panic() ;
 /// @brief Method HbMakeCodeLengths addr 0x1019b78 size 0x62c virtual false final false
 static void HbMakeCodeLengths(::ArrayW<char16_t> len, ::ArrayW<int32_t> freq, int32_t alphaSize, int32_t maxLen) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
-explicit CBZip2OutputStream(System::IO::Stream inStream) ;
+static Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream New_ctor(System::IO::Stream inStream) ;
 
 /// @brief Method .ctor addr 0x1019a48 size 0x8 virtual false final false
  void _ctor(System::IO::Stream inStream) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "inBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CBZip2OutputStream(System::IO::Stream inStream, int32_t inBlockSize) ;
+static Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream New_ctor(System::IO::Stream inStream, int32_t inBlockSize) ;
 
 /// @brief Method .ctor addr 0x101a1a4 size 0x20c virtual false final false
  void _ctor(System::IO::Stream inStream, int32_t inBlockSize) ;

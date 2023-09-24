@@ -5,22 +5,34 @@
 #include <cmath>
 #include <cstdint>
 namespace GlobalNamespace {
+class GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent;
+}
+namespace GlobalNamespace {
 struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
-class LightGroupSO;
-}
-namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__IndexFilter__IndexFilterRandomType;
+class LightGroupSO;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__IndexFilter__IndexFilterLimitAlsoAffectType;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__IndexFilter__IndexFilterRandomType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,8 +131,7 @@ constexpr float_t __get__floatValue() const;
 /// @brief Method get_floatValue addr 0x21bed50 size 0x8 virtual false final false
  float_t get_floatValue() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent() ;
+static GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__BasicBeatmapEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bed58 size 0x8 virtual false final false
  void _ctor() ;
@@ -210,8 +221,7 @@ constexpr GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionPar
 /// @brief Method get_distributionParamType addr 0x21bed70 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__BeatmapEventDataBox__DistributionParamType get_distributionParamType() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution() ;
+static GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupDistribution New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bed78 size 0x8 virtual false final false
  void _ctor() ;
@@ -334,8 +344,7 @@ constexpr int32_t __get__chunks() const;
 /// @brief Method get_chunks addr 0x21beda8 size 0x8 virtual false final false
  int32_t get_chunks() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering() ;
+static GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bedb0 size 0x8 virtual false final false
  void _ctor() ;
@@ -601,8 +610,7 @@ constexpr GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroup
 /// @brief Method get_translationFiltering addr 0x21bee48 size 0x8 virtual false final false
  GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupFiltering get_translationFiltering() ;
 
-// Ctor Parameters []
-explicit GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent() ;
+static GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__LightGroupEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bee50 size 0x8 virtual false final false
  void _ctor() ;
@@ -694,8 +702,7 @@ constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__DefaultEnvironmentEvents__L
 /// @brief Method get_isEmpty addr 0x21bed00 size 0x38 virtual false final false
  bool get_isEmpty() ;
 
-// Ctor Parameters []
-explicit DefaultEnvironmentEvents() ;
+static GlobalNamespace::DefaultEnvironmentEvents New_ctor() ;
 
 /// @brief Method .ctor addr 0x21bed38 size 0x8 virtual false final false
  void _ctor() ;

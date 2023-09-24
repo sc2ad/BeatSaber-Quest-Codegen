@@ -62,8 +62,7 @@ constexpr UnityEngine::GameObject __get__prefab() const;
 /// @brief Method Awake addr 0x1f78a44 size 0xfc virtual false final false
  void Awake() ;
 
-// Ctor Parameters []
-explicit InstantiatePrefab() ;
+static GlobalNamespace::InstantiatePrefab New_ctor() ;
 
 /// @brief Method .ctor addr 0x1f78b40 size 0x8 virtual false final false
  void _ctor() ;

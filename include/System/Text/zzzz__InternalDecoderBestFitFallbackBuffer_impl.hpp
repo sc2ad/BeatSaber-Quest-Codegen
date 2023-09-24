@@ -177,8 +177,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<::bs_hook::Il2CppWrapperType, false>(nullptr, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "fallback", ty: "System::Text::InternalDecoderBestFitFallback", modifiers: "", def_value: None }]
- System::Text::InternalDecoderBestFitFallbackBuffer::InternalDecoderBestFitFallbackBuffer(System::Text::InternalDecoderBestFitFallback fallback)  : System::Text::DecoderFallbackBuffer(THROW_UNLESS(::il2cpp_utils::New<InternalDecoderBestFitFallbackBuffer>(fallback))) {}
+ System::Text::InternalDecoderBestFitFallbackBuffer System::Text::InternalDecoderBestFitFallbackBuffer::New_ctor(System::Text::InternalDecoderBestFitFallback fallback)  {
+System::Text::InternalDecoderBestFitFallbackBuffer o{THROW_UNLESS(::il2cpp_utils::New<System::Text::InternalDecoderBestFitFallbackBuffer>(fallback))};
+return o;
+}
  void System::Text::InternalDecoderBestFitFallbackBuffer::_ctor(System::Text::InternalDecoderBestFitFallback fallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Text::InternalDecoderBestFitFallbackBuffer>::get(),

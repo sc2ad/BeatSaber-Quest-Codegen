@@ -1,9 +1,9 @@
 #pragma once
 #include "RootMotion/FinalIK/zzzz__RotationLimit_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__RotationLimitSpline_def.hpp"
-#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
+#include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RotationLimitSpline.OpenUserManual
 template<>
 
@@ -215,8 +215,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Quaternion, false>(const_cast<void*>(instance), ___internal_method, rotation);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RotationLimitSpline::RotationLimitSpline()  : RootMotion::FinalIK::RotationLimit(THROW_UNLESS(::il2cpp_utils::New<RotationLimitSpline>())) {}
+ RootMotion::FinalIK::RotationLimitSpline RootMotion::FinalIK::RotationLimitSpline::New_ctor()  {
+RootMotion::FinalIK::RotationLimitSpline o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RotationLimitSpline>())};
+return o;
+}
  void RootMotion::FinalIK::RotationLimitSpline::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RotationLimitSpline>::get(),

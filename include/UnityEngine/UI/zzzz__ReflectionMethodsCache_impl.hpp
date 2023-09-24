@@ -1,10 +1,11 @@
 #pragma once
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UI/zzzz__ReflectionMethodsCache_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
+#include "UnityEngine/UI/zzzz__ReflectionMethodsCache_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "UnityEngine/zzzz__RaycastHit2D_def.hpp"
 #include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback._ctor
@@ -75,8 +76,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast3DCallback>::get(),
@@ -181,8 +184,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__RaycastAllCallback>::get(),
@@ -287,8 +292,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Un
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRaycastNonAllocCallback>::get(),
@@ -393,8 +400,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__Raycast2DCallback>::get(),
@@ -499,8 +508,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Un
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllCallback>::get(),
@@ -605,8 +616,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (Un
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback>(object, method))) {}
+ UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback>(object, method))};
+return o;
+}
  void UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::UnityEngine__UI__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback>::get(),
@@ -719,8 +732,10 @@ return ::cordl_internals::getInstanceField<UnityEngine::UI::UnityEngine__UI__Ref
  UnityEngine::UI::ReflectionMethodsCache UnityEngine::UI::ReflectionMethodsCache::__get_s_ReflectionMethodsCache()  {
 return ::cordl_internals::getStaticField<UnityEngine::UI::ReflectionMethodsCache, "s_ReflectionMethodsCache", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::ReflectionMethodsCache>::get>();
 }
-// Ctor Parameters []
- UnityEngine::UI::ReflectionMethodsCache::ReflectionMethodsCache()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ReflectionMethodsCache>())) {}
+ UnityEngine::UI::ReflectionMethodsCache UnityEngine::UI::ReflectionMethodsCache::New_ctor()  {
+UnityEngine::UI::ReflectionMethodsCache o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UI::ReflectionMethodsCache>())};
+return o;
+}
  void UnityEngine::UI::ReflectionMethodsCache::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UI::ReflectionMethodsCache>::get(),

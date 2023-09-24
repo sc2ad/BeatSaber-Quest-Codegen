@@ -76,8 +76,7 @@ static bool IsValidIPv6(::StringW address) ;
 /// @brief Method unsafeIsValidIPv6 addr 0x10d47b8 size 0x1a8 virtual false final false
 static bool unsafeIsValidIPv6(::StringW address) ;
 
-// Ctor Parameters []
-explicit IPAddress() ;
+static Org::BouncyCastle::Utilities::Net::IPAddress New_ctor() ;
 
 /// @brief Method .ctor addr 0x10d4960 size 0x8 virtual false final false
  void _ctor() ;

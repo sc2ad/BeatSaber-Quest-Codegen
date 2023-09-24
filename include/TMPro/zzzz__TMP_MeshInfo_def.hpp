@@ -4,32 +4,32 @@
 #include <cstddef>
 #include <cstdint>
 namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Vector4;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace TMPro {
 struct VertexSortingOrder;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace UnityEngine {
 class Material;
 }
 namespace UnityEngine {
-struct Vector2;
+class Mesh;
+}
+namespace UnityEngine {
+struct Color32;
 }
 namespace UnityEngine {
 struct Bounds;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace TMPro {

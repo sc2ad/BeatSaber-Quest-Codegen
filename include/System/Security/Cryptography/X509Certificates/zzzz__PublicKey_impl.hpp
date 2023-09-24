@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/zzzz__PublicKey_def.hpp"
-#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnEncodedData_def.hpp"
 #include "System/Security/Cryptography/zzzz__Oid_def.hpp"
+#include "System/Security/Cryptography/zzzz__DSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::X509Certificates::PublicKey._ctor
@@ -165,8 +165,10 @@ return ::cordl_internals::getInstanceField<System::Security::Cryptography::Oid, 
  ::ArrayW<uint8_t> System::Security::Cryptography::X509Certificates::PublicKey::__get_Empty()  {
 return ::cordl_internals::getStaticField<::ArrayW<uint8_t>, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::PublicKey>::get>();
 }
-// Ctor Parameters [CppParam { name: "oid", ty: "System::Security::Cryptography::Oid", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }, CppParam { name: "keyValue", ty: "System::Security::Cryptography::AsnEncodedData", modifiers: "", def_value: None }]
- System::Security::Cryptography::X509Certificates::PublicKey::PublicKey(System::Security::Cryptography::Oid oid, System::Security::Cryptography::AsnEncodedData parameters, System::Security::Cryptography::AsnEncodedData keyValue)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<PublicKey>(oid, parameters, keyValue))) {}
+ System::Security::Cryptography::X509Certificates::PublicKey System::Security::Cryptography::X509Certificates::PublicKey::New_ctor(System::Security::Cryptography::Oid oid, System::Security::Cryptography::AsnEncodedData parameters, System::Security::Cryptography::AsnEncodedData keyValue)  {
+System::Security::Cryptography::X509Certificates::PublicKey o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::X509Certificates::PublicKey>(oid, parameters, keyValue))};
+return o;
+}
  void System::Security::Cryptography::X509Certificates::PublicKey::_ctor(System::Security::Cryptography::Oid oid, System::Security::Cryptography::AsnEncodedData parameters, System::Security::Cryptography::AsnEncodedData keyValue)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::X509Certificates::PublicKey>::get(),

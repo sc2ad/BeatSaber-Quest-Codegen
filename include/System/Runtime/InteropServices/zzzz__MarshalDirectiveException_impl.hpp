@@ -54,8 +54,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Runtime::InteropServices::MarshalDirectiveException::MarshalDirectiveException()  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<MarshalDirectiveException>())) {}
+ System::Runtime::InteropServices::MarshalDirectiveException System::Runtime::InteropServices::MarshalDirectiveException::New_ctor()  {
+System::Runtime::InteropServices::MarshalDirectiveException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::MarshalDirectiveException>())};
+return o;
+}
  void System::Runtime::InteropServices::MarshalDirectiveException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::MarshalDirectiveException>::get(),
@@ -65,8 +67,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::MarshalDirectiveException::MarshalDirectiveException(::StringW message)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<MarshalDirectiveException>(message))) {}
+ System::Runtime::InteropServices::MarshalDirectiveException System::Runtime::InteropServices::MarshalDirectiveException::New_ctor(::StringW message)  {
+System::Runtime::InteropServices::MarshalDirectiveException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::MarshalDirectiveException>(message))};
+return o;
+}
  void System::Runtime::InteropServices::MarshalDirectiveException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::MarshalDirectiveException>::get(),
@@ -76,8 +80,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Runtime::InteropServices::MarshalDirectiveException::MarshalDirectiveException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : System::SystemException(THROW_UNLESS(::il2cpp_utils::New<MarshalDirectiveException>(info, context))) {}
+ System::Runtime::InteropServices::MarshalDirectiveException System::Runtime::InteropServices::MarshalDirectiveException::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Runtime::InteropServices::MarshalDirectiveException o{THROW_UNLESS(::il2cpp_utils::New<System::Runtime::InteropServices::MarshalDirectiveException>(info, context))};
+return o;
+}
  void System::Runtime::InteropServices::MarshalDirectiveException::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Runtime::InteropServices::MarshalDirectiveException>::get(),

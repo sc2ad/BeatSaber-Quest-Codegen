@@ -67,14 +67,12 @@ constexpr bool __get__critical() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit X509Extension() ;
+static System::Security::Cryptography::X509Certificates::X509Extension New_ctor() ;
 
 /// @brief Method .ctor addr 0x27f2ef0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "oid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "rawData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }]
-explicit X509Extension(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) ;
+static System::Security::Cryptography::X509Certificates::X509Extension New_ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) ;
 
 /// @brief Method .ctor addr 0x27f2ef8 size 0x28 virtual false final false
  void _ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical) ;

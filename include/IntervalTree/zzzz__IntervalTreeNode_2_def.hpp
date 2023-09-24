@@ -11,17 +11,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace IntervalTree {
-template<typename TKey,typename TValue>
-struct RangeValuePair_2;
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IComparer_1;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+struct RangeValuePair_2;
+}
+namespace IntervalTree {
+template<typename TKey,typename TValue>
+class IntervalTree__IntervalTreeNode_2____c;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -111,8 +115,7 @@ static System::Func_2<IntervalTree::RangeValuePair_2<TKey,TValue>,TKey> __get___
 
 // Methods
 
-// Ctor Parameters []
-explicit IntervalTree__IntervalTreeNode_2____c() ;
+static IntervalTree::IntervalTree__IntervalTreeNode_2____c<TKey,TValue> New_ctor() ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
@@ -216,14 +219,12 @@ constexpr System::Collections::Generic::IComparer_1<TKey> __get_comparer() const
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "comparer", ty: "System::Collections::Generic::IComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit IntervalTreeNode_2(System::Collections::Generic::IComparer_1<TKey> comparer) ;
+static IntervalTree::IntervalTreeNode_2<TKey,TValue> New_ctor(System::Collections::Generic::IComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IComparer_1<TKey> comparer) ;
 
-// Ctor Parameters [CppParam { name: "items", ty: "System::Collections::Generic::IList_1<IntervalTree::RangeValuePair_2<TKey,TValue>>", modifiers: "", def_value: None }, CppParam { name: "comparer", ty: "System::Collections::Generic::IComparer_1<TKey>", modifiers: "", def_value: None }]
-explicit IntervalTreeNode_2(System::Collections::Generic::IList_1<IntervalTree::RangeValuePair_2<TKey,TValue>> items, System::Collections::Generic::IComparer_1<TKey> comparer) ;
+static IntervalTree::IntervalTreeNode_2<TKey,TValue> New_ctor(System::Collections::Generic::IList_1<IntervalTree::RangeValuePair_2<TKey,TValue>> items, System::Collections::Generic::IComparer_1<TKey> comparer) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Collections::Generic::IList_1<IntervalTree::RangeValuePair_2<TKey,TValue>> items, System::Collections::Generic::IComparer_1<TKey> comparer) ;

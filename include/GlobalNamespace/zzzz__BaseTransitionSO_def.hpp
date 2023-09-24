@@ -3,10 +3,10 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cmath>
 namespace GlobalNamespace {
-struct EaseType;
+class TransitionTimingSO;
 }
 namespace GlobalNamespace {
-class TransitionTimingSO;
+struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -76,8 +76,7 @@ constexpr GlobalNamespace::TransitionTimingSO __get__transitionTiming() const;
 /// @brief Method get_easeDuration addr 0x2127e8c size 0x1c virtual false final false
  float_t get_easeDuration() ;
 
-// Ctor Parameters []
-explicit BaseTransitionSO() ;
+static GlobalNamespace::BaseTransitionSO New_ctor() ;
 
 /// @brief Method .ctor addr 0x2127ea8 size 0x8 virtual false final false
  void _ctor() ;

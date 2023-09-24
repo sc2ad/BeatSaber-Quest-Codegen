@@ -8,6 +8,21 @@ namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace TMPro::SpriteAssetUtilities {
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Meta;
+}
+namespace TMPro::SpriteAssetUtilities {
+class TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject;
+}
+namespace TMPro::SpriteAssetUtilities {
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteSize;
+}
+namespace TMPro::SpriteAssetUtilities {
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteFrame;
+}
+namespace TMPro::SpriteAssetUtilities {
+struct TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__Frame;
+}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -407,8 +422,7 @@ constexpr TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacke
 
 // Methods
 
-// Ctor Parameters []
-explicit TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject() ;
+static TMPro::SpriteAssetUtilities::TMPro__SpriteAssetUtilities__TexturePacker_JsonArray__SpriteDataObject New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab5ff4 size 0x8 virtual false final false
  void _ctor() ;
@@ -469,8 +483,7 @@ constexpr explicit TexturePacker_JsonArray(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Methods
 
-// Ctor Parameters []
-explicit TexturePacker_JsonArray() ;
+static TMPro::SpriteAssetUtilities::TexturePacker_JsonArray New_ctor() ;
 
 /// @brief Method .ctor addr 0x2ab5cc8 size 0x8 virtual false final false
  void _ctor() ;

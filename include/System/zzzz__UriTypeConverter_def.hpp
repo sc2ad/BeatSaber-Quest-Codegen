@@ -5,11 +5,11 @@
 namespace System::Globalization {
 class CultureInfo;
 }
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
 namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
 }
 // Forward declare root types
 namespace System {
@@ -57,8 +57,7 @@ constexpr explicit UriTypeConverter(void* ptr) noexcept : System::ComponentModel
 
 // Methods
 
-// Ctor Parameters []
-explicit UriTypeConverter() ;
+static System::UriTypeConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x27bc370 size 0x8 virtual false final false
  void _ctor() ;

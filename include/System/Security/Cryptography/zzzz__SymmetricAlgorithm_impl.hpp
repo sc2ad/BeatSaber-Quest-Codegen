@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
-#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
+#include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
 //  Writing Method size for method: System::Security::Cryptography::SymmetricAlgorithm._ctor
 template<>
 
@@ -505,8 +505,10 @@ constexpr void System::Security::Cryptography::SymmetricAlgorithm::__set_Padding
 constexpr System::Security::Cryptography::PaddingMode System::Security::Cryptography::SymmetricAlgorithm::__get_PaddingValue() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::PaddingMode, 0x40>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::SymmetricAlgorithm::SymmetricAlgorithm()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SymmetricAlgorithm>())) {}
+ System::Security::Cryptography::SymmetricAlgorithm System::Security::Cryptography::SymmetricAlgorithm::New_ctor()  {
+System::Security::Cryptography::SymmetricAlgorithm o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SymmetricAlgorithm>())};
+return o;
+}
  void System::Security::Cryptography::SymmetricAlgorithm::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SymmetricAlgorithm>::get(),

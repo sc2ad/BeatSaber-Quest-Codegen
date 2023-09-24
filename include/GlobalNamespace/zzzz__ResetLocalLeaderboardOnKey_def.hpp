@@ -5,10 +5,10 @@ namespace UnityEngine {
 struct KeyCode;
 }
 namespace GlobalNamespace {
-class LocalLeaderboardsModel;
+class ISaveData;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class LocalLeaderboardsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,7 @@ constexpr GlobalNamespace::ISaveData __get__saveData() const;
 /// @brief Method Update addr 0x2229bc8 size 0x40 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit ResetLocalLeaderboardOnKey() ;
+static GlobalNamespace::ResetLocalLeaderboardOnKey New_ctor() ;
 
 /// @brief Method .ctor addr 0x2229c08 size 0x10 virtual false final false
  void _ctor() ;

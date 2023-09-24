@@ -56,8 +56,7 @@ static System::Reflection::BindingFlags const DeclaredOnlyLookup;
 
 // Methods
 
-// Ctor Parameters []
-explicit TypeInfo() ;
+static System::Reflection::TypeInfo New_ctor() ;
 
 /// @brief Method .ctor addr 0x237f61c size 0x58 virtual false final false
  void _ctor() ;

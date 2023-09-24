@@ -75,8 +75,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::__set_mMode(u
 constexpr uint8_t Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::__get_mMode() const {
 return ::cordl_internals::getInstanceField<uint8_t, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "mode", ty: "uint8_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::HeartbeatExtension(uint8_t mode)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<HeartbeatExtension>(mode))) {}
+ Org::BouncyCastle::Crypto::Tls::HeartbeatExtension Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::New_ctor(uint8_t mode)  {
+Org::BouncyCastle::Crypto::Tls::HeartbeatExtension o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::HeartbeatExtension>(mode))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::_ctor(uint8_t mode)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::HeartbeatExtension>::get(),

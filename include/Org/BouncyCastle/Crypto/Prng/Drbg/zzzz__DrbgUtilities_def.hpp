@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDigest;
 }
 namespace System::Collections {
 class IDictionary;
@@ -79,8 +79,7 @@ static ::ArrayW<uint8_t> HashDF(Org::BouncyCastle::Crypto::IDigest digest, ::Arr
 /// @brief Method IsTooLarge addr 0xeb029c size 0x14 virtual false final false
 static bool IsTooLarge(::ArrayW<uint8_t> bytes, int32_t maxBytes) ;
 
-// Ctor Parameters []
-explicit DrbgUtilities() ;
+static Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities New_ctor() ;
 
 /// @brief Method .ctor addr 0xeb1388 size 0x8 virtual false final false
  void _ctor() ;

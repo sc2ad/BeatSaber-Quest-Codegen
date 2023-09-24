@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__ShoulderRotator_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
 #include "RootMotion/FinalIK/zzzz__FullBodyBipedChain_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKMapping_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::ShoulderRotator.Start
 template<>
 
@@ -175,8 +175,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::ShoulderRotator::ShoulderRotator()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<ShoulderRotator>())) {}
+ RootMotion::FinalIK::ShoulderRotator RootMotion::FinalIK::ShoulderRotator::New_ctor()  {
+RootMotion::FinalIK::ShoulderRotator o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::ShoulderRotator>())};
+return o;
+}
  void RootMotion::FinalIK::ShoulderRotator::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::ShoulderRotator>::get(),

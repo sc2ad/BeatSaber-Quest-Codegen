@@ -5,10 +5,10 @@ namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
@@ -68,8 +68,7 @@ constexpr explicit RemotingSurrogate(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 /// @brief Method SetObjectData addr 0x23458fc size 0x40 virtual true final false
  ::bs_hook::Il2CppWrapperType SetObjectData(::bs_hook::Il2CppWrapperType obj, System::Runtime::Serialization::SerializationInfo si, System::Runtime::Serialization::StreamingContext sc, System::Runtime::Serialization::ISurrogateSelector selector) ;
 
-// Ctor Parameters []
-explicit RemotingSurrogate() ;
+static System::Runtime::Remoting::Messaging::RemotingSurrogate New_ctor() ;
 
 /// @brief Method .ctor addr 0x234593c size 0x8 virtual false final false
  void _ctor() ;

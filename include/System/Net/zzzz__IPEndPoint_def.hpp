@@ -5,16 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
-class EndPoint;
-}
-namespace System::Net {
 class SocketAddress;
+}
+namespace System::Net {
+class IPAddress;
 }
 namespace System::Net::Sockets {
 struct AddressFamily;
+}
+namespace System::Net {
+class EndPoint;
 }
 // Forward declare root types
 namespace System::Net {
@@ -110,8 +110,7 @@ static System::Net::IPEndPoint __get_IPv6Any() ;
 /// @brief Method get_AddressFamily addr 0x27faf64 size 0x2c virtual true final false
  System::Net::Sockets::AddressFamily get_AddressFamily() ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit IPEndPoint(System::Net::IPAddress address, int32_t port) ;
+static System::Net::IPEndPoint New_ctor(System::Net::IPAddress address, int32_t port) ;
 
 /// @brief Method .ctor addr 0x27faf90 size 0xc0 virtual false final false
  void _ctor(System::Net::IPAddress address, int32_t port) ;

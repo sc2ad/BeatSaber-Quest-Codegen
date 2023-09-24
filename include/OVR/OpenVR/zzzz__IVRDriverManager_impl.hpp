@@ -5,6 +5,7 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "OVR/OpenVR/zzzz__IVRDriverManager_def.hpp"
 //  Writing Method size for method: OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount._ctor
 template<>
 
@@ -73,8 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount::OVR__OpenVR__IVRDriverManager___GetDriverCount(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRDriverManager___GetDriverCount>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverCount>::get(),
@@ -179,8 +182,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName::OVR__OpenVR__IVRDriverManager___GetDriverName(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRDriverManager___GetDriverName>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverName>::get(),
@@ -285,8 +290,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (O
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle::OVR__OpenVR__IVRDriverManager___GetDriverHandle(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<OVR__OpenVR__IVRDriverManager___GetDriverHandle>(object, method))) {}
+ OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle>(object, method))};
+return o;
+}
  void OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::OVR__OpenVR__IVRDriverManager___GetDriverHandle>::get(),

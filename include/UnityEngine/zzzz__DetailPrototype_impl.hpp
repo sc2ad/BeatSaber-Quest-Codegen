@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/zzzz__DetailPrototype_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__DetailRenderMode_def.hpp"
 //  Writing Method size for method: UnityEngine::DetailPrototype.set_prototype
 template<>
@@ -662,8 +662,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::DetailPrototype::DetailPrototype()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DetailPrototype>())) {}
+ UnityEngine::DetailPrototype UnityEngine::DetailPrototype::New_ctor()  {
+UnityEngine::DetailPrototype o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::DetailPrototype>())};
+return o;
+}
  void UnityEngine::DetailPrototype::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::DetailPrototype>::get(),

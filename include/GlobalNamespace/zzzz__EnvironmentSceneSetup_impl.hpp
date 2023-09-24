@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::EnvironmentSceneSetup::EnvironmentSceneSetup()  : Zenject::MonoInstaller(THROW_UNLESS(::il2cpp_utils::New<EnvironmentSceneSetup>())) {}
+ GlobalNamespace::EnvironmentSceneSetup GlobalNamespace::EnvironmentSceneSetup::New_ctor()  {
+GlobalNamespace::EnvironmentSceneSetup o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnvironmentSceneSetup>())};
+return o;
+}
  void GlobalNamespace::EnvironmentSceneSetup::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnvironmentSceneSetup>::get(),

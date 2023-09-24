@@ -76,8 +76,10 @@ constexpr void OVR::OpenVR::CVRDriverManager::__set_FnTable(OVR::OpenVR::IVRDriv
 constexpr OVR::OpenVR::IVRDriverManager OVR::OpenVR::CVRDriverManager::__get_FnTable() const {
 return ::cordl_internals::getInstanceField<OVR::OpenVR::IVRDriverManager, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "pInterface", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- OVR::OpenVR::CVRDriverManager::CVRDriverManager(::cordl_internals::intptr_t pInterface)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CVRDriverManager>(pInterface))) {}
+ OVR::OpenVR::CVRDriverManager OVR::OpenVR::CVRDriverManager::New_ctor(::cordl_internals::intptr_t pInterface)  {
+OVR::OpenVR::CVRDriverManager o{THROW_UNLESS(::il2cpp_utils::New<OVR::OpenVR::CVRDriverManager>(pInterface))};
+return o;
+}
  void OVR::OpenVR::CVRDriverManager::_ctor(::cordl_internals::intptr_t pInterface)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<OVR::OpenVR::CVRDriverManager>::get(),

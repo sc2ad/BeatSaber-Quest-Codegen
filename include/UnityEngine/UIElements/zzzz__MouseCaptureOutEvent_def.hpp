@@ -8,7 +8,7 @@ class MouseCaptureOutEvent;
 // Type: UnityEngine.UIElements::MouseCaptureOutEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7252), inst: 4500 }), TypeDefinitionIndex(TypeDefinitionIndex(7252))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7252), inst: 4500 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7253))
 // CS Name: UnityEngine.UIElements.MouseCaptureOutEvent
 class CORDL_TYPE MouseCaptureOutEvent : public UnityEngine::UIElements::MouseCaptureEventBase_1<UnityEngine::UIElements::MouseCaptureOutEvent> {
@@ -47,8 +47,7 @@ constexpr explicit MouseCaptureOutEvent(void* ptr) noexcept : UnityEngine::UIEle
 
 // Methods
 
-// Ctor Parameters []
-explicit MouseCaptureOutEvent() ;
+static UnityEngine::UIElements::MouseCaptureOutEvent New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cd0b24 size 0x48 virtual false final false
  void _ctor() ;

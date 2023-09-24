@@ -130,14 +130,12 @@ static ::ArrayW<uint32_t> __get_K() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Sha256Digest() ;
+static Org::BouncyCastle::Crypto::Digests::Sha256Digest New_ctor() ;
 
 /// @brief Method .ctor addr 0xe1663c size 0x74 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha256Digest", modifiers: "", def_value: None }]
-explicit Sha256Digest(Org::BouncyCastle::Crypto::Digests::Sha256Digest t) ;
+static Org::BouncyCastle::Crypto::Digests::Sha256Digest New_ctor(Org::BouncyCastle::Crypto::Digests::Sha256Digest t) ;
 
 /// @brief Method .ctor addr 0xe166cc size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::Digests::Sha256Digest t) ;

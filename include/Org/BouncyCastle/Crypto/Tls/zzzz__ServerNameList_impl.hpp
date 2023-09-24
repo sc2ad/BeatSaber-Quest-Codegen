@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ServerNameList_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Tls::ServerNameList._ctor
 template<>
 
@@ -93,8 +93,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::ServerNameList::__set_mServerName
 constexpr System::Collections::IList Org::BouncyCastle::Crypto::Tls::ServerNameList::__get_mServerNameList() const {
 return ::cordl_internals::getInstanceField<System::Collections::IList, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "serverNameList", ty: "System::Collections::IList", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Tls::ServerNameList::ServerNameList(System::Collections::IList serverNameList)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerNameList>(serverNameList))) {}
+ Org::BouncyCastle::Crypto::Tls::ServerNameList Org::BouncyCastle::Crypto::Tls::ServerNameList::New_ctor(System::Collections::IList serverNameList)  {
+Org::BouncyCastle::Crypto::Tls::ServerNameList o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Tls::ServerNameList>(serverNameList))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Tls::ServerNameList::_ctor(System::Collections::IList serverNameList)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Tls::ServerNameList>::get(),

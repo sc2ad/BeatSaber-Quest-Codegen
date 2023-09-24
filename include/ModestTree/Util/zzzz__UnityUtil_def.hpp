@@ -2,25 +2,25 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 class GameObject;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine {
 class Transform;
@@ -29,11 +29,29 @@ namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
 namespace UnityEngine {
 class Component;
 }
-namespace UnityEngine::SceneManagement {
-struct Scene;
+namespace ModestTree::Util {
+class ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17;
+}
+namespace ModestTree::Util {
+class ModestTree__Util__UnityUtil___GetDirectChildren_d__21;
+}
+namespace ModestTree::Util {
+class ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20;
+}
+namespace ModestTree::Util {
+class ModestTree__Util__UnityUtil____c;
+}
+namespace ModestTree::Util {
+class ModestTree__Util__UnityUtil___get_AllScenes_d__1;
+}
+namespace ModestTree::Util {
+class ModestTree__Util__UnityUtil___GetParents_d__16;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -152,8 +170,7 @@ constexpr int32_t __get__i_5__2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ModestTree__Util__UnityUtil___get_AllScenes_d__1(int32_t __1__state) ;
+static ModestTree::Util::ModestTree__Util__UnityUtil___get_AllScenes_d__1 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d459b8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -270,8 +287,7 @@ static System::Func_2<UnityEngine::GameObject,bool> __get___9__23_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit ModestTree__Util__UnityUtil____c() ;
+static ModestTree::Util::ModestTree__Util__UnityUtil____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d46788 size 0x8 virtual false final false
  void _ctor() ;
@@ -401,8 +417,7 @@ constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::Transform> __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ModestTree__Util__UnityUtil___GetParents_d__16(int32_t __1__state) ;
+static ModestTree::Util::ModestTree__Util__UnityUtil___GetParents_d__16 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d45e94 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -538,8 +553,7 @@ constexpr System::Collections::Generic::IEnumerator_1<UnityEngine::Transform> __
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17(int32_t __1__state) ;
+static ModestTree::Util::ModestTree__Util__UnityUtil___GetParentsAndSelf_d__17 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d45ec8 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -675,8 +689,7 @@ constexpr System::Collections::IEnumerator __get___7__wrap1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20(int32_t __1__state) ;
+static ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildrenAndSelf_d__20 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d461d4 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -812,8 +825,7 @@ constexpr System::Collections::IEnumerator __get___7__wrap1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ModestTree__Util__UnityUtil___GetDirectChildren_d__21(int32_t __1__state) ;
+static ModestTree::Util::ModestTree__Util__UnityUtil___GetDirectChildren_d__21 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2d46280 size 0x34 virtual false final false
  void _ctor(int32_t __1__state) ;

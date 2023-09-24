@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorBehaviour_def.hpp"
 //  Writing Method size for method: GlobalNamespace::CustomControlPlayableAsset.get_clipCaps
 template<>
@@ -57,8 +57,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Timeline::ClipCaps, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- GlobalNamespace::CustomControlPlayableAsset::CustomControlPlayableAsset()  : UnityEngine::Timeline::ControlPlayableAsset(THROW_UNLESS(::il2cpp_utils::New<CustomControlPlayableAsset>())) {}
+ GlobalNamespace::CustomControlPlayableAsset GlobalNamespace::CustomControlPlayableAsset::New_ctor()  {
+GlobalNamespace::CustomControlPlayableAsset o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::CustomControlPlayableAsset>())};
+return o;
+}
  void GlobalNamespace::CustomControlPlayableAsset::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::CustomControlPlayableAsset>::get(),

@@ -2,9 +2,9 @@
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TouchScreenTextEditorEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::TouchScreenTextEditorEventHandler._ctor
@@ -93,8 +93,10 @@ return ::cordl_internals::getInstanceField<UnityEngine::UIElements::VisualElemen
  UnityEngine::TouchScreenKeyboard UnityEngine::UIElements::TouchScreenTextEditorEventHandler::__get_s_KeyboardOnScreen()  {
 return ::cordl_internals::getStaticField<UnityEngine::TouchScreenKeyboard, "s_KeyboardOnScreen", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TouchScreenTextEditorEventHandler>::get>();
 }
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
- UnityEngine::UIElements::TouchScreenTextEditorEventHandler::TouchScreenTextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  : UnityEngine::UIElements::TextEditorEventHandler(THROW_UNLESS(::il2cpp_utils::New<TouchScreenTextEditorEventHandler>(editorEngine, textInputField))) {}
+ UnityEngine::UIElements::TouchScreenTextEditorEventHandler UnityEngine::UIElements::TouchScreenTextEditorEventHandler::New_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  {
+UnityEngine::UIElements::TouchScreenTextEditorEventHandler o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::TouchScreenTextEditorEventHandler>(editorEngine, textInputField))};
+return o;
+}
  void UnityEngine::UIElements::TouchScreenTextEditorEventHandler::_ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::TouchScreenTextEditorEventHandler>::get(),

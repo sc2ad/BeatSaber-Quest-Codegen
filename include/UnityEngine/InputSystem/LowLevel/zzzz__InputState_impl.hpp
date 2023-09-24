@@ -2,12 +2,13 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate.NotifyControlStateChanged
 template<>
 
@@ -93,8 +94,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, control, time, monitorIndex, timerIndex);
 }
-// Ctor Parameters []
- UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate>())) {}
+ UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate::New_ctor()  {
+UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate>())};
+return o;
+}
  void UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::InputSystem::LowLevel::UnityEngine__InputSystem__LowLevel__InputState__StateChangeMonitorDelegate>::get(),

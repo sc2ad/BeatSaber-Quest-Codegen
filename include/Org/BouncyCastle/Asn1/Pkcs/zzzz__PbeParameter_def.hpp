@@ -88,14 +88,12 @@ constexpr Org::BouncyCastle::Asn1::DerInteger __get_iterationCount() const;
 /// @brief Method GetInstance addr 0xefb3f0 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Pkcs::PbeParameter GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit PbeParameter(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::Pkcs::PbeParameter New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xefb578 size 0xe8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "iterationCount", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PbeParameter(::ArrayW<uint8_t> salt, int32_t iterationCount) ;
+static Org::BouncyCastle::Asn1::Pkcs::PbeParameter New_ctor(::ArrayW<uint8_t> salt, int32_t iterationCount) ;
 
 /// @brief Method .ctor addr 0xefb660 size 0xb4 virtual false final false
  void _ctor(::ArrayW<uint8_t> salt, int32_t iterationCount) ;

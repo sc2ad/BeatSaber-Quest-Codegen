@@ -83,8 +83,7 @@ constexpr bool __get__IncludeLength_k__BackingField() const;
 /// @brief Method set_IncludeLength addr 0x25503dc size 0xc virtual false final false
  void set_IncludeLength(bool value) ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "includeLength", ty: "bool", modifiers: "", def_value: None }]
-explicit BsonString(::bs_hook::Il2CppWrapperType value, bool includeLength) ;
+static Newtonsoft::Json::Bson::BsonString New_ctor(::bs_hook::Il2CppWrapperType value, bool includeLength) ;
 
 /// @brief Method .ctor addr 0x2550188 size 0x3c virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType value, bool includeLength) ;

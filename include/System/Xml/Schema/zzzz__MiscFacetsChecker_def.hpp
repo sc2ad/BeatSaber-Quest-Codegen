@@ -47,8 +47,7 @@ constexpr explicit MiscFacetsChecker(void* ptr) noexcept : System::Xml::Schema::
 
 // Methods
 
-// Ctor Parameters []
-explicit MiscFacetsChecker() ;
+static System::Xml::Schema::MiscFacetsChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x272f8d4 size 0x8 virtual false final false
  void _ctor() ;

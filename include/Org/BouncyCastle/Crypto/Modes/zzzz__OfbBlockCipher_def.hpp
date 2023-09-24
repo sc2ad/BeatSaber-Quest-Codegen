@@ -99,8 +99,7 @@ constexpr Org::BouncyCastle::Crypto::IBlockCipher __get_cipher() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IBlockCipher", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit OfbBlockCipher(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;
+static Org::BouncyCastle::Crypto::Modes::OfbBlockCipher New_ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;
 
 /// @brief Method .ctor addr 0xe98f40 size 0x1e0 virtual false final false
  void _ctor(Org::BouncyCastle::Crypto::IBlockCipher cipher, int32_t blockSize) ;

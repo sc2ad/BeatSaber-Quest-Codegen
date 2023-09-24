@@ -150,6 +150,8 @@ constexpr operator __WellKnownSidType_Unwrapped () const noexcept {
 return std::bit_cast<__WellKnownSidType_Unwrapped>(__instance);
 }
 
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
 
 // Fields
 

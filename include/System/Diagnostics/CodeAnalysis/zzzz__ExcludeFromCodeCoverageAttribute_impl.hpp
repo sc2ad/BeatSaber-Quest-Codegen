@@ -18,8 +18,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute::ExcludeFromCodeCoverageAttribute()  : System::Attribute(THROW_UNLESS(::il2cpp_utils::New<ExcludeFromCodeCoverageAttribute>())) {}
+ System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute::New_ctor()  {
+System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute o{THROW_UNLESS(::il2cpp_utils::New<System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute>())};
+return o;
+}
  void System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute>::get(),

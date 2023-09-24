@@ -73,8 +73,7 @@ constexpr Mono::Security::ASN1 __get__asn1() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bagOID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "asn1", ty: "Mono::Security::ASN1", modifiers: "", def_value: None }]
-explicit SafeBag(::StringW bagOID, Mono::Security::ASN1 asn1) ;
+static Mono::Security::X509::SafeBag New_ctor(::StringW bagOID, Mono::Security::ASN1 asn1) ;
 
 /// @brief Method .ctor addr 0x2282f28 size 0x2c virtual false final false
  void _ctor(::StringW bagOID, Mono::Security::ASN1 asn1) ;

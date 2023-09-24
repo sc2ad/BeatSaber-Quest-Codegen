@@ -18,13 +18,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+class RootMotion__FinalIK__IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
-class RootMotion__FinalIK__IKSolver__Node;
+class IKSolverFullBody;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__IKSolver__Node;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -294,8 +297,7 @@ constexpr int32_t __get_plane3NodeIndex() const;
 /// @brief Method get_lastAnimatedTargetRotation addr 0x11d0408 size 0x168 virtual false final false
  UnityEngine::Quaternion get_lastAnimatedTargetRotation() ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__IKMapping__BoneMap() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__IKMapping__BoneMap New_ctor() ;
 
 /// @brief Method .ctor addr 0x11d0e74 size 0x1c virtual false final false
  void _ctor() ;
@@ -360,8 +362,7 @@ constexpr explicit IKMapping(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Method SolveFABRIKJoint addr 0x11cfe50 size 0x114 virtual false final false
  UnityEngine::Vector3 SolveFABRIKJoint(UnityEngine::Vector3 pos1, UnityEngine::Vector3 pos2, float_t length) ;
 
-// Ctor Parameters []
-explicit IKMapping() ;
+static RootMotion::FinalIK::IKMapping New_ctor() ;
 
 /// @brief Method .ctor addr 0x11cff64 size 0x8 virtual false final false
  void _ctor() ;

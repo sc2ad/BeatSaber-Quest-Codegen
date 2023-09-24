@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
 namespace GlobalNamespace {
-class MultiplayerConnectedPlayerLevelFailController;
+class ScaleAnimator;
 }
 namespace GlobalNamespace {
-class ScaleAnimator;
+class MultiplayerConnectedPlayerLevelFailController;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__MultiplayerController__State;
@@ -86,8 +86,7 @@ constexpr GlobalNamespace::MultiplayerConnectedPlayerLevelFailController __get__
 /// @brief Method HandlePlayerDidFail addr 0x20e194c size 0x4 virtual false final false
  void HandlePlayerDidFail() ;
 
-// Ctor Parameters []
-explicit MultiplayerDuelConnectedPlayerGameplayAnimator() ;
+static GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator New_ctor() ;
 
 /// @brief Method .ctor addr 0x20e1950 size 0x8 virtual false final false
  void _ctor() ;

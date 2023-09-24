@@ -86,14 +86,12 @@ constexpr int64_t __get_cL() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "x0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None }]
-explicit Gost3410ValidationParameters(int32_t x0, int32_t c) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters New_ctor(int32_t x0, int32_t c) ;
 
 /// @brief Method .ctor addr 0xea9630 size 0x2c virtual false final false
  void _ctor(int32_t x0, int32_t c) ;
 
-// Ctor Parameters [CppParam { name: "x0L", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "cL", ty: "int64_t", modifiers: "", def_value: None }]
-explicit Gost3410ValidationParameters(int64_t x0L, int64_t cL) ;
+static Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters New_ctor(int64_t x0L, int64_t cL) ;
 
 /// @brief Method .ctor addr 0xea965c size 0x2c virtual false final false
  void _ctor(int64_t x0L, int64_t cL) ;

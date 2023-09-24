@@ -6,10 +6,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System {
-class Attribute;
+class Type;
 }
 namespace System {
-class Type;
+class Attribute;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -20,23 +23,26 @@ class ICollection;
 namespace System {
 class Array;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
 namespace System {
 class Exception;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System::ComponentModel {
+class System__ComponentModel__TypeConverter__StandardValuesCollection;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::ComponentModel {
+class System__ComponentModel__TypeConverter__SimplePropertyDescriptor;
+}
+namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
-namespace System::Globalization {
-class CultureInfo;
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -114,8 +120,7 @@ constexpr System::Type __get_propertyType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "componentType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "propertyType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "attributes", ty: "::ArrayW<System::Attribute>", modifiers: "", def_value: None }]
-explicit System__ComponentModel__TypeConverter__SimplePropertyDescriptor(System::Type componentType, ::StringW name, System::Type propertyType, ::ArrayW<System::Attribute> attributes) ;
+static System::ComponentModel::System__ComponentModel__TypeConverter__SimplePropertyDescriptor New_ctor(System::Type componentType, ::StringW name, System::Type propertyType, ::ArrayW<System::Attribute> attributes) ;
 
 /// @brief Method .ctor addr 0x2799c20 size 0x34 virtual false final false
  void _ctor(System::Type componentType, ::StringW name, System::Type propertyType, ::ArrayW<System::Attribute> attributes) ;
@@ -216,8 +221,7 @@ constexpr System::Array __get_valueArray() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "values", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit System__ComponentModel__TypeConverter__StandardValuesCollection(System::Collections::ICollection values) ;
+static System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection New_ctor(System::Collections::ICollection values) ;
 
 /// @brief Method .ctor addr 0x2783fec size 0xb0 virtual false final false
  void _ctor(System::Collections::ICollection values) ;
@@ -430,8 +434,7 @@ static bool get_UseCompatibleTypeConversion() ;
 /// @brief Method SortProperties addr 0x2799be8 size 0x38 virtual false final false
  System::ComponentModel::PropertyDescriptorCollection SortProperties(System::ComponentModel::PropertyDescriptorCollection props, ::ArrayW<::StringW> names) ;
 
-// Ctor Parameters []
-explicit TypeConverter() ;
+static System::ComponentModel::TypeConverter New_ctor() ;
 
 /// @brief Method .ctor addr 0x2782c6c size 0x8 virtual false final false
  void _ctor() ;

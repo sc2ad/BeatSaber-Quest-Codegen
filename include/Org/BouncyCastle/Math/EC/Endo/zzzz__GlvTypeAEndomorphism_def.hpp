@@ -2,20 +2,20 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace Org::BouncyCastle::Math::EC {
-class ECCurve;
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPointMap;
 }
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ECEndomorphism;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECCurve;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvEndomorphism;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Endo {
 class GlvTypeAParameters;
@@ -94,8 +94,7 @@ constexpr Org::BouncyCastle::Math::EC::ECPointMap __get_m_pointMap() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "curve", ty: "Org::BouncyCastle::Math::EC::ECCurve", modifiers: "", def_value: None }, CppParam { name: "parameters", ty: "Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters", modifiers: "", def_value: None }]
-explicit GlvTypeAEndomorphism(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters parameters) ;
+static Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism New_ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters parameters) ;
 
 /// @brief Method .ctor addr 0xfa8224 size 0xb8 virtual false final false
  void _ctor(Org::BouncyCastle::Math::EC::ECCurve curve, Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters parameters) ;

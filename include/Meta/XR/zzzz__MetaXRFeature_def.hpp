@@ -84,8 +84,7 @@ static constexpr ::ConstString  featureId{u"com.meta.openxr.feature.metaxr"};
 /// @brief Method OnSessionDestroy addr 0x266f2b8 size 0xcc virtual true final false
  void OnSessionDestroy(uint64_t xrSession) ;
 
-// Ctor Parameters []
-explicit MetaXRFeature() ;
+static Meta::XR::MetaXRFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x266f384 size 0x8 virtual false final false
  void _ctor() ;

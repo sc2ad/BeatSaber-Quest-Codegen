@@ -98,8 +98,7 @@ constexpr bool __get_fixedFrame() const;
 /// @brief Method FixTransforms addr 0x11c50d0 size 0x7c virtual false final false
  void FixTransforms() ;
 
-// Ctor Parameters []
-explicit IKExecutionOrder() ;
+static RootMotion::FinalIK::IKExecutionOrder New_ctor() ;
 
 /// @brief Method .ctor addr 0x11c51fc size 0x8 virtual false final false
  void _ctor() ;

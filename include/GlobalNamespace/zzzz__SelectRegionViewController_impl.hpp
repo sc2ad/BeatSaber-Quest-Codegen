@@ -4,10 +4,11 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
+#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__SelectRegionViewController__Region::GlobalNamespace__SelectRegionViewController__Region(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -111,8 +112,10 @@ return ::cordl_internals::getStaticField<GlobalNamespace::GlobalNamespace__Selec
  System::Func_2<GlobalNamespace::GlobalNamespace__SelectRegionViewController__RegionToLocalizationKeyPair,::StringW> GlobalNamespace::GlobalNamespace__SelectRegionViewController____c::__get___9__8_1()  {
 return ::cordl_internals::getStaticField<System::Func_2<GlobalNamespace::GlobalNamespace__SelectRegionViewController__RegionToLocalizationKeyPair,::StringW>, "<>9__8_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SelectRegionViewController____c>::get>();
 }
-// Ctor Parameters []
- GlobalNamespace::GlobalNamespace__SelectRegionViewController____c::GlobalNamespace__SelectRegionViewController____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace__SelectRegionViewController____c>())) {}
+ GlobalNamespace::GlobalNamespace__SelectRegionViewController____c GlobalNamespace::GlobalNamespace__SelectRegionViewController____c::New_ctor()  {
+GlobalNamespace::GlobalNamespace__SelectRegionViewController____c o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::GlobalNamespace__SelectRegionViewController____c>())};
+return o;
+}
  void GlobalNamespace::GlobalNamespace__SelectRegionViewController____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::GlobalNamespace__SelectRegionViewController____c>::get(),
@@ -319,8 +322,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dropdown, idx);
 }
-// Ctor Parameters []
- GlobalNamespace::SelectRegionViewController::SelectRegionViewController()  : HMUI::ViewController(THROW_UNLESS(::il2cpp_utils::New<SelectRegionViewController>())) {}
+ GlobalNamespace::SelectRegionViewController GlobalNamespace::SelectRegionViewController::New_ctor()  {
+GlobalNamespace::SelectRegionViewController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SelectRegionViewController>())};
+return o;
+}
  void GlobalNamespace::SelectRegionViewController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SelectRegionViewController>::get(),

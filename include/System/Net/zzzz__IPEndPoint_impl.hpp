@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/zzzz__EndPoint_impl.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
-#include "System/Net/zzzz__EndPoint_def.hpp"
 #include "System/Net/zzzz__SocketAddress_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/Sockets/zzzz__AddressFamily_def.hpp"
+#include "System/Net/zzzz__EndPoint_def.hpp"
 //  Writing Method size for method: System::Net::IPEndPoint.get_AddressFamily
 template<>
 
@@ -191,8 +191,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Net::Sockets::AddressFamily, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
- System::Net::IPEndPoint::IPEndPoint(System::Net::IPAddress address, int32_t port)  : System::Net::EndPoint(THROW_UNLESS(::il2cpp_utils::New<IPEndPoint>(address, port))) {}
+ System::Net::IPEndPoint System::Net::IPEndPoint::New_ctor(System::Net::IPAddress address, int32_t port)  {
+System::Net::IPEndPoint o{THROW_UNLESS(::il2cpp_utils::New<System::Net::IPEndPoint>(address, port))};
+return o;
+}
  void System::Net::IPEndPoint::_ctor(System::Net::IPAddress address, int32_t port)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::IPEndPoint>::get(),

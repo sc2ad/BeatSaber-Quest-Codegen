@@ -1,8 +1,8 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__Dstu7624Mac_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Dstu7624Engine_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Macs::Dstu7624Mac._ctor
 template<>
 
@@ -225,8 +225,10 @@ constexpr void Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::__set_bufOff(int32_
 constexpr int32_t Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::__get_bufOff() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x48>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "blockSizeBits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "q", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::Dstu7624Mac(int32_t blockSizeBits, int32_t q)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Dstu7624Mac>(blockSizeBits, q))) {}
+ Org::BouncyCastle::Crypto::Macs::Dstu7624Mac Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::New_ctor(int32_t blockSizeBits, int32_t q)  {
+Org::BouncyCastle::Crypto::Macs::Dstu7624Mac o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Macs::Dstu7624Mac>(blockSizeBits, q))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Macs::Dstu7624Mac::_ctor(int32_t blockSizeBits, int32_t q)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Macs::Dstu7624Mac>::get(),

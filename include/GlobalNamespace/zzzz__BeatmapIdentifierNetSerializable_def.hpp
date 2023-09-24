@@ -3,6 +3,12 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -10,14 +16,8 @@ class IEquatable_1;
 namespace LiteNetLib::Utils {
 class INetSerializable;
 }
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -119,14 +119,12 @@ constexpr GlobalNamespace::BeatmapDifficulty __get__difficulty_k__BackingField()
 /// @brief Method set_difficulty addr 0x1212e14 size 0x8 virtual false final false
  void set_difficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-// Ctor Parameters []
-explicit BeatmapIdentifierNetSerializable() ;
+static GlobalNamespace::BeatmapIdentifierNetSerializable New_ctor() ;
 
 /// @brief Method .ctor addr 0x1212e1c size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristicSerializedName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }]
-explicit BeatmapIdentifierNetSerializable(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) ;
+static GlobalNamespace::BeatmapIdentifierNetSerializable New_ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) ;
 
 /// @brief Method .ctor addr 0x1212e24 size 0x3c virtual false final false
  void _ctor(::StringW levelID, ::StringW beatmapCharacteristicSerializedName, GlobalNamespace::BeatmapDifficulty difficulty) ;

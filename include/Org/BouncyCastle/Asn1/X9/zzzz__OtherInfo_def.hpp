@@ -1,17 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-namespace Org::BouncyCastle::Asn1::X9 {
-class KeySpecificInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class KeySpecificInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -89,14 +89,12 @@ constexpr Org::BouncyCastle::Asn1::Asn1OctetString __get_suppPubInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "keyInfo", ty: "Org::BouncyCastle::Asn1::X9::KeySpecificInfo", modifiers: "", def_value: None }, CppParam { name: "partyAInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }, CppParam { name: "suppPubInfo", ty: "Org::BouncyCastle::Asn1::Asn1OctetString", modifiers: "", def_value: None }]
-explicit OtherInfo(Org::BouncyCastle::Asn1::X9::KeySpecificInfo keyInfo, Org::BouncyCastle::Asn1::Asn1OctetString partyAInfo, Org::BouncyCastle::Asn1::Asn1OctetString suppPubInfo) ;
+static Org::BouncyCastle::Asn1::X9::OtherInfo New_ctor(Org::BouncyCastle::Asn1::X9::KeySpecificInfo keyInfo, Org::BouncyCastle::Asn1::Asn1OctetString partyAInfo, Org::BouncyCastle::Asn1::Asn1OctetString suppPubInfo) ;
 
 /// @brief Method .ctor addr 0x111f620 size 0x3c virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::X9::KeySpecificInfo keyInfo, Org::BouncyCastle::Asn1::Asn1OctetString partyAInfo, Org::BouncyCastle::Asn1::Asn1OctetString suppPubInfo) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OtherInfo(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+static Org::BouncyCastle::Asn1::X9::OtherInfo New_ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0x111f65c size 0x3a8 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;

@@ -2,20 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace System::Xml::Schema {
-class SchemaInfo;
-}
 namespace System::Xml {
-class XmlDocument;
+class XmlNode;
 }
 namespace System::Xml {
 struct XmlNodeType;
+}
+namespace System::Xml::Schema {
+class SchemaInfo;
 }
 namespace System::Xml {
 class XmlNamedNodeMap;
 }
 namespace System::Xml {
-class XmlNode;
+class XmlDocument;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -139,8 +139,7 @@ constexpr System::Xml::Schema::SchemaInfo __get_schemaInfo() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "internalSubset", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc) ;
+static System::Xml::XmlDocumentType New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f45dc size 0xc4 virtual false final false
  void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, System::Xml::XmlDocument doc) ;

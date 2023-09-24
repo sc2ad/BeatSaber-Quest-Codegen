@@ -4,24 +4,30 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::InputSystem {
+struct Key;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class ITextInputReceiver;
 }
 namespace UnityEngine::InputSystem::Controls {
-class KeyControl;
+class ButtonControl;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template<typename TValue>
-struct ReadOnlyArray_1;
+namespace UnityEngine::InputSystem::Controls {
+class KeyControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class AnyKeyControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct IMECompositionString;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template<typename TValue>
+struct ReadOnlyArray_1;
 }
 namespace System {
 template<typename T>
@@ -30,12 +36,6 @@ class Action_1;
 namespace UnityEngine::InputSystem::Utilities {
 template<typename TValue>
 struct InlinedArray_1;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::InputSystem {
-struct Key;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -848,8 +848,7 @@ static void set_current(UnityEngine::InputSystem::Keyboard value) ;
 /// @brief Method set_keys addr 0x28db238 size 0x8 virtual false final false
  void set_keys(::ArrayW<UnityEngine::InputSystem::Controls::KeyControl> value) ;
 
-// Ctor Parameters []
-explicit Keyboard() ;
+static UnityEngine::InputSystem::Keyboard New_ctor() ;
 
 /// @brief Method .ctor addr 0x28db240 size 0x2c virtual false final false
  void _ctor() ;

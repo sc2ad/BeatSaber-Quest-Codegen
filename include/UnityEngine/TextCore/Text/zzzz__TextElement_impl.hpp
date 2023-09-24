@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAsset_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TextElementType_def.hpp"
 //  Writing Method size for method: UnityEngine::TextCore::Text::TextElement.get_elementType
 template<>
 
@@ -342,8 +342,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, value);
 }
-// Ctor Parameters []
- UnityEngine::TextCore::Text::TextElement::TextElement()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TextElement>())) {}
+ UnityEngine::TextCore::Text::TextElement UnityEngine::TextCore::Text::TextElement::New_ctor()  {
+UnityEngine::TextCore::Text::TextElement o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::TextCore::Text::TextElement>())};
+return o;
+}
  void UnityEngine::TextCore::Text::TextElement::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::TextCore::Text::TextElement>::get(),

@@ -73,8 +73,7 @@ constexpr ::ArrayW<uint8_t> __get_canonEncoding() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encodedDistinguishedName", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit X500DistinguishedName(::ArrayW<uint8_t> encodedDistinguishedName) ;
+static System::Security::Cryptography::X509Certificates::X500DistinguishedName New_ctor(::ArrayW<uint8_t> encodedDistinguishedName) ;
 
 /// @brief Method .ctor addr 0x27e5dc4 size 0x110 virtual false final false
  void _ctor(::ArrayW<uint8_t> encodedDistinguishedName) ;

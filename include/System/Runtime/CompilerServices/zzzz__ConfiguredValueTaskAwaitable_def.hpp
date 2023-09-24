@@ -4,11 +4,14 @@
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System {
-class Action;
+namespace System::Runtime::CompilerServices {
+struct System__Runtime__CompilerServices__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {

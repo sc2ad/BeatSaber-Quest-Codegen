@@ -1,12 +1,12 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreItem_def.hpp"
-#include "Tweening/zzzz__Tween_1_def.hpp"
-#include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__EaseType_def.hpp"
+#include "Tweening/zzzz__Tween_1_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: GlobalNamespace::MultiplayerScoreItem.Awake
 template<>
@@ -245,8 +245,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, text);
 }
-// Ctor Parameters []
- GlobalNamespace::MultiplayerScoreItem::MultiplayerScoreItem()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<MultiplayerScoreItem>())) {}
+ GlobalNamespace::MultiplayerScoreItem GlobalNamespace::MultiplayerScoreItem::New_ctor()  {
+GlobalNamespace::MultiplayerScoreItem o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::MultiplayerScoreItem>())};
+return o;
+}
  void GlobalNamespace::MultiplayerScoreItem::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::MultiplayerScoreItem>::get(),

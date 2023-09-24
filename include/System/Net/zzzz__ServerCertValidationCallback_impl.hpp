@@ -1,10 +1,11 @@
 #pragma once
 #include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
-#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
-#include "System/Threading/zzzz__ExecutionContext_def.hpp"
-#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
+#include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"
+#include "System/Net/Security/zzzz__RemoteCertificateValidationCallback_def.hpp"
 //  Writing Method size for method: System::Net::System__Net__ServerCertValidationCallback__CallbackContext._ctor
 template<>
 
@@ -52,8 +53,10 @@ constexpr void System::Net::System__Net__ServerCertValidationCallback__CallbackC
 constexpr bool System::Net::System__Net__ServerCertValidationCallback__CallbackContext::__get_result() const {
 return ::cordl_internals::getInstanceField<bool, 0x2c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "request", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "certificate", ty: "System::Security::Cryptography::X509Certificates::X509Certificate", modifiers: "", def_value: None }, CppParam { name: "chain", ty: "System::Security::Cryptography::X509Certificates::X509Chain", modifiers: "", def_value: None }, CppParam { name: "sslPolicyErrors", ty: "System::Net::Security::SslPolicyErrors", modifiers: "", def_value: None }]
- System::Net::System__Net__ServerCertValidationCallback__CallbackContext::System__Net__ServerCertValidationCallback__CallbackContext(::bs_hook::Il2CppWrapperType request, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__Net__ServerCertValidationCallback__CallbackContext>(request, certificate, chain, sslPolicyErrors))) {}
+ System::Net::System__Net__ServerCertValidationCallback__CallbackContext System::Net::System__Net__ServerCertValidationCallback__CallbackContext::New_ctor(::bs_hook::Il2CppWrapperType request, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors)  {
+System::Net::System__Net__ServerCertValidationCallback__CallbackContext o{THROW_UNLESS(::il2cpp_utils::New<System::Net::System__Net__ServerCertValidationCallback__CallbackContext>(request, certificate, chain, sslPolicyErrors))};
+return o;
+}
  void System::Net::System__Net__ServerCertValidationCallback__CallbackContext::_ctor(::bs_hook::Il2CppWrapperType request, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::System__Net__ServerCertValidationCallback__CallbackContext>::get(),
@@ -143,8 +146,10 @@ constexpr void System::Net::ServerCertValidationCallback::__set_m_Context(System
 constexpr System::Threading::ExecutionContext System::Net::ServerCertValidationCallback::__get_m_Context() const {
 return ::cordl_internals::getInstanceField<System::Threading::ExecutionContext, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "validationCallback", ty: "System::Net::Security::RemoteCertificateValidationCallback", modifiers: "", def_value: None }]
- System::Net::ServerCertValidationCallback::ServerCertValidationCallback(System::Net::Security::RemoteCertificateValidationCallback validationCallback)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ServerCertValidationCallback>(validationCallback))) {}
+ System::Net::ServerCertValidationCallback System::Net::ServerCertValidationCallback::New_ctor(System::Net::Security::RemoteCertificateValidationCallback validationCallback)  {
+System::Net::ServerCertValidationCallback o{THROW_UNLESS(::il2cpp_utils::New<System::Net::ServerCertValidationCallback>(validationCallback))};
+return o;
+}
  void System::Net::ServerCertValidationCallback::_ctor(System::Net::Security::RemoteCertificateValidationCallback validationCallback)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::ServerCertValidationCallback>::get(),

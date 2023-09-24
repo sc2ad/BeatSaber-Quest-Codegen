@@ -3,14 +3,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace HoudiniEngineUnity {
 template<typename T>
-class IEquivableWrapperClass_1;
-}
-namespace HoudiniEngineUnity {
-template<typename T>
 class IEquivable_1;
 }
 namespace UnityEngine {
 class MeshRenderer;
+}
+namespace HoudiniEngineUnity {
+template<typename T>
+class IEquivableWrapperClass_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -73,8 +73,7 @@ constexpr UnityEngine::MeshRenderer __get_self() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "UnityEngine::MeshRenderer", modifiers: "", def_value: None }]
-explicit Test_MeshRenderer(UnityEngine::MeshRenderer self) ;
+static HoudiniEngineUnity::Test_MeshRenderer New_ctor(UnityEngine::MeshRenderer self) ;
 
 /// @brief Method .ctor addr 0x2073690 size 0x28 virtual false final false
  void _ctor(UnityEngine::MeshRenderer self) ;

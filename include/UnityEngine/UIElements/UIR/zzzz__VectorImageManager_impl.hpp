@@ -1,18 +1,18 @@
 #pragma once
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfoPool_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfoPool_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
-#include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UIR::VectorImageManager.get_atlas
 template<>
 
@@ -239,8 +239,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<UnityEngine::Texture2D, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "atlas", ty: "UnityEngine::UIElements::AtlasBase", modifiers: "", def_value: None }]
- UnityEngine::UIElements::UIR::VectorImageManager::VectorImageManager(UnityEngine::UIElements::AtlasBase atlas)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<VectorImageManager>(atlas))) {}
+ UnityEngine::UIElements::UIR::VectorImageManager UnityEngine::UIElements::UIR::VectorImageManager::New_ctor(UnityEngine::UIElements::AtlasBase atlas)  {
+UnityEngine::UIElements::UIR::VectorImageManager o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIR::VectorImageManager>(atlas))};
+return o;
+}
  void UnityEngine::UIElements::UIR::VectorImageManager::_ctor(UnityEngine::UIElements::AtlasBase atlas)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UIR::VectorImageManager>::get(),

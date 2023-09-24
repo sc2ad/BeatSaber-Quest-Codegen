@@ -5,25 +5,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-class IObjectReference;
-}
-namespace System {
-class Type;
+struct StreamingContext;
 }
 namespace System {
 class RuntimeType;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::Reflection {
 class MethodBase;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+class IObjectReference;
 }
 namespace System::Reflection {
 class RuntimeAssembly;
@@ -146,8 +146,7 @@ static void GetUnitySerializationInfo(System::Runtime::Serialization::Serializat
 /// @brief Method GetUnitySerializationInfo addr 0x2484d14 size 0x18c virtual false final false
 static void GetUnitySerializationInfo(System::Runtime::Serialization::SerializationInfo info, int32_t unityType, ::StringW data, System::Reflection::RuntimeAssembly assembly) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit UnitySerializationHolder(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::UnitySerializationHolder New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x2484ea0 size 0x3f4 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

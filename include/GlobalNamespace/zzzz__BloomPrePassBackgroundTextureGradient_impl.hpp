@@ -1,13 +1,13 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
+#include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient.get_tintColor
 template<>
 
@@ -301,8 +301,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, dest, viewMatrix, projectionMatrix);
 }
-// Ctor Parameters []
- GlobalNamespace::BloomPrePassBackgroundTextureGradient::BloomPrePassBackgroundTextureGradient()  : GlobalNamespace::BloomPrePassNonLightPass(THROW_UNLESS(::il2cpp_utils::New<BloomPrePassBackgroundTextureGradient>())) {}
+ GlobalNamespace::BloomPrePassBackgroundTextureGradient GlobalNamespace::BloomPrePassBackgroundTextureGradient::New_ctor()  {
+GlobalNamespace::BloomPrePassBackgroundTextureGradient o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BloomPrePassBackgroundTextureGradient>())};
+return o;
+}
  void GlobalNamespace::BloomPrePassBackgroundTextureGradient::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BloomPrePassBackgroundTextureGradient>::get(),

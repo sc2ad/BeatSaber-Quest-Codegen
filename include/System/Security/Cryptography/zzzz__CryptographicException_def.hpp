@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 class Exception;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -57,32 +57,27 @@ constexpr explicit CryptographicException(void* ptr) noexcept : System::SystemEx
 
 // Methods
 
-// Ctor Parameters []
-explicit CryptographicException() ;
+static System::Security::Cryptography::CryptographicException New_ctor() ;
 
 /// @brief Method .ctor addr 0x22efea8 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CryptographicException(::StringW message) ;
+static System::Security::Cryptography::CryptographicException New_ctor(::StringW message) ;
 
 /// @brief Method .ctor addr 0x22efd0c size 0x28 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "insert", ty: "::StringW", modifiers: "", def_value: None }]
-explicit CryptographicException(::StringW format, ::StringW insert) ;
+static System::Security::Cryptography::CryptographicException New_ctor(::StringW format, ::StringW insert) ;
 
 /// @brief Method .ctor addr 0x22eff14 size 0x98 virtual false final false
  void _ctor(::StringW format, ::StringW insert) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
-explicit CryptographicException(::StringW message, System::Exception inner) ;
+static System::Security::Cryptography::CryptographicException New_ctor(::StringW message, System::Exception inner) ;
 
 /// @brief Method .ctor addr 0x22effac size 0x28 virtual false final false
  void _ctor(::StringW message, System::Exception inner) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit CryptographicException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
+static System::Security::Cryptography::CryptographicException New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x22effd4 size 0x8 virtual false final false
  void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;

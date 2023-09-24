@@ -8,13 +8,10 @@
 #include <cmath>
 #include <cstdint>
 namespace HoudiniEngineUnity {
-struct HAPI_VolumeInfo;
+class HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace UnityEngine {
-class TerrainData;
+struct HAPI_VolumeInfo;
 }
 namespace UnityEngine {
 class TerrainLayer;
@@ -23,10 +20,16 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+class HEU_SessionBase;
+}
+namespace UnityEngine {
+class TerrainData;
 }
 namespace UnityEngine {
 class Terrain;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -158,8 +161,7 @@ constexpr int32_t __get__mergeNodeID() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain() ;
+static HoudiniEngineUnity::HoudiniEngineUnity__HEU_InputInterfaceTerrain__HEU_InputDataTerrain New_ctor() ;
 
 /// @brief Method .ctor addr 0x2059c8c size 0x64 virtual false final false
  void _ctor() ;
@@ -212,8 +214,7 @@ constexpr explicit HEU_InputInterfaceTerrain(void* ptr) noexcept : HoudiniEngine
 
 // Methods
 
-// Ctor Parameters []
-explicit HEU_InputInterfaceTerrain() ;
+static HoudiniEngineUnity::HEU_InputInterfaceTerrain New_ctor() ;
 
 /// @brief Method .ctor addr 0x205770c size 0xc virtual false final false
  void _ctor() ;

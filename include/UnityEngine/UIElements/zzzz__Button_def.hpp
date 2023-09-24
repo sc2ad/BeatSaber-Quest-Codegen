@@ -4,23 +4,29 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+namespace UnityEngine::UIElements {
+struct UnityEngine__UIElements__VisualElement__MeasureMode;
+}
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-struct UnityEngine__UIElements__VisualElement__MeasureMode;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class Clickable;
+class NavigationSubmitEvent;
 }
 namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-class NavigationSubmitEvent;
+class UnityEngine__UIElements__Button__UxmlTraits;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__Button__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class Clickable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -74,8 +80,7 @@ constexpr explicit UnityEngine__UIElements__Button__UxmlTraits(void* ptr) noexce
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Button__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc369c size 0x58 virtual false final false
  void _ctor() ;
@@ -162,14 +167,12 @@ static ::StringW __get_NonEmptyString() ;
 /// @brief Method set_clickable addr 0x2cc3350 size 0x64 virtual false final false
  void set_clickable(UnityEngine::UIElements::Clickable value) ;
 
-// Ctor Parameters []
-explicit Button() ;
+static UnityEngine::UIElements::Button New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc33b4 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "clickEvent", ty: "System::Action", modifiers: "", def_value: None }]
-explicit Button(System::Action clickEvent) ;
+static UnityEngine::UIElements::Button New_ctor(System::Action clickEvent) ;
 
 /// @brief Method .ctor addr 0x2cb6224 size 0x1c8 virtual false final false
  void _ctor(System::Action clickEvent) ;
@@ -190,7 +193,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7223)), TypeDefinitionIndex(TypeDefinitionIndex(7222)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5084 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7222)), TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7223)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5084 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7221))
 // CS Name: UnityEngine.UIElements.Button::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__Button__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Button,UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlTraits> {
@@ -229,8 +232,7 @@ constexpr explicit UnityEngine__UIElements__Button__UxmlFactory(void* ptr) noexc
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__Button__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__Button__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2cc3654 size 0x48 virtual false final false
  void _ctor() ;

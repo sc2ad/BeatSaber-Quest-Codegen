@@ -78,8 +78,7 @@ constexpr float_t __get_rayDrawDistance() const;
 /// @brief Method Update addr 0x2602008 size 0x1a0 virtual false final false
  void Update() ;
 
-// Ctor Parameters []
-explicit OVRPointerVisualizer() ;
+static GlobalNamespace::OVRPointerVisualizer New_ctor() ;
 
 /// @brief Method .ctor addr 0x26021a8 size 0x10 virtual false final false
  void _ctor() ;

@@ -173,8 +173,7 @@ static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_IdIsisMttATLiabilityLi
 
 // Methods
 
-// Ctor Parameters []
-explicit IsisMttObjectIdentifiers() ;
+static Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers New_ctor() ;
 
 /// @brief Method .ctor addr 0xeed8bc size 0x8 virtual false final false
  void _ctor() ;

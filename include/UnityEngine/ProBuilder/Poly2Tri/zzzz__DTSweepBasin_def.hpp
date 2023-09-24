@@ -84,8 +84,7 @@ constexpr bool __get_leftHighest() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit DTSweepBasin() ;
+static UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin New_ctor() ;
 
 /// @brief Method .ctor addr 0x29a0a08 size 0x8 virtual false final false
  void _ctor() ;

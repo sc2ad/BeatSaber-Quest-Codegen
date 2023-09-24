@@ -3,11 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace Org::BouncyCastle::Bcpg {
-struct UserAttributeSubpacketTag;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct UserAttributeSubpacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -81,14 +81,12 @@ constexpr ::ArrayW<uint8_t> __get_data() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit UserAttributeSubpacket(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::UserAttributeSubpacket New_ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113b9d4 size 0x34 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t> data) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "forceLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit UserAttributeSubpacket(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t> data) ;
+static Org::BouncyCastle::Bcpg::UserAttributeSubpacket New_ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113ba08 size 0x40 virtual false final false
  void _ctor(Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t> data) ;

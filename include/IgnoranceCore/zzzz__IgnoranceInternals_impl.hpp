@@ -17,8 +17,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ignor
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- IgnoranceCore::IgnoranceInternals::IgnoranceInternals()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<IgnoranceInternals>())) {}
+ IgnoranceCore::IgnoranceInternals IgnoranceCore::IgnoranceInternals::New_ctor()  {
+IgnoranceCore::IgnoranceInternals o{THROW_UNLESS(::il2cpp_utils::New<IgnoranceCore::IgnoranceInternals>())};
+return o;
+}
  void IgnoranceCore::IgnoranceInternals::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<IgnoranceCore::IgnoranceInternals>::get(),

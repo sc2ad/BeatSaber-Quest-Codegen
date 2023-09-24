@@ -2,12 +2,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace IgnoranceCore {
-struct IgnoranceClientStats;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
+}
+namespace IgnoranceCore {
+struct IgnoranceClientStats;
 }
 // Forward declare root types
 namespace IgnoranceCore {

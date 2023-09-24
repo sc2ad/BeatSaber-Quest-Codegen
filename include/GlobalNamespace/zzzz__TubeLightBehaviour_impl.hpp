@@ -6,8 +6,9 @@
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr GlobalNamespace::GlobalNamespace__TubeLightBehaviour__ParameterType::GlobalNamespace__TubeLightBehaviour__ParameterType(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -148,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, playable);
 }
-// Ctor Parameters []
- GlobalNamespace::TubeLightBehaviour::TubeLightBehaviour()  : UnityEngine::Playables::PlayableBehaviour(THROW_UNLESS(::il2cpp_utils::New<TubeLightBehaviour>())) {}
+ GlobalNamespace::TubeLightBehaviour GlobalNamespace::TubeLightBehaviour::New_ctor()  {
+GlobalNamespace::TubeLightBehaviour o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::TubeLightBehaviour>())};
+return o;
+}
  void GlobalNamespace::TubeLightBehaviour::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::TubeLightBehaviour>::get(),

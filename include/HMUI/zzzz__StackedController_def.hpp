@@ -12,6 +12,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
 }
+namespace HMUI {
+class HMUI__StackedController____c__DisplayClass5_0;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -77,8 +80,7 @@ constexpr int32_t __get_numberOfViewControllersToPop() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit HMUI__StackedController____c__DisplayClass5_0() ;
+static HMUI::HMUI__StackedController____c__DisplayClass5_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb9428 size 0x8 virtual false final false
  void _ctor() ;
@@ -157,8 +159,7 @@ constexpr explicit StackedController(void* ptr) noexcept : HMUI::ContainerViewCo
 /// @brief Method SetupViewControllerRect addr 0x1fb9168 size 0x28 virtual false final false
 static void SetupViewControllerRect(HMUI::ViewController viewController, int32_t index) ;
 
-// Ctor Parameters []
-explicit StackedController() ;
+static HMUI::StackedController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fb94c4 size 0x8 virtual false final false
  void _ctor() ;

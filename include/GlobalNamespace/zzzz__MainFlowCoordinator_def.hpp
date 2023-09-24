@@ -3,108 +3,111 @@
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace GlobalNamespace {
-class MenuDestination;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class MenuDestination;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace GlobalNamespace {
-class MainMenuViewController;
-}
-namespace GlobalNamespace {
-class MenuTransitionsHelper;
-}
-namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
-}
-namespace GlobalNamespace {
-class LevelSelectionFlowCoordinator;
-}
-namespace HMUI {
-class FlowCoordinator;
-}
-namespace GlobalNamespace {
-class SoloFreePlayFlowCoordinator;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class MultiplayerModeSelectionFlowCoordinator;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class CampaignFlowCoordinator;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__MainMenuViewController__MenuButton;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class PlayerOptionsViewController;
-}
-namespace GlobalNamespace {
-class SettingsFlowCoordinator;
-}
-namespace GlobalNamespace {
-struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class PartyFreePlayFlowCoordinator;
-}
-namespace GlobalNamespace {
-class OptionsViewController;
-}
-namespace GlobalNamespace {
-class EditAvatarFlowCoordinator;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class HelpFlowCoordinator;
 }
 namespace GlobalNamespace {
-class AppStaticSettingsSO;
+class SimpleDialogPromptViewController;
+}
+namespace GlobalNamespace {
+class PartyFreePlayFlowCoordinator;
+}
+namespace GlobalNamespace {
+class MainMenuViewController;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class LevelSelectionFlowCoordinator;
 }
 namespace HMUI {
 struct HMUI__ViewController__AnimationType;
 }
 namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 struct GlobalNamespace__OptionsViewController__OptionsButton;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__SettingsFlowCoordinator__FinishAction;
+class MenuLightsPresetSO;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41;
+}
+namespace GlobalNamespace {
+class CampaignFlowCoordinator;
+}
+namespace GlobalNamespace {
+class SettingsFlowCoordinator;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__MainMenuViewController__MenuButton;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__EditAvatarFlowCoordinator__EditAvatarType;
 }
 namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class MultiplayerModeSelectionFlowCoordinator;
+}
+namespace GlobalNamespace {
+class EditAvatarFlowCoordinator;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
+class PlayerOptionsViewController;
+}
+namespace GlobalNamespace {
+class OptionsViewController;
+}
+namespace HMUI {
+class FlowCoordinator;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__HowToPlayViewController__HowToPlayOptions;
+}
+namespace GlobalNamespace {
+class SoloFreePlayFlowCoordinator;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SettingsFlowCoordinator__FinishAction;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -198,8 +201,7 @@ constexpr GlobalNamespace::MenuDestination __get_destination() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41(int32_t __1__state) ;
+static GlobalNamespace::GlobalNamespace__MainFlowCoordinator___ProcessMenuDestinationRequestAfterFrameCoroutine_d__41 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x21368f0 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -465,8 +467,7 @@ static bool __get__startWithSettings() ;
 /// @brief Method BackButtonWasPressed addr 0x2136918 size 0x9c virtual true final false
  void BackButtonWasPressed(HMUI::ViewController topViewController) ;
 
-// Ctor Parameters []
-explicit MainFlowCoordinator() ;
+static GlobalNamespace::MainFlowCoordinator New_ctor() ;
 
 /// @brief Method .ctor addr 0x21369b4 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,16 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
+namespace GlobalNamespace {
+class MissionNode;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
-namespace GlobalNamespace {
-class MissionNode;
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,8 +77,7 @@ static bool FinalNodeIsFinal(GlobalNamespace::MissionNode finalNode, GlobalNames
 /// @brief Method FinalNodeIsFinal addr 0x2149da8 size 0x11c virtual false final false
 static bool FinalNodeIsFinal(GlobalNamespace::MissionNode finalNode, GlobalNamespace::MissionNode node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode> visitedNodes) ;
 
-// Ctor Parameters []
-explicit MissionNodesHelper() ;
+static GlobalNamespace::MissionNodesHelper New_ctor() ;
 
 /// @brief Method .ctor addr 0x2149ec4 size 0x8 virtual false final false
  void _ctor() ;

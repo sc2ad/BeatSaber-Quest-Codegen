@@ -7,22 +7,22 @@ namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace HMUI {
 class HoverHintController;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -130,8 +130,7 @@ constexpr ::ArrayW<UnityEngine::Vector3> __get__worldCornersTemp() const;
 /// @brief Method OnDisable addr 0x1fa9be0 size 0x80 virtual false final false
  void OnDisable() ;
 
-// Ctor Parameters []
-explicit HoverHint() ;
+static HMUI::HoverHint New_ctor() ;
 
 /// @brief Method .ctor addr 0x1fa9c60 size 0x58 virtual false final false
  void _ctor() ;

@@ -4,14 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
-namespace GlobalNamespace {
-class Saber;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 class SaberManager;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class Saber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -107,8 +107,7 @@ constexpr int32_t __get__prevGetFrameNum() const;
 /// @brief Method SegmentToSegmentDist addr 0x210be60 size 0x268 virtual false final false
  float_t SegmentToSegmentDist(UnityEngine::Vector3 fromA, UnityEngine::Vector3 toA, UnityEngine::Vector3 fromB, UnityEngine::Vector3 toB, ByRef<UnityEngine::Vector3> inbetweenPoint) ;
 
-// Ctor Parameters []
-explicit SaberClashChecker() ;
+static GlobalNamespace::SaberClashChecker New_ctor() ;
 
 /// @brief Method .ctor addr 0x210c0c8 size 0x10 virtual false final false
  void _ctor() ;

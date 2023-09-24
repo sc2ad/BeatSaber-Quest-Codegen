@@ -2,19 +2,20 @@
 #include "System/zzzz__Enum_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__DateTimeParse_def.hpp"
-#include "System/zzzz__TimeSpan_def.hpp"
-#include "System/Globalization/zzzz__Calendar_def.hpp"
-#include "System/zzzz__ParsingInfo_def.hpp"
-#include "System/zzzz____DTString_def.hpp"
 #include "System/zzzz__DateTimeResult_def.hpp"
-#include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__DateTime_def.hpp"
-#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
-#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
-#include "System/zzzz__DateTimeToken_def.hpp"
-#include "System/zzzz__DateTimeRawInfo_def.hpp"
+#include "System/zzzz__DateTimeParse_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
+#include "System/zzzz__ParsingInfo_def.hpp"
+#include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__DateTimeToken_def.hpp"
+#include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/Globalization/zzzz__Calendar_def.hpp"
+#include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__DateTimeRawInfo_def.hpp"
+#include "System/zzzz__TimeSpan_def.hpp"
+#include "System/zzzz____DTString_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: System::System__DateTimeParse__MatchNumberDelegate._ctor
 template<>
@@ -50,8 +51,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- System::System__DateTimeParse__MatchNumberDelegate::System__DateTimeParse__MatchNumberDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<System__DateTimeParse__MatchNumberDelegate>(object, method))) {}
+ System::System__DateTimeParse__MatchNumberDelegate System::System__DateTimeParse__MatchNumberDelegate::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+System::System__DateTimeParse__MatchNumberDelegate o{THROW_UNLESS(::il2cpp_utils::New<System::System__DateTimeParse__MatchNumberDelegate>(object, method))};
+return o;
+}
  void System::System__DateTimeParse__MatchNumberDelegate::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DateTimeParse__MatchNumberDelegate>::get(),
@@ -206,8 +209,10 @@ return ::cordl_internals::getStaticField<System::System__DateTimeParse____c, "<>
  System::Func_1<System::System__DateTimeParse__MatchNumberDelegate> System::System__DateTimeParse____c::__get___9__98_0()  {
 return ::cordl_internals::getStaticField<System::Func_1<System::System__DateTimeParse__MatchNumberDelegate>, "<>9__98_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DateTimeParse____c>::get>();
 }
-// Ctor Parameters []
- System::System__DateTimeParse____c::System__DateTimeParse____c()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__DateTimeParse____c>())) {}
+ System::System__DateTimeParse____c System::System__DateTimeParse____c::New_ctor()  {
+System::System__DateTimeParse____c o{THROW_UNLESS(::il2cpp_utils::New<System::System__DateTimeParse____c>())};
+return o;
+}
  void System::System__DateTimeParse____c::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::System__DateTimeParse____c>::get(),

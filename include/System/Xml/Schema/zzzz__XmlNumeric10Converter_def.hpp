@@ -7,17 +7,17 @@
 namespace System {
 struct Decimal;
 }
-namespace System::Xml {
-class IXmlNamespaceResolver;
+namespace System {
+class Type;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
+namespace System::Xml {
+class IXmlNamespaceResolver;
+}
 namespace System::Xml::Schema {
 class XmlValueConverter;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -65,8 +65,7 @@ constexpr explicit XmlNumeric10Converter(void* ptr) noexcept : System::Xml::Sche
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "schemaType", ty: "System::Xml::Schema::XmlSchemaType", modifiers: "", def_value: None }]
-explicit XmlNumeric10Converter(System::Xml::Schema::XmlSchemaType schemaType) ;
+static System::Xml::Schema::XmlNumeric10Converter New_ctor(System::Xml::Schema::XmlSchemaType schemaType) ;
 
 /// @brief Method .ctor addr 0x273b8d8 size 0x64 virtual false final false
  void _ctor(System::Xml::Schema::XmlSchemaType schemaType) ;

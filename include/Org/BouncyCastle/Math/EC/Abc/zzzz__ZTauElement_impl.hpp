@@ -30,8 +30,10 @@ constexpr void Org::BouncyCastle::Math::EC::Abc::ZTauElement::__set_v(Org::Bounc
 constexpr Org::BouncyCastle::Math::BigInteger Org::BouncyCastle::Math::EC::Abc::ZTauElement::__get_v() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Math::BigInteger, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "u", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }, CppParam { name: "v", ty: "Org::BouncyCastle::Math::BigInteger", modifiers: "", def_value: None }]
- Org::BouncyCastle::Math::EC::Abc::ZTauElement::ZTauElement(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ZTauElement>(u, v))) {}
+ Org::BouncyCastle::Math::EC::Abc::ZTauElement Org::BouncyCastle::Math::EC::Abc::ZTauElement::New_ctor(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v)  {
+Org::BouncyCastle::Math::EC::Abc::ZTauElement o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Math::EC::Abc::ZTauElement>(u, v))};
+return o;
+}
  void Org::BouncyCastle::Math::EC::Abc::ZTauElement::_ctor(Org::BouncyCastle::Math::BigInteger u, Org::BouncyCastle::Math::BigInteger v)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Math::EC::Abc::ZTauElement>::get(),

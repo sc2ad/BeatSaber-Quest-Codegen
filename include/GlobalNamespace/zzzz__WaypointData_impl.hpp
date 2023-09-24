@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapObjectData_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointData_def.hpp"
-#include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
+#include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
 //  Writing Method size for method: GlobalNamespace::WaypointData.get_offsetDirection
 template<>
 
@@ -255,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<GlobalNamespace::BeatmapDataItem, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lineLayer", ty: "GlobalNamespace::NoteLineLayer", modifiers: "", def_value: None }, CppParam { name: "offsetDirection", ty: "GlobalNamespace::OffsetDirection", modifiers: "", def_value: None }]
- GlobalNamespace::WaypointData::WaypointData(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection)  : GlobalNamespace::BeatmapObjectData(THROW_UNLESS(::il2cpp_utils::New<WaypointData>(time, lineIndex, lineLayer, offsetDirection))) {}
+ GlobalNamespace::WaypointData GlobalNamespace::WaypointData::New_ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection)  {
+GlobalNamespace::WaypointData o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::WaypointData>(time, lineIndex, lineLayer, offsetDirection))};
+return o;
+}
  void GlobalNamespace::WaypointData::_ctor(float_t time, int32_t lineIndex, GlobalNamespace::NoteLineLayer lineLayer, GlobalNamespace::OffsetDirection offsetDirection)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::WaypointData>::get(),

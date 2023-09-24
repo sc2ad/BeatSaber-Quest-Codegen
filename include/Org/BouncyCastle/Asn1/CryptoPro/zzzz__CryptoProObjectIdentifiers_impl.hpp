@@ -156,8 +156,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdent
  Org::BouncyCastle::Asn1::DerObjectIdentifier Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers::__get_GostElSgDH3410x1()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::DerObjectIdentifier, "GostElSgDH3410x1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers::CryptoProObjectIdentifiers()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<CryptoProObjectIdentifiers>())) {}
+ Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers::New_ctor()  {
+Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers>())};
+return o;
+}
  void Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::CryptoPro::CryptoProObjectIdentifiers>::get(),

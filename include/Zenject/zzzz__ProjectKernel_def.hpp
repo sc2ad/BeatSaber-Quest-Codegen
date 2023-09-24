@@ -5,19 +5,16 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Zenject {
-class ZenjectSettings;
-}
-namespace Zenject {
 class SceneContextRegistry;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
+class Zenject__ProjectKernel____c__DisplayClass4_0;
 }
 namespace Zenject {
-class SceneContext;
+class ZenjectSettings;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -26,6 +23,12 @@ class Func_2;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace Zenject {
+class SceneContext;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 // Forward declare root types
 namespace Zenject {
@@ -91,8 +94,7 @@ constexpr System::Func_2<Zenject::SceneContext,int32_t> __get___9__0() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit Zenject__ProjectKernel____c__DisplayClass4_0() ;
+static Zenject::Zenject__ProjectKernel____c__DisplayClass4_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9ced0 size 0x8 virtual false final false
  void _ctor() ;
@@ -178,8 +180,7 @@ constexpr Zenject::SceneContextRegistry __get__contextRegistry() const;
 /// @brief Method ForceUnloadAllScenes addr 0x2d9cae8 size 0x3e8 virtual false final false
  void ForceUnloadAllScenes(bool immediate) ;
 
-// Ctor Parameters []
-explicit ProjectKernel() ;
+static Zenject::ProjectKernel New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d9cf28 size 0x8 virtual false final false
  void _ctor() ;

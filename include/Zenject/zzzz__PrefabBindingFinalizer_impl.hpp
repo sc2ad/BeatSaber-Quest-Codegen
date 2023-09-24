@@ -2,14 +2,15 @@
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__PrefabBindingFinalizer_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__PrefabBindingFinalizer_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__PrefabInstantiatorCached_def.hpp"
 //  Writing Method size for method: Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0._ctor
@@ -98,8 +99,10 @@ constexpr void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0::_
 constexpr System::Collections::Generic::List_1<System::Type> Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0::__get_concreteTypes() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::List_1<System::Type>, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__PrefabBindingFinalizer____c__DisplayClass5_0>())) {}
+ Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0 Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0::New_ctor()  {
+Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0>())};
+return o;
+}
  void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0>::get(),
@@ -216,8 +219,10 @@ constexpr void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1::_
 constexpr Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0 Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__PrefabBindingFinalizer____c__DisplayClass5_1>())) {}
+ Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1 Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1::New_ctor()  {
+Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1>())};
+return o;
+}
  void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass5_1>::get(),
@@ -334,8 +339,10 @@ constexpr void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0::_
 constexpr Zenject::DiContainer Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0::__get_container() const {
 return ::cordl_internals::getInstanceField<Zenject::DiContainer, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__PrefabBindingFinalizer____c__DisplayClass6_0>())) {}
+ Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0 Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0::New_ctor()  {
+Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0>())};
+return o;
+}
  void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0>::get(),
@@ -452,8 +459,10 @@ constexpr void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1::_
 constexpr Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0 Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1::__get_CS$__8__locals1() const {
 return ::cordl_internals::getInstanceField<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_0, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Zenject__PrefabBindingFinalizer____c__DisplayClass6_1>())) {}
+ Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1 Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1::New_ctor()  {
+Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1 o{THROW_UNLESS(::il2cpp_utils::New<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1>())};
+return o;
+}
  void Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::Zenject__PrefabBindingFinalizer____c__DisplayClass6_1>::get(),
@@ -576,8 +585,10 @@ constexpr void Zenject::PrefabBindingFinalizer::__set__providerFactory(System::F
 constexpr System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> Zenject::PrefabBindingFinalizer::__get__providerFactory() const {
 return ::cordl_internals::getInstanceField<System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider>, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "prefab", ty: "UnityEngine::Object", modifiers: "", def_value: None }, CppParam { name: "providerFactory", ty: "System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider>", modifiers: "", def_value: None }]
- Zenject::PrefabBindingFinalizer::PrefabBindingFinalizer(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectBindInfo, UnityEngine::Object prefab, System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> providerFactory)  : Zenject::ProviderBindingFinalizer(THROW_UNLESS(::il2cpp_utils::New<PrefabBindingFinalizer>(bindInfo, gameObjectBindInfo, prefab, providerFactory))) {}
+ Zenject::PrefabBindingFinalizer Zenject::PrefabBindingFinalizer::New_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectBindInfo, UnityEngine::Object prefab, System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> providerFactory)  {
+Zenject::PrefabBindingFinalizer o{THROW_UNLESS(::il2cpp_utils::New<Zenject::PrefabBindingFinalizer>(bindInfo, gameObjectBindInfo, prefab, providerFactory))};
+return o;
+}
  void Zenject::PrefabBindingFinalizer::_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectBindInfo, UnityEngine::Object prefab, System::Func_3<System::Type,Zenject::IPrefabInstantiator,Zenject::IProvider> providerFactory)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::PrefabBindingFinalizer>::get(),

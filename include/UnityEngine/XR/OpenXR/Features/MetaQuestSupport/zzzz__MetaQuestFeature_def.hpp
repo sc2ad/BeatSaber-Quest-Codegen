@@ -3,6 +3,9 @@
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
+namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
+struct UnityEngine__XR__OpenXR__Features__MetaQuestSupport__MetaQuestFeature__TargetDevice;
+}
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::MetaQuestSupport {
 class MetaQuestFeature;
@@ -131,8 +134,7 @@ static constexpr ::ConstString  featureId{u"com.unity.openxr.feature.metaquest"}
 
 // Methods
 
-// Ctor Parameters []
-explicit MetaQuestFeature() ;
+static UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature New_ctor() ;
 
 /// @brief Method .ctor addr 0x2b04fac size 0x8 virtual false final false
  void _ctor() ;

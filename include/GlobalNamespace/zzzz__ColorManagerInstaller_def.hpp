@@ -62,8 +62,7 @@ constexpr GlobalNamespace::ColorSchemeSO __get__menuColorScheme() const;
 /// @brief Method InstallBindings addr 0x2117720 size 0xb8 virtual true final false
  void InstallBindings() ;
 
-// Ctor Parameters []
-explicit ColorManagerInstaller() ;
+static GlobalNamespace::ColorManagerInstaller New_ctor() ;
 
 /// @brief Method .ctor addr 0x21177d8 size 0x8 virtual false final false
  void _ctor() ;

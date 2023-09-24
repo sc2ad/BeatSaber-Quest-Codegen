@@ -82,14 +82,12 @@ constexpr UnityEngine::Yoga::Logger __get__logger() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "ygConfig", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit YogaConfig(::cordl_internals::intptr_t ygConfig) ;
+static UnityEngine::Yoga::YogaConfig New_ctor(::cordl_internals::intptr_t ygConfig) ;
 
 /// @brief Method .ctor addr 0x2d2dc18 size 0xc4 virtual false final false
  void _ctor(::cordl_internals::intptr_t ygConfig) ;
 
-// Ctor Parameters []
-explicit YogaConfig() ;
+static UnityEngine::Yoga::YogaConfig New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d2dcdc size 0x44 virtual false final false
  void _ctor() ;

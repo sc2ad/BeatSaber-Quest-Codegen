@@ -83,8 +83,7 @@ static System::Xml::Linq::XObjectChangeEventArgs __get_Value() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "objectChange", ty: "System::Xml::Linq::XObjectChange", modifiers: "", def_value: None }]
-explicit XObjectChangeEventArgs(System::Xml::Linq::XObjectChange objectChange) ;
+static System::Xml::Linq::XObjectChangeEventArgs New_ctor(System::Xml::Linq::XObjectChange objectChange) ;
 
 /// @brief Method .ctor addr 0x26cea10 size 0x6c virtual false final false
  void _ctor(System::Xml::Linq::XObjectChange objectChange) ;

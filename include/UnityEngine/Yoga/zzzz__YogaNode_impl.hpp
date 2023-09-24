@@ -1,25 +1,25 @@
 #pragma once
 #include "UnityEngine/Yoga/zzzz__YogaNode_def.hpp"
-#include "UnityEngine/Yoga/zzzz__MeasureFunction_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaOverflow_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaWrap_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/Yoga/zzzz__BaselineFunction_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaValue_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaAlign_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaEdge_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaConfig_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaOverflow_def.hpp"
+#include "UnityEngine/Yoga/zzzz__BaselineFunction_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
+#include "System/zzzz__WeakReference_def.hpp"
+#include "UnityEngine/Yoga/zzzz__MeasureFunction_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaJustify_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaFlexDirection_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaPositionType_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaValue_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaWrap_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaEdge_def.hpp"
+#include "UnityEngine/Yoga/zzzz__YogaDisplay_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaConfig_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaDisplay_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaPositionType_def.hpp"
-#include "System/zzzz__WeakReference_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaFlexDirection_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaJustify_def.hpp"
-#include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
 //  Writing Method size for method: UnityEngine::Yoga::YogaNode.set_Left
 template<>
 
@@ -1641,8 +1641,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "config", ty: "UnityEngine::Yoga::YogaConfig", modifiers: "", def_value: Some("csnull") }]
- UnityEngine::Yoga::YogaNode::YogaNode(UnityEngine::Yoga::YogaConfig config)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<YogaNode>(config))) {}
+/// @param config: UnityEngine::Yoga::YogaConfig (default: csnull)
+ UnityEngine::Yoga::YogaNode UnityEngine::Yoga::YogaNode::New_ctor(UnityEngine::Yoga::YogaConfig config)  {
+UnityEngine::Yoga::YogaNode o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Yoga::YogaNode>(config))};
+return o;
+}
 /// @param config: UnityEngine::Yoga::YogaConfig (default: csnull)
  void UnityEngine::Yoga::YogaNode::_ctor(UnityEngine::Yoga::YogaConfig config)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

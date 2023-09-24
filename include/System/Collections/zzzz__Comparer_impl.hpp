@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Collections/zzzz__Comparer_def.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/Globalization/zzzz__CompareInfo_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
 //  Writing Method size for method: System::Collections::Comparer._ctor
 template<>
 
@@ -100,8 +100,10 @@ return ::cordl_internals::getStaticField<System::Collections::Comparer, "Default
  System::Collections::Comparer System::Collections::Comparer::__get_DefaultInvariant()  {
 return ::cordl_internals::getStaticField<System::Collections::Comparer, "DefaultInvariant", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Comparer>::get>();
 }
-// Ctor Parameters [CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
- System::Collections::Comparer::Comparer(System::Globalization::CultureInfo culture)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Comparer>(culture))) {}
+ System::Collections::Comparer System::Collections::Comparer::New_ctor(System::Globalization::CultureInfo culture)  {
+System::Collections::Comparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Comparer>(culture))};
+return o;
+}
  void System::Collections::Comparer::_ctor(System::Globalization::CultureInfo culture)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Comparer>::get(),
@@ -111,8 +113,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, culture);
 }
-// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
- System::Collections::Comparer::Comparer(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Comparer>(info, context))) {}
+ System::Collections::Comparer System::Collections::Comparer::New_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
+System::Collections::Comparer o{THROW_UNLESS(::il2cpp_utils::New<System::Collections::Comparer>(info, context))};
+return o;
+}
  void System::Collections::Comparer::_ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Collections::Comparer>::get(),

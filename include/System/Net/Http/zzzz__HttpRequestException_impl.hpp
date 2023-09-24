@@ -53,8 +53,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     return ___internal_method;
   }
 };
-// Ctor Parameters []
- System::Net::Http::HttpRequestException::HttpRequestException()  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<HttpRequestException>())) {}
+ System::Net::Http::HttpRequestException System::Net::Http::HttpRequestException::New_ctor()  {
+System::Net::Http::HttpRequestException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpRequestException>())};
+return o;
+}
  void System::Net::Http::HttpRequestException::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpRequestException>::get(),
@@ -64,8 +66,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }]
- System::Net::Http::HttpRequestException::HttpRequestException(::StringW message)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<HttpRequestException>(message))) {}
+ System::Net::Http::HttpRequestException System::Net::Http::HttpRequestException::New_ctor(::StringW message)  {
+System::Net::Http::HttpRequestException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpRequestException>(message))};
+return o;
+}
  void System::Net::Http::HttpRequestException::_ctor(::StringW message)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpRequestException>::get(),
@@ -75,8 +79,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, message);
 }
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "inner", ty: "System::Exception", modifiers: "", def_value: None }]
- System::Net::Http::HttpRequestException::HttpRequestException(::StringW message, System::Exception inner)  : System::Exception(THROW_UNLESS(::il2cpp_utils::New<HttpRequestException>(message, inner))) {}
+ System::Net::Http::HttpRequestException System::Net::Http::HttpRequestException::New_ctor(::StringW message, System::Exception inner)  {
+System::Net::Http::HttpRequestException o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Http::HttpRequestException>(message, inner))};
+return o;
+}
  void System::Net::Http::HttpRequestException::_ctor(::StringW message, System::Exception inner)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Http::HttpRequestException>::get(),

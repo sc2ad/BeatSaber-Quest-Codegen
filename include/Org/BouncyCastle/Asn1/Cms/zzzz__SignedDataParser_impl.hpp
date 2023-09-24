@@ -1,9 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignedDataParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
+#include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Asn1::Cms::SignedDataParser.GetInstance
 template<>
 
@@ -179,8 +179,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<Org::BouncyCastle::Asn1::Cms::SignedDataParser, false>(nullptr, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1SequenceParser", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::Cms::SignedDataParser::SignedDataParser(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SignedDataParser>(seq))) {}
+ Org::BouncyCastle::Asn1::Cms::SignedDataParser Org::BouncyCastle::Asn1::Cms::SignedDataParser::New_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  {
+Org::BouncyCastle::Asn1::Cms::SignedDataParser o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::Cms::SignedDataParser>(seq))};
+return o;
+}
  void Org::BouncyCastle::Asn1::Cms::SignedDataParser::_ctor(Org::BouncyCastle::Asn1::Asn1SequenceParser seq)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::Cms::SignedDataParser>::get(),

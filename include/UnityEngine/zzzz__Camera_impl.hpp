@@ -4,22 +4,23 @@
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__DepthTextureMode_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "UnityEngine/zzzz__CameraClearFlags_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Ray_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__RenderingPath_def.hpp"
-#include "UnityEngine/zzzz__StereoTargetEyeMask_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__Ray_def.hpp"
+#include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+#include "UnityEngine/zzzz__DepthTextureMode_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
+#include "UnityEngine/zzzz__StereoTargetEyeMask_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Texture_def.hpp"
+#include "UnityEngine/zzzz__CameraClearFlags_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr UnityEngine::UnityEngine__Camera__StereoscopicEye::UnityEngine__Camera__StereoscopicEye(int32_t value__) noexcept : ::bs_hook::EnumTypeWrapper() {this->value__ = value__;
 }
@@ -142,8 +143,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
- UnityEngine::UnityEngine__Camera__CameraCallback::UnityEngine__Camera__CameraCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  : System::MulticastDelegate(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__Camera__CameraCallback>(object, method))) {}
+ UnityEngine::UnityEngine__Camera__CameraCallback UnityEngine::UnityEngine__Camera__CameraCallback::New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
+UnityEngine::UnityEngine__Camera__CameraCallback o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UnityEngine__Camera__CameraCallback>(object, method))};
+return o;
+}
  void UnityEngine::UnityEngine__Camera__CameraCallback::_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UnityEngine__Camera__CameraCallback>::get(),
@@ -1693,8 +1696,10 @@ return ::cordl_internals::getStaticField<UnityEngine::UnityEngine__Camera__Camer
  UnityEngine::UnityEngine__Camera__CameraCallback UnityEngine::Camera::__get_onPostRender()  {
 return ::cordl_internals::getStaticField<UnityEngine::UnityEngine__Camera__CameraCallback, "onPostRender", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Camera>::get>();
 }
-// Ctor Parameters []
- UnityEngine::Camera::Camera()  : UnityEngine::Behaviour(THROW_UNLESS(::il2cpp_utils::New<Camera>())) {}
+ UnityEngine::Camera UnityEngine::Camera::New_ctor()  {
+UnityEngine::Camera o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::Camera>())};
+return o;
+}
  void UnityEngine::Camera::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::Camera>::get(),

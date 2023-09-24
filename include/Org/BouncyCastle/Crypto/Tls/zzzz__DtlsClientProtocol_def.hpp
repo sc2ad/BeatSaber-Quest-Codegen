@@ -5,55 +5,58 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Crypto::Tls {
-class ProtocolVersion;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DatagramTransport;
+class Org__BouncyCastle__Crypto__Tls__DtlsClientProtocol__ClientHandshakeState;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class ProtocolVersion;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClient;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsTransport;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class DigitallySigned;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClient;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsTransport;
+class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
+class SessionParameters;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class Org__BouncyCastle__Crypto__Tls__SessionParameters__Builder;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContextImpl;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
+class CertificateRequest;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+class TlsClientContextImpl;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class CertificateStatus;
@@ -218,8 +221,7 @@ constexpr Org::BouncyCastle::Crypto::Tls::TlsCredentials __get_clientCredentials
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Crypto__Tls__DtlsClientProtocol__ClientHandshakeState() ;
+static Org::BouncyCastle::Crypto::Tls::Org__BouncyCastle__Crypto__Tls__DtlsClientProtocol__ClientHandshakeState New_ctor() ;
 
 /// @brief Method .ctor addr 0xeda434 size 0x20 virtual false final false
  void _ctor() ;
@@ -272,8 +274,7 @@ constexpr explicit DtlsClientProtocol(void* ptr) noexcept : Org::BouncyCastle::C
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }]
-explicit DtlsClientProtocol(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
+static Org::BouncyCastle::Crypto::Tls::DtlsClientProtocol New_ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;
 
 /// @brief Method .ctor addr 0xed9d30 size 0x4 virtual false final false
  void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom) ;

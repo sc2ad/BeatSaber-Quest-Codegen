@@ -1,10 +1,11 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__OffsetModifier_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__OffsetModifier_def.hpp"
 #include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedEffector_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -169,8 +170,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<float_t, false>(const_cast<void*>(instance), ___internal_method, value, limit, negative);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits::RootMotion__FinalIK__OffsetModifier__OffsetLimits()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__OffsetModifier__OffsetLimits>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier__OffsetLimits>::get(),
@@ -312,8 +315,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initia
 constexpr RootMotion::FinalIK::OffsetModifier RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8::__get___4__this() const {
 return ::cordl_internals::getInstanceField<RootMotion::FinalIK::OffsetModifier, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8::RootMotion__FinalIK__OffsetModifier___Initiate_d__8(int32_t __1__state)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__OffsetModifier___Initiate_d__8>(__1__state))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8 RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8::New_ctor(int32_t __1__state)  {
+RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8 o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8>(__1__state))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8::_ctor(int32_t __1__state)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__OffsetModifier___Initiate_d__8>::get(),
@@ -585,8 +590,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::OffsetModifier::OffsetModifier()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<OffsetModifier>())) {}
+ RootMotion::FinalIK::OffsetModifier RootMotion::FinalIK::OffsetModifier::New_ctor()  {
+RootMotion::FinalIK::OffsetModifier o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::OffsetModifier>())};
+return o;
+}
  void RootMotion::FinalIK::OffsetModifier::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::OffsetModifier>::get(),

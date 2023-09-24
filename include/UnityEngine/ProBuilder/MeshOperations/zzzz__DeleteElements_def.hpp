@@ -3,8 +3,18 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__DeleteElements____c;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__DeleteElements____c__DisplayClass2_0;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IList_1;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class UnityEngine__ProBuilder__MeshOperations__DeleteElements____c__DisplayClass0_0;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -13,9 +23,8 @@ class IEnumerable_1;
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IList_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -99,8 +108,7 @@ constexpr ::ArrayW<int32_t> __get_offset() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__DeleteElements____c__DisplayClass0_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__DeleteElements____c__DisplayClass0_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a13058 size 0x8 virtual false final false
  void _ctor() ;
@@ -172,8 +180,7 @@ constexpr UnityEngine::ProBuilder::ProBuilderMesh __get_mesh() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__DeleteElements____c__DisplayClass2_0() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__DeleteElements____c__DisplayClass2_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a13060 size 0x8 virtual false final false
  void _ctor() ;
@@ -242,8 +249,7 @@ static System::Func_2<UnityEngine::ProBuilder::Face,System::Collections::Generic
 
 // Methods
 
-// Ctor Parameters []
-explicit UnityEngine__ProBuilder__MeshOperations__DeleteElements____c() ;
+static UnityEngine::ProBuilder::MeshOperations::UnityEngine__ProBuilder__MeshOperations__DeleteElements____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a13a8c size 0x8 virtual false final false
  void _ctor() ;

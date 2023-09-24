@@ -30,8 +30,10 @@ return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X509::PolicyQu
  Org::BouncyCastle::Asn1::X509::PolicyQualifierID Org::BouncyCastle::Asn1::X509::PolicyQualifierID::__get_IdQtUnotice()  {
 return ::cordl_internals::getStaticField<Org::BouncyCastle::Asn1::X509::PolicyQualifierID, "IdQtUnotice", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::PolicyQualifierID>::get>();
 }
-// Ctor Parameters [CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }]
- Org::BouncyCastle::Asn1::X509::PolicyQualifierID::PolicyQualifierID(::StringW id)  : Org::BouncyCastle::Asn1::DerObjectIdentifier(THROW_UNLESS(::il2cpp_utils::New<PolicyQualifierID>(id))) {}
+ Org::BouncyCastle::Asn1::X509::PolicyQualifierID Org::BouncyCastle::Asn1::X509::PolicyQualifierID::New_ctor(::StringW id)  {
+Org::BouncyCastle::Asn1::X509::PolicyQualifierID o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Asn1::X509::PolicyQualifierID>(id))};
+return o;
+}
  void Org::BouncyCastle::Asn1::X509::PolicyQualifierID::_ctor(::StringW id)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Asn1::X509::PolicyQualifierID>::get(),

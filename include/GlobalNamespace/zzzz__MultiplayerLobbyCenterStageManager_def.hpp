@@ -102,8 +102,7 @@ constexpr float_t __get__minOuterCircleRadius() const;
 /// @brief Method RecalculateCenterPosition addr 0x214c20c size 0xf8 virtual false final false
  void RecalculateCenterPosition() ;
 
-// Ctor Parameters []
-explicit MultiplayerLobbyCenterStageManager() ;
+static GlobalNamespace::MultiplayerLobbyCenterStageManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x214c328 size 0x14 virtual false final false
  void _ctor() ;

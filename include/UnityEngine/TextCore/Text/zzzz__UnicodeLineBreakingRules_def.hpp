@@ -2,12 +2,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace UnityEngine {
-class TextAsset;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class HashSet_1;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -119,8 +119,7 @@ static void LoadLineBreakingRules() ;
 /// @brief Method GetCharacters addr 0x2bd479c size 0xe8 virtual false final false
 static System::Collections::Generic::HashSet_1<uint32_t> GetCharacters(UnityEngine::TextAsset file) ;
 
-// Ctor Parameters []
-explicit UnicodeLineBreakingRules() ;
+static UnityEngine::TextCore::Text::UnicodeLineBreakingRules New_ctor() ;
 
 /// @brief Method .ctor addr 0x2bd4884 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,8 +1,8 @@
 #pragma once
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableRendererWithLightId_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: GlobalNamespace::EnableRendererWithLightId.ColorWasSet
 template<>
 
@@ -64,8 +64,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, color);
 }
-// Ctor Parameters []
- GlobalNamespace::EnableRendererWithLightId::EnableRendererWithLightId()  : GlobalNamespace::LightWithIdMonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<EnableRendererWithLightId>())) {}
+ GlobalNamespace::EnableRendererWithLightId GlobalNamespace::EnableRendererWithLightId::New_ctor()  {
+GlobalNamespace::EnableRendererWithLightId o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::EnableRendererWithLightId>())};
+return o;
+}
  void GlobalNamespace::EnableRendererWithLightId::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::EnableRendererWithLightId>::get(),

@@ -69,8 +69,10 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParame
 constexpr Org::BouncyCastle::Crypto::Parameters::KeyParameter Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::__get_key() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::Parameters::KeyParameter, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "key", ty: "Org::BouncyCastle::Crypto::Parameters::KeyParameter", modifiers: "", def_value: None }, CppParam { name: "tweak", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::TweakableBlockCipherParameters(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, ::ArrayW<uint8_t> tweak)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TweakableBlockCipherParameters>(key, tweak))) {}
+ Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::New_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, ::ArrayW<uint8_t> tweak)  {
+Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters>(key, tweak))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::_ctor(Org::BouncyCastle::Crypto::Parameters::KeyParameter key, ::ArrayW<uint8_t> tweak)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters>::get(),

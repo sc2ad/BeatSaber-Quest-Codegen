@@ -4,26 +4,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
-class Task_1;
+class TaskCompletionSource_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Threading {
-class SemaphoreSlim;
-}
-namespace System::Threading::Tasks {
-template<typename TResult>
-class TaskCompletionSource_1;
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__OpenProductStoreResult;
@@ -32,13 +21,39 @@ namespace GlobalNamespace {
 class SteamLevelProductsModelSO;
 }
 namespace GlobalNamespace {
-struct GlobalNamespace__AdditionalContentModel__IsPackBetterBuyThanLevelResult;
+struct GlobalNamespace__SteamPlatformAdditionalContentModel___DataIsValidAsync_d__8;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__10;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__7;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SteamPlatformAdditionalContentModel___CheckForNewEntitlementsAsync_d__14;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__AdditionalContentModel__UpdateEntitlementsResult;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__6;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace GlobalNamespace {
+struct GlobalNamespace__SteamPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__9;
 }
 namespace GlobalNamespace {
 struct GlobalNamespace__AdditionalContentModel__EntitlementStatus;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -47,6 +62,9 @@ struct TaskAwaiter_1;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
@@ -736,8 +754,7 @@ constexpr bool __get__isDataValid() const;
 /// @brief Method HasLevelPackEntitlement addr 0x20cb828 size 0xcc virtual false final false
  bool HasLevelPackEntitlement(::StringW levelPackId) ;
 
-// Ctor Parameters []
-explicit SteamPlatformAdditionalContentModel() ;
+static GlobalNamespace::SteamPlatformAdditionalContentModel New_ctor() ;
 
 /// @brief Method .ctor addr 0x20cb8f4 size 0xb4 virtual false final false
  void _ctor() ;

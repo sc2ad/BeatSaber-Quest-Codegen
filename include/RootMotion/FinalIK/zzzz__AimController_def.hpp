@@ -4,24 +4,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
+namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__AimController___TurnToTarget_d__33;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace RootMotion::FinalIK {
-class AimIK;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerator_1;
+namespace RootMotion::FinalIK {
+class AimIK;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerator_1;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -109,8 +112,7 @@ constexpr RootMotion::FinalIK::AimController __get___4__this() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit RootMotion__FinalIK__AimController___TurnToTarget_d__33(int32_t __1__state) ;
+static RootMotion::FinalIK::RootMotion__FinalIK__AimController___TurnToTarget_d__33 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1206a44 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -366,8 +368,7 @@ constexpr float_t __get_turnToTargetMlpV() const;
 /// @brief Method TurnToTarget addr 0x12069dc size 0x68 virtual false final false
  System::Collections::IEnumerator TurnToTarget() ;
 
-// Ctor Parameters []
-explicit AimController() ;
+static RootMotion::FinalIK::AimController New_ctor() ;
 
 /// @brief Method .ctor addr 0x1206a6c size 0xe4 virtual false final false
  void _ctor() ;

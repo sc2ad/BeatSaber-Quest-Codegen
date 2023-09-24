@@ -3,14 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct UnityEngine__InputSystem__LowLevel__QueryPairedUserAccountCommand__Result;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -76,6 +85,8 @@ __UserAccountSelectionCanceled = 16,
 constexpr operator __UnityEngine__InputSystem__LowLevel__QueryPairedUserAccountCommand__Result_Unwrapped () const noexcept {
 return std::bit_cast<__UnityEngine__InputSystem__LowLevel__QueryPairedUserAccountCommand__Result_Unwrapped>(__instance);
 }
+
+using __CORDL_BACKING_ENUM_TYPE = int64_t;
 
 
 // Fields

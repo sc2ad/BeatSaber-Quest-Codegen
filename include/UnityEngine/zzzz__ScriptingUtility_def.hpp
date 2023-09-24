@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
+namespace UnityEngine {
+struct UnityEngine__ScriptingUtility__TestClass;
+}
 // Forward declare root types
 namespace UnityEngine {
 class ScriptingUtility;

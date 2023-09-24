@@ -3,11 +3,20 @@
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECPoint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParametersHolder;
@@ -15,17 +24,11 @@ class X9ECParametersHolder;
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Asn1::Anssi {
+class Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder;
 }
 namespace System::Collections {
 class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Anssi {
@@ -85,8 +88,7 @@ static Org::BouncyCastle::Asn1::X9::X9ECParametersHolder __get_Instance() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder() ;
+static Org::BouncyCastle::Asn1::Anssi::Org__BouncyCastle__Asn1__Anssi__AnssiNamedCurves__Frp256v1Holder New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd56fc size 0x8 virtual false final false
  void _ctor() ;
@@ -195,8 +197,7 @@ static ::StringW GetName(Org::BouncyCastle::Asn1::DerObjectIdentifier oid) ;
 /// @brief Method get_Names addr 0xdd55e8 size 0x10c virtual false final false
 static System::Collections::IEnumerable get_Names() ;
 
-// Ctor Parameters []
-explicit AnssiNamedCurves() ;
+static Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves New_ctor() ;
 
 /// @brief Method .ctor addr 0xdd56f4 size 0x8 virtual false final false
  void _ctor() ;

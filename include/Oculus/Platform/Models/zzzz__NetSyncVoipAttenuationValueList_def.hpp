@@ -10,7 +10,7 @@ class NetSyncVoipAttenuationValueList;
 // Type: Oculus.Platform.Models::NetSyncVoipAttenuationValueList
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13410)), TypeDefinitionIndex(TypeDefinitionIndex(13452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1144 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13410), inst: 1144 }), TypeDefinitionIndex(TypeDefinitionIndex(13452)), TypeDefinitionIndex(TypeDefinitionIndex(13410))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13453))
 // CS Name: Oculus.Platform.Models.NetSyncVoipAttenuationValueList
 class CORDL_TYPE NetSyncVoipAttenuationValueList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::NetSyncVoipAttenuationValue> {
@@ -49,8 +49,7 @@ constexpr explicit NetSyncVoipAttenuationValueList(void* ptr) noexcept : Oculus:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "a", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit NetSyncVoipAttenuationValueList(::cordl_internals::intptr_t a) ;
+static Oculus::Platform::Models::NetSyncVoipAttenuationValueList New_ctor(::cordl_internals::intptr_t a) ;
 
 /// @brief Method .ctor addr 0x25a1918 size 0x23c virtual false final false
  void _ctor(::cordl_internals::intptr_t a) ;

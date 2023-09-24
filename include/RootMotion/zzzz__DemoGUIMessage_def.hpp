@@ -69,8 +69,7 @@ constexpr UnityEngine::Color __get_color() const;
 /// @brief Method OnGUI addr 0x11b2a50 size 0xf8 virtual false final false
  void OnGUI() ;
 
-// Ctor Parameters []
-explicit DemoGUIMessage() ;
+static RootMotion::DemoGUIMessage New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b2b48 size 0x10 virtual false final false
  void _ctor() ;

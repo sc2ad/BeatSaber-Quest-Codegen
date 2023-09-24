@@ -1,13 +1,14 @@
 #pragma once
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "TMPro/zzzz__TMP_Settings_def.hpp"
-#include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
-#include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__TextAsset_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
+#include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
+#include "TMPro/zzzz__TMP_Settings_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: TMPro::TMPro__TMP_Settings__LineBreakingTable._ctor
 template<>
 
@@ -37,8 +38,10 @@ constexpr void TMPro::TMPro__TMP_Settings__LineBreakingTable::__set_followingCha
 constexpr System::Collections::Generic::Dictionary_2<int32_t,char16_t> TMPro::TMPro__TMP_Settings__LineBreakingTable::__get_followingCharacters() const {
 return ::cordl_internals::getInstanceField<System::Collections::Generic::Dictionary_2<int32_t,char16_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- TMPro::TMPro__TMP_Settings__LineBreakingTable::TMPro__TMP_Settings__LineBreakingTable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMPro__TMP_Settings__LineBreakingTable>())) {}
+ TMPro::TMPro__TMP_Settings__LineBreakingTable TMPro::TMPro__TMP_Settings__LineBreakingTable::New_ctor()  {
+TMPro::TMPro__TMP_Settings__LineBreakingTable o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMPro__TMP_Settings__LineBreakingTable>())};
+return o;
+}
  void TMPro::TMPro__TMP_Settings__LineBreakingTable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMPro__TMP_Settings__LineBreakingTable>::get(),
@@ -1427,8 +1430,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<System::Collections::Generic::Dictionary_2<int32_t,char16_t>, false>(nullptr, ___internal_method, file);
 }
-// Ctor Parameters []
- TMPro::TMP_Settings::TMP_Settings()  : UnityEngine::ScriptableObject(THROW_UNLESS(::il2cpp_utils::New<TMP_Settings>())) {}
+ TMPro::TMP_Settings TMPro::TMP_Settings::New_ctor()  {
+TMPro::TMP_Settings o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_Settings>())};
+return o;
+}
  void TMPro::TMP_Settings::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_Settings>::get(),

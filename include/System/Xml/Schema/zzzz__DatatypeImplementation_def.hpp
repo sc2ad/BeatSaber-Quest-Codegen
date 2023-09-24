@@ -5,41 +5,35 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
 namespace System::Xml {
-struct XmlTokenizedType;
+class XmlQualifiedName;
 }
-namespace System::Xml::Schema {
-class XmlValueConverter;
-}
-namespace System::Xml::Schema {
-class RestrictionFacets;
-}
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+namespace System {
+class Type;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
-}
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
 struct XmlSchemaDatatypeVariety;
 }
-namespace System::Xml {
-class XmlQualifiedName;
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+class System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -47,8 +41,17 @@ class XmlNameTable;
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System {
-class Type;
+namespace System::Xml::Schema {
+class RestrictionFacets;
+}
+namespace System::Xml::Schema {
+class FacetsChecker;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
 }
 namespace System {
 class IComparable;
@@ -133,14 +136,12 @@ constexpr int32_t __get_parentIndex() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Xml::Schema::DatatypeImplementation", modifiers: "", def_value: None }]
-explicit System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap(::StringW name, System::Xml::Schema::DatatypeImplementation type) ;
+static System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap New_ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type) ;
 
 /// @brief Method .ctor addr 0x2720df0 size 0x2c virtual false final false
  void _ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type) ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "System::Xml::Schema::DatatypeImplementation", modifiers: "", def_value: None }, CppParam { name: "parentIndex", ty: "int32_t", modifiers: "", def_value: None }]
-explicit System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap(::StringW name, System::Xml::Schema::DatatypeImplementation type, int32_t parentIndex) ;
+static System::Xml::Schema::System__Xml__Schema__DatatypeImplementation__SchemaDatatypeMap New_ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type, int32_t parentIndex) ;
 
 /// @brief Method .ctor addr 0x2720e1c size 0x3c virtual false final false
  void _ctor(::StringW name, System::Xml::Schema::DatatypeImplementation type, int32_t parentIndex) ;
@@ -836,8 +837,7 @@ static System::Xml::Schema::XmlSchemaSimpleType GetSimpleTypeFromTypeCode(System
 /// @brief Method Compare addr 0x2721f60 size 0x74 virtual false final false
  int32_t Compare(::ArrayW<uint8_t> value1, ::ArrayW<uint8_t> value2) ;
 
-// Ctor Parameters []
-explicit DatatypeImplementation() ;
+static System::Xml::Schema::DatatypeImplementation New_ctor() ;
 
 /// @brief Method .ctor addr 0x2721fd4 size 0x8 virtual false final false
  void _ctor() ;

@@ -1,13 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultySegmentedControlController_def.hpp"
-#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "GlobalNamespace/zzzz__IDifficultyBeatmap_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: GlobalNamespace::BeatmapDifficultySegmentedControlController.add_didSelectDifficultyEvent
 template<>
 
@@ -257,8 +257,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, difficultyBeatmaps, selectedDifficulty);
 }
-// Ctor Parameters []
- GlobalNamespace::BeatmapDifficultySegmentedControlController::BeatmapDifficultySegmentedControlController()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<BeatmapDifficultySegmentedControlController>())) {}
+ GlobalNamespace::BeatmapDifficultySegmentedControlController GlobalNamespace::BeatmapDifficultySegmentedControlController::New_ctor()  {
+GlobalNamespace::BeatmapDifficultySegmentedControlController o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::BeatmapDifficultySegmentedControlController>())};
+return o;
+}
  void GlobalNamespace::BeatmapDifficultySegmentedControlController::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::BeatmapDifficultySegmentedControlController>::get(),

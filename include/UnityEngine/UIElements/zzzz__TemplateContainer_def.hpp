@@ -9,6 +9,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
+namespace UnityEngine::UIElements {
+class UxmlChildElementDescription;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
@@ -19,11 +22,11 @@ class IEnumerator;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace UnityEngine::UIElements {
-class UxmlChildElementDescription;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TemplateContainer__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class VisualTreeAsset;
@@ -32,13 +35,19 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UnityEngine__UIElements__TemplateContainer__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
+}
+namespace GlobalNamespace {
+class UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -117,8 +126,7 @@ constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Templa
 /// @brief Method Init addr 0x2c403b4 size 0x39c virtual true final false
  void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TemplateContainer__UxmlTraits() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c40884 size 0x88 virtual false final false
  void _ctor() ;
@@ -212,14 +220,12 @@ constexpr UnityEngine::UIElements::VisualTreeAsset __get_m_TemplateSource() cons
 /// @brief Method set_templateSource addr 0x2c4015c size 0x8 virtual false final false
  void set_templateSource(UnityEngine::UIElements::VisualTreeAsset value) ;
 
-// Ctor Parameters []
-explicit TemplateContainer() ;
+static UnityEngine::UIElements::TemplateContainer New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c40164 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "templateId", ty: "::StringW", modifiers: "", def_value: None }]
-explicit TemplateContainer(::StringW templateId) ;
+static UnityEngine::UIElements::TemplateContainer New_ctor(::StringW templateId) ;
 
 /// @brief Method .ctor addr 0x2c40180 size 0x28 virtual false final false
  void _ctor(::StringW templateId) ;
@@ -237,7 +243,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5106 }), TypeDefinitionIndex(TypeDefinitionIndex(6863)), TypeDefinitionIndex(TypeDefinitionIndex(6864))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5106 }), TypeDefinitionIndex(TypeDefinitionIndex(6864)), TypeDefinitionIndex(TypeDefinitionIndex(6863)), TypeDefinitionIndex(TypeDefinitionIndex(7089))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6861))
 // CS Name: UnityEngine.UIElements.TemplateContainer::UxmlFactory
 class CORDL_TYPE UnityEngine__UIElements__TemplateContainer__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::TemplateContainer,UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlTraits> {
@@ -289,8 +295,7 @@ constexpr explicit UnityEngine__UIElements__TemplateContainer__UxmlFactory(void*
 /// @brief Method get_uxmlQualifiedName addr 0x2c40250 size 0x74 virtual true final false
  ::StringW get_uxmlQualifiedName() ;
 
-// Ctor Parameters []
-explicit UnityEngine__UIElements__TemplateContainer__UxmlFactory() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__UxmlFactory New_ctor() ;
 
 /// @brief Method .ctor addr 0x2c402c4 size 0x48 virtual false final false
  void _ctor() ;
@@ -390,8 +395,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__TemplateContainer__U
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3(int32_t __1__state) ;
+static GlobalNamespace::UnityEngine__UIElements__TemplateContainer__UxmlTraits___get_uxmlChildElementsDescription_d__3 New_ctor(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x2c40370 size 0x44 virtual false final false
  void _ctor(int32_t __1__state) ;

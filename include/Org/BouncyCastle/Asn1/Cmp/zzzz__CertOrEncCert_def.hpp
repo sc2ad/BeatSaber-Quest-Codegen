@@ -2,20 +2,20 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class EncryptedValue;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -88,8 +88,7 @@ constexpr Org::BouncyCastle::Asn1::Crmf::EncryptedValue __get_encryptedCert() co
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tagged", ty: "Org::BouncyCastle::Asn1::Asn1TaggedObject", modifiers: "", def_value: None }]
-explicit CertOrEncCert(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
+static Org::BouncyCastle::Asn1::Cmp::CertOrEncCert New_ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 
 /// @brief Method .ctor addr 0xdd7c8c size 0xf4 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
@@ -97,14 +96,12 @@ explicit CertOrEncCert(Org::BouncyCastle::Asn1::Asn1TaggedObject tagged) ;
 /// @brief Method GetInstance addr 0xdd77a0 size 0x188 virtual false final false
 static Org::BouncyCastle::Asn1::Cmp::CertOrEncCert GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "certificate", ty: "Org::BouncyCastle::Asn1::Cmp::CmpCertificate", modifiers: "", def_value: None }]
-explicit CertOrEncCert(Org::BouncyCastle::Asn1::Cmp::CmpCertificate certificate) ;
+static Org::BouncyCastle::Asn1::Cmp::CertOrEncCert New_ctor(Org::BouncyCastle::Asn1::Cmp::CmpCertificate certificate) ;
 
 /// @brief Method .ctor addr 0xdd7d80 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cmp::CmpCertificate certificate) ;
 
-// Ctor Parameters [CppParam { name: "encryptedCert", ty: "Org::BouncyCastle::Asn1::Crmf::EncryptedValue", modifiers: "", def_value: None }]
-explicit CertOrEncCert(Org::BouncyCastle::Asn1::Crmf::EncryptedValue encryptedCert) ;
+static Org::BouncyCastle::Asn1::Cmp::CertOrEncCert New_ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedValue encryptedCert) ;
 
 /// @brief Method .ctor addr 0xdd7df8 size 0x78 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Crmf::EncryptedValue encryptedCert) ;

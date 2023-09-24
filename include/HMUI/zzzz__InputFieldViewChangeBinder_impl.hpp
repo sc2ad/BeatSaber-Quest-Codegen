@@ -1,10 +1,10 @@
 #pragma once
 #include "HMUI/zzzz__InputFieldViewChangeBinder_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: HMUI::InputFieldViewChangeBinder._ctor
 template<>
 
@@ -136,8 +136,10 @@ constexpr void HMUI::InputFieldViewChangeBinder::__set__enabled(bool value)  {
 constexpr bool HMUI::InputFieldViewChangeBinder::__get__enabled() const {
 return ::cordl_internals::getInstanceField<bool, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- HMUI::InputFieldViewChangeBinder::InputFieldViewChangeBinder()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<InputFieldViewChangeBinder>())) {}
+ HMUI::InputFieldViewChangeBinder HMUI::InputFieldViewChangeBinder::New_ctor()  {
+HMUI::InputFieldViewChangeBinder o{THROW_UNLESS(::il2cpp_utils::New<HMUI::InputFieldViewChangeBinder>())};
+return o;
+}
  void HMUI::InputFieldViewChangeBinder::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<HMUI::InputFieldViewChangeBinder>::get(),

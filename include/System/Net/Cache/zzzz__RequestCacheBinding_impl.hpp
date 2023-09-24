@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Net/Cache/zzzz__RequestCacheBinding_def.hpp"
-#include "System/Net/Cache/zzzz__RequestCache_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCacheValidator_def.hpp"
 #include "System/Net/Cache/zzzz__RequestCachePolicy_def.hpp"
+#include "System/Net/Cache/zzzz__RequestCache_def.hpp"
 //  Writing Method size for method: System::Net::Cache::RequestCacheBinding._ctor
 template<>
 
@@ -89,8 +89,10 @@ constexpr void System::Net::Cache::RequestCacheBinding::__set_m_Policy(System::N
 constexpr System::Net::Cache::RequestCachePolicy System::Net::Cache::RequestCacheBinding::__get_m_Policy() const {
 return ::cordl_internals::getInstanceField<System::Net::Cache::RequestCachePolicy, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "requestCache", ty: "System::Net::Cache::RequestCache", modifiers: "", def_value: None }, CppParam { name: "cacheValidator", ty: "System::Net::Cache::RequestCacheValidator", modifiers: "", def_value: None }, CppParam { name: "policy", ty: "System::Net::Cache::RequestCachePolicy", modifiers: "", def_value: None }]
- System::Net::Cache::RequestCacheBinding::RequestCacheBinding(System::Net::Cache::RequestCache requestCache, System::Net::Cache::RequestCacheValidator cacheValidator, System::Net::Cache::RequestCachePolicy policy)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RequestCacheBinding>(requestCache, cacheValidator, policy))) {}
+ System::Net::Cache::RequestCacheBinding System::Net::Cache::RequestCacheBinding::New_ctor(System::Net::Cache::RequestCache requestCache, System::Net::Cache::RequestCacheValidator cacheValidator, System::Net::Cache::RequestCachePolicy policy)  {
+System::Net::Cache::RequestCacheBinding o{THROW_UNLESS(::il2cpp_utils::New<System::Net::Cache::RequestCacheBinding>(requestCache, cacheValidator, policy))};
+return o;
+}
  void System::Net::Cache::RequestCacheBinding::_ctor(System::Net::Cache::RequestCache requestCache, System::Net::Cache::RequestCacheValidator cacheValidator, System::Net::Cache::RequestCachePolicy policy)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Net::Cache::RequestCacheBinding>::get(),

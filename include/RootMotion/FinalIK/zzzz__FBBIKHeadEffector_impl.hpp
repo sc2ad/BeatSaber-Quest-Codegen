@@ -1,12 +1,13 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "RootMotion/FinalIK/zzzz__FBBIKHeadEffector_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
-#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
-#include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
-#include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FullBodyBipedIK_def.hpp"
+#include "RootMotion/FinalIK/zzzz__FBBIKHeadEffector_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKSolver_def.hpp"
+#include "RootMotion/FinalIK/zzzz__IKEffector_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone._ctor
 template<>
 
@@ -93,8 +94,10 @@ constexpr void RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__Bend
 constexpr UnityEngine::Quaternion RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::__get_defaultLocalRotation() const {
 return ::cordl_internals::getInstanceField<UnityEngine::Quaternion, 0x1c>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::RootMotion__FinalIK__FBBIKHeadEffector__BendBone()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__FBBIKHeadEffector__BendBone>())) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::New_ctor()  {
+RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone>())};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone>::get(),
@@ -104,8 +107,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "weight", ty: "float_t", modifiers: "", def_value: None }]
- RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::RootMotion__FinalIK__FBBIKHeadEffector__BendBone(UnityEngine::Transform transform, float_t weight)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<RootMotion__FinalIK__FBBIKHeadEffector__BendBone>(transform, weight))) {}
+ RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::New_ctor(UnityEngine::Transform transform, float_t weight)  {
+RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone>(transform, weight))};
+return o;
+}
  void RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone::_ctor(UnityEngine::Transform transform, float_t weight)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::RootMotion__FinalIK__FBBIKHeadEffector__BendBone>::get(),
@@ -764,8 +769,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- RootMotion::FinalIK::FBBIKHeadEffector::FBBIKHeadEffector()  : UnityEngine::MonoBehaviour(THROW_UNLESS(::il2cpp_utils::New<FBBIKHeadEffector>())) {}
+ RootMotion::FinalIK::FBBIKHeadEffector RootMotion::FinalIK::FBBIKHeadEffector::New_ctor()  {
+RootMotion::FinalIK::FBBIKHeadEffector o{THROW_UNLESS(::il2cpp_utils::New<RootMotion::FinalIK::FBBIKHeadEffector>())};
+return o;
+}
  void RootMotion::FinalIK::FBBIKHeadEffector::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<RootMotion::FinalIK::FBBIKHeadEffector>::get(),

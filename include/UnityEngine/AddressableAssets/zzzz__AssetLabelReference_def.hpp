@@ -86,8 +86,7 @@ constexpr ::StringW __get_m_LabelString() const;
 /// @brief Method GetHashCode addr 0x289212c size 0x20 virtual true final false
  int32_t GetHashCode() ;
 
-// Ctor Parameters []
-explicit AssetLabelReference() ;
+static UnityEngine::AddressableAssets::AssetLabelReference New_ctor() ;
 
 /// @brief Method .ctor addr 0x289214c size 0x8 virtual false final false
  void _ctor() ;

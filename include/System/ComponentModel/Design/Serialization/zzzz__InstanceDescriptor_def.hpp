@@ -81,14 +81,12 @@ constexpr System::Reflection::MemberInfo __get__MemberInfo_k__BackingField() con
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit InstanceDescriptor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments) ;
+static System::ComponentModel::Design::Serialization::InstanceDescriptor New_ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments) ;
 
 /// @brief Method .ctor addr 0x27a8218 size 0x8 virtual false final false
  void _ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments) ;
 
-// Ctor Parameters [CppParam { name: "member", ty: "System::Reflection::MemberInfo", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "System::Collections::ICollection", modifiers: "", def_value: None }, CppParam { name: "isComplete", ty: "bool", modifiers: "", def_value: None }]
-explicit InstanceDescriptor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete) ;
+static System::ComponentModel::Design::Serialization::InstanceDescriptor New_ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete) ;
 
 /// @brief Method .ctor addr 0x27a8220 size 0x50c virtual false final false
  void _ctor(System::Reflection::MemberInfo member, System::Collections::ICollection arguments, bool isComplete) ;

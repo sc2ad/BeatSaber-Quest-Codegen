@@ -46,8 +46,10 @@ return System::Collections::IEnumerable(::bs_hook::Il2CppWrapperType::instance);
  System::Collections::IEnumerable Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::__get_Instance()  {
 return ::cordl_internals::getStaticField<System::Collections::IEnumerable, "Instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::EmptyEnumerable>::get>();
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::EmptyEnumerable()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<EmptyEnumerable>())) {}
+ Org::BouncyCastle::Utilities::Collections::EmptyEnumerable Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::New_ctor()  {
+Org::BouncyCastle::Utilities::Collections::EmptyEnumerable o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Collections::EmptyEnumerable>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Collections::EmptyEnumerable>::get(),

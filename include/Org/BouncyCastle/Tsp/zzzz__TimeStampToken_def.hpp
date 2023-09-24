@@ -5,40 +5,43 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Asn1::X509 {
-class IssuerSerial;
-}
-namespace Org::BouncyCastle::Asn1::Ess {
-class EssCertID;
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Ess {
 class EssCertIDv2;
 }
+namespace Org::BouncyCastle::Asn1::Ess {
+class EssCertID;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerID;
-}
-namespace Org::BouncyCastle::Tsp {
-class TimeStampTokenInfo;
+class IssuerSerial;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
-}
 namespace Org::BouncyCastle::Cms {
 class SignerInformation;
 }
+namespace Org::BouncyCastle::Tsp {
+class Org__BouncyCastle__Tsp__TimeStampToken__CertID;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampTokenInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerID;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsSignedData;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Tsp {
@@ -109,14 +112,12 @@ constexpr Org::BouncyCastle::Asn1::Ess::EssCertIDv2 __get_certIDv2() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "certID", ty: "Org::BouncyCastle::Asn1::Ess::EssCertID", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Tsp__TimeStampToken__CertID(Org::BouncyCastle::Asn1::Ess::EssCertID certID) ;
+static Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID New_ctor(Org::BouncyCastle::Asn1::Ess::EssCertID certID) ;
 
 /// @brief Method .ctor addr 0x10c69ac size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ess::EssCertID certID) ;
 
-// Ctor Parameters [CppParam { name: "certID", ty: "Org::BouncyCastle::Asn1::Ess::EssCertIDv2", modifiers: "", def_value: None }]
-explicit Org__BouncyCastle__Tsp__TimeStampToken__CertID(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 certID) ;
+static Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID New_ctor(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 certID) ;
 
 /// @brief Method .ctor addr 0x10c69d4 size 0x28 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Ess::EssCertIDv2 certID) ;
@@ -219,14 +220,12 @@ constexpr Org::BouncyCastle::Tsp::Org__BouncyCastle__Tsp__TimeStampToken__CertID
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "contentInfo", ty: "Org::BouncyCastle::Asn1::Cms::ContentInfo", modifiers: "", def_value: None }]
-explicit TimeStampToken(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
+static Org::BouncyCastle::Tsp::TimeStampToken New_ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
 /// @brief Method .ctor addr 0x10c4624 size 0x74 virtual false final false
  void _ctor(Org::BouncyCastle::Asn1::Cms::ContentInfo contentInfo) ;
 
-// Ctor Parameters [CppParam { name: "signedData", ty: "Org::BouncyCastle::Cms::CmsSignedData", modifiers: "", def_value: None }]
-explicit TimeStampToken(Org::BouncyCastle::Cms::CmsSignedData signedData) ;
+static Org::BouncyCastle::Tsp::TimeStampToken New_ctor(Org::BouncyCastle::Cms::CmsSignedData signedData) ;
 
 /// @brief Method .ctor addr 0x10c5fe8 size 0x890 virtual false final false
  void _ctor(Org::BouncyCastle::Cms::CmsSignedData signedData) ;

@@ -5,50 +5,62 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+class GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate;
 }
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace GlobalNamespace {
+class GlobalNamespace__AudioClipAsyncLoader____c;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IFilePathSongAudioClipProvider;
 }
 namespace GlobalNamespace {
-class IBeatmapLevel;
+struct GlobalNamespace__AudioClipAsyncLoader___Unload_d__21;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
-template<typename TKey,typename TValue>
-class IReferenceCountingCache_2;
-}
-namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
+class GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class IMediaAsyncLoader;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IAssetSongAudioClipProvider;
 }
 namespace GlobalNamespace {
 class IFilePathSongPreviewAudioClipProvider;
 }
 namespace GlobalNamespace {
-class IAssetSongAudioClipProvider;
+class IBeatmapLevel;
 }
-namespace System {
-class IAsyncResult;
+namespace GlobalNamespace {
+class GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0;
+}
+namespace GlobalNamespace {
+template<typename TKey,typename TValue>
+class IReferenceCountingCache_2;
+}
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
+}
+namespace GlobalNamespace {
+class IMediaAsyncLoader;
 }
 namespace System {
 class AsyncCallback;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace System {
+class IAsyncResult;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -56,6 +68,9 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
 struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -118,8 +133,7 @@ constexpr explicit GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate(voi
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader__LoadMethodDelegate New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x21a12e8 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -188,8 +202,7 @@ constexpr UnityEngine::AudioClip __get_audioClip() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0() ;
+static GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass16_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a13e4 size 0x8 virtual false final false
  void _ctor() ;
@@ -258,8 +271,7 @@ constexpr ::StringW __get_audioClipFilePath() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0() ;
+static GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c__DisplayClass17_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a145c size 0x8 virtual false final false
  void _ctor() ;
@@ -328,8 +340,7 @@ static System::Action_1<UnityEngine::AudioClip> __get___9__19_0() ;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__AudioClipAsyncLoader____c() ;
+static GlobalNamespace::GlobalNamespace__AudioClipAsyncLoader____c New_ctor() ;
 
 /// @brief Method .ctor addr 0x21a1578 size 0x8 virtual false final false
  void _ctor() ;
@@ -503,8 +514,7 @@ constexpr GlobalNamespace::IMediaAsyncLoader __get__mediaAsyncLoader() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "cache", ty: "GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>>", modifiers: "", def_value: None }, CppParam { name: "mediaAsyncLoader", ty: "GlobalNamespace::IMediaAsyncLoader", modifiers: "", def_value: None }]
-explicit AudioClipAsyncLoader(GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> cache, GlobalNamespace::IMediaAsyncLoader mediaAsyncLoader) ;
+static GlobalNamespace::AudioClipAsyncLoader New_ctor(GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> cache, GlobalNamespace::IMediaAsyncLoader mediaAsyncLoader) ;
 
 /// @brief Method .ctor addr 0x219ef9c size 0x2c virtual false final false
  void _ctor(GlobalNamespace::IReferenceCountingCache_2<int32_t,System::Threading::Tasks::Task_1<UnityEngine::AudioClip>> cache, GlobalNamespace::IMediaAsyncLoader mediaAsyncLoader) ;

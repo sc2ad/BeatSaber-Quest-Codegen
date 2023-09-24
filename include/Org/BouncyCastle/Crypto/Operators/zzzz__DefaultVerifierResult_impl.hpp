@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__DefaultVerifierResult_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifier_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult._ctor
 template<>
 
@@ -63,8 +63,10 @@ constexpr void Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::__se
 constexpr Org::BouncyCastle::Crypto::ISigner Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::__get_mSigner() const {
 return ::cordl_internals::getInstanceField<Org::BouncyCastle::Crypto::ISigner, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "signer", ty: "Org::BouncyCastle::Crypto::ISigner", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::DefaultVerifierResult(Org::BouncyCastle::Crypto::ISigner signer)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<DefaultVerifierResult>(signer))) {}
+ Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::New_ctor(Org::BouncyCastle::Crypto::ISigner signer)  {
+Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult>(signer))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::_ctor(Org::BouncyCastle::Crypto::ISigner signer)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult>::get(),

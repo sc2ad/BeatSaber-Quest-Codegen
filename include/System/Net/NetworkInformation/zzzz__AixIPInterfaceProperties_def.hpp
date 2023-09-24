@@ -5,12 +5,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformationCollection;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformationCollection;
 }
 namespace System::Net::NetworkInformation {
 class AixNetworkInterface;
@@ -78,8 +78,7 @@ constexpr int32_t __get__mtu() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "iface", ty: "System::Net::NetworkInformation::AixNetworkInterface", modifiers: "", def_value: None }, CppParam { name: "addresses", ty: "System::Collections::Generic::List_1<System::Net::IPAddress>", modifiers: "", def_value: None }, CppParam { name: "mtu", ty: "int32_t", modifiers: "", def_value: None }]
-explicit AixIPInterfaceProperties(System::Net::NetworkInformation::AixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses, int32_t mtu) ;
+static System::Net::NetworkInformation::AixIPInterfaceProperties New_ctor(System::Net::NetworkInformation::AixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses, int32_t mtu) ;
 
 /// @brief Method .ctor addr 0x2859984 size 0x80 virtual false final false
  void _ctor(System::Net::NetworkInformation::AixNetworkInterface iface, System::Collections::Generic::List_1<System::Net::IPAddress> addresses, int32_t mtu) ;

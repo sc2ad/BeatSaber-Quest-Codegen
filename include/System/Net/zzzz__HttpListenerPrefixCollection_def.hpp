@@ -4,23 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
-namespace System::Net {
-class HttpListener;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -28,6 +17,17 @@ class IEnumerable;
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Net {
+class HttpListener;
 }
 // Forward declare root types
 namespace System::Net {
@@ -106,8 +106,7 @@ constexpr System::Net::HttpListener __get_listener() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "listener", ty: "System::Net::HttpListener", modifiers: "", def_value: None }]
-explicit HttpListenerPrefixCollection(System::Net::HttpListener listener) ;
+static System::Net::HttpListenerPrefixCollection New_ctor(System::Net::HttpListener listener) ;
 
 /// @brief Method .ctor addr 0x2835804 size 0x90 virtual false final false
  void _ctor(System::Net::HttpListener listener) ;

@@ -1,9 +1,9 @@
 #pragma once
 #include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TMP_Settings_def.hpp"
-#include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 //  Writing Method size for method: TMPro::TMP_ResourceManager.GetTextSettings
 template<>
 
@@ -149,8 +149,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, instanceID);
 }
-// Ctor Parameters []
- TMPro::TMP_ResourceManager::TMP_ResourceManager()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<TMP_ResourceManager>())) {}
+ TMPro::TMP_ResourceManager TMPro::TMP_ResourceManager::New_ctor()  {
+TMPro::TMP_ResourceManager o{THROW_UNLESS(::il2cpp_utils::New<TMPro::TMP_ResourceManager>())};
+return o;
+}
  void TMPro::TMP_ResourceManager::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TMPro::TMP_ResourceManager>::get(),

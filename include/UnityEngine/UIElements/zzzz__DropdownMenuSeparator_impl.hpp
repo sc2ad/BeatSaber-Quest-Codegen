@@ -24,8 +24,10 @@ constexpr void UnityEngine::UIElements::DropdownMenuSeparator::__set__subMenuPat
 constexpr ::StringW UnityEngine::UIElements::DropdownMenuSeparator::__get__subMenuPath_k__BackingField() const {
 return ::cordl_internals::getInstanceField<::StringW, 0x10>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "subMenuPath", ty: "::StringW", modifiers: "", def_value: None }]
- UnityEngine::UIElements::DropdownMenuSeparator::DropdownMenuSeparator(::StringW subMenuPath)  : UnityEngine::UIElements::DropdownMenuItem(THROW_UNLESS(::il2cpp_utils::New<DropdownMenuSeparator>(subMenuPath))) {}
+ UnityEngine::UIElements::DropdownMenuSeparator UnityEngine::UIElements::DropdownMenuSeparator::New_ctor(::StringW subMenuPath)  {
+UnityEngine::UIElements::DropdownMenuSeparator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::DropdownMenuSeparator>(subMenuPath))};
+return o;
+}
  void UnityEngine::UIElements::DropdownMenuSeparator::_ctor(::StringW subMenuPath)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::DropdownMenuSeparator>::get(),

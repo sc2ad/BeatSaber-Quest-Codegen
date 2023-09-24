@@ -2,10 +2,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace UnityEngine {
-class Collider;
+class GameObject;
 }
 namespace UnityEngine {
-class GameObject;
+class Collider;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -71,8 +71,7 @@ constexpr UnityEngine::GameObject __get_target() const;
 /// @brief Method OnTriggerExit addr 0x11b56d4 size 0xb4 virtual false final false
  void OnTriggerExit(UnityEngine::Collider collider) ;
 
-// Ctor Parameters []
-explicit TriggerEventBroadcaster() ;
+static RootMotion::TriggerEventBroadcaster New_ctor() ;
 
 /// @brief Method .ctor addr 0x11b5788 size 0x8 virtual false final false
  void _ctor() ;

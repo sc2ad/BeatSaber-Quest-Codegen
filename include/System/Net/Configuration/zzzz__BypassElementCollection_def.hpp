@@ -47,8 +47,7 @@ constexpr explicit BypassElementCollection(void* ptr) noexcept : System::Configu
 
 // Methods
 
-// Ctor Parameters []
-explicit BypassElementCollection() ;
+static System::Net::Configuration::BypassElementCollection New_ctor() ;
 
 /// @brief Method .ctor addr 0x27b220c size 0x38 virtual false final false
  void _ctor() ;

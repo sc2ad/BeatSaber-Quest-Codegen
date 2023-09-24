@@ -1,15 +1,15 @@
 #pragma once
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonObjectContract_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataSetter_def.hpp"
-#include "Newtonsoft/Json/zzzz__Required_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataGetter_def.hpp"
-#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataGetter_def.hpp"
+#include "Newtonsoft/Json/zzzz__Required_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataSetter_def.hpp"
 //  Writing Method size for method: Newtonsoft::Json::Serialization::JsonObjectContract.get_MemberSerialization
 template<>
 
@@ -694,8 +694,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<bool, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "underlyingType", ty: "System::Type", modifiers: "", def_value: None }]
- Newtonsoft::Json::Serialization::JsonObjectContract::JsonObjectContract(System::Type underlyingType)  : Newtonsoft::Json::Serialization::JsonContainerContract(THROW_UNLESS(::il2cpp_utils::New<JsonObjectContract>(underlyingType))) {}
+ Newtonsoft::Json::Serialization::JsonObjectContract Newtonsoft::Json::Serialization::JsonObjectContract::New_ctor(System::Type underlyingType)  {
+Newtonsoft::Json::Serialization::JsonObjectContract o{THROW_UNLESS(::il2cpp_utils::New<Newtonsoft::Json::Serialization::JsonObjectContract>(underlyingType))};
+return o;
+}
  void Newtonsoft::Json::Serialization::JsonObjectContract::_ctor(System::Type underlyingType)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Newtonsoft::Json::Serialization::JsonObjectContract>::get(),

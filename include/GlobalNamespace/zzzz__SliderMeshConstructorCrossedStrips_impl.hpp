@@ -103,8 +103,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, path);
 }
-// Ctor Parameters []
- GlobalNamespace::SliderMeshConstructorCrossedStrips::SliderMeshConstructorCrossedStrips()  : GlobalNamespace::SliderMeshConstructor(THROW_UNLESS(::il2cpp_utils::New<SliderMeshConstructorCrossedStrips>())) {}
+ GlobalNamespace::SliderMeshConstructorCrossedStrips GlobalNamespace::SliderMeshConstructorCrossedStrips::New_ctor()  {
+GlobalNamespace::SliderMeshConstructorCrossedStrips o{THROW_UNLESS(::il2cpp_utils::New<GlobalNamespace::SliderMeshConstructorCrossedStrips>())};
+return o;
+}
  void GlobalNamespace::SliderMeshConstructorCrossedStrips::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<GlobalNamespace::SliderMeshConstructorCrossedStrips>::get(),

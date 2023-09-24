@@ -2,11 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 namespace System {
-struct Guid;
-}
-namespace System {
 template<typename T>
 class Action_1;
+}
+namespace System {
+struct Guid;
 }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 struct DiagnosticEvent;
@@ -86,8 +86,7 @@ static bool RegisterEventHandler(System::Action_1<UnityEngine::ResourceManagemen
 /// @brief Method PostEvent addr 0x2a44e5c size 0x80 virtual false final false
  void PostEvent(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent) ;
 
-// Ctor Parameters []
-explicit DiagnosticEventCollector() ;
+static UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector New_ctor() ;
 
 /// @brief Method .ctor addr 0x2a44edc size 0x8 virtual false final false
  void _ctor() ;

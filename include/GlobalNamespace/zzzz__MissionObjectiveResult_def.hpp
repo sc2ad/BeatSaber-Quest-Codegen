@@ -99,8 +99,7 @@ constexpr int32_t __get__value_k__BackingField() const;
 /// @brief Method set_value addr 0x21f1200 size 0x8 virtual false final false
  void set_value(int32_t value) ;
 
-// Ctor Parameters [CppParam { name: "missionObjective", ty: "GlobalNamespace::MissionObjective", modifiers: "", def_value: None }, CppParam { name: "cleared", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }]
-explicit MissionObjectiveResult(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;
+static GlobalNamespace::MissionObjectiveResult New_ctor(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;
 
 /// @brief Method .ctor addr 0x21f1208 size 0x44 virtual false final false
  void _ctor(GlobalNamespace::MissionObjective missionObjective, bool cleared, int32_t value) ;

@@ -2,14 +2,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 namespace System {
+template<typename T>
+class Action_1;
+}
+namespace System {
 class Exception;
 }
 namespace System {
 class Action;
-}
-namespace System {
-template<typename T>
-class Action_1;
 }
 namespace System {
 template<typename T>
@@ -87,8 +87,7 @@ constexpr System::Action __get_m_OnCompleted() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "onNext", ty: "System::Action_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "onCompleted", ty: "System::Action", modifiers: "", def_value: None }]
-explicit Observer_1(System::Action_1<TValue> onNext, System::Action onCompleted) ;
+static UnityEngine::InputSystem::Utilities::Observer_1<TValue> New_ctor(System::Action_1<TValue> onNext, System::Action onCompleted) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor(System::Action_1<TValue> onNext, System::Action onCompleted) ;

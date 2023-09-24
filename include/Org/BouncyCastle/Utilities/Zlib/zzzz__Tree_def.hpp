@@ -4,10 +4,10 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 namespace Org::BouncyCastle::Utilities::Zlib {
-class StaticTree;
+class Deflate;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class Deflate;
+class StaticTree;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Zlib {
@@ -181,8 +181,7 @@ static void gen_codes(::ArrayW<int16_t> tree, int32_t max_code, ::ArrayW<int16_t
 /// @brief Method bi_reverse addr 0x10de288 size 0x28 virtual false final false
 static int32_t bi_reverse(int32_t code, int32_t len) ;
 
-// Ctor Parameters []
-explicit Tree() ;
+static Org::BouncyCastle::Utilities::Zlib::Tree New_ctor() ;
 
 /// @brief Method .ctor addr 0x10de514 size 0x8 virtual false final false
  void _ctor() ;

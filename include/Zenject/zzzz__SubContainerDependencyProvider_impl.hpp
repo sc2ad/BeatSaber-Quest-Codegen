@@ -1,12 +1,12 @@
 #pragma once
 #include "Zenject/zzzz__SubContainerDependencyProvider_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 //  Writing Method size for method: Zenject::SubContainerDependencyProvider._ctor
 template<>
@@ -138,8 +138,10 @@ constexpr void Zenject::SubContainerDependencyProvider::__set__resolveAll(bool v
 constexpr bool Zenject::SubContainerDependencyProvider::__get__resolveAll() const {
 return ::cordl_internals::getInstanceField<bool, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "dependencyType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "identifier", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "subContainerCreator", ty: "Zenject::ISubContainerCreator", modifiers: "", def_value: None }, CppParam { name: "resolveAll", ty: "bool", modifiers: "", def_value: None }]
- Zenject::SubContainerDependencyProvider::SubContainerDependencyProvider(System::Type dependencyType, ::bs_hook::Il2CppWrapperType identifier, Zenject::ISubContainerCreator subContainerCreator, bool resolveAll)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<SubContainerDependencyProvider>(dependencyType, identifier, subContainerCreator, resolveAll))) {}
+ Zenject::SubContainerDependencyProvider Zenject::SubContainerDependencyProvider::New_ctor(System::Type dependencyType, ::bs_hook::Il2CppWrapperType identifier, Zenject::ISubContainerCreator subContainerCreator, bool resolveAll)  {
+Zenject::SubContainerDependencyProvider o{THROW_UNLESS(::il2cpp_utils::New<Zenject::SubContainerDependencyProvider>(dependencyType, identifier, subContainerCreator, resolveAll))};
+return o;
+}
  void Zenject::SubContainerDependencyProvider::_ctor(System::Type dependencyType, ::bs_hook::Il2CppWrapperType identifier, Zenject::ISubContainerCreator subContainerCreator, bool resolveAll)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::SubContainerDependencyProvider>::get(),

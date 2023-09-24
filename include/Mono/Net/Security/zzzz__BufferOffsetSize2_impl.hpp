@@ -75,8 +75,10 @@ constexpr void Mono::Net::Security::BufferOffsetSize2::__set_InitialSize(int32_t
 constexpr int32_t Mono::Net::Security::BufferOffsetSize2::__get_InitialSize() const {
 return ::cordl_internals::getInstanceField<int32_t, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }]
- Mono::Net::Security::BufferOffsetSize2::BufferOffsetSize2(int32_t size)  : Mono::Net::Security::BufferOffsetSize(THROW_UNLESS(::il2cpp_utils::New<BufferOffsetSize2>(size))) {}
+ Mono::Net::Security::BufferOffsetSize2 Mono::Net::Security::BufferOffsetSize2::New_ctor(int32_t size)  {
+Mono::Net::Security::BufferOffsetSize2 o{THROW_UNLESS(::il2cpp_utils::New<Mono::Net::Security::BufferOffsetSize2>(size))};
+return o;
+}
  void Mono::Net::Security::BufferOffsetSize2::_ctor(int32_t size)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Mono::Net::Security::BufferOffsetSize2>::get(),

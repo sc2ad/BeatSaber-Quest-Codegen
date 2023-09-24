@@ -13,7 +13,7 @@ class MessageWithAssetFileDownloadCancelResult;
 // Type: Oculus.Platform::MessageWithAssetFileDownloadCancelResult
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4431 }), TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(13391))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13203), inst: 4431 }), TypeDefinitionIndex(TypeDefinitionIndex(13391))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13217))
 // CS Name: Oculus.Platform.MessageWithAssetFileDownloadCancelResult
 class CORDL_TYPE MessageWithAssetFileDownloadCancelResult : public Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadCancelResult> {
@@ -52,8 +52,7 @@ constexpr explicit MessageWithAssetFileDownloadCancelResult(void* ptr) noexcept 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "c_message", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit MessageWithAssetFileDownloadCancelResult(::cordl_internals::intptr_t c_message) ;
+static Oculus::Platform::MessageWithAssetFileDownloadCancelResult New_ctor(::cordl_internals::intptr_t c_message) ;
 
 /// @brief Method .ctor addr 0x257e060 size 0x58 virtual false final false
  void _ctor(::cordl_internals::intptr_t c_message) ;

@@ -1,8 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row.get_offsetX
 template<>
@@ -291,8 +292,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row::UnityEngine__UIElements__UIRAtlasAllocator__Row()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIRAtlasAllocator__Row>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__Row>::get(),
@@ -447,8 +450,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<void, false>(const_cast<void*>(instance), ___internal_method, previous);
 }
-// Ctor Parameters []
- UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UnityEngine__UIElements__UIRAtlasAllocator__AreaNode>())) {}
+ UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode::New_ctor()  {
+UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode>())};
+return o;
+}
  void UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<UnityEngine::UIElements::UnityEngine__UIElements__UIRAtlasAllocator__AreaNode>::get(),
@@ -1024,8 +1029,11 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, n);
 }
-// Ctor Parameters [CppParam { name: "initialAtlasSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxAtlasSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sidePadding", ty: "int32_t", modifiers: "", def_value: Some("1") }]
- UnityEngine::UIElements::UIRAtlasAllocator::UIRAtlasAllocator(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<UIRAtlasAllocator>(initialAtlasSize, maxAtlasSize, sidePadding))) {}
+/// @param sidePadding: int32_t (default: 1)
+ UnityEngine::UIElements::UIRAtlasAllocator UnityEngine::UIElements::UIRAtlasAllocator::New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding)  {
+UnityEngine::UIElements::UIRAtlasAllocator o{THROW_UNLESS(::il2cpp_utils::New<UnityEngine::UIElements::UIRAtlasAllocator>(initialAtlasSize, maxAtlasSize, sidePadding))};
+return o;
+}
 /// @param sidePadding: int32_t (default: 1)
  void UnityEngine::UIElements::UIRAtlasAllocator::_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

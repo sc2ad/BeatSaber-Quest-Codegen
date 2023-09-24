@@ -2,6 +2,7 @@
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
 //  Writing Method size for method: System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer.System_Collections_IEqualityComparer_Equals
 template<>
 
@@ -75,8 +76,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, obj);
 }
-// Ctor Parameters []
- System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer::System__ComponentModel__WeakHashtable__WeakKeyComparer()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<System__ComponentModel__WeakHashtable__WeakKeyComparer>())) {}
+ System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer::New_ctor()  {
+System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer>())};
+return o;
+}
  void System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer>::get(),
@@ -143,8 +146,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
  System::Collections::IEqualityComparer System::ComponentModel::WeakHashtable::__get__comparer()  {
 return ::cordl_internals::getStaticField<System::Collections::IEqualityComparer, "_comparer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::WeakHashtable>::get>();
 }
-// Ctor Parameters []
- System::ComponentModel::WeakHashtable::WeakHashtable()  : System::Collections::Hashtable(THROW_UNLESS(::il2cpp_utils::New<WeakHashtable>())) {}
+ System::ComponentModel::WeakHashtable System::ComponentModel::WeakHashtable::New_ctor()  {
+System::ComponentModel::WeakHashtable o{THROW_UNLESS(::il2cpp_utils::New<System::ComponentModel::WeakHashtable>())};
+return o;
+}
  void System::ComponentModel::WeakHashtable::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::ComponentModel::WeakHashtable>::get(),

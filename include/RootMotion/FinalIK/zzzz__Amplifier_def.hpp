@@ -8,6 +8,12 @@ namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
+class RootMotion__FinalIK__Amplifier__Body;
+}
+namespace GlobalNamespace {
+class RootMotion__FinalIK__Amplifier__Body__EffectorLink;
+}
+namespace RootMotion::FinalIK {
 class IKSolverFullBodyBiped;
 }
 namespace UnityEngine {
@@ -83,8 +89,7 @@ constexpr float_t __get_weight() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Amplifier__Body__EffectorLink() ;
+static GlobalNamespace::RootMotion__FinalIK__Amplifier__Body__EffectorLink New_ctor() ;
 
 /// @brief Method .ctor addr 0x1207794 size 0x8 virtual false final false
  void _ctor() ;
@@ -200,8 +205,7 @@ constexpr bool __get_firstUpdate() const;
 /// @brief Method Multiply addr 0x120776c size 0x10 virtual false final false
 static UnityEngine::Vector3 Multiply(UnityEngine::Vector3 v1, UnityEngine::Vector3 v2) ;
 
-// Ctor Parameters []
-explicit RootMotion__FinalIK__Amplifier__Body() ;
+static RootMotion::FinalIK::RootMotion__FinalIK__Amplifier__Body New_ctor() ;
 
 /// @brief Method .ctor addr 0x120777c size 0x18 virtual false final false
  void _ctor() ;
@@ -266,8 +270,7 @@ constexpr ::ArrayW<RootMotion::FinalIK::RootMotion__FinalIK__Amplifier__Body> __
 /// @brief Method OnModifyOffset addr 0x12072ec size 0x130 virtual true final false
  void OnModifyOffset() ;
 
-// Ctor Parameters []
-explicit Amplifier() ;
+static RootMotion::FinalIK::Amplifier New_ctor() ;
 
 /// @brief Method .ctor addr 0x120774c size 0x10 virtual false final false
  void _ctor() ;

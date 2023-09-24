@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__ValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDebuggerLogCall_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
 //  Writing Method size for method: UnityEngine::UIElements::EventDebuggerLogCall._ctor
 template<>
 

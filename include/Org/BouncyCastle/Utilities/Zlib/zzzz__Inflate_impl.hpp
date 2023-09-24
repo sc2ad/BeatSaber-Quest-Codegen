@@ -1,7 +1,7 @@
 #pragma once
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Inflate_def.hpp"
-#include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfBlocks_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
+#include "Org/BouncyCastle/Utilities/Zlib/zzzz__InfBlocks_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Utilities::Zlib::Inflate.inflateReset
 template<>
 
@@ -255,8 +255,10 @@ static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                         )));
 return ::cordl_internals::RunMethodRethrow<int32_t, false>(const_cast<void*>(instance), ___internal_method, z);
 }
-// Ctor Parameters []
- Org::BouncyCastle::Utilities::Zlib::Inflate::Inflate()  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Inflate>())) {}
+ Org::BouncyCastle::Utilities::Zlib::Inflate Org::BouncyCastle::Utilities::Zlib::Inflate::New_ctor()  {
+Org::BouncyCastle::Utilities::Zlib::Inflate o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Utilities::Zlib::Inflate>())};
+return o;
+}
  void Org::BouncyCastle::Utilities::Zlib::Inflate::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Utilities::Zlib::Inflate>::get(),

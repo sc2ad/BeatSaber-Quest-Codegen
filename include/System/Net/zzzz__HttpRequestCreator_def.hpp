@@ -1,11 +1,11 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class IWebRequestCreate;
+}
+namespace System {
+class Uri;
 }
 namespace System::Net {
 class WebRequest;
@@ -59,8 +59,7 @@ constexpr explicit HttpRequestCreator(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Methods
 
-// Ctor Parameters []
-explicit HttpRequestCreator() ;
+static System::Net::HttpRequestCreator New_ctor() ;
 
 /// @brief Method .ctor addr 0x28390f0 size 0x8 virtual false final false
  void _ctor() ;

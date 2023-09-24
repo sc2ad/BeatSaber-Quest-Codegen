@@ -3,22 +3,22 @@
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
-}
-namespace UnityEngine::UIElements {
-struct HierarchyChangeType;
+struct VersionChangeType;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct VersionChangeType;
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+struct HierarchyChangeType;
 }
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
+}
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -122,8 +122,7 @@ constexpr bool __get__disposed_k__BackingField() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit UIRRepaintUpdater() ;
+static UnityEngine::UIElements::UIRRepaintUpdater New_ctor() ;
 
 /// @brief Method .ctor addr 0x2d00230 size 0x90 virtual false final false
  void _ctor() ;

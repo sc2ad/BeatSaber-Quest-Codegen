@@ -110,8 +110,10 @@ constexpr void System::Security::Cryptography::SHA1CryptoServiceProvider::__set_
 constexpr System::Security::Cryptography::SHA1Internal System::Security::Cryptography::SHA1CryptoServiceProvider::__get_sha() const {
 return ::cordl_internals::getInstanceField<System::Security::Cryptography::SHA1Internal, 0x28>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters []
- System::Security::Cryptography::SHA1CryptoServiceProvider::SHA1CryptoServiceProvider()  : System::Security::Cryptography::SHA1(THROW_UNLESS(::il2cpp_utils::New<SHA1CryptoServiceProvider>())) {}
+ System::Security::Cryptography::SHA1CryptoServiceProvider System::Security::Cryptography::SHA1CryptoServiceProvider::New_ctor()  {
+System::Security::Cryptography::SHA1CryptoServiceProvider o{THROW_UNLESS(::il2cpp_utils::New<System::Security::Cryptography::SHA1CryptoServiceProvider>())};
+return o;
+}
  void System::Security::Cryptography::SHA1CryptoServiceProvider::_ctor()  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<System::Security::Cryptography::SHA1CryptoServiceProvider>::get(),

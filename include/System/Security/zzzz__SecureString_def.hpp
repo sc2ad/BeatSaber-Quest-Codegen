@@ -81,14 +81,12 @@ constexpr ::ArrayW<uint8_t> __get_data() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit SecureString() ;
+static System::Security::SecureString New_ctor() ;
 
 /// @brief Method .ctor addr 0x22e6710 size 0x24 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }]
-explicit SecureString(void* value, int32_t length) ;
+static System::Security::SecureString New_ctor(void* value, int32_t length) ;
 
 /// @brief Method .ctor addr 0x22e68b0 size 0x14c virtual false final false
  void _ctor(void* value, int32_t length) ;

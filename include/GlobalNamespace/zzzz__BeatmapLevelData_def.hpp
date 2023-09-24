@@ -1,6 +1,10 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
@@ -9,10 +13,6 @@ class IDifficultyBeatmapSet;
 }
 namespace UnityEngine {
 class AudioClip;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -91,8 +91,7 @@ constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDiffic
 /// @brief Method get_difficultyBeatmapSets addr 0x21e3334 size 0x8 virtual true final true
  System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> get_difficultyBeatmapSets() ;
 
-// Ctor Parameters [CppParam { name: "audioClip", ty: "UnityEngine::AudioClip", modifiers: "", def_value: None }, CppParam { name: "difficultyBeatmapSets", ty: "System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet>", modifiers: "", def_value: None }]
-explicit BeatmapLevelData(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;
+static GlobalNamespace::BeatmapLevelData New_ctor(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;
 
 /// @brief Method .ctor addr 0x21e333c size 0x2c virtual false final false
  void _ctor(UnityEngine::AudioClip audioClip, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IDifficultyBeatmapSet> difficultyBeatmapSets) ;

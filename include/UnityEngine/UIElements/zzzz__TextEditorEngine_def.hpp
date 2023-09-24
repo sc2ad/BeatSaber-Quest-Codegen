@@ -4,8 +4,14 @@
 #include "UnityEngine/zzzz__TextEditor_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction;
+}
 namespace UnityEngine {
 struct Rect;
+}
+namespace UnityEngine::UIElements {
+class UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -59,8 +65,7 @@ constexpr explicit UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChang
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2cbcef8 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -114,8 +119,7 @@ constexpr explicit UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunct
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+static UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction New_ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2cbcfc8 size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -193,8 +197,7 @@ constexpr UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__On
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "detectFocusChange", ty: "UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction", modifiers: "", def_value: None }, CppParam { name: "indexChangeFunction", ty: "UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction", modifiers: "", def_value: None }]
-explicit TextEditorEngine(UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction detectFocusChange, UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction indexChangeFunction) ;
+static UnityEngine::UIElements::TextEditorEngine New_ctor(UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction detectFocusChange, UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction indexChangeFunction) ;
 
 /// @brief Method .ctor addr 0x2cbcdd8 size 0x2c virtual false final false
  void _ctor(UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnDetectFocusChangeFunction detectFocusChange, UnityEngine::UIElements::UnityEngine__UIElements__TextEditorEngine__OnIndexChangeFunction indexChangeFunction) ;

@@ -5,6 +5,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
+namespace GlobalNamespace {
+class GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -13,10 +16,10 @@ namespace UnityEngine {
 struct KeyCode;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+struct BasicBeatmapEventType;
 }
 namespace GlobalNamespace {
-struct BasicBeatmapEventType;
+class GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
@@ -29,6 +32,15 @@ class BeatmapEventDataBoxGroupList;
 }
 namespace GlobalNamespace {
 struct EnvironmentColorType;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
@@ -106,8 +118,7 @@ constexpr float_t __get__bpm() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
-explicit GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor(float_t bpm) ;
+static GlobalNamespace::GlobalNamespace__EventsTestGameplayManager__MockBeatToTimeConvertor New_ctor(float_t bpm) ;
 
 /// @brief Method .ctor addr 0x226daf4 size 0x28 virtual false final false
  void _ctor(float_t bpm) ;
@@ -170,8 +181,7 @@ constexpr int32_t __get_lightGroupId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0() ;
+static GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass18_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2270118 size 0x8 virtual false final false
  void _ctor() ;
@@ -234,8 +244,7 @@ constexpr int32_t __get_lightGroupId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0() ;
+static GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass19_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2270120 size 0x8 virtual false final false
  void _ctor() ;
@@ -298,8 +307,7 @@ constexpr int32_t __get_lightGroupId() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0() ;
+static GlobalNamespace::GlobalNamespace__EventsTestGameplayManager____c__DisplayClass20_0 New_ctor() ;
 
 /// @brief Method .ctor addr 0x2270128 size 0x8 virtual false final false
  void _ctor() ;
@@ -469,8 +477,7 @@ constexpr bool __get__rotatingLasers() const;
 /// @brief Method AddTestBox addr 0x226f6d4 size 0xa44 virtual false final false
  void AddTestBox() ;
 
-// Ctor Parameters []
-explicit EventsTestGameplayManager() ;
+static GlobalNamespace::EventsTestGameplayManager New_ctor() ;
 
 /// @brief Method .ctor addr 0x2270130 size 0x65c virtual false final false
  void _ctor() ;

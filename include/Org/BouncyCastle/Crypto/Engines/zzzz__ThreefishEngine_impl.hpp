@@ -1,8 +1,9 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher._ctor
 template<>
 
@@ -66,8 +67,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__En
 constexpr ::ArrayW<uint64_t> Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher::__get_kw() const {
 return ::cordl_internals::getInstanceField<::ArrayW<uint64_t>, 0x18>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher>(kw, t))) {}
+ Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher::New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
+Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher>(kw, t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher::_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher>::get(),
@@ -146,8 +149,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  : Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher>(kw, t))) {}
+ Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher::New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
+Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher>(kw, t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher::_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish256Cipher>::get(),
@@ -226,8 +231,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  : Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher>(kw, t))) {}
+ Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher::New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
+Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher>(kw, t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher::_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish512Cipher>::get(),
@@ -306,8 +313,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
     return ___internal_method;
   }
 };
-// Ctor Parameters [CppParam { name: "kw", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::ArrayW<uint64_t>", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  : Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__ThreefishCipher(THROW_UNLESS(::il2cpp_utils::New<Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher>(kw, t))) {}
+ Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher::New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
+Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher>(kw, t))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher::_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::Org__BouncyCastle__Crypto__Engines__ThreefishEngine__Threefish1024Cipher>::get(),
@@ -660,8 +669,10 @@ constexpr void Org::BouncyCastle::Crypto::Engines::ThreefishEngine::__set_forEnc
 constexpr bool Org::BouncyCastle::Crypto::Engines::ThreefishEngine::__get_forEncryption() const {
 return ::cordl_internals::getInstanceField<bool, 0x38>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "blocksizeBits", ty: "int32_t", modifiers: "", def_value: None }]
- Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishEngine(int32_t blocksizeBits)  : ::bs_hook::Il2CppWrapperType(THROW_UNLESS(::il2cpp_utils::New<ThreefishEngine>(blocksizeBits))) {}
+ Org::BouncyCastle::Crypto::Engines::ThreefishEngine Org::BouncyCastle::Crypto::Engines::ThreefishEngine::New_ctor(int32_t blocksizeBits)  {
+Org::BouncyCastle::Crypto::Engines::ThreefishEngine o{THROW_UNLESS(::il2cpp_utils::New<Org::BouncyCastle::Crypto::Engines::ThreefishEngine>(blocksizeBits))};
+return o;
+}
  void Org::BouncyCastle::Crypto::Engines::ThreefishEngine::_ctor(int32_t blocksizeBits)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Org::BouncyCastle::Crypto::Engines::ThreefishEngine>::get(),

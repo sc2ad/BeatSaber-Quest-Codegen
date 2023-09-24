@@ -10,11 +10,14 @@ struct Color;
 namespace GlobalNamespace {
 class SaberTypeObject;
 }
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace GlobalNamespace {
 class ColorManager;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +83,7 @@ constexpr ::StringW __get_property() const;
 
 // Methods
 
-// Ctor Parameters []
-explicit GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair() ;
+static GlobalNamespace::GlobalNamespace__SetSaberBladeParams__PropertyTintColorPair New_ctor() ;
 
 /// @brief Method .ctor addr 0x210cbc8 size 0x8 virtual false final false
  void _ctor() ;
@@ -164,8 +166,7 @@ constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 /// @brief Method Start addr 0x210cabc size 0x104 virtual false final false
  void Start() ;
 
-// Ctor Parameters []
-explicit SetSaberBladeParams() ;
+static GlobalNamespace::SetSaberBladeParams New_ctor() ;
 
 /// @brief Method .ctor addr 0x210cbc0 size 0x8 virtual false final false
  void _ctor() ;

@@ -2,11 +2,11 @@
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__TransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 //  Writing Method size for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder._ctor
 template<>
 
@@ -115,8 +115,10 @@ constexpr void Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::_
 constexpr Zenject::GameObjectCreationParameters Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::__get__GameObjectInfo_k__BackingField() const {
 return ::cordl_internals::getInstanceField<Zenject::GameObjectCreationParameters, 0x20>(this->::bs_hook::Il2CppWrapperType::instance);
 }
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::BindInfo", modifiers: "", def_value: None }, CppParam { name: "gameObjectInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }]
- Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::TransformScopeConcreteIdArgConditionCopyNonLazyBinder(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo)  : Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder(THROW_UNLESS(::il2cpp_utils::New<TransformScopeConcreteIdArgConditionCopyNonLazyBinder>(bindInfo, gameObjectInfo))) {}
+ Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo)  {
+Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder o{THROW_UNLESS(::il2cpp_utils::New<Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder>(bindInfo, gameObjectInfo))};
+return o;
+}
  void Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor(Zenject::BindInfo bindInfo, Zenject::GameObjectCreationParameters gameObjectInfo)  {
 static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder>::get(),
