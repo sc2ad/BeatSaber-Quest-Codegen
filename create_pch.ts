@@ -44,7 +44,27 @@ const sysroot = path.join(
 
 console.log("Using clang", clangPath);
 
-for await (const dirEntry of fs.walk(codegenHeaders, { includeFiles: false })) {
+async function gen2array<T>(gen: AsyncIterable<T>): Promise<T[]> {
+  const out: T[] = [];
+  for await (const x of gen) {
+    out.push(x);
+  }
+  return out;
+}
+const directories = await gen2array(
+  fs.walk(codegenHeaders, { includeFiles: false })
+);
+
+const sortedDirectories = directories.sort((a, b) =>
+  (a.path + a.name).localeCompare(b.path + b.name)
+);
+
+console.log(
+  "Compiling:\n",
+  sortedDirectories.map((a) => path.join(a.path, a.name)).join("\n")
+);
+
+for (const dirEntry of sortedDirectories) {
   // Namespace/Namespace.hpp
   const namespaceHeader = path.join(dirEntry.path, `${dirEntry.name}.hpp`);
 
@@ -53,12 +73,15 @@ for await (const dirEntry of fs.walk(codegenHeaders, { includeFiles: false })) {
     continue;
   }
 
-  console.log(`Compiling PCH:`, dirEntry.name);
+  const strippedPath = path.relative(Deno.cwd(), namespaceHeader);
+
+  console.log(`Compiling PCH:`, strippedPath);
   await buildHeader(namespaceHeader);
 }
 
 async function buildHeader(headerPath: string) {
-  const compileCommandsPath = path.join(Deno.cwd(), 'build', path.basename(headerPath)) + '.json.tmp';
+  const compileCommandsPath =
+    path.join(Deno.cwd(), "build", path.basename(headerPath)) + ".json.tmp";
 
   // "clang -cc1 test.h -emit-pch -o test.h.pch"
   const args = [
@@ -108,24 +131,23 @@ async function buildHeader(headerPath: string) {
 }
 
 async function fixupCompileCommands(path: string) {
-  const tempFile = await Deno.readTextFile(path)
-  const tempJson = JSON.parse(tempFile.trim())
-
+  const tempFile = await Deno.readTextFile(path);
+  const tempJson = JSON.parse(tempFile.trim());
 
   const filePath = "./build/compile_commands.json";
 
   // create file if needed
-  await fs.ensureFile(filePath)
+  await fs.ensureFile(filePath);
 
   const defaultFileContents: string = await Deno.readTextFile(filePath);
 
   let fileJson: unknown[];
   if (defaultFileContents.trim() === "") {
-    fileJson = []
+    fileJson = [];
   } else {
-    fileJson = JSON.parse(defaultFileContents.trim())
+    fileJson = JSON.parse(defaultFileContents.trim());
   }
 
-  const final = fileJson.concat(...tempJson)
+  const final = fileJson.concat(...tempJson);
   await Deno.writeTextFile(filePath, JSON.stringify(final));
 }
