@@ -64,20 +64,34 @@ console.log(
   sortedDirectories.map((a) => path.join(a.path, a.name)).join("\n")
 );
 
-for (const dirEntry of sortedDirectories) {
-  // Namespace/Namespace.hpp
-  const namespaceHeader = path.join(dirEntry.path, `${dirEntry.name}.hpp`);
+console.log("Using thread count: ", navigator.hardwareConcurrency);
 
-  if (!(await fs.exists(namespaceHeader))) {
-    console.log("Skipping", dirEntry.name, " does not exist");
-    continue;
-  }
+const promises = new Array<number>(navigator.hardwareConcurrency)
+  .fill(0) // make array have elements
+  .map(async (_, i) => {
+    console.log("Starting thread", i);
+    while (true) {
+      const dirEntry = sortedDirectories.pop();
 
-  const strippedPath = path.relative(Deno.cwd(), namespaceHeader);
+      if (dirEntry === undefined) return;
 
-  console.log(`Compiling PCH:`, strippedPath);
-  await buildHeader(namespaceHeader);
-}
+      // Namespace/Namespace.hpp
+      const namespaceHeader = path.join(dirEntry.path, `${dirEntry.name}.hpp`);
+
+      if (!(await fs.exists(namespaceHeader))) {
+        console.log("Skipping", dirEntry.name, " does not exist");
+        continue;
+      }
+
+      const strippedPath = path.relative(Deno.cwd(), namespaceHeader);
+
+      console.log(`Compiling PCH:`, strippedPath);
+      await buildHeader(namespaceHeader);
+    }
+  });
+
+console.log("Waiting for compiles to finish");
+await Promise.all(promises);
 
 async function buildHeader(headerPath: string) {
   const compileCommandsPath =
