@@ -6,10 +6,9 @@ qpm.lock.json
 ndkpath.txt
 obj/
 libs/
-qpm.shared.json
+.cache/
 
 *.zip
-qpm.shared.json
 mod.json
 extern.cmake
 qpm_defines.cmake
