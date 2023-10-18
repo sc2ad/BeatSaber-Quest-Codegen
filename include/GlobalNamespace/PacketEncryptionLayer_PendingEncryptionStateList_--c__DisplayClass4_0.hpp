@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 port
     [[deprecated("Use field access instead!")]] int& dyn_port();
     // public System.Void .ctor()
-    // Offset: 0x26AF958
+    // Offset: 0x19FFB98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Int32 <GetSortedEncryptionStates>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,EncryptionUtility/IEncryptionState> kvp)
-    // Offset: 0x26AFD3C
+    // Offset: 0x19FFC58
     int $GetSortedEncryptionStates$b__0(::System::Collections::Generic::KeyValuePair_2<int, ::GlobalNamespace::EncryptionUtility::IEncryptionState*> kvp);
   }; // PacketEncryptionLayer/PendingEncryptionStateList/<>c__DisplayClass4_0
   #pragma pack(pop)

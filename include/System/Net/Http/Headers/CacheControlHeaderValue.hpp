@@ -179,117 +179,117 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.TimeSpan> <SharedMaxAge>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<::System::TimeSpan>& dyn_$SharedMaxAge$k__BackingField();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Extensions()
-    // Offset: 0x19FBD24
+    // Offset: 0x19E0E10
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();
     // public System.Nullable`1<System.TimeSpan> get_MaxAge()
-    // Offset: 0x19FBD98
+    // Offset: 0x19E0E84
     ::System::Nullable_1<::System::TimeSpan> get_MaxAge();
     // public System.Void set_MaxAge(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x19FBDA4
+    // Offset: 0x19E0E90
     void set_MaxAge(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Boolean get_MaxStale()
-    // Offset: 0x19FBDAC
+    // Offset: 0x19E0E98
     bool get_MaxStale();
     // public System.Void set_MaxStale(System.Boolean value)
-    // Offset: 0x19FBDB4
+    // Offset: 0x19E0EA0
     void set_MaxStale(bool value);
     // public System.Nullable`1<System.TimeSpan> get_MaxStaleLimit()
-    // Offset: 0x19FBDC0
+    // Offset: 0x19E0EAC
     ::System::Nullable_1<::System::TimeSpan> get_MaxStaleLimit();
     // public System.Void set_MaxStaleLimit(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x19FBDCC
+    // Offset: 0x19E0EB8
     void set_MaxStaleLimit(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Nullable`1<System.TimeSpan> get_MinFresh()
-    // Offset: 0x19FBDD4
+    // Offset: 0x19E0EC0
     ::System::Nullable_1<::System::TimeSpan> get_MinFresh();
     // public System.Void set_MinFresh(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x19FBDE0
+    // Offset: 0x19E0ECC
     void set_MinFresh(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Boolean get_MustRevalidate()
-    // Offset: 0x19FBDE8
+    // Offset: 0x19E0ED4
     bool get_MustRevalidate();
     // public System.Void set_MustRevalidate(System.Boolean value)
-    // Offset: 0x19FBDF0
+    // Offset: 0x19E0EDC
     void set_MustRevalidate(bool value);
     // public System.Boolean get_NoCache()
-    // Offset: 0x19FBDFC
+    // Offset: 0x19E0EE8
     bool get_NoCache();
     // public System.Void set_NoCache(System.Boolean value)
-    // Offset: 0x19FBE04
+    // Offset: 0x19E0EF0
     void set_NoCache(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_NoCacheHeaders()
-    // Offset: 0x19FBE10
+    // Offset: 0x19E0EFC
     ::System::Collections::Generic::ICollection_1<::StringW>* get_NoCacheHeaders();
     // public System.Boolean get_NoStore()
-    // Offset: 0x19FBE84
+    // Offset: 0x19E0F70
     bool get_NoStore();
     // public System.Void set_NoStore(System.Boolean value)
-    // Offset: 0x19FBE8C
+    // Offset: 0x19E0F78
     void set_NoStore(bool value);
     // public System.Boolean get_NoTransform()
-    // Offset: 0x19FBE98
+    // Offset: 0x19E0F84
     bool get_NoTransform();
     // public System.Void set_NoTransform(System.Boolean value)
-    // Offset: 0x19FBEA0
+    // Offset: 0x19E0F8C
     void set_NoTransform(bool value);
     // public System.Boolean get_OnlyIfCached()
-    // Offset: 0x19FBEAC
+    // Offset: 0x19E0F98
     bool get_OnlyIfCached();
     // public System.Void set_OnlyIfCached(System.Boolean value)
-    // Offset: 0x19FBEB4
+    // Offset: 0x19E0FA0
     void set_OnlyIfCached(bool value);
     // public System.Boolean get_Private()
-    // Offset: 0x19FBEC0
+    // Offset: 0x19E0FAC
     bool get_Private();
     // public System.Void set_Private(System.Boolean value)
-    // Offset: 0x19FBEC8
+    // Offset: 0x19E0FB4
     void set_Private(bool value);
     // public System.Collections.Generic.ICollection`1<System.String> get_PrivateHeaders()
-    // Offset: 0x19FBED4
+    // Offset: 0x19E0FC0
     ::System::Collections::Generic::ICollection_1<::StringW>* get_PrivateHeaders();
     // public System.Boolean get_ProxyRevalidate()
-    // Offset: 0x19FBF48
+    // Offset: 0x19E1034
     bool get_ProxyRevalidate();
     // public System.Void set_ProxyRevalidate(System.Boolean value)
-    // Offset: 0x19FBF50
+    // Offset: 0x19E103C
     void set_ProxyRevalidate(bool value);
     // public System.Boolean get_Public()
-    // Offset: 0x19FBF5C
+    // Offset: 0x19E1048
     bool get_Public();
     // public System.Void set_Public(System.Boolean value)
-    // Offset: 0x19FBF64
+    // Offset: 0x19E1050
     void set_Public(bool value);
     // public System.Nullable`1<System.TimeSpan> get_SharedMaxAge()
-    // Offset: 0x19FBF70
+    // Offset: 0x19E105C
     ::System::Nullable_1<::System::TimeSpan> get_SharedMaxAge();
     // public System.Void set_SharedMaxAge(System.Nullable`1<System.TimeSpan> value)
-    // Offset: 0x19FBF7C
+    // Offset: 0x19E1068
     void set_SharedMaxAge(::System::Nullable_1<::System::TimeSpan> value);
     // public System.Void .ctor()
-    // Offset: 0x19FD174
+    // Offset: 0x19E2260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CacheControlHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::CacheControlHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CacheControlHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x19FBF84
+    // Offset: 0x19E1070
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.CacheControlHeaderValue parsedValue)
-    // Offset: 0x19FC888
+    // Offset: 0x19E1974
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x19FC308
+    // Offset: 0x19E13F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x19FC690
+    // Offset: 0x19E177C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x19FD2EC
+    // Offset: 0x19E23D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

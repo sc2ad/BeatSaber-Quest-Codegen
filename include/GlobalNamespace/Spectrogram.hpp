@@ -52,15 +52,15 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::MeshRenderer*> meshRenderers;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::MeshRenderer*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x1125C34
-    // [NullAllowed] Offset: 0x1125C34
+    // [SpaceAttribute] Offset: 0x1122908
+    // [NullAllowed] Offset: 0x1122908
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1125C7C
+    // [InjectAttribute] Offset: 0x1122950
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
     // Offset: 0x28
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1125C8C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1122960
     // Get static field: static private readonly System.Int32 _spectrogramDataID
     static int _get__spectrogramDataID();
     // Set static field: static private readonly System.Int32 _spectrogramDataID
@@ -86,23 +86,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // private UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1422A9C
+    // Offset: 0x14A0AE4
     ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void .ctor()
-    // Offset: 0x1422DC0
+    // Offset: 0x14A0E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Spectrogram* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Spectrogram::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Spectrogram*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1422DC8
+    // Offset: 0x14A0E10
     static void _cctor();
     // protected System.Void Awake()
-    // Offset: 0x1422B5C
+    // Offset: 0x14A0BA4
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x1422C44
+    // Offset: 0x14A0C8C
     void Update();
   }; // Spectrogram
   #pragma pack(pop)

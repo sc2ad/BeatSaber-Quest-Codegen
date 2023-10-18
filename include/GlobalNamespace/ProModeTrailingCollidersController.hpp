@@ -80,20 +80,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x145D7EC
+    // Offset: 0x1442B9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ProModeTrailingCollidersController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ProModeTrailingCollidersController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ProModeTrailingCollidersController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x145D4D4
+    // Offset: 0x1442884
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x145D570
+    // Offset: 0x1442920
     void OnDestroy();
     // private System.Void HandleNoteDidMoveInJumpPhase()
-    // Offset: 0x145D644
+    // Offset: 0x14429F4
     void HandleNoteDidMoveInJumpPhase();
   }; // ProModeTrailingCollidersController
   #pragma pack(pop)

@@ -47,38 +47,38 @@ namespace RootMotion::FinalIK {
     ::RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IK*) == 0x8);
-    // [TooltipAttribute] Offset: 0x11498AC
+    // [TooltipAttribute] Offset: 0x1146848
     // public UnityEngine.Transform parent
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x11498E4
+    // [TooltipAttribute] Offset: 0x1146880
     // public UnityEngine.Transform child
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::Transform* child;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [TooltipAttribute] Offset: 0x114991C
-    // [RangeAttribute] Offset: 0x114991C
+    // [TooltipAttribute] Offset: 0x11468B8
+    // [RangeAttribute] Offset: 0x11468B8
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x30
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1149970
-    // [RangeAttribute] Offset: 0x1149970
+    // [TooltipAttribute] Offset: 0x114690C
+    // [RangeAttribute] Offset: 0x114690C
     // public System.Single parentChildCrossfade
     // Size: 0x4
     // Offset: 0x34
     float parentChildCrossfade;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x11499C4
-    // [RangeAttribute] Offset: 0x11499C4
+    // [TooltipAttribute] Offset: 0x1146960
+    // [RangeAttribute] Offset: 0x1146960
     // public System.Single twistAngleOffset
     // Size: 0x4
     // Offset: 0x38
@@ -133,26 +133,26 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 axisRelativeToChildDefault
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_axisRelativeToChildDefault();
     // public System.Void .ctor()
-    // Offset: 0x207B4B0
+    // Offset: 0x206D658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TwistRelaxer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::TwistRelaxer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TwistRelaxer*, creationType>()));
     }
     // public System.Void Relax()
-    // Offset: 0x207AA48
+    // Offset: 0x206CBF0
     void Relax();
     // private System.Void Start()
-    // Offset: 0x207AE28
+    // Offset: 0x206CFD0
     void Start();
     // private System.Void OnPostUpdate()
-    // Offset: 0x207B29C
+    // Offset: 0x206D444
     void OnPostUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x207B324
+    // Offset: 0x206D4CC
     void LateUpdate();
     // private System.Void OnDestroy()
-    // Offset: 0x207B3AC
+    // Offset: 0x206D554
     void OnDestroy();
   }; // RootMotion.FinalIK.TwistRelaxer
   #pragma pack(pop)

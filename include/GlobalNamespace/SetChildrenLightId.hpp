@@ -41,7 +41,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _ID
     [[deprecated("Use field access instead!")]] int& dyn__ID();
     // public System.Void .ctor()
-    // Offset: 0x1CF1134
+    // Offset: 0x1CC49E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetChildrenLightId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SetChildrenLightId::.ctor");

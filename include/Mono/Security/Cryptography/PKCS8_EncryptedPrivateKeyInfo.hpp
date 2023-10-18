@@ -62,33 +62,33 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Byte[] _data
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__data();
     // public System.String get_Algorithm()
-    // Offset: 0x23CF1BC
+    // Offset: 0x23C65F8
     ::StringW get_Algorithm();
     // public System.Byte[] get_EncryptedData()
-    // Offset: 0x23CF1C4
+    // Offset: 0x23C6600
     ::ArrayW<uint8_t> get_EncryptedData();
     // public System.Byte[] get_Salt()
-    // Offset: 0x23CF240
+    // Offset: 0x23C667C
     ::ArrayW<uint8_t> get_Salt();
     // public System.Int32 get_IterationCount()
-    // Offset: 0x23CF304
+    // Offset: 0x23C6740
     int get_IterationCount();
     // public System.Void .ctor()
-    // Offset: 0x23CEF04
+    // Offset: 0x23C6340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>()));
     }
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x23CEF0C
+    // Offset: 0x23C6348
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PKCS8::EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Cryptography::PKCS8::EncryptedPrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::EncryptedPrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
-    // Offset: 0x23CEF3C
+    // Offset: 0x23C6378
     void Decode(::ArrayW<uint8_t> data);
   }; // Mono.Security.Cryptography.PKCS8/Mono.Security.Cryptography.EncryptedPrivateKeyInfo
   #pragma pack(pop)

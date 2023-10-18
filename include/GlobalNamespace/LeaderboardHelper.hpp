@@ -59,17 +59,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _leaderboardIds
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::StringW>*& dyn__leaderboardIds();
     // public System.Void .ctor()
-    // Offset: 0x13B3A74
+    // Offset: 0x13A138C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardHelper*, creationType>()));
     }
     // public System.Void CreateOculusLeaderboards(LeaderboardIdsModelSO leaderboardIdsModel, BeatmapLevelCollectionSO _levelCollection, System.Boolean debug, System.String appToken)
-    // Offset: 0x13B2C10
+    // Offset: 0x13A0528
     void CreateOculusLeaderboards(::GlobalNamespace::LeaderboardIdsModelSO* leaderboardIdsModel, ::GlobalNamespace::BeatmapLevelCollectionSO* _levelCollection, bool debug, ::StringW appToken);
     // private System.Void CreateOculusLeaderboard(System.String leaderboardID, System.String appToken)
-    // Offset: 0x13B39B0
+    // Offset: 0x13A12C8
     void CreateOculusLeaderboard(::StringW leaderboardID, ::StringW appToken);
   }; // LeaderboardHelper
   #pragma pack(pop)

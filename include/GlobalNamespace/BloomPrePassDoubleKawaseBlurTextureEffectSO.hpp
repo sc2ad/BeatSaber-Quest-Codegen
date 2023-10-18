@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   class BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x11158C8
+    // [SpaceAttribute] Offset: 0x1112494
     // private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
     // Size: 0x4
     // Offset: 0x2C
@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: gammaCorrection and: kawaseBlurRenderer
     char __padding6[0x3] = {};
-    // [SpaceAttribute] Offset: 0x1115960
+    // [SpaceAttribute] Offset: 0x111252C
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x48
@@ -112,14 +112,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private KawaseBlurRendererSO _kawaseBlurRenderer
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::KawaseBlurRendererSO*& dyn__kawaseBlurRenderer();
     // public System.Void .ctor()
-    // Offset: 0x2AF7318
+    // Offset: 0x2B039A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassDoubleKawaseBlurTextureEffectSO*, creationType>()));
     }
     // public override System.Void Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x2AF72E0
+    // Offset: 0x2B03970
     // Implemented from: TextureEffectSO
     // Base method: System.Void TextureEffectSO::Render(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);

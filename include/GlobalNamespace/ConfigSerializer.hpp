@@ -28,17 +28,17 @@ namespace GlobalNamespace {
   class ConfigSerializer : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x161FA74
+    // Offset: 0x1633674
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConfigSerializer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConfigSerializer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConfigSerializer*, creationType>()));
     }
     // static public System.Void SaveConfig(System.Object config, System.String filePath)
-    // Offset: 0x161F074
+    // Offset: 0x1632C74
     static void SaveConfig(::Il2CppObject* config, ::StringW filePath);
     // static public System.Boolean LoadConfig(System.Object config, System.String filePath)
-    // Offset: 0x161F4AC
+    // Offset: 0x16330AC
     static bool LoadConfig(::Il2CppObject* config, ::StringW filePath);
   }; // ConfigSerializer
   #pragma pack(pop)

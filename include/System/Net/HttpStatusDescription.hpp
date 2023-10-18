@@ -31,10 +31,10 @@ namespace System::Net {
   class HttpStatusDescription : public ::Il2CppObject {
     public:
     // static System.String Get(System.Net.HttpStatusCode code)
-    // Offset: 0x1AF9A24
+    // Offset: 0x1AD3AE0
     static ::StringW Get(::System::Net::HttpStatusCode code);
     // static System.String Get(System.Int32 code)
-    // Offset: 0x1AF2218
+    // Offset: 0x1ACC2D4
     static ::StringW Get(int code);
   }; // System.Net.HttpStatusDescription
   #pragma pack(pop)

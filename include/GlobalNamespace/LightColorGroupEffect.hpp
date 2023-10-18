@@ -150,7 +150,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(bool) == 0x1);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1124668
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112133C
     // Get static field: static private readonly UnityEngine.Color offColor
     static ::UnityEngine::Color _get_offColor();
     // Set static field: static private readonly UnityEngine.Color offColor
@@ -186,32 +186,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _usingBoostColors
     [[deprecated("Use field access instead!")]] bool& dyn__usingBoostColors();
     // public System.Void .ctor(LightColorGroupEffect/InitData initData, LightWithIdManager lightManager, Tweening.SongTimeTweeningManager tweeningManager, ColorManager colorManager, BeatmapCallbacksController beatmapCallbacksController, IBpmController bpmController)
-    // Offset: 0x1552934
+    // Offset: 0x156B60C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect::InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorGroupEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorGroupEffect*, creationType>(initData, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1553388
+    // Offset: 0x156C060
     static void _cctor();
     // public System.Void Cleanup()
-    // Offset: 0x1552BCC
+    // Offset: 0x156B8A4
     void Cleanup();
     // private System.Void HandleColorChangeBeatmapEvent(LightColorBeatmapEventData currentEventData)
-    // Offset: 0x1552C78
+    // Offset: 0x156B950
     void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
     // public System.Void UseBoostColors(System.Boolean useBoostColors)
-    // Offset: 0x15530E4
+    // Offset: 0x156BDBC
     void UseBoostColors(bool useBoostColors);
     // protected UnityEngine.Color GetColor(EnvironmentColorType colorType, System.Boolean colorBoost, System.Single brightness)
-    // Offset: 0x15531D0
+    // Offset: 0x156BEA8
     ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float brightness);
     // private System.Void SetData(UnityEngine.Color fromColor, UnityEngine.Color toColor, UnityEngine.Color alternativeFromColor, UnityEngine.Color alternativeToColor, System.Single fromStrobeBeatFrequency, System.Single toStrobeBeatFrequency)
-    // Offset: 0x1553208
+    // Offset: 0x156BEE0
     void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float fromStrobeBeatFrequency, float toStrobeBeatFrequency);
     // private System.Void SetColor(System.Single t)
-    // Offset: 0x1552FA0
+    // Offset: 0x156BC78
     void SetColor(float t);
   }; // LightColorGroupEffect
   #pragma pack(pop)

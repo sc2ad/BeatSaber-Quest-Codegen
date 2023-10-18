@@ -67,14 +67,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String referencePlayerId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_referencePlayerId();
     // public System.Void .ctor()
-    // Offset: 0x138322C
+    // Offset: 0x1346224
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0*, creationType>()));
     }
     // System.Void <GetScores>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0x13834DC
+    // Offset: 0x13464D4
     void $GetScores$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
   }; // OculusPlatformLeaderboardsHandler/<>c__DisplayClass6_0
   #pragma pack(pop)

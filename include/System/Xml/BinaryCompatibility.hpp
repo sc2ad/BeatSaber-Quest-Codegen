@@ -28,13 +28,13 @@ namespace System::Xml {
     // Set static field: static private System.Boolean _targetsAtLeast_Desktop_V4_5_2
     static void _set__targetsAtLeast_Desktop_V4_5_2(bool value);
     // static System.Boolean get_TargetsAtLeast_Desktop_V4_5_2()
-    // Offset: 0x1B09910
+    // Offset: 0x1AE39CC
     static bool get_TargetsAtLeast_Desktop_V4_5_2();
     // static private System.Void .cctor()
-    // Offset: 0x1B09B74
+    // Offset: 0x1AE3C30
     static void _cctor();
     // static private System.Boolean RunningOnCheck(System.String propertyName)
-    // Offset: 0x1B09978
+    // Offset: 0x1AE3A34
     static bool RunningOnCheck(::StringW propertyName);
   }; // System.Xml.BinaryCompatibility
   #pragma pack(pop)

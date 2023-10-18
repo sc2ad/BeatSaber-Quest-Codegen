@@ -97,24 +97,24 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single _beatStep
     [[deprecated("Use field access instead!")]] float& dyn__beatStep();
     // public System.Void .ctor(IndexFilter indexFilter, System.Single beatDistributionParam, BeatmapEventDataBox/DistributionParamType beatDistributionParamType, LightAxis axis, System.Boolean flipRotation, System.Single rotationDistributionParam, BeatmapEventDataBox/DistributionParamType rotationDistributionParamType, System.Boolean rotationDistributionShouldAffectFirstBaseEvent, EaseType rotationDistributionEaseType, System.Collections.Generic.IReadOnlyList`1<LightRotationBaseData> lightRotationBaseDataList)
-    // Offset: 0x1555600
+    // Offset: 0x156E2D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightRotationBeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, float beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType beatDistributionParamType, ::GlobalNamespace::LightAxis axis, bool flipRotation, float rotationDistributionParam, ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightRotationBeatmapEventDataBox::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightRotationBeatmapEventDataBox*, creationType>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipRotation, rotationDistributionParam, rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent, rotationDistributionEaseType, lightRotationBaseDataList)));
     }
     // public override System.Int32 get_subtypeIdentifier()
-    // Offset: 0x15555F0
+    // Offset: 0x156E2C8
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Int32 BeatmapEventDataBox::get_subtypeIdentifier()
     int get_subtypeIdentifier();
     // public override System.Single get_beatStep()
-    // Offset: 0x15555F8
+    // Offset: 0x156E2D0
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Single BeatmapEventDataBox::get_beatStep()
     float get_beatStep();
     // public override System.Void Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 durationOrderIndex, System.Int32 distributionOrderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
-    // Offset: 0x1555848
+    // Offset: 0x156E520
     // Implemented from: BeatmapEventDataBox
     // Base method: System.Void BeatmapEventDataBox::Unpack(System.Single groupBoxBeat, System.Int32 groupId, System.Int32 elementId, System.Int32 durationOrderIndex, System.Int32 distributionOrderIndex, System.Single maxBeat, IBeatToTimeConvertor beatToTimeConvertor, System.Collections.Generic.List`1<BeatmapEventData> output)
     void Unpack(float groupBoxBeat, int groupId, int elementId, int durationOrderIndex, int distributionOrderIndex, float maxBeat, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);

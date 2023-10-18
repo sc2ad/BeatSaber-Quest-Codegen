@@ -133,75 +133,75 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Int32 xOff
     [[deprecated("Use field access instead!")]] int& dyn_xOff();
     // public System.String get_AlgorithmName()
-    // Offset: 0x1EE27EC
+    // Offset: 0x1EDE8E8
     ::StringW get_AlgorithmName();
     // public System.Void .ctor()
-    // Offset: 0x1EE252C
+    // Offset: 0x1EDE628
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TigerDigest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::TigerDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TigerDigest*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.TigerDigest t)
-    // Offset: 0x1EE265C
+    // Offset: 0x1EDE758
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TigerDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::TigerDigest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TigerDigest*, creationType>(t)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1EE3964
+    // Offset: 0x1EDFA60
     static void _cctor();
     // public System.Int32 GetDigestSize()
-    // Offset: 0x1EE2834
+    // Offset: 0x1EDE930
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x1EE283C
+    // Offset: 0x1EDE938
     int GetByteLength();
     // private System.Void ProcessWord(System.Byte[] b, System.Int32 off)
-    // Offset: 0x1EE2844
+    // Offset: 0x1EDE940
     void ProcessWord(::ArrayW<uint8_t> b, int off);
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1EE2D6C
+    // Offset: 0x1EDEE68
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1EE2DF0
+    // Offset: 0x1EDEEEC
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Void RoundABC(System.Int64 x, System.Int64 mul)
-    // Offset: 0x1EE2F1C
+    // Offset: 0x1EDF018
     void RoundABC(int64_t x, int64_t mul);
     // private System.Void RoundBCA(System.Int64 x, System.Int64 mul)
-    // Offset: 0x1EE30EC
+    // Offset: 0x1EDF1E8
     void RoundBCA(int64_t x, int64_t mul);
     // private System.Void RoundCAB(System.Int64 x, System.Int64 mul)
-    // Offset: 0x1EE32B8
+    // Offset: 0x1EDF3B4
     void RoundCAB(int64_t x, int64_t mul);
     // private System.Void KeySchedule()
-    // Offset: 0x1EE3484
+    // Offset: 0x1EDF580
     void KeySchedule();
     // private System.Void ProcessBlock()
-    // Offset: 0x1EE2980
+    // Offset: 0x1EDEA7C
     void ProcessBlock();
     // private System.Void UnpackWord(System.Int64 r, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EE3714
+    // Offset: 0x1EDF810
     void UnpackWord(int64_t r, ::ArrayW<uint8_t> output, int outOff);
     // private System.Void ProcessLength(System.Int64 bitLength)
-    // Offset: 0x1EE3810
+    // Offset: 0x1EDF90C
     void ProcessLength(int64_t bitLength);
     // private System.Void Finish()
-    // Offset: 0x1EE3848
+    // Offset: 0x1EDF944
     void Finish();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EE3898
+    // Offset: 0x1EDF994
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1EE25AC
+    // Offset: 0x1EDE6A8
     void Reset();
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x1EE3904
+    // Offset: 0x1EDFA00
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x1EE26EC
+    // Offset: 0x1EDE7E8
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.TigerDigest
   #pragma pack(pop)

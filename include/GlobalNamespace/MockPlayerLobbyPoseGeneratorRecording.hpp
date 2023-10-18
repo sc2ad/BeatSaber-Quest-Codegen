@@ -18,11 +18,6 @@ namespace GlobalNamespace {
   // Forward declaring type: IMultiplayerSessionManager
   class IMultiplayerSessionManager;
 }
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: CancellationToken
-  struct CancellationToken;
-}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -41,17 +36,22 @@ namespace GlobalNamespace {
   class MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
     public:
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager)
-    // Offset: 0x14C1D4C
+    // Offset: 0x141D18C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerLobbyPoseGeneratorRecording*, creationType>(multiplayerSessionManager)));
     }
-    // public override System.Void SendPoses(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14C4188
+    // public override System.Void Init()
+    // Offset: 0x141EB70
     // Implemented from: MockPlayerLobbyPoseGenerator
-    // Base method: System.Void MockPlayerLobbyPoseGenerator::SendPoses(System.Threading.CancellationToken cancellationToken)
-    void SendPoses(::System::Threading::CancellationToken cancellationToken);
+    // Base method: System.Void MockPlayerLobbyPoseGenerator::Init()
+    void Init();
+    // public override System.Void Tick()
+    // Offset: 0x141EBDC
+    // Implemented from: MockPlayerLobbyPoseGenerator
+    // Base method: System.Void MockPlayerLobbyPoseGenerator::Tick()
+    void Tick();
   }; // MockPlayerLobbyPoseGeneratorRecording
   #pragma pack(pop)
 }
@@ -60,12 +60,19 @@ namespace GlobalNamespace {
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::SendPoses
-// Il2CppName: SendPoses
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Init
+// Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)(::System::Threading::CancellationToken)>(&GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::SendPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)()>(&GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Init)> {
   static const MethodInfo* get() {
-    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Tick
+// Il2CppName: Tick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)()>(&GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Tick)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

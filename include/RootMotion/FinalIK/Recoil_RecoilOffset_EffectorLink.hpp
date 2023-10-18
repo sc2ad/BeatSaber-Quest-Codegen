@@ -26,14 +26,14 @@ namespace RootMotion::FinalIK {
   class Recoil::RecoilOffset::EffectorLink : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x114E530
+    // [TooltipAttribute] Offset: 0x114B4CC
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::FullBodyBipedEffector effector;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::FullBodyBipedEffector) == 0x4);
-    // [TooltipAttribute] Offset: 0x114E568
+    // [TooltipAttribute] Offset: 0x114B504
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x14
@@ -46,7 +46,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single weight
     [[deprecated("Use field access instead!")]] float& dyn_weight();
     // public System.Void .ctor()
-    // Offset: 0x2076974
+    // Offset: 0x2068B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Recoil::RecoilOffset::EffectorLink* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink::.ctor");

@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Vector3 targetLocalPosition;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [SpaceAttribute] Offset: 0x11287C4
+    // [SpaceAttribute] Offset: 0x1125630
     // private UnityEngine.AudioClip _readyClip
     // Size: 0x8
     // Offset: 0x40
@@ -125,7 +125,7 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioClip* buildUpClip;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioClip*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112882C
+    // [SpaceAttribute] Offset: 0x1125698
     // private MultiplayerIntroCountdownTextController _textController0
     // Size: 0x8
     // Offset: 0x60
@@ -144,14 +144,14 @@ namespace GlobalNamespace {
     ::UnityEngine::AudioSource* audioSource;
     // Field size check
     static_assert(sizeof(::UnityEngine::AudioSource*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1128884
+    // [SpaceAttribute] Offset: 0x11256F0
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x78
     ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* multiplayerOffsetByLocalPlayerPosition;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*) == 0x8);
-    // [InjectAttribute] Offset: 0x11288BC
+    // [InjectAttribute] Offset: 0x1125728
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x80
@@ -216,32 +216,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _alpha
     [[deprecated("Use field access instead!")]] float& dyn__alpha();
     // public System.Single get_textAppearDuration()
-    // Offset: 0x14D9008
+    // Offset: 0x148A170
     float get_textAppearDuration();
     // public System.Void .ctor()
-    // Offset: 0x14D9480
+    // Offset: 0x148A5E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerIntroCountdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerIntroCountdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerIntroCountdown*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14D9010
+    // Offset: 0x148A178
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x14D9138
+    // Offset: 0x148A2A0
     void OnDestroy();
     // public System.Void StartCountdown(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x14D91D0
+    // Offset: 0x148A338
     void StartCountdown(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator CountdownRoutine(System.Single seconds, System.Single delay, System.Single durationMultiplier)
-    // Offset: 0x14D924C
+    // Offset: 0x148A3B4
     ::System::Collections::IEnumerator* CountdownRoutine(float seconds, float delay, float durationMultiplier);
     // private System.Collections.IEnumerator PlayDelayed(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x14D930C
+    // Offset: 0x148A474
     ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float delay);
     // private System.Collections.IEnumerator PhaseRoutine(System.String text, System.Single appearDuration, System.Single disappearDuration)
-    // Offset: 0x14D93C4
+    // Offset: 0x148A52C
     ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float appearDuration, float disappearDuration);
   }; // MultiplayerIntroCountdown
   #pragma pack(pop)

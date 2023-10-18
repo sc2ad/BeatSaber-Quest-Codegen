@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class BeatEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13D9DDC
+    // Offset: 0x13C185C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatEffect::Pool::.ctor");

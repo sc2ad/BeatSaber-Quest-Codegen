@@ -60,61 +60,61 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: private System.Type <Type>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Type*& dyn_$Type$k__BackingField();
     // public System.Object get_Key()
-    // Offset: 0x19114C0
+    // Offset: 0x18E0D9C
     ::Il2CppObject* get_Key();
     // private System.Void set_Key(System.Object value)
-    // Offset: 0x19114C8
+    // Offset: 0x18E0DA4
     void set_Key(::Il2CppObject* value);
     // public System.Type get_Type()
-    // Offset: 0x19114D0
+    // Offset: 0x18E0DAC
     ::System::Type* get_Type();
     // private System.Void set_Type(System.Type value)
-    // Offset: 0x19114D8
+    // Offset: 0x18E0DB4
     void set_Type(::System::Type* value);
     // public System.Void .ctor(System.Object key)
-    // Offset: 0x19114E0
+    // Offset: 0x18E0DBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::Il2CppObject* key) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(key)));
     }
     // public System.Void .ctor(System.Object key, System.Type type)
-    // Offset: 0x1907180
+    // Offset: 0x18D6A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::Il2CppObject* key, ::System::Type* type) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(key, type)));
     }
     // public System.Void .ctor()
-    // Offset: 0x1911570
+    // Offset: 0x18E0E4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x19115D8
+    // Offset: 0x18E0EB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception innerException)
-    // Offset: 0x1911650
+    // Offset: 0x18E0F2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::StringW message, ::System::Exception* innerException) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(message, innerException)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo message, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x19116D0
+    // Offset: 0x18E0FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InvalidKeyException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::InvalidKeyException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InvalidKeyException*, creationType>(message, context)));
     }
     // public override System.String get_Message()
-    // Offset: 0x1911760
+    // Offset: 0x18E103C
     // Implemented from: System.Exception
     // Base method: System.String Exception::get_Message()
     ::StringW get_Message();

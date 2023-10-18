@@ -36,7 +36,7 @@ namespace Tweening {
   class SongTimeTweeningManager : public ::Tweening::TweeningManager {
     public:
     public:
-    // [InjectAttribute] Offset: 0x113506C
+    // [InjectAttribute] Offset: 0x1132050
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x40
@@ -47,7 +47,7 @@ namespace Tweening {
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // public System.Void .ctor()
-    // Offset: 0x153128C
+    // Offset: 0x15DACEC
     // Implemented from: Tweening.TweeningManager
     // Base method: System.Void TweeningManager::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,7 +56,7 @@ namespace Tweening {
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeTweeningManager*, creationType>()));
     }
     // protected override System.Single GetTime()
-    // Offset: 0x15311DC
+    // Offset: 0x15DAC3C
     // Implemented from: Tweening.TweeningManager
     // Base method: System.Single TweeningManager::GetTime()
     float GetTime();

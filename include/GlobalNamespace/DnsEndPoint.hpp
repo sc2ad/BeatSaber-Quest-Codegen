@@ -25,6 +25,11 @@ namespace System::Net {
   // Forward declaring type: IPEndPoint
   class IPEndPoint;
 }
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
+  // Forward declaring type: ITaskUtility
+  class ITaskUtility;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -79,46 +84,46 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.Tasks.Task`1<System.Net.IPEndPoint> _getEndPointTask
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& dyn__getEndPointTask();
     // public System.Net.IPEndPoint get_endPoint()
-    // Offset: 0x16CCB90
+    // Offset: 0x161C2E8
     ::System::Net::IPEndPoint* get_endPoint();
     // public System.Void .ctor(System.String hostName, System.Int32 port)
-    // Offset: 0x16CBC28
+    // Offset: 0x161B1F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DnsEndPoint* New_ctor(::StringW hostName, int port) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DnsEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DnsEndPoint*, creationType>(hostName, port)));
     }
     // public System.Void .ctor(System.Net.IPEndPoint endPoint)
-    // Offset: 0x16CCC08
+    // Offset: 0x161C360
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DnsEndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DnsEndPoint*, creationType>(endPoint)));
     }
-    // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync()
-    // Offset: 0x16CCCC0
-    ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync();
+    // public System.Threading.Tasks.Task`1<System.Net.IPEndPoint> GetEndPointAsync(BGNet.Core.ITaskUtility taskUtility)
+    // Offset: 0x161C418
+    ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
     // public System.Net.IPEndPoint GetEndPoint()
-    // Offset: 0x16CCD6C
+    // Offset: 0x161C52C
     ::System::Net::IPEndPoint* GetEndPoint();
     // private System.Net.IPEndPoint GetEndPointInternal()
-    // Offset: 0x16CCE04
+    // Offset: 0x161C5C4
     ::System::Net::IPEndPoint* GetEndPointInternal();
     // public System.Boolean Equals(DnsEndPoint other)
-    // Offset: 0x16CD000
+    // Offset: 0x161C7C0
     bool Equals(::GlobalNamespace::DnsEndPoint* other);
     // public override System.String ToString()
-    // Offset: 0x16CCEC8
+    // Offset: 0x161C688
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x16CCF50
+    // Offset: 0x161C710
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16CD050
+    // Offset: 0x161C810
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -147,9 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::N
 // Writing MetadataGetter for method: GlobalNamespace::DnsEndPoint::GetEndPointAsync
 // Il2CppName: GetEndPointAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* (GlobalNamespace::DnsEndPoint::*)()>(&GlobalNamespace::DnsEndPoint::GetEndPointAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* (GlobalNamespace::DnsEndPoint::*)(::BGNet::Core::ITaskUtility*)>(&GlobalNamespace::DnsEndPoint::GetEndPointAsync)> {
   static const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DnsEndPoint*), "GetEndPointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    static auto* taskUtility = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITaskUtility")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DnsEndPoint*), "GetEndPointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskUtility});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DnsEndPoint::GetEndPoint

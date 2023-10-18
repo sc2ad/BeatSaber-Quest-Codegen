@@ -96,40 +96,40 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private System.Boolean <EnableVector4>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$EnableVector4$k__BackingField();
     // public System.Boolean get_EnableVector2()
-    // Offset: 0x18186C8
+    // Offset: 0x1805870
     bool get_EnableVector2();
     // public System.Void set_EnableVector2(System.Boolean value)
-    // Offset: 0x18186D0
+    // Offset: 0x1805878
     void set_EnableVector2(bool value);
     // public System.Boolean get_EnableVector3()
-    // Offset: 0x18186DC
+    // Offset: 0x1805884
     bool get_EnableVector3();
     // public System.Void set_EnableVector3(System.Boolean value)
-    // Offset: 0x18186E4
+    // Offset: 0x180588C
     void set_EnableVector3(bool value);
     // public System.Boolean get_EnableVector4()
-    // Offset: 0x18186F0
+    // Offset: 0x1805898
     bool get_EnableVector4();
     // public System.Void set_EnableVector4(System.Boolean value)
-    // Offset: 0x18186F8
+    // Offset: 0x18058A0
     void set_EnableVector4(bool value);
     // static private System.Void .cctor()
-    // Offset: 0x18190FC
+    // Offset: 0x18062A4
     static void _cctor();
     // static private System.Void WriteVector(Newtonsoft.Json.JsonWriter writer, System.Single x, System.Single y, System.Nullable`1<System.Single> z, System.Nullable`1<System.Single> w)
-    // Offset: 0x18189F8
+    // Offset: 0x1805BA0
     static void WriteVector(::Newtonsoft::Json::JsonWriter* writer, float x, float y, ::System::Nullable_1<float> z, ::System::Nullable_1<float> w);
     // static private UnityEngine.Vector2 PopulateVector2(Newtonsoft.Json.JsonReader reader)
-    // Offset: 0x1818CE4
+    // Offset: 0x1805E8C
     static ::UnityEngine::Vector2 PopulateVector2(::Newtonsoft::Json::JsonReader* reader);
     // static private UnityEngine.Vector3 PopulateVector3(Newtonsoft.Json.JsonReader reader)
-    // Offset: 0x1818DB8
+    // Offset: 0x1805F60
     static ::UnityEngine::Vector3 PopulateVector3(::Newtonsoft::Json::JsonReader* reader);
     // static private UnityEngine.Vector4 PopulateVector4(Newtonsoft.Json.JsonReader reader)
-    // Offset: 0x1818EB8
+    // Offset: 0x1806060
     static ::UnityEngine::Vector4 PopulateVector4(::Newtonsoft::Json::JsonReader* reader);
     // public System.Void .ctor()
-    // Offset: 0x1818704
+    // Offset: 0x18058AC
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -138,17 +138,17 @@ namespace Newtonsoft::Json::Converters {
       return THROW_UNLESS((::il2cpp_utils::New<VectorConverter*, creationType>()));
     }
     // public override System.Void WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1818738
+    // Offset: 0x18058E0
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Void JsonConverter::WriteJson(Newtonsoft.Json.JsonWriter writer, System.Object value, Newtonsoft.Json.JsonSerializer serializer)
     void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::Il2CppObject* value, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Object ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
-    // Offset: 0x1818B94
+    // Offset: 0x1805D3C
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Object JsonConverter::ReadJson(Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Object existingValue, Newtonsoft.Json.JsonSerializer serializer)
     ::Il2CppObject* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::Il2CppObject* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
     // public override System.Boolean CanConvert(System.Type objectType)
-    // Offset: 0x1818FEC
+    // Offset: 0x1806194
     // Implemented from: Newtonsoft.Json.JsonConverter
     // Base method: System.Boolean JsonConverter::CanConvert(System.Type objectType)
     bool CanConvert(::System::Type* objectType);

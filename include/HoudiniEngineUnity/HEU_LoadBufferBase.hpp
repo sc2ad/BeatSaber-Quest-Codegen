@@ -81,14 +81,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public HoudiniEngineUnity.HEU_GeneratedOutput _generatedOutput
     [[deprecated("Use field access instead!")]] ::HoudiniEngineUnity::HEU_GeneratedOutput*& dyn__generatedOutput();
     // public System.Void .ctor()
-    // Offset: 0x18DA2E4
+    // Offset: 0x18A9BC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_LoadBufferBase* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_LoadBufferBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_LoadBufferBase*, creationType>()));
     }
     // public System.Void InitializeBuffer(System.Int32 id, System.String name, System.Boolean bInstanced, System.Boolean bInstancer)
-    // Offset: 0x18DA2C8
+    // Offset: 0x18A9BA4
     void InitializeBuffer(int id, ::StringW name, bool bInstanced, bool bInstancer);
   }; // HoudiniEngineUnity.HEU_LoadBufferBase
   #pragma pack(pop)

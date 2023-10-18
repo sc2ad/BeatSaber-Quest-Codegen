@@ -46,17 +46,17 @@ namespace UnityEngine::Timeline {
     // Set static field: static public System.Comparison`1<UnityEngine.Timeline.TimelineClip> <>9__121_0
     static void _set_$$9__121_0(::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2AE1ED4
+    // Offset: 0x2AEF864
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2AE1F38
+    // Offset: 0x2AEF8C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackAsset::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TrackAsset::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackAsset::$$c*, creationType>()));
     }
     // System.Int32 <SortClips>b__121_0(UnityEngine.Timeline.TimelineClip clip1, UnityEngine.Timeline.TimelineClip clip2)
-    // Offset: 0x2AE1F40
+    // Offset: 0x2AEF8D0
     int $SortClips$b__121_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
   }; // UnityEngine.Timeline.TrackAsset/UnityEngine.Timeline.<>c
   #pragma pack(pop)

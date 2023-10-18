@@ -66,28 +66,28 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object time
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::Asn1Object*& dyn_time();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Object time)
-    // Offset: 0x1FB35C8
+    // Offset: 0x1FBC51C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::X509::Time::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Time*, creationType>(time)));
     }
     // static public Org.BouncyCastle.Asn1.X509.Time GetInstance(System.Object obj)
-    // Offset: 0x1FAE4EC
+    // Offset: 0x1FB7440
     static ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Il2CppObject* obj);
     // public System.String GetTime()
-    // Offset: 0x1FB36F0
+    // Offset: 0x1FBC644
     ::StringW GetTime();
     // public System.DateTime ToDateTime()
-    // Offset: 0x1FB37DC
+    // Offset: 0x1FBC730
     ::System::DateTime ToDateTime();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1FB39B0
+    // Offset: 0x1FBC904
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
     // public override System.String ToString()
-    // Offset: 0x1FB39B8
+    // Offset: 0x1FBC90C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

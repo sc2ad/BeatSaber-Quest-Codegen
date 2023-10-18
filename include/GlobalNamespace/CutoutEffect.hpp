@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [NullAllowed] Offset: 0x112377C
+    // [NullAllowed] Offset: 0x11203F0
     // private BoolSO _useRandomCutoutOffset
     // Size: 0x8
     // Offset: 0x20
@@ -72,12 +72,12 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11237C4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1120438
     // Get static field: static private readonly System.Int32 _cutoutPropertyID
     static int _get__cutoutPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutPropertyID
     static void _set__cutoutPropertyID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11237D4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1120448
     // Get static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
     static int _get__cutoutTexOffsetPropertyID();
     // Set static field: static private readonly System.Int32 _cutoutTexOffsetPropertyID
@@ -93,26 +93,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _cutout
     [[deprecated("Use field access instead!")]] float& dyn__cutout();
     // public System.Boolean get_useRandomCutoutOffset()
-    // Offset: 0x144BFF0
+    // Offset: 0x145E964
     bool get_useRandomCutoutOffset();
     // public System.Void .ctor()
-    // Offset: 0x144C214
+    // Offset: 0x145EB88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutoutEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CutoutEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutoutEffect*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x144C21C
+    // Offset: 0x145EB90
     static void _cctor();
     // protected System.Void Start()
-    // Offset: 0x144C040
+    // Offset: 0x145E9B4
     void Start();
     // public System.Void SetCutout(System.Single cutout)
-    // Offset: 0x144BCA4
+    // Offset: 0x145E618
     void SetCutout(float cutout);
     // public System.Void SetCutout(System.Single cutout, UnityEngine.Vector3 cutoutOffset)
-    // Offset: 0x144C0F0
+    // Offset: 0x145EA64
     void SetCutout(float cutout, ::UnityEngine::Vector3 cutoutOffset);
   }; // CutoutEffect
   #pragma pack(pop)

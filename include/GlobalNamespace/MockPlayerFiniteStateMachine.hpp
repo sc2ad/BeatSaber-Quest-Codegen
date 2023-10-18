@@ -59,50 +59,53 @@ namespace GlobalNamespace {
       return reinterpret_cast<::System::IDisposable*>(this);
     }
     // public UnityEngine.Color get_saberAColor()
-    // Offset: 0x2B5647C
+    // Offset: 0x2B207E0
     ::UnityEngine::Color get_saberAColor();
     // public System.Void set_saberAColor(UnityEngine.Color value)
-    // Offset: 0x2B56484
+    // Offset: 0x2B207E8
     void set_saberAColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_saberBColor()
-    // Offset: 0x2B56488
+    // Offset: 0x2B207EC
     ::UnityEngine::Color get_saberBColor();
     // public System.Void set_saberBColor(UnityEngine.Color value)
-    // Offset: 0x2B56490
+    // Offset: 0x2B207F4
     void set_saberBColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_obstaclesColor()
-    // Offset: 0x2B56494
+    // Offset: 0x2B207F8
     ::UnityEngine::Color get_obstaclesColor();
     // public System.Void set_obstaclesColor(UnityEngine.Color value)
-    // Offset: 0x2B5649C
+    // Offset: 0x2B20800
     void set_obstaclesColor(::UnityEngine::Color value);
     // public System.Boolean get_leftHanded()
-    // Offset: 0x2B564A0
+    // Offset: 0x2B20804
     bool get_leftHanded();
     // public System.Void set_leftHanded(System.Boolean value)
-    // Offset: 0x2B564A8
+    // Offset: 0x2B2080C
     void set_leftHanded(bool value);
     // public System.Boolean get_inactiveByDefault()
-    // Offset: 0x2B564AC
+    // Offset: 0x2B20810
     bool get_inactiveByDefault();
     // public System.Void set_inactiveByDefault(System.Boolean value)
-    // Offset: 0x2B564B4
+    // Offset: 0x2B20818
     void set_inactiveByDefault(bool value);
     // public MockPlayerGamePoseGenerator get_gamePoseGenerator()
-    // Offset: 0x2B564B8
+    // Offset: 0x2B2081C
     ::GlobalNamespace::MockPlayerGamePoseGenerator* get_gamePoseGenerator();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, IMenuRpcManager menuRpcManager, IMockBeatmapDataProvider beatmapDataProvider, MockPlayerLobbyPoseGenerator lobbyPoseGenerator, MockPlayerGamePoseGenerator gamePoseGenerator)
-    // Offset: 0x2B56474
+    // Offset: 0x2B207D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerFiniteStateMachine* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator, ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerFiniteStateMachine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerFiniteStateMachine*, creationType>(multiplayerSessionManager, gameplayRpcManager, menuRpcManager, beatmapDataProvider, lobbyPoseGenerator, gamePoseGenerator)));
     }
+    // public System.Void Tick()
+    // Offset: 0x2B20824
+    void Tick();
     // public System.Void Dispose()
-    // Offset: 0x2B564C0
+    // Offset: 0x2B20828
     void Dispose();
     // public System.Void SetIsReady(System.Boolean isReady)
-    // Offset: 0x2B564C4
+    // Offset: 0x2B2082C
     void SetIsReady(bool isReady);
   }; // MockPlayerFiniteStateMachine
   #pragma pack(pop)
@@ -205,6 +208,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::Tick
+// Il2CppName: Tick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::Tick)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerFiniteStateMachine::Dispose
 // Il2CppName: Dispose
 template<>

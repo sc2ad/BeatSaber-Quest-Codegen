@@ -50,21 +50,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FlyingSpriteSpawner* missedNoteFlyingSpriteSpawner;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FlyingSpriteSpawner*) == 0x8);
-    // [InjectAttribute] Offset: 0x112332C
+    // [InjectAttribute] Offset: 0x111FFA0
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x112333C
+    // [InjectAttribute] Offset: 0x111FFB0
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112334C
+    // [InjectAttribute] Offset: 0x111FFC0
     // private readonly CoreGameHUDController/InitData _initData
     // Size: 0x8
     // Offset: 0x30
@@ -91,20 +91,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _spawnPosZ
     [[deprecated("Use field access instead!")]] float& dyn__spawnPosZ();
     // public System.Void .ctor()
-    // Offset: 0x137E434
+    // Offset: 0x138EC94
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissedNoteEffectSpawner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissedNoteEffectSpawner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissedNoteEffectSpawner*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x137E0BC
+    // Offset: 0x138E91C
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x137E19C
+    // Offset: 0x138E9FC
     void OnDestroy();
     // private System.Void HandleNoteWasMissed(NoteController noteController)
-    // Offset: 0x137E23C
+    // Offset: 0x138EA9C
     void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
   }; // MissedNoteEffectSpawner
   #pragma pack(pop)

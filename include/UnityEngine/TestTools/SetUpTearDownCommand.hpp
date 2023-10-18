@@ -84,23 +84,23 @@ namespace UnityEngine::TestTools {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Type,System.Collections.Generic.List`1<System.Reflection.MethodInfo>> m_AfterActionsCache
     static void _set_m_AfterActionsCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>*>* value);
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand)
-    // Offset: 0x19BD7B0
+    // Offset: 0x19A3828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SetUpTearDownCommand* New_ctor(::NUnit::Framework::Internal::Commands::TestCommand* innerCommand) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::SetUpTearDownCommand::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SetUpTearDownCommand*, creationType>(innerCommand)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x19CA40C
+    // Offset: 0x19B0484
     static void _cctor();
     // protected System.Collections.IEnumerator InvokeBefore(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x19CA2A4
+    // Offset: 0x19B031C
     ::System::Collections::IEnumerator* InvokeBefore(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected System.Collections.IEnumerator InvokeAfter(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x19CA354
+    // Offset: 0x19B03CC
     ::System::Collections::IEnumerator* InvokeAfter(::System::Reflection::MethodInfo* action, ::NUnit::Framework::Internal::Test* test, ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
     // protected override UnityEngine.TestTools.BeforeAfterTestCommandState GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
-    // Offset: 0x19CA404
+    // Offset: 0x19B047C
     // Implemented from: UnityEngine.TestTools.BeforeAfterTestCommandBase`1
     // Base method: UnityEngine.TestTools.BeforeAfterTestCommandState BeforeAfterTestCommandBase_1::GetState(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* GetState(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);

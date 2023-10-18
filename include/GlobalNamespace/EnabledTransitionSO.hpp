@@ -79,25 +79,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _selectedAndHighlightedState
     [[deprecated("Use field access instead!")]] bool& dyn__selectedAndHighlightedState();
     // public System.Boolean get_normalState()
-    // Offset: 0x13BE994
+    // Offset: 0x13FF8F8
     bool get_normalState();
     // public System.Boolean get_highlightedState()
-    // Offset: 0x13BE99C
+    // Offset: 0x13FF900
     bool get_highlightedState();
     // public System.Boolean get_pressedState()
-    // Offset: 0x13BE9A4
+    // Offset: 0x13FF908
     bool get_pressedState();
     // public System.Boolean get_disabledState()
-    // Offset: 0x13BE9AC
+    // Offset: 0x13FF910
     bool get_disabledState();
     // public System.Boolean get_selectedState()
-    // Offset: 0x13BE9B4
+    // Offset: 0x13FF918
     bool get_selectedState();
     // public System.Boolean get_selectedAndHighlightedState()
-    // Offset: 0x13BE9BC
+    // Offset: 0x13FF920
     bool get_selectedAndHighlightedState();
     // public System.Void .ctor()
-    // Offset: 0x13BE9C4
+    // Offset: 0x13FF928
     // Implemented from: BaseTransitionSO
     // Base method: System.Void BaseTransitionSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

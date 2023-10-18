@@ -46,20 +46,20 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Reflection.PropertyInfo subTypeProperty
     [[deprecated("Use field access instead!")]] ::System::Reflection::PropertyInfo*& dyn_subTypeProperty();
     // public System.Void .ctor()
-    // Offset: 0x2134704
+    // Offset: 0x2159918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReflectionUtils::$$c__DisplayClass42_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::ReflectionUtils::$$c__DisplayClass42_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionUtils::$$c__DisplayClass42_0*, creationType>()));
     }
     // System.Boolean <GetChildPrivateProperties>b__0(System.Reflection.PropertyInfo p)
-    // Offset: 0x21349FC
+    // Offset: 0x2159C10
     bool $GetChildPrivateProperties$b__0(::System::Reflection::PropertyInfo* p);
     // System.Boolean <GetChildPrivateProperties>b__1(System.Reflection.PropertyInfo p)
-    // Offset: 0x2134A5C
+    // Offset: 0x2159C70
     bool $GetChildPrivateProperties$b__1(::System::Reflection::PropertyInfo* p);
     // System.Boolean <GetChildPrivateProperties>b__2(System.Reflection.PropertyInfo p)
-    // Offset: 0x2134B08
+    // Offset: 0x2159D1C
     bool $GetChildPrivateProperties$b__2(::System::Reflection::PropertyInfo* p);
   }; // Newtonsoft.Json.Utilities.ReflectionUtils/Newtonsoft.Json.Utilities.<>c__DisplayClass42_0
   #pragma pack(pop)

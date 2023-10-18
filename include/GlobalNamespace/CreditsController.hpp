@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* contentWrapper;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [InjectAttribute] Offset: 0x112CAB0
+    // [InjectAttribute] Offset: 0x11299AC
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x48
@@ -149,29 +149,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isPaused
     [[deprecated("Use field access instead!")]] bool& dyn__isPaused();
     // public System.Void .ctor()
-    // Offset: 0x1447914
+    // Offset: 0x145A288
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CreditsController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14471C4
+    // Offset: 0x1459B38
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14474E8
+    // Offset: 0x1459E5C
     void OnDestroy();
     // private System.Void Finish()
-    // Offset: 0x1447694
+    // Offset: 0x145A008
     void Finish();
     // private System.Collections.IEnumerator ScrollCoroutine()
-    // Offset: 0x1447478
+    // Offset: 0x1459DEC
     ::System::Collections::IEnumerator* ScrollCoroutine();
     // private System.Void HandleInputFocusCaptured()
-    // Offset: 0x144743C
+    // Offset: 0x1459DB0
     void HandleInputFocusCaptured();
     // private System.Void HandleInputFocusReleased()
-    // Offset: 0x14478DC
+    // Offset: 0x145A250
     void HandleInputFocusReleased();
   }; // CreditsController
   #pragma pack(pop)

@@ -55,23 +55,23 @@ namespace GlobalNamespace {
     // Set static field: static public System.Predicate`1<LocalLeaderboardsModel/LeaderboardData> <>9__19_1
     static void _set_$$9__19_1(::System::Predicate_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1596628
+    // Offset: 0x15272EC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x159668C
+    // Offset: 0x1527350
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel::$$c*, creationType>()));
     }
     // System.Int32 <AppendLeaderboardScores>b__18_0(LocalLeaderboardsModel/ScoreData a, LocalLeaderboardsModel/ScoreData b)
-    // Offset: 0x1596694
+    // Offset: 0x1527358
     int $AppendLeaderboardScores$b__18_0(::GlobalNamespace::LocalLeaderboardsModel::ScoreData* a, ::GlobalNamespace::LocalLeaderboardsModel::ScoreData* b);
     // System.Boolean <MigrateQuestLeaderboards>b__19_0(LocalLeaderboardsModel/LeaderboardData leaderboardData)
-    // Offset: 0x15966BC
+    // Offset: 0x1527380
     bool $MigrateQuestLeaderboards$b__19_0(::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData* leaderboardData);
     // System.Boolean <MigrateQuestLeaderboards>b__19_1(LocalLeaderboardsModel/LeaderboardData leaderboardData)
-    // Offset: 0x159671C
+    // Offset: 0x15273E0
     bool $MigrateQuestLeaderboards$b__19_1(::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData* leaderboardData);
   }; // LocalLeaderboardsModel/<>c
   #pragma pack(pop)

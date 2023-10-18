@@ -160,17 +160,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.ShapeModule _explosionPrePassBloomPSShapeModule
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem::ShapeModule& dyn__explosionPrePassBloomPSShapeModule();
     // public System.Void .ctor()
-    // Offset: 0x143BB94
+    // Offset: 0x150E13C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteCutParticlesEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteCutParticlesEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutParticlesEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x143BA40
+    // Offset: 0x150DFE8
     void Awake();
     // public System.Void SpawnParticles(UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, UnityEngine.Vector3 saberDir, System.Single saberSpeed, UnityEngine.Vector3 noteMovementVec, UnityEngine.Color32 color, System.Int32 sparkleParticlesCount, System.Int32 explosionParticlesCount, System.Single lifetimeMultiplier)
-    // Offset: 0x143AC38
+    // Offset: 0x150D1E0
     void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float saberSpeed, ::UnityEngine::Vector3 noteMovementVec, ::UnityEngine::Color32 color, int sparkleParticlesCount, int explosionParticlesCount, float lifetimeMultiplier);
   }; // NoteCutParticlesEffect
   #pragma pack(pop)

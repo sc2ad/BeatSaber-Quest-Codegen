@@ -149,53 +149,53 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Hashtable _caps
     [[deprecated("Use field access instead!")]] ::System::Collections::Hashtable*& dyn__caps();
     // private System.Void .ctor()
-    // Offset: 0x1E99490
+    // Offset: 0x1E85610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RegexWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::RegexWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexWriter*, creationType>()));
     }
     // static System.Text.RegularExpressions.RegexCode Write(System.Text.RegularExpressions.RegexTree t)
-    // Offset: 0x1E99428
+    // Offset: 0x1E855A8
     static ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* t);
     // System.Void PushInt(System.Int32 I)
-    // Offset: 0x1E998E8
+    // Offset: 0x1E85A68
     void PushInt(int I);
     // System.Boolean EmptyStack()
-    // Offset: 0x1E999C8
+    // Offset: 0x1E85B48
     bool EmptyStack();
     // System.Int32 PopInt()
-    // Offset: 0x1E999D8
+    // Offset: 0x1E85B58
     int PopInt();
     // System.Int32 CurPos()
-    // Offset: 0x1E99A20
+    // Offset: 0x1E85BA0
     int CurPos();
     // System.Void PatchJump(System.Int32 Offset, System.Int32 jumpDest)
-    // Offset: 0x1E99A28
+    // Offset: 0x1E85BA8
     void PatchJump(int Offset, int jumpDest);
     // System.Void Emit(System.Int32 op)
-    // Offset: 0x1E99A68
+    // Offset: 0x1E85BE8
     void Emit(int op);
     // System.Void Emit(System.Int32 op, System.Int32 opd1)
-    // Offset: 0x1E99B00
+    // Offset: 0x1E85C80
     void Emit(int op, int opd1);
     // System.Void Emit(System.Int32 op, System.Int32 opd1, System.Int32 opd2)
-    // Offset: 0x1E99BC0
+    // Offset: 0x1E85D40
     void Emit(int op, int opd1, int opd2);
     // System.Int32 StringCode(System.String str)
-    // Offset: 0x1E99CA8
+    // Offset: 0x1E85E28
     int StringCode(::StringW str);
     // System.ArgumentException MakeException(System.String message)
-    // Offset: 0x1E99DB4
+    // Offset: 0x1E85F34
     ::System::ArgumentException* MakeException(::StringW message);
     // System.Int32 MapCapnum(System.Int32 capnum)
-    // Offset: 0x1E99E18
+    // Offset: 0x1E85F98
     int MapCapnum(int capnum);
     // System.Text.RegularExpressions.RegexCode RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree tree)
-    // Offset: 0x1E99554
+    // Offset: 0x1E856D4
     ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
     // System.Void EmitFragment(System.Int32 nodetype, System.Text.RegularExpressions.RegexNode node, System.Int32 CurIndex)
-    // Offset: 0x1E99ED4
+    // Offset: 0x1E86054
     void EmitFragment(int nodetype, ::System::Text::RegularExpressions::RegexNode* node, int CurIndex);
   }; // System.Text.RegularExpressions.RegexWriter
   #pragma pack(pop)

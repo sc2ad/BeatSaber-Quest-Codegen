@@ -58,20 +58,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::ParticleSystem::EmissionModule>& dyn__emmisionModules();
     // public System.Void .ctor()
-    // Offset: 0x1623C50
+    // Offset: 0x1637850
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnableEmmisionOnVisible* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnableEmmisionOnVisible::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnableEmmisionOnVisible*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1623A48
+    // Offset: 0x1637648
     void Awake();
     // protected System.Void OnBecameVisible()
-    // Offset: 0x1623B40
+    // Offset: 0x1637740
     void OnBecameVisible();
     // protected System.Void OnBecameInvisible()
-    // Offset: 0x1623BC8
+    // Offset: 0x16377C8
     void OnBecameInvisible();
   }; // EnableEmmisionOnVisible
   #pragma pack(pop)

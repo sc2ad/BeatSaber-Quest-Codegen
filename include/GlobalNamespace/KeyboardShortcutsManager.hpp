@@ -64,50 +64,50 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<KeyboardShortcutsManager/KeyboardShortcut,System.Collections.Generic.List`1<System.Action>> _keyboardShortcutActions
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, ::System::Collections::Generic::List_1<::System::Action*>*>*& dyn__keyboardShortcutActions();
     // public System.Void .ctor()
-    // Offset: 0x162D880
+    // Offset: 0x1641480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static KeyboardShortcutsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::KeyboardShortcutsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<KeyboardShortcutsManager*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x162CEB8
+    // Offset: 0x1640AB8
     void Update();
     // public System.Void RemoveKeyboardShortcuts(System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Action> shortcutActions)
-    // Offset: 0x162D148
+    // Offset: 0x1640D48
     void RemoveKeyboardShortcuts(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Action*>* shortcutActions);
     // public System.Void RemoveKeyboardShortcuts(System.Collections.Generic.Dictionary`2<KeyboardShortcutsManager/KeyboardShortcut,System.Action> shortcutActions)
-    // Offset: 0x162D264
+    // Offset: 0x1640E64
     void RemoveKeyboardShortcuts(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, ::System::Action*>* shortcutActions);
     // public System.Void RemoveKeyboardShortcut(KeyboardShortcutsManager/KeyboardShortcut keyboardShortcut, System.Action callback)
-    // Offset: 0x162D364
+    // Offset: 0x1640F64
     void RemoveKeyboardShortcut(::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut* keyboardShortcut, ::System::Action* callback);
     // public System.Void RemoveKeyboardShortcut(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2, System.Action callback)
-    // Offset: 0x162D404
+    // Offset: 0x1641004
     void RemoveKeyboardShortcut(::UnityEngine::KeyCode mainKey, ::UnityEngine::KeyCode combinationKey1, ::UnityEngine::KeyCode combinationKey2, ::System::Action* callback);
     // public System.Void RemoveKeyboardShortcut(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, System.Action callback)
-    // Offset: 0x162D4D4
+    // Offset: 0x16410D4
     void RemoveKeyboardShortcut(::UnityEngine::KeyCode mainKey, ::UnityEngine::KeyCode combinationKey1, ::System::Action* callback);
     // public System.Void RemoveKeyboardShortcut(UnityEngine.KeyCode mainKey, System.Action callback)
-    // Offset: 0x162D254
+    // Offset: 0x1640E54
     void RemoveKeyboardShortcut(::UnityEngine::KeyCode mainKey, ::System::Action* callback);
     // public System.Void AddKeyboardShortcuts(System.Collections.Generic.Dictionary`2<UnityEngine.KeyCode,System.Action> shortcutActions)
-    // Offset: 0x162D4E0
+    // Offset: 0x16410E0
     void AddKeyboardShortcuts(::System::Collections::Generic::Dictionary_2<::UnityEngine::KeyCode, ::System::Action*>* shortcutActions);
     // public System.Void AddKeyboardShortcuts(System.Collections.Generic.Dictionary`2<KeyboardShortcutsManager/KeyboardShortcut,System.Action> shortcutActions)
-    // Offset: 0x162D5FC
+    // Offset: 0x16411FC
     void AddKeyboardShortcuts(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut*, ::System::Action*>* shortcutActions);
     // public System.Void AddKeyboardShortcut(KeyboardShortcutsManager/KeyboardShortcut keyboardShortcut, System.Action callback)
-    // Offset: 0x162D6FC
+    // Offset: 0x16412FC
     void AddKeyboardShortcut(::GlobalNamespace::KeyboardShortcutsManager::KeyboardShortcut* keyboardShortcut, ::System::Action* callback);
     // public System.Void AddKeyboardShortcut(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, UnityEngine.KeyCode combinationKey2, System.Action callback)
-    // Offset: 0x162D7E4
+    // Offset: 0x16413E4
     void AddKeyboardShortcut(::UnityEngine::KeyCode mainKey, ::UnityEngine::KeyCode combinationKey1, ::UnityEngine::KeyCode combinationKey2, ::System::Action* callback);
     // public System.Void AddKeyboardShortcut(UnityEngine.KeyCode mainKey, UnityEngine.KeyCode combinationKey1, System.Action callback)
-    // Offset: 0x162D874
+    // Offset: 0x1641474
     void AddKeyboardShortcut(::UnityEngine::KeyCode mainKey, ::UnityEngine::KeyCode combinationKey1, ::System::Action* callback);
     // public System.Void AddKeyboardShortcut(UnityEngine.KeyCode mainKey, System.Action callback)
-    // Offset: 0x162D5EC
+    // Offset: 0x16411EC
     void AddKeyboardShortcut(::UnityEngine::KeyCode mainKey, ::System::Action* callback);
   }; // KeyboardShortcutsManager
   #pragma pack(pop)

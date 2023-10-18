@@ -90,20 +90,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelNoTransitionInstallerData _standardLevelNoTransitionInstallerData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelNoTransitionInstallerData*& dyn__standardLevelNoTransitionInstallerData();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1585D88
+    // Offset: 0x1516A4C
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x1585D90
+    // Offset: 0x1516A54
     void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
     // public System.Void .ctor()
-    // Offset: 0x1586798
+    // Offset: 0x151745C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmappingSceneSetup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmappingSceneSetup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightmappingSceneSetup*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1585D98
+    // Offset: 0x1516A5C
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -96,20 +96,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _btsCharacterAssetReference
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AssetReference*& dyn__btsCharacterAssetReference();
     // public System.String get_name()
-    // Offset: 0x13F25F0
+    // Offset: 0x13F1A44
     ::StringW get_name();
     // public System.Void .ctor()
-    // Offset: 0x13F25F8
+    // Offset: 0x13F1A4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*, creationType>()));
     }
     // public System.Void Clean()
-    // Offset: 0x13F2340
+    // Offset: 0x13F1794
     void Clean();
     // public System.Void SetCharacter(UnityEngine.AddressableAssets.AssetReference assetReference, BTSCharacter btsCharacter, System.Boolean alternativeMaterial)
-    // Offset: 0x13F1EBC
+    // Offset: 0x13F1310
     void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
   }; // BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation
   #pragma pack(pop)

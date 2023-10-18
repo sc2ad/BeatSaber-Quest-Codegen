@@ -63,26 +63,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <localizedDescription>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$localizedDescription$k__BackingField();
     // public System.String get_apiName()
-    // Offset: 0x14570FC
+    // Offset: 0x143C470
     ::StringW get_apiName();
     // private System.Void set_apiName(System.String value)
-    // Offset: 0x1457104
+    // Offset: 0x143C478
     void set_apiName(::StringW value);
     // public System.String get_localizedDescription()
-    // Offset: 0x145710C
+    // Offset: 0x143C480
     ::StringW get_localizedDescription();
     // private System.Void set_localizedDescription(System.String value)
-    // Offset: 0x1457114
+    // Offset: 0x143C488
     void set_localizedDescription(::StringW value);
     // public System.Void .ctor(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x145711C
+    // Offset: 0x143C490
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayingDifficultyBeatmapRichPresenceData* New_ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayingDifficultyBeatmapRichPresenceData*, creationType>(difficultyBeatmap)));
     }
     // static public System.String GetDestinationLocalizedString(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x1457160
+    // Offset: 0x143C4D4
     static ::StringW GetDestinationLocalizedString(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // PlayingDifficultyBeatmapRichPresenceData
   #pragma pack(pop)

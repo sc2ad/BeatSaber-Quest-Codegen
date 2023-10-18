@@ -35,14 +35,14 @@ namespace GlobalNamespace {
   class LocalLeaderboardsIdModel : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1595400
+    // Offset: 0x15260C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsIdModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsIdModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsIdModel*, creationType>()));
     }
     // static public System.String GetLocalLeaderboardID(IDifficultyBeatmap difficultyBeatmap)
-    // Offset: 0x15953A4
+    // Offset: 0x1526068
     static ::StringW GetLocalLeaderboardID(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
   }; // LocalLeaderboardsIdModel
   #pragma pack(pop)

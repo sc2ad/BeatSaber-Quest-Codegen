@@ -56,25 +56,25 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.Vector3 m_Direction
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_m_Direction();
     // public UnityEngine.Vector3 get_origin()
-    // Offset: 0x2163988
+    // Offset: 0x2133A48
     ::UnityEngine::Vector3 get_origin();
     // public System.Void set_origin(UnityEngine.Vector3 value)
-    // Offset: 0x2163994
+    // Offset: 0x2133A54
     void set_origin(::UnityEngine::Vector3 value);
     // public UnityEngine.Vector3 get_direction()
-    // Offset: 0x21639A0
+    // Offset: 0x2133A60
     ::UnityEngine::Vector3 get_direction();
     // public System.Void set_direction(UnityEngine.Vector3 value)
-    // Offset: 0x21639AC
+    // Offset: 0x2133A6C
     void set_direction(::UnityEngine::Vector3 value);
     // public System.Void .ctor(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
-    // Offset: 0x2163940
+    // Offset: 0x2133A00
     // ABORTED: conflicts with another method.  Ray(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction);
     // public UnityEngine.Vector3 GetPoint(System.Single distance)
-    // Offset: 0x21639EC
+    // Offset: 0x2133AAC
     ::UnityEngine::Vector3 GetPoint(float distance);
     // public override System.String ToString()
-    // Offset: 0x2163AB0
+    // Offset: 0x2133B70
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

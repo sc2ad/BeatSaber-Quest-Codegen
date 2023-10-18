@@ -65,7 +65,7 @@ namespace Ice {
     ::Ice::FloorLightTilesGrid* floorLightTilesGrid;
     // Field size check
     static_assert(sizeof(::Ice::FloorLightTilesGrid*) == 0x8);
-    // [InjectAttribute] Offset: 0x1150B64
+    // [InjectAttribute] Offset: 0x114DB00
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x28
@@ -102,29 +102,29 @@ namespace Ice {
     // Get instance field reference: private SimpleMemoryPool`1<Ice.FloorLightStreakTileEffect/Ice.Element> _elementsPool
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SimpleMemoryPool_1<::Ice::FloorLightStreakTileEffect::Element*>*& dyn__elementsPool();
     // public System.Void .ctor()
-    // Offset: 0x2B892CC
+    // Offset: 0x2B89F50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FloorLightStreakTileEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Ice::FloorLightStreakTileEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FloorLightStreakTileEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x2B88A80
+    // Offset: 0x2B89704
     void Start();
     // protected System.Void Update()
-    // Offset: 0x2B88B2C
+    // Offset: 0x2B897B0
     void Update();
     // public System.Void SpawnEffect(System.Int32 x, UnityEngine.Color color)
-    // Offset: 0x2B88D5C
+    // Offset: 0x2B899E0
     void SpawnEffect(int x, ::UnityEngine::Color color);
     // public System.Void DespawnAllEffects()
-    // Offset: 0x2B89060
+    // Offset: 0x2B89CE4
     void DespawnAllEffects();
     // private Ice.FloorLightStreakTileEffect/Ice.Element CreateNewElement()
-    // Offset: 0x2B89138
+    // Offset: 0x2B89DBC
     ::Ice::FloorLightStreakTileEffect::Element* CreateNewElement();
     // private System.Void HandleElementDidMoveToNextTile(Ice.FloorLightStreakTileEffect/Ice.Element element)
-    // Offset: 0x2B8921C
+    // Offset: 0x2B89EA0
     void HandleElementDidMoveToNextTile(::Ice::FloorLightStreakTileEffect::Element* element);
   }; // Ice.FloorLightStreakTileEffect
   #pragma pack(pop)

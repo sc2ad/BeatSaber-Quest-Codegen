@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class SceneSetupData : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AE5BA8
+    // Offset: 0x2AF2538
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneSetupData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneSetupData::.ctor");

@@ -74,13 +74,13 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean timedOut
     [[deprecated("Use field access instead!")]] bool& dyn_timedOut();
     // public System.Void set_ChangeType(System.IO.WatcherChangeTypes value)
-    // Offset: 0x1DBE53C
+    // Offset: 0x1DAA5F0
     void set_ChangeType(::System::IO::WatcherChangeTypes value);
     // public System.Void set_Name(System.String value)
-    // Offset: 0x1DBE544
+    // Offset: 0x1DAA5F8
     void set_Name(::StringW value);
     // public System.Void set_OldName(System.String value)
-    // Offset: 0x1DBE54C
+    // Offset: 0x1DAA600
     void set_OldName(::StringW value);
   }; // System.IO.WaitForChangedResult
   #pragma pack(pop)

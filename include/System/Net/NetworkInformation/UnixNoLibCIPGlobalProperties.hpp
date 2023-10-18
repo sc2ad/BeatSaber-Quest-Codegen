@@ -30,12 +30,12 @@ namespace System::Net::NetworkInformation {
   class UnixNoLibCIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
     // public override System.String get_DomainName()
-    // Offset: 0x1BFB528
+    // Offset: 0x1BC72F4
     // Implemented from: System.Net.NetworkInformation.CommonUnixIPGlobalProperties
     // Base method: System.String CommonUnixIPGlobalProperties::get_DomainName()
     ::StringW get_DomainName();
     // public System.Void .ctor()
-    // Offset: 0x1BFB578
+    // Offset: 0x1BC7344
     // Implemented from: System.Net.NetworkInformation.UnixIPGlobalProperties
     // Base method: System.Void UnixIPGlobalProperties::.ctor()
     // Base method: System.Void CommonUnixIPGlobalProperties::.ctor()

@@ -204,27 +204,27 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String mouthId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_mouthId();
     // public System.Void .ctor(System.String headTopId, UnityEngine.Color32 headTopPrimaryColor, UnityEngine.Color32 headTopSecondaryColor, System.String glassesId, UnityEngine.Color32 glassesColor, System.String facialHairId, UnityEngine.Color32 facialHairColor, System.String handsId, UnityEngine.Color32 handsColor, System.String clothesId, UnityEngine.Color32 clothesPrimaryColor, UnityEngine.Color32 clothesSecondaryColor, UnityEngine.Color32 clothesDetailColor, System.String skinColorId, System.String eyesId, System.String mouthId)
-    // Offset: 0x2A1E720
+    // Offset: 0x29CED50
     // ABORTED: conflicts with another method.  MultiplayerAvatarData(::StringW headTopId, ::UnityEngine::Color32 headTopPrimaryColor, ::UnityEngine::Color32 headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color32 glassesColor, ::StringW facialHairId, ::UnityEngine::Color32 facialHairColor, ::StringW handsId, ::UnityEngine::Color32 handsColor, ::StringW clothesId, ::UnityEngine::Color32 clothesPrimaryColor, ::UnityEngine::Color32 clothesSecondaryColor, ::UnityEngine::Color32 clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A1E76C
+    // Offset: 0x29CED9C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public MultiplayerAvatarData CreateFromSerializedData(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A1E8D0
+    // Offset: 0x29CEF00
     ::GlobalNamespace::MultiplayerAvatarData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
     // static public MultiplayerAvatarData Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A1E8D8
+    // Offset: 0x29CEF08
     static ::GlobalNamespace::MultiplayerAvatarData Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(MultiplayerAvatarData other)
-    // Offset: 0x2A1EAAC
+    // Offset: 0x29CF0DC
     bool Equals(::GlobalNamespace::MultiplayerAvatarData other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2A1EE9C
+    // Offset: 0x29CF4CC
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2A1EF3C
+    // Offset: 0x29CF56C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

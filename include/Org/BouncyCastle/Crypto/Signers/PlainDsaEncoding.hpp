@@ -49,23 +49,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Set static field: static public readonly Org.BouncyCastle.Crypto.Signers.PlainDsaEncoding Instance
     static void _set_Instance(::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding* value);
     // static private System.Void .cctor()
-    // Offset: 0x1682FC0
+    // Offset: 0x1696180
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1683024
+    // Offset: 0x16961E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlainDsaEncoding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlainDsaEncoding*, creationType>()));
     }
     // public System.Byte[] Encode(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger r, Org.BouncyCastle.Math.BigInteger s)
-    // Offset: 0x1682CFC
+    // Offset: 0x1695EBC
     ::ArrayW<uint8_t> Encode(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
     // protected Org.BouncyCastle.Math.BigInteger CheckValue(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger x)
-    // Offset: 0x1682DD0
+    // Offset: 0x1695F90
     ::Org::BouncyCastle::Math::BigInteger* CheckValue(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* x);
     // protected System.Void EncodeValue(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger x, System.Byte[] buf, System.Int32 off, System.Int32 len)
-    // Offset: 0x1682E88
+    // Offset: 0x1696048
     void EncodeValue(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* x, ::ArrayW<uint8_t> buf, int off, int len);
   }; // Org.BouncyCastle.Crypto.Signers.PlainDsaEncoding
   #pragma pack(pop)

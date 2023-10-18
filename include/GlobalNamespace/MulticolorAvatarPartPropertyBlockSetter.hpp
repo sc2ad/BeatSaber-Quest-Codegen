@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*> colorDataList;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>) == 0x8);
-    // [SpaceAttribute] Offset: 0x111E484
+    // [SpaceAttribute] Offset: 0x111B0A8
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x20
     ::UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::Renderer*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111E4BC
+    // [SpaceAttribute] Offset: 0x111B0E0
     // private System.Boolean _editInPlayMode
     // Size: 0x1
     // Offset: 0x28
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x111E4F4
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x111B118
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static ::UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
@@ -130,23 +130,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _uvSegment
     [[deprecated("Use field access instead!")]] int& dyn__uvSegment();
     // public System.Void .ctor()
-    // Offset: 0x14C5AA8
+    // Offset: 0x1420980
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MulticolorAvatarPartPropertyBlockSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MulticolorAvatarPartPropertyBlockSetter*, creationType>()));
     }
     // protected System.Void OnValidate()
-    // Offset: 0x14C5594
+    // Offset: 0x142046C
     void OnValidate();
     // public System.Void SetColors(params UnityEngine.Color[] colors)
-    // Offset: 0x14C570C
+    // Offset: 0x14205E4
     void SetColors(::ArrayW<::UnityEngine::Color> colors);
     // public System.Void SetHighlight(System.Boolean highlighted, System.Int32 uvSegment)
-    // Offset: 0x14C5A98
+    // Offset: 0x1420970
     void SetHighlight(bool highlighted, int uvSegment);
     // private System.Void UpdateRenderer()
-    // Offset: 0x14C592C
+    // Offset: 0x1420804
     void UpdateRenderer();
   }; // MulticolorAvatarPartPropertyBlockSetter
   #pragma pack(pop)

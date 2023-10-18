@@ -72,14 +72,14 @@ namespace UnityEngine::AddressableAssets {
     // Get instance field reference: public System.Boolean autoReleaseHandle
     [[deprecated("Use field access instead!")]] bool& dyn_autoReleaseHandle();
     // public System.Void .ctor()
-    // Offset: 0x19085FC
+    // Offset: 0x18D7ED8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AddressablesImpl::$$c__DisplayClass99_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass99_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AddressablesImpl::$$c__DisplayClass99_0*, creationType>()));
     }
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean> <ClearDependencyCacheAsync>b__0(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle op)
-    // Offset: 0x190AE3C
+    // Offset: 0x18DA718
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> $ClearDependencyCacheAsync$b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
   }; // UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.<>c__DisplayClass99_0
   #pragma pack(pop)

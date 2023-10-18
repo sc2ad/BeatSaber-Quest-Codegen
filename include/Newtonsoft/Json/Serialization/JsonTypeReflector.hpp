@@ -100,13 +100,13 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static private Newtonsoft.Json.Utilities.ReflectionObject _metadataTypeAttributeReflectionObject
     static void _set__metadataTypeAttributeReflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
     // static public System.Boolean get_FullyTrusted()
-    // Offset: 0x2122134
+    // Offset: 0x2147348
     static bool get_FullyTrusted();
     // static public Newtonsoft.Json.Utilities.ReflectionDelegateFactory get_ReflectionDelegateFactory()
-    // Offset: 0x21217D8
+    // Offset: 0x21469EC
     static ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_ReflectionDelegateFactory();
     // static private System.Void .cctor()
-    // Offset: 0x21222F8
+    // Offset: 0x214750C
     static void _cctor();
     // static public T GetCachedAttribute(System.Object attributeProvider)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -119,31 +119,31 @@ namespace Newtonsoft::Json::Serialization {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, attributeProvider);
     }
     // static public System.Runtime.Serialization.DataContractAttribute GetDataContractAttribute(System.Type type)
-    // Offset: 0x2120D5C
+    // Offset: 0x2145F70
     static ::System::Runtime::Serialization::DataContractAttribute* GetDataContractAttribute(::System::Type* type);
     // static public System.Runtime.Serialization.DataMemberAttribute GetDataMemberAttribute(System.Reflection.MemberInfo memberInfo)
-    // Offset: 0x2120E24
+    // Offset: 0x2146038
     static ::System::Runtime::Serialization::DataMemberAttribute* GetDataMemberAttribute(::System::Reflection::MemberInfo* memberInfo);
     // static public Newtonsoft.Json.MemberSerialization GetObjectMemberSerialization(System.Type objectType, System.Boolean ignoreSerializableAttribute)
-    // Offset: 0x2121360
+    // Offset: 0x2146574
     static ::Newtonsoft::Json::MemberSerialization GetObjectMemberSerialization(::System::Type* objectType, bool ignoreSerializableAttribute);
     // static public Newtonsoft.Json.JsonConverter GetJsonConverter(System.Object attributeProvider)
-    // Offset: 0x2121458
+    // Offset: 0x214666C
     static ::Newtonsoft::Json::JsonConverter* GetJsonConverter(::Il2CppObject* attributeProvider);
     // static public Newtonsoft.Json.JsonConverter CreateJsonConverterInstance(System.Type converterType, System.Object[] converterArgs)
-    // Offset: 0x212152C
+    // Offset: 0x2146740
     static ::Newtonsoft::Json::JsonConverter* CreateJsonConverterInstance(::System::Type* converterType, ::ArrayW<::Il2CppObject*> converterArgs);
     // static private System.Func`2<System.Object[],Newtonsoft.Json.JsonConverter> GetJsonConverterCreator(System.Type converterType)
-    // Offset: 0x21215D4
+    // Offset: 0x21467E8
     static ::System::Func_2<::ArrayW<::Il2CppObject*>, ::Newtonsoft::Json::JsonConverter*>* GetJsonConverterCreator(::System::Type* converterType);
     // static public System.ComponentModel.TypeConverter GetTypeConverter(System.Type type)
-    // Offset: 0x212187C
+    // Offset: 0x2146A90
     static ::System::ComponentModel::TypeConverter* GetTypeConverter(::System::Type* type);
     // static private System.Type GetAssociatedMetadataType(System.Type type)
-    // Offset: 0x21218E4
+    // Offset: 0x2146AF8
     static ::System::Type* GetAssociatedMetadataType(::System::Type* type);
     // static private System.Type GetAssociateMetadataTypeFromAttribute(System.Type type)
-    // Offset: 0x2121968
+    // Offset: 0x2146B7C
     static ::System::Type* GetAssociateMetadataTypeFromAttribute(::System::Type* type);
     // static private T GetAttribute(System.Type type)
     // Offset: 0xFFFFFFFFFFFFFFFF

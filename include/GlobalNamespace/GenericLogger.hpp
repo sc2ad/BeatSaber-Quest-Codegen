@@ -32,10 +32,10 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::GenericLogger::ScopedStopwatch
     class ScopedStopwatch;
     // static public System.Void VerboseLog(System.String message)
-    // Offset: 0x162AAF8
+    // Offset: 0x163E6F8
     static void VerboseLog(::StringW message);
     // static public System.Void Log(System.String message)
-    // Offset: 0x162AB60
+    // Offset: 0x163E760
     static void Log(::StringW message);
   }; // GenericLogger
   #pragma pack(pop)

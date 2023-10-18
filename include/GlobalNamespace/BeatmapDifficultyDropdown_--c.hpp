@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<System.Tuple`2<BeatmapDifficultyMask,System.String>,System.String> <>9__11_0
     static void _set_$$9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x155D084
+    // Offset: 0x15317D0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x155D0E8
+    // Offset: 0x1531834
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDifficultyDropdown::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDifficultyDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDifficultyDropdown::$$c*, creationType>()));
     }
     // System.String <Start>b__11_0(System.Tuple`2<BeatmapDifficultyMask,System.String> x)
-    // Offset: 0x155D0F0
+    // Offset: 0x153183C
     ::StringW $Start$b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
   }; // BeatmapDifficultyDropdown/<>c
   #pragma pack(pop)

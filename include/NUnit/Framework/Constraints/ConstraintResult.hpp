@@ -45,14 +45,14 @@ namespace NUnit::Framework::Constraints {
     ::NUnit::Framework::Constraints::IConstraint* constraint;
     // Field size check
     static_assert(sizeof(::NUnit::Framework::Constraints::IConstraint*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x1118588
+    // [DebuggerBrowsableAttribute] Offset: 0x1115154
     // private System.Object <ActualValue>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppObject* ActualValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
-    // [DebuggerBrowsableAttribute] Offset: 0x11185C4
+    // [DebuggerBrowsableAttribute] Offset: 0x1115190
     // private NUnit.Framework.Constraints.ConstraintStatus <Status>k__BackingField
     // Size: 0x4
     // Offset: 0x20
@@ -67,42 +67,42 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private NUnit.Framework.Constraints.ConstraintStatus <Status>k__BackingField
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Constraints::ConstraintStatus& dyn_$Status$k__BackingField();
     // public System.Object get_ActualValue()
-    // Offset: 0x1D64974
+    // Offset: 0x1D50624
     ::Il2CppObject* get_ActualValue();
     // private System.Void set_ActualValue(System.Object value)
-    // Offset: 0x1D6497C
+    // Offset: 0x1D5062C
     void set_ActualValue(::Il2CppObject* value);
     // public NUnit.Framework.Constraints.ConstraintStatus get_Status()
-    // Offset: 0x1D64984
+    // Offset: 0x1D50634
     ::NUnit::Framework::Constraints::ConstraintStatus get_Status();
     // public System.Void set_Status(NUnit.Framework.Constraints.ConstraintStatus value)
-    // Offset: 0x1D6498C
+    // Offset: 0x1D5063C
     void set_Status(::NUnit::Framework::Constraints::ConstraintStatus value);
     // public System.Boolean get_IsSuccess()
-    // Offset: 0x1D64994
+    // Offset: 0x1D50644
     bool get_IsSuccess();
     // public System.String get_Description()
-    // Offset: 0x1D649A4
+    // Offset: 0x1D50654
     ::StringW get_Description();
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue)
-    // Offset: 0x1D648E8
+    // Offset: 0x1D50598
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintResult* New_ctor(::NUnit::Framework::Constraints::IConstraint* constraint, ::Il2CppObject* actualValue) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::ConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintResult*, creationType>(constraint, actualValue)));
     }
     // public System.Void .ctor(NUnit.Framework.Constraints.IConstraint constraint, System.Object actualValue, System.Boolean isSuccess)
-    // Offset: 0x1D64920
+    // Offset: 0x1D505D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConstraintResult* New_ctor(::NUnit::Framework::Constraints::IConstraint* constraint, ::Il2CppObject* actualValue, bool isSuccess) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::ConstraintResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConstraintResult*, creationType>(constraint, actualValue, isSuccess)));
     }
     // public System.Void WriteMessageTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x1D64A54
+    // Offset: 0x1D50704
     void WriteMessageTo(::NUnit::Framework::Constraints::MessageWriter* writer);
     // public System.Void WriteActualValueTo(NUnit.Framework.Constraints.MessageWriter writer)
-    // Offset: 0x1D64A80
+    // Offset: 0x1D50730
     void WriteActualValueTo(::NUnit::Framework::Constraints::MessageWriter* writer);
   }; // NUnit.Framework.Constraints.ConstraintResult
   #pragma pack(pop)

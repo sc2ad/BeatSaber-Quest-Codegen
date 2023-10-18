@@ -74,38 +74,38 @@ namespace UnityEngine::UI {
     // Set static field: static public System.Func`2<UnityEngine.UI.ILayoutElement,System.Single> <>9__8_0
     static void _set_$$9__8_0(::System::Func_2<::UnityEngine::UI::ILayoutElement*, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F54E74
+    // Offset: 0x1F5CDC8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1F54ED8
+    // Offset: 0x1F5CE2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutUtility::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutUtility::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutUtility::$$c*, creationType>()));
     }
     // System.Single <GetMinWidth>b__3_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F54EE0
+    // Offset: 0x1F5CE34
     float $GetMinWidth$b__3_0(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F54F90
+    // Offset: 0x1F5CEE4
     float $GetPreferredWidth$b__4_0(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredWidth>b__4_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F55040
+    // Offset: 0x1F5CF94
     float $GetPreferredWidth$b__4_1(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleWidth>b__5_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F550F0
+    // Offset: 0x1F5D044
     float $GetFlexibleWidth$b__5_0(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetMinHeight>b__6_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F551A0
+    // Offset: 0x1F5D0F4
     float $GetMinHeight$b__6_0(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F55250
+    // Offset: 0x1F5D1A4
     float $GetPreferredHeight$b__7_0(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetPreferredHeight>b__7_1(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F55300
+    // Offset: 0x1F5D254
     float $GetPreferredHeight$b__7_1(::UnityEngine::UI::ILayoutElement* e);
     // System.Single <GetFlexibleHeight>b__8_0(UnityEngine.UI.ILayoutElement e)
-    // Offset: 0x1F553B0
+    // Offset: 0x1F5D304
     float $GetFlexibleHeight$b__8_0(::UnityEngine::UI::ILayoutElement* e);
   }; // UnityEngine.UI.LayoutUtility/UnityEngine.UI.<>c
   #pragma pack(pop)

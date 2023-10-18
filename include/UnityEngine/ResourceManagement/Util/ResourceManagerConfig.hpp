@@ -48,16 +48,16 @@ namespace UnityEngine::ResourceManagement::Util {
   class ResourceManagerConfig : public ::Il2CppObject {
     public:
     // static System.Boolean ExtractKeyAndSubKey(System.Object keyObj, out System.String mainKey, out System.String subKey)
-    // Offset: 0x1F8CD3C
+    // Offset: 0x1F95C90
     static bool ExtractKeyAndSubKey(::Il2CppObject* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
     // static public System.Boolean IsPathRemote(System.String path)
-    // Offset: 0x1F8B23C
+    // Offset: 0x1F94190
     static bool IsPathRemote(::StringW path);
     // static public System.Boolean ShouldPathUseWebRequest(System.String path)
-    // Offset: 0x1F8C0A8
+    // Offset: 0x1F94FFC
     static bool ShouldPathUseWebRequest(::StringW path);
     // static public System.Array CreateArrayResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x1F8DB14
+    // Offset: 0x1F96A68
     static ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
     // static public TObject CreateArrayResult(UnityEngine.Object[] allAssets)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -69,7 +69,7 @@ namespace UnityEngine::ResourceManagement::Util {
       return ::il2cpp_utils::RunMethodRethrow<TObject, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, allAssets);
     }
     // static public System.Collections.IList CreateListResult(System.Type type, UnityEngine.Object[] allAssets)
-    // Offset: 0x1F8DCE4
+    // Offset: 0x1F96C38
     static ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*> allAssets);
     // static public TObject CreateListResult(UnityEngine.Object[] allAssets)
     // Offset: 0xFFFFFFFFFFFFFFFF

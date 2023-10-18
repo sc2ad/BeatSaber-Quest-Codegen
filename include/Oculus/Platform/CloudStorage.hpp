@@ -46,34 +46,34 @@ namespace Oculus::Platform {
   class CloudStorage : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageUpdateResponse> Delete(System.String bucket, System.String key)
-    // Offset: 0x1A32794
+    // Offset: 0x1A2D1CC
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageUpdateResponse*>* Delete(::StringW bucket, ::StringW key);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageData> Load(System.String bucket, System.String key)
-    // Offset: 0x1A328B8
+    // Offset: 0x1A2D2F0
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageData*>* Load(::StringW bucket, ::StringW key);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageMetadataList> LoadBucketMetadata(System.String bucket)
-    // Offset: 0x1A329DC
+    // Offset: 0x1A2D414
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageMetadataList*>* LoadBucketMetadata(::StringW bucket);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageConflictMetadata> LoadConflictMetadata(System.String bucket, System.String key)
-    // Offset: 0x1A32AF8
+    // Offset: 0x1A2D530
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageConflictMetadata*>* LoadConflictMetadata(::StringW bucket, ::StringW key);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageData> LoadHandle(System.String handle)
-    // Offset: 0x1A32C1C
+    // Offset: 0x1A2D654
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageData*>* LoadHandle(::StringW handle);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageMetadata> LoadMetadata(System.String bucket, System.String key)
-    // Offset: 0x1A32D38
+    // Offset: 0x1A2D770
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageMetadata*>* LoadMetadata(::StringW bucket, ::StringW key);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageUpdateResponse> ResolveKeepLocal(System.String bucket, System.String key, System.String remoteHandle)
-    // Offset: 0x1A32E5C
+    // Offset: 0x1A2D894
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageUpdateResponse*>* ResolveKeepLocal(::StringW bucket, ::StringW key, ::StringW remoteHandle);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageUpdateResponse> ResolveKeepRemote(System.String bucket, System.String key, System.String remoteHandle)
-    // Offset: 0x1A32F90
+    // Offset: 0x1A2D9C8
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageUpdateResponse*>* ResolveKeepRemote(::StringW bucket, ::StringW key, ::StringW remoteHandle);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageUpdateResponse> Save(System.String bucket, System.String key, System.Byte[] data, System.Int64 counter, System.String extraData)
-    // Offset: 0x1A330C4
+    // Offset: 0x1A2DAFC
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageUpdateResponse*>* Save(::StringW bucket, ::StringW key, ::ArrayW<uint8_t> data, int64_t counter, ::StringW extraData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageMetadataList> GetNextCloudStorageMetadataListPage(Oculus.Platform.Models.CloudStorageMetadataList list)
-    // Offset: 0x1A33224
+    // Offset: 0x1A2DC5C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CloudStorageMetadataList*>* GetNextCloudStorageMetadataListPage(::Oculus::Platform::Models::CloudStorageMetadataList* list);
   }; // Oculus.Platform.CloudStorage
   #pragma pack(pop)

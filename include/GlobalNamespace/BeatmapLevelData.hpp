@@ -73,13 +73,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> _difficultyBeatmapSets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& dyn__difficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
-    // Offset: 0x1562B40
+    // Offset: 0x153728C
     ::UnityEngine::AudioClip* get_audioClip();
     // public System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> get_difficultyBeatmapSets()
-    // Offset: 0x1562B48
+    // Offset: 0x1537294
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
     // public System.Void .ctor(UnityEngine.AudioClip audioClip, System.Collections.Generic.IReadOnlyList`1<IDifficultyBeatmapSet> difficultyBeatmapSets)
-    // Offset: 0x1562B50
+    // Offset: 0x153729C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelData* New_ctor(::UnityEngine::AudioClip* audioClip, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelData::.ctor");

@@ -60,56 +60,56 @@ namespace GlobalNamespace {
     ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModelSO;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x112978C
+    // [InjectAttribute] Offset: 0x11265F8
     // private readonly SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::SaberActivityCounter* saberActivityCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SaberActivityCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x112979C
+    // [InjectAttribute] Offset: 0x1126608
     // private readonly BeatmapObjectExecutionRatingsRecorder _beatmapObjectExecutionRatingsRecorder
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* beatmapObjectExecutionRatingsRecorder;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*) == 0x8);
-    // [InjectAttribute] Offset: 0x11297AC
+    // [InjectAttribute] Offset: 0x1126618
     // private readonly IScoreController _scoreController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IScoreController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11297BC
+    // [InjectAttribute] Offset: 0x1126628
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x11297CC
+    // [InjectAttribute] Offset: 0x1126638
     // private readonly IReadonlyBeatmapData _beatmapData
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IReadonlyBeatmapData*) == 0x8);
-    // [InjectAttribute] Offset: 0x11297DC
+    // [InjectAttribute] Offset: 0x1126648
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11297EC
+    // [InjectAttribute] Offset: 0x1126658
     // private readonly GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayModifiers*) == 0x8);
-    // [InjectAttribute] Offset: 0x11297FC
+    // [InjectAttribute] Offset: 0x1126668
     // private readonly ComboController _comboController
     // Size: 0x8
     // Offset: 0x58
@@ -138,14 +138,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly ComboController _comboController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ComboController*& dyn__comboController();
     // public System.Void .ctor()
-    // Offset: 0x145BB70
+    // Offset: 0x1440F20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrepareLevelCompletionResults* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PrepareLevelCompletionResults::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrepareLevelCompletionResults*, creationType>()));
     }
     // public LevelCompletionResults FillLevelCompletionResults(LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction)
-    // Offset: 0x145B91C
+    // Offset: 0x1440C90
     ::GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(::GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction);
   }; // PrepareLevelCompletionResults
   #pragma pack(pop)

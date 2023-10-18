@@ -66,7 +66,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: public System.Boolean ActualHasData
     [[deprecated("Use field access instead!")]] bool& dyn_ActualHasData();
     // public System.Void .ctor()
-    // Offset: 0x1D6C4C0
+    // Offset: 0x1D58170
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NUnitEqualityComparer::FailurePoint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint::.ctor");

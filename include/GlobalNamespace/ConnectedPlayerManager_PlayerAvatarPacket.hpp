@@ -75,26 +75,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public MultiplayerAvatarData playerAvatar
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerAvatarData& dyn_playerAvatar();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerAvatarPacket> get_pool()
-    // Offset: 0x16CA4C8
+    // Offset: 0x1619A7C
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16CACA4
+    // Offset: 0x161A258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerAvatarPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerAvatarPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CABF8
+    // Offset: 0x161A1AC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CAC04
+    // Offset: 0x161A1B8
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16CAC48
+    // Offset: 0x161A1FC
     void Release();
     // public ConnectedPlayerManager/PlayerAvatarPacket Init(MultiplayerAvatarData avatar)
-    // Offset: 0x16CA510
+    // Offset: 0x1619AC4
     ::GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* Init(::GlobalNamespace::MultiplayerAvatarData avatar);
   }; // ConnectedPlayerManager/PlayerAvatarPacket
   #pragma pack(pop)

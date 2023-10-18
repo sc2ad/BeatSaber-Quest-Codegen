@@ -60,17 +60,17 @@ namespace System::Runtime::CompilerServices {
     // Get instance field reference: System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::IAsyncStateMachine*& dyn_m_stateMachine();
     // System.Void .ctor(System.Threading.ExecutionContext context, System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1E4C364
+    // Offset: 0x1E394E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncMethodBuilderCore::MoveNextRunner* New_ctor(::System::Threading::ExecutionContext* context, ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncMethodBuilderCore::MoveNextRunner*, creationType>(context, stateMachine)));
     }
     // System.Void Run()
-    // Offset: 0x1E4CD20
+    // Offset: 0x1E39EA0
     void Run();
     // static private System.Void InvokeMoveNext(System.Object stateMachine)
-    // Offset: 0x1E4CED4
+    // Offset: 0x1E3A054
     static void InvokeMoveNext(::Il2CppObject* stateMachine);
   }; // System.Runtime.CompilerServices.AsyncMethodBuilderCore/System.Runtime.CompilerServices.MoveNextRunner
   #pragma pack(pop)

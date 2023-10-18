@@ -51,13 +51,13 @@ namespace System::Security::AccessControl {
   class DiscretionaryAcl : public ::System::Security::AccessControl::CommonAcl {
     public:
     // public System.Void AddAccess(System.Security.AccessControl.AccessControlType accessType, System.Security.Principal.SecurityIdentifier sid, System.Int32 accessMask, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags)
-    // Offset: 0x1BE654C
+    // Offset: 0x1BB2318
     void AddAccess(::System::Security::AccessControl::AccessControlType accessType, ::System::Security::Principal::SecurityIdentifier* sid, int accessMask, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags);
     // static private System.Security.AccessControl.AceQualifier GetAceQualifier(System.Security.AccessControl.AccessControlType accessType)
-    // Offset: 0x1BE6714
+    // Offset: 0x1BB24E0
     static ::System::Security::AccessControl::AceQualifier GetAceQualifier(::System::Security::AccessControl::AccessControlType accessType);
     // public System.Void .ctor(System.Boolean isContainer, System.Boolean isDS, System.Int32 capacity)
-    // Offset: 0x1BE6540
+    // Offset: 0x1BB230C
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Void CommonAcl::.ctor(System.Boolean isContainer, System.Boolean isDS, System.Int32 capacity)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,7 +66,7 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<DiscretionaryAcl*, creationType>(isContainer, isDS, capacity)));
     }
     // public System.Void .ctor(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.RawAcl rawAcl)
-    // Offset: 0x1BE63E4
+    // Offset: 0x1BB21B0
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Void CommonAcl::.ctor(System.Boolean isContainer, System.Boolean isDS, System.Security.AccessControl.RawAcl rawAcl)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -75,17 +75,17 @@ namespace System::Security::AccessControl {
       return THROW_UNLESS((::il2cpp_utils::New<DiscretionaryAcl*, creationType>(isContainer, isDS, rawAcl)));
     }
     // override System.Void ApplyCanonicalSortToExplicitAces()
-    // Offset: 0x1BE67A0
+    // Offset: 0x1BB256C
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Void CommonAcl::ApplyCanonicalSortToExplicitAces()
     void ApplyCanonicalSortToExplicitAces();
     // override System.Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier aceQualifier)
-    // Offset: 0x1BE67F4
+    // Offset: 0x1BB25C0
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Int32 CommonAcl::GetAceInsertPosition(System.Security.AccessControl.AceQualifier aceQualifier)
     int GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
     // override System.Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce ace)
-    // Offset: 0x1BE6804
+    // Offset: 0x1BB25D0
     // Implemented from: System.Security.AccessControl.CommonAcl
     // Base method: System.Boolean CommonAcl::IsAceMeaningless(System.Security.AccessControl.GenericAce ace)
     bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);

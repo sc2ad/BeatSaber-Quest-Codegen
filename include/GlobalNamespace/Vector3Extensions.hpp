@@ -33,10 +33,10 @@ namespace GlobalNamespace {
   class Vector3Extensions : public ::Il2CppObject {
     public:
     // static public System.Single InverseLerp(UnityEngine.Vector3 a, UnityEngine.Vector3 b, UnityEngine.Vector3 value)
-    // Offset: 0x2AEBB10
+    // Offset: 0x2AF84A0
     static float InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
     // static public UnityEngine.Vector3 RotatedAroundPivot(UnityEngine.Vector3 vector, UnityEngine.Quaternion rotation, UnityEngine.Vector3 pivot)
-    // Offset: 0x2AEBC40
+    // Offset: 0x2AF85D0
     static ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
   }; // Vector3Extensions
   #pragma pack(pop)

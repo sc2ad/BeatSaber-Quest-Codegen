@@ -54,14 +54,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> points
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& dyn_points();
     // public System.Void .ctor()
-    // Offset: 0x17E3180
+    // Offset: 0x17D1328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Curve::$$c__DisplayClass48_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Curve::$$c__DisplayClass48_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Curve::$$c__DisplayClass48_0*, creationType>()));
     }
     // System.Void <GetAllPoints>b__0(HoudiniEngineUnity.CurveNodeData transform)
-    // Offset: 0x17E3188
+    // Offset: 0x17D1330
     void $GetAllPoints$b__0(::HoudiniEngineUnity::CurveNodeData* transform);
   }; // HoudiniEngineUnity.HEU_Curve/HoudiniEngineUnity.<>c__DisplayClass48_0
   #pragma pack(pop)

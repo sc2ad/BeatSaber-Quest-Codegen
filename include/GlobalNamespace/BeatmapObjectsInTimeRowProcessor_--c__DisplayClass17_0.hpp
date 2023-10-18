@@ -46,14 +46,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single currentTimeSliceTime
     [[deprecated("Use field access instead!")]] float& dyn_currentTimeSliceTime();
     // public System.Void .ctor()
-    // Offset: 0x26FF334
+    // Offset: 0x26B1F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapObjectsInTimeRowProcessor::$$c__DisplayClass17_0*, creationType>()));
     }
     // System.Boolean <HandleCurrentTimeSliceColorNotesDidFinishTimeSlice>b__1(SliderData tail)
-    // Offset: 0x26FF800
+    // Offset: 0x26B2464
     bool $HandleCurrentTimeSliceColorNotesDidFinishTimeSlice$b__1(::GlobalNamespace::SliderData* tail);
   }; // BeatmapObjectsInTimeRowProcessor/<>c__DisplayClass17_0
   #pragma pack(pop)

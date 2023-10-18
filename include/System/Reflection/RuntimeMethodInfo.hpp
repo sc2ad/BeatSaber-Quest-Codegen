@@ -63,27 +63,27 @@ namespace System::Reflection {
       return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x1E43FDC
+    // Offset: 0x1E3115C
     ::System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x1E4407C
+    // Offset: 0x1E311FC
     ::System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x1E43FE8
+    // Offset: 0x1E31168
     ::System::Reflection::RuntimeModule* GetRuntimeModule();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1E442F0
+    // Offset: 0x1E31470
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.String SerializationToString()
-    // Offset: 0x1E44438
+    // Offset: 0x1E315B8
     ::StringW SerializationToString();
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x1E43FE4
+    // Offset: 0x1E31164
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     ::System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x1E3F434
+    // Offset: 0x1E2C5B4
     // Implemented from: System.Reflection.MethodInfo
     // Base method: System.Void MethodInfo::.ctor()
     // Base method: System.Void MethodBase::.ctor()
@@ -95,12 +95,12 @@ namespace System::Reflection {
       return THROW_UNLESS((::il2cpp_utils::New<RuntimeMethodInfo*, creationType>()));
     }
     // override System.String FormatNameAndSig(System.Boolean serialization)
-    // Offset: 0x1E44108
+    // Offset: 0x1E31288
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.String MethodBase::FormatNameAndSig(System.Boolean serialization)
     ::StringW FormatNameAndSig(bool serialization);
     // public override System.String ToString()
-    // Offset: 0x1E44258
+    // Offset: 0x1E313D8
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

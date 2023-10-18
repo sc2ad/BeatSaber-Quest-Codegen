@@ -178,59 +178,59 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Xml.Schema.SchemaNotation> notations
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>*& dyn_notations();
     // public System.Void set_DocTypeName(System.Xml.XmlQualifiedName value)
-    // Offset: 0x1D33F94
+    // Offset: 0x1D1FC44
     void set_DocTypeName(::System::Xml::XmlQualifiedName* value);
     // System.Void set_InternalDtdSubset(System.String value)
-    // Offset: 0x1D33F9C
+    // Offset: 0x1D1FC4C
     void set_InternalDtdSubset(::StringW value);
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> get_ElementDecls()
-    // Offset: 0x1D33FA4
+    // Offset: 0x1D1FC54
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_ElementDecls();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaElementDecl> get_UndeclaredElementDecls()
-    // Offset: 0x1D33FAC
+    // Offset: 0x1D1FC5C
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_UndeclaredElementDecls();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> get_GeneralEntities()
-    // Offset: 0x1D33FB4
+    // Offset: 0x1D1FC64
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_GeneralEntities();
     // System.Collections.Generic.Dictionary`2<System.Xml.XmlQualifiedName,System.Xml.Schema.SchemaEntity> get_ParameterEntities()
-    // Offset: 0x1D34028
+    // Offset: 0x1D1FCD8
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_ParameterEntities();
     // System.Xml.Schema.SchemaType get_SchemaType()
-    // Offset: 0x1D3409C
+    // Offset: 0x1D1FD4C
     ::System::Xml::Schema::SchemaType get_SchemaType();
     // System.Void set_SchemaType(System.Xml.Schema.SchemaType value)
-    // Offset: 0x1D340A4
+    // Offset: 0x1D1FD54
     void set_SchemaType(::System::Xml::Schema::SchemaType value);
     // System.Collections.Generic.Dictionary`2<System.String,System.Xml.Schema.SchemaNotation> get_Notations()
-    // Offset: 0x1D340AC
+    // Offset: 0x1D1FD5C
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* get_Notations();
     // private System.Boolean System.Xml.IDtdInfo.get_HasDefaultAttributes()
-    // Offset: 0x1D342A8
+    // Offset: 0x1D1FF58
     bool System_Xml_IDtdInfo_get_HasDefaultAttributes();
     // private System.Boolean System.Xml.IDtdInfo.get_HasNonCDataAttributes()
-    // Offset: 0x1D342B0
+    // Offset: 0x1D1FF60
     bool System_Xml_IDtdInfo_get_HasNonCDataAttributes();
     // private System.Xml.XmlQualifiedName System.Xml.IDtdInfo.get_Name()
-    // Offset: 0x1D3442C
+    // Offset: 0x1D200DC
     ::System::Xml::XmlQualifiedName* System_Xml_IDtdInfo_get_Name();
     // private System.String System.Xml.IDtdInfo.get_InternalDtdSubset()
-    // Offset: 0x1D34434
+    // Offset: 0x1D200E4
     ::StringW System_Xml_IDtdInfo_get_InternalDtdSubset();
     // System.Void .ctor()
-    // Offset: 0x1D33E4C
+    // Offset: 0x1D1FAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SchemaInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::SchemaInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SchemaInfo*, creationType>()));
     }
     // System.Void Finish()
-    // Offset: 0x1D34120
+    // Offset: 0x1D1FDD0
     void Finish();
     // private System.Xml.IDtdAttributeListInfo System.Xml.IDtdInfo.LookupAttributeList(System.String prefix, System.String localName)
-    // Offset: 0x1D342B8
+    // Offset: 0x1D1FF68
     ::System::Xml::IDtdAttributeListInfo* System_Xml_IDtdInfo_LookupAttributeList(::StringW prefix, ::StringW localName);
     // private System.Xml.IDtdEntityInfo System.Xml.IDtdInfo.LookupEntity(System.String name)
-    // Offset: 0x1D3437C
+    // Offset: 0x1D2002C
     ::System::Xml::IDtdEntityInfo* System_Xml_IDtdInfo_LookupEntity(::StringW name);
   }; // System.Xml.Schema.SchemaInfo
   #pragma pack(pop)

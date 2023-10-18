@@ -59,7 +59,7 @@ namespace GlobalNamespace {
     ::TMPro::TextMeshProUGUI* noModifiersText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11324E8
+    // [SpaceAttribute] Offset: 0x112F414
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x28
@@ -76,14 +76,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // public System.Void .ctor()
-    // Offset: 0x14C44D4
+    // Offset: 0x141F3AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ModifiersSelectionView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ModifiersSelectionView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ModifiersSelectionView*, creationType>()));
     }
     // public System.Void SetGameplayModifiers(GameplayModifiers gameplayModifiers)
-    // Offset: 0x14C437C
+    // Offset: 0x141F254
     void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
   }; // ModifiersSelectionView
   #pragma pack(pop)

@@ -15,8 +15,8 @@
 // Begin forward declares
 // Forward declaring namespace: BGNet::Core::Messages
 namespace BGNet::Core::Messages {
-  // Forward declaring type: IUnconnectedUnreliableMessage
-  class IUnconnectedUnreliableMessage;
+  // Forward declaring type: IUnconnectedReliableRequest
+  class IUnconnectedReliableRequest;
 }
 // Forward declaring namespace: System
 namespace System {
@@ -73,11 +73,11 @@ namespace BGNet::Core::Messages {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass52_0_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnconnectedMessageHandler::$$c__DisplayClass52_0_1<T>*, creationType>()));
     }
-    // System.Void <CustomUnreliableResponseHandler>b__0(T packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
+    // System.Void <CustomResponseHandler>b__0(T packet, BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.MessageOrigin origin)
     // Offset: 0xFFFFFFFFFFFFFFFF
-    void $CustomUnreliableResponseHandler$b__0(T packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin) {
-      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass52_0_1::<CustomUnreliableResponseHandler>b__0");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CustomUnreliableResponseHandler>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
+    void $CustomResponseHandler$b__0(T packet, ::BGNet::Core::Messages::UnconnectedMessageHandler::MessageOrigin origin) {
+      static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::UnconnectedMessageHandler::$$c__DisplayClass52_0_1::<CustomResponseHandler>b__0");
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "<CustomResponseHandler>b__0", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet), ::il2cpp_utils::ExtractType(origin)})));
       ::il2cpp_utils::RunMethodRethrow<void, false>(this, ___internal__method, packet, origin);
     }
   }; // BGNet.Core.Messages.UnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass52_0`1

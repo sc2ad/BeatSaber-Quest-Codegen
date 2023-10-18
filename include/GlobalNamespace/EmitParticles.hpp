@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn__particleSystem();
     // public System.Void .ctor()
-    // Offset: 0x13BE04C
+    // Offset: 0x13FEFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EmitParticles* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EmitParticles::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EmitParticles*, creationType>()));
     }
     // public System.Void Emit(System.Int32 count)
-    // Offset: 0x13BE030
+    // Offset: 0x13FEF94
     void Emit(int count);
   }; // EmitParticles
   #pragma pack(pop)

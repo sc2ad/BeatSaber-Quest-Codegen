@@ -90,32 +90,32 @@ namespace HMUI {
     // Get instance field reference: private System.Single _normalizedPageHeight
     [[deprecated("Use field access instead!")]] float& dyn__normalizedPageHeight();
     // public System.Single get_progress()
-    // Offset: 0x2AEE2F8
+    // Offset: 0x2AFEA00
     float get_progress();
     // public System.Void set_progress(System.Single value)
-    // Offset: 0x2AEE134
+    // Offset: 0x2AFE83C
     void set_progress(float value);
     // public System.Single get_normalizedPageHeight()
-    // Offset: 0x2AEE39C
+    // Offset: 0x2AFEAA4
     float get_normalizedPageHeight();
     // public System.Void set_normalizedPageHeight(System.Single value)
-    // Offset: 0x2AEE300
+    // Offset: 0x2AFEA08
     void set_normalizedPageHeight(float value);
     // public System.Void set_disabled(System.Boolean value)
-    // Offset: 0x2AEE3A4
+    // Offset: 0x2AFEAAC
     void set_disabled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2AEE3F4
+    // Offset: 0x2AFEAFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VerticalScrollIndicator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::VerticalScrollIndicator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VerticalScrollIndicator*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2AEE3F0
+    // Offset: 0x2AFEAF8
     void OnEnable();
     // private System.Void RefreshHandle()
-    // Offset: 0x2AEE1D0
+    // Offset: 0x2AFE8D8
     void RefreshHandle();
   }; // HMUI.VerticalScrollIndicator
   #pragma pack(pop)

@@ -45,35 +45,35 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IBeatSaberLogger*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x15384BC
+    // Offset: 0x15E1A1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityDebugLogger* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UnityDebugLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityDebugLogger*, creationType>()));
     }
     // public System.Void Log(System.String message)
-    // Offset: 0x153803C
+    // Offset: 0x15E159C
     void Log(::StringW message);
     // public System.Void Log(System.String message, System.Object context)
-    // Offset: 0x15380A4
+    // Offset: 0x15E1604
     void Log(::StringW message, ::Il2CppObject* context);
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x153815C
+    // Offset: 0x15E16BC
     void LogWarning(::StringW message);
     // public System.Void LogWarning(System.String message, System.Object context)
-    // Offset: 0x15381C4
+    // Offset: 0x15E1724
     void LogWarning(::StringW message, ::Il2CppObject* context);
     // public System.Void LogError(System.String message)
-    // Offset: 0x153827C
+    // Offset: 0x15E17DC
     void LogError(::StringW message);
     // public System.Void LogError(System.String message, System.Object context)
-    // Offset: 0x15382E4
+    // Offset: 0x15E1844
     void LogError(::StringW message, ::Il2CppObject* context);
     // public System.Void LogException(System.Exception exception)
-    // Offset: 0x153839C
+    // Offset: 0x15E18FC
     void LogException(::System::Exception* exception);
     // public System.Void LogException(System.Exception exception, System.Object context)
-    // Offset: 0x1538404
+    // Offset: 0x15E1964
     void LogException(::System::Exception* exception, ::Il2CppObject* context);
   }; // UnityDebugLogger
   #pragma pack(pop)

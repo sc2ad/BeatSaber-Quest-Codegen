@@ -31,28 +31,28 @@ namespace GlobalNamespace {
   class PS4PublishingHelper : public ::Il2CppObject {
     public:
     // static public System.String GetServiceId(PS4PublisherSKUSettingsSO ps4PublisherSKUSettings)
-    // Offset: 0x138FDA8
+    // Offset: 0x1352DA0
     static ::StringW GetServiceId(::GlobalNamespace::PS4PublisherSKUSettingsSO* ps4PublisherSKUSettings);
     // static public System.String GetContentId(PS4PublisherSKUSettingsSO ps4PublisherSKUSettings)
-    // Offset: 0x138FE04
+    // Offset: 0x1352DFC
     static ::StringW GetContentId(::GlobalNamespace::PS4PublisherSKUSettingsSO* ps4PublisherSKUSettings);
     // static public System.String GetContentId(System.String serviceId, System.String productLabel)
-    // Offset: 0x138FE5C
+    // Offset: 0x1352E54
     static ::StringW GetContentId(::StringW serviceId, ::StringW productLabel);
     // static public System.String GetContentIdFromTitleId(System.String serviceIdPrefix, System.String titleId, System.String productLabel)
-    // Offset: 0x138FE24
+    // Offset: 0x1352E1C
     static ::StringW GetContentIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId, ::StringW productLabel);
     // static public System.String GetContentIdFromNpTitleId(System.String serviceIdPrefix, System.String npTitleId, System.String productLabel)
-    // Offset: 0x138FEC0
+    // Offset: 0x1352EB8
     static ::StringW GetContentIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId, ::StringW productLabel);
     // static public System.String GetNpTitleId(System.String titleId)
-    // Offset: 0x138FF48
+    // Offset: 0x1352F40
     static ::StringW GetNpTitleId(::StringW titleId);
     // static public System.String GetServiceIdFromTitleId(System.String serviceIdPrefix, System.String titleId)
-    // Offset: 0x138FDD8
+    // Offset: 0x1352DD0
     static ::StringW GetServiceIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId);
     // static public System.String GetServiceIdFromNpTitleId(System.String serviceIdPrefix, System.String npTitleId)
-    // Offset: 0x138FEE4
+    // Offset: 0x1352EDC
     static ::StringW GetServiceIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId);
   }; // PS4PublishingHelper
   #pragma pack(pop)

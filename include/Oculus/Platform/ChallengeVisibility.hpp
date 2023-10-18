@@ -45,28 +45,28 @@ namespace Oculus::Platform {
     constexpr operator int() const noexcept {
       return value;
     }
-    // [DescriptionAttribute] Offset: 0x1111E84
+    // [DescriptionAttribute] Offset: 0x110EA50
     // static field const value: static public Oculus.Platform.ChallengeVisibility Unknown
     static constexpr const int Unknown = 0;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static ::Oculus::Platform::ChallengeVisibility _get_Unknown();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Unknown
     static void _set_Unknown(::Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0x1111EBC
+    // [DescriptionAttribute] Offset: 0x110EA88
     // static field const value: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static constexpr const int InviteOnly = 1;
     // Get static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static ::Oculus::Platform::ChallengeVisibility _get_InviteOnly();
     // Set static field: static public Oculus.Platform.ChallengeVisibility InviteOnly
     static void _set_InviteOnly(::Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0x1111EF4
+    // [DescriptionAttribute] Offset: 0x110EAC0
     // static field const value: static public Oculus.Platform.ChallengeVisibility Public
     static constexpr const int Public = 2;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Public
     static ::Oculus::Platform::ChallengeVisibility _get_Public();
     // Set static field: static public Oculus.Platform.ChallengeVisibility Public
     static void _set_Public(::Oculus::Platform::ChallengeVisibility value);
-    // [DescriptionAttribute] Offset: 0x1111F2C
+    // [DescriptionAttribute] Offset: 0x110EAF8
     // static field const value: static public Oculus.Platform.ChallengeVisibility Private
     static constexpr const int Private = 3;
     // Get static field: static public Oculus.Platform.ChallengeVisibility Private

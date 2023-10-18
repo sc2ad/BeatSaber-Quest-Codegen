@@ -70,22 +70,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private PS4LevelProductsModelSO/LevelProductData[] _levelProductsData
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*>& dyn__levelProductsData();
     // public System.String get_productLabel()
-    // Offset: 0x138F7C4
+    // Offset: 0x13527BC
     ::StringW get_productLabel();
     // public System.String get_categoryLabel()
-    // Offset: 0x138F7CC
+    // Offset: 0x13527C4
     ::StringW get_categoryLabel();
     // public System.String get_levelPackId()
-    // Offset: 0x138F7D4
+    // Offset: 0x13527CC
     ::StringW get_levelPackId();
     // public System.Single get_packLevelPriceDiscountMul()
-    // Offset: 0x138F7DC
+    // Offset: 0x13527D4
     float get_packLevelPriceDiscountMul();
     // public PS4LevelProductsModelSO/LevelProductData[] get_levelProductsData()
-    // Offset: 0x138F7E4
+    // Offset: 0x13527DC
     ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*> get_levelProductsData();
     // public System.Void .ctor(System.String productLabel, System.String categoryLabel, System.String levelPackId, System.Single packLevelPriceDiscountMul, PS4LevelProductsModelSO/LevelProductData[] levelProductsData)
-    // Offset: 0x138F7EC
+    // Offset: 0x13527E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LevelProductsModelSO::LevelPackProductData* New_ctor(::StringW productLabel, ::StringW categoryLabel, ::StringW levelPackId, float packLevelPriceDiscountMul, ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData*> levelProductsData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData::.ctor");

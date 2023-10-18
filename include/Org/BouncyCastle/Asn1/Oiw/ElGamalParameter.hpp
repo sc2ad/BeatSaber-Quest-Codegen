@@ -63,20 +63,20 @@ namespace Org::BouncyCastle::Asn1::Oiw {
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger g
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_g();
     // public Org.BouncyCastle.Math.BigInteger get_P()
-    // Offset: 0x1D94FEC
+    // Offset: 0x1D810A0
     ::Org::BouncyCastle::Math::BigInteger* get_P();
     // public Org.BouncyCastle.Math.BigInteger get_G()
-    // Offset: 0x1D95008
+    // Offset: 0x1D810BC
     ::Org::BouncyCastle::Math::BigInteger* get_G();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1D94EEC
+    // Offset: 0x1D80FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Oiw::ElGamalParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalParameter*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1D95024
+    // Offset: 0x1D810D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

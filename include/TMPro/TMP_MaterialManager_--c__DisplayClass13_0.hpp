@@ -46,14 +46,14 @@ namespace TMPro {
     // Get instance field reference: public UnityEngine.Material stencilMaterial
     [[deprecated("Use field access instead!")]] ::UnityEngine::Material*& dyn_stencilMaterial();
     // public System.Void .ctor()
-    // Offset: 0x14E13AC
+    // Offset: 0x14DE690
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_MaterialManager::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_MaterialManager::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_MaterialManager::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Boolean <RemoveStencilMaterial>b__0(TMPro.TMP_MaterialManager/TMPro.MaskingMaterial item)
-    // Offset: 0x14E2DE8
+    // Offset: 0x14E00CC
     bool $RemoveStencilMaterial$b__0(::TMPro::TMP_MaterialManager::MaskingMaterial* item);
   }; // TMPro.TMP_MaterialManager/TMPro.<>c__DisplayClass13_0
   #pragma pack(pop)

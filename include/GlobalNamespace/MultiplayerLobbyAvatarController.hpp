@@ -116,29 +116,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject[] _visualObjects
     [[deprecated("Use field access instead!")]] ::ArrayW<::UnityEngine::GameObject*>& dyn__visualObjects();
     // public System.Void .ctor()
-    // Offset: 0x14DE4DC
+    // Offset: 0x148F6C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyAvatarController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyAvatarController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyAvatarController*, creationType>()));
     }
     // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
-    // Offset: 0x14DE1D8
+    // Offset: 0x148F340
     void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
     // private System.Collections.IEnumerator SpawnAnimationCoroutine()
-    // Offset: 0x14DE310
+    // Offset: 0x148F478
     ::System::Collections::IEnumerator* SpawnAnimationCoroutine();
     // private System.Void ActivateVisualObjects(System.Boolean on)
-    // Offset: 0x14DE294
+    // Offset: 0x148F3FC
     void ActivateVisualObjects(bool on);
     // public System.Collections.IEnumerator ShowDespawnAnimationAndDestroy()
-    // Offset: 0x14DE380
+    // Offset: 0x148F514
     ::System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
     // public System.Void DestroySelf()
-    // Offset: 0x14DE3F0
+    // Offset: 0x148F5B0
     void DestroySelf();
     // private System.Collections.IEnumerator DespawnAnimationCoroutine()
-    // Offset: 0x14DE46C
+    // Offset: 0x148F62C
     ::System::Collections::IEnumerator* DespawnAnimationCoroutine();
   }; // MultiplayerLobbyAvatarController
   #pragma pack(pop)

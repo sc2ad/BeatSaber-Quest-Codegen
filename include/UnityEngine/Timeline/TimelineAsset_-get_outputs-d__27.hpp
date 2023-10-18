@@ -108,38 +108,38 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> <>7__wrap2
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>*& dyn_$$7__wrap2();
     // private UnityEngine.Playables.PlayableBinding System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current()
-    // Offset: 0x2AD6344
+    // Offset: 0x2AE3CD4
     ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator$UnityEngine_Playables_PlayableBinding$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AD63B4
+    // Offset: 0x2AE3D44
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2AD5CC8
+    // Offset: 0x2AE3658
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TimelineAsset::$get_outputs$d__27* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::TimelineAsset::$get_outputs$d__27::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TimelineAsset::$get_outputs$d__27*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AD5D00
+    // Offset: 0x2AE3690
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AD5F10
+    // Offset: 0x2AE38A0
     bool MoveNext();
     // private System.Void <>m__Finally1()
-    // Offset: 0x2AD5E50
+    // Offset: 0x2AE37E0
     void $$m__Finally1();
     // private System.Void <>m__Finally2()
-    // Offset: 0x2AD5D90
+    // Offset: 0x2AE3720
     void $$m__Finally2();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AD6354
+    // Offset: 0x2AE3CE4
     void System_Collections_IEnumerator_Reset();
     // private System.Collections.Generic.IEnumerator`1<UnityEngine.Playables.PlayableBinding> System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator()
-    // Offset: 0x2AD641C
+    // Offset: 0x2AE3DAC
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable$UnityEngine_Playables_PlayableBinding$_GetEnumerator();
     // private System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
-    // Offset: 0x2AD64C8
+    // Offset: 0x2AE3E58
     ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
   }; // UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.<get_outputs>d__27
   #pragma pack(pop)

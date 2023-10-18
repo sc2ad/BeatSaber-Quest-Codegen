@@ -52,12 +52,12 @@ namespace GlobalNamespace {
   class MockBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
     public:
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x14BFD78
+    // Offset: 0x141B1A4
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // public System.Void .ctor()
-    // Offset: 0x14BFD98
+    // Offset: 0x141B1C4
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -66,32 +66,32 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapObjectManager*, creationType>()));
     }
     // public override System.Void ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x14BFD80
+    // Offset: 0x141B1AC
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData> obstacleSpawnData, float rotation);
     // public override System.Void ProcessNoteData(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNoteBehaviour)
-    // Offset: 0x14BFD84
+    // Offset: 0x141B1B0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessNoteData(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNoteBehaviour)
     void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData> noteSpawnData, float rotation, bool forceIsFirstNoteBehaviour);
     // public override System.Void ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x14BFD88
+    // Offset: 0x141B1B4
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
     void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData> sliderSpawnData, float rotation);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x14BFD8C
+    // Offset: 0x141B1B8
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(::GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x14BFD90
+    // Offset: 0x141B1BC
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
     // protected override System.Void DespawnInternal(SliderController sliderNoteController)
-    // Offset: 0x14BFD94
+    // Offset: 0x141B1C0
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(SliderController sliderNoteController)
     void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);

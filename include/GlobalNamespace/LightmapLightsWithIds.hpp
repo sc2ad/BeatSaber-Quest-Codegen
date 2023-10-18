@@ -63,13 +63,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesWithId[] _lightIntensityData
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::LightmapLightsWithIds::LightIntensitiesWithId*>& dyn__lightIntensityData();
     // public System.Single get_maxTotalIntensity()
-    // Offset: 0x1CEB838
+    // Offset: 0x1CBF0EC
     float get_maxTotalIntensity();
     // public System.Void set_maxTotalIntensity(System.Single value)
-    // Offset: 0x1CEB840
+    // Offset: 0x1CBF0F4
     void set_maxTotalIntensity(float value);
     // public System.Void .ctor()
-    // Offset: 0x1CEBBE8
+    // Offset: 0x1CBF49C
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,12 +78,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightmapLightsWithIds*, creationType>()));
     }
     // protected override System.Void ProcessNewColorData()
-    // Offset: 0x1CEB848
+    // Offset: 0x1CBF0FC
     // Implemented from: LightWithIds
     // Base method: System.Void LightWithIds::ProcessNewColorData()
     void ProcessNewColorData();
     // protected override System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
-    // Offset: 0x1CEBBE0
+    // Offset: 0x1CBF494
     // Implemented from: LightWithIds
     // Base method: System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> LightWithIds::GetLightWithIds()
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();

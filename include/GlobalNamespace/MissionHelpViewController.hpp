@@ -84,29 +84,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionHelpSO _missionHelp
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public System.Void add_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x137F2D4
+    // Offset: 0x138FB64
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<MissionHelpViewController> value)
-    // Offset: 0x137F378
+    // Offset: 0x138FC08
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MissionHelpViewController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x137F650
+    // Offset: 0x138FEE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionHelpViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionHelpViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionHelpViewController*, creationType>()));
     }
     // public System.Void Setup(MissionHelpSO missionHelp)
-    // Offset: 0x137F41C
+    // Offset: 0x138FCAC
     void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
     // public System.Void RefreshContent()
-    // Offset: 0x137F458
+    // Offset: 0x138FCE8
     void RefreshContent();
     // private System.Void OkButtonPressed()
-    // Offset: 0x137F5EC
+    // Offset: 0x138FE7C
     void OkButtonPressed();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x137F548
+    // Offset: 0x138FDD8
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

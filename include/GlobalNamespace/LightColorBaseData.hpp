@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Int32 strobeBeatFrequency
     [[deprecated("Use field access instead!")]] int& dyn_strobeBeatFrequency();
     // public System.Void .ctor(System.Single beat, BeatmapEventTransitionType transitionType, EnvironmentColorType colorType, System.Single brightness, System.Int32 strobeBeatFrequency)
-    // Offset: 0x155225C
+    // Offset: 0x156AF34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorBaseData* New_ctor(float beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType, float brightness, int strobeBeatFrequency) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorBaseData::.ctor");

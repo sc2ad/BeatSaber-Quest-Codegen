@@ -36,10 +36,10 @@ namespace System::Threading::Tasks {
       return reinterpret_cast<::System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // public System.Void Invoke(System.Threading.Tasks.Task completingTask)
-    // Offset: 0x1E07BA4
+    // Offset: 0x1DF3D64
     void Invoke(::System::Threading::Tasks::Task* completingTask);
     // System.Void .ctor()
-    // Offset: 0x1E050F0
+    // Offset: 0x1DF11A4
     // Implemented from: System.Threading.ManualResetEventSlim
     // Base method: System.Void ManualResetEventSlim::.ctor()
     // Base method: System.Void Object::.ctor()

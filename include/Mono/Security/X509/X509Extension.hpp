@@ -68,49 +68,49 @@ namespace Mono::Security::X509 {
     // Get instance field reference: protected Mono.Security.ASN1 extnValue
     [[deprecated("Use field access instead!")]] ::Mono::Security::ASN1*& dyn_extnValue();
     // public System.String get_Oid()
-    // Offset: 0x2B6112C
+    // Offset: 0x2B6AD18
     ::StringW get_Oid();
     // public System.Boolean get_Critical()
-    // Offset: 0x2B61134
+    // Offset: 0x2B6AD20
     bool get_Critical();
     // public Mono.Security.ASN1 get_Value()
-    // Offset: 0x2B610EC
+    // Offset: 0x2B6ACD8
     ::Mono::Security::ASN1* get_Value();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
-    // Offset: 0x2B60CCC
+    // Offset: 0x2B6A8B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::Mono::Security::ASN1* asn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(asn1)));
     }
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
-    // Offset: 0x2B60F8C
+    // Offset: 0x2B6AB78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Extension* New_ctor(::Mono::Security::X509::X509Extension* extension) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(extension)));
     }
     // protected System.Void Decode()
-    // Offset: 0x2B61124
+    // Offset: 0x2B6AD10
     void Decode();
     // protected System.Void Encode()
-    // Offset: 0x2B61128
+    // Offset: 0x2B6AD14
     void Encode();
     // private System.Void WriteLine(System.Text.StringBuilder sb, System.Int32 n, System.Int32 pos)
-    // Offset: 0x2B612BC
+    // Offset: 0x2B6AEA8
     void WriteLine(::System::Text::StringBuilder* sb, int n, int pos);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2B6113C
+    // Offset: 0x2B6AD28
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2B6129C
+    // Offset: 0x2B6AE88
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2B614C8
+    // Offset: 0x2B6B0B4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

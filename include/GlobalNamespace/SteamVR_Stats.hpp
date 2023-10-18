@@ -30,14 +30,14 @@ namespace GlobalNamespace {
   class SteamVR_Stats : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18F98AC
+    // Offset: 0x18C9188
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Stats* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Stats::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Stats*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x18F9810
+    // Offset: 0x18C90EC
     void Awake();
   }; // SteamVR_Stats
   #pragma pack(pop)

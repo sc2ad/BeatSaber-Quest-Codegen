@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String levelId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_levelId();
     // public System.Void .ctor()
-    // Offset: 0x156B2B4
+    // Offset: 0x153FA00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelsModel::$$c__DisplayClass35_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass35_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelsModel::$$c__DisplayClass35_0*, creationType>()));
     }
     // System.Boolean <GetLevelPreviewForLevelId>b__1(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x156B9A0
+    // Offset: 0x15400EC
     bool $GetLevelPreviewForLevelId$b__1(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
   }; // BeatmapLevelsModel/<>c__DisplayClass35_0
   #pragma pack(pop)

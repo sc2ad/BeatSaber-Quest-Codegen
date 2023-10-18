@@ -52,14 +52,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public DisconnectedReason disconnectedReason
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DisconnectedReason& dyn_disconnectedReason();
     // public System.Void .ctor()
-    // Offset: 0x137AF0C
+    // Offset: 0x138B76C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuTransitionsHelper::$$c__DisplayClass31_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass31_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MenuTransitionsHelper::$$c__DisplayClass31_0*, creationType>()));
     }
     // System.Void <HandleMultiplayerLevelDidDisconnect>b__0(Zenject.DiContainer container)
-    // Offset: 0x137B668
+    // Offset: 0x138BEC8
     void $HandleMultiplayerLevelDidDisconnect$b__0(::Zenject::DiContainer* container);
   }; // MenuTransitionsHelper/<>c__DisplayClass31_0
   #pragma pack(pop)

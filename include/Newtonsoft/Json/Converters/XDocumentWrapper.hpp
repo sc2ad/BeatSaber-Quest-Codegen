@@ -59,61 +59,61 @@ namespace Newtonsoft::Json::Converters {
       return reinterpret_cast<::Newtonsoft::Json::Converters::IXmlDocument*>(this);
     }
     // private System.Xml.Linq.XDocument get_Document()
-    // Offset: 0x181A4F4
+    // Offset: 0x180769C
     ::System::Xml::Linq::XDocument* get_Document();
     // public Newtonsoft.Json.Converters.IXmlElement get_DocumentElement()
-    // Offset: 0x181ADB8
+    // Offset: 0x1807F60
     ::Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement();
     // public System.Void .ctor(System.Xml.Linq.XDocument document)
-    // Offset: 0x181A0F0
+    // Offset: 0x1807298
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XDocumentWrapper* New_ctor(::System::Xml::Linq::XDocument* document) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XDocumentWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XDocumentWrapper*, creationType>(document)));
     }
     // public Newtonsoft.Json.Converters.IXmlNode CreateComment(System.String text)
-    // Offset: 0x181A6BC
+    // Offset: 0x1807864
     ::Newtonsoft::Json::Converters::IXmlNode* CreateComment(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateTextNode(System.String text)
-    // Offset: 0x181A740
+    // Offset: 0x18078E8
     ::Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateCDataSection(System.String data)
-    // Offset: 0x181A7C4
+    // Offset: 0x180796C
     ::Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(::StringW data);
     // public Newtonsoft.Json.Converters.IXmlNode CreateWhitespace(System.String text)
-    // Offset: 0x181A848
+    // Offset: 0x18079F0
     ::Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateSignificantWhitespace(System.String text)
-    // Offset: 0x181A8CC
+    // Offset: 0x1807A74
     ::Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateXmlDeclaration(System.String version, System.String encoding, System.String standalone)
-    // Offset: 0x181A950
+    // Offset: 0x1807AF8
     ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone);
     // public Newtonsoft.Json.Converters.IXmlNode CreateXmlDocumentType(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
-    // Offset: 0x181A9E8
+    // Offset: 0x1807B90
     ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
     // public Newtonsoft.Json.Converters.IXmlNode CreateProcessingInstruction(System.String target, System.String data)
-    // Offset: 0x181AA90
+    // Offset: 0x1807C38
     ::Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW target, ::StringW data);
     // public Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String elementName)
-    // Offset: 0x181AB20
+    // Offset: 0x1807CC8
     ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName);
     // public Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String qualifiedName, System.String namespaceUri)
-    // Offset: 0x181ABB4
+    // Offset: 0x1807D5C
     ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceUri);
     // public Newtonsoft.Json.Converters.IXmlNode CreateAttribute(System.String name, System.String value)
-    // Offset: 0x181AC60
+    // Offset: 0x1807E08
     ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW name, ::StringW value);
     // public Newtonsoft.Json.Converters.IXmlNode CreateAttribute(System.String qualifiedName, System.String namespaceUri, System.String value)
-    // Offset: 0x181AD04
+    // Offset: 0x1807EAC
     ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW qualifiedName, ::StringW namespaceUri, ::StringW value);
     // public override System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> get_ChildNodes()
-    // Offset: 0x181A574
+    // Offset: 0x180771C
     // Implemented from: Newtonsoft.Json.Converters.XContainerWrapper
     // Base method: System.Collections.Generic.List`1<Newtonsoft.Json.Converters.IXmlNode> XContainerWrapper::get_ChildNodes()
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
     // public override Newtonsoft.Json.Converters.IXmlNode AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
-    // Offset: 0x181AE58
+    // Offset: 0x1808000
     // Implemented from: Newtonsoft.Json.Converters.XContainerWrapper
     // Base method: Newtonsoft.Json.Converters.IXmlNode XContainerWrapper::AppendChild(Newtonsoft.Json.Converters.IXmlNode newChild)
     ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);

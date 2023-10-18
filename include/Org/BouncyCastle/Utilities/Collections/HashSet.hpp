@@ -65,26 +65,26 @@ namespace Org::BouncyCastle::Utilities::Collections {
     // Get instance field reference: private readonly System.Collections.IDictionary impl
     [[deprecated("Use field access instead!")]] ::System::Collections::IDictionary*& dyn_impl();
     // public System.Int32 get_Count()
-    // Offset: 0x26872D8
+    // Offset: 0x2687B44
     int get_Count();
     // public System.Object get_SyncRoot()
-    // Offset: 0x26874B0
+    // Offset: 0x2687D1C
     ::Il2CppObject* get_SyncRoot();
     // public System.Void .ctor()
-    // Offset: 0x2687008
+    // Offset: 0x2687874
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HashSet* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Utilities::Collections::HashSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HashSet*, creationType>()));
     }
     // public System.Void Add(System.Object o)
-    // Offset: 0x26870D4
+    // Offset: 0x2687940
     void Add(::Il2CppObject* o);
     // public System.Void CopyTo(System.Array array, System.Int32 index)
-    // Offset: 0x268719C
+    // Offset: 0x2687A08
     void CopyTo(::System::Array* array, int index);
     // public System.Collections.IEnumerator GetEnumerator()
-    // Offset: 0x268738C
+    // Offset: 0x2687BF8
     ::System::Collections::IEnumerator* GetEnumerator();
   }; // Org.BouncyCastle.Utilities.Collections.HashSet
   #pragma pack(pop)

@@ -118,23 +118,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _specialScorePos
     [[deprecated("Use field access instead!")]] int& dyn__specialScorePos();
     // public System.Void .ctor()
-    // Offset: 0x13B5ACC
+    // Offset: 0x13A33E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardTableView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardTableView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardTableView*, creationType>()));
     }
     // public System.Single CellSize()
-    // Offset: 0x13B5864
+    // Offset: 0x13A317C
     float CellSize();
     // public System.Int32 NumberOfCells()
-    // Offset: 0x13B586C
+    // Offset: 0x13A3184
     int NumberOfCells();
     // public HMUI.TableCell CellForIdx(HMUI.TableView tableView, System.Int32 row)
-    // Offset: 0x13B58C0
+    // Offset: 0x13A31D8
     ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int row);
     // public System.Void SetScores(System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> scores, System.Int32 specialScorePos)
-    // Offset: 0x13B5A9C
+    // Offset: 0x13A33B4
     void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView::ScoreData*>* scores, int specialScorePos);
   }; // LeaderboardTableView
   #pragma pack(pop)

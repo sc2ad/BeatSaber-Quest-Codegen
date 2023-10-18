@@ -40,42 +40,42 @@ namespace System::Xml {
   class XmlSignificantWhitespace : public ::System::Xml::XmlCharacterData {
     public:
     // public override System.String get_Name()
-    // Offset: 0x165F1F0
+    // Offset: 0x16733B0
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x165F21C
+    // Offset: 0x16733DC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x165F248
+    // Offset: 0x1673408
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x165F250
+    // Offset: 0x1673410
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // public override System.String get_Value()
-    // Offset: 0x165F348
+    // Offset: 0x1673508
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.String XmlCharacterData::get_Value()
     ::StringW get_Value();
     // public override System.Void set_Value(System.String value)
-    // Offset: 0x165F358
+    // Offset: 0x1673518
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.Void XmlCharacterData::set_Value(System.String value)
     void set_Value(::StringW value);
     // override System.Boolean get_IsText()
-    // Offset: 0x165F41C
+    // Offset: 0x16735DC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsText()
     bool get_IsText();
     // protected internal System.Void .ctor(System.String strData, System.Xml.XmlDocument doc)
-    // Offset: 0x1655D38
+    // Offset: 0x1669EF8
     // Implemented from: System.Xml.XmlCharacterData
     // Base method: System.Void XmlCharacterData::.ctor(System.String strData, System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -84,7 +84,7 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlSignificantWhitespace*, creationType>(strData, doc)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x165F2E8
+    // Offset: 0x16734A8
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);

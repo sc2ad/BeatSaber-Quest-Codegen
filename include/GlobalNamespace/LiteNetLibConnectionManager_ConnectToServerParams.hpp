@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean serverIsConnectionOwner
     [[deprecated("Use field access instead!")]] bool& dyn_serverIsConnectionOwner();
     // public System.Void .ctor()
-    // Offset: 0x16D9084
+    // Offset: 0x16217C0
     // Implemented from: LiteNetLibConnectionManager/LiteNetLibConnectionParamsBase
     // Base method: System.Void LiteNetLibConnectionParamsBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

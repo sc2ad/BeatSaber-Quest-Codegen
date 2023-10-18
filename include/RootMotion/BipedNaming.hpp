@@ -239,76 +239,76 @@ namespace RootMotion {
     // Set static field: static public System.String[] foot
     static void _set_foot(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x23027F0
+    // Offset: 0x22A59E4
     static void _cctor();
     // static public UnityEngine.Transform[] GetBonesOfType(RootMotion.BipedNaming/RootMotion.BoneType boneType, UnityEngine.Transform[] bones)
-    // Offset: 0x2301594
+    // Offset: 0x22A4788
     static ::ArrayW<::UnityEngine::Transform*> GetBonesOfType(::RootMotion::BipedNaming::BoneType boneType, ::ArrayW<::UnityEngine::Transform*> bones);
     // static public UnityEngine.Transform[] GetBonesOfSide(RootMotion.BipedNaming/RootMotion.BoneSide boneSide, UnityEngine.Transform[] bones)
-    // Offset: 0x2301894
+    // Offset: 0x22A4A88
     static ::ArrayW<::UnityEngine::Transform*> GetBonesOfSide(::RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<::UnityEngine::Transform*> bones);
     // static public UnityEngine.Transform[] GetBonesOfTypeAndSide(RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, UnityEngine.Transform[] bones)
-    // Offset: 0x2301AE4
+    // Offset: 0x22A4CD8
     static ::ArrayW<::UnityEngine::Transform*> GetBonesOfTypeAndSide(::RootMotion::BipedNaming::BoneType boneType, ::RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<::UnityEngine::Transform*> bones);
     // static public UnityEngine.Transform GetFirstBoneOfTypeAndSide(RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, UnityEngine.Transform[] bones)
-    // Offset: 0x2301B68
+    // Offset: 0x22A4D5C
     static ::UnityEngine::Transform* GetFirstBoneOfTypeAndSide(::RootMotion::BipedNaming::BoneType boneType, ::RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<::UnityEngine::Transform*> bones);
     // static public UnityEngine.Transform GetNamingMatch(UnityEngine.Transform[] transforms, params System.String[][] namings)
-    // Offset: 0x2301C14
+    // Offset: 0x22A4E08
     static ::UnityEngine::Transform* GetNamingMatch(::ArrayW<::UnityEngine::Transform*> transforms, ::ArrayW<::ArrayW<::StringW>> namings);
     // static public RootMotion.BipedNaming/RootMotion.BoneType GetBoneType(System.String boneName)
-    // Offset: 0x2301744
+    // Offset: 0x22A4938
     static ::RootMotion::BipedNaming::BoneType GetBoneType(::StringW boneName);
     // static public RootMotion.BipedNaming/RootMotion.BoneSide GetBoneSide(System.String boneName)
-    // Offset: 0x2301A44
+    // Offset: 0x22A4C38
     static ::RootMotion::BipedNaming::BoneSide GetBoneSide(::StringW boneName);
     // static public UnityEngine.Transform GetBone(UnityEngine.Transform[] transforms, RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, params System.String[][] namings)
-    // Offset: 0x2302454
+    // Offset: 0x22A5648
     static ::UnityEngine::Transform* GetBone(::ArrayW<::UnityEngine::Transform*> transforms, ::RootMotion::BipedNaming::BoneType boneType, ::RootMotion::BipedNaming::BoneSide boneSide, ::ArrayW<::ArrayW<::StringW>> namings);
     // static private System.Boolean isLeft(System.String boneName)
-    // Offset: 0x230226C
+    // Offset: 0x22A5460
     static bool isLeft(::StringW boneName);
     // static private System.Boolean isRight(System.String boneName)
-    // Offset: 0x2302360
+    // Offset: 0x22A5554
     static bool isRight(::StringW boneName);
     // static private System.Boolean isSpine(System.String boneName)
-    // Offset: 0x2301E34
+    // Offset: 0x22A5028
     static bool isSpine(::StringW boneName);
     // static private System.Boolean isHead(System.String boneName)
-    // Offset: 0x2301EE8
+    // Offset: 0x22A50DC
     static bool isHead(::StringW boneName);
     // static private System.Boolean isArm(System.String boneName)
-    // Offset: 0x2301F9C
+    // Offset: 0x22A5190
     static bool isArm(::StringW boneName);
     // static private System.Boolean isLeg(System.String boneName)
-    // Offset: 0x2302050
+    // Offset: 0x22A5244
     static bool isLeg(::StringW boneName);
     // static private System.Boolean isTail(System.String boneName)
-    // Offset: 0x2302104
+    // Offset: 0x22A52F8
     static bool isTail(::StringW boneName);
     // static private System.Boolean isEye(System.String boneName)
-    // Offset: 0x23021B8
+    // Offset: 0x22A53AC
     static bool isEye(::StringW boneName);
     // static private System.Boolean isTypeExclude(System.String boneName)
-    // Offset: 0x2302668
+    // Offset: 0x22A585C
     static bool isTypeExclude(::StringW boneName);
     // static private System.Boolean matchesNaming(System.String boneName, System.String[] namingConvention)
-    // Offset: 0x2301D48
+    // Offset: 0x22A4F3C
     static bool matchesNaming(::StringW boneName, ::ArrayW<::StringW> namingConvention);
     // static private System.Boolean excludesNaming(System.String boneName, System.String[] namingConvention)
-    // Offset: 0x23025D8
+    // Offset: 0x22A57CC
     static bool excludesNaming(::StringW boneName, ::ArrayW<::StringW> namingConvention);
     // static private System.Boolean matchesLastLetter(System.String boneName, System.String[] namingConvention)
-    // Offset: 0x23026D8
+    // Offset: 0x22A58CC
     static bool matchesLastLetter(::StringW boneName, ::ArrayW<::StringW> namingConvention);
     // static private System.Boolean LastLetterIs(System.String boneName, System.String letter)
-    // Offset: 0x23027B0
+    // Offset: 0x22A59A4
     static bool LastLetterIs(::StringW boneName, ::StringW letter);
     // static private System.String firstLetter(System.String boneName)
-    // Offset: 0x230255C
+    // Offset: 0x22A5750
     static ::StringW firstLetter(::StringW boneName);
     // static private System.String lastLetter(System.String boneName)
-    // Offset: 0x23024E4
+    // Offset: 0x22A56D8
     static ::StringW lastLetter(::StringW boneName);
   }; // RootMotion.BipedNaming
   #pragma pack(pop)

@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Single time
     [[deprecated("Use field access instead!")]] float& dyn_time();
     // public System.Void .ctor(NoteData/ScoringType scoringType, System.Single time)
-    // Offset: 0x148DEB4
+    // Offset: 0x1470C10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScoreModel::MaxScoreCounterElement* New_ctor(::GlobalNamespace::NoteData::ScoringType scoringType, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ScoreModel::MaxScoreCounterElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScoreModel::MaxScoreCounterElement*, creationType>(scoringType, time)));
     }
     // public System.Int32 CompareTo(ScoreModel/MaxScoreCounterElement other)
-    // Offset: 0x148E298
+    // Offset: 0x1470FF4
     int CompareTo(::GlobalNamespace::ScoreModel::MaxScoreCounterElement* other);
   }; // ScoreModel/MaxScoreCounterElement
   #pragma pack(pop)

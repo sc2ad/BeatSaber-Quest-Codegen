@@ -129,17 +129,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _transform
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn__transform();
     // public System.Void .ctor()
-    // Offset: 0x161E354
+    // Offset: 0x1631F54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Billboard* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::Billboard::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Billboard*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x161E1DC
+    // Offset: 0x1631DDC
     void Awake();
     // private System.Void OnWillRenderObject()
-    // Offset: 0x161E204
+    // Offset: 0x1631E04
     void OnWillRenderObject();
   }; // Billboard
   #pragma pack(pop)

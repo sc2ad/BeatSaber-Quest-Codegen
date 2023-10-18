@@ -67,10 +67,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private PreviewBeatmapLevelSO[] _beatmapLevels
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*>& dyn__beatmapLevels();
     // public System.Collections.Generic.IReadOnlyList`1<IPreviewBeatmapLevel> get_beatmapLevels()
-    // Offset: 0x145BEDC
+    // Offset: 0x144128C
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
     // public System.Void .ctor()
-    // Offset: 0x145BEE4
+    // Offset: 0x1441294
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewBeatmapLevelCollectionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviewBeatmapLevelCollectionSO::.ctor");

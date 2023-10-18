@@ -35,20 +35,20 @@ namespace UnityEngine {
   class AnimatorOverrideController::OnOverrideControllerDirtyCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2B07E94
+    // Offset: 0x2B14524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorOverrideController::OnOverrideControllerDirtyCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorOverrideController::OnOverrideControllerDirtyCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x2B07C88
+    // Offset: 0x2B14318
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2B07EA4
+    // Offset: 0x2B14534
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2B07ED0
+    // Offset: 0x2B14560
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback
   #pragma pack(pop)

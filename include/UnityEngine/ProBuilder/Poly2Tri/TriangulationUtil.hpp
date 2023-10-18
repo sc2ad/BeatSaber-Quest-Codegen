@@ -36,16 +36,16 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Set static field: static public System.Double EPSILON
     static void _set_EPSILON(double value);
     // static private System.Void .cctor()
-    // Offset: 0x2B41C34
+    // Offset: 0x2B53A7C
     static void _cctor();
     // static public System.Boolean SmartIncircle(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pd)
-    // Offset: 0x2B3F674
+    // Offset: 0x2B514BC
     static bool SmartIncircle(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
     // static public System.Boolean InScanArea(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pd)
-    // Offset: 0x2B3EAAC
+    // Offset: 0x2B508F4
     static bool InScanArea(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
     // static public UnityEngine.ProBuilder.Poly2Tri.Orientation Orient2d(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pa, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pb, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint pc)
-    // Offset: 0x2B3CE50
+    // Offset: 0x2B4EC98
     static ::UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationUtil
   #pragma pack(pop)

@@ -91,10 +91,10 @@ namespace UnityEngine {
       // Get instance field reference: private readonly System.Threading.ManualResetEvent m_WaitHandle
       [[deprecated("Use field access instead!")]] ::System::Threading::ManualResetEvent*& dyn_m_WaitHandle();
       // public System.Void .ctor(System.Threading.SendOrPostCallback callback, System.Object state, System.Threading.ManualResetEvent waitHandle)
-      // Offset: 0x28A594C
+      // Offset: 0x28AE010
       // ABORTED: conflicts with another method.  WorkRequest(::System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state, ::System::Threading::ManualResetEvent* waitHandle);
       // public System.Void Invoke()
-      // Offset: 0x28A5C0C
+      // Offset: 0x28AE2D0
       void Invoke();
     }; // UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest
     #pragma pack(pop)
@@ -137,56 +137,56 @@ namespace UnityEngine {
     // Get instance field reference: private System.Int32 m_TrackedCount
     [[deprecated("Use field access instead!")]] int& dyn_m_TrackedCount();
     // private System.Void .ctor(System.Int32 mainThreadID)
-    // Offset: 0x28A55CC
+    // Offset: 0x28ADC90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(mainThreadID)));
     }
     // private System.Void .ctor(System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> queue, System.Int32 mainThreadID)
-    // Offset: 0x28A567C
+    // Offset: 0x28ADD40
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnitySynchronizationContext* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext::WorkRequest>* queue, int mainThreadID) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UnitySynchronizationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnitySynchronizationContext*, creationType>(queue, mainThreadID)));
     }
     // private System.Void Exec()
-    // Offset: 0x28A5AB4
+    // Offset: 0x28AE178
     void Exec();
     // private System.Boolean HasPendingTasks()
-    // Offset: 0x28A5D24
+    // Offset: 0x28AE3E8
     bool HasPendingTasks();
     // static private System.Void InitializeSynchronizationContext()
-    // Offset: 0x28A5D8C
+    // Offset: 0x28AE450
     static void InitializeSynchronizationContext();
     // static private System.Void ExecuteTasks()
-    // Offset: 0x28A5E0C
+    // Offset: 0x28AE4D0
     static void ExecuteTasks();
     // static private System.Boolean ExecutePendingTasks(System.Int64 millisecondsTimeout)
-    // Offset: 0x28A5E84
+    // Offset: 0x28AE548
     static bool ExecutePendingTasks(int64_t millisecondsTimeout);
     // public override System.Void Send(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x28A5710
+    // Offset: 0x28ADDD4
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Send(System.Threading.SendOrPostCallback callback, System.Object state)
     void Send(::System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Void OperationStarted()
-    // Offset: 0x28A5958
+    // Offset: 0x28AE01C
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationStarted()
     void OperationStarted();
     // public override System.Void OperationCompleted()
-    // Offset: 0x28A5964
+    // Offset: 0x28AE028
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::OperationCompleted()
     void OperationCompleted();
     // public override System.Void Post(System.Threading.SendOrPostCallback callback, System.Object state)
-    // Offset: 0x28A5970
+    // Offset: 0x28AE034
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Void SynchronizationContext::Post(System.Threading.SendOrPostCallback callback, System.Object state)
     void Post(::System::Threading::SendOrPostCallback* callback, ::Il2CppObject* state);
     // public override System.Threading.SynchronizationContext CreateCopy()
-    // Offset: 0x28A5A40
+    // Offset: 0x28AE104
     // Implemented from: System.Threading.SynchronizationContext
     // Base method: System.Threading.SynchronizationContext SynchronizationContext::CreateCopy()
     ::System::Threading::SynchronizationContext* CreateCopy();

@@ -94,13 +94,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single time
     [[deprecated("Use field access instead!")]] float& dyn_time();
     // public UnityEngine.Vector3 get_pos()
-    // Offset: 0x1412CEC
+    // Offset: 0x1479A98
     ::UnityEngine::Vector3 get_pos();
     // public UnityEngine.Quaternion get_rot()
-    // Offset: 0x1412D28
+    // Offset: 0x1479AD4
     ::UnityEngine::Quaternion get_rot();
     // public System.Void .ctor(UnityEngine.Vector3 pos, UnityEngine.Quaternion rot, System.Single time)
-    // Offset: 0x1412D60
+    // Offset: 0x1479518
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleVRNodeRecorder::SavedData::NodeKeyframe* New_ctor(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, float time) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::.ctor");

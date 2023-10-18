@@ -83,40 +83,40 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Color s_TextColor
     static void _set_s_TextColor(::UnityEngine::Color value);
     // static private System.Void .cctor()
-    // Offset: 0x149F048
+    // Offset: 0x14AEA5C
     static void _cctor();
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size)
-    // Offset: 0x149D014
+    // Offset: 0x14ACA28
     static ::UnityEngine::GameObject* CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size);
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent)
-    // Offset: 0x149D0B8
+    // Offset: 0x14ACACC
     static ::UnityEngine::GameObject* CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent);
     // static private System.Void SetDefaultTextValues(TMPro.TMP_Text lbl)
-    // Offset: 0x149D27C
+    // Offset: 0x14ACC90
     static void SetDefaultTextValues(::TMPro::TMP_Text* lbl);
     // static private System.Void SetDefaultColorTransitionValues(UnityEngine.UI.Selectable slider)
-    // Offset: 0x149D314
+    // Offset: 0x14ACD28
     static void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
     // static private System.Void SetParentAndAlign(UnityEngine.GameObject child, UnityEngine.GameObject parent)
-    // Offset: 0x149D170
+    // Offset: 0x14ACB84
     static void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
     // static private System.Void SetLayerRecursively(UnityEngine.GameObject go, System.Int32 layer)
-    // Offset: 0x149D394
+    // Offset: 0x14ACDA8
     static void SetLayerRecursively(::UnityEngine::GameObject* go, int layer);
     // static public UnityEngine.GameObject CreateScrollbar(TMPro.TMP_DefaultControls/TMPro.Resources resources)
-    // Offset: 0x149D490
+    // Offset: 0x14ACEA4
     static ::UnityEngine::GameObject* CreateScrollbar(::TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateButton(TMPro.TMP_DefaultControls/TMPro.Resources resources)
-    // Offset: 0x149D734
+    // Offset: 0x14AD148
     static ::UnityEngine::GameObject* CreateButton(::TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateText(TMPro.TMP_DefaultControls/TMPro.Resources resources)
-    // Offset: 0x149D950
+    // Offset: 0x14AD364
     static ::UnityEngine::GameObject* CreateText(::TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateInputField(TMPro.TMP_DefaultControls/TMPro.Resources resources)
-    // Offset: 0x149DA0C
+    // Offset: 0x14AD420
     static ::UnityEngine::GameObject* CreateInputField(::TMPro::TMP_DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateDropdown(TMPro.TMP_DefaultControls/TMPro.Resources resources)
-    // Offset: 0x149E0A8
+    // Offset: 0x14ADABC
     static ::UnityEngine::GameObject* CreateDropdown(::TMPro::TMP_DefaultControls::Resources resources);
   }; // TMPro.TMP_DefaultControls
   #pragma pack(pop)

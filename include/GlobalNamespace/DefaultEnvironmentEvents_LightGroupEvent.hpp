@@ -39,7 +39,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LightGroupSO* lightGroup;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LightGroupSO*) == 0x8);
-    // [HeaderAttribute] Offset: 0x11355DC
+    // [HeaderAttribute] Offset: 0x11325C0
     // private EnvironmentColorType _environmentColorType
     // Size: 0x4
     // Offset: 0x18
@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* brightnessFiltering;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1135658
+    // [HeaderAttribute] Offset: 0x113263C
     // private System.Single _rotationX
     // Size: 0x4
     // Offset: 0x30
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* rotationFiltering;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1135704
+    // [HeaderAttribute] Offset: 0x11326E8
     // private System.Single _translationX
     // Size: 0x4
     // Offset: 0x60
@@ -194,64 +194,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private DefaultEnvironmentEvents/LightGroupFiltering _translationFiltering
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering*& dyn__translationFiltering();
     // public LightGroupSO get_lightGroup()
-    // Offset: 0x144E23C
+    // Offset: 0x1460BB0
     ::GlobalNamespace::LightGroupSO* get_lightGroup();
     // public EnvironmentColorType get_environmentColorType()
-    // Offset: 0x144E244
+    // Offset: 0x1460BB8
     ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
     // public System.Single get_brightness()
-    // Offset: 0x144E24C
+    // Offset: 0x1460BC0
     float get_brightness();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_brightnessDistribution()
-    // Offset: 0x144E254
+    // Offset: 0x1460BC8
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_brightnessDistribution();
     // public DefaultEnvironmentEvents/LightGroupFiltering get_brightnessFiltering()
-    // Offset: 0x144E25C
+    // Offset: 0x1460BD0
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* get_brightnessFiltering();
     // public System.Single get_rotationX()
-    // Offset: 0x144E264
+    // Offset: 0x1460BD8
     float get_rotationX();
     // public System.Single get_rotationY()
-    // Offset: 0x144E26C
+    // Offset: 0x1460BE0
     float get_rotationY();
     // public System.Single get_rotationZ()
-    // Offset: 0x144E274
+    // Offset: 0x1460BE8
     float get_rotationZ();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_rotationXDistribution()
-    // Offset: 0x144E27C
+    // Offset: 0x1460BF0
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_rotationXDistribution();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_rotationYDistribution()
-    // Offset: 0x144E284
+    // Offset: 0x1460BF8
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_rotationYDistribution();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_rotationZDistribution()
-    // Offset: 0x144E28C
+    // Offset: 0x1460C00
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_rotationZDistribution();
     // public DefaultEnvironmentEvents/LightGroupFiltering get_rotationFiltering()
-    // Offset: 0x144E294
+    // Offset: 0x1460C08
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* get_rotationFiltering();
     // public System.Single get_translationX()
-    // Offset: 0x144E29C
+    // Offset: 0x1460C10
     float get_translationX();
     // public System.Single get_translationY()
-    // Offset: 0x144E2A4
+    // Offset: 0x1460C18
     float get_translationY();
     // public System.Single get_translationZ()
-    // Offset: 0x144E2AC
+    // Offset: 0x1460C20
     float get_translationZ();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_translationXDistribution()
-    // Offset: 0x144E2B4
+    // Offset: 0x1460C28
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_translationXDistribution();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_translationYDistribution()
-    // Offset: 0x144E2BC
+    // Offset: 0x1460C30
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_translationYDistribution();
     // public DefaultEnvironmentEvents/LightGroupDistribution get_translationZDistribution()
-    // Offset: 0x144E2C4
+    // Offset: 0x1460C38
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution* get_translationZDistribution();
     // public DefaultEnvironmentEvents/LightGroupFiltering get_translationFiltering()
-    // Offset: 0x144E2CC
+    // Offset: 0x1460C40
     ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* get_translationFiltering();
     // public System.Void .ctor()
-    // Offset: 0x144E2D4
+    // Offset: 0x1460C48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::LightGroupEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent::.ctor");

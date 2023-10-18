@@ -54,17 +54,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IDifficultyBeatmapSet,System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap>> <>9__2_1
     static void _set_$$9__2_1(::System::Func_2<::GlobalNamespace::IDifficultyBeatmapSet*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x14BF0DC
+    // Offset: 0x141A508
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x14BF140
+    // Offset: 0x141A56C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapLoader::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader::$$c*, creationType>()));
     }
     // System.Collections.Generic.IEnumerable`1<IDifficultyBeatmap> <GetBeatmapData>b__2_1(IDifficultyBeatmapSet bds)
-    // Offset: 0x14BF148
+    // Offset: 0x141A574
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>* $GetBeatmapData$b__2_1(::GlobalNamespace::IDifficultyBeatmapSet* bds);
   }; // MockBeatmapLoader/<>c
   #pragma pack(pop)

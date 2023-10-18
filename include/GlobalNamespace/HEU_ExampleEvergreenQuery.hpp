@@ -53,38 +53,38 @@ namespace GlobalNamespace {
   class HEU_ExampleEvergreenQuery : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x17418FC
+    // Offset: 0x17010E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_ExampleEvergreenQuery* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HEU_ExampleEvergreenQuery::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_ExampleEvergreenQuery*, creationType>()));
     }
     // static public System.Void StartQuery()
-    // Offset: 0x1740038
+    // Offset: 0x16FF81C
     static void StartQuery();
     // static public HoudiniEngineUnity.HEU_HoudiniAsset QueryHoudiniAsset(UnityEngine.GameObject rootGO)
-    // Offset: 0x17402CC
+    // Offset: 0x16FFAB0
     static ::HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(::UnityEngine::GameObject* rootGO);
     // static public System.Void CookAsset(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
-    // Offset: 0x1740488
+    // Offset: 0x16FFC6C
     static void CookAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void ChangeParmsAndCook(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
-    // Offset: 0x17404B0
+    // Offset: 0x16FFC94
     static void ChangeParmsAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void QueryObjects(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset)
-    // Offset: 0x17407D4
+    // Offset: 0x16FFFB8
     static void QueryObjects(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);
     // static public System.Void QueryGeoParts(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_GeoInfo geoInfo)
-    // Offset: 0x1740FB0
+    // Offset: 0x1700794
     static void QueryGeoParts(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo);
     // static public System.Void QueryPartAttributeByOwner(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner owner, System.Int32 count, System.Text.StringBuilder sb)
-    // Offset: 0x1741418
+    // Offset: 0x1700BFC
     static void QueryPartAttributeByOwner(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, int count, ::System::Text::StringBuilder* sb);
     // static public System.Void QueryAttributeByStorageType(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.String attrName)
-    // Offset: 0x1741758
+    // Offset: 0x1700F3C
     static void QueryAttributeByStorageType(::HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::StringW attrName);
     // static public System.Void QueryAttribute(HoudiniEngineUnity.HEU_HoudiniAsset houdiniAsset, System.String objName, System.String geoName, System.Int32 partID, System.String attrName)
-    // Offset: 0x1740B18
+    // Offset: 0x17002FC
     static void QueryAttribute(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, ::StringW objName, ::StringW geoName, int partID, ::StringW attrName);
   }; // HEU_ExampleEvergreenQuery
   #pragma pack(pop)

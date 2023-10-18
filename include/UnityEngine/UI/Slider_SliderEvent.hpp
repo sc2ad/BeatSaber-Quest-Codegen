@@ -25,7 +25,7 @@ namespace UnityEngine::UI {
   class Slider::SliderEvent : public ::UnityEngine::Events::UnityEvent_1<float> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2B469CC
+    // Offset: 0x2B58814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Slider::SliderEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::Slider::SliderEvent::.ctor");

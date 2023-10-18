@@ -42,7 +42,7 @@ namespace GlobalNamespace {
   class MultiplayerCoreInstaller : public ::Zenject::MonoInstaller {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x112B134
+    // [SpaceAttribute] Offset: 0x1127FA0
     // private ScoreSyncStateManager _scoreSyncStateManagerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -55,14 +55,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x112B17C
+    // [InjectAttribute] Offset: 0x1127FE8
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x112B18C
+    // [InjectAttribute] Offset: 0x1127FF8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x38
@@ -79,14 +79,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IMultiplayerSessionManager*& dyn__multiplayerSessionManager();
     // public System.Void .ctor()
-    // Offset: 0x14D64CC
+    // Offset: 0x1487634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerCoreInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerCoreInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerCoreInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x14D5F88
+    // Offset: 0x14870F0
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

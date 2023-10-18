@@ -34,40 +34,40 @@ namespace GlobalNamespace {
     // Set static field: static public readonly System.Version version
     static void _set_version(::System::Version* value);
     // static private System.Void .cctor()
-    // Offset: 0x1B9C274
+    // Offset: 0x1B554F8
     static void _cctor();
     // static public OVRPlugin/Result ovrp_GetHandTrackingEnabled(ref OVRPlugin/Bool handTrackingEnabled)
-    // Offset: 0x1B9BC10
+    // Offset: 0x1B54E94
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHandTrackingEnabled(ByRef<::GlobalNamespace::OVRPlugin::Bool> handTrackingEnabled);
     // static public OVRPlugin/Result ovrp_GetHandState(OVRPlugin/Step stepId, OVRPlugin/Hand hand, out OVRPlugin/HandStateInternal handState)
-    // Offset: 0x1B9BC90
+    // Offset: 0x1B54F14
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetHandState(::GlobalNamespace::OVRPlugin::Step stepId, ::GlobalNamespace::OVRPlugin::Hand hand, ByRef<::GlobalNamespace::OVRPlugin::HandStateInternal> handState);
     // static public OVRPlugin/Result ovrp_GetSkeleton(OVRPlugin/SkeletonType skeletonType, out OVRPlugin/Skeleton skeleton)
-    // Offset: 0x1B9BD28
+    // Offset: 0x1B54FAC
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetSkeleton(::GlobalNamespace::OVRPlugin::SkeletonType skeletonType, ByRef<::GlobalNamespace::OVRPlugin::Skeleton> skeleton);
     // static public OVRPlugin/Result ovrp_GetMesh(OVRPlugin/MeshType meshType, System.IntPtr meshPtr)
-    // Offset: 0x1B9BDF4
+    // Offset: 0x1B55078
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetMesh(::GlobalNamespace::OVRPlugin::MeshType meshType, ::System::IntPtr meshPtr);
     // static public OVRPlugin/Result ovrp_OverrideExternalCameraFov(System.Int32 cameraId, OVRPlugin/Bool useOverriddenFov, ref OVRPlugin/Fovf fov)
-    // Offset: 0x1B9BE80
+    // Offset: 0x1B55104
     static ::GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraFov(int cameraId, ::GlobalNamespace::OVRPlugin::Bool useOverriddenFov, ByRef<::GlobalNamespace::OVRPlugin::Fovf> fov);
     // static public OVRPlugin/Result ovrp_GetUseOverriddenExternalCameraFov(System.Int32 cameraId, out OVRPlugin/Bool useOverriddenFov)
-    // Offset: 0x1B9BF18
+    // Offset: 0x1B5519C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraFov(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::Bool> useOverriddenFov);
     // static public OVRPlugin/Result ovrp_OverrideExternalCameraStaticPose(System.Int32 cameraId, OVRPlugin/Bool useOverriddenPose, ref OVRPlugin/Posef poseInStageOrigin)
-    // Offset: 0x1B9BFA8
+    // Offset: 0x1B5522C
     static ::GlobalNamespace::OVRPlugin::Result ovrp_OverrideExternalCameraStaticPose(int cameraId, ::GlobalNamespace::OVRPlugin::Bool useOverriddenPose, ByRef<::GlobalNamespace::OVRPlugin::Posef> poseInStageOrigin);
     // static public OVRPlugin/Result ovrp_GetUseOverriddenExternalCameraStaticPose(System.Int32 cameraId, out OVRPlugin/Bool useOverriddenStaticPose)
-    // Offset: 0x1B9C040
+    // Offset: 0x1B552C4
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetUseOverriddenExternalCameraStaticPose(int cameraId, ByRef<::GlobalNamespace::OVRPlugin::Bool> useOverriddenStaticPose);
     // static public OVRPlugin/Result ovrp_ResetDefaultExternalCamera()
-    // Offset: 0x1B9C0D0
+    // Offset: 0x1B55354
     static ::GlobalNamespace::OVRPlugin::Result ovrp_ResetDefaultExternalCamera();
     // static public OVRPlugin/Result ovrp_SetDefaultExternalCamera(System.String cameraName, ref OVRPlugin/CameraIntrinsics cameraIntrinsics, ref OVRPlugin/CameraExtrinsics cameraExtrinsics)
-    // Offset: 0x1B9C144
+    // Offset: 0x1B553C8
     static ::GlobalNamespace::OVRPlugin::Result ovrp_SetDefaultExternalCamera(::StringW cameraName, ByRef<::GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics, ByRef<::GlobalNamespace::OVRPlugin::CameraExtrinsics> cameraExtrinsics);
     // static public OVRPlugin/Result ovrp_GetLocalTrackingSpaceRecenterCount(ref System.Int32 recenterCount)
-    // Offset: 0x1B9C1F4
+    // Offset: 0x1B55478
     static ::GlobalNamespace::OVRPlugin::Result ovrp_GetLocalTrackingSpaceRecenterCount(ByRef<int> recenterCount);
   }; // OVRPlugin/OVRP_1_44_0
   #pragma pack(pop)

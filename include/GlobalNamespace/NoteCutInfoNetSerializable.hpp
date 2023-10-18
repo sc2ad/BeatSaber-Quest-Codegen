@@ -188,16 +188,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public Vector3Serializable moveVec
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::Vector3Serializable& dyn_moveVec();
     // static public NoteCutInfoNetSerializable Obtain()
-    // Offset: 0x2A1F704
+    // Offset: 0x29CFD34
     static ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
     // public NoteCutInfoNetSerializable Init(in NoteCutInfo noteCutInfo, NoteData noteData, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
-    // Offset: 0x2A1FB9C
+    // Offset: 0x29D01CC
     ::GlobalNamespace::NoteCutInfoNetSerializable* Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
     // public NoteCutInfoNetSerializable Init(System.Single saberSpeed, System.Boolean cutWasOk, UnityEngine.Vector3 saberDir, UnityEngine.Vector3 cutPoint, UnityEngine.Vector3 cutNormal, NoteData/GameplayType gameplayType, ColorType colorType, NoteLineLayer lineLayer, System.Int32 noteLineIndex, System.Single noteTime, System.Single timeToNextColorNote, UnityEngine.Vector3 notePosition, UnityEngine.Quaternion noteRotation, UnityEngine.Vector3 noteScale, UnityEngine.Vector3 moveVec)
-    // Offset: 0x2A1FC84
+    // Offset: 0x29D02B4
     ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::GlobalNamespace::NoteData::GameplayType gameplayType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int noteLineIndex, float noteTime, float timeToNextColorNote, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
     // public System.Void .ctor()
-    // Offset: 0x2A1FB8C
+    // Offset: 0x29D01BC
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -206,12 +206,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteCutInfoNetSerializable*, creationType>()));
     }
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A1F74C
+    // Offset: 0x29CFD7C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A1F938
+    // Offset: 0x29CFF68
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

@@ -100,35 +100,35 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LoadingControl*) == 0x8);
-    // [InjectAttribute] Offset: 0x112F604
+    // [InjectAttribute] Offset: 0x112C558
     // private readonly LevelCollectionViewController _levelCollectionViewController
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::LevelCollectionViewController* levelCollectionViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelCollectionViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112F614
+    // [InjectAttribute] Offset: 0x112C568
     // private readonly LevelPackDetailViewController _levelPackDetailViewController
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::LevelPackDetailViewController* levelPackDetailViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelPackDetailViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112F624
+    // [InjectAttribute] Offset: 0x112C578
     // private readonly StandardLevelDetailViewController _levelDetailViewController
     // Size: 0x8
     // Offset: 0xB0
     ::GlobalNamespace::StandardLevelDetailViewController* levelDetailViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::StandardLevelDetailViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112F634
+    // [InjectAttribute] Offset: 0x112C588
     // private readonly AppStaticSettingsSO _appStaticSettings
     // Size: 0x8
     // Offset: 0xB8
     ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AppStaticSettingsSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x112F644
+    // [InjectAttribute] Offset: 0x112C598
     // private readonly Tweening.TimeTweeningManager _timeTweeningManager
     // Size: 0x8
     // Offset: 0xC0
@@ -275,130 +275,130 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.FloatTween _floatTween
     [[deprecated("Use field access instead!")]] ::Tweening::FloatTween*& dyn__floatTween();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
-    // Offset: 0x13B7AD4
+    // Offset: 0x13A53EC
     ::GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
     // public IPreviewBeatmapLevel get_selectedBeatmapLevel()
-    // Offset: 0x13B7AF0
+    // Offset: 0x13A5408
     ::GlobalNamespace::IPreviewBeatmapLevel* get_selectedBeatmapLevel();
     // public System.Void add_didChangeLevelDetailContentEvent(System.Action`2<LevelCollectionNavigationController,StandardLevelDetailViewController/ContentType> value)
-    // Offset: 0x13B7324
+    // Offset: 0x13A4C3C
     void add_didChangeLevelDetailContentEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController::ContentType>* value);
     // public System.Void remove_didChangeLevelDetailContentEvent(System.Action`2<LevelCollectionNavigationController,StandardLevelDetailViewController/ContentType> value)
-    // Offset: 0x13B73C8
+    // Offset: 0x13A4CE0
     void remove_didChangeLevelDetailContentEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController::ContentType>* value);
     // public System.Void add_didSelectLevelPackEvent(System.Action`2<LevelCollectionNavigationController,IBeatmapLevelPack> value)
-    // Offset: 0x13B746C
+    // Offset: 0x13A4D84
     void add_didSelectLevelPackEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void remove_didSelectLevelPackEvent(System.Action`2<LevelCollectionNavigationController,IBeatmapLevelPack> value)
-    // Offset: 0x13B7510
+    // Offset: 0x13A4E28
     void remove_didSelectLevelPackEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void add_didPressActionButtonEvent(System.Action`1<LevelCollectionNavigationController> value)
-    // Offset: 0x13B75B4
+    // Offset: 0x13A4ECC
     void add_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelCollectionNavigationController*>* value);
     // public System.Void remove_didPressActionButtonEvent(System.Action`1<LevelCollectionNavigationController> value)
-    // Offset: 0x13B7658
+    // Offset: 0x13A4F70
     void remove_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::LevelCollectionNavigationController*>* value);
     // public System.Void add_didPressOpenPackButtonEvent(System.Action`2<LevelCollectionNavigationController,IBeatmapLevelPack> value)
-    // Offset: 0x13B76FC
+    // Offset: 0x13A5014
     void add_didPressOpenPackButtonEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void remove_didPressOpenPackButtonEvent(System.Action`2<LevelCollectionNavigationController,IBeatmapLevelPack> value)
-    // Offset: 0x13B77A0
+    // Offset: 0x13A50B8
     void remove_didPressOpenPackButtonEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IBeatmapLevelPack*>* value);
     // public System.Void add_didPressPracticeButtonEvent(System.Action`2<LevelCollectionNavigationController,IBeatmapLevel> value)
-    // Offset: 0x13B7844
+    // Offset: 0x13A515C
     void add_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IBeatmapLevel*>* value);
     // public System.Void remove_didPressPracticeButtonEvent(System.Action`2<LevelCollectionNavigationController,IBeatmapLevel> value)
-    // Offset: 0x13B78E8
+    // Offset: 0x13A5200
     void remove_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IBeatmapLevel*>* value);
     // public System.Void add_didChangeDifficultyBeatmapEvent(System.Action`2<LevelCollectionNavigationController,IDifficultyBeatmap> value)
-    // Offset: 0x13B798C
+    // Offset: 0x13A52A4
     void add_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void remove_didChangeDifficultyBeatmapEvent(System.Action`2<LevelCollectionNavigationController,IDifficultyBeatmap> value)
-    // Offset: 0x13B7A30
+    // Offset: 0x13A5348
     void remove_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13B968C
+    // Offset: 0x13A691C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelCollectionNavigationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelCollectionNavigationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LevelCollectionNavigationController*, creationType>()));
     }
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, System.Boolean showPackHeader, System.Boolean showPracticeButton, System.String actionButtonText, UnityEngine.GameObject noDataInfoPrefab, BeatmapDifficultyMask allowedBeatmapDifficultyMask, BeatmapCharacteristicSO[] notAllowedCharacteristics)
-    // Offset: 0x13B7B0C
+    // Offset: 0x13A5424
     void SetData(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, bool showPackHeader, bool showPracticeButton, ::StringW actionButtonText, ::UnityEngine::GameObject* noDataInfoPrefab, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
-    // Offset: 0x13B7EF4
+    // Offset: 0x13A5814
     void SelectLevel(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
     // public System.Void AnimateCanvasGroupAlpha(LevelCollectionNavigationController/AlphaAnimationType animationType)
-    // Offset: 0x13B7F70
+    // Offset: 0x13A5858
     void AnimateCanvasGroupAlpha(::GlobalNamespace::LevelCollectionNavigationController::AlphaAnimationType animationType);
     // private System.Void SetDataForPack(IBeatmapLevelPack levelPack, System.Boolean showPackHeader, System.Boolean showPracticeButton, System.String actionButtonText)
-    // Offset: 0x13B7CA0
+    // Offset: 0x13A55B8
     void SetDataForPack(::GlobalNamespace::IBeatmapLevelPack* levelPack, bool showPackHeader, bool showPracticeButton, ::StringW actionButtonText);
     // private System.Void SetDataForLevelCollection(IBeatmapLevelCollection beatmapLevelCollection, System.Boolean showPracticeButton, System.String actionButtonText, UnityEngine.GameObject noDataInfoPrefab)
-    // Offset: 0x13B7EA8
+    // Offset: 0x13A57C4
     void SetDataForLevelCollection(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, bool showPracticeButton, ::StringW actionButtonText, ::UnityEngine::GameObject* noDataInfoPrefab);
     // public System.Void RefreshDetail()
-    // Offset: 0x13B8F68
+    // Offset: 0x13A622C
     void RefreshDetail();
     // public System.Void ClearSelected()
-    // Offset: 0x13B8F84
+    // Offset: 0x13A6248
     void ClearSelected();
     // public System.Void ShowLoading()
-    // Offset: 0x13B8FA0
+    // Offset: 0x13A6264
     void ShowLoading();
     // private System.Void PresentViewControllersForPack()
-    // Offset: 0x13B8E70
+    // Offset: 0x13A6134
     void PresentViewControllersForPack();
     // private System.Void PresentViewControllersForLevelCollection()
-    // Offset: 0x13B8EF8
+    // Offset: 0x13A61BC
     void PresentViewControllersForLevelCollection();
     // private System.Void HideLoading()
-    // Offset: 0x13B9084
+    // Offset: 0x13A6348
     void HideLoading();
     // private System.Void HideDetailViewController()
-    // Offset: 0x13B9248
+    // Offset: 0x13A650C
     void HideDetailViewController();
     // private System.Void HandleLevelCollectionViewControllerDidSelectLevel(LevelCollectionViewController viewController, IPreviewBeatmapLevel level)
-    // Offset: 0x13B92AC
+    // Offset: 0x13A6570
     void HandleLevelCollectionViewControllerDidSelectLevel(::GlobalNamespace::LevelCollectionViewController* viewController, ::GlobalNamespace::IPreviewBeatmapLevel* level);
     // private System.Void HandleLevelCollectionViewControllerDidSelectPack(LevelCollectionViewController viewController)
-    // Offset: 0x13B9364
+    // Offset: 0x13A6628
     void HandleLevelCollectionViewControllerDidSelectPack(::GlobalNamespace::LevelCollectionViewController* viewController);
     // private System.Void PresentDetailViewController(HMUI.ViewController viewController, System.Boolean immediately)
-    // Offset: 0x13B90A8
+    // Offset: 0x13A636C
     void PresentDetailViewController(::HMUI::ViewController* viewController, bool immediately);
     // private System.Void HandleLevelDetailViewControllerDidPressActionButton(StandardLevelDetailViewController viewController)
-    // Offset: 0x13B9400
+    // Offset: 0x13A66BC
     void HandleLevelDetailViewControllerDidPressActionButton(::GlobalNamespace::StandardLevelDetailViewController* viewController);
     // private System.Void HandleLevelDetailViewControllerDidPressPracticeButton(StandardLevelDetailViewController viewController, IBeatmapLevel level)
-    // Offset: 0x13B9464
+    // Offset: 0x13A6720
     void HandleLevelDetailViewControllerDidPressPracticeButton(::GlobalNamespace::StandardLevelDetailViewController* viewController, ::GlobalNamespace::IBeatmapLevel* level);
     // private System.Void HandleLevelDetailViewControllerDidChangeDifficultyBeatmap(StandardLevelDetailViewController viewController, IDifficultyBeatmap beatmap)
-    // Offset: 0x13B94DC
+    // Offset: 0x13A6798
     void HandleLevelDetailViewControllerDidChangeDifficultyBeatmap(::GlobalNamespace::StandardLevelDetailViewController* viewController, ::GlobalNamespace::IDifficultyBeatmap* beatmap);
     // private System.Void HandleLevelDetailViewControllerDidPresentContent(StandardLevelDetailViewController viewController, StandardLevelDetailViewController/ContentType contentType)
-    // Offset: 0x13B9554
+    // Offset: 0x13A6810
     void HandleLevelDetailViewControllerDidPresentContent(::GlobalNamespace::StandardLevelDetailViewController* viewController, ::GlobalNamespace::StandardLevelDetailViewController::ContentType contentType);
     // private System.Void HandleLevelDetailViewControllerDidPressOpenLevelPackButton(StandardLevelDetailViewController viewController, IBeatmapLevelPack levelPack)
-    // Offset: 0x13B95CC
+    // Offset: 0x13A6888
     void HandleLevelDetailViewControllerDidPressOpenLevelPackButton(::GlobalNamespace::StandardLevelDetailViewController* viewController, ::GlobalNamespace::IBeatmapLevelPack* levelPack);
     // private System.Void HandleLevelDetailViewControllerLevelFavoriteStatusDidChange(StandardLevelDetailViewController viewController, System.Boolean favoriteStatus)
-    // Offset: 0x13B9644
+    // Offset: 0x13A6900
     void HandleLevelDetailViewControllerLevelFavoriteStatusDidChange(::GlobalNamespace::StandardLevelDetailViewController* viewController, bool favoriteStatus);
     // private System.Void <AnimateCanvasGroupAlpha>b__40_0(System.Single f)
-    // Offset: 0x13B9694
+    // Offset: 0x13A6924
     void $AnimateCanvasGroupAlpha$b__40_0(float f);
     // private System.Void <AnimateCanvasGroupAlpha>b__40_1()
-    // Offset: 0x13B96C8
+    // Offset: 0x13A6958
     void $AnimateCanvasGroupAlpha$b__40_1();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13B8134
+    // Offset: 0x13A5A1C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x13B86BC
+    // Offset: 0x13A5E68
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

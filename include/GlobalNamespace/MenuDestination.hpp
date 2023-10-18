@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MenuDestination : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x13795F4
+    // Offset: 0x1389E54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MenuDestination* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MenuDestination::.ctor");

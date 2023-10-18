@@ -83,7 +83,7 @@ namespace Oculus::Platform::Models {
     ::Oculus::Platform::Models::UserList* UsersOptional;
     // Field size check
     static_assert(sizeof(::Oculus::Platform::Models::UserList*) == 0x8);
-    // [ObsoleteAttribute] Offset: 0x111466C
+    // [ObsoleteAttribute] Offset: 0x1111238
     // public readonly Oculus.Platform.Models.UserList Users
     // Size: 0x8
     // Offset: 0x48
@@ -108,7 +108,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.Models.UserList Users
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::Models::UserList*& dyn_Users();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A46E24
+    // Offset: 0x1A4185C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LaunchDetails* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::LaunchDetails::.ctor");

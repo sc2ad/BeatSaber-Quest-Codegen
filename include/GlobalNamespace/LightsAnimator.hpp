@@ -72,7 +72,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::DirectionalLight*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1127A80
+    // [InjectAttribute] Offset: 0x1124854
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x28
@@ -97,35 +97,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.ColorTween _tween
     [[deprecated("Use field access instead!")]] ::Tweening::ColorTween*& dyn__tween();
     // public System.Void .ctor()
-    // Offset: 0x15870CC
+    // Offset: 0x1517D90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightsAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightsAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightsAnimator*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1586B2C
+    // Offset: 0x15177F0
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1586C50
+    // Offset: 0x1517914
     void OnDestroy();
     // public System.Void AnimateToColor(UnityEngine.Color color, System.Single duration, EaseType easeType)
-    // Offset: 0x1586CE8
+    // Offset: 0x15179AC
     void AnimateToColor(::UnityEngine::Color color, float duration, ::GlobalNamespace::EaseType easeType);
     // public System.Void SetColor(UnityEngine.Color color)
-    // Offset: 0x1586DF8
+    // Offset: 0x1517ABC
     void SetColor(::UnityEngine::Color color);
     // private System.Void SetLightsColor(UnityEngine.Color color)
-    // Offset: 0x1586E5C
+    // Offset: 0x1517B20
     void SetLightsColor(::UnityEngine::Color color);
     // public System.Void SetLightsWidth(System.Single width)
-    // Offset: 0x1586F64
+    // Offset: 0x1517C28
     void SetLightsWidth(float width);
     // public System.Void DisableDirectionalLights(System.Single delay)
-    // Offset: 0x1586FE0
+    // Offset: 0x1517CA4
     void DisableDirectionalLights(float delay);
     // private System.Collections.IEnumerator DisableDirectionalLightsCoroutine(System.Single delay)
-    // Offset: 0x1587020
+    // Offset: 0x1517CE4
     ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float delay);
   }; // LightsAnimator
   #pragma pack(pop)

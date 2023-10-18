@@ -44,14 +44,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // public System.Void .ctor()
-    // Offset: 0x14740EC
+    // Offset: 0x143090C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameServerLobbyFlowCoordinator::$$c__DisplayClass85_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass85_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameServerLobbyFlowCoordinator::$$c__DisplayClass85_0*, creationType>()));
     }
     // System.Void <HandleServerPlayerListViewControllerKickPlayer>b__0(System.Int32 btnId)
-    // Offset: 0x1475A7C
+    // Offset: 0x143229C
     void $HandleServerPlayerListViewControllerKickPlayer$b__0(int btnId);
   }; // GameServerLobbyFlowCoordinator/<>c__DisplayClass85_0
   #pragma pack(pop)

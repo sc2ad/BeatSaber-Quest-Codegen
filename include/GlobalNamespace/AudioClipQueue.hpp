@@ -72,20 +72,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _delay
     [[deprecated("Use field access instead!")]] float& dyn__delay();
     // public System.Void .ctor()
-    // Offset: 0x157B838
+    // Offset: 0x157AA9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AudioClipQueue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AudioClipQueue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AudioClipQueue*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x157B630
+    // Offset: 0x157A894
     void Awake();
     // protected System.Void Update()
-    // Offset: 0x157B650
+    // Offset: 0x157A8B4
     void Update();
     // public System.Void PlayAudioClipWithDelay(UnityEngine.AudioClip audioClip, System.Single delay)
-    // Offset: 0x157B77C
+    // Offset: 0x157A9E0
     void PlayAudioClipWithDelay(::UnityEngine::AudioClip* audioClip, float delay);
   }; // AudioClipQueue
   #pragma pack(pop)

@@ -41,41 +41,41 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Set static field: static private readonly System.Byte[] IV
     static void _set_IV(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
-    // Offset: 0x2364650
+    // Offset: 0x232A2BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411_2012_256Digest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_256Digest*, creationType>()));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411_2012_256Digest other)
-    // Offset: 0x23646E8
+    // Offset: 0x232A354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3411_2012_256Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3411_2012_256Digest*, creationType>(other)));
     }
     // public override System.String get_AlgorithmName()
-    // Offset: 0x2364608
+    // Offset: 0x232A274
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.String Gost3411_2012Digest::get_AlgorithmName()
     ::StringW get_AlgorithmName();
     // static private System.Void .cctor()
-    // Offset: 0x2364898
+    // Offset: 0x232A504
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Void Gost3411_2012Digest::.cctor()
     static void _cctor();
     // public override System.Int32 GetDigestSize()
-    // Offset: 0x2364798
+    // Offset: 0x232A404
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::GetDigestSize()
     int GetDigestSize();
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x23647A0
+    // Offset: 0x232A40C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::DoFinal(System.Byte[] output, System.Int32 outOff)
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x2364838
+    // Offset: 0x232A4A4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: Org.BouncyCastle.Utilities.IMemoable Gost3411_2012Digest::Copy()
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();

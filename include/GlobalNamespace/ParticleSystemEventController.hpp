@@ -47,7 +47,7 @@ namespace GlobalNamespace {
     ::UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(::UnityEngine::ParticleSystem*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11251F4
+    // [SpaceAttribute] Offset: 0x1121EC8
     // private System.Single _particleSystemFullDuration
     // Size: 0x4
     // Offset: 0x20
@@ -76,38 +76,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <startTime>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$startTime$k__BackingField();
     // public System.Single get_startTime()
-    // Offset: 0x1391B4C
+    // Offset: 0x1354DC4
     float get_startTime();
     // private System.Void set_startTime(System.Single value)
-    // Offset: 0x1391B54
+    // Offset: 0x1354DCC
     void set_startTime(float value);
     // public System.Single get_endTime()
-    // Offset: 0x1390FF4
+    // Offset: 0x1353FEC
     float get_endTime();
     // public System.Void .ctor()
-    // Offset: 0x1391B5C
+    // Offset: 0x1354DD4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEventController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEventController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEventController*, creationType>()));
     }
     // public System.Void Init(System.Single startTime)
-    // Offset: 0x1391A7C
+    // Offset: 0x1354CF4
     void Init(float startTime);
     // public System.Void InitSpeed(System.Single simulationSpeedMultiplier)
-    // Offset: 0x1391878
+    // Offset: 0x1354AF0
     void InitSpeed(float simulationSpeedMultiplier);
     // public System.Void Play()
-    // Offset: 0x1391648
+    // Offset: 0x13548C0
     void Play();
     // public System.Void Pause()
-    // Offset: 0x1391514
+    // Offset: 0x135478C
     void Pause();
     // public System.Void Stop()
-    // Offset: 0x13918C0
+    // Offset: 0x1354B38
     void Stop();
     // public System.Void ManualUpdate(System.Single time, System.Single deltaTime)
-    // Offset: 0x1391000
+    // Offset: 0x1353FF8
     void ManualUpdate(float time, float deltaTime);
   }; // ParticleSystemEventController
   #pragma pack(pop)

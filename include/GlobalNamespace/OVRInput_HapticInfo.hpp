@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.XR.XRNode node
     [[deprecated("Use field access instead!")]] ::UnityEngine::XR::XRNode& dyn_node();
     // public System.Void .ctor()
-    // Offset: 0x1A5502C
+    // Offset: 0x1A4FA64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::HapticInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::HapticInfo::.ctor");

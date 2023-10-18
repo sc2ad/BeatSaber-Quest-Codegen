@@ -43,7 +43,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String message
     [[deprecated("Use field access instead!")]] ::StringW& dyn_message();
     // public System.Void .ctor()
-    // Offset: 0x1431B80
+    // Offset: 0x150422C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusData::UserMessage::LocalizedMessage* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusData::UserMessage::LocalizedMessage::.ctor");

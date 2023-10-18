@@ -28,7 +28,7 @@ namespace System::Net::Http::Headers {
   class HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders {
     public:
     // System.Void .ctor()
-    // Offset: 0x1A038BC
+    // Offset: 0x19E89A8
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

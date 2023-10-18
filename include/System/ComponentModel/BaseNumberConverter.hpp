@@ -51,7 +51,7 @@ namespace System::ComponentModel {
   class BaseNumberConverter : public ::System::ComponentModel::TypeConverter {
     public:
     // System.Boolean get_AllowHex()
-    // Offset: 0x1E5DD98
+    // Offset: 0x1E4AF18
     bool get_AllowHex();
     // System.Type get_TargetType()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -63,13 +63,13 @@ namespace System::ComponentModel {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Il2CppObject* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // System.Exception FromStringError(System.String failedText, System.Exception innerException)
-    // Offset: 0x1E5DDA0
+    // Offset: 0x1E4AF20
     ::System::Exception* FromStringError(::StringW failedText, ::System::Exception* innerException);
     // System.String ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::StringW ToString(::Il2CppObject* value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // protected System.Void .ctor()
-    // Offset: 0x1E5E958
+    // Offset: 0x1E4BAD8
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Void TypeConverter::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,22 +78,22 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<BaseNumberConverter*, creationType>()));
     }
     // public override System.Boolean CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
-    // Offset: 0x1E5DEE0
+    // Offset: 0x1E4B060
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Type sourceType)
     bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
     // public override System.Object ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
-    // Offset: 0x1E5E004
+    // Offset: 0x1E4B184
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value)
     ::Il2CppObject* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value);
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1E5E3F4
+    // Offset: 0x1E4B574
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Object TypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // public override System.Boolean CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type t)
-    // Offset: 0x1E5E890
+    // Offset: 0x1E4BA10
     // Implemented from: System.ComponentModel.TypeConverter
     // Base method: System.Boolean TypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type t)
     bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* t);

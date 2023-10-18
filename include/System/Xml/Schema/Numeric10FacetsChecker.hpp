@@ -73,48 +73,48 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Decimal minValue
     [[deprecated("Use field access instead!")]] ::System::Decimal& dyn_minValue();
     // System.Void .ctor(System.Decimal minVal, System.Decimal maxVal)
-    // Offset: 0x1D25CA4
+    // Offset: 0x1D11954
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Numeric10FacetsChecker* New_ctor(::System::Decimal minVal, ::System::Decimal maxVal) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::Numeric10FacetsChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Numeric10FacetsChecker*, creationType>(minVal, maxVal)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D2FE9C
+    // Offset: 0x1D1BB4C
     static void _cctor();
     // System.Boolean MatchEnumeration(System.Decimal value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlValueConverter valueConverter)
-    // Offset: 0x1D2FB10
+    // Offset: 0x1D1B7C0
     bool MatchEnumeration(::System::Decimal value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
     // System.Exception CheckTotalAndFractionDigits(System.Decimal value, System.Int32 totalDigits, System.Int32 fractionDigits, System.Boolean checkTotal, System.Boolean checkFraction)
-    // Offset: 0x1D27F98
+    // Offset: 0x1D13C48
     ::System::Exception* CheckTotalAndFractionDigits(::System::Decimal value, int totalDigits, int fractionDigits, bool checkTotal, bool checkFraction);
     // override System.Exception CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D2F560
+    // Offset: 0x1D1B210
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Object value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::Il2CppObject* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.Decimal value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D2F5DC
+    // Offset: 0x1D1B28C
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Decimal value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.Int64 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D2FC40
+    // Offset: 0x1D1B8F0
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Int64 value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.Int32 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D2FCDC
+    // Offset: 0x1D1B98C
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Int32 value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(int value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Exception CheckValueFacets(System.Int16 value, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D2FD78
+    // Offset: 0x1D1BA28
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Exception FacetsChecker::CheckValueFacets(System.Int16 value, System.Xml.Schema.XmlSchemaDatatype datatype)
     ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
     // override System.Boolean MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
-    // Offset: 0x1D2FE14
+    // Offset: 0x1D1BAC4
     // Implemented from: System.Xml.Schema.FacetsChecker
     // Base method: System.Boolean FacetsChecker::MatchEnumeration(System.Object value, System.Collections.ArrayList enumeration, System.Xml.Schema.XmlSchemaDatatype datatype)
     bool MatchEnumeration(::Il2CppObject* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);

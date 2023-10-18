@@ -40,20 +40,20 @@ namespace GlobalNamespace {
   class ImageEffectController::RenderImageCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1CE6D58
+    // Offset: 0x1CBA60C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ImageEffectController::RenderImageCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ImageEffectController::RenderImageCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ImageEffectController::RenderImageCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
-    // Offset: 0x1CE6968
+    // Offset: 0x1CBA21C
     void Invoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
     // public System.IAsyncResult BeginInvoke(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1CE6D68
+    // Offset: 0x1CBA61C
     ::System::IAsyncResult* BeginInvoke(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1CE6D98
+    // Offset: 0x1CBA64C
     void EndInvoke(::System::IAsyncResult* result);
   }; // ImageEffectController/RenderImageCallback
   #pragma pack(pop)

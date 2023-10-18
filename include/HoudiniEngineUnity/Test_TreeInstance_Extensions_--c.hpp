@@ -52,20 +52,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.TreeInstance,HoudiniEngineUnity.Test_TreeInstance> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B46694
+    // Offset: 0x2B584DC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2B466F8
+    // Offset: 0x2B58540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_TreeInstance_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_TreeInstance_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_TreeInstance_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__1_0(UnityEngine.TreeInstance lod)
-    // Offset: 0x2B46700
+    // Offset: 0x2B58548
     ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__1_0(::UnityEngine::TreeInstance lod);
     // HoudiniEngineUnity.Test_TreeInstance <ToTestObject>b__2_0(UnityEngine.TreeInstance lod)
-    // Offset: 0x2B46788
+    // Offset: 0x2B585D0
     ::HoudiniEngineUnity::Test_TreeInstance* $ToTestObject$b__2_0(::UnityEngine::TreeInstance lod);
   }; // HoudiniEngineUnity.Test_TreeInstance_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

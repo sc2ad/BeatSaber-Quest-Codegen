@@ -137,67 +137,67 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _useTestNoteCutSoundEffects
     [[deprecated("Use field access instead!")]] bool& dyn__useTestNoteCutSoundEffects();
     // public BeatmapLevelSO get_beatmapLevel()
-    // Offset: 0x1397FC0
+    // Offset: 0x13AA7F8
     ::GlobalNamespace::BeatmapLevelSO* get_beatmapLevel();
     // public System.Void set_beatmapLevel(BeatmapLevelSO value)
-    // Offset: 0x1397FC8
+    // Offset: 0x13AA800
     void set_beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x1397FD0
+    // Offset: 0x13AA808
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x1397FD8
+    // Offset: 0x13AA810
     void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x1397FE0
+    // Offset: 0x13AA818
     ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x1397FE8
+    // Offset: 0x13AA820
     void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x1397FF0
+    // Offset: 0x13AA828
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.Void set_colorScheme(ColorSchemeSO value)
-    // Offset: 0x1397FF8
+    // Offset: 0x13AA830
     void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
     // public EnvironmentInfoSO get_environmentInfo()
-    // Offset: 0x1398000
+    // Offset: 0x13AA838
     ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
     // public System.Void set_environmentInfo(EnvironmentInfoSO value)
-    // Offset: 0x1398008
+    // Offset: 0x13AA840
     void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
     // public GameplayModifiers get_gameplayModifiers()
-    // Offset: 0x1398010
+    // Offset: 0x13AA848
     ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
     // public System.Void set_gameplayModifiers(GameplayModifiers value)
-    // Offset: 0x1398018
+    // Offset: 0x13AA850
     void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
     // public PlayerSpecificSettings get_playerSpecificSettings()
-    // Offset: 0x1398020
+    // Offset: 0x13AA858
     ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
     // public System.Void set_playerSpecificSettings(PlayerSpecificSettings value)
-    // Offset: 0x1398028
+    // Offset: 0x13AA860
     void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
     // public PracticeSettings get_practiceSettings()
-    // Offset: 0x1398030
+    // Offset: 0x13AA868
     ::GlobalNamespace::PracticeSettings* get_practiceSettings();
     // public System.Void set_practiceSettings(PracticeSettings value)
-    // Offset: 0x1398038
+    // Offset: 0x13AA870
     void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
     // public System.String get_backButtonText()
-    // Offset: 0x1398040
+    // Offset: 0x13AA878
     ::StringW get_backButtonText();
     // public System.Void set_backButtonText(System.String value)
-    // Offset: 0x1398048
+    // Offset: 0x13AA880
     void set_backButtonText(::StringW value);
     // public System.Boolean get_useTestNoteCutSoundEffects()
-    // Offset: 0x1398050
+    // Offset: 0x13AA888
     bool get_useTestNoteCutSoundEffects();
     // public System.Void set_useTestNoteCutSoundEffects(System.Boolean value)
-    // Offset: 0x1398058
+    // Offset: 0x13AA890
     void set_useTestNoteCutSoundEffects(bool value);
     // public System.Void .ctor()
-    // Offset: 0x1398064
+    // Offset: 0x13AA89C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelNoTransitionInstallerData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelNoTransitionInstallerData::.ctor");

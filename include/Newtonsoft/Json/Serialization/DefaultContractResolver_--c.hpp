@@ -81,32 +81,32 @@ namespace Newtonsoft::Json::Serialization {
     // Set static field: static public System.Func`2<Newtonsoft.Json.Serialization.JsonProperty,System.Int32> <>9__60_0
     static void _set_$$9__60_0(::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1E10B54
+    // Offset: 0x1E122BC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1E10BB8
+    // Offset: 0x1E12320
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultContractResolver::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Serialization::DefaultContractResolver::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultContractResolver::$$c*, creationType>()));
     }
     // System.Boolean <GetSerializableMembers>b__30_0(System.Reflection.MemberInfo m)
-    // Offset: 0x1E10BC0
+    // Offset: 0x1E12328
     bool $GetSerializableMembers$b__30_0(::System::Reflection::MemberInfo* m);
     // System.Boolean <GetSerializableMembers>b__30_1(System.Reflection.MemberInfo m)
-    // Offset: 0x1E10C34
+    // Offset: 0x1E1239C
     bool $GetSerializableMembers$b__30_1(::System::Reflection::MemberInfo* m);
     // System.Collections.Generic.IEnumerable`1<System.Reflection.MemberInfo> <GetExtensionDataMemberForType>b__33_0(System.Type baseType)
-    // Offset: 0x1E10CA8
+    // Offset: 0x1E12410
     ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* $GetExtensionDataMemberForType$b__33_0(::System::Type* baseType);
     // System.Boolean <GetExtensionDataMemberForType>b__33_1(System.Reflection.MemberInfo m)
-    // Offset: 0x1E10D78
+    // Offset: 0x1E124E0
     bool $GetExtensionDataMemberForType$b__33_1(::System::Reflection::MemberInfo* m);
     // System.Boolean <GetAttributeConstructor>b__36_0(System.Reflection.ConstructorInfo c)
-    // Offset: 0x1E11190
+    // Offset: 0x1E128F8
     bool $GetAttributeConstructor$b__36_0(::System::Reflection::ConstructorInfo* c);
     // System.Int32 <CreateProperties>b__60_0(Newtonsoft.Json.Serialization.JsonProperty p)
-    // Offset: 0x1E11228
+    // Offset: 0x1E12990
     int $CreateProperties$b__60_0(::Newtonsoft::Json::Serialization::JsonProperty* p);
   }; // Newtonsoft.Json.Serialization.DefaultContractResolver/Newtonsoft.Json.Serialization.<>c
   #pragma pack(pop)

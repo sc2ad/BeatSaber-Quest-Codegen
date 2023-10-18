@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class NoteDataFromNoteSpawnInfoNetSerializable : public ::GlobalNamespace::NoteData {
     public:
     // public System.Void .ctor(NoteSpawnInfoNetSerializable noteSpawnInfo)
-    // Offset: 0x143DD3C
+    // Offset: 0x15102E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteDataFromNoteSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::.ctor");

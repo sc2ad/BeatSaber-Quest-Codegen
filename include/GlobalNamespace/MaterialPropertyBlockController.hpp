@@ -81,20 +81,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public UnityEngine.Renderer[] get_renderers()
-    // Offset: 0x1CECE38
+    // Offset: 0x1CC06EC
     ::ArrayW<::UnityEngine::Renderer*> get_renderers();
     // public UnityEngine.MaterialPropertyBlock get_materialPropertyBlock()
-    // Offset: 0x1CE600C
+    // Offset: 0x1CB98C0
     ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
     // public System.Void .ctor()
-    // Offset: 0x1CECE40
+    // Offset: 0x1CC06F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockController*, creationType>()));
     }
     // public System.Void ApplyChanges()
-    // Offset: 0x1CE6078
+    // Offset: 0x1CB992C
     void ApplyChanges();
   }; // MaterialPropertyBlockController
   #pragma pack(pop)

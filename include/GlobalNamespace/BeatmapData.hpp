@@ -220,61 +220,61 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isCreatingFilteredCopy
     [[deprecated("Use field access instead!")]] bool& dyn__isCreatingFilteredCopy();
     // public System.Boolean get_updateAllBeatmapDataOnInsert()
-    // Offset: 0x13DF430
+    // Offset: 0x13C6FF8
     bool get_updateAllBeatmapDataOnInsert();
     // public System.Void set_updateAllBeatmapDataOnInsert(System.Boolean value)
-    // Offset: 0x13DF438
+    // Offset: 0x13C7000
     void set_updateAllBeatmapDataOnInsert(bool value);
     // public System.Collections.Generic.LinkedList`1<BeatmapDataItem> get_allBeatmapDataItems()
-    // Offset: 0x13DF444
+    // Offset: 0x13C700C
     ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();
     // public System.Int32 get_numberOfLines()
-    // Offset: 0x13DF4F4
+    // Offset: 0x13C70BC
     int get_numberOfLines();
     // public System.Int32 get_cuttableNotesCount()
-    // Offset: 0x13DF4FC
+    // Offset: 0x13C70C4
     int get_cuttableNotesCount();
     // private System.Void set_cuttableNotesCount(System.Int32 value)
-    // Offset: 0x13DF504
+    // Offset: 0x13C70CC
     void set_cuttableNotesCount(int value);
     // public System.Int32 get_obstaclesCount()
-    // Offset: 0x13DF50C
+    // Offset: 0x13C70D4
     int get_obstaclesCount();
     // private System.Void set_obstaclesCount(System.Int32 value)
-    // Offset: 0x13DF514
+    // Offset: 0x13C70DC
     void set_obstaclesCount(int value);
     // public System.Int32 get_bombsCount()
-    // Offset: 0x13DF51C
+    // Offset: 0x13C70E4
     int get_bombsCount();
     // private System.Void set_bombsCount(System.Int32 value)
-    // Offset: 0x13DF524
+    // Offset: 0x13C70EC
     void set_bombsCount(int value);
     // public System.Int32 get_spawnRotationEventsCount()
-    // Offset: 0x13DF52C
+    // Offset: 0x13C70F4
     int get_spawnRotationEventsCount();
     // public System.Collections.Generic.IEnumerable`1<System.String> get_specialBasicBeatmapEventKeywords()
-    // Offset: 0x13DF580
+    // Offset: 0x13C7148
     ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
     // public System.Void add_beatmapEventDataWasInsertedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x13DF588
+    // Offset: 0x13C7150
     void add_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void remove_beatmapEventDataWasInsertedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x13DF62C
+    // Offset: 0x13C71F4
     void remove_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void add_beatmapEventDataWillBeRemovedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x13DF6D0
+    // Offset: 0x13C7298
     void add_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void remove_beatmapEventDataWillBeRemovedEvent(System.Action`2<BeatmapEventData,System.Collections.Generic.LinkedListNode`1<BeatmapDataItem>> value)
-    // Offset: 0x13DF774
+    // Offset: 0x13C733C
     void remove_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
     // public System.Void add_beatmapEventDataWasRemovedEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x13DF818
+    // Offset: 0x13C73E0
     void add_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void remove_beatmapEventDataWasRemovedEvent(System.Action`1<BeatmapEventData> value)
-    // Offset: 0x13DF8BC
+    // Offset: 0x13C7484
     void remove_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
     // public System.Void .ctor(System.Int32 numberOfLines)
-    // Offset: 0x13DF960
+    // Offset: 0x13C7528
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapData* New_ctor(int numberOfLines) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::.ctor");
@@ -321,37 +321,37 @@ namespace GlobalNamespace {
       return ::il2cpp_utils::RunMethodRethrow<int, false>(this, ___generic__method, subtypeGroupIdentifiers);
     }
     // public System.Void AddBeatmapObjectData(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x13DFA84
+    // Offset: 0x13C764C
     void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void AddBeatmapObjectDataInOrder(BeatmapObjectData beatmapObjectData)
-    // Offset: 0x13DFDD4
+    // Offset: 0x13C799C
     void AddBeatmapObjectDataInOrder(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
     // public System.Void InsertBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x13DFE04
+    // Offset: 0x13C79CC
     void InsertBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void InsertBeatmapEventDataInOrder(BeatmapEventData beatmapEventData)
-    // Offset: 0x13DFEB8
+    // Offset: 0x13C7A80
     void InsertBeatmapEventDataInOrder(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void RemoveBeatmapEventData(BeatmapEventData beatmapEventData)
-    // Offset: 0x13DFF50
+    // Offset: 0x13C7B18
     void RemoveBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
     // public System.Void AddSpecialBasicBeatmapEventKeyword(System.String specialBasicBeatmapEventKeyword)
-    // Offset: 0x13E00A0
+    // Offset: 0x13C7C68
     void AddSpecialBasicBeatmapEventKeyword(::StringW specialBasicBeatmapEventKeyword);
     // public System.Void ProcessRemainingData()
-    // Offset: 0x13E0108
+    // Offset: 0x13C7CD0
     void ProcessRemainingData();
     // public System.Void ProcessAndSortBeatmapData()
-    // Offset: 0x13E0124
+    // Offset: 0x13C7CEC
     void ProcessAndSortBeatmapData();
     // public BeatmapData GetCopy()
-    // Offset: 0x13E044C
+    // Offset: 0x13C8014
     ::GlobalNamespace::BeatmapData* GetCopy();
     // public BeatmapData GetFilteredCopy(System.Func`2<BeatmapDataItem,BeatmapDataItem> processDataItem)
-    // Offset: 0x13E064C
+    // Offset: 0x13C8214
     ::GlobalNamespace::BeatmapData* GetFilteredCopy(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>* processDataItem);
     // private System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> InsertToAllBeatmapData(BeatmapDataItem beatmapDataItem, System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> node)
-    // Offset: 0x13DFC10
+    // Offset: 0x13C77D8
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* InsertToAllBeatmapData(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
   }; // BeatmapData
   #pragma pack(pop)

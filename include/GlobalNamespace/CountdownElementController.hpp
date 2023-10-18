@@ -62,17 +62,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Animation _animation
     [[deprecated("Use field access instead!")]] ::UnityEngine::Animation*& dyn__animation();
     // public System.Void .ctor()
-    // Offset: 0x1446974
+    // Offset: 0x14592E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CountdownElementController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CountdownElementController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CountdownElementController*, creationType>()));
     }
     // public System.Void SetTextAndRunAnimation(System.String text)
-    // Offset: 0x144666C
+    // Offset: 0x1458FE0
     void SetTextAndRunAnimation(::StringW text);
     // public System.Void StopAndHide()
-    // Offset: 0x14467CC
+    // Offset: 0x1459140
     void StopAndHide();
   }; // CountdownElementController
   #pragma pack(pop)

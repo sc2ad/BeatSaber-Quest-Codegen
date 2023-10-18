@@ -53,14 +53,14 @@ namespace GlobalNamespace {
     float heightFogHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x1109CF0
+    // [TooltipAttribute] Offset: 0x110658C
     // public System.Single autoExposureLimit
     // Size: 0x4
     // Offset: 0x28
     float autoExposureLimit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [MinAttribute] Offset: 0x1109D28
+    // [MinAttribute] Offset: 0x11065C4
     // public System.Single noteSpawnIntensity
     // Size: 0x4
     // Offset: 0x2C
@@ -83,7 +83,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single noteSpawnIntensity
     [[deprecated("Use field access instead!")]] float& dyn_noteSpawnIntensity();
     // public System.Void .ctor()
-    // Offset: 0x1CDFB0C
+    // Offset: 0x1CB33C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogEnvironmentParams* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogEnvironmentParams::.ctor");

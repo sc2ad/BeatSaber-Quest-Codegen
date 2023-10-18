@@ -48,20 +48,20 @@ namespace GlobalNamespace {
     // Set static field: static private SteamVR_Controller/Device[] devices
     static void _set_devices(::ArrayW<::GlobalNamespace::SteamVR_Controller::Device*> value);
     // public System.Void .ctor()
-    // Offset: 0x18E71DC
+    // Offset: 0x18B6AB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Controller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Controller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Controller*, creationType>()));
     }
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
-    // Offset: 0x18E6AB8
+    // Offset: 0x18B6394
     static ::GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);
     // static public System.Void Update()
-    // Offset: 0x18E6C3C
+    // Offset: 0x18B6518
     static void Update();
     // static public System.Int32 GetDeviceIndex(SteamVR_Controller/DeviceRelation relation, Valve.VR.ETrackedDeviceClass deviceClass, System.Int32 relativeTo)
-    // Offset: 0x18E6E00
+    // Offset: 0x18B66DC
     static int GetDeviceIndex(::GlobalNamespace::SteamVR_Controller::DeviceRelation relation, ::Valve::VR::ETrackedDeviceClass deviceClass, int relativeTo);
   }; // SteamVR_Controller
   #pragma pack(pop)

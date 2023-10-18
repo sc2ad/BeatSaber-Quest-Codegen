@@ -30,7 +30,7 @@ namespace GlobalNamespace {
   class StaticBatchedMeshContainer : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2BA74B0
+    // Offset: 0x2BA7284
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StaticBatchedMeshContainer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StaticBatchedMeshContainer::.ctor");

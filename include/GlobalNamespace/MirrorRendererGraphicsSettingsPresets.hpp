@@ -51,15 +51,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets/Preset[] _presets
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*>& dyn__presets();
     // public MirrorRendererGraphicsSettingsPresets/Preset[] get_presets()
-    // Offset: 0x137BA20
+    // Offset: 0x138C280
     ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
-    // Offset: 0x137BA28
+    // Offset: 0x138C288
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
     ::ArrayW<::GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
-    // Offset: 0x137BA30
+    // Offset: 0x138C290
     // Implemented from: NamedPresetsSO
     // Base method: System.Void NamedPresetsSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

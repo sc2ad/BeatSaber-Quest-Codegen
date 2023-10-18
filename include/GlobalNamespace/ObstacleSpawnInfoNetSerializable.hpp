@@ -163,13 +163,13 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single rotation
     [[deprecated("Use field access instead!")]] float& dyn_rotation();
     // static public ObstacleSpawnInfoNetSerializable Obtain()
-    // Offset: 0x2A20670
+    // Offset: 0x29D0CA0
     static ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();
     // public ObstacleSpawnInfoNetSerializable Init(System.Single time, System.Int32 lineIndex, NoteLineLayer lineLayer, System.Single duration, System.Int32 width, System.Int32 height, UnityEngine.Vector3 moveStartPos, UnityEngine.Vector3 moveEndPos, UnityEngine.Vector3 jumpEndPos, System.Single obstacleHeight, System.Single moveDuration, System.Single jumpDuration, System.Single noteLinesDistance, System.Single rotation)
-    // Offset: 0x2A206B8
+    // Offset: 0x29D0CE8
     ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float time, int lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float duration, int width, int height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float obstacleHeight, float moveDuration, float jumpDuration, float noteLinesDistance, float rotation);
     // public System.Void .ctor()
-    // Offset: 0x2A207E4
+    // Offset: 0x29D0E14
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -178,12 +178,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<ObstacleSpawnInfoNetSerializable*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A207EC
+    // Offset: 0x29D0E1C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A20930
+    // Offset: 0x29D0F60
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);

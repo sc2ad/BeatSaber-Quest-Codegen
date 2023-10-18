@@ -87,7 +87,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* get_FallbackImpl();
     // protected System.Void .ctor()
-    // Offset: 0x1C97200
+    // Offset: 0x1C81C8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate2Impl* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::.ctor");

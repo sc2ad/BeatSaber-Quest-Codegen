@@ -47,20 +47,20 @@ namespace UnityEngine::EventSystems {
     // Set static field: static public System.Comparison`1<UnityEngine.RaycastHit> <>9__16_0
     static void _set_$$9__16_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value);
     // static private System.Void .cctor()
-    // Offset: 0x254A804
+    // Offset: 0x25A16D0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x254A868
+    // Offset: 0x25A1734
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRPhysicsRaycaster::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRPhysicsRaycaster::$$c*, creationType>()));
     }
     // System.Int32 <Raycast>b__15_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x254A870
+    // Offset: 0x25A173C
     int $Raycast$b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
     // System.Int32 <Spherecast>b__16_0(UnityEngine.RaycastHit r1, UnityEngine.RaycastHit r2)
-    // Offset: 0x254A8B4
+    // Offset: 0x25A1780
     int $Spherecast$b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
   }; // UnityEngine.EventSystems.OVRPhysicsRaycaster/UnityEngine.EventSystems.<>c
   #pragma pack(pop)

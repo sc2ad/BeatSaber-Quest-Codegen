@@ -33,6 +33,16 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class Task_1;
 }
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
+  // Forward declaring type: ITaskUtility
+  class ITaskUtility;
+}
+// Forward declaring namespace: System::Threading
+namespace System::Threading {
+  // Forward declaring type: CancellationToken
+  struct CancellationToken;
+}
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Agreement
 namespace Org::BouncyCastle::Crypto::Agreement {
   // Forward declaring type: DHBasicAgreement
@@ -81,12 +91,12 @@ namespace GlobalNamespace {
     static ::Org::BouncyCastle::Security::SecureRandom* _get__secureRandom();
     // Set static field: static private Org.BouncyCastle.Security.SecureRandom _secureRandom
     static void _set__secureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1103C04
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1100D94
     // Get static field: static private Org.BouncyCastle.Crypto.Parameters.DHParameters _dhParameters
     static ::Org::BouncyCastle::Crypto::Parameters::DHParameters* _get__dhParameters();
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.DHParameters _dhParameters
     static void _set__dhParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1103C14
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1100DA4
     // Get static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
     static ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* _get__ecParameters();
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
@@ -96,25 +106,25 @@ namespace GlobalNamespace {
     // Set static field: static private System.Byte[] _ecPointFormats
     static void _set__ecPointFormats(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
-    // Offset: 0x16CC478
+    // Offset: 0x161BB18
     static void _cctor();
-    // static public System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> GenerateKeysAsync(DiffieHellmanUtility/KeyType keyType)
-    // Offset: 0x16CBC64
-    static ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* GenerateKeysAsync(::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
+    // static public System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> GenerateKeysAsync(BGNet.Core.ITaskUtility taskUtility, System.Threading.CancellationToken cancellationToken, DiffieHellmanUtility/KeyType keyType)
+    // Offset: 0x161B230
+    static ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static public IDiffieHellmanKeyPair GenerateKeys(DiffieHellmanUtility/KeyType keyType)
-    // Offset: 0x16CBD20
+    // Offset: 0x161B3C0
     static ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::DiffieHellmanUtility::KeyType keyType);
     // static private DiffieHellmanUtility/DiffieHellmanKeyPair GenerateDiffieHellmanKeys()
-    // Offset: 0x16CBEF8
+    // Offset: 0x161B598
     static ::GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
     // static private DiffieHellmanUtility/ElipticalCurveKeyPair GenerateElipticalCurveKeys()
-    // Offset: 0x16CBDA4
+    // Offset: 0x161B444
     static ::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement dhBasicAgreement, System.Byte[] clientPublicKey)
-    // Offset: 0x16CC188
+    // Offset: 0x161B828
     static ::ArrayW<uint8_t> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement ecdhBasicAgreement, System.Byte[] clientPublicKey)
-    // Offset: 0x16CC2DC
+    // Offset: 0x161B97C
     static ::ArrayW<uint8_t> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
   }; // DiffieHellmanUtility
   #pragma pack(pop)
@@ -131,10 +141,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync
 // Il2CppName: GenerateKeysAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::BGNet::Core::ITaskUtility*, ::System::Threading::CancellationToken, ::GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
   static const MethodInfo* get() {
+    static auto* taskUtility = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITaskUtility")->byval_arg;
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     static auto* keyType = &::il2cpp_utils::GetClassFromName("", "DiffieHellmanUtility/KeyType")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeysAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyType});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeysAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskUtility, cancellationToken, keyType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeys

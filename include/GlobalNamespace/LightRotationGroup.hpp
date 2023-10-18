@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   class LightRotationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupRotationXTransform*, ::GlobalNamespace::LightGroupRotationYTransform*, ::GlobalNamespace::LightGroupRotationZTransform*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x15560D4
+    // Offset: 0x156EDAC
     // Implemented from: LightTransformGroup`3
     // Base method: System.Void LightTransformGroup_3::.ctor()
     // Base method: System.Void LightGroupSubsystem::.ctor()

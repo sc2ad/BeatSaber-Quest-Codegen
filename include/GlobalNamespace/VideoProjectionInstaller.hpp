@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class VideoProjectionInstaller : public ::Zenject::MonoInstaller {
     public:
     public:
-    // [InjectAttribute] Offset: 0x112584C
+    // [InjectAttribute] Offset: 0x1122520
     // private readonly EnvironmentSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0x20
@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentSceneSetupData _sceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x154243C
+    // Offset: 0x15EB99C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VideoProjectionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x1542384
+    // Offset: 0x15EB8E4
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

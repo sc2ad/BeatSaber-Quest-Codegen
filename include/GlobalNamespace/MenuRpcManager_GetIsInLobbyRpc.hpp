@@ -26,7 +26,7 @@ namespace GlobalNamespace {
   class MenuRpcManager::GetIsInLobbyRpc : public ::GlobalNamespace::RemoteProcedureCall {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1761EBC
+    // Offset: 0x19F6030
     // Implemented from: RemoteProcedureCall
     // Base method: System.Void RemoteProcedureCall::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

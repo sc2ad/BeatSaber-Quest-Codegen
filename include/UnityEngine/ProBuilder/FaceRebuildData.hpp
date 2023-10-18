@@ -93,23 +93,23 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 _appliedOffset
     [[deprecated("Use field access instead!")]] int& dyn__appliedOffset();
     // public System.Void .ctor()
-    // Offset: 0x20A2A10
+    // Offset: 0x2095BB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FaceRebuildData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::FaceRebuildData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FaceRebuildData*, creationType>()));
     }
     // public System.Int32 Offset()
-    // Offset: 0x20A2344
+    // Offset: 0x20954EC
     int Offset();
     // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x20A23E8
+    // Offset: 0x2095590
     static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Void Apply(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.FaceRebuildData> newFaces, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> faces, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedVertexLookup, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> sharedTextureLookup)
-    // Offset: 0x20A2548
+    // Offset: 0x20956F0
     static void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::Dictionary_2<int, int>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int, int>* sharedTextureLookup);
     // public override System.String ToString()
-    // Offset: 0x20A234C
+    // Offset: 0x20954F4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

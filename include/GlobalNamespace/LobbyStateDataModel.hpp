@@ -63,14 +63,14 @@ namespace GlobalNamespace {
   class LobbyStateDataModel : public ::Il2CppObject/*, public ::System::IDisposable, public ::GlobalNamespace::ILobbyStateDataModel*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1120920
+    // [InjectAttribute] Offset: 0x111D554
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120930
+    // [InjectAttribute] Offset: 0x111D564
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
@@ -139,56 +139,56 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<IConnectedPlayer> playerDisconnectedEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& dyn_playerDisconnectedEvent();
     // public System.Boolean get_isConnected()
-    // Offset: 0x1593870
+    // Offset: 0x1524534
     bool get_isConnected();
     // public IConnectedPlayer get_localPlayer()
-    // Offset: 0x1593924
+    // Offset: 0x15245E8
     ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
     // public System.Collections.Generic.List`1<IConnectedPlayer> get_connectedPlayers()
-    // Offset: 0x15939D4
+    // Offset: 0x1524698
     ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
     // public System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> get_rawConnectedPlayers()
-    // Offset: 0x15939DC
+    // Offset: 0x15246A0
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
     // public GameplayServerConfiguration get_configuration()
-    // Offset: 0x1593A90
+    // Offset: 0x1524754
     ::GlobalNamespace::GameplayServerConfiguration get_configuration();
     // public System.Void add_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x15935E0
+    // Offset: 0x15242A4
     void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerConnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1593684
+    // Offset: 0x1524348
     void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void add_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x1593728
+    // Offset: 0x15243EC
     void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void remove_playerDisconnectedEvent(System.Action`1<IConnectedPlayer> value)
-    // Offset: 0x15937CC
+    // Offset: 0x1524490
     void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
     // public System.Void .ctor()
-    // Offset: 0x159458C
+    // Offset: 0x1525250
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyStateDataModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyStateDataModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyStateDataModel*, creationType>()));
     }
     // public System.Void Activate()
-    // Offset: 0x1593AA4
+    // Offset: 0x1524768
     void Activate();
     // public System.Void Deactivate()
-    // Offset: 0x159411C
+    // Offset: 0x1524DE0
     void Deactivate();
     // public System.Void Dispose()
-    // Offset: 0x15942AC
+    // Offset: 0x1524F70
     void Dispose();
     // public IConnectedPlayer GetPlayerById(System.String userId)
-    // Offset: 0x15942B0
+    // Offset: 0x1524F74
     ::GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
     // private System.Void HandleMultiplayerSessionManagerPlayerConnected(IConnectedPlayer player)
-    // Offset: 0x1594340
+    // Offset: 0x1525004
     void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleMultiplayerSessionManagerPlayerDisconnected(IConnectedPlayer player)
-    // Offset: 0x1594468
+    // Offset: 0x152512C
     void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
   }; // LobbyStateDataModel
   #pragma pack(pop)

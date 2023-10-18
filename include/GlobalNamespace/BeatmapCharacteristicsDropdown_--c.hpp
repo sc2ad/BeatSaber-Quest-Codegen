@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<BeatmapCharacteristicSO,System.String> <>9__5_0
     static void _set_$$9__5_0(::System::Func_2<::GlobalNamespace::BeatmapCharacteristicSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x13DE76C
+    // Offset: 0x13C6334
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x13DE7D0
+    // Offset: 0x13C6398
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicsDropdown::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicsDropdown::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicsDropdown::$$c*, creationType>()));
     }
     // System.String <Start>b__5_0(BeatmapCharacteristicSO x)
-    // Offset: 0x13DE7D8
+    // Offset: 0x13C63A0
     ::StringW $Start$b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x);
   }; // BeatmapCharacteristicsDropdown/<>c
   #pragma pack(pop)

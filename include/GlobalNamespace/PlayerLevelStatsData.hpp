@@ -119,51 +119,51 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO _beatmapCharacteristic
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapCharacteristicSO*& dyn__beatmapCharacteristic();
     // public System.String get_levelID()
-    // Offset: 0x15ACD48
+    // Offset: 0x15A7114
     ::StringW get_levelID();
     // public BeatmapDifficulty get_difficulty()
-    // Offset: 0x15ACD50
+    // Offset: 0x15A711C
     ::GlobalNamespace::BeatmapDifficulty get_difficulty();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x15ACD58
+    // Offset: 0x15A7124
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Int32 get_highScore()
-    // Offset: 0x15ACD60
+    // Offset: 0x15A712C
     int get_highScore();
     // public System.Int32 get_maxCombo()
-    // Offset: 0x15ACD68
+    // Offset: 0x15A7134
     int get_maxCombo();
     // public System.Boolean get_fullCombo()
-    // Offset: 0x15ACD70
+    // Offset: 0x15A713C
     bool get_fullCombo();
     // public RankModel/Rank get_maxRank()
-    // Offset: 0x15ACD78
+    // Offset: 0x15A7144
     ::GlobalNamespace::RankModel::Rank get_maxRank();
     // public System.Boolean get_validScore()
-    // Offset: 0x15ACD80
+    // Offset: 0x15A714C
     bool get_validScore();
     // public System.Int32 get_playCount()
-    // Offset: 0x15ACD88
+    // Offset: 0x15A7154
     int get_playCount();
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x15A7E88
+    // Offset: 0x15A1D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLevelStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLevelStatsData*, creationType>(levelID, difficulty, beatmapCharacteristic)));
     }
     // public System.Void .ctor(System.String levelID, BeatmapDifficulty difficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Int32 highScore, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank maxRank, System.Boolean validScore, System.Int32 playCount)
-    // Offset: 0x15AB0B0
+    // Offset: 0x15A5198
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int highScore, int maxCombo, bool fullCombo, ::GlobalNamespace::RankModel::Rank maxRank, bool validScore, int playCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayerLevelStatsData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayerLevelStatsData*, creationType>(levelID, difficulty, beatmapCharacteristic, highScore, maxCombo, fullCombo, maxRank, validScore, playCount)));
     }
     // public System.Void UpdateScoreData(System.Int32 score, System.Int32 maxCombo, System.Boolean fullCombo, RankModel/Rank rank)
-    // Offset: 0x15ACD90
+    // Offset: 0x15A715C
     void UpdateScoreData(int score, int maxCombo, bool fullCombo, ::GlobalNamespace::RankModel::Rank rank);
     // public System.Void IncreaseNumberOfGameplays()
-    // Offset: 0x15A81AC
+    // Offset: 0x15A2090
     void IncreaseNumberOfGameplays();
   }; // PlayerLevelStatsData
   #pragma pack(pop)

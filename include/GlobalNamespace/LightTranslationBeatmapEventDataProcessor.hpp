@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class LightTranslationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightTranslationBeatmapEventData*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2704204
+    // Offset: 0x26B6E68
     // Implemented from: BeatmapEventDataProcessor`1
     // Base method: System.Void BeatmapEventDataProcessor_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -52,12 +52,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<LightTranslationBeatmapEventDataProcessor*, creationType>()));
     }
     // protected override System.Void ProcessInsertedEventDataInternal(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> insertedNode)
-    // Offset: 0x2704000
+    // Offset: 0x26B6C64
     // Implemented from: BeatmapEventDataProcessor`1
     // Base method: System.Void BeatmapEventDataProcessor_1::ProcessInsertedEventDataInternal(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> insertedNode)
     void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
     // protected override System.Void ProcessBeforeDeleteEventDataInternal(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToDelete)
-    // Offset: 0x270410C
+    // Offset: 0x26B6D70
     // Implemented from: BeatmapEventDataProcessor`1
     // Base method: System.Void BeatmapEventDataProcessor_1::ProcessBeforeDeleteEventDataInternal(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> nodeToDelete)
     void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);

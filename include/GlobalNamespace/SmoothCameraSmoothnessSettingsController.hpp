@@ -64,7 +64,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single[] _smoothnesses
     [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn__smoothnesses();
     // public System.Void .ctor()
-    // Offset: 0x141AFF0
+    // Offset: 0x1499024
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::.ctor()
     // Base method: System.Void IncDecSettingsController::.ctor()
@@ -74,17 +74,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SmoothCameraSmoothnessSettingsController*, creationType>()));
     }
     // protected override System.Boolean GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
-    // Offset: 0x141AD48
+    // Offset: 0x1498D7C
     // Implemented from: ListSettingsController
     // Base method: System.Boolean ListSettingsController::GetInitValues(out System.Int32 idx, out System.Int32 numberOfElements)
     bool GetInitValues(ByRef<int> idx, ByRef<int> numberOfElements);
     // protected override System.Void ApplyValue(System.Int32 idx)
-    // Offset: 0x141AE64
+    // Offset: 0x1498E98
     // Implemented from: ListSettingsController
     // Base method: System.Void ListSettingsController::ApplyValue(System.Int32 idx)
     void ApplyValue(int idx);
     // protected override System.String TextForValue(System.Int32 idx)
-    // Offset: 0x141AF20
+    // Offset: 0x1498F54
     // Implemented from: ListSettingsController
     // Base method: System.String ListSettingsController::TextForValue(System.Int32 idx)
     ::StringW TextForValue(int idx);

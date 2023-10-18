@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::LoadingControl* loadingControl;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LoadingControl*) == 0x8);
-    // [InjectAttribute] Offset: 0x112F574
+    // [InjectAttribute] Offset: 0x112C4C8
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
     // Offset: 0x80
@@ -125,64 +125,64 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> _annotatedBeatmapLevelCollections
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& dyn__annotatedBeatmapLevelCollections();
     // public IAnnotatedBeatmapLevelCollection get_selectedAnnotatedBeatmapLevelCollection()
-    // Offset: 0x157833C
+    // Offset: 0x1577444
     ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_selectedAnnotatedBeatmapLevelCollection();
     // public System.Int32 get_selectedItemIndex()
-    // Offset: 0x157847C
+    // Offset: 0x1577584
     int get_selectedItemIndex();
     // public System.Void add_didOpenBeatmapLevelCollectionsEvent(System.Action value)
-    // Offset: 0x1577F64
+    // Offset: 0x157706C
     void add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
     // public System.Void remove_didOpenBeatmapLevelCollectionsEvent(System.Action value)
-    // Offset: 0x1578008
+    // Offset: 0x1577110
     void remove_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
     // public System.Void add_didCloseBeatmapLevelCollectionsEvent(System.Action value)
-    // Offset: 0x15780AC
+    // Offset: 0x15771B4
     void add_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
     // public System.Void remove_didCloseBeatmapLevelCollectionsEvent(System.Action value)
-    // Offset: 0x1578150
+    // Offset: 0x1577258
     void remove_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
     // public System.Void add_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x15781F4
+    // Offset: 0x15772FC
     void add_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(System.Action`1<IAnnotatedBeatmapLevelCollection> value)
-    // Offset: 0x1578298
+    // Offset: 0x15773A0
     void remove_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
     // public System.Void .ctor()
-    // Offset: 0x1578AC0
+    // Offset: 0x1577BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnnotatedBeatmapLevelCollectionsViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnnotatedBeatmapLevelCollectionsViewController*, creationType>()));
     }
     // public System.Void RefreshAvailability()
-    // Offset: 0x15785E0
+    // Offset: 0x15776E8
     void RefreshAvailability();
     // public System.Void SetData(System.Collections.Generic.IReadOnlyList`1<IAnnotatedBeatmapLevelCollection> annotatedBeatmapLevelCollections, System.Int32 selectedItemIndex, System.Boolean hideIfOneOrNoPacks)
-    // Offset: 0x1578754
+    // Offset: 0x157785C
     void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections, int selectedItemIndex, bool hideIfOneOrNoPacks);
     // public System.Void ShowLoading()
-    // Offset: 0x157888C
+    // Offset: 0x1577994
     void ShowLoading();
     // private System.Void HandleAdditionalContentModelDidInvalidateData()
-    // Offset: 0x15788F4
+    // Offset: 0x15779FC
     void HandleAdditionalContentModelDidInvalidateData();
     // private System.Void HandleAnnotatedBeatmapLevelCollectionsGridViewOpen()
-    // Offset: 0x157890C
+    // Offset: 0x1577A14
     void HandleAnnotatedBeatmapLevelCollectionsGridViewOpen();
     // private System.Void HandleAnnotatedBeatmapLevelCollectionsGridViewClose()
-    // Offset: 0x1578920
+    // Offset: 0x1577A28
     void HandleAnnotatedBeatmapLevelCollectionsGridViewClose();
     // private System.Void HandleDidSelectAnnotatedBeatmapLevelCollection(IAnnotatedBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x1578934
+    // Offset: 0x1577A3C
     void HandleDidSelectAnnotatedBeatmapLevelCollection(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* beatmapLevelCollection);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x1578484
+    // Offset: 0x157758C
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x15785F8
+    // Offset: 0x1577700
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);

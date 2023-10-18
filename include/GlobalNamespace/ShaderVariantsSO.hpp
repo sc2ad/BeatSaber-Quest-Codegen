@@ -37,7 +37,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::ShaderVariantsSO::ShaderVariant
     class ShaderVariant;
     public:
-    // [ReorderableAttribute] Offset: 0x1115770
+    // [ReorderableAttribute] Offset: 0x111233C
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     // Size: 0x8
     // Offset: 0x18
@@ -50,17 +50,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*>& dyn__shaderVariants();
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
-    // Offset: 0x2AFCFE0
+    // Offset: 0x2B09670
     ::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*> get_shaderVariants();
     // public System.Void .ctor()
-    // Offset: 0x2AFCFF0
+    // Offset: 0x2B09680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShaderVariantsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShaderVariantsSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShaderVariantsSO*, creationType>()));
     }
     // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
-    // Offset: 0x2AFCFE8
+    // Offset: 0x2B09678
     void Init(::ArrayW<::GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants);
   }; // ShaderVariantsSO
   #pragma pack(pop)

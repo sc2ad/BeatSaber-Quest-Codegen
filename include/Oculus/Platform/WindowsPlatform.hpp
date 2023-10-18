@@ -48,23 +48,23 @@ namespace Oculus::Platform {
     // Nested type: ::Oculus::Platform::WindowsPlatform::UnityLogDelegate
     class UnityLogDelegate;
     // public System.Void .ctor()
-    // Offset: 0x2B31B7C
+    // Offset: 0x2B439C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WindowsPlatform* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::WindowsPlatform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WindowsPlatform*, creationType>()));
     }
     // private System.Void CPPLogCallback(System.IntPtr tag, System.IntPtr message)
-    // Offset: 0x2B3186C
+    // Offset: 0x2B436B4
     void CPPLogCallback(::System::IntPtr tag, ::System::IntPtr message);
     // private System.IntPtr getCallbackPointer()
-    // Offset: 0x2B31944
+    // Offset: 0x2B4378C
     ::System::IntPtr getCallbackPointer();
     // public System.Boolean Initialize(System.String appId)
-    // Offset: 0x2B31984
+    // Offset: 0x2B437CC
     bool Initialize(::StringW appId);
     // public Oculus.Platform.Request`1<Oculus.Platform.Models.PlatformInitialize> AsyncInitialize(System.String appId)
-    // Offset: 0x2B31A68
+    // Offset: 0x2B438B0
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
   }; // Oculus.Platform.WindowsPlatform
   #pragma pack(pop)

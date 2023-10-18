@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     ::HMUI::ImageView* imageView;
     // Field size check
     static_assert(sizeof(::HMUI::ImageView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11328CC
+    // [SpaceAttribute] Offset: 0x112F7E8
     // private UnityEngine.Color _selectedColor
     // Size: 0x10
     // Offset: 0x28
@@ -80,17 +80,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _unselectedColor
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__unselectedColor();
     // public UnityEngine.RectTransform get_rectTransform()
-    // Offset: 0x1390614
+    // Offset: 0x135360C
     ::UnityEngine::RectTransform* get_rectTransform();
     // public System.Void .ctor()
-    // Offset: 0x139061C
+    // Offset: 0x1353614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PageControlElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PageControlElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PageControlElement*, creationType>()));
     }
     // public System.Void SetSelected(System.Boolean isSelected)
-    // Offset: 0x13903DC
+    // Offset: 0x13533D4
     void SetSelected(bool isSelected);
   }; // PageControlElement
   #pragma pack(pop)

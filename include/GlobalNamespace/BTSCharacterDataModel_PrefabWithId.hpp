@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _prefabAssetReference
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AssetReference*& dyn__prefabAssetReference();
     // public System.Int32 get_id()
-    // Offset: 0x1584E98
+    // Offset: 0x15840FC
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_prefabAssetReference()
-    // Offset: 0x1584EA0
+    // Offset: 0x1584104
     ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x1584EA8
+    // Offset: 0x158410C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BTSCharacterDataModel::PrefabWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BTSCharacterDataModel::PrefabWithId::.ctor");

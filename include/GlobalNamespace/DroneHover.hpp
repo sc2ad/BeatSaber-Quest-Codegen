@@ -67,7 +67,7 @@ namespace GlobalNamespace {
     ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover::SineLayer*>* compoundSins;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover::SineLayer*>*) == 0x8);
-    // [HeaderAttribute] Offset: 0x111CAE8
+    // [HeaderAttribute] Offset: 0x111971C
     // private System.Collections.Generic.List`1<UnityEngine.Transform> _tiltTransforms
     // Size: 0x8
     // Offset: 0x30
@@ -138,26 +138,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Cloth _cloth
     [[deprecated("Use field access instead!")]] ::UnityEngine::Cloth*& dyn__cloth();
     // public System.Void .ctor()
-    // Offset: 0x1451758
+    // Offset: 0x14640D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DroneHover* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DroneHover::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DroneHover*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x14510E8
+    // Offset: 0x1463A64
     void Start();
     // protected System.Void Update()
-    // Offset: 0x1451124
+    // Offset: 0x1463AA0
     void Update();
     // private UnityEngine.Vector3 GetNoiseVec3(System.Single time)
-    // Offset: 0x14512D8
+    // Offset: 0x1463C54
     ::UnityEngine::Vector3 GetNoiseVec3(float time);
     // private System.Single GetNoise(System.Single time, System.Single offset)
-    // Offset: 0x145161C
+    // Offset: 0x1463F98
     float GetNoise(float time, float offset);
     // private System.Void UpdateTiltTransform()
-    // Offset: 0x1451384
+    // Offset: 0x1463D00
     void UpdateTiltTransform();
   }; // DroneHover
   #pragma pack(pop)

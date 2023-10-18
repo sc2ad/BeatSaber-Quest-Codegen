@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::FakeMirrorObjectsInstaller::$$c
     class $$c;
     public:
-    // [SpaceAttribute] Offset: 0x112AEF4
+    // [SpaceAttribute] Offset: 0x1127D60
     // private MirroredGameNoteController _mirroredGameNoteControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -91,7 +91,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MirroredSliderController* mirroredSliderControllerPrefab;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MirroredSliderController*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112AF8C
+    // [SpaceAttribute] Offset: 0x1127DF8
     // private IntSO _mirrorGraphicsSettings
     // Size: 0x8
     // Offset: 0x58
@@ -124,17 +124,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& dyn__mirrorRendererGraphicsSettingsPresets();
     // public MirroredGameNoteController get_mirroredGameNoteControllerPrefab()
-    // Offset: 0x13C73F8
+    // Offset: 0x1408450
     ::GlobalNamespace::MirroredGameNoteController* get_mirroredGameNoteControllerPrefab();
     // public System.Void .ctor()
-    // Offset: 0x13C78C0
+    // Offset: 0x1408918
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorObjectsInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorObjectsInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorObjectsInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings()
-    // Offset: 0x13C7400
+    // Offset: 0x1408458
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

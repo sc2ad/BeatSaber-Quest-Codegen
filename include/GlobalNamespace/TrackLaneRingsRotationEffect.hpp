@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::TrackLaneRingsManager* trackLaneRingsManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::TrackLaneRingsManager*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1125E0C
+    // [HeaderAttribute] Offset: 0x1122BF0
     // private System.Single _startupRotationAngle
     // Size: 0x4
     // Offset: 0x20
@@ -113,35 +113,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> ringRotationEffectsToDelete
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<int>*& dyn_ringRotationEffectsToDelete();
     // public System.Void .ctor()
-    // Offset: 0x13A18EC
+    // Offset: 0x13B4124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsRotationEffect*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13A1424
+    // Offset: 0x13B3C5C
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x13A153C
+    // Offset: 0x13B3D74
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x13A15E8
+    // Offset: 0x13B3E20
     void FixedUpdate();
     // public System.Void AddRingRotationEffect(System.Single angle, System.Single step, System.Int32 propagationSpeed, System.Single flexySpeed)
-    // Offset: 0x13A154C
+    // Offset: 0x13B3D84
     void AddRingRotationEffect(float angle, float step, int propagationSpeed, float flexySpeed);
     // public System.Single GetFirstRingRotationAngle()
-    // Offset: 0x13A1864
+    // Offset: 0x13B409C
     float GetFirstRingRotationAngle();
     // public System.Single GetFirstRingDestinationRotationAngle()
-    // Offset: 0x13A18A8
+    // Offset: 0x13B40E0
     float GetFirstRingDestinationRotationAngle();
     // private TrackLaneRingsRotationEffect/RingRotationEffect SpawnRingRotationEffect()
-    // Offset: 0x13A17CC
+    // Offset: 0x13B4004
     ::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* SpawnRingRotationEffect();
     // private System.Void RecycleRingRotationEffect(TrackLaneRingsRotationEffect/RingRotationEffect ringRotationEffect)
-    // Offset: 0x13A1764
+    // Offset: 0x13B3F9C
     void RecycleRingRotationEffect(::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect* ringRotationEffect);
   }; // TrackLaneRingsRotationEffect
   #pragma pack(pop)

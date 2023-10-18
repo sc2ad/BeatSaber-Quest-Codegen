@@ -103,35 +103,35 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.UInt32[] dwordBuff
     [[deprecated("Use field access instead!")]] ::ArrayW<uint>& dyn_dwordBuff();
     // System.Void .ctor(System.Security.Cryptography.SymmetricAlgorithm symmAlgo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
-    // Offset: 0x1BF48BC
+    // Offset: 0x1BC0688
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DESTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Cryptography::DESTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DESTransform*, creationType>(symmAlgo, encryption, key, iv)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1BF5CFC
+    // Offset: 0x1BC1AC8
     static void _cctor();
     // private System.UInt32 CipherFunct(System.UInt32 r, System.Int32 n)
-    // Offset: 0x1BF5274
+    // Offset: 0x1BC1040
     uint CipherFunct(uint r, int n);
     // static System.Void Permutation(System.Byte[] input, System.Byte[] output, System.UInt32[] permTab, System.Boolean preSwap)
-    // Offset: 0x1BF54BC
+    // Offset: 0x1BC1288
     static void Permutation(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, ::ArrayW<uint> permTab, bool preSwap);
     // static private System.Void BSwap(System.Byte[] byteBuff)
-    // Offset: 0x1BF580C
+    // Offset: 0x1BC15D8
     static void BSwap(::ArrayW<uint8_t> byteBuff);
     // System.Void SetKey(System.Byte[] key)
-    // Offset: 0x1BF4E74
+    // Offset: 0x1BC0C40
     void SetKey(::ArrayW<uint8_t> key);
     // public System.Void ProcessBlock(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1BF5890
+    // Offset: 0x1BC165C
     void ProcessBlock(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
     // static System.Byte[] GetStrongKey()
-    // Offset: 0x1BF4D80
+    // Offset: 0x1BC0B4C
     static ::ArrayW<uint8_t> GetStrongKey();
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
-    // Offset: 0x1BF5C48
+    // Offset: 0x1BC1A14
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
     void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);

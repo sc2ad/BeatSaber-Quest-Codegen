@@ -77,105 +77,105 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: private readonly System.String _name
     [[deprecated("Use field access instead!")]] ::StringW& dyn__name();
     // public System.String get_Name()
-    // Offset: 0x17B0294
+    // Offset: 0x179E43C
     ::StringW get_Name();
     // public Newtonsoft.Json.Linq.JToken get_Value()
-    // Offset: 0x17ADCC8
+    // Offset: 0x179BE70
     ::Newtonsoft::Json::Linq::JToken* get_Value();
     // public System.Void set_Value(Newtonsoft.Json.Linq.JToken value)
-    // Offset: 0x17AEE84
+    // Offset: 0x179D02C
     void set_Value(::Newtonsoft::Json::Linq::JToken* value);
     // public System.Void .ctor(Newtonsoft.Json.Linq.JProperty other)
-    // Offset: 0x17B029C
+    // Offset: 0x179E444
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JProperty* New_ctor(::Newtonsoft::Json::Linq::JProperty* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JProperty::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JProperty*, creationType>(other)));
     }
     // System.Void .ctor(System.String name)
-    // Offset: 0x17ADE08
+    // Offset: 0x179BFB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JProperty* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JProperty::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JProperty*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.Object content)
-    // Offset: 0x17AEF04
+    // Offset: 0x179D0AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JProperty* New_ctor(::StringW name, ::Il2CppObject* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JProperty::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<JProperty*, creationType>(name, content)));
     }
     // static public Newtonsoft.Json.Linq.JProperty Load(Newtonsoft.Json.JsonReader reader, Newtonsoft.Json.Linq.JsonLoadSettings settings)
-    // Offset: 0x17B0BB4
+    // Offset: 0x179ED5C
     static ::Newtonsoft::Json::Linq::JProperty* Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
     // protected override System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> get_ChildrenTokens()
-    // Offset: 0x17B028C
+    // Offset: 0x179E434
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Collections.Generic.IList`1<Newtonsoft.Json.Linq.JToken> JContainer::get_ChildrenTokens()
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
     // public override Newtonsoft.Json.Linq.JTokenType get_Type()
-    // Offset: 0x17B0AC0
+    // Offset: 0x179EC68
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JTokenType JToken::get_Type()
     ::Newtonsoft::Json::Linq::JTokenType get_Type();
     // override Newtonsoft.Json.Linq.JToken GetItem(System.Int32 index)
-    // Offset: 0x17B032C
+    // Offset: 0x179E4D4
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: Newtonsoft.Json.Linq.JToken JContainer::GetItem(System.Int32 index)
     ::Newtonsoft::Json::Linq::JToken* GetItem(int index);
     // override System.Void SetItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x17B03BC
+    // Offset: 0x179E564
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Void JContainer::SetItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item)
     void SetItem(int index, ::Newtonsoft::Json::Linq::JToken* item);
     // override System.Boolean RemoveItem(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x17B050C
+    // Offset: 0x179E6B4
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Boolean JContainer::RemoveItem(Newtonsoft.Json.Linq.JToken item)
     bool RemoveItem(::Newtonsoft::Json::Linq::JToken* item);
     // override System.Void RemoveItemAt(System.Int32 index)
-    // Offset: 0x17B0600
+    // Offset: 0x179E7A8
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Void JContainer::RemoveItemAt(System.Int32 index)
     void RemoveItemAt(int index);
     // override System.Int32 IndexOfItem(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x17B06F4
+    // Offset: 0x179E89C
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Int32 JContainer::IndexOfItem(Newtonsoft.Json.Linq.JToken item)
     int IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
     // override System.Void InsertItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item, System.Boolean skipParentCheck)
-    // Offset: 0x17B0728
+    // Offset: 0x179E8D0
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Void JContainer::InsertItem(System.Int32 index, Newtonsoft.Json.Linq.JToken item, System.Boolean skipParentCheck)
     void InsertItem(int index, ::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck);
     // override System.Boolean ContainsItem(Newtonsoft.Json.Linq.JToken item)
-    // Offset: 0x17B0888
+    // Offset: 0x179EA30
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Boolean JContainer::ContainsItem(Newtonsoft.Json.Linq.JToken item)
     bool ContainsItem(::Newtonsoft::Json::Linq::JToken* item);
     // override System.Void ClearItems()
-    // Offset: 0x17B08AC
+    // Offset: 0x179EA54
     // Implemented from: Newtonsoft.Json.Linq.JContainer
     // Base method: System.Void JContainer::ClearItems()
     void ClearItems();
     // override System.Boolean DeepEquals(Newtonsoft.Json.Linq.JToken node)
-    // Offset: 0x17B09A0
+    // Offset: 0x179EB48
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Boolean JToken::DeepEquals(Newtonsoft.Json.Linq.JToken node)
     bool DeepEquals(::Newtonsoft::Json::Linq::JToken* node);
     // override Newtonsoft.Json.Linq.JToken CloneToken()
-    // Offset: 0x17B0A60
+    // Offset: 0x179EC08
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: Newtonsoft.Json.Linq.JToken JToken::CloneToken()
     ::Newtonsoft::Json::Linq::JToken* CloneToken();
     // public override System.Void WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
-    // Offset: 0x17B0AC8
+    // Offset: 0x179EC70
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Void JToken::WriteTo(Newtonsoft.Json.JsonWriter writer, params Newtonsoft.Json.JsonConverter[] converters)
     void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*> converters);
     // override System.Int32 GetDeepHashCode()
-    // Offset: 0x17B0B58
+    // Offset: 0x179ED00
     // Implemented from: Newtonsoft.Json.Linq.JToken
     // Base method: System.Int32 JToken::GetDeepHashCode()
     int GetDeepHashCode();

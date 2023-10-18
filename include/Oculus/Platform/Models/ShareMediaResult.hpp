@@ -45,7 +45,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly Oculus.Platform.ShareMediaStatus Status
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::ShareMediaStatus& dyn_Status();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A45C70
+    // Offset: 0x1A406A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShareMediaResult* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::ShareMediaResult::.ctor");

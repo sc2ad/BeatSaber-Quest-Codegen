@@ -74,40 +74,40 @@ namespace Mono::Security::Cryptography {
     // Get instance field reference: private System.Byte[] digest
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_digest();
     // private System.Byte[] Padding(System.Int32 nLength)
-    // Offset: 0x23CE528
+    // Offset: 0x23C5964
     ::ArrayW<uint8_t> Padding(int nLength);
     // private System.UInt32 F(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x23CE5B0
+    // Offset: 0x23C59EC
     uint F(uint x, uint y, uint z);
     // private System.UInt32 G(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x23CE5C0
+    // Offset: 0x23C59FC
     uint G(uint x, uint y, uint z);
     // private System.UInt32 H(System.UInt32 x, System.UInt32 y, System.UInt32 z)
-    // Offset: 0x23CE5D4
+    // Offset: 0x23C5A10
     uint H(uint x, uint y, uint z);
     // private System.UInt32 ROL(System.UInt32 x, System.Byte n)
-    // Offset: 0x23CE5E0
+    // Offset: 0x23C5A1C
     uint ROL(uint x, uint8_t n);
     // private System.Void FF(ref System.UInt32 a, System.UInt32 b, System.UInt32 c, System.UInt32 d, System.UInt32 x, System.Byte s)
-    // Offset: 0x23CE5EC
+    // Offset: 0x23C5A28
     void FF(ByRef<uint> a, uint b, uint c, uint d, uint x, uint8_t s);
     // private System.Void GG(ref System.UInt32 a, System.UInt32 b, System.UInt32 c, System.UInt32 d, System.UInt32 x, System.Byte s)
-    // Offset: 0x23CE614
+    // Offset: 0x23C5A50
     void GG(ByRef<uint> a, uint b, uint c, uint d, uint x, uint8_t s);
     // private System.Void HH(ref System.UInt32 a, System.UInt32 b, System.UInt32 c, System.UInt32 d, System.UInt32 x, System.Byte s)
-    // Offset: 0x23CE64C
+    // Offset: 0x23C5A88
     void HH(ByRef<uint> a, uint b, uint c, uint d, uint x, uint8_t s);
     // private System.Void Encode(System.Byte[] output, System.UInt32[] input)
-    // Offset: 0x23CE424
+    // Offset: 0x23C5860
     void Encode(::ArrayW<uint8_t> output, ::ArrayW<uint> input);
     // private System.Void Decode(System.UInt32[] output, System.Byte[] input, System.Int32 index)
-    // Offset: 0x23CE67C
+    // Offset: 0x23C5AB8
     void Decode(::ArrayW<uint> output, ::ArrayW<uint8_t> input, int index);
     // private System.Void MD4Transform(System.UInt32[] state, System.Byte[] block, System.Int32 index)
-    // Offset: 0x23CDC8C
+    // Offset: 0x23C50C8
     void MD4Transform(::ArrayW<uint> state, ::ArrayW<uint8_t> block, int index);
     // public System.Void .ctor()
-    // Offset: 0x23CD984
+    // Offset: 0x23C4DC0
     // Implemented from: Mono.Security.Cryptography.MD4
     // Base method: System.Void MD4::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -116,17 +116,17 @@ namespace Mono::Security::Cryptography {
       return THROW_UNLESS((::il2cpp_utils::New<MD4Managed*, creationType>()));
     }
     // public override System.Void Initialize()
-    // Offset: 0x23CDA50
+    // Offset: 0x23C4E8C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::Initialize()
     void Initialize();
     // protected override System.Void HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
-    // Offset: 0x23CDB48
+    // Offset: 0x23C4F84
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] array, System.Int32 ibStart, System.Int32 cbSize)
     void HashCore(::ArrayW<uint8_t> array, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
-    // Offset: 0x23CE310
+    // Offset: 0x23C574C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
     ::ArrayW<uint8_t> HashFinal();

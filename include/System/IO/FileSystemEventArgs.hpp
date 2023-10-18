@@ -60,7 +60,7 @@ namespace System::IO {
     // Get instance field reference: private System.String name
     [[deprecated("Use field access instead!")]] ::StringW& dyn_name();
     // public System.Void .ctor(System.IO.WatcherChangeTypes changeType, System.String directory, System.String name)
-    // Offset: 0x1DBCA50
+    // Offset: 0x1DA8B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemEventArgs* New_ctor(::System::IO::WatcherChangeTypes changeType, ::StringW directory, ::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::IO::FileSystemEventArgs::.ctor");

@@ -56,17 +56,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair[] perceivedLoudnessPerLevel
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>& dyn_perceivedLoudnessPerLevel();
     // public System.Void .ctor()
-    // Offset: 0x15A1514
+    // Offset: 0x159B380
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PerceivedLoudnessPerLevelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PerceivedLoudnessPerLevelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PerceivedLoudnessPerLevelSO*, creationType>()));
     }
     // public System.Collections.Generic.Dictionary`2<System.String,PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair> ToDictionary()
-    // Offset: 0x15A13C0
+    // Offset: 0x159B22C
     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* ToDictionary();
     // public System.Void SetLoudnessData(System.Collections.Generic.Dictionary`2<System.String,PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair> loudnessDictionary)
-    // Offset: 0x15A1498
+    // Offset: 0x159B304
     void SetLoudnessData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*>* loudnessDictionary);
   }; // PerceivedLoudnessPerLevelSO
   #pragma pack(pop)

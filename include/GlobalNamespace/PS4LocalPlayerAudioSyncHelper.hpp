@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class PS4LocalPlayerAudioSyncHelper : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x138F8E4
+    // Offset: 0x13528DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LocalPlayerAudioSyncHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LocalPlayerAudioSyncHelper::.ctor");

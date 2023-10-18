@@ -102,31 +102,31 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelCollection*& dyn_$beatmapLevelCollection$k__BackingField();
     // public System.String get_packID()
-    // Offset: 0x14494C8
+    // Offset: 0x145BE3C
     ::StringW get_packID();
     // public System.String get_packName()
-    // Offset: 0x14494D0
+    // Offset: 0x145BE44
     ::StringW get_packName();
     // public System.String get_shortPackName()
-    // Offset: 0x14494D8
+    // Offset: 0x145BE4C
     ::StringW get_shortPackName();
     // public System.String get_collectionName()
-    // Offset: 0x14494E0
+    // Offset: 0x145BE54
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x14494E8
+    // Offset: 0x145BE5C
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x14494F0
+    // Offset: 0x145BE64
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x14494F8
+    // Offset: 0x145BE6C
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // public System.Boolean get_isPackAlwaysOwned()
-    // Offset: 0x1449500
+    // Offset: 0x145BE74
     bool get_isPackAlwaysOwned();
     // public System.Void .ctor(System.String packID, System.String packName, System.String shortPackName, UnityEngine.Sprite coverImage, UnityEngine.Sprite smallCoverImage, CustomBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x1449508
+    // Offset: 0x145BE7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CustomBeatmapLevelPack* New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage, ::GlobalNamespace::CustomBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CustomBeatmapLevelPack::.ctor");

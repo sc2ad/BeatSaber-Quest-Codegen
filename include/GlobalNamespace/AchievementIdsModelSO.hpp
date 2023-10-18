@@ -54,10 +54,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>*& dyn__achievementsIds();
     // public System.Collections.Generic.List`1<AchievementSO> get_achievementsIds()
-    // Offset: 0x1571918
+    // Offset: 0x1570C34
     ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>* get_achievementsIds();
     // public System.Void .ctor()
-    // Offset: 0x1571920
+    // Offset: 0x1570C3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AchievementIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AchievementIdsModelSO::.ctor");

@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithPingResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PingResult*> {
     public:
     // protected Oculus.Platform.Models.PingResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A444CC
+    // Offset: 0x1A3EF04
     ::Oculus::Platform::Models::PingResult* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A3C124
+    // Offset: 0x1A36B5C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithPingResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.PingResult GetPingResult()
-    // Offset: 0x1A44488
+    // Offset: 0x1A3EEC0
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.PingResult Message::GetPingResult()
     ::Oculus::Platform::Models::PingResult* GetPingResult();

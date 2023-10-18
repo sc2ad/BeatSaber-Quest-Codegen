@@ -25,14 +25,14 @@ namespace GlobalNamespace {
   class FlyingScoreEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13CE8F0
+    // Offset: 0x140F948
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingScoreEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingScoreEffect::Pool::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FlyingScoreEffect::Pool*, creationType>()));
     }
     // protected System.Void OnDespawned(FlyingScoreEffect item)
-    // Offset: 0x13CE880
+    // Offset: 0x140F8D8
     void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
   }; // FlyingScoreEffect/Pool
 }

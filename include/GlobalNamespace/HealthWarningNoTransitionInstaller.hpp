@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private HealthWarningScenesTransitionSetupDataSO _scenesTransitionSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*& dyn__scenesTransitionSetupData();
     // public System.Void .ctor()
-    // Offset: 0x13ACC28
+    // Offset: 0x139A540
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningNoTransitionInstaller* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningNoTransitionInstaller::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningNoTransitionInstaller*, creationType>()));
     }
     // public override System.Void InstallBindings(Zenject.DiContainer container)
-    // Offset: 0x13ACBD8
+    // Offset: 0x139A4F0
     // Implemented from: Zenject.NoTransitionInstaller
     // Base method: System.Void NoTransitionInstaller::InstallBindings(Zenject.DiContainer container)
     void InstallBindings(::Zenject::DiContainer* container);

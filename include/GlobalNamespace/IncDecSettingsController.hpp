@@ -49,26 +49,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private StepValuePicker _stepValuePicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StepValuePicker*& dyn__stepValuePicker();
     // protected System.Void set_enableDec(System.Boolean value)
-    // Offset: 0x13AF8F8
+    // Offset: 0x139D210
     void set_enableDec(bool value);
     // protected System.Void set_enableInc(System.Boolean value)
-    // Offset: 0x13AF918
+    // Offset: 0x139D230
     void set_enableInc(bool value);
     // protected System.Void set_text(System.String value)
-    // Offset: 0x13AF938
+    // Offset: 0x139D250
     void set_text(::StringW value);
     // protected System.Void .ctor()
-    // Offset: 0x13AFB20
+    // Offset: 0x139D438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IncDecSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::IncDecSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IncDecSettingsController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13AF954
+    // Offset: 0x139D26C
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13AFA18
+    // Offset: 0x139D330
     void OnDestroy();
     // protected System.Void IncButtonPressed()
     // Offset: 0xFFFFFFFFFFFFFFFF

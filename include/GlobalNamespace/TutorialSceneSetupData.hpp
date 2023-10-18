@@ -57,7 +57,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly PlayerSpecificSettings playerSpecificSettings
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // public System.Void .ctor(ColorScheme colorScheme, PlayerSpecificSettings playerSpecificSettings)
-    // Offset: 0x13A6410
+    // Offset: 0x13B919C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialSceneSetupData::.ctor");

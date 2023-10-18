@@ -73,7 +73,7 @@ namespace GlobalNamespace {
     ::HMUI::PanelAnimationSO* dismissPanelAnimation;
     // Field size check
     static_assert(sizeof(::HMUI::PanelAnimationSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1131978
+    // [SpaceAttribute] Offset: 0x112E8A4
     // private UnityEngine.GameObject _promptGameObject
     // Size: 0x8
     // Offset: 0x28
@@ -122,35 +122,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly HMUI.ButtonBinder _buttonBinder
     [[deprecated("Use field access instead!")]] ::HMUI::ButtonBinder*& dyn__buttonBinder();
     // public System.Void add_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x144FA00
+    // Offset: 0x1462374
     void add_didViewFinishEvent(::System::Action_1<bool>* value);
     // public System.Void remove_didViewFinishEvent(System.Action`1<System.Boolean> value)
-    // Offset: 0x144FAA4
+    // Offset: 0x1462418
     void remove_didViewFinishEvent(::System::Action_1<bool>* value);
     // public System.Void .ctor()
-    // Offset: 0x144FD48
+    // Offset: 0x14626BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectPromptView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisconnectPromptView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectPromptView*, creationType>()));
     }
     // private System.Void OnEnable()
-    // Offset: 0x144FB48
+    // Offset: 0x14624BC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x144FC28
+    // Offset: 0x146259C
     void OnDisable();
     // public System.Void Show()
-    // Offset: 0x144FC44
+    // Offset: 0x14625B8
     void Show();
     // public System.Void Hide(System.Action finishedCallback)
-    // Offset: 0x144FC88
+    // Offset: 0x14625FC
     void Hide(::System::Action* finishedCallback);
     // private System.Void <OnEnable>b__9_0()
-    // Offset: 0x144FDB0
+    // Offset: 0x1462724
     void $OnEnable$b__9_0();
     // private System.Void <OnEnable>b__9_1()
-    // Offset: 0x144FE14
+    // Offset: 0x1462788
     void $OnEnable$b__9_1();
   }; // DisconnectPromptView
   #pragma pack(pop)

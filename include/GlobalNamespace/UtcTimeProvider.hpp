@@ -14,18 +14,6 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System::Threading::Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: Task
-  class Task;
-}
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: CancellationToken
-  struct CancellationToken;
-}
-// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: UtcTimeProvider
@@ -50,27 +38,32 @@ namespace GlobalNamespace {
     inline ::BGNet::Core::ITimeProvider* i_ITimeProvider() noexcept {
       return reinterpret_cast<::BGNet::Core::ITimeProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1104754
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11018A4
     // Get static field: static private readonly System.DateTime _epoch
     static ::System::DateTime _get__epoch();
     // Set static field: static private readonly System.DateTime _epoch
     static void _set__epoch(::System::DateTime value);
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11018B4
+    // Get static field: static public readonly UtcTimeProvider instance
+    static ::GlobalNamespace::UtcTimeProvider* _get_instance();
+    // Set static field: static public readonly UtcTimeProvider instance
+    static void _set_instance(::GlobalNamespace::UtcTimeProvider* value);
     // public System.Void .ctor()
-    // Offset: 0x26B9950
+    // Offset: 0x1A09668
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UtcTimeProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UtcTimeProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UtcTimeProvider*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x26B9958
+    // Offset: 0x1A09670
     static void _cctor();
     // public System.Int64 GetTimeMs()
-    // Offset: 0x26B9800
+    // Offset: 0x1A09638
     int64_t GetTimeMs();
-    // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x26B98D8
-    ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
+    // public System.Int64 GetTicks()
+    // Offset: 0x19F862C
+    int64_t GetTicks();
   }; // UtcTimeProvider
   #pragma pack(pop)
 }
@@ -95,13 +88,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Gl
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), "GetTimeMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::DelayMs
-// Il2CppName: DelayMs
+// Writing MetadataGetter for method: GlobalNamespace::UtcTimeProvider::GetTicks
+// Il2CppName: GetTicks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (GlobalNamespace::UtcTimeProvider::*)(int, ::System::Threading::CancellationToken)>(&GlobalNamespace::UtcTimeProvider::DelayMs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::UtcTimeProvider::*)()>(&GlobalNamespace::UtcTimeProvider::GetTicks)> {
   static const MethodInfo* get() {
-    static auto* millis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millis, cancellationToken});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UtcTimeProvider*), "GetTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

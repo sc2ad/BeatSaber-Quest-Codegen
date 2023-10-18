@@ -118,37 +118,37 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _applicationVersion
     [[deprecated("Use field access instead!")]] ::StringW& dyn__applicationVersion();
     // public System.String get_skuName()
-    // Offset: 0x138FD50
+    // Offset: 0x1352D48
     ::StringW get_skuName();
     // public System.String get_serviceIdPrefix()
-    // Offset: 0x138FD58
+    // Offset: 0x1352D50
     ::StringW get_serviceIdPrefix();
     // public System.String get_titleId()
-    // Offset: 0x138FD60
+    // Offset: 0x1352D58
     ::StringW get_titleId();
     // public System.String get_productLabel()
-    // Offset: 0x138FD68
+    // Offset: 0x1352D60
     ::StringW get_productLabel();
     // public System.Int32 get_parentalLockLevel()
-    // Offset: 0x138FD70
+    // Offset: 0x1352D68
     int get_parentalLockLevel();
     // public System.String get_npTitleFilenamePath()
-    // Offset: 0x138FD78
+    // Offset: 0x1352D70
     ::StringW get_npTitleFilenamePath();
     // public System.Int32 get_defaultAgeRestriction()
-    // Offset: 0x138FD80
+    // Offset: 0x1352D78
     int get_defaultAgeRestriction();
     // public PS4ApplicationCategory get_applicationCategory()
-    // Offset: 0x138FD88
+    // Offset: 0x1352D80
     ::GlobalNamespace::PS4ApplicationCategory get_applicationCategory();
     // public System.String get_masterVersion()
-    // Offset: 0x138FD90
+    // Offset: 0x1352D88
     ::StringW get_masterVersion();
     // public System.String get_applicationVersion()
-    // Offset: 0x138FD98
+    // Offset: 0x1352D90
     ::StringW get_applicationVersion();
     // public System.Void .ctor()
-    // Offset: 0x138FDA0
+    // Offset: 0x1352D98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4PublisherSKUSettingsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4PublisherSKUSettingsSO::.ctor");

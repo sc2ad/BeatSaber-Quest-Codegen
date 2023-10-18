@@ -30,14 +30,14 @@ namespace GlobalNamespace {
   class SteamVR_CameraMask : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18E6AB0
+    // Offset: 0x18B638C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_CameraMask* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_CameraMask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_CameraMask*, creationType>()));
     }
     // private System.Void Awake()
-    // Offset: 0x18E6A14
+    // Offset: 0x18B62F0
     void Awake();
   }; // SteamVR_CameraMask
   #pragma pack(pop)

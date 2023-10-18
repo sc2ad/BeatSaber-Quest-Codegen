@@ -62,25 +62,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SongSpeedData _songSpeedData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SongSpeedData*& dyn__songSpeedData();
     // public System.Void .ctor(BasicBeatmapEventType beatmapEvent, UnityEngine.Transform particleSystemParentTransform, System.Int32 particleSystemMaxSpawnedSystems, IAudioTimeSource audioTimeSource, BeatmapCallbacksController beatmapCallbacksController, ParticleSystemEventController/Pool particleSystemEventControllerPool, PauseController pauseController, SongSpeedData songSpeedData)
-    // Offset: 0x13911CC
+    // Offset: 0x13541C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleSystemEmitEventEffect::GameplayParticleSystemEmitBehavior* New_ctor(::GlobalNamespace::BasicBeatmapEventType beatmapEvent, ::UnityEngine::Transform* particleSystemParentTransform, int particleSystemMaxSpawnedSystems, ::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::ParticleSystemEventController::Pool* particleSystemEventControllerPool, ::GlobalNamespace::PauseController* pauseController, ::GlobalNamespace::SongSpeedData* songSpeedData) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ParticleSystemEmitEventEffect::GameplayParticleSystemEmitBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleSystemEmitEventEffect::GameplayParticleSystemEmitBehavior*, creationType>(beatmapEvent, particleSystemParentTransform, particleSystemMaxSpawnedSystems, audioTimeSource, beatmapCallbacksController, particleSystemEventControllerPool, pauseController, songSpeedData)));
     }
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x13913FC
+    // Offset: 0x1354674
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x1391530
+    // Offset: 0x13547A8
     void HandlePauseControllerDidResume();
     // public override System.Void Dispose()
-    // Offset: 0x13912EC
+    // Offset: 0x1354424
     // Implemented from: ParticleSystemEmitEventEffect/ParticleSystemEmitBehavior
     // Base method: System.Void ParticleSystemEmitBehavior::Dispose()
     void Dispose();
     // protected override ParticleSystemEventController EmitParticles(System.Single startTime)
-    // Offset: 0x1391664
+    // Offset: 0x13548DC
     // Implemented from: ParticleSystemEmitEventEffect/ParticleSystemEmitBehavior
     // Base method: ParticleSystemEventController ParticleSystemEmitBehavior::EmitParticles(System.Single startTime)
     ::GlobalNamespace::ParticleSystemEventController* EmitParticles(float startTime);

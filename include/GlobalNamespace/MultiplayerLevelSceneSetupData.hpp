@@ -77,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Boolean hasSong
     [[deprecated("Use field access instead!")]] bool& dyn_hasSong();
     // public System.Void .ctor(IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, System.Boolean hasSong)
-    // Offset: 0x14DCBB8
+    // Offset: 0x148DD20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLevelSceneSetupData* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLevelSceneSetupData::.ctor");

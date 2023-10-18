@@ -81,14 +81,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& dyn__colliders();
     // public System.Void .ctor()
-    // Offset: 0x17EEFB8
+    // Offset: 0x17DD160
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeneratedOutputData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeneratedOutputData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeneratedOutputData*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)
-    // Offset: 0x17F566C
+    // Offset: 0x17E3814
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
   }; // HoudiniEngineUnity.HEU_GeneratedOutputData
   #pragma pack(pop)

@@ -42,17 +42,17 @@ namespace GlobalNamespace {
     // Set static field: static public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.LeaderboardEntryList> <>9__3_0
     static void _set_$$9__3_0(typename ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>::Callback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1383400
+    // Offset: 0x13463F8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1383464
+    // Offset: 0x134645C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformLeaderboardsHandler::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformLeaderboardsHandler::$$c*, creationType>()));
     }
     // System.Void <.ctor>b__3_0(Oculus.Platform.Message`1<Oculus.Platform.Models.LeaderboardEntryList> message)
-    // Offset: 0x138346C
+    // Offset: 0x1346464
     void $_ctor$b__3_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
   }; // OculusPlatformLeaderboardsHandler/<>c
   #pragma pack(pop)

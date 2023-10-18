@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::LightWithIds::LightWithId
     class LightWithId;
     public:
-    // [InjectAttribute] Offset: 0x110B244
+    // [InjectAttribute] Offset: 0x1107E38
     // private LightWithIdManager _lightManager
     // Size: 0x8
     // Offset: 0x18
@@ -82,44 +82,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _childrenColorWasSet
     [[deprecated("Use field access instead!")]] bool& dyn__childrenColorWasSet();
     // public System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> get_lightWithIds()
-    // Offset: 0x1CEA96C
+    // Offset: 0x1CBE220
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* get_lightWithIds();
     // protected System.Void .ctor()
-    // Offset: 0x1CE636C
+    // Offset: 0x1CB9C20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightWithIds* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightWithIds::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightWithIds*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1CEA974
+    // Offset: 0x1CBE228
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1CEA9DC
+    // Offset: 0x1CBE290
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x1CE5CD8
+    // Offset: 0x1CB958C
     void OnEnable();
     // public System.Void MarkChildrenColorAsSet()
-    // Offset: 0x1CEACF4
+    // Offset: 0x1CBE5A8
     void MarkChildrenColorAsSet();
     // protected System.Void SetNewLightsWithIds(System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> lightsWithIds)
-    // Offset: 0x1CEA9B0
+    // Offset: 0x1CBE264
     void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* lightsWithIds);
     // protected System.Collections.Generic.IEnumerable`1<LightWithIds/LightWithId> GetLightWithIds()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds::LightWithId*>* GetLightWithIds();
     // private System.Void RegisterForColorChanges()
-    // Offset: 0x1CEA9E0
+    // Offset: 0x1CBE294
     void RegisterForColorChanges();
     // private System.Void UnregisterFromColorChanges()
-    // Offset: 0x1CEAD00
+    // Offset: 0x1CBE5B4
     void UnregisterFromColorChanges();
     // protected System.Void OnDisable()
-    // Offset: 0x1CEAFE8
+    // Offset: 0x1CBE89C
     void OnDisable();
     // private System.Void HandleLightManagerDidChangeSomeColorsThisFrame()
-    // Offset: 0x1CEAFEC
+    // Offset: 0x1CBE8A0
     void HandleLightManagerDidChangeSomeColorsThisFrame();
     // protected System.Void ProcessNewColorData()
     // Offset: 0xFFFFFFFFFFFFFFFF

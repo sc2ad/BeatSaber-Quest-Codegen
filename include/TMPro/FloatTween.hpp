@@ -99,43 +99,43 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreTimeScale();
     // public System.Single get_startValue()
-    // Offset: 0x1498500
+    // Offset: 0x14A7F14
     float get_startValue();
     // public System.Void set_startValue(System.Single value)
-    // Offset: 0x1498508
+    // Offset: 0x14A7F1C
     void set_startValue(float value);
     // public System.Single get_targetValue()
-    // Offset: 0x1498510
+    // Offset: 0x14A7F24
     float get_targetValue();
     // public System.Void set_targetValue(System.Single value)
-    // Offset: 0x1498518
+    // Offset: 0x14A7F2C
     void set_targetValue(float value);
     // public System.Single get_duration()
-    // Offset: 0x1498520
+    // Offset: 0x14A7F34
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1498528
+    // Offset: 0x14A7F3C
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x1498530
+    // Offset: 0x14A7F44
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x1498538
+    // Offset: 0x14A7F4C
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x1498544
+    // Offset: 0x14A7F58
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single> callback)
-    // Offset: 0x1498614
+    // Offset: 0x14A8028
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x14986F0
+    // Offset: 0x14A8104
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x14986F8
+    // Offset: 0x14A810C
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x1498604
+    // Offset: 0x14A8018
     bool ValidTarget();
   }; // TMPro.FloatTween
   #pragma pack(pop)

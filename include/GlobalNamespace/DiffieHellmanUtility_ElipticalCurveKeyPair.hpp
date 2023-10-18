@@ -35,6 +35,11 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class Task_1;
 }
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
+  // Forward declaring type: ITaskUtility
+  class ITaskUtility;
+}
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 NEED_NO_BOX(::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair);
@@ -76,20 +81,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Byte[] _publicKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn__publicKey();
     // public System.Byte[] get_publicKey()
-    // Offset: 0x16CC774
+    // Offset: 0x161BE70
     ::ArrayW<uint8_t> get_publicKey();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privateKeyParameters, System.Byte[] publicKey)
-    // Offset: 0x16CC0EC
+    // Offset: 0x161B78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DiffieHellmanUtility::ElipticalCurveKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t> publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DiffieHellmanUtility::ElipticalCurveKeyPair*, creationType>(privateKeyParameters, publicKey)));
     }
-    // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
-    // Offset: 0x16CC77C
-    ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::ArrayW<uint8_t> clientPublicKey);
+    // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(BGNet.Core.ITaskUtility taskUtility, System.Byte[] clientPublicKey)
+    // Offset: 0x161BE78
+    ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t> clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
-    // Offset: 0x16CC85C
+    // Offset: 0x161BFB4
     ::ArrayW<uint8_t> GetPreMasterSecret(::ArrayW<uint8_t> clientPublicKey);
   }; // DiffieHellmanUtility/ElipticalCurveKeyPair
   #pragma pack(pop)
@@ -112,10 +117,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync
 // Il2CppName: GetPreMasterSecretAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
   static const MethodInfo* get() {
+    static auto* taskUtility = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITaskUtility")->byval_arg;
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskUtility, clientPublicKey});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::GetPreMasterSecret

@@ -84,17 +84,17 @@ namespace System::Net {
     // Get instance field reference: public System.AsyncCallback <>9__1
     [[deprecated("Use field access instead!")]] ::System::AsyncCallback*& dyn_$$9__1();
     // public System.Void .ctor()
-    // Offset: 0x1BD7E4C
+    // Offset: 0x1B74E84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass80_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::$$c__DisplayClass80_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass80_0*, creationType>()));
     }
     // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)
-    // Offset: 0x1BD869C
+    // Offset: 0x1B756D4
     void $WriteRequestAsync$b__0(::System::Net::SimpleAsyncResult* inner);
     // System.Void <WriteRequestAsync>b__1(System.IAsyncResult r)
-    // Offset: 0x1BD8814
+    // Offset: 0x1B7584C
     void $WriteRequestAsync$b__1(::System::IAsyncResult* r);
   }; // System.Net.WebConnectionStream/System.Net.<>c__DisplayClass80_0
   #pragma pack(pop)

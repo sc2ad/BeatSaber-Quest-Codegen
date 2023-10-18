@@ -172,63 +172,63 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Byte trailer
     [[deprecated("Use field access instead!")]] uint8_t& dyn_trailer();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x1683320
+    // Offset: 0x16964E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::PssSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PssSigner*, creationType>(cipher, digest)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Int32 saltLen)
-    // Offset: 0x1683410
+    // Offset: 0x16965D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int saltLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::PssSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PssSigner*, creationType>(cipher, digest, saltLen)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest, System.Int32 saltLen, System.Byte trailer)
-    // Offset: 0x1683440
+    // Offset: 0x1696600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int saltLen, uint8_t trailer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::PssSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PssSigner*, creationType>(cipher, digest, saltLen, trailer)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest contentDigest, Org.BouncyCastle.Crypto.IDigest mgfDigest, System.Int32 saltLen, System.Byte trailer)
-    // Offset: 0x1683470
+    // Offset: 0x1696630
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int saltLen, uint8_t trailer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::PssSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PssSigner*, creationType>(cipher, contentDigest, mgfDigest, saltLen, trailer)));
     }
     // private System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest contentDigest1, Org.BouncyCastle.Crypto.IDigest contentDigest2, Org.BouncyCastle.Crypto.IDigest mgfDigest, System.Int32 saltLen, System.Byte[] salt, System.Byte trailer)
-    // Offset: 0x1683158
+    // Offset: 0x1696318
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* contentDigest1, ::Org::BouncyCastle::Crypto::IDigest* contentDigest2, ::Org::BouncyCastle::Crypto::IDigest* mgfDigest, int saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::PssSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PssSigner*, creationType>(cipher, contentDigest1, contentDigest2, mgfDigest, saltLen, salt, trailer)));
     }
     // static public Org.BouncyCastle.Crypto.Signers.PssSigner CreateRawSigner(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x168302C
+    // Offset: 0x16961EC
     static ::Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x16834A0
+    // Offset: 0x1696660
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void ClearBlock(System.Byte[] block)
-    // Offset: 0x16836E4
+    // Offset: 0x16968A4
     void ClearBlock(::ArrayW<uint8_t> block);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x1683708
+    // Offset: 0x16968C8
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Reset()
-    // Offset: 0x16837E4
+    // Offset: 0x16969A4
     void Reset();
     // public System.Byte[] GenerateSignature()
-    // Offset: 0x1683898
+    // Offset: 0x1696A58
     ::ArrayW<uint8_t> GenerateSignature();
     // private System.Void ItoOSP(System.Int32 i, System.Byte[] sp)
-    // Offset: 0x168418C
+    // Offset: 0x169734C
     void ItoOSP(int i, ::ArrayW<uint8_t> sp);
     // private System.Byte[] MaskGeneratorFunction1(System.Byte[] Z, System.Int32 zOff, System.Int32 zLen, System.Int32 length)
-    // Offset: 0x1683CEC
+    // Offset: 0x1696EAC
     ::ArrayW<uint8_t> MaskGeneratorFunction1(::ArrayW<uint8_t> Z, int zOff, int zLen, int length);
   }; // Org.BouncyCastle.Crypto.Signers.PssSigner
   #pragma pack(pop)

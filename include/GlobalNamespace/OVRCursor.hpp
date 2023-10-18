@@ -37,7 +37,7 @@ namespace GlobalNamespace {
   class OVRCursor : public ::UnityEngine::MonoBehaviour {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x16C0618
+    // Offset: 0x16E2BC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRCursor* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRCursor::.ctor");

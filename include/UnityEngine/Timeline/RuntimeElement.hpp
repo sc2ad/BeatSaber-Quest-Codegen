@@ -64,16 +64,16 @@ namespace UnityEngine::Timeline {
     // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t get_intervalEnd();
     // public System.Int32 get_intervalBit()
-    // Offset: 0x1E85A94
+    // Offset: 0x1E72C14
     int get_intervalBit();
     // public System.Void set_intervalBit(System.Int32 value)
-    // Offset: 0x1E85A9C
+    // Offset: 0x1E72C1C
     void set_intervalBit(int value);
     // public System.Void set_enable(System.Boolean value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void set_enable(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x1E829F0
+    // Offset: 0x1E6FB70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RuntimeElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::RuntimeElement::.ctor");

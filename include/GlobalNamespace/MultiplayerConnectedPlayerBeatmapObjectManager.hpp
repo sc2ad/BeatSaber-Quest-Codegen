@@ -158,62 +158,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MultiplayerConnectedPlayerBeatmapObjectManager/InitData _initData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*& dyn__initData();
     // private System.Void .ctor(MultiplayerConnectedPlayerBeatmapObjectManager/InitData initData, IConnectedPlayerBeatmapObjectEventManager beatmapObjectEventManager, MultiplayerConnectedPlayerGameNoteController/Pool gameNotePool, MultiplayerConnectedPlayerGameNoteController/Pool burstSliderHeadGameNotePool, MultiplayerConnectedPlayerGameNoteController/Pool burstSliderGameNotePool, MultiplayerConnectedPlayerGameNoteController/Pool burstSliderFillPool, MultiplayerConnectedPlayerBombNoteController/Pool bombNotePool, MultiplayerConnectedPlayerObstacleController/Pool obstaclePool)
-    // Offset: 0x14CD038
+    // Offset: 0x147E190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerConnectedPlayerBeatmapObjectManager* New_ctor(::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData, ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* gameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* burstSliderGameNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool* burstSliderFillPool, ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool* bombNotePool, ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool* obstaclePool) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerConnectedPlayerBeatmapObjectManager*, creationType>(initData, beatmapObjectEventManager, gameNotePool, burstSliderHeadGameNotePool, burstSliderGameNotePool, burstSliderFillPool, bombNotePool, obstaclePool)));
     }
     // public System.Void Dispose()
-    // Offset: 0x14CD434
+    // Offset: 0x147E58C
     void Dispose();
     // private System.Void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned(NoteSpawnInfoNetSerializable noteSpawnInfo)
-    // Offset: 0x14CDEDC
+    // Offset: 0x147F034
     void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasSpawned(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
     // private System.Void HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned(ObstacleSpawnInfoNetSerializable obstacleSpawnInfo)
-    // Offset: 0x14CE028
+    // Offset: 0x147F180
     void HandleMultiplayerBeatmapObjectEventManagerObstacleWasSpawned(::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfo);
     // private System.Void HandleMultiplayerBeatmapObjectEventManagerSliderWasSpawned(SliderSpawnInfoNetSerializable sliderSpawnInfo)
-    // Offset: 0x14CE1B0
+    // Offset: 0x147F308
     void HandleMultiplayerBeatmapObjectEventManagerSliderWasSpawned(::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfo);
     // private System.Void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut(NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x14CE424
+    // Offset: 0x147F57C
     void HandleMultiplayerBeatmapObjectEventManagerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // static private System.Boolean AreNotesSame(NoteController noteController, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x14CE958
+    // Offset: 0x147FAB0
     static bool AreNotesSame(::GlobalNamespace::NoteController* noteController, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // public override System.Collections.Generic.List`1<ObstacleController> get_activeObstacleControllers()
-    // Offset: 0x14CCFE0
+    // Offset: 0x147E138
     // Implemented from: BeatmapObjectManager
     // Base method: System.Collections.Generic.List`1<ObstacleController> BeatmapObjectManager::get_activeObstacleControllers()
     ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
     // public override System.Void ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
-    // Offset: 0x14CD724
+    // Offset: 0x147E87C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessObstacleData(ObstacleData obstacleData, in BeatmapObjectSpawnMovementData/ObstacleSpawnData obstacleSpawnData, System.Single rotation)
     void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData> obstacleSpawnData, float rotation);
     // public override System.Void ProcessNoteData(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNoteBehaviour)
-    // Offset: 0x14CD828
+    // Offset: 0x147E980
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessNoteData(NoteData noteData, in BeatmapObjectSpawnMovementData/NoteSpawnData noteSpawnData, System.Single rotation, System.Boolean forceIsFirstNoteBehaviour)
     void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData> noteSpawnData, float rotation, bool forceIsFirstNoteBehaviour);
     // public override System.Void ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
-    // Offset: 0x14CDCF0
+    // Offset: 0x147EE48
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::ProcessSliderData(SliderData sliderData, in BeatmapObjectSpawnMovementData/SliderSpawnData sliderSpawnData, System.Single rotation)
     void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData::SliderSpawnData> sliderSpawnData, float rotation);
     // protected override System.Void DespawnInternal(NoteController noteController)
-    // Offset: 0x14CDCF4
+    // Offset: 0x147EE4C
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(NoteController noteController)
     void DespawnInternal(::GlobalNamespace::NoteController* noteController);
     // protected override System.Void DespawnInternal(ObstacleController obstacleController)
-    // Offset: 0x14CDE28
+    // Offset: 0x147EF80
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(ObstacleController obstacleController)
     void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
     // protected override System.Void DespawnInternal(SliderController sliderNoteController)
-    // Offset: 0x14CDED8
+    // Offset: 0x147F030
     // Implemented from: BeatmapObjectManager
     // Base method: System.Void BeatmapObjectManager::DespawnInternal(SliderController sliderNoteController)
     void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);

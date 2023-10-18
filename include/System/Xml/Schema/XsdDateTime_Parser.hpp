@@ -157,37 +157,37 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Int32 length
     [[deprecated("Use field access instead!")]] int& dyn_length();
     // static private System.Void .cctor()
-    // Offset: 0x211D430
+    // Offset: 0x2114DA8
     static void _cctor();
     // public System.Boolean Parse(System.String text, System.Xml.Schema.XsdDateTimeFlags kinds)
-    // Offset: 0x211A660
+    // Offset: 0x2111FD8
     bool Parse(::StringW text, ::System::Xml::Schema::XsdDateTimeFlags kinds);
     // private System.Boolean ParseDate(System.Int32 start)
-    // Offset: 0x211CA24
+    // Offset: 0x211439C
     bool ParseDate(int start);
     // private System.Boolean ParseTimeAndZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x211CC40
+    // Offset: 0x21145B8
     bool ParseTimeAndZoneAndWhitespace(int start);
     // private System.Boolean ParseTimeAndWhitespace(System.Int32 start)
-    // Offset: 0x211CEC8
+    // Offset: 0x2114840
     bool ParseTimeAndWhitespace(int start);
     // private System.Boolean ParseTime(ref System.Int32 start)
-    // Offset: 0x211D104
+    // Offset: 0x2114A7C
     bool ParseTime(ByRef<int> start);
     // private System.Boolean ParseZoneAndWhitespace(System.Int32 start)
-    // Offset: 0x211CC88
+    // Offset: 0x2114600
     bool ParseZoneAndWhitespace(int start);
     // private System.Boolean Parse4Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x211CF24
+    // Offset: 0x211489C
     bool Parse4Dig(int start, ByRef<int> num);
     // private System.Boolean Parse2Dig(System.Int32 start, ref System.Int32 num)
-    // Offset: 0x211D050
+    // Offset: 0x21149C8
     bool Parse2Dig(int start, ByRef<int> num);
     // private System.Boolean ParseChar(System.Int32 start, System.Char ch)
-    // Offset: 0x211CBF0
+    // Offset: 0x2114568
     bool ParseChar(int start, ::Il2CppChar ch);
     // static private System.Boolean Test(System.Xml.Schema.XsdDateTimeFlags left, System.Xml.Schema.XsdDateTimeFlags right)
-    // Offset: 0x211CA18
+    // Offset: 0x2114390
     static bool Test(::System::Xml::Schema::XsdDateTimeFlags left, ::System::Xml::Schema::XsdDateTimeFlags right);
   }; // System.Xml.Schema.XsdDateTime/System.Xml.Schema.Parser
   #pragma pack(pop)

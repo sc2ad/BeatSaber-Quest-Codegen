@@ -44,7 +44,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::AudioPlayerBase* songPreviewPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioPlayerBase*) == 0x8);
-    // [InjectAttribute] Offset: 0x111D92C
+    // [InjectAttribute] Offset: 0x111A550
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -59,20 +59,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x13C73F0
+    // Offset: 0x1408448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeOutSongPreviewPlayerOnSceneTransitionStart* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeOutSongPreviewPlayerOnSceneTransitionStart*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13C71E0
+    // Offset: 0x1408238
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13C7274
+    // Offset: 0x14082CC
     void OnDestroy();
     // private System.Void HandleGameScenesManagerTransitionDidStart(System.Single duration)
-    // Offset: 0x13C7350
+    // Offset: 0x14083A8
     void HandleGameScenesManagerTransitionDidStart(float duration);
   }; // FadeOutSongPreviewPlayerOnSceneTransitionStart
   #pragma pack(pop)

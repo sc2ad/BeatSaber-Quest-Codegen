@@ -131,34 +131,34 @@ namespace System::Runtime::Remoting::Lifetime {
     // Get instance field reference: private System.Runtime.Remoting.Lifetime.Lease/System.Runtime.Remoting.Lifetime.RenewalDelegate _renewalDelegate
     [[deprecated("Use field access instead!")]] ::System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*& dyn__renewalDelegate();
     // public System.TimeSpan get_CurrentLeaseTime()
-    // Offset: 0x1D4D86C
+    // Offset: 0x1D3951C
     ::System::TimeSpan get_CurrentLeaseTime();
     // public System.Runtime.Remoting.Lifetime.LeaseState get_CurrentState()
-    // Offset: 0x1D4D8E4
+    // Offset: 0x1D39594
     ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
     // public System.TimeSpan get_RenewOnCallTime()
-    // Offset: 0x1D4D8F8
+    // Offset: 0x1D395A8
     ::System::TimeSpan get_RenewOnCallTime();
     // public System.Void Activate()
-    // Offset: 0x1D4D8EC
+    // Offset: 0x1D3959C
     void Activate();
     // public System.TimeSpan Renew(System.TimeSpan renewalTime)
-    // Offset: 0x1D4D900
+    // Offset: 0x1D395B0
     ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
     // public System.Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor obj)
-    // Offset: 0x1D4D99C
+    // Offset: 0x1D3964C
     void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
     // System.Void UpdateState()
-    // Offset: 0x1D4DAAC
+    // Offset: 0x1D3975C
     void UpdateState();
     // private System.Void CheckNextSponsor()
-    // Offset: 0x1D4DBF8
+    // Offset: 0x1D398A8
     void CheckNextSponsor();
     // private System.Void ProcessSponsorResponse(System.Object state, System.Boolean timedOut)
-    // Offset: 0x1D4DE5C
+    // Offset: 0x1D39B0C
     void ProcessSponsorResponse(::Il2CppObject* state, bool timedOut);
     // public System.Void .ctor()
-    // Offset: 0x1D4D6D4
+    // Offset: 0x1D39384
     // Implemented from: System.MarshalByRefObject
     // Base method: System.Void MarshalByRefObject::.ctor()
     // Base method: System.Void Object::.ctor()

@@ -57,20 +57,20 @@ namespace Zenject {
     // Get instance field reference: public System.String resourcePath
     [[deprecated("Use field access instead!")]] ::StringW& dyn_resourcePath();
     // public System.Void .ctor()
-    // Offset: 0x1EB2D1C
+    // Offset: 0x1E9EE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FromBinder::$$c__DisplayClass57_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FromBinder::$$c__DisplayClass57_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FromBinder::$$c__DisplayClass57_0*, creationType>()));
     }
     // Zenject.IProvider <FromResource>b__0(Zenject.DiContainer _, System.Type type)
-    // Offset: 0x1EB585C
+    // Offset: 0x1EA19DC
     ::Zenject::IProvider* $FromResource$b__0(::Zenject::DiContainer* _, ::System::Type* type);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1EB58D8
+    // Offset: 0x1EA1A58
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1EB5934
+    // Offset: 0x1EA1AB4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FromBinder/Zenject.<>c__DisplayClass57_0
   #pragma pack(pop)

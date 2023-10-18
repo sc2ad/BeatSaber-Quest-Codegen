@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<MultiplayerScoreProvider/RankedPlayer,System.Boolean> <>9__16_0
     static void _set_$$9__16_0(::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x142DEC8
+    // Offset: 0x15004B0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x142DF2C
+    // Offset: 0x1500514
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider::$$c*, creationType>()));
     }
     // System.Boolean <Update>b__16_0(MultiplayerScoreProvider/RankedPlayer p)
-    // Offset: 0x142DF34
+    // Offset: 0x150051C
     bool $Update$b__16_0(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* p);
   }; // MultiplayerScoreProvider/<>c
   #pragma pack(pop)

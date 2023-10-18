@@ -200,28 +200,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 cachedChannels
     [[deprecated("Use field access instead!")]] int& dyn_cachedChannels();
     // private System.Void RefreshCameraObjects(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x16C4870
+    // Offset: 0x16E6E20
     void RefreshCameraObjects(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
     // private System.Void RefreshAudioFilter(UnityEngine.Camera mainCamera)
-    // Offset: 0x16C54A0
+    // Offset: 0x16E7A50
     void RefreshAudioFilter(::UnityEngine::Camera* mainCamera);
     // private System.Int32 CastMrcFrame(System.Int32 castTextureIndex)
-    // Offset: 0x16C5C68
+    // Offset: 0x16E8218
     int CastMrcFrame(int castTextureIndex);
     // private System.Void SetCameraTargetTexture(System.Int32 drawTextureIndex)
-    // Offset: 0x16C605C
+    // Offset: 0x16E860C
     void SetCameraTargetTexture(int drawTextureIndex);
     // private System.Void CleanupAudioFilter()
-    // Offset: 0x16C5AEC
+    // Offset: 0x16E809C
     void CleanupAudioFilter();
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
-    // Offset: 0x16C729C
+    // Offset: 0x16E984C
     void CacheAudioData(::ArrayW<float> data, int channels);
     // public System.Void GetAndResetAudioData(ref System.Single[] audioData, out System.Int32 audioFrames, out System.Int32 channels)
-    // Offset: 0x16C5ECC
+    // Offset: 0x16E847C
     void GetAndResetAudioData(ByRef<::ArrayW<float>> audioData, ByRef<int> audioFrames, ByRef<int> channels);
     // public System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
-    // Offset: 0x16C43B4
+    // Offset: 0x16E6964
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::.ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -230,17 +230,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<OVRExternalComposition*, creationType>(parentObject, mainCamera, configuration)));
     }
     // public override OVRManager/CompositionMethod CompositionMethod()
-    // Offset: 0x16C43AC
+    // Offset: 0x16E695C
     // Implemented from: OVRComposition
     // Base method: OVRManager/CompositionMethod OVRComposition::CompositionMethod()
     ::GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
     // public override System.Void Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
-    // Offset: 0x16C6280
+    // Offset: 0x16E8830
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Update(UnityEngine.GameObject gameObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration, OVRManager/TrackingOrigin trackingOrigin)
     void Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
     // public override System.Void Cleanup()
-    // Offset: 0x16C7108
+    // Offset: 0x16E96B8
     // Implemented from: OVRComposition
     // Base method: System.Void OVRComposition::Cleanup()
     void Cleanup();

@@ -119,13 +119,13 @@ namespace System {
     // Get instance field reference: System.Boolean timeZone
     [[deprecated("Use field access instead!")]] bool& dyn_timeZone();
     // System.Void Init(System.Int32* numberBuffer)
-    // Offset: 0x233B3F8
+    // Offset: 0x22DE5EC
     void Init(int* numberBuffer);
     // System.Void AddNumber(System.Int32 value)
-    // Offset: 0x2337DD0
+    // Offset: 0x22DAFC4
     void AddNumber(int value);
     // System.Int32 GetNumber(System.Int32 index)
-    // Offset: 0x2339034
+    // Offset: 0x22DC228
     int GetNumber(int index);
   }; // System.DateTimeRawInfo
   #pragma pack(pop)

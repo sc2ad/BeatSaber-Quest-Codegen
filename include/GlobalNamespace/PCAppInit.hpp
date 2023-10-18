@@ -75,7 +75,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111D3A4
+    // [SpaceAttribute] Offset: 0x1119FC8
     // private System.String _goStraightToMenuCommandArgument
     // Size: 0x8
     // Offset: 0x68
@@ -104,7 +104,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _goStraightToEditorCommandArgument
     [[deprecated("Use field access instead!")]] ::StringW& dyn__goStraightToEditorCommandArgument();
     // public System.Void .ctor()
-    // Offset: 0x138E0D0
+    // Offset: 0x13510C8
     // Implemented from: AppInit
     // Base method: System.Void AppInit::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -113,22 +113,22 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<PCAppInit*, creationType>()));
     }
     // protected override System.Void AppStartAndMultiSceneEditorSetup()
-    // Offset: 0x138DD88
+    // Offset: 0x1350D80
     // Implemented from: AppInit
     // Base method: System.Void AppInit::AppStartAndMultiSceneEditorSetup()
     void AppStartAndMultiSceneEditorSetup();
     // protected override System.Void RepeatableSetup()
-    // Offset: 0x138DE0C
+    // Offset: 0x1350E04
     // Implemented from: AppInit
     // Base method: System.Void AppInit::RepeatableSetup()
     void RepeatableSetup();
     // protected override System.Void TransitionToNextScene()
-    // Offset: 0x138DEA0
+    // Offset: 0x1350E98
     // Implemented from: AppInit
     // Base method: System.Void AppInit::TransitionToNextScene()
     void TransitionToNextScene();
     // public override System.Void InstallBindings()
-    // Offset: 0x138DF70
+    // Offset: 0x1350F68
     // Implemented from: Zenject.MonoInstallerBase
     // Base method: System.Void MonoInstallerBase::InstallBindings()
     void InstallBindings();

@@ -99,19 +99,19 @@ namespace UnityEngine::Playables {
     // Get instance field reference: private UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod m_CreateOutputMethod
     [[deprecated("Use field access instead!")]] ::UnityEngine::Playables::PlayableBinding::CreateOutputMethod*& dyn_m_CreateOutputMethod();
     // public System.String get_streamName()
-    // Offset: 0x2100CA0
+    // Offset: 0x20F8618
     ::StringW get_streamName();
     // public UnityEngine.Object get_sourceObject()
-    // Offset: 0x2100CA8
+    // Offset: 0x20F8620
     ::UnityEngine::Object* get_sourceObject();
     // static private System.Void .cctor()
-    // Offset: 0x2100FFC
+    // Offset: 0x20F8974
     static void _cctor();
     // UnityEngine.Playables.PlayableOutput CreateOutput(UnityEngine.Playables.PlayableGraph graph)
-    // Offset: 0x2100CB0
+    // Offset: 0x20F8628
     ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
     // static UnityEngine.Playables.PlayableBinding CreateInternal(System.String name, UnityEngine.Object sourceObject, System.Type sourceType, UnityEngine.Playables.PlayableBinding/UnityEngine.Playables.CreateOutputMethod createFunction)
-    // Offset: 0x2100FF0
+    // Offset: 0x20F8968
     static ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType, ::UnityEngine::Playables::PlayableBinding::CreateOutputMethod* createFunction);
   }; // UnityEngine.Playables.PlayableBinding
   #pragma pack(pop)

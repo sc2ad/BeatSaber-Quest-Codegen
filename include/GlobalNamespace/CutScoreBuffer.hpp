@@ -159,68 +159,68 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly LazyCopyHashSet`1<ICutScoreBufferDidChangeReceiver> _didChangeEvent
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& dyn__didChangeEvent();
     // public System.Int32 get_executionOrder()
-    // Offset: 0x144B178
+    // Offset: 0x145DAEC
     int get_executionOrder();
     // public System.Int32 get_maxPossibleCutScore()
-    // Offset: 0x144B194
+    // Offset: 0x145DB08
     int get_maxPossibleCutScore();
     // public System.Boolean get_isFinished()
-    // Offset: 0x144B1B0
+    // Offset: 0x145DB24
     bool get_isFinished();
     // public System.Int32 get_cutScore()
-    // Offset: 0x144B1B8
+    // Offset: 0x145DB2C
     int get_cutScore();
     // public System.Int32 get_beforeCutScore()
-    // Offset: 0x144B1E8
+    // Offset: 0x145DB5C
     int get_beforeCutScore();
     // public System.Int32 get_centerDistanceCutScore()
-    // Offset: 0x144B1F0
+    // Offset: 0x145DB64
     int get_centerDistanceCutScore();
     // public System.Int32 get_afterCutScore()
-    // Offset: 0x144B1F8
+    // Offset: 0x145DB6C
     int get_afterCutScore();
     // public ScoreModel/NoteScoreDefinition get_noteScoreDefinition()
-    // Offset: 0x144B200
+    // Offset: 0x145DB74
     ::GlobalNamespace::ScoreModel::NoteScoreDefinition* get_noteScoreDefinition();
     // public NoteCutInfo get_noteCutInfo()
-    // Offset: 0x144B208
+    // Offset: 0x145DB7C
     ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
     // public System.Single get_beforeCutSwingRating()
-    // Offset: 0x144B218
+    // Offset: 0x145DB8C
     float get_beforeCutSwingRating();
     // public System.Single get_afterCutSwingRating()
-    // Offset: 0x144B234
+    // Offset: 0x145DBA8
     float get_afterCutSwingRating();
     // public System.Void .ctor()
-    // Offset: 0x144BA98
+    // Offset: 0x145E40C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CutScoreBuffer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CutScoreBuffer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CutScoreBuffer*, creationType>()));
     }
     // public System.Void RegisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0x144B250
+    // Offset: 0x145DBC4
     void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
     // public System.Void RegisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0x144B2B8
+    // Offset: 0x145DC2C
     void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
     // public System.Void UnregisterDidChangeReceiver(ICutScoreBufferDidChangeReceiver receiver)
-    // Offset: 0x144B320
+    // Offset: 0x145DC94
     void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
     // public System.Void UnregisterDidFinishReceiver(ICutScoreBufferDidFinishReceiver receiver)
-    // Offset: 0x144B388
+    // Offset: 0x145DCFC
     void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
     // public System.Boolean Init(in NoteCutInfo noteCutInfo)
-    // Offset: 0x144B3F0
+    // Offset: 0x145DD64
     bool Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
     // private System.Void RefreshScores()
-    // Offset: 0x144B5D0
+    // Offset: 0x145DF44
     void RefreshScores();
     // public System.Void HandleSaberSwingRatingCounterDidChange(ISaberSwingRatingCounter swingRatingCounter, System.Single rating)
-    // Offset: 0x144B6B0
+    // Offset: 0x145E024
     void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float rating);
     // public System.Void HandleSaberSwingRatingCounterDidFinish(ISaberSwingRatingCounter swingRatingCounter)
-    // Offset: 0x144B830
+    // Offset: 0x145E1A4
     void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
   }; // CutScoreBuffer
   #pragma pack(pop)

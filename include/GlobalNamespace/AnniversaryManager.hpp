@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::FireworksController* fireworksController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FireworksController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C9B0
+    // [InjectAttribute] Offset: 0x11195E4
     // private readonly MainMenuViewController _mainMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -63,29 +63,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly MainMenuViewController _mainMenuViewController
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::MainMenuViewController*& dyn__mainMenuViewController();
     // public System.Void .ctor()
-    // Offset: 0x15747E8
+    // Offset: 0x1573B04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnniversaryManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AnniversaryManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnniversaryManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1574590
+    // Offset: 0x15738AC
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1574698
+    // Offset: 0x15739B4
     void OnDestroy();
     // private System.Void HandleMainMenuViewControllerDidFinish(MainMenuViewController mainMenuViewController, MainMenuViewController/MenuButton menuButton)
-    // Offset: 0x15747C0
+    // Offset: 0x1573ADC
     void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* mainMenuViewController, ::GlobalNamespace::MainMenuViewController::MenuButton menuButton);
     // private System.Void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(IBeatmapLevelPack musicPack, IPreviewBeatmapLevel beatmap)
-    // Offset: 0x15747E4
+    // Offset: 0x1573B00
     void HandleMainMenuViewControllerMusicPackPromoButtonWasPressed(::GlobalNamespace::IBeatmapLevelPack* musicPack, ::GlobalNamespace::IPreviewBeatmapLevel* beatmap);
     // private System.Void StartFireworks()
-    // Offset: 0x1574678
+    // Offset: 0x1573994
     void StartFireworks();
     // private System.Void StopFireworks()
-    // Offset: 0x15747C4
+    // Offset: 0x1573AE0
     void StopFireworks();
   }; // AnniversaryManager
   #pragma pack(pop)

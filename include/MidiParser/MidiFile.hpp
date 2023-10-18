@@ -72,24 +72,24 @@ namespace MidiParser {
     // Get instance field reference: public readonly System.Int32 tracksCount
     [[deprecated("Use field access instead!")]] int& dyn_tracksCount();
     // public System.Void .ctor(System.String path)
-    // Offset: 0x2BAED8C
+    // Offset: 0x2BAE794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MidiFile* New_ctor(::StringW path) {
       static auto ___internal__logger = ::Logger::get().WithContext("::MidiParser::MidiFile::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MidiFile*, creationType>(path)));
     }
     // private System.Void .ctor(System.Byte[] data)
-    // Offset: 0x2BAEDBC
+    // Offset: 0x2BAE7C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MidiFile* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::MidiParser::MidiFile::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MidiFile*, creationType>(data)));
     }
     // static private System.Boolean ParseMetaEvent(System.Byte[] data, ref System.Int32 position, System.Byte metaEventType, out System.Int32 data1, out System.Int32 data2)
-    // Offset: 0x2BAF484
+    // Offset: 0x2BAEE8C
     static bool ParseMetaEvent(::ArrayW<uint8_t> data, ByRef<int> position, uint8_t metaEventType, ByRef<int> data1, ByRef<int> data2);
     // static private MidiParser.MidiTrack ParseTrack(System.Int32 index, System.Byte[] data, ref System.Int32 position)
-    // Offset: 0x2BAF1DC
+    // Offset: 0x2BAEBE4
     static ::MidiParser::MidiTrack* ParseTrack(int index, ::ArrayW<uint8_t> data, ByRef<int> position);
   }; // MidiParser.MidiFile
   #pragma pack(pop)

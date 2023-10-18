@@ -43,20 +43,20 @@ namespace System::Security::AccessControl {
   class NativeObjectSecurity::ExceptionFromErrorCode : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1BE76B8
+    // Offset: 0x1BB3484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeObjectSecurity::ExceptionFromErrorCode* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::NativeObjectSecurity::ExceptionFromErrorCode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeObjectSecurity::ExceptionFromErrorCode*, creationType>(object, method)));
     }
     // public System.Exception Invoke(System.Int32 errorCode, System.String name, System.Runtime.InteropServices.SafeHandle handle, System.Object context)
-    // Offset: 0x1BE76C8
+    // Offset: 0x1BB3494
     ::System::Exception* Invoke(int errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::Il2CppObject* context);
     // public System.IAsyncResult BeginInvoke(System.Int32 errorCode, System.String name, System.Runtime.InteropServices.SafeHandle handle, System.Object context, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x1BE839C
+    // Offset: 0x1BB4168
     ::System::IAsyncResult* BeginInvoke(int errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::Il2CppObject* context, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Exception EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1BE8448
+    // Offset: 0x1BB4214
     ::System::Exception* EndInvoke(::System::IAsyncResult* result);
   }; // System.Security.AccessControl.NativeObjectSecurity/System.Security.AccessControl.ExceptionFromErrorCode
   #pragma pack(pop)

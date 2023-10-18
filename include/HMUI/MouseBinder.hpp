@@ -180,7 +180,7 @@ namespace HMUI {
     ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>* scrollBindings;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>*) == 0x8);
-    // [TupleElementNamesAttribute] Offset: 0x110D5D0
+    // [TupleElementNamesAttribute] Offset: 0x110A098
     // private System.Collections.Generic.List`1<System.ValueTuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
     // Size: 0x8
     // Offset: 0x20
@@ -195,44 +195,44 @@ namespace HMUI {
     // Get instance field reference: private System.Collections.Generic.List`1<System.ValueTuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> _buttonBindings
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>>*& dyn__buttonBindings();
     // public System.Boolean get_enabled()
-    // Offset: 0x17036A0
+    // Offset: 0x16EF034
     bool get_enabled();
     // public System.Void set_enabled(System.Boolean value)
-    // Offset: 0x17036A8
+    // Offset: 0x16EF03C
     void set_enabled(bool value);
     // public System.Void .ctor()
-    // Offset: 0x17036B4
+    // Offset: 0x16EF048
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MouseBinder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::MouseBinder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MouseBinder*, creationType>()));
     }
     // private System.Void Init()
-    // Offset: 0x17036DC
+    // Offset: 0x16EF070
     void Init();
     // public System.Void AddScrollBindings(System.Collections.Generic.List`1<UnityEngine.Events.UnityAction`1<System.Single>> bindingData)
-    // Offset: 0x1703774
+    // Offset: 0x16EF108
     void AddScrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float>*>* bindingData);
     // public System.Void AddScrollBinding(UnityEngine.Events.UnityAction`1<System.Single> action)
-    // Offset: 0x170386C
+    // Offset: 0x16EF200
     void AddScrollBinding(::UnityEngine::Events::UnityAction_1<float>* action);
     // public System.Void RemoveScrollBinding(UnityEngine.Events.UnityAction`1<System.Single> action)
-    // Offset: 0x17038D4
+    // Offset: 0x16EF268
     void RemoveScrollBinding(::UnityEngine::Events::UnityAction_1<float>* action);
     // public System.Void AddButtonBindings(System.Collections.Generic.List`1<System.Tuple`3<HMUI.MouseBinder/HMUI.ButtonType,HMUI.MouseBinder/HMUI.MouseEventType,UnityEngine.Events.UnityAction>> bindingData)
-    // Offset: 0x170393C
+    // Offset: 0x16EF2D0
     void AddButtonBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder::ButtonType, ::HMUI::MouseBinder::MouseEventType, ::UnityEngine::Events::UnityAction*>*>* bindingData);
     // public System.Void AddButtonBinding(HMUI.MouseBinder/HMUI.ButtonType buttonType, HMUI.MouseBinder/HMUI.MouseEventType keyBindingType, UnityEngine.Events.UnityAction action)
-    // Offset: 0x1703A48
+    // Offset: 0x16EF3DC
     void AddButtonBinding(::HMUI::MouseBinder::ButtonType buttonType, ::HMUI::MouseBinder::MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
     // public System.Void RemoveButtonBinding(HMUI.MouseBinder/HMUI.ButtonType buttonType, HMUI.MouseBinder/HMUI.MouseEventType keyBindingType, UnityEngine.Events.UnityAction action)
-    // Offset: 0x1703AF4
+    // Offset: 0x16EF488
     void RemoveButtonBinding(::HMUI::MouseBinder::ButtonType buttonType, ::HMUI::MouseBinder::MouseEventType keyBindingType, ::UnityEngine::Events::UnityAction* action);
     // public System.Void ClearBindings()
-    // Offset: 0x1703BA0
+    // Offset: 0x16EF534
     void ClearBindings();
     // public System.Void ManualUpdate()
-    // Offset: 0x1703C18
+    // Offset: 0x16EF5AC
     void ManualUpdate();
   }; // HMUI.MouseBinder
   #pragma pack(pop)

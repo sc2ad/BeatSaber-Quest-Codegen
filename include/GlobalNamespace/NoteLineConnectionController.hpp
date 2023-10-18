@@ -63,21 +63,21 @@ namespace GlobalNamespace {
     ::UnityEngine::LineRenderer* lineRenderer;
     // Field size check
     static_assert(sizeof(::UnityEngine::LineRenderer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1122764
+    // [InjectAttribute] Offset: 0x111F3C8
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PlayerTransforms*) == 0x8);
-    // [InjectAttribute] Offset: 0x1122774
+    // [InjectAttribute] Offset: 0x111F3D8
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::AudioTimeSyncController* audioTimeSyncController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::AudioTimeSyncController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1122784
+    // [InjectAttribute] Offset: 0x111F3E8
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x30
@@ -168,26 +168,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _didFinish
     [[deprecated("Use field access instead!")]] bool& dyn__didFinish();
     // public System.Void add_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x15B1D34
+    // Offset: 0x1586154
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<NoteLineConnectionController> value)
-    // Offset: 0x15B1DD8
+    // Offset: 0x15861F8
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>* value);
     // public System.Void .ctor()
-    // Offset: 0x15B21A8
+    // Offset: 0x15865C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoteLineConnectionController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoteLineConnectionController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoteLineConnectionController*, creationType>()));
     }
     // public System.Void Setup(NoteController noteController0, NoteController noteController1, System.Single fadeOutStartDistance, System.Single fadeOutEndDistance, System.Single noteTime)
-    // Offset: 0x15B1E7C
+    // Offset: 0x158629C
     void Setup(::GlobalNamespace::NoteController* noteController0, ::GlobalNamespace::NoteController* noteController1, float fadeOutStartDistance, float fadeOutEndDistance, float noteTime);
     // protected System.Void Update()
-    // Offset: 0x15B2110
+    // Offset: 0x1586530
     void Update();
     // private System.Void UpdatePositionsAndColors()
-    // Offset: 0x15B1F24
+    // Offset: 0x1586344
     void UpdatePositionsAndColors();
   }; // NoteLineConnectionController
   #pragma pack(pop)

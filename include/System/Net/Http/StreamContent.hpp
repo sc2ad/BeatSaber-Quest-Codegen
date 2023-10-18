@@ -92,38 +92,38 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Boolean contentCopied
     [[deprecated("Use field access instead!")]] bool& dyn_contentCopied();
     // public System.Void .ctor(System.IO.Stream content)
-    // Offset: 0x1A0FBDC
+    // Offset: 0x19F4CC8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(::System::IO::Stream* content) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content)));
     }
     // public System.Void .ctor(System.IO.Stream content, System.Int32 bufferSize)
-    // Offset: 0x1A0FBE4
+    // Offset: 0x19F4CD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(::System::IO::Stream* content, int bufferSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, bufferSize)));
     }
     // System.Void .ctor(System.IO.Stream content, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1A0CC40
+    // Offset: 0x19F1D2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StreamContent* New_ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::StreamContent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StreamContent*, creationType>(content, cancellationToken)));
     }
     // protected override System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A0FCE4
+    // Offset: 0x19F4DD0
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Void HttpContent::Dispose(System.Boolean disposing)
     void Dispose(bool disposing);
     // protected internal override System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
-    // Offset: 0x1A0FD40
+    // Offset: 0x19F4E2C
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Threading.Tasks.Task HttpContent::SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
     // protected internal override System.Boolean TryComputeLength(out System.Int64 length)
-    // Offset: 0x1A0FE40
+    // Offset: 0x19F4F2C
     // Implemented from: System.Net.Http.HttpContent
     // Base method: System.Boolean HttpContent::TryComputeLength(out System.Int64 length)
     bool TryComputeLength(ByRef<int64_t> length);

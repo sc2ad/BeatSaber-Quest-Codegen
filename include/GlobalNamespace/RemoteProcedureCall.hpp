@@ -66,35 +66,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <syncTime>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$syncTime$k__BackingField();
     // public System.Single get_syncTime()
-    // Offset: 0x26B3E6C
+    // Offset: 0x1A03D80
     float get_syncTime();
     // protected System.Void set_syncTime(System.Single value)
-    // Offset: 0x26B3E74
+    // Offset: 0x1A03D88
     void set_syncTime(float value);
     // protected System.Void .ctor()
-    // Offset: 0x26B4044
+    // Offset: 0x19F5FA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RemoteProcedureCall* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RemoteProcedureCall::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemoteProcedureCall*, creationType>()));
     }
     // protected System.Void SerializeData(LiteNetLib.Utils.NetDataWriter writer, System.UInt32 protocolVersion)
-    // Offset: 0x26B3E7C
+    // Offset: 0x1A03D90
     void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint protocolVersion);
     // protected System.Void DeserializeData(LiteNetLib.Utils.NetDataReader reader, System.UInt32 protocolVersion)
-    // Offset: 0x26B3E80
+    // Offset: 0x1A03D94
     void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint protocolVersion);
     // private System.Void LiteNetLib.Utils.INetSerializable.Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x26B3E84
+    // Offset: 0x1A03D98
     void LiteNetLib_Utils_INetSerializable_Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // private System.Void LiteNetLib.Utils.INetSerializable.Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x26B3ED0
+    // Offset: 0x1A03DE4
     void LiteNetLib_Utils_INetSerializable_Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x26B3F1C
+    // Offset: 0x1A03E30
     void Release();
     // public IRemoteProcedureCall Init(System.Single syncTime)
-    // Offset: 0x26B403C
+    // Offset: 0x1A03F50
     ::GlobalNamespace::IRemoteProcedureCall* Init(float syncTime);
   }; // RemoteProcedureCall
   #pragma pack(pop)

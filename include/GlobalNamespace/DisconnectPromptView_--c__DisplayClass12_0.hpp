@@ -50,14 +50,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public DisconnectPromptView <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DisconnectPromptView*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x144FD40
+    // Offset: 0x14626B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DisconnectPromptView::$$c__DisplayClass12_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DisconnectPromptView::$$c__DisplayClass12_0*, creationType>()));
     }
     // System.Void <Hide>b__0()
-    // Offset: 0x144FE78
+    // Offset: 0x14627EC
     void $Hide$b__0();
   }; // DisconnectPromptView/<>c__DisplayClass12_0
   #pragma pack(pop)

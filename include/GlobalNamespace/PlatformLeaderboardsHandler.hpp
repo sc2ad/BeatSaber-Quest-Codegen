@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   class PlatformLeaderboardsHandler : public ::Il2CppObject {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x15A3F58
+    // Offset: 0x159DDC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformLeaderboardsHandler::.ctor");

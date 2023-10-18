@@ -49,14 +49,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* centerObjectTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112E05C
+    // [SpaceAttribute] Offset: 0x112AF58
     // private CenterStageScreenController _centerStageScreenController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::CenterStageScreenController* centerStageScreenController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::CenterStageScreenController*) == 0x8);
-    // [InjectAttribute] Offset: 0x112E094
+    // [InjectAttribute] Offset: 0x112AF90
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -89,23 +89,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _minOuterCircleRadius
     [[deprecated("Use field access instead!")]] float& dyn__minOuterCircleRadius();
     // public System.Void .ctor()
-    // Offset: 0x13FEC2C
+    // Offset: 0x13CF144
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyCenterStageManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyCenterStageManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyCenterStageManager*, creationType>()));
     }
     // public System.Void Init(System.Single innerCircleRadius, System.Single minOuterCircleRadius)
-    // Offset: 0x13FEA5C
+    // Offset: 0x13CEEB0
     void Init(float innerCircleRadius, float minOuterCircleRadius);
     // public System.Void ActivateCenterStageManager()
-    // Offset: 0x13FEA64
+    // Offset: 0x13CEEB8
     void ActivateCenterStageManager();
     // public System.Void DeactivateCenterStageManager()
-    // Offset: 0x13FEBFC
+    // Offset: 0x13CF050
     void DeactivateCenterStageManager();
     // private System.Void RecalculateCenterPosition()
-    // Offset: 0x13FEA94
+    // Offset: 0x13CEEE8
     void RecalculateCenterPosition();
   }; // MultiplayerLobbyCenterStageManager
   #pragma pack(pop)

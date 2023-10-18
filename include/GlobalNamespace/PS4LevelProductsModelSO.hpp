@@ -74,26 +74,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,PS4LevelProductsModelSO/LevelPackProductData> _levelPackIdToProductData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*>*& dyn__levelPackIdToProductData();
     // public PS4LevelProductsModelSO/LevelPackProductData[] get_levelPackProductsData()
-    // Offset: 0x138F4AC
+    // Offset: 0x13524A4
     ::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> get_levelPackProductsData();
     // public System.Void .ctor()
-    // Offset: 0x138F714
+    // Offset: 0x135270C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4LevelProductsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4LevelProductsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4LevelProductsModelSO*, creationType>()));
     }
     // public System.Void SetLevelPackProductsData(PS4LevelProductsModelSO/LevelPackProductData[] levelPackProductsData)
-    // Offset: 0x138F60C
+    // Offset: 0x1352604
     void SetLevelPackProductsData(::ArrayW<::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData*> levelPackProductsData);
     // public PS4LevelProductsModelSO/LevelProductData GetLevelProductData(System.String levelId)
-    // Offset: 0x138F614
+    // Offset: 0x135260C
     ::GlobalNamespace::PS4LevelProductsModelSO::LevelProductData* GetLevelProductData(::StringW levelId);
     // public PS4LevelProductsModelSO/LevelPackProductData GetLevelPackProductData(System.String levelPackId)
-    // Offset: 0x138F694
+    // Offset: 0x135268C
     ::GlobalNamespace::PS4LevelProductsModelSO::LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
     // protected override System.Void OnEnable()
-    // Offset: 0x138F4B4
+    // Offset: 0x13524AC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

@@ -63,26 +63,26 @@ namespace UnityEngine::TestTools::TestRunner {
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.PlaymodeTestsController <>4__this
     [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::TestRunner::PlaymodeTestsController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x19CF670
+    // Offset: 0x19B56E8
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x19CF6D8
+    // Offset: 0x19B5750
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x19CEA98
+    // Offset: 0x19B4B10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlaymodeTestsController::$Start$d__12* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Start$d__12::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlaymodeTestsController::$Start$d__12*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x19CF5E4
+    // Offset: 0x19B565C
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x19CF5E8
+    // Offset: 0x19B5660
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x19CF678
+    // Offset: 0x19B56F0
     void System_Collections_IEnumerator_Reset();
   }; // UnityEngine.TestTools.TestRunner.PlaymodeTestsController/UnityEngine.TestTools.TestRunner.<Start>d__12
   #pragma pack(pop)

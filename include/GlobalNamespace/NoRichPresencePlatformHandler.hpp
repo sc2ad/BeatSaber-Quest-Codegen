@@ -59,23 +59,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <currentPresenceApiName>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$currentPresenceApiName$k__BackingField();
     // public System.String get_currentPresenceApiName()
-    // Offset: 0x14385E8
+    // Offset: 0x150AB90
     ::StringW get_currentPresenceApiName();
     // private System.Void set_currentPresenceApiName(System.String value)
-    // Offset: 0x14385F0
+    // Offset: 0x150AB98
     void set_currentPresenceApiName(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x1438710
+    // Offset: 0x150ACB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NoRichPresencePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NoRichPresencePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NoRichPresencePlatformHandler*, creationType>()));
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x14385F8
+    // Offset: 0x150ABA0
     void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x14386B8
+    // Offset: 0x150AC60
     void Clear();
   }; // NoRichPresencePlatformHandler
   #pragma pack(pop)

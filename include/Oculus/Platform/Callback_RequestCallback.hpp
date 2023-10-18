@@ -40,21 +40,21 @@ namespace Oculus::Platform {
     // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
     [[deprecated("Use field access instead!")]] ::Oculus::Platform::Message::Callback*& dyn_messageCallback();
     // public System.Void .ctor()
-    // Offset: 0x1A309B4
+    // Offset: 0x1A2B3EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Callback::RequestCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback*, creationType>()));
     }
     // public System.Void .ctor(Oculus.Platform.Message/Oculus.Platform.Callback callback)
-    // Offset: 0x1A30084
+    // Offset: 0x1A2AABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Callback::RequestCallback* New_ctor(::Oculus::Platform::Message::Callback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Callback::RequestCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Callback::RequestCallback*, creationType>(callback)));
     }
     // public System.Void HandleMessage(Oculus.Platform.Message msg)
-    // Offset: 0x1A309BC
+    // Offset: 0x1A2B3F4
     void HandleMessage(::Oculus::Platform::Message* msg);
   }; // Oculus.Platform.Callback/Oculus.Platform.RequestCallback
   #pragma pack(pop)

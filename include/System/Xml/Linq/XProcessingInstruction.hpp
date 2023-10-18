@@ -59,40 +59,40 @@ namespace System::Xml::Linq {
     // Get instance field reference: System.String data
     [[deprecated("Use field access instead!")]] ::StringW& dyn_data();
     // public System.String get_Data()
-    // Offset: 0x2B53AA8
+    // Offset: 0x2B648F0
     ::StringW get_Data();
     // public System.String get_Target()
-    // Offset: 0x2B53AB8
+    // Offset: 0x2B64900
     ::StringW get_Target();
     // public System.Void .ctor(System.String target, System.String data)
-    // Offset: 0x2B53844
+    // Offset: 0x2B6468C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XProcessingInstruction* New_ctor(::StringW target, ::StringW data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XProcessingInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XProcessingInstruction*, creationType>(target, data)));
     }
     // public System.Void .ctor(System.Xml.Linq.XProcessingInstruction other)
-    // Offset: 0x2B53A00
+    // Offset: 0x2B64848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XProcessingInstruction* New_ctor(::System::Xml::Linq::XProcessingInstruction* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XProcessingInstruction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XProcessingInstruction*, creationType>(other)));
     }
     // static private System.Void ValidateName(System.String name)
-    // Offset: 0x2B538EC
+    // Offset: 0x2B64734
     static void ValidateName(::StringW name);
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x2B53AB0
+    // Offset: 0x2B648F8
     // Implemented from: System.Xml.Linq.XObject
     // Base method: System.Xml.XmlNodeType XObject::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Void WriteTo(System.Xml.XmlWriter writer)
-    // Offset: 0x2B53AC0
+    // Offset: 0x2B64908
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Void XNode::WriteTo(System.Xml.XmlWriter writer)
     void WriteTo(::System::Xml::XmlWriter* writer);
     // override System.Xml.Linq.XNode CloneNode()
-    // Offset: 0x2B53B60
+    // Offset: 0x2B649A8
     // Implemented from: System.Xml.Linq.XNode
     // Base method: System.Xml.Linq.XNode XNode::CloneNode()
     ::System::Xml::Linq::XNode* CloneNode();

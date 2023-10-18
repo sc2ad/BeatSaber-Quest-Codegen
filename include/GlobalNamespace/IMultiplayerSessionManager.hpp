@@ -159,6 +159,12 @@ namespace GlobalNamespace {
     // public System.Void remove_disconnectedEvent(System.Action`1<DisconnectedReason> value)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void remove_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
+    // public System.Void add_pollUpdateEvent(System.Action value)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void add_pollUpdateEvent(::System::Action* value);
+    // public System.Void remove_pollUpdateEvent(System.Action value)
+    // Offset: 0xFFFFFFFFFFFFFFFF
+    void remove_pollUpdateEvent(::System::Action* value);
     // public System.Void SetMaxPlayerCount(System.Int32 maxPlayerCount)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void SetMaxPlayerCount(int maxPlayerCount);
@@ -252,9 +258,6 @@ namespace GlobalNamespace {
     // public System.Void UnregisterSerializer(MultiplayerSessionManager/MessageType serializerType, INetworkPacketSubSerializer`1<IConnectedPlayer> subSerializer)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void UnregisterSerializer(::GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
-    // public System.Void PerformAtSyncTime(System.Single syncTime, System.Action action)
-    // Offset: 0xFFFFFFFFFFFFFFFF
-    void PerformAtSyncTime(float syncTime, ::System::Action* action);
   }; // IMultiplayerSessionManager
   #pragma pack(pop)
 }
@@ -507,6 +510,24 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "remove_disconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::add_pollUpdateEvent
+// Il2CppName: add_pollUpdateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(::System::Action*)>(&GlobalNamespace::IMultiplayerSessionManager::add_pollUpdateEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "add_pollUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::remove_pollUpdateEvent
+// Il2CppName: remove_pollUpdateEvent
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(::System::Action*)>(&GlobalNamespace::IMultiplayerSessionManager::remove_pollUpdateEvent)> {
+  static const MethodInfo* get() {
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "remove_pollUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
+  }
+};
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::SetMaxPlayerCount
 // Il2CppName: SetMaxPlayerCount
 template<>
@@ -624,15 +645,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* serializerType = &::il2cpp_utils::GetClassFromName("", "MultiplayerSessionManager/MessageType")->byval_arg;
     static auto* subSerializer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("", "INetworkPacketSubSerializer`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "UnregisterSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializerType, subSerializer});
-  }
-};
-// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerSessionManager::PerformAtSyncTime
-// Il2CppName: PerformAtSyncTime
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerSessionManager::*)(float, ::System::Action*)>(&GlobalNamespace::IMultiplayerSessionManager::PerformAtSyncTime)> {
-  static const MethodInfo* get() {
-    static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerSessionManager*), "PerformAtSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncTime, action});
   }
 };

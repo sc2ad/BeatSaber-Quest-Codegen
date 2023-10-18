@@ -53,17 +53,17 @@ namespace Newtonsoft::Json::Utilities {
     // Get instance field reference: public System.Reflection.MethodBase method
     [[deprecated("Use field access instead!")]] ::System::Reflection::MethodBase*& dyn_method();
     // public System.Void .ctor()
-    // Offset: 0x212FFF8
+    // Offset: 0x215520C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LateBoundReflectionDelegateFactory::$$c__DisplayClass3_0*, creationType>()));
     }
     // System.Object <CreateParameterizedConstructor>b__0(System.Object[] a)
-    // Offset: 0x2130074
+    // Offset: 0x2155288
     ::Il2CppObject* $CreateParameterizedConstructor$b__0(::ArrayW<::Il2CppObject*> a);
     // System.Object <CreateParameterizedConstructor>b__1(System.Object[] a)
-    // Offset: 0x2130090
+    // Offset: 0x21552A4
     ::Il2CppObject* $CreateParameterizedConstructor$b__1(::ArrayW<::Il2CppObject*> a);
   }; // Newtonsoft.Json.Utilities.LateBoundReflectionDelegateFactory/Newtonsoft.Json.Utilities.<>c__DisplayClass3_0
   #pragma pack(pop)

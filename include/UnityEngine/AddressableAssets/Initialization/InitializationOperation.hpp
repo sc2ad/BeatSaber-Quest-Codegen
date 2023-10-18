@@ -128,50 +128,50 @@ namespace UnityEngine::AddressableAssets::Initialization {
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.InitalizationObjectsOperation m_InitGroupOps
     [[deprecated("Use field access instead!")]] ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*& dyn_m_InitGroupOps();
     // public System.Void .ctor(UnityEngine.AddressableAssets.AddressablesImpl aa)
-    // Offset: 0x190EA68
+    // Offset: 0x18DE344
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InitializationOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::AddressableAssets::Initialization::InitializationOperation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InitializationOperation*, creationType>(aa)));
     }
     // static UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> CreateInitializationOperation(UnityEngine.AddressableAssets.AddressablesImpl aa, System.String playerSettingsLocation, System.String providerSuffix)
-    // Offset: 0x19057D4
+    // Offset: 0x18D50B0
     static ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> CreateInitializationOperation(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::StringW playerSettingsLocation, ::StringW providerSuffix);
     // static private System.Void LoadProvider(UnityEngine.AddressableAssets.AddressablesImpl addressables, UnityEngine.ResourceManagement.Util.ObjectInitializationData providerData, System.String providerSuffix)
-    // Offset: 0x1910644
+    // Offset: 0x18DFF20
     static void LoadProvider(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::Util::ObjectInitializationData providerData, ::StringW providerSuffix);
     // static private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> OnCatalogDataLoaded(UnityEngine.AddressableAssets.AddressablesImpl addressables, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData> op, System.String providerSuffix)
-    // Offset: 0x1910AC0
+    // Offset: 0x18E039C
     static ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> OnCatalogDataLoaded(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op, ::StringW providerSuffix);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> LoadContentCatalog(UnityEngine.AddressableAssets.AddressablesImpl addressables, UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc, System.String providerSuffix)
-    // Offset: 0x190628C
+    // Offset: 0x18D5B68
     static ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> LoadContentCatalog(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix);
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> LoadContentCatalog(UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc, System.String providerSuffix)
-    // Offset: 0x1910E64
+    // Offset: 0x18E0740
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> LoadContentCatalog(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix);
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> LoadContentCatalogInternal(System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> catalogs, System.Int32 index, UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap locMap)
-    // Offset: 0x1910474
+    // Offset: 0x18DFD50
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> LoadContentCatalogInternal(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs, int index, ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap);
     // private System.Void LoadOpComplete(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> op, System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> catalogs, UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap locMap, System.Int32 index)
-    // Offset: 0x1910E74
+    // Offset: 0x18E0750
     void LoadOpComplete(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs, ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap, int index);
     // protected override System.Single get_Progress()
-    // Offset: 0x190EB08
+    // Offset: 0x18DE3E4
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Single AsyncOperationBase_1::get_Progress()
     float get_Progress();
     // protected override System.String get_DebugName()
-    // Offset: 0x190EB84
+    // Offset: 0x18DE460
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.String AsyncOperationBase_1::get_DebugName()
     ::StringW get_DebugName();
     // override System.Boolean InvokeWaitForCompletion()
-    // Offset: 0x190EC58
+    // Offset: 0x18DE534
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Boolean AsyncOperationBase_1::InvokeWaitForCompletion()
     bool InvokeWaitForCompletion();
     // protected override System.Void Execute()
-    // Offset: 0x190EDE0
+    // Offset: 0x18DE6BC
     // Implemented from: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1
     // Base method: System.Void AsyncOperationBase_1::Execute()
     void Execute();

@@ -82,59 +82,59 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean defaultLocalRotationSet
     [[deprecated("Use field access instead!")]] bool& dyn_defaultLocalRotationSet();
     // public UnityEngine.Vector3 get_secondaryAxis()
-    // Offset: 0x2076D18
+    // Offset: 0x2068EC0
     ::UnityEngine::Vector3 get_secondaryAxis();
     // public UnityEngine.Vector3 get_crossAxis()
-    // Offset: 0x2076D54
+    // Offset: 0x2068EFC
     ::UnityEngine::Vector3 get_crossAxis();
     // public System.Boolean get_defaultLocalRotationOverride()
-    // Offset: 0x2076E24
+    // Offset: 0x2068FCC
     bool get_defaultLocalRotationOverride();
     // private System.Void set_defaultLocalRotationOverride(System.Boolean value)
-    // Offset: 0x2076E2C
+    // Offset: 0x2068FD4
     void set_defaultLocalRotationOverride(bool value);
     // protected System.Void .ctor()
-    // Offset: 0x2077288
+    // Offset: 0x2069430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RotationLimit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::RotationLimit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RotationLimit*, creationType>()));
     }
     // public System.Void SetDefaultLocalRotation()
-    // Offset: 0x207697C
+    // Offset: 0x2068B24
     void SetDefaultLocalRotation();
     // public System.Void SetDefaultLocalRotation(UnityEngine.Quaternion localRotation)
-    // Offset: 0x20769C4
+    // Offset: 0x2068B6C
     void SetDefaultLocalRotation(::UnityEngine::Quaternion localRotation);
     // public UnityEngine.Quaternion GetLimitedLocalRotation(UnityEngine.Quaternion localRotation, out System.Boolean changed)
-    // Offset: 0x20769DC
+    // Offset: 0x2068B84
     ::UnityEngine::Quaternion GetLimitedLocalRotation(::UnityEngine::Quaternion localRotation, ByRef<bool> changed);
     // public System.Boolean Apply()
-    // Offset: 0x2076C70
+    // Offset: 0x2068E18
     bool Apply();
     // public System.Void Disable()
-    // Offset: 0x2076CE0
+    // Offset: 0x2068E88
     void Disable();
     // protected UnityEngine.Quaternion LimitRotation(UnityEngine.Quaternion rotation)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
     // private System.Void Awake()
-    // Offset: 0x2076B80
+    // Offset: 0x2068D28
     void Awake();
     // private System.Void LateUpdate()
-    // Offset: 0x2076E38
+    // Offset: 0x2068FE0
     void LateUpdate();
     // public System.Void LogWarning(System.String message)
-    // Offset: 0x2076E3C
+    // Offset: 0x2068FE4
     void LogWarning(::StringW message);
     // static protected UnityEngine.Quaternion Limit1DOF(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis)
-    // Offset: 0x2076E6C
+    // Offset: 0x2069014
     static ::UnityEngine::Quaternion Limit1DOF(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis);
     // static protected UnityEngine.Quaternion LimitTwist(UnityEngine.Quaternion rotation, UnityEngine.Vector3 axis, UnityEngine.Vector3 orthoAxis, System.Single twistLimit)
-    // Offset: 0x2076F50
+    // Offset: 0x20690F8
     static ::UnityEngine::Quaternion LimitTwist(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis, ::UnityEngine::Vector3 orthoAxis, float twistLimit);
     // static protected System.Single GetOrthogonalAngle(UnityEngine.Vector3 v1, UnityEngine.Vector3 v2, UnityEngine.Vector3 normal)
-    // Offset: 0x20771CC
+    // Offset: 0x2069374
     static float GetOrthogonalAngle(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, ::UnityEngine::Vector3 normal);
   }; // RootMotion.FinalIK.RotationLimit
   #pragma pack(pop)

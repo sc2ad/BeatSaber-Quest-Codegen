@@ -42,14 +42,14 @@ namespace RootMotion::FinalIK {
   class IKExecutionOrder : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x1148B20
+    // [TooltipAttribute] Offset: 0x1145ABC
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
     ::ArrayW<::RootMotion::FinalIK::IK*> IKComponents;
     // Field size check
     static_assert(sizeof(::ArrayW<::RootMotion::FinalIK::IK*>) == 0x8);
-    // [TooltipAttribute] Offset: 0x1148B58
+    // [TooltipAttribute] Offset: 0x1145AF4
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x20
@@ -72,29 +72,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean fixedFrame
     [[deprecated("Use field access instead!")]] bool& dyn_fixedFrame();
     // private System.Boolean get_animatePhysics()
-    // Offset: 0x22F7684
+    // Offset: 0x229A878
     bool get_animatePhysics();
     // public System.Void .ctor()
-    // Offset: 0x22F7914
+    // Offset: 0x229AB08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKExecutionOrder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKExecutionOrder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKExecutionOrder*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x22F7720
+    // Offset: 0x229A914
     void Start();
     // private System.Void Update()
-    // Offset: 0x22F7790
+    // Offset: 0x229A984
     void Update();
     // private System.Void FixedUpdate()
-    // Offset: 0x22F784C
+    // Offset: 0x229AA40
     void FixedUpdate();
     // private System.Void LateUpdate()
-    // Offset: 0x22F7888
+    // Offset: 0x229AA7C
     void LateUpdate();
     // private System.Void FixTransforms()
-    // Offset: 0x22F77C4
+    // Offset: 0x229A9B8
     void FixTransforms();
   }; // RootMotion.FinalIK.IKExecutionOrder
   #pragma pack(pop)

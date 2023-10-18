@@ -45,55 +45,55 @@ namespace System::Threading {
   class ThreadPool : public ::Il2CppObject {
     public:
     // static private System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.UInt32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
-    // Offset: 0x1E0BF54
+    // Offset: 0x1DF8114
     static ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, uint millisecondsTimeOutInterval, bool executeOnlyOnce, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack);
     // static public System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.Int32 millisecondsTimeOutInterval, System.Boolean executeOnlyOnce)
-    // Offset: 0x1E0C114
+    // Offset: 0x1DF82D4
     static ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, int millisecondsTimeOutInterval, bool executeOnlyOnce);
     // static public System.Threading.RegisteredWaitHandle RegisterWaitForSingleObject(System.Threading.WaitHandle waitObject, System.Threading.WaitOrTimerCallback callBack, System.Object state, System.TimeSpan timeout, System.Boolean executeOnlyOnce)
-    // Offset: 0x1E0C1F0
+    // Offset: 0x1DF83B0
     static ::System::Threading::RegisteredWaitHandle* RegisterWaitForSingleObject(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callBack, ::Il2CppObject* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
-    // Offset: 0x1DFB074
+    // Offset: 0x1DE7128
     static bool QueueUserWorkItem(::System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static public System.Boolean QueueUserWorkItem(System.Threading.WaitCallback callBack)
-    // Offset: 0x1E0C414
+    // Offset: 0x1DF85D4
     static bool QueueUserWorkItem(::System::Threading::WaitCallback* callBack);
     // static public System.Boolean UnsafeQueueUserWorkItem(System.Threading.WaitCallback callBack, System.Object state)
-    // Offset: 0x1E0C0E4
+    // Offset: 0x1DF82A4
     static bool UnsafeQueueUserWorkItem(::System::Threading::WaitCallback* callBack, ::Il2CppObject* state);
     // static private System.Boolean QueueUserWorkItemHelper(System.Threading.WaitCallback callBack, System.Object state, ref System.Threading.StackCrawlMark stackMark, System.Boolean compressStack)
-    // Offset: 0x1E0C308
+    // Offset: 0x1DF84C8
     static bool QueueUserWorkItemHelper(::System::Threading::WaitCallback* callBack, ::Il2CppObject* state, ByRef<::System::Threading::StackCrawlMark> stackMark, bool compressStack);
     // static System.Void UnsafeQueueCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem, System.Boolean forceGlobal)
-    // Offset: 0x1DFC4D4
+    // Offset: 0x1DE8588
     static void UnsafeQueueCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem, bool forceGlobal);
     // static System.Boolean TryPopCustomWorkItem(System.Threading.IThreadPoolWorkItem workItem)
-    // Offset: 0x1E0A6F0
+    // Offset: 0x1DF68B0
     static bool TryPopCustomWorkItem(::System::Threading::IThreadPoolWorkItem* workItem);
     // static System.Boolean RequestWorkerThread()
-    // Offset: 0x1E0C698
+    // Offset: 0x1DF8858
     static bool RequestWorkerThread();
     // static private System.Void EnsureVMInitialized()
-    // Offset: 0x1E0C448
+    // Offset: 0x1DF8608
     static void EnsureVMInitialized();
     // static System.Boolean NotifyWorkItemComplete()
-    // Offset: 0x1E0C6A0
+    // Offset: 0x1DF8860
     static bool NotifyWorkItemComplete();
     // static System.Void ReportThreadStatus(System.Boolean isWorking)
-    // Offset: 0x1E0C6A4
+    // Offset: 0x1DF8864
     static void ReportThreadStatus(bool isWorking);
     // static System.Void NotifyWorkItemProgress()
-    // Offset: 0x1E0A7BC
+    // Offset: 0x1DF697C
     static void NotifyWorkItemProgress();
     // static System.Void NotifyWorkItemProgressNative()
-    // Offset: 0x1E0C6AC
+    // Offset: 0x1DF886C
     static void NotifyWorkItemProgressNative();
     // static System.Boolean IsThreadPoolHosted()
-    // Offset: 0x1E0C6B0
+    // Offset: 0x1DF8870
     static bool IsThreadPoolHosted();
     // static private System.Void InitializeVMTp(ref System.Boolean enableWorkerTracking)
-    // Offset: 0x1E0C69C
+    // Offset: 0x1DF885C
     static void InitializeVMTp(ByRef<bool> enableWorkerTracking);
   }; // System.Threading.ThreadPool
   #pragma pack(pop)

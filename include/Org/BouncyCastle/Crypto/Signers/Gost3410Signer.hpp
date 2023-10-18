@@ -78,20 +78,20 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x168167C
+    // Offset: 0x169483C
     ::Org::BouncyCastle::Math::BigInteger* get_Order();
     // public System.Void .ctor()
-    // Offset: 0x16818DC
+    // Offset: 0x1694A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Gost3410Signer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::Gost3410Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Gost3410Signer*, creationType>()));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x16814F0
+    // Offset: 0x16946B0
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x16816A4
+    // Offset: 0x1694864
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
   }; // Org.BouncyCastle.Crypto.Signers.Gost3410Signer
   #pragma pack(pop)

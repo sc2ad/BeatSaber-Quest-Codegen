@@ -98,14 +98,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: titleHeight and: contentRoot
     char __padding8[0x4] = {};
-    // [SpaceAttribute] Offset: 0x112C9D0
+    // [SpaceAttribute] Offset: 0x11298CC
     // private UnityEngine.Transform _contentRoot
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::Transform* contentRoot;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112CA08
+    // [SpaceAttribute] Offset: 0x1129904
     // private UnityEngine.RectTransform _rootRectTransform
     // Size: 0x8
     // Offset: 0x60
@@ -146,43 +146,43 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _creditsContentTextAsset
     [[deprecated("Use field access instead!")]] ::UnityEngine::TextAsset*& dyn__creditsContentTextAsset();
     // public UnityEngine.GameObject get_normalTextPrefab()
-    // Offset: 0x1447148
+    // Offset: 0x1459ABC
     ::UnityEngine::GameObject* get_normalTextPrefab();
     // public UnityEngine.GameObject get_normalLocalizedTextPrefab()
-    // Offset: 0x1447150
+    // Offset: 0x1459AC4
     ::UnityEngine::GameObject* get_normalLocalizedTextPrefab();
     // public UnityEngine.GameObject get_titleTextPrefab()
-    // Offset: 0x1447158
+    // Offset: 0x1459ACC
     ::UnityEngine::GameObject* get_titleTextPrefab();
     // public UnityEngine.GameObject get_titleLocalizedTextPrefab()
-    // Offset: 0x1447160
+    // Offset: 0x1459AD4
     ::UnityEngine::GameObject* get_titleLocalizedTextPrefab();
     // public UnityEngine.GameObject get_headerTextPrefab()
-    // Offset: 0x1447168
+    // Offset: 0x1459ADC
     ::UnityEngine::GameObject* get_headerTextPrefab();
     // public UnityEngine.GameObject get_headerLocalizedTextPrefab()
-    // Offset: 0x1447170
+    // Offset: 0x1459AE4
     ::UnityEngine::GameObject* get_headerLocalizedTextPrefab();
     // public System.Int32 get_columnCount()
-    // Offset: 0x1447178
+    // Offset: 0x1459AEC
     int get_columnCount();
     // public System.Single get_spaceHeight()
-    // Offset: 0x1447180
+    // Offset: 0x1459AF4
     float get_spaceHeight();
     // public System.Single get_titleHeight()
-    // Offset: 0x1447188
+    // Offset: 0x1459AFC
     float get_titleHeight();
     // public UnityEngine.Transform get_contentRoot()
-    // Offset: 0x1447190
+    // Offset: 0x1459B04
     ::UnityEngine::Transform* get_contentRoot();
     // public UnityEngine.RectTransform get_rootRectTransform()
-    // Offset: 0x1447198
+    // Offset: 0x1459B0C
     ::UnityEngine::RectTransform* get_rootRectTransform();
     // public UnityEngine.TextAsset get_creditsContentTextAsset()
-    // Offset: 0x14471A0
+    // Offset: 0x1459B14
     ::UnityEngine::TextAsset* get_creditsContentTextAsset();
     // public System.Void .ctor()
-    // Offset: 0x14471A8
+    // Offset: 0x1459B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CreditsContent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CreditsContent::.ctor");

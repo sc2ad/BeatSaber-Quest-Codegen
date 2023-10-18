@@ -51,14 +51,14 @@ namespace GlobalNamespace {
   class SceneStartSyncController : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1120E20
+    // [InjectAttribute] Offset: 0x111DA44
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120E30
+    // [InjectAttribute] Offset: 0x111DA54
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
     // Offset: 0x20
@@ -141,47 +141,47 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _sceneSyncStarted
     [[deprecated("Use field access instead!")]] bool& dyn__sceneSyncStarted();
     // public System.Void add_syncStartDidSuccessEvent(System.Action`1<System.String> value)
-    // Offset: 0x148B090
+    // Offset: 0x146DD38
     void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_syncStartDidSuccessEvent(System.Action`1<System.String> value)
-    // Offset: 0x148B134
+    // Offset: 0x146DDDC
     void remove_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x148B1D8
+    // Offset: 0x146DE80
     void add_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
     // public System.Void remove_syncStartDidReceiveTooLateEvent(System.Action`1<System.String> value)
-    // Offset: 0x148B27C
+    // Offset: 0x146DF24
     void remove_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
     // public System.Void add_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x148B320
+    // Offset: 0x146DFC8
     void add_syncStartDidFailEvent(::System::Action* value);
     // public System.Void remove_syncStartDidFailEvent(System.Action value)
-    // Offset: 0x148B3C4
+    // Offset: 0x146E06C
     void remove_syncStartDidFailEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x148B828
+    // Offset: 0x146E4D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneStartSyncController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SceneStartSyncController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneStartSyncController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x148B468
+    // Offset: 0x146E110
     void Start();
     // protected System.Void Update()
-    // Offset: 0x148B480
+    // Offset: 0x146E128
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x148B4E0
+    // Offset: 0x146E188
     void OnDestroy();
     // public System.Void StartSceneLoadSync(PlayersSpecificSettingsAtGameStartModel playersAtGameStartModel)
-    // Offset: 0x148B5DC
+    // Offset: 0x146E284
     void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
     // private System.Void HandleSceneSetupDidFinish(System.String sessionGameId)
-    // Offset: 0x148B720
+    // Offset: 0x146E3C8
     void HandleSceneSetupDidFinish(::StringW sessionGameId);
     // private System.Void HandleSceneSetupDidReceiveTooLate(System.String sessionGameId)
-    // Offset: 0x148B7A4
+    // Offset: 0x146E44C
     void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
   }; // SceneStartSyncController
   #pragma pack(pop)

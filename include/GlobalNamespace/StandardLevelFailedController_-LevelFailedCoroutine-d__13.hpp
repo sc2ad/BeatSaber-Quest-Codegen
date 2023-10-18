@@ -78,26 +78,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private LevelCompletionResults <levelCompletionResults>5__2
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LevelCompletionResults*& dyn_$levelCompletionResults$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x1395DBC
+    // Offset: 0x13A85F4
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x1395E24
+    // Offset: 0x13A865C
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x1395B88
+    // Offset: 0x13A83C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelFailedController::$LevelFailedCoroutine$d__13* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelFailedController::$LevelFailedCoroutine$d__13::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelFailedController::$LevelFailedCoroutine$d__13*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x1395BBC
+    // Offset: 0x13A83F4
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x1395BC0
+    // Offset: 0x13A83F8
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x1395DC4
+    // Offset: 0x13A85FC
     void System_Collections_IEnumerator_Reset();
   }; // StandardLevelFailedController/<LevelFailedCoroutine>d__13
   #pragma pack(pop)

@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public EnterPlayerGuestNameViewController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnterPlayerGuestNameViewController*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x13BF09C
+    // Offset: 0x1400000
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*, creationType>()));
     }
     // System.Void <DidActivate>b__0(System.Int32 idx, GuestNameButtonsListItem item)
-    // Offset: 0x13BF614
+    // Offset: 0x1400578
     void $DidActivate$b__0(int idx, ::GlobalNamespace::GuestNameButtonsListItem* item);
   }; // EnterPlayerGuestNameViewController/<>c__DisplayClass10_0
   #pragma pack(pop)

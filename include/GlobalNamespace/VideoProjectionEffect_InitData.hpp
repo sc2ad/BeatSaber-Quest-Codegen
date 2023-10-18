@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // public System.Void .ctor(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x1542068
+    // Offset: 0x15EB5C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::InitData* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::InitData::.ctor");

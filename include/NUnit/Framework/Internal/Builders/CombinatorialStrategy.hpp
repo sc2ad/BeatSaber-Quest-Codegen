@@ -56,14 +56,14 @@ namespace NUnit::Framework::Internal::Builders {
       return reinterpret_cast<::NUnit::Framework::Interfaces::ICombiningStrategy*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1D62130
+    // Offset: 0x1D4DDE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CombinatorialStrategy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Builders::CombinatorialStrategy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CombinatorialStrategy*, creationType>()));
     }
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
-    // Offset: 0x1D7035C
+    // Offset: 0x1D5C00C
     ::System::Collections::Generic::IEnumerable_1<::NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayW<::System::Collections::IEnumerable*> sources);
   }; // NUnit.Framework.Internal.Builders.CombinatorialStrategy
   #pragma pack(pop)

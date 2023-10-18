@@ -116,38 +116,38 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.String <notification>k__BackingField
     [[deprecated("Use field access instead!")]] ::StringW& dyn_$notification$k__BackingField();
     // public UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status get_status()
-    // Offset: 0x25DF354
+    // Offset: 0x2611F98
     ::UnityEngine::ProBuilder::ActionResult::Status get_status();
     // private System.Void set_status(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status value)
-    // Offset: 0x25DF35C
+    // Offset: 0x2611FA0
     void set_status(::UnityEngine::ProBuilder::ActionResult::Status value);
     // public System.String get_notification()
-    // Offset: 0x25DF364
+    // Offset: 0x2611FA8
     ::StringW get_notification();
     // private System.Void set_notification(System.String value)
-    // Offset: 0x25DF36C
+    // Offset: 0x2611FB0
     void set_notification(::StringW value);
     // static public UnityEngine.ProBuilder.ActionResult get_Success()
-    // Offset: 0x25DF470
+    // Offset: 0x26120B4
     static ::UnityEngine::ProBuilder::ActionResult* get_Success();
     // static public UnityEngine.ProBuilder.ActionResult get_NoSelection()
-    // Offset: 0x25DF4E0
+    // Offset: 0x2612124
     static ::UnityEngine::ProBuilder::ActionResult* get_NoSelection();
     // static public UnityEngine.ProBuilder.ActionResult get_UserCanceled()
-    // Offset: 0x25DF554
+    // Offset: 0x2612198
     static ::UnityEngine::ProBuilder::ActionResult* get_UserCanceled();
     // public System.Void .ctor(UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status status, System.String notification)
-    // Offset: 0x25DF374
+    // Offset: 0x2611FB8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ActionResult* New_ctor(::UnityEngine::ProBuilder::ActionResult::Status status, ::StringW notification) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::ActionResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ActionResult*, creationType>(status, notification)));
     }
     // public System.Boolean ToBool()
-    // Offset: 0x25DF3C4
+    // Offset: 0x2612008
     bool ToBool();
     // static public System.Boolean FromBool(System.Boolean success)
-    // Offset: 0x25DF3D4
+    // Offset: 0x2612018
     static bool FromBool(bool success);
   }; // UnityEngine.ProBuilder.ActionResult
   #pragma pack(pop)

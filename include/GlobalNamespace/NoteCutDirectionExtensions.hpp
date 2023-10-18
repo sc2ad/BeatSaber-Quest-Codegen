@@ -40,31 +40,31 @@ namespace GlobalNamespace {
   class NoteCutDirectionExtensions : public ::Il2CppObject {
     public:
     // static public UnityEngine.Vector2 Direction(NoteCutDirection cutDirection)
-    // Offset: 0x26FEC14
+    // Offset: 0x26B1820
     static ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Single RotationAngle(NoteCutDirection cutDirection)
-    // Offset: 0x2704254
+    // Offset: 0x26B6EB8
     static float RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public UnityEngine.Quaternion Rotation(NoteCutDirection cutDirection, System.Single offset)
-    // Offset: 0x2704274
+    // Offset: 0x26B6ED8
     static ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float offset);
     // static public System.Boolean IsMainDirection(NoteCutDirection cutDirection)
-    // Offset: 0x26FF6D4
+    // Offset: 0x26B2338
     static bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection MainNoteCutDirectionFromCutDirAngle(System.Single angle)
-    // Offset: 0x2704308
+    // Offset: 0x26B6F6C
     static ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float angle);
     // static public NoteCutDirection Mirrored(NoteCutDirection cutDirection)
-    // Offset: 0x270438C
+    // Offset: 0x26B6FF0
     static ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public NoteCutDirection Opposite(NoteCutDirection cutDirection)
-    // Offset: 0x27043A8
+    // Offset: 0x26B700C
     static ::GlobalNamespace::NoteCutDirection Opposite(::GlobalNamespace::NoteCutDirection cutDirection);
     // static public System.Boolean IsOnSamePlane(NoteCutDirection noteCutDirection1, NoteCutDirection noteCutDirection2)
-    // Offset: 0x27043C0
+    // Offset: 0x26B7024
     static bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2);
     // static public NoteCutDirection NoteCutDirectionFromDirection(UnityEngine.Vector3 direction)
-    // Offset: 0x27044BC
+    // Offset: 0x26B7120
     static ::GlobalNamespace::NoteCutDirection NoteCutDirectionFromDirection(::UnityEngine::Vector3 direction);
   }; // NoteCutDirectionExtensions
   #pragma pack(pop)

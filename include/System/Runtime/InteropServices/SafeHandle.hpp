@@ -90,56 +90,56 @@ namespace System::Runtime::InteropServices {
     // Get instance field reference: private System.Boolean _fullyInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__fullyInitialized();
     // public System.Boolean get_IsClosed()
-    // Offset: 0x1E50818
+    // Offset: 0x1E3D998
     bool get_IsClosed();
     // public System.Boolean get_IsInvalid()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool get_IsInvalid();
     // protected System.Void .ctor(System.IntPtr invalidHandleValue, System.Boolean ownsHandle)
-    // Offset: 0x1E506EC
+    // Offset: 0x1E3D86C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SafeHandle* New_ctor(::System::IntPtr invalidHandleValue, bool ownsHandle) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::InteropServices::SafeHandle::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SafeHandle*, creationType>(invalidHandleValue, ownsHandle)));
     }
     // protected System.Void SetHandle(System.IntPtr handle)
-    // Offset: 0x1E50808
+    // Offset: 0x1E3D988
     void SetHandle(::System::IntPtr handle);
     // public System.IntPtr DangerousGetHandle()
-    // Offset: 0x1E50810
+    // Offset: 0x1E3D990
     ::System::IntPtr DangerousGetHandle();
     // public System.Void Close()
-    // Offset: 0x1E50824
+    // Offset: 0x1E3D9A4
     void Close();
     // public System.Void Dispose()
-    // Offset: 0x1E50834
+    // Offset: 0x1E3D9B4
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1E50844
+    // Offset: 0x1E3D9C4
     void Dispose(bool disposing);
     // protected System.Boolean ReleaseHandle()
     // Offset: 0xFFFFFFFFFFFFFFFF
     bool ReleaseHandle();
     // public System.Void SetHandleAsInvalid()
-    // Offset: 0x1E50920
+    // Offset: 0x1E3DAA0
     void SetHandleAsInvalid();
     // public System.Void DangerousAddRef(ref System.Boolean success)
-    // Offset: 0x1E50580
+    // Offset: 0x1E3D700
     void DangerousAddRef(ByRef<bool> success);
     // public System.Void DangerousRelease()
-    // Offset: 0x1E506E4
+    // Offset: 0x1E3D864
     void DangerousRelease();
     // private System.Void InternalDispose()
-    // Offset: 0x1E50860
+    // Offset: 0x1E3D9E0
     void InternalDispose();
     // private System.Void InternalFinalize()
-    // Offset: 0x1E5090C
+    // Offset: 0x1E3DA8C
     void InternalFinalize();
     // private System.Void DangerousReleaseInternal(System.Boolean dispose)
-    // Offset: 0x1E509B4
+    // Offset: 0x1E3DB34
     void DangerousReleaseInternal(bool dispose);
     // protected override System.Void Finalize()
-    // Offset: 0x1E50794
+    // Offset: 0x1E3D914
     // Implemented from: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
     // Base method: System.Void CriticalFinalizerObject::Finalize()
     void Finalize();

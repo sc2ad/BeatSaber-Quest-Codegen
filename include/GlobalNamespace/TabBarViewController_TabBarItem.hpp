@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.Action action
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn_action();
     // public System.Void .ctor(System.String title, System.Action action)
-    // Offset: 0x139C3EC
+    // Offset: 0x13AEC24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TabBarViewController::TabBarItem* New_ctor(::StringW title, ::System::Action* action) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TabBarViewController::TabBarItem::.ctor");

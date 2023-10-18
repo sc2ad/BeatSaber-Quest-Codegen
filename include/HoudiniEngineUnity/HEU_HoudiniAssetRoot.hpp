@@ -69,26 +69,26 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GameObject> _bakeTargets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& dyn__bakeTargets();
     // public System.Void .ctor()
-    // Offset: 0x18CC6B0
+    // Offset: 0x189BF8C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HoudiniAssetRoot* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HoudiniAssetRoot::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HoudiniAssetRoot*, creationType>()));
     }
     // private System.Void OnDestroy()
-    // Offset: 0x18CC294
+    // Offset: 0x189BB70
     void OnDestroy();
     // public System.Void RemoveHoudiniEngineAssetData()
-    // Offset: 0x18CC46C
+    // Offset: 0x189BD48
     void RemoveHoudiniEngineAssetData();
     // public System.Void ClearHoudiniEngineReferences()
-    // Offset: 0x18CC544
+    // Offset: 0x189BE20
     void ClearHoudiniEngineReferences();
     // static public System.Void DestroyRootComponent(HoudiniEngineUnity.HEU_HoudiniAssetRoot assetRoot)
-    // Offset: 0x18CC5A0
+    // Offset: 0x189BE7C
     static void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
     // private System.Void Reset()
-    // Offset: 0x18CC5B0
+    // Offset: 0x189BE8C
     void Reset();
   }; // HoudiniEngineUnity.HEU_HoudiniAssetRoot
   #pragma pack(pop)

@@ -45,20 +45,20 @@ namespace HMUI {
     // Set static field: static public System.Func`2<System.Single,System.Single> <>9__38_3
     static void _set_$$9__38_3(::System::Func_2<float, float>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1709654
+    // Offset: 0x16F4FE8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17096B8
+    // Offset: 0x16F504C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ScrollView::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::ScrollView::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScrollView::$$c*, creationType>()));
     }
     // System.Single <Awake>b__38_1(System.Single i)
-    // Offset: 0x17096C0
+    // Offset: 0x16F5054
     float $Awake$b__38_1(float i);
     // System.Single <Awake>b__38_3(System.Single i)
-    // Offset: 0x17096C4
+    // Offset: 0x16F5058
     float $Awake$b__38_3(float i);
   }; // HMUI.ScrollView/HMUI.<>c
   #pragma pack(pop)

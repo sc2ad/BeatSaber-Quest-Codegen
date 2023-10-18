@@ -53,31 +53,31 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: private System.Nullable`1<System.Boolean> expectContinue
     [[deprecated("Use field access instead!")]] ::System::Nullable_1<bool>& dyn_expectContinue();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.String> get_Connection()
-    // Offset: 0x1A02EC4
+    // Offset: 0x19E7FB0
     ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
     // public System.Nullable`1<System.Boolean> get_ConnectionClose()
-    // Offset: 0x1A02F20
+    // Offset: 0x19E800C
     ::System::Nullable_1<bool> get_ConnectionClose();
     // System.Boolean get_ConnectionKeepAlive()
-    // Offset: 0x1A03078
+    // Offset: 0x19E8164
     bool get_ConnectionKeepAlive();
     // public System.Nullable`1<System.Boolean> get_ExpectContinue()
-    // Offset: 0x1A0318C
+    // Offset: 0x19E8278
     ::System::Nullable_1<bool> get_ExpectContinue();
     // public System.String get_Host()
-    // Offset: 0x1A03334
+    // Offset: 0x19E8420
     ::StringW get_Host();
     // public System.Net.Http.Headers.HttpHeaderValueCollection`1<System.Net.Http.Headers.TransferCodingHeaderValue> get_TransferEncoding()
-    // Offset: 0x1A032D8
+    // Offset: 0x19E83C4
     ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
     // public System.Nullable`1<System.Boolean> get_TransferEncodingChunked()
-    // Offset: 0x1A03390
+    // Offset: 0x19E847C
     ::System::Nullable_1<bool> get_TransferEncodingChunked();
     // System.Void AddHeaders(System.Net.Http.Headers.HttpRequestHeaders headers)
-    // Offset: 0x1A034DC
+    // Offset: 0x19E85C8
     void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
     // System.Void .ctor()
-    // Offset: 0x1A02E54
+    // Offset: 0x19E7F40
     // Implemented from: System.Net.Http.Headers.HttpHeaders
     // Base method: System.Void HttpHeaders::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

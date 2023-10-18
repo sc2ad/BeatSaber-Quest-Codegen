@@ -45,26 +45,20 @@ namespace GlobalNamespace {
     constexpr operator int() const noexcept {
       return value;
     }
-    // static field const value: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType MasterServer
-    static constexpr const int MasterServer = 0;
-    // Get static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType MasterServer
-    static ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType _get_MasterServer();
-    // Set static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType MasterServer
-    static void _set_MasterServer(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType value);
     // static field const value: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType GameLift
-    static constexpr const int GameLift = 1;
+    static constexpr const int GameLift = 0;
     // Get static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType GameLift
     static ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType _get_GameLift();
     // Set static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType GameLift
     static void _set_GameLift(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType value);
     // static field const value: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType Platform
-    static constexpr const int Platform = 2;
+    static constexpr const int Platform = 1;
     // Get static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType Platform
     static ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType _get_Platform();
     // Set static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType Platform
     static void _set_Platform(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType value);
     // static field const value: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType LocalNetwork
-    static constexpr const int LocalNetwork = 3;
+    static constexpr const int LocalNetwork = 2;
     // Get static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType LocalNetwork
     static ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType _get_LocalNetwork();
     // Set static field: static public UnifiedNetworkPlayerModel/ActiveNetworkPlayerModelType LocalNetwork

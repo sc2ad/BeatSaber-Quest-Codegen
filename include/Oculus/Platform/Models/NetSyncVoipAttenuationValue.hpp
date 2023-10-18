@@ -47,7 +47,7 @@ namespace Oculus::Platform::Models {
     // Get instance field reference: public readonly System.Single Distance
     [[deprecated("Use field access instead!")]] float& dyn_Distance();
     // public System.Void .ctor(System.IntPtr o)
-    // Offset: 0x1A4782C
+    // Offset: 0x1A42264
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetSyncVoipAttenuationValue* New_ctor(::System::IntPtr o) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::Models::NetSyncVoipAttenuationValue::.ctor");

@@ -44,7 +44,7 @@ namespace System::ComponentModel {
     // Get instance field reference: private readonly System.String propertyName
     [[deprecated("Use field access instead!")]] ::StringW& dyn_propertyName();
     // public System.Void .ctor(System.String propertyName)
-    // Offset: 0x1E66DC8
+    // Offset: 0x1E53F48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PropertyChangedEventArgs* New_ctor(::StringW propertyName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::ComponentModel::PropertyChangedEventArgs::.ctor");

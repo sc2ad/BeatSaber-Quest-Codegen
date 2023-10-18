@@ -37,41 +37,41 @@ namespace RootMotion {
   class Hierarchy : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x20817E0
+    // Offset: 0x2073988
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Hierarchy* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::Hierarchy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Hierarchy*, creationType>()));
     }
     // static public System.Boolean HierarchyIsValid(UnityEngine.Transform[] bones)
-    // Offset: 0x2080918
+    // Offset: 0x2072AC0
     static bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*> bones);
     // static public UnityEngine.Object ContainsDuplicate(UnityEngine.Object[] objects)
-    // Offset: 0x2080B18
+    // Offset: 0x2072CC0
     static ::UnityEngine::Object* ContainsDuplicate(::ArrayW<::UnityEngine::Object*> objects);
     // static public System.Boolean IsAncestor(UnityEngine.Transform transform, UnityEngine.Transform ancestor)
-    // Offset: 0x20809B0
+    // Offset: 0x2072B58
     static bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
     // static public System.Boolean ContainsChild(UnityEngine.Transform transform, UnityEngine.Transform child)
-    // Offset: 0x2080C3C
+    // Offset: 0x2072DE4
     static bool ContainsChild(::UnityEngine::Transform* transform, ::UnityEngine::Transform* child);
     // static public System.Void AddAncestors(UnityEngine.Transform transform, UnityEngine.Transform blocker, ref UnityEngine.Transform[] array)
-    // Offset: 0x2080D60
+    // Offset: 0x2072F08
     static void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*>> array);
     // static public UnityEngine.Transform GetAncestor(UnityEngine.Transform transform, System.Int32 minChildCount)
-    // Offset: 0x2081008
+    // Offset: 0x20731B0
     static ::UnityEngine::Transform* GetAncestor(::UnityEngine::Transform* transform, int minChildCount);
     // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform t1, UnityEngine.Transform t2)
-    // Offset: 0x2081124
+    // Offset: 0x20732CC
     static ::UnityEngine::Transform* GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
     // static public UnityEngine.Transform GetFirstCommonAncestor(UnityEngine.Transform[] transforms)
-    // Offset: 0x20812AC
+    // Offset: 0x2073454
     static ::UnityEngine::Transform* GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*> transforms);
     // static public UnityEngine.Transform GetFirstCommonAncestorRecursive(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
-    // Offset: 0x2081640
+    // Offset: 0x20737E8
     static ::UnityEngine::Transform* GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
     // static public System.Boolean IsCommonAncestor(UnityEngine.Transform transform, UnityEngine.Transform[] transforms)
-    // Offset: 0x208142C
+    // Offset: 0x20735D4
     static bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*> transforms);
   }; // RootMotion.Hierarchy
   #pragma pack(pop)

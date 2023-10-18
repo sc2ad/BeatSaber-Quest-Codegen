@@ -52,20 +52,20 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Face,System.Int32> <>9__4_0
     static void _set_$$9__4_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1A8AEC4
+    // Offset: 0x1A858FC
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1A8AF28
+    // Offset: 0x1A85960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ExtrudeElements::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ExtrudeElements::$$c*, creationType>()));
     }
     // UnityEngine.ProBuilder.Face <DetachFaces>b__3_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1A8AF30
+    // Offset: 0x1A85968
     ::UnityEngine::ProBuilder::Face* $DetachFaces$b__3_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
     // System.Int32 <ExtrudePerFace>b__4_0(UnityEngine.ProBuilder.Face x)
-    // Offset: 0x1A8AF48
+    // Offset: 0x1A85980
     int $ExtrudePerFace$b__4_0(::UnityEngine::ProBuilder::Face* x);
   }; // UnityEngine.ProBuilder.MeshOperations.ExtrudeElements/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

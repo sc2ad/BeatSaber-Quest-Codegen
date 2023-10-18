@@ -48,14 +48,14 @@ namespace RootMotion {
     // Get instance field reference: public System.String color
     [[deprecated("Use field access instead!")]] ::StringW& dyn_color();
     // public System.Void .ctor(System.String name)
-    // Offset: 0x20824B4
+    // Offset: 0x207465C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InspectorComment* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::InspectorComment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InspectorComment*, creationType>(name)));
     }
     // public System.Void .ctor(System.String name, System.String color)
-    // Offset: 0x2082524
+    // Offset: 0x20746CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InspectorComment* New_ctor(::StringW name, ::StringW color) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::InspectorComment::.ctor");

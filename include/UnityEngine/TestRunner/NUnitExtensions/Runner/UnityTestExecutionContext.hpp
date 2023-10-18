@@ -324,126 +324,126 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: private UnityEngine.TestTools.EnumerableTestState <EnumerableTestState>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::TestTools::EnumerableTestState*& dyn_$EnumerableTestState$k__BackingField();
     // static public UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext get_CurrentContext()
-    // Offset: 0x19C02AC
+    // Offset: 0x19A6324
     static ::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* get_CurrentContext();
     // static public System.Void set_CurrentContext(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext value)
-    // Offset: 0x19C02FC
+    // Offset: 0x19A6374
     static void set_CurrentContext(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* value);
     // public NUnit.Framework.Internal.Test get_CurrentTest()
-    // Offset: 0x19C0350
+    // Offset: 0x19A63C8
     ::NUnit::Framework::Internal::Test* get_CurrentTest();
     // public System.Void set_CurrentTest(NUnit.Framework.Internal.Test value)
-    // Offset: 0x19C0358
+    // Offset: 0x19A63D0
     void set_CurrentTest(::NUnit::Framework::Internal::Test* value);
     // public System.DateTime get_StartTime()
-    // Offset: 0x19C0360
+    // Offset: 0x19A63D8
     ::System::DateTime get_StartTime();
     // public System.Void set_StartTime(System.DateTime value)
-    // Offset: 0x19C0368
+    // Offset: 0x19A63E0
     void set_StartTime(::System::DateTime value);
     // public System.Int64 get_StartTicks()
-    // Offset: 0x19C0370
+    // Offset: 0x19A63E8
     int64_t get_StartTicks();
     // public System.Void set_StartTicks(System.Int64 value)
-    // Offset: 0x19C0378
+    // Offset: 0x19A63F0
     void set_StartTicks(int64_t value);
     // public NUnit.Framework.Internal.TestResult get_CurrentResult()
-    // Offset: 0x19C0380
+    // Offset: 0x19A63F8
     ::NUnit::Framework::Internal::TestResult* get_CurrentResult();
     // public System.Void set_CurrentResult(NUnit.Framework.Internal.TestResult value)
-    // Offset: 0x19C0388
+    // Offset: 0x19A6400
     void set_CurrentResult(::NUnit::Framework::Internal::TestResult* value);
     // public System.Object get_TestObject()
-    // Offset: 0x19C039C
+    // Offset: 0x19A6414
     ::Il2CppObject* get_TestObject();
     // public System.Void set_TestObject(System.Object value)
-    // Offset: 0x19C03A4
+    // Offset: 0x19A641C
     void set_TestObject(::Il2CppObject* value);
     // public System.String get_WorkDirectory()
-    // Offset: 0x19C03AC
+    // Offset: 0x19A6424
     ::StringW get_WorkDirectory();
     // public System.Void set_WorkDirectory(System.String value)
-    // Offset: 0x19C03B4
+    // Offset: 0x19A642C
     void set_WorkDirectory(::StringW value);
     // public NUnit.Framework.Internal.TestExecutionStatus get_ExecutionStatus()
-    // Offset: 0x19B768C
+    // Offset: 0x199D704
     ::NUnit::Framework::Internal::TestExecutionStatus get_ExecutionStatus();
     // public System.Void set_ExecutionStatus(NUnit.Framework.Internal.TestExecutionStatus value)
-    // Offset: 0x19B9910
+    // Offset: 0x199F988
     void set_ExecutionStatus(::NUnit::Framework::Internal::TestExecutionStatus value);
     // public System.Collections.Generic.List`1<NUnit.Framework.ITestAction> get_UpstreamActions()
-    // Offset: 0x19C03BC
+    // Offset: 0x19A6434
     ::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* get_UpstreamActions();
     // private System.Void set_UpstreamActions(System.Collections.Generic.List`1<NUnit.Framework.ITestAction> value)
-    // Offset: 0x19C03C4
+    // Offset: 0x19A643C
     void set_UpstreamActions(::System::Collections::Generic::List_1<::NUnit::Framework::ITestAction*>* value);
     // public System.Int32 get_TestCaseTimeout()
-    // Offset: 0x19C03CC
+    // Offset: 0x19A6444
     int get_TestCaseTimeout();
     // public System.Void set_TestCaseTimeout(System.Int32 value)
-    // Offset: 0x19C03D4
+    // Offset: 0x19A644C
     void set_TestCaseTimeout(int value);
     // public System.Globalization.CultureInfo get_CurrentCulture()
-    // Offset: 0x19C03DC
+    // Offset: 0x19A6454
     ::System::Globalization::CultureInfo* get_CurrentCulture();
     // public System.Void set_CurrentCulture(System.Globalization.CultureInfo value)
-    // Offset: 0x19C03E4
+    // Offset: 0x19A645C
     void set_CurrentCulture(::System::Globalization::CultureInfo* value);
     // public System.Globalization.CultureInfo get_CurrentUICulture()
-    // Offset: 0x19C03EC
+    // Offset: 0x19A6464
     ::System::Globalization::CultureInfo* get_CurrentUICulture();
     // public System.Void set_CurrentUICulture(System.Globalization.CultureInfo value)
-    // Offset: 0x19C03F4
+    // Offset: 0x19A646C
     void set_CurrentUICulture(::System::Globalization::CultureInfo* value);
     // public NUnit.Framework.Interfaces.ITestListener get_Listener()
-    // Offset: 0x19C03FC
+    // Offset: 0x19A6474
     ::NUnit::Framework::Interfaces::ITestListener* get_Listener();
     // public System.Void set_Listener(NUnit.Framework.Interfaces.ITestListener value)
-    // Offset: 0x19C0404
+    // Offset: 0x19A647C
     void set_Listener(::NUnit::Framework::Interfaces::ITestListener* value);
     // public System.IO.TextWriter get_OutWriter()
-    // Offset: 0x19C040C
+    // Offset: 0x19A6484
     ::System::IO::TextWriter* get_OutWriter();
     // private System.Void set_OutWriter(System.IO.TextWriter value)
-    // Offset: 0x19C0414
+    // Offset: 0x19A648C
     void set_OutWriter(::System::IO::TextWriter* value);
     // public NUnit.Framework.Constraints.ValueFormatter get_CurrentValueFormatter()
-    // Offset: 0x19C041C
+    // Offset: 0x19A6494
     ::NUnit::Framework::Constraints::ValueFormatter* get_CurrentValueFormatter();
     // public UnityEngine.TestTools.BeforeAfterTestCommandState get_SetUpTearDownState()
-    // Offset: 0x19C0424
+    // Offset: 0x19A649C
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* get_SetUpTearDownState();
     // public System.Void set_SetUpTearDownState(UnityEngine.TestTools.BeforeAfterTestCommandState value)
-    // Offset: 0x19C042C
+    // Offset: 0x19A64A4
     void set_SetUpTearDownState(::UnityEngine::TestTools::BeforeAfterTestCommandState* value);
     // public UnityEngine.TestTools.BeforeAfterTestCommandState get_OuterUnityTestActionState()
-    // Offset: 0x19C0434
+    // Offset: 0x19A64AC
     ::UnityEngine::TestTools::BeforeAfterTestCommandState* get_OuterUnityTestActionState();
     // public System.Void set_OuterUnityTestActionState(UnityEngine.TestTools.BeforeAfterTestCommandState value)
-    // Offset: 0x19C043C
+    // Offset: 0x19A64B4
     void set_OuterUnityTestActionState(::UnityEngine::TestTools::BeforeAfterTestCommandState* value);
     // public UnityEngine.TestTools.EnumerableTestState get_EnumerableTestState()
-    // Offset: 0x19C0444
+    // Offset: 0x19A64BC
     ::UnityEngine::TestTools::EnumerableTestState* get_EnumerableTestState();
     // public System.Void set_EnumerableTestState(UnityEngine.TestTools.EnumerableTestState value)
-    // Offset: 0x19C044C
+    // Offset: 0x19A64C4
     void set_EnumerableTestState(::UnityEngine::TestTools::EnumerableTestState* value);
     // public System.Void .ctor()
-    // Offset: 0x19BFDD0
+    // Offset: 0x19A5E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestExecutionContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestExecutionContext*, creationType>()));
     }
     // public System.Void .ctor(UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext other)
-    // Offset: 0x19BA788
+    // Offset: 0x19A0800
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityTestExecutionContext* New_ctor(::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* other) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityTestExecutionContext*, creationType>(other)));
     }
     // public System.Void IncrementAssertCount()
-    // Offset: 0x19C0454
+    // Offset: 0x19A64CC
     void IncrementAssertCount();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext
   #pragma pack(pop)

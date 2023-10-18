@@ -70,27 +70,27 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly PosesRecordingData/ExternalCameraCalibration externalCameraCalibration
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration*& dyn_externalCameraCalibration();
     // public System.Void .ctor(System.String[] objectIds, PosesRecordingData/ExternalCameraCalibration externalCameraCalibration)
-    // Offset: 0x14583F4
+    // Offset: 0x143D768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, externalCameraCalibration)));
     }
     // public System.Void .ctor(System.String[] objectIds, System.Collections.Generic.List`1<PosesRecordingData/TransformsKeyframe> keyframes, PosesRecordingData/ExternalCameraCalibration externalCameraCalibration)
-    // Offset: 0x14585E8
+    // Offset: 0x143D95C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PosesRecordingData* New_ctor(::ArrayW<::StringW> objectIds, ::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData::TransformsKeyframe*>* keyframes, ::GlobalNamespace::PosesRecordingData::ExternalCameraCalibration* externalCameraCalibration) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PosesRecordingData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PosesRecordingData*, creationType>(objectIds, keyframes, externalCameraCalibration)));
     }
     // public System.Void AddKeyframe(PosesRecordingData/TransformsKeyframe keyframe)
-    // Offset: 0x14584C4
+    // Offset: 0x143D838
     void AddKeyframe(::GlobalNamespace::PosesRecordingData::TransformsKeyframe* keyframe);
     // public System.Boolean Contains(System.String objectId)
-    // Offset: 0x1458628
+    // Offset: 0x143D99C
     bool Contains(::StringW objectId);
     // public System.Int32 ObjectIndex(System.String objectId)
-    // Offset: 0x1458688
+    // Offset: 0x143D9FC
     int ObjectIndex(::StringW objectId);
   }; // PosesRecordingData
   #pragma pack(pop)

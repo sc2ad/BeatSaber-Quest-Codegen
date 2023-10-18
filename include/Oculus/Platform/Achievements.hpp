@@ -42,31 +42,31 @@ namespace Oculus::Platform {
   class Achievements : public ::Il2CppObject {
     public:
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementUpdate> AddCount(System.String name, System.UInt64 count)
-    // Offset: 0x2136DAC
+    // Offset: 0x215CFC0
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddCount(::StringW name, uint64_t count);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementUpdate> AddFields(System.String name, System.String fields)
-    // Offset: 0x2136F84
+    // Offset: 0x215D198
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddFields(::StringW name, ::StringW fields);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementDefinitionList> GetAllDefinitions()
-    // Offset: 0x2137178
+    // Offset: 0x215D38C
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetAllDefinitions();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementProgressList> GetAllProgress()
-    // Offset: 0x21372F4
+    // Offset: 0x215D508
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetAllProgress();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementDefinitionList> GetDefinitionsByName(System.String[] names)
-    // Offset: 0x2137470
+    // Offset: 0x215D684
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetDefinitionsByName(::ArrayW<::StringW> names);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementProgressList> GetProgressByName(System.String[] names)
-    // Offset: 0x21376F0
+    // Offset: 0x215D904
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayW<::StringW> names);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementUpdate> Unlock(System.String name)
-    // Offset: 0x2137970
+    // Offset: 0x215DB84
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* Unlock(::StringW name);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementDefinitionList> GetNextAchievementDefinitionListPage(Oculus.Platform.Models.AchievementDefinitionList list)
-    // Offset: 0x2137B30
+    // Offset: 0x215DD44
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetNextAchievementDefinitionListPage(::Oculus::Platform::Models::AchievementDefinitionList* list);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementProgressList> GetNextAchievementProgressListPage(Oculus.Platform.Models.AchievementProgressList list)
-    // Offset: 0x2137D50
+    // Offset: 0x215DF64
     static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetNextAchievementProgressListPage(::Oculus::Platform::Models::AchievementProgressList* list);
   }; // Oculus.Platform.Achievements
   #pragma pack(pop)

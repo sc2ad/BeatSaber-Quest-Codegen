@@ -81,10 +81,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x140C44C
+    // Offset: 0x13DC998
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x140C7B8
+    // Offset: 0x13DCD04
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // MultiplayerModeSelectionFlowCoordinator/<ResolveAndPresentNextFlowCoordinator>d__50
   #pragma pack(pop)

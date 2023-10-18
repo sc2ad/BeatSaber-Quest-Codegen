@@ -100,20 +100,20 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> _providerFactory
     [[deprecated("Use field access instead!")]] ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*& dyn__providerFactory();
     // public System.Void .ctor(Zenject.BindInfo bindInfo, Zenject.GameObjectCreationParameters gameObjectBindInfo, UnityEngine.Object prefab, System.Func`3<System.Type,Zenject.IPrefabInstantiator,Zenject.IProvider> providerFactory)
-    // Offset: 0x1CD3F98
+    // Offset: 0x1CA784C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::UnityEngine::Object* prefab, ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabBindingFinalizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabBindingFinalizer*, creationType>(bindInfo, gameObjectBindInfo, prefab, providerFactory)));
     }
     // private System.Void FinalizeBindingConcrete(Zenject.DiContainer container, System.Collections.Generic.List`1<System.Type> concreteTypes)
-    // Offset: 0x1CD435C
+    // Offset: 0x1CA7C10
     void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
     // private System.Void FinalizeBindingSelf(Zenject.DiContainer container)
-    // Offset: 0x1CD40A8
+    // Offset: 0x1CA795C
     void FinalizeBindingSelf(::Zenject::DiContainer* container);
     // protected override System.Void OnFinalizeBinding(Zenject.DiContainer container)
-    // Offset: 0x1CD4010
+    // Offset: 0x1CA78C4
     // Implemented from: Zenject.ProviderBindingFinalizer
     // Base method: System.Void ProviderBindingFinalizer::OnFinalizeBinding(Zenject.DiContainer container)
     void OnFinalizeBinding(::Zenject::DiContainer* container);

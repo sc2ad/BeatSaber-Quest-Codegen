@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public GameObjectTestExceptionsSO/GameObjectTestException[] tubeBloomPrePassLightIgnores
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::GameObjectTestExceptionsSO::GameObjectTestException*>& dyn_tubeBloomPrePassLightIgnores();
     // public System.Void .ctor()
-    // Offset: 0x146DC5C
+    // Offset: 0x142A51C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameObjectTestExceptionsSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameObjectTestExceptionsSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameObjectTestExceptionsSO*, creationType>()));
     }
     // static public System.Collections.Generic.Dictionary`2<EnvironmentInfoSO,System.String[]> GetExceptionAsDictionary(GameObjectTestExceptionsSO/GameObjectTestException[] testExceptionArray)
-    // Offset: 0x146DB84
+    // Offset: 0x142A444
     static ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::ArrayW<::StringW>>* GetExceptionAsDictionary(::ArrayW<::GlobalNamespace::GameObjectTestExceptionsSO::GameObjectTestException*> testExceptionArray);
   }; // GameObjectTestExceptionsSO
   #pragma pack(pop)

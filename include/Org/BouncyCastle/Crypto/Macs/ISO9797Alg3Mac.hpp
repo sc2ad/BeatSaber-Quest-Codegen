@@ -127,43 +127,43 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.KeyParameter lastKey3
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_lastKey3();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1ECB214
+    // Offset: 0x1EC7310
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x1ECB51C
+    // Offset: 0x1EC7618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher, padding)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher, System.Int32 macSizeInBits, Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding)
-    // Offset: 0x1ECB2E4
+    // Offset: 0x1EC73E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ISO9797Alg3Mac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int macSizeInBits, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ISO9797Alg3Mac*, creationType>(cipher, macSizeInBits, padding)));
     }
     // public System.Void Init(Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1ECB5F0
+    // Offset: 0x1EC76EC
     void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetMacSize()
-    // Offset: 0x1ECBA8C
+    // Offset: 0x1EC7B88
     int GetMacSize();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x1ECBA94
+    // Offset: 0x1EC7B90
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1ECBBCC
+    // Offset: 0x1EC7CC8
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1ECBE70
+    // Offset: 0x1EC7F6C
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1ECB9BC
+    // Offset: 0x1EC7AB8
     void Reset();
   }; // Org.BouncyCastle.Crypto.Macs.ISO9797Alg3Mac
   #pragma pack(pop)

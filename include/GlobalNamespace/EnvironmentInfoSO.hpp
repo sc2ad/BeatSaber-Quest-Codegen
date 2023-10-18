@@ -87,7 +87,7 @@ namespace GlobalNamespace {
     ::StringW serializedName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x111EC84
+    // [TooltipAttribute] Offset: 0x111B8A8
     // private System.String _environmentAssetDirectory
     // Size: 0x8
     // Offset: 0x38
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
     ::System::Collections::Generic::List_1<::StringW>* environmentKeywords;
     // Field size check
     static_assert(sizeof(::System::Collections::Generic::List_1<::StringW>*) == 0x8);
-    // [ContextMenuItemAttribute] Offset: 0x111ED10
+    // [ContextMenuItemAttribute] Offset: 0x111B934
     // private EnvironmentLightGroups _lightGroups
     // Size: 0x8
     // Offset: 0x60
@@ -163,40 +163,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private DefaultEnvironmentEvents _defaultEnvironmentEvents
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::DefaultEnvironmentEvents*& dyn__defaultEnvironmentEvents();
     // public SceneInfo get_sceneInfo()
-    // Offset: 0x13BFF28
+    // Offset: 0x1400E8C
     ::GlobalNamespace::SceneInfo* get_sceneInfo();
     // public System.String get_environmentName()
-    // Offset: 0x13BFF30
+    // Offset: 0x1400E94
     ::StringW get_environmentName();
     // public ColorSchemeSO get_colorScheme()
-    // Offset: 0x13BFF38
+    // Offset: 0x1400E9C
     ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
     // public System.String get_serializedName()
-    // Offset: 0x13BFF40
+    // Offset: 0x1400EA4
     ::StringW get_serializedName();
     // public System.String get_environmentAssetDirectory()
-    // Offset: 0x13BFF48
+    // Offset: 0x1400EAC
     ::StringW get_environmentAssetDirectory();
     // public EnvironmentTypeSO get_environmentType()
-    // Offset: 0x13BFF50
+    // Offset: 0x1400EB4
     ::GlobalNamespace::EnvironmentTypeSO* get_environmentType();
     // public EnvironmentSizeData get_environmentSizeData()
-    // Offset: 0x13BFF58
+    // Offset: 0x1400EBC
     ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
     // public EnvironmentIntensityReductionOptions get_environmentIntensityReductionOptions()
-    // Offset: 0x13BFF60
+    // Offset: 0x1400EC4
     ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
     // public System.Collections.Generic.IReadOnlyList`1<System.String> get_environmentKeywords()
-    // Offset: 0x13BFF68
+    // Offset: 0x1400ECC
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
     // public EnvironmentLightGroups get_lightGroups()
-    // Offset: 0x13BFF70
+    // Offset: 0x1400ED4
     ::GlobalNamespace::EnvironmentLightGroups* get_lightGroups();
     // public DefaultEnvironmentEvents get_defaultEnvironmentEvents()
-    // Offset: 0x13BFF78
+    // Offset: 0x1400EDC
     ::GlobalNamespace::DefaultEnvironmentEvents* get_defaultEnvironmentEvents();
     // public System.Void .ctor()
-    // Offset: 0x13BFF80
+    // Offset: 0x1400EE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentInfoSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentInfoSO::.ctor");

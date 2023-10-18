@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public ShowHideAnimationController <>4__this
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::ShowHideAnimationController*& dyn_$$4__this();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x2AE6DA0
+    // Offset: 0x2AF3730
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x2AE6E08
+    // Offset: 0x2AF3798
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x2AE6C9C
+    // Offset: 0x2AF362C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x2AE6CD8
+    // Offset: 0x2AF3668
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x2AE6CDC
+    // Offset: 0x2AF366C
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x2AE6DA8
+    // Offset: 0x2AF3738
     void System_Collections_IEnumerator_Reset();
   }; // ShowHideAnimationController/<DeactivateSelfAfterDelayCoroutine>d__9
   #pragma pack(pop)

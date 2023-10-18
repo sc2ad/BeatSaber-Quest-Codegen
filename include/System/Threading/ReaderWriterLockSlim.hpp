@@ -262,152 +262,152 @@ namespace System::Threading {
     // Get instance field reference: private System.Boolean fDisposed
     [[deprecated("Use field access instead!")]] bool& dyn_fDisposed();
     // public System.Boolean get_IsReadLockHeld()
-    // Offset: 0x2B3B05C
+    // Offset: 0x2B4CEA4
     bool get_IsReadLockHeld();
     // public System.Boolean get_IsUpgradeableReadLockHeld()
-    // Offset: 0x2B3B078
+    // Offset: 0x2B4CEC0
     bool get_IsUpgradeableReadLockHeld();
     // public System.Boolean get_IsWriteLockHeld()
-    // Offset: 0x2B3B094
+    // Offset: 0x2B4CEDC
     bool get_IsWriteLockHeld();
     // public System.Int32 get_RecursiveReadCount()
-    // Offset: 0x2B3B0B0
+    // Offset: 0x2B4CEF8
     int get_RecursiveReadCount();
     // public System.Int32 get_RecursiveUpgradeCount()
-    // Offset: 0x2B3B12C
+    // Offset: 0x2B4CF74
     int get_RecursiveUpgradeCount();
     // public System.Int32 get_RecursiveWriteCount()
-    // Offset: 0x2B3B1D8
+    // Offset: 0x2B4D020
     int get_RecursiveWriteCount();
     // public System.Int32 get_WaitingReadCount()
-    // Offset: 0x2B3B284
+    // Offset: 0x2B4D0CC
     int get_WaitingReadCount();
     // public System.Int32 get_WaitingUpgradeCount()
-    // Offset: 0x2B3B28C
+    // Offset: 0x2B4D0D4
     int get_WaitingUpgradeCount();
     // public System.Int32 get_WaitingWriteCount()
-    // Offset: 0x2B3B294
+    // Offset: 0x2B4D0DC
     int get_WaitingWriteCount();
     // public System.Void .ctor(System.Threading.LockRecursionPolicy recursionPolicy)
-    // Offset: 0x2B394A0
+    // Offset: 0x2B4B2E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReaderWriterLockSlim* New_ctor(::System::Threading::LockRecursionPolicy recursionPolicy) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::ReaderWriterLockSlim::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReaderWriterLockSlim*, creationType>(recursionPolicy)));
     }
     // private System.Void InitializeThreadCounts()
-    // Offset: 0x2B39494
+    // Offset: 0x2B4B2DC
     void InitializeThreadCounts();
     // static private System.Boolean IsRWEntryEmpty(System.Threading.ReaderWriterCount rwc)
-    // Offset: 0x2B39534
+    // Offset: 0x2B4B37C
     static bool IsRWEntryEmpty(::System::Threading::ReaderWriterCount* rwc);
     // private System.Boolean IsRwHashEntryChanged(System.Threading.ReaderWriterCount lrwc)
-    // Offset: 0x2B39574
+    // Offset: 0x2B4B3BC
     bool IsRwHashEntryChanged(::System::Threading::ReaderWriterCount* lrwc);
     // private System.Threading.ReaderWriterCount GetThreadRWCount(System.Boolean dontAllocate)
-    // Offset: 0x2B39598
+    // Offset: 0x2B4B3E0
     ::System::Threading::ReaderWriterCount* GetThreadRWCount(bool dontAllocate);
     // public System.Void EnterReadLock()
-    // Offset: 0x2B396B8
+    // Offset: 0x2B4B500
     void EnterReadLock();
     // public System.Boolean TryEnterReadLock(System.Int32 millisecondsTimeout)
-    // Offset: 0x2B39700
+    // Offset: 0x2B4B548
     bool TryEnterReadLock(int millisecondsTimeout);
     // private System.Boolean TryEnterReadLock(System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout)
-    // Offset: 0x2B397EC
+    // Offset: 0x2B4B634
     bool TryEnterReadLock(::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout);
     // private System.Boolean TryEnterReadLockCore(System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout)
-    // Offset: 0x2B397F0
+    // Offset: 0x2B4B638
     bool TryEnterReadLockCore(::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout);
     // public System.Void EnterWriteLock()
-    // Offset: 0x2B39EA4
+    // Offset: 0x2B4BCEC
     void EnterWriteLock();
     // public System.Boolean TryEnterWriteLock(System.Int32 millisecondsTimeout)
-    // Offset: 0x2B39EEC
+    // Offset: 0x2B4BD34
     bool TryEnterWriteLock(int millisecondsTimeout);
     // private System.Boolean TryEnterWriteLock(System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout)
-    // Offset: 0x2B39F24
+    // Offset: 0x2B4BD6C
     bool TryEnterWriteLock(::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout);
     // private System.Boolean TryEnterWriteLockCore(System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout)
-    // Offset: 0x2B39F28
+    // Offset: 0x2B4BD70
     bool TryEnterWriteLockCore(::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout);
     // public System.Void EnterUpgradeableReadLock()
-    // Offset: 0x2B3A358
+    // Offset: 0x2B4C1A0
     void EnterUpgradeableReadLock();
     // public System.Boolean TryEnterUpgradeableReadLock(System.Int32 millisecondsTimeout)
-    // Offset: 0x2B3A3A0
+    // Offset: 0x2B4C1E8
     bool TryEnterUpgradeableReadLock(int millisecondsTimeout);
     // private System.Boolean TryEnterUpgradeableReadLock(System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout)
-    // Offset: 0x2B3A3D8
+    // Offset: 0x2B4C220
     bool TryEnterUpgradeableReadLock(::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout);
     // private System.Boolean TryEnterUpgradeableReadLockCore(System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout)
-    // Offset: 0x2B3A3DC
+    // Offset: 0x2B4C224
     bool TryEnterUpgradeableReadLockCore(::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout);
     // public System.Void ExitReadLock()
-    // Offset: 0x2B3A750
+    // Offset: 0x2B4C598
     void ExitReadLock();
     // public System.Void ExitWriteLock()
-    // Offset: 0x2B3A914
+    // Offset: 0x2B4C75C
     void ExitWriteLock();
     // public System.Void ExitUpgradeableReadLock()
-    // Offset: 0x2B3AA84
+    // Offset: 0x2B4C8CC
     void ExitUpgradeableReadLock();
     // private System.Void LazyCreateEvent(ref System.Threading.EventWaitHandle waitEvent, System.Boolean makeAutoResetEvent)
-    // Offset: 0x2B39C10
+    // Offset: 0x2B4BA58
     void LazyCreateEvent(ByRef<::System::Threading::EventWaitHandle*> waitEvent, bool makeAutoResetEvent);
     // private System.Boolean WaitOnEvent(System.Threading.EventWaitHandle waitEvent, ref System.UInt32 numWaiters, System.Threading.ReaderWriterLockSlim/System.Threading.TimeoutTracker timeout, System.Boolean isWriteWaiter)
-    // Offset: 0x2B39D08
+    // Offset: 0x2B4BB50
     bool WaitOnEvent(::System::Threading::EventWaitHandle* waitEvent, ByRef<uint> numWaiters, ::System::Threading::ReaderWriterLockSlim::TimeoutTracker timeout, bool isWriteWaiter);
     // private System.Void ExitAndWakeUpAppropriateWaiters()
-    // Offset: 0x2B3A8D8
+    // Offset: 0x2B4C720
     void ExitAndWakeUpAppropriateWaiters();
     // private System.Void ExitAndWakeUpAppropriateWaitersPreferringWriters()
-    // Offset: 0x2B3AD70
+    // Offset: 0x2B4CBB8
     void ExitAndWakeUpAppropriateWaitersPreferringWriters();
     // private System.Void ExitAndWakeUpAppropriateReadWaiters()
-    // Offset: 0x2B3ACCC
+    // Offset: 0x2B4CB14
     void ExitAndWakeUpAppropriateReadWaiters();
     // private System.Boolean IsWriterAcquired()
-    // Offset: 0x2B3A32C
+    // Offset: 0x2B4C174
     bool IsWriterAcquired();
     // private System.Void SetWriterAcquired()
-    // Offset: 0x2B3A33C
+    // Offset: 0x2B4C184
     void SetWriterAcquired();
     // private System.Void ClearWriterAcquired()
-    // Offset: 0x2B3AA74
+    // Offset: 0x2B4C8BC
     void ClearWriterAcquired();
     // private System.Void SetWritersWaiting()
-    // Offset: 0x2B3AC38
+    // Offset: 0x2B4CA80
     void SetWritersWaiting();
     // private System.Void ClearWritersWaiting()
-    // Offset: 0x2B3ACAC
+    // Offset: 0x2B4CAF4
     void ClearWritersWaiting();
     // private System.Void SetUpgraderWaiting()
-    // Offset: 0x2B3AC48
+    // Offset: 0x2B4CA90
     void SetUpgraderWaiting();
     // private System.Void ClearUpgraderWaiting()
-    // Offset: 0x2B3ACBC
+    // Offset: 0x2B4CB04
     void ClearUpgraderWaiting();
     // private System.UInt32 GetNumReaders()
-    // Offset: 0x2B3A34C
+    // Offset: 0x2B4C194
     uint GetNumReaders();
     // private System.Void EnterMyLock()
-    // Offset: 0x2B3AE08
+    // Offset: 0x2B4CC50
     void EnterMyLock();
     // private System.Void EnterMyLockSpin()
-    // Offset: 0x2B3AE4C
+    // Offset: 0x2B4CC94
     void EnterMyLockSpin();
     // private System.Void ExitMyLock()
-    // Offset: 0x2B39B6C
+    // Offset: 0x2B4B9B4
     void ExitMyLock();
     // static private System.Void SpinWait(System.Int32 SpinCount)
-    // Offset: 0x2B39BAC
+    // Offset: 0x2B4B9F4
     static void SpinWait(int SpinCount);
     // public System.Void Dispose()
-    // Offset: 0x2B3AEF0
+    // Offset: 0x2B4CD38
     void Dispose();
     // private System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x2B3AEF8
+    // Offset: 0x2B4CD40
     void Dispose(bool disposing);
   }; // System.Threading.ReaderWriterLockSlim
   #pragma pack(pop)

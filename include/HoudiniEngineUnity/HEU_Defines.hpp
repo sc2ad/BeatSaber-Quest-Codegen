@@ -1439,14 +1439,14 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.String HEU_KEY_CTRL
     static void _set_HEU_KEY_CTRL(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x17E31F8
+    // Offset: 0x17D13A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_Defines* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_Defines::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_Defines*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x17E3200
+    // Offset: 0x17D13A8
     static void _cctor();
   }; // HoudiniEngineUnity.HEU_Defines
   #pragma pack(pop)

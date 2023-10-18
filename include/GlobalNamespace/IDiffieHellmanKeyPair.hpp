@@ -14,6 +14,11 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class Task_1;
 }
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
+  // Forward declaring type: ITaskUtility
+  class ITaskUtility;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -34,9 +39,9 @@ namespace GlobalNamespace {
     // public System.Byte[] get_publicKey()
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> get_publicKey();
-    // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(System.Byte[] clientPublicKey)
+    // public System.Threading.Tasks.Task`1<System.Byte[]> GetPreMasterSecretAsync(BGNet.Core.ITaskUtility taskUtility, System.Byte[] clientPublicKey)
     // Offset: 0xFFFFFFFFFFFFFFFF
-    ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::ArrayW<uint8_t> clientPublicKey);
+    ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t> clientPublicKey);
     // public System.Byte[] GetPreMasterSecret(System.Byte[] clientPublicKey)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::ArrayW<uint8_t> GetPreMasterSecret(::ArrayW<uint8_t> clientPublicKey);
@@ -55,10 +60,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<ui
 // Writing MetadataGetter for method: GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync
 // Il2CppName: GetPreMasterSecretAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t>)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
   static const MethodInfo* get() {
+    static auto* taskUtility = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITaskUtility")->byval_arg;
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskUtility, clientPublicKey});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecret

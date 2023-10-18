@@ -44,17 +44,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1385468
+    // Offset: 0x1348460
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusRichPresencePlatformHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusRichPresencePlatformHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusRichPresencePlatformHandler*, creationType>()));
     }
     // public System.Void SetPresence(IRichPresenceData richPresenceData)
-    // Offset: 0x13851F0
+    // Offset: 0x13481E8
     void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
     // public System.Void Clear()
-    // Offset: 0x1385460
+    // Offset: 0x1348458
     void Clear();
   }; // OculusRichPresencePlatformHandler
   #pragma pack(pop)

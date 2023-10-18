@@ -32,16 +32,16 @@ namespace GlobalNamespace {
   // [ExtensionAttribute] Offset: FFFFFFFF
   class ToneMappingExtensions : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x110A438
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1106CD4
     // Get static field: static private readonly System.String[] _shaderKeywordMap
     static ::ArrayW<::StringW> _get__shaderKeywordMap();
     // Set static field: static private readonly System.String[] _shaderKeywordMap
     static void _set__shaderKeywordMap(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x1CF13AC
+    // Offset: 0x1CC4C60
     static void _cctor();
     // static public System.Void SetShaderKeyword(ToneMapping toneMapping)
-    // Offset: 0x1CE5454
+    // Offset: 0x1CB8D08
     static void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
   }; // ToneMappingExtensions
   #pragma pack(pop)

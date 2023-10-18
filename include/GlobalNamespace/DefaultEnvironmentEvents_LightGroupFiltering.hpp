@@ -72,22 +72,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _seed
     [[deprecated("Use field access instead!")]] int& dyn__seed();
     // public System.Boolean get_useFiltering()
-    // Offset: 0x144E2DC
+    // Offset: 0x1460C50
     bool get_useFiltering();
     // public IndexFilter/IndexFilterRandomType get_randomType()
-    // Offset: 0x144E2E4
+    // Offset: 0x1460C58
     ::GlobalNamespace::IndexFilter::IndexFilterRandomType get_randomType();
     // public System.Single get_limit()
-    // Offset: 0x144E2EC
+    // Offset: 0x1460C60
     float get_limit();
     // public IndexFilter/IndexFilterLimitAlsoAffectType get_alsoAffectType()
-    // Offset: 0x144E2F4
+    // Offset: 0x1460C68
     ::GlobalNamespace::IndexFilter::IndexFilterLimitAlsoAffectType get_alsoAffectType();
     // public System.Int32 get_seed()
-    // Offset: 0x144E2FC
+    // Offset: 0x1460C70
     int get_seed();
     // public System.Void .ctor()
-    // Offset: 0x144E304
+    // Offset: 0x1460C78
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::LightGroupFiltering* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering::.ctor");

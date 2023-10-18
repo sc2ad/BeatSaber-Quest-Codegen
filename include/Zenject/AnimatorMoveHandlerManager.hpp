@@ -57,23 +57,23 @@ namespace Zenject {
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> _handlers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*& dyn__handlers();
     // public System.Void .ctor()
-    // Offset: 0x17CBD38
+    // Offset: 0x17B9EE0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AnimatorMoveHandlerManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::AnimatorMoveHandlerManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AnimatorMoveHandlerManager*, creationType>()));
     }
     // public System.Void Construct(System.Collections.Generic.List`1<Zenject.IAnimatorMoveHandler> handlers)
-    // Offset: 0x17CBBD0
+    // Offset: 0x17B9D78
     void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* handlers);
     // public System.Void OnAnimatorMove()
-    // Offset: 0x17CBBD8
+    // Offset: 0x17B9D80
     void OnAnimatorMove();
     // static private System.Void __zenInjectMethod0(System.Object P_0, System.Object[] P_1)
-    // Offset: 0x17CBD40
+    // Offset: 0x17B9EE8
     static void __zenInjectMethod0(::Il2CppObject* P_0, ::ArrayW<::Il2CppObject*> P_1);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17CBE2C
+    // Offset: 0x17B9FD4
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.AnimatorMoveHandlerManager
   #pragma pack(pop)

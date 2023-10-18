@@ -75,58 +75,58 @@ namespace System::Security::AccessControl {
     // Get instance field reference: private System.Security.AccessControl.ResourceType resource_type
     [[deprecated("Use field access instead!")]] ::System::Security::AccessControl::ResourceType& dyn_resource_type();
     // System.Security.AccessControl.ResourceType get_ResourceType()
-    // Offset: 0x1BE7C08
+    // Offset: 0x1BB39D4
     ::System::Security::AccessControl::ResourceType get_ResourceType();
     // protected System.Void .ctor(System.Boolean isContainer, System.Security.AccessControl.ResourceType resourceType, System.Security.AccessControl.NativeObjectSecurity/System.Security.AccessControl.ExceptionFromErrorCode exceptionFromErrorCode, System.Object exceptionContext)
-    // Offset: 0x1BE7318
+    // Offset: 0x1BB30E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::System::Security::AccessControl::NativeObjectSecurity::ExceptionFromErrorCode* exceptionFromErrorCode, ::Il2CppObject* exceptionContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::NativeObjectSecurity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeObjectSecurity*, creationType>(isContainer, resourceType, exceptionFromErrorCode, exceptionContext)));
     }
     // protected System.Void .ctor(System.Boolean isContainer, System.Security.AccessControl.ResourceType resourceType, System.String name, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BE6958
+    // Offset: 0x1BB2724
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::NativeObjectSecurity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeObjectSecurity*, creationType>(isContainer, resourceType, name, includeSections)));
     }
     // protected System.Void .ctor(System.Boolean isContainer, System.Security.AccessControl.ResourceType resourceType, System.String name, System.Security.AccessControl.AccessControlSections includeSections, System.Security.AccessControl.NativeObjectSecurity/System.Security.AccessControl.ExceptionFromErrorCode exceptionFromErrorCode, System.Object exceptionContext)
-    // Offset: 0x1BE7358
+    // Offset: 0x1BB3124
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections, ::System::Security::AccessControl::NativeObjectSecurity::ExceptionFromErrorCode* exceptionFromErrorCode, ::Il2CppObject* exceptionContext) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::NativeObjectSecurity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeObjectSecurity*, creationType>(isContainer, resourceType, name, includeSections, exceptionFromErrorCode, exceptionContext)));
     }
     // private System.Void ClearAccessControlSectionsModified()
-    // Offset: 0x1BE74A8
+    // Offset: 0x1BB3274
     void ClearAccessControlSectionsModified();
     // static System.Exception DefaultExceptionFromErrorCode(System.Int32 errorCode, System.String name, System.Runtime.InteropServices.SafeHandle handle, System.Object context)
-    // Offset: 0x1BE757C
+    // Offset: 0x1BB3348
     static ::System::Exception* DefaultExceptionFromErrorCode(int errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::Il2CppObject* context);
     // private System.Void RaiseExceptionOnFailure(System.Int32 errorCode, System.String name, System.Runtime.InteropServices.SafeHandle handle, System.Object context)
-    // Offset: 0x1BE73E0
+    // Offset: 0x1BB31AC
     void RaiseExceptionOnFailure(int errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::Il2CppObject* context);
     // System.Int32 InternalGet(System.String name, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BE7984
+    // Offset: 0x1BB3750
     int InternalGet(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
     // private System.Int32 Win32GetHelper(System.Security.AccessControl.NativeObjectSecurity/System.Security.AccessControl.GetSecurityInfoNativeCall nativeCall, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BE7A90
+    // Offset: 0x1BB385C
     int Win32GetHelper(::System::Security::AccessControl::NativeObjectSecurity::GetSecurityInfoNativeCall* nativeCall, ::System::Security::AccessControl::AccessControlSections includeSections);
     // private System.String Win32FixName(System.String name)
-    // Offset: 0x1BE8158
+    // Offset: 0x1BB3F24
     ::StringW Win32FixName(::StringW name);
     // static private System.Int32 GetNamedSecurityInfo(System.String name, System.Security.AccessControl.ResourceType resourceType, System.Security.AccessControl.SecurityInfos securityInfos, out System.IntPtr owner, out System.IntPtr group, out System.IntPtr dacl, out System.IntPtr sacl, out System.IntPtr descriptor)
-    // Offset: 0x1BE822C
+    // Offset: 0x1BB3FF8
     static int GetNamedSecurityInfo(::StringW name, ::System::Security::AccessControl::ResourceType resourceType, ::System::Security::AccessControl::SecurityInfos securityInfos, ByRef<::System::IntPtr> owner, ByRef<::System::IntPtr> group, ByRef<::System::IntPtr> dacl, ByRef<::System::IntPtr> sacl, ByRef<::System::IntPtr> descriptor);
     // static private System.IntPtr LocalFree(System.IntPtr handle)
-    // Offset: 0x1BE80D8
+    // Offset: 0x1BB3EA4
     static ::System::IntPtr LocalFree(::System::IntPtr handle);
     // static private System.Int32 GetSecurityDescriptorLength(System.IntPtr descriptor)
-    // Offset: 0x1BE7FB8
+    // Offset: 0x1BB3D84
     static int GetSecurityDescriptorLength(::System::IntPtr descriptor);
     // static private System.Boolean IsValidSecurityDescriptor(System.IntPtr descriptor)
-    // Offset: 0x1BE7F30
+    // Offset: 0x1BB3CFC
     static bool IsValidSecurityDescriptor(::System::IntPtr descriptor);
   }; // System.Security.AccessControl.NativeObjectSecurity
   #pragma pack(pop)

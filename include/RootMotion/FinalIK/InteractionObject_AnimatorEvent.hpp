@@ -39,42 +39,42 @@ namespace RootMotion::FinalIK {
   class InteractionObject::AnimatorEvent : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x114CB1C
+    // [TooltipAttribute] Offset: 0x1149AB8
     // public UnityEngine.Animator animator
     // Size: 0x8
     // Offset: 0x10
     ::UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animator*) == 0x8);
-    // [TooltipAttribute] Offset: 0x114CB54
+    // [TooltipAttribute] Offset: 0x1149AF0
     // public UnityEngine.Animation animation
     // Size: 0x8
     // Offset: 0x18
     ::UnityEngine::Animation* animation;
     // Field size check
     static_assert(sizeof(::UnityEngine::Animation*) == 0x8);
-    // [TooltipAttribute] Offset: 0x114CB8C
+    // [TooltipAttribute] Offset: 0x1149B28
     // public System.String animationState
     // Size: 0x8
     // Offset: 0x20
     ::StringW animationState;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [TooltipAttribute] Offset: 0x114CBC4
+    // [TooltipAttribute] Offset: 0x1149B60
     // public System.Single crossfadeTime
     // Size: 0x4
     // Offset: 0x28
     float crossfadeTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [TooltipAttribute] Offset: 0x114CBFC
+    // [TooltipAttribute] Offset: 0x1149B98
     // public System.Int32 layer
     // Size: 0x4
     // Offset: 0x2C
     int layer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [TooltipAttribute] Offset: 0x114CC34
+    // [TooltipAttribute] Offset: 0x1149BD0
     // public System.Boolean resetNormalizedTime
     // Size: 0x1
     // Offset: 0x30
@@ -101,20 +101,20 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean resetNormalizedTime
     [[deprecated("Use field access instead!")]] bool& dyn_resetNormalizedTime();
     // public System.Void .ctor()
-    // Offset: 0x246E06C
+    // Offset: 0x2455614
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionObject::AnimatorEvent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionObject::AnimatorEvent::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InteractionObject::AnimatorEvent*, creationType>()));
     }
     // public System.Void Activate(System.Boolean pickUp)
-    // Offset: 0x246DDE0
+    // Offset: 0x2455388
     void Activate(bool pickUp);
     // private System.Void Activate(UnityEngine.Animator animator)
-    // Offset: 0x246DED4
+    // Offset: 0x245547C
     void Activate(::UnityEngine::Animator* animator);
     // private System.Void Activate(UnityEngine.Animation animation)
-    // Offset: 0x246DF8C
+    // Offset: 0x2455534
     void Activate(::UnityEngine::Animation* animation);
   }; // RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent
   #pragma pack(pop)

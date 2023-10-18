@@ -69,35 +69,35 @@ namespace TMPro {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,TMPro.TMP_Style> m_StyleDictionary
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::TMPro::TMP_Style*>*& dyn_m_StyleDictionary();
     // static public TMPro.TMP_StyleSheet get_instance()
-    // Offset: 0x14E8E60
+    // Offset: 0x14E6144
     static ::TMPro::TMP_StyleSheet* get_instance();
     // public System.Void .ctor()
-    // Offset: 0x14E9338
+    // Offset: 0x14E661C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_StyleSheet* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_StyleSheet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_StyleSheet*, creationType>()));
     }
     // static public TMPro.TMP_StyleSheet LoadDefaultStyleSheet()
-    // Offset: 0x14E9140
+    // Offset: 0x14E6424
     static ::TMPro::TMP_StyleSheet* LoadDefaultStyleSheet();
     // static public TMPro.TMP_Style GetStyle(System.Int32 hashCode)
-    // Offset: 0x14E9144
+    // Offset: 0x14E6428
     static ::TMPro::TMP_Style* GetStyle(int hashCode);
     // private TMPro.TMP_Style GetStyleInternal(System.Int32 hashCode)
-    // Offset: 0x14E9170
+    // Offset: 0x14E6454
     ::TMPro::TMP_Style* GetStyleInternal(int hashCode);
     // public System.Void UpdateStyleDictionaryKey(System.Int32 old_key, System.Int32 new_key)
-    // Offset: 0x14E91F0
+    // Offset: 0x14E64D4
     void UpdateStyleDictionaryKey(int old_key, int new_key);
     // static public System.Void UpdateStyleSheet()
-    // Offset: 0x14E92CC
+    // Offset: 0x14E65B0
     static void UpdateStyleSheet();
     // static public System.Void RefreshStyles()
-    // Offset: 0x14E931C
+    // Offset: 0x14E6600
     static void RefreshStyles();
     // private System.Void LoadStyleDictionaryInternal()
-    // Offset: 0x14E8FC8
+    // Offset: 0x14E62AC
     void LoadStyleDictionaryInternal();
   }; // TMPro.TMP_StyleSheet
   #pragma pack(pop)

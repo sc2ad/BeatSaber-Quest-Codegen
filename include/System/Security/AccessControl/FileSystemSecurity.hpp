@@ -48,14 +48,14 @@ namespace System::Security::AccessControl {
   class FileSystemSecurity : public ::System::Security::AccessControl::NativeObjectSecurity {
     public:
     // System.Void .ctor(System.Boolean isContainer, System.String name, System.Security.AccessControl.AccessControlSections includeSections)
-    // Offset: 0x1BE66F8
+    // Offset: 0x1BB24C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FileSystemSecurity* New_ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::AccessControl::FileSystemSecurity::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FileSystemSecurity*, creationType>(isContainer, name, includeSections)));
     }
     // public override System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference identityReference, System.Int32 accessMask, System.Boolean isInherited, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags, System.Security.AccessControl.AccessControlType type)
-    // Offset: 0x1BE6968
+    // Offset: 0x1BB2734
     // Implemented from: System.Security.AccessControl.ObjectSecurity
     // Base method: System.Security.AccessControl.AccessRule ObjectSecurity::AccessRuleFactory(System.Security.Principal.IdentityReference identityReference, System.Int32 accessMask, System.Boolean isInherited, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags, System.Security.AccessControl.AccessControlType type)
     ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type);

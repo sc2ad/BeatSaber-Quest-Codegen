@@ -45,20 +45,20 @@ namespace UnityEngineInternal::Input {
   class NativeUpdateCallback : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x2BB4AAC
+    // Offset: 0x2BB4640
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NativeUpdateCallback* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngineInternal::Input::NativeUpdateCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NativeUpdateCallback*, creationType>(object, method)));
     }
     // public System.Void Invoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer)
-    // Offset: 0x2BB46DC
+    // Offset: 0x2BB4270
     void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::UnityEngineInternal::Input::NativeInputEventBuffer* buffer);
     // public System.IAsyncResult BeginInvoke(UnityEngineInternal.Input.NativeInputUpdateType updateType, UnityEngineInternal.Input.NativeInputEventBuffer* buffer, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x2BB4ABC
+    // Offset: 0x2BB4650
     ::System::IAsyncResult* BeginInvoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::UnityEngineInternal::Input::NativeInputEventBuffer* buffer, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x2BB4B54
+    // Offset: 0x2BB46E8
     void EndInvoke(::System::IAsyncResult* result);
   }; // UnityEngineInternal.Input.NativeUpdateCallback
   #pragma pack(pop)

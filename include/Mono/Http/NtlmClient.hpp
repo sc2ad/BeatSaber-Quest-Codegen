@@ -68,23 +68,23 @@ namespace Mono::Http {
     // Set static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Net.HttpWebRequest,Mono.Http.NtlmSession> cache
     static void _set_cache(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* value);
     // public System.String get_AuthenticationType()
-    // Offset: 0x1B20CEC
+    // Offset: 0x1AFADA8
     ::StringW get_AuthenticationType();
     // public System.Void .ctor()
-    // Offset: 0x1B20D34
+    // Offset: 0x1AFADF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NtlmClient* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Http::NtlmClient::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtlmClient*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1B20D3C
+    // Offset: 0x1AFADF8
     static void _cctor();
     // public System.Net.Authorization Authenticate(System.String challenge, System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1B2058C
+    // Offset: 0x1AFA648
     ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
     // public System.Net.Authorization PreAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
-    // Offset: 0x1B20CE4
+    // Offset: 0x1AFADA0
     ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
   }; // Mono.Http.NtlmClient
   #pragma pack(pop)

@@ -179,188 +179,188 @@ namespace TMPro {
     // Get instance field reference: private System.Int32 m_materialReferenceIndex
     [[deprecated("Use field access instead!")]] int& dyn_m_materialReferenceIndex();
     // public TMPro.TMP_FontAsset get_fontAsset()
-    // Offset: 0x14EA4D8
+    // Offset: 0x14E77BC
     ::TMPro::TMP_FontAsset* get_fontAsset();
     // public System.Void set_fontAsset(TMPro.TMP_FontAsset value)
-    // Offset: 0x14EA4E0
+    // Offset: 0x14E77C4
     void set_fontAsset(::TMPro::TMP_FontAsset* value);
     // public TMPro.TMP_SpriteAsset get_spriteAsset()
-    // Offset: 0x14EA4E8
+    // Offset: 0x14E77CC
     ::TMPro::TMP_SpriteAsset* get_spriteAsset();
     // public System.Void set_spriteAsset(TMPro.TMP_SpriteAsset value)
-    // Offset: 0x14EA4F0
+    // Offset: 0x14E77D4
     void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
     // public UnityEngine.Material get_sharedMaterial()
-    // Offset: 0x14EA85C
+    // Offset: 0x14E7B40
     ::UnityEngine::Material* get_sharedMaterial();
     // public System.Void set_sharedMaterial(UnityEngine.Material value)
-    // Offset: 0x14EA864
+    // Offset: 0x14E7B48
     void set_sharedMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackMaterial()
-    // Offset: 0x14EA8DC
+    // Offset: 0x14E7BC0
     ::UnityEngine::Material* get_fallbackMaterial();
     // public System.Void set_fallbackMaterial(UnityEngine.Material value)
-    // Offset: 0x14EA8E4
+    // Offset: 0x14E7BC8
     void set_fallbackMaterial(::UnityEngine::Material* value);
     // public UnityEngine.Material get_fallbackSourceMaterial()
-    // Offset: 0x14EAA58
+    // Offset: 0x14E7D3C
     ::UnityEngine::Material* get_fallbackSourceMaterial();
     // public System.Void set_fallbackSourceMaterial(UnityEngine.Material value)
-    // Offset: 0x14EAA60
+    // Offset: 0x14E7D44
     void set_fallbackSourceMaterial(::UnityEngine::Material* value);
     // public System.Boolean get_isDefaultMaterial()
-    // Offset: 0x14EAAD4
+    // Offset: 0x14E7DB8
     bool get_isDefaultMaterial();
     // public System.Void set_isDefaultMaterial(System.Boolean value)
-    // Offset: 0x14EAADC
+    // Offset: 0x14E7DC0
     void set_isDefaultMaterial(bool value);
     // public System.Single get_padding()
-    // Offset: 0x14EAAE8
+    // Offset: 0x14E7DCC
     float get_padding();
     // public System.Void set_padding(System.Single value)
-    // Offset: 0x14EAAF0
+    // Offset: 0x14E7DD4
     void set_padding(float value);
     // public UnityEngine.CanvasRenderer get_canvasRenderer()
-    // Offset: 0x14EAAF8
+    // Offset: 0x14E7DDC
     ::UnityEngine::CanvasRenderer* get_canvasRenderer();
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x14EAB90
+    // Offset: 0x14E7E74
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void set_mesh(UnityEngine.Mesh value)
-    // Offset: 0x14EAC44
+    // Offset: 0x14E7F28
     void set_mesh(::UnityEngine::Mesh* value);
     // public System.Void .ctor()
-    // Offset: 0x14EBB24
+    // Offset: 0x14E8E08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TMP_SubMeshUI* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::TMPro::TMP_SubMeshUI::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TMP_SubMeshUI*, creationType>()));
     }
     // static public TMPro.TMP_SubMeshUI AddSubTextObject(TMPro.TextMeshProUGUI textComponent, TMPro.MaterialReference materialReference)
-    // Offset: 0x14EAC4C
+    // Offset: 0x14E7F30
     static ::TMPro::TMP_SubMeshUI* AddSubTextObject(::TMPro::TextMeshProUGUI* textComponent, ::TMPro::MaterialReference materialReference);
     // public System.Single GetPaddingForMaterial()
-    // Offset: 0x14EA7C4
+    // Offset: 0x14E7AA8
     float GetPaddingForMaterial();
     // public System.Single GetPaddingForMaterial(UnityEngine.Material mat)
-    // Offset: 0x14EB4E8
+    // Offset: 0x14E87CC
     float GetPaddingForMaterial(::UnityEngine::Material* mat);
     // public System.Void UpdateMeshPadding(System.Boolean isExtraPadding, System.Boolean isUsingBold)
-    // Offset: 0x14EB580
+    // Offset: 0x14E8864
     void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold);
     // public System.Void SetPivotDirty()
-    // Offset: 0x14EB73C
+    // Offset: 0x14E8A20
     void SetPivotDirty();
     // public System.Void RefreshMaterial()
-    // Offset: 0x14EB88C
+    // Offset: 0x14E8B70
     void RefreshMaterial();
     // private UnityEngine.Material GetMaterial()
-    // Offset: 0x14EB9B8
+    // Offset: 0x14E8C9C
     ::UnityEngine::Material* GetMaterial();
     // private UnityEngine.Material GetMaterial(UnityEngine.Material mat)
-    // Offset: 0x14EA5C8
+    // Offset: 0x14E78AC
     ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
     // private UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
-    // Offset: 0x14EB9C0
+    // Offset: 0x14E8CA4
     ::UnityEngine::Material* CreateMaterialInstance(::UnityEngine::Material* source);
     // private UnityEngine.Material GetSharedMaterial()
-    // Offset: 0x14EBA7C
+    // Offset: 0x14E8D60
     ::UnityEngine::Material* GetSharedMaterial();
     // private System.Void SetSharedMaterial(UnityEngine.Material mat)
-    // Offset: 0x14EA8A0
+    // Offset: 0x14E7B84
     void SetSharedMaterial(::UnityEngine::Material* mat);
     // public override UnityEngine.Texture get_mainTexture()
-    // Offset: 0x14EA4F8
+    // Offset: 0x14E77DC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Texture Graphic::get_mainTexture()
     ::UnityEngine::Texture* get_mainTexture();
     // public override UnityEngine.Material get_material()
-    // Offset: 0x14EA5C0
+    // Offset: 0x14E78A4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Material Graphic::get_material()
     ::UnityEngine::Material* get_material();
     // public override System.Void set_material(UnityEngine.Material value)
-    // Offset: 0x14EA6CC
+    // Offset: 0x14E79B0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::set_material(UnityEngine.Material value)
     void set_material(::UnityEngine::Material* value);
     // public override UnityEngine.Material get_materialForRendering()
-    // Offset: 0x14EAA68
+    // Offset: 0x14E7D4C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: UnityEngine.Material Graphic::get_materialForRendering()
     ::UnityEngine::Material* get_materialForRendering();
     // protected override System.Void OnEnable()
-    // Offset: 0x14EB04C
+    // Offset: 0x14E8330
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnEnable()
     void OnEnable();
     // protected override System.Void OnDisable()
-    // Offset: 0x14EB0A4
+    // Offset: 0x14E8388
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnDisable()
     void OnDisable();
     // protected override System.Void OnDestroy()
-    // Offset: 0x14EB1C8
+    // Offset: 0x14E84AC
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::OnDestroy()
     void OnDestroy();
     // protected override System.Void OnTransformParentChanged()
-    // Offset: 0x14EB340
+    // Offset: 0x14E8624
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::OnTransformParentChanged()
     void OnTransformParentChanged();
     // public override UnityEngine.Material GetModifiedMaterial(UnityEngine.Material baseMaterial)
-    // Offset: 0x14EB3A4
+    // Offset: 0x14E8688
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: UnityEngine.Material MaskableGraphic::GetModifiedMaterial(UnityEngine.Material baseMaterial)
     ::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
     // public override System.Void SetAllDirty()
-    // Offset: 0x14EB60C
+    // Offset: 0x14E88F0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetAllDirty()
     void SetAllDirty();
     // public override System.Void SetVerticesDirty()
-    // Offset: 0x14EB610
+    // Offset: 0x14E88F4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetVerticesDirty()
     void SetVerticesDirty();
     // public override System.Void SetLayoutDirty()
-    // Offset: 0x14EB6EC
+    // Offset: 0x14E89D0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetLayoutDirty()
     void SetLayoutDirty();
     // public override System.Void SetMaterialDirty()
-    // Offset: 0x14EB6F0
+    // Offset: 0x14E89D4
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::SetMaterialDirty()
     void SetMaterialDirty();
     // public override System.Void Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
-    // Offset: 0x14EB7B0
+    // Offset: 0x14E8A94
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::Cull(UnityEngine.Rect clipRect, System.Boolean validRect)
     void Cull(::UnityEngine::Rect clipRect, bool validRect);
     // protected override System.Void UpdateGeometry()
-    // Offset: 0x14EB7DC
+    // Offset: 0x14E8AC0
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateGeometry()
     void UpdateGeometry();
     // public override System.Void Rebuild(UnityEngine.UI.CanvasUpdate update)
-    // Offset: 0x14EB848
+    // Offset: 0x14E8B2C
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::Rebuild(UnityEngine.UI.CanvasUpdate update)
     void Rebuild(::UnityEngine::UI::CanvasUpdate update);
     // protected override System.Void UpdateMaterial()
-    // Offset: 0x14EB89C
+    // Offset: 0x14E8B80
     // Implemented from: UnityEngine.UI.Graphic
     // Base method: System.Void Graphic::UpdateMaterial()
     void UpdateMaterial();
     // public override System.Void RecalculateClipping()
-    // Offset: 0x14EB998
+    // Offset: 0x14E8C7C
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::RecalculateClipping()
     void RecalculateClipping();
     // public override System.Void RecalculateMasking()
-    // Offset: 0x14EB9A0
+    // Offset: 0x14E8C84
     // Implemented from: UnityEngine.UI.MaskableGraphic
     // Base method: System.Void MaskableGraphic::RecalculateMasking()
     void RecalculateMasking();

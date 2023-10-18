@@ -206,25 +206,25 @@ namespace HMUI {
     // Get instance field reference: private System.Single _viewControllersSeparator
     [[deprecated("Use field access instead!")]] float& dyn__viewControllersSeparator();
     // public System.Void PushViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1704530
+    // Offset: 0x16EFEC4
     void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewController(System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x170460C
+    // Offset: 0x16EFFA0
     void PopViewController(::System::Action* finishedCallback, bool immediately);
     // public System.Void PopViewControllers(System.Int32 numberOfViewControllersToPop, System.Action finishedCallback, System.Boolean immediately)
-    // Offset: 0x1704620
+    // Offset: 0x16EFFB4
     void PopViewControllers(int numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
     // private UnityEngine.Vector3 PositionVector(System.Single pos)
-    // Offset: 0x17044D4
+    // Offset: 0x16EFE68
     ::UnityEngine::Vector3 PositionVector(float pos);
     // private System.Void SetupViewControllerRect(HMUI.ViewController viewController)
-    // Offset: 0x1704478
+    // Offset: 0x16EFE0C
     void SetupViewControllerRect(::HMUI::ViewController* viewController);
     // private System.Single[] GetNewPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> fixedViewControllers, System.Single fixedEndPos)
-    // Offset: 0x1703FF4
+    // Offset: 0x16EF988
     ::ArrayW<float> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers, ::System::Collections::Generic::HashSet_1<::HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
     // public System.Void .ctor()
-    // Offset: 0x17047F4
+    // Offset: 0x16F0188
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::.ctor()
     // Base method: System.Void ViewController::.ctor()
@@ -234,7 +234,7 @@ namespace HMUI {
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController*, creationType>()));
     }
     // protected override System.Void LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
-    // Offset: 0x1703EC0
+    // Offset: 0x16EF854
     // Implemented from: HMUI.ContainerViewController
     // Base method: System.Void ContainerViewController::LayoutViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers)
     void LayoutViewControllers(::System::Collections::Generic::List_1<::HMUI::ViewController*>* viewControllers);

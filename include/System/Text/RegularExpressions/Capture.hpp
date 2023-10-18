@@ -54,39 +54,39 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _length
     [[deprecated("Use field access instead!")]] int& dyn__length();
     // public System.Int32 get_Index()
-    // Offset: 0x1CA2640
+    // Offset: 0x1C8D0CC
     int get_Index();
     // public System.Int32 get_Length()
-    // Offset: 0x1CA2648
+    // Offset: 0x1C8D0D4
     int get_Length();
     // public System.String get_Value()
-    // Offset: 0x1CA2650
+    // Offset: 0x1C8D0DC
     ::StringW get_Value();
     // System.Void .ctor(System.String text, System.Int32 i, System.Int32 l)
-    // Offset: 0x1CA2600
+    // Offset: 0x1C8D08C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Capture* New_ctor(::StringW text, int i, int l) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::Capture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>(text, i, l)));
     }
     // System.Void .ctor()
-    // Offset: 0x1CA26D8
+    // Offset: 0x1C8D164
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Capture* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::RegularExpressions::Capture::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Capture*, creationType>()));
     }
     // System.String GetOriginalString()
-    // Offset: 0x1CA2678
+    // Offset: 0x1C8D104
     ::StringW GetOriginalString();
     // System.String GetLeftSubstring()
-    // Offset: 0x1CA2680
+    // Offset: 0x1C8D10C
     ::StringW GetLeftSubstring();
     // System.String GetRightSubstring()
-    // Offset: 0x1CA26A8
+    // Offset: 0x1C8D134
     ::StringW GetRightSubstring();
     // public override System.String ToString()
-    // Offset: 0x1CA2674
+    // Offset: 0x1C8D100
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

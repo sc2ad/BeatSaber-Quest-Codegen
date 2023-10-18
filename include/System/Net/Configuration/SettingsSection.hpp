@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class SettingsSection : public ::System::Configuration::ConfigurationSection {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1AB2100
+    // Offset: 0x1A9A0D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SettingsSection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::SettingsSection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SettingsSection*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1AB2140
+    // Offset: 0x1A9A114
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

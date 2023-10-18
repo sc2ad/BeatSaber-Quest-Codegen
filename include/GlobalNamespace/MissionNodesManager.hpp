@@ -86,7 +86,7 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* missionNodesParentObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x112DC80
+    // [InjectAttribute] Offset: 0x112AB7C
     // private CampaignProgressModel _missionProgressModel
     // Size: 0x8
     // Offset: 0x40
@@ -133,77 +133,77 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     [[deprecated("Use field access instead!")]] bool& dyn__isInitialized();
     // public MissionNode get_rootMissionNode()
-    // Offset: 0x14B988C
+    // Offset: 0x1414C14
     ::GlobalNamespace::MissionNode* get_rootMissionNode();
     // public MissionNode get_finalMissionNode()
-    // Offset: 0x14B9894
+    // Offset: 0x1414C1C
     ::GlobalNamespace::MissionNode* get_finalMissionNode();
     // public MissionStagesManager get_missionStagesManager()
-    // Offset: 0x14B989C
+    // Offset: 0x1414C24
     ::GlobalNamespace::MissionStagesManager* get_missionStagesManager();
     // public CampaignProgressModel get_missionProgressModel()
-    // Offset: 0x14B98A4
+    // Offset: 0x1414C2C
     ::GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
     // public MissionNode[] get_allMissionNodes()
-    // Offset: 0x14B98AC
+    // Offset: 0x1414C34
     ::ArrayW<::GlobalNamespace::MissionNode*> get_allMissionNodes();
     // public System.Boolean get_IsInitialized()
-    // Offset: 0x14B98B4
+    // Offset: 0x1414C3C
     bool get_IsInitialized();
     // public System.Void .ctor()
-    // Offset: 0x14BA0F4
+    // Offset: 0x141547C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MissionNodesManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MissionNodesManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionNodesManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x14B98BC
+    // Offset: 0x1414C44
     void Awake();
     // public System.Void SetupNodeMap()
-    // Offset: 0x14B7064
+    // Offset: 0x14123EC
     void SetupNodeMap();
     // public System.Boolean MissionWasCleared(MissionNode missionNode)
-    // Offset: 0x14B9D2C
+    // Offset: 0x14150B4
     bool MissionWasCleared(::GlobalNamespace::MissionNode* missionNode);
     // public MissionNode GetMissionNodeWithModelClearedStateInconsistency()
-    // Offset: 0x14B6C6C
+    // Offset: 0x1411FF4
     ::GlobalNamespace::MissionNode* GetMissionNodeWithModelClearedStateInconsistency();
     // public System.Boolean DidFirstLockedMissionStageChange()
-    // Offset: 0x14B7F10
+    // Offset: 0x1413298
     bool DidFirstLockedMissionStageChange();
     // public System.Void UpdateStageLockText()
-    // Offset: 0x14B7ED0
+    // Offset: 0x1413258
     void UpdateStageLockText();
     // public MissionNode GetTopMostNotClearedMissionNode()
-    // Offset: 0x14B6E0C
+    // Offset: 0x1412194
     ::GlobalNamespace::MissionNode* GetTopMostNotClearedMissionNode();
     // private System.Void GetAllMissionNodes()
-    // Offset: 0x14B98F4
+    // Offset: 0x1414C7C
     void GetAllMissionNodes();
     // private System.Collections.Generic.HashSet`1<MissionNode> GetAllMissionNodes(MissionNode node, System.Collections.Generic.HashSet`1<MissionNode> visited)
-    // Offset: 0x14B9EF4
+    // Offset: 0x141527C
     ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* GetAllMissionNodes(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visited);
     // public MissionNodeConnection[] GetNewEnabledConnection()
-    // Offset: 0x14B7BAC
+    // Offset: 0x1412F34
     ::ArrayW<::GlobalNamespace::MissionNodeConnection*> GetNewEnabledConnection();
     // private System.Void ResetAllNodes()
-    // Offset: 0x14B9A5C
+    // Offset: 0x1414DE4
     void ResetAllNodes();
     // private System.Void SetupStages()
-    // Offset: 0x14B9AC4
+    // Offset: 0x1414E4C
     void SetupStages();
     // private System.Void RegisterAllNodes()
-    // Offset: 0x14B9988
+    // Offset: 0x1414D10
     void RegisterAllNodes();
     // private System.Void SetupNodeTree(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0x14B9B2C
+    // Offset: 0x1414EB4
     void SetupNodeTree(::GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Boolean IsNodeInteractable(MissionNodeVisualController node, System.Boolean parentCleared)
-    // Offset: 0x14B9FE4
+    // Offset: 0x141536C
     bool IsNodeInteractable(::GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
     // private System.Void SetupNodeConnections()
-    // Offset: 0x14B9C5C
+    // Offset: 0x1414FE4
     void SetupNodeConnections();
   }; // MissionNodesManager
   #pragma pack(pop)

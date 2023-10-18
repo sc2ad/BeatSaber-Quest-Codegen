@@ -188,17 +188,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean m_prevControllerConnectedCached
     [[deprecated("Use field access instead!")]] bool& dyn_m_prevControllerConnectedCached();
     // public System.Void .ctor()
-    // Offset: 0x16BC228
+    // Offset: 0x16DE7D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerHelper*, creationType>()));
     }
     // private System.Void Start()
-    // Offset: 0x16BBAA4
+    // Offset: 0x16DE054
     void Start();
     // private System.Void Update()
-    // Offset: 0x16BBCC4
+    // Offset: 0x16DE274
     void Update();
   }; // OVRControllerHelper
   #pragma pack(pop)

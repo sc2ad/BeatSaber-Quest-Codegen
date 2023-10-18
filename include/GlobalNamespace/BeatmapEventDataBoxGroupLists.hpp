@@ -83,23 +83,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _updateBeatmapDataOnInsert
     [[deprecated("Use field access instead!")]] bool& dyn__updateBeatmapDataOnInsert();
     // public System.Void .ctor(BeatmapData beatmapData, IBeatToTimeConvertor beatToTimeConvertor, System.Boolean updateBeatmapDataOnInsert)
-    // Offset: 0x1560EB0
+    // Offset: 0x15355FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapEventDataBoxGroupLists* New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, bool updateBeatmapDataOnInsert) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapEventDataBoxGroupLists::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapEventDataBoxGroupLists*, creationType>(beatmapData, beatToTimeConvertor, updateBeatmapDataOnInsert)));
     }
     // public System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> Insert(System.Int32 groupId, BeatmapEventDataBoxGroup beatmapEventDataBoxGroup)
-    // Offset: 0x1560F4C
+    // Offset: 0x1535698
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(int groupId, ::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
     // public System.Void Remove(System.Int32 groupId, System.Collections.Generic.LinkedListNode`1<BeatmapEventDataBoxGroup> nodeToDelete)
-    // Offset: 0x1561040
+    // Offset: 0x153578C
     void Remove(int groupId, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
     // public System.Void ToggleUpdateBeatmapDataOnInsert(System.Boolean enableUpdateOnInsert)
-    // Offset: 0x1561104
+    // Offset: 0x1535850
     void ToggleUpdateBeatmapDataOnInsert(bool enableUpdateOnInsert);
     // public System.Void SyncWithBeatmapData()
-    // Offset: 0x1561210
+    // Offset: 0x153595C
     void SyncWithBeatmapData();
   }; // BeatmapEventDataBoxGroupLists
   #pragma pack(pop)

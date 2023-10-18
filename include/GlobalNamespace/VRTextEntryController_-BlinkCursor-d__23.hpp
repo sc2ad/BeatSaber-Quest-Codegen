@@ -73,26 +73,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color <cursorColor>5__2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn_$cursorColor$5__2();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-    // Offset: 0x153E8C0
+    // Offset: 0x15E7E20
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
     // private System.Object System.Collections.IEnumerator.get_Current()
-    // Offset: 0x153E928
+    // Offset: 0x15E7E88
     ::Il2CppObject* System_Collections_IEnumerator_get_Current();
     // public System.Void .ctor(System.Int32 <>1__state)
-    // Offset: 0x153E544
+    // Offset: 0x15E7AA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTextEntryController::$BlinkCursor$d__23* New_ctor(int $$1__state) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTextEntryController::$BlinkCursor$d__23::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTextEntryController::$BlinkCursor$d__23*, creationType>($$1__state)));
     }
     // private System.Void System.IDisposable.Dispose()
-    // Offset: 0x153E758
+    // Offset: 0x15E7CB8
     void System_IDisposable_Dispose();
     // private System.Boolean MoveNext()
-    // Offset: 0x153E75C
+    // Offset: 0x15E7CBC
     bool MoveNext();
     // private System.Void System.Collections.IEnumerator.Reset()
-    // Offset: 0x153E8C8
+    // Offset: 0x15E7E28
     void System_Collections_IEnumerator_Reset();
   }; // VRTextEntryController/<BlinkCursor>d__23
   #pragma pack(pop)

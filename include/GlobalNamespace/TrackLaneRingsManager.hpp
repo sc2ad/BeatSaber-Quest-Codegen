@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: spawnAsChildren and: container
     char __padding3[0x7] = {};
-    // [InjectAttribute] Offset: 0x1125D3C
+    // [InjectAttribute] Offset: 0x1122B20
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x30
@@ -97,29 +97,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private TrackLaneRing[] _rings
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::TrackLaneRing*>& dyn__rings();
     // public System.Single get_ringPositionStep()
-    // Offset: 0x13A0A40
+    // Offset: 0x13B3278
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
-    // Offset: 0x13A0A48
+    // Offset: 0x13B3280
     ::ArrayW<::GlobalNamespace::TrackLaneRing*> get_Rings();
     // public System.Void .ctor()
-    // Offset: 0x13A122C
+    // Offset: 0x13B3A64
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TrackLaneRingsManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13A0A50
+    // Offset: 0x13B3288
     void Start();
     // protected System.Void FixedUpdate()
-    // Offset: 0x13A0D84
+    // Offset: 0x13B35BC
     void FixedUpdate();
     // protected System.Void LateUpdate()
-    // Offset: 0x13A0E30
+    // Offset: 0x13B3668
     void LateUpdate();
     // protected System.Void OnDrawGizmosSelected()
-    // Offset: 0x13A0EDC
+    // Offset: 0x13B3714
     void OnDrawGizmosSelected();
   }; // TrackLaneRingsManager
   #pragma pack(pop)

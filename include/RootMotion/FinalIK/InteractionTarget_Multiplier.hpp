@@ -26,14 +26,14 @@ namespace RootMotion::FinalIK {
   class InteractionTarget::Multiplier : public ::Il2CppObject {
     public:
     public:
-    // [TooltipAttribute] Offset: 0x114CD84
+    // [TooltipAttribute] Offset: 0x1149D20
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
     // Offset: 0x10
     ::RootMotion::FinalIK::InteractionObject::WeightCurve::Type curve;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
-    // [TooltipAttribute] Offset: 0x114CDBC
+    // [TooltipAttribute] Offset: 0x1149D58
     // public System.Single multiplier
     // Size: 0x4
     // Offset: 0x14
@@ -46,7 +46,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single multiplier
     [[deprecated("Use field access instead!")]] float& dyn_multiplier();
     // public System.Void .ctor()
-    // Offset: 0x206F9F0
+    // Offset: 0x2061B98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InteractionTarget::Multiplier* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::InteractionTarget::Multiplier::.ctor");

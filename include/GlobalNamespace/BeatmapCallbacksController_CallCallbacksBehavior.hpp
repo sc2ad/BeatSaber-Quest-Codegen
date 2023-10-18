@@ -49,17 +49,17 @@ namespace GlobalNamespace {
       return reinterpret_cast<::GlobalNamespace::BeatmapCallbacksController::ICallCallbacksBehavior*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x13DB67C
+    // Offset: 0x13C3244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCallbacksController::CallCallbacksBehavior* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCallbacksController::CallCallbacksBehavior::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCallbacksController::CallCallbacksBehavior*, creationType>()));
     }
     // public System.Void CallCallbacks(CallbacksInTime callbacksInTime, BeatmapDataItem beatmapDataItem)
-    // Offset: 0x13DC944
+    // Offset: 0x13C450C
     void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
     // public System.Void Replay(System.Collections.Generic.Dictionary`2<System.Single,CallbacksInTime> callbacksInTimes)
-    // Offset: 0x13DC964
+    // Offset: 0x13C452C
     void Replay(::System::Collections::Generic::Dictionary_2<float, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
   }; // BeatmapCallbacksController/CallCallbacksBehavior
   #pragma pack(pop)
