@@ -74,40 +74,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty <beatmapDifficulty>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDifficulty& dyn_$beatmapDifficulty$k__BackingField();
     // public IPreviewBeatmapLevel get_beatmapLevel()
-    // Offset: 0x145C828
+    // Offset: 0x1441BD8
     ::GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
     // public System.Void set_beatmapLevel(IPreviewBeatmapLevel value)
-    // Offset: 0x145C830
+    // Offset: 0x1441BE0
     void set_beatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
-    // Offset: 0x145C838
+    // Offset: 0x1441BE8
     ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
     // public System.Void set_beatmapCharacteristic(BeatmapCharacteristicSO value)
-    // Offset: 0x145C840
+    // Offset: 0x1441BF0
     void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
     // public BeatmapDifficulty get_beatmapDifficulty()
-    // Offset: 0x145C848
+    // Offset: 0x1441BF8
     ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
     // public System.Void set_beatmapDifficulty(BeatmapDifficulty value)
-    // Offset: 0x145C850
+    // Offset: 0x1441C00
     void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
     // public System.Void .ctor(IPreviewBeatmapLevel beatmapLevel, BeatmapCharacteristicSO beatmapCharacteristic, BeatmapDifficulty beatmapDifficulty)
-    // Offset: 0x145C858
+    // Offset: 0x1441C08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PreviewDifficultyBeatmap* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PreviewDifficultyBeatmap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PreviewDifficultyBeatmap*, creationType>(beatmapLevel, beatmapCharacteristic, beatmapDifficulty)));
     }
     // public System.Boolean Equals(PreviewDifficultyBeatmap other)
-    // Offset: 0x145C898
+    // Offset: 0x1441C48
     bool Equals(::GlobalNamespace::PreviewDifficultyBeatmap* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x145C95C
+    // Offset: 0x1441D0C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x145CA6C
+    // Offset: 0x1441E1C
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -116,10 +116,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(PreviewDifficultyBeatmap), 32 + sizeof(::GlobalNamespace::BeatmapDifficulty)> __GlobalNamespace_PreviewDifficultyBeatmapSizeCheck;
   static_assert(sizeof(PreviewDifficultyBeatmap) == 0x24);
   // static public System.Boolean op_Equality(PreviewDifficultyBeatmap a, PreviewDifficultyBeatmap b)
-  // Offset: 0x145CB44
+  // Offset: 0x1441EF4
   bool operator ==(::GlobalNamespace::PreviewDifficultyBeatmap* a, ::GlobalNamespace::PreviewDifficultyBeatmap& b);
   // static public System.Boolean op_Inequality(PreviewDifficultyBeatmap a, PreviewDifficultyBeatmap b)
-  // Offset: 0x145CB60
+  // Offset: 0x1441F10
   bool operator !=(::GlobalNamespace::PreviewDifficultyBeatmap* a, ::GlobalNamespace::PreviewDifficultyBeatmap& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -15,6 +15,8 @@ namespace GlobalNamespace {
   struct EnvironmentEffectsFilterPreset;
   // Forward declaring type: NoteJumpDurationTypeSettings
   struct NoteJumpDurationTypeSettings;
+  // Forward declaring type: ArcVisibilityType
+  struct ArcVisibilityType;
 }
 // Completed forward declares
 // Type namespace: 
@@ -35,17 +37,23 @@ namespace GlobalNamespace {
   class PlayerSaveDataConvertor : public ::Il2CppObject {
     public:
     // static public EnvironmentEffectsFilterPreset GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData saveData)
-    // Offset: 0x15AAFBC
+    // Offset: 0x15A4F68
     static ::GlobalNamespace::EnvironmentEffectsFilterPreset GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData saveData);
     // static public PlayerSaveData/PlayerSpecificSettings/EnvironmentEffectsFilterPresetSaveData GetSaveData(EnvironmentEffectsFilterPreset data)
-    // Offset: 0x15A9510
+    // Offset: 0x15A3430
     static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData GetSaveData(::GlobalNamespace::EnvironmentEffectsFilterPreset data);
     // static public NoteJumpDurationTypeSettings GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData saveData)
-    // Offset: 0x15AAFB0
+    // Offset: 0x15A4F4C
     static ::GlobalNamespace::NoteJumpDurationTypeSettings GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData saveData);
     // static public PlayerSaveData/PlayerSpecificSettings/NoteJumpDurationTypeSettingsSaveData GetSaveData(NoteJumpDurationTypeSettings data)
-    // Offset: 0x15A9504
+    // Offset: 0x15A3414
     static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData GetSaveData(::GlobalNamespace::NoteJumpDurationTypeSettings data);
+    // static public ArcVisibilityType GetRuntimeData(PlayerSaveData/PlayerSpecificSettings/ArcVisibilityTypeSaveData saveData)
+    // Offset: 0x15A4F58
+    static ::GlobalNamespace::ArcVisibilityType GetRuntimeData(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData saveData);
+    // static public PlayerSaveData/PlayerSpecificSettings/ArcVisibilityTypeSaveData GetSaveData(ArcVisibilityType data)
+    // Offset: 0x15A3420
+    static ::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData GetSaveData(::GlobalNamespace::ArcVisibilityType data);
   }; // PlayerSaveDataConvertor
   #pragma pack(pop)
 }
@@ -83,6 +91,24 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData (*)(::GlobalNamespace::NoteJumpDurationTypeSettings)>(&GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "NoteJumpDurationTypeSettings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData
+// Il2CppName: GetRuntimeData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ArcVisibilityType (*)(::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData)>(&GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
+  static const MethodInfo* get() {
+    static auto* saveData = &::il2cpp_utils::GetClassFromName("", "PlayerSaveData/PlayerSpecificSettings/ArcVisibilityTypeSaveData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetRuntimeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saveData});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataConvertor::GetSaveData
+// Il2CppName: GetSaveData
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData (*)(::GlobalNamespace::ArcVisibilityType)>(&GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
+  static const MethodInfo* get() {
+    static auto* data = &::il2cpp_utils::GetClassFromName("", "ArcVisibilityType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataConvertor*), "GetSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };

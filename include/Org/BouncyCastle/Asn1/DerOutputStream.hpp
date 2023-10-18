@@ -43,31 +43,31 @@ namespace Org::BouncyCastle::Asn1 {
   class DerOutputStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
     public:
     // private System.Void WriteLength(System.Int32 length)
-    // Offset: 0x1D073FC
+    // Offset: 0x1CF30AC
     void WriteLength(int length);
     // System.Void WriteEncoded(System.Int32 tag, System.Byte[] bytes)
-    // Offset: 0x1D02A90
+    // Offset: 0x1CEE740
     void WriteEncoded(int tag, ::ArrayW<uint8_t> bytes);
     // System.Void WriteEncoded(System.Int32 tag, System.Byte first, System.Byte[] bytes)
-    // Offset: 0x1CFBA68
+    // Offset: 0x1CE7718
     void WriteEncoded(int tag, uint8_t first, ::ArrayW<uint8_t> bytes);
     // System.Void WriteTag(System.Int32 flags, System.Int32 tagNo)
-    // Offset: 0x1CFD9A0
+    // Offset: 0x1CE9650
     void WriteTag(int flags, int tagNo);
     // System.Void WriteEncoded(System.Int32 flags, System.Int32 tagNo, System.Byte[] bytes)
-    // Offset: 0x1D02380
+    // Offset: 0x1CEE030
     void WriteEncoded(int flags, int tagNo, ::ArrayW<uint8_t> bytes);
     // protected System.Void WriteNull()
-    // Offset: 0x1D074AC
+    // Offset: 0x1CF315C
     void WriteNull();
     // public System.Void WriteObject(Org.BouncyCastle.Asn1.Asn1Encodable obj)
-    // Offset: 0x1D074F0
+    // Offset: 0x1CF31A0
     void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
     // public System.Void WriteObject(Org.BouncyCastle.Asn1.Asn1Object obj)
-    // Offset: 0x1D07570
+    // Offset: 0x1CF3220
     void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object* obj);
     // public System.Void .ctor(System.IO.Stream os)
-    // Offset: 0x1CF34C8
+    // Offset: 0x1CDF178
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Void FilterStream::.ctor(System.IO.Stream os)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

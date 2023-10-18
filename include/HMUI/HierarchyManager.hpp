@@ -56,7 +56,7 @@ namespace HMUI {
     ::HMUI::ScreenSystem* screenSystem;
     // Field size check
     static_assert(sizeof(::HMUI::ScreenSystem*) == 0x8);
-    // [InjectAttribute] Offset: 0x110E020
+    // [InjectAttribute] Offset: 0x110AAE8
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -79,26 +79,26 @@ namespace HMUI {
     // Get instance field reference: private HMUI.FlowCoordinator _rootFlowCoordinator
     [[deprecated("Use field access instead!")]] ::HMUI::FlowCoordinator*& dyn__rootFlowCoordinator();
     // public System.Void .ctor()
-    // Offset: 0x177A74C
+    // Offset: 0x1736AC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HierarchyManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::HierarchyManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HierarchyManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x177A3D8
+    // Offset: 0x1736750
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x177A594
+    // Offset: 0x173690C
     void OnDestroy();
     // private System.Void HandleSceneTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer container)
-    // Offset: 0x177A4D8
+    // Offset: 0x1736850
     void HandleSceneTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
     // private System.Void HandleBeforeDismissingScenes()
-    // Offset: 0x177A66C
+    // Offset: 0x17369E4
     void HandleBeforeDismissingScenes();
     // public System.Void StartWithFlowCoordinator(HMUI.FlowCoordinator flowCoordinator)
-    // Offset: 0x177A728
+    // Offset: 0x1736AA0
     void StartWithFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator);
   }; // HMUI.HierarchyManager
   #pragma pack(pop)

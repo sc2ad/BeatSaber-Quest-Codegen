@@ -34,7 +34,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
     public:
-    // [SpaceAttribute] Offset: 0x110C0AC
+    // [SpaceAttribute] Offset: 0x1108CA0
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x30
@@ -45,13 +45,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()
-    // Offset: 0x1CECBA8
+    // Offset: 0x1CC045C
     ::UnityEngine::Color get_color();
     // public System.Void set_color(UnityEngine.Color value)
-    // Offset: 0x1CECBB4
+    // Offset: 0x1CC0468
     void set_color(::UnityEngine::Color value);
     // public System.Void .ctor()
-    // Offset: 0x1CECC00
+    // Offset: 0x1CC04B4
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -60,7 +60,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockColorAnimator*, creationType>()));
     }
     // protected override System.Void SetProperty()
-    // Offset: 0x1CECBC0
+    // Offset: 0x1CC0474
     // Implemented from: MaterialPropertyBlockAnimator
     // Base method: System.Void MaterialPropertyBlockAnimator::SetProperty()
     void SetProperty();

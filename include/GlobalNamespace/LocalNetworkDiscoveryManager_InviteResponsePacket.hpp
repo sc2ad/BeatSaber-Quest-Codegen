@@ -70,17 +70,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean blocked
     [[deprecated("Use field access instead!")]] bool& dyn_blocked();
     // public System.Void .ctor()
-    // Offset: 0x1597800
+    // Offset: 0x15284C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalNetworkDiscoveryManager::InviteResponsePacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalNetworkDiscoveryManager::InviteResponsePacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x159A1E4
+    // Offset: 0x152AEA8
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x159A238
+    // Offset: 0x152AEFC
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
   }; // LocalNetworkDiscoveryManager/InviteResponsePacket
   #pragma pack(pop)

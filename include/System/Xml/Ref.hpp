@@ -24,7 +24,7 @@ namespace System::Xml {
   class Ref : public ::Il2CppObject {
     public:
     // static public System.Boolean Equal(System.String strA, System.String strB)
-    // Offset: 0x1B19A68
+    // Offset: 0x1AF3B24
     static bool Equal(::StringW strA, ::StringW strB);
   }; // System.Xml.Ref
   #pragma pack(pop)

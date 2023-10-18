@@ -122,56 +122,56 @@ namespace System::Net {
     // Get instance field reference: private System.Object m_Event
     [[deprecated("Use field access instead!")]] ::Il2CppObject*& dyn_m_Event();
     // static private System.Net.LazyAsyncResult/System.Net.ThreadContext get_CurrentThreadContext()
-    // Offset: 0x1B02238
+    // Offset: 0x1ADC2F4
     static ::System::Net::LazyAsyncResult::ThreadContext* get_CurrentThreadContext();
     // System.Object get_AsyncObject()
-    // Offset: 0x1B02360
+    // Offset: 0x1ADC41C
     ::Il2CppObject* get_AsyncObject();
     // public System.Object get_AsyncState()
-    // Offset: 0x1B02368
+    // Offset: 0x1ADC424
     ::Il2CppObject* get_AsyncState();
     // public System.Threading.WaitHandle get_AsyncWaitHandle()
-    // Offset: 0x1B02370
+    // Offset: 0x1ADC42C
     ::System::Threading::WaitHandle* get_AsyncWaitHandle();
     // public System.Boolean get_CompletedSynchronously()
-    // Offset: 0x1B025F4
+    // Offset: 0x1ADC6B0
     bool get_CompletedSynchronously();
     // public System.Boolean get_IsCompleted()
-    // Offset: 0x1B02628
+    // Offset: 0x1ADC6E4
     bool get_IsCompleted();
     // System.Boolean get_InternalPeekCompleted()
-    // Offset: 0x1B025E4
+    // Offset: 0x1ADC6A0
     bool get_InternalPeekCompleted();
     // System.Void .ctor(System.Object myObject, System.Object myState, System.AsyncCallback myCallBack)
-    // Offset: 0x1B022C0
+    // Offset: 0x1ADC37C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyAsyncResult* New_ctor(::Il2CppObject* myObject, ::Il2CppObject* myState, ::System::AsyncCallback* myCallBack) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::LazyAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsyncResult*, creationType>(myObject, myState, myCallBack)));
     }
     // private System.Boolean LazilyCreateEvent(out System.Threading.ManualResetEvent waitHandle)
-    // Offset: 0x1B02424
+    // Offset: 0x1ADC4E0
     bool LazilyCreateEvent(ByRef<::System::Threading::ManualResetEvent*> waitHandle);
     // protected System.Void ProtectedInvokeCallback(System.Object result, System.IntPtr userToken)
-    // Offset: 0x1B0265C
+    // Offset: 0x1ADC718
     void ProtectedInvokeCallback(::Il2CppObject* result, ::System::IntPtr userToken);
     // System.Void InvokeCallback(System.Object result)
-    // Offset: 0x1B0283C
+    // Offset: 0x1ADC8F8
     void InvokeCallback(::Il2CppObject* result);
     // protected System.Void Complete(System.IntPtr userToken)
-    // Offset: 0x1B02894
+    // Offset: 0x1ADC950
     void Complete(::System::IntPtr userToken);
     // private System.Void WorkerThreadComplete(System.Object state)
-    // Offset: 0x1B029C4
+    // Offset: 0x1ADCA80
     void WorkerThreadComplete(::Il2CppObject* state);
     // protected System.Void Cleanup()
-    // Offset: 0x1B02A38
+    // Offset: 0x1ADCAF4
     void Cleanup();
     // System.Object InternalWaitForCompletion()
-    // Offset: 0x1B02A3C
+    // Offset: 0x1ADCAF8
     ::Il2CppObject* InternalWaitForCompletion();
     // private System.Object WaitForCompletion(System.Boolean snap)
-    // Offset: 0x1B02A44
+    // Offset: 0x1ADCB00
     ::Il2CppObject* WaitForCompletion(bool snap);
   }; // System.Net.LazyAsyncResult
   #pragma pack(pop)

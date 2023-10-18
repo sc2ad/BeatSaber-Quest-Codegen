@@ -54,14 +54,14 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::ParticleSystem*>) == 0x8);
-    // [InjectAttribute] Offset: 0x112300C
+    // [InjectAttribute] Offset: 0x111FC80
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::ColorManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x112301C
+    // [InjectAttribute] Offset: 0x111FC90
     // private readonly SaberManager _saberManager
     // Size: 0x8
     // Offset: 0x30
@@ -92,13 +92,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private Saber _saber
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__saber();
     // protected System.Void Update()
-    // Offset: 0x1419BE0
+    // Offset: 0x1497C14
     void Update();
     // private System.Void SetPSStartColor(UnityEngine.Color color)
-    // Offset: 0x1419B00
+    // Offset: 0x1497B34
     void SetPSStartColor(::UnityEngine::Color color);
     // public System.Void .ctor()
-    // Offset: 0x1419DB8
+    // Offset: 0x1497DEC
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,17 +107,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SliderParticleInteractionEffect*, creationType>()));
     }
     // protected override System.Void Start()
-    // Offset: 0x1419A6C
+    // Offset: 0x1497AA0
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::Start()
     void Start();
     // protected override System.Void StartEffect(System.Single saberInteractionParam)
-    // Offset: 0x1419C48
+    // Offset: 0x1497C7C
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::StartEffect(System.Single saberInteractionParam)
     void StartEffect(float saberInteractionParam);
     // protected override System.Void EndEffect()
-    // Offset: 0x1419D18
+    // Offset: 0x1497D4C
     // Implemented from: SliderInteractionEffect
     // Base method: System.Void SliderInteractionEffect::EndEffect()
     void EndEffect();

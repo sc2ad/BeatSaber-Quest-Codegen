@@ -92,54 +92,54 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
     // public System.Void add_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x1437568
+    // Offset: 0x1509B10
     void add_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onJoinRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x143760C
+    // Offset: 0x1509BB4
     void remove_onJoinRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void add_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x14376B0
+    // Offset: 0x1509C58
     void add_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // public System.Void remove_onInviteRequestEvent(System.Action`1<INetworkPlayer> value)
-    // Offset: 0x1437754
+    // Offset: 0x1509CFC
     void remove_onInviteRequestEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
     // protected System.Void .ctor()
-    // Offset: 0x1438030
+    // Offset: 0x150A5D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NetworkPlayersViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::NetworkPlayersViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetworkPlayersViewController*, creationType>()));
     }
     // protected System.Void NetworkPlayersViewControllerDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
-    // Offset: 0x1437C7C
+    // Offset: 0x150A224
     void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
     // protected System.Void NetworkPlayersViewControllerDidDeactivate(System.Boolean removedFromHierarchy)
-    // Offset: 0x1437F24
+    // Offset: 0x150A4CC
     void NetworkPlayersViewControllerDidDeactivate(bool removedFromHierarchy);
     // private System.Void HandlePartyChanged(INetworkPlayerModel playerModel)
-    // Offset: 0x1437F30
+    // Offset: 0x150A4D8
     void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
     // private System.Void HandleJoinRequest(INetworkPlayer player)
-    // Offset: 0x1437F48
+    // Offset: 0x150A4F0
     void HandleJoinRequest(::GlobalNamespace::INetworkPlayer* player);
     // private System.Void HandleInviteRequest(INetworkPlayer player)
-    // Offset: 0x1437FBC
+    // Offset: 0x150A564
     void HandleInviteRequest(::GlobalNamespace::INetworkPlayer* player);
     // private System.Void Refresh()
-    // Offset: 0x1437AD0
+    // Offset: 0x150A078
     void Refresh();
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x14377F8
+    // Offset: 0x1509DA0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
     // protected override System.Void DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
-    // Offset: 0x1437C80
+    // Offset: 0x150A228
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidDeactivate(System.Boolean removedFromHierarchy, System.Boolean screenSystemDisabling)
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
     // protected override System.Void OnDestroy()
-    // Offset: 0x1437F28
+    // Offset: 0x150A4D0
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::OnDestroy()
     void OnDestroy();

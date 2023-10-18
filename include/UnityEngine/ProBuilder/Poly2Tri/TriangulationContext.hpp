@@ -113,53 +113,53 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Get instance field reference: private System.Boolean <IsDebugEnabled>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$IsDebugEnabled$k__BackingField();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext get_DebugContext()
-    // Offset: 0x2B41A30
+    // Offset: 0x2B53878
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationMode get_TriangulationMode()
-    // Offset: 0x2B41A38
+    // Offset: 0x2B53880
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
     // protected System.Void set_TriangulationMode(UnityEngine.ProBuilder.Poly2Tri.TriangulationMode value)
-    // Offset: 0x2B41A40
+    // Offset: 0x2B53888
     void set_TriangulationMode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
     // public UnityEngine.ProBuilder.Poly2Tri.Triangulatable get_Triangulatable()
-    // Offset: 0x2B41A48
+    // Offset: 0x2B53890
     ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* get_Triangulatable();
     // private System.Void set_Triangulatable(UnityEngine.ProBuilder.Poly2Tri.Triangulatable value)
-    // Offset: 0x2B41A50
+    // Offset: 0x2B53898
     void set_Triangulatable(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
     // public System.Int32 get_StepCount()
-    // Offset: 0x2B41A58
+    // Offset: 0x2B538A0
     int get_StepCount();
     // private System.Void set_StepCount(System.Int32 value)
-    // Offset: 0x2B41A60
+    // Offset: 0x2B538A8
     void set_StepCount(int value);
     // public System.Boolean get_IsDebugEnabled()
-    // Offset: 0x2B41A68
+    // Offset: 0x2B538B0
     bool get_IsDebugEnabled();
     // public UnityEngine.ProBuilder.Poly2Tri.DTSweepDebugContext get_DTDebugContext()
-    // Offset: 0x2B3BF78
+    // Offset: 0x2B4DDC0
     ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* get_DTDebugContext();
     // protected System.Void .ctor()
-    // Offset: 0x2B3FC08
+    // Offset: 0x2B51A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TriangulationContext* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TriangulationContext*, creationType>()));
     }
     // public System.Void Done()
-    // Offset: 0x2B3BE34
+    // Offset: 0x2B4DC7C
     void Done();
     // public System.Void PrepareTriangulation(UnityEngine.ProBuilder.Poly2Tri.Triangulatable t)
-    // Offset: 0x2B400D0
+    // Offset: 0x2B51F18
     void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationConstraint NewConstraint(UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint a, UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint b)
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
     // public System.Void Update(System.String message)
-    // Offset: 0x2B3C220
+    // Offset: 0x2B4E068
     void Update(::StringW message);
     // public System.Void Clear()
-    // Offset: 0x2B3FE38
+    // Offset: 0x2B51C80
     void Clear();
   }; // UnityEngine.ProBuilder.Poly2Tri.TriangulationContext
   #pragma pack(pop)

@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector4 vector
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_vector();
     // public System.Void .ctor()
-    // Offset: 0x1CED898
+    // Offset: 0x1CC114C
     // Implemented from: MaterialPropertyValuesSetter/PropertyValuePairBase
     // Base method: System.Void PropertyValuePairBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

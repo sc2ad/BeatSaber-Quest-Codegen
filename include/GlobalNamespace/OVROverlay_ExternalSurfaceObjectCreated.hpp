@@ -35,20 +35,20 @@ namespace GlobalNamespace {
   class OVROverlay::ExternalSurfaceObjectCreated : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x17927A0
+    // Offset: 0x174DB18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVROverlay::ExternalSurfaceObjectCreated* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVROverlay::ExternalSurfaceObjectCreated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVROverlay::ExternalSurfaceObjectCreated*, creationType>(object, method)));
     }
     // public System.Void Invoke()
-    // Offset: 0x178E0B8
+    // Offset: 0x1749430
     void Invoke();
     // public System.IAsyncResult BeginInvoke(System.AsyncCallback callback, System.Object object)
-    // Offset: 0x17927B0
+    // Offset: 0x174DB28
     ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x17927DC
+    // Offset: 0x174DB54
     void EndInvoke(::System::IAsyncResult* result);
   }; // OVROverlay/ExternalSurfaceObjectCreated
   #pragma pack(pop)

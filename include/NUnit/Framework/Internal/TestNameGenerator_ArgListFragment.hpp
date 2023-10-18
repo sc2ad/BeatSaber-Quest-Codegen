@@ -49,14 +49,14 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.Int32 _maxStringLength
     [[deprecated("Use field access instead!")]] int& dyn__maxStringLength();
     // public System.Void .ctor(System.Int32 maxStringLength)
-    // Offset: 0x2ABF228
+    // Offset: 0x2ABC590
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TestNameGenerator::ArgListFragment* New_ctor(int maxStringLength) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestNameGenerator::ArgListFragment*, creationType>(maxStringLength)));
     }
     // public override System.String GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
-    // Offset: 0x2ABF2F0
+    // Offset: 0x2ABC658
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] arglist)
     ::StringW GetText(::System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> arglist);

@@ -48,7 +48,7 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Int32 column
     [[deprecated("Use field access instead!")]] int& dyn_column();
     // public System.Void .ctor(System.String msg, System.Int32 line, System.Int32 column)
-    // Offset: 0x20083E0
+    // Offset: 0x20101BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SmallXmlParserException* New_ctor(::StringW msg, int line, int column) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Xml::SmallXmlParserException::.ctor");

@@ -69,17 +69,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _inputsPageIndexUI
     [[deprecated("Use field access instead!")]] int& dyn__inputsPageIndexUI();
     // public System.Void .ctor()
-    // Offset: 0x18DA0CC
+    // Offset: 0x18A99A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InstanceInputUIState* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InstanceInputUIState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InstanceInputUIState*, creationType>()));
     }
     // public System.Void CopyTo(HoudiniEngineUnity.HEU_InstanceInputUIState dest)
-    // Offset: 0x18D9F10
+    // Offset: 0x18A97EC
     void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstanceInputUIState other)
-    // Offset: 0x18D9F3C
+    // Offset: 0x18A9818
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
   }; // HoudiniEngineUnity.HEU_InstanceInputUIState
   #pragma pack(pop)

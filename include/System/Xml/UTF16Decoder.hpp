@@ -50,29 +50,29 @@ namespace System::Xml {
     // Get instance field reference: private System.Int32 lastByte
     [[deprecated("Use field access instead!")]] int& dyn_lastByte();
     // public System.Void .ctor(System.Boolean bigEndian)
-    // Offset: 0x1C622E4
+    // Offset: 0x1C2E9B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UTF16Decoder* New_ctor(bool bigEndian) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::UTF16Decoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UTF16Decoder*, creationType>(bigEndian)));
     }
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
-    // Offset: 0x1C6231C
+    // Offset: 0x1C2E9F0
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count)
     int GetCharCount(::ArrayW<uint8_t> bytes, int index, int count);
     // public override System.Int32 GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1C6232C
+    // Offset: 0x1C2EA00
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetCharCount(System.Byte[] bytes, System.Int32 index, System.Int32 count, System.Boolean flush)
     int GetCharCount(::ArrayW<uint8_t> bytes, int index, int count, bool flush);
     // public override System.Int32 GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
-    // Offset: 0x1C6245C
+    // Offset: 0x1C2EB30
     // Implemented from: System.Text.Decoder
     // Base method: System.Int32 Decoder::GetChars(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex)
     int GetChars(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex);
     // public override System.Void Convert(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Boolean flush, out System.Int32 bytesUsed, out System.Int32 charsUsed, out System.Boolean completed)
-    // Offset: 0x1C626C4
+    // Offset: 0x1C2ED98
     // Implemented from: System.Text.Decoder
     // Base method: System.Void Decoder::Convert(System.Byte[] bytes, System.Int32 byteIndex, System.Int32 byteCount, System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Boolean flush, out System.Int32 bytesUsed, out System.Int32 charsUsed, out System.Boolean completed)
     void Convert(::ArrayW<uint8_t> bytes, int byteIndex, int byteCount, ::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, bool flush, ByRef<int> bytesUsed, ByRef<int> charsUsed, ByRef<bool> completed);

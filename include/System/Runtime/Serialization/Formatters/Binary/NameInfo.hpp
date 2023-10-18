@@ -149,19 +149,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Boolean NIsealedStatusChecked
     [[deprecated("Use field access instead!")]] bool& dyn_NIsealedStatusChecked();
     // public System.Boolean get_IsSealed()
-    // Offset: 0x193B964
+    // Offset: 0x190C250
     bool get_IsSealed();
     // public System.String get_NIname()
-    // Offset: 0x193B9BC
+    // Offset: 0x190C2A8
     ::StringW get_NIname();
     // public System.Void set_NIname(System.String value)
-    // Offset: 0x193BA00
+    // Offset: 0x190C2EC
     void set_NIname(::StringW value);
     // System.Void Init()
-    // Offset: 0x193B944
+    // Offset: 0x190C230
     void Init();
     // System.Void .ctor()
-    // Offset: 0x193B93C
+    // Offset: 0x190C228
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

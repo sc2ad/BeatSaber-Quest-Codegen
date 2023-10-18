@@ -92,42 +92,42 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private UnityEngine.ParticleSystem <particleSystem>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::ParticleSystem*& dyn_$particleSystem$k__BackingField();
     // public UnityEngine.ParticleSystem get_particleSystem()
-    // Offset: 0x1E846E8
+    // Offset: 0x1E71868
     ::UnityEngine::ParticleSystem* get_particleSystem();
     // private System.Void set_particleSystem(UnityEngine.ParticleSystem value)
-    // Offset: 0x1E846F0
+    // Offset: 0x1E71870
     void set_particleSystem(::UnityEngine::ParticleSystem* value);
     // public System.Void .ctor()
-    // Offset: 0x1E84AA4
+    // Offset: 0x1E71C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ParticleControlPlayable* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::Timeline::ParticleControlPlayable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ParticleControlPlayable*, creationType>()));
     }
     // static public UnityEngine.Playables.ScriptPlayable`1<UnityEngine.Timeline.ParticleControlPlayable> Create(UnityEngine.Playables.PlayableGraph graph, UnityEngine.ParticleSystem component, System.UInt32 randomSeed)
-    // Offset: 0x1E7EB60
+    // Offset: 0x1E6BCE0
     static ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::ParticleSystem* component, uint randomSeed);
     // public System.Void Initialize(UnityEngine.ParticleSystem ps, System.UInt32 randomSeed)
-    // Offset: 0x1E84658
+    // Offset: 0x1E717D8
     void Initialize(::UnityEngine::ParticleSystem* ps, uint randomSeed);
     // static private System.Void SetRandomSeed(UnityEngine.ParticleSystem particleSystem, System.UInt32 randomSeed)
-    // Offset: 0x1E846F8
+    // Offset: 0x1E71878
     static void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint randomSeed);
     // private System.Void Simulate(System.Single time, System.Boolean restart)
-    // Offset: 0x1E849C4
+    // Offset: 0x1E71B44
     void Simulate(float time, bool restart);
     // public override System.Void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
-    // Offset: 0x1E84844
+    // Offset: 0x1E719C4
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData data)
     void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
     // public override System.Void OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1E84A8C
+    // Offset: 0x1E71C0C
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPlay(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
     // public override System.Void OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
-    // Offset: 0x1E84A98
+    // Offset: 0x1E71C18
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
     // Base method: System.Void PlayableBehaviour::OnBehaviourPause(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
     void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);

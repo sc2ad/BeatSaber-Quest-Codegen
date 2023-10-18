@@ -43,50 +43,50 @@ namespace SFB {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandaloneFileBrowser : public ::Il2CppObject {
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x113518C
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1132170
     // Get static field: static private readonly SFB.IStandaloneFileBrowser _platformWrapper
     static ::SFB::IStandaloneFileBrowser* _get__platformWrapper();
     // Set static field: static private readonly SFB.IStandaloneFileBrowser _platformWrapper
     static void _set__platformWrapper(::SFB::IStandaloneFileBrowser* value);
     // static private System.Void .cctor()
-    // Offset: 0x146916C
+    // Offset: 0x144E51C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1469C8C
+    // Offset: 0x144F03C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandaloneFileBrowser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::SFB::StandaloneFileBrowser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandaloneFileBrowser*, creationType>()));
     }
     // static public System.String[] OpenFilePanel(System.String title, System.String directory, System.String extension, System.Boolean multiselect)
-    // Offset: 0x1469170
+    // Offset: 0x144E520
     static ::ArrayW<::StringW> OpenFilePanel(::StringW title, ::StringW directory, ::StringW extension, bool multiselect);
     // static public System.String[] OpenFilePanel(System.String title, System.String directory, SFB.ExtensionFilter[] extensions, System.Boolean multiselect)
-    // Offset: 0x14692A4
+    // Offset: 0x144E654
     static ::ArrayW<::StringW> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter> extensions, bool multiselect);
     // static public System.Void OpenFilePanelAsync(System.String title, System.String directory, System.String extension, System.Boolean multiselect, System.Action`1<System.String[]> cb)
-    // Offset: 0x14693A8
+    // Offset: 0x144E758
     static void OpenFilePanelAsync(::StringW title, ::StringW directory, ::StringW extension, bool multiselect, ::System::Action_1<::ArrayW<::StringW>>* cb);
     // static public System.Void OpenFilePanelAsync(System.String title, System.String directory, SFB.ExtensionFilter[] extensions, System.Boolean multiselect, System.Action`1<System.String[]> cb)
-    // Offset: 0x14694EC
+    // Offset: 0x144E89C
     static void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter> extensions, bool multiselect, ::System::Action_1<::ArrayW<::StringW>>* cb);
     // static public System.String[] OpenFolderPanel(System.String title, System.String directory, System.Boolean multiselect)
-    // Offset: 0x14695FC
+    // Offset: 0x144E9AC
     static ::ArrayW<::StringW> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect);
     // static public System.Void OpenFolderPanelAsync(System.String title, System.String directory, System.Boolean multiselect, System.Action`1<System.String[]> cb)
-    // Offset: 0x14696F4
+    // Offset: 0x144EAA4
     static void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, ::System::Action_1<::ArrayW<::StringW>>* cb);
     // static public System.String SaveFilePanel(System.String title, System.String directory, System.String defaultName, System.String extension)
-    // Offset: 0x14697FC
+    // Offset: 0x144EBAC
     static ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::StringW extension);
     // static public System.String SaveFilePanel(System.String title, System.String directory, System.String defaultName, SFB.ExtensionFilter[] extensions)
-    // Offset: 0x1469930
+    // Offset: 0x144ECE0
     static ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter> extensions);
     // static public System.Void SaveFilePanelAsync(System.String title, System.String directory, System.String defaultName, System.String extension, System.Action`1<System.String> cb)
-    // Offset: 0x1469A38
+    // Offset: 0x144EDE8
     static void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::StringW extension, ::System::Action_1<::StringW>* cb);
     // static public System.Void SaveFilePanelAsync(System.String title, System.String directory, System.String defaultName, SFB.ExtensionFilter[] extensions, System.Action`1<System.String> cb)
-    // Offset: 0x1469B7C
+    // Offset: 0x144EF2C
     static void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter> extensions, ::System::Action_1<::StringW>* cb);
   }; // SFB.StandaloneFileBrowser
   #pragma pack(pop)

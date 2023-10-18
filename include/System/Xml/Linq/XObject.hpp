@@ -80,17 +80,17 @@ namespace System::Xml::Linq {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::System::Xml::XmlNodeType get_NodeType();
     // public System.Xml.Linq.XElement get_Parent()
-    // Offset: 0x2B5350C
+    // Offset: 0x2B64354
     ::System::Xml::Linq::XElement* get_Parent();
     // System.Void .ctor()
-    // Offset: 0x2B4DE48
+    // Offset: 0x2B5EC90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XObject* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Linq::XObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XObject*, creationType>()));
     }
     // public System.Object Annotation(System.Type type)
-    // Offset: 0x2B53590
+    // Offset: 0x2B643D8
     ::Il2CppObject* Annotation(::System::Type* type);
     // public T Annotation()
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -111,16 +111,16 @@ namespace System::Xml::Linq {
       return ::il2cpp_utils::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<T>*, false>(this, ___generic__method);
     }
     // System.Boolean NotifyChanged(System.Object sender, System.Xml.Linq.XObjectChangeEventArgs e)
-    // Offset: 0x2B50430
+    // Offset: 0x2B61278
     bool NotifyChanged(::Il2CppObject* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
     // System.Boolean NotifyChanging(System.Object sender, System.Xml.Linq.XObjectChangeEventArgs e)
-    // Offset: 0x2B50378
+    // Offset: 0x2B611C0
     bool NotifyChanging(::Il2CppObject* sender, ::System::Xml::Linq::XObjectChangeEventArgs* e);
     // System.Boolean SkipNotify()
-    // Offset: 0x2B4F724
+    // Offset: 0x2B6056C
     bool SkipNotify();
     // System.Xml.Linq.SaveOptions GetSaveOptionsFromAnnotations()
-    // Offset: 0x2B5309C
+    // Offset: 0x2B63EE4
     ::System::Xml::Linq::SaveOptions GetSaveOptionsFromAnnotations();
   }; // System.Xml.Linq.XObject
   #pragma pack(pop)

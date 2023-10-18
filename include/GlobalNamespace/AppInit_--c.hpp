@@ -41,17 +41,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`1<System.Boolean> <>9__8_0
     static void _set_$$9__8_0(::System::Func_1<bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1578F44
+    // Offset: 0x157804C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1578FA8
+    // Offset: 0x15780B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AppInit::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AppInit::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AppInit::$$c*, creationType>()));
     }
     // System.Boolean <StartCoroutine>b__8_0()
-    // Offset: 0x1578FB0
+    // Offset: 0x15780B8
     bool $StartCoroutine$b__8_0();
   }; // AppInit/<>c
   #pragma pack(pop)

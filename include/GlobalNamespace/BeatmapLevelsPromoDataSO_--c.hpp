@@ -22,6 +22,8 @@ namespace System {
 }
 // Forward declaring namespace: GlobalNamespace
 namespace GlobalNamespace {
+  // Forward declaring type: PreviewBeatmapLevelPackSO
+  class PreviewBeatmapLevelPackSO;
   // Forward declaring type: PreviewBeatmapLevelSO
   class PreviewBeatmapLevelSO;
 }
@@ -42,30 +44,44 @@ namespace GlobalNamespace {
     static ::GlobalNamespace::BeatmapLevelsPromoDataSO::$$c* _get_$$9();
     // Set static field: static public readonly BeatmapLevelsPromoDataSO/<>c <>9
     static void _set_$$9(::GlobalNamespace::BeatmapLevelsPromoDataSO::$$c* value);
-    // Get static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__4_0
-    static ::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* _get_$$9__4_0();
-    // Set static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__4_0
-    static void _set_$$9__4_0(::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* value);
-    // Get static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__5_0
-    static ::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* _get_$$9__5_0();
-    // Set static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__5_0
-    static void _set_$$9__5_0(::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* value);
+    // Get static field: static public System.Func`2<PreviewBeatmapLevelPackSO,System.String> <>9__8_0
+    static ::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::StringW>* _get_$$9__8_0();
+    // Set static field: static public System.Func`2<PreviewBeatmapLevelPackSO,System.String> <>9__8_0
+    static void _set_$$9__8_0(::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::StringW>* value);
+    // Get static field: static public System.Func`2<PreviewBeatmapLevelPackSO,System.String> <>9__9_0
+    static ::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::StringW>* _get_$$9__9_0();
+    // Set static field: static public System.Func`2<PreviewBeatmapLevelPackSO,System.String> <>9__9_0
+    static void _set_$$9__9_0(::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::StringW>* value);
+    // Get static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__10_0
+    static ::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* _get_$$9__10_0();
+    // Set static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__10_0
+    static void _set_$$9__10_0(::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* value);
+    // Get static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__11_0
+    static ::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* _get_$$9__11_0();
+    // Set static field: static public System.Func`2<PreviewBeatmapLevelSO,System.String> <>9__11_0
+    static void _set_$$9__11_0(::System::Func_2<::GlobalNamespace::PreviewBeatmapLevelSO*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x156C668
+    // Offset: 0x154113C
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x156C6CC
+    // Offset: 0x15411A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelsPromoDataSO::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelsPromoDataSO::$$c*, creationType>()));
     }
-    // System.String <IsBeatmapLevelPromoted>b__4_0(PreviewBeatmapLevelSO level)
-    // Offset: 0x156C6D4
-    ::StringW $IsBeatmapLevelPromoted$b__4_0(::GlobalNamespace::PreviewBeatmapLevelSO* level);
-    // System.String <IsBeatmapLevelUpdated>b__5_0(PreviewBeatmapLevelSO level)
-    // Offset: 0x156C6EC
-    ::StringW $IsBeatmapLevelUpdated$b__5_0(::GlobalNamespace::PreviewBeatmapLevelSO* level);
+    // System.String <IsBeatmapLevelPackPromoted>b__8_0(PreviewBeatmapLevelPackSO pack)
+    // Offset: 0x15411A8
+    ::StringW $IsBeatmapLevelPackPromoted$b__8_0(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
+    // System.String <IsBeatmapLevelPackUpdated>b__9_0(PreviewBeatmapLevelPackSO pack)
+    // Offset: 0x15411C0
+    ::StringW $IsBeatmapLevelPackUpdated$b__9_0(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
+    // System.String <IsBeatmapLevelPromoted>b__10_0(PreviewBeatmapLevelSO level)
+    // Offset: 0x15411D8
+    ::StringW $IsBeatmapLevelPromoted$b__10_0(::GlobalNamespace::PreviewBeatmapLevelSO* level);
+    // System.String <IsBeatmapLevelUpdated>b__11_0(PreviewBeatmapLevelSO level)
+    // Offset: 0x15411F0
+    ::StringW $IsBeatmapLevelUpdated$b__11_0(::GlobalNamespace::PreviewBeatmapLevelSO* level);
   }; // BeatmapLevelsPromoDataSO/<>c
   #pragma pack(pop)
 }
@@ -82,21 +98,39 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
 // Try using FindMethod instead!
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPromoted$b__4_0
-// Il2CppName: <IsBeatmapLevelPromoted>b__4_0
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPackPromoted$b__8_0
+// Il2CppName: <IsBeatmapLevelPackPromoted>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::*)(::GlobalNamespace::PreviewBeatmapLevelSO*)>(&GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPromoted$b__4_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::*)(::GlobalNamespace::PreviewBeatmapLevelPackSO*)>(&GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPackPromoted$b__8_0)> {
   static const MethodInfo* get() {
-    static auto* level = &::il2cpp_utils::GetClassFromName("", "PreviewBeatmapLevelSO")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsPromoDataSO::$$c*), "<IsBeatmapLevelPromoted>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "PreviewBeatmapLevelPackSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsPromoDataSO::$$c*), "<IsBeatmapLevelPackPromoted>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelUpdated$b__5_0
-// Il2CppName: <IsBeatmapLevelUpdated>b__5_0
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPackUpdated$b__9_0
+// Il2CppName: <IsBeatmapLevelPackUpdated>b__9_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::*)(::GlobalNamespace::PreviewBeatmapLevelSO*)>(&GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelUpdated$b__5_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::*)(::GlobalNamespace::PreviewBeatmapLevelPackSO*)>(&GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPackUpdated$b__9_0)> {
+  static const MethodInfo* get() {
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "PreviewBeatmapLevelPackSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsPromoDataSO::$$c*), "<IsBeatmapLevelPackUpdated>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPromoted$b__10_0
+// Il2CppName: <IsBeatmapLevelPromoted>b__10_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::*)(::GlobalNamespace::PreviewBeatmapLevelSO*)>(&GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelPromoted$b__10_0)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "PreviewBeatmapLevelSO")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsPromoDataSO::$$c*), "<IsBeatmapLevelUpdated>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsPromoDataSO::$$c*), "<IsBeatmapLevelPromoted>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelUpdated$b__11_0
+// Il2CppName: <IsBeatmapLevelUpdated>b__11_0
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::*)(::GlobalNamespace::PreviewBeatmapLevelSO*)>(&GlobalNamespace::BeatmapLevelsPromoDataSO::$$c::$IsBeatmapLevelUpdated$b__11_0)> {
+  static const MethodInfo* get() {
+    static auto* level = &::il2cpp_utils::GetClassFromName("", "PreviewBeatmapLevelSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsPromoDataSO::$$c*), "<IsBeatmapLevelUpdated>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
   }
 };

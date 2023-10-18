@@ -149,75 +149,75 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Get instance field reference: private System.Byte[] buf
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_buf();
     // public System.String get_AlgorithmName()
-    // Offset: 0x235F830
+    // Offset: 0x232549C
     ::StringW get_AlgorithmName();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Dstu7564Digest digest)
-    // Offset: 0x235F57C
+    // Offset: 0x23251E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dstu7564Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dstu7564Digest*, creationType>(digest)));
     }
     // public System.Void .ctor(System.Int32 hashSizeBits)
-    // Offset: 0x235F6E8
+    // Offset: 0x2325354
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Dstu7564Digest* New_ctor(int hashSizeBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Dstu7564Digest*, creationType>(hashSizeBits)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2360950
+    // Offset: 0x23265BC
     static void _cctor();
     // private System.Void CopyIn(Org.BouncyCastle.Crypto.Digests.Dstu7564Digest digest)
-    // Offset: 0x235F5AC
+    // Offset: 0x2325218
     void CopyIn(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* digest);
     // public System.Int32 GetDigestSize()
-    // Offset: 0x235F878
+    // Offset: 0x23254E4
     int GetDigestSize();
     // public System.Int32 GetByteLength()
-    // Offset: 0x235F880
+    // Offset: 0x23254EC
     int GetByteLength();
     // public System.Void Update(System.Byte input)
-    // Offset: 0x235F888
+    // Offset: 0x23254F4
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x235F918
+    // Offset: 0x2325584
     void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x235FA4C
+    // Offset: 0x23256B8
     int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x235FD8C
+    // Offset: 0x23259F8
     void Reset();
     // protected System.Void ProcessBlock(System.Byte[] input, System.Int32 inOff)
-    // Offset: 0x235FDF0
+    // Offset: 0x2325A5C
     void ProcessBlock(::ArrayW<uint8_t> input, int inOff);
     // private System.Void P(System.UInt64[] s)
-    // Offset: 0x235FCC8
+    // Offset: 0x2325934
     void P(::ArrayW<uint64_t> s);
     // private System.Void Q(System.UInt64[] s)
-    // Offset: 0x235FF5C
+    // Offset: 0x2325BC8
     void Q(::ArrayW<uint64_t> s);
     // static private System.UInt64 MixColumn(System.UInt64 c)
-    // Offset: 0x2360780
+    // Offset: 0x23263EC
     static uint64_t MixColumn(uint64_t c);
     // private System.Void MixColumns(System.UInt64[] s)
-    // Offset: 0x23606AC
+    // Offset: 0x2326318
     void MixColumns(::ArrayW<uint64_t> s);
     // static private System.UInt64 Rotate(System.Int32 n, System.UInt64 x)
-    // Offset: 0x2360848
+    // Offset: 0x23264B4
     static uint64_t Rotate(int n, uint64_t x);
     // private System.Void ShiftRows(System.UInt64[] s)
-    // Offset: 0x2360044
+    // Offset: 0x2325CB0
     void ShiftRows(::ArrayW<uint64_t> s);
     // private System.Void SubBytes(System.UInt64[] s)
-    // Offset: 0x23604EC
+    // Offset: 0x2326158
     void SubBytes(::ArrayW<uint64_t> s);
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
-    // Offset: 0x2360850
+    // Offset: 0x23264BC
     ::Org::BouncyCastle::Utilities::IMemoable* Copy();
     // public System.Void Reset(Org.BouncyCastle.Utilities.IMemoable other)
-    // Offset: 0x23608BC
+    // Offset: 0x2326528
     void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
   }; // Org.BouncyCastle.Crypto.Digests.Dstu7564Digest
   #pragma pack(pop)

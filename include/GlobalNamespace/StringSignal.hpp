@@ -29,7 +29,7 @@ namespace GlobalNamespace {
   class StringSignal : public ::GlobalNamespace::GenericSignal_1<::StringW> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AE84CC
+    // Offset: 0x2AF4E5C
     // Implemented from: GenericSignal`1
     // Base method: System.Void GenericSignal_1::.ctor()
     // Base method: System.Void Signal::.ctor()

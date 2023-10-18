@@ -57,12 +57,12 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Renderer _renderer
     [[deprecated("Use field access instead!")]] ::UnityEngine::Renderer*& dyn__renderer();
     // public override UnityEngine.Renderer get_renderer()
-    // Offset: 0x1CE36F4
+    // Offset: 0x1CB6FA8
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: UnityEngine.Renderer BloomPrePassBackgroundNonLightRendererCore::get_renderer()
     ::UnityEngine::Renderer* get_renderer();
     // public System.Void .ctor()
-    // Offset: 0x1CE3768
+    // Offset: 0x1CB701C
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::.ctor()
     // Base method: System.Void BloomPrePassNonLightPass::.ctor()
@@ -72,7 +72,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundParticleSystemRenderer*, creationType>()));
     }
     // protected override System.Void Awake()
-    // Offset: 0x1CE36FC
+    // Offset: 0x1CB6FB0
     // Implemented from: BloomPrePassBackgroundNonLightRendererCore
     // Base method: System.Void BloomPrePassBackgroundNonLightRendererCore::Awake()
     void Awake();

@@ -121,103 +121,103 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private UnityEngine.Vector3 tv4
     static void _set_tv4(::UnityEngine::Vector3 value);
     // static UnityEngine.Vector2 PointInCircumference(System.Single radius, System.Single angleInDegrees, UnityEngine.Vector2 origin)
-    // Offset: 0x20A9264
+    // Offset: 0x209C40C
     static ::UnityEngine::Vector2 PointInCircumference(float radius, float angleInDegrees, ::UnityEngine::Vector2 origin);
     // static UnityEngine.Vector3 PointInSphere(System.Single radius, System.Single latitudeAngle, System.Single longitudeAngle)
-    // Offset: 0x20A9334
+    // Offset: 0x209C4DC
     static ::UnityEngine::Vector3 PointInSphere(float radius, float latitudeAngle, float longitudeAngle);
     // static System.Single SignedAngle(UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x20A9434
+    // Offset: 0x209C5DC
     static float SignedAngle(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
     // static public System.Single SqrDistance(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x20A94E0
+    // Offset: 0x209C688
     static float SqrDistance(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
     // static public System.Single TriangleArea(UnityEngine.Vector3 x, UnityEngine.Vector3 y, UnityEngine.Vector3 z)
-    // Offset: 0x20A9504
+    // Offset: 0x209C6AC
     static float TriangleArea(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y, ::UnityEngine::Vector3 z);
     // static System.Single PolygonArea(UnityEngine.Vector3[] vertices, System.Int32[] indexes)
-    // Offset: 0x20A9678
+    // Offset: 0x209C820
     static float PolygonArea(::ArrayW<::UnityEngine::Vector3> vertices, ::ArrayW<int> indexes);
     // static UnityEngine.Vector2 RotateAroundPoint(UnityEngine.Vector2 v, UnityEngine.Vector2 origin, System.Single theta)
-    // Offset: 0x20A9798
+    // Offset: 0x209C940
     static ::UnityEngine::Vector2 RotateAroundPoint(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 origin, float theta);
     // static public UnityEngine.Vector2 ScaleAroundPoint(UnityEngine.Vector2 v, UnityEngine.Vector2 origin, UnityEngine.Vector2 scale)
-    // Offset: 0x20A987C
+    // Offset: 0x209CA24
     static ::UnityEngine::Vector2 ScaleAroundPoint(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 scale);
     // static UnityEngine.Vector2 Perpendicular(UnityEngine.Vector2 value)
-    // Offset: 0x20A993C
+    // Offset: 0x209CAE4
     static ::UnityEngine::Vector2 Perpendicular(::UnityEngine::Vector2 value);
     // static public UnityEngine.Vector2 ReflectPoint(UnityEngine.Vector2 point, UnityEngine.Vector2 lineStart, UnityEngine.Vector2 lineEnd)
-    // Offset: 0x20A9974
+    // Offset: 0x209CB1C
     static ::UnityEngine::Vector2 ReflectPoint(::UnityEngine::Vector2 point, ::UnityEngine::Vector2 lineStart, ::UnityEngine::Vector2 lineEnd);
     // static System.Single SqrDistanceRayPoint(UnityEngine.Ray ray, UnityEngine.Vector3 point)
-    // Offset: 0x20A9B50
+    // Offset: 0x209CCF8
     static float SqrDistanceRayPoint(::UnityEngine::Ray ray, ::UnityEngine::Vector3 point);
     // static public System.Single DistancePointLineSegment(UnityEngine.Vector2 point, UnityEngine.Vector2 lineStart, UnityEngine.Vector2 lineEnd)
-    // Offset: 0x20A9C70
+    // Offset: 0x209CE18
     static float DistancePointLineSegment(::UnityEngine::Vector2 point, ::UnityEngine::Vector2 lineStart, ::UnityEngine::Vector2 lineEnd);
     // static public System.Single DistancePointLineSegment(UnityEngine.Vector3 point, UnityEngine.Vector3 lineStart, UnityEngine.Vector3 lineEnd)
-    // Offset: 0x20A9E6C
+    // Offset: 0x209D014
     static float DistancePointLineSegment(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd);
     // static public UnityEngine.Vector3 GetNearestPointRayRay(UnityEngine.Ray a, UnityEngine.Ray b)
-    // Offset: 0x20AA120
+    // Offset: 0x209D2C8
     static ::UnityEngine::Vector3 GetNearestPointRayRay(::UnityEngine::Ray a, ::UnityEngine::Ray b);
     // static UnityEngine.Vector3 GetNearestPointRayRay(UnityEngine.Vector3 ao, UnityEngine.Vector3 ad, UnityEngine.Vector3 bo, UnityEngine.Vector3 bd)
-    // Offset: 0x20AA1E4
+    // Offset: 0x209D38C
     static ::UnityEngine::Vector3 GetNearestPointRayRay(::UnityEngine::Vector3 ao, ::UnityEngine::Vector3 ad, ::UnityEngine::Vector3 bo, ::UnityEngine::Vector3 bd);
     // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3, ref UnityEngine.Vector2 intersect)
-    // Offset: 0x20AA4A0
+    // Offset: 0x209D648
     static bool GetLineSegmentIntersect(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3, ByRef<::UnityEngine::Vector2> intersect);
     // static System.Boolean GetLineSegmentIntersect(UnityEngine.Vector2 p0, UnityEngine.Vector2 p1, UnityEngine.Vector2 p2, UnityEngine.Vector2 p3)
-    // Offset: 0x20AA5D0
+    // Offset: 0x209D778
     static bool GetLineSegmentIntersect(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, ::UnityEngine::Vector2 p3);
     // static System.Boolean PointInPolygon(UnityEngine.Vector2[] polygon, UnityEngine.Vector2 point, System.Int32[] indexes)
-    // Offset: 0x20AA644
+    // Offset: 0x209D7EC
     static bool PointInPolygon(::ArrayW<::UnityEngine::Vector2> polygon, ::UnityEngine::Vector2 point, ::ArrayW<int> indexes);
     // static System.Boolean PointInPolygon(UnityEngine.Vector2[] positions, UnityEngine.ProBuilder.Bounds2D polyBounds, UnityEngine.ProBuilder.Edge[] edges, UnityEngine.Vector2 point)
-    // Offset: 0x20AA900
+    // Offset: 0x209DAA8
     static bool PointInPolygon(::ArrayW<::UnityEngine::Vector2> positions, ::UnityEngine::ProBuilder::Bounds2D* polyBounds, ::ArrayW<::UnityEngine::ProBuilder::Edge> edges, ::UnityEngine::Vector2 point);
     // static System.Boolean PointInPolygon(UnityEngine.Vector3[] positions, UnityEngine.ProBuilder.Bounds2D polyBounds, UnityEngine.ProBuilder.Edge[] edges, UnityEngine.Vector2 point)
-    // Offset: 0x20AAA64
+    // Offset: 0x209DC0C
     static bool PointInPolygon(::ArrayW<::UnityEngine::Vector3> positions, ::UnityEngine::ProBuilder::Bounds2D* polyBounds, ::ArrayW<::UnityEngine::ProBuilder::Edge> edges, ::UnityEngine::Vector2 point);
     // static System.Boolean RectIntersectsLineSegment(UnityEngine.Rect rect, UnityEngine.Vector2 a, UnityEngine.Vector2 b)
-    // Offset: 0x20AAC2C
+    // Offset: 0x209DDD4
     static bool RectIntersectsLineSegment(::UnityEngine::Rect rect, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
     // static System.Boolean RectIntersectsLineSegment(UnityEngine.Rect rect, UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x20AAC34
+    // Offset: 0x209DDDC
     static bool RectIntersectsLineSegment(::UnityEngine::Rect rect, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
     // static public System.Boolean RayIntersectsTriangle(UnityEngine.Ray InRay, UnityEngine.Vector3 InTriangleA, UnityEngine.Vector3 InTriangleB, UnityEngine.Vector3 InTriangleC, out System.Single OutDistance, out UnityEngine.Vector3 OutPoint)
-    // Offset: 0x20A3728
+    // Offset: 0x20968D0
     static bool RayIntersectsTriangle(::UnityEngine::Ray InRay, ::UnityEngine::Vector3 InTriangleA, ::UnityEngine::Vector3 InTriangleB, ::UnityEngine::Vector3 InTriangleC, ByRef<float> OutDistance, ByRef<::UnityEngine::Vector3> OutPoint);
     // static System.Boolean RayIntersectsTriangle2(UnityEngine.Vector3 origin, UnityEngine.Vector3 dir, UnityEngine.Vector3 vert0, UnityEngine.Vector3 vert1, UnityEngine.Vector3 vert2, ref System.Single distance, ref UnityEngine.Vector3 normal)
-    // Offset: 0x20A4CDC
+    // Offset: 0x2097E84
     static bool RayIntersectsTriangle2(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 dir, ::UnityEngine::Vector3 vert0, ::UnityEngine::Vector3 vert1, ::UnityEngine::Vector3 vert2, ByRef<float> distance, ByRef<::UnityEngine::Vector3> normal);
     // static public System.Single Secant(System.Single x)
-    // Offset: 0x20AAC88
+    // Offset: 0x209DE30
     static float Secant(float x);
     // static public UnityEngine.Vector3 Normal(UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x20AAD00
+    // Offset: 0x209DEA8
     static ::UnityEngine::Vector3 Normal(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
     // static UnityEngine.Vector3 Normal(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20AAEBC
+    // Offset: 0x209E064
     static ::UnityEngine::Vector3 Normal(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector3 Normal(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x20AB698
+    // Offset: 0x209E840
     static ::UnityEngine::Vector3 Normal(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
     // static UnityEngine.Vector3 Normal(System.Collections.Generic.IList`1<UnityEngine.Vector3> p)
-    // Offset: 0x20AB8EC
+    // Offset: 0x209EA94
     static ::UnityEngine::Vector3 Normal(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* p);
     // static public UnityEngine.ProBuilder.Normal NormalTangentBitangent(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
-    // Offset: 0x20A5BE4
+    // Offset: 0x2098D8C
     static ::UnityEngine::ProBuilder::Normal NormalTangentBitangent(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
     // static System.Boolean IsCardinalAxis(UnityEngine.Vector3 v, System.Single epsilon)
-    // Offset: 0x20ABFFC
+    // Offset: 0x209F1A4
     static bool IsCardinalAxis(::UnityEngine::Vector3 v, float epsilon);
     // static UnityEngine.Vector2 DivideBy(UnityEngine.Vector2 v, UnityEngine.Vector2 o)
-    // Offset: 0x20AC1F0
+    // Offset: 0x209F398
     static ::UnityEngine::Vector2 DivideBy(::UnityEngine::Vector2 v, ::UnityEngine::Vector2 o);
     // static UnityEngine.Vector3 DivideBy(UnityEngine.Vector3 v, UnityEngine.Vector3 o)
-    // Offset: 0x20AC224
+    // Offset: 0x209F3CC
     static ::UnityEngine::Vector3 DivideBy(::UnityEngine::Vector3 v, ::UnityEngine::Vector3 o);
     // static T Max(T[] array)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -240,49 +240,49 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, array);
     }
     // static System.Single LargestValue(UnityEngine.Vector3 v)
-    // Offset: 0x20AC264
+    // Offset: 0x209F40C
     static float LargestValue(::UnityEngine::Vector3 v);
     // static System.Single LargestValue(UnityEngine.Vector2 v)
-    // Offset: 0x20AC288
+    // Offset: 0x209F430
     static float LargestValue(::UnityEngine::Vector2 v);
     // static UnityEngine.Vector2 SmallestVector2(UnityEngine.Vector2[] v)
-    // Offset: 0x20AC294
+    // Offset: 0x209F43C
     static ::UnityEngine::Vector2 SmallestVector2(::ArrayW<::UnityEngine::Vector2> v);
     // static UnityEngine.Vector2 SmallestVector2(UnityEngine.Vector2[] v, System.Int32[] indexes)
-    // Offset: 0x20AC314
+    // Offset: 0x209F4BC
     static ::UnityEngine::Vector2 SmallestVector2(::ArrayW<::UnityEngine::Vector2> v, ::ArrayW<int> indexes);
     // static UnityEngine.Vector2 SmallestVector2(UnityEngine.Vector2[] v, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20AC3B4
+    // Offset: 0x209F55C
     static ::UnityEngine::Vector2 SmallestVector2(::ArrayW<::UnityEngine::Vector2> v, ::System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Vector2 LargestVector2(UnityEngine.Vector2[] v)
-    // Offset: 0x20AC748
+    // Offset: 0x209F8F0
     static ::UnityEngine::Vector2 LargestVector2(::ArrayW<::UnityEngine::Vector2> v);
     // static UnityEngine.Vector2 LargestVector2(UnityEngine.Vector2[] v, System.Int32[] indexes)
-    // Offset: 0x20AC7C8
+    // Offset: 0x209F970
     static ::UnityEngine::Vector2 LargestVector2(::ArrayW<::UnityEngine::Vector2> v, ::ArrayW<int> indexes);
     // static UnityEngine.Vector2 LargestVector2(UnityEngine.Vector2[] v, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20AC868
+    // Offset: 0x209FA10
     static ::UnityEngine::Vector2 LargestVector2(::ArrayW<::UnityEngine::Vector2> v, ::System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Bounds GetBounds(UnityEngine.Vector3[] positions, System.Collections.Generic.IList`1<System.Int32> indices)
-    // Offset: 0x20A65CC
+    // Offset: 0x2099774
     static ::UnityEngine::Bounds GetBounds(::ArrayW<::UnityEngine::Vector3> positions, ::System::Collections::Generic::IList_1<int>* indices);
     // static UnityEngine.Bounds GetBounds(UnityEngine.Vector3[] positions, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
-    // Offset: 0x20ACBFC
+    // Offset: 0x209FDA4
     static ::UnityEngine::Bounds GetBounds(::ArrayW<::UnityEngine::Vector3> positions, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
     // static private UnityEngine.Vector3 ComponentMin(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x20AD324
+    // Offset: 0x20A04CC
     static ::UnityEngine::Vector3 ComponentMin(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
     // static private UnityEngine.Vector3 ComponentMax(UnityEngine.Vector3 a, UnityEngine.Vector3 b)
-    // Offset: 0x20AD418
+    // Offset: 0x20A05C0
     static ::UnityEngine::Vector3 ComponentMax(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
     // static UnityEngine.Bounds GetBounds(UnityEngine.Vector3[] positions, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges)
-    // Offset: 0x20AD50C
+    // Offset: 0x20A06B4
     static ::UnityEngine::Bounds GetBounds(::ArrayW<::UnityEngine::Vector3> positions, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
     // static public UnityEngine.Vector2 Average(System.Collections.Generic.IList`1<UnityEngine.Vector2> array, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20ADA60
+    // Offset: 0x20A0C08
     static ::UnityEngine::Vector2 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* array, ::System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector3 Average(System.Collections.Generic.IList`1<UnityEngine.Vector3> array, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20ADE48
+    // Offset: 0x20A0FF0
     static ::UnityEngine::Vector3 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* array, ::System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Vector3 Average(System.Collections.Generic.IList`1<T> list, System.Func`2<T,UnityEngine.Vector3> selector, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -294,79 +294,79 @@ namespace UnityEngine::ProBuilder {
       return ::il2cpp_utils::RunMethodRethrow<::UnityEngine::Vector3, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, list, selector, indexes);
     }
     // static public UnityEngine.Vector4 Average(System.Collections.Generic.IList`1<UnityEngine.Vector4> v, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20AE440
+    // Offset: 0x20A15E8
     static ::UnityEngine::Vector4 Average(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* v, ::System::Collections::Generic::IList_1<int>* indexes);
     // static UnityEngine.Color Average(System.Collections.Generic.IList`1<UnityEngine.Color> c, System.Collections.Generic.IList`1<System.Int32> indexes)
-    // Offset: 0x20AE85C
+    // Offset: 0x20A1A04
     static ::UnityEngine::Color Average(::System::Collections::Generic::IList_1<::UnityEngine::Color>* c, ::System::Collections::Generic::IList_1<int>* indexes);
     // static System.Boolean Approx2(UnityEngine.Vector2 a, UnityEngine.Vector2 b, System.Single delta)
-    // Offset: 0x20AEC20
+    // Offset: 0x20A1DC8
     static bool Approx2(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float delta);
     // static System.Boolean Approx3(UnityEngine.Vector3 a, UnityEngine.Vector3 b, System.Single delta)
-    // Offset: 0x20AECE0
+    // Offset: 0x20A1E88
     static bool Approx3(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, float delta);
     // static System.Boolean Approx4(UnityEngine.Vector4 a, UnityEngine.Vector4 b, System.Single delta)
-    // Offset: 0x20AEDD4
+    // Offset: 0x20A1F7C
     static bool Approx4(::UnityEngine::Vector4 a, ::UnityEngine::Vector4 b, float delta);
     // static System.Boolean ApproxC(UnityEngine.Color a, UnityEngine.Color b, System.Single delta)
-    // Offset: 0x20AEEF8
+    // Offset: 0x20A20A0
     static bool ApproxC(::UnityEngine::Color a, ::UnityEngine::Color b, float delta);
     // static System.Boolean Approx(System.Single a, System.Single b, System.Single delta)
-    // Offset: 0x20AF01C
+    // Offset: 0x20A21C4
     static bool Approx(float a, float b, float delta);
     // static System.Int32 Wrap(System.Int32 value, System.Int32 lowerBound, System.Int32 upperBound)
-    // Offset: 0x20AF0A4
+    // Offset: 0x20A224C
     static int Wrap(int value, int lowerBound, int upperBound);
     // static public System.Int32 Clamp(System.Int32 value, System.Int32 lowerBound, System.Int32 upperBound)
-    // Offset: 0x20A91D4
+    // Offset: 0x209C37C
     static int Clamp(int value, int lowerBound, int upperBound);
     // static UnityEngine.Vector3 Clamp(UnityEngine.Vector3 value, UnityEngine.Vector3 lowerBound, UnityEngine.Vector3 upperBound)
-    // Offset: 0x20AF0D4
+    // Offset: 0x20A227C
     static ::UnityEngine::Vector3 Clamp(::UnityEngine::Vector3 value, ::UnityEngine::Vector3 lowerBound, ::UnityEngine::Vector3 upperBound);
     // static UnityEngine.Vector3 ToSignedMask(UnityEngine.Vector3 vec, System.Single delta)
-    // Offset: 0x20AF1A0
+    // Offset: 0x20A2348
     static ::UnityEngine::Vector3 ToSignedMask(::UnityEngine::Vector3 vec, float delta);
     // static UnityEngine.Vector3 Abs(UnityEngine.Vector3 v)
-    // Offset: 0x20AF304
+    // Offset: 0x20A24AC
     static ::UnityEngine::Vector3 Abs(::UnityEngine::Vector3 v);
     // static System.Int32 IntSum(UnityEngine.Vector3 mask)
-    // Offset: 0x20AF3AC
+    // Offset: 0x20A2554
     static int IntSum(::UnityEngine::Vector3 mask);
     // static System.Single Sum(UnityEngine.Vector3 v)
-    // Offset: 0x20AF47C
+    // Offset: 0x20A2624
     static float Sum(::UnityEngine::Vector3 v);
     // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref System.Single x, ref System.Single y, ref System.Single z)
-    // Offset: 0x20AF508
+    // Offset: 0x20A26B0
     static void Cross(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ByRef<float> x, ByRef<float> y, ByRef<float> z);
     // static System.Void Cross(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref UnityEngine.Vector3 res)
-    // Offset: 0x20AAC58
+    // Offset: 0x209DE00
     static void Cross(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ByRef<::UnityEngine::Vector3> res);
     // static System.Void Cross(System.Single ax, System.Single ay, System.Single az, System.Single bx, System.Single by, System.Single bz, ref System.Single x, ref System.Single y, ref System.Single z)
-    // Offset: 0x20AAE88
+    // Offset: 0x209E030
     static void Cross(float ax, float ay, float az, float bx, float by, float bz, ByRef<float> x, ByRef<float> y, ByRef<float> z);
     // static System.Void Subtract(UnityEngine.Vector3 a, UnityEngine.Vector3 b, ref UnityEngine.Vector3 res)
-    // Offset: 0x20AAC40
+    // Offset: 0x209DDE8
     static void Subtract(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ByRef<::UnityEngine::Vector3> res);
     // static System.Int32 Min(System.Int32 a, System.Int32 b)
-    // Offset: 0x20AF53C
+    // Offset: 0x20A26E4
     static int Min(int a, int b);
     // static System.Int32 Max(System.Int32 a, System.Int32 b)
-    // Offset: 0x20AF548
+    // Offset: 0x20A26F0
     static int Max(int a, int b);
     // static System.Boolean IsNumber(System.Single value)
-    // Offset: 0x20AF554
+    // Offset: 0x20A26FC
     static bool IsNumber(float value);
     // static System.Boolean IsNumber(UnityEngine.Vector2 value)
-    // Offset: 0x20AF598
+    // Offset: 0x20A2740
     static bool IsNumber(::UnityEngine::Vector2 value);
     // static System.Boolean IsNumber(UnityEngine.Vector3 value)
-    // Offset: 0x20AF5D0
+    // Offset: 0x20A2778
     static bool IsNumber(::UnityEngine::Vector3 value);
     // static System.Boolean IsNumber(UnityEngine.Vector4 value)
-    // Offset: 0x20AF618
+    // Offset: 0x20A27C0
     static bool IsNumber(::UnityEngine::Vector4 value);
     // static System.Single MakeNonZero(System.Single value, System.Single min)
-    // Offset: 0x20AF67C
+    // Offset: 0x20A2824
     static float MakeNonZero(float value, float min);
   }; // UnityEngine.ProBuilder.Math
   #pragma pack(pop)

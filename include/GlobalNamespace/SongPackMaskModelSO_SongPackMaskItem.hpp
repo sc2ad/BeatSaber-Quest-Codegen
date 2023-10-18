@@ -56,14 +56,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(::GlobalNamespace::SongPackMaskModelSO::SongPackDataType) == 0x4);
     // Padding between fields: type and: beatmapLevelPack
     char __padding0[0x4] = {};
-    // [NullAllowed] Offset: 0x1135AE8
+    // [NullAllowed] Offset: 0x1132ACC
     // public BeatmapLevelPackSO _beatmapLevelPack
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::BeatmapLevelPackSO* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::BeatmapLevelPackSO*) == 0x8);
-    // [NullAllowed] Offset: 0x1135AF8
+    // [NullAllowed] Offset: 0x1132ADC
     // public PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x20
@@ -76,7 +76,7 @@ namespace GlobalNamespace {
     ::StringW serializedName;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [NullAllowed] Offset: 0x1135B08
+    // [NullAllowed] Offset: 0x1132AEC
     // public BeatmapLevelPackCollectionSO _levelPackCollection
     // Size: 0x8
     // Offset: 0x30
@@ -119,16 +119,16 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<BeatmapLevelPackCollectionSO> _levelPackCollections
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelPackCollectionSO*>*& dyn__levelPackCollections();
     // public System.String get_serializedName()
-    // Offset: 0x141D440
+    // Offset: 0x149B488
     ::StringW get_serializedName();
     // public SongPackMask get_songPackMask()
-    // Offset: 0x141D484
+    // Offset: 0x149B4CC
     ::GlobalNamespace::SongPackMask get_songPackMask();
     // public System.Boolean get_containsMultiplePacks()
-    // Offset: 0x141D800
+    // Offset: 0x149B848
     bool get_containsMultiplePacks();
     // public System.Void .ctor()
-    // Offset: 0x141D824
+    // Offset: 0x149B86C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongPackMaskModelSO::SongPackMaskItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::.ctor");

@@ -59,27 +59,27 @@ namespace System::Xml::Schema {
   class Datatype_string : public ::System::Xml::Schema::Datatype_anySimpleType {
     public:
     // override System.Xml.Schema.XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet()
-    // Offset: 0x1D2A588
+    // Offset: 0x1D16238
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlSchemaWhiteSpace Datatype_anySimpleType::get_BuiltInWhitespaceFacet()
     ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
     // override System.Xml.Schema.FacetsChecker get_FacetsChecker()
-    // Offset: 0x1D2A590
+    // Offset: 0x1D16240
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.FacetsChecker Datatype_anySimpleType::get_FacetsChecker()
     ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
     // public override System.Xml.Schema.XmlTypeCode get_TypeCode()
-    // Offset: 0x1D2A5F8
+    // Offset: 0x1D162A8
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlTypeCode Datatype_anySimpleType::get_TypeCode()
     ::System::Xml::Schema::XmlTypeCode get_TypeCode();
     // public override System.Xml.XmlTokenizedType get_TokenizedType()
-    // Offset: 0x1D2A600
+    // Offset: 0x1D162B0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.XmlTokenizedType Datatype_anySimpleType::get_TokenizedType()
     ::System::Xml::XmlTokenizedType get_TokenizedType();
     // public System.Void .ctor()
-    // Offset: 0x1D29F10
+    // Offset: 0x1D15BC0
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Void Datatype_anySimpleType::.ctor()
     // Base method: System.Void DatatypeImplementation::.ctor()
@@ -90,12 +90,12 @@ namespace System::Xml::Schema {
       return THROW_UNLESS((::il2cpp_utils::New<Datatype_string*, creationType>()));
     }
     // override System.Xml.Schema.XmlValueConverter CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
-    // Offset: 0x1D2A57C
+    // Offset: 0x1D1622C
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Xml.Schema.XmlValueConverter Datatype_anySimpleType::CreateValueConverter(System.Xml.Schema.XmlSchemaType schemaType)
     ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
     // override System.Exception TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
-    // Offset: 0x1D2A608
+    // Offset: 0x1D162B8
     // Implemented from: System.Xml.Schema.Datatype_anySimpleType
     // Base method: System.Exception Datatype_anySimpleType::TryParseValue(System.String s, System.Xml.XmlNameTable nameTable, System.Xml.IXmlNamespaceResolver nsmgr, out System.Object typedValue)
     ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::Il2CppObject*> typedValue);

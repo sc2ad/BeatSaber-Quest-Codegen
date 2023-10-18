@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public INetworkPlayerModel partyManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::INetworkPlayerModel*& dyn_partyManager();
     // public System.Void .ctor()
-    // Offset: 0x13D7B98
+    // Offset: 0x13BF618
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseNetworkPlayerModel::PartyConfig* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BaseNetworkPlayerModel::PartyConfig::.ctor");

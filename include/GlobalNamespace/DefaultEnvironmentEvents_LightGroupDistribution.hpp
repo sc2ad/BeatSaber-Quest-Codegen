@@ -54,16 +54,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapEventDataBox/DistributionParamType _distributionParamType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType& dyn__distributionParamType();
     // public System.Boolean get_useDistribution()
-    // Offset: 0x144E21C
+    // Offset: 0x1460B90
     bool get_useDistribution();
     // public System.Single get_distributionParam()
-    // Offset: 0x144E224
+    // Offset: 0x1460B98
     float get_distributionParam();
     // public BeatmapEventDataBox/DistributionParamType get_distributionParamType()
-    // Offset: 0x144E22C
+    // Offset: 0x1460BA0
     ::GlobalNamespace::BeatmapEventDataBox::DistributionParamType get_distributionParamType();
     // public System.Void .ctor()
-    // Offset: 0x144E234
+    // Offset: 0x1460BA8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DefaultEnvironmentEvents::LightGroupDistribution* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::DefaultEnvironmentEvents::LightGroupDistribution::.ctor");

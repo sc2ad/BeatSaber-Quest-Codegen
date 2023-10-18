@@ -122,37 +122,37 @@ namespace GlobalNamespace {
     static int _get_kMaxPyramidSize();
     // Set static field: static private System.Int32 kMaxPyramidSize
     static void _set_kMaxPyramidSize(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C14
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11064B0
     // Get static field: static private readonly System.Int32 _bloomTexID
     static int _get__bloomTexID();
     // Set static field: static private readonly System.Int32 _bloomTexID
     static void _set__bloomTexID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C24
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11064C0
     // Get static field: static private readonly System.Int32 _globalIntensityTex
     static int _get__globalIntensityTex();
     // Set static field: static private readonly System.Int32 _globalIntensityTex
     static void _set__globalIntensityTex(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C34
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11064D0
     // Get static field: static private readonly System.Int32 _autoExposureLimitID
     static int _get__autoExposureLimitID();
     // Set static field: static private readonly System.Int32 _autoExposureLimitID
     static void _set__autoExposureLimitID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C44
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11064E0
     // Get static field: static private readonly System.Int32 _sampleScaleID
     static int _get__sampleScaleID();
     // Set static field: static private readonly System.Int32 _sampleScaleID
     static void _set__sampleScaleID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C54
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11064F0
     // Get static field: static private readonly System.Int32 _combineSrcID
     static int _get__combineSrcID();
     // Set static field: static private readonly System.Int32 _combineSrcID
     static void _set__combineSrcID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C64
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1106500
     // Get static field: static private readonly System.Int32 _combineDstID
     static int _get__combineDstID();
     // Set static field: static private readonly System.Int32 _combineDstID
     static void _set__combineDstID(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1109C74
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1106510
     // Get static field: static private readonly System.Int32 _alphaWeightsID
     static int _get__alphaWeightsID();
     // Set static field: static private readonly System.Int32 _alphaWeightsID
@@ -166,26 +166,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _initialized
     [[deprecated("Use field access instead!")]] bool& dyn__initialized();
     // public System.Void .ctor()
-    // Offset: 0x1CF06A4
+    // Offset: 0x1CC3F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PyramidBloomRendererSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PyramidBloomRendererSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PyramidBloomRendererSO*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1CF06AC
+    // Offset: 0x1CC3F60
     static void _cctor();
     // protected System.Void OnDisable()
-    // Offset: 0x1CEFD0C
+    // Offset: 0x1CC35C0
     void OnDisable();
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Boolean alphaWeights, System.Boolean betterQuality, System.Boolean gammaCorrection)
-    // Offset: 0x1CEFD3C
+    // Offset: 0x1CC35F0
     void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float radius, bool alphaWeights, bool betterQuality, bool gammaCorrection);
     // public System.Void RenderBloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Single radius, System.Single intensity, System.Single autoExposureLimit, System.Single downIntensityOffset, System.Boolean uniformPyramidWeights, System.Boolean downsampleOnFirstPass, System.Single pyramidWeightsParam, System.Single alphaWeights, System.Single firstUpsampleBrightness, System.Single finalUpsampleBrightness, PyramidBloomRendererSO/Pass preFilterPass, PyramidBloomRendererSO/Pass downsamplePass, PyramidBloomRendererSO/Pass upsamplePass, PyramidBloomRendererSO/Pass finalUpsamplePass)
-    // Offset: 0x1CEFDC0
+    // Offset: 0x1CC3674
     void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float radius, float intensity, float autoExposureLimit, float downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float pyramidWeightsParam, float alphaWeights, float firstUpsampleBrightness, float finalUpsampleBrightness, ::GlobalNamespace::PyramidBloomRendererSO::Pass preFilterPass, ::GlobalNamespace::PyramidBloomRendererSO::Pass downsamplePass, ::GlobalNamespace::PyramidBloomRendererSO::Pass upsamplePass, ::GlobalNamespace::PyramidBloomRendererSO::Pass finalUpsamplePass);
     // protected override System.Void OnEnable()
-    // Offset: 0x1CEFBD4
+    // Offset: 0x1CC3488
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

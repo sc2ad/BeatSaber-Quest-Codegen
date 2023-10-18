@@ -41,10 +41,10 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   class EncryptionScheme : public ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
     public:
     // static public Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme GetInstance(System.Object obj)
-    // Offset: 0x1D96D34
+    // Offset: 0x1D82DE8
     static ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* GetInstance(::Il2CppObject* obj);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
-    // Offset: 0x1D96C5C
+    // Offset: 0x1D82D10
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier objectID, Org.BouncyCastle.Asn1.Asn1Encodable parameters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -53,7 +53,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionScheme*, creationType>(objectID, parameters)));
     }
     // System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1D96C64
+    // Offset: 0x1D82D18
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: System.Void AlgorithmIdentifier::.ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -62,7 +62,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionScheme*, creationType>(seq)));
     }
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1D96EB4
+    // Offset: 0x1D82F68
     // Implemented from: Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
     // Base method: Org.BouncyCastle.Asn1.Asn1Object AlgorithmIdentifier::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

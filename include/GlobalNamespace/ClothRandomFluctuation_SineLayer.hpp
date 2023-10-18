@@ -42,7 +42,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single offset
     [[deprecated("Use field access instead!")]] float& dyn_offset();
     // public System.Void .ctor()
-    // Offset: 0x13F8FFC
+    // Offset: 0x13F9378
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ClothRandomFluctuation::SineLayer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ClothRandomFluctuation::SineLayer::.ctor");

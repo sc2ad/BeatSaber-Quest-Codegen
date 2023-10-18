@@ -50,28 +50,28 @@ namespace Zenject {
     // Set static field: static private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> EmptyArgList
     static void _set_EmptyArgList(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1EBD9A0
+    // Offset: 0x1EA9B20
     static void _cctor();
     // static public System.Void GetAllInstancesWithInjectSplit(Zenject.IProvider creator, Zenject.InjectContext context, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1EBD2DC
+    // Offset: 0x1EA945C
     static void GetAllInstancesWithInjectSplit(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // static public System.Void GetAllInstances(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1EBD3E4
+    // Offset: 0x1EA9564
     static void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // static public System.Void GetAllInstances(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1EBD46C
+    // Offset: 0x1EA95EC
     static void GetAllInstances(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
     // static public System.Object TryGetInstance(Zenject.IProvider creator, Zenject.InjectContext context)
-    // Offset: 0x1EBD56C
+    // Offset: 0x1EA96EC
     static ::Il2CppObject* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
     // static public System.Object TryGetInstance(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args)
-    // Offset: 0x1EBD5EC
+    // Offset: 0x1EA976C
     static ::Il2CppObject* TryGetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
     // static public System.Object GetInstance(Zenject.IProvider creator, Zenject.InjectContext context)
-    // Offset: 0x1EBD76C
+    // Offset: 0x1EA98EC
     static ::Il2CppObject* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context);
     // static public System.Object GetInstance(Zenject.IProvider creator, Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args)
-    // Offset: 0x1EBD7EC
+    // Offset: 0x1EA996C
     static ::Il2CppObject* GetInstance(::Zenject::IProvider* creator, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
   }; // Zenject.IProviderExtensions
   #pragma pack(pop)

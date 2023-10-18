@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
     public:
-    // [InjectAttribute] Offset: 0x1129288
+    // [InjectAttribute] Offset: 0x11260F4
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
     // Offset: 0x18
@@ -116,38 +116,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerScoreProvider/RankedPlayer> _players
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*& dyn__players();
     // public System.Boolean get_scoresAvailable()
-    // Offset: 0x142D30C
+    // Offset: 0x14FF8F4
     bool get_scoresAvailable();
     // public MultiplayerScoreProvider/RankedPlayer get_firstPlayer()
-    // Offset: 0x142D364
+    // Offset: 0x14FF94C
     ::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* get_firstPlayer();
     // private System.Void set_firstPlayer(MultiplayerScoreProvider/RankedPlayer value)
-    // Offset: 0x142D36C
+    // Offset: 0x14FF954
     void set_firstPlayer(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* value);
     // public System.Collections.Generic.IReadOnlyList`1<MultiplayerScoreProvider/RankedPlayer> get_rankedPlayers()
-    // Offset: 0x142D4BC
+    // Offset: 0x14FFAA4
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* get_rankedPlayers();
     // public System.Void add_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0x142D374
+    // Offset: 0x14FF95C
     void add_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // public System.Void remove_firstPlayerDidChangeEvent(System.Action`1<MultiplayerScoreProvider/RankedPlayer> value)
-    // Offset: 0x142D418
+    // Offset: 0x14FFA00
     void remove_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* value);
     // public System.Void .ctor()
-    // Offset: 0x142DE30
+    // Offset: 0x1500418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerScoreProvider* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerScoreProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerScoreProvider*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x142D4C4
+    // Offset: 0x14FFAAC
     void Update();
     // public System.Boolean TryGetScore(System.String userId, out MultiplayerScoreProvider/RankedPlayer data)
-    // Offset: 0x142DCEC
+    // Offset: 0x15002D4
     bool TryGetScore(::StringW userId, ByRef<::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*> data);
     // public System.Int32 GetPositionOfPlayer(System.String userId)
-    // Offset: 0x142DD5C
+    // Offset: 0x1500344
     int GetPositionOfPlayer(::StringW userId);
   }; // MultiplayerScoreProvider
   #pragma pack(pop)

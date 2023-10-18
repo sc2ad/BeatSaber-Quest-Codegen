@@ -152,7 +152,7 @@ namespace RootMotion::FinalIK {
       // Get instance field reference: public System.Single dot
       [[deprecated("Use field access instead!")]] float& dyn_dot();
       // public System.Void .ctor(UnityEngine.Vector3 direction, UnityEngine.Vector3 axis)
-      // Offset: 0x22C676C
+      // Offset: 0x226A960
       AxisDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 axis);
     }; // RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection
     #pragma pack(pop)
@@ -171,14 +171,14 @@ namespace RootMotion::FinalIK {
     ::RootMotion::FinalIK::IKSolverLimb::BendModifier bendModifier;
     // Field size check
     static_assert(sizeof(::RootMotion::FinalIK::IKSolverLimb::BendModifier) == 0x4);
-    // [RangeAttribute] Offset: 0x11495D0
+    // [RangeAttribute] Offset: 0x114656C
     // public System.Single maintainRotationWeight
     // Size: 0x4
     // Offset: 0xB0
     float maintainRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [RangeAttribute] Offset: 0x11495E8
+    // [RangeAttribute] Offset: 0x1146584
     // public System.Single bendModifierWeight
     // Size: 0x4
     // Offset: 0xB4
@@ -295,29 +295,29 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirectionsRight
     [[deprecated("Use field access instead!")]] ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>& dyn_axisDirectionsRight();
     // private RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] get_axisDirections()
-    // Offset: 0x22C6750
+    // Offset: 0x226A944
     ::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection> get_axisDirections();
     // public System.Void .ctor(UnityEngine.AvatarIKGoal goal)
-    // Offset: 0x22C66C8
+    // Offset: 0x226A8BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKSolverLimb* New_ctor(::UnityEngine::AvatarIKGoal goal) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKSolverLimb::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>(goal)));
     }
     // public System.Void MaintainRotation()
-    // Offset: 0x22C504C
+    // Offset: 0x2269240
     void MaintainRotation();
     // public System.Void MaintainBend()
-    // Offset: 0x22C509C
+    // Offset: 0x2269290
     void MaintainBend();
     // private System.Void StoreAxisDirections(ref RootMotion.FinalIK.IKSolverLimb/RootMotion.FinalIK.AxisDirection[] axisDirections)
-    // Offset: 0x22C552C
+    // Offset: 0x2269720
     void StoreAxisDirections(ByRef<::ArrayW<::RootMotion::FinalIK::IKSolverLimb::AxisDirection>> axisDirections);
     // private UnityEngine.Vector3 GetModifiedBendNormal()
-    // Offset: 0x22C594C
+    // Offset: 0x2269B40
     ::UnityEngine::Vector3 GetModifiedBendNormal();
     // public System.Void .ctor()
-    // Offset: 0x22C6544
+    // Offset: 0x226A738
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::.ctor()
     // Base method: System.Void IKSolver::.ctor()
@@ -327,17 +327,17 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKSolverLimb*, creationType>()));
     }
     // protected override System.Void OnInitiateVirtual()
-    // Offset: 0x22C51B0
+    // Offset: 0x22693A4
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnInitiateVirtual()
     void OnInitiateVirtual();
     // protected override System.Void OnUpdateVirtual()
-    // Offset: 0x22C5820
+    // Offset: 0x2269A14
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnUpdateVirtual()
     void OnUpdateVirtual();
     // protected override System.Void OnPostSolveVirtual()
-    // Offset: 0x22C63FC
+    // Offset: 0x226A5F0
     // Implemented from: RootMotion.FinalIK.IKSolverTrigonometric
     // Base method: System.Void IKSolverTrigonometric::OnPostSolveVirtual()
     void OnPostSolveVirtual();

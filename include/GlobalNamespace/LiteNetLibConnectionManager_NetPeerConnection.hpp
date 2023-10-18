@@ -22,13 +22,16 @@
 namespace LiteNetLib {
   // Forward declaring type: NetPeer
   class NetPeer;
-  // Forward declaring type: DeliveryMethod
-  struct DeliveryMethod;
 }
 // Forward declaring namespace: LiteNetLib::Utils
 namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
   class NetDataWriter;
+}
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
+  // Forward declaring type: DeliveryMethod
+  struct DeliveryMethod;
 }
 // Completed forward declares
 #include "beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -95,37 +98,37 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly LiteNetLib.NetPeer netPeer
     [[deprecated("Use field access instead!")]] ::LiteNetLib::NetPeer*& dyn_netPeer();
     // public System.String get_userId()
-    // Offset: 0x16D90AC
+    // Offset: 0x162A114
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x16D90B4
+    // Offset: 0x162A11C
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x16D90BC
+    // Offset: 0x162A124
     bool get_isConnectionOwner();
     // public System.Void .ctor(LiteNetLib.NetPeer netPeer, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x16D848C
+    // Offset: 0x162945C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LiteNetLibConnectionManager::NetPeerConnection* New_ctor(::LiteNetLib::NetPeer* netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LiteNetLibConnectionManager::NetPeerConnection*, creationType>(netPeer, userId, userName, isConnectionOwner)));
     }
-    // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x16D90C4
-    void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
+    // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, BGNet.Core.DeliveryMethod deliveryMethod)
+    // Offset: 0x162A12C
+    void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
     // public System.Boolean Equals(LiteNetLibConnectionManager/NetPeerConnection other)
-    // Offset: 0x16D90E0
+    // Offset: 0x162A1C8
     bool Equals(::GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* other);
     // public System.Void Disconnect()
-    // Offset: 0x16D7C20
+    // Offset: 0x1628BB0
     void Disconnect();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x16D910C
+    // Offset: 0x162A1F4
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x16D9228
+    // Offset: 0x162A310
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
@@ -166,10 +169,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::LiteNetLib::DeliveryMethod)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection::Send)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
-    static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
+    static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("BGNet.Core", "DeliveryMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, deliveryMethod});
   }
 };

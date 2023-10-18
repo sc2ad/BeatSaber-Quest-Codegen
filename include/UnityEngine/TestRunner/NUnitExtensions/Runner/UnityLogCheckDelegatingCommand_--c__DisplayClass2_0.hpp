@@ -50,14 +50,14 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context
     [[deprecated("Use field access instead!")]] ::NUnit::Framework::Internal::ITestExecutionContext*& dyn_context();
     // public System.Void .ctor()
-    // Offset: 0x19BE824
+    // Offset: 0x19A489C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityLogCheckDelegatingCommand::$$c__DisplayClass2_0*, creationType>()));
     }
     // System.Void <Execute>b__0()
-    // Offset: 0x19BF170
+    // Offset: 0x19A51E8
     void $Execute$b__0();
   }; // UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/UnityEngine.TestRunner.NUnitExtensions.Runner.<>c__DisplayClass2_0
   #pragma pack(pop)

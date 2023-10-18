@@ -139,14 +139,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean[] _boundChannels
     [[deprecated("Use field access instead!")]] ::ArrayW<bool>& dyn__boundChannels();
     // public System.Void .ctor()
-    // Offset: 0x196FDF8
+    // Offset: 0x19406D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_HandleParamBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_HandleParamBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_HandleParamBinding*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_HandleParamBinding other)
-    // Offset: 0x1970EE0
+    // Offset: 0x19417C0
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
   }; // HoudiniEngineUnity.HEU_HandleParamBinding
   #pragma pack(pop)

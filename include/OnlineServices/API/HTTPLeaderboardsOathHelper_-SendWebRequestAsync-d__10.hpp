@@ -124,10 +124,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13891E0
+    // Offset: 0x134C1D8
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1389854
+    // Offset: 0x134C84C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<SendWebRequestAsync>d__10
   // WARNING Not writing size check since size may be invalid!

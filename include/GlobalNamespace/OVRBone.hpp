@@ -64,32 +64,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform <Transform>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::Transform*& dyn_$Transform$k__BackingField();
     // public OVRSkeleton/BoneId get_Id()
-    // Offset: 0x16B7A40
+    // Offset: 0x16D9FF0
     ::GlobalNamespace::OVRSkeleton::BoneId get_Id();
     // public System.Void set_Id(OVRSkeleton/BoneId value)
-    // Offset: 0x16B7A48
+    // Offset: 0x16D9FF8
     void set_Id(::GlobalNamespace::OVRSkeleton::BoneId value);
     // public System.Int16 get_ParentBoneIndex()
-    // Offset: 0x16B7A50
+    // Offset: 0x16DA000
     int16_t get_ParentBoneIndex();
     // public System.Void set_ParentBoneIndex(System.Int16 value)
-    // Offset: 0x16B7A58
+    // Offset: 0x16DA008
     void set_ParentBoneIndex(int16_t value);
     // public UnityEngine.Transform get_Transform()
-    // Offset: 0x16B7A60
+    // Offset: 0x16DA010
     ::UnityEngine::Transform* get_Transform();
     // public System.Void set_Transform(UnityEngine.Transform value)
-    // Offset: 0x16B7A68
+    // Offset: 0x16DA018
     void set_Transform(::UnityEngine::Transform* value);
     // public System.Void .ctor()
-    // Offset: 0x16B7A70
+    // Offset: 0x16DA020
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBone* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBone*, creationType>()));
     }
     // public System.Void .ctor(OVRSkeleton/BoneId id, System.Int16 parentBoneIndex, UnityEngine.Transform trans)
-    // Offset: 0x16B7A78
+    // Offset: 0x16DA028
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBone* New_ctor(::GlobalNamespace::OVRSkeleton::BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBone::.ctor");

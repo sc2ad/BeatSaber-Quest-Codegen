@@ -66,19 +66,19 @@ namespace Mono {
     // Get instance field reference: private Mono.RuntimeStructs/Mono.GenericParamInfo* value
     [[deprecated("Use field access instead!")]] ::Mono::RuntimeStructs::GenericParamInfo*& dyn_value();
     // System.Type[] get_Constraints()
-    // Offset: 0x1FEF898
+    // Offset: 0x1FF8674
     ::ArrayW<::System::Type*> get_Constraints();
     // System.Reflection.GenericParameterAttributes get_Attributes()
-    // Offset: 0x1FEF9DC
+    // Offset: 0x1FF87B8
     ::System::Reflection::GenericParameterAttributes get_Attributes();
     // System.Void .ctor(System.IntPtr ptr)
-    // Offset: 0x1FEF86C
+    // Offset: 0x1FF8648
     RuntimeGenericParamInfoHandle(::System::IntPtr ptr);
     // private System.Type[] GetConstraints()
-    // Offset: 0x1FEF89C
+    // Offset: 0x1FF8678
     ::ArrayW<::System::Type*> GetConstraints();
     // private System.Int32 GetConstraintsCount()
-    // Offset: 0x1FEF9F8
+    // Offset: 0x1FF87D4
     int GetConstraintsCount();
   }; // Mono.RuntimeGenericParamInfoHandle
   #pragma pack(pop)

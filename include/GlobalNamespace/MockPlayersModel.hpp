@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MockPlayersModel : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x14C42F0
+    // Offset: 0x141ED44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayersModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayersModel::.ctor");

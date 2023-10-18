@@ -49,10 +49,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.String _experimentPlatformKey
     [[deprecated("Use field access instead!")]] ::StringW& dyn__experimentPlatformKey();
     // public System.String get_experimentPlatformKey()
-    // Offset: 0x13859B8
+    // Offset: 0x13489B0
     ::StringW get_experimentPlatformKey();
     // public System.Void .ctor(System.String experimentPlatformKey)
-    // Offset: 0x1385980
+    // Offset: 0x1348978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusTestExperiment::ExperimentData* New_ctor(::StringW experimentPlatformKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusTestExperiment::ExperimentData::.ctor");

@@ -53,41 +53,41 @@ namespace Oculus::Platform {
     // Get instance field reference: private System.IntPtr Handle
     [[deprecated("Use field access instead!")]] ::System::IntPtr& dyn_Handle();
     // public System.Void .ctor()
-    // Offset: 0x2B2B5E8
+    // Offset: 0x2B3D430
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RoomOptions* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Oculus::Platform::RoomOptions::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RoomOptions*, creationType>()));
     }
     // public System.Void SetDataStore(System.String key, System.String value)
-    // Offset: 0x2B2B660
+    // Offset: 0x2B3D4A8
     void SetDataStore(::StringW key, ::StringW value);
     // public System.Void ClearDataStore()
-    // Offset: 0x2B2B6E4
+    // Offset: 0x2B3D52C
     void ClearDataStore();
     // public System.Void SetExcludeRecentlyMet(System.Boolean value)
-    // Offset: 0x2B2B750
+    // Offset: 0x2B3D598
     void SetExcludeRecentlyMet(bool value);
     // public System.Void SetMaxUserResults(System.UInt32 value)
-    // Offset: 0x2B2B7CC
+    // Offset: 0x2B3D614
     void SetMaxUserResults(uint value);
     // public System.Void SetOrdering(Oculus.Platform.UserOrdering value)
-    // Offset: 0x2B2B848
+    // Offset: 0x2B3D690
     void SetOrdering(::Oculus::Platform::UserOrdering value);
     // public System.Void SetRecentlyMetTimeWindow(Oculus.Platform.TimeWindow value)
-    // Offset: 0x2B2B8C4
+    // Offset: 0x2B3D70C
     void SetRecentlyMetTimeWindow(::Oculus::Platform::TimeWindow value);
     // public System.Void SetRoomId(System.UInt64 value)
-    // Offset: 0x2B2B940
+    // Offset: 0x2B3D788
     void SetRoomId(uint64_t value);
     // public System.Void SetTurnOffUpdates(System.Boolean value)
-    // Offset: 0x2B2B9BC
+    // Offset: 0x2B3D804
     void SetTurnOffUpdates(bool value);
     // static public System.IntPtr op_Explicit(Oculus.Platform.RoomOptions options)
-    // Offset: 0x2B2BA38
+    // Offset: 0x2B3D880
     // ABORTED: conflicts with another method.  explicit operator ::System::IntPtr();
     // protected override System.Void Finalize()
-    // Offset: 0x2B2BA88
+    // Offset: 0x2B3D8D0
     // Implemented from: System.Object
     // Base method: System.Void Object::Finalize()
     void Finalize();

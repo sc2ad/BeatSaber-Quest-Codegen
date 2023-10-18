@@ -89,14 +89,14 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: fadeOutDuration and: scoreProvider
     char __padding6[0x4] = {};
-    // [InjectAttribute] Offset: 0x1128EA4
+    // [InjectAttribute] Offset: 0x1125D10
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128EB4
+    // [InjectAttribute] Offset: 0x1125D20
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x68
@@ -183,35 +183,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _colorAnimationStartDuration
     [[deprecated("Use field access instead!")]] float& dyn__colorAnimationStartDuration();
     // public System.Void .ctor()
-    // Offset: 0x1412CC0
+    // Offset: 0x13E428C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerPositionDisplay* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerPositionDisplay::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerPositionDisplay*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1412708
+    // Offset: 0x13E3CD4
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x141280C
+    // Offset: 0x13E3DD8
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1412980
+    // Offset: 0x13E3F4C
     void Update();
     // private System.Void UpdateColors()
-    // Offset: 0x14129D4
+    // Offset: 0x13E3FA0
     void UpdateColors();
     // private System.Void UpdatePosition()
-    // Offset: 0x1412A74
+    // Offset: 0x13E4040
     void UpdatePosition();
     // private System.Void HandlePlayerFailed()
-    // Offset: 0x1412BF0
+    // Offset: 0x13E41BC
     void HandlePlayerFailed();
     // private System.Void HandleFirstPlayerDidChange(MultiplayerScoreProvider/RankedPlayer obj)
-    // Offset: 0x1412C08
+    // Offset: 0x13E41D4
     void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider::RankedPlayer* obj);
     // private System.Void ChangeColor(UnityEngine.Color toColor, System.Single duration)
-    // Offset: 0x14128F8
+    // Offset: 0x13E3EC4
     void ChangeColor(::UnityEngine::Color toColor, float duration);
   }; // MultiplayerPositionDisplay
   #pragma pack(pop)

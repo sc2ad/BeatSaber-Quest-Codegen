@@ -87,10 +87,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/UpdateEntitlementsResult> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x13814BC
+    // Offset: 0x1597F10
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1381744
+    // Offset: 0x1598198
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformAdditionalContentModel/<CheckForNewEntitlementsAsync>d__12
   // WARNING Not writing size check since size may be invalid!

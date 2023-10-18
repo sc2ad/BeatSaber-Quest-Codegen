@@ -56,35 +56,35 @@ namespace Valve::VR {
     // Get instance field reference: private Valve.VR.IVRChaperone FnTable
     [[deprecated("Use field access instead!")]] ::Valve::VR::IVRChaperone& dyn_FnTable();
     // System.Void .ctor(System.IntPtr pInterface)
-    // Offset: 0x1C8719C
+    // Offset: 0x1C72C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CVRChaperone* New_ctor(::System::IntPtr pInterface) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::CVRChaperone::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CVRChaperone*, creationType>(pInterface)));
     }
     // public Valve.VR.ChaperoneCalibrationState GetCalibrationState()
-    // Offset: 0x1C872A4
+    // Offset: 0x1C72D30
     ::Valve::VR::ChaperoneCalibrationState GetCalibrationState();
     // public System.Boolean GetPlayAreaSize(ref System.Single pSizeX, ref System.Single pSizeZ)
-    // Offset: 0x1C874D0
+    // Offset: 0x1C72F5C
     bool GetPlayAreaSize(ByRef<float> pSizeX, ByRef<float> pSizeZ);
     // public System.Boolean GetPlayAreaRect(ref Valve.VR.HmdQuad_t rect)
-    // Offset: 0x1C87768
+    // Offset: 0x1C731F4
     bool GetPlayAreaRect(ByRef<::Valve::VR::HmdQuad_t> rect);
     // public System.Void ReloadInfo()
-    // Offset: 0x1C879E0
+    // Offset: 0x1C7346C
     void ReloadInfo();
     // public System.Void SetSceneColor(Valve.VR.HmdColor_t color)
-    // Offset: 0x1C87C04
+    // Offset: 0x1C73690
     void SetSceneColor(::Valve::VR::HmdColor_t color);
     // public System.Void GetBoundsColor(ref Valve.VR.HmdColor_t pOutputColorArray, System.Int32 nNumOutputColors, System.Single flCollisionBoundsFadeDistance, ref Valve.VR.HmdColor_t pOutputCameraColor)
-    // Offset: 0x1C87ECC
+    // Offset: 0x1C73958
     void GetBoundsColor(ByRef<::Valve::VR::HmdColor_t> pOutputColorArray, int nNumOutputColors, float flCollisionBoundsFadeDistance, ByRef<::Valve::VR::HmdColor_t> pOutputCameraColor);
     // public System.Boolean AreBoundsVisible()
-    // Offset: 0x1C88194
+    // Offset: 0x1C73C20
     bool AreBoundsVisible();
     // public System.Void ForceBoundsVisible(System.Boolean bForce)
-    // Offset: 0x1C883C4
+    // Offset: 0x1C73E50
     void ForceBoundsVisible(bool bForce);
   }; // Valve.VR.CVRChaperone
   #pragma pack(pop)

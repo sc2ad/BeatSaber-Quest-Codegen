@@ -74,23 +74,23 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.IPrefabInstantiator _prefabCreator
     [[deprecated("Use field access instead!")]] ::Zenject::IPrefabInstantiator*& dyn__prefabCreator();
     // public System.Boolean get_IsCached()
-    // Offset: 0x1CD5A84
+    // Offset: 0x1CA9338
     bool get_IsCached();
     // public System.Boolean get_TypeVariesBasedOnMemberType()
-    // Offset: 0x1CD5A8C
+    // Offset: 0x1CA9340
     bool get_TypeVariesBasedOnMemberType();
     // public System.Void .ctor(Zenject.IPrefabInstantiator prefabCreator)
-    // Offset: 0x1CD5A58
+    // Offset: 0x1CA930C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PrefabGameObjectProvider* New_ctor(::Zenject::IPrefabInstantiator* prefabCreator) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::PrefabGameObjectProvider::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrefabGameObjectProvider*, creationType>(prefabCreator)));
     }
     // public System.Type GetInstanceType(Zenject.InjectContext context)
-    // Offset: 0x1CD5A94
+    // Offset: 0x1CA9348
     ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
     // public System.Void GetAllInstancesWithInjectSplit(Zenject.InjectContext context, System.Collections.Generic.List`1<Zenject.TypeValuePair> args, out System.Action injectAction, System.Collections.Generic.List`1<System.Object> buffer)
-    // Offset: 0x1CD5B04
+    // Offset: 0x1CA93B8
     void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::Il2CppObject*>* buffer);
   }; // Zenject.PrefabGameObjectProvider
   #pragma pack(pop)

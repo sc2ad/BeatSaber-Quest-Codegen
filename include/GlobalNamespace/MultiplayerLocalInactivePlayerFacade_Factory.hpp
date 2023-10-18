@@ -27,7 +27,7 @@ namespace GlobalNamespace {
   class MultiplayerLocalInactivePlayerFacade::Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1406C0C
+    // Offset: 0x13D7158
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerFacade::Factory* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory::.ctor");

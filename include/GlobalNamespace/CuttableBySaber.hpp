@@ -64,20 +64,20 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_radius();
     // public System.Void add_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0x144C2A0
+    // Offset: 0x145EC14
     void add_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // public System.Void remove_wasCutBySaberEvent(CuttableBySaber/WasCutBySaberDelegate value)
-    // Offset: 0x144C344
+    // Offset: 0x145ECB8
     void remove_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber::WasCutBySaberDelegate* value);
     // protected System.Void .ctor()
-    // Offset: 0x144C9B4
+    // Offset: 0x145F328
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static CuttableBySaber* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::CuttableBySaber::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CuttableBySaber*, creationType>()));
     }
     // protected System.Void CallWasCutBySaberEvent(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
-    // Offset: 0x144C3E8
+    // Offset: 0x145ED5C
     void CallWasCutBySaberEvent(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
     // public System.Void Cut(Saber saber, UnityEngine.Vector3 cutPoint, UnityEngine.Quaternion orientation, UnityEngine.Vector3 cutDirVec)
     // Offset: 0xFFFFFFFFFFFFFFFF

@@ -67,7 +67,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Get instance field reference: System.Int32[] v
     [[deprecated("Use field access instead!")]] ::ArrayW<int>& dyn_v();
     // public System.Void .ctor()
-    // Offset: 0x23AAC6C
+    // Offset: 0x239A738
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Ed25519::PointAccum* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum::.ctor");

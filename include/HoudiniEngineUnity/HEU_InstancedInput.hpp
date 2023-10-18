@@ -72,14 +72,14 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.Vector3 _scaleOffset
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn__scaleOffset();
     // public System.Void .ctor()
-    // Offset: 0x18DA240
+    // Offset: 0x18A9B1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InstancedInput* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InstancedInput::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_InstancedInput*, creationType>()));
     }
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InstancedInput other)
-    // Offset: 0x18DA0E4
+    // Offset: 0x18A99C0
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
   }; // HoudiniEngineUnity.HEU_InstancedInput
   #pragma pack(pop)

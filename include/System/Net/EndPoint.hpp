@@ -39,20 +39,20 @@ namespace System::Net {
   class EndPoint : public ::Il2CppObject {
     public:
     // public System.Net.Sockets.AddressFamily get_AddressFamily()
-    // Offset: 0x1ABD0B4
+    // Offset: 0x1AA5088
     ::System::Net::Sockets::AddressFamily get_AddressFamily();
     // protected System.Void .ctor()
-    // Offset: 0x1ABD278
+    // Offset: 0x1AA524C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EndPoint* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::EndPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EndPoint*, creationType>()));
     }
     // public System.Net.SocketAddress Serialize()
-    // Offset: 0x1ABD174
+    // Offset: 0x1AA5148
     ::System::Net::SocketAddress* Serialize();
     // public System.Net.EndPoint Create(System.Net.SocketAddress socketAddress)
-    // Offset: 0x1ABD234
+    // Offset: 0x1AA5208
     ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
   }; // System.Net.EndPoint
   #pragma pack(pop)

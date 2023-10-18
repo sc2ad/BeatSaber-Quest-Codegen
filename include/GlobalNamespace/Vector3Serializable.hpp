@@ -98,38 +98,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _z
     [[deprecated("Use field access instead!")]] int& dyn__z();
     // public System.Void .ctor(UnityEngine.Vector3 v)
-    // Offset: 0x2A24100
+    // Offset: 0x29D4730
     Vector3Serializable(::UnityEngine::Vector3 v);
     // public System.Void .ctor(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A241B4
+    // Offset: 0x29D47E4
     Vector3Serializable(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A1FA7C
+    // Offset: 0x29D00AC
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A1F868
+    // Offset: 0x29CFE98
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Boolean Equals(Vector3Serializable other)
-    // Offset: 0x2A217E0
+    // Offset: 0x29D1E10
     bool Equals(::GlobalNamespace::Vector3Serializable other);
     // public System.Boolean Approximately(Vector3Serializable other)
-    // Offset: 0x2A23E00
+    // Offset: 0x29D4430
     bool Approximately(::GlobalNamespace::Vector3Serializable other);
     // public System.Int32 GetSize()
-    // Offset: 0x2A21A50
+    // Offset: 0x29D2080
     int GetSize();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x2A23E70
+    // Offset: 0x29D44A0
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2A2192C
+    // Offset: 0x29D1F5C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x2A23F18
+    // Offset: 0x29D4548
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -138,10 +138,10 @@ namespace GlobalNamespace {
   static check_size<sizeof(Vector3Serializable), 8 + sizeof(int)> __GlobalNamespace_Vector3SerializableSizeCheck;
   static_assert(sizeof(Vector3Serializable) == 0xC);
   // static public Vector3Serializable op_Addition(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2A21D38
+  // Offset: 0x29D2368
   ::GlobalNamespace::Vector3Serializable operator+(const ::GlobalNamespace::Vector3Serializable& a, const ::GlobalNamespace::Vector3Serializable& b);
   // static public Vector3Serializable op_Subtraction(Vector3Serializable a, Vector3Serializable b)
-  // Offset: 0x2A21DD4
+  // Offset: 0x29D2404
   ::GlobalNamespace::Vector3Serializable operator-(const ::GlobalNamespace::Vector3Serializable& a, const ::GlobalNamespace::Vector3Serializable& b);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

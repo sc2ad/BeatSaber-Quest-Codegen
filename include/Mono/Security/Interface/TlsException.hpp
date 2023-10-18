@@ -53,14 +53,14 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private Mono.Security.Interface.Alert alert
     [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::Alert*& dyn_alert();
     // public System.Void .ctor(Mono.Security.Interface.Alert alert, System.String message)
-    // Offset: 0x23D2258
+    // Offset: 0x23C9694
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::TlsException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TlsException*, creationType>(alert, message)));
     }
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description, System.String message)
-    // Offset: 0x23D22DC
+    // Offset: 0x23C9718
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TlsException* New_ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::TlsException::.ctor");

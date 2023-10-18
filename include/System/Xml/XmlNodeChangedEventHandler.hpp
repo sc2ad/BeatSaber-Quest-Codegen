@@ -43,20 +43,20 @@ namespace System::Xml {
   class XmlNodeChangedEventHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x165BFD4
+    // Offset: 0x1670194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlNodeChangedEventHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlNodeChangedEventHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlNodeChangedEventHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Object sender, System.Xml.XmlNodeChangedEventArgs e)
-    // Offset: 0x165BFE4
+    // Offset: 0x16701A4
     void Invoke(::Il2CppObject* sender, ::System::Xml::XmlNodeChangedEventArgs* e);
     // public System.IAsyncResult BeginInvoke(System.Object sender, System.Xml.XmlNodeChangedEventArgs e, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x165C3CC
+    // Offset: 0x167058C
     ::System::IAsyncResult* BeginInvoke(::Il2CppObject* sender, ::System::Xml::XmlNodeChangedEventArgs* e, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x165C3FC
+    // Offset: 0x16705BC
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Xml.XmlNodeChangedEventHandler
   #pragma pack(pop)

@@ -76,46 +76,46 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& dyn_parameters();
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x1A09100
+    // Offset: 0x19EE1EC
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // public System.String get_Value()
-    // Offset: 0x1A0917C
+    // Offset: 0x19EE268
     ::StringW get_Value();
     // protected System.Void .ctor(System.Net.Http.Headers.TransferCodingHeaderValue source)
-    // Offset: 0x1A08F40
+    // Offset: 0x19EE02C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransferCodingHeaderValue* New_ctor(::System::Net::Http::Headers::TransferCodingHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::TransferCodingHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransferCodingHeaderValue*, creationType>(source)));
     }
     // System.Void .ctor()
-    // Offset: 0x1A09174
+    // Offset: 0x19EE260
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransferCodingHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::TransferCodingHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TransferCodingHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1A09184
+    // Offset: 0x19EE270
     ::Il2CppObject* System_ICloneable_Clone();
     // static System.Boolean TryParse(System.String input, System.Int32 minimalCount, out System.Collections.Generic.List`1<System.Net.Http.Headers.TransferCodingHeaderValue> result)
-    // Offset: 0x1A093A0
+    // Offset: 0x19EE48C
     static bool TryParse(::StringW input, int minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>*> result);
     // static private System.Boolean TryParseElement(System.Net.Http.Headers.Lexer lexer, out System.Net.Http.Headers.TransferCodingHeaderValue parsedValue, out System.Net.Http.Headers.Token t)
-    // Offset: 0x1A09440
+    // Offset: 0x19EE52C
     static bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1A091E4
+    // Offset: 0x19EE2D0
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A092B4
+    // Offset: 0x19EE3A0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1A09340
+    // Offset: 0x19EE42C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

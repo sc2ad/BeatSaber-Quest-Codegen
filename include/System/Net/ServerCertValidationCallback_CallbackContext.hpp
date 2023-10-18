@@ -77,7 +77,7 @@ namespace System::Net {
     // Get instance field reference: System.Boolean result
     [[deprecated("Use field access instead!")]] bool& dyn_result();
     // System.Void .ctor(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1C006C0
+    // Offset: 0x1BCC48C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback::CallbackContext* New_ctor(::Il2CppObject* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServerCertValidationCallback::CallbackContext::.ctor");

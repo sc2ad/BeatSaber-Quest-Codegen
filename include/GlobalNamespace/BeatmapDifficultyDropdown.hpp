@@ -97,44 +97,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <includeAllDifficulties>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$includeAllDifficulties$k__BackingField();
     // private System.Collections.Generic.IReadOnlyList`1<System.Tuple`2<BeatmapDifficultyMask,System.String>> get_beatmapDifficultyData()
-    // Offset: 0x155C9F4
+    // Offset: 0x1531140
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* get_beatmapDifficultyData();
     // public System.Boolean get_includeAllDifficulties()
-    // Offset: 0x155CBE0
+    // Offset: 0x153132C
     bool get_includeAllDifficulties();
     // public System.Void set_includeAllDifficulties(System.Boolean value)
-    // Offset: 0x155CBE8
+    // Offset: 0x1531334
     void set_includeAllDifficulties(bool value);
     // public System.Void add_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x155C8AC
+    // Offset: 0x1530FF8
     void add_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void remove_didSelectCellWithIdxEvent(System.Action`1<System.Int32> value)
-    // Offset: 0x155C950
+    // Offset: 0x153109C
     void remove_didSelectCellWithIdxEvent(::System::Action_1<int>* value);
     // public System.Void .ctor()
-    // Offset: 0x155D07C
+    // Offset: 0x15317C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapDifficultyDropdown* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapDifficultyDropdown::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapDifficultyDropdown*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x155CBF4
+    // Offset: 0x1531340
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x155CD74
+    // Offset: 0x15314C0
     void OnDestroy();
     // public BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask()
-    // Offset: 0x155CE50
+    // Offset: 0x153159C
     ::GlobalNamespace::BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask();
     // public System.Void SelectCellWithBeatmapDifficultyMask(BeatmapDifficultyMask beatmapDifficultyMask)
-    // Offset: 0x155CF24
+    // Offset: 0x1531670
     void SelectCellWithBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
     // private System.Int32 GetIdxForBeatmapDifficultyMask(BeatmapDifficultyMask beatmapDifficultyMask)
-    // Offset: 0x155CF60
+    // Offset: 0x15316AC
     int GetIdxForBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
     // private System.Void HandleSimpleTextDropdownDidSelectCellWithIdx(HMUI.DropdownWithTableView dropdownWithTableView, System.Int32 idx)
-    // Offset: 0x155D008
+    // Offset: 0x1531754
     void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int idx);
   }; // BeatmapDifficultyDropdown
   #pragma pack(pop)

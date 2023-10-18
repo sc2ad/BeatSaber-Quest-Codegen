@@ -36,17 +36,17 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0
     struct $$c__DisplayClass2_0;
     // static public BeatmapEventDataBoxGroup CreateExtendColorBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements)
-    // Offset: 0x155F704
+    // Offset: 0x1533E50
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendColorBeatmapEventDataBoxGroup(float beat, int numberOfElements);
     // static public BeatmapEventDataBoxGroup CreateExtendRotationBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements)
-    // Offset: 0x155F8D0
+    // Offset: 0x153401C
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateExtendRotationBeatmapEventDataBoxGroup(float beat, int numberOfElements);
     // static public BeatmapEventDataBoxGroup CreateSingleLightBeatmapEventDataBoxGroup(System.Single beat, System.Int32 numberOfElements, DefaultEnvironmentEvents/LightGroupEvent lightGroupEvent)
-    // Offset: 0x155FBBC
+    // Offset: 0x1534308
     static ::GlobalNamespace::BeatmapEventDataBoxGroup* CreateSingleLightBeatmapEventDataBoxGroup(float beat, int numberOfElements, ::GlobalNamespace::DefaultEnvironmentEvents::LightGroupEvent* lightGroupEvent);
-    // static IndexFilter <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0(DefaultEnvironmentEvents/LightGroupFiltering filtering, ref BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0 param_00011cea)
-    // Offset: 0x15603D4
-    static ::GlobalNamespace::IndexFilter* $CreateSingleLightBeatmapEventDataBoxGroup$g__CreateIndexFilter_2_0(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* filtering, ByRef<::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0> param_00011cea);
+    // static IndexFilter <CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0(DefaultEnvironmentEvents/LightGroupFiltering filtering, ref BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0 param_00011bf1)
+    // Offset: 0x1534B20
+    static ::GlobalNamespace::IndexFilter* $CreateSingleLightBeatmapEventDataBoxGroup$g__CreateIndexFilter_2_0(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering* filtering, ByRef<::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0> param_00011bf1);
   }; // BeatmapEventDataBoxGroupFactory
   #pragma pack(pop)
 }
@@ -88,7 +88,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (*)(::GlobalNamespace::DefaultEnvironmentEvents::LightGroupFiltering*, ByRef<::GlobalNamespace::BeatmapEventDataBoxGroupFactory::$$c__DisplayClass2_0>)>(&GlobalNamespace::BeatmapEventDataBoxGroupFactory::$CreateSingleLightBeatmapEventDataBoxGroup$g__CreateIndexFilter_2_0)> {
   static const MethodInfo* get() {
     static auto* filtering = &::il2cpp_utils::GetClassFromName("", "DefaultEnvironmentEvents/LightGroupFiltering")->byval_arg;
-    static auto* param_00011cea = &::il2cpp_utils::GetClassFromName("", "BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0")->this_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupFactory*), "<CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filtering, param_00011cea});
+    static auto* param_00011bf1 = &::il2cpp_utils::GetClassFromName("", "BeatmapEventDataBoxGroupFactory/<>c__DisplayClass2_0")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventDataBoxGroupFactory*), "<CreateSingleLightBeatmapEventDataBoxGroup>g__CreateIndexFilter|2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filtering, param_00011bf1});
   }
 };

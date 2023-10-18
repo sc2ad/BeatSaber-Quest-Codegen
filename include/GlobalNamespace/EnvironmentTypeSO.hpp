@@ -42,10 +42,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String _typeNameLocalizationKey
     [[deprecated("Use field access instead!")]] ::StringW& dyn__typeNameLocalizationKey();
     // public System.String get_typeNameLocalizationKey()
-    // Offset: 0x13C2960
+    // Offset: 0x14038C4
     ::StringW get_typeNameLocalizationKey();
     // public System.Void .ctor()
-    // Offset: 0x13C2968
+    // Offset: 0x14038CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentTypeSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentTypeSO::.ctor");

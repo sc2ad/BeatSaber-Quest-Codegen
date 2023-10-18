@@ -42,13 +42,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _distance
     [[deprecated("Use field access instead!")]] float& dyn__distance();
     // public System.Int32 get_playerCount()
-    // Offset: 0x13E74C8
+    // Offset: 0x13E691C
     int get_playerCount();
     // public System.Single get_distance()
-    // Offset: 0x13E74D0
+    // Offset: 0x13E6924
     float get_distance();
     // public System.Void .ctor()
-    // Offset: 0x13E74D8
+    // Offset: 0x13E692C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapObjectSpawnCenter::PlayerCountToDistance* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance::.ctor");

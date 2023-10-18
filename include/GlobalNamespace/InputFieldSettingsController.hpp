@@ -61,23 +61,23 @@ namespace GlobalNamespace {
     // Get instance field reference: protected StringSO _settingsValue
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StringSO*& dyn__settingsValue();
     // public System.Void .ctor()
-    // Offset: 0x13B0A28
+    // Offset: 0x139E340
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InputFieldSettingsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InputFieldSettingsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InputFieldSettingsController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13B0820
+    // Offset: 0x139E138
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x13B08C0
+    // Offset: 0x139E1D8
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x13B0960
+    // Offset: 0x139E278
     void OnEnable();
     // protected System.Void HandleInputFieldDidChange(HMUI.InputFieldView inputFieldView)
-    // Offset: 0x13B09BC
+    // Offset: 0x139E2D4
     void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
   }; // InputFieldSettingsController
   #pragma pack(pop)

@@ -52,13 +52,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.String get_id()
-    // Offset: 0x1414230
+    // Offset: 0x147AF24
     ::StringW get_id();
     // public UnityEngine.Color get_Color()
-    // Offset: 0x1414238
+    // Offset: 0x147AF2C
     ::UnityEngine::Color get_Color();
     // public System.Void .ctor()
-    // Offset: 0x1414244
+    // Offset: 0x147AF38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SkinColorSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SkinColorSO::.ctor");

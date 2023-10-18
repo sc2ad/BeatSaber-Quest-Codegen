@@ -96,39 +96,39 @@ namespace Org::BouncyCastle::X509 {
     // Get instance field reference: private System.IO.Stream currentCrlStream
     [[deprecated("Use field access instead!")]] ::System::IO::Stream*& dyn_currentCrlStream();
     // public System.Void .ctor()
-    // Offset: 0x268F830
+    // Offset: 0x269009C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>()));
     }
     // public System.Void .ctor(System.Boolean lazyAsn1)
-    // Offset: 0x268F858
+    // Offset: 0x26900C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509CrlParser* New_ctor(bool lazyAsn1) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::X509::X509CrlParser::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509CrlParser*, creationType>(lazyAsn1)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x268FF9C
+    // Offset: 0x2690808
     static void _cctor();
     // private Org.BouncyCastle.X509.X509Crl ReadPemCrl(System.IO.Stream inStream)
-    // Offset: 0x268F888
+    // Offset: 0x26900F4
     ::Org::BouncyCastle::X509::X509Crl* ReadPemCrl(::System::IO::Stream* inStream);
     // private Org.BouncyCastle.X509.X509Crl ReadDerCrl(Org.BouncyCastle.Asn1.Asn1InputStream dIn)
-    // Offset: 0x268F93C
+    // Offset: 0x26901A8
     ::Org::BouncyCastle::X509::X509Crl* ReadDerCrl(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
     // private Org.BouncyCastle.X509.X509Crl GetCrl()
-    // Offset: 0x268FB40
+    // Offset: 0x26903AC
     ::Org::BouncyCastle::X509::X509Crl* GetCrl();
     // protected Org.BouncyCastle.X509.X509Crl CreateX509Crl(Org.BouncyCastle.Asn1.X509.CertificateList c)
-    // Offset: 0x268FBC8
+    // Offset: 0x2690434
     ::Org::BouncyCastle::X509::X509Crl* CreateX509Crl(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
-    // Offset: 0x268FC28
+    // Offset: 0x2690494
     ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayW<uint8_t> input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
-    // Offset: 0x268FCA0
+    // Offset: 0x269050C
     ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::System::IO::Stream* inStream);
   }; // Org.BouncyCastle.X509.X509CrlParser
   #pragma pack(pop)

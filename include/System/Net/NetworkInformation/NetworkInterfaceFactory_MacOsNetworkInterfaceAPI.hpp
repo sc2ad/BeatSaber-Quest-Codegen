@@ -34,7 +34,7 @@ namespace System::Net::NetworkInformation {
   class NetworkInterfaceFactory::MacOsNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1BF910C
+    // Offset: 0x1BC4ED8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.UnixNetworkInterfaceAPI
     // Base method: System.Void UnixNetworkInterfaceAPI::.ctor()
     // Base method: System.Void NetworkInterfaceFactory::.ctor()
@@ -44,7 +44,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInterfaceFactory::MacOsNetworkInterfaceAPI*, creationType>()));
     }
     // public override System.Net.NetworkInformation.NetworkInterface[] GetAllNetworkInterfaces()
-    // Offset: 0x1BF9BEC
+    // Offset: 0x1BC59B8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();

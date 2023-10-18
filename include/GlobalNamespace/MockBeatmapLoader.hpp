@@ -79,17 +79,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BeatmapLevelsModel _beatmapLevelsModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapLevelsModel*& dyn__beatmapLevelsModel();
     // public System.Void .ctor(BeatmapLevelsModel beatmapLevelsModel)
-    // Offset: 0x14BEF94
+    // Offset: 0x141A3C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockBeatmapLoader* New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockBeatmapLoader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockBeatmapLoader*, creationType>(beatmapLevelsModel)));
     }
     // public System.Threading.Tasks.Task`1<MockBeatmapData> GetBeatmapData(BeatmapIdentifierNetSerializable beatmap, System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x14BEFC0
+    // Offset: 0x141A3EC
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap, ::System::Threading::CancellationToken cancellationToken);
     // public System.Void Dispose()
-    // Offset: 0x14BF0D8
+    // Offset: 0x141A504
     void Dispose();
   }; // MockBeatmapLoader
   #pragma pack(pop)

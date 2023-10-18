@@ -60,34 +60,34 @@ namespace HoudiniEngineUnity {
     // Set static field: static private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterface> _inputInterfaces
     static void _set__inputInterfaces(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x18D9E9C
+    // Offset: 0x18A9778
     static void _cctor();
     // static public System.Int32 GetHighestPriority()
-    // Offset: 0x18D999C
+    // Offset: 0x18A9278
     static int GetHighestPriority();
     // static public System.Void RegisterInputInterface(HoudiniEngineUnity.HEU_InputInterface inputInterface)
-    // Offset: 0x18CCA8C
+    // Offset: 0x189C368
     static void RegisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
     // static public System.Void UnregisterInputInterface(HoudiniEngineUnity.HEU_InputInterface inputInterface)
-    // Offset: 0x18D9BE0
+    // Offset: 0x18A94BC
     static void UnregisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
     // static public HoudiniEngineUnity.HEU_InputInterface GetInputInterfaceByType(System.Type type)
-    // Offset: 0x18D9A6C
+    // Offset: 0x18A9348
     static ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterfaceByType(::System::Type* type);
     // static public HoudiniEngineUnity.HEU_InputInterface GetInputInterface(UnityEngine.GameObject inputObject)
-    // Offset: 0x18D9C64
+    // Offset: 0x18A9540
     static ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::UnityEngine::GameObject* inputObject);
     // static public HoudiniEngineUnity.HEU_InputInterface GetInputInterface(HoudiniEngineUnity.HEU_InputObjectInfo inputObjectInfo)
-    // Offset: 0x18D9DA0
+    // Offset: 0x18A967C
     static ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::HoudiniEngineUnity::HEU_InputObjectInfo* inputObjectInfo);
     // static public System.Boolean CreateInputNodeWithMultiObjects(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, ref System.Int32 connectMergeID, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectInfo> inputObjects, ref System.Collections.Generic.List`1<System.Int32> inputObjectsConnectedAssetIDs, HoudiniEngineUnity.HEU_InputNode inputNode)
-    // Offset: 0x18D6DB4
+    // Offset: 0x18A6690
     static bool CreateInputNodeWithMultiObjects(::HoudiniEngineUnity::HEU_SessionBase* session, int assetID, ByRef<int> connectMergeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> inputObjects, ByRef<::System::Collections::Generic::List_1<int>*> inputObjectsConnectedAssetIDs, ::HoudiniEngineUnity::HEU_InputNode* inputNode);
     // static public System.Boolean CreateInputNodeWithMultiAssets(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, ref System.Int32 connectMergeID, ref System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputHDAInfo> inputAssetInfos, System.Boolean bKeepWorldTransform, System.Int32 mergeParentID)
-    // Offset: 0x18D637C
+    // Offset: 0x18A5C58
     static bool CreateInputNodeWithMultiAssets(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ByRef<int> connectMergeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> inputAssetInfos, bool bKeepWorldTransform, int mergeParentID);
     // static public System.Boolean UploadInputObjectTransform(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_InputObjectInfo inputObject, System.Int32 inputNodeID, System.Boolean bKeepWorldTransform)
-    // Offset: 0x18D7BF8
+    // Offset: 0x18A74D4
     static bool UploadInputObjectTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputObjectInfo* inputObject, int inputNodeID, bool bKeepWorldTransform);
   }; // HoudiniEngineUnity.HEU_InputUtility
   #pragma pack(pop)

@@ -37,14 +37,14 @@ namespace GlobalNamespace {
   class HealthWarningDisplayViewController : public ::HMUI::ViewController {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x112F284
+    // [HeaderAttribute] Offset: 0x112C1D8
     // private TMPro.TextMeshProUGUI _healthAndSafetyTextMesh
     // Size: 0x8
     // Offset: 0x70
     ::TMPro::TextMeshProUGUI* healthAndSafetyTextMesh;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
-    // [LocalizationKeyAttribute] Offset: 0x112F2D0
+    // [LocalizationKeyAttribute] Offset: 0x112C224
     // private System.String _healthAndSafetyFullLocalizationKey
     // Size: 0x8
     // Offset: 0x78
@@ -65,14 +65,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _showShortHealthAndSafety
     [[deprecated("Use field access instead!")]] bool& dyn__showShortHealthAndSafety();
     // public System.Void .ctor()
-    // Offset: 0x13ABF30
+    // Offset: 0x1399848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HealthWarningDisplayViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HealthWarningDisplayViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HealthWarningDisplayViewController*, creationType>()));
     }
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x13ABEE8
+    // Offset: 0x1399800
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

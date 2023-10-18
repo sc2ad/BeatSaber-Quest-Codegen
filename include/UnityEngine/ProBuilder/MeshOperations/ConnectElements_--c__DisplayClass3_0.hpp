@@ -52,14 +52,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> appended
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<int>*& dyn_appended();
     // public System.Void .ctor()
-    // Offset: 0x1A80EFC
+    // Offset: 0x1A7B934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectElements::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectElements::$$c__DisplayClass3_0*, creationType>()));
     }
     // System.Boolean <Connect>b__3(UnityEngine.ProBuilder.Edge x)
-    // Offset: 0x1A81334
+    // Offset: 0x1A7BD6C
     bool $Connect$b__3(::UnityEngine::ProBuilder::Edge x);
   }; // UnityEngine.ProBuilder.MeshOperations.ConnectElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass3_0
   #pragma pack(pop)

@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithAssetFileDownloadCancelResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*> {
     public:
     // protected Oculus.Platform.Models.AssetFileDownloadCancelResult GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A3D830
+    // Offset: 0x1A38268
     ::Oculus::Platform::Models::AssetFileDownloadCancelResult* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A3AC24
+    // Offset: 0x1A3565C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAssetFileDownloadCancelResult*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AssetFileDownloadCancelResult GetAssetFileDownloadCancelResult()
-    // Offset: 0x1A3D7EC
+    // Offset: 0x1A38224
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetFileDownloadCancelResult Message::GetAssetFileDownloadCancelResult()
     ::Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();

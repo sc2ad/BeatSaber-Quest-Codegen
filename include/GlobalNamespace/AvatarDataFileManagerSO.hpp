@@ -62,20 +62,20 @@ namespace GlobalNamespace {
     // Set static field: static private System.String kBackupFileName
     static void _set_kBackupFileName(::StringW value);
     // public System.Void .ctor()
-    // Offset: 0x157ED6C
+    // Offset: 0x157DFD0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarDataFileManagerSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarDataFileManagerSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AvatarDataFileManagerSO*, creationType>()));
     }
     // public System.Void Save(AvatarData avatarData)
-    // Offset: 0x157E9A4
+    // Offset: 0x157DC08
     void Save(::GlobalNamespace::AvatarData* avatarData);
     // public AvatarData Load()
-    // Offset: 0x157EB0C
+    // Offset: 0x157DD70
     ::GlobalNamespace::AvatarData* Load();
     // private AvatarData LoadFromCurrentVersion(AvatarSaveData avatarSaveData)
-    // Offset: 0x157EBA0
+    // Offset: 0x157DE04
     ::GlobalNamespace::AvatarData* LoadFromCurrentVersion(::GlobalNamespace::AvatarSaveData* avatarSaveData);
   }; // AvatarDataFileManagerSO
   #pragma pack(pop)

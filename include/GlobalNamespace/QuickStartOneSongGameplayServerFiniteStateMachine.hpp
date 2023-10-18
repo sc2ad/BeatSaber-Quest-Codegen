@@ -11,22 +11,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "beatsaber-hook/shared/utils/utils.h"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: BGNet::Core
-namespace BGNet::Core {
-  // Forward declaring type: ITimeProvider
-  class ITimeProvider;
-}
-// Forward declaring namespace: GlobalNamespace
-namespace GlobalNamespace {
-  // Forward declaring type: IMultiplayerSessionManager
-  class IMultiplayerSessionManager;
-  // Forward declaring type: IServerBeatmapProvider
-  class IServerBeatmapProvider;
-}
-// Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
   // Forward declaring type: QuickStartOneSongGameplayServerFiniteStateMachine
@@ -43,14 +28,14 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuickStartOneSongGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {
     public:
-    // public System.Void .ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
-    // Offset: 0x26B3E24
+    // public System.Void .ctor(GameplayServerFiniteStateMachine/InitParams initParams)
+    // Offset: 0x1A03D40
     // Implemented from: GameplayServerFiniteStateMachine
-    // Base method: System.Void GameplayServerFiniteStateMachine::.ctor(BGNet.Core.ITimeProvider timeProvider, IMultiplayerSessionManager multiplayerSessionManager, System.String ownerUserId, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, IServerBeatmapProvider beatmapProvider)
+    // Base method: System.Void GameplayServerFiniteStateMachine::.ctor(GameplayServerFiniteStateMachine/InitParams initParams)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static QuickStartOneSongGameplayServerFiniteStateMachine* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW ownerUserId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
+    static QuickStartOneSongGameplayServerFiniteStateMachine* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine::InitParams initParams) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::QuickStartOneSongGameplayServerFiniteStateMachine::.ctor");
-      return THROW_UNLESS((::il2cpp_utils::New<QuickStartOneSongGameplayServerFiniteStateMachine*, creationType>(timeProvider, multiplayerSessionManager, ownerUserId, selectionMask, configuration, beatmapProvider)));
+      return THROW_UNLESS((::il2cpp_utils::New<QuickStartOneSongGameplayServerFiniteStateMachine*, creationType>(initParams)));
     }
   }; // QuickStartOneSongGameplayServerFiniteStateMachine
   #pragma pack(pop)

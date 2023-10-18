@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     ::UnityEngine::CanvasGroup* globalCanvasGroup;
     // Field size check
     static_assert(sizeof(::UnityEngine::CanvasGroup*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126B10
+    // [SpaceAttribute] Offset: 0x11238E4
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -114,49 +114,49 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126B58
+    // [SpaceAttribute] Offset: 0x112392C
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126B90
+    // [SpaceAttribute] Offset: 0x1123964
     // private UnityEngine.GameObject _dontOwnSongGameObject
     // Size: 0x8
     // Offset: 0x50
     ::UnityEngine::GameObject* dontOwnSongGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126BC8
+    // [SpaceAttribute] Offset: 0x112399C
     // private UnityEngine.GameObject _detailsGameObject
     // Size: 0x8
     // Offset: 0x58
     ::UnityEngine::GameObject* detailsGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126C00
+    // [InjectAttribute] Offset: 0x11239D4
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126C10
+    // [InjectAttribute] Offset: 0x11239E4
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* disconnectHelper;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126C20
+    // [InjectAttribute] Offset: 0x11239F4
     // private readonly MultiplayerController _multiplayerController
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::MultiplayerController* multiplayerController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126C30
+    // [InjectAttribute] Offset: 0x1123A04
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x78
@@ -217,44 +217,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private Tweening.Tween _fadeOutTween
     [[deprecated("Use field access instead!")]] ::Tweening::Tween*& dyn__fadeOutTween();
     // public System.Void .ctor()
-    // Offset: 0x1407360
+    // Offset: 0x13D78AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalInactivePlayerInGameMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalInactivePlayerInGameMenuViewController*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x1406C5C
+    // Offset: 0x13D71A8
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1406D88
+    // Offset: 0x13D72D4
     void OnDisable();
     // protected System.Void Start()
-    // Offset: 0x1406E3C
+    // Offset: 0x13D7388
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1406F84
+    // Offset: 0x13D74D0
     void OnDestroy();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0x14070B4
+    // Offset: 0x13D7600
     void DisconnectButtonPressed();
     // private System.Void DetailsToggleValueChanged(System.Boolean isOn)
-    // Offset: 0x14070F4
+    // Offset: 0x13D7640
     void DetailsToggleValueChanged(bool isOn);
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x1407114
+    // Offset: 0x13D7660
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void HandleStateChanged(MultiplayerController/State state)
-    // Offset: 0x14071D8
+    // Offset: 0x13D7724
     void HandleStateChanged(::GlobalNamespace::MultiplayerController::State state);
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__22_0()
-    // Offset: 0x14073E8
+    // Offset: 0x13D7934
     void $HandleDisconnectPromptViewDidViewFinish$b__22_0();
     // private System.Void <HandleStateChanged>b__23_0(System.Single val)
-    // Offset: 0x1407408
+    // Offset: 0x13D7954
     void $HandleStateChanged$b__23_0(float val);
     // private System.Void <HandleStateChanged>b__23_1()
-    // Offset: 0x1407424
+    // Offset: 0x13D7970
     void $HandleStateChanged$b__23_1();
   }; // MultiplayerLocalInactivePlayerInGameMenuViewController
   #pragma pack(pop)

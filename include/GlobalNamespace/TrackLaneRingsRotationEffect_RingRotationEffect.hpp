@@ -66,7 +66,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 progressPos
     [[deprecated("Use field access instead!")]] int& dyn_progressPos();
     // public System.Void .ctor()
-    // Offset: 0x13A1534
+    // Offset: 0x13B3D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TrackLaneRingsRotationEffect::RingRotationEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::.ctor");

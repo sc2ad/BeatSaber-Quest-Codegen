@@ -29,14 +29,14 @@ namespace GlobalNamespace {
   class SteamInit : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1398574
+    // Offset: 0x13AADAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamInit* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamInit::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamInit*, creationType>()));
     }
     // public System.Void Init()
-    // Offset: 0x1398570
+    // Offset: 0x13AADA8
     void Init();
   }; // SteamInit
   #pragma pack(pop)

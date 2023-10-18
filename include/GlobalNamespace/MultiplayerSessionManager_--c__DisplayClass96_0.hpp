@@ -47,14 +47,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String userId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_userId();
     // public System.Void .ctor()
-    // Offset: 0x1766EF0
+    // Offset: 0x19FB34C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerSessionManager::$$c__DisplayClass96_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerSessionManager::$$c__DisplayClass96_0*, creationType>()));
     }
     // System.Boolean <GetPlayerByUserId>b__0(IConnectedPlayer player)
-    // Offset: 0x1767338
+    // Offset: 0x19FB7F8
     bool $GetPlayerByUserId$b__0(::GlobalNamespace::IConnectedPlayer* player);
   }; // MultiplayerSessionManager/<>c__DisplayClass96_0
   #pragma pack(pop)

@@ -42,7 +42,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _gameObjectName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__gameObjectName();
     // public System.Void .ctor()
-    // Offset: 0x18CC834
+    // Offset: 0x189C110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputAssetPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputAssetPreset::.ctor");

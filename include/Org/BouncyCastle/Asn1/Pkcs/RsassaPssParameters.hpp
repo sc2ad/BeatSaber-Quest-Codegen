@@ -95,30 +95,30 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerInteger trailerField
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_trailerField();
     // public Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier get_HashAlgorithm()
-    // Offset: 0x1D9B0EC
+    // Offset: 0x1D871A0
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm, Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier maskGenAlgorithm, Org.BouncyCastle.Asn1.DerInteger saltLength, Org.BouncyCastle.Asn1.DerInteger trailerField)
-    // Offset: 0x1D9B0A0
+    // Offset: 0x1D87154
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm, ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsassaPssParameters*, creationType>(hashAlgorithm, maskGenAlgorithm, saltLength, trailerField)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1D9AEB8
+    // Offset: 0x1D86F6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RsassaPssParameters*, creationType>(seq)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1D9B380
+    // Offset: 0x1D87434
     static void _cctor();
     // static public Org.BouncyCastle.Asn1.Pkcs.RsassaPssParameters GetInstance(System.Object obj)
-    // Offset: 0x1D9AD38
+    // Offset: 0x1D86DEC
     static ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::Il2CppObject* obj);
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1D9B0F4
+    // Offset: 0x1D871A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

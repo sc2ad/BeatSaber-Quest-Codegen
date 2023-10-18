@@ -36,14 +36,14 @@ namespace System::Net::Configuration {
   class WebProxyScriptElement : public ::System::Configuration::ConfigurationElement {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1AB22FC
+    // Offset: 0x1A9A2D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebProxyScriptElement* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Configuration::WebProxyScriptElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxyScriptElement*, creationType>()));
     }
     // protected override System.Configuration.ConfigurationPropertyCollection get_Properties()
-    // Offset: 0x1AB233C
+    // Offset: 0x1A9A310
     // Implemented from: System.Configuration.ConfigurationElement
     // Base method: System.Configuration.ConfigurationPropertyCollection ConfigurationElement::get_Properties()
     ::System::Configuration::ConfigurationPropertyCollection* get_Properties();

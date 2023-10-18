@@ -66,23 +66,23 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger iterationCount
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Asn1::DerInteger*& dyn_iterationCount();
     // public Org.BouncyCastle.Math.BigInteger get_IterationCount()
-    // Offset: 0x1D9727C
+    // Offset: 0x1D83330
     ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
     // private System.Void .ctor(Org.BouncyCastle.Asn1.Asn1Sequence seq)
-    // Offset: 0x1D9715C
+    // Offset: 0x1D83210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PbeParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PbeParameter*, creationType>(seq)));
     }
     // static public Org.BouncyCastle.Asn1.Pkcs.PbeParameter GetInstance(System.Object obj)
-    // Offset: 0x1D96FDC
+    // Offset: 0x1D83090
     static ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
-    // Offset: 0x1D9725C
+    // Offset: 0x1D83310
     ::ArrayW<uint8_t> GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
-    // Offset: 0x1D97298
+    // Offset: 0x1D8334C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
     // Base method: Org.BouncyCastle.Asn1.Asn1Object Asn1Encodable::ToAsn1Object()
     ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();

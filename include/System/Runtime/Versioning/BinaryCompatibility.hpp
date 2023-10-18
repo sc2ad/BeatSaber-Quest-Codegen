@@ -31,10 +31,10 @@ namespace System::Runtime::Versioning {
     // Set static field: static public readonly System.Boolean TargetsAtLeast_Desktop_V4_5_1
     static void _set_TargetsAtLeast_Desktop_V4_5_1(bool value);
     // static public System.Boolean get_TargetsAtLeast_Desktop_V4_5_2()
-    // Offset: 0x16A6D80
+    // Offset: 0x16C9330
     static bool get_TargetsAtLeast_Desktop_V4_5_2();
     // static private System.Void .cctor()
-    // Offset: 0x16A6D88
+    // Offset: 0x16C9338
     static void _cctor();
   }; // System.Runtime.Versioning.BinaryCompatibility
   #pragma pack(pop)

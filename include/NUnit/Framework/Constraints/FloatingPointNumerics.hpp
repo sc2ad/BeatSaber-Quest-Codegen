@@ -32,10 +32,10 @@ namespace NUnit::Framework::Constraints {
     // Nested type: ::NUnit::Framework::Constraints::FloatingPointNumerics::DoubleLongUnion
     struct DoubleLongUnion;
     // static public System.Boolean AreAlmostEqualUlps(System.Single left, System.Single right, System.Int32 maxUlps)
-    // Offset: 0x1D66F5C
+    // Offset: 0x1D52C0C
     static bool AreAlmostEqualUlps(float left, float right, int maxUlps);
     // static public System.Boolean AreAlmostEqualUlps(System.Double left, System.Double right, System.Int64 maxUlps)
-    // Offset: 0x1D6707C
+    // Offset: 0x1D52D2C
     static bool AreAlmostEqualUlps(double left, double right, int64_t maxUlps);
   }; // NUnit.Framework.Constraints.FloatingPointNumerics
   #pragma pack(pop)

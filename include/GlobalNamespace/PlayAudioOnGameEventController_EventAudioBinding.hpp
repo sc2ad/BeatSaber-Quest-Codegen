@@ -39,7 +39,7 @@ namespace GlobalNamespace {
   class PlayAudioOnGameEventController::EventAudioBinding : public ::Il2CppObject {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x113535C
+    // [HeaderAttribute] Offset: 0x1132340
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -84,20 +84,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::RandomObjectPicker_1<::GlobalNamespace::LocalizedAudioClipSO*>*& dyn__randomObjectPicker();
     // public System.Void .ctor()
-    // Offset: 0x15A50C0
+    // Offset: 0x159EF2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlayAudioOnGameEventController::EventAudioBinding* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlayAudioOnGameEventController::EventAudioBinding*, creationType>()));
     }
     // public System.Void Init(AudioClipQueue audioClipQueue)
-    // Offset: 0x15A4E24
+    // Offset: 0x159EC90
     void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
     // public System.Void Deinit()
-    // Offset: 0x15A4F58
+    // Offset: 0x159EDC4
     void Deinit();
     // private System.Void HandleGameEvent()
-    // Offset: 0x15A4FEC
+    // Offset: 0x159EE58
     void HandleGameEvent();
   }; // PlayAudioOnGameEventController/EventAudioBinding
   #pragma pack(pop)

@@ -58,14 +58,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& dyn__tutorialSceneSetupData();
     // public System.Void .ctor()
-    // Offset: 0x13A6408
+    // Offset: 0x13B9194
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TutorialReturnToMenuController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TutorialReturnToMenuController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TutorialReturnToMenuController*, creationType>()));
     }
     // public System.Void ReturnToMenu()
-    // Offset: 0x13A63EC
+    // Offset: 0x13B9178
     void ReturnToMenu();
   }; // TutorialReturnToMenuController
   #pragma pack(pop)

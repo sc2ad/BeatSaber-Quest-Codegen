@@ -60,7 +60,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> _inputPresets
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& dyn__inputPresets();
     // public System.Void .ctor()
-    // Offset: 0x1B63CD4
+    // Offset: 0x1B2B794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_RecookPreset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_RecookPreset::.ctor");

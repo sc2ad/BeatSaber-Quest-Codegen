@@ -62,13 +62,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private LocalizedTextAsset/TextInfo _lastTextInfo
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::LocalizedTextAsset::TextInfo*& dyn__lastTextInfo();
     // public LocalizedTextAsset/TextInfo[] get_textInfos()
-    // Offset: 0x1370714
+    // Offset: 0x13815CC
     ::ArrayW<::GlobalNamespace::LocalizedTextAsset::TextInfo*> get_textInfos();
     // public System.String get_localizedText()
-    // Offset: 0x137071C
+    // Offset: 0x13815D4
     ::StringW get_localizedText();
     // public System.Void .ctor()
-    // Offset: 0x1370A08
+    // Offset: 0x13818C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalizedTextAsset* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalizedTextAsset::.ctor");

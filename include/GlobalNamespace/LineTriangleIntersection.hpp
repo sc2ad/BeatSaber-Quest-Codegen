@@ -36,14 +36,14 @@ namespace GlobalNamespace {
   class LineTriangleIntersection : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x162DA24
+    // Offset: 0x1641624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LineTriangleIntersection* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LineTriangleIntersection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LineTriangleIntersection*, creationType>()));
     }
     // static public System.Boolean Intersects(UnityEngine.Ray ray, UnityEngine.Vector3 p0, UnityEngine.Vector3 p1, UnityEngine.Vector3 p2)
-    // Offset: 0x162DA1C
+    // Offset: 0x164161C
     static bool Intersects(::UnityEngine::Ray ray, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
   }; // LineTriangleIntersection
   #pragma pack(pop)

@@ -43,67 +43,67 @@ namespace HoudiniEngineUnity {
   class HEU_ParameterUtility : public ::Il2CppObject {
     public:
     // static public System.Boolean GetToggle(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Boolean outValue)
-    // Offset: 0x1B3C364
+    // Offset: 0x1B15420
     static bool GetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<bool> outValue);
     // static public System.Boolean SetToggle(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Boolean setValue)
-    // Offset: 0x1B3C5BC
+    // Offset: 0x1B15678
     static bool SetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, bool setValue);
     // static public System.Boolean GetInt(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Int32 outValue)
-    // Offset: 0x1B3C6E4
+    // Offset: 0x1B157A0
     static bool GetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<int> outValue);
     // static public System.Boolean SetInt(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Int32 setValue)
-    // Offset: 0x1B3C81C
+    // Offset: 0x1B158D8
     static bool SetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int setValue);
     // static public System.Boolean GetFloat(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Single outValue)
-    // Offset: 0x1B3C94C
+    // Offset: 0x1B15A08
     static bool GetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<float> outValue);
     // static public System.Boolean GetFloats(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Single[] outValues)
-    // Offset: 0x1B3CA88
+    // Offset: 0x1B15B44
     static bool GetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::ArrayW<float>> outValues);
     // static public System.Boolean SetFloat(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Single setValue)
-    // Offset: 0x1B3CBC8
+    // Offset: 0x1B15C84
     static bool SetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, float setValue);
     // static public System.Boolean SetFloats(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Single[] setValues)
-    // Offset: 0x1B3CD04
+    // Offset: 0x1B15DC0
     static bool SetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::ArrayW<float> setValues);
     // static public System.Boolean GetString(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.String outValue)
-    // Offset: 0x1B3CE28
+    // Offset: 0x1B15EE4
     static bool GetString(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::StringW> outValue);
     // static public System.Boolean SetString(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.String setValue)
-    // Offset: 0x1B3CF68
+    // Offset: 0x1B16024
     static bool SetString(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::StringW setValue);
     // static public System.Boolean SetChoice(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Int32 setValue)
-    // Offset: 0x1B3D0B8
+    // Offset: 0x1B16174
     static bool SetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int setValue);
     // static public System.Boolean GetChoice(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out System.Int32 outValue)
-    // Offset: 0x1B3D234
+    // Offset: 0x1B162F0
     static bool GetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<int> outValue);
     // static public System.Boolean SetInputNode(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, UnityEngine.GameObject obj, System.Int32 index)
-    // Offset: 0x1B3D394
+    // Offset: 0x1B16450
     static bool SetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::UnityEngine::GameObject* obj, int index);
     // static public System.Boolean GetInputNode(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, System.Int32 index, out UnityEngine.GameObject obj)
-    // Offset: 0x1B3D544
+    // Offset: 0x1B16600
     static bool GetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int index, ByRef<::UnityEngine::GameObject*> obj);
     // static public System.Boolean GetColor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, out UnityEngine.Color getValue)
-    // Offset: 0x1B3D6FC
+    // Offset: 0x1B167B8
     static bool GetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::UnityEngine::Color> getValue);
     // static public System.Boolean SetColor(HoudiniEngineUnity.HEU_HoudiniAsset asset, System.String paramName, UnityEngine.Color setValue)
-    // Offset: 0x1B3D834
+    // Offset: 0x1B168F0
     static bool SetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::UnityEngine::Color setValue);
     // static public System.Int32 GetParameterIndexFromName(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName)
-    // Offset: 0x1B3D978
+    // Offset: 0x1B16A34
     static int GetParameterIndexFromName(::HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName);
     // static public System.Int32 GetParameterIndexFromNameOrTag(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName)
-    // Offset: 0x1B3DA7C
+    // Offset: 0x1B16B38
     static int GetParameterIndexFromNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName);
     // static public System.Int32 FindTextureParamByNameOrTag(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName, System.String useTextureParmName)
-    // Offset: 0x1B3DAF0
+    // Offset: 0x1B16BAC
     static int FindTextureParamByNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName, ::StringW useTextureParmName);
     // static public System.Boolean GetParameterFloatValue(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName, System.Single defaultValue, out System.Single returnValue)
-    // Offset: 0x1B3DCC4
+    // Offset: 0x1B16D80
     static bool GetParameterFloatValue(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName, float defaultValue, ByRef<float> returnValue);
     // static public System.Boolean GetParameterColor3Value(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.String parameterName, UnityEngine.Color defaultValue, out UnityEngine.Color outputColor)
-    // Offset: 0x1B3DDE0
+    // Offset: 0x1B16E9C
     static bool GetParameterColor3Value(::HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo> parameters, ::StringW parameterName, ::UnityEngine::Color defaultValue, ByRef<::UnityEngine::Color> outputColor);
   }; // HoudiniEngineUnity.HEU_ParameterUtility
   #pragma pack(pop)

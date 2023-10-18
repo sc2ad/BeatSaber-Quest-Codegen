@@ -131,35 +131,35 @@ namespace GlobalNamespace {
     static check_size<sizeof(StandardLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_StandardLevelGameplayManager_GameStateSizeCheck;
     static_assert(sizeof(StandardLevelGameplayManager::GameState) == 0x4);
     public:
-    // [InjectAttribute] Offset: 0x11265D8
+    // [InjectAttribute] Offset: 0x11233AC
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x11265E8
+    // [InjectAttribute] Offset: 0x11233BC
     // private readonly GameSongController _gameSongController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::GameSongController* gameSongController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameSongController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11265F8
+    // [InjectAttribute] Offset: 0x11233CC
     // private readonly GameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::GameEnergyCounter* gameEnergyCounter;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameEnergyCounter*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126608
+    // [InjectAttribute] Offset: 0x11233DC
     // private readonly PauseController _pauseController
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::PauseController* pauseController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::PauseController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126618
+    // [InjectAttribute] Offset: 0x11233EC
     // private readonly StandardLevelGameplayManager/InitData _initData
     // Size: 0x8
     // Offset: 0x38
@@ -244,62 +244,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private StandardLevelGameplayManager/GameState _prePauseGameState
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::StandardLevelGameplayManager::GameState& dyn__prePauseGameState();
     // public System.Void add_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1396094
+    // Offset: 0x13A88CC
     void add_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void remove_levelWillStartIntroEvent(System.Action value)
-    // Offset: 0x1396138
+    // Offset: 0x13A8970
     void remove_levelWillStartIntroEvent(::System::Action* value);
     // public System.Void add_levelDidStartEvent(System.Action value)
-    // Offset: 0x13961DC
+    // Offset: 0x13A8A14
     void add_levelDidStartEvent(::System::Action* value);
     // public System.Void remove_levelDidStartEvent(System.Action value)
-    // Offset: 0x1396280
+    // Offset: 0x13A8AB8
     void remove_levelDidStartEvent(::System::Action* value);
     // public System.Void add_levelFailedEvent(System.Action value)
-    // Offset: 0x1396324
+    // Offset: 0x13A8B5C
     void add_levelFailedEvent(::System::Action* value);
     // public System.Void remove_levelFailedEvent(System.Action value)
-    // Offset: 0x13963C8
+    // Offset: 0x13A8C00
     void remove_levelFailedEvent(::System::Action* value);
     // public System.Void add_levelFinishedEvent(System.Action value)
-    // Offset: 0x139646C
+    // Offset: 0x13A8CA4
     void add_levelFinishedEvent(::System::Action* value);
     // public System.Void remove_levelFinishedEvent(System.Action value)
-    // Offset: 0x1396510
+    // Offset: 0x13A8D48
     void remove_levelFinishedEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1396A0C
+    // Offset: 0x13A9244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelGameplayManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelGameplayManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelGameplayManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x13965B4
+    // Offset: 0x13A8DEC
     void Awake();
     // private System.Collections.IEnumerator Start()
-    // Offset: 0x13965BC
+    // Offset: 0x13A8DF4
     ::System::Collections::IEnumerator* Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1396658
+    // Offset: 0x13A8E90
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x139689C
+    // Offset: 0x13A90D4
     void Update();
     // private System.Void HandleGameEnergyDidReach0()
-    // Offset: 0x13968E4
+    // Offset: 0x13A911C
     void HandleGameEnergyDidReach0();
     // private System.Void HandleSongDidFinish()
-    // Offset: 0x1396930
+    // Offset: 0x13A9168
     void HandleSongDidFinish();
     // private System.Void HandlePauseControllerCanPause(System.Action`1<System.Boolean> canPause)
-    // Offset: 0x1396960
+    // Offset: 0x13A9198
     void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
     // private System.Void HandlePauseControllerDidPause()
-    // Offset: 0x13969DC
+    // Offset: 0x13A9214
     void HandlePauseControllerDidPause();
     // private System.Void HandlePauseControllerDidResume()
-    // Offset: 0x13969F4
+    // Offset: 0x13A922C
     void HandlePauseControllerDidResume();
   }; // StandardLevelGameplayManager
   #pragma pack(pop)

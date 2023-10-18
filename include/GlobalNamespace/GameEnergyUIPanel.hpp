@@ -69,14 +69,14 @@ namespace GlobalNamespace {
     ::UnityEngine::Playables::PlayableDirector* playableDirector;
     // Field size check
     static_assert(sizeof(::UnityEngine::Playables::PlayableDirector*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126008
+    // [SpaceAttribute] Offset: 0x1122DDC
     // private UnityEngine.UI.Image _batteryLifeSegmentPrefab
     // Size: 0x8
     // Offset: 0x28
     ::UnityEngine::UI::Image* batteryLifeSegmentPrefab;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126040
+    // [SpaceAttribute] Offset: 0x1122E14
     // private System.Single _batterySegmentSeparatorWidth
     // Size: 0x4
     // Offset: 0x30
@@ -89,7 +89,7 @@ namespace GlobalNamespace {
     float batterySegmentHorizontalPadding;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [InjectAttribute] Offset: 0x1126088
+    // [InjectAttribute] Offset: 0x1122E5C
     // private readonly IGameEnergyCounter _gameEnergyCounter
     // Size: 0x8
     // Offset: 0x38
@@ -138,32 +138,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.RectTransform _energyBarRectTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn__energyBarRectTransform();
     // public System.Void .ctor()
-    // Offset: 0x146C4AC
+    // Offset: 0x1428D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GameEnergyUIPanel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GameEnergyUIPanel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GameEnergyUIPanel*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x146B7C8
+    // Offset: 0x1428088
     void Start();
     // private System.Void Init()
-    // Offset: 0x146B948
+    // Offset: 0x1428208
     void Init();
     // protected System.Void OnDestroy()
-    // Offset: 0x146C304
+    // Offset: 0x1428BC4
     void OnDestroy();
     // private System.Void CreateUIForBatteryEnergyType(System.Int32 batteryLives)
-    // Offset: 0x146BCF0
+    // Offset: 0x14285B0
     void CreateUIForBatteryEnergyType(int batteryLives);
     // private System.Void RefreshEnergyUI(System.Single energy)
-    // Offset: 0x146BFE0
+    // Offset: 0x14288A0
     void RefreshEnergyUI(float energy);
     // private System.Void HandleGameEnergyCounterDidInit()
-    // Offset: 0x146C4A4
+    // Offset: 0x1428D64
     void HandleGameEnergyCounterDidInit();
     // private System.Void HandleGameEnergyDidChange(System.Single energy)
-    // Offset: 0x146C4A8
+    // Offset: 0x1428D68
     void HandleGameEnergyDidChange(float energy);
   }; // GameEnergyUIPanel
   #pragma pack(pop)

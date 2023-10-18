@@ -92,23 +92,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _propertyId
     [[deprecated("Use field access instead!")]] int& dyn__propertyId();
     // public System.Void .ctor()
-    // Offset: 0x1CED2CC
+    // Offset: 0x1CC0B80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MaterialPropertyBlockRandomValueSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MaterialPropertyBlockRandomValueSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MaterialPropertyBlockRandomValueSetter*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1CED058
+    // Offset: 0x1CC090C
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x1CED270
+    // Offset: 0x1CC0B24
     void OnValidate();
     // private System.Void RefreshPropertyId()
-    // Offset: 0x1CED2A0
+    // Offset: 0x1CC0B54
     void RefreshPropertyId();
     // private System.Void ApplyParams()
-    // Offset: 0x1CED05C
+    // Offset: 0x1CC0910
     void ApplyParams();
   }; // MaterialPropertyBlockRandomValueSetter
   #pragma pack(pop)

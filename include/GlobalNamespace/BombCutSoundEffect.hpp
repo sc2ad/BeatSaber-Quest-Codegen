@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private Saber _saber
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::Saber*& dyn__saber();
     // public System.Void add_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x13F0034
+    // Offset: 0x13EF488
     void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void remove_didFinishEvent(System.Action`1<BombCutSoundEffect> value)
-    // Offset: 0x13F00D8
+    // Offset: 0x13EF52C
     void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
     // public System.Void .ctor()
-    // Offset: 0x13F0318
+    // Offset: 0x13EF76C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BombCutSoundEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BombCutSoundEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BombCutSoundEffect*, creationType>()));
     }
     // public System.Void Init(UnityEngine.AudioClip audioClip, Saber saber, System.Single volume)
-    // Offset: 0x13F017C
+    // Offset: 0x13EF5D0
     void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float volume);
     // protected System.Void LateUpdate()
-    // Offset: 0x13F01FC
+    // Offset: 0x13EF650
     void LateUpdate();
     // private System.Void StopPlayingAndFinish()
-    // Offset: 0x13F0290
+    // Offset: 0x13EF6E4
     void StopPlayingAndFinish();
   }; // BombCutSoundEffect
   #pragma pack(pop)

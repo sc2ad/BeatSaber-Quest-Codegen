@@ -53,52 +53,52 @@ namespace System::Xml {
     // Get instance field reference: private System.Xml.XmlLinkedNode lastChild
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlLinkedNode*& dyn_lastChild();
     // public override System.String get_Name()
-    // Offset: 0x1C74980
+    // Offset: 0x1C41054
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_Name()
     ::StringW get_Name();
     // public override System.String get_LocalName()
-    // Offset: 0x1C749AC
+    // Offset: 0x1C41080
     // Implemented from: System.Xml.XmlNode
     // Base method: System.String XmlNode::get_LocalName()
     ::StringW get_LocalName();
     // public override System.Xml.XmlNodeType get_NodeType()
-    // Offset: 0x1C749D8
+    // Offset: 0x1C410AC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNodeType XmlNode::get_NodeType()
     ::System::Xml::XmlNodeType get_NodeType();
     // public override System.Xml.XmlNode get_ParentNode()
-    // Offset: 0x1C749E0
+    // Offset: 0x1C410B4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_ParentNode()
     ::System::Xml::XmlNode* get_ParentNode();
     // public override System.Xml.XmlDocument get_OwnerDocument()
-    // Offset: 0x1C749E8
+    // Offset: 0x1C410BC
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlDocument XmlNode::get_OwnerDocument()
     ::System::Xml::XmlDocument* get_OwnerDocument();
     // public override System.Void set_InnerXml(System.String value)
-    // Offset: 0x1C74A68
+    // Offset: 0x1C4113C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_InnerXml(System.String value)
     void set_InnerXml(::StringW value);
     // override System.Boolean get_IsContainer()
-    // Offset: 0x1C74B88
+    // Offset: 0x1C4125C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::get_IsContainer()
     bool get_IsContainer();
     // override System.Xml.XmlLinkedNode get_LastNode()
-    // Offset: 0x1C74B90
+    // Offset: 0x1C41264
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlLinkedNode XmlNode::get_LastNode()
     ::System::Xml::XmlLinkedNode* get_LastNode();
     // override System.Void set_LastNode(System.Xml.XmlLinkedNode value)
-    // Offset: 0x1C74B98
+    // Offset: 0x1C4126C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::set_LastNode(System.Xml.XmlLinkedNode value)
     void set_LastNode(::System::Xml::XmlLinkedNode* value);
     // protected internal System.Void .ctor(System.Xml.XmlDocument ownerDocument)
-    // Offset: 0x1C72D64
+    // Offset: 0x1C3F438
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::.ctor(System.Xml.XmlDocument ownerDocument)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -107,17 +107,17 @@ namespace System::Xml {
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentFragment*, creationType>(ownerDocument)));
     }
     // public override System.Xml.XmlNode CloneNode(System.Boolean deep)
-    // Offset: 0x1C74B00
+    // Offset: 0x1C411D4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::CloneNode(System.Boolean deep)
     ::System::Xml::XmlNode* CloneNode(bool deep);
     // override System.Boolean IsValidChildType(System.Xml.XmlNodeType type)
-    // Offset: 0x1C74BA0
+    // Offset: 0x1C41274
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::IsValidChildType(System.Xml.XmlNodeType type)
     bool IsValidChildType(::System::Xml::XmlNodeType type);
     // override System.Boolean CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
-    // Offset: 0x1C74C10
+    // Offset: 0x1C412E4
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Boolean XmlNode::CanInsertAfter(System.Xml.XmlNode newChild, System.Xml.XmlNode refChild)
     bool CanInsertAfter(::System::Xml::XmlNode* newChild, ::System::Xml::XmlNode* refChild);

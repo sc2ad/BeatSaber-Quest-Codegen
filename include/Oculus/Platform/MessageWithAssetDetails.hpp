@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithAssetDetails : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails*> {
     public:
     // protected Oculus.Platform.Models.AssetDetails GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A3D1B4
+    // Offset: 0x1A37BEC
     ::Oculus::Platform::Models::AssetDetails* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A3AB04
+    // Offset: 0x1A3553C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithAssetDetails*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.AssetDetails GetAssetDetails()
-    // Offset: 0x1A3D170
+    // Offset: 0x1A37BA8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.AssetDetails Message::GetAssetDetails()
     ::Oculus::Platform::Models::AssetDetails* GetAssetDetails();

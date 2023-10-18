@@ -48,22 +48,22 @@ namespace Org::BouncyCastle::Math::EC {
   class AbstractFpCurve : public ::Org::BouncyCastle::Math::EC::ECCurve {
     public:
     // protected System.Void .ctor(Org.BouncyCastle.Math.BigInteger q)
-    // Offset: 0x237246C
+    // Offset: 0x2362BA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AbstractFpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::AbstractFpCurve::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AbstractFpCurve*, creationType>(q)));
     }
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, Org.BouncyCastle.Math.BigInteger p)
-    // Offset: 0x2372620
+    // Offset: 0x2362D58
     static ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, ::Org::BouncyCastle::Math::BigInteger* p);
     // public override Org.BouncyCastle.Math.EC.ECFieldElement RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
-    // Offset: 0x23724F0
+    // Offset: 0x2362C28
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECFieldElement ECCurve::RandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r)
     ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
     // protected override Org.BouncyCastle.Math.EC.ECPoint DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
-    // Offset: 0x23726B4
+    // Offset: 0x2362DEC
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::DecompressPoint(System.Int32 yTilde, Org.BouncyCastle.Math.BigInteger X1)
     ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);

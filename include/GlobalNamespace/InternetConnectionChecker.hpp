@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::InternetConnectionChecker::$IsConnectedToInternetAsync$d__0
     struct $IsConnectedToInternetAsync$d__0;
     // public System.Void .ctor()
-    // Offset: 0x13B0F6C
+    // Offset: 0x139E884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static InternetConnectionChecker* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::InternetConnectionChecker::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InternetConnectionChecker*, creationType>()));
     }
     // static public System.Threading.Tasks.Task`1<System.Boolean> IsConnectedToInternetAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x13B0E6C
+    // Offset: 0x139E784
     static ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
   }; // InternetConnectionChecker
   #pragma pack(pop)

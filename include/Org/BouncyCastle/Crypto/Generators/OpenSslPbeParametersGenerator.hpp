@@ -56,13 +56,13 @@ namespace Org::BouncyCastle::Crypto::Generators {
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IDigest digest
     [[deprecated("Use field access instead!")]] ::Org::BouncyCastle::Crypto::IDigest*& dyn_digest();
     // public System.Void Init(System.Byte[] password, System.Byte[] salt)
-    // Offset: 0x1EC4958
+    // Offset: 0x1EC0A54
     void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt);
     // private System.Byte[] GenerateDerivedKey(System.Int32 bytesNeeded)
-    // Offset: 0x1EC4964
+    // Offset: 0x1EC0A60
     ::ArrayW<uint8_t> GenerateDerivedKey(int bytesNeeded);
     // public System.Void .ctor()
-    // Offset: 0x1EC48E4
+    // Offset: 0x1EC09E0
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: System.Void PbeParametersGenerator::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,22 +71,22 @@ namespace Org::BouncyCastle::Crypto::Generators {
       return THROW_UNLESS((::il2cpp_utils::New<OpenSslPbeParametersGenerator*, creationType>()));
     }
     // public override System.Void Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
-    // Offset: 0x1EC494C
+    // Offset: 0x1EC0A48
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: System.Void PbeParametersGenerator::Init(System.Byte[] password, System.Byte[] salt, System.Int32 iterationCount)
     void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int iterationCount);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
-    // Offset: 0x1EC4D1C
+    // Offset: 0x1EC0E18
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize)
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
-    // Offset: 0x1EC4DC4
+    // Offset: 0x1EC0EC0
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedParameters(System.String algorithm, System.Int32 keySize, System.Int32 ivSize)
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int keySize, int ivSize);
     // public override Org.BouncyCastle.Crypto.ICipherParameters GenerateDerivedMacParameters(System.Int32 keySize)
-    // Offset: 0x1EC4EC4
+    // Offset: 0x1EC0FC0
     // Implemented from: Org.BouncyCastle.Crypto.PbeParametersGenerator
     // Base method: Org.BouncyCastle.Crypto.ICipherParameters PbeParametersGenerator::GenerateDerivedMacParameters(System.Int32 keySize)
     ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int keySize);

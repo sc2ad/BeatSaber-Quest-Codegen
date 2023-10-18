@@ -42,7 +42,7 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.IO.TextWriter writer
     [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn_writer();
     // public override System.Text.Encoding get_Encoding()
-    // Offset: 0x2AB89EC
+    // Offset: 0x2AB5D54
     // Implemented from: System.IO.TextWriter
     // Base method: System.Text.Encoding TextWriter::get_Encoding()
     ::System::Text::Encoding* get_Encoding();

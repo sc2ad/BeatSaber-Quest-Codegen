@@ -56,20 +56,20 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Set static field: static public System.Func`2<UnityEngine.ProBuilder.Vertex,UnityEngine.Vector3> <>9__3_0
     static void _set_$$9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D13120
+    // Offset: 0x1CFEDD0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D13184
+    // Offset: 0x1CFEE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SurfaceTopology::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SurfaceTopology::$$c*, creationType>()));
     }
     // UnityEngine.ProBuilder.Face <ToTriangles>b__0_0(UnityEngine.ProBuilder.FaceRebuildData x)
-    // Offset: 0x1D1318C
+    // Offset: 0x1CFEE3C
     ::UnityEngine::ProBuilder::Face* $ToTriangles$b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
     // UnityEngine.Vector3 <GetWindingOrder>b__3_0(UnityEngine.ProBuilder.Vertex x)
-    // Offset: 0x1D131A4
+    // Offset: 0x1CFEE54
     ::UnityEngine::Vector3 $GetWindingOrder$b__3_0(::UnityEngine::ProBuilder::Vertex* x);
   }; // UnityEngine.ProBuilder.MeshOperations.SurfaceTopology/UnityEngine.ProBuilder.MeshOperations.<>c
   #pragma pack(pop)

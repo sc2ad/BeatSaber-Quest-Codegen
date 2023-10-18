@@ -57,14 +57,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _mipMapBias
     [[deprecated("Use field access instead!")]] float& dyn__mipMapBias();
     // public System.Void .ctor()
-    // Offset: 0x162DBC8
+    // Offset: 0x16417C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MipMapBiasSpriteSetter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MipMapBiasSpriteSetter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MipMapBiasSpriteSetter*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x162DB40
+    // Offset: 0x1641740
     void Start();
   }; // MipMapBiasSpriteSetter
   #pragma pack(pop)

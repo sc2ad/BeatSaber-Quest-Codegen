@@ -45,14 +45,14 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::FadeInOnSceneTransitionFinished::$FadeInAfterSceneTransitionCoroutine$d__3
     class $FadeInAfterSceneTransitionCoroutine$d__3;
     public:
-    // [InjectAttribute] Offset: 0x1114DF4
+    // [InjectAttribute] Offset: 0x11119C0
     // private FadeInOutController _fadeInOut
     // Size: 0x8
     // Offset: 0x18
     ::GlobalNamespace::FadeInOutController* fadeInOut;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::FadeInOutController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1114E04
+    // [InjectAttribute] Offset: 0x11119D0
     // private GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x20
@@ -67,17 +67,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameScenesManager _gameScenesManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameScenesManager*& dyn__gameScenesManager();
     // public System.Void .ctor()
-    // Offset: 0x2AF857C
+    // Offset: 0x2B04C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FadeInOnSceneTransitionFinished* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FadeInOnSceneTransitionFinished::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FadeInOnSceneTransitionFinished*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x2AF848C
+    // Offset: 0x2B04B1C
     void OnEnable();
     // private System.Collections.IEnumerator FadeInAfterSceneTransitionCoroutine()
-    // Offset: 0x2AF84E0
+    // Offset: 0x2B04B70
     ::System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
   }; // FadeInOnSceneTransitionFinished
   #pragma pack(pop)

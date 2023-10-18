@@ -84,40 +84,40 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::NoteLineLayer& dyn_$noteLineLayer$k__BackingField();
     // public ColorType get_colorType()
-    // Offset: 0x2A1FF14
+    // Offset: 0x29D0544
     ::GlobalNamespace::ColorType get_colorType();
     // private System.Void set_colorType(ColorType value)
-    // Offset: 0x2A1FF1C
+    // Offset: 0x29D054C
     void set_colorType(::GlobalNamespace::ColorType value);
     // public System.Single get_noteTime()
-    // Offset: 0x2A1FF24
+    // Offset: 0x29D0554
     float get_noteTime();
     // private System.Void set_noteTime(System.Single value)
-    // Offset: 0x2A1FF2C
+    // Offset: 0x29D055C
     void set_noteTime(float value);
     // public System.Int32 get_noteLineIndex()
-    // Offset: 0x2A1FF34
+    // Offset: 0x29D0564
     int get_noteLineIndex();
     // private System.Void set_noteLineIndex(System.Int32 value)
-    // Offset: 0x2A1FF3C
+    // Offset: 0x29D056C
     void set_noteLineIndex(int value);
     // public NoteLineLayer get_noteLineLayer()
-    // Offset: 0x2A1FF44
+    // Offset: 0x29D0574
     ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
     // private System.Void set_noteLineLayer(NoteLineLayer value)
-    // Offset: 0x2A1FF4C
+    // Offset: 0x29D057C
     void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
     // static public NoteMissInfoNetSerializable Obtain()
-    // Offset: 0x2A1FF54
+    // Offset: 0x29D0584
     static ::GlobalNamespace::NoteMissInfoNetSerializable* Obtain();
     // public NoteMissInfoNetSerializable Init(NoteData noteData)
-    // Offset: 0x2A200C4
+    // Offset: 0x29D06F4
     ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::NoteData* noteData);
     // public NoteMissInfoNetSerializable Init(ColorType colorType, NoteLineLayer lineLayer, System.Int32 noteLineIndex, System.Single noteTime)
-    // Offset: 0x2A200EC
+    // Offset: 0x29D071C
     ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int noteLineIndex, float noteTime);
     // public System.Void .ctor()
-    // Offset: 0x2A200BC
+    // Offset: 0x29D06EC
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,12 +126,12 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<NoteMissInfoNetSerializable*, creationType>()));
     }
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x2A1FF9C
+    // Offset: 0x29D05CC
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x2A2001C
+    // Offset: 0x29D064C
     // Implemented from: PoolableSerializable
     // Base method: System.Void PoolableSerializable::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

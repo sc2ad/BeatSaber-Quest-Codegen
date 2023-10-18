@@ -192,7 +192,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _specifiedTerrainMaterialName
     [[deprecated("Use field access instead!")]] ::StringW& dyn__specifiedTerrainMaterialName();
     // public System.Void .ctor()
-    // Offset: 0x18DA2FC
+    // Offset: 0x18A9BD8
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
     // Base method: System.Void HEU_LoadBufferBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -36,14 +36,14 @@ namespace Polyglot {
   class TsvReader : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2AF6F30
+    // Offset: 0x2AFD9DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TsvReader* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Polyglot::TsvReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TsvReader*, creationType>()));
     }
     // static public System.Collections.Generic.List`1<System.Collections.Generic.List`1<System.String>> Parse(System.String src)
-    // Offset: 0x2AF5D54
+    // Offset: 0x2AFC800
     static ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
   }; // Polyglot.TsvReader
   #pragma pack(pop)

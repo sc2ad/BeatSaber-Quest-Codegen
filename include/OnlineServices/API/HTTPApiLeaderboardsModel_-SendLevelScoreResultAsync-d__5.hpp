@@ -103,10 +103,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x1387DF8
+    // Offset: 0x134ADF0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x138806C
+    // Offset: 0x134B064
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.HTTPApiLeaderboardsModel/OnlineServices.API.<SendLevelScoreResultAsync>d__5
   // WARNING Not writing size check since size may be invalid!

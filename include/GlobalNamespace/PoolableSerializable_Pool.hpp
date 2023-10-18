@@ -50,7 +50,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 count
     [[deprecated("Use field access instead!")]] int& dyn_count();
     // public System.Void .ctor()
-    // Offset: 0x2A215F4
+    // Offset: 0x29D1C24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PoolableSerializable::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PoolableSerializable::Pool::.ctor");

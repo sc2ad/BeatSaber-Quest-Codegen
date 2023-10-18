@@ -40,14 +40,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.String keyword
     [[deprecated("Use field access instead!")]] ::StringW& dyn_keyword();
     // public System.Void .ctor()
-    // Offset: 0x1465B68
+    // Offset: 0x144AF18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsEnvironmentManager::$$c__DisplayClass3_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsEnvironmentManager::$$c__DisplayClass3_0*, creationType>()));
     }
     // System.Boolean <GetResultEnvironmentControllerForKeyword>b__0(ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword controllerWithKeyword)
-    // Offset: 0x1465CD0
+    // Offset: 0x144B080
     bool $GetResultEnvironmentControllerForKeyword$b__0(::GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword* controllerWithKeyword);
   }; // ResultsEnvironmentManager/<>c__DisplayClass3_0
   #pragma pack(pop)

@@ -141,98 +141,98 @@ namespace System {
     // Get instance field reference: private System.Int16 m_offsetMinutes
     [[deprecated("Use field access instead!")]] int16_t& dyn_m_offsetMinutes();
     // public System.DateTime get_DateTime()
-    // Offset: 0x2334188
+    // Offset: 0x22D737C
     ::System::DateTime get_DateTime();
     // public System.DateTime get_UtcDateTime()
-    // Offset: 0x2334258
+    // Offset: 0x22D744C
     ::System::DateTime get_UtcDateTime();
     // public System.DateTime get_LocalDateTime()
-    // Offset: 0x23342C8
+    // Offset: 0x22D74BC
     ::System::DateTime get_LocalDateTime();
     // private System.DateTime get_ClockDateTime()
-    // Offset: 0x233418C
+    // Offset: 0x22D7380
     ::System::DateTime get_ClockDateTime();
     // public System.TimeSpan get_Offset()
-    // Offset: 0x23342F4
+    // Offset: 0x22D74E8
     ::System::TimeSpan get_Offset();
     // public System.Void .ctor(System.Int64 ticks, System.TimeSpan offset)
-    // Offset: 0x2333C80
+    // Offset: 0x22D6E74
     DateTimeOffset(int64_t ticks, ::System::TimeSpan offset);
     // public System.Void .ctor(System.DateTime dateTime)
-    // Offset: 0x2333F30
+    // Offset: 0x22D7124
     DateTimeOffset(::System::DateTime dateTime);
     // public System.Void .ctor(System.DateTime dateTime, System.TimeSpan offset)
-    // Offset: 0x2333FE4
+    // Offset: 0x22D71D8
     DateTimeOffset(::System::DateTime dateTime, ::System::TimeSpan offset);
     // private System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x23348CC
+    // Offset: 0x22D7AC0
     DateTimeOffset(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // static private System.Void .cctor()
-    // Offset: 0x2335C28
+    // Offset: 0x22D8E1C
     static void _cctor();
     // private System.Int32 System.IComparable.CompareTo(System.Object obj)
-    // Offset: 0x233432C
+    // Offset: 0x22D7520
     int System_IComparable_CompareTo(::Il2CppObject* obj);
     // public System.Int32 CompareTo(System.DateTimeOffset other)
-    // Offset: 0x2334484
+    // Offset: 0x22D7678
     int CompareTo(::System::DateTimeOffset other);
     // public System.Boolean Equals(System.DateTimeOffset other)
-    // Offset: 0x2334630
+    // Offset: 0x22D7824
     bool Equals(::System::DateTimeOffset other);
     // private System.Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object sender)
-    // Offset: 0x2334670
+    // Offset: 0x22D7864
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x233480C
+    // Offset: 0x22D7A00
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // static public System.DateTimeOffset Parse(System.String input, System.IFormatProvider formatProvider)
-    // Offset: 0x2334A70
+    // Offset: 0x22D7C64
     static ::System::DateTimeOffset Parse(::StringW input, ::System::IFormatProvider* formatProvider);
     // static public System.DateTimeOffset Parse(System.String input, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x2334AE8
+    // Offset: 0x22D7CDC
     static ::System::DateTimeOffset Parse(::StringW input, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles);
     // static public System.DateTimeOffset ParseExact(System.String input, System.String format, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles)
-    // Offset: 0x2334DF4
+    // Offset: 0x22D7FE8
     static ::System::DateTimeOffset ParseExact(::StringW input, ::StringW format, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles);
     // public System.Int64 ToUnixTimeMilliseconds()
-    // Offset: 0x2335074
+    // Offset: 0x22D8268
     int64_t ToUnixTimeMilliseconds();
     // public System.String ToString(System.String format, System.IFormatProvider formatProvider)
-    // Offset: 0x23351A4
+    // Offset: 0x22D8398
     ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
     // public System.DateTimeOffset ToUniversalTime()
-    // Offset: 0x2335290
+    // Offset: 0x22D8484
     ::System::DateTimeOffset ToUniversalTime();
     // static public System.Boolean TryParse(System.String input, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result)
-    // Offset: 0x23352C0
+    // Offset: 0x22D84B4
     static bool TryParse(::StringW input, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles, ByRef<::System::DateTimeOffset> result);
     // static public System.Boolean TryParseExact(System.String input, System.String format, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result)
-    // Offset: 0x2335564
+    // Offset: 0x22D8758
     static bool TryParseExact(::StringW input, ::StringW format, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles, ByRef<::System::DateTimeOffset> result);
     // static public System.Boolean TryParseExact(System.String input, System.String[] formats, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result)
-    // Offset: 0x233581C
+    // Offset: 0x22D8A10
     static bool TryParseExact(::StringW input, ::ArrayW<::StringW> formats, ::System::IFormatProvider* formatProvider, ::System::Globalization::DateTimeStyles styles, ByRef<::System::DateTimeOffset> result);
     // static private System.Int16 ValidateOffset(System.TimeSpan offset)
-    // Offset: 0x2333D28
+    // Offset: 0x22D6F1C
     static int16_t ValidateOffset(::System::TimeSpan offset);
     // static private System.DateTime ValidateDate(System.DateTime dateTime, System.TimeSpan offset)
-    // Offset: 0x2333E48
+    // Offset: 0x22D703C
     static ::System::DateTime ValidateDate(::System::DateTime dateTime, ::System::TimeSpan offset);
     // static private System.Globalization.DateTimeStyles ValidateStyles(System.Globalization.DateTimeStyles style, System.String parameterName)
-    // Offset: 0x2334C10
+    // Offset: 0x22D7E04
     static ::System::Globalization::DateTimeStyles ValidateStyles(::System::Globalization::DateTimeStyles style, ::StringW parameterName);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x233455C
+    // Offset: 0x22D7750
     // Implemented from: System.ValueType
     // Base method: System.Boolean ValueType::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x2334A44
+    // Offset: 0x22D7C38
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x23350CC
+    // Offset: 0x22D82C0
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();
@@ -241,10 +241,10 @@ namespace System {
   static check_size<sizeof(DateTimeOffset), 8 + sizeof(int16_t)> __System_DateTimeOffsetSizeCheck;
   static_assert(sizeof(DateTimeOffset) == 0xA);
   // static public System.TimeSpan op_Subtraction(System.DateTimeOffset left, System.DateTimeOffset right)
-  // Offset: 0x2335B00
+  // Offset: 0x22D8CF4
   ::System::TimeSpan operator-(const ::System::DateTimeOffset& left, const ::System::DateTimeOffset& right);
   // static public System.Boolean op_Equality(System.DateTimeOffset left, System.DateTimeOffset right)
-  // Offset: 0x2335B94
+  // Offset: 0x22D8D88
   bool operator ==(const ::System::DateTimeOffset& left, const ::System::DateTimeOffset& right);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -61,7 +61,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _applyTilemapOrientation
     [[deprecated("Use field access instead!")]] bool& dyn__applyTilemapOrientation();
     // public System.Void .ctor()
-    // Offset: 0x18D1E24
+    // Offset: 0x18A1700
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_InputInterfaceTilemapSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings::.ctor");

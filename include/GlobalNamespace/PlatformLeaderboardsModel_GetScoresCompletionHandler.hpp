@@ -36,20 +36,20 @@ namespace GlobalNamespace {
   class PlatformLeaderboardsModel::GetScoresCompletionHandler : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x15A3EB0
+    // Offset: 0x159DD1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PlatformLeaderboardsModel::GetScoresCompletionHandler* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PlatformLeaderboardsModel::GetScoresCompletionHandler*, creationType>(object, method)));
     }
     // public System.Void Invoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
-    // Offset: 0x15A4404
+    // Offset: 0x159E270
     void Invoke(::GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex);
     // public System.IAsyncResult BeginInvoke(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x15A4B4C
+    // Offset: 0x159E9B8
     ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x15A4C04
+    // Offset: 0x159EA70
     void EndInvoke(::System::IAsyncResult* result);
   }; // PlatformLeaderboardsModel/GetScoresCompletionHandler
   #pragma pack(pop)

@@ -62,26 +62,26 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::HashSet_1<::Il2CppObject*>*& dyn__instancesToInject();
     // public System.Collections.Generic.IEnumerable`1<System.Object> get_Instances()
-    // Offset: 0x1CD05E0
+    // Offset: 0x1CA3E94
     ::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* get_Instances();
     // public System.Void .ctor(Zenject.DiContainer container)
-    // Offset: 0x1CD055C
+    // Offset: 0x1CA3E10
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LazyInstanceInjector* New_ctor(::Zenject::DiContainer* container) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::LazyInstanceInjector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyInstanceInjector*, creationType>(container)));
     }
     // public System.Void AddInstance(System.Object instance)
-    // Offset: 0x1CD05E8
+    // Offset: 0x1CA3E9C
     void AddInstance(::Il2CppObject* instance);
     // public System.Void AddInstances(System.Collections.Generic.IEnumerable`1<System.Object> instances)
-    // Offset: 0x1CD0650
+    // Offset: 0x1CA3F04
     void AddInstances(::System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* instances);
     // public System.Void LazyInject(System.Object instance)
-    // Offset: 0x1CD06B8
+    // Offset: 0x1CA3F6C
     void LazyInject(::Il2CppObject* instance);
     // public System.Void LazyInjectAll()
-    // Offset: 0x1CD0748
+    // Offset: 0x1CA3FFC
     void LazyInjectAll();
   }; // Zenject.LazyInstanceInjector
   #pragma pack(pop)

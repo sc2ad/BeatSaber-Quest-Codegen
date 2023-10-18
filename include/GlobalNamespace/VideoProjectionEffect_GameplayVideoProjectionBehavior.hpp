@@ -40,7 +40,7 @@ namespace GlobalNamespace {
   class VideoProjectionEffect::GameplayVideoProjectionBehavior : public ::GlobalNamespace::VideoProjectionEffect::VideoProjectionBehavior {
     public:
     // public System.Void .ctor(IReadonlyBeatmapData beatmapData, VideoProjectionDataModelSO dataModel, SongTimeSyncedVideoPlayer videoPlayer, BasicBeatmapEventType videoEventType, IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x15417EC
+    // Offset: 0x15EAD4C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionEffect::GameplayVideoProjectionBehavior* New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionEffect::GameplayVideoProjectionBehavior::.ctor");

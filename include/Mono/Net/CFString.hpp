@@ -49,25 +49,25 @@ namespace Mono::Net {
     // Get instance field reference: private System.String str
     [[deprecated("Use field access instead!")]] ::StringW& dyn_str();
     // static private System.IntPtr CFStringCreateWithCharacters(System.IntPtr alloc, System.IntPtr chars, System.IntPtr length)
-    // Offset: 0x1B24D60
+    // Offset: 0x1AFEE1C
     static ::System::IntPtr CFStringCreateWithCharacters(::System::IntPtr alloc, ::System::IntPtr chars, ::System::IntPtr length);
     // static public Mono.Net.CFString Create(System.String value)
-    // Offset: 0x1B224FC
+    // Offset: 0x1AFC5B8
     static ::Mono::Net::CFString* Create(::StringW value);
     // static private System.IntPtr CFStringGetLength(System.IntPtr handle)
-    // Offset: 0x1B24DF8
+    // Offset: 0x1AFEEB4
     static ::System::IntPtr CFStringGetLength(::System::IntPtr handle);
     // static private System.IntPtr CFStringGetCharactersPtr(System.IntPtr handle)
-    // Offset: 0x1B24E78
+    // Offset: 0x1AFEF34
     static ::System::IntPtr CFStringGetCharactersPtr(::System::IntPtr handle);
     // static private System.IntPtr CFStringGetCharacters(System.IntPtr handle, Mono.Net.CFRange range, System.IntPtr buffer)
-    // Offset: 0x1B24EF8
+    // Offset: 0x1AFEFB4
     static ::System::IntPtr CFStringGetCharacters(::System::IntPtr handle, ::Mono::Net::CFRange range, ::System::IntPtr buffer);
     // static public System.String AsString(System.IntPtr handle)
-    // Offset: 0x1B24704
+    // Offset: 0x1AFE7C0
     static ::StringW AsString(::System::IntPtr handle);
     // public System.Void .ctor(System.IntPtr handle, System.Boolean own)
-    // Offset: 0x1B24D10
+    // Offset: 0x1AFEDCC
     // Implemented from: Mono.Net.CFObject
     // Base method: System.Void CFObject::.ctor(System.IntPtr handle, System.Boolean own)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -76,7 +76,7 @@ namespace Mono::Net {
       return THROW_UNLESS((::il2cpp_utils::New<CFString*, creationType>(handle, own)));
     }
     // public override System.String ToString()
-    // Offset: 0x1B24FA0
+    // Offset: 0x1AFF05C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

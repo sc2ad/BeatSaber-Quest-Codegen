@@ -53,7 +53,7 @@ namespace System::Runtime::Serialization {
     // Get instance field reference: System.Int32 m_fixupType
     [[deprecated("Use field access instead!")]] int& dyn_m_fixupType();
     // System.Void .ctor(System.Int64 id, System.Object fixupInfo, System.Int32 fixupType)
-    // Offset: 0x1933208
+    // Offset: 0x1903AF4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FixupHolder* New_ctor(int64_t id, ::Il2CppObject* fixupInfo, int fixupType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Runtime::Serialization::FixupHolder::.ctor");

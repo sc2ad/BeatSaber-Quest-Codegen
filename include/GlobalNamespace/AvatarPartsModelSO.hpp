@@ -99,28 +99,28 @@ namespace GlobalNamespace {
     // Get instance field reference: private AvatarMeshPartSO[] _clothes
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*>& dyn__clothes();
     // public AvatarMeshPartSO[] get_headTops()
-    // Offset: 0x157FE74
+    // Offset: 0x157F0D8
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_headTops();
     // public AvatarSpritePartSO[] get_Eyes()
-    // Offset: 0x157FE7C
+    // Offset: 0x157F0E0
     ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*> get_Eyes();
     // public AvatarSpritePartSO[] get_Mouths()
-    // Offset: 0x157FE84
+    // Offset: 0x157F0E8
     ::ArrayW<::GlobalNamespace::AvatarSpritePartSO*> get_Mouths();
     // public AvatarMeshPartSO[] get_Glasses()
-    // Offset: 0x157FE8C
+    // Offset: 0x157F0F0
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_Glasses();
     // public AvatarMeshPartSO[] get_FacialHair()
-    // Offset: 0x157FE94
+    // Offset: 0x157F0F8
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_FacialHair();
     // public AvatarMeshPartSO[] get_Hands()
-    // Offset: 0x157FE9C
+    // Offset: 0x157F100
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_Hands();
     // public AvatarMeshPartSO[] get_Clothes()
-    // Offset: 0x157FEA4
+    // Offset: 0x157F108
     ::ArrayW<::GlobalNamespace::AvatarMeshPartSO*> get_Clothes();
     // public System.Void .ctor()
-    // Offset: 0x157FEAC
+    // Offset: 0x157F110
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AvatarPartsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::AvatarPartsModelSO::.ctor");

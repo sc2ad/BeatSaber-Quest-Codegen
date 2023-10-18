@@ -71,17 +71,17 @@ namespace System::Net {
     // Get instance field reference: private readonly System.Threading.ExecutionContext m_Context
     [[deprecated("Use field access instead!")]] ::System::Threading::ExecutionContext*& dyn_m_Context();
     // System.Void .ctor(System.Net.Security.RemoteCertificateValidationCallback validationCallback)
-    // Offset: 0x1C00444
+    // Offset: 0x1BCC210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ServerCertValidationCallback* New_ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::ServerCertValidationCallback::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ServerCertValidationCallback*, creationType>(validationCallback)));
     }
     // System.Void Callback(System.Object state)
-    // Offset: 0x1C004CC
+    // Offset: 0x1BCC298
     void Callback(::Il2CppObject* state);
     // System.Boolean Invoke(System.Object request, System.Security.Cryptography.X509Certificates.X509Certificate certificate, System.Security.Cryptography.X509Certificates.X509Chain chain, System.Net.Security.SslPolicyErrors sslPolicyErrors)
-    // Offset: 0x1C0057C
+    // Offset: 0x1BCC348
     bool Invoke(::Il2CppObject* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
   }; // System.Net.ServerCertValidationCallback
   #pragma pack(pop)

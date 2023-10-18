@@ -35,20 +35,20 @@ namespace GlobalNamespace {
   class SliderIntensityEffect::IntensityCalculationDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x1418160
+    // Offset: 0x14961D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SliderIntensityEffect::IntensityCalculationDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SliderIntensityEffect::IntensityCalculationDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SliderIntensityEffect::IntensityCalculationDelegate*, creationType>(object, method)));
     }
     // public System.Single Invoke(System.Single timeSinceLastSection, System.Single timeSinceHeadNoteJump)
-    // Offset: 0x1418170
+    // Offset: 0x14961E4
     float Invoke(float timeSinceLastSection, float timeSinceHeadNoteJump);
     // public System.IAsyncResult BeginInvoke(System.Single timeSinceLastSection, System.Single timeSinceHeadNoteJump, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x14183F0
+    // Offset: 0x1496464
     ::System::IAsyncResult* BeginInvoke(float timeSinceLastSection, float timeSinceHeadNoteJump, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Single EndInvoke(System.IAsyncResult result)
-    // Offset: 0x1418490
+    // Offset: 0x1496504
     float EndInvoke(::System::IAsyncResult* result);
   }; // SliderIntensityEffect/IntensityCalculationDelegate
   #pragma pack(pop)

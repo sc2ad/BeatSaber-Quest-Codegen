@@ -84,62 +84,62 @@ namespace System::Net::Http::Headers {
     // Get instance field reference: System.String media_type
     [[deprecated("Use field access instead!")]] ::StringW& dyn_media_type();
     // public System.String get_CharSet()
-    // Offset: 0x1A04510
+    // Offset: 0x19E95FC
     ::StringW get_CharSet();
     // public System.Void set_CharSet(System.String value)
-    // Offset: 0x1A04618
+    // Offset: 0x19E9704
     void set_CharSet(::StringW value);
     // public System.Void set_MediaType(System.String value)
-    // Offset: 0x1A04188
+    // Offset: 0x19E9274
     void set_MediaType(::StringW value);
     // public System.Collections.Generic.ICollection`1<System.Net.Http.Headers.NameValueHeaderValue> get_Parameters()
-    // Offset: 0x1A04494
+    // Offset: 0x19E9580
     ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
     // public System.Void .ctor(System.String mediaType)
-    // Offset: 0x19FB384
+    // Offset: 0x19E0470
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue* New_ctor(::StringW mediaType) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::MediaTypeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>(mediaType)));
     }
     // protected System.Void .ctor(System.Net.Http.Headers.MediaTypeHeaderValue source)
-    // Offset: 0x1A0429C
+    // Offset: 0x19E9388
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue* New_ctor(::System::Net::Http::Headers::MediaTypeHeaderValue* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::MediaTypeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>(source)));
     }
     // System.Void .ctor()
-    // Offset: 0x1A04508
+    // Offset: 0x19E95F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MediaTypeHeaderValue* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::Headers::MediaTypeHeaderValue::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MediaTypeHeaderValue*, creationType>()));
     }
     // private System.Object System.ICloneable.Clone()
-    // Offset: 0x1A04838
+    // Offset: 0x19E9924
     ::Il2CppObject* System_ICloneable_Clone();
     // static public System.Net.Http.Headers.MediaTypeHeaderValue Parse(System.String input)
-    // Offset: 0x1A049EC
+    // Offset: 0x19E9AD8
     static ::System::Net::Http::Headers::MediaTypeHeaderValue* Parse(::StringW input);
     // static public System.Boolean TryParse(System.String input, out System.Net.Http.Headers.MediaTypeHeaderValue parsedValue)
-    // Offset: 0x1A04A80
+    // Offset: 0x19E9B6C
     static bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::MediaTypeHeaderValue*> parsedValue);
     // static System.Nullable`1<System.Net.Http.Headers.Token> TryParseMediaType(System.Net.Http.Headers.Lexer lexer, out System.String media)
-    // Offset: 0x1A046A8
+    // Offset: 0x19E9794
     static ::System::Nullable_1<::System::Net::Http::Headers::Token> TryParseMediaType(::System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> media);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x1A04898
+    // Offset: 0x19E9984
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1A04968
+    // Offset: 0x19E9A54
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x1A04BC8
+    // Offset: 0x19E9CB4
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

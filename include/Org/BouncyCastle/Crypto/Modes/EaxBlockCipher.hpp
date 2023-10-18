@@ -158,50 +158,50 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private System.Byte[] initialAssociatedText
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_initialAssociatedText();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IBlockCipher cipher)
-    // Offset: 0x1ED34C0
+    // Offset: 0x1ECF5BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EaxBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Modes::EaxBlockCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EaxBlockCipher*, creationType>(cipher)));
     }
     // public System.Int32 GetBlockSize()
-    // Offset: 0x1ED36FC
+    // Offset: 0x1ECF7F8
     int GetBlockSize();
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1ED3720
+    // Offset: 0x1ECF81C
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void InitCipher()
-    // Offset: 0x1ED3BC0
+    // Offset: 0x1ECFCBC
     void InitCipher();
     // private System.Void CalculateMac()
-    // Offset: 0x1ED3D6C
+    // Offset: 0x1ECFE68
     void CalculateMac();
     // public System.Void Reset()
-    // Offset: 0x1ED3ED8
+    // Offset: 0x1ECFFD4
     void Reset();
     // private System.Void Reset(System.Boolean clearMac)
-    // Offset: 0x1ED3EE0
+    // Offset: 0x1ECFFDC
     void Reset(bool clearMac);
     // public System.Void ProcessAadBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
-    // Offset: 0x1ED40F8
+    // Offset: 0x1ED01F4
     void ProcessAadBytes(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1ED4218
+    // Offset: 0x1ED0314
     int ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1ED4538
+    // Offset: 0x1ED0634
     int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Int32 GetUpdateOutputSize(System.Int32 len)
-    // Offset: 0x1ED491C
+    // Offset: 0x1ED0A18
     int GetUpdateOutputSize(int len);
     // public System.Int32 GetOutputSize(System.Int32 len)
-    // Offset: 0x1ED4950
+    // Offset: 0x1ED0A4C
     int GetOutputSize(int len);
     // private System.Int32 Process(System.Byte b, System.Byte[] outBytes, System.Int32 outOff)
-    // Offset: 0x1ED42C0
+    // Offset: 0x1ED03BC
     int Process(uint8_t b, ::ArrayW<uint8_t> outBytes, int outOff);
     // private System.Boolean VerifyMac(System.Byte[] mac, System.Int32 off)
-    // Offset: 0x1ED487C
+    // Offset: 0x1ED0978
     bool VerifyMac(::ArrayW<uint8_t> mac, int off);
   }; // Org.BouncyCastle.Crypto.Modes.EaxBlockCipher
   #pragma pack(pop)

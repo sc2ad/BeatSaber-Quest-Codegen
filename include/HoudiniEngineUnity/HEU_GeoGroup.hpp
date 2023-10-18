@@ -83,17 +83,17 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VertexEntry>[] _sharedNormalIndices
     [[deprecated("Use field access instead!")]] ::ArrayW<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VertexEntry*>*>& dyn__sharedNormalIndices();
     // public System.Void .ctor()
-    // Offset: 0x17F27D0
+    // Offset: 0x17E0978
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeoGroup* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeoGroup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeoGroup*, creationType>()));
     }
     // public System.Int32 CompareTo(HoudiniEngineUnity.HEU_GeoGroup other)
-    // Offset: 0x17F5804
+    // Offset: 0x17E39AC
     int CompareTo(::HoudiniEngineUnity::HEU_GeoGroup* other);
     // public System.Void SetupNormalIndices(System.Int32 indicesCount)
-    // Offset: 0x17F2840
+    // Offset: 0x17E09E8
     void SetupNormalIndices(int indicesCount);
   }; // HoudiniEngineUnity.HEU_GeoGroup
   #pragma pack(pop)

@@ -167,49 +167,49 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_IgnoreTimeScale
     [[deprecated("Use field access instead!")]] bool& dyn_m_IgnoreTimeScale();
     // public UnityEngine.Color get_startColor()
-    // Offset: 0x1497D48
+    // Offset: 0x14A775C
     ::UnityEngine::Color get_startColor();
     // public System.Void set_startColor(UnityEngine.Color value)
-    // Offset: 0x1497D54
+    // Offset: 0x14A7768
     void set_startColor(::UnityEngine::Color value);
     // public UnityEngine.Color get_targetColor()
-    // Offset: 0x1497D60
+    // Offset: 0x14A7774
     ::UnityEngine::Color get_targetColor();
     // public System.Void set_targetColor(UnityEngine.Color value)
-    // Offset: 0x1497D6C
+    // Offset: 0x14A7780
     void set_targetColor(::UnityEngine::Color value);
     // public TMPro.ColorTween/TMPro.ColorTweenMode get_tweenMode()
-    // Offset: 0x1497D78
+    // Offset: 0x14A778C
     ::TMPro::ColorTween::ColorTweenMode get_tweenMode();
     // public System.Void set_tweenMode(TMPro.ColorTween/TMPro.ColorTweenMode value)
-    // Offset: 0x1497D80
+    // Offset: 0x14A7794
     void set_tweenMode(::TMPro::ColorTween::ColorTweenMode value);
     // public System.Single get_duration()
-    // Offset: 0x1497D88
+    // Offset: 0x14A779C
     float get_duration();
     // public System.Void set_duration(System.Single value)
-    // Offset: 0x1497D90
+    // Offset: 0x14A77A4
     void set_duration(float value);
     // public System.Boolean get_ignoreTimeScale()
-    // Offset: 0x1497D98
+    // Offset: 0x14A77AC
     bool get_ignoreTimeScale();
     // public System.Void set_ignoreTimeScale(System.Boolean value)
-    // Offset: 0x1497DA0
+    // Offset: 0x14A77B4
     void set_ignoreTimeScale(bool value);
     // public System.Void TweenValue(System.Single floatPercentage)
-    // Offset: 0x1497DAC
+    // Offset: 0x14A77C0
     void TweenValue(float floatPercentage);
     // public System.Void AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color> callback)
-    // Offset: 0x1497E84
+    // Offset: 0x14A7898
     void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* callback);
     // public System.Boolean GetIgnoreTimescale()
-    // Offset: 0x1497F60
+    // Offset: 0x14A7974
     bool GetIgnoreTimescale();
     // public System.Single GetDuration()
-    // Offset: 0x1497F68
+    // Offset: 0x14A797C
     float GetDuration();
     // public System.Boolean ValidTarget()
-    // Offset: 0x1497E74
+    // Offset: 0x14A7888
     bool ValidTarget();
   }; // TMPro.ColorTween
   #pragma pack(pop)

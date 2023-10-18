@@ -55,20 +55,20 @@ namespace HoudiniEngineUnity {
     // Set static field: static public System.Converter`2<UnityEngine.Material,HoudiniEngineUnity.Test_Material> <>9__2_0
     static void _set_$$9__2_0(::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x2B42DAC
+    // Offset: 0x2B54BF4
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x2B42E10
+    // Offset: 0x2B54C58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Test_Material_Extensions::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::Test_Material_Extensions::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Test_Material_Extensions::$$c*, creationType>()));
     }
     // HoudiniEngineUnity.Test_Material <ToTestObject>b__1_0(UnityEngine.Material lod)
-    // Offset: 0x2B42E18
+    // Offset: 0x2B54C60
     ::HoudiniEngineUnity::Test_Material* $ToTestObject$b__1_0(::UnityEngine::Material* lod);
     // HoudiniEngineUnity.Test_Material <ToTestObject>b__2_0(UnityEngine.Material lod)
-    // Offset: 0x2B42E7C
+    // Offset: 0x2B54CC4
     ::HoudiniEngineUnity::Test_Material* $ToTestObject$b__2_0(::UnityEngine::Material* lod);
   }; // HoudiniEngineUnity.Test_Material_Extensions/HoudiniEngineUnity.<>c
   #pragma pack(pop)

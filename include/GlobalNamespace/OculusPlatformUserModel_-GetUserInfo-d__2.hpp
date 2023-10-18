@@ -100,10 +100,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UserInfo> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x1384958
+    // Offset: 0x1347950
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1384D4C
+    // Offset: 0x1347D44
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusPlatformUserModel/<GetUserInfo>d__2
   // WARNING Not writing size check since size may be invalid!

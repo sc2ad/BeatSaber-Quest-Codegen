@@ -60,20 +60,20 @@ namespace System::Security::Policy {
     // Get instance field reference: private System.Collections.IEnumerator assemblyEnum
     [[deprecated("Use field access instead!")]] ::System::Collections::IEnumerator*& dyn_assemblyEnum();
     // public System.Object get_Current()
-    // Offset: 0x1C37120
+    // Offset: 0x1C037F4
     ::Il2CppObject* get_Current();
     // public System.Void .ctor(System.Collections.IEnumerator hostenum, System.Collections.IEnumerator assemblyenum)
-    // Offset: 0x1C36E58
+    // Offset: 0x1C0352C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Evidence::EvidenceEnumerator* New_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Security::Policy::Evidence::EvidenceEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Evidence::EvidenceEnumerator*, creationType>(hostenum, assemblyenum)));
     }
     // public System.Boolean MoveNext()
-    // Offset: 0x1C36E94
+    // Offset: 0x1C03568
     bool MoveNext();
     // public System.Void Reset()
-    // Offset: 0x1C36FE0
+    // Offset: 0x1C036B4
     void Reset();
   }; // System.Security.Policy.Evidence/System.Security.Policy.EvidenceEnumerator
   #pragma pack(pop)

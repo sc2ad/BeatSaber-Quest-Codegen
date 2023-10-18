@@ -68,29 +68,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO[] _no360beatmapCharacteristics
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*>& dyn__no360beatmapCharacteristics();
     // public BeatmapCharacteristicSO[] get_beatmapCharacteristics()
-    // Offset: 0x13DCE18
+    // Offset: 0x13C49E0
     ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> get_beatmapCharacteristics();
     // public System.Void .ctor()
-    // Offset: 0x13DD104
+    // Offset: 0x13C4CCC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapCharacteristicCollectionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapCharacteristicCollectionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapCharacteristicCollectionSO*, creationType>()));
     }
     // public BeatmapCharacteristicSO GetBeatmapCharacteristicBySerializedName(System.String serializedName)
-    // Offset: 0x13DCE98
+    // Offset: 0x13C4A60
     ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
     // public System.Boolean ContainsBeatmapCharacteristic(BeatmapCharacteristicSO beatmapCharacteristic)
-    // Offset: 0x13DCF24
+    // Offset: 0x13C4AEC
     bool ContainsBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
     // private System.Void InitData()
-    // Offset: 0x13DCE6C
+    // Offset: 0x13C4A34
     void InitData();
     // private BeatmapCharacteristicSO[] GetCharacteristicsWithout360Movement()
-    // Offset: 0x13DD004
+    // Offset: 0x13C4BCC
     ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*> GetCharacteristicsWithout360Movement();
     // protected override System.Void OnEnable()
-    // Offset: 0x13DCE34
+    // Offset: 0x13C49FC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

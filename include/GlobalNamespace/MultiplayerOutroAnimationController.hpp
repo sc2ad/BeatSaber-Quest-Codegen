@@ -71,7 +71,7 @@ namespace GlobalNamespace {
   class MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [HeaderAttribute] Offset: 0x1128A4C
+    // [HeaderAttribute] Offset: 0x11258B8
     // private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
     // Size: 0x8
     // Offset: 0x18
@@ -108,7 +108,7 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::PropertyName> resultsTimelinePropertyNames;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::PropertyName>) == 0x8);
-    // [HeaderAttribute] Offset: 0x1128B38
+    // [HeaderAttribute] Offset: 0x11259A4
     // private System.String _localPlayerTrackName
     // Size: 0x8
     // Offset: 0x48
@@ -123,7 +123,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(::UnityEngine::PropertyName) == 0x4);
     // Padding between fields: localPlayerTimelinePropertyName and: badgeTimelineTrackNames
     char __padding7[0x4] = {};
-    // [HeaderAttribute] Offset: 0x1128BBC
+    // [HeaderAttribute] Offset: 0x1125A28
     // private System.String[] _badgeTimelineTrackNames
     // Size: 0x8
     // Offset: 0x58
@@ -148,7 +148,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* badgeMidTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [HeaderAttribute] Offset: 0x1128C60
+    // [HeaderAttribute] Offset: 0x1125ACC
     // private System.String _songPreviewTrackName
     // Size: 0x8
     // Offset: 0x78
@@ -161,7 +161,7 @@ namespace GlobalNamespace {
     ::StringW resultsMocksActivationTrack;
     // Field size check
     static_assert(sizeof(::StringW) == 0x8);
-    // [SpaceAttribute] Offset: 0x1128CBC
+    // [SpaceAttribute] Offset: 0x1125B28
     // private MultiplayerScoreRingManager _multiplayerScoreRingManager
     // Size: 0x8
     // Offset: 0x88
@@ -174,28 +174,28 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerResultsPyramidView* multiplayerResultsPyramidView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerResultsPyramidView*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128D04
+    // [InjectAttribute] Offset: 0x1125B70
     // private readonly MultiplayerPlayersManager _multiplayerPlayersManager
     // Size: 0x8
     // Offset: 0x98
     ::GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128D14
+    // [InjectAttribute] Offset: 0x1125B80
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0xA0
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128D24
+    // [InjectAttribute] Offset: 0x1125B90
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
     // Offset: 0xA8
     ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1128D34
+    // [InjectAttribute] Offset: 0x1125BA0
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0xB0
@@ -254,38 +254,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _onCompleted
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn__onCompleted();
     // public System.Void .ctor()
-    // Offset: 0x141096C
+    // Offset: 0x13E1D6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerOutroAnimationController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerOutroAnimationController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerOutroAnimationController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x140EBD8
+    // Offset: 0x13DF114
     void Start();
     // protected System.Void OnValidate()
-    // Offset: 0x140ED4C
+    // Offset: 0x13DF284
     void OnValidate();
     // protected System.Void OnDestroy()
-    // Offset: 0x140F468
+    // Offset: 0x13DF9A0
     void OnDestroy();
     // public System.Void AnimateOutro(MultiplayerResultsData multiplayerResultsData, System.Action onCompleted)
-    // Offset: 0x140F5DC
+    // Offset: 0x13DFB14
     void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
     // private System.Void BindOutroTimeline()
-    // Offset: 0x140F7A4
+    // Offset: 0x13DFCD8
     void BindOutroTimeline();
     // private System.Void BindRingsAndAudio(UnityEngine.GameObject[] rings, System.Boolean isMock, System.Boolean isDuel, MultiplayerTimelineMock timelineMock)
-    // Offset: 0x140FDC0
+    // Offset: 0x13E02F4
     void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*> rings, bool isMock, bool isDuel, ::GlobalNamespace::MultiplayerTimelineMock* timelineMock);
     // public System.Void SetTimelineMock(MultiplayerTimelineMock multiplayerIntroTimelineMock, System.Boolean isDuel)
-    // Offset: 0x14106BC
+    // Offset: 0x13E1258
     void SetTimelineMock(::GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
     // public System.Void Completed()
-    // Offset: 0x1410950
+    // Offset: 0x13E19D8
     void Completed();
     // private System.Void HandlePlayerSpawningDidFinish()
-    // Offset: 0x140EC7C
+    // Offset: 0x13DF1B8
     void HandlePlayerSpawningDidFinish();
   }; // MultiplayerOutroAnimationController
   #pragma pack(pop)

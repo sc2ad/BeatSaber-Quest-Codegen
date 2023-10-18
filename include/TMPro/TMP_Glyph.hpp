@@ -29,10 +29,10 @@ namespace TMPro {
   class TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy {
     public:
     // static public TMPro.TMP_Glyph Clone(TMPro.TMP_Glyph source)
-    // Offset: 0x14A86BC
+    // Offset: 0x14B80D0
     static ::TMPro::TMP_Glyph* Clone(::TMPro::TMP_Glyph* source);
     // public System.Void .ctor()
-    // Offset: 0x14A8770
+    // Offset: 0x14B8184
     // Implemented from: TMPro.TMP_TextElement_Legacy
     // Base method: System.Void TMP_TextElement_Legacy::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

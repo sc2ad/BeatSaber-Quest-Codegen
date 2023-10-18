@@ -35,10 +35,10 @@ namespace GlobalNamespace {
   class AvatarMeshPartSO : public ::GlobalNamespace::AvatarPartSO_1<::UnityEngine::Mesh*> {
     public:
     // public UnityEngine.Mesh get_mesh()
-    // Offset: 0x157FABC
+    // Offset: 0x157ED20
     ::UnityEngine::Mesh* get_mesh();
     // public System.Void .ctor()
-    // Offset: 0x157FB00
+    // Offset: 0x157ED64
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

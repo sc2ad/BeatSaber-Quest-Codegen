@@ -106,10 +106,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.AudioClip> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x157AD4C
+    // Offset: 0x1579FB0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x157B0D4
+    // Offset: 0x157A338
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // AudioClipAsyncLoader/<Unload>d__21
   // WARNING Not writing size check since size may be invalid!

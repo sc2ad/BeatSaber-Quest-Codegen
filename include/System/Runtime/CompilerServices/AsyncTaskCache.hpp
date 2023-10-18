@@ -48,10 +48,10 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
     static void _set_Int32Tasks(::ArrayW<::System::Threading::Tasks::Task_1<int>*> value);
     // static private System.Void .cctor()
-    // Offset: 0x1E4D12C
+    // Offset: 0x1E3A2AC
     static void _cctor();
     // static private System.Threading.Tasks.Task`1<System.Int32>[] CreateInt32Tasks()
-    // Offset: 0x1E4D024
+    // Offset: 0x1E3A1A4
     static ::ArrayW<::System::Threading::Tasks::Task_1<int>*> CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
     // Offset: 0xFFFFFFFFFFFFFFFF

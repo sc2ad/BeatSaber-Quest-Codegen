@@ -74,28 +74,28 @@ namespace Org::BouncyCastle::Asn1::GM {
     // Set static field: static private readonly System.Collections.IDictionary names
     static void _set_names(::System::Collections::IDictionary* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D09524
+    // Offset: 0x1CF51D4
     static void _cctor();
     // static private Org.BouncyCastle.Asn1.X9.X9ECPoint ConfigureBasepoint(Org.BouncyCastle.Math.EC.ECCurve curve, System.String encoding)
-    // Offset: 0x1D09164
+    // Offset: 0x1CF4E14
     static ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
     // static private Org.BouncyCastle.Math.EC.ECCurve ConfigureCurve(Org.BouncyCastle.Math.EC.ECCurve curve)
-    // Offset: 0x1D09254
+    // Offset: 0x1CF4F04
     static ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
     // static private Org.BouncyCastle.Math.BigInteger FromHex(System.String hex)
-    // Offset: 0x1D09258
+    // Offset: 0x1CF4F08
     static ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
     // static private System.Void DefineCurve(System.String name, Org.BouncyCastle.Asn1.DerObjectIdentifier oid, Org.BouncyCastle.Asn1.X9.X9ECParametersHolder holder)
-    // Offset: 0x1D092F4
+    // Offset: 0x1CF4FA4
     static void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByName(System.String name)
-    // Offset: 0x1D09684
+    // Offset: 0x1CF5334
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
     // static public Org.BouncyCastle.Asn1.X9.X9ECParameters GetByOid(Org.BouncyCastle.Asn1.DerObjectIdentifier oid)
-    // Offset: 0x1D0986C
+    // Offset: 0x1CF551C
     static ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
     // static public Org.BouncyCastle.Asn1.DerObjectIdentifier GetOid(System.String name)
-    // Offset: 0x1D0971C
+    // Offset: 0x1CF53CC
     static ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
   }; // Org.BouncyCastle.Asn1.GM.GMNamedCurves
   #pragma pack(pop)

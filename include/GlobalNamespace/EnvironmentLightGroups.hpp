@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::EnvironmentLightGroups::$$c
     class $$c;
     public:
-    // [TooltipAttribute] Offset: 0x111EDA8
+    // [TooltipAttribute] Offset: 0x111B9CC
     // private System.Collections.Generic.List`1<LightGroupSO> _lightGroupSOList
     // Size: 0x8
     // Offset: 0x10
@@ -72,20 +72,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<LightGroupSO> _lightGroupSOListForLightGroupDataDict
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& dyn__lightGroupSOListForLightGroupDataDict();
     // public System.Collections.Generic.List`1<LightGroupSO> get_lightGroupSOList()
-    // Offset: 0x13C013C
+    // Offset: 0x14010A0
     ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* get_lightGroupSOList();
     // public System.Void .ctor()
-    // Offset: 0x13C0410
+    // Offset: 0x1401374
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EnvironmentLightGroups* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EnvironmentLightGroups::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EnvironmentLightGroups*, creationType>()));
     }
     // public LightGroupSO GetDataForGroup(System.Int32 groupId)
-    // Offset: 0x13C0144
+    // Offset: 0x14010A8
     ::GlobalNamespace::LightGroupSO* GetDataForGroup(int groupId);
     // public System.Void Sort()
-    // Offset: 0x13C0300
+    // Offset: 0x1401264
     void Sort();
   }; // EnvironmentLightGroups
   #pragma pack(pop)

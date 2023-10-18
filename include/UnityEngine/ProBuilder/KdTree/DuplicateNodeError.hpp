@@ -29,7 +29,7 @@ namespace UnityEngine::ProBuilder::KdTree {
   class DuplicateNodeError : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2BB5D14
+    // Offset: 0x2BB571C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DuplicateNodeError* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::KdTree::DuplicateNodeError::.ctor");

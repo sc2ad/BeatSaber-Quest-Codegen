@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class GoodCutScoringElement::Pool : public ::GlobalNamespace::ScoringElement::Pool_1<::GlobalNamespace::GoodCutScoringElement*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13A8378
+    // Offset: 0x1395C90
     // Implemented from: ScoringElement/Pool`1
     // Base method: System.Void Pool_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

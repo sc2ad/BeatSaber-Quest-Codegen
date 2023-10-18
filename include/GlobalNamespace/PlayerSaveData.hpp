@@ -90,7 +90,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator ::StringW
     constexpr operator ::StringW() const noexcept = delete;
     // static field const value: static public System.String kCurrentVersion
-    static constexpr const char* kCurrentVersion = "2.0.22";
+    static constexpr const char* kCurrentVersion = "2.0.23";
     // Get static field: static public System.String kCurrentVersion
     static ::StringW _get_kCurrentVersion();
     // Set static field: static public System.String kCurrentVersion
@@ -100,7 +100,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.List`1<PlayerSaveData/GuestPlayer> guestPlayers
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData::GuestPlayer*>*& dyn_guestPlayers();
     // public System.Void .ctor()
-    // Offset: 0x15A9454
+    // Offset: 0x15A3364
     // Implemented from: VersionSaveData
     // Base method: System.Void VersionSaveData::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

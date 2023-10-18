@@ -32,13 +32,13 @@ namespace System::Xml {
   class BinHexEncoder : public ::Il2CppObject {
     public:
     // static System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Xml.XmlWriter writer)
-    // Offset: 0x1B09510
+    // Offset: 0x1AE35CC
     static void Encode(::ArrayW<uint8_t> buffer, int index, int count, ::System::Xml::XmlWriter* writer);
     // static System.String Encode(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 count)
-    // Offset: 0x1B097E0
+    // Offset: 0x1AE389C
     static ::StringW Encode(::ArrayW<uint8_t> inArray, int offsetIn, int count);
     // static private System.Int32 Encode(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 count, System.Char[] outArray)
-    // Offset: 0x1B0969C
+    // Offset: 0x1AE3758
     static int Encode(::ArrayW<uint8_t> inArray, int offsetIn, int count, ::ArrayW<::Il2CppChar> outArray);
   }; // System.Xml.BinHexEncoder
   #pragma pack(pop)

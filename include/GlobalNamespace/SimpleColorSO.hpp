@@ -43,15 +43,15 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Color _color
     [[deprecated("Use field access instead!")]] ::UnityEngine::Color& dyn__color();
     // public System.Void SetColor(UnityEngine.Color c)
-    // Offset: 0x2BB234C
+    // Offset: 0x2BB1D54
     void SetColor(::UnityEngine::Color c);
     // public override UnityEngine.Color get_color()
-    // Offset: 0x2BB2340
+    // Offset: 0x2BB1D48
     // Implemented from: ColorSO
     // Base method: UnityEngine.Color ColorSO::get_color()
     ::UnityEngine::Color get_color();
     // public System.Void .ctor()
-    // Offset: 0x2BB2358
+    // Offset: 0x2BB1D60
     // Implemented from: ColorSO
     // Base method: System.Void ColorSO::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

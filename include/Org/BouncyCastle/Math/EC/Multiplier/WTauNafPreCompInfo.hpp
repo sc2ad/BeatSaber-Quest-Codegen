@@ -59,13 +59,13 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.AbstractF2mPoint[] m_preComp
     [[deprecated("Use field access instead!")]] ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>& dyn_m_preComp();
     // public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] get_PreComp()
-    // Offset: 0x23A467C
+    // Offset: 0x2394148
     ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*> get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint[] value)
-    // Offset: 0x23A4684
+    // Offset: 0x2394150
     void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*> value);
     // public System.Void .ctor()
-    // Offset: 0x23A4674
+    // Offset: 0x2394140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WTauNafPreCompInfo* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::.ctor");

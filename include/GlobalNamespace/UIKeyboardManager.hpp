@@ -78,7 +78,7 @@ namespace GlobalNamespace {
     ::UnityEngine::Transform* parentContainerTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [InjectAttribute] Offset: 0x112C8B0
+    // [InjectAttribute] Offset: 0x11297AC
     // private readonly VRUIControls.VRInputModule _vrInputModule
     // Size: 0x8
     // Offset: 0x38
@@ -113,44 +113,44 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.InputFieldView _selectedInput
     [[deprecated("Use field access instead!")]] ::HMUI::InputFieldView*& dyn__selectedInput();
     // public HMUI.UIKeyboard get_keyboard()
-    // Offset: 0x1533730
+    // Offset: 0x15DD190
     ::HMUI::UIKeyboard* get_keyboard();
     // public System.Void .ctor()
-    // Offset: 0x153411C
+    // Offset: 0x15DDB7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboardManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::UIKeyboardManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboardManager*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1533738
+    // Offset: 0x15DD198
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x15337CC
+    // Offset: 0x15DD22C
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x1533858
+    // Offset: 0x15DD2B8
     void OnDisable();
     // protected System.Void OnDestroy()
-    // Offset: 0x15338E4
+    // Offset: 0x15DD344
     void OnDestroy();
     // public System.Void OpenKeyboardFor(HMUI.InputFieldView input)
-    // Offset: 0x15339BC
+    // Offset: 0x15DD41C
     void OpenKeyboardFor(::HMUI::InputFieldView* input);
     // public System.Void CloseKeyboard()
-    // Offset: 0x1533C50
+    // Offset: 0x15DD6B0
     void CloseKeyboard();
     // private System.Void TransferKeyboardTo(HMUI.InputFieldView nextInput)
-    // Offset: 0x1533CF8
+    // Offset: 0x15DD758
     void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
     // private System.Boolean ShouldCloseKeyboard(UnityEngine.GameObject root)
-    // Offset: 0x1533D9C
+    // Offset: 0x15DD7FC
     bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
     // private System.Void ProcessMousePress(UnityEngine.GameObject currentOverGo)
-    // Offset: 0x1533E00
+    // Offset: 0x15DD860
     void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
     // private System.Void HandleKeyboardOkButton()
-    // Offset: 0x1533F98
+    // Offset: 0x15DD9F8
     void HandleKeyboardOkButton();
   }; // UIKeyboardManager
   #pragma pack(pop)

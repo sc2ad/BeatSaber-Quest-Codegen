@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // [InjectAttribute] Offset: 0x1133D24
+    // [InjectAttribute] Offset: 0x1130D08
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x18
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1133D34
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1130D18
     // Get static field: static private readonly System.Int32 _songTimePropertyId
     static int _get__songTimePropertyId();
     // Set static field: static private readonly System.Int32 _songTimePropertyId
@@ -54,17 +54,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // public System.Void .ctor()
-    // Offset: 0x14215F0
+    // Offset: 0x149F638
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SongTimeToShaderWriter* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SongTimeToShaderWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SongTimeToShaderWriter*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x14215F8
+    // Offset: 0x149F640
     static void _cctor();
     // protected System.Void Update()
-    // Offset: 0x1421368
+    // Offset: 0x149F3B0
     void Update();
   }; // SongTimeToShaderWriter
   #pragma pack(pop)

@@ -75,10 +75,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.Vector4 rightScaleBias
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector4& dyn_rightScaleBias();
     // static private System.Void .cctor()
-    // Offset: 0x1B9F2A8
+    // Offset: 0x1B5852C
     static void _cctor();
     // public override System.String ToString()
-    // Offset: 0x1B9F0C0
+    // Offset: 0x1B58344
     // Implemented from: System.ValueType
     // Base method: System.String ValueType::ToString()
     ::StringW ToString();

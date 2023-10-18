@@ -36,7 +36,7 @@ namespace System::Net::NetworkInformation {
   class NetworkInformationException : public ::System::ComponentModel::Win32Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x1BF8B64
+    // Offset: 0x1BC4930
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -45,7 +45,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInformationException*, creationType>()));
     }
     // public System.Void .ctor(System.Int32 errorCode)
-    // Offset: 0x1BF8C00
+    // Offset: 0x1BC49CC
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Int32 errorCode)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -54,7 +54,7 @@ namespace System::Net::NetworkInformation {
       return THROW_UNLESS((::il2cpp_utils::New<NetworkInformationException*, creationType>(errorCode)));
     }
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
-    // Offset: 0x1BF8C78
+    // Offset: 0x1BC4A44
     // Implemented from: System.ComponentModel.Win32Exception
     // Base method: System.Void Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

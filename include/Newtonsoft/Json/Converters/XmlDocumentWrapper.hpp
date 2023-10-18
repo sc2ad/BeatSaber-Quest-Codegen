@@ -67,50 +67,50 @@ namespace Newtonsoft::Json::Converters {
     // Get instance field reference: private readonly System.Xml.XmlDocument _document
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlDocument*& dyn__document();
     // public Newtonsoft.Json.Converters.IXmlElement get_DocumentElement()
-    // Offset: 0x181C51C
+    // Offset: 0x18096C4
     ::Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement();
     // public System.Void .ctor(System.Xml.XmlDocument document)
-    // Offset: 0x181BCF8
+    // Offset: 0x1808EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlDocumentWrapper* New_ctor(::System::Xml::XmlDocument* document) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Converters::XmlDocumentWrapper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlDocumentWrapper*, creationType>(document)));
     }
     // public Newtonsoft.Json.Converters.IXmlNode CreateComment(System.String data)
-    // Offset: 0x181BD28
+    // Offset: 0x1808ED0
     ::Newtonsoft::Json::Converters::IXmlNode* CreateComment(::StringW data);
     // public Newtonsoft.Json.Converters.IXmlNode CreateTextNode(System.String text)
-    // Offset: 0x181BDC0
+    // Offset: 0x1808F68
     ::Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateCDataSection(System.String data)
-    // Offset: 0x181BE58
+    // Offset: 0x1809000
     ::Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(::StringW data);
     // public Newtonsoft.Json.Converters.IXmlNode CreateWhitespace(System.String text)
-    // Offset: 0x181BEF0
+    // Offset: 0x1809098
     ::Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateSignificantWhitespace(System.String text)
-    // Offset: 0x181BF88
+    // Offset: 0x1809130
     ::Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(::StringW text);
     // public Newtonsoft.Json.Converters.IXmlNode CreateXmlDeclaration(System.String version, System.String encoding, System.String standalone)
-    // Offset: 0x181C020
+    // Offset: 0x18091C8
     ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone);
     // public Newtonsoft.Json.Converters.IXmlNode CreateXmlDocumentType(System.String name, System.String publicId, System.String systemId, System.String internalSubset)
-    // Offset: 0x181C0D4
+    // Offset: 0x180927C
     ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
     // public Newtonsoft.Json.Converters.IXmlNode CreateProcessingInstruction(System.String target, System.String data)
-    // Offset: 0x181C18C
+    // Offset: 0x1809334
     ::Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW target, ::StringW data);
     // public Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String elementName)
-    // Offset: 0x181C22C
+    // Offset: 0x18093D4
     ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName);
     // public Newtonsoft.Json.Converters.IXmlElement CreateElement(System.String qualifiedName, System.String namespaceUri)
-    // Offset: 0x181C2F0
+    // Offset: 0x1809498
     ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceUri);
     // public Newtonsoft.Json.Converters.IXmlNode CreateAttribute(System.String name, System.String value)
-    // Offset: 0x181C38C
+    // Offset: 0x1809534
     ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW name, ::StringW value);
     // public Newtonsoft.Json.Converters.IXmlNode CreateAttribute(System.String qualifiedName, System.String namespaceUri, System.String value)
-    // Offset: 0x181C45C
+    // Offset: 0x1809604
     ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW qualifiedName, ::StringW namespaceUri, ::StringW value);
   }; // Newtonsoft.Json.Converters.XmlDocumentWrapper
   #pragma pack(pop)

@@ -44,62 +44,62 @@ namespace System::Net::Sockets {
     // Set static field: static public System.IOAsyncCallback <>9__241_0
     static void _set_$$9__241_0(::System::IOAsyncCallback* value);
     // static private System.Void .cctor()
-    // Offset: 0x1BC84B8
+    // Offset: 0x1B654F0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1BC851C
+    // Offset: 0x1B65554
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Socket::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Sockets::Socket::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Socket::$$c*, creationType>()));
     }
     // System.Void <BeginSend>b__241_0(System.IOAsyncResult s)
-    // Offset: 0x1BC8524
+    // Offset: 0x1B6555C
     void $BeginSend$b__241_0(::System::IOAsyncResult* s);
     // System.Void <.cctor>b__309_0(System.IAsyncResult ares)
-    // Offset: 0x1BC85BC
+    // Offset: 0x1B655F4
     void $_cctor$b__309_0(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_1(System.IOAsyncResult ares)
-    // Offset: 0x1BC8874
+    // Offset: 0x1B658AC
     void $_cctor$b__309_1(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_2(System.IOAsyncResult ares)
-    // Offset: 0x1BC89BC
+    // Offset: 0x1B659F4
     void $_cctor$b__309_2(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_3(System.IAsyncResult ares)
-    // Offset: 0x1BC8C5C
+    // Offset: 0x1B65C94
     void $_cctor$b__309_3(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_4(System.IOAsyncResult ares)
-    // Offset: 0x1BC8EA4
+    // Offset: 0x1B65EDC
     void $_cctor$b__309_4(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_5(System.IAsyncResult ares)
-    // Offset: 0x1BC9324
+    // Offset: 0x1B6635C
     void $_cctor$b__309_5(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_6(System.IOAsyncResult ares)
-    // Offset: 0x1BC956C
+    // Offset: 0x1B665A4
     void $_cctor$b__309_6(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_7(System.IAsyncResult ares)
-    // Offset: 0x1BC9678
+    // Offset: 0x1B666B0
     void $_cctor$b__309_7(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_8(System.IOAsyncResult ares)
-    // Offset: 0x1BC98C8
+    // Offset: 0x1B66900
     void $_cctor$b__309_8(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_9(System.IOAsyncResult ares)
-    // Offset: 0x1BC9AA0
+    // Offset: 0x1B66AD8
     void $_cctor$b__309_9(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_10(System.IAsyncResult ares)
-    // Offset: 0x1BC9BB8
+    // Offset: 0x1B66BF0
     void $_cctor$b__309_10(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_11(System.IOAsyncResult ares)
-    // Offset: 0x1BC9E0C
+    // Offset: 0x1B66E44
     void $_cctor$b__309_11(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_12(System.IAsyncResult ares)
-    // Offset: 0x1BC9FE8
+    // Offset: 0x1B67020
     void $_cctor$b__309_12(::System::IAsyncResult* ares);
     // System.Void <.cctor>b__309_13(System.IOAsyncResult ares)
-    // Offset: 0x1BCA238
+    // Offset: 0x1B67270
     void $_cctor$b__309_13(::System::IOAsyncResult* ares);
     // System.Void <.cctor>b__309_14(System.IAsyncResult ares)
-    // Offset: 0x1BCA350
+    // Offset: 0x1B67388
     void $_cctor$b__309_14(::System::IAsyncResult* ares);
   }; // System.Net.Sockets.Socket/System.Net.Sockets.<>c
   #pragma pack(pop)

@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithCloudStorageConflictMetadata : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::CloudStorageConflictMetadata*> {
     public:
     // protected Oculus.Platform.Models.CloudStorageConflictMetadata GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A3EBD4
+    // Offset: 0x1A3960C
     ::Oculus::Platform::Models::CloudStorageConflictMetadata* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A3AF24
+    // Offset: 0x1A3595C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithCloudStorageConflictMetadata*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.CloudStorageConflictMetadata GetCloudStorageConflictMetadata()
-    // Offset: 0x1A3EB90
+    // Offset: 0x1A395C8
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.CloudStorageConflictMetadata Message::GetCloudStorageConflictMetadata()
     ::Oculus::Platform::Models::CloudStorageConflictMetadata* GetCloudStorageConflictMetadata();

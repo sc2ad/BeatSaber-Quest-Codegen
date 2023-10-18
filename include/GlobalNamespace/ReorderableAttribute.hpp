@@ -56,32 +56,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <ElementSingleLine>k__BackingField
     [[deprecated("Use field access instead!")]] bool& dyn_$ElementSingleLine$k__BackingField();
     // public System.String get_ElementHeader()
-    // Offset: 0x2AE52B4
+    // Offset: 0x2AF1C44
     ::StringW get_ElementHeader();
     // protected System.Void set_ElementHeader(System.String value)
-    // Offset: 0x2AE52BC
+    // Offset: 0x2AF1C4C
     void set_ElementHeader(::StringW value);
     // public System.Boolean get_HeaderZeroIndex()
-    // Offset: 0x2AE52C4
+    // Offset: 0x2AF1C54
     bool get_HeaderZeroIndex();
     // protected System.Void set_HeaderZeroIndex(System.Boolean value)
-    // Offset: 0x2AE52CC
+    // Offset: 0x2AF1C5C
     void set_HeaderZeroIndex(bool value);
     // public System.Boolean get_ElementSingleLine()
-    // Offset: 0x2AE52D8
+    // Offset: 0x2AF1C68
     bool get_ElementSingleLine();
     // protected System.Void set_ElementSingleLine(System.Boolean value)
-    // Offset: 0x2AE52E0
+    // Offset: 0x2AF1C70
     void set_ElementSingleLine(bool value);
     // public System.Void .ctor()
-    // Offset: 0x2AE52EC
+    // Offset: 0x2AF1C7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReorderableAttribute* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReorderableAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReorderableAttribute*, creationType>()));
     }
     // public System.Void .ctor(System.String headerString, System.Boolean isZeroIndex, System.Boolean isSingleLine)
-    // Offset: 0x2AE5354
+    // Offset: 0x2AF1CE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReorderableAttribute* New_ctor(::StringW headerString, bool isZeroIndex, bool isSingleLine) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ReorderableAttribute::.ctor");

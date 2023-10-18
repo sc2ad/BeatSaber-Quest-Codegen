@@ -69,16 +69,16 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Xml.Schema.NamespaceList namespaceList
     [[deprecated("Use field access instead!")]] ::System::Xml::Schema::NamespaceList*& dyn_namespaceList();
     // public System.Void set_ProcessContents(System.Xml.Schema.XmlSchemaContentProcessing value)
-    // Offset: 0x2111150
+    // Offset: 0x2108AC8
     void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
     // System.Xml.Schema.NamespaceList get_NamespaceList()
-    // Offset: 0x2111158
+    // Offset: 0x2108AD0
     ::System::Xml::Schema::NamespaceList* get_NamespaceList();
     // System.Void BuildNamespaceList(System.String targetNamespace)
-    // Offset: 0x2111160
+    // Offset: 0x2108AD8
     void BuildNamespaceList(::StringW targetNamespace);
     // public System.Void .ctor()
-    // Offset: 0x21111E8
+    // Offset: 0x2108B60
     // Implemented from: System.Xml.Schema.XmlSchemaParticle
     // Base method: System.Void XmlSchemaParticle::.ctor()
     // Base method: System.Void XmlSchemaAnnotated::.ctor()

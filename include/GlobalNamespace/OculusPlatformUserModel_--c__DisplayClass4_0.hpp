@@ -63,14 +63,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<PlatformUserAuthTokenData> tcs
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*& dyn_tcs();
     // public System.Void .ctor()
-    // Offset: 0x13840B0
+    // Offset: 0x13470A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusPlatformUserModel::$$c__DisplayClass4_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass4_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusPlatformUserModel::$$c__DisplayClass4_0*, creationType>()));
     }
     // System.Void <GetUserAuthToken>b__0(Oculus.Platform.Message`1<Oculus.Platform.Models.UserProof> message)
-    // Offset: 0x13840B8
+    // Offset: 0x13470B0
     void $GetUserAuthToken$b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>* message);
   }; // OculusPlatformUserModel/<>c__DisplayClass4_0
   #pragma pack(pop)

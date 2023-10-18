@@ -85,10 +85,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15B9E78
+    // Offset: 0x158E2E4
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15BA100
+    // Offset: 0x158E56C
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__15
   // WARNING Not writing size check since size may be invalid!

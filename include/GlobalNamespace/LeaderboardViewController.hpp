@@ -36,7 +36,7 @@ namespace GlobalNamespace {
   class LeaderboardViewController : public ::HMUI::ViewController {
     public:
     // protected System.Void .ctor()
-    // Offset: 0x13B5C0C
+    // Offset: 0x13A3524
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LeaderboardViewController::.ctor");
@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
     // public System.Void RefreshLevelStats()
-    // Offset: 0x13B5C08
+    // Offset: 0x13A3520
     void RefreshLevelStats();
   }; // LeaderboardViewController
   #pragma pack(pop)

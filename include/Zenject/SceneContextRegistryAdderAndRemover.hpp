@@ -77,23 +77,23 @@ namespace Zenject {
     // Get instance field reference: private readonly Zenject.SceneContext _sceneContext
     [[deprecated("Use field access instead!")]] ::Zenject::SceneContext*& dyn__sceneContext();
     // public System.Void .ctor(Zenject.SceneContext sceneContext, Zenject.SceneContextRegistry registry)
-    // Offset: 0x1CDDEEC
+    // Offset: 0x1CB17A0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistryAdderAndRemover::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistryAdderAndRemover*, creationType>(sceneContext, registry)));
     }
     // public System.Void Initialize()
-    // Offset: 0x1CDDF24
+    // Offset: 0x1CB17D8
     void Initialize();
     // public System.Void Dispose()
-    // Offset: 0x1CDDF44
+    // Offset: 0x1CB17F8
     void Dispose();
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CDDF64
+    // Offset: 0x1CB1818
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CDE07C
+    // Offset: 0x1CB1930
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SceneContextRegistryAdderAndRemover
   #pragma pack(pop)

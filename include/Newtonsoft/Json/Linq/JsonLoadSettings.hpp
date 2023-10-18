@@ -50,13 +50,13 @@ namespace Newtonsoft::Json::Linq {
     // Get instance field reference: private Newtonsoft.Json.Linq.LineInfoHandling _lineInfoHandling
     [[deprecated("Use field access instead!")]] ::Newtonsoft::Json::Linq::LineInfoHandling& dyn__lineInfoHandling();
     // public Newtonsoft.Json.Linq.CommentHandling get_CommentHandling()
-    // Offset: 0x17BC9D8
+    // Offset: 0x17AAB80
     ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
     // public Newtonsoft.Json.Linq.LineInfoHandling get_LineInfoHandling()
-    // Offset: 0x17BC9E0
+    // Offset: 0x17AAB88
     ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
     // public System.Void .ctor()
-    // Offset: 0x17BC9E8
+    // Offset: 0x17AAB90
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static JsonLoadSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Linq::JsonLoadSettings::.ctor");

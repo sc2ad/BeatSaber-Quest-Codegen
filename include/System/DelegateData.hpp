@@ -61,7 +61,7 @@ namespace System {
     // Get instance field reference: public System.Boolean curried_first_arg
     [[deprecated("Use field access instead!")]] bool& dyn_curried_first_arg();
     // public System.Void .ctor()
-    // Offset: 0x199975C
+    // Offset: 0x19807D4
     // Implemented from: System.Object
     // Base method: System.Void Object::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

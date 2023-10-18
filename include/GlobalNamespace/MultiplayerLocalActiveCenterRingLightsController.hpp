@@ -58,21 +58,21 @@ namespace GlobalNamespace {
     ::ArrayW<::UnityEngine::Transform*> horizontalLines;
     // Field size check
     static_assert(sizeof(::ArrayW<::UnityEngine::Transform*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1127AB0
+    // [InjectAttribute] Offset: 0x1124884
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::MultiplayerCenterResizeController* centerResizeController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerCenterResizeController*) == 0x8);
-    // [InjectAttribute] Offset: 0x1127AC0
+    // [InjectAttribute] Offset: 0x1124894
     // private readonly MultiplayerLayoutProvider _layoutProvider
     // Size: 0x8
     // Offset: 0x30
     ::GlobalNamespace::MultiplayerLayoutProvider* layoutProvider;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLayoutProvider*) == 0x8);
-    // [InjectAttribute] Offset: 0x1127AD0
+    // [InjectAttribute] Offset: 0x11248A4
     // private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter
     // Size: 0x8
     // Offset: 0x38
@@ -109,29 +109,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _spawnCenterDistanceFound
     [[deprecated("Use field access instead!")]] bool& dyn__spawnCenterDistanceFound();
     // public System.Void .ctor()
-    // Offset: 0x1400EB0
+    // Offset: 0x13D13D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActiveCenterRingLightsController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActiveCenterRingLightsController*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x1400800
+    // Offset: 0x13D0D28
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x14009D0
+    // Offset: 0x13D0EF8
     void OnDestroy();
     // private System.Void TryResize()
-    // Offset: 0x1400B28
+    // Offset: 0x13D1050
     void TryResize();
     // private System.Void Resize()
-    // Offset: 0x1400B40
+    // Offset: 0x13D1068
     void Resize();
     // private System.Void HandleSpawnCenterDistanceWasFound(System.Single spawnCenterDistance)
-    // Offset: 0x14009B8
+    // Offset: 0x13D0EE0
     void HandleSpawnCenterDistanceWasFound(float spawnCenterDistance);
     // private System.Void HandleEdgeDistanceFromCenterWasCalculated(System.Single constructEdgeDistanceFromCenter)
-    // Offset: 0x14009A0
+    // Offset: 0x13D0EC8
     void HandleEdgeDistanceFromCenterWasCalculated(float constructEdgeDistanceFromCenter);
   }; // MultiplayerLocalActiveCenterRingLightsController
   #pragma pack(pop)

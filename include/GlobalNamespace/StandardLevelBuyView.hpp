@@ -63,17 +63,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.UI.Button _buyButton
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Button*& dyn__buyButton();
     // public UnityEngine.UI.Button get_buyButton()
-    // Offset: 0x1423F48
+    // Offset: 0x14A1F90
     ::UnityEngine::UI::Button* get_buyButton();
     // public System.Void .ctor()
-    // Offset: 0x1423F6C
+    // Offset: 0x14A1FB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StandardLevelBuyView* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StandardLevelBuyView::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StandardLevelBuyView*, creationType>()));
     }
     // public System.Void SetContent(IPreviewBeatmapLevel previewBeatmapLevel)
-    // Offset: 0x1423F50
+    // Offset: 0x14A1F98
     void SetContent(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
   }; // StandardLevelBuyView
   #pragma pack(pop)

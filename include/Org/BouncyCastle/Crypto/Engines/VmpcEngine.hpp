@@ -91,23 +91,23 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: protected System.Byte[] workingKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.Void .ctor()
-    // Offset: 0x1EC2B6C
+    // Offset: 0x1EBEC68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VmpcEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::VmpcEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VmpcEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x1EC25D4
+    // Offset: 0x1EBE6D0
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // protected System.Void InitKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    // Offset: 0x1EC2750
+    // Offset: 0x1EBE84C
     void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
-    // Offset: 0x1EC297C
+    // Offset: 0x1EBEA78
     void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
-    // Offset: 0x1EC2B5C
+    // Offset: 0x1EBEC58
     void Reset();
   }; // Org.BouncyCastle.Crypto.Engines.VmpcEngine
   #pragma pack(pop)

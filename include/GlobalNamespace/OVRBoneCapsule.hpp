@@ -64,32 +64,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CapsuleCollider <CapsuleCollider>k__BackingField
     [[deprecated("Use field access instead!")]] ::UnityEngine::CapsuleCollider*& dyn_$CapsuleCollider$k__BackingField();
     // public System.Int16 get_BoneIndex()
-    // Offset: 0x16B7ABC
+    // Offset: 0x16DA06C
     int16_t get_BoneIndex();
     // public System.Void set_BoneIndex(System.Int16 value)
-    // Offset: 0x16B7AC4
+    // Offset: 0x16DA074
     void set_BoneIndex(int16_t value);
     // public UnityEngine.Rigidbody get_CapsuleRigidbody()
-    // Offset: 0x16B7ACC
+    // Offset: 0x16DA07C
     ::UnityEngine::Rigidbody* get_CapsuleRigidbody();
     // public System.Void set_CapsuleRigidbody(UnityEngine.Rigidbody value)
-    // Offset: 0x16B7AD4
+    // Offset: 0x16DA084
     void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
     // public UnityEngine.CapsuleCollider get_CapsuleCollider()
-    // Offset: 0x16B7ADC
+    // Offset: 0x16DA08C
     ::UnityEngine::CapsuleCollider* get_CapsuleCollider();
     // public System.Void set_CapsuleCollider(UnityEngine.CapsuleCollider value)
-    // Offset: 0x16B7AE4
+    // Offset: 0x16DA094
     void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
     // public System.Void .ctor()
-    // Offset: 0x16B7AEC
+    // Offset: 0x16DA09C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoneCapsule* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoneCapsule::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRBoneCapsule*, creationType>()));
     }
     // public System.Void .ctor(System.Int16 boneIndex, UnityEngine.Rigidbody capsuleRigidBody, UnityEngine.CapsuleCollider capsuleCollider)
-    // Offset: 0x16B7AF4
+    // Offset: 0x16DA0A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRBoneCapsule* New_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRBoneCapsule::.ctor");

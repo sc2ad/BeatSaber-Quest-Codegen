@@ -63,7 +63,7 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: public System.Int32 face
     [[deprecated("Use field access instead!")]] int& dyn_face();
     // public System.Void .ctor(System.Single distance, UnityEngine.Vector3 point, UnityEngine.Vector3 normal, System.Int32 face)
-    // Offset: 0x1A1CD1C
+    // Offset: 0x1A17754
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RaycastHit* New_ctor(float distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int face) {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::RaycastHit::.ctor");

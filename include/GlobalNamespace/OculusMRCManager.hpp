@@ -67,7 +67,7 @@ namespace GlobalNamespace {
   class OculusMRCManager : public ::UnityEngine::MonoBehaviour/*, public ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*/ {
     public:
     public:
-    // [InjectAttribute] Offset: 0x10F8CC0
+    // [InjectAttribute] Offset: 0x10F5EB0
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
     // Offset: 0x18
@@ -340,191 +340,191 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVRManager/InstantiateMrcCameraDelegate _instantiateMixedRealityCameraGameObject
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*& dyn__instantiateMixedRealityCameraGameObject();
     // public System.Boolean get_enableMixedReality()
-    // Offset: 0x162DDF8
+    // Offset: 0x16419F8
     bool get_enableMixedReality();
     // public System.Void set_enableMixedReality(System.Boolean value)
-    // Offset: 0x162DE00
+    // Offset: 0x1641A00
     void set_enableMixedReality(bool value);
     // public UnityEngine.LayerMask get_extraHiddenLayers()
-    // Offset: 0x162DE0C
+    // Offset: 0x1641A0C
     ::UnityEngine::LayerMask get_extraHiddenLayers();
     // public System.Void set_extraHiddenLayers(UnityEngine.LayerMask value)
-    // Offset: 0x162DE14
+    // Offset: 0x1641A14
     void set_extraHiddenLayers(::UnityEngine::LayerMask value);
     // public UnityEngine.LayerMask get_extraVisibleLayers()
-    // Offset: 0x162DE1C
+    // Offset: 0x1641A1C
     ::UnityEngine::LayerMask get_extraVisibleLayers();
     // public System.Void set_extraVisibleLayers(UnityEngine.LayerMask value)
-    // Offset: 0x162DE24
+    // Offset: 0x1641A24
     void set_extraVisibleLayers(::UnityEngine::LayerMask value);
     // public System.Boolean get_dynamicCullingMask()
-    // Offset: 0x162DE2C
+    // Offset: 0x1641A2C
     bool get_dynamicCullingMask();
     // public System.Void set_dynamicCullingMask(System.Boolean value)
-    // Offset: 0x162DE34
+    // Offset: 0x1641A34
     void set_dynamicCullingMask(bool value);
     // public OVRManager/CompositionMethod get_compositionMethod()
-    // Offset: 0x162DE40
+    // Offset: 0x1641A40
     ::GlobalNamespace::OVRManager_CompositionMethod get_compositionMethod();
     // public System.Void set_compositionMethod(OVRManager/CompositionMethod value)
-    // Offset: 0x162DE48
+    // Offset: 0x1641A48
     void set_compositionMethod(::GlobalNamespace::OVRManager_CompositionMethod value);
     // public UnityEngine.Color get_externalCompositionBackdropColorRift()
-    // Offset: 0x162DE50
+    // Offset: 0x1641A50
     ::UnityEngine::Color get_externalCompositionBackdropColorRift();
     // public System.Void set_externalCompositionBackdropColorRift(UnityEngine.Color value)
-    // Offset: 0x162DE5C
+    // Offset: 0x1641A5C
     void set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
     // public UnityEngine.Color get_externalCompositionBackdropColorQuest()
-    // Offset: 0x162DE68
+    // Offset: 0x1641A68
     ::UnityEngine::Color get_externalCompositionBackdropColorQuest();
     // public System.Void set_externalCompositionBackdropColorQuest(UnityEngine.Color value)
-    // Offset: 0x162DE74
+    // Offset: 0x1641A74
     void set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
     // public OVRManager/CameraDevice get_capturingCameraDevice()
-    // Offset: 0x162DE80
+    // Offset: 0x1641A80
     ::GlobalNamespace::OVRManager_CameraDevice get_capturingCameraDevice();
     // public System.Void set_capturingCameraDevice(OVRManager/CameraDevice value)
-    // Offset: 0x162DE88
+    // Offset: 0x1641A88
     void set_capturingCameraDevice(::GlobalNamespace::OVRManager_CameraDevice value);
     // public System.Boolean get_flipCameraFrameHorizontally()
-    // Offset: 0x162DE90
+    // Offset: 0x1641A90
     bool get_flipCameraFrameHorizontally();
     // public System.Void set_flipCameraFrameHorizontally(System.Boolean value)
-    // Offset: 0x162DE98
+    // Offset: 0x1641A98
     void set_flipCameraFrameHorizontally(bool value);
     // public System.Boolean get_flipCameraFrameVertically()
-    // Offset: 0x162DEA4
+    // Offset: 0x1641AA4
     bool get_flipCameraFrameVertically();
     // public System.Void set_flipCameraFrameVertically(System.Boolean value)
-    // Offset: 0x162DEAC
+    // Offset: 0x1641AAC
     void set_flipCameraFrameVertically(bool value);
     // public System.Single get_handPoseStateLatency()
-    // Offset: 0x162DEB8
+    // Offset: 0x1641AB8
     float get_handPoseStateLatency();
     // public System.Void set_handPoseStateLatency(System.Single value)
-    // Offset: 0x162DEC0
+    // Offset: 0x1641AC0
     void set_handPoseStateLatency(float value);
     // public System.Single get_sandwichCompositionRenderLatency()
-    // Offset: 0x162DEC8
+    // Offset: 0x1641AC8
     float get_sandwichCompositionRenderLatency();
     // public System.Void set_sandwichCompositionRenderLatency(System.Single value)
-    // Offset: 0x162DED0
+    // Offset: 0x1641AD0
     void set_sandwichCompositionRenderLatency(float value);
     // public System.Int32 get_sandwichCompositionBufferedFrames()
-    // Offset: 0x162DED8
+    // Offset: 0x1641AD8
     int get_sandwichCompositionBufferedFrames();
     // public System.Void set_sandwichCompositionBufferedFrames(System.Int32 value)
-    // Offset: 0x162DEE0
+    // Offset: 0x1641AE0
     void set_sandwichCompositionBufferedFrames(int value);
     // public UnityEngine.Color get_chromaKeyColor()
-    // Offset: 0x162DEE8
+    // Offset: 0x1641AE8
     ::UnityEngine::Color get_chromaKeyColor();
     // public System.Void set_chromaKeyColor(UnityEngine.Color value)
-    // Offset: 0x162DEF4
+    // Offset: 0x1641AF4
     void set_chromaKeyColor(::UnityEngine::Color value);
     // public System.Single get_chromaKeySimilarity()
-    // Offset: 0x162DF00
+    // Offset: 0x1641B00
     float get_chromaKeySimilarity();
     // public System.Void set_chromaKeySimilarity(System.Single value)
-    // Offset: 0x162DF08
+    // Offset: 0x1641B08
     void set_chromaKeySimilarity(float value);
     // public System.Single get_chromaKeySmoothRange()
-    // Offset: 0x162DF10
+    // Offset: 0x1641B10
     float get_chromaKeySmoothRange();
     // public System.Void set_chromaKeySmoothRange(System.Single value)
-    // Offset: 0x162DF18
+    // Offset: 0x1641B18
     void set_chromaKeySmoothRange(float value);
     // public System.Single get_chromaKeySpillRange()
-    // Offset: 0x162DF20
+    // Offset: 0x1641B20
     float get_chromaKeySpillRange();
     // public System.Void set_chromaKeySpillRange(System.Single value)
-    // Offset: 0x162DF28
+    // Offset: 0x1641B28
     void set_chromaKeySpillRange(float value);
     // public System.Boolean get_useDynamicLighting()
-    // Offset: 0x162DF30
+    // Offset: 0x1641B30
     bool get_useDynamicLighting();
     // public System.Void set_useDynamicLighting(System.Boolean value)
-    // Offset: 0x162DF38
+    // Offset: 0x1641B38
     void set_useDynamicLighting(bool value);
     // public OVRManager/DepthQuality get_depthQuality()
-    // Offset: 0x162DF44
+    // Offset: 0x1641B44
     ::GlobalNamespace::OVRManager_DepthQuality get_depthQuality();
     // public System.Void set_depthQuality(OVRManager/DepthQuality value)
-    // Offset: 0x162DF4C
+    // Offset: 0x1641B4C
     void set_depthQuality(::GlobalNamespace::OVRManager_DepthQuality value);
     // public System.Single get_dynamicLightingSmoothFactor()
-    // Offset: 0x162DF54
+    // Offset: 0x1641B54
     float get_dynamicLightingSmoothFactor();
     // public System.Void set_dynamicLightingSmoothFactor(System.Single value)
-    // Offset: 0x162DF5C
+    // Offset: 0x1641B5C
     void set_dynamicLightingSmoothFactor(float value);
     // public System.Single get_dynamicLightingDepthVariationClampingValue()
-    // Offset: 0x162DF64
+    // Offset: 0x1641B64
     float get_dynamicLightingDepthVariationClampingValue();
     // public System.Void set_dynamicLightingDepthVariationClampingValue(System.Single value)
-    // Offset: 0x162DF6C
+    // Offset: 0x1641B6C
     void set_dynamicLightingDepthVariationClampingValue(float value);
     // public OVRManager/VirtualGreenScreenType get_virtualGreenScreenType()
-    // Offset: 0x162DF74
+    // Offset: 0x1641B74
     ::GlobalNamespace::OVRManager_VirtualGreenScreenType get_virtualGreenScreenType();
     // public System.Void set_virtualGreenScreenType(OVRManager/VirtualGreenScreenType value)
-    // Offset: 0x162DF7C
+    // Offset: 0x1641B7C
     void set_virtualGreenScreenType(::GlobalNamespace::OVRManager_VirtualGreenScreenType value);
     // public System.Single get_virtualGreenScreenTopY()
-    // Offset: 0x162DF84
+    // Offset: 0x1641B84
     float get_virtualGreenScreenTopY();
     // public System.Void set_virtualGreenScreenTopY(System.Single value)
-    // Offset: 0x162DF8C
+    // Offset: 0x1641B8C
     void set_virtualGreenScreenTopY(float value);
     // public System.Single get_virtualGreenScreenBottomY()
-    // Offset: 0x162DF94
+    // Offset: 0x1641B94
     float get_virtualGreenScreenBottomY();
     // public System.Void set_virtualGreenScreenBottomY(System.Single value)
-    // Offset: 0x162DF9C
+    // Offset: 0x1641B9C
     void set_virtualGreenScreenBottomY(float value);
     // public System.Boolean get_virtualGreenScreenApplyDepthCulling()
-    // Offset: 0x162DFA4
+    // Offset: 0x1641BA4
     bool get_virtualGreenScreenApplyDepthCulling();
     // public System.Void set_virtualGreenScreenApplyDepthCulling(System.Boolean value)
-    // Offset: 0x162DFAC
+    // Offset: 0x1641BAC
     void set_virtualGreenScreenApplyDepthCulling(bool value);
     // public System.Single get_virtualGreenScreenDepthTolerance()
-    // Offset: 0x162DFB8
+    // Offset: 0x1641BB8
     float get_virtualGreenScreenDepthTolerance();
     // public System.Void set_virtualGreenScreenDepthTolerance(System.Single value)
-    // Offset: 0x162DFC0
+    // Offset: 0x1641BC0
     void set_virtualGreenScreenDepthTolerance(float value);
     // public OVRManager/MrcActivationMode get_mrcActivationMode()
-    // Offset: 0x162DFC8
+    // Offset: 0x1641BC8
     ::GlobalNamespace::OVRManager_MrcActivationMode get_mrcActivationMode();
     // public System.Void set_mrcActivationMode(OVRManager/MrcActivationMode value)
-    // Offset: 0x162DFD0
+    // Offset: 0x1641BD0
     void set_mrcActivationMode(::GlobalNamespace::OVRManager_MrcActivationMode value);
     // public OVRManager/InstantiateMrcCameraDelegate get_instantiateMixedRealityCameraGameObject()
-    // Offset: 0x162DFD8
+    // Offset: 0x1641BD8
     ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* get_instantiateMixedRealityCameraGameObject();
     // public System.Void set_instantiateMixedRealityCameraGameObject(OVRManager/InstantiateMrcCameraDelegate value)
-    // Offset: 0x162E054
+    // Offset: 0x1641C54
     void set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
     // public System.Void .ctor()
-    // Offset: 0x162E31C
+    // Offset: 0x1641F1C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusMRCManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusMRCManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusMRCManager*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x162E058
+    // Offset: 0x1641C58
     void Update();
     // protected System.Void OnDestroy()
-    // Offset: 0x162E0DC
+    // Offset: 0x1641CDC
     void OnDestroy();
     // public System.Void Init(System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityBackgroundCameraGameObject, System.Func`2<UnityEngine.GameObject,UnityEngine.GameObject> instantiateMixedRealityForegroundCameraGameObject)
-    // Offset: 0x162E144
+    // Offset: 0x1641D44
     void Init(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject, ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject);
     // private UnityEngine.GameObject InstantiateMixedRealityCameraGameObject(UnityEngine.GameObject mainCameraGameObject, OVRManager/MrcCameraType cameraType)
-    // Offset: 0x162E2A0
+    // Offset: 0x1641EA0
     ::UnityEngine::GameObject* InstantiateMixedRealityCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType);
   }; // OculusMRCManager
   #pragma pack(pop)

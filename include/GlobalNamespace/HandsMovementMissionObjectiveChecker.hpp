@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
     public:
-    // [InjectAttribute] Offset: 0x1127168
+    // [InjectAttribute] Offset: 0x1123F3C
     // private SaberActivityCounter _saberActivityCounter
     // Size: 0x8
     // Offset: 0x48
@@ -49,13 +49,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private SaberActivityCounter _saberActivityCounter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::SaberActivityCounter*& dyn__saberActivityCounter();
     // protected System.Void OnDestroy()
-    // Offset: 0x13ABC00
+    // Offset: 0x1399518
     void OnDestroy();
     // private System.Void HandleTotalDistanceDidChange(System.Single distance)
-    // Offset: 0x13ABCDC
+    // Offset: 0x13995F4
     void HandleTotalDistanceDidChange(float distance);
     // public System.Void .ctor()
-    // Offset: 0x13ABDE8
+    // Offset: 0x1399700
     // Implemented from: SimpleValueMissionObjectiveChecker
     // Base method: System.Void SimpleValueMissionObjectiveChecker::.ctor()
     // Base method: System.Void MissionObjectiveChecker::.ctor()
@@ -65,7 +65,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<HandsMovementMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x13ABD24
+    // Offset: 0x139963C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

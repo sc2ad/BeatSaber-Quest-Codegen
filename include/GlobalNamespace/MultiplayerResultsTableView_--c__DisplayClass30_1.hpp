@@ -48,14 +48,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public UnityEngine.RectTransform winnerRectTransform
     [[deprecated("Use field access instead!")]] ::UnityEngine::RectTransform*& dyn_winnerRectTransform();
     // public System.Void .ctor()
-    // Offset: 0x142BFD8
+    // Offset: 0x14FE5C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerResultsTableView::$$c__DisplayClass30_1* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerResultsTableView::$$c__DisplayClass30_1*, creationType>()));
     }
     // System.Void <StartAnimation>b__3(UnityEngine.Vector2 val)
-    // Offset: 0x142C208
+    // Offset: 0x14FE7F0
     void $StartAnimation$b__3(::UnityEngine::Vector2 val);
   }; // MultiplayerResultsTableView/<>c__DisplayClass30_1
   #pragma pack(pop)

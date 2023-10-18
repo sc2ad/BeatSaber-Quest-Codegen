@@ -56,64 +56,64 @@ namespace System {
     // Set static field: static System.String[] fixedNumberFormats
     static void _set_fixedNumberFormats(::ArrayW<::StringW> value);
     // static private System.Void .cctor()
-    // Offset: 0x2333A18
+    // Offset: 0x22D6C0C
     static void _cctor();
     // static System.Void FormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 value, System.Int32 len)
-    // Offset: 0x23317B8
+    // Offset: 0x22D49AC
     static void FormatDigits(::System::Text::StringBuilder* outputBuffer, int value, int len);
     // static System.Void FormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 value, System.Int32 len, System.Boolean overrideLengthLimit)
-    // Offset: 0x2331838
+    // Offset: 0x22D4A2C
     static void FormatDigits(::System::Text::StringBuilder* outputBuffer, int value, int len, bool overrideLengthLimit);
     // static private System.Void HebrewFormatDigits(System.Text.StringBuilder outputBuffer, System.Int32 digits)
-    // Offset: 0x2331914
+    // Offset: 0x22D4B08
     static void HebrewFormatDigits(::System::Text::StringBuilder* outputBuffer, int digits);
     // static System.Int32 ParseRepeatPattern(System.String format, System.Int32 pos, System.Char patternChar)
-    // Offset: 0x23319A0
+    // Offset: 0x22D4B94
     static int ParseRepeatPattern(::StringW format, int pos, ::Il2CppChar patternChar);
     // static private System.String FormatDayOfWeek(System.Int32 dayOfWeek, System.Int32 repeat, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x2331A14
+    // Offset: 0x22D4C08
     static ::StringW FormatDayOfWeek(int dayOfWeek, int repeat, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String FormatMonth(System.Int32 month, System.Int32 repeatCount, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x2331A4C
+    // Offset: 0x22D4C40
     static ::StringW FormatMonth(int month, int repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String FormatHebrewMonthName(System.DateTime time, System.Int32 month, System.Int32 repeatCount, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x2331A84
+    // Offset: 0x22D4C78
     static ::StringW FormatHebrewMonthName(::System::DateTime time, int month, int repeatCount, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Int32 ParseQuoteString(System.String format, System.Int32 pos, System.Text.StringBuilder result)
-    // Offset: 0x2331B48
+    // Offset: 0x22D4D3C
     static int ParseQuoteString(::StringW format, int pos, ::System::Text::StringBuilder* result);
     // static System.Int32 ParseNextChar(System.String format, System.Int32 pos)
-    // Offset: 0x2331D10
+    // Offset: 0x22D4F04
     static int ParseNextChar(::StringW format, int pos);
     // static private System.Boolean IsUseGenitiveForm(System.String format, System.Int32 index, System.Int32 tokenLen, System.Char patternToMatch)
-    // Offset: 0x2331D50
+    // Offset: 0x22D4F44
     static bool IsUseGenitiveForm(::StringW format, int index, int tokenLen, ::Il2CppChar patternToMatch);
     // static private System.String FormatCustomized(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
-    // Offset: 0x2331E90
+    // Offset: 0x22D5084
     static ::StringW FormatCustomized(::System::DateTime dateTime, ::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::TimeSpan offset);
     // static private System.Void FormatCustomizedTimeZone(System.DateTime dateTime, System.TimeSpan offset, System.String format, System.Int32 tokenLen, System.Boolean timeOnly, System.Text.StringBuilder result)
-    // Offset: 0x2332B90
+    // Offset: 0x22D5D84
     static void FormatCustomizedTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::StringW format, int tokenLen, bool timeOnly, ::System::Text::StringBuilder* result);
     // static private System.Void FormatCustomizedRoundripTimeZone(System.DateTime dateTime, System.TimeSpan offset, System.Text.StringBuilder result)
-    // Offset: 0x2332EDC
+    // Offset: 0x22D60D0
     static void FormatCustomizedRoundripTimeZone(::System::DateTime dateTime, ::System::TimeSpan offset, ::System::Text::StringBuilder* result);
     // static System.String GetRealFormat(System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x23330FC
+    // Offset: 0x22D62F0
     static ::StringW GetRealFormat(::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static private System.String ExpandPredefinedFormat(System.String format, ref System.DateTime dateTime, ref System.Globalization.DateTimeFormatInfo dtfi, ref System.TimeSpan offset)
-    // Offset: 0x23333A8
+    // Offset: 0x22D659C
     static ::StringW ExpandPredefinedFormat(::StringW format, ByRef<::System::DateTime> dateTime, ByRef<::System::Globalization::DateTimeFormatInfo*> dtfi, ByRef<::System::TimeSpan> offset);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi)
-    // Offset: 0x2333758
+    // Offset: 0x22D694C
     static ::StringW Format(::System::DateTime dateTime, ::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.String Format(System.DateTime dateTime, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.TimeSpan offset)
-    // Offset: 0x23337E0
+    // Offset: 0x22D69D4
     static ::StringW Format(::System::DateTime dateTime, ::StringW format, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::TimeSpan offset);
     // static System.Void InvalidFormatForLocal(System.String format, System.DateTime dateTime)
-    // Offset: 0x2333754
+    // Offset: 0x22D6948
     static void InvalidFormatForLocal(::StringW format, ::System::DateTime dateTime);
     // static System.Void InvalidFormatForUtc(System.String format, System.DateTime dateTime)
-    // Offset: 0x23330F8
+    // Offset: 0x22D62EC
     static void InvalidFormatForUtc(::StringW format, ::System::DateTime dateTime);
   }; // System.DateTimeFormat
   #pragma pack(pop)

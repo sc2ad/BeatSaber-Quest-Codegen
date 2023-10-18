@@ -107,68 +107,68 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Diagnostics.TraceFilter filter
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::TraceFilter*& dyn_filter();
     // public System.Boolean get_IsThreadSafe()
-    // Offset: 0x1DB4A98
+    // Offset: 0x1DA0B4C
     bool get_IsThreadSafe();
     // public System.Void set_IndentLevel(System.Int32 value)
-    // Offset: 0x1DB3F3C
+    // Offset: 0x1D9FFF0
     void set_IndentLevel(int value);
     // public System.Void set_IndentSize(System.Int32 value)
-    // Offset: 0x1DB3F58
+    // Offset: 0x1DA000C
     void set_IndentSize(int value);
     // public System.Diagnostics.TraceFilter get_Filter()
-    // Offset: 0x1DB4B24
+    // Offset: 0x1DA0BD8
     ::System::Diagnostics::TraceFilter* get_Filter();
     // protected System.Boolean get_NeedIndent()
-    // Offset: 0x1DB4B2C
+    // Offset: 0x1DA0BE0
     bool get_NeedIndent();
     // protected System.Void set_NeedIndent(System.Boolean value)
-    // Offset: 0x1DB4B34
+    // Offset: 0x1DA0BE8
     void set_NeedIndent(bool value);
     // public System.Diagnostics.TraceOptions get_TraceOutputOptions()
-    // Offset: 0x1DB4B40
+    // Offset: 0x1DA0BF4
     ::System::Diagnostics::TraceOptions get_TraceOutputOptions();
     // protected System.Void .ctor(System.String name)
-    // Offset: 0x1DADEFC
+    // Offset: 0x1D99FB0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TraceListener* New_ctor(::StringW name) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Diagnostics::TraceListener::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TraceListener*, creationType>(name)));
     }
     // public System.Void Dispose()
-    // Offset: 0x1DB4AA0
+    // Offset: 0x1DA0B54
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1DB4B1C
+    // Offset: 0x1DA0BD0
     void Dispose(bool disposing);
     // public System.Void Flush()
-    // Offset: 0x1DB4B20
+    // Offset: 0x1DA0BD4
     void Flush();
     // public System.Void Fail(System.String message)
-    // Offset: 0x1DADF50
+    // Offset: 0x1D9A004
     void Fail(::StringW message);
     // public System.Void Fail(System.String message, System.String detailMessage)
-    // Offset: 0x1DAE008
+    // Offset: 0x1D9A0BC
     void Fail(::StringW message, ::StringW detailMessage);
     // public System.Void Write(System.String message)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void Write(::StringW message);
     // protected System.Void WriteIndent()
-    // Offset: 0x1DB4B48
+    // Offset: 0x1DA0BFC
     void WriteIndent();
     // public System.Void WriteLine(System.String message)
     // Offset: 0xFFFFFFFFFFFFFFFF
     void WriteLine(::StringW message);
     // public System.Void TraceEvent(System.Diagnostics.TraceEventCache eventCache, System.String source, System.Diagnostics.TraceEventType eventType, System.Int32 id, System.String message)
-    // Offset: 0x1DB4C20
+    // Offset: 0x1DA0CD4
     void TraceEvent(::System::Diagnostics::TraceEventCache* eventCache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int id, ::StringW message);
     // private System.Void WriteHeader(System.String source, System.Diagnostics.TraceEventType eventType, System.Int32 id)
-    // Offset: 0x1DB4CEC
+    // Offset: 0x1DA0DA0
     void WriteHeader(::StringW source, ::System::Diagnostics::TraceEventType eventType, int id);
     // private System.Void WriteFooter(System.Diagnostics.TraceEventCache eventCache)
-    // Offset: 0x1DB4E04
+    // Offset: 0x1DA0EB8
     void WriteFooter(::System::Diagnostics::TraceEventCache* eventCache);
     // System.Boolean IsEnabled(System.Diagnostics.TraceOptions opts)
-    // Offset: 0x1DB52D0
+    // Offset: 0x1DA1384
     bool IsEnabled(::System::Diagnostics::TraceOptions opts);
   }; // System.Diagnostics.TraceListener
   #pragma pack(pop)

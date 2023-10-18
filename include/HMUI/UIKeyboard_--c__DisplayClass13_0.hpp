@@ -50,14 +50,14 @@ namespace HMUI {
     // Get instance field reference: public HMUI.UIKeyboard <>4__this
     [[deprecated("Use field access instead!")]] ::HMUI::UIKeyboard*& dyn_$$4__this();
     // public System.Void .ctor()
-    // Offset: 0x2AEDC2C
+    // Offset: 0x2AFE334
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static UIKeyboard::$$c__DisplayClass13_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::UIKeyboard::$$c__DisplayClass13_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UIKeyboard::$$c__DisplayClass13_0*, creationType>()));
     }
     // System.Void <Awake>b__2()
-    // Offset: 0x2AEDF34
+    // Offset: 0x2AFE63C
     void $Awake$b__2();
   }; // HMUI.UIKeyboard/HMUI.<>c__DisplayClass13_0
   #pragma pack(pop)

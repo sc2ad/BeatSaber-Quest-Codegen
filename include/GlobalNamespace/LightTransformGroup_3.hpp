@@ -43,7 +43,7 @@ namespace GlobalNamespace {
   class LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
     public:
     public:
-    // [SpaceAttribute] Offset: 0x1124A80
+    // [SpaceAttribute] Offset: 0x1121754
     // private System.Boolean _mirrorX
     // Size: 0x1
     // Offset: 0x0

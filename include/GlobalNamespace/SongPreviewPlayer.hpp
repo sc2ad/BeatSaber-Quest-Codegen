@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::SongPreviewPlayer::$CrossFadeAfterDelayCoroutine$d__28
     class $CrossFadeAfterDelayCoroutine$d__28;
     public:
-    // [RangeAttribute] Offset: 0x111DB6C
+    // [RangeAttribute] Offset: 0x111A790
     // private System.Int32 _channelsCount
     // Size: 0x4
     // Offset: 0x18
@@ -113,28 +113,28 @@ namespace GlobalNamespace {
     float fadeInSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [HeaderAttribute] Offset: 0x111DC0C
+    // [HeaderAttribute] Offset: 0x111A830
     // private SongPreviewPlayer/AudioSourceParams _defaultAudioSourceParams
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::SongPreviewPlayer::AudioSourceParams* defaultAudioSourceParams;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer::AudioSourceParams*) == 0x8);
-    // [SpaceAttribute] Offset: 0x111DC58
+    // [SpaceAttribute] Offset: 0x111A87C
     // private SongPreviewPlayer/AudioSourceParams _othersAudioSourceParams
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::SongPreviewPlayer::AudioSourceParams* othersAudioSourceParams;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer::AudioSourceParams*) == 0x8);
-    // [InjectAttribute] Offset: 0x111DC90
+    // [InjectAttribute] Offset: 0x111A8B4
     // private readonly SongPreviewPlayer/InitData _initData
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::SongPreviewPlayer::InitData* initData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::SongPreviewPlayer::InitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x111DCA0
+    // [InjectAttribute] Offset: 0x111A8C4
     // private readonly AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x58
@@ -243,45 +243,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Action> _channelToFadeOutCallbackDictionary
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::System::Action*>*& dyn__channelToFadeOutCallbackDictionary();
     // protected System.Void Awake()
-    // Offset: 0x141E420
+    // Offset: 0x149C468
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x141E628
+    // Offset: 0x149C670
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x141E648
+    // Offset: 0x149C690
     void OnEnable();
     // private System.Collections.IEnumerator CrossFadeAfterDelayCoroutine(System.Single delay)
-    // Offset: 0x141E75C
+    // Offset: 0x149C7A4
     ::System::Collections::IEnumerator* CrossFadeAfterDelayCoroutine(float delay);
     // protected System.Void OnDisable()
-    // Offset: 0x141E808
+    // Offset: 0x149C850
     void OnDisable();
     // protected System.Void Update()
-    // Offset: 0x141E8F4
+    // Offset: 0x149C93C
     void Update();
     // public System.Void CrossfadeToDefault()
-    // Offset: 0x141EE68
+    // Offset: 0x149CEB0
     void CrossfadeToDefault();
     // public System.Void CrossfadeToNewDefault(UnityEngine.AudioClip audioClip)
-    // Offset: 0x141F044
+    // Offset: 0x149D08C
     void CrossfadeToNewDefault(::UnityEngine::AudioClip* audioClip);
     // public System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single musicVolume, System.Single startTime, System.Single duration, System.Action onFadeOutCallback)
-    // Offset: 0x141F16C
+    // Offset: 0x149D1B4
     void CrossfadeTo(::UnityEngine::AudioClip* audioClip, float musicVolume, float startTime, float duration, ::System::Action* onFadeOutCallback);
     // private System.Void CrossfadeTo(UnityEngine.AudioClip audioClip, System.Single musicVolume, System.Single startTime, System.Single duration, System.Boolean isDefault, System.Action onFadeOutCallback)
-    // Offset: 0x141EBAC
+    // Offset: 0x149CBF4
     void CrossfadeTo(::UnityEngine::AudioClip* audioClip, float musicVolume, float startTime, float duration, bool isDefault, ::System::Action* onFadeOutCallback);
     // private System.Void ReportChannelDidFadeOut(System.Int32 channel)
-    // Offset: 0x141EB08
+    // Offset: 0x149CB50
     void ReportChannelDidFadeOut(int channel);
     // public override UnityEngine.AudioClip get_activeAudioClip()
-    // Offset: 0x141E3C0
+    // Offset: 0x149C408
     // Implemented from: AudioPlayerBase
     // Base method: UnityEngine.AudioClip AudioPlayerBase::get_activeAudioClip()
     ::UnityEngine::AudioClip* get_activeAudioClip();
     // public System.Void .ctor()
-    // Offset: 0x141F290
+    // Offset: 0x149D2D8
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -290,17 +290,17 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<SongPreviewPlayer*, creationType>()));
     }
     // public override System.Void PauseCurrentChannel()
-    // Offset: 0x141F178
+    // Offset: 0x149D1C0
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::PauseCurrentChannel()
     void PauseCurrentChannel();
     // public override System.Void UnPauseCurrentChannel()
-    // Offset: 0x141F1F8
+    // Offset: 0x149D240
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::UnPauseCurrentChannel()
     void UnPauseCurrentChannel();
     // public override System.Void FadeOut(System.Single duration)
-    // Offset: 0x141F274
+    // Offset: 0x149D2BC
     // Implemented from: AudioPlayerBase
     // Base method: System.Void AudioPlayerBase::FadeOut(System.Single duration)
     void FadeOut(float duration);

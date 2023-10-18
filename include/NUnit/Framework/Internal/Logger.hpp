@@ -83,32 +83,32 @@ namespace NUnit::Framework::Internal {
     // Get instance field reference: private System.IO.TextWriter writer
     [[deprecated("Use field access instead!")]] ::System::IO::TextWriter*& dyn_writer();
     // public System.Void .ctor(System.String name, NUnit.Framework.Internal.InternalTraceLevel level, System.IO.TextWriter writer)
-    // Offset: 0x2AB8C74
+    // Offset: 0x2AB5FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Logger* New_ctor(::StringW name, ::NUnit::Framework::Internal::InternalTraceLevel level, ::System::IO::TextWriter* writer) {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Internal::Logger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Logger*, creationType>(name, level, writer)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AB9048
+    // Offset: 0x2AB63B0
     static void _cctor();
     // public System.Void Error(System.String message)
-    // Offset: 0x2AB8CF0
+    // Offset: 0x2AB6058
     void Error(::StringW message);
     // public System.Void Debug(System.String message)
-    // Offset: 0x2AB8D30
+    // Offset: 0x2AB6098
     void Debug(::StringW message);
     // public System.Void Debug(System.String message, params System.Object[] args)
-    // Offset: 0x2AB8D54
+    // Offset: 0x2AB60BC
     void Debug(::StringW message, ::ArrayW<::Il2CppObject*> args);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x2AB8D14
+    // Offset: 0x2AB607C
     void Log(::NUnit::Framework::Internal::InternalTraceLevel level, ::StringW message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
-    // Offset: 0x2AB8D64
+    // Offset: 0x2AB60CC
     void Log(::NUnit::Framework::Internal::InternalTraceLevel level, ::StringW format, ::ArrayW<::Il2CppObject*> args);
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
-    // Offset: 0x2AB8DB0
+    // Offset: 0x2AB6118
     void WriteLog(::NUnit::Framework::Internal::InternalTraceLevel level, ::StringW message);
   }; // NUnit.Framework.Internal.Logger
   #pragma pack(pop)

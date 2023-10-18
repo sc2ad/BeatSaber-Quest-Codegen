@@ -46,7 +46,7 @@ namespace GlobalNamespace {
     template<typename T>
     class $$c__DisplayClass2_0_1;
     // static private System.UInt32 MurmurHash2(System.String key)
-    // Offset: 0x2A1C9F8
+    // Offset: 0x29CD028
     static uint MurmurHash2(::StringW key);
     // static public T ToBloomFilter(System.String value, System.Int32 hashCount, System.Int32 hashBits)
     // Offset: 0xFFFFFFFFFFFFFFFF

@@ -46,16 +46,16 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalBendNormal
     [[deprecated("Use field access instead!")]] ::UnityEngine::Vector3& dyn_defaultLocalBendNormal();
     // public System.Void Initiate(UnityEngine.Vector3 childPosition, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x22CA530
+    // Offset: 0x226E724
     void Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Quaternion GetRotation(UnityEngine.Vector3 direction, UnityEngine.Vector3 bendNormal)
-    // Offset: 0x22CB0E8
+    // Offset: 0x226F2DC
     ::UnityEngine::Quaternion GetRotation(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 bendNormal);
     // public UnityEngine.Vector3 GetBendNormalFromCurrentRotation()
-    // Offset: 0x22C50E4
+    // Offset: 0x22692D8
     ::UnityEngine::Vector3 GetBendNormalFromCurrentRotation();
     // public System.Void .ctor()
-    // Offset: 0x22CB1B0
+    // Offset: 0x226F3A4
     // Implemented from: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone
     // Base method: System.Void Bone::.ctor()
     // Base method: System.Void Point::.ctor()

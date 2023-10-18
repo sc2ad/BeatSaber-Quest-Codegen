@@ -253,98 +253,98 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
     [[deprecated("Use field access instead!")]] ::Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Security.Cryptography.DSA get_DSA()
-    // Offset: 0x2B5E39C
+    // Offset: 0x2B67F88
     ::System::Security::Cryptography::DSA* get_DSA();
     // public System.Void set_DSA(System.Security.Cryptography.DSA value)
-    // Offset: 0x2B5E648
+    // Offset: 0x2B68234
     void set_DSA(::System::Security::Cryptography::DSA* value);
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
-    // Offset: 0x2B5E658
+    // Offset: 0x2B68244
     ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // public System.Byte[] get_Hash()
-    // Offset: 0x2B5E660
+    // Offset: 0x2B6824C
     ::ArrayW<uint8_t> get_Hash();
     // public System.String get_IssuerName()
-    // Offset: 0x2B5E868
+    // Offset: 0x2B68454
     ::StringW get_IssuerName();
     // public System.String get_KeyAlgorithm()
-    // Offset: 0x2B5E870
+    // Offset: 0x2B6845C
     ::StringW get_KeyAlgorithm();
     // public System.Byte[] get_KeyAlgorithmParameters()
-    // Offset: 0x2B5E878
+    // Offset: 0x2B68464
     ::ArrayW<uint8_t> get_KeyAlgorithmParameters();
     // public System.Void set_KeyAlgorithmParameters(System.Byte[] value)
-    // Offset: 0x2B5E8F4
+    // Offset: 0x2B684E0
     void set_KeyAlgorithmParameters(::ArrayW<uint8_t> value);
     // public System.Byte[] get_PublicKey()
-    // Offset: 0x2B5E8FC
+    // Offset: 0x2B684E8
     ::ArrayW<uint8_t> get_PublicKey();
     // public System.Security.Cryptography.RSA get_RSA()
-    // Offset: 0x2B5E978
+    // Offset: 0x2B68564
     ::System::Security::Cryptography::RSA* get_RSA();
     // public System.Void set_RSA(System.Security.Cryptography.RSA value)
-    // Offset: 0x2B5EB24
+    // Offset: 0x2B68710
     void set_RSA(::System::Security::Cryptography::RSA* value);
     // public System.Byte[] get_RawData()
-    // Offset: 0x2B5EB34
+    // Offset: 0x2B68720
     ::ArrayW<uint8_t> get_RawData();
     // public System.Byte[] get_SerialNumber()
-    // Offset: 0x2B5EBB0
+    // Offset: 0x2B6879C
     ::ArrayW<uint8_t> get_SerialNumber();
     // public System.Byte[] get_Signature()
-    // Offset: 0x2B5EC2C
+    // Offset: 0x2B68818
     ::ArrayW<uint8_t> get_Signature();
     // public System.String get_SignatureAlgorithm()
-    // Offset: 0x2B5EFF0
+    // Offset: 0x2B68BDC
     ::StringW get_SignatureAlgorithm();
     // public System.String get_SubjectName()
-    // Offset: 0x2B5EFF8
+    // Offset: 0x2B68BE4
     ::StringW get_SubjectName();
     // public System.DateTime get_ValidFrom()
-    // Offset: 0x2B5F000
+    // Offset: 0x2B68BEC
     ::System::DateTime get_ValidFrom();
     // public System.DateTime get_ValidUntil()
-    // Offset: 0x2B5F008
+    // Offset: 0x2B68BF4
     ::System::DateTime get_ValidUntil();
     // public System.Int32 get_Version()
-    // Offset: 0x2B5F010
+    // Offset: 0x2B68BFC
     int get_Version();
     // public System.Void .ctor(System.Byte[] data)
-    // Offset: 0x2B5E028
+    // Offset: 0x2B67C14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static X509Certificate* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::X509::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(data)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2B5F3F4
+    // Offset: 0x2B68FE0
     static void _cctor();
     // private System.Void Parse(System.Byte[] data)
-    // Offset: 0x2B5D5F0
+    // Offset: 0x2B671DC
     void Parse(::ArrayW<uint8_t> data);
     // private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
-    // Offset: 0x2B5E2F0
+    // Offset: 0x2B67EDC
     ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
     // System.Boolean VerifySignature(System.Security.Cryptography.DSA dsa)
-    // Offset: 0x2B5F018
+    // Offset: 0x2B68C04
     bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
     // System.Boolean VerifySignature(System.Security.Cryptography.RSA rsa)
-    // Offset: 0x2B5F0DC
+    // Offset: 0x2B68CC8
     bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
     // public System.Boolean VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm aa)
-    // Offset: 0x2B5F1FC
+    // Offset: 0x2B68DE8
     bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
     // public Mono.Security.ASN1 GetIssuerName()
-    // Offset: 0x2B5F378
+    // Offset: 0x2B68F64
     ::Mono::Security::ASN1* GetIssuerName();
     // public Mono.Security.ASN1 GetSubjectName()
-    // Offset: 0x2B5F380
+    // Offset: 0x2B68F6C
     ::Mono::Security::ASN1* GetSubjectName();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x2B5F388
+    // Offset: 0x2B68F74
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // static private System.Byte[] PEM(System.String type, System.Byte[] data)
-    // Offset: 0x2B5E1C4
+    // Offset: 0x2B67DB0
     static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data);
   }; // Mono.Security.X509.X509Certificate
   #pragma pack(pop)

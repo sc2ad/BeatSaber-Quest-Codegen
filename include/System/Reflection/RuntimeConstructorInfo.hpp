@@ -63,30 +63,30 @@ namespace System::Reflection {
       return reinterpret_cast<::System::Runtime::Serialization::ISerializable*>(this);
     }
     // System.Reflection.BindingFlags get_BindingFlags()
-    // Offset: 0x1E438FC
+    // Offset: 0x1E30A7C
     ::System::Reflection::BindingFlags get_BindingFlags();
     // private System.RuntimeType get_ReflectedTypeInternal()
-    // Offset: 0x1E43904
+    // Offset: 0x1E30A84
     ::System::RuntimeType* get_ReflectedTypeInternal();
     // System.Reflection.RuntimeModule GetRuntimeModule()
-    // Offset: 0x1E4386C
+    // Offset: 0x1E309EC
     ::System::Reflection::RuntimeModule* GetRuntimeModule();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1E43990
+    // Offset: 0x1E30B10
     void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // System.String SerializationToString()
-    // Offset: 0x1E43A90
+    // Offset: 0x1E30C10
     ::StringW SerializationToString();
     // System.Void SerializationInvoke(System.Object target, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1E43AA4
+    // Offset: 0x1E30C24
     void SerializationInvoke(::Il2CppObject* target, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public override System.Reflection.Module get_Module()
-    // Offset: 0x1E43868
+    // Offset: 0x1E309E8
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Reflection.Module MemberInfo::get_Module()
     ::System::Reflection::Module* get_Module();
     // protected System.Void .ctor()
-    // Offset: 0x1E3E798
+    // Offset: 0x1E2B918
     // Implemented from: System.Reflection.ConstructorInfo
     // Base method: System.Void ConstructorInfo::.ctor()
     // Base method: System.Void MethodBase::.ctor()

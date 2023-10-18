@@ -155,110 +155,110 @@ namespace GlobalNamespace {
     // Set static field: static public OVRControllerTest/BoolMonitor/BoolGenerator <>9__4_30
     static void _set_$$9__4_30(::GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator* value);
     // static private System.Void .cctor()
-    // Offset: 0x16BE4D4
+    // Offset: 0x16E0A84
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x16BE538
+    // Offset: 0x16E0AE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRControllerTest::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRControllerTest::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRControllerTest::$$c*, creationType>()));
     }
     // System.Boolean <Start>b__4_0()
-    // Offset: 0x16BE540
+    // Offset: 0x16E0AF0
     bool $Start$b__4_0();
     // System.Boolean <Start>b__4_1()
-    // Offset: 0x16BE5A8
+    // Offset: 0x16E0B58
     bool $Start$b__4_1();
     // System.Boolean <Start>b__4_2()
-    // Offset: 0x16BE610
+    // Offset: 0x16E0BC0
     bool $Start$b__4_2();
     // System.Boolean <Start>b__4_3()
-    // Offset: 0x16BE678
+    // Offset: 0x16E0C28
     bool $Start$b__4_3();
     // System.Boolean <Start>b__4_4()
-    // Offset: 0x16BE6E0
+    // Offset: 0x16E0C90
     bool $Start$b__4_4();
     // System.Boolean <Start>b__4_5()
-    // Offset: 0x16BE748
+    // Offset: 0x16E0CF8
     bool $Start$b__4_5();
     // System.Boolean <Start>b__4_6()
-    // Offset: 0x16BE7B0
+    // Offset: 0x16E0D60
     bool $Start$b__4_6();
     // System.Boolean <Start>b__4_7()
-    // Offset: 0x16BE818
+    // Offset: 0x16E0DC8
     bool $Start$b__4_7();
     // System.Boolean <Start>b__4_8()
-    // Offset: 0x16BE880
+    // Offset: 0x16E0E30
     bool $Start$b__4_8();
     // System.Boolean <Start>b__4_9()
-    // Offset: 0x16BE8E8
+    // Offset: 0x16E0E98
     bool $Start$b__4_9();
     // System.Boolean <Start>b__4_10()
-    // Offset: 0x16BE950
+    // Offset: 0x16E0F00
     bool $Start$b__4_10();
     // System.Boolean <Start>b__4_11()
-    // Offset: 0x16BE9B8
+    // Offset: 0x16E0F68
     bool $Start$b__4_11();
     // System.Boolean <Start>b__4_12()
-    // Offset: 0x16BEA20
+    // Offset: 0x16E0FD0
     bool $Start$b__4_12();
     // System.Boolean <Start>b__4_13()
-    // Offset: 0x16BEA88
+    // Offset: 0x16E1038
     bool $Start$b__4_13();
     // System.Boolean <Start>b__4_14()
-    // Offset: 0x16BEAF0
+    // Offset: 0x16E10A0
     bool $Start$b__4_14();
     // System.Boolean <Start>b__4_15()
-    // Offset: 0x16BEB58
+    // Offset: 0x16E1108
     bool $Start$b__4_15();
     // System.Boolean <Start>b__4_16()
-    // Offset: 0x16BEBC0
+    // Offset: 0x16E1170
     bool $Start$b__4_16();
     // System.Boolean <Start>b__4_17()
-    // Offset: 0x16BEC28
+    // Offset: 0x16E11D8
     bool $Start$b__4_17();
     // System.Boolean <Start>b__4_18()
-    // Offset: 0x16BEC90
+    // Offset: 0x16E1240
     bool $Start$b__4_18();
     // System.Boolean <Start>b__4_19()
-    // Offset: 0x16BECF8
+    // Offset: 0x16E12A8
     bool $Start$b__4_19();
     // System.Boolean <Start>b__4_20()
-    // Offset: 0x16BED60
+    // Offset: 0x16E1310
     bool $Start$b__4_20();
     // System.Boolean <Start>b__4_21()
-    // Offset: 0x16BEDC8
+    // Offset: 0x16E1378
     bool $Start$b__4_21();
     // System.Boolean <Start>b__4_22()
-    // Offset: 0x16BEE30
+    // Offset: 0x16E13E0
     bool $Start$b__4_22();
     // System.Boolean <Start>b__4_23()
-    // Offset: 0x16BEE98
+    // Offset: 0x16E1448
     bool $Start$b__4_23();
     // System.Boolean <Start>b__4_24()
-    // Offset: 0x16BEF00
+    // Offset: 0x16E14B0
     bool $Start$b__4_24();
     // System.Boolean <Start>b__4_25()
-    // Offset: 0x16BEF68
+    // Offset: 0x16E1518
     bool $Start$b__4_25();
     // System.Boolean <Start>b__4_26()
-    // Offset: 0x16BEFD0
+    // Offset: 0x16E1580
     bool $Start$b__4_26();
     // System.Boolean <Start>b__4_27()
-    // Offset: 0x16BF038
+    // Offset: 0x16E15E8
     bool $Start$b__4_27();
     // System.Boolean <Start>b__4_28()
-    // Offset: 0x16BF0A0
+    // Offset: 0x16E1650
     bool $Start$b__4_28();
     // System.Boolean <Start>b__4_29()
-    // Offset: 0x16BF108
+    // Offset: 0x16E16B8
     bool $Start$b__4_29();
     // System.Boolean <Start>b__4_30()
-    // Offset: 0x16BF170
+    // Offset: 0x16E1720
     bool $Start$b__4_30();
     // System.Boolean <.cctor>b__9_0()
-    // Offset: 0x16BF1D8
+    // Offset: 0x16E1788
     bool $_cctor$b__9_0();
   }; // OVRControllerTest/<>c
   #pragma pack(pop)

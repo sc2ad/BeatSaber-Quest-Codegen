@@ -61,22 +61,22 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelCollection*& dyn_$beatmapLevelCollection$k__BackingField();
     // public System.String get_collectionName()
-    // Offset: 0x154F538
+    // Offset: 0x1568210
     ::StringW get_collectionName();
     // public UnityEngine.Sprite get_coverImage()
-    // Offset: 0x154F540
+    // Offset: 0x1568218
     ::UnityEngine::Sprite* get_coverImage();
     // public UnityEngine.Sprite get_smallCoverImage()
-    // Offset: 0x154F548
+    // Offset: 0x1568220
     ::UnityEngine::Sprite* get_smallCoverImage();
     // public IBeatmapLevelCollection get_beatmapLevelCollection()
-    // Offset: 0x154F550
+    // Offset: 0x1568228
     ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
     // private System.Void set_beatmapLevelCollection(IBeatmapLevelCollection value)
-    // Offset: 0x154F558
+    // Offset: 0x1568230
     void set_beatmapLevelCollection(::GlobalNamespace::IBeatmapLevelCollection* value);
     // public System.Void .ctor(IBeatmapLevelCollection beatmapLevelCollection)
-    // Offset: 0x154F500
+    // Offset: 0x15681D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LevelSearchViewController::BeatmapLevelPackCollection* New_ctor(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::.ctor");

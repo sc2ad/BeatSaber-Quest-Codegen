@@ -77,20 +77,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ImageView _image
     [[deprecated("Use field access instead!")]] ::HMUI::ImageView*& dyn__image();
     // public System.Void .ctor()
-    // Offset: 0x1398350
+    // Offset: 0x13AAB88
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StartMiddleEndButtonBackgroundController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::StartMiddleEndButtonBackgroundController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<StartMiddleEndButtonBackgroundController*, creationType>()));
     }
     // public System.Void SetStartSprite()
-    // Offset: 0x13982E4
+    // Offset: 0x13AAB1C
     void SetStartSprite();
     // public System.Void SetMiddleSprite()
-    // Offset: 0x1398308
+    // Offset: 0x13AAB40
     void SetMiddleSprite();
     // public System.Void SetEndSprite()
-    // Offset: 0x139832C
+    // Offset: 0x13AAB64
     void SetEndSprite();
   }; // StartMiddleEndButtonBackgroundController
   #pragma pack(pop)

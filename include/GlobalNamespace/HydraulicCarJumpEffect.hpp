@@ -68,7 +68,7 @@ namespace GlobalNamespace {
     ::ArrayW<int> eventValues;
     // Field size check
     static_assert(sizeof(::ArrayW<int>) == 0x8);
-    // [SpaceAttribute] Offset: 0x111C4C0
+    // [SpaceAttribute] Offset: 0x11190F4
     // private UnityEngine.Vector3 _impulse
     // Size: 0xC
     // Offset: 0x28
@@ -93,14 +93,14 @@ namespace GlobalNamespace {
     float minDelayBetweenEvents;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x111C528
+    // [SpaceAttribute] Offset: 0x111915C
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x48
     ::UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(::UnityEngine::Rigidbody*) == 0x8);
-    // [InjectAttribute] Offset: 0x111C560
+    // [InjectAttribute] Offset: 0x1119194
     // private readonly BeatmapCallbacksController _beatmapCallbacksController
     // Size: 0x8
     // Offset: 0x50
@@ -153,20 +153,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDataCallbackWrapper _beatmapDataCallbackWrapper
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BeatmapDataCallbackWrapper*& dyn__beatmapDataCallbackWrapper();
     // public System.Void .ctor()
-    // Offset: 0x13AEF10
+    // Offset: 0x139C828
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HydraulicCarJumpEffect* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::HydraulicCarJumpEffect::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HydraulicCarJumpEffect*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13AEC3C
+    // Offset: 0x139C554
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x13AED84
+    // Offset: 0x139C69C
     void OnDestroy();
     // private System.Void HandleBeatmapEvent(BasicBeatmapEventData basicBeatmapEventData)
-    // Offset: 0x13AEDA0
+    // Offset: 0x139C6B8
     void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
   }; // HydraulicCarJumpEffect
   #pragma pack(pop)

@@ -47,7 +47,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _valueStr
     [[deprecated("Use field access instead!")]] ::StringW& dyn__valueStr();
     // public System.Void .ctor()
-    // Offset: 0x1B62FBC
+    // Offset: 0x1B2AA7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_PluginStorage::StoreData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_PluginStorage::StoreData::.ctor");

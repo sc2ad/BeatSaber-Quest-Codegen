@@ -33,10 +33,10 @@ namespace Org::BouncyCastle::Pkcs {
   class PrivateKeyInfoFactory : public ::Il2CppObject {
     public:
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
-    // Offset: 0x180E610
+    // Offset: 0x17FC7B8
     static ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<::Il2CppChar> passPhrase, ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, System.Boolean wrongPkcs12Zero, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
-    // Offset: 0x180E61C
+    // Offset: 0x17FC7C4
     static ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<::Il2CppChar> passPhrase, bool wrongPkcs12Zero, ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
   }; // Org.BouncyCastle.Pkcs.PrivateKeyInfoFactory
   #pragma pack(pop)

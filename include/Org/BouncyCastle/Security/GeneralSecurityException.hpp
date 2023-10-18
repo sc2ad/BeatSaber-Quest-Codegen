@@ -30,21 +30,21 @@ namespace Org::BouncyCastle::Security {
   class GeneralSecurityException : public ::System::Exception {
     public:
     // public System.Void .ctor()
-    // Offset: 0x184BD3C
+    // Offset: 0x1824BC4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralSecurityException* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::GeneralSecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>()));
     }
     // public System.Void .ctor(System.String message)
-    // Offset: 0x184BDA4
+    // Offset: 0x1824C2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralSecurityException* New_ctor(::StringW message) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::GeneralSecurityException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GeneralSecurityException*, creationType>(message)));
     }
     // public System.Void .ctor(System.String message, System.Exception exception)
-    // Offset: 0x184BE1C
+    // Offset: 0x1824CA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GeneralSecurityException* New_ctor(::StringW message, ::System::Exception* exception) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Security::GeneralSecurityException::.ctor");

@@ -96,26 +96,26 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean isConnectionOwner
     [[deprecated("Use field access instead!")]] bool& dyn_isConnectionOwner();
     // static public PacketPool`1<ConnectedPlayerManager/PlayerConnectedPacket> get_pool()
-    // Offset: 0x16CA1AC
+    // Offset: 0x1619760
     static ::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*>* get_pool();
     // public System.Void .ctor()
-    // Offset: 0x16CADD8
+    // Offset: 0x161A38C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConnectedPlayerManager::PlayerConnectedPacket* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConnectedPlayerManager::PlayerConnectedPacket*, creationType>()));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CACAC
+    // Offset: 0x161A260
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CAD10
+    // Offset: 0x161A2C4
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Release()
-    // Offset: 0x16CAD7C
+    // Offset: 0x161A330
     void Release();
     // public ConnectedPlayerManager/PlayerConnectedPacket Init(System.Byte connectionId, System.String userId, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x16CA1F4
+    // Offset: 0x16197A8
     ::GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* Init(uint8_t connectionId, ::StringW userId, ::StringW userName, bool isConnectionOwner);
   }; // ConnectedPlayerManager/PlayerConnectedPacket
   #pragma pack(pop)

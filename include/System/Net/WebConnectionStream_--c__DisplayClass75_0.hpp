@@ -50,14 +50,14 @@ namespace System::Net {
     // Get instance field reference: public System.Boolean setInternalLength
     [[deprecated("Use field access instead!")]] bool& dyn_setInternalLength();
     // public System.Void .ctor()
-    // Offset: 0x1BD7994
+    // Offset: 0x1B749CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionStream::$$c__DisplayClass75_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionStream::$$c__DisplayClass75_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionStream::$$c__DisplayClass75_0*, creationType>()));
     }
     // System.Boolean <SetHeadersAsync>b__0(System.Net.SimpleAsyncResult r)
-    // Offset: 0x1BD8450
+    // Offset: 0x1B75488
     bool $SetHeadersAsync$b__0(::System::Net::SimpleAsyncResult* r);
   }; // System.Net.WebConnectionStream/System.Net.<>c__DisplayClass75_0
   #pragma pack(pop)

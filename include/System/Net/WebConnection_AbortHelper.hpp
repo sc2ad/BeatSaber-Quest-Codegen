@@ -45,14 +45,14 @@ namespace System::Net {
     // Get instance field reference: public System.Net.WebConnection Connection
     [[deprecated("Use field access instead!")]] ::System::Net::WebConnection*& dyn_Connection();
     // public System.Void .ctor()
-    // Offset: 0x1BCE0C4
+    // Offset: 0x1B6B0FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnection::AbortHelper* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnection::AbortHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnection::AbortHelper*, creationType>()));
     }
     // public System.Void Abort(System.Object sender, System.EventArgs args)
-    // Offset: 0x1BD4474
+    // Offset: 0x1B714AC
     void Abort(::Il2CppObject* sender, ::System::EventArgs* args);
   }; // System.Net.WebConnection/System.Net.AbortHelper
   #pragma pack(pop)

@@ -119,57 +119,57 @@ namespace System::Net::Http {
     // Get instance field reference: private System.Net.Http.HttpContent <Content>k__BackingField
     [[deprecated("Use field access instead!")]] ::System::Net::Http::HttpContent*& dyn_$Content$k__BackingField();
     // public System.Net.Http.HttpContent get_Content()
-    // Offset: 0x1A0F458
+    // Offset: 0x19F4544
     ::System::Net::Http::HttpContent* get_Content();
     // public System.Void set_Content(System.Net.Http.HttpContent value)
-    // Offset: 0x1A0F460
+    // Offset: 0x19F454C
     void set_Content(::System::Net::Http::HttpContent* value);
     // public System.Net.Http.Headers.HttpRequestHeaders get_Headers()
-    // Offset: 0x1A0B22C
+    // Offset: 0x19F0318
     ::System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
     // public System.Net.Http.HttpMethod get_Method()
-    // Offset: 0x1A0F468
+    // Offset: 0x19F4554
     ::System::Net::Http::HttpMethod* get_Method();
     // public System.Void set_Method(System.Net.Http.HttpMethod value)
-    // Offset: 0x1A0F3A8
+    // Offset: 0x19F4494
     void set_Method(::System::Net::Http::HttpMethod* value);
     // public System.Uri get_RequestUri()
-    // Offset: 0x1A0F470
+    // Offset: 0x19F455C
     ::System::Uri* get_RequestUri();
     // public System.Void set_RequestUri(System.Uri value)
-    // Offset: 0x1A0B148
+    // Offset: 0x19F0234
     void set_RequestUri(::System::Uri* value);
     // public System.Version get_Version()
-    // Offset: 0x1A0C97C
+    // Offset: 0x19F1A68
     ::System::Version* get_Version();
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.String requestUri)
-    // Offset: 0x1A0F30C
+    // Offset: 0x19F43F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::StringW requestUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
     }
     // public System.Void .ctor(System.Net.Http.HttpMethod method, System.Uri requestUri)
-    // Offset: 0x1A0AC50
+    // Offset: 0x19EFD3C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::Http::HttpRequestMessage::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HttpRequestMessage*, creationType>(method, requestUri)));
     }
     // static private System.Boolean IsAllowedAbsoluteUri(System.Uri uri)
-    // Offset: 0x1A0F478
+    // Offset: 0x19F4564
     static bool IsAllowedAbsoluteUri(::System::Uri* uri);
     // public System.Void Dispose()
-    // Offset: 0x1A0F5E0
+    // Offset: 0x19F46CC
     void Dispose();
     // protected System.Void Dispose(System.Boolean disposing)
-    // Offset: 0x1A0F5F0
+    // Offset: 0x19F46DC
     void Dispose(bool disposing);
     // System.Boolean SetIsUsed()
-    // Offset: 0x1A0B128
+    // Offset: 0x19F0214
     bool SetIsUsed();
     // public override System.String ToString()
-    // Offset: 0x1A0F624
+    // Offset: 0x19F4710
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

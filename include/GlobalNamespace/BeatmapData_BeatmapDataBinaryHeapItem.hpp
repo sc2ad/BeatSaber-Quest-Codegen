@@ -61,14 +61,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> node
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& dyn_node();
     // public System.Void .ctor(System.Collections.Generic.LinkedListNode`1<BeatmapDataItem> node)
-    // Offset: 0x13E0420
+    // Offset: 0x13C7FE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapData::BeatmapDataBinaryHeapItem* New_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapData::BeatmapDataBinaryHeapItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapData::BeatmapDataBinaryHeapItem*, creationType>(node)));
     }
     // public System.Int32 CompareTo(BeatmapData/BeatmapDataBinaryHeapItem other)
-    // Offset: 0x13E088C
+    // Offset: 0x13C8454
     int CompareTo(::GlobalNamespace::BeatmapData::BeatmapDataBinaryHeapItem* other);
   }; // BeatmapData/BeatmapDataBinaryHeapItem
   #pragma pack(pop)

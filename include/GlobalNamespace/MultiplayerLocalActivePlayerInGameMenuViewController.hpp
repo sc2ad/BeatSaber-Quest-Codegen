@@ -95,7 +95,7 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* resumeButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126998
+    // [SpaceAttribute] Offset: 0x112376C
     // private UnityEngine.GameObject _mainBar
     // Size: 0x8
     // Offset: 0x38
@@ -108,14 +108,14 @@ namespace GlobalNamespace {
     ::GlobalNamespace::DisconnectPromptView* disconnectPromptView;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::DisconnectPromptView*) == 0x8);
-    // [SpaceAttribute] Offset: 0x11269E0
+    // [SpaceAttribute] Offset: 0x11237B4
     // private LevelBar _levelBar
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::LevelBar* levelBar;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LevelBar*) == 0x8);
-    // [SpaceAttribute] Offset: 0x1126A18
+    // [SpaceAttribute] Offset: 0x11237EC
     // private UnityEngine.GameObject _menuWrapperGameObject
     // Size: 0x8
     // Offset: 0x50
@@ -128,28 +128,28 @@ namespace GlobalNamespace {
     ::UnityEngine::GameObject* menuControllersGameObject;
     // Field size check
     static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126A60
+    // [InjectAttribute] Offset: 0x1123834
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x60
     ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IConnectedPlayer*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126A70
+    // [InjectAttribute] Offset: 0x1123844
     // private readonly LocalPlayerInGameMenuInitData _localPlayerInGameMenuInitData
     // Size: 0x8
     // Offset: 0x68
     ::GlobalNamespace::LocalPlayerInGameMenuInitData* localPlayerInGameMenuInitData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LocalPlayerInGameMenuInitData*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126A80
+    // [InjectAttribute] Offset: 0x1123854
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
     // Offset: 0x70
     ::GlobalNamespace::VRControllersInputManager* vrControllersInputManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::VRControllersInputManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1126A90
+    // [InjectAttribute] Offset: 0x1123864
     // private readonly MultiplayerLocalPlayerDisconnectHelper _disconnectHelper
     // Size: 0x8
     // Offset: 0x78
@@ -232,62 +232,62 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _disabledInteractionRemainingTime
     [[deprecated("Use field access instead!")]] float& dyn__disabledInteractionRemainingTime();
     // public System.Void add_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x1405314
+    // Offset: 0x13D5860
     void add_didPressDisconnectButtonEvent(::System::Action* value);
     // public System.Void remove_didPressDisconnectButtonEvent(System.Action value)
-    // Offset: 0x1405810
+    // Offset: 0x13D5D5C
     void remove_didPressDisconnectButtonEvent(::System::Action* value);
     // public System.Void add_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x140545C
+    // Offset: 0x13D59A8
     void add_didPressGiveUpButtonEvent(::System::Action* value);
     // public System.Void remove_didPressGiveUpButtonEvent(System.Action value)
-    // Offset: 0x1405958
+    // Offset: 0x13D5EA4
     void remove_didPressGiveUpButtonEvent(::System::Action* value);
     // public System.Void add_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x14053B8
+    // Offset: 0x13D5904
     void add_didPressResumeButtonEvent(::System::Action* value);
     // public System.Void remove_didPressResumeButtonEvent(System.Action value)
-    // Offset: 0x14058B4
+    // Offset: 0x13D5E00
     void remove_didPressResumeButtonEvent(::System::Action* value);
     // public System.Void .ctor()
-    // Offset: 0x1406338
+    // Offset: 0x13D6884
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLocalActivePlayerInGameMenuViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLocalActivePlayerInGameMenuViewController*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1405DF8
+    // Offset: 0x13D6344
     void Awake();
     // protected System.Void Start()
-    // Offset: 0x1405F84
+    // Offset: 0x13D64D0
     void Start();
     // protected System.Void OnDestroy()
-    // Offset: 0x1406080
+    // Offset: 0x13D65CC
     void OnDestroy();
     // protected System.Void Update()
-    // Offset: 0x1406124
+    // Offset: 0x13D6670
     void Update();
     // public System.Void ShowMenu()
-    // Offset: 0x1405B18
+    // Offset: 0x13D6064
     void ShowMenu();
     // public System.Void HideMenu()
-    // Offset: 0x1405B74
+    // Offset: 0x13D60C0
     void HideMenu();
     // private System.Void DisconnectButtonPressed()
-    // Offset: 0x14061D4
+    // Offset: 0x13D6720
     void DisconnectButtonPressed();
     // private System.Void HandleDisconnectPromptViewDidViewFinish(System.Boolean disconnect)
-    // Offset: 0x1406214
+    // Offset: 0x13D6760
     void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
     // private System.Void GiveUpButtonPressed()
-    // Offset: 0x14062E4
+    // Offset: 0x13D6830
     void GiveUpButtonPressed();
     // private System.Void ResumeButtonPressed()
-    // Offset: 0x1406194
+    // Offset: 0x13D66E0
     void ResumeButtonPressed();
     // private System.Void <HandleDisconnectPromptViewDidViewFinish>b__32_0()
-    // Offset: 0x1406340
+    // Offset: 0x13D688C
     void $HandleDisconnectPromptViewDidViewFinish$b__32_0();
   }; // MultiplayerLocalActivePlayerInGameMenuViewController
   #pragma pack(pop)

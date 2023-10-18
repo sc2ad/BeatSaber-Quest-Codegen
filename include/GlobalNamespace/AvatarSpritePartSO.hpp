@@ -35,10 +35,10 @@ namespace GlobalNamespace {
   class AvatarSpritePartSO : public ::GlobalNamespace::AvatarPartSO_1<::UnityEngine::Sprite*> {
     public:
     // public UnityEngine.Sprite get_sprite()
-    // Offset: 0x1581D90
+    // Offset: 0x1580FF4
     ::UnityEngine::Sprite* get_sprite();
     // public System.Void .ctor()
-    // Offset: 0x1581DD4
+    // Offset: 0x1581038
     // Implemented from: AvatarPartSO`1
     // Base method: System.Void AvatarPartSO_1::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

@@ -55,16 +55,16 @@ namespace MS::Internal::Xml::Cache {
     // Get instance field reference: private System.Int32 idx
     [[deprecated("Use field access instead!")]] int& dyn_idx();
     // public MS.Internal.Xml.Cache.XPathNode[] get_Page()
-    // Offset: 0x1B089D0
+    // Offset: 0x1AE2A8C
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_Page();
     // public System.Int32 get_Index()
-    // Offset: 0x1B089D8
+    // Offset: 0x1AE2A94
     int get_Index();
     // public System.Void .ctor(MS.Internal.Xml.Cache.XPathNode[] page, System.Int32 idx)
-    // Offset: 0x1B089C4
+    // Offset: 0x1AE2A80
     // ABORTED: conflicts with another method.  XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> page, int idx);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x1B089E0
+    // Offset: 0x1AE2A9C
     // Implemented from: System.ValueType
     // Base method: System.Int32 ValueType::GetHashCode()
     int GetHashCode();

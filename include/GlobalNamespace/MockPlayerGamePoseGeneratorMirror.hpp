@@ -48,11 +48,6 @@ namespace System {
   // Forward declaring type: Action
   class Action;
 }
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: CancellationToken
-  struct CancellationToken;
-}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -70,8 +65,6 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerGamePoseGeneratorMirror : public ::GlobalNamespace::MockPlayerGamePoseGenerator {
     public:
-    // Nested type: ::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::$SendPoses$d__5
-    struct $SendPoses$d__5;
     public:
     // private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
@@ -99,46 +92,51 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action _onSongFinished
     [[deprecated("Use field access instead!")]] ::System::Action*& dyn__onSongFinished();
     // public System.Void .ctor(IMultiplayerSessionManager multiplayerSessionManager, IGameplayRpcManager gameplayRpcManager, System.Boolean leftHanded, NodePoseSyncStateManager nodePoseSyncStateManager)
-    // Offset: 0x14C1814
+    // Offset: 0x141CC54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockPlayerGamePoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockPlayerGamePoseGeneratorMirror*, creationType>(multiplayerSessionManager, gameplayRpcManager, leftHanded, nodePoseSyncStateManager)));
     }
     // private System.Void FindPlayerToMirror()
-    // Offset: 0x14C26D4
+    // Offset: 0x141DBB0
     void FindPlayerToMirror();
     // private System.Void HandleNoteWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, NoteSpawnInfoNetSerializable noteSpawnInfoNetSerializable)
-    // Offset: 0x14C29EC
+    // Offset: 0x141DEC8
     void HandleNoteWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
     // private System.Void HandleObstacleWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, ObstacleSpawnInfoNetSerializable obstacleSpawnInfoNetSerializable)
-    // Offset: 0x14C2B7C
+    // Offset: 0x141E058
     void HandleObstacleWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
     // private System.Void HandleSliderWasSpawned(System.String userId, System.Single syncTime, System.Single songTime, SliderSpawnInfoNetSerializable sliderSpawnInfoNetSerializable)
-    // Offset: 0x14C2D0C
+    // Offset: 0x141E1E8
     void HandleSliderWasSpawned(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
     // private System.Void HandleNoteWasMissed(System.String userId, System.Single syncTime, System.Single songTime, NoteMissInfoNetSerializable noteMissInfo)
-    // Offset: 0x14C2E9C
+    // Offset: 0x141E378
     void HandleNoteWasMissed(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
     // private System.Void HandleNoteWasCut(System.String userId, System.Single syncTime, System.Single songTime, NoteCutInfoNetSerializable noteCutInfo)
-    // Offset: 0x14C302C
+    // Offset: 0x141E508
     void HandleNoteWasCut(::StringW userId, float syncTime, float songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
     // private System.Void HandleScoreSyncStateUpdate(StandardScoreSyncStateNetSerializable nodePose, IConnectedPlayer player)
-    // Offset: 0x14C31BC
+    // Offset: 0x141E698
     void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* player);
     // private System.Void HandleLevelFinished(System.String userId, MultiplayerLevelCompletionResults results)
-    // Offset: 0x14C33B8
+    // Offset: 0x141E894
     void HandleLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
     // public override System.Void Dispose()
-    // Offset: 0x14C21DC
+    // Offset: 0x141D61C
     // Implemented from: MockPlayerGamePoseGenerator
     // Base method: System.Void MockPlayerGamePoseGenerator::Dispose()
     void Dispose();
-    // public override System.Void SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    // Offset: 0x14C2608
+    // public override System.Void Init(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Action onSongFinished)
+    // Offset: 0x141DA48
     // Implemented from: MockPlayerGamePoseGenerator
-    // Base method: System.Void MockPlayerGamePoseGenerator::SendPoses(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Threading.CancellationToken cancellationToken, System.Action onSongFinished)
-    void SendPoses(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Threading::CancellationToken cancellationToken, ::System::Action* onSongFinished);
+    // Base method: System.Void MockPlayerGamePoseGenerator::Init(System.Single introStartTime, MockBeatmapData beatmapData, GameplayModifiers gameplayModifiers, System.Action onSongFinished)
+    void Init(float introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
+    // public override System.Void Tick()
+    // Offset: 0x141DA50
+    // Implemented from: MockPlayerGamePoseGenerator
+    // Base method: System.Void MockPlayerGamePoseGenerator::Tick()
+    void Tick();
   }; // MockPlayerGamePoseGeneratorMirror
   #pragma pack(pop)
   static check_size<sizeof(MockPlayerGamePoseGeneratorMirror), 72 + sizeof(::System::Action*)> __GlobalNamespace_MockPlayerGamePoseGeneratorMirrorSizeCheck;
@@ -245,16 +243,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::SendPoses
-// Il2CppName: SendPoses
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Init
+// Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(float, ::GlobalNamespace::MockBeatmapData*, ::GlobalNamespace::GameplayModifiers*, ::System::Threading::CancellationToken, ::System::Action*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::SendPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(float, ::GlobalNamespace::MockBeatmapData*, ::GlobalNamespace::GameplayModifiers*, ::System::Action*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Init)> {
   static const MethodInfo* get() {
     static auto* introStartTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "MockBeatmapData")->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     static auto* onSongFinished = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{introStartTime, beatmapData, gameplayModifiers, cancellationToken, onSongFinished});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{introStartTime, beatmapData, gameplayModifiers, onSongFinished});
+  }
+};
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Tick
+// Il2CppName: Tick
+template<>
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Tick)> {
+  static const MethodInfo* get() {
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

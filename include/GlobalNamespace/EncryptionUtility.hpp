@@ -25,6 +25,11 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class Task_1;
 }
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
+  // Forward declaring type: ITaskUtility
+  class ITaskUtility;
+}
 // Completed forward declares
 // Type namespace: 
 namespace GlobalNamespace {
@@ -129,34 +134,34 @@ namespace GlobalNamespace {
     // Set static field: static private System.Security.Cryptography.AesCryptoServiceProvider _aes
     static void _set__aes(::System::Security::Cryptography::AesCryptoServiceProvider* value);
     // static private System.Void .cctor()
-    // Offset: 0x16CEDAC
+    // Offset: 0x161E56C
     static void _cctor();
     // static public EncryptionUtility/IEncryptionState CreateEncryptionState(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x16CD088
+    // Offset: 0x161C848
     static ::GlobalNamespace::EncryptionUtility::IEncryptionState* CreateEncryptionState(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient);
-    // static public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> CreateEncryptionStateAsync(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
-    // Offset: 0x16C9A00
-    static ::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>* CreateEncryptionStateAsync(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient);
+    // static public System.Threading.Tasks.Task`1<EncryptionUtility/IEncryptionState> CreateEncryptionStateAsync(BGNet.Core.ITaskUtility taskUtility, System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
+    // Offset: 0x1618F58
+    static ::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>* CreateEncryptionStateAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient);
     // static public System.Boolean IsValidLength(System.Int32 length)
-    // Offset: 0x16CD350
+    // Offset: 0x161CB10
     static bool IsValidLength(int length);
     // static private System.Void EncryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixedData)
-    // Offset: 0x16CD370
+    // Offset: 0x161CB30
     static void EncryptData(::GlobalNamespace::EncryptionUtility::EncryptionState* state, ::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixedData);
     // static private System.Boolean TryDecryptData(EncryptionUtility/EncryptionState state, System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    // Offset: 0x16CDBE4
+    // Offset: 0x161D3A4
     static bool TryDecryptData(::GlobalNamespace::EncryptionUtility::EncryptionState* state, ::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length);
     // static private System.Void FastCopyBlock(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x16CE77C
+    // Offset: 0x161DF3C
     static void FastCopyBlock(::ArrayW<uint8_t> inArr, int inOff, ::ArrayW<uint8_t> outArr, int outOff);
     // static private System.Void FastCopyMac(System.Byte[] inArr, System.Int32 inOff, System.Byte[] outArr, System.Int32 outOff)
-    // Offset: 0x16CEA9C
+    // Offset: 0x161E25C
     static void FastCopyMac(::ArrayW<uint8_t> inArr, int inOff, ::ArrayW<uint8_t> outArr, int outOff);
     // static public System.Void Log(System.String message)
-    // Offset: 0x16CEC9C
+    // Offset: 0x161E45C
     static void Log(::StringW message);
     // static public System.Void LogV(System.String message)
-    // Offset: 0x16CED24
+    // Offset: 0x161E4E4
     static void LogV(::StringW message);
   }; // EncryptionUtility
   #pragma pack(pop)
@@ -185,13 +190,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNam
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::CreateEncryptionStateAsync
 // Il2CppName: CreateEncryptionStateAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>* (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(&GlobalNamespace::EncryptionUtility::CreateEncryptionStateAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility::IEncryptionState*>* (*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(&GlobalNamespace::EncryptionUtility::CreateEncryptionStateAsync)> {
   static const MethodInfo* get() {
+    static auto* taskUtility = &::il2cpp_utils::GetClassFromName("BGNet.Core", "ITaskUtility")->byval_arg;
     static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* serverSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* clientSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility*), "CreateEncryptionStateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{preMasterSecret, serverSeed, clientSeed, isClient});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility*), "CreateEncryptionStateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskUtility, preMasterSecret, serverSeed, clientSeed, isClient});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::IsValidLength

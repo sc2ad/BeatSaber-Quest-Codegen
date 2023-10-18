@@ -87,14 +87,14 @@ namespace GlobalNamespace {
     ::UnityEngine::UI::Button* refreshButton;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Button*) == 0x8);
-    // [InjectAttribute] Offset: 0x1130C94
+    // [InjectAttribute] Offset: 0x112DBE8
     // private readonly OnlineServices.ServerManager _serverManager
     // Size: 0x8
     // Offset: 0x90
     ::OnlineServices::ServerManager* serverManager;
     // Field size check
     static_assert(sizeof(::OnlineServices::ServerManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1130CA4
+    // [InjectAttribute] Offset: 0x112DBF8
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x98
@@ -123,20 +123,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Text.StringBuilder _sb
     [[deprecated("Use field access instead!")]] ::System::Text::StringBuilder*& dyn__sb();
     // public System.Void .ctor()
-    // Offset: 0x138CB88
+    // Offset: 0x134FB80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OnlineServicesInfoViewController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OnlineServicesInfoViewController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OnlineServicesInfoViewController*, creationType>()));
     }
     // private System.Void GetServerStatus()
-    // Offset: 0x138CA78
+    // Offset: 0x134FA70
     void GetServerStatus();
     // private System.Void AppendLine(System.String line)
-    // Offset: 0x138CB30
+    // Offset: 0x134FB28
     void AppendLine(::StringW line);
     // protected override System.Void DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
-    // Offset: 0x138C9C4
+    // Offset: 0x134F9BC
     // Implemented from: HMUI.ViewController
     // Base method: System.Void ViewController::DidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy, System.Boolean screenSystemEnabling)
     void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);

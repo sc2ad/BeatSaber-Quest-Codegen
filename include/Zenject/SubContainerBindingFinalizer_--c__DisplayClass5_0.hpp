@@ -60,20 +60,20 @@ namespace Zenject {
     // Get instance field reference: public Zenject.DiContainer container
     [[deprecated("Use field access instead!")]] ::Zenject::DiContainer*& dyn_container();
     // public System.Void .ctor()
-    // Offset: 0x1DECCE8
+    // Offset: 0x1DD8D9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SubContainerBindingFinalizer::$$c__DisplayClass5_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SubContainerBindingFinalizer::$$c__DisplayClass5_0*, creationType>()));
     }
     // Zenject.IProvider <FinalizeBindingConcrete>b__0(Zenject.DiContainer _, System.Type concreteType)
-    // Offset: 0x1DECD34
+    // Offset: 0x1DD8DE8
     ::Zenject::IProvider* $FinalizeBindingConcrete$b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1DECE44
+    // Offset: 0x1DD8EF8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1DECEA0
+    // Offset: 0x1DD8F54
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SubContainerBindingFinalizer/Zenject.<>c__DisplayClass5_0
   #pragma pack(pop)

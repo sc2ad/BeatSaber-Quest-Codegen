@@ -25,7 +25,7 @@ namespace GlobalNamespace {
   class FlyingSpriteEffect::Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingSpriteEffect*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x13CEF38
+    // Offset: 0x1424E6C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FlyingSpriteEffect::Pool* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FlyingSpriteEffect::Pool::.ctor");

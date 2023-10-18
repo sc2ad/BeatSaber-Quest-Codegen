@@ -45,7 +45,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2
     class $AnimationCoroutine$d__2;
     public:
-    // [InjectAttribute] Offset: 0x1109D3C
+    // [InjectAttribute] Offset: 0x11065D8
     // private readonly BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
@@ -58,26 +58,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly BloomFogSO _bloomFog
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // public System.Void .ctor()
-    // Offset: 0x1CDFE38
+    // Offset: 0x1CB36EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomFogParamsAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomFogParamsAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomFogParamsAnimator*, creationType>()));
     }
     // public System.Void AnimateBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x1CDFB2C
+    // Offset: 0x1CB33E0
     void AnimateBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
     // private System.Collections.IEnumerator AnimationCoroutine(BloomFogEnvironmentParams envFogParams, System.Single duration)
-    // Offset: 0x1CDFC54
+    // Offset: 0x1CB3508
     ::System::Collections::IEnumerator* AnimationCoroutine(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float duration);
     // public System.Void SetBloomFogParamsChange(BloomFogEnvironmentParams envFogParams, System.Single transition)
-    // Offset: 0x1CDFD0C
+    // Offset: 0x1CB35C0
     void SetBloomFogParamsChange(::GlobalNamespace::BloomFogEnvironmentParams* envFogParams, float transition);
     // public BloomFogEnvironmentParams GetDefaultBloomFogParams()
-    // Offset: 0x1CDFD58
+    // Offset: 0x1CB360C
     ::GlobalNamespace::BloomFogEnvironmentParams* GetDefaultBloomFogParams();
     // public System.Void SetDefaultBloomFogParams(BloomFogEnvironmentParams newDefaultBloomFogParams)
-    // Offset: 0x1CDFD74
+    // Offset: 0x1CB3628
     void SetDefaultBloomFogParams(::GlobalNamespace::BloomFogEnvironmentParams* newDefaultBloomFogParams);
   }; // BloomFogParamsAnimator
   #pragma pack(pop)

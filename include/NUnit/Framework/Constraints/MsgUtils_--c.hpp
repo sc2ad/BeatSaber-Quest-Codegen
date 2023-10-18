@@ -37,47 +37,47 @@ namespace NUnit::Framework::Constraints {
     // Set static field: static public readonly NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c <>9
     static void _set_$$9(::NUnit::Framework::Constraints::MsgUtils::$$c* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D69254
+    // Offset: 0x1D54F04
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1D692B8
+    // Offset: 0x1D54F68
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MsgUtils::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::NUnit::Framework::Constraints::MsgUtils::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MsgUtils::$$c*, creationType>()));
     }
     // System.String <.cctor>b__14_0(System.Object val)
-    // Offset: 0x1D692C0
+    // Offset: 0x1D54F70
     ::StringW $_cctor$b__14_0(::Il2CppObject* val);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_1(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D69334
+    // Offset: 0x1D54FE4
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_1(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_2(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D693CC
+    // Offset: 0x1D5507C
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_2(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_3(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D69464
+    // Offset: 0x1D55114
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_3(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_4(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D694FC
+    // Offset: 0x1D551AC
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_4(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_5(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D69594
+    // Offset: 0x1D55244
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_5(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_6(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D6962C
+    // Offset: 0x1D552DC
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_6(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_7(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D696C4
+    // Offset: 0x1D55374
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_7(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_8(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D6975C
+    // Offset: 0x1D5540C
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_8(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_9(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D697F4
+    // Offset: 0x1D554A4
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_9(::NUnit::Framework::Constraints::ValueFormatter* next);
     // NUnit.Framework.Constraints.ValueFormatter <.cctor>b__14_10(NUnit.Framework.Constraints.ValueFormatter next)
-    // Offset: 0x1D6988C
+    // Offset: 0x1D5553C
     ::NUnit::Framework::Constraints::ValueFormatter* $_cctor$b__14_10(::NUnit::Framework::Constraints::ValueFormatter* next);
   }; // NUnit.Framework.Constraints.MsgUtils/NUnit.Framework.Constraints.<>c
   #pragma pack(pop)

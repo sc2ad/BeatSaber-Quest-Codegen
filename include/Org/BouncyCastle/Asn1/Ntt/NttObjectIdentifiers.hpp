@@ -54,7 +54,7 @@ namespace Org::BouncyCastle::Asn1::Ntt {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier IdCamellia256Wrap
     static void _set_IdCamellia256Wrap(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // static private System.Void .cctor()
-    // Offset: 0x1D94CC4
+    // Offset: 0x1D80D78
     static void _cctor();
   }; // Org.BouncyCastle.Asn1.Ntt.NttObjectIdentifiers
   #pragma pack(pop)

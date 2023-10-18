@@ -60,7 +60,7 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MultiplayerStatusModel::$GetMultiplayerStatusAsyncInternal$d__9
     struct $GetMultiplayerStatusAsyncInternal$d__9;
     public:
-    // [InjectAttribute] Offset: 0x11203E0
+    // [InjectAttribute] Offset: 0x111D014
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
     // Offset: 0x10
@@ -101,26 +101,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.Tasks.Task`1<MultiplayerStatusData> _request
     [[deprecated("Use field access instead!")]] ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*& dyn__request();
     // public System.Void .ctor()
-    // Offset: 0x1431DD4
+    // Offset: 0x1504480
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerStatusModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerStatusModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerStatusModel*, creationType>()));
     }
     // private System.Void Init()
-    // Offset: 0x1431B88
+    // Offset: 0x1504234
     void Init();
     // public System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsync(System.Threading.CancellationToken cancellationToken)
-    // Offset: 0x1431BD0
+    // Offset: 0x150427C
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
     // private System.Boolean IsAvailabilityTaskValid()
-    // Offset: 0x1431C4C
+    // Offset: 0x15042F8
     bool IsAvailabilityTaskValid();
     // private System.Void StartRequest()
-    // Offset: 0x1431BAC
+    // Offset: 0x1504258
     void StartRequest();
     // private System.Threading.Tasks.Task`1<MultiplayerStatusData> GetMultiplayerStatusAsyncInternal()
-    // Offset: 0x1431CB4
+    // Offset: 0x1504360
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
   }; // MultiplayerStatusModel
   #pragma pack(pop)

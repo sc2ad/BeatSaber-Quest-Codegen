@@ -91,23 +91,23 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Get instance field reference: private System.Int32 bitSize
     [[deprecated("Use field access instead!")]] int& dyn_bitSize();
     // public System.Void .ctor()
-    // Offset: 0x2414F90
+    // Offset: 0x23F674C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ElGamalEngine* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ElGamalEngine*, creationType>()));
     }
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x2414804
+    // Offset: 0x23F5FC0
     void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 GetInputBlockSize()
-    // Offset: 0x2414A34
+    // Offset: 0x23F61F0
     int GetInputBlockSize();
     // public System.Int32 GetOutputBlockSize()
-    // Offset: 0x2414A74
+    // Offset: 0x23F6230
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    // Offset: 0x2414AB4
+    // Offset: 0x23F6270
     ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int length);
   }; // Org.BouncyCastle.Crypto.Engines.ElGamalEngine
   #pragma pack(pop)

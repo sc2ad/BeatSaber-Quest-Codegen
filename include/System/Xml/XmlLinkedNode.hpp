@@ -48,17 +48,17 @@ namespace System::Xml {
     // Get instance field reference: System.Xml.XmlLinkedNode next
     [[deprecated("Use field access instead!")]] ::System::Xml::XmlLinkedNode*& dyn_next();
     // public override System.Xml.XmlNode get_PreviousSibling()
-    // Offset: 0x1653450
+    // Offset: 0x1667610
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_PreviousSibling()
     ::System::Xml::XmlNode* get_PreviousSibling();
     // public override System.Xml.XmlNode get_NextSibling()
-    // Offset: 0x16534BC
+    // Offset: 0x166767C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Xml.XmlNode XmlNode::get_NextSibling()
     ::System::Xml::XmlNode* get_NextSibling();
     // System.Void .ctor(System.Xml.XmlDocument doc)
-    // Offset: 0x165065C
+    // Offset: 0x166481C
     // Implemented from: System.Xml.XmlNode
     // Base method: System.Void XmlNode::.ctor(System.Xml.XmlDocument doc)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

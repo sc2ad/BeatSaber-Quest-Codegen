@@ -47,17 +47,17 @@ namespace GlobalNamespace {
     // Set static field: static public System.Func`2<IBeatmapLevelPack,System.String> <>9__43_0
     static void _set_$$9__43_0(::System::Func_2<::GlobalNamespace::IBeatmapLevelPack*, ::StringW>* value);
     // static private System.Void .cctor()
-    // Offset: 0x15918F4
+    // Offset: 0x15225B8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1591958
+    // Offset: 0x152261C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LobbyPlayersDataModel::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LobbyPlayersDataModel::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LobbyPlayersDataModel::$$c*, creationType>()));
     }
     // System.String <SetOwnedSongPacks>b__43_0(IBeatmapLevelPack pack)
-    // Offset: 0x1591960
+    // Offset: 0x1522624
     ::StringW $SetOwnedSongPacks$b__43_0(::GlobalNamespace::IBeatmapLevelPack* pack);
   }; // LobbyPlayersDataModel/<>c
   #pragma pack(pop)

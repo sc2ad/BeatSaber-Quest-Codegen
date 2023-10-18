@@ -45,13 +45,13 @@ namespace HoudiniEngineUnity {
     // Nested type: ::HoudiniEngineUnity::Test_Transform_Extensions::$$c
     class $$c;
     // static public HoudiniEngineUnity.Test_Transform ToTestObject(UnityEngine.Transform self)
-    // Offset: 0x2B45FC0
+    // Offset: 0x2B57E08
     static ::HoudiniEngineUnity::Test_Transform* ToTestObject(::UnityEngine::Transform* self);
     // static public HoudiniEngineUnity.Test_Transform[] ToTestObject(UnityEngine.Transform[] self)
-    // Offset: 0x2B46024
+    // Offset: 0x2B57E6C
     static ::ArrayW<::HoudiniEngineUnity::Test_Transform*> ToTestObject(::ArrayW<::UnityEngine::Transform*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Transform> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Transform> self)
-    // Offset: 0x2B46110
+    // Offset: 0x2B57F58
     static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Transform*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* self);
   }; // HoudiniEngineUnity.Test_Transform_Extensions
   #pragma pack(pop)

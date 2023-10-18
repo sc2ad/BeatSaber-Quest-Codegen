@@ -37,14 +37,14 @@ namespace HoudiniEngineUnity {
       return reinterpret_cast<::System::Collections::IComparer*>(this);
     }
     // public System.Void .ctor()
-    // Offset: 0x1A73DCC
+    // Offset: 0x1A6E804
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ReverseCompare* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::ReverseCompare::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReverseCompare*, creationType>()));
     }
     // public System.Int32 Compare(System.Object x, System.Object y)
-    // Offset: 0x1A73D4C
+    // Offset: 0x1A6E784
     int Compare(::Il2CppObject* x, ::Il2CppObject* y);
   }; // HoudiniEngineUnity.ReverseCompare
   #pragma pack(pop)

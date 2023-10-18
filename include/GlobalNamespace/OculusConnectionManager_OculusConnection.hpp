@@ -23,8 +23,8 @@ namespace LiteNetLib::Utils {
   // Forward declaring type: NetDataWriter
   class NetDataWriter;
 }
-// Forward declaring namespace: LiteNetLib
-namespace LiteNetLib {
+// Forward declaring namespace: BGNet::Core
+namespace BGNet::Core {
   // Forward declaring type: DeliveryMethod
   struct DeliveryMethod;
 }
@@ -91,45 +91,45 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Boolean _isConnectionOwner
     [[deprecated("Use field access instead!")]] bool& dyn__isConnectionOwner();
     // public System.UInt64 get_id()
-    // Offset: 0x15BC334
+    // Offset: 0x15907FC
     uint64_t get_id();
     // public System.String get_userId()
-    // Offset: 0x15BC33C
+    // Offset: 0x1590804
     ::StringW get_userId();
     // public System.String get_userName()
-    // Offset: 0x15BC344
+    // Offset: 0x159080C
     ::StringW get_userName();
     // public System.Boolean get_isConnectionOwner()
-    // Offset: 0x15BC34C
+    // Offset: 0x1590814
     bool get_isConnectionOwner();
     // public System.Void .ctor(System.UInt64 id, System.String userName, System.Boolean isConnectionOwner)
-    // Offset: 0x15BBD68
+    // Offset: 0x1590230
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OculusConnectionManager::OculusConnection* New_ctor(uint64_t id, ::StringW userName, bool isConnectionOwner) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OculusConnectionManager::OculusConnection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OculusConnectionManager::OculusConnection*, creationType>(id, userName, isConnectionOwner)));
     }
-    // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, LiteNetLib.DeliveryMethod deliveryMethod)
-    // Offset: 0x15BB2EC
-    void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod deliveryMethod);
+    // public System.Void Send(LiteNetLib.Utils.NetDataWriter writer, BGNet.Core.DeliveryMethod deliveryMethod)
+    // Offset: 0x158F758
+    void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
     // public System.Void Disconnect()
-    // Offset: 0x15BB9C0
+    // Offset: 0x158FE14
     void Disconnect();
     // public System.Boolean Equals(OculusConnectionManager/OculusConnection other)
-    // Offset: 0x15BC354
+    // Offset: 0x159081C
     bool Equals(::GlobalNamespace::OculusConnectionManager::OculusConnection* other);
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x15BC384
+    // Offset: 0x159084C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x15BC498
+    // Offset: 0x1590960
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();
     // public override System.String ToString()
-    // Offset: 0x15BC4C4
+    // Offset: 0x159098C
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
@@ -178,10 +178,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::LiteNetLib::DeliveryMethod)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Send)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
-    static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
+    static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("BGNet.Core", "DeliveryMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, deliveryMethod});
   }
 };

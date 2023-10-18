@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AddressableAssets.AssetReference _videoAssetReference
     [[deprecated("Use field access instead!")]] ::UnityEngine::AddressableAssets::AssetReference*& dyn__videoAssetReference();
     // public System.Int32 get_id()
-    // Offset: 0x15416D4
+    // Offset: 0x15EAC34
     int get_id();
     // public UnityEngine.AddressableAssets.AssetReference get_videoAssetReference()
-    // Offset: 0x15416DC
+    // Offset: 0x15EAC3C
     ::UnityEngine::AddressableAssets::AssetReference* get_videoAssetReference();
     // public System.Void .ctor()
-    // Offset: 0x15416E4
+    // Offset: 0x15EAC44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VideoProjectionDataModelSO::VideoClipWithId* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VideoProjectionDataModelSO::VideoClipWithId::.ctor");

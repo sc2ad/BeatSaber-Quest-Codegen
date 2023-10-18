@@ -82,7 +82,7 @@ namespace GlobalNamespace {
     // Field size check
     static_assert(sizeof(int) == 0x4);
     public:
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10FB784
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x10F8974
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightColorBeatmapEventData> _defaults
     static ::System::Collections::Generic::Dictionary_2<int, ::GlobalNamespace::LightColorBeatmapEventData*>* _get__defaults();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Int32,LightColorBeatmapEventData> _defaults
@@ -100,49 +100,49 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <strobeBeatFrequency>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$strobeBeatFrequency$k__BackingField();
     // public EnvironmentColorType get_colorType()
-    // Offset: 0x2703028
+    // Offset: 0x26B5C8C
     ::GlobalNamespace::EnvironmentColorType get_colorType();
     // private System.Void set_colorType(EnvironmentColorType value)
-    // Offset: 0x2703030
+    // Offset: 0x26B5C94
     void set_colorType(::GlobalNamespace::EnvironmentColorType value);
     // public System.Single get_brightness()
-    // Offset: 0x2703038
+    // Offset: 0x26B5C9C
     float get_brightness();
     // private System.Void set_brightness(System.Single value)
-    // Offset: 0x2703040
+    // Offset: 0x26B5CA4
     void set_brightness(float value);
     // public System.Int32 get_strobeBeatFrequency()
-    // Offset: 0x2703048
+    // Offset: 0x26B5CAC
     int get_strobeBeatFrequency();
     // private System.Void set_strobeBeatFrequency(System.Int32 value)
-    // Offset: 0x2703050
+    // Offset: 0x26B5CB4
     void set_strobeBeatFrequency(int value);
     // public System.Void .ctor(System.Single time, System.Int32 groupId, System.Int32 elementId, BeatmapEventTransitionType transitionType, EnvironmentColorType colorType, System.Single brightness, System.Int32 strobeBeatFrequency)
-    // Offset: 0x2703058
+    // Offset: 0x26B5CBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightColorBeatmapEventData* New_ctor(float time, int groupId, int elementId, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType, float brightness, int strobeBeatFrequency) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightColorBeatmapEventData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LightColorBeatmapEventData*, creationType>(time, groupId, elementId, transitionType, colorType, brightness, strobeBeatFrequency)));
     }
     // static private System.Void .cctor()
-    // Offset: 0x270333C
+    // Offset: 0x26B5FA0
     static void _cctor();
     // public System.Void CopyColorDataFrom(LightColorBeatmapEventData lightColorBeatmapEventData)
-    // Offset: 0x2703138
+    // Offset: 0x26B5D9C
     void CopyColorDataFrom(::GlobalNamespace::LightColorBeatmapEventData* lightColorBeatmapEventData);
     // public System.Void DisableStrobe()
-    // Offset: 0x2703164
+    // Offset: 0x26B5DC8
     void DisableStrobe();
     // static public System.Int32 SubtypeIdentifier(System.Int32 groupId, System.Int32 elementId)
-    // Offset: 0x270312C
+    // Offset: 0x26B5D90
     static int SubtypeIdentifier(int groupId, int elementId);
     // public override BeatmapDataItem GetCopy()
-    // Offset: 0x270316C
+    // Offset: 0x26B5DD0
     // Implemented from: BeatmapDataItem
     // Base method: BeatmapDataItem BeatmapDataItem::GetCopy()
     ::GlobalNamespace::BeatmapDataItem* GetCopy();
     // protected override BeatmapEventData GetDefault()
-    // Offset: 0x2703210
+    // Offset: 0x26B5E74
     // Implemented from: BeatmapEventData
     // Base method: BeatmapEventData BeatmapEventData::GetDefault()
     ::GlobalNamespace::BeatmapEventData* GetDefault();

@@ -86,20 +86,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentBpm
     [[deprecated("Use field access instead!")]] float& dyn__currentBpm();
     // public System.Single get_currentBpm()
-    // Offset: 0x13F16F4
+    // Offset: 0x13F0B48
     float get_currentBpm();
     // public System.Void .ctor(BpmController/InitData initData, BeatmapCallbacksController beatmapCallbacksController)
-    // Offset: 0x13F16FC
+    // Offset: 0x13F0B50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BpmController* New_ctor(::GlobalNamespace::BpmController::InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BpmController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BpmController*, creationType>(initData, beatmapCallbacksController)));
     }
     // public System.Void Dispose()
-    // Offset: 0x13F17C0
+    // Offset: 0x13F0C14
     void Dispose();
     // private System.Void HandleBpmChangeBeatmapEvent(BPMChangeBeatmapEventData bpmChangeBeatmapEventData)
-    // Offset: 0x13F17DC
+    // Offset: 0x13F0C30
     void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
   }; // BpmController
   #pragma pack(pop)

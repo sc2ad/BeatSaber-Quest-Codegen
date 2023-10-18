@@ -121,7 +121,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: public UnityEngine.Rendering.ColorWriteMask colorMask
     [[deprecated("Use field access instead!")]] ::UnityEngine::Rendering::ColorWriteMask& dyn_colorMask();
     // public System.Void .ctor()
-    // Offset: 0x2B47460
+    // Offset: 0x2B592A8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static StencilMaterial::MatEntry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::StencilMaterial::MatEntry::.ctor");

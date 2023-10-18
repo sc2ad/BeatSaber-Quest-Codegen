@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean isClient
     [[deprecated("Use field access instead!")]] bool& dyn_isClient();
     // public System.Void .ctor()
-    // Offset: 0x16CD348
+    // Offset: 0x161CB08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EncryptionUtility::$$c__DisplayClass18_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::$$c__DisplayClass18_0*, creationType>()));
     }
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()
-    // Offset: 0x16CEEB8
+    // Offset: 0x161E678
     ::GlobalNamespace::EncryptionUtility::IEncryptionState* $CreateEncryptionStateAsync$b__0();
   }; // EncryptionUtility/<>c__DisplayClass18_0
   #pragma pack(pop)

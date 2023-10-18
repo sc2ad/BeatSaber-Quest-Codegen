@@ -43,7 +43,7 @@ namespace RootMotion::FinalIK {
     // Nested type: ::RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7
     class $Initiate$d__7;
     public:
-    // [TooltipAttribute] Offset: 0x114ADE0
+    // [TooltipAttribute] Offset: 0x1147D7C
     // public System.Single weight
     // Size: 0x4
     // Offset: 0x18
@@ -52,7 +52,7 @@ namespace RootMotion::FinalIK {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: weight and: ik
     char __padding0[0x4] = {};
-    // [TooltipAttribute] Offset: 0x114AE18
+    // [TooltipAttribute] Offset: 0x1147DB4
     // public RootMotion.FinalIK.VRIK ik
     // Size: 0x8
     // Offset: 0x20
@@ -75,10 +75,10 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single lastTime
     [[deprecated("Use field access instead!")]] float& dyn_lastTime();
     // protected System.Single get_deltaTime()
-    // Offset: 0x2072874
+    // Offset: 0x2064A1C
     float get_deltaTime();
     // protected System.Void .ctor()
-    // Offset: 0x2072B6C
+    // Offset: 0x2064D14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OffsetModifierVRIK* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::OffsetModifierVRIK::.ctor");
@@ -88,16 +88,16 @@ namespace RootMotion::FinalIK {
     // Offset: 0xFFFFFFFFFFFFFFFF
     void OnModifyOffset();
     // protected System.Void Start()
-    // Offset: 0x20728A0
+    // Offset: 0x2064A48
     void Start();
     // private System.Collections.IEnumerator Initiate()
-    // Offset: 0x20728CC
+    // Offset: 0x2064A74
     ::System::Collections::IEnumerator* Initiate();
     // private System.Void ModifyOffset()
-    // Offset: 0x2072968
+    // Offset: 0x2064B10
     void ModifyOffset();
     // protected System.Void OnDestroy()
-    // Offset: 0x2072A74
+    // Offset: 0x2064C1C
     void OnDestroy();
   }; // RootMotion.FinalIK.OffsetModifierVRIK
   #pragma pack(pop)

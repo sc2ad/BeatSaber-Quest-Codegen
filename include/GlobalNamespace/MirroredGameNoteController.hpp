@@ -63,7 +63,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockController*) == 0x8);
-    // [InjectAttribute] Offset: 0x11223BC
+    // [InjectAttribute] Offset: 0x111F020
     // private readonly ColorManager _colorManager
     // Size: 0x8
     // Offset: 0x50
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
     inline ::GlobalNamespace::INoteMovementProvider* i_INoteMovementProvider() noexcept {
       return reinterpret_cast<::GlobalNamespace::INoteMovementProvider*>(this);
     }
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x11223DC
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x111F040
     // Get static field: static private readonly System.Int32 _colorId
     static int _get__colorId();
     // Set static field: static private readonly System.Int32 _colorId
@@ -113,25 +113,25 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MirroredGameNoteController> cubeNoteControllerDidInitEvent
     [[deprecated("Use field access instead!")]] ::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>*& dyn_cubeNoteControllerDidInitEvent();
     // public NoteMovement get_noteMovement()
-    // Offset: 0x137D3DC
+    // Offset: 0x138DC3C
     ::GlobalNamespace::NoteMovement* get_noteMovement();
     // public NoteVisualModifierType get_noteVisualModifierType()
-    // Offset: 0x137D498
+    // Offset: 0x138DCF8
     ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
     // public System.Void add_cubeNoteControllerDidInitEvent(System.Action`1<MirroredGameNoteController> value)
-    // Offset: 0x137D294
+    // Offset: 0x138DAF4
     void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value);
     // public System.Void remove_cubeNoteControllerDidInitEvent(System.Action`1<MirroredGameNoteController> value)
-    // Offset: 0x137D338
+    // Offset: 0x138DB98
     void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MirroredGameNoteController*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x137D6F0
+    // Offset: 0x138DF50
     static void _cctor();
     // public System.Void Mirror(IGameNoteMirrorable noteController)
-    // Offset: 0x137D54C
+    // Offset: 0x138DDAC
     void Mirror(::GlobalNamespace::IGameNoteMirrorable* noteController);
     // public System.Void .ctor()
-    // Offset: 0x137D6A0
+    // Offset: 0x138DF00
     // Implemented from: MirroredNoteController`1
     // Base method: System.Void MirroredNoteController_1::.ctor()
     // Base method: System.Void NoteControllerBase::.ctor()

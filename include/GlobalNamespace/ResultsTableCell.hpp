@@ -90,14 +90,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__rankText();
     // public System.Void .ctor()
-    // Offset: 0x146602C
+    // Offset: 0x144B3DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ResultsTableCell* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ResultsTableCell::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResultsTableCell*, creationType>()));
     }
     // public System.Void SetData(System.Int32 order, IConnectedPlayer connectedPlayer, LevelCompletionResults levelCompletionResults)
-    // Offset: 0x1465D0C
+    // Offset: 0x144B0BC
     void SetData(int order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
   }; // ResultsTableCell
   #pragma pack(pop)

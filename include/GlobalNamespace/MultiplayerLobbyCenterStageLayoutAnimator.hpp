@@ -48,7 +48,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* nextLevelTransform;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112DFBC
+    // [SpaceAttribute] Offset: 0x112AEB8
     // private UnityEngine.RectTransform _nextLevelBasePosition
     // Size: 0x8
     // Offset: 0x20
@@ -61,7 +61,7 @@ namespace GlobalNamespace {
     ::UnityEngine::RectTransform* nextLevelCountdownPosition;
     // Field size check
     static_assert(sizeof(::UnityEngine::RectTransform*) == 0x8);
-    // [SpaceAttribute] Offset: 0x112E004
+    // [SpaceAttribute] Offset: 0x112AF00
     // private System.Single _transitionDuration
     // Size: 0x4
     // Offset: 0x30
@@ -70,7 +70,7 @@ namespace GlobalNamespace {
     static_assert(sizeof(float) == 0x4);
     // Padding between fields: transitionDuration and: tweeningManager
     char __padding3[0x4] = {};
-    // [InjectAttribute] Offset: 0x112E03C
+    // [InjectAttribute] Offset: 0x112AF38
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
     // Offset: 0x38
@@ -91,23 +91,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
     [[deprecated("Use field access instead!")]] ::Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // public System.Void .ctor()
-    // Offset: 0x13FE9B0
+    // Offset: 0x13CEE04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyCenterStageLayoutAnimator* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyCenterStageLayoutAnimator*, creationType>()));
     }
     // public System.Void StartCountdown()
-    // Offset: 0x13FE65C
+    // Offset: 0x13CEAB0
     void StartCountdown();
     // public System.Void StopCountdown(System.Boolean instant)
-    // Offset: 0x13FE888
+    // Offset: 0x13CECDC
     void StopCountdown(bool instant);
     // private System.Void Move(UnityEngine.Vector3 from, UnityEngine.Vector3 to, System.Single duration)
-    // Offset: 0x13FE75C
+    // Offset: 0x13CEBB0
     void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float duration);
     // private System.Void <Move>b__7_0(UnityEngine.Vector3 pos)
-    // Offset: 0x13FE9B8
+    // Offset: 0x13CEE0C
     void $Move$b__7_0(::UnityEngine::Vector3 pos);
   }; // MultiplayerLobbyCenterStageLayoutAnimator
   #pragma pack(pop)

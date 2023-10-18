@@ -69,10 +69,10 @@ namespace OnlineServices::API {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.Response> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::OnlineServices::API::Response>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x138A604
+    // Offset: 0x134D5FC
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x138A7D8
+    // Offset: 0x134D7D0
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OnlineServices.API.TestApiLeaderboardsModel/OnlineServices.API.<SendLevelScoreResultAsync>d__2
   // WARNING Not writing size check since size may be invalid!

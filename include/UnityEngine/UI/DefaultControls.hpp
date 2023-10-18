@@ -103,61 +103,61 @@ namespace UnityEngine::UI {
     // Set static field: static private UnityEngine.Color s_TextColor
     static void _set_s_TextColor(::UnityEngine::Color value);
     // static public UnityEngine.UI.DefaultControls/UnityEngine.UI.IFactoryControls get_factory()
-    // Offset: 0x1990A24
+    // Offset: 0x1977A9C
     static ::UnityEngine::UI::DefaultControls::IFactoryControls* get_factory();
     // static private System.Void .cctor()
-    // Offset: 0x1994AD4
+    // Offset: 0x197BB4C
     static void _cctor();
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
-    // Offset: 0x1990A8C
+    // Offset: 0x1977B04
     static ::UnityEngine::GameObject* CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*> components);
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
-    // Offset: 0x1990BF8
+    // Offset: 0x1977C70
     static ::UnityEngine::GameObject* CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*> components);
     // static private System.Void SetDefaultTextValues(UnityEngine.UI.Text lbl)
-    // Offset: 0x1990E4C
+    // Offset: 0x1977EC4
     static void SetDefaultTextValues(::UnityEngine::UI::Text* lbl);
     // static private System.Void SetDefaultColorTransitionValues(UnityEngine.UI.Selectable slider)
-    // Offset: 0x1990EE0
+    // Offset: 0x1977F58
     static void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
     // static private System.Void SetParentAndAlign(UnityEngine.GameObject child, UnityEngine.GameObject parent)
-    // Offset: 0x1990D40
+    // Offset: 0x1977DB8
     static void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
     // static private System.Void SetLayerRecursively(UnityEngine.GameObject go, System.Int32 layer)
-    // Offset: 0x1990F60
+    // Offset: 0x1977FD8
     static void SetLayerRecursively(::UnityEngine::GameObject* go, int layer);
     // static public UnityEngine.GameObject CreatePanel(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x199105C
+    // Offset: 0x19780D4
     static ::UnityEngine::GameObject* CreatePanel(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateButton(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x1991284
+    // Offset: 0x19782FC
     static ::UnityEngine::GameObject* CreateButton(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateText(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x19915BC
+    // Offset: 0x1978634
     static ::UnityEngine::GameObject* CreateText(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateImage(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x199172C
+    // Offset: 0x19787A4
     static ::UnityEngine::GameObject* CreateImage(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateRawImage(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x1991850
+    // Offset: 0x19788C8
     static ::UnityEngine::GameObject* CreateRawImage(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateSlider(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x1991974
+    // Offset: 0x19789EC
     static ::UnityEngine::GameObject* CreateSlider(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateScrollbar(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x19920D0
+    // Offset: 0x1979148
     static ::UnityEngine::GameObject* CreateScrollbar(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateToggle(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x1992508
+    // Offset: 0x1979580
     static ::UnityEngine::GameObject* CreateToggle(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateInputField(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x1992AF4
+    // Offset: 0x1979B6C
     static ::UnityEngine::GameObject* CreateInputField(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateDropdown(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x199303C
+    // Offset: 0x197A0B4
     static ::UnityEngine::GameObject* CreateDropdown(::UnityEngine::UI::DefaultControls::Resources resources);
     // static public UnityEngine.GameObject CreateScrollView(UnityEngine.UI.DefaultControls/UnityEngine.UI.Resources resources)
-    // Offset: 0x19943E4
+    // Offset: 0x197B45C
     static ::UnityEngine::GameObject* CreateScrollView(::UnityEngine::UI::DefaultControls::Resources resources);
   }; // UnityEngine.UI.DefaultControls
   #pragma pack(pop)

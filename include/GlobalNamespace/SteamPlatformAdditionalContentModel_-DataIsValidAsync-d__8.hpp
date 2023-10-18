@@ -97,10 +97,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<AdditionalContentModel/UpdateEntitlementsResult> <>u__2
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel::UpdateEntitlementsResult>& dyn_$$u__2();
     // private System.Void MoveNext()
-    // Offset: 0x1399458
+    // Offset: 0x13ABC90
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x1399770
+    // Offset: 0x13ABFA8
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // SteamPlatformAdditionalContentModel/<DataIsValidAsync>d__8
   // WARNING Not writing size check since size may be invalid!

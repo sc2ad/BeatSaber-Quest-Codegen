@@ -95,42 +95,42 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121A40
+    // [InjectAttribute] Offset: 0x111E694
     // private readonly MenuScenesTransitionSetupDataSO _menuScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x38
     ::GlobalNamespace::MenuScenesTransitionSetupDataSO* menuScenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MenuScenesTransitionSetupDataSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121A50
+    // [InjectAttribute] Offset: 0x111E6A4
     // private readonly IRichPresencePlatformHandler _richPresencePlatformHandler
     // Size: 0x8
     // Offset: 0x40
     ::GlobalNamespace::IRichPresencePlatformHandler* richPresencePlatformHandler;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IRichPresencePlatformHandler*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121A60
+    // [InjectAttribute] Offset: 0x111E6B4
     // private readonly GameScenesManager _gameScenesManager
     // Size: 0x8
     // Offset: 0x48
     ::GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::GameScenesManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121A70
+    // [InjectAttribute] Offset: 0x111E6C4
     // private readonly LobbyGameStateModel _lobbyGameStateModel
     // Size: 0x8
     // Offset: 0x50
     ::GlobalNamespace::LobbyGameStateModel* lobbyGameStateModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::LobbyGameStateModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121A80
+    // [InjectAttribute] Offset: 0x111E6D4
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x58
     ::GlobalNamespace::IUnifiedNetworkPlayerModel* unifiedNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IUnifiedNetworkPlayerModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x1121A90
+    // [InjectAttribute] Offset: 0x111E6E4
     // private readonly LobbyPlayerPermissionsModel _lobbyPlayerPermissionsModel
     // Size: 0x8
     // Offset: 0x60
@@ -219,38 +219,38 @@ namespace GlobalNamespace {
     // Get instance field reference: private IRichPresenceData _currentPresenceData
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IRichPresenceData*& dyn__currentPresenceData();
     // public System.Void .ctor()
-    // Offset: 0x14684E0
+    // Offset: 0x144D890
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static RichPresenceManager* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::RichPresenceManager::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RichPresenceManager*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x146762C
+    // Offset: 0x144C9DC
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1467854
+    // Offset: 0x144CC04
     void OnDestroy();
     // private System.Void HandleLobbyGameStateModelDidChange(MultiplayerGameState newGameState)
-    // Offset: 0x1467A6C
+    // Offset: 0x144CE1C
     void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
     // private System.Void SetMenuPresence()
-    // Offset: 0x1467A88
+    // Offset: 0x144CE38
     void SetMenuPresence();
     // private System.Void HandleGameScenesManagerTransitionDidFinish(ScenesTransitionSetupDataSO scenesTransitionSetupData, Zenject.DiContainer diContainer)
-    // Offset: 0x1467D88
+    // Offset: 0x144D138
     void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
     // private System.Void HandleMultiplayerPartySizeChanged(System.Int32 currentPartySize)
-    // Offset: 0x1468184
+    // Offset: 0x144D534
     void HandleMultiplayerPartySizeChanged(int currentPartySize);
     // private System.Void HandleLobbyPlayerPermissionChanged()
-    // Offset: 0x1468368
+    // Offset: 0x144D718
     void HandleLobbyPlayerPermissionChanged();
     // private System.Void SetPresence(IRichPresenceData presenceData)
-    // Offset: 0x1467CC4
+    // Offset: 0x144D074
     void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
     // private System.Void Clear()
-    // Offset: 0x14680CC
+    // Offset: 0x144D47C
     void Clear();
   }; // RichPresenceManager
   #pragma pack(pop)

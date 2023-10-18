@@ -60,20 +60,20 @@ namespace Zenject {
     // Get instance field reference: public UnityEngine.GameObject gameObject
     [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn_gameObject();
     // public System.Void .ctor()
-    // Offset: 0x1EAD5E4
+    // Offset: 0x1E99764
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FactoryFromBinderBase::$$c__DisplayClass23_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::FactoryFromBinderBase::$$c__DisplayClass23_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FactoryFromBinderBase::$$c__DisplayClass23_0*, creationType>()));
     }
     // Zenject.IProvider <FromComponentOn>b__0(Zenject.DiContainer container)
-    // Offset: 0x1EAE5E8
+    // Offset: 0x1E9A768
     ::Zenject::IProvider* $FromComponentOn$b__0(::Zenject::DiContainer* container);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1EAE6B4
+    // Offset: 0x1E9A834
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1EAE710
+    // Offset: 0x1E9A890
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.FactoryFromBinderBase/Zenject.<>c__DisplayClass23_0
   #pragma pack(pop)

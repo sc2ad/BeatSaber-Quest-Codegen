@@ -35,19 +35,19 @@ namespace UnityEngine {
     // Set static field: static private System.String projectFolder
     static void _set_projectFolder(::StringW value);
     // static private System.Void .cctor()
-    // Offset: 0x289C390
+    // Offset: 0x28A4714
     static void _cctor();
     // static System.Void SetProjectFolder(System.String folder)
-    // Offset: 0x289B848
+    // Offset: 0x28A3BCC
     static void SetProjectFolder(::StringW folder);
     // static public System.String ExtractStackTrace()
-    // Offset: 0x289B924
+    // Offset: 0x28A3CA8
     static ::StringW ExtractStackTrace();
     // static System.Void ExtractStringFromExceptionInternal(System.Object exceptiono, out System.String message, out System.String stackTrace)
-    // Offset: 0x289C078
+    // Offset: 0x28A43FC
     static void ExtractStringFromExceptionInternal(::Il2CppObject* exceptiono, ByRef<::StringW> message, ByRef<::StringW> stackTrace);
     // static System.String ExtractFormattedStackTrace(System.Diagnostics.StackTrace stackTrace)
-    // Offset: 0x289BA74
+    // Offset: 0x28A3DF8
     static ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace);
   }; // UnityEngine.StackTraceUtility
   #pragma pack(pop)

@@ -175,58 +175,58 @@ namespace UnityEngine::EventSystems {
     // Set static field: static private readonly System.Collections.Generic.List`1<UnityEngine.Transform> s_InternalTransformList
     static void _set_s_InternalTransformList(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* value);
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerEnterHandler> get_pointerEnterHandler()
-    // Offset: 0x198542C
+    // Offset: 0x196C4A4
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerEnterHandler*>* get_pointerEnterHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerExitHandler> get_pointerExitHandler()
-    // Offset: 0x1985494
+    // Offset: 0x196C50C
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerExitHandler*>* get_pointerExitHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerDownHandler> get_pointerDownHandler()
-    // Offset: 0x19854FC
+    // Offset: 0x196C574
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerDownHandler*>* get_pointerDownHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerUpHandler> get_pointerUpHandler()
-    // Offset: 0x1985564
+    // Offset: 0x196C5DC
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerUpHandler*>* get_pointerUpHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IPointerClickHandler> get_pointerClickHandler()
-    // Offset: 0x19855CC
+    // Offset: 0x196C644
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IPointerClickHandler*>* get_pointerClickHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IInitializePotentialDragHandler> get_initializePotentialDrag()
-    // Offset: 0x1985634
+    // Offset: 0x196C6AC
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>* get_initializePotentialDrag();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IBeginDragHandler> get_beginDragHandler()
-    // Offset: 0x198569C
+    // Offset: 0x196C714
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* get_beginDragHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDragHandler> get_dragHandler()
-    // Offset: 0x1985704
+    // Offset: 0x196C77C
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDragHandler*>* get_dragHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IEndDragHandler> get_endDragHandler()
-    // Offset: 0x198576C
+    // Offset: 0x196C7E4
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IEndDragHandler*>* get_endDragHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDropHandler> get_dropHandler()
-    // Offset: 0x19857D4
+    // Offset: 0x196C84C
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDropHandler*>* get_dropHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IScrollHandler> get_scrollHandler()
-    // Offset: 0x198583C
+    // Offset: 0x196C8B4
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IScrollHandler*>* get_scrollHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IUpdateSelectedHandler> get_updateSelectedHandler()
-    // Offset: 0x19858A4
+    // Offset: 0x196C91C
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* get_updateSelectedHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISelectHandler> get_selectHandler()
-    // Offset: 0x198590C
+    // Offset: 0x196C984
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISelectHandler*>* get_selectHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IDeselectHandler> get_deselectHandler()
-    // Offset: 0x1985974
+    // Offset: 0x196C9EC
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IDeselectHandler*>* get_deselectHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.IMoveHandler> get_moveHandler()
-    // Offset: 0x19859DC
+    // Offset: 0x196CA54
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::IMoveHandler*>* get_moveHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ISubmitHandler> get_submitHandler()
-    // Offset: 0x1985A44
+    // Offset: 0x196CABC
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ISubmitHandler*>* get_submitHandler();
     // static public UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<UnityEngine.EventSystems.ICancelHandler> get_cancelHandler()
-    // Offset: 0x1985AAC
+    // Offset: 0x196CB24
     static ::UnityEngine::EventSystems::ExecuteEvents::EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* get_cancelHandler();
     // static private System.Void .cctor()
-    // Offset: 0x1985CC4
+    // Offset: 0x196CD3C
     static void _cctor();
     // static public T ValidateEventData(UnityEngine.EventSystems.BaseEventData data)
     // Offset: 0xFFFFFFFFFFFFFFFF
@@ -238,58 +238,58 @@ namespace UnityEngine::EventSystems {
       return ::il2cpp_utils::RunMethodRethrow<T, false>(static_cast<Il2CppObject*>(nullptr), ___generic__method, data);
     }
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984510
+    // Offset: 0x196B588
     static void Execute(::UnityEngine::EventSystems::IPointerEnterHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerExitHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984604
+    // Offset: 0x196B67C
     static void Execute(::UnityEngine::EventSystems::IPointerExitHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerDownHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x19846F8
+    // Offset: 0x196B770
     static void Execute(::UnityEngine::EventSystems::IPointerDownHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerUpHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x19847EC
+    // Offset: 0x196B864
     static void Execute(::UnityEngine::EventSystems::IPointerUpHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x19848E0
+    // Offset: 0x196B958
     static void Execute(::UnityEngine::EventSystems::IPointerClickHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IInitializePotentialDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x19849D4
+    // Offset: 0x196BA4C
     static void Execute(::UnityEngine::EventSystems::IInitializePotentialDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IBeginDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984AC8
+    // Offset: 0x196BB40
     static void Execute(::UnityEngine::EventSystems::IBeginDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984BBC
+    // Offset: 0x196BC34
     static void Execute(::UnityEngine::EventSystems::IDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984CB0
+    // Offset: 0x196BD28
     static void Execute(::UnityEngine::EventSystems::IEndDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IDropHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984DA4
+    // Offset: 0x196BE1C
     static void Execute(::UnityEngine::EventSystems::IDropHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IScrollHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984E98
+    // Offset: 0x196BF10
     static void Execute(::UnityEngine::EventSystems::IScrollHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IUpdateSelectedHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1984F8C
+    // Offset: 0x196C004
     static void Execute(::UnityEngine::EventSystems::IUpdateSelectedHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.ISelectHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1985048
+    // Offset: 0x196C0C0
     static void Execute(::UnityEngine::EventSystems::ISelectHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IDeselectHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1985104
+    // Offset: 0x196C17C
     static void Execute(::UnityEngine::EventSystems::IDeselectHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.IMoveHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x19851C0
+    // Offset: 0x196C238
     static void Execute(::UnityEngine::EventSystems::IMoveHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.ISubmitHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x19852B4
+    // Offset: 0x196C32C
     static void Execute(::UnityEngine::EventSystems::ISubmitHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void Execute(UnityEngine.EventSystems.ICancelHandler handler, UnityEngine.EventSystems.BaseEventData eventData)
-    // Offset: 0x1985370
+    // Offset: 0x196C3E8
     static void Execute(::UnityEngine::EventSystems::ICancelHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
     // static private System.Void GetEventChain(UnityEngine.GameObject root, System.Collections.Generic.IList`1<UnityEngine.Transform> eventChain)
-    // Offset: 0x1985B14
+    // Offset: 0x196CB8C
     static void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityEngine::Transform*>* eventChain);
     // static public System.Boolean Execute(UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents/UnityEngine.EventSystems.EventFunction`1<T> functor)
     // Offset: 0xFFFFFFFFFFFFFFFF

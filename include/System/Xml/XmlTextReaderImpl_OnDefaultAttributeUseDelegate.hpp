@@ -40,20 +40,20 @@ namespace System::Xml {
   class XmlTextReaderImpl::OnDefaultAttributeUseDelegate : public ::System::MulticastDelegate {
     public:
     // public System.Void .ctor(System.Object object, System.IntPtr method)
-    // Offset: 0x27EE92C
+    // Offset: 0x2799AF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlTextReaderImpl::OnDefaultAttributeUseDelegate* New_ctor(::Il2CppObject* object, ::System::IntPtr method) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlTextReaderImpl::OnDefaultAttributeUseDelegate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlTextReaderImpl::OnDefaultAttributeUseDelegate*, creationType>(object, method)));
     }
     // public System.Void Invoke(System.Xml.IDtdDefaultAttributeInfo defaultAttribute, System.Xml.XmlTextReaderImpl coreReader)
-    // Offset: 0x27EE93C
+    // Offset: 0x2799B00
     void Invoke(::System::Xml::IDtdDefaultAttributeInfo* defaultAttribute, ::System::Xml::XmlTextReaderImpl* coreReader);
     // public System.IAsyncResult BeginInvoke(System.Xml.IDtdDefaultAttributeInfo defaultAttribute, System.Xml.XmlTextReaderImpl coreReader, System.AsyncCallback callback, System.Object object)
-    // Offset: 0x27EED24
+    // Offset: 0x2799EE8
     ::System::IAsyncResult* BeginInvoke(::System::Xml::IDtdDefaultAttributeInfo* defaultAttribute, ::System::Xml::XmlTextReaderImpl* coreReader, ::System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
-    // Offset: 0x27EED54
+    // Offset: 0x2799F18
     void EndInvoke(::System::IAsyncResult* result);
   }; // System.Xml.XmlTextReaderImpl/System.Xml.OnDefaultAttributeUseDelegate
   #pragma pack(pop)

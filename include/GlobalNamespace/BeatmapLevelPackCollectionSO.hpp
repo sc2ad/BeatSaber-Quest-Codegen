@@ -79,26 +79,26 @@ namespace GlobalNamespace {
     // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
     [[deprecated("Use field access instead!")]] ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
     // public PreviewBeatmapLevelPackSO[] get_previewBeatmapLevelPack()
-    // Offset: 0x15681F0
+    // Offset: 0x153C93C
     ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*> get_previewBeatmapLevelPack();
     // public System.Void set_previewBeatmapLevelPack(PreviewBeatmapLevelPackSO[] value)
-    // Offset: 0x15681F8
+    // Offset: 0x153C944
     void set_previewBeatmapLevelPack(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*> value);
     // public IBeatmapLevelPack[] get_beatmapLevelPacks()
-    // Offset: 0x1568200
+    // Offset: 0x153C94C
     ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> get_beatmapLevelPacks();
     // public System.Void set_beatmapLevelPacks(IBeatmapLevelPack[] value)
-    // Offset: 0x1568384
+    // Offset: 0x153CAD0
     void set_beatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*> value);
     // public System.Void .ctor()
-    // Offset: 0x156838C
+    // Offset: 0x153CAD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapLevelPackCollectionSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BeatmapLevelPackCollectionSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapLevelPackCollectionSO*, creationType>()));
     }
     // private System.Void LoadAllBeatmapLevelPacks()
-    // Offset: 0x1568230
+    // Offset: 0x153C97C
     void LoadAllBeatmapLevelPacks();
   }; // BeatmapLevelPackCollectionSO
   #pragma pack(pop)

@@ -126,26 +126,26 @@ namespace System::Net {
     // Get instance field reference: private System.Net.ReadState _readState
     [[deprecated("Use field access instead!")]] ::System::Net::ReadState& dyn__readState();
     // public System.Net.HttpWebRequest get_request()
-    // Offset: 0x1BD4518
+    // Offset: 0x1B71550
     ::System::Net::HttpWebRequest* get_request();
     // public System.Void set_request(System.Net.HttpWebRequest value)
-    // Offset: 0x1BD4520
+    // Offset: 0x1B71558
     void set_request(::System::Net::HttpWebRequest* value);
     // public System.Net.ReadState get_ReadState()
-    // Offset: 0x1BD4528
+    // Offset: 0x1B71560
     ::System::Net::ReadState get_ReadState();
     // public System.Void set_ReadState(System.Net.ReadState value)
-    // Offset: 0x1BD112C
+    // Offset: 0x1B6E164
     void set_ReadState(::System::Net::ReadState value);
     // public System.Void .ctor()
-    // Offset: 0x1BCE09C
+    // Offset: 0x1B6B0D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionData* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebConnectionData*, creationType>()));
     }
     // public System.Void .ctor(System.Net.HttpWebRequest request)
-    // Offset: 0x1BD1D48
+    // Offset: 0x1B6ED80
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static WebConnectionData* New_ctor(::System::Net::HttpWebRequest* request) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Net::WebConnectionData::.ctor");

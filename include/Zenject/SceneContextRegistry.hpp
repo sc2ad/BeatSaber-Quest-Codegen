@@ -65,44 +65,44 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,Zenject.SceneContext> _map
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::Zenject::SceneContext*>*& dyn__map();
     // public System.Collections.Generic.IEnumerable`1<Zenject.SceneContext> get_SceneContexts()
-    // Offset: 0x1CD92CC
+    // Offset: 0x1CACB80
     ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* get_SceneContexts();
     // public System.Void .ctor()
-    // Offset: 0x1CDDCC4
+    // Offset: 0x1CB1578
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SceneContextRegistry* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::SceneContextRegistry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SceneContextRegistry*, creationType>()));
     }
     // public System.Void Add(Zenject.SceneContext context)
-    // Offset: 0x1CDD690
+    // Offset: 0x1CB0F44
     void Add(::Zenject::SceneContext* context);
     // public Zenject.SceneContext GetSceneContextForScene(System.String name)
-    // Offset: 0x1CDD764
+    // Offset: 0x1CB1018
     ::Zenject::SceneContext* GetSceneContextForScene(::StringW name);
     // public Zenject.SceneContext GetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1CDD818
+    // Offset: 0x1CB10CC
     ::Zenject::SceneContext* GetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
     // public Zenject.SceneContext TryGetSceneContextForScene(System.String name)
-    // Offset: 0x1CDD880
+    // Offset: 0x1CB1134
     ::Zenject::SceneContext* TryGetSceneContextForScene(::StringW name);
     // public Zenject.SceneContext TryGetSceneContextForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1CDD934
+    // Offset: 0x1CB11E8
     ::Zenject::SceneContext* TryGetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer GetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1CDD9B4
+    // Offset: 0x1CB1268
     ::Zenject::DiContainer* GetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
     // public Zenject.DiContainer TryGetContainerForScene(UnityEngine.SceneManagement.Scene scene)
-    // Offset: 0x1CDDA88
+    // Offset: 0x1CB133C
     ::Zenject::DiContainer* TryGetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
     // public System.Void Remove(Zenject.SceneContext context)
-    // Offset: 0x1CDDB88
+    // Offset: 0x1CB143C
     void Remove(::Zenject::SceneContext* context);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x1CDDD34
+    // Offset: 0x1CB15E8
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x1CDDD8C
+    // Offset: 0x1CB1640
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.SceneContextRegistry
   #pragma pack(pop)

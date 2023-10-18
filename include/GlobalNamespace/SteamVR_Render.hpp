@@ -177,86 +177,86 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single timeScale
     [[deprecated("Use field access instead!")]] float& dyn_timeScale();
     // static public Valve.VR.EVREye get_eye()
-    // Offset: 0x18F4280
+    // Offset: 0x18C3B5C
     static ::Valve::VR::EVREye get_eye();
     // static private System.Void set_eye(Valve.VR.EVREye value)
-    // Offset: 0x18F42D0
+    // Offset: 0x18C3BAC
     static void set_eye(::Valve::VR::EVREye value);
     // static public SteamVR_Render get_instance()
-    // Offset: 0x18E7414
+    // Offset: 0x18B6CF0
     static ::GlobalNamespace::SteamVR_Render* get_instance();
     // static public System.Boolean get_pauseRendering()
-    // Offset: 0x18F47EC
+    // Offset: 0x18C40C8
     static bool get_pauseRendering();
     // static public System.Void set_pauseRendering(System.Boolean value)
-    // Offset: 0x18F0130
+    // Offset: 0x18BFA0C
     static void set_pauseRendering(bool value);
     // public System.Void .ctor()
-    // Offset: 0x18F5850
+    // Offset: 0x18C512C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Render* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Render::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Render*, creationType>()));
     }
     // private System.Void OnDestroy()
-    // Offset: 0x18F4324
+    // Offset: 0x18C3C00
     void OnDestroy();
     // private System.Void OnApplicationQuit()
-    // Offset: 0x18F4374
+    // Offset: 0x18C3C50
     void OnApplicationQuit();
     // static public System.Void Add(SteamVR_Camera vrcam)
-    // Offset: 0x18E5DCC
+    // Offset: 0x18B56A8
     static void Add(::GlobalNamespace::SteamVR_Camera* vrcam);
     // static public System.Void Remove(SteamVR_Camera vrcam)
-    // Offset: 0x18E529C
+    // Offset: 0x18B4B78
     static void Remove(::GlobalNamespace::SteamVR_Camera* vrcam);
     // static public SteamVR_Camera Top()
-    // Offset: 0x18EEF08
+    // Offset: 0x18BE7E4
     static ::GlobalNamespace::SteamVR_Camera* Top();
     // private System.Void AddInternal(SteamVR_Camera vrcam)
-    // Offset: 0x18F43E8
+    // Offset: 0x18C3CC4
     void AddInternal(::GlobalNamespace::SteamVR_Camera* vrcam);
     // private System.Void RemoveInternal(SteamVR_Camera vrcam)
-    // Offset: 0x18F45EC
+    // Offset: 0x18C3EC8
     void RemoveInternal(::GlobalNamespace::SteamVR_Camera* vrcam);
     // private SteamVR_Camera TopInternal()
-    // Offset: 0x18F47A0
+    // Offset: 0x18C407C
     ::GlobalNamespace::SteamVR_Camera* TopInternal();
     // private System.Collections.IEnumerator RenderLoop()
-    // Offset: 0x18F483C
+    // Offset: 0x18C4118
     ::System::Collections::IEnumerator* RenderLoop();
     // private System.Void RenderExternalCamera()
-    // Offset: 0x18F48D8
+    // Offset: 0x18C41B4
     void RenderExternalCamera();
     // private System.Void OnInputFocus(System.Boolean hasFocus)
-    // Offset: 0x18F4A2C
+    // Offset: 0x18C4308
     void OnInputFocus(bool hasFocus);
     // private System.Void OnQuit(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x18F4A9C
+    // Offset: 0x18C4378
     void OnQuit(::Valve::VR::VREvent_t vrEvent);
     // private System.String GetScreenshotFilename(System.UInt32 screenshotHandle, Valve.VR.EVRScreenshotPropertyFilenames screenshotPropertyFilename)
-    // Offset: 0x18F4AA4
+    // Offset: 0x18C4380
     ::StringW GetScreenshotFilename(uint screenshotHandle, ::Valve::VR::EVRScreenshotPropertyFilenames screenshotPropertyFilename);
     // private System.Void OnRequestScreenshot(Valve.VR.VREvent_t vrEvent)
-    // Offset: 0x18F4BF0
+    // Offset: 0x18C44CC
     void OnRequestScreenshot(::Valve::VR::VREvent_t vrEvent);
     // private System.Void OnEnable()
-    // Offset: 0x18F4DD0
+    // Offset: 0x18C46AC
     void OnEnable();
     // private System.Void OnDisable()
-    // Offset: 0x18F504C
+    // Offset: 0x18C4928
     void OnDisable();
     // private System.Void Awake()
-    // Offset: 0x18F5204
+    // Offset: 0x18C4AE0
     void Awake();
     // public System.Void UpdatePoses()
-    // Offset: 0x18F5368
+    // Offset: 0x18C4C44
     void UpdatePoses();
     // private System.Void OnBeforeRender()
-    // Offset: 0x18F5448
+    // Offset: 0x18C4D24
     void OnBeforeRender();
     // private System.Void Update()
-    // Offset: 0x18F544C
+    // Offset: 0x18C4D28
     void Update();
   }; // SteamVR_Render
   #pragma pack(pop)

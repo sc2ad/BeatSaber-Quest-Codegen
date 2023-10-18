@@ -42,17 +42,17 @@ namespace System::ComponentModel {
   class DoubleConverter : public ::System::ComponentModel::BaseNumberConverter {
     public:
     // override System.Boolean get_AllowHex()
-    // Offset: 0x1E6200C
+    // Offset: 0x1E4F18C
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Boolean BaseNumberConverter::get_AllowHex()
     bool get_AllowHex();
     // override System.Type get_TargetType()
-    // Offset: 0x1E62014
+    // Offset: 0x1E4F194
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Type BaseNumberConverter::get_TargetType()
     ::System::Type* get_TargetType();
     // public System.Void .ctor()
-    // Offset: 0x1E6227C
+    // Offset: 0x1E4F3FC
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -62,17 +62,17 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<DoubleConverter*, creationType>()));
     }
     // override System.Object FromString(System.String value, System.Int32 radix)
-    // Offset: 0x1E62084
+    // Offset: 0x1E4F204
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Int32 radix)
     ::Il2CppObject* FromString(::StringW value, int radix);
     // override System.Object FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1E62144
+    // Offset: 0x1E4F2C4
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
     ::Il2CppObject* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // override System.String ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1E621D4
+    // Offset: 0x1E4F354
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.String BaseNumberConverter::ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
     ::StringW ToString(::Il2CppObject* value, ::System::Globalization::NumberFormatInfo* formatInfo);

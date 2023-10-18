@@ -84,17 +84,17 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__8
     [[deprecated("Use field access instead!")]] ::System::Func_2<int, int>*& dyn_$$9__8();
     // public System.Void .ctor()
-    // Offset: 0x1A791D4
+    // Offset: 0x1A73C0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Bevel::$$c__DisplayClass0_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bevel::$$c__DisplayClass0_0*, creationType>()));
     }
     // System.Int32 <BevelEdges>b__7(System.Int32 x)
-    // Offset: 0x1A79F14
+    // Offset: 0x1A7494C
     int $BevelEdges$b__7(int x);
     // System.Int32 <BevelEdges>b__8(System.Int32 x)
-    // Offset: 0x1A79F5C
+    // Offset: 0x1A74994
     int $BevelEdges$b__8(int x);
   }; // UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0
   #pragma pack(pop)

@@ -77,14 +77,14 @@ namespace OnlineServices {
     // Get instance field reference: public readonly GameplayModifiers gameplayModifiers
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameplayModifiers*& dyn_gameplayModifiers();
     // public System.Void .ctor(System.Int32 score, System.Int32 rank, System.String displayName, System.String playerId, GameplayModifiers gameplayModifiers)
-    // Offset: 0x138AABC
+    // Offset: 0x134DAB4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LeaderboardEntryData* New_ctor(int score, int rank, ::StringW displayName, ::StringW playerId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
       static auto ___internal__logger = ::Logger::get().WithContext("::OnlineServices::LeaderboardEntryData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntryData*, creationType>(score, rank, displayName, playerId, gameplayModifiers)));
     }
     // public override System.String ToString()
-    // Offset: 0x138AB10
+    // Offset: 0x134DB08
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

@@ -67,14 +67,14 @@ namespace HMUI {
     // Get instance field reference: public System.Single[] endPositions
     [[deprecated("Use field access instead!")]] ::ArrayW<float>& dyn_endPositions();
     // public System.Void .ctor()
-    // Offset: 0x1704604
+    // Offset: 0x16EFF98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NavigationController::$$c__DisplayClass8_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HMUI::NavigationController::$$c__DisplayClass8_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NavigationController::$$c__DisplayClass8_0*, creationType>()));
     }
     // System.Void <PushViewController>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers)
-    // Offset: 0x1704AA0
+    // Offset: 0x16F0434
     void $PushViewController$g__AnimationLayouter_0(float t, ::ArrayW<::HMUI::ViewController*> viewControllers);
   }; // HMUI.NavigationController/HMUI.<>c__DisplayClass8_0
   #pragma pack(pop)

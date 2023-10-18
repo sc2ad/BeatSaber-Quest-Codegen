@@ -38,7 +38,7 @@ namespace GlobalNamespace {
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
     public:
-    // [InjectAttribute] Offset: 0x1127138
+    // [InjectAttribute] Offset: 0x1123F0C
     // private GameEnergyCounter _energyCounter
     // Size: 0x8
     // Offset: 0x48
@@ -49,16 +49,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private GameEnergyCounter _energyCounter
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::GameEnergyCounter*& dyn__energyCounter();
     // protected System.Void OnDestroy()
-    // Offset: 0x13BEB84
+    // Offset: 0x13FFAE8
     void OnDestroy();
     // private System.Void HandleEnergyDidChange(System.Single energy)
-    // Offset: 0x13BEC5C
+    // Offset: 0x13FFBC0
     void HandleEnergyDidChange(float energy);
     // private System.Void CheckAndUpdateStatus()
-    // Offset: 0x13BECAC
+    // Offset: 0x13FFC10
     void CheckAndUpdateStatus();
     // public System.Void .ctor()
-    // Offset: 0x13BEE40
+    // Offset: 0x13FFDA4
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -67,7 +67,7 @@ namespace GlobalNamespace {
       return THROW_UNLESS((::il2cpp_utils::New<EnergyMissionObjectiveChecker*, creationType>()));
     }
     // protected override System.Void Init()
-    // Offset: 0x13BED28
+    // Offset: 0x13FFC8C
     // Implemented from: MissionObjectiveChecker
     // Base method: System.Void MissionObjectiveChecker::Init()
     void Init();

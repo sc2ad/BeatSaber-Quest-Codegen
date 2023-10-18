@@ -68,32 +68,32 @@ namespace UnityEngine::UI {
     // Set static field: static public UnityEngine.Events.UnityAction`1<UnityEngine.Component> <>9__12_3
     static void _set_$$9__12_3(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x1F53F6C
+    // Offset: 0x1F5BEC0
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x1F53FD0
+    // Offset: 0x1F5BF24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LayoutRebuilder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::UnityEngine::UI::LayoutRebuilder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LayoutRebuilder::$$c*, creationType>()));
     }
     // System.Void <.cctor>b__5_0(UnityEngine.UI.LayoutRebuilder x)
-    // Offset: 0x1F53FD8
+    // Offset: 0x1F5BF2C
     void $_cctor$b__5_0(::UnityEngine::UI::LayoutRebuilder* x);
     // System.Boolean <StripDisabledBehavioursFromList>b__10_0(UnityEngine.Component e)
-    // Offset: 0x1F53FF4
+    // Offset: 0x1F5BF48
     bool $StripDisabledBehavioursFromList$b__10_0(::UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_0(UnityEngine.Component e)
-    // Offset: 0x1F54088
+    // Offset: 0x1F5BFDC
     void $Rebuild$b__12_0(::UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_1(UnityEngine.Component e)
-    // Offset: 0x1F54154
+    // Offset: 0x1F5C0A8
     void $Rebuild$b__12_1(::UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_2(UnityEngine.Component e)
-    // Offset: 0x1F54220
+    // Offset: 0x1F5C174
     void $Rebuild$b__12_2(::UnityEngine::Component* e);
     // System.Void <Rebuild>b__12_3(UnityEngine.Component e)
-    // Offset: 0x1F542F0
+    // Offset: 0x1F5C244
     void $Rebuild$b__12_3(::UnityEngine::Component* e);
   }; // UnityEngine.UI.LayoutRebuilder/UnityEngine.UI.<>c
   #pragma pack(pop)

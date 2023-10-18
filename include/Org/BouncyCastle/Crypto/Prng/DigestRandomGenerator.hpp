@@ -87,38 +87,38 @@ namespace Org::BouncyCastle::Crypto::Prng {
     // Get instance field reference: private System.Byte[] seed
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_seed();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
-    // Offset: 0x167C230
+    // Offset: 0x168F3F0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestRandomGenerator*, creationType>(digest)));
     }
     // public System.Void AddSeedMaterial(System.Byte[] inSeed)
-    // Offset: 0x167C3A4
+    // Offset: 0x168F564
     void AddSeedMaterial(::ArrayW<uint8_t> inSeed);
     // public System.Void AddSeedMaterial(System.Int64 rSeed)
-    // Offset: 0x167C5DC
+    // Offset: 0x168F79C
     void AddSeedMaterial(int64_t rSeed);
     // public System.Void NextBytes(System.Byte[] bytes)
-    // Offset: 0x167C780
+    // Offset: 0x168F940
     void NextBytes(::ArrayW<uint8_t> bytes);
     // public System.Void NextBytes(System.Byte[] bytes, System.Int32 start, System.Int32 len)
-    // Offset: 0x167C79C
+    // Offset: 0x168F95C
     void NextBytes(::ArrayW<uint8_t> bytes, int start, int len);
     // private System.Void CycleSeed()
-    // Offset: 0x167C97C
+    // Offset: 0x168FB3C
     void CycleSeed();
     // private System.Void GenerateState()
-    // Offset: 0x167C8F8
+    // Offset: 0x168FAB8
     void GenerateState();
     // private System.Void DigestAddCounter(System.Int64 seedVal)
-    // Offset: 0x167C678
+    // Offset: 0x168F838
     void DigestAddCounter(int64_t seedVal);
     // private System.Void DigestUpdate(System.Byte[] inSeed)
-    // Offset: 0x167C440
+    // Offset: 0x168F600
     void DigestUpdate(::ArrayW<uint8_t> inSeed);
     // private System.Void DigestDoFinal(System.Byte[] result)
-    // Offset: 0x167C514
+    // Offset: 0x168F6D4
     void DigestDoFinal(::ArrayW<uint8_t> result);
   }; // Org.BouncyCastle.Crypto.Prng.DigestRandomGenerator
   #pragma pack(pop)

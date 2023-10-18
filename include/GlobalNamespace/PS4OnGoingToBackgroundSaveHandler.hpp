@@ -52,7 +52,7 @@ namespace GlobalNamespace {
     ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::MainSettingsModelSO*) == 0x8);
-    // [InjectAttribute] Offset: 0x11210C0
+    // [InjectAttribute] Offset: 0x111DCD4
     // private PlayerDataModel _playerDataModel
     // Size: 0x8
     // Offset: 0x28
@@ -69,20 +69,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private PlayerDataModel _playerDataModel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // public System.Void .ctor()
-    // Offset: 0x138FB20
+    // Offset: 0x1352B18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4OnGoingToBackgroundSaveHandler* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4OnGoingToBackgroundSaveHandler::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4OnGoingToBackgroundSaveHandler*, creationType>()));
     }
     // protected System.Void OnEnable()
-    // Offset: 0x138F8F4
+    // Offset: 0x13528EC
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x138F9DC
+    // Offset: 0x13529D4
     void OnDisable();
     // private System.Void HandlePS4HelperDidGoToBackgroundExecution()
-    // Offset: 0x138FAD4
+    // Offset: 0x1352ACC
     void HandlePS4HelperDidGoToBackgroundExecution();
   }; // PS4OnGoingToBackgroundSaveHandler
   #pragma pack(pop)

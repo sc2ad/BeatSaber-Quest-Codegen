@@ -50,23 +50,23 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private Mono.Security.Interface.AlertDescription description
     [[deprecated("Use field access instead!")]] ::Mono::Security::Interface::AlertDescription& dyn_description();
     // public Mono.Security.Interface.AlertLevel get_Level()
-    // Offset: 0x23D1130
+    // Offset: 0x23C856C
     ::Mono::Security::Interface::AlertLevel get_Level();
     // public Mono.Security.Interface.AlertDescription get_Description()
-    // Offset: 0x23D1138
+    // Offset: 0x23C8574
     ::Mono::Security::Interface::AlertDescription get_Description();
     // public System.Void .ctor(Mono.Security.Interface.AlertDescription description)
-    // Offset: 0x23D1140
+    // Offset: 0x23C857C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Alert* New_ctor(::Mono::Security::Interface::AlertDescription description) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Security::Interface::Alert::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Alert*, creationType>(description)));
     }
     // private System.Void inferAlertLevel()
-    // Offset: 0x23D11B8
+    // Offset: 0x23C85F4
     void inferAlertLevel();
     // public override System.String ToString()
-    // Offset: 0x23D11F8
+    // Offset: 0x23C8634
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

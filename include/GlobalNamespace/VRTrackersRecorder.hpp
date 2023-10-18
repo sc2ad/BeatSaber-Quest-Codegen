@@ -197,35 +197,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Quaternion _loadedOriginRot
     [[deprecated("Use field access instead!")]] ::UnityEngine::Quaternion& dyn__loadedOriginRot();
     // public System.Void .ctor()
-    // Offset: 0x153FA00
+    // Offset: 0x15E8F60
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static VRTrackersRecorder* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::VRTrackersRecorder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRTrackersRecorder*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x153E930
+    // Offset: 0x15E7E90
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x153EFAC
+    // Offset: 0x15E850C
     void OnDestroy();
     // protected System.Void OnEnable()
-    // Offset: 0x153F2E0
+    // Offset: 0x15E8840
     void OnEnable();
     // protected System.Void OnDisable()
-    // Offset: 0x153F304
+    // Offset: 0x15E8864
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
-    // Offset: 0x153F328
+    // Offset: 0x15E8888
     void OnNewPoses(::ArrayW<::Valve::VR::TrackedDevicePose_t> poses);
     // protected System.Void Update()
-    // Offset: 0x153F59C
+    // Offset: 0x15E8AFC
     void Update();
     // private System.Void Save()
-    // Offset: 0x153EFBC
+    // Offset: 0x15E851C
     void Save();
     // private System.Void Load()
-    // Offset: 0x153EAC8
+    // Offset: 0x15E8028
     void Load();
   }; // VRTrackersRecorder
   #pragma pack(pop)

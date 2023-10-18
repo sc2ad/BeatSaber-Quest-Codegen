@@ -52,40 +52,40 @@ namespace UnityEngine::ProBuilder {
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,UnityEngine.ProBuilder.CIELabColor> ColorNameLookup
     static void _set_ColorNameLookup(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::ProBuilder::CIELabColor*>* value);
     // static private System.Void .cctor()
-    // Offset: 0x25E6F08
+    // Offset: 0x2619B4C
     static void _cctor();
     // static private System.Boolean approx(System.Single lhs, System.Single rhs)
-    // Offset: 0x25E644C
+    // Offset: 0x2619090
     static bool approx(float lhs, float rhs);
     // static public UnityEngine.Color GetColor(UnityEngine.Vector3 vec)
-    // Offset: 0x25E64D0
+    // Offset: 0x2619114
     static ::UnityEngine::Color GetColor(::UnityEngine::Vector3 vec);
     // static public UnityEngine.ProBuilder.XYZColor RGBToXYZ(UnityEngine.Color col)
-    // Offset: 0x25E6580
+    // Offset: 0x26191C4
     static ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(::UnityEngine::Color col);
     // static public UnityEngine.ProBuilder.XYZColor RGBToXYZ(System.Single r, System.Single g, System.Single b)
-    // Offset: 0x25E6604
+    // Offset: 0x2619248
     static ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(float r, float g, float b);
     // static public UnityEngine.ProBuilder.CIELabColor XYZToCIE_Lab(UnityEngine.ProBuilder.XYZColor xyz)
-    // Offset: 0x25E4FB4
+    // Offset: 0x2617BF8
     static ::UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(::UnityEngine::ProBuilder::XYZColor* xyz);
     // static public System.Single DeltaE(UnityEngine.ProBuilder.CIELabColor lhs, UnityEngine.ProBuilder.CIELabColor rhs)
-    // Offset: 0x25E6848
+    // Offset: 0x261948C
     static float DeltaE(::UnityEngine::ProBuilder::CIELabColor* lhs, ::UnityEngine::ProBuilder::CIELabColor* rhs);
     // static public UnityEngine.Color HSVtoRGB(UnityEngine.ProBuilder.HSVColor hsv)
-    // Offset: 0x25E6918
+    // Offset: 0x261955C
     static ::UnityEngine::Color HSVtoRGB(::UnityEngine::ProBuilder::HSVColor* hsv);
     // static public UnityEngine.Color HSVtoRGB(System.Single h, System.Single s, System.Single v)
-    // Offset: 0x25E69A4
+    // Offset: 0x26195E8
     static ::UnityEngine::Color HSVtoRGB(float h, float s, float v);
     // static public UnityEngine.ProBuilder.HSVColor RGBtoHSV(UnityEngine.Color color)
-    // Offset: 0x25E6B28
+    // Offset: 0x261976C
     static ::UnityEngine::ProBuilder::HSVColor* RGBtoHSV(::UnityEngine::Color color);
     // static public System.String GetColorName(UnityEngine.Color InColor)
-    // Offset: 0x25E6D00
+    // Offset: 0x2619944
     static ::StringW GetColorName(::UnityEngine::Color InColor);
     // static private UnityEngine.ProBuilder.CIELabColor CIELabFromRGB(System.Single R, System.Single G, System.Single B, System.Single Scale)
-    // Offset: 0x25E6EDC
+    // Offset: 0x2619B20
     static ::UnityEngine::ProBuilder::CIELabColor* CIELabFromRGB(float R, float G, float B, float Scale);
   }; // UnityEngine.ProBuilder.ColorUtility
   #pragma pack(pop)

@@ -42,31 +42,31 @@ namespace GlobalNamespace {
     static ::StringW _get_kDepthOnlyShaderName();
     // Set static field: static private System.String kDepthOnlyShaderName
     static void _set_kDepthOnlyShaderName(::StringW value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1132F68
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112FF4C
     // Get static field: static private readonly System.Int32 _zWritePropertyId
     static int _get__zWritePropertyId();
     // Set static field: static private readonly System.Int32 _zWritePropertyId
     static void _set__zWritePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1132F78
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112FF5C
     // Get static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static int _get__stencilRefValuePropertyId();
     // Set static field: static private readonly System.Int32 _stencilRefValuePropertyId
     static void _set__stencilRefValuePropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1132F88
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112FF6C
     // Get static field: static private readonly System.Int32 _stencilCompPropertyId
     static int _get__stencilCompPropertyId();
     // Set static field: static private readonly System.Int32 _stencilCompPropertyId
     static void _set__stencilCompPropertyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1132F98
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x112FF7C
     // Get static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static int _get__stencilPassOpPropertyId();
     // Set static field: static private readonly System.Int32 _stencilPassOpPropertyId
     static void _set__stencilPassOpPropertyId(int value);
     // static private System.Void .cctor()
-    // Offset: 0x13D63E4
+    // Offset: 0x13BDE64
     static void _cctor();
     // static public System.Void ValidateLoadedEnvironmentScene(System.Boolean validateBakedGIEnabled)
-    // Offset: 0x13D5CB4
+    // Offset: 0x13BD734
     static void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
   }; // BakedLightUtils
   #pragma pack(pop)

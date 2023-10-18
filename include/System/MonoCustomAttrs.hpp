@@ -73,55 +73,55 @@ namespace System {
     // Set static field: static private readonly System.AttributeUsageAttribute DefaultAttributeUsage
     static void _set_DefaultAttributeUsage(::System::AttributeUsageAttribute* value);
     // static private System.Void .cctor()
-    // Offset: 0x1C5E5C0
+    // Offset: 0x1C2AC94
     static void _cctor();
     // static private System.Boolean IsUserCattrProvider(System.Object obj)
-    // Offset: 0x1C5C4F0
+    // Offset: 0x1C28BC4
     static bool IsUserCattrProvider(::Il2CppObject* obj);
     // static System.Object[] GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean pseudoAttrs)
-    // Offset: 0x1C5C6D0
+    // Offset: 0x1C28DA4
     static ::ArrayW<::Il2CppObject*> GetCustomAttributesInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool pseudoAttrs);
     // static System.Object[] GetPseudoCustomAttributes(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType)
-    // Offset: 0x1C5C6D8
+    // Offset: 0x1C28DAC
     static ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType);
     // static private System.Object[] GetPseudoCustomAttributes(System.Type type)
-    // Offset: 0x1C5C9C0
+    // Offset: 0x1C29094
     static ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes(::System::Type* type);
     // static System.Object[] GetCustomAttributesBase(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly)
-    // Offset: 0x1C5CB20
+    // Offset: 0x1C291F4
     static ::ArrayW<::Il2CppObject*> GetCustomAttributesBase(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inheritedOnly);
     // static System.Object[] GetCustomAttributes(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1C5CCD8
+    // Offset: 0x1C293AC
     static ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inherit);
     // static System.Object[] GetCustomAttributes(System.Reflection.ICustomAttributeProvider obj, System.Boolean inherit)
-    // Offset: 0x1C5D9F0
+    // Offset: 0x1C2A0C4
     static ::ArrayW<::Il2CppObject*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, bool inherit);
     // static private System.Reflection.CustomAttributeData[] GetCustomAttributesDataInternal(System.Reflection.ICustomAttributeProvider obj)
-    // Offset: 0x1C5DB68
+    // Offset: 0x1C2A23C
     static ::ArrayW<::System::Reflection::CustomAttributeData*> GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider* obj);
     // static System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData(System.Reflection.ICustomAttributeProvider obj)
-    // Offset: 0x1C5DB6C
+    // Offset: 0x1C2A240
     static ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj);
     // static System.Boolean IsDefined(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit)
-    // Offset: 0x1C5DC20
+    // Offset: 0x1C2A2F4
     static bool IsDefined(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inherit);
     // static System.Boolean IsDefinedInternal(System.Reflection.ICustomAttributeProvider obj, System.Type AttributeType)
-    // Offset: 0x1C5DEDC
+    // Offset: 0x1C2A5B0
     static bool IsDefinedInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* AttributeType);
     // static private System.Reflection.PropertyInfo GetBasePropertyDefinition(System.Reflection.MonoProperty property)
-    // Offset: 0x1C5DEE0
+    // Offset: 0x1C2A5B4
     static ::System::Reflection::PropertyInfo* GetBasePropertyDefinition(::System::Reflection::MonoProperty* property);
     // static private System.Reflection.EventInfo GetBaseEventDefinition(System.Reflection.MonoEvent evt)
-    // Offset: 0x1C5E19C
+    // Offset: 0x1C2A870
     static ::System::Reflection::EventInfo* GetBaseEventDefinition(::System::Reflection::MonoEvent* evt);
     // static private System.Reflection.ICustomAttributeProvider GetBase(System.Reflection.ICustomAttributeProvider obj)
-    // Offset: 0x1C5D624
+    // Offset: 0x1C29CF8
     static ::System::Reflection::ICustomAttributeProvider* GetBase(::System::Reflection::ICustomAttributeProvider* obj);
     // static private System.AttributeUsageAttribute RetrieveAttributeUsageNoCache(System.Type attributeType)
-    // Offset: 0x1C5E364
+    // Offset: 0x1C2AA38
     static ::System::AttributeUsageAttribute* RetrieveAttributeUsageNoCache(::System::Type* attributeType);
     // static private System.AttributeUsageAttribute RetrieveAttributeUsage(System.Type attributeType)
-    // Offset: 0x1C5D854
+    // Offset: 0x1C29F28
     static ::System::AttributeUsageAttribute* RetrieveAttributeUsage(::System::Type* attributeType);
   }; // System.MonoCustomAttrs
   #pragma pack(pop)

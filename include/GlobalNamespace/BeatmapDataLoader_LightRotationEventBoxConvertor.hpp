@@ -38,10 +38,10 @@ namespace GlobalNamespace {
   class BeatmapDataLoader::LightRotationEventBoxConvertor : public ::GlobalNamespace::DataItemConvertor_4<::GlobalNamespace::BeatmapEventDataBox*, ::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationEventBox*, ::GlobalNamespace::LightRotationBeatmapEventDataBox*, ::GlobalNamespace::LightGroupSO*> {
     public:
     // protected LightRotationBeatmapEventDataBox Convert(BeatmapSaveDataVersion3.BeatmapSaveData/BeatmapSaveDataVersion3.LightRotationEventBox saveData, LightGroupSO lightGroupData)
-    // Offset: 0x13E4508
+    // Offset: 0x13CC0D0
     ::GlobalNamespace::LightRotationBeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::BeatmapSaveData::LightRotationEventBox* saveData, ::GlobalNamespace::LightGroupSO* lightGroupData);
     // public System.Void .ctor()
-    // Offset: 0x13E3C84
+    // Offset: 0x13CB84C
     // Implemented from: DataItemConvertor`4
     // Base method: System.Void DataItemConvertor_4::.ctor()
     // Base method: System.Void DataItemConvertor_2::.ctor()

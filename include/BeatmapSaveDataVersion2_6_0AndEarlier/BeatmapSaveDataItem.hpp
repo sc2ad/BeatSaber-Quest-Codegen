@@ -40,14 +40,14 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
     // Offset: 0xFFFFFFFFFFFFFFFF
     float get_time();
     // protected System.Void .ctor()
-    // Offset: 0x2700058
+    // Offset: 0x26B2CBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BeatmapSaveDataItem* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BeatmapSaveDataItem*, creationType>()));
     }
     // public System.Int32 CompareTo(BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem other)
-    // Offset: 0x2700358
+    // Offset: 0x26B2FBC
     int CompareTo(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* other);
   }; // BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem
   #pragma pack(pop)

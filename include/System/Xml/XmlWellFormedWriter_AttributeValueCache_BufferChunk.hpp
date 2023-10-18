@@ -51,7 +51,7 @@ namespace System::Xml {
     // Get instance field reference: System.Int32 count
     [[deprecated("Use field access instead!")]] int& dyn_count();
     // System.Void .ctor(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    // Offset: 0x27FAC84
+    // Offset: 0x27A5E48
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlWellFormedWriter::AttributeValueCache::BufferChunk* New_ctor(::ArrayW<::Il2CppChar> buffer, int index, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::.ctor");

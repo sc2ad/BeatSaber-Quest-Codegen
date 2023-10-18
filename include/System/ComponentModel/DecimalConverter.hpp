@@ -49,17 +49,17 @@ namespace System::ComponentModel {
   class DecimalConverter : public ::System::ComponentModel::BaseNumberConverter {
     public:
     // override System.Boolean get_AllowHex()
-    // Offset: 0x1E5FC88
+    // Offset: 0x1E4CE08
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Boolean BaseNumberConverter::get_AllowHex()
     bool get_AllowHex();
     // override System.Type get_TargetType()
-    // Offset: 0x1E5FC90
+    // Offset: 0x1E4CE10
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Type BaseNumberConverter::get_TargetType()
     ::System::Type* get_TargetType();
     // public System.Void .ctor()
-    // Offset: 0x1E602D0
+    // Offset: 0x1E4D450
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Void BaseNumberConverter::.ctor()
     // Base method: System.Void TypeConverter::.ctor()
@@ -69,27 +69,27 @@ namespace System::ComponentModel {
       return THROW_UNLESS((::il2cpp_utils::New<DecimalConverter*, creationType>()));
     }
     // public override System.Boolean CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
-    // Offset: 0x1E5FD00
+    // Offset: 0x1E4CE80
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Boolean BaseNumberConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Type destinationType)
     bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
     // public override System.Object ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
-    // Offset: 0x1E5FDBC
+    // Offset: 0x1E4CF3C
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, System.Object value, System.Type destinationType)
     ::Il2CppObject* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::Il2CppObject* value, ::System::Type* destinationType);
     // override System.Object FromString(System.String value, System.Int32 radix)
-    // Offset: 0x1E600C0
+    // Offset: 0x1E4D240
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Int32 radix)
     ::Il2CppObject* FromString(::StringW value, int radix);
     // override System.Object FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1E60184
+    // Offset: 0x1E4D304
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.Object BaseNumberConverter::FromString(System.String value, System.Globalization.NumberFormatInfo formatInfo)
     ::Il2CppObject* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
     // override System.String ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
-    // Offset: 0x1E60220
+    // Offset: 0x1E4D3A0
     // Implemented from: System.ComponentModel.BaseNumberConverter
     // Base method: System.String BaseNumberConverter::ToString(System.Object value, System.Globalization.NumberFormatInfo formatInfo)
     ::StringW ToString(::Il2CppObject* value, ::System::Globalization::NumberFormatInfo* formatInfo);

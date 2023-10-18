@@ -92,33 +92,33 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _maxLength
     [[deprecated("Use field access instead!")]] int& dyn__maxLength();
     // public System.Byte[] get_data()
-    // Offset: 0x1616870
+    // Offset: 0x16119A4
     ::ArrayW<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
-    // Offset: 0x1610BCC
+    // Offset: 0x160BCC8
     void set_data(::ArrayW<uint8_t> value);
     // public System.Void .ctor(System.String name, System.Int32 minLength, System.Int32 maxLength, System.Boolean allowNull)
-    // Offset: 0x16114A8
+    // Offset: 0x160C5A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::StringW name, int minLength, int maxLength, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, minLength, maxLength, allowNull)));
     }
     // public System.Void .ctor(System.String name, System.Int32 size, System.Boolean allowNull)
-    // Offset: 0x1611300
+    // Offset: 0x160C3FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ByteArrayNetSerializable* New_ctor(::StringW name, int size, bool allowNull) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::ByteArrayNetSerializable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ByteArrayNetSerializable*, creationType>(name, size, allowNull)));
     }
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x1610E30
+    // Offset: 0x160BF2C
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x1610FA8
+    // Offset: 0x160C0A4
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public System.Void Clear()
-    // Offset: 0x1611234
+    // Offset: 0x160C330
     void Clear();
   }; // ByteArrayNetSerializable
   #pragma pack(pop)

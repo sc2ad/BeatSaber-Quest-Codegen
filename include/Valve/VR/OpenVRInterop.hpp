@@ -42,35 +42,35 @@ namespace Valve::VR {
   class OpenVRInterop : public ::Il2CppObject {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2B55BA4
+    // Offset: 0x2B659EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OpenVRInterop* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Valve::VR::OpenVRInterop::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OpenVRInterop*, creationType>()));
     }
     // static System.UInt32 InitInternal(ref Valve.VR.EVRInitError peError, Valve.VR.EVRApplicationType eApplicationType)
-    // Offset: 0x2B5581C
+    // Offset: 0x2B65664
     static uint InitInternal(ByRef<::Valve::VR::EVRInitError> peError, ::Valve::VR::EVRApplicationType eApplicationType);
     // static System.Void ShutdownInternal()
-    // Offset: 0x2B558AC
+    // Offset: 0x2B656F4
     static void ShutdownInternal();
     // static System.Boolean IsHmdPresent()
-    // Offset: 0x2B5591C
+    // Offset: 0x2B65764
     static bool IsHmdPresent();
     // static System.Boolean IsRuntimeInstalled()
-    // Offset: 0x2B55998
+    // Offset: 0x2B657E0
     static bool IsRuntimeInstalled();
     // static System.IntPtr GetStringForHmdError(Valve.VR.EVRInitError error)
-    // Offset: 0x2B55A14
+    // Offset: 0x2B6585C
     static ::System::IntPtr GetStringForHmdError(::Valve::VR::EVRInitError error);
     // static System.IntPtr GetGenericInterface(in System.String pchInterfaceVersion, ref Valve.VR.EVRInitError peError)
-    // Offset: 0x2B54FF4
+    // Offset: 0x2B64E3C
     static ::System::IntPtr GetGenericInterface(ByRef<::StringW> pchInterfaceVersion, ByRef<::Valve::VR::EVRInitError> peError);
     // static System.Boolean IsInterfaceVersionValid(in System.String pchInterfaceVersion)
-    // Offset: 0x2B55A94
+    // Offset: 0x2B658DC
     static bool IsInterfaceVersionValid(ByRef<::StringW> pchInterfaceVersion);
     // static System.UInt32 GetInitToken()
-    // Offset: 0x2B55B30
+    // Offset: 0x2B65978
     static uint GetInitToken();
   }; // Valve.VR.OpenVRInterop
   #pragma pack(pop)

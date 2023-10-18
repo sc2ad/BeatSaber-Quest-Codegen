@@ -29,10 +29,10 @@ namespace GlobalNamespace {
   class NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
     // public System.Void Init()
-    // Offset: 0x162DDDC
+    // Offset: 0x16419DC
     void Init();
     // public System.Void .ctor()
-    // Offset: 0x162DDE8
+    // Offset: 0x16419E8
     // Implemented from: SingleFixedSceneScenesTransitionSetupDataSO
     // Base method: System.Void SingleFixedSceneScenesTransitionSetupDataSO::.ctor()
     // Base method: System.Void ScenesTransitionSetupDataSO::.ctor()

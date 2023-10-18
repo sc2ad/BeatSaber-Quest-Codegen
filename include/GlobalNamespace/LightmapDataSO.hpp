@@ -56,19 +56,19 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Texture2D _lightmap2
     [[deprecated("Use field access instead!")]] ::UnityEngine::Texture2D*& dyn__lightmap2();
     // public UnityEngine.Texture2D get_lightmap1()
-    // Offset: 0x1585BDC
+    // Offset: 0x15168A0
     ::UnityEngine::Texture2D* get_lightmap1();
     // public System.Void set_lightmap1(UnityEngine.Texture2D value)
-    // Offset: 0x1585BE4
+    // Offset: 0x15168A8
     void set_lightmap1(::UnityEngine::Texture2D* value);
     // public UnityEngine.Texture2D get_lightmap2()
-    // Offset: 0x1585BEC
+    // Offset: 0x15168B0
     ::UnityEngine::Texture2D* get_lightmap2();
     // public System.Void set_lightmap2(UnityEngine.Texture2D value)
-    // Offset: 0x1585BF4
+    // Offset: 0x15168B8
     void set_lightmap2(::UnityEngine::Texture2D* value);
     // public System.Void .ctor()
-    // Offset: 0x1585BFC
+    // Offset: 0x15168C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LightmapDataSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LightmapDataSO::.ctor");

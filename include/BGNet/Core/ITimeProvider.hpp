@@ -6,18 +6,6 @@
 #include <stdint.h>
 #include "beatsaber-hook/shared/utils/byref.hpp"
 // Completed includes
-// Begin forward declares
-// Forward declaring namespace: System::Threading::Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: Task
-  class Task;
-}
-// Forward declaring namespace: System::Threading
-namespace System::Threading {
-  // Forward declaring type: CancellationToken
-  struct CancellationToken;
-}
-// Completed forward declares
 // Type namespace: BGNet.Core
 namespace BGNet::Core {
   // Forward declaring type: ITimeProvider
@@ -37,9 +25,9 @@ namespace BGNet::Core {
     // public System.Int64 GetTimeMs()
     // Offset: 0xFFFFFFFFFFFFFFFF
     int64_t GetTimeMs();
-    // public System.Threading.Tasks.Task DelayMs(System.Int32 millis, System.Threading.CancellationToken cancellationToken)
+    // public System.Int64 GetTicks()
     // Offset: 0xFFFFFFFFFFFFFFFF
-    ::System::Threading::Tasks::Task* DelayMs(int millis, ::System::Threading::CancellationToken cancellationToken);
+    int64_t GetTicks();
   }; // BGNet.Core.ITimeProvider
   #pragma pack(pop)
 }
@@ -52,13 +40,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (BG
     return ::il2cpp_utils::FindMethod(classof(BGNet::Core::ITimeProvider*), "GetTimeMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BGNet::Core::ITimeProvider::DelayMs
-// Il2CppName: DelayMs
+// Writing MetadataGetter for method: BGNet::Core::ITimeProvider::GetTicks
+// Il2CppName: GetTicks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (BGNet::Core::ITimeProvider::*)(int, ::System::Threading::CancellationToken)>(&BGNet::Core::ITimeProvider::DelayMs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (BGNet::Core::ITimeProvider::*)()>(&BGNet::Core::ITimeProvider::GetTicks)> {
   static const MethodInfo* get() {
-    static auto* millis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
-    return ::il2cpp_utils::FindMethod(classof(BGNet::Core::ITimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millis, cancellationToken});
+    return ::il2cpp_utils::FindMethod(classof(BGNet::Core::ITimeProvider*), "GetTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

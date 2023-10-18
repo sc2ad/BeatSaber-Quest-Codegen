@@ -173,20 +173,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean result_mesh_RH
     [[deprecated("Use field access instead!")]] bool& dyn_result_mesh_RH();
     // public System.Void .ctor()
-    // Offset: 0x1A4D6E0
+    // Offset: 0x1A48118
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRHandTest* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRHandTest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRHandTest*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1A4D768
+    // Offset: 0x1A481A0
     static void _cctor();
     // private System.Void Start()
-    // Offset: 0x1A4C804
+    // Offset: 0x1A4723C
     void Start();
     // private System.Void Update()
-    // Offset: 0x1A4CAD8
+    // Offset: 0x1A47510
     void Update();
   }; // OVRHandTest
   #pragma pack(pop)

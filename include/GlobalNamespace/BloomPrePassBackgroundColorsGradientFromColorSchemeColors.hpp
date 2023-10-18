@@ -55,7 +55,7 @@ namespace GlobalNamespace {
     ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*> elements;
     // Field size check
     static_assert(sizeof(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>) == 0x8);
-    // [InjectAttribute] Offset: 0x1132BCC
+    // [InjectAttribute] Offset: 0x112FB58
     // private readonly EnvironmentColorManager _colorManager
     // Size: 0x8
     // Offset: 0x28
@@ -72,14 +72,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly EnvironmentColorManager _colorManager
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EnvironmentColorManager*& dyn__colorManager();
     // public System.Void .ctor()
-    // Offset: 0x13EF1E8
+    // Offset: 0x13EE63C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BloomPrePassBackgroundColorsGradientFromColorSchemeColors* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BloomPrePassBackgroundColorsGradientFromColorSchemeColors*, creationType>()));
     }
     // protected System.Void Start()
-    // Offset: 0x13EF4E0
+    // Offset: 0x13EE934
     void Start();
   }; // BloomPrePassBackgroundColorsGradientFromColorSchemeColors
   #pragma pack(pop)

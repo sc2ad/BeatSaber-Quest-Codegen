@@ -51,13 +51,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _easeDuration
     [[deprecated("Use field access instead!")]] float& dyn__easeDuration();
     // public EaseType get_easeType()
-    // Offset: 0x13A27BC
+    // Offset: 0x13B54E4
     ::GlobalNamespace::EaseType get_easeType();
     // public System.Single get_easeDuration()
-    // Offset: 0x13A27C4
+    // Offset: 0x13B54EC
     float get_easeDuration();
     // public System.Void .ctor()
-    // Offset: 0x13A27CC
+    // Offset: 0x13B54F4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static TransitionTimingSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::TransitionTimingSO::.ctor");

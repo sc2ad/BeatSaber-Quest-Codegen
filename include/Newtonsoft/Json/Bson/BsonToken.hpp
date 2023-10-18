@@ -52,10 +52,10 @@ namespace Newtonsoft::Json::Bson {
     // Offset: 0xFFFFFFFFFFFFFFFF
     ::Newtonsoft::Json::Bson::BsonType get_Type();
     // public System.Void set_Parent(Newtonsoft.Json.Bson.BsonToken value)
-    // Offset: 0x181495C
+    // Offset: 0x1801B04
     void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
     // protected System.Void .ctor()
-    // Offset: 0x1812B3C
+    // Offset: 0x17FFCE4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BsonToken* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Newtonsoft::Json::Bson::BsonToken::.ctor");

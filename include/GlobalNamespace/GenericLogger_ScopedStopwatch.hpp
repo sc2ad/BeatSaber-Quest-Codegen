@@ -60,14 +60,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch
     [[deprecated("Use field access instead!")]] ::System::Diagnostics::Stopwatch*& dyn__stopwatch();
     // public System.Void .ctor(System.String processName)
-    // Offset: 0x162AC80
+    // Offset: 0x163E880
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static GenericLogger::ScopedStopwatch* New_ctor(::StringW processName) {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::GenericLogger::ScopedStopwatch::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GenericLogger::ScopedStopwatch*, creationType>(processName)));
     }
     // public System.Void Dispose()
-    // Offset: 0x162AD3C
+    // Offset: 0x163E93C
     void Dispose();
   }; // GenericLogger/ScopedStopwatch
   #pragma pack(pop)

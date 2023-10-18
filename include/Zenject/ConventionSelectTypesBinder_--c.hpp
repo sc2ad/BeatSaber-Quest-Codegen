@@ -61,32 +61,32 @@ namespace Zenject {
     // Set static field: static public System.Func`2<System.Type,System.Boolean> <>9__7_0
     static void _set_$$9__7_0(::System::Func_2<::System::Type*, bool>* value);
     // static private System.Void .cctor()
-    // Offset: 0x17D6020
+    // Offset: 0x17C41C8
     static void _cctor();
     // public System.Void .ctor()
-    // Offset: 0x17D6084
+    // Offset: 0x17C422C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ConventionSelectTypesBinder::$$c* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Zenject::ConventionSelectTypesBinder::$$c::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ConventionSelectTypesBinder::$$c*, creationType>()));
     }
     // System.Boolean <AllClasses>b__4_0(System.Type t)
-    // Offset: 0x17D608C
+    // Offset: 0x17C4234
     bool $AllClasses$b__4_0(::System::Type* t);
     // System.Boolean <AllNonAbstractClasses>b__5_0(System.Type t)
-    // Offset: 0x17D60A8
+    // Offset: 0x17C4250
     bool $AllNonAbstractClasses$b__5_0(::System::Type* t);
     // System.Boolean <AllAbstractClasses>b__6_0(System.Type t)
-    // Offset: 0x17D60F8
+    // Offset: 0x17C42A0
     bool $AllAbstractClasses$b__6_0(::System::Type* t);
     // System.Boolean <AllInterfaces>b__7_0(System.Type t)
-    // Offset: 0x17D6144
+    // Offset: 0x17C42EC
     bool $AllInterfaces$b__7_0(::System::Type* t);
     // static private System.Object __zenCreate(System.Object[] P_0)
-    // Offset: 0x17D6160
+    // Offset: 0x17C4308
     static ::Il2CppObject* __zenCreate(::ArrayW<::Il2CppObject*> P_0);
     // static private Zenject.InjectTypeInfo __zenCreateInjectTypeInfo()
-    // Offset: 0x17D61BC
+    // Offset: 0x17C4364
     static ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
   }; // Zenject.ConventionSelectTypesBinder/Zenject.<>c
   #pragma pack(pop)

@@ -74,23 +74,23 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.String> _trophyIdToAchievementId
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::Dictionary_2<int, ::StringW>*& dyn__trophyIdToAchievementId();
     // public System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> get_achievementsIds()
-    // Offset: 0x138E0D8
+    // Offset: 0x13510D0
     ::System::Collections::Generic::List_1<::GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* get_achievementsIds();
     // public System.Void .ctor()
-    // Offset: 0x138E3AC
+    // Offset: 0x13513A4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static PS4AchievementIdsModelSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::PS4AchievementIdsModelSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PS4AchievementIdsModelSO*, creationType>()));
     }
     // public System.Boolean GetTrophyId(System.String achievementId, out System.Int32 trophyId)
-    // Offset: 0x138E2B8
+    // Offset: 0x13512B0
     bool GetTrophyId(::StringW achievementId, ByRef<int> trophyId);
     // public System.Boolean GetAchievementId(System.Int32 trophyId, out System.String achievementId)
-    // Offset: 0x138E32C
+    // Offset: 0x1351324
     bool GetAchievementId(int trophyId, ByRef<::StringW> achievementId);
     // protected override System.Void OnEnable()
-    // Offset: 0x138E0E0
+    // Offset: 0x13510D8
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

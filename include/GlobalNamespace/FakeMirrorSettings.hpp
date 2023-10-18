@@ -35,7 +35,7 @@ namespace GlobalNamespace {
     float fakeMirrorTransparency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [SpaceAttribute] Offset: 0x1114E54
+    // [SpaceAttribute] Offset: 0x1111A20
     // private System.Boolean _useVertexDistortion
     // Size: 0x1
     // Offset: 0x1C
@@ -44,30 +44,30 @@ namespace GlobalNamespace {
     static_assert(sizeof(bool) == 0x1);
     // Padding between fields: useVertexDistortion and: vertexDistortionNoiseScale
     char __padding1[0x3] = {};
-    // [DrawIfAttribute] Offset: 0x1114E90
-    // [MinAttribute] Offset: 0x1114E90
+    // [DrawIfAttribute] Offset: 0x1111A5C
+    // [MinAttribute] Offset: 0x1111A5C
     // private System.Single _vertexDistortionNoiseScale
     // Size: 0x4
     // Offset: 0x20
     float vertexDistortionNoiseScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1114F4C
+    // [DrawIfAttribute] Offset: 0x1111B18
     // private System.Single _vertexDistortionStrength
     // Size: 0x4
     // Offset: 0x24
     float vertexDistortionStrength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
-    // [DrawIfAttribute] Offset: 0x1114FF4
+    // [DrawIfAttribute] Offset: 0x1111BC0
     // private UnityEngine.Vector3 _vertexDistortionDirectionality
     // Size: 0xC
     // Offset: 0x28
     ::UnityEngine::Vector3 vertexDistortionDirectionality;
     // Field size check
     static_assert(sizeof(::UnityEngine::Vector3) == 0xC);
-    // [DrawIfAttribute] Offset: 0x111509C
-    // [MinAttribute] Offset: 0x111509C
+    // [DrawIfAttribute] Offset: 0x1111C68
+    // [MinAttribute] Offset: 0x1111C68
     // private System.Single _vertexDistortionZposMultiplier
     // Size: 0x4
     // Offset: 0x34
@@ -77,27 +77,27 @@ namespace GlobalNamespace {
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1115158
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1111D24
     // Get static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static int _get__fakeMirrorTransparencyId();
     // Set static field: static private readonly System.Int32 _fakeMirrorTransparencyId
     static void _set__fakeMirrorTransparencyId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1115168
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1111D34
     // Get static field: static private readonly System.Int32 _vertexDistortionNoiseScaleId
     static int _get__vertexDistortionNoiseScaleId();
     // Set static field: static private readonly System.Int32 _vertexDistortionNoiseScaleId
     static void _set__vertexDistortionNoiseScaleId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1115178
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1111D44
     // Get static field: static private readonly System.Int32 _vertexDistortionStrengthId
     static int _get__vertexDistortionStrengthId();
     // Set static field: static private readonly System.Int32 _vertexDistortionStrengthId
     static void _set__vertexDistortionStrengthId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1115188
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1111D54
     // Get static field: static private readonly System.Int32 _vertexDistortionDirectionalityId
     static int _get__vertexDistortionDirectionalityId();
     // Set static field: static private readonly System.Int32 _vertexDistortionDirectionalityId
     static void _set__vertexDistortionDirectionalityId(int value);
-    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1115198
+    // [DoesNotRequireDomainReloadInitAttribute] Offset: 0x1111D64
     // Get static field: static private readonly System.Int32 _vertexDistortionZposMultiplierId
     static int _get__vertexDistortionZposMultiplierId();
     // Set static field: static private readonly System.Int32 _vertexDistortionZposMultiplierId
@@ -115,32 +115,32 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _vertexDistortionZposMultiplier
     [[deprecated("Use field access instead!")]] float& dyn__vertexDistortionZposMultiplier();
     // public System.Single get_fakeMirrorTransparency()
-    // Offset: 0x2AF884C
+    // Offset: 0x2B04EDC
     float get_fakeMirrorTransparency();
     // public System.Void set_fakeMirrorTransparency(System.Single value)
-    // Offset: 0x2AF8854
+    // Offset: 0x2B04EE4
     void set_fakeMirrorTransparency(float value);
     // public System.Void .ctor()
-    // Offset: 0x2AF89DC
+    // Offset: 0x2B0506C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static FakeMirrorSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::FakeMirrorSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FakeMirrorSettings*, creationType>()));
     }
     // static private System.Void .cctor()
-    // Offset: 0x2AF8A54
+    // Offset: 0x2B050E4
     static void _cctor();
     // protected System.Void Start()
-    // Offset: 0x2AF885C
+    // Offset: 0x2B04EEC
     void Start();
     // protected System.Void OnEnable()
-    // Offset: 0x2AF89D4
+    // Offset: 0x2B05064
     void OnEnable();
     // protected System.Void OnValidate()
-    // Offset: 0x2AF89D8
+    // Offset: 0x2B05068
     void OnValidate();
     // private System.Void SetGlobalParameters()
-    // Offset: 0x2AF8860
+    // Offset: 0x2B04EF0
     void SetGlobalParameters();
   }; // FakeMirrorSettings
   #pragma pack(pop)

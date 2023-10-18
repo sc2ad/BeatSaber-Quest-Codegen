@@ -177,86 +177,86 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _dailyLeaderboardsData
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*& dyn__dailyLeaderboardsData();
     // public System.Void add_newScoreWasAddedToLeaderboardEvent(System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> value)
-    // Offset: 0x1594BB8
+    // Offset: 0x152587C
     void add_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* value);
     // public System.Void remove_newScoreWasAddedToLeaderboardEvent(System.Action`2<System.String,LocalLeaderboardsModel/LeaderboardType> value)
-    // Offset: 0x1594ED0
+    // Offset: 0x1525B94
     void remove_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>* value);
     // public System.Void .ctor()
-    // Offset: 0x15965B0
+    // Offset: 0x1527274
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static LocalLeaderboardsModel* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::LocalLeaderboardsModel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LocalLeaderboardsModel*, creationType>()));
     }
     // protected System.Void OnDisable()
-    // Offset: 0x159550C
+    // Offset: 0x15261D0
     void OnDisable();
     // static private System.Void LoadLeaderboardsData(System.String filename, out System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)
-    // Offset: 0x1595574
+    // Offset: 0x1526238
     static void LoadLeaderboardsData(::StringW filename, ByRef<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*> leaderboardsData);
     // static private System.Void SaveLeaderboardsData(System.String filename, System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardsData)
-    // Offset: 0x1595720
+    // Offset: 0x15263E4
     static void SaveLeaderboardsData(::StringW filename, ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData);
     // static private System.Void AppendLeaderboardScores(System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> main, System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> tail, System.Int32 maxNumberOfScores)
-    // Offset: 0x15957E8
+    // Offset: 0x15264AC
     static void AppendLeaderboardScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* main, ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* tail, int maxNumberOfScores);
     // static public System.Void MigrateQuestLeaderboards(System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> leaderboardDataList, System.Int32 maxNumberOfScores)
-    // Offset: 0x159593C
+    // Offset: 0x1526600
     static void MigrateQuestLeaderboards(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardDataList, int maxNumberOfScores);
     // public System.Void Load()
-    // Offset: 0x1595430
+    // Offset: 0x15260F4
     void Load();
     // public System.Void Save()
-    // Offset: 0x1595510
+    // Offset: 0x15261D4
     void Save();
     // private System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> GetLeaderboardsData(LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1595D14
+    // Offset: 0x15269D8
     ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* GetLeaderboardsData(::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private LocalLeaderboardsModel/LeaderboardData GetLeaderboardData(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1595D3C
+    // Offset: 0x1526A00
     ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardData* GetLeaderboardData(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // private System.Int64 GetCurrentTimestamp()
-    // Offset: 0x1595E0C
+    // Offset: 0x1526AD0
     int64_t GetCurrentTimestamp();
     // protected System.Void UpdateDailyLeaderboard(System.String leaderboardId)
-    // Offset: 0x1595C1C
+    // Offset: 0x15268E0
     void UpdateDailyLeaderboard(::StringW leaderboardId);
     // private System.Void AddScore(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType, System.String playerName, System.Int32 score, System.Boolean fullCombo)
-    // Offset: 0x1595EE8
+    // Offset: 0x1526BAC
     void AddScore(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType, ::StringW playerName, int score, bool fullCombo);
     // private System.Boolean WillScoreGoIntoLeaderboard(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType, System.Int32 score)
-    // Offset: 0x159616C
+    // Offset: 0x1526E30
     bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType, int score);
     // public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> GetScores(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1595218
+    // Offset: 0x1525EDC
     ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* GetScores(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // public System.Int32 GetHighScore(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1596240
+    // Offset: 0x1526F04
     int GetHighScore(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // public System.Int32 GetPositionInLeaderboard(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType, System.Int32 score)
-    // Offset: 0x15962D4
+    // Offset: 0x1526F98
     int GetPositionInLeaderboard(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType, int score);
     // public System.Int32 GetLastScorePosition(System.String leaderboardId, LocalLeaderboardsModel/LeaderboardType leaderboardType)
-    // Offset: 0x1595234
+    // Offset: 0x1525EF8
     int GetLastScorePosition(::StringW leaderboardId, ::GlobalNamespace::LocalLeaderboardsModel::LeaderboardType leaderboardType);
     // public System.Void ClearLastScorePosition()
-    // Offset: 0x1595140
+    // Offset: 0x1525E04
     void ClearLastScorePosition();
     // public System.Void AddScore(System.String leaderboardId, System.String playerName, System.Int32 score, System.Boolean fullCombo)
-    // Offset: 0x15963B0
+    // Offset: 0x1527074
     void AddScore(::StringW leaderboardId, ::StringW playerName, int score, bool fullCombo);
     // public System.Boolean WillScoreGoIntoLeaderboard(System.String leaderboardId, System.Int32 score)
-    // Offset: 0x1596418
+    // Offset: 0x15270DC
     bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, int score);
     // public System.Void ClearLeaderboard(System.String leaderboardId)
-    // Offset: 0x1596478
+    // Offset: 0x152713C
     void ClearLeaderboard(::StringW leaderboardId);
     // public System.Void ClearAllLeaderboards(System.Boolean deleteLeaderboardFile)
-    // Offset: 0x1595070
+    // Offset: 0x1525D34
     void ClearAllLeaderboards(bool deleteLeaderboardFile);
     // protected override System.Void OnEnable()
-    // Offset: 0x1595408
+    // Offset: 0x15260CC
     // Implemented from: PersistentScriptableObject
     // Base method: System.Void PersistentScriptableObject::OnEnable()
     void OnEnable();

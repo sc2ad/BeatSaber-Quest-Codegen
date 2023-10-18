@@ -101,10 +101,10 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<GetAssetBundleFileResult> <>u__1
     [[deprecated("Use field access instead!")]] ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult>& dyn_$$u__1();
     // private System.Void MoveNext()
-    // Offset: 0x15B9774
+    // Offset: 0x158DBE0
     void MoveNext();
     // private System.Void SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine stateMachine)
-    // Offset: 0x15B9E18
+    // Offset: 0x158E284
     void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
   }; // OculusBeatmapDataAssetFileModel/<GetDownloadAssetBundleFileAsync>d__16
   // WARNING Not writing size check since size may be invalid!

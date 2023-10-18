@@ -91,25 +91,25 @@ namespace GameLift {
     // Get instance field reference: public System.String playerSessionId
     [[deprecated("Use field access instead!")]] ::StringW& dyn_playerSessionId();
     // static public PacketPool`1<GameLift.AuthenticateGameLiftUserRequest> get_pool()
-    // Offset: 0x16CF438
+    // Offset: 0x161EBF8
     static ::GlobalNamespace::PacketPool_1<::GameLift::AuthenticateGameLiftUserRequest*>* get_pool();
     // public System.String get_userId()
-    // Offset: 0x16CF480
+    // Offset: 0x161EC40
     ::StringW get_userId();
     // private System.Void set_userId(System.String value)
-    // Offset: 0x16CF488
+    // Offset: 0x161EC48
     void set_userId(::StringW value);
     // public System.String get_userName()
-    // Offset: 0x16CF490
+    // Offset: 0x161EC50
     ::StringW get_userName();
     // private System.Void set_userName(System.String value)
-    // Offset: 0x16CF498
+    // Offset: 0x161EC58
     void set_userName(::StringW value);
     // public GameLift.AuthenticateGameLiftUserRequest Init(System.String userId, System.String userName, System.String playerSessionId)
-    // Offset: 0x16CF4A0
+    // Offset: 0x161EC60
     ::GameLift::AuthenticateGameLiftUserRequest* Init(::StringW userId, ::StringW userName, ::StringW playerSessionId);
     // public System.Void .ctor()
-    // Offset: 0x16CF5C4
+    // Offset: 0x161ED84
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -118,17 +118,17 @@ namespace GameLift {
       return THROW_UNLESS((::il2cpp_utils::New<AuthenticateGameLiftUserRequest*, creationType>()));
     }
     // public override System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
-    // Offset: 0x16CF4AC
+    // Offset: 0x161EC6C
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Serialize(LiteNetLib.Utils.NetDataWriter writer)
     void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
     // public override System.Void Deserialize(LiteNetLib.Utils.NetDataReader reader)
-    // Offset: 0x16CF508
+    // Offset: 0x161ECC8
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Deserialize(LiteNetLib.Utils.NetDataReader reader)
     void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
     // public override System.Void Release()
-    // Offset: 0x16CF568
+    // Offset: 0x161ED28
     // Implemented from: BGNet.Core.Messages.BaseReliableResponse
     // Base method: System.Void BaseReliableResponse::Release()
     void Release();

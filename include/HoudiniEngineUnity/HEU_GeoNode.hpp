@@ -166,176 +166,176 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCache> _volumeCaches
     [[deprecated("Use field access instead!")]] ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>*& dyn__volumeCaches();
     // public System.Int32 get_GeoID()
-    // Offset: 0x17E4928
+    // Offset: 0x17D2AD0
     int get_GeoID();
     // public System.String get_GeoName()
-    // Offset: 0x17F5830
+    // Offset: 0x17E39D8
     ::StringW get_GeoName();
     // public HoudiniEngineUnity.HAPI_GeoType get_GeoType()
-    // Offset: 0x17F5838
+    // Offset: 0x17E39E0
     ::HoudiniEngineUnity::HAPI_GeoType get_GeoType();
     // public System.Boolean get_Editable()
-    // Offset: 0x17F5840
+    // Offset: 0x17E39E8
     bool get_Editable();
     // public System.Boolean get_Displayable()
-    // Offset: 0x17F5848
+    // Offset: 0x17E39F0
     bool get_Displayable();
     // public HoudiniEngineUnity.HEU_ObjectNode get_ObjectNode()
-    // Offset: 0x17F58DC
+    // Offset: 0x17E3A84
     ::HoudiniEngineUnity::HEU_ObjectNode* get_ObjectNode();
     // public HoudiniEngineUnity.HEU_HoudiniAsset get_ParentAsset()
-    // Offset: 0x17F58E4
+    // Offset: 0x17E3A8C
     ::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCache> get_VolumeCaches()
-    // Offset: 0x17F5974
+    // Offset: 0x17E3B1C
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCache*>* get_VolumeCaches();
     // public System.Void .ctor()
-    // Offset: 0x17F597C
+    // Offset: 0x17E3B24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HEU_GeoNode* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::HoudiniEngineUnity::HEU_GeoNode::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HEU_GeoNode*, creationType>()));
     }
     // public System.Boolean IsVisible()
-    // Offset: 0x17F5850
+    // Offset: 0x17E39F8
     bool IsVisible();
     // public System.Boolean IsIntermediate()
-    // Offset: 0x17F586C
+    // Offset: 0x17E3A14
     bool IsIntermediate();
     // public System.Boolean IsIntermediateOrEditable()
-    // Offset: 0x17F587C
+    // Offset: 0x17E3A24
     bool IsIntermediateOrEditable();
     // public System.Boolean IsGeoInputType()
-    // Offset: 0x17F58AC
+    // Offset: 0x17E3A54
     bool IsGeoInputType();
     // public System.Boolean IsGeoCurveType()
-    // Offset: 0x17F58CC
+    // Offset: 0x17E3A74
     bool IsGeoCurveType();
     // public System.Void OnBeforeSerialize()
-    // Offset: 0x17F5A38
+    // Offset: 0x17E3BE0
     void OnBeforeSerialize();
     // public System.Void OnAfterDeserialize()
-    // Offset: 0x17F5A3C
+    // Offset: 0x17E3BE4
     void OnAfterDeserialize();
     // public System.Void DestroyAllData(System.Boolean bIsRebuild)
-    // Offset: 0x17F5B10
+    // Offset: 0x17E3CB8
     void DestroyAllData(bool bIsRebuild);
     // public System.Void RemoveAndDestroyPart(HoudiniEngineUnity.HEU_PartData part)
-    // Offset: 0x17F5E50
+    // Offset: 0x17E3FF8
     void RemoveAndDestroyPart(::HoudiniEngineUnity::HEU_PartData* part);
     // public System.Void Reset()
-    // Offset: 0x17F59A4
+    // Offset: 0x17E3B4C
     void Reset();
     // public System.Void Initialize(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_GeoInfo geoInfo, HoudiniEngineUnity.HEU_ObjectNode containerObjectNode)
-    // Offset: 0x17F5EC4
+    // Offset: 0x17E406C
     void Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo geoInfo, ::HoudiniEngineUnity::HEU_ObjectNode* containerObjectNode);
     // public System.Boolean DoesThisRequirePotentialCook()
-    // Offset: 0x17F6018
+    // Offset: 0x17E41C0
     bool DoesThisRequirePotentialCook();
     // public System.Void UpdateGeo(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F6084
+    // Offset: 0x17E422C
     void UpdateGeo(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void ProcessUnityScriptAttribute(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F718C
+    // Offset: 0x17E5334
     void ProcessUnityScriptAttribute(::HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void ProcessPart(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 partID, ref HoudiniEngineUnity.HAPI_PartInfo partInfo, ref HoudiniEngineUnity.HEU_PartData partData)
-    // Offset: 0x17F686C
+    // Offset: 0x17E4A14
     void ProcessPart(::HoudiniEngineUnity::HEU_SessionBase* session, int partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, ByRef<::HoudiniEngineUnity::HEU_PartData*> partData);
     // private System.Void SetupGameObjectAndTransform(HoudiniEngineUnity.HEU_PartData partData, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset)
-    // Offset: 0x17F7318
+    // Offset: 0x17E54C0
     void SetupGameObjectAndTransform(::HoudiniEngineUnity::HEU_PartData* partData, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void GetPartsByOutputType(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> meshParts, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> volumeParts)
-    // Offset: 0x17F76BC
+    // Offset: 0x17E5864
     void GetPartsByOutputType(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* meshParts, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts);
     // public System.Void GeneratePartInstances(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F77D0
+    // Offset: 0x17E5978
     void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GenerateAttributesStore(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F7900
+    // Offset: 0x17E5AA8
     void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void ProcessGeoCurve(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F6654
+    // Offset: 0x17E47FC
     void ProcessGeoCurve(::HoudiniEngineUnity::HEU_SessionBase* session);
     // private System.Void SetupGeoCurveGameObjectAndTransform(HoudiniEngineUnity.HEU_Curve curve)
-    // Offset: 0x17F79B4
+    // Offset: 0x17E5B5C
     void SetupGeoCurveGameObjectAndTransform(::HoudiniEngineUnity::HEU_Curve* curve);
     // public System.Void ClearObjectInstances()
-    // Offset: 0x17F7B50
+    // Offset: 0x17E5CF8
     void ClearObjectInstances();
     // public System.Void SetGeoInfo(HoudiniEngineUnity.HAPI_GeoInfo geoInfo)
-    // Offset: 0x17F7BF0
+    // Offset: 0x17E5D98
     void SetGeoInfo(::HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
     // public System.String GeneratePartFullName(System.String partName)
-    // Offset: 0x17F754C
+    // Offset: 0x17E56F4
     ::StringW GeneratePartFullName(::StringW partName);
     // public System.String GenerateGeoCurveName()
-    // Offset: 0x17F7C9C
+    // Offset: 0x17E5E44
     ::StringW GenerateGeoCurveName();
     // public System.Boolean HasGeoNodeChanged(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F7CA4
+    // Offset: 0x17E5E4C
     bool HasGeoNodeChanged(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void ApplyHAPITransform(ref HoudiniEngineUnity.HAPI_Transform hapiTransform)
-    // Offset: 0x17F7DA4
+    // Offset: 0x17E5F4C
     void ApplyHAPITransform(ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform);
     // public System.Void GetDebugInfo(System.Text.StringBuilder sb)
-    // Offset: 0x17F7EAC
+    // Offset: 0x17E6054
     void GetDebugInfo(::System::Text::StringBuilder* sb);
     // public System.Boolean IsUsingMaterial(HoudiniEngineUnity.HEU_MaterialData materialData)
-    // Offset: 0x17F81DC
+    // Offset: 0x17E6384
     bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData* materialData);
     // public System.Void GetClonableParts(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> clonableParts)
-    // Offset: 0x17F82F4
+    // Offset: 0x17E649C
     void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
     // public System.Void GetOutputGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> outputObjects)
-    // Offset: 0x17F83FC
+    // Offset: 0x17E65A4
     void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
     // public System.Void GetOutput(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeneratedOutput> outputs)
-    // Offset: 0x17F8504
+    // Offset: 0x17E66AC
     void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
     // public HoudiniEngineUnity.HEU_PartData GetHDAPartWithGameObject(UnityEngine.GameObject outputGameObject)
-    // Offset: 0x17F860C
+    // Offset: 0x17E67B4
     ::HoudiniEngineUnity::HEU_PartData* GetHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
     // public HoudiniEngineUnity.HEU_PartData GetPartFromPartID(System.Int32 partID)
-    // Offset: 0x17F8764
+    // Offset: 0x17E690C
     ::HoudiniEngineUnity::HEU_PartData* GetPartFromPartID(int partID);
     // public System.Void GetCurves(System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_Curve> curves, System.Boolean bEditableOnly)
-    // Offset: 0x17F8850
+    // Offset: 0x17E69F8
     void GetCurves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>* curves, bool bEditableOnly);
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> GetParts()
-    // Offset: 0x17F8A2C
+    // Offset: 0x17E6BD4
     ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* GetParts();
     // public System.Boolean HasAttribInstancer()
-    // Offset: 0x17F8A34
+    // Offset: 0x17E6BDC
     bool HasAttribInstancer();
     // public System.Void SetAttributeModifiersOnPartOutputs(HoudiniEngineUnity.HEU_SessionBase session)
-    // Offset: 0x17F8B34
+    // Offset: 0x17E6CDC
     void SetAttributeModifiersOnPartOutputs(::HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void CalculateVisiblity(System.Boolean bParentVisibility)
-    // Offset: 0x17F8DAC
+    // Offset: 0x17E6F54
     void CalculateVisiblity(bool bParentVisibility);
     // public System.Void HideAllGeometry()
-    // Offset: 0x17F8EC8
+    // Offset: 0x17E7070
     void HideAllGeometry();
     // public System.Void CalculateColliderState()
-    // Offset: 0x17F8F70
+    // Offset: 0x17E7118
     void CalculateColliderState();
     // public System.Void DisableAllColliders()
-    // Offset: 0x17F9014
+    // Offset: 0x17E71BC
     void DisableAllColliders();
     // public System.Void ProcessVolumeParts(HoudiniEngineUnity.HEU_SessionBase session, System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PartData> volumeParts, System.Boolean bRebuild)
-    // Offset: 0x17F90BC
+    // Offset: 0x17E7264
     void ProcessVolumeParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* volumeParts, bool bRebuild);
     // public HoudiniEngineUnity.HEU_VolumeCache GetVolumeCacheByTileIndex(System.Int32 tileIndex)
-    // Offset: 0x17F97D4
+    // Offset: 0x17E797C
     ::HoudiniEngineUnity::HEU_VolumeCache* GetVolumeCacheByTileIndex(int tileIndex);
     // public System.Void DestroyVolumeCache()
-    // Offset: 0x17F5CE4
+    // Offset: 0x17E3E8C
     void DestroyVolumeCache();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeoNode other)
-    // Offset: 0x17F99E0
+    // Offset: 0x17E7B88
     bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeoNode* other);
     // public override System.String ToString()
-    // Offset: 0x17F9968
+    // Offset: 0x17E7B10
     // Implemented from: UnityEngine.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();

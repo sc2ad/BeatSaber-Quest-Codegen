@@ -59,35 +59,35 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single <lastFrameDeltaSongTime>k__BackingField
     [[deprecated("Use field access instead!")]] float& dyn_$lastFrameDeltaSongTime$k__BackingField();
     // public System.Single get_songTime()
-    // Offset: 0x14BE434
+    // Offset: 0x1419860
     float get_songTime();
     // private System.Void set_songTime(System.Single value)
-    // Offset: 0x14BE43C
+    // Offset: 0x1419868
     void set_songTime(float value);
     // public System.Single get_lastFrameDeltaSongTime()
-    // Offset: 0x14BE444
+    // Offset: 0x1419870
     float get_lastFrameDeltaSongTime();
     // private System.Void set_lastFrameDeltaSongTime(System.Single value)
-    // Offset: 0x14BE44C
+    // Offset: 0x1419878
     void set_lastFrameDeltaSongTime(float value);
     // public System.Single get_songEndTime()
-    // Offset: 0x14BE454
+    // Offset: 0x1419880
     float get_songEndTime();
     // public System.Single get_songLength()
-    // Offset: 0x14BE460
+    // Offset: 0x141988C
     float get_songLength();
     // public System.Boolean get_isReady()
-    // Offset: 0x14BE46C
+    // Offset: 0x1419898
     bool get_isReady();
     // public System.Void .ctor()
-    // Offset: 0x14BE4B8
+    // Offset: 0x14198E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MockAudioTimeSource* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MockAudioTimeSource::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MockAudioTimeSource*, creationType>()));
     }
     // protected System.Void Update()
-    // Offset: 0x14BE474
+    // Offset: 0x14198A0
     void Update();
   }; // MockAudioTimeSource
   #pragma pack(pop)

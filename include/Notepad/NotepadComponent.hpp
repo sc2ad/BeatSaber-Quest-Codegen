@@ -29,7 +29,7 @@ namespace Notepad {
   class NotepadComponent : public ::UnityEngine::MonoBehaviour {
     public:
     // public System.Void .ctor()
-    // Offset: 0x2BB67E4
+    // Offset: 0x2BB61EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static NotepadComponent* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Notepad::NotepadComponent::.ctor");

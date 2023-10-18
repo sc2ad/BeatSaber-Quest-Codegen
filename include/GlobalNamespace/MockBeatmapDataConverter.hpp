@@ -43,13 +43,13 @@ namespace GlobalNamespace {
     // Nested type: ::GlobalNamespace::MockBeatmapDataConverter::$$c
     class $$c;
     // static public MockBeatmapData ToMockBeatmapData(IReadonlyBeatmapData beatmapData)
-    // Offset: 0x14BE4C0
+    // Offset: 0x14198EC
     static ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
     // static public MockNoteData ToMockNoteData(NoteData noteData)
-    // Offset: 0x14BED80
+    // Offset: 0x141A1AC
     static ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
     // static public MockObstacleData ToMockObstacleData(ObstacleData obstacleData)
-    // Offset: 0x14BEE14
+    // Offset: 0x141A240
     static ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
   }; // MockBeatmapDataConverter
   #pragma pack(pop)

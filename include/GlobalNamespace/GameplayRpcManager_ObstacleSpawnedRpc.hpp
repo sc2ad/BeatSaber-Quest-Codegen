@@ -32,7 +32,7 @@ namespace GlobalNamespace {
   class GameplayRpcManager::ObstacleSpawnedRpc : public ::GlobalNamespace::RemoteProcedureCall_2<float, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*> {
     public:
     // public System.Void .ctor()
-    // Offset: 0x16D54D4
+    // Offset: 0x1624CC4
     // Implemented from: RemoteProcedureCall`2
     // Base method: System.Void RemoteProcedureCall_2::.ctor()
     // Base method: System.Void RemoteProcedureCall::.ctor()

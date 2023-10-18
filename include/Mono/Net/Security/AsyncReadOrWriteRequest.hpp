@@ -58,23 +58,23 @@ namespace Mono::Net::Security {
     // Get instance field reference: private System.Int32 <CurrentSize>k__BackingField
     [[deprecated("Use field access instead!")]] int& dyn_$CurrentSize$k__BackingField();
     // protected Mono.Net.Security.BufferOffsetSize get_UserBuffer()
-    // Offset: 0x1B2663C
+    // Offset: 0x1B006F8
     ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
     // protected System.Int32 get_CurrentSize()
-    // Offset: 0x1B26644
+    // Offset: 0x1B00700
     int get_CurrentSize();
     // protected System.Void set_CurrentSize(System.Int32 value)
-    // Offset: 0x1B2664C
+    // Offset: 0x1B00708
     void set_CurrentSize(int value);
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    // Offset: 0x1B26654
+    // Offset: 0x1B00710
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Mono::Net::Security::AsyncReadOrWriteRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncReadOrWriteRequest*, creationType>(parent, sync, buffer, offset, size)));
     }
     // public override System.String ToString()
-    // Offset: 0x1B2680C
+    // Offset: 0x1B008C8
     // Implemented from: Mono.Net.Security.AsyncProtocolRequest
     // Base method: System.String AsyncProtocolRequest::ToString()
     ::StringW ToString();

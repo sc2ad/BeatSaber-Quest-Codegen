@@ -91,23 +91,23 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Boolean forSigning
     [[deprecated("Use field access instead!")]] bool& dyn_forSigning();
     // public Org.BouncyCastle.Math.BigInteger get_Order()
-    // Offset: 0x167EAE0
+    // Offset: 0x1691CA0
     ::Org::BouncyCastle::Math::BigInteger* get_Order();
     // public System.Void .ctor()
-    // Offset: 0x167F084
+    // Offset: 0x1692244
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static ECGost3410Signer* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECGost3410Signer*, creationType>()));
     }
     // public System.Void Init(System.Boolean forSigning, Org.BouncyCastle.Crypto.ICipherParameters parameters)
-    // Offset: 0x167E94C
+    // Offset: 0x1691B0C
     void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
-    // Offset: 0x167EB08
+    // Offset: 0x1691CC8
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
-    // Offset: 0x167F028
+    // Offset: 0x16921E8
     ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
   }; // Org.BouncyCastle.Crypto.Signers.ECGost3410Signer
   #pragma pack(pop)

@@ -288,31 +288,31 @@ namespace TMPro {
     // Set static field: static private UnityEngine.Shader k_ShaderRef_MobileBitmap
     static void _set_k_ShaderRef_MobileBitmap(::UnityEngine::Shader* value);
     // static UnityEngine.Shader get_ShaderRef_MobileSDF()
-    // Offset: 0x149A440
+    // Offset: 0x14A9E54
     static ::UnityEngine::Shader* get_ShaderRef_MobileSDF();
     // static UnityEngine.Shader get_ShaderRef_MobileBitmap()
-    // Offset: 0x149A54C
+    // Offset: 0x14A9F60
     static ::UnityEngine::Shader* get_ShaderRef_MobileBitmap();
     // static private System.Void .cctor()
-    // Offset: 0x149A658
+    // Offset: 0x14AA06C
     static void _cctor();
     // static public System.Void GetShaderPropertyIDs()
-    // Offset: 0x149A77C
+    // Offset: 0x14AA190
     static void GetShaderPropertyIDs();
     // static public System.Void UpdateShaderRatios(UnityEngine.Material mat)
-    // Offset: 0x149AF50
+    // Offset: 0x14AA964
     static void UpdateShaderRatios(::UnityEngine::Material* mat);
     // static public UnityEngine.Vector4 GetFontExtent(UnityEngine.Material material)
-    // Offset: 0x149B484
+    // Offset: 0x14AAE98
     static ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
     // static public System.Boolean IsMaskingEnabled(UnityEngine.Material material)
-    // Offset: 0x149B4E4
+    // Offset: 0x14AAEF8
     static bool IsMaskingEnabled(::UnityEngine::Material* material);
     // static public System.Single GetPadding(UnityEngine.Material material, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0x149B698
+    // Offset: 0x14AB0AC
     static float GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
     // static public System.Single GetPadding(UnityEngine.Material[] materials, System.Boolean enableExtraPadding, System.Boolean isBold)
-    // Offset: 0x149BF64
+    // Offset: 0x14AB978
     static float GetPadding(::ArrayW<::UnityEngine::Material*> materials, bool enableExtraPadding, bool isBold);
   }; // TMPro.ShaderUtilities
   #pragma pack(pop)

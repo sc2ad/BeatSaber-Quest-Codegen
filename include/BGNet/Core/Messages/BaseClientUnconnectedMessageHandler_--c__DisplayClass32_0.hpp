@@ -14,18 +14,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
-// Forward declaring namespace: System::Threading::Tasks
-namespace System::Threading::Tasks {
-  // Forward declaring type: Task`1<TResult>
-  template<typename TResult>
-  class Task_1;
-}
 // Forward declaring namespace: BGNet::Core::Messages
 namespace BGNet::Core::Messages {
   // Forward declaring type: HelloVerifyRequest
   class HelloVerifyRequest;
   // Forward declaring type: IUnconnectedReliableRequest
   class IUnconnectedReliableRequest;
+}
+// Forward declaring namespace: System::Threading::Tasks
+namespace System::Threading::Tasks {
+  // Forward declaring type: Task`1<TResult>
+  template<typename TResult>
+  class Task_1;
 }
 // Forward declaring namespace: System::Net
 namespace System::Net {
@@ -55,6 +55,8 @@ namespace BGNet::Core::Messages {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
+    // Nested type: ::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0::$$AuthenticateWithServerAsyncInternal$b__1$d
+    struct $$AuthenticateWithServerAsyncInternal$b__1$d;
     public:
     // public BGNet.Core.Messages.BaseClientUnconnectedMessageHandler <>4__this
     // Size: 0x8
@@ -74,17 +76,17 @@ namespace BGNet::Core::Messages {
     // Get instance field reference: public System.Byte[] serverPublicKey
     [[deprecated("Use field access instead!")]] ::ArrayW<uint8_t>& dyn_serverPublicKey();
     // public System.Void .ctor()
-    // Offset: 0x1609DA4
+    // Offset: 0x1604AD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::BGNet::Core::Messages::BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BaseClientUnconnectedMessageHandler::$$c__DisplayClass32_0*, creationType>()));
     }
     // System.Threading.Tasks.Task`1<BGNet.Core.Messages.HelloVerifyRequest> <AuthenticateWithServerAsyncInternal>b__0(System.UInt32 protocolVersion, System.Net.IPEndPoint ep, BGNet.Core.Messages.IUnconnectedReliableRequest request, System.Threading.CancellationToken ct)
-    // Offset: 0x1609DAC
+    // Offset: 0x1604AE0
     ::System::Threading::Tasks::Task_1<::BGNet::Core::Messages::HelloVerifyRequest*>* $AuthenticateWithServerAsyncInternal$b__0(uint protocolVersion, ::System::Net::IPEndPoint* ep, ::BGNet::Core::Messages::IUnconnectedReliableRequest* request, ::System::Threading::CancellationToken ct);
     // System.Threading.Tasks.Task`1<System.Byte[]> <AuthenticateWithServerAsyncInternal>b__1(System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> result)
-    // Offset: 0x1609E64
+    // Offset: 0x1604B98
     ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $AuthenticateWithServerAsyncInternal$b__1(::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* result);
   }; // BGNet.Core.Messages.BaseClientUnconnectedMessageHandler/BGNet.Core.Messages.<>c__DisplayClass32_0
   #pragma pack(pop)

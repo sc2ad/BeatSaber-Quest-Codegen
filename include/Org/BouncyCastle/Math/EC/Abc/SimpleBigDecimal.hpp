@@ -53,54 +53,54 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Get instance field reference: private readonly System.Int32 scale
     [[deprecated("Use field access instead!")]] int& dyn_scale();
     // public System.Int32 get_Scale()
-    // Offset: 0x236E4D4
+    // Offset: 0x235EC0C
     int get_Scale();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger bigInt, System.Int32 scale)
-    // Offset: 0x236DF80
+    // Offset: 0x235E6B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SimpleBigDecimal* New_ctor(::Org::BouncyCastle::Math::BigInteger* bigInt, int scale) {
       static auto ___internal__logger = ::Logger::get().WithContext("::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SimpleBigDecimal*, creationType>(bigInt, scale)));
     }
     // private System.Void CheckScale(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
-    // Offset: 0x236E024
+    // Offset: 0x235E75C
     void CheckScale(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal AdjustScale(System.Int32 newScale)
-    // Offset: 0x236E0C4
+    // Offset: 0x235E7FC
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* AdjustScale(int newScale);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Add(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
-    // Offset: 0x236E1A0
+    // Offset: 0x235E8D8
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Add(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Negate()
-    // Offset: 0x236E244
+    // Offset: 0x235E97C
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Negate();
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Subtract(Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal b)
-    // Offset: 0x236E2D0
+    // Offset: 0x235EA08
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* b);
     // public Org.BouncyCastle.Math.EC.Abc.SimpleBigDecimal Subtract(Org.BouncyCastle.Math.BigInteger b)
-    // Offset: 0x236E304
+    // Offset: 0x235EA3C
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Subtract(::Org::BouncyCastle::Math::BigInteger* b);
     // public System.Int32 CompareTo(Org.BouncyCastle.Math.BigInteger val)
-    // Offset: 0x236E3B0
+    // Offset: 0x235EAE8
     int CompareTo(::Org::BouncyCastle::Math::BigInteger* val);
     // public Org.BouncyCastle.Math.BigInteger Floor()
-    // Offset: 0x236E3F8
+    // Offset: 0x235EB30
     ::Org::BouncyCastle::Math::BigInteger* Floor();
     // public Org.BouncyCastle.Math.BigInteger Round()
-    // Offset: 0x236E41C
+    // Offset: 0x235EB54
     ::Org::BouncyCastle::Math::BigInteger* Round();
     // public override System.String ToString()
-    // Offset: 0x236E4DC
+    // Offset: 0x235EC14
     // Implemented from: System.Object
     // Base method: System.String Object::ToString()
     ::StringW ToString();
     // public override System.Boolean Equals(System.Object obj)
-    // Offset: 0x236E7E4
+    // Offset: 0x235EF1C
     // Implemented from: System.Object
     // Base method: System.Boolean Object::Equals(System.Object obj)
     bool Equals(::Il2CppObject* obj);
     // public override System.Int32 GetHashCode()
-    // Offset: 0x236E8B8
+    // Offset: 0x235EFF0
     // Implemented from: System.Object
     // Base method: System.Int32 Object::GetHashCode()
     int GetHashCode();

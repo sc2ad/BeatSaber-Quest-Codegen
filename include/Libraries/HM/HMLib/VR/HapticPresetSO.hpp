@@ -29,7 +29,7 @@ namespace Libraries::HM::HMLib::VR {
   class HapticPresetSO : public ::UnityEngine::ScriptableObject {
     public:
     public:
-    // [DrawIfAttribute] Offset: 0x10F9100
+    // [DrawIfAttribute] Offset: 0x10F62F0
     // public System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -66,14 +66,14 @@ namespace Libraries::HM::HMLib::VR {
     // Get instance field reference: public System.Boolean _continuous
     [[deprecated("Use field access instead!")]] bool& dyn__continuous();
     // public System.Void .ctor()
-    // Offset: 0x162DA00
+    // Offset: 0x1641600
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static HapticPresetSO* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::Libraries::HM::HMLib::VR::HapticPresetSO::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HapticPresetSO*, creationType>()));
     }
     // public System.Void CopyFrom(Libraries.HM.HMLib.VR.HapticPresetSO hapticPreset)
-    // Offset: 0x162D9CC
+    // Offset: 0x16415CC
     void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
   }; // Libraries.HM.HMLib.VR.HapticPresetSO
   #pragma pack(pop)

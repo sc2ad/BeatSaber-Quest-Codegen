@@ -35,10 +35,10 @@ namespace Oculus::Platform {
   class MessageWithLeaderboardEntryList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*> {
     public:
     // protected Oculus.Platform.Models.LeaderboardEntryList GetDataFromMessage(System.IntPtr c_message)
-    // Offset: 0x1A40D00
+    // Offset: 0x1A3B738
     ::Oculus::Platform::Models::LeaderboardEntryList* GetDataFromMessage(::System::IntPtr c_message);
     // public System.Void .ctor(System.IntPtr c_message)
-    // Offset: 0x1A3B464
+    // Offset: 0x1A35E9C
     // Implemented from: Oculus.Platform.Message`1
     // Base method: System.Void Message_1::.ctor(System.IntPtr c_message)
     // Base method: System.Void Message::.ctor(System.IntPtr c_message)
@@ -48,7 +48,7 @@ namespace Oculus::Platform {
       return THROW_UNLESS((::il2cpp_utils::New<MessageWithLeaderboardEntryList*, creationType>(c_message)));
     }
     // public override Oculus.Platform.Models.LeaderboardEntryList GetLeaderboardEntryList()
-    // Offset: 0x1A40CBC
+    // Offset: 0x1A3B6F4
     // Implemented from: Oculus.Platform.Message
     // Base method: Oculus.Platform.Models.LeaderboardEntryList Message::GetLeaderboardEntryList()
     ::Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();

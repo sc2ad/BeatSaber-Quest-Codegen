@@ -77,14 +77,14 @@ namespace RootMotion::FinalIK {
     ::UnityEngine::Transform* rightThighBone;
     // Field size check
     static_assert(sizeof(::UnityEngine::Transform*) == 0x8);
-    // [RangeAttribute] Offset: 0x11493F4
+    // [RangeAttribute] Offset: 0x1146390
     // public System.Int32 iterations
     // Size: 0x4
     // Offset: 0x38
     int iterations;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // [RangeAttribute] Offset: 0x114940C
+    // [RangeAttribute] Offset: 0x11463A8
     // public System.Single twistWeight
     // Size: 0x4
     // Offset: 0x3C
@@ -165,41 +165,41 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean useFABRIK
     [[deprecated("Use field access instead!")]] bool& dyn_useFABRIK();
     // public System.Void .ctor(UnityEngine.Transform[] spineBones, UnityEngine.Transform leftUpperArmBone, UnityEngine.Transform rightUpperArmBone, UnityEngine.Transform leftThighBone, UnityEngine.Transform rightThighBone)
-    // Offset: 0x22FA738
+    // Offset: 0x229D92C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static IKMappingSpine* New_ctor(::ArrayW<::UnityEngine::Transform*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone) {
       static auto ___internal__logger = ::Logger::get().WithContext("::RootMotion::FinalIK::IKMappingSpine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingSpine*, creationType>(spineBones, leftUpperArmBone, rightUpperArmBone, leftThighBone, rightThighBone)));
     }
     // public System.Void SetBones(UnityEngine.Transform[] spineBones, UnityEngine.Transform leftUpperArmBone, UnityEngine.Transform rightUpperArmBone, UnityEngine.Transform leftThighBone, UnityEngine.Transform rightThighBone)
-    // Offset: 0x22FA890
+    // Offset: 0x229DA84
     void SetBones(::ArrayW<::UnityEngine::Transform*> spineBones, ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone);
     // public System.Void StoreDefaultLocalState()
-    // Offset: 0x22FA8A0
+    // Offset: 0x229DA94
     void StoreDefaultLocalState();
     // public System.Void FixTransforms()
-    // Offset: 0x22FA908
+    // Offset: 0x229DAFC
     void FixTransforms();
     // private System.Boolean UseFABRIK()
-    // Offset: 0x22FAFDC
+    // Offset: 0x229E1D0
     bool UseFABRIK();
     // public System.Void ReadPose()
-    // Offset: 0x22FB014
+    // Offset: 0x229E208
     void ReadPose();
     // public System.Void WritePose(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22FB2F4
+    // Offset: 0x229E4E8
     void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void ForwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x22FB6A8
+    // Offset: 0x229E89C
     void ForwardReach(::UnityEngine::Vector3 position);
     // private System.Void BackwardReach(UnityEngine.Vector3 position)
-    // Offset: 0x22FB794
+    // Offset: 0x229E988
     void BackwardReach(::UnityEngine::Vector3 position);
     // private System.Void MapToSolverPositions(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22FB85C
+    // Offset: 0x229EA50
     void MapToSolverPositions(::RootMotion::FinalIK::IKSolverFullBody* solver);
     // public System.Void .ctor()
-    // Offset: 0x22FA61C
+    // Offset: 0x229D810
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::.ctor()
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -208,12 +208,12 @@ namespace RootMotion::FinalIK {
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingSpine*, creationType>()));
     }
     // public override System.Boolean IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
-    // Offset: 0x22FA32C
+    // Offset: 0x229D520
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Boolean IKMapping::IsValid(RootMotion.FinalIK.IKSolver solver, ref System.String message)
     bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
     // public override System.Void Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
-    // Offset: 0x22FA988
+    // Offset: 0x229DB7C
     // Implemented from: RootMotion.FinalIK.IKMapping
     // Base method: System.Void IKMapping::Initiate(RootMotion.FinalIK.IKSolverFullBody solver)
     void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);

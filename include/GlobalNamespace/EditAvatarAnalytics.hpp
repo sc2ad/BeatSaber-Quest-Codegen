@@ -56,21 +56,21 @@ namespace GlobalNamespace {
     ::GlobalNamespace::EditAvatarFlowCoordinator* editAvatarFlowCoordinator;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarFlowCoordinator*) == 0x8);
-    // [InjectAttribute] Offset: 0x111CBF4
+    // [InjectAttribute] Offset: 0x1119828
     // private readonly EditAvatarViewController _editAvatarViewController
     // Size: 0x8
     // Offset: 0x20
     ::GlobalNamespace::EditAvatarViewController* editAvatarViewController;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::EditAvatarViewController*) == 0x8);
-    // [InjectAttribute] Offset: 0x111CC04
+    // [InjectAttribute] Offset: 0x1119838
     // private readonly IAnalyticsModel _analyticsModel
     // Size: 0x8
     // Offset: 0x28
     ::GlobalNamespace::IAnalyticsModel* analyticsModel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IAnalyticsModel*) == 0x8);
-    // [InjectAttribute] Offset: 0x111CC14
+    // [InjectAttribute] Offset: 0x1119848
     // private readonly AvatarDataModel _avatarDataModel
     // Size: 0x8
     // Offset: 0x30
@@ -97,29 +97,29 @@ namespace GlobalNamespace {
     // Get instance field reference: private EditAvatarFlowCoordinator/EditAvatarType _lastEditAvatarType
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType& dyn__lastEditAvatarType();
     // public System.Void .ctor()
-    // Offset: 0x1452740
+    // Offset: 0x1464E2C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static EditAvatarAnalytics* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::EditAvatarAnalytics::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EditAvatarAnalytics*, creationType>()));
     }
     // protected System.Void Awake()
-    // Offset: 0x1451C04
+    // Offset: 0x1464580
     void Awake();
     // protected System.Void OnDestroy()
-    // Offset: 0x1451F10
+    // Offset: 0x1464744
     void OnDestroy();
     // private System.Void HandleEditAvatarFlowCoordinatorWasSetup(EditAvatarFlowCoordinator/EditAvatarType editAvatarType)
-    // Offset: 0x1452294
+    // Offset: 0x1464980
     void HandleEditAvatarFlowCoordinatorWasSetup(::GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType editAvatarType);
     // private System.Void HandleEditAvatarViewControllerDidFinish(EditAvatarViewController/FinishAction finishAction)
-    // Offset: 0x1452574
+    // Offset: 0x1464C60
     void HandleEditAvatarViewControllerDidFinish(::GlobalNamespace::EditAvatarViewController::FinishAction finishAction);
     // private System.Void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed()
-    // Offset: 0x1452664
+    // Offset: 0x1464D50
     void HandleEditAvatarViewControllerRandomizeAllButtonWasPressed();
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> CreateEditAvatarEventData()
-    // Offset: 0x1452378
+    // Offset: 0x1464A64
     ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
   }; // EditAvatarAnalytics
   #pragma pack(pop)

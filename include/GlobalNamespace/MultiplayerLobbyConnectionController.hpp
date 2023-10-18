@@ -180,14 +180,14 @@ namespace GlobalNamespace {
     static check_size<sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLobbyConnectionController_LobbyConnectionTypeSizeCheck;
     static_assert(sizeof(MultiplayerLobbyConnectionController::LobbyConnectionType) == 0x4);
     public:
-    // [InjectAttribute] Offset: 0x1120960
+    // [InjectAttribute] Offset: 0x111D594
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
     ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
-    // [InjectAttribute] Offset: 0x1120970
+    // [InjectAttribute] Offset: 0x111D5A4
     // private readonly IUnifiedNetworkPlayerModel _unifiedNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x18
@@ -258,71 +258,71 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _retryAttemptsLeft
     [[deprecated("Use field access instead!")]] int& dyn__retryAttemptsLeft();
     // public MultiplayerLobbyConnectionController/LobbyConnectionState get_connectionState()
-    // Offset: 0x13FEED0
+    // Offset: 0x13CF3E8
     ::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState get_connectionState();
     // private System.Void set_connectionState(MultiplayerLobbyConnectionController/LobbyConnectionState value)
-    // Offset: 0x13FEED8
+    // Offset: 0x13CF3F0
     void set_connectionState(::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState value);
     // public MultiplayerLobbyConnectionController/LobbyConnectionType get_connectionType()
-    // Offset: 0x13FEEE0
+    // Offset: 0x13CF3F8
     ::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType get_connectionType();
     // private System.Void set_connectionType(MultiplayerLobbyConnectionController/LobbyConnectionType value)
-    // Offset: 0x13FEEE8
+    // Offset: 0x13CF400
     void set_connectionType(::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType value);
     // public ConnectionFailedReason get_connectionFailedReason()
-    // Offset: 0x13FEEF0
+    // Offset: 0x13CF408
     ::GlobalNamespace::ConnectionFailedReason get_connectionFailedReason();
     // private System.Void set_connectionFailedReason(ConnectionFailedReason value)
-    // Offset: 0x13FEEF8
+    // Offset: 0x13CF410
     void set_connectionFailedReason(::GlobalNamespace::ConnectionFailedReason value);
     // public System.Void add_connectionSuccessEvent(System.Action value)
-    // Offset: 0x13FEC40
+    // Offset: 0x13CF158
     void add_connectionSuccessEvent(::System::Action* value);
     // public System.Void remove_connectionSuccessEvent(System.Action value)
-    // Offset: 0x13FECE4
+    // Offset: 0x13CF1FC
     void remove_connectionSuccessEvent(::System::Action* value);
     // public System.Void add_connectionFailedEvent(System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> value)
-    // Offset: 0x13FED88
+    // Offset: 0x13CF2A0
     void add_connectionFailedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void remove_connectionFailedEvent(System.Action`2<MultiplayerLobbyConnectionController/LobbyConnectionType,ConnectionFailedReason> value)
-    // Offset: 0x13FEE2C
+    // Offset: 0x13CF344
     void remove_connectionFailedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
     // public System.Void .ctor()
-    // Offset: 0x14005F4
+    // Offset: 0x13D0B0C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MultiplayerLobbyConnectionController* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MultiplayerLobbyConnectionController::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MultiplayerLobbyConnectionController*, creationType>()));
     }
     // public System.Void CreateParty(CreateServerFormData data)
-    // Offset: 0x13FEF00
+    // Offset: 0x13CF418
     void CreateParty(::GlobalNamespace::CreateServerFormData data);
     // public System.Void ConnectToParty(System.String serverCode)
-    // Offset: 0x13FF584
+    // Offset: 0x13CFA9C
     void ConnectToParty(::StringW serverCode);
     // public System.Void CreateOrConnectToDestinationParty(SelectMultiplayerLobbyDestination lobbyDestination)
-    // Offset: 0x13FF874
+    // Offset: 0x13CFD8C
     void CreateOrConnectToDestinationParty(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
     // public System.Void ConnectToServer(INetworkPlayer server, System.String password)
-    // Offset: 0x13FFC68
+    // Offset: 0x13D0180
     void ConnectToServer(::GlobalNamespace::INetworkPlayer* server, ::StringW password);
     // public System.Void ConnectToMatchmaking(BeatmapDifficultyMask beatmapDifficultyMask, SongPackMask songPackMask, System.Boolean allowSongSelection)
-    // Offset: 0x13FFE88
+    // Offset: 0x13D03A0
     void ConnectToMatchmaking(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool allowSongSelection);
     // public System.Void LeaveLobby()
-    // Offset: 0x1400190
+    // Offset: 0x13D06A8
     void LeaveLobby();
     // public System.Void ClearCurrentConnection()
-    // Offset: 0x1400248
+    // Offset: 0x13D0760
     void ClearCurrentConnection();
     // private System.Void HandleMultiplayerSessionManagerConnected()
-    // Offset: 0x1400250
+    // Offset: 0x13D0768
     void HandleMultiplayerSessionManagerConnected();
     // private System.Void HandleMultiplayerSessionManagerConnectionFailed(ConnectionFailedReason reason)
-    // Offset: 0x13FF308
+    // Offset: 0x13CF820
     void HandleMultiplayerSessionManagerConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
     // private System.Void HandleMultiplayerSessionManagerConnectionFailedWithRetry(ConnectionFailedReason reason)
-    // Offset: 0x14004A8
+    // Offset: 0x13D09C0
     void HandleMultiplayerSessionManagerConnectionFailedWithRetry(::GlobalNamespace::ConnectionFailedReason reason);
   }; // MultiplayerLobbyConnectionController
   #pragma pack(pop)

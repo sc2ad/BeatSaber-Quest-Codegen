@@ -84,42 +84,42 @@ namespace System::Text {
     // Get instance field reference: System.Char charLeftOver
     [[deprecated("Use field access instead!")]] ::Il2CppChar& dyn_charLeftOver();
     // public System.Void .ctor(System.Text.Encoding encoding)
-    // Offset: 0x1F77B44
+    // Offset: 0x1F80A98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::DefaultEncoder* New_ctor(::System::Text::Encoding* encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoding::DefaultEncoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::DefaultEncoder*, creationType>(encoding)));
     }
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1F784AC
+    // Offset: 0x1F81400
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static Encoding::DefaultEncoder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Text::Encoding::DefaultEncoder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Encoding::DefaultEncoder*, creationType>(info, context)));
     }
     // public System.Object GetRealObject(System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1F78754
+    // Offset: 0x1F816A8
     ::Il2CppObject* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
     // private System.Void System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
-    // Offset: 0x1F78814
+    // Offset: 0x1F81768
     void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
     // public override System.Int32 GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1F788B8
+    // Offset: 0x1F8180C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char[] chars, System.Int32 index, System.Int32 count, System.Boolean flush)
     int GetByteCount(::ArrayW<::Il2CppChar> chars, int index, int count, bool flush);
     // public override System.Int32 GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
-    // Offset: 0x1F788D8
+    // Offset: 0x1F8182C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetByteCount(System.Char* chars, System.Int32 count, System.Boolean flush)
     int GetByteCount(::Il2CppChar* chars, int count, bool flush);
     // public override System.Int32 GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
-    // Offset: 0x1F788F8
+    // Offset: 0x1F8184C
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char[] chars, System.Int32 charIndex, System.Int32 charCount, System.Byte[] bytes, System.Int32 byteIndex, System.Boolean flush)
     int GetBytes(::ArrayW<::Il2CppChar> chars, int charIndex, int charCount, ::ArrayW<uint8_t> bytes, int byteIndex, bool flush);
     // public override System.Int32 GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
-    // Offset: 0x1F7891C
+    // Offset: 0x1F81870
     // Implemented from: System.Text.Encoder
     // Base method: System.Int32 Encoder::GetBytes(System.Char* chars, System.Int32 charCount, System.Byte* bytes, System.Int32 byteCount, System.Boolean flush)
     int GetBytes(::Il2CppChar* chars, int charCount, uint8_t* bytes, int byteCount, bool flush);

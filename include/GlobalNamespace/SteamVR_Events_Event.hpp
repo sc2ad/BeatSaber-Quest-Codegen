@@ -33,20 +33,20 @@ namespace GlobalNamespace {
   class SteamVR_Events::Event : public ::UnityEngine::Events::UnityEvent {
     public:
     // public System.Void .ctor()
-    // Offset: 0x18E9F04
+    // Offset: 0x18B97E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SteamVR_Events::Event* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::SteamVR_Events::Event::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SteamVR_Events::Event*, creationType>()));
     }
     // public System.Void Listen(UnityEngine.Events.UnityAction action)
-    // Offset: 0x18E9294
+    // Offset: 0x18B8B70
     void Listen(::UnityEngine::Events::UnityAction* action);
     // public System.Void Remove(UnityEngine.Events.UnityAction action)
-    // Offset: 0x18E9368
+    // Offset: 0x18B8C44
     void Remove(::UnityEngine::Events::UnityAction* action);
     // public System.Void Send()
-    // Offset: 0x18E9F44
+    // Offset: 0x18B9820
     void Send();
   }; // SteamVR_Events/Event
   #pragma pack(pop)

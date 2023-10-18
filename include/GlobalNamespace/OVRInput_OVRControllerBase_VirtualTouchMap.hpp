@@ -132,14 +132,14 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRInput/RawTouch SecondaryTouchpad
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::OVRInput::RawTouch& dyn_SecondaryTouchpad();
     // public System.Void .ctor()
-    // Offset: 0x1A554CC
+    // Offset: 0x1A4FF04
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static OVRInput::OVRControllerBase::VirtualTouchMap* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OVRInput::OVRControllerBase::VirtualTouchMap*, creationType>()));
     }
     // public OVRInput/RawTouch ToRawMask(OVRInput/Touch virtualMask)
-    // Offset: 0x1A5619C
+    // Offset: 0x1A50BD4
     ::GlobalNamespace::OVRInput::RawTouch ToRawMask(::GlobalNamespace::OVRInput::Touch virtualMask);
   }; // OVRInput/OVRControllerBase/VirtualTouchMap
   #pragma pack(pop)

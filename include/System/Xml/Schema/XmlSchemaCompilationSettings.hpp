@@ -41,7 +41,7 @@ namespace System::Xml::Schema {
     // Get instance field reference: private System.Boolean enableUpaCheck
     [[deprecated("Use field access instead!")]] bool& dyn_enableUpaCheck();
     // public System.Void .ctor()
-    // Offset: 0x2111370
+    // Offset: 0x2108CE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static XmlSchemaCompilationSettings* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Xml::Schema::XmlSchemaCompilationSettings::.ctor");

@@ -16,6 +16,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 // Completed includes
 // Begin forward declares
+// Forward declaring namespace: UnityEngine
+namespace UnityEngine {
+  // Forward declaring type: GameObject
+  class GameObject;
+}
 // Forward declaring namespace: TMPro
 namespace TMPro {
   // Forward declaring type: TextMeshProUGUI
@@ -56,93 +61,93 @@ namespace GlobalNamespace {
   class MusicPackPromoBanner : public ::UnityEngine::MonoBehaviour {
     public:
     public:
-    // private TMPro.TextMeshProUGUI _promoText
+    // private UnityEngine.GameObject _promoBannerGo
     // Size: 0x8
     // Offset: 0x18
+    ::UnityEngine::GameObject* promoBannerGo;
+    // Field size check
+    static_assert(sizeof(::UnityEngine::GameObject*) == 0x8);
+    // private TMPro.TextMeshProUGUI _promoText
+    // Size: 0x8
+    // Offset: 0x20
     ::TMPro::TextMeshProUGUI* promoText;
     // Field size check
     static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
     // private UnityEngine.UI.Image _backgroundImage
     // Size: 0x8
-    // Offset: 0x20
+    // Offset: 0x28
     ::UnityEngine::UI::Image* backgroundImage;
     // Field size check
     static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // private UnityEngine.UI.Image _coverImage
-    // Size: 0x8
-    // Offset: 0x28
-    ::UnityEngine::UI::Image* coverImage;
-    // Field size check
-    static_assert(sizeof(::UnityEngine::UI::Image*) == 0x8);
-    // private TMPro.TextMeshProUGUI _promoButtonText
-    // Size: 0x8
-    // Offset: 0x30
-    ::TMPro::TextMeshProUGUI* promoButtonText;
-    // Field size check
-    static_assert(sizeof(::TMPro::TextMeshProUGUI*) == 0x8);
     // private IBeatmapLevelPack _currentPromoMusicPack
     // Size: 0x8
-    // Offset: 0x38
+    // Offset: 0x30
     ::GlobalNamespace::IBeatmapLevelPack* currentPromoMusicPack;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IBeatmapLevelPack*) == 0x8);
     // private IPreviewBeatmapLevel _currentPromoBeatmapLevel
     // Size: 0x8
-    // Offset: 0x40
+    // Offset: 0x38
     ::GlobalNamespace::IPreviewBeatmapLevel* currentPromoBeatmapLevel;
     // Field size check
     static_assert(sizeof(::GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
+    // private System.String _text
+    // Size: 0x8
+    // Offset: 0x40
+    ::StringW text;
+    // Field size check
+    static_assert(sizeof(::StringW) == 0x8);
     public:
     // Deleting conversion operator: operator ::System::IntPtr
     constexpr operator ::System::IntPtr() const noexcept = delete;
-    // [LocalizationKeyAttribute] Offset: 0x11327AC
+    // [LocalizationKeyAttribute] Offset: 0x112F6D8
     // static field const value: static private System.String kPlayNow
     static constexpr const char* kPlayNow = "PROMO_BANNER_PLAY_NOW_LABEL";
     // Get static field: static private System.String kPlayNow
     static ::StringW _get_kPlayNow();
     // Set static field: static private System.String kPlayNow
     static void _set_kPlayNow(::StringW value);
-    // [LocalizationKeyAttribute] Offset: 0x11327BC
+    // [LocalizationKeyAttribute] Offset: 0x112F6E8
     // static field const value: static private System.String kGetNow
     static constexpr const char* kGetNow = "PROMO_GET_NOW_LABEL";
     // Get static field: static private System.String kGetNow
     static ::StringW _get_kGetNow();
     // Set static field: static private System.String kGetNow
     static void _set_kGetNow(::StringW value);
+    // Get instance field reference: private UnityEngine.GameObject _promoBannerGo
+    [[deprecated("Use field access instead!")]] ::UnityEngine::GameObject*& dyn__promoBannerGo();
     // Get instance field reference: private TMPro.TextMeshProUGUI _promoText
     [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__promoText();
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
     [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__backgroundImage();
-    // Get instance field reference: private UnityEngine.UI.Image _coverImage
-    [[deprecated("Use field access instead!")]] ::UnityEngine::UI::Image*& dyn__coverImage();
-    // Get instance field reference: private TMPro.TextMeshProUGUI _promoButtonText
-    [[deprecated("Use field access instead!")]] ::TMPro::TextMeshProUGUI*& dyn__promoButtonText();
     // Get instance field reference: private IBeatmapLevelPack _currentPromoMusicPack
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IBeatmapLevelPack*& dyn__currentPromoMusicPack();
     // Get instance field reference: private IPreviewBeatmapLevel _currentPromoBeatmapLevel
     [[deprecated("Use field access instead!")]] ::GlobalNamespace::IPreviewBeatmapLevel*& dyn__currentPromoBeatmapLevel();
+    // Get instance field reference: private System.String _text
+    [[deprecated("Use field access instead!")]] ::StringW& dyn__text();
     // public IPreviewBeatmapLevel get_currentPromoBeatmapLevel()
-    // Offset: 0x1433B48
+    // Offset: 0x15061F4
     ::GlobalNamespace::IPreviewBeatmapLevel* get_currentPromoBeatmapLevel();
     // public IBeatmapLevelPack get_currentPromoMusicPack()
-    // Offset: 0x1433B50
+    // Offset: 0x15061FC
     ::GlobalNamespace::IBeatmapLevelPack* get_currentPromoMusicPack();
     // public System.String get_promoButtonText()
-    // Offset: 0x1433B58
+    // Offset: 0x1506204
     ::StringW get_promoButtonText();
     // public System.Void .ctor()
-    // Offset: 0x1433D44
+    // Offset: 0x15062EC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static MusicPackPromoBanner* New_ctor() {
       static auto ___internal__logger = ::Logger::get().WithContext("::GlobalNamespace::MusicPackPromoBanner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MusicPackPromoBanner*, creationType>()));
     }
     // public System.Void Setup(DlcPromoPanelDataSO/MusicPackPromoInfo musicPackPromoData, System.Boolean probablyOwned)
-    // Offset: 0x1433B74
+    // Offset: 0x150620C
     void Setup(::GlobalNamespace::DlcPromoPanelDataSO::MusicPackPromoInfo* musicPackPromoData, bool probablyOwned);
   }; // MusicPackPromoBanner
   #pragma pack(pop)
-  static check_size<sizeof(MusicPackPromoBanner), 64 + sizeof(::GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_MusicPackPromoBannerSizeCheck;
+  static check_size<sizeof(MusicPackPromoBanner), 64 + sizeof(::StringW)> __GlobalNamespace_MusicPackPromoBannerSizeCheck;
   static_assert(sizeof(MusicPackPromoBanner) == 0x48);
 }
 #include "beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

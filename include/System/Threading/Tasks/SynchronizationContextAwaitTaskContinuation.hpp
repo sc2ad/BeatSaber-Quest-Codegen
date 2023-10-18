@@ -74,23 +74,23 @@ namespace System::Threading::Tasks {
     // Get instance field reference: private readonly System.Threading.SynchronizationContext m_syncContext
     [[deprecated("Use field access instead!")]] ::System::Threading::SynchronizationContext*& dyn_m_syncContext();
     // System.Void .ctor(System.Threading.SynchronizationContext context, System.Action action, System.Boolean flowExecutionContext, ref System.Threading.StackCrawlMark stackMark)
-    // Offset: 0x1E00158
+    // Offset: 0x1DEC20C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
     static SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext, ByRef<::System::Threading::StackCrawlMark> stackMark) {
       static auto ___internal__logger = ::Logger::get().WithContext("::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SynchronizationContextAwaitTaskContinuation*, creationType>(context, action, flowExecutionContext, byref(stackMark))));
     }
     // static private System.Void .cctor()
-    // Offset: 0x1E00504
+    // Offset: 0x1DEC5B8
     static void _cctor();
     // static private System.Void PostAction(System.Object state)
-    // Offset: 0x1E00398
+    // Offset: 0x1DEC44C
     static void PostAction(::Il2CppObject* state);
     // static private System.Threading.ContextCallback GetPostActionCallback()
-    // Offset: 0x1E00444
+    // Offset: 0x1DEC4F8
     static ::System::Threading::ContextCallback* GetPostActionCallback();
     // override System.Void Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
-    // Offset: 0x1E00190
+    // Offset: 0x1DEC244
     // Implemented from: System.Threading.Tasks.AwaitTaskContinuation
     // Base method: System.Void AwaitTaskContinuation::Run(System.Threading.Tasks.Task task, System.Boolean canInlineContinuationTask)
     void Run(::System::Threading::Tasks::Task* task, bool canInlineContinuationTask);

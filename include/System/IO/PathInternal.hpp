@@ -24,10 +24,10 @@ namespace System::IO {
   class PathInternal : public ::Il2CppObject {
     public:
     // static public System.Boolean IsPartiallyQualified(System.String path)
-    // Offset: 0x209E500
+    // Offset: 0x20916A8
     static bool IsPartiallyQualified(::StringW path);
     // static public System.Boolean HasIllegalCharacters(System.String path, System.Boolean checkAdditional)
-    // Offset: 0x209E1C4
+    // Offset: 0x209136C
     static bool HasIllegalCharacters(::StringW path, bool checkAdditional);
   }; // System.IO.PathInternal
   #pragma pack(pop)
